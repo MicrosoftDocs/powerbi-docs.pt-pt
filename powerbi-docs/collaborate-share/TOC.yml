@@ -33,6 +33,8 @@
               href: ../service-admin-manage-your-data-storage-in-power-bi.md
             - name: Linhagem de dados
               href: service-data-lineage.md
+            - name: Aplicar etiquetas de confidencialidade dos dados
+              href: ../designer/service-security-apply-data-sensitivity-labels.md
             - name: Ligar aos ficheiros no OneDrive do seu grupo
               href: ../service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Collaborate in a classic workspace (Colaborar numa área de trabalho clássica)

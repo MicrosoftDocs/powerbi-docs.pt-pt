@@ -7,17 +7,20 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/22/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e86e8c87ca7942e74ff2f16e299304f56f4a2aa3
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863390"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113101"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Ver informações de dados nos mosaicos do dashboard com o Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 Cada [mosaico](end-user-tiles.md) de elemento visual no dashboard é uma porta para a exploração de dados. Ao selecionar um mosaico, é aberto um relatório ou uma página de [Perguntas e Respostas](end-user-q-and-a.md) onde pode filtrar e ordenar, bem como aprofundar o conjunto de dados associado ao relatório. E quando executa as informações, o Power BI faz a exploração de dados por si.
 
 ![modo de menu de reticências](./media/end-user-insights/power-bi-insight.png)

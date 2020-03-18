@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/28/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dd83388c00b2415c43355bb57c271b430a9abc53
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 83c834b05846c22577b7987d341c295a1e763b59
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888885"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113296"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Localizar os seus dashboards, relatórios e aplicações
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 No Power BI, o termo *conteúdo* refere-se a aplicações, dashboards e relatórios. Os conteúdos são criados por *designers* do Power BI que os partilham com colegas e consigo. O conteúdo pode ser acedido e visto no serviço Power BI, e o melhor local para começar a trabalhar no Power BI é na sua **Home Page**.
 
 ## <a name="explore-power-bi-home"></a>Explorar a Home Page do Power BI
@@ -29,7 +31,7 @@ O Power BI apresenta a tela Home Page, conforme mostrado na seguinte figura.
  
 ![Uma captura de ecrã a mostrar a tela Home Page do serviço Power BI.](media/end-user-home/power-bi-home.png)
 
-A Home Page do Power BI fornece três formas diferentes de localizar e visualizar os seus conteúdos. Todas estas formas permitem aceder ao mesmo conjunto de conteúdos, sendo simplesmente diferentes. Ocasionalmente, a pesquisa será a forma mais fácil e rápida de localizar algo, enquanto noutras vezes, selecionar um *cartão* na tela Home Page será a melhor opção.
+A Home Page do Power BI fornece três formas diferentes de localizar e visualizar os seus conteúdos. Todas estas formas permitem aceder ao mesmo conjunto de conteúdos, sendo simplesmente diferentes na forma como acede. Ocasionalmente, a pesquisa será a forma mais fácil e rápida de localizar algo, enquanto noutras vezes, selecionar um *cartão* na tela Home Page será a melhor opção.
 
 - A tela Home Page apresenta e organiza os seus conteúdos favoritos e mais recentes, juntamente com conteúdos recomendados e recursos de aprendizagem. Cada conteúdo é apresentado como um *cartão*, com um título e um ícone. Selecionar um cartão abre esse conteúdo.
 - No lado esquerdo, existe um painel de navegação. Neste painel, o mesmo conteúdo é organizado de forma um pouco diferente, ou seja, por Favoritos, Recentes, Aplicações e Partilhado comigo. Aqui, pode ver listas de conteúdos e selecionar o que pretende abrir.
@@ -42,7 +44,7 @@ Na tela Home Page, pode ver todos os conteúdos que tem permissão para utilizar
 
 A sua tela Home Page também é atualizada com conteúdos recomendados e recursos de aprendizagem. 
  
-À medida que trabalha no serviço Power BI, receberá dashboards, relatórios e aplicações de colegas e, nessa altura, a sua Home Page do Power BI acabará por ficar preenchida. Ao longo do tempo, poderá assemelhar-se à seguinte.
+À medida que trabalha no serviço Power BI, receberá dashboards, relatórios e aplicações de colegas e, nessa altura, a Home Page do Power BI acabará por ficar preenchida. Ao longo do tempo, poderá assemelhar-se à seguinte.
 
 ![Uma captura de ecrã do Ecrã de boas-vindas do serviço Power BI.](media/end-user-home/power-bi-home-oldest.png)
 

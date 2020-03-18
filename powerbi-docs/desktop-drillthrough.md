@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/08/2019
+ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7b00b0cb611dd3e0921885ddaca6547fdb43fd3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 020b7e0a5fd0c3372e3a83d9973a404978e56b7d
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74310901"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401233"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Utilizar a pormenorização no Power BI Desktop
 Com a *pormenorização* no Power BI Desktop, pode criar uma página no relatório centrada numa entidade específica, por exemplo, um fornecedor, um cliente ou um fabricante. Selecione a pormenorização para poder utilizá-la. Para tal, clique com o botão direito do rato num ponto de dados noutras páginas de relatórios. Em seguida, pode explorar a página em destaque para obter detalhes filtrados em função desse contexto.
@@ -33,6 +33,11 @@ Com a *pormenorização* no Power BI Desktop, pode criar uma página no relatór
     Quando adicionar um campo à área **Filtros de pormenorização**, o Power BI Desktop irá automaticamente criar um visual de botão para *voltar*. Esse elemento visual torna-se num botão nos relatórios publicados. Os utilizadores que consomem o seu relatório no serviço Power BI utilizam este botão para voltar à página de relatório anterior.
 
     ![Imagem de pormenorização](media/desktop-drillthrough/drillthrough_03.png)
+
+> [!IMPORTANT]
+> Pode configurar e executar uma pormenorização de uma página no mesmo relatório. No entanto, não pode executar uma pormenorização de uma página num relatório diferente.  
+
+
 
 ## <a name="use-your-own-image-for-a-back-button"></a>Utilizar a sua própria imagem para um botão Anterior    
  Como o botão anterior é uma imagem, pode substituir a imagem desse elemento visual por qualquer imagem desejada. O botão continuará a funcionar como um botão anterior para que os consumidores de relatórios possam voltar à página original. 
@@ -54,13 +59,12 @@ Para utilizar a sua própria imagem para um botão anterior, siga os passos segu
 
 ## <a name="pass-all-filters-in-drillthrough"></a>Passar todos os filtros na pormenorização
 
-A partir da versão de maio de 2018 do Power BI Desktop, pode passar todos os filtros aplicados para a janela de pormenorização. Por exemplo, pode selecionar apenas uma determinada categoria de produtos e os elementos visuais dessa categoria e, em seguida, selecionar a pormenorização. Poderá estar interessado no aspeto que essa pormenorização teria com todos os filtros aplicados.
+Pode transmitir todos os filtros aplicados à janela de pormenorização. Por exemplo, pode selecionar apenas uma determinada categoria de produtos e os elementos visuais dessa categoria e, em seguida, selecionar a pormenorização. Poderá estar interessado no aspeto que essa pormenorização teria com todos os filtros aplicados.
 
 Para manter todos os filtros aplicados, na secção **Pormenorização** do painel **Visualizações**, defina o botão **Manter todos os filtros** como **Ativado**. 
 
 ![Manter todos os filtros](media/desktop-drillthrough/drillthrough_06.png)
 
-Nas versões do Power BI Desktop lançadas antes de maio de 2018, o comportamento é equivalente a ter este botão **Desativado**.
 
 Quando realiza o processo de pormenorização num elemento visual, pode ver quais os filtros aplicados como resultado do facto de o elemento visual de origem ter filtros aplicados temporariamente. Na secção **Pormenorização** do painel de **Visualização**, esses filtros transitórios são apresentados em itálico. 
 

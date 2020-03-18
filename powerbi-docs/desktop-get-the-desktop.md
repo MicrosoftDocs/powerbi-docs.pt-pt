@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c2c41221e4a199d6a5d3a800f3820746ef7389a
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 1d61723b08c26197d94b53188b741fd01d47a620
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888368"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401197"
 ---
 # <a name="get-power-bi-desktop"></a>Obter o Power BI Desktop
 O Power BI Desktop permite-lhe criar consultas avançadas, modelos e relatórios que visualizam os dados. No Power BI Desktop, pode criar modelos de dados, criar relatórios e partilhar o seu trabalho ao publicar no serviço Power BI. A transferência do Power BI Desktop é gratuita.
@@ -158,6 +158,7 @@ Se estiver a implementar o Power BI Desktop para os utilizadores com uma ferra
 
     A pasta de saída contém uma pasta chamada *AttachedContainer*, que inclui os ficheiros .msi.
 
+A atualização de uma instalação de um .exe para um .msi que tenha extraído de um .exe. não é suportada.   Para poder fazer esta atualização, tem de desinstalar primeiro a versão mais antiga do Power BI Desktop que tem.
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Problemas ao utilizar versões anteriores do Power BI Desktop
 

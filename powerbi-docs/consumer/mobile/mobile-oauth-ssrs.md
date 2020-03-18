@@ -1,19 +1,19 @@
 ---
 title: Utilizar OAuth para ligar ao Power BI Report Server e SSRS
 description: Saiba como configurar o ambiente para suportar a autenticação OAuth com a aplicação móvel do Power BI, para se ligar ao SQL Server Reporting Services 2016 ou posterior.
-author: maggiesMSFT
-ms.author: maggies
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2019
-ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220614"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114955"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Utilizar OAuth para ligar ao Power BI Report Server e SSRS
 
@@ -124,7 +124,7 @@ Pode criar o grupo de aplicações com os seguintes passos.
    ![Assistente de Grupo de Aplicações 03 dos AD FS](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. Selecione **Seguinte**.
 
-10. Escolha a **Política de Controlo de Acesso** que se adequa às necessidades da sua organização.
+10. Escolha a **Política de Controlo de Acesso** que se adeque às necessidades da sua organização.
 
     ![Assistente de Grupo de Aplicações 04 dos AD FS](media/mobile-oauth-ssrs/adfs-application-group-wizard4.png)
 
@@ -148,7 +148,7 @@ Deve ativar a função do Proxy de Aplicações Web (Função) do Windows num se
 
 Para realizar a transição da autenticação OAuth para a autenticação do Windows, precisamos de utilizar a delegação restrita com a transição do protocolo. Isto faz parte da configuração Kerberos. Já definimos o SPN do Reporting Services na respetiva configuração.
 
-Precisamos de configurar a delegação restrita na conta de computador do servidor do WAP do Active Directory. Se não tiver direitos do Active Directory, terá de trabalhar com um administrador de domínio.
+Precisamos de configurar a delegação restrita na conta de computador do servidor do WAP do Active Directory. Se não tiver direitos para aceder ao Active Directory, terá de trabalhar com um administrador de domínio.
 
 Para configurar a delegação restrita, deve realizar os seguintes passos.
 
@@ -207,7 +207,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 Depois de adicionar a aplicação WAP, tem de definir o BackendServerAuthenticationMode para utilizar a IntegratedWindowsAuthentication. Precisará do ID da Aplicação WAP de forma a poder defini-la.
 
 ```powershell
-Get-WebApplicationProxyApplication “Contoso Reports” | fl
+Get-WebApplicationProxyApplication "Contoso Reports" | fl
 ```
 
 ![Adicionar Grupo de Aplicações](media/mobile-oauth-ssrs/wap-application-id.png)

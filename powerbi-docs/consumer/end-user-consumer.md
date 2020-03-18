@@ -5,15 +5,15 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 02/18/2020
+ms.date: 02/24/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: fb1209103c88e78148f746321d5ff8d8bd6e1a20
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496234"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79039958"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>O serviço Power BI para consumidores
 
@@ -35,7 +35,7 @@ Abra o serviço Power BI num browser ou num dispositivo móvel. Você e os seus 
 
 ![Dashboard do Power BI](media/end-user-consumer/power-bi-funnel.png)
 
-Uma vez que os conteúdos não são estáticos, pode ir mais a fundo e procurar tendências, informações e outros dados de business intelligence. Divida e segmente os conteúdos e faça-lhes perguntas com as suas próprias palavras. Em alternativa, descontraia e deixe que os seus dados descubram informações interessantes por si ao receber alertas quando ocorrerem alterações aos dados e relatórios por e-mail com base na agenda que definir. Todos os seus dados em qualquer altura, na cloud ou no local, a partir de qualquer dispositivo. Isto é só o princípio do que o Power BI pode fazer. 
+Uma vez que os conteúdos não são estáticos, pode aprofundar mais o assunto e procurar tendências, informações e outros dados de business intelligence. Divida e segmente os conteúdos e faça-lhes perguntas com as suas próprias palavras. Em alternativa, descontraia e deixe que os seus dados descubram informações interessantes por si ao receber alertas quando ocorrerem alterações aos dados e relatórios por e-mail com base na agenda que definir. Todos os seus dados em qualquer altura, na cloud ou no local, a partir de qualquer dispositivo. Isto é só o princípio do que o Power BI pode fazer. 
 
 ## <a name="am-i-a-power-bi-consumer"></a>Sou um *consumidor* do Power BI?
 
@@ -45,13 +45,13 @@ Enquanto consumidor, não terá acesso a todas as funcionalidades do Power BI, o
 
 Irá certamente deparar-se com o termo "Power BI Desktop" ou apenas "Desktop", que é uma ferramenta autónoma utilizada pelos *criadores* que criam e partilham dashboards e relatórios consigo.  É importante saber que existem outras ferramentas do Power BI. No entanto, se for um consumidor, só irá trabalhar com o serviço Power BI. 
 
-Uma vez que está a trabalhar com conteúdos *partilhados*, irá precisar de uma licença do Power BI Pro ou Premium. [Qual é a minha licença?](end-user-license.md)
+E, como está a trabalhar com conteúdos *partilhados*, precisará de uma licença **gratuita** Standard, que funcione numa organização que está a utilizar uma capacidade **Premium**. [Qual é a minha licença?](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>Interagir com conteúdos de forma segura 
 Não tem de se preocupar ao filtrar, segmentar, subscrever e exportar conteúdos, dado que o seu trabalho não afeta o conjunto de dados subjacente ou os conteúdos partilhados originalmente (dashboards, relatórios e aplicações).  
 
-Não é possível danificar os seus dados.  O Power BI é um excelente local para explorar e experimentar sem se preocupar com a possibilidade de danificar dados.  
+Não é possível danificar os seus dados.  O Power BI é um excelente local para explorar e experimentar sem se preocupar com a possibilidade de danificar os dados.  
  
 Isso não significa que não possa guardar as suas alterações, pois pode faz\ê-lo. Contudo, essas alterações afetam apenas a sua vista dos conteúdos. Além disso, pode reverter facilmente para a vista predefinida com um simples clique no botão.  
 

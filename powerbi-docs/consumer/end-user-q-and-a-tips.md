@@ -6,21 +6,24 @@ ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 83db194ab670f1726f9598193dc2d3addf2eae72
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099019"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114288"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Dicas para fazer perguntas nas Perguntas e Respostas do Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Palavras e terminologia reconhecidas pelas Perguntas e Respostas
 A lista de palavras-chave nesta página não é exaustiva.  A melhor forma de saber se o Power BI reconhece uma palavra-chave é escrevê-la na caixa de perguntas.  Se a palavra ou o termo estiver a cinzento, o Power BI não o reconhece.
 
-A lista abaixo utiliza o tempo verbal presente, mas todos os tempos são reconhecidos na maioria dos casos. Por exemplo, "é" inclui: **são**, **foi**, **foram**, **será**, **têm**, **tem**, **tinha**, **terá**, **teve**, **fazer**, **faz**, **fez**.  "Ordena" inclui **ordenado** e **ordenação**.  Além disso, o Power BI reconhece e inclui versões singulares e plurais de uma palavra. 
+A lista abaixo utiliza o tempo verbal presente, mas todos os tempos são reconhecidos na maioria dos casos. Por exemplo, “é” inclui: **são**, **foi**, **foram**, **será**, **têm**, **tem**, **tinha**, **terá**, **teve**, **fazer**, **faz**, **fez**.  “Ordena” inclui **ordenado** e **ordenação**.  Além disso, o Power BI reconhece e inclui versões singulares e plurais de uma palavra. 
 
 > [!NOTE]
 > O P e R também está disponível na [aplicação Microsoft Power BI para iOS em iPads, iPhones e dispositivos iPod Touch](mobile/mobile-apps-ios-qna.md).
@@ -33,13 +36,13 @@ A lista abaixo utiliza o tempo verbal presente, mas todos os tempos são reconhe
 |     |         |         
 **Artigos**     |  um, uma, o/a              |
 |     |         |         
-|**Vazio e Booleano**     |   branco, vazio, nulo, com prefixo de "não" ou "não-", cadeia vazia, texto vazio, verdadeiro, v, falso, f          |
+|**Vazio e Booleano**     |   branco, vazio, nulo, com prefixo de “não” ou “não-”, cadeia vazia, texto vazio, verdadeiro, v, falso, f          |
 |     |         |         |
 |**Comparações**     |   vs, versus, comparado a, comparado com            |
 |     |         |         |
 |**Conjunções**     |  e, ou, cada, com, versus, &, e, mas, nem, juntamente com, além de       |         
 |          |         |
-|**Contrações**     |  As Perguntas e Respostas reconhecem quase todas as contrações. Experimente.  Eis alguns exemplos: não foi, não fez, ele fez, ele é, não é, é, ela vai, eles fizeram, não foram, quem é, não vai, não iria          |
+|**Contrações**     |  As Perguntas e Respostas reconhecem quase todas as contrações. Experimente.  Veja a seguir alguns exemplos: não foi, não fez, ele fez, ele é, não é, é, ela vai, eles fizeram, não foram, quem é, não vai, não iria          |
 |        |         |
 |**Datas**     |       O Power BI reconhece a maioria dos termos de datas (dia, semana, mês, ano, trimestre, década, etc.) e datas escritas em muitos formatos diferentes (veja abaixo). O Power BI também reconhece as seguintes palavras-chave: MonthName, dias 1-31, década. Exemplos: 3 de janeiro de 1995, 3 janeiro 1995, 03 jan 1995, 3 jan 1995, dia 3 de janeiro, janeiro de 1995, 1995 janeiro, 1995-01, 01/1995, nomes de meses         |
 |        |         |

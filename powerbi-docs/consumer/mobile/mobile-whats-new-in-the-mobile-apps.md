@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 7aa31d9c6eadd4c7c9c88c9006a360a6089f28e2
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259822"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041579"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -21,6 +21,29 @@ Para informações sobre “Novidades” relacionadas, veja:
 * [Blogue da equipa do Power BI para as aplicações móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novidades do Power BI Desktop](../../desktop-latest-update.md)  
 * [Novidades do serviço Power BI](../../service-whats-new.md)  
+
+## <a name="february-2020"></a>Fevereiro de 2020
+
+### <a name="multi-select-mode-android-and-ios"></a>Modo de seleção múltipla (Android e iOS)
+
+Adicionámos a capacidade de selecionar múltiplos pontos de dados numa página de relatório. Quando a seleção múltipla está ligada, cada ponto de dados em que toca é adicionado a outros pontos de dados selecionados, com os resultados combinados automaticamente realçados em todos os elementos visuais da página. Para ativar o modo de seleção múltipla, aceda à página de [definições das aplicações móveis](./mobile-app-interaction-settings.md).
+
+>[!NOTE]
+>O modo de seleção múltipla será suportado no Power BI Report Server na próxima versão do Report Server.
+
+### <a name="report-footer-can-now-always-be-visible-in-the-mobile-app-for-iphones"></a>O rodapé do relatório pode agora estar sempre visível na aplicação móvel para iPhones
+
+No iPhone, tal como no telemóvel Android, pode optar por ancorar o rodapé do relatório na parte inferior da página do relatório, onde ficará sempre visível e disponível, sejam quais forem as suas ações na página. Isto facilita a utilização de todas as opções disponíveis. Para ancorar o rodapé, ative o botão **Rodapé do relatório ancorado** na página de [definições das aplicações móveis](./mobile-app-interaction-settings.md).
+
+### <a name="support-for-pbirs-reports-preview-windows"></a>Suporte para relatórios PBIRS (pré-visualização) (Windows)
+
+Agora, pode abrir os relatórios do Power BI Report Server (PBIRS) na aplicação Power BI.
+
+### <a name="quickly-access-your-recent-items-windows"></a>Aceder rapidamente aos itens recentes (Windows)
+
+Clique com o botão direito do rato no ícone da aplicação Power BI na barra de tarefas do Windows para obter uma lista de todos os itens recentemente visualizados. Clique em qualquer item na lista para fazer uma visita rápida de volta.
+
+![Menu de acesso rápido da barra de tarefas](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-windows-taskbar-quick-access.png)
 
 ## <a name="january-2020"></a>Janeiro de 2020
 
@@ -38,7 +61,7 @@ Os nossos utilizadores de Android disseram-nos que a sua experiência na utiliza
 
 Os utilizadores que preferirem o comportamento anterior podem restaurar estes comportamentos com as novas e expandidas [definições de interação](./mobile-app-interaction-settings.md) da aplicação móvel.
 
-Além disso, os administradores de TI podem [substituir remotamente as novas predefinições](./mobile-app-configuration.md#interaction-settings-android) em nome dos seus utilizadores, com a ferramenta MDM de eleição e com um ficheiro de configuração de aplicação. Desta forma, todos os utilizadores numa organização podem ter o mesmo comportamento configurado.
+Além disso, os administradores de TI podem [substituir remotamente as novas predefinições](./mobile-app-configuration.md#interaction-settings-ios-and-android) em nome dos seus utilizadores, com a ferramenta MDM de eleição e com um ficheiro de configuração de aplicação. Desta forma, todos os utilizadores numa organização podem ter o mesmo comportamento configurado.
 
 > [!NOTE]
 > As definições de interação para o botão de atualização e para ancorar o rodapé do relatório não têm atualmente efeito em relatórios do Report Server. Isto vai mudar com a versão do Report Server de janeiro!
@@ -104,7 +127,7 @@ Saiba mais sobre o [Novo aspeto do Power BI Mobile](https://powerbi.microsoft.
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Acesso protegido com o Proxy da Aplicação do Azure Active Directory (AD) (iOS e Android)
 
-Estabelecemos parceria com a equipa do Azure Active Directory para integrar aplicações móveis do Power BI com o Proxy da Aplicação do Azure Active Directory (AAD). Com esta configuração, pode ligar-se ao Servidor de Relatórios alojado dentro dos limites da empresa a partir da aplicação Power BI Mobile, sem ter de fazer uma complexa configuração no local. Leia mais sobre a [integração do Power BI Mobile e do Proxy de Aplicações do Azure AD](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Saiba [como configurar o Proxy de Aplicações do Azure AD e o Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
+Estabelecemos parceria com a equipa do Azure Active Directory para integrar aplicações móveis do Power BI com o Proxy da Aplicação do Azure Active Directory (AAD). Com esta configuração, pode ligar-se ao Servidor de Relatórios alojado dentro dos limites da empresa a partir da aplicação Power BI Mobile, sem ter de fazer uma complexa configuração no local. Leia mais sobre a [integração do Power BI Mobile e do Proxy de Aplicações do Azure AD](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Saiba [como configurar o Proxy de Aplicações do Azure AD e o Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
 
 ## <a name="july-2019"></a>Julho de 2019
 
@@ -210,7 +233,7 @@ O painel de filtro do relatório está agora disponível para os relatórios hor
 
 ### <a name="modern-visual-header"></a>Cabeçalho de elemento visual moderno 
 
-Os relatórios que utilizam o novo “cabeçalho de elemento visual moderno” deixarão de atribuir espaço para os cabeçalhos, o que resultará em menos espaço vazio e mais espaço para as visualizações.
+Os relatórios que utilizam o novo “cabeçalho de elemento visual moderno” deixarão de alocar espaço para os cabeçalhos, o que resultará em menos espaço vazio e mais espaço para as visualizações.
 
 ### <a name="enhance-presentation-mode-windows"></a>Otimizar o modo de apresentação (Windows)
 
@@ -264,7 +287,7 @@ Agora, pode criar um esquema de relatório de telemóvel para um relatório que 
 
 ### <a name="dashboard-commenting-ios-and-android"></a>Comentários no dashboard (iOS e Android) 
 
-Pode adicionar comentários diretamente nos dashboards e mosaicos específicos para debater os seus dados e qualquer pessoa que visualize o dashboard irá ver os seus comentários. Também pode chamar outras pessoas na sua organização para a conversa ao @mentioning-las. Aqueles a quem @mentioned, recebem uma notificação push com a sua mensagem no telemóvel.
+Pode adicionar comentários diretamente nos dashboards e mosaicos específicos para debater os seus dados e qualquer pessoa que visualize o dashboard irá ver os seus comentários. Também pode chamar outras pessoas na sua organização para a conversa ao @mentioning-las. Aqueles a quem @mentioned, recebem uma notificação push com a mensagem no telemóvel.
 
 Atualmente disponível para dispositivos iOS e Android. Suporte para Windows em breve.
 
@@ -383,11 +406,11 @@ Suporte para o acesso condicional através da gestão de dispositivos móveis do
 
 #### <a name="improved-security-management"></a>Gestão de segurança melhorada 
 
-Adicionámos o suporte para o acesso condicional (CA) e para a gestão de dispositivos móveis do Microsoft Intune (MDM) em dispositivos Android, para proteger melhor os dados da sua organização. Já está disponível em dispositivos iOS.
+Adicionámos suporte para o acesso condicional (CA) e para a gestão de dispositivos móveis do Microsoft Intune (MDM) em dispositivos Android, para proteger melhor os dados da sua organização. Já está disponível em dispositivos iOS.
 
 #### <a name="improved-permission-management"></a>Gestão de permissões melhorada
 
-Foram feitas algumas alterações que permitem a gestão mais precisa das permissões de utilizador para conjuntos de dados, dashboards e relatórios.
+Foram feitas algumas alterações que permitem a gestão mais precisa das permissões dos utilizadores para conjuntos de dados, dashboards e relatórios.
 
 #### <a name="auto-installed-apps"></a>Aplicações instaladas automaticamente
 
@@ -398,7 +421,7 @@ Não precisa de instalar algumas das aplicações no Power BI. Os criadores de a
 ### <a name="november-2017"></a>Novembro de 2017
 #### <a name="iphone-x-optimization"></a>Otimização para iPhone X
 
-Otimizámos o esquema da aplicação para iPhone X, para que possa explorar os seus dados com um visual apelativo em todos os dispositivos.
+Otimizámos o esquema da aplicação para o iPhone X, para que possa explorar os dados com um visual apelativo em todos os dispositivos.
 
 ### <a name="october-2017"></a>Outubro de 2017
 #### <a name="filters-for-phone-reports-in-android"></a>Filtros para relatórios de telemóvel no Android
@@ -521,7 +544,7 @@ Leia o [Resumo das funcionalidades do blogue de aplicações móveis publicado e
 #### <a name="all-devices"></a>Todos os dispositivos
 **Atualização offline em segundo plano**
 
-Para ter a certeza de que consegue aceder aos dados mais recentes estando offline, efetuámos uma atualização da aplicação em segundo plano para que as suas informações comerciais estejam atualizadas, mesmo se não tiver acedido às mesmas durante um tempo. Para certificar-se de que determinados dashboards estão sempre atualizados, basta marcá-los como favoritos. Saiba mais sobre as [capacidades offline das aplicações móveis do Power BI](mobile-apps-offline-data.md).
+Para ter a certeza de que consegue aceder aos dados mais recentes quando está offline, efetuámos uma atualização da aplicação em segundo plano para que as suas informações comerciais estejam atualizadas, mesmo se não tiver acedido às mesmas durante algum tempo. Para certificar-se de que determinados dashboards estão sempre atualizados, basta marcá-los como favoritos. Saiba mais sobre as [capacidades offline das aplicações móveis do Power BI](mobile-apps-offline-data.md).
 
 #### <a name="ios-devices"></a>Dispositivos iOS
 **Anotar e partilhar**
@@ -573,7 +596,7 @@ Leia o [Resumo de funcionalidades para aplicações do Power BI publicado em nov
 Leia o [Resumo de funcionalidades para aplicações móveis do Power BI publicado em outubro de 2016](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-october-2016/).
 
 #### <a name="all-devices"></a>Todos os dispositivos
-**Favoritos como página de destino** Se tiver marcado quaisquer dashboards como favoritos, a página de destino será a entrada dos seus Favoritos. 
+**Favoritos como página de destino** Se tiver marcado quaisquer dashboards como favoritos, a página de destino será a entrada dos Favoritos. 
 
 **Navegação melhorada** A navegação principal tem um novo aspeto, e a navegação em grupos foi movida para o catálogo de grupos. 
 
@@ -673,7 +696,7 @@ O centro de notificações da sua aplicação móvel do Power BI mostra novos da
 * Os **códigos QR** estão agora também disponíveis **para relatórios**. Digitalize o código com a sua aplicação do Power BI para ir diretamente para um relatório relacionado, sem necessidade de qualquer navegação ou pesquisa.
 * **Melhoria da gestão de dados** para o SQL Server 2016 Reporting Services: Tempos de carregamento e consumo de dados reduzidos no seu dispositivo.
 * **Relatórios móveis com temas do SQL Server 2016**: Veja temas para relatórios móveis no seu dispositivo.
-* **Geofiltragem**: filtre os relatórios pela sua localização atual.
+* **Filtro geográfico**: filtre os relatórios pela sua localização atual.
 
 ### <a name="april-2016"></a>Abril de 2016
 Consulte o [blogue sobre Aplicações do Power BI Mobile publicado em abril](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/) para obter mais detalhes.
@@ -715,7 +738,7 @@ Leia o [blogue de Aplicações Power BI Mobile publicado em março de 2016](http
 **Dados atualizados offline** A nova atualização em segundo plano atualiza automaticamente os dados armazenados em cache quando estiver online, para que tenha os dados mais recentes [mesmo quando estiver offline](mobile-apps-offline-data.md). 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>Aplicação Power BI para dispositivos Windows 10
-**Acesso rápido** Aceda aos dashboards, relatórios e grupos rapidamente, com uma nova lista de “recentemente visualizados” e uma pesquisa global para encontrar os dados necessários.
+**Acesso rápido** Aceda aos dashboards, aos relatórios e aos grupos rapidamente, com uma nova lista de “recentemente visualizados” e uma pesquisa global para encontrar os dados necessários.
 
 **Mosaicos do Bing e do R** Abra mosaicos do Bing e do R no modo de detalhe.
 
@@ -812,7 +835,7 @@ Melhorias nas aplicações móveis do Power BI, Android, iOS (iPhone e iPad) e W
 
 #### <a name="android"></a>Android
 * Suporte para áreas de trabalho de grupo: colabore com colegas em áreas de trabalho de grupo. 
-* Suporte para utilizadores não autenticados:  para alguns cenários em que os utilizadores não conseguirem iniciar sessão na aplicação, adicionámos uma forma rápida e prática de entrar em contacto com o suporte e enviar comentários.
+* Suporte para utilizadores não autenticados:  em alguns cenários em que os utilizadores não consigam iniciar sessão na aplicação, adicionámos uma forma rápida e prática de entrar em contacto com o suporte e enviar comentários.
 * Melhor experiência de utilizador ao aceder a dashboards com a segurança baseada em funções.          
 * Formatação melhorada de dados de gráficos e alinhamento de todos os mosaicos no dashboard. 
 
@@ -825,11 +848,10 @@ Melhorias nas aplicações móveis do Power BI, Android, iOS (iPhone e iPad) e W
 * Melhorias otimizadas de toque para os mosaicos de gráfico matriz: agora pode percorrer facilmente os dados de matriz e visualizar todos os dados, facilmente e de forma intuitiva.
 * Formatação melhorada de dados de gráficos e alinhamentos de todos os mosaicos do dashboard. 
 * Remoção do suporte para iOS 7: para manter os mais altos padrões de segurança para o Power BI, deixámos de oferecer suporte para os dispositivos com o iOS 7 instalado. É necessário o iOS 8 e superior. 
-* Adição da função de enviar comentários e classificações na aplicação: foi adicionada a função de enviar comentários e fornecer classificações na aplicação, para que possamos aumentar a influência da comunidade no nosso plano e resolver problemas, de forma fácil e direta a partir da aplicação.
+* Adição da função de enviar comentários e classificações na aplicação: foi adicionada a função de enviar comentários e de permitir classificações na aplicação, para que possamos aumentar a influência da comunidade no nosso plano e resolver problemas, de forma fácil e direta a partir da aplicação.
 
 #### <a name="windows"></a>Windows
 * Composição melhorada de mosaico de mapa no modo de detalhe para maximizar o espaço no ecrã.
 * Melhor experiência de utilizador ao aceder a dashboards com a segurança baseada em funções. 
 * Uma nova função permite-lhe navegar para a frente e para trás através dos mosaicos do dashboard, explorando-os diretamente no modo de detalhe sem a necessidade de voltar ao dashboard para selecionar o próximo mosaico.
 * Estabilidade adicional e melhorias de desempenho. 
-

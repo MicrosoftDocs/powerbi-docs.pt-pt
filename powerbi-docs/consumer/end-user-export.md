@@ -7,21 +7,24 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 27128618fc594a8b7259a3de3862c6766eaecd86
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 811eaa9769a099122597d7132de80cbc2d22a51b
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537523"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040155"
 ---
 # <a name="export-data-from-a-visual"></a>Exportar dados de um visual
 
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Se quiser ver os dados que são utilizados para criar um elemento visual, [poderá apresentar os dados no Power BI](end-user-show-data.md) ou exportar esses dados para o Excel. A opção para exportar os dados requer um certo tipo de licença ou permissões de edição para o conteúdo. Se não conseguir exportar, contacte o administrador do Power BI. 
+Se quiser ver os dados que são utilizados para criar um elemento visual, [poderá apresentar os dados no Power BI](end-user-show-data.md) ou exportar esses dados para o Excel. A opção para exportar os dados requer um certo tipo de licença ou permissões de edição para o conteúdo. Se não conseguir exportar, contacte o administrador do Power BI. A exportação de dados requer uma licença Power BI Pro: uma licença Pro por utilizador ou uma licença Pro por utilizador numa organização que detenha uma licença de capacidade Premium. Normalmente, este tipo de licença é utilizado por *estruturadores* de relatórios, não por *consumidores*. Para saber mais, veja [Qual é a minha licença?](end-user-license.md).
+
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>A partir de um elemento visual num dashboard do Power BI
 

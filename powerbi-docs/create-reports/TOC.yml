@@ -145,7 +145,7 @@
               href: ../desktop-grouping-and-binning.md
             - name: "Criar elementos visuais do Power\_BI com a linguagem\_R"
               href: ../desktop-r-visuals.md
-            - name: Transferir e utilizar elementos visuais personalizados baseados em R
+            - name: "Transferir e utilizar elementos visuais do Power\_BI baseados em R"
               href: ../desktop-r-powered-custom-visuals.md
             - name: Aplicar linhas de grelha e ajuste à grelha
               href: ../desktop-gridlines-snap-to-grid.md

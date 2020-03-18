@@ -8,16 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/30/2020
-rLocalizationGroup: Common tasks
-ms.openlocfilehash: 267a1e8b2f45198059e5acfcdf0233445babbd14
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.date: 03/09/2020
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 869da47cd64e93a930fe6e92071345be093617a7
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888625"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114031"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Subscrever um relatório ou dashboard no serviço Power BI 
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -63,7 +65,7 @@ Quer esteja a subscrever um dashboard ou um relatório, o processo é semelhante
 
 3. Se tudo estiver correto, selecione **Guardar e fechar** para guardar a subscrição. Receberá um e-mail e um instantâneo do dashboard ou do relatório dentro do período que definiu. Todas as subscrições cuja frequência estiver definida para **Depois da atualização de dados** só enviarão um e-mail após a primeira atualização agendada para o dia em questão.
    
-   ![instantâneo do dashboard num e-mail](media/end-user-subscribe/power-bi-subscribe-email.png)
+   ![instantâneo do dashboard num e-mail](media/end-user-subscribe/power-bi-email.png)
    
     Atualizar a página de relatório não atualiza o conjunto de dados. Apenas o proprietário do conjunto de dados pode atualizar manualmente um conjunto de dados. Para procurar o nome do proprietário do(s) conjunto(s) de dados subjacente(s), selecione o menu pendente na barra de menus ou procure o e-mail da subscrição original.
    
@@ -73,11 +75,12 @@ Quer esteja a subscrever um dashboard ou um relatório, o processo é semelhante
 ## <a name="manage-your-subscriptions"></a>Gerir as subscrições
 Apenas o utilizador pode gerir as subscrições que cria. Selecione **Subscrever** novamente e escolha **Gerir todas as subscrições** no canto inferior esquerdo (ver capturas de ecrã acima). 
 
-![ver todas as subscrições em A Minha Área de Trabalho](./media/end-user-subscribe/power-bi-manage.png)
+![ver todas as subscrições em A Minha Área de Trabalho](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 
 Uma subscrição terminará se a licença Pro expirar, o dashboard ou o relatório for eliminado pelo proprietário ou a conta de utilizador utilizada para criar a subscrição for eliminada.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
+* Para evitar que os e-mails da subscrição vão para a pasta de spam, adicione o alias de e-mail do Power Platform (PowerPlat-noreply@microsoft.com) aos contactos. Se estiver a utilizar o Microsoft Outlook, clique com o botão direito do rato no alias e selecione **Adicionar aos contactos do Outlook**. 
 * É possível que os dashboards com mais de 25 mosaicos afixados ou mais de quatro páginas de relatórios dinâmicos afixadas não sejam apresentados por inteiro nos e-mails de subscrição enviados aos utilizadores. Sugerimos que contacte o designer do dashboard e lhe peça que reduza o número de mosaicos afixados para 25 e o de relatórios dinâmicos afixados para menos de quatro, de modo a garantir que o e-mail é apresentado corretamente.  
 * Para subscrições de e-mail do dashboard, se um mosaico tiver segurança aplicada ao nível da linha (RLS), o mesmo não será apresentado.  Para subscrições de e-mail do relatório, se o conjunto de dados utilizar RLS, não poderá criar uma subscrição.
 * Se as ligações no seu e-mail (para o conteúdo) deixarem de funcionar, o conteúdo poderá ter sido eliminado. No e-mail, abaixo da captura de ecrã, pode ver se foi você ou outra pessoa que o subscreveu. Se foi outra pessoa, peça a esse colega que cancele os e-mails ou volte a subscrever.

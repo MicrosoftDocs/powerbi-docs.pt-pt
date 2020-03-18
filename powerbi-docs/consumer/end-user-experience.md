@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fbd629ea7d2c5bb71471ac8073a5a823f1b2c192
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76975339"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040162"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guia de Início Rápido: Introdução ao serviço Power BI
 
@@ -72,7 +72,7 @@ Veja por si próprio ao selecionar **Áreas de trabalho** na navegação à esqu
 
 ![A Minha Área de Trabalho ](./media/end-user-experience/power-bi-workspaces.png)
 
-**A Minha Área de Trabalho** armazena todos os conteúdos que criou e de que é proprietário. Considere-a a sua sandbox pessoal ou uma área de trabalho para o seu próprio conteúdo. Para muitos *consumidores* do Power BI, **A minha área de trabalho** permanece vazia porque a sua tarefa não envolve criar novos conteúdos.  Por definição, os *consumidores* consomem dados criados por outros utilizadores e utilizam esses dados para tomar decisões empresariais. Se vir que está a criar conteúdos, considere ler os [artigos do Power BI para *designers*](../power-bi-creator-landing.md).
+**A Minha Área de Trabalho** armazena todos os conteúdos que criou e de que é proprietário. Considere-a a sua sandbox pessoal ou uma área de trabalho para o seu próprio conteúdo. Para muitos *consumidores* do Power BI, **A minha área de trabalho** permanece vazia porque a sua tarefa não envolve criar novos conteúdos.  Por definição, os *consumidores* consomem dados criados por outros utilizadores e utilizam esses dados para tomar decisões empresariais. Se vir que está a criar conteúdos, considere antes ler os [artigos do Power BI para *criadores de relatórios*](../index.yml).
 
 As **Áreas de trabalho da Aplicação** incluem todos os conteúdos da aplicação específica.  Quando um *designer* cria uma aplicação, este agrupa todos os conteúdos necessários para tirar proveito dessa aplicação.  Selecione a área de trabalho Vendas e Marketing para ver o que o *designer* integrou na aplicação. 
 

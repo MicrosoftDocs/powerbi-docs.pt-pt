@@ -1,19 +1,19 @@
 ---
 title: Criar uma ligação para uma localização específica nas aplicações móveis do Power BI
 description: Saiba como criar uma ligação avançada para um dashboard, mosaico ou relatório específico na aplicação móvel do Power BI com um identificador de recurso uniforme (URI).
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/24/2019
-ms.author: mshenhav
-ms.openlocfilehash: 427019d831aa02723f17efd3de78081c368717c2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: f0a72cf315c8ad911414274daae11b712971b305
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879300"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114485"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Criar uma ligação para uma localização específica nas aplicações móveis do Power BI
 Pode utilizar ligações para aceder diretamente a itens específicos no Power BI: Relatório, Dashboard e Mosaico.
@@ -112,9 +112,9 @@ https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSecti
 Saiba mais sobre [como criar um parâmetro de consulta para filtrar relatórios](https://docs.microsoft.com/power-bi/service-url-filters).
 
 ## <a name="next-steps"></a>Próximos passos
-Os seus comentários ajudam-nos a decidir o que implementar no futuro, portanto, não se esqueça de votar noutros recursos que gostaria de ver nas aplicações móveis do Power BI. 
+Os seus comentários ajudam-nos a decidir o que implementar no futuro, portanto, não se esqueça de votar noutros recursos que gostaria de ver nas aplicações móveis do Power BI. 
 
-* [Aplicações do Power BI para dispositivos móveis](mobile-apps-for-mobile-devices.md)
+* [Power BI apps for mobile devices (Aplicações do Power BI para dispositivos móveis)](mobile-apps-for-mobile-devices.md)
 * Siga o @MSPowerBI no Twitter
 * Participe na conversa na [Comunidade do Power BI](https://community.powerbi.com/)
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)

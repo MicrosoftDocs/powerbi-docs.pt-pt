@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/05/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 3f6f534b71ba6d8e8798418275c4758a95fc6fb5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851233"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114240"
 ---
 # <a name="reports-in-power-bi"></a>Relatórios no Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -41,7 +43,7 @@ O Power BI baseia um relatório num único conjunto de dados. Os *estruturadore
 À medida que explora e interage com os seus conteúdos, ao filtrar, segmentar dados, subscrever e exportar, não pode danificar o funcionamento dos relatórios. O seu trabalho não afeta o conjunto de dados subjacente ou os conteúdos partilhados originais. Esta afirmação aplica-se a dashboards, relatórios e aplicações.
 
 > [!NOTE]
-> Lembre-se de que não pode danificar os seus dados. O Power BI é um excelente local para explorar e experimentar sem se preocupar com a possibilidade de danificar dados.
+> Lembre-se de que não pode danificar os dados. O Power BI é um excelente local para explorar e experimentar sem se preocupar com a possibilidade de danificar alguma coisa.
 
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>Guardar as suas alterações ou reverter para as predefinições
 
@@ -78,7 +80,7 @@ Em alternativa, pode ser um *consumidor*, isto é, uma pessoa que recebe relató
 * Para ver que conjunto de dados está a ser utilizado pelo relatório e que dashboards estão a apresentar elementos visuais do relatório (*marcadores*), veja [Ver conteúdos relacionados no serviço Power BI](end-user-related.md).
 
 > [!TIP]
-> Se não encontrou aqui o que procurava, utilize o índice à esquerda para procurar todos os artigos sobre *Relatórios*.
+> Se não encontrou aqui o que procurava, utilize o Índice à esquerda para procurar todos os artigos sobre *Relatórios*.
 
 ## <a name="next-steps"></a>Próximos passos
 

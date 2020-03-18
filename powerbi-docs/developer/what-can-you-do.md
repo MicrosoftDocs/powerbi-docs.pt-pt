@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 9f9383e5cdb4b4690ef75294f7ff8c17fb643d9a
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4e8ce6d9a892abf3e24ecae6dee1e3ea23504d31
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265008"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041361"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>O que podem os programadores fazer com o Power BI?
 
@@ -37,7 +37,7 @@ Para saber mais sobre a incorporação com o Power BI, veja [Incorporar com o Po
 
 ## <a name="developing-custom-visuals"></a>Desenvolver elementos visuais personalizados
 
-Pode utilizar elementos visuais personalizados com o Power BI para criar um tipo de elemento visual único adaptado a si ou à sua empresa. Muitas vezes, estes elementos visuais personalizados são criados pelos programadores. São criados quando o vasto leque de elementos visuais que estão incluídos com o Power BI não satisfazem as suas necessidades.
+Pode utilizar elementos visuais personalizados com o Power BI para criar um tipo de elemento visual exclusivo adaptado a si ou à sua empresa. Muitas vezes, estes elementos visuais personalizados são criados pelos programadores. São criados quando o vasto leque de elementos visuais incluídos no Power BI não satisfazem as suas necessidades.
 
 Os elementos visuais personalizados permitem-lhe criar os seus elementos visuais para utilização nos relatórios do Power BI. Os elementos visuais personalizados são escritos no TypeScript, que é um superconjunto do JavaScript. O TypeScript suporta algumas funcionalidades avançadas e o acesso antecipado à funcionalidade ES6/ES7. O estilo visual é processado através de folhas de estilo (CSS). Para sua comodidade, utilizamos o pré-compilador Less, que suporta algumas funcionalidades avançadas, como aninhamento, variáveis, condições, ciclos e outras funcionalidades. Se não quiser utilizar algumas dessas funcionalidades, poderá escrever CSS simples no ficheiro less.
 
@@ -53,7 +53,7 @@ Os programadores também podem criar as suas próprias visualizações de dados 
 
 ![Exemplo de dados emitidos via push](media/what-can-you-do/powerbi-push-data.png)
 
-Para ver algumas das coisas que pode fazer com as APIs do Power BI, veja [O que podem os programadores fazer com as APIs do Power BI](overview-of-power-bi-rest-api.md)?
+Para ver algumas das coisas que pode fazer com as APIs do Power BI, veja [O que podem os programadores fazer com as APIs do Power BI](automation/overview-of-power-bi-rest-api.md)?
 
 ## <a name="next-steps"></a>Próximos passos
 
@@ -61,6 +61,6 @@ Para ver algumas das coisas que pode fazer com as APIs do Power BI, veja [O que 
 
 [Developing a Power BI custom visual](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/) (Desenvolver um elemento visual personalizado do Power BI)
 
-[O que podem os programadores fazer com a API Power BI?](overview-of-power-bi-rest-api.md)
+[O que podem os programadores fazer com a API Power BI?](automation/overview-of-power-bi-rest-api.md)
 
 [Centro para Programadores do Power BI](https://powerbi.microsoft.com/developers/)
