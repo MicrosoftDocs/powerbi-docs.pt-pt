@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f9832948fdd25d1bd807e0ff5d916b08b55aea95
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77155025"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79487815"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Orientação sobre as definições para administradores de inquilinos
 
@@ -128,7 +128,7 @@ Se precisar de autorizar utilizadores externos a editar e gerir conteúdos, reco
 
 ### <a name="developer-settings"></a>Definições de programador
 
-Existem duas definições de inquilino relacionadas com a [incorporação de conteúdo do Power BI](../developer/embedding.md). São:
+Existem duas definições de inquilino relacionadas com a [incorporação de conteúdo do Power BI](../developer/embedded/embedding.md). São:
 
 - Incorporar conteúdo em aplicações (ativada por predefinição)
 - Permitir principais de serviço para APIs de utilizador do Power BI (desativada por predefinição)

@@ -1,19 +1,19 @@
 ---
 title: Aplicação Power BI for Mixed Reality (Pré-visualização)
 description: Veja os seus dashboards e relatórios na aplicação Power BI for Mixed Reality (Preview) no mundo virtual ou no contexto do seu ambiente.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
-ms.author: mshenhav
-ms.openlocfilehash: 04a77aa9a5a464baf0ce1c9a88604d84ad0feb53
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879133"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205924"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicação Power BI for Mixed Reality (Pré-visualização)
 Veja os seus dashboards e relatórios na aplicação Power BI for Mixed Reality (Preview) no mundo virtual ou coloque-os em localizações específicas no contexto do seu ambiente. 
@@ -60,7 +60,7 @@ Pegue num artefacto do Power BI para que o mesmo se mantenha no seu campo de vis
 
 **"Dock"** ("Ancorar") 
 
-Utilize este comando para colocar o artefacto no seu cinto de ancoragem do Power BI para que esteja sempre consigo, mesmo fora do seu campo de visão, e seja fácil de aceder.
+Utilize este comando para colocar o artefacto no cinto de ancoragem do Power BI para que esteja sempre consigo, mesmo fora do seu campo de visão, e seja fácil de aceder.
 
 **"Place here"** ("Colocar aqui")
 
@@ -70,7 +70,7 @@ Este comando coloca um dashboard ou relatório numa parede ou objeto ou a pairar
 
 **"Go home"** ("Ir para a página principal")
 
-Utilize este comando para regressar à vista clássica do Windows no Power BI. 
+Utilize este comando para regressar à vista clássica do Windows no Power BI. 
 
 **"Remove"** ("Remover")
 

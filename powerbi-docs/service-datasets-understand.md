@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: eaa4354ed7355c0e01d9f75675cb7fed4bdc9d96
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 6170217119e443a2eb24aac056623dce5070303e
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74133733"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79208017"
 ---
 # <a name="datasets-in-the-power-bi-service"></a>Conjuntos de dados no serviço Power BI
 
@@ -26,7 +26,7 @@ Os conjuntos de dados do Power BI representam uma origem de dados pronta para r
 - Ligar a um modelo de dados existente que não está alojado numa capacidade do Power BI
 - Carregar um ficheiro do Power BI Desktop que contém um modelo
 - Carregar um livro do Excel (com uma ou mais tabelas do Excel e/ou um modelo de dados do livro) ou carregar um ficheiro CSV (valores separados por vírgula)
-- Utilizar o serviço Power BI para criar um [conjunto de dados push](developer/walkthrough-push-data.md)
+- Utilizar o serviço Power BI para criar um [conjunto de dados push](developer/automation/walkthrough-push-data.md)
 - Utilizar o serviço Power BI para criar um [conjunto de dados de transmissão em fluxo ou transmissão em fluxo híbrida](service-real-time-streaming.md)
 
 Exceto para os conjuntos de dados de transmissão em fluxo, o conjunto de dados representa um modelo que tira partido das tecnologias de modelação avançadas do [Analysis Services](/analysis-services/analysis-services-overview).

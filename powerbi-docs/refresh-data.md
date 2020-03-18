@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 810077e8c651d3d6faf91eecb6fd320c24a69d2f
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76039050"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488804"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 
@@ -76,7 +76,7 @@ Uma vez que o Power BI não importa os dados, não precisa de executar uma atual
 Os conjuntos de dados push não contêm uma definição formal de uma origem de dados, por isso não necessitam que faça uma atualização de dados no Power BI. Atualiza-os ao enviar os seus dados para o conjunto de dados por meio de um serviço ou processo externo, como o Azure Stream Analytics. Esta é uma abordagem comum para a análise em tempo real com o Power BI. O Power BI continua a fazer atualizações da cache para os mosaicos utilizados sobre um conjunto de dados push. Para obter instruções detalhadas, veja [Tutorial: Stream Analytics e Power BI: Um dashboard de análise em tempo real para transmissão de dados em fluxo](/azure/stream-analytics/stream-analytics-power-bi-dashboard).
 
 > [!NOTE]
-> O Modo Push tem várias limitações, conforme documentado em [Limitações da API REST do Power BI](developer/api-rest-api-limitations.md).
+> O Modo Push tem várias limitações, conforme documentado em [Limitações da API REST do Power BI](developer/automation/api-rest-api-limitations.md).
 
 ### <a name="power-bi-refresh-types"></a>Tipos de atualização do Power BI
 
@@ -187,7 +187,7 @@ Ligar um conjunto de dados a um gateway empresarial é relativamente simples se 
 
 ![Adicionar ao gateway](media/refresh-data/add-to-gateway.png)
 
-Certifique-se de que mapeia a definição da origem de dados correta à sua origem de dados. Como a captura de ecrã acima ilustra, os administradores do gateway podem criar múltiplas definições num único gateway ligado à mesma origem de dados – cada um com credenciais diferentes. Nos exemplos mostrados, um proprietário de um conjunto de dados do Departamento de Vendas escolheria a definição de origem de dados AdventureWorksProducts-Vendas, enquanto um proprietário de um conjunto de dados do Departamento de Suporte mapearia esse mesmo conjunto de dados à definição de origem de dados AdventureWorksProducts-Suporte. Se os nomes da definição da origem de dados não forem intuitivos, contacte o seu administrador do gateway para saber quais definições deve escolher.
+Certifique-se de que mapeia a definição da origem de dados correta à sua origem de dados. Como a captura de ecrã acima ilustra, os administradores do gateway podem criar múltiplas definições num único gateway ligado à mesma origem de dados – cada um com credenciais diferentes. Nos exemplos mostrados, um proprietário de um conjunto de dados do Departamento de Vendas escolheria a definição de origem de dados AdventureWorksProducts-Vendas, enquanto um proprietário de um conjunto de dados do Departamento de Suporte mapearia esse mesmo conjunto de dados à definição de origem de dados AdventureWorksProducts-Suporte. Se os nomes da definição da origem de dados não forem intuitivos, contacte o seu administrador do gateway para saber quais as definições que deve escolher.
 
 > [!NOTE]
 > Um conjunto de dados só pode utilizar uma única ligação de gateway. Por outras palavras, não é possível aceder a origens de dados no local através de múltiplas ligações de gateway. Da mesma forma, tem de adicionar todas as definições de origem de dados necessárias ao mesmo gateway.
@@ -317,7 +317,7 @@ O ícone de aviso ajuda a indicar problemas de conjuntos de dados atuais, mas ta
 
 ## <a name="automatic-page-refresh"></a>Atualização automática de página
 
-A atualização automática de página funciona ao nível da página de relatório e permite que os autores de relatórios definam um intervalo de atualização para os elementos visuais numa página que só está ativa quando está a ser consumida. A atualização automática de página só está disponível para origens de dados DirectQuery. O intervalo de atualização mínimo depende do tipo de área de trabalho na qual o relatório é publicado e das definições de administração de capacidades das áreas de trabalho Premium e das [áreas de trabalho incorporadas](developer/embedding.md).
+A atualização automática de página funciona ao nível da página de relatório e permite que os autores de relatórios definam um intervalo de atualização para os elementos visuais numa página que só está ativa quando está a ser consumida. A atualização automática de página só está disponível para origens de dados DirectQuery. O intervalo de atualização mínimo depende do tipo de área de trabalho na qual o relatório é publicado e das definições de administração de capacidades das áreas de trabalho Premium e das [áreas de trabalho incorporadas](developer/embedded/embedding.md).
 
 Saiba mais sobre a atualização automática de página no artigo de [atualização automática de página](desktop-automatic-page-refresh.md).
 

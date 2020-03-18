@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 6854dad244636854cc8b77ddf1ffc15342281771
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a631e6f5baf7942b81ce22a238d80f4aea40d022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76818899"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379713"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Adicionar interatividade ao elemento visual através das seleções de elementos visuais do Power BI
 
@@ -179,11 +179,11 @@ Quando o utilizador seleciona `Import Car` por `Type` (seleciona os dados por s�
 | Nissan | **Carro Importado** | 5485 |
 | Toyota | **Carro Importado** | 20799 |
 
-![O elemento visual com seleções para categorias e séries](media/visual-selections-sample.png)
+![O elemento visual com seleções para categorias e séries](media/selection-api/visual-selections-sample.png)
 
 É necessário preencher os registos dos dados dos elementos visuais.
 
-![Registos dos dados dos elementos visuais com seleções](media/visual-selections-databuckets.png)
+![Registos dos dados dos elementos visuais com seleções](media/selection-api/visual-selections-databuckets.png)
 
 Há `Manufacturer` como categoria (colunas), `Type` como série (linhas) e `Value` como `Values` para a série.
 

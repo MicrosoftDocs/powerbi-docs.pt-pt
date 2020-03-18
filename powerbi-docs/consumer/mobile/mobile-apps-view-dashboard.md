@@ -1,19 +1,19 @@
 ---
 title: Ver dashboards e relatórios nas aplicações móveis do Power BI
 description: Crie ou ligue-se a dashboards e relatórios no serviço Power BI. Em seguida, visualize-os nas aplicações móveis do Power BI.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/05/2019
-ms.author: mshenhav
-ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218384"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205533"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Ver dashboards e relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -70,11 +70,11 @@ Segue-se um dashboard do Power BI no serviço Power BI:
    ![Trilho](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
 
 ### <a name="view-dashboards-in-landscape-mode-in-your-iphone"></a>Ver dashboards no modo horizontal no iPhone
-Basta colocar o telemóvel de lado para ver dashboards no modo horizontal. O esquema do dashboard muda de uma série de mosaicos para uma vista de todo o dashboard. Vê todos os mosaicos do dashboard dispostos da mesma forma que no serviço Power BI.
+Basta colocar o telemóvel de lado para ver dashboards no modo horizontal. O esquema do dashboard muda de uma série de mosaicos para uma vista de todo o dashboard. Vê todos os mosaicos do dashboard dispostos da mesma forma que no serviço Power BI.
 
 ![Vista horizontal do dashboard](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
 
-Pode utilizar o gesto de beliscar para ampliar e reduzir áreas diferentes do seu dashboard e o movimento panorâmico para navegar pelo dashboard. Além disso, também é possível [tocar num mosaico](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo de detalhe e interagir com os dados.
+Pode utilizar o gesto de aproximar os dedos para ampliar e reduzir áreas diferentes do dashboard e o movimento panorâmico para navegar pelo dashboard. Além disso, também é possível [tocar num mosaico](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo de detalhe e interagir com os dados.
 
 ## <a name="view-dashboards-on-your-ipad"></a>Ver dashboards no seu iPad
 1. Abra a aplicação Power BI.
@@ -138,12 +138,12 @@ Pode utilizar o gesto de beliscar para ampliar e reduzir áreas diferentes do se
    ![Menu de reticências](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. Passe o dedo para cima e para baixo para ver todos os [mosaicos no dashboard](mobile-tiles-in-the-mobile-apps.md). 
    
-   Pode utilizar o gesto de beliscar para ampliar e reduzir áreas diferentes do seu dashboard e o movimento panorâmico para navegar pelo dashboard. Além disso, também é possível [tocar num mosaico](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo de detalhe e interagir com os dados.
+   Pode utilizar o gesto de aproximar os dedos para ampliar e reduzir áreas diferentes do dashboard e o movimento panorâmico para navegar pelo dashboard. Além disso, também é possível [tocar num mosaico](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo de detalhe e interagir com os dados.
 5. Para regressar à página inicial de dashboards, toque no nome do dashboard para abrir o trilho de navegação e, em seguida, toque em **A Minha Área de Trabalho**:
    
     ![Trilho](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
-    Pode utilizar o gesto de beliscar para ampliar e reduzir áreas diferentes do seu dashboard e o movimento panorâmico para navegar pelo dashboard. Além disso, também é possível [tocar num mosaico](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo de detalhe e interagir com os dados.
+    Pode utilizar o gesto de aproximar os dedos para ampliar e reduzir áreas diferentes do dashboard e o movimento panorâmico para navegar pelo dashboard. Além disso, também é possível [tocar num mosaico](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo de detalhe e interagir com os dados.
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>Criar uma vista de telemóvel de um dashboard no serviço Power BI
 Se for o proprietário do dashboard, no serviço Power BI, pode *criar uma vista do dashboard especificamente para telemóveis* no modo vertical. 

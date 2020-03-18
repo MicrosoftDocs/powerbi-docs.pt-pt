@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885262"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381451"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Aplicar limites de pontos de dados e estratégias por tipo de elemento visual
 
@@ -74,7 +74,7 @@ Veja [Como funciona a amostragem de linhas](../desktop-high-density-sampling.md#
 ### <a name="combo-chart"></a>Gráfico de combinação
  Utiliza as mesmas estratégias que o gráfico de colunas. Tenha em atenção que a linha no **gráfico de combinação** não utiliza o algoritmo de elevada densidade utilizado pelo **gráfico de linhas**.
 
-### <a name="custom-visuals"></a>Elementos visuais personalizados
+### <a name="power-bi-visuals"></a>Elementos Visuais do Power BI
 Podem ser até 30 000, mas cabe aos autores dos elementos visuais indicar as estratégias a utilizar. O limite predefinido é 1000, mas o criador de elementos visuais pode alterar esse valor, até um máximo de 30 000.
 
 ### <a name="doughnut"></a>Anel
