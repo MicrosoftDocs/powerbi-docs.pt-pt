@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79213609"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488597"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribua o conteúdo do Power BI para utilizadores externos de hóspedes usando o Diretório Ativo Azure B2B
 
@@ -306,7 +306,7 @@ A integração do Power BI com o Azure AD B2B dá ao Contoso uma forma perfeita 
 
     Posteriormente, os utilizadores podem chegar à aplicação de Contoso clicando no link no e-mail ou marcando o link. A Contoso também pode facilitar aos utilizadores convidados adicionando este link a qualquer portal extranet existente que os utilizadores convidados já utilizam.
 
-4. Próximas etapas
+4. Passos Seguintes
 
     Utilizando uma aplicação Power BI e Azure AD B2B, a Contoso conseguiu rapidamente criar um Portal BI para os seus fornecedores de forma sem código. Esta distribuição muito simplificada de análises padronizadas a todos os fornecedores que dela necessitassem.
 
@@ -336,7 +336,7 @@ A integração do Power BI com o Azure AD B2B funciona com todos os endereços d
 A Contoso pode escolher uma das três abordagens para licenciar utilizadores convidados dos seus fornecedores e organizações parceiras para ter acesso aos conteúdos do Power BI.
 
 > [!NOTE]
-> _O nível livre do Azure AD B2B é suficiente para utilizar o Power BI com o Azure AD B2B. Algumas funcionalidades avançadas do Azure AD B2B, como grupos dinâmicos, requerem licenciamento adicional. Consulte a documentação Azure AD B2B para obter informações adicionais:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _O nível livre do Azure AD B2B é suficiente para utilizar o Power BI com o Azure AD B2B. Algumas funcionalidades avançadas do Azure AD B2B, como grupos dinâmicos, requerem licenciamento adicional. Consulte a documentação Azure AD B2B para obter informações adicionais:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>Abordagem 1: Contoso usa Power BI Premium
 
@@ -576,7 +576,7 @@ Razões para não escolher esta alternativa:
 
 ### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>Opção Alternativa 2: Criar uma aplicação personalizada power BI incorporada usando a autenticação personalizada
 
-Outra opção para A Contoso é construir a sua própria aplicação power BI personalizada com autenticação personalizada[('App possui dados').](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers) Embora muitas organizações não tenham tempo ou recursos para criar uma aplicação personalizada para distribuir conteúdo do Power BI aos seus parceiros externos, para algumas organizações esta é a melhor abordagem e merece séria consideração.
+Outra opção para A Contoso é construir a sua própria aplicação power BI personalizada com autenticação personalizada[('App possui dados').](https://docs.microsoft.com/power-bi/developer/embedded/embed-sample-for-customers) Embora muitas organizações não tenham tempo ou recursos para criar uma aplicação personalizada para distribuir conteúdo do Power BI aos seus parceiros externos, para algumas organizações esta é a melhor abordagem e merece séria consideração.
 
 Muitas vezes, as organizações têm portais parceiros existentes que centralizam o acesso a todos os recursos organizacionais para parceiros, fornecem isolamento dos recursos organizacionais internos, e fornecem experiências simplificadas para parceiros para apoiar muitos parceiros e seus utilizadores individuais.
 
