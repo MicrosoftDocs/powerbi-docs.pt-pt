@@ -12,6 +12,8 @@
     - name: Tutoriais
       expanded: true
       items:
+        - name: Curso online
+          href: paginated-reports-online-course.md
         - name: 'Laboratório prático: Criar um relatório paginado'
           href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
         - name: Criar um relatório paginado e carregar
