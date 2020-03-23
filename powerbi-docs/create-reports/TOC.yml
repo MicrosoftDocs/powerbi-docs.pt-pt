@@ -11,8 +11,8 @@
     - name: Tutoriais
       expanded: true
       items:
-        - name: 'Laboratório prático: Criar um relatório paginado'
-          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: 'Online course: (Curso online:) Relatórios paginados'
+          href: ../paginated-reports/paginated-reports-online-course.md
         - name: Criar um relatório paginado e carregar
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: Exemplos
@@ -99,18 +99,6 @@
               href: ../paginated-reports/paginated-reports-faq.md
     - name: Manuais de instruções
       items:
-        - name: Publicar conjuntos de dados e relatórios
-          href: ../desktop-upload-desktop-files.md
-        - name: Adicionar elementos visuais a um relatório do Power BI (parte 1)
-          href: ../visuals/power-bi-report-add-visualizations-i.md
-        - name: Adicionar elementos visuais a um relatório do Power BI (parte 2)
-          href: ../visuals/power-bi-report-add-visualizations-ii.md
-        - name: 'Personalizar títulos, fundos e legendas de elementos visuais'
-          href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
-        - name: Mostrar itens sem dados no Power BI
-          href: ../desktop-show-items-no-data.md
-        - name: Aplicar data/hora automáticas
-          href: ../desktop-auto-date-time.md
         - name: Relatórios do Power BI
           items:
             - name: Ativar a atualização automática de páginas (pré-visualização)
@@ -211,12 +199,22 @@
               href: ../service-create-qr-code-for-report.md
             - name: Exportar um relatório para o Power BI Desktop (Pré-visualização)
               href: ../service-export-to-pbix.md
+            - name: Publicar conjuntos de dados e relatórios
+              href: ../desktop-upload-desktop-files.md
         - name: Visualizações
           items:
+            - name: Adicionar elementos visuais a um relatório do Power BI (parte 1)
+              href: ../visuals/power-bi-report-add-visualizations-i.md
+            - name: Adicionar elementos visuais a um relatório do Power BI (parte 2)
+              href: ../visuals/power-bi-report-add-visualizations-ii.md
             - name: Adicionar elementos visuais a relatórios do Power BI
               href: ../visuals/power-bi-report-visualizations.md
             - name: Alterar elementos visuais em relatórios do Power BI
               href: ../visuals/power-bi-report-change-visualization-type.md
+            - name: 'Personalizar títulos, fundos e legendas de elementos visuais'
+              href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
+            - name: Mostrar itens sem dados no Power BI
+              href: ../desktop-show-items-no-data.md
             - name: Aplicar limites de pontos de dados e estratégias por tipo de elemento visual
               href: ../visuals/power-bi-data-points.md
             - name: Apresentar dados subjacentes de um elemento visual
@@ -317,6 +315,8 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: Relatórios paginados
           items:
+            - name: 'Laboratório prático: Criar um relatório paginado'
+              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: Enter data directly in a paginated report (Introduzir dados diretamente num relatório paginado)
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: Criar uma origem de dados incorporada
