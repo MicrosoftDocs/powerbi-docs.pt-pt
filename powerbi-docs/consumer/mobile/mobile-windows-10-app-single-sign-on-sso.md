@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 767ea586ce35d60c99742ada6f90fe342bd59313
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: e9156e539ee9f1a344b89f7814c148829498e5fc
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114715"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435933"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Início de sessão único na aplicação móvel do Power BI para Windows
 
@@ -21,7 +21,10 @@ Leia mais sobre o início de sessão único (SSO) na aplicação móvel do Power
 
 Como a aplicação do Power BI para Windows está integrada no Azure Active Directory, pode utilizar a sua conta profissional primária, não só para iniciar sessão nos dispositivos associados a um domínio, mas também para iniciar sessão no serviço Power BI. Se estiver a ver o Power BI num Windows Phone, certifique-se de que a conta que utiliza para o Power BI está configurada como uma conta escolar ou profissional nas definições do dispositivo.  
 
-O SSO está ativado apenas para dispositivos Windows geridos pelo Windows Azure Active Directory. 
+O SSO está ativado apenas para dispositivos Windows geridos pelo Windows Azure Active Directory.
+
+>[!NOTE]
+>O suporte à aplicação móvel Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="sign-in-with-sso"></a>Iniciar sessão com SSO
 

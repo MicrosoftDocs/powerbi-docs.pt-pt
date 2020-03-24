@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 0ab2ececd4ede03a10094be53a2c08617463cc53
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c4c21dc0f02e547cd7319d789a3eb66cce1f4b88
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113126"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377357"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Relatórios paginados no serviço Power BI
 
@@ -36,7 +36,7 @@ Este relatório paginado simples gera lucro por ano, após selecionar o parâmet
 
 ![Relatório simples de um parâmetro](./media/end-user-paginated-report/power-bi-report-simple.png)
 
-Em comparação com os relatórios paginados, os relatórios do Power BI são muito mais interativos. Os relatórios do Power BI permitem a criação de relatórios ad hoc e suportam muitos outros tipos de elementos visuais, incluindo elementos visuais personalizados.
+Em comparação com os relatórios paginados, os relatórios do Power BI são muito mais interativos. Os relatórios do Power BI permitem a criação de relatórios ad hoc e suportam muitos outros tipos de elementos visuais, incluindo elementos visuais do Power BI.
 
 ## <a name="identify-a-paginated-report"></a>Identificar um relatório paginado
 

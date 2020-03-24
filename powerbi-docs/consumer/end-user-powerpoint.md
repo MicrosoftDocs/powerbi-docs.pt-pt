@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/21/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4194afb71dec7b50d75def0677489d3ff009917e
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: f9e0288c91f65d10329aaac29df8eb6e7a81f297
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113749"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377173"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportar relatórios do Power BI para o PowerPoint
 
@@ -78,7 +78,7 @@ A partir daí, pode fazer o que quiser com o conjunto do PowerPoint ou com as im
 Existem algumas considerações e limitações a ter em conta ao trabalhar com a funcionalidade **Exportar para o PowerPoint**.
 
 * Os elementos visuais Python e R não são atualmente suportados. Estes elementos visuais são exportados como imagens em branco para o PowerPoint, com uma mensagem de erro a indicar que o elemento visual não é suportado.
-* Os elementos visuais personalizados que tiverem sido certificados são suportados. Para obter mais informações sobre os elementos visuais personalizados certificados, incluindo como certificar um elemento visual, veja [Certificar um elemento visual personalizado](../developer/power-bi-custom-visuals-certified.md). Não são suportados elementos visuais personalizados que não tenham sido certificados. Estes serão exportados como imagens em branco para o PowerPoint, com uma mensagem de erro a indicar que o elemento visual não é suportado.
+* Os elementos visuais do Power BI que tiverem sido certificados são suportados. Para obter mais informações sobre os elementos visuais personalizados certificados, incluindo como certificar um elemento visual, veja [Certificar um elemento visual personalizado](../developer/power-bi-custom-visuals-certified.md). Não são suportados elementos visuais personalizados que não tenham sido certificados. Estes serão exportados como imagens em branco para o PowerPoint, com uma mensagem de erro a indicar que o elemento visual não é suportado.
 * O elemento visual ESRI não é suportado
 * Atualmente, não pode exportar relatórios com mais de 30 páginas.
 * Os elementos visuais com barras de deslocamento são exportados no respetivo estado predefinido. O elemento visual no PowerPoint mostrará apenas a parte superior dos dados. O deslocamento no PowerPoint não está disponível, dado que cada diapositivo é uma imagem. 

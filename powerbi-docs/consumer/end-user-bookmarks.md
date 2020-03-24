@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f197f2c2ca85673452a10986f19e26c5802c739
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 7d1e355f2c28679f5c2101d250a9fc2d5c99a2bd
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496658"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205648"
 ---
 # <a name="what-are-bookmarks"></a>O que são marcadores?
 
@@ -157,7 +157,7 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Nesta versão dos **marcadores**, existem algumas limitações e considerações a não esquecer.
 
-* A maioria dos elementos visuais personalizados deve funcionar devidamente com a marcação. Caso se depare com problemas com um marcador e um elemento visual personalizado, contacte o criador desse elemento visual personalizado e peça-lhe para adicionar suporte para marcadores ao elemento visual. 
+* A maioria dos elementos visuais do Power BI deve funcionar devidamente com a marcação. Caso se depare com problemas com um marcador e um elemento visual do Power BI, contacte o criador desse elemento visual do Power BI e peça-lhe para adicionar suporte para marcadores ao elemento visual.
 * Se adicionar um elemento visual numa página de relatório depois de criar um marcador, este será apresentado no estado predefinido. Isto também significa que se apresentar uma segmentação de dados numa página onde criou anteriormente marcadores, esta irá estar no estado predefinido.
 * Em geral, os seus marcadores não serão afetados se o *designer* de relatórios atualizar ou republicar o relatório. No entanto, se o designer fizer alterações significativas ao relatório, como remover campos utilizados por um marcador, será apresentada uma mensagem de erro na próxima vez que tentar abrir esse marcador. 
 

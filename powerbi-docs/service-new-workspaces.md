@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 27ebe50030fbd06f65be5530ee2a2c0a7897f0f5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426570"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488735"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho nas novas áreas de trabalho no Power BI
 
@@ -54,7 +54,7 @@ As áreas de trabalho novas e atualizadas coexistem lado a lado com as áreas de
 
 ## <a name="roles-in-the-new-workspaces"></a>Funções nas novas áreas de trabalho
 
-Para conceder acesso a uma nova área de trabalho, adicione grupos de utilizadores ou indivíduos a uma das funções da área de trabalho: visualizadores, membros, contribuidores ou administradores. Todas as pessoas num grupo de utilizadores obtêm a função que definiu. Se um utilizador estiver em vários grupos de utilizadores, recebe o nível de permissão mais elevado concedido pelas funções que lhe estão atribuídas.
+Para conceder acesso a uma nova área de trabalho, adicione grupos de utilizadores ou indivíduos a uma das funções da área de trabalho: administradores, membros, contribuidores ou visualizadores. Todas as pessoas num grupo de utilizadores obtêm a função que definiu. Se um utilizador estiver em vários grupos de utilizadores, recebe o nível de permissão mais elevado concedido pelas funções que lhe estão atribuídas.
 
 As funções permitem-lhe gerir as ações de cada utilizador numa área de trabalho, para que as equipas possam colaborar. As novas áreas de trabalho permitem-lhe atribuir funções a utilizadores individuais e a grupos de utilizadores: grupos de segurança, grupos do Office 365 e listas de distribuição. 
 
@@ -70,11 +70,14 @@ Eis as capacidades das quatro funções: administradores, membros, contribuidore
 | Publicar e atualizar uma aplicação. |  X | X  |   |   |
 | Partilhar um item ou uma aplicação.<sup>1</sup> |  X | X  |   |   |
 | Permitir que outras pessoas voltem a partilhar itens.<sup>1</sup> |  X | X  |   |   |
+| Destacar aplicações nas páginas Base dos colegas |  X | X  |   |   |
+| Destacar dashboards e relatórios nas páginas Base dos colegas |  X | X  | X |   |
 | Criar, editar e eliminar conteúdos na área de trabalho.  |  X | X  | X  |   |
 | Publicar relatórios na área de trabalho, eliminar conteúdos.  |  X | X  | X  |   |
 | Criar um relatório noutra área de trabalho com base num conjunto de dados desta área de trabalho.<sup>1</sup> |  X | X  | X  |   |
 | Copiar um relatório.<sup>2</sup> | X | X | X |  |
 | Ver e interagir com um item.<sup>3</sup> |  X | X  | X  | X  |
+| Ler dados armazenados nos fluxos de dados da área de trabalho | X | X | X | X |
 
 1. Os Contribuidores e Visualizadores podem partilhar itens numa área de trabalho se tiverem permissões para voltar a partilhar.
 2. Para copiar um relatório, bem como para criar um relatório noutra área de trabalho com base num conjunto de dados nessa área de trabalho, tem de cumprir critérios adicionais:

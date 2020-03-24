@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/19/2020
+ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 590b00f5eb03b1bd31430866a52faa4748f9b32a
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: b36bc6d23b56b4118f848ad9fa4e8f39dbc65d2d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496931"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376730"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes da Administração Pública dos EUA
 Este artigo é para clientes do US Government que estão a implementar o Power BI como parte de um plano do Office 365 para o Governo Norte-Americano. Os planos governamentais destinam-se às necessidades únicas das organizações que devem cumprir as normas de conformidade e segurança dos EUA. O serviço Power BI concebido para clientes do US Government difere da versão comercial do serviço Power BI. Estas capacidades e diferenças das funcionalidades são descritas nas secções seguintes.
@@ -28,7 +28,7 @@ Para poder obter uma subscrição do Power BI US Government e atribuir licença
 Se for um cliente novo, terá de validar a elegibilidade da sua organização para se poder inscrever num plano governamental.  Comece por preencher o [formulário de validação da elegibilidade do Office 365 para o Governo Norte-Americano](https://www.microsoft.com/microsoft-365/government/eligibility-validation). Para garantir que seleciona o plano correto para a sua organização, veja [Office 365 US Government service descriptions](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) (Descrições dos serviços do Office 365 para o Governo Norte-Americano).
 
 > [!NOTE]
-> Se já tiver implementado o Power BI num ambiente comercial e quiser migrar para a Microsoft Cloud for US Government, terá de adicionar uma nova subscrição do Power BI Pro ao seu plano do Office 365 para o Governo Norte-Americano. Em seguida, replique os dados comerciais para o serviço Power BI para US Government, remova as atribuições de licenças comerciais das contas de utilizadores e, em seguida, atribua uma licença do Power BI Pro Government às contas de utilizadores.
+> Se já tiver implementado o Power BI num ambiente comercial e quiser migrar para a Microsoft Cloud for US Government, terá de adicionar uma nova subscrição do Power BI Pro ao seu plano do Office 365 para o Governo Norte-Americano. Em seguida, replique os dados comerciais para o serviço Power BI para US Government, remova as atribuições de licenças comerciais das contas de utilizadores e, em seguida, atribua uma licença do Power BI Pro Government às contas de utilizadores.
 >
 >
 
@@ -46,7 +46,7 @@ O Office 365 fornece diferentes ambientes para que as agências governamentais 
 Após a implementação do Office 365, pode adicionar uma subscrição do Power BI. Siga a orientação passo a passo em [Inscrever a sua organização do US Government](service-govus-signup.md#existing-office-government-cloud-customers) para adquirir o serviço do Power BI Pro Government. Compre licenças suficientes para todos os utilizadores que precisam de utilizar o Power BI e, em seguida, atribua essas licenças a contas de utilizadores individuais.
 
 > [!IMPORTANT]
-> O Power BI US Government não está disponível com as licenças Gratuitas. Deve ser atribuída a cada utilizador uma licença Pro para aceder à cloud da comunidade governamental. Se uma conta de utilizador tiver uma licença Gratuita atribuída, estará autorizada a aceder apenas à cloud comercial e irá deparar-se com problemas de autenticação e acesso. Para rever as diferenças entre os tipos de licença, veja [Funcionalidades do serviço Power BI por tipo de licença](service-features-license-type.md).
+> O Power BI US Government não está disponível com as licenças Gratuitas. Deve ser atribuída a cada utilizador uma licença Pro para aceder à cloud da comunidade governamental. Se uma conta de utilizador tiver uma licença Gratuita atribuída, estará autorizada a aceder apenas à cloud comercial e irá deparar-se com problemas de autenticação e acesso. Se tiver adquirido o Power BI Premium, não tem de atribuir licenças do Pro para permitir o acesso de utilizadores.  Qualquer utilizador na organização pode aceder a relatórios partilhados com os mesmos, desde que o relatório esteja publicado com uma capacidade Premium. Para rever as diferenças entre os tipos de licença, veja [Funcionalidades do serviço Power BI por tipo de licença](service-features-license-type.md).
 >
 >
 

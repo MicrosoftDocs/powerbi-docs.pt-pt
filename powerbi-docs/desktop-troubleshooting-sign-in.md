@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 50cb15e95f051dd6860112243514464dd80a8b1e
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401166"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133215"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Resolução de problemas de início de sessão no Power BI Desktop
 Por vezes, podem ocorrer erros ao tentar iniciar sessão no **Power BI Desktop**. Existem sobretudo duas razões para ocorrerem de problemas de início de sessão: **erros de Autenticação de Proxy** e **erros de redirecionamento de URLs não HTTPS**. 
@@ -75,4 +75,37 @@ Para recolher um rastreio no **Power BI Desktop**, siga estes passos:
     `C:\Users/<user name>/AppData/Local/Microsoft/Power BI Desktop/Traces`
 
 Poderão existir vários ficheiros de rastreio nessa pasta. Confirme que apenas envia os ficheiros recentes para o seu administrador para facilitar a rápida identificação do erro. 
+
+
+## <a name="using-default-system-credentials-for-web-proxy"></a>Utilizar credenciais de sistema predefinidas para proxy Web
+
+Os pedidos Web emitidos pelo Power BI Desktop não utilizam credenciais de proxy Web. Em redes que utilizam um servidor proxy, o Power BI Desktop pode não conseguir efetuar pedidos Web com êxito. 
+
+A partir da versão de março de 2020 do Power BI Desktop, os administradores de sistemas ou redes podem permitir a utilização de credenciais de sistema predefinidas para a autenticação de proxy Web. Os administradores podem criar uma entrada de registo denominada **UseDefaultCredentialsForProxy** e definir o valor como um (1) para ativarem a utilização de credenciais de sistema predefinidas para a autenticação de proxy Web.
+
+A entrada de registo pode ser colocada numa das seguintes localizações:
+
+`[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft Power BI Desktop]`
+`[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop]`
+
+Não é necessário ter a entrada de registo em ambas as localizações.
+
+![Chave do Registo para utilizar credenciais de sistema predefinidas](media/desktop-troubleshooting-sign-in/desktop-tshoot-sign-in-03.png)
+
+Assim que a entrada de registo for criada (podendo ser necessário o reinício), as definições de proxy estabelecidas no Internet Explorer serão utilizadas quando o Power BI Desktop efetuar pedidos Web. 
+
+Tal como ocorre com qualquer alteração do proxy ou das definições das credenciais, a criação desta entrada de registo tem implicações de segurança, pelo que os administradores têm de se certificar de que configuraram os proxies do Internet Explorer corretamente antes de ativarem esta funcionalidade.         
+
+### <a name="limitations-and-considerations-for-using-default-system-credentials"></a>Limitações e considerações para a utilização de credenciais de sistema predefinidas
+
+Há várias implicações de segurança que os administradores devem ter em consideração antes de ativarem esta funcionalidade. 
+
+Ao ativar esta funcionalidade para os clientes, devem ser seguidas as seguintes recomendações:
+
+* Utilize apenas a opção **Negociação** como esquema de autenticação para o servidor proxy, para garantir que apenas os servidores proxy associados à rede do Active Directory são utilizados pelo cliente. 
+* Não utilize a **contingência de NTLM** em clientes que utilizam esta funcionalidade.
+* Se os utilizadores não estiverem numa rede com um proxy quando esta funcionalidade estiver ativa e configurada como recomendada nesta secção, o processo de tentar contactar o servidor proxy e utilizar as credenciais de sistema predefinidas não será efetuado.
+
+
+[Utilizar credenciais de sistema predefinidas para proxy Web](#using-default-system-credentials-for-web-proxy)
 

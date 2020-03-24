@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114176"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377196"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de elementos visuais no Power BI
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-Encontrará elementos visuais em relatórios, dashboards e Perguntas e Respostas. Alguns destes tipos de elementos visuais estão incorporados no Power BI e alguns são *elementos visuais personalizados*. Os elementos visuais personalizados são criados fora do Power BI e permitem que os *designers* de relatórios os adicionem a dashboards e relatórios do Power BI. 
+Encontrará elementos visuais em relatórios, dashboards e Perguntas e Respostas. Alguns destes tipos de elementos visuais estão incorporados no Power BI e alguns são *elementos visuais do Power BI*. Os elementos visuais personalizados são criados fora do Power BI e permitem que os *designers* de relatórios os adicionem a dashboards e relatórios do Power BI. 
 
 Este artigo é uma descrição geral dos elementos visuais que estão incorporados no serviço Power BI.  Estes são os elementos visuais que encontrará com mais frequência. Para obter informações detalhadas sobre um destes elementos visuais, veja [Documentação sobre tipos de elementos visuais para *designers* de relatórios do Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 > [!NOTE]
-> Para saber mais sobre elementos visuais personalizados, procure-os na secção **Power BI visuals** (Elementos visuais do Power BI) do [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Para cada elemento visual, encontrará uma descrição, informações do criador e capturas de ecrã ou um vídeo. 
+> Para saber mais sobre elementos visuais do Power BI, procure-os na secção **Power BI visuals** (Elementos visuais do Power BI) do [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Para cada elemento visual, encontrará uma descrição, informações do criador e capturas de ecrã ou um vídeo. 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Lista de elementos visuais disponíveis no Power BI
 Todos estes elementos visuais podem ser encontrados em dashboards e relatórios do Power BI, e podem ser [especificados em Perguntas e Respostas](end-user-q-and-a.md). Para saber como interagir com elementos visuais, veja [Interagir com elementos visuais em relatórios, dashboards e aplicações](end-user-visualizations.md).
@@ -237,7 +237,7 @@ Os gráficos de cascata são uma ótima opção:
 - para ilustrar o início e final do número de funcionários da sua empresa num ano
 - para visualizar a quantidade de dinheiro ganho e gasto em cada mês, e o saldo parcial da sua conta.
 
-## <a name="qna"></a>Utilizar as Perguntas e Respostas para determinar o elemento visual a utilizar
+## <a name="tell-qa-which-visual-to-use"></a><a name="qna"></a>Utilizar as Perguntas e Respostas para determinar o elemento visual a utilizar
 Ao escrever consultas em linguagem natural com as Perguntas e Respostas do Power BI, pode especificar o tipo de elemento visual na consulta.  Por exemplo:
 
 

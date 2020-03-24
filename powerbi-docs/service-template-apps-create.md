@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6b7b472b0c16c47ae2497c5dc8c74cc1c4d778d4
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041729"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436025"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Criar uma aplicação de modelo no Power BI
 
@@ -30,7 +30,7 @@ Eis os requisitos para a criação de uma aplicação de modelo:
 - Uma [licença do Power BI Pro](service-self-service-signup-for-power-bi.md)
 - Uma [instalação do Power BI Desktop](desktop-get-the-desktop.md) (opcional)
 - Conhecer os [conceitos básicos do Power BI](service-basic-concepts.md)
-- Permissões para partilhar uma aplicação de modelo publicamente. Veja as [Definições de aplicação de modelo do portal de administração](service-admin-portal.md#template-apps-settings) do Power BI para obter detalhes.
+- Permissões para partilhar publicamente uma aplicação de modelo (para obter mais informações, veja [portal de administração do Power BI, Definições das aplicações de modelo](service-admin-portal.md#template-apps-settings)
 
 ## <a name="create-the-template-workspace"></a>Criar a área de trabalho de modelo
 
@@ -87,7 +87,7 @@ Agora que tem conteúdos na sua área de trabalho, está tudo pronto para os emp
 
     Ative o **Novo construtor de navegação**, onde pode definir o painel de navegação da aplicação (veja [Conceber a experiência de navegação](service-create-distribute-apps.md#design-the-navigation-experience) neste artigo para obter detalhes).
 
-   ![Definir página de destino da aplicação](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+   ![Definir página de destino da aplicação](media/service-template-apps-create/power-bi-install-app-content.png)
     
     **Página de destino da aplicação:** se decidir desativar o construtor de navegação, terá a opção de selecionar a página de destino da aplicação. defina um relatório ou dashboard como página de destino da sua aplicação. Utilize uma página de destino que dê a impressão certa.
 
@@ -109,7 +109,7 @@ Agora que tem conteúdos na sua área de trabalho, está tudo pronto para os emp
     - **Obrigatório**: utilize esta opção para exigir que o instalador introduza um parâmetro específico do utilizador.
     - **Bloquear**: o bloqueio impede que o instalador atualize um parâmetro.
 
-    **Acesso**: na fase de teste, decida que pessoas na sua organização podem instalar e testar a sua aplicação. Não se preocupe, pode sempre regressar e alterar estas definições mais tarde (as definições não afetam o acesso à Aplicação de modelo distribuída).
+    **Acesso**: na fase de teste, decida que pessoas na sua organização podem instalar e testar a sua aplicação. Não se preocupe, pode sempre voltar atrás e alterar estas definições mais tarde. A definição não afeta o acesso à Aplicação de modelo distribuída.
 
 2. Selecione **Criar aplicação**.
 

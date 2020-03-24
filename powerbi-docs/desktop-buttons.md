@@ -1,36 +1,45 @@
 ---
 title: Utilizar botões no Power BI
-description: Os botões no Power BI Desktop permitem-lhe criar relatórios e dashboards que têm um comportamento semelhante às aplicações, o que aumenta a interação com os utilizadores
+description: Pode adicionar botões em relatórios do Power BI que fazem com que os seus relatórios se comportem como aplicações e aprofundam a cativação dos utilizadores.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a38b54bdacd0f60ee0151ad7c1a2084cebac2a37
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6629165ec031fea0d1c1af443e1d7b311bc743aa
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878719"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201648"
 ---
-# <a name="using-buttons-in-power-bi"></a>Utilizar botões no Power BI
-A utilização de **botões** no Power BI permite-lhe criar relatórios e dashboards que têm um comportamento semelhante às aplicações e, deste modo, poderá criar um ambiente apelativo onde os utilizadores podem pairar o rato, clicar e ter uma maior interação com os conteúdos do Power BI. Pode adicionar botões a relatórios no **Power BI Desktop** e partilhar ou publicar esses relatórios no serviço Power BI para criar dashboards que proporcionam aos utilizadores um comportamento semelhante às aplicações.
+# <a name="use-buttons-in-power-bi"></a>Utilizar botões no Power BI
+A utilização de **botões** no Power BI permite-lhe criar relatórios que têm um comportamento semelhante às aplicações e, deste modo, poderá criar um ambiente apelativo onde os utilizadores podem pairar o rato, clicar e ter uma maior interação com os conteúdos do Power BI. Pode adicionar botões a relatórios no **Power BI Desktop** e no **serviço Power BI**. Quando partilha os seus relatórios no serviço Power BI, estes fornecem uma experiência semelhante a uma aplicação aos seus utilizadores.
 
-![Botões no Power BI](media/desktop-buttons/desktop-buttons_01.png)
+![Botões no Power BI](media/desktop-buttons/power-bi-buttons.png)
 
-Os botões que criar no **Power BI Desktop** estão disponíveis para utilização em relatórios ou dashboards publicados no **serviço Power BI**.
+## <a name="create-buttons-in-reports"></a>Criar botões em relatórios
 
-## <a name="creating-buttons-in-reports"></a>Criação de botões em relatórios
-Para criar um botão num relatório do **Power BI Desktop**, no friso **Página Principal**, selecione **Botões** e será apresentado um menu pendente, onde poderá selecionar o botão pretendido a partir de uma coleção de opções, conforme indicado na imagem seguinte. 
+### <a name="create-a-button-in-power-bi-desktop"></a>Criar um botão no Power BI Desktop
 
-![Adicionar um controlo de botão no Power BI Desktop](media/desktop-buttons/desktop-buttons_02.png)
+Para criar um botão no **Power BI Desktop**, no friso **Inserir**, selecione **Botões** e será apresentado um menu pendente, onde poderá selecionar o botão pretendido a partir de um conjunto de opções, conforme indicado na imagem seguinte. 
 
-Quando cria um botão e o seleciona na tela do relatório, o painel **Visualizações** apresenta-lhe as várias formas através das quais pode personalizar o botão para que este se ajuste às suas necessidades. Por exemplo, pode ativar ou desativar o **Texto do Botão** ao ativar o controlo de deslize nesse cartão do painel **Visualizações**. Também pode alterar o ícone e o preenchimento do botão, o título e a ação efetuada quando os utilizadores clicam no botão num relatório ou dashboard, entre outras propriedades.
+![Adicionar um controlo de botão no Power BI Desktop](media/desktop-buttons/power-bi-button-dropdown.png)
 
-![Formatar um botão no Power BI Desktop](media/desktop-buttons/desktop-buttons_03.png)
+### <a name="create-a-button-in-the-power-bi-service"></a>Criar um botão no serviço Power BI
+
+Para criar um botão no **serviço Power BI**, abra o relatório na Vista de edição. Selecione **Botões** na barra de menus superior e será apresentado um menu pendente, onde poderá selecionar o botão pretendido a partir de um conjunto de opções, conforme indicado na imagem seguinte. 
+
+![Adicionar um controlo de botão no serviço Power BI](media/desktop-buttons/power-bi-button-service-dropdown.png)
+
+## <a name="customize-a-button"></a>Personalizar um botão
+
+Quer crie o botão no Power BI Desktop ou no serviço Power BI, o resto do processo será igual. Quando seleciona o botão na tela do relatório, o painel **Visualizações** apresenta-lhe as várias formas através das quais pode personalizar o botão para que este se ajuste às suas necessidades. Por exemplo, pode ativar ou desativar o **Texto do Botão** ao ativar o controlo de deslize nesse cartão do painel **Visualizações**. Também pode alterar o ícone e o preenchimento do botão, o título e a ação efetuada quando os utilizadores selecionam o botão num relatório, entre outras propriedades.
+
+![Formatar um botão num relatório do Power BI](media/desktop-buttons/power-bi-button-properties.png)
 
 ## <a name="set-button-properties-when-idle-hovered-over-or-selected"></a>Definir as propriedades de botão para predefinição (inativo), ao pairar com o rato ou quando selecionado
 
@@ -43,37 +52,46 @@ Os seguintes cartões no painel **Visualizações** permitem-lhe ajustar a forma
 * Contorno
 * Preenchimento
 
-Para selecionar a forma como um botão deve ser apresentado em cada estado, expanda um desses cartões e selecione a lista pendente apresentada na parte superior do cartão. Na imagem seguinte, pode ver o cartão **Contorno** expandido, com a lista pendente selecionada para apresentar os três estados:
+Para selecionar a forma como um botão deve ser apresentado em cada estado, expanda um desses cartões e selecione a lista pendente apresentada na parte superior do cartão. Na imagem seguinte, pode ver o cartão **Ícone** expandido, com a lista pendente selecionada para apresentar os três estados.
 
-![Os três estados de um botão no Power BI Desktop](media/desktop-buttons/desktop-buttons_04.png)
+![Os três estados de um botão num relatório do Power BI](media/desktop-buttons/power-bi-button-format.png)
 
 
 ## <a name="select-the-action-for-a-button"></a>Selecionar a ação para um botão
 
 Pode selecionar qual a ação efetuada quando o utilizador seleciona um botão no Power BI. Pode aceder às opções para ações do botão a partir do cartão **Ação** no painel **Visualizações**.
 
-![Ação para um botão no Power BI](media/desktop-buttons/desktop-buttons_05.png)
+![Ação para um botão no Power BI](media/desktop-buttons/power-bi-button-action.png)
 
-As opções para ações do botão são:
+Seguem-se as opções de ações do botão:
 
-* Back
-* Marcador
-* Perguntas e Respostas
+- **Anterior** leva o utilizador para a página anterior do relatório. Esta ação é útil para páginas de exploração.
+- **Marcador** apresenta a página do relatório associada a um marcador que está definido como o relatório atual. Saiba mais sobre os [marcadores no Power BI](desktop-bookmarks.md). 
+- A funcionalidade **Explorar (pré-visualização)** leva o utilizador para uma página de exploração filtrada para a sua seleção, sem utilizar marcadores. Saiba mais sobre os [botões de exploração em relatórios](desktop-drill-through-buttons.md).
+- A **Navegação entre páginas** leva o utilizador para uma página diferente no relatório, também sem utilizar marcadores. Veja a secção [Criar navegação entre páginas](#create-page-navigation) neste artigo para obter mais informações.
+- As **Perguntas e Respostas** abrem uma janela do **Explorador de Perguntas e Respostas**. 
 
-A seleção **Anterior** leva o utilizador para a página anterior do relatório. Isto é especialmente útil para páginas de desagregação.
-
-A seleção **Marcador** apresenta a página do relatório associada a um marcador que está definido para o relatório atual. Pode [obter mais informações sobre marcadores no Power BI](desktop-bookmarks.md). 
-
-A seleção **Perguntas e Respostas** na lista pendente apresenta uma janela do **Q&A Explorer** (Explorador de Perguntas e Respostas). 
-
-Alguns botões terão uma ação predefinida selecionada automaticamente. Por exemplo, o botão **Perguntas e Respostas** seleciona automaticamente **Perguntas e Respostas** como a ação predefinida. Pode saber mais sobre o **Q&A Explorer** (Explorador de Perguntas e Respostas) ao consultar [esta mensagem do blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer).
+Alguns botões têm uma ação predefinida selecionada automaticamente. Por exemplo, o botão **Perguntas e Respostas** seleciona automaticamente **Perguntas e Respostas** como a ação predefinida. Pode saber mais sobre o **Q&A Explorer** (Explorador de Perguntas e Respostas) ao consultar [esta mensagem do blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer).
 
 Pode experimentar ou testar os botões que criar para o seu relatório ao utilizar *Ctrl+Clique* no botão que pretende utilizar. 
+
+### <a name="create-page-navigation"></a>Criar navegação entre páginas
+
+Com o tipo de **Ação** **Navegação entre páginas**, pode criar uma experiência de navegação rapidamente sem ter de guardar ou gerir marcadores.
+
+Para configurar um botão de navegação entre páginas, crie um botão com **Navegação entre páginas** como o tipo de ação e selecione a Página de **destino**.
+
+![Ação Navegação entre páginas](media/desktop-buttons/power-bi-page-navigation.png)
+
+Pode criar um painel de navegação personalizado rapidamente. Assim, evita ter de editar e gerir marcadores se quiser alterar as páginas a apresentar no seu painel de navegação.
+
+![Criar uma página de navegação](media/desktop-buttons/power-bi-build-navigation-pane.png)
+
+Além disso, pode formatar condicionalmente a descrição, tal como faz com outros tipos de botão.
 
 ## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre funcionalidades semelhantes ou como interagir com botões, veja os artigos seguintes:
 
-* [Utilizar a pormenorização no Power BI Desktop](desktop-drillthrough.md)
-* [Apresentar um mosaico do dashboard ou um elemento visual do relatório no modo de detalhe](consumer/end-user-focus.md)
+* [Utilizar a exploração em relatórios do Power BI](desktop-drillthrough.md)
 * [Utilizar marcadores para partilhar informações e criar histórias no Power BI](desktop-bookmarks.md)
 

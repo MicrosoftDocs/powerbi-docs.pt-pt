@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 138173d30b9c37c04047c61dbd04cbd3101696aa
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: eefae2b230bf087635b79ed4645a9297b7194edd
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76753197"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525643"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Comprar e atribuir licenças de utilizador do Power BI Pro
 
@@ -28,7 +28,7 @@ O Power BI Pro é uma licença de utilizador individual que permite que os uti
 Este artigo explica como comprar licenças de utilizador do Power BI Pro no centro de administração do Microsoft 365. Após comprar as licenças, pode atribuí-las aos utilizadores no centro de administração do Microsoft 365 ou no portal do Azure.
 
 > [!NOTE]
-> A partir de 14 de janeiro de 2020, as capacidades de gestão de licenças, subscrição e aquisição self-service para os produtos do Power Platform (Power BI, Power Apps e Power Automate) estão disponíveis para clientes da cloud comercial nos Estados Unidos. Para obter mais informações, incluindo passos para ativar ou desativar a compra self-service na sua organização, veja [Self-service purchase FAQ](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq) (FAQ da compra self-service).
+> A partir de 14 de janeiro de 2020, as capacidades de gestão de licenças, subscrição e aquisição self-service para os produtos do Power Platform (Power BI, Power Apps e Power Automate) estão disponíveis para clientes da cloud comercial. Para obter mais informações, incluindo passos para ativar ou desativar a compra self-service na sua organização, veja [Self-service purchase FAQ](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq) (FAQ da compra self-service).
 
 ### <a name="prerequisites"></a>Pré-requisitos
 
@@ -52,7 +52,7 @@ Siga estes passos para comprar licenças do Power BI Pro no centro de administ
 
 6. Selecione **Pagar mensalmente** ou **Pagar o ano completo** de acordo com a forma que quer pagar.
 
-7. Em **Quantos utilizadores quer?**, introduza o número de licenças que quer comprar e, em seguida, selecione **Finalizar compra agora** e conclua a transação.
+7. Em **Quantos utilizadores quer?** , introduza o número de licenças que quer comprar e, em seguida, selecione **Finalizar compra agora** e conclua a transação.
 
 8. Para verificar a sua compra, vá para **Faturação** > **Produtos e serviços** e procure **Power BI Pro**.
 

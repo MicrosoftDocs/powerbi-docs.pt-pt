@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2020
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427559"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207258"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origens de dados no Power BI Desktop
 
@@ -90,7 +90,8 @@ A categoria **Base de dados** fornece as seguintes ligações de dados:
 * Snowflake
 * Essbase
 * Cubos AtScale
-* BI Connector Data Virtuality LDW (Beta)
+* Conector BI 
+* Data Virtuality LDW (Beta)
 * Denodo
 * Dremio
 * Exasol
@@ -124,9 +125,10 @@ A seguinte imagem mostra a janela **Obter Dados** para o **Power Platform**.
 
 A categoria **Azure** fornece as seguintes ligações de dados:
 
-* Base de dados SQL do Azure
+* Base de Dados SQL do Azure
 * Azure SQL Data Warehouse
 * Base de dados do Azure Analysis Services
+* Base de Dados do Azure para PostgreSQL
 * Armazenamento de Blobs do Azure
 * Armazenamento de Tabelas do Azure
 * Azure Cosmos DB
@@ -154,8 +156,8 @@ A categoria **Serviços Online** fornece as seguintes ligações de dados:
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (no local)
 * Microsoft Azure Consumption Insights (Beta)
-* Azure DevOps (Beta)
-* Azure DevOps Server (Beta)
+* Azure DevOps (apenas Placas)
+* Azure DevOps Server (apenas Placas)
 * Objetos do Salesforce
 * Relatórios do Salesforce
 * Google Analytics
@@ -164,7 +166,6 @@ A categoria **Serviços Online** fornece as seguintes ligações de dados:
 * Data.World – Obter Conjunto de Dados (Beta)
 * GitHub (Beta)
 * LinkedIn Sales Navigator (Beta)
-* MailChimp (Beta)
 * Marketo (Beta)
 * Mixpanel (Beta)
 * Planview Enterprise One – PRM (Beta)
@@ -178,6 +179,7 @@ A categoria **Serviços Online** fornece as seguintes ligações de dados:
 * tyGraph (Beta)
 * Webtrends (Beta)
 * ZenDesk (Beta)
+* Asana (Beta)
 * Dynamics 365 for Customer Insights (Beta)
 * Origem de Dados Emigo
 * Entersoft Business Suite (Beta)
@@ -205,6 +207,7 @@ A categoria **Outros** fornece as seguintes ligações de dados:
 * Microsoft Exchange
 * Ficheiro Hadoop (HDFS)
 * Spark
+* LLAP do Hive (Beta)
 * Script R
 * Script de Python
 * ODBC
@@ -220,6 +223,7 @@ A categoria **Outros** fornece as seguintes ligações de dados:
 * Siteimprove (Beta)
 * SurveyMonkey (Beta)
 * Tenforce (Smart)List (Beta)
+* TIBCO(R) Data Virtualization (Beta)
 * Vena (Beta)
 * Workforce Dimensions (Beta)
 * Zucchetti HR Infinity (Beta)

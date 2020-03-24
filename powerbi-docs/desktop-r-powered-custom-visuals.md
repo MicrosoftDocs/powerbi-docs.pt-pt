@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9cc5c40328955f54cb0f37567d7ff91d37a302ce
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 020967948e3f0551de50e4485be0dde450a4f18b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128249"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378691"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Utilizar elementos visuais baseados em R no Power BI
 
@@ -129,7 +129,7 @@ A equipa do Power BI está a trabalhar ativamente para mitigar estes problemas 
 
    b.  Na consola do R, execute o seguinte:
 
-       source(“C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R”)
+       source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
 
    As localizações de instalação predefinida típica são as seguintes:
 
@@ -145,7 +145,7 @@ A equipa do Power BI está a trabalhar ativamente para mitigar estes problemas 
 
    b. Se o passo anterior não funcionar, altere **Ferramentas > Opções Globais > Pacotes** no **R Studio** e ative a caixa de verificação para **Utilizar a biblioteca/proxy do Internet Explorer para HTTP** e, em seguida, repita o passo 3.b. dos passos acima.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 Veja as seguintes informações adicionais sobre a linguagem R no Power BI.
 

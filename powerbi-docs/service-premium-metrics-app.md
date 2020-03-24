@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 12/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b7a45309c3bfad27cc3b26990ee148a9e44b8998
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75927120"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488689"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Aplicação Métricas do Power BI Premium
 
@@ -42,13 +42,13 @@ Para ver informações específicas sobre cada KPI, selecione o botão **Explora
 
 ## <a name="the-active-memory-metric"></a>Métrica “memória ativa”
 
-A métrica **memória ativa** faz parte da categoria *planeamento da capacidade*, que serve como indicador do bom estado de funcionamento para avaliar o consumo de utilização dos recursos da capacidade, para que assim possa ajustar a capacidade conforme necessário para planear o dimensionamento da capacidade. 
+A métrica **memória ativa** faz parte da categoria *planeamento de capacidade*, que serve como indicador do bom estado de funcionamento para avaliar o consumo de utilização dos recursos da capacidade, para que assim possa ajustar a capacidade conforme necessário para planear o dimensionamento da capacidade. 
 
 ![KPI “memória ativa”](media/service-premium-metrics-app/premium-metrics-app-02.png)
 
 A **memória ativa** é a memória utilizada para processar os conjuntos de dados que estão atualmente em utilização e que, portanto, não serão expulsos quando a memória é necessária. A métrica “memória ativa” indica se a sua capacidade consegue lidar com carga adicional ou se já se encontra perto ou acima da capacidade, a carga atual da capacidade. A memória ativa que está a ser atualmente consumida significa que se encontra disponível menos memória para suportar consultas e atualizações adicionais. 
 
-O KPI **memória ativa** mede quantas vezes a memória ativa da capacidade ultrapassou o limiar de 70% 50 vezes (o marcador está definido para 30% nos últimos sete dias), o que indica que a capacidade se está a aproximar de um ponto no qual os utilizadores poderão começar a ter problemas de desempenho com as consultas.
+O KPI **memória ativa** mede quantas vezes a memória ativa da capacidade ultrapassou o limiar de 70% 50 vezes (o marcador está definido como 30% nos últimos sete dias), o que indica que a capacidade se está a aproximar de um ponto no qual os utilizadores poderão começar a ter problemas de desempenho com as consultas.
 
 O elemento visual do medidor nesta secção revela que, nos últimos sete dias a partir do momento em que o relatório foi atualizado pela última vez, a capacidade ultrapassou o limiar de 70% quatro vezes, dividida em registos horários. O valor máximo do medidor, 168, representa os últimos sete dias em horas.
 
@@ -78,7 +78,7 @@ Quando vê estes casos, deve analisar atentamente os outros gráficos na página
 
 O segundo elemento visual na página, **B: Conjuntos de dados ativos carregados por hora**, apresenta as contagens do número máximo de conjuntos de dados que foram carregados na memória, em registos horários. 
 
-O terceiro elemento visual, **C: Por que é que os conjuntos de dados estão na memória**, é uma tabela que lista o conjunto de dados por nome de área de trabalho, nome do conjunto de dados, tamanho não comprimido de conjuntos de dados na memória e explica o motivo pelo qual está carregado na memória (por exemplo, está a ser atualizado, consultado ou ambos).
+O terceiro elemento visual, **C: Porque é que os conjuntos de dados estão na memória**, é uma tabela que lista o conjunto de dados por nome de área de trabalho, nome do conjunto de dados, tamanho não comprimido de conjuntos de dados na memória e explica o motivo pelo qual está carregado na memória (por exemplo, está a ser atualizado, consultado ou ambos).
 
 #### <a name="diagnosing-scenario-one"></a>Diagnosticar o cenário um
 
@@ -262,7 +262,7 @@ Se não existir memória suficiente para carregar um conjunto de dados para uma 
 
 Para diagnosticar o cenário um, determine primeiro se a limitação se deve a memória insuficiente. Os passos para o fazer são os seguintes.
 
-1.  Selecione o conjunto no qual está interessado na **Tabela A** ao clicar no mesmo: 
+1.    Selecione o conjunto no qual está interessado na **Tabela A** ao clicar no mesmo: 
 
     ![Tabela A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -305,7 +305,7 @@ Para capacidades dedicadas, o Power BI limita o número de atualizações que p
 
 Para diagnosticar o cenário dois, determine primeiro se a limitação se deve a ter alcançado a simultaneidade máxima para as atualizações. Os passos para o fazer são os seguintes.
 
-1.  Selecione o conjunto no qual está interessado na **Tabela A** ao clicar no mesmo: 
+1.    Selecione o conjunto no qual está interessado na **Tabela A** ao clicar no mesmo: 
 
     ![Tabela A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -341,6 +341,6 @@ Para diagnosticar o cenário dois, determine primeiro se a limitação se deve a
 * [Documento técnico do Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 * [Documento técnico sobre Planear uma Implementação Empresarial do Power BI](https://aka.ms/pbienterprisedeploy)
 * [Ativação da Versão de Avaliação Pro alargada](service-extended-pro-trial.md)
-* [FAQ do Power BI Embedded](developer/embedded-faq.md)
+* [FAQ do Power BI Embedded](developer/embedded/embedded-faq.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

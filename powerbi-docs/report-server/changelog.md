@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237966"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381106"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registo de alterações do Power BI Report Server
 
@@ -200,7 +200,7 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
         - Funcionalidades
             - Agora os Relatórios do Power BI suportam o DirectQuery SSO SAP HANA com o Kerberos
             - API de Elemento Visual Personalizado fornecida com o lançamento – versão 1.13.0
-            - Os elementos visuais personalizados serão revertidos para uma versão anterior compatível com a versão atual da API do servidor (caso compatível)
+            - Os elementos visuais do Power BI serão revertidos para uma versão anterior compatível com a versão atual da API do servidor (caso esteja disponível)
 
 - **Power BI Desktop (otimizado para o Power BI Report Server)**
     - *Versão: 2.61.5192.641 (agosto de 2018), Lançamento: 15 de agosto de 2018*
@@ -322,7 +322,7 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
             - A etiqueta `{{UserId}}` é resolvida para as credenciais armazenadas em vez do utilizador que executa o relatório nos Relatórios do Power BI
             - A composição de algumas imagens falha nos relatórios do Power BI Report Server
             - Não é possível alterar o nome de um Relatório do Power BI no Power BI Report Server
-            - Não é possível carregar Elementos Visuais Personalizados na aplicação móvel do Power BI (exige a reinstalação da aplicação móvel para limpar a cache local)
+            - Não é possível carregar elementos visuais do Power BI na aplicação móvel Power BI (exige a reinstalação da aplicação móvel para limpar a cache local)
 
     - *Compilação 14.0.600.271, Lançamento: 12 de junho de 2017*
         - Versão inicial do Power BI Report Server

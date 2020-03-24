@@ -9,12 +9,12 @@ ms.date: 03/11/2020
 ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: 7318ec8f7305920d107424f381ca59b8836fe8da
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 3eb8aafca2257bff12d3b248d4f3c1d43708e563
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114804"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435405"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>O que são as aplicações móveis do Power BI?
 O Power BI oferece um conjunto de aplicações móveis para dispositivos móveis iOS, Android e Windows 10. Nas aplicações móveis, pode ligar-se e interagir com os seus dados na cloud e no local. 
@@ -35,7 +35,10 @@ Pode criar relatórios no Power BI Desktop. Pode criar dashboards e ver relató
 | [![iPad](./media/mobile-apps-for-mobile-devices/ipad-logo-50-px.png)](mobile-iphone-app-get-started.md) |No **iPad**, a aplicação móvel do Power BI apresenta dashboards e relatórios do modo para o qual foram formatados para o serviço Power BI. Também pode ver os seus [KPIs e relatórios do Power BI Report Server e Reporting Services](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) diretamente no iPad. Pode [definir alertas de dados na aplicação móvel do Power BI](mobile-set-data-alerts-in-the-mobile-apps.md) para notificá-lo quando os dados num dashboard são alterados para além dos limites que definiu. <br/>Introdução à [aplicação móvel do Power BI para iOS](mobile-iphone-app-get-started.md). |
 | [![Telemóvel Android](media/mobile-apps-for-mobile-devices/android-phone-logo-50-px.png)](mobile-android-app-get-started.md) |A aplicação móvel do Power BI para **telemóvel Android** traz o Power BI ao seu bolso, com acesso móvel atualizado e tátil às suas informações empresariais. Pode [filtrar um relatório com base na sua localização geográfica](mobile-apps-geographic-filtering.md). Pode [ler códigos QR com o seu telemóvel Android](mobile-apps-qr-code.md) e aceder diretamente a um dashboard ou relatório do Power BI. <br/>Introdução à [aplicação móvel do Power BI para Android](mobile-android-app-get-started.md). |
 | [![Tablet Android](./media/mobile-apps-for-mobile-devices/android-tablet-logo-50-px.png)](mobile-android-app-get-started.md) |Esta aplicação móvel é executada em diversos **tablets Android**, dando-lhe acesso móvel atualizado e tátil às suas informações empresariais. No tablet Android, a aplicação móvel do Power BI mostra dashboards e relatórios do modo para o qual foram formatados para o serviço Power BI. Pode [marcar os seus dashboards e relatórios favoritos](mobile-apps-favorites.md), para que possa aceder rapidamente aos mesmos, juntamente com os seus KPIs e relatórios favoritos do Power BI Report Server e Reporting Services. <br/>Introdução à [aplicação móvel do Power BI para Android](mobile-android-app-get-started.md). |
-| [![Dispositivos Windows](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../desktop-getting-started.md) |A aplicação móvel do Power BI para Windows 10 é executada em qualquer dispositivo Windows 10, incluindo telemóveis com Windows 10. Juntamente com muitas das funcionalidades das outras aplicações móveis, a aplicação móvel do Power BI para Windows 10 oferece funcionalidades especiais. Por exemplo, pode [afixar um dashboard do Power BI ao ecrã Início do Windows 10](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) a partir da aplicação móvel do Power BI. Além disso, pode [executar o Power BI no modo de apresentação no Surface Hub](mobile-windows-10-app-presentation-mode.md) e na aplicação móvel do Power BI para Windows 10. <br/>Introdução à [aplicação móvel do Power BI para dispositivos Windows 10](mobile-windows-10-phone-app-get-started.md). ||| 
+| [![Dispositivos Windows](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../desktop-getting-started.md) |A aplicação móvel do Power BI para Windows 10 é executada em qualquer dispositivo Windows 10, incluindo telemóveis com Windows 10. Juntamente com muitas das funcionalidades das outras aplicações móveis, a aplicação móvel do Power BI para Windows 10 oferece funcionalidades especiais. Por exemplo, pode [afixar um dashboard do Power BI ao ecrã Início do Windows 10](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) a partir da aplicação móvel do Power BI. Além disso, pode [executar o Power BI no modo de apresentação no Surface Hub](mobile-windows-10-app-presentation-mode.md) e na aplicação móvel do Power BI para Windows 10. <br/>Introdução à [aplicação móvel do Power BI para dispositivos Windows 10](mobile-windows-10-phone-app-get-started.md). |||
+
+>[!NOTE]
+>O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Suporte empresarial para aplicações móveis do Power BI
 As organizações podem utilizar o Microsoft Intune para gerir dispositivos e aplicações, incluindo as aplicações móveis do Power BI para Android e iOS.

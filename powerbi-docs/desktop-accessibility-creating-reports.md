@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae13bc69d7049dc9cf5c9d71ce0961ec566252bf
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925696"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379105"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Criar relatórios do Power BI para acessibilidade
 Pode conceber e criar relatórios apelativos não negligenciando a acessibilidade. Sempre que criar um relatório, independentemente da audiência a que se destina, deve criá-lo para ser utilizável pelo máximo número de pessoas possível, sem necessidade de ser adaptado a um tipo de conceção especial.
@@ -123,7 +123,7 @@ Para definir a ordem de tabulação, selecione o separador **Ver** no friso e se
 
 ![Menu Ver para mostrar o painel de seleção](media/desktop-accessibility/accessibility-creating-reports-08.png)
 
-No painel **Seleção**, se selecionar **Ordem de tabulação**, é apresentada a ordem de tabulação atual do relatório. Pode selecionar um objeto e, em seguida, utilizar os botões de seta para cima e seta para baixo para mover o objeto na hierarquia, ou pode selecionar um objeto com o rato e arrastá-lo para a posição pretendida na lista. Se clicar no número junto a um objeto, ocultará o objeto da ordem de tabulação.
+No painel **Seleção**, se selecionar **Ordem de tabulação**, é apresentada a ordem de tabulação atual do relatório. Pode selecionar um objeto e, em seguida, utilizar os botões de seta para cima e seta para baixo para mover o objeto na hierarquia. Em alternativa, pode selecionar um objeto com o rato e arrastá-lo para a posição pretendida na lista. Se clicar no número junto a um objeto, ocultará o objeto da ordem de tabulação.
 
 ![Ordem de tabulação no painel de seleção](media/desktop-accessibility/accessibility-creating-reports-09.png)
 
@@ -162,7 +162,7 @@ Apesar de sugerirmos que os autores de relatórios ativem as etiquetas de dados 
 
 ![Reflita bem sobre a aplicação de etiquetas de dados](media/desktop-accessibility/accessibility-creating-reports-16.png)
 
-Se achar que o seu elemento visual ou relatório poderá ter demasiado ruído, teste-o fazendo um [teste de olhar](https://chrome.google.com/webstore/detail/the-squint-test/gppnipfbappicilfniaimcnagbpfflpg).  Se os seus olhos forem mais atraídos para as etiquetas de dados do que para os pontos de dados, desative as etiquetas de dados.
+Se achar que o seu elemento visual ou relatório poderá estar demasiado confuso, teste-o através da ferramenta [The Squint Test](https://chrome.google.com/webstore/detail/the-squint-test/gppnipfbappicilfniaimcnagbpfflpg).  Se os seus olhos forem mais atraídos para as etiquetas de dados do que para os pontos de dados, desative as etiquetas de dados.
 
 
 ### <a name="themes-contrast-and-colorblind-friendly-colors"></a>Temas, contraste e cores adequadas para daltónicos
@@ -253,8 +253,8 @@ Além de fornecer funcionalidades e ferramentas de acessibilidade, o Power BI di
 * Certifique-se de que todas as imagens decorativas estão marcadas como ocultas na ordem de tabulação, para que não sejam anunciadas por um leitor de ecrã.
 * Evite utilizar demasiadas imagens decorativas ao ponto de provocarem distração.
 
-### <a name="custom-visuals"></a>Elementos visuais personalizados
-* Verifique os elementos visuais personalizados na tabela acessível **Mostrar Dados**. Se as informações apresentadas não forem suficientes, procure outro elemento visual.
+### <a name="power-bi-visuals"></a>Elementos Visuais do Power BI
+* Verifique os elementos visuais do Power BI na tabela acessível **Mostrar Dados**. Se as informações apresentadas não forem suficientes, procure outro elemento visual.
 * Se utilizar o elemento visual personalizado *Eixo de Reprodução*, certifique-se de que o mesmo não é reproduzido automaticamente. Torne evidente que o utilizador tem de premir o botão reproduzir/pausar para iniciar/parar a alteração de valores.
 
 ### <a name="across-visuals-on-the-page"></a>Em todos os elementos visuais na página

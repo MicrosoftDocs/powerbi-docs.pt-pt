@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 2c7ae8180f51592319c9aaca85272553480cd283
-ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
+ms.openlocfilehash: bad6b507e970319003a8d338ecf29a2afc948e9c
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/27/2019
-ms.locfileid: "75498506"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435565"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Criar e ver favoritos nas aplicações móveis do Power BI
 Aplica-se a:
@@ -21,6 +21,9 @@ Aplica-se a:
 | ![iPhone](./media/mobile-apps-favorites/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-favorites/ipad-logo-50-px.png) | ![Telemóvel Android](./media/mobile-apps-favorites/android-phone-logo-50-px.png) | ![Tablet Android](./media/mobile-apps-favorites/android-tablet-logo-50-px.png) | ![Tablet Android](./media/mobile-apps-favorites/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Telemóveis Android |Tablets Android |Dispositivos Windows 10 |
+
+>[!NOTE]
+>O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Leia mais sobre como criar e ver os dashboards, relatórios e aplicações favoritos do Power BI, bem como os relatórios e KPIs favoritos no local do Power BI Report Server e Reporting Services, nas aplicações móveis.
 

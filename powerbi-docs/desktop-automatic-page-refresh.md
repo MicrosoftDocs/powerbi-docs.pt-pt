@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 50daa90f937a9d1c7081d9b22e3c743da950945c
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: e7e5e406a0a4c9cdcecfab5a5af681857600feb5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548571"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488528"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Automatic page refresh in Power BI Desktop (preview) (Atualização automática de páginas no Power BI Desktop [pré-visualização])
 
@@ -35,9 +35,9 @@ A imagem seguinte mostra o cartão **Atualização de página**. As explicaçõe
 
 ![Cartão de atualização de página](media/desktop-automatic-page-refresh/automatic-page-refresh-02.png)
 
-1.  Controlo de deslize da Atualização Automática de Página – ativa/desativa a atualização de página
-2.  Valor do intervalo da atualização de página – valor do número para o intervalo de atualização
-3.  Unidade de intervalo da atualização de página – unidade de intervalo para a atualização de página
+1.    Controlo de deslize da Atualização Automática de Página – ativa/desativa a atualização de página
+2.    Valor do intervalo da atualização de página – valor do número para o intervalo de atualização
+3.    Unidade de intervalo da atualização de página – unidade de intervalo para a atualização de página
 
 Aqui, pode ativar a atualização de página e selecionar a duração da atualização. O valor predefinido é de 30 minutos (o intervalo de atualização mínimo é de um segundo). O relatório começará a ser atualizado com o intervalo definido. 
 
@@ -52,7 +52,7 @@ Como melhor prática, o intervalo de atualização deve, pelo menos, corresponde
 * Se os novos dados chegarem a cada segundo, o intervalo deverá ser definido como um segundo. 
 
 
-Para intervalos de atualização baixos, como um segundo, deve também considerar o tipo da origem de dados de consulta direta, a carga que as consultas criam sobre a mesma, a distância a que ficam os visualizadores dos relatórios do datacenter da capacidade e etc. 
+Para intervalos de atualização baixos, como um segundo, deve também considerar o tipo da origem de dados de consulta direta, a carga que as consultas criam sobre a mesma, a distância a que ficam os visualizadores dos relatórios do datacenter da capacidade, entre outros aspetos. 
 
 Pode fazer uma estimativa com o Analisador de Desempenho no Power BI Desktop, que lhe permite confirmar se cada consulta visual tem tempo suficiente para regressar com o resultado da origem e onde o tempo é gasto. Com base nos resultados do Analisador de Desempenho, pode ajustar e fazer alterações à origem de dados ou pode experimentar com outros elementos visuais e outras medidas no relatório.
 
@@ -60,12 +60,12 @@ A seguinte imagem mostra os resultados de um DirectQuery no Analisador de Desemp
 
 ![Resultados do analisador de desempenho](media/desktop-automatic-page-refresh/automatic-page-refresh-03.png)
 
-Vamos considerar outras características sobre esta origem de dados. 
+Vamos considerar outras caraterísticas sobre esta origem de dados. 
 
-1.  Os dados chegam a uma taxa de dois segundos. 
-2.  O analisador de desempenho mostra uma consulta máxima + tempo de apresentação de aproximadamente 4,9 segundos (4688 milissegundos). 
-3.  A origem de dados está configurada para lidar com aproximadamente 1000 consultas simultâneas por segundo. 
-4.  Espera que aproximadamente 10 utilizadores visualizem o relatório em simultâneo.
+1.    Os dados chegam a uma taxa de dois segundos. 
+2.    O analisador de desempenho mostra uma consulta máxima + tempo de apresentação de aproximadamente 4,9 segundos (4688 milissegundos). 
+3.    A origem de dados está configurada para lidar com aproximadamente 1000 consultas simultâneas por segundo. 
+4.    Espera que aproximadamente 10 utilizadores visualizem o relatório em simultâneo.
 
 O que resulta no seguinte:
 
@@ -83,13 +83,13 @@ Em seguida, vamos ver como pode, potencialmente, detetar e diagnosticar problema
 
 Também pode definir os intervalos de atualização automática de página para os relatórios que foram criados no Power BI Desktop e publicados no serviço Power BI. 
 
-A atualização automática de página para os relatórios no serviço Power BI é configurada com passos semelhantes à configuração no Power BI Desktop. Quando está configurada no serviço Power BI, a atualização de página automática também suporta conteúdos do [Power BI Embedded](developer/embedding.md). A imagem a seguir mostra a configuração da **Página de atualização** para o serviço Power BI:
+A atualização automática de página para os relatórios no serviço Power BI é configurada com passos semelhantes à configuração no Power BI Desktop. Quando está configurada no serviço Power BI, a atualização de página automática também suporta conteúdos do [Power BI Embedded](developer/embedded/embedding.md). A imagem a seguir mostra a configuração da **Página de atualização** para o serviço Power BI:
 
 ![Atualização automática de página no serviço Power BI](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 
-1.  Controlo de deslize da Atualização Automática de Página – ativa/desativa a atualização de página
-2.  Valor do intervalo da atualização de página – o valor do número para o intervalo de atualização ( deve ser um número inteiro)
-3.  Unidade de intervalo da atualização de página – unidade de intervalo para a atualização de página
+1.    Controlo de deslize da Atualização Automática de Página – ativa/desativa a atualização de página
+2.    Valor do intervalo da atualização de página – o valor do número para o intervalo de atualização ( deve ser um número inteiro)
+3.    Unidade de intervalo da atualização de página – unidade de intervalo para a atualização de página
 
 ### <a name="page-refresh-intervals"></a>Intervalos da atualização de páginas
 

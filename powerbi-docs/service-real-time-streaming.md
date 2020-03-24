@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 047aa5e19089555538c874702dd50da0f1146ff1
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: ed1100a418259845e6a2656e1c5bab6d80358df0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2020
-ms.locfileid: "77115291"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381083"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmissão em fluxo em tempo real no Power BI
 Com a transmissão em fluxo em tempo real do Power BI, pode transmitir dados em fluxo e atualizar dashboards em tempo real. Também é possível criar qualquer elemento visual ou dashboard passível de geração no Power BI de modo a apresentar e atualizar elementos visuais e dados em tempo real. Os dispositivos e as origens de dados de transmissão em fluxo podem ser sensores de fábrica, origens de redes sociais, métricas de utilização de serviços, entre outros itens a partir dos quais é possível recolher ou transmitir dados temporários.
@@ -33,7 +33,7 @@ Existem três tipos de conjunto de dados em tempo real concebidos para serem apr
 Primeiro, vamos compreender as diferenças que distinguem estes conjuntos de dados entre si (esta secção) e, em seguida, vamos debater como emitir dados via push para cada um destes conjuntos de dados.
 
 ### <a name="push-dataset"></a>Conjunto de dados push
-Com um **conjunto de dados push**, os dados são emitidos via push para o serviço Power BI. Quando o conjunto de dados é criado, o serviço Power BI cria automaticamente uma nova base de dados no serviço para armazenar os dados. Uma vez que há uma base de dados subjacente que continua a armazenar os dados à medida que estes vão dando entrada, é possível criar relatórios com os dados. Estes relatórios e os respetivos elementos visuais são semelhantes a qualquer outro elemento visual de relatório, o que significa que pode utilizar todas as funcionalidades de criação de relatórios do Power BI para criar elementos visuais, incluindo elementos visuais personalizados, alertas de dados, mosaicos de dashboard afixados e muito mais.
+Com um **conjunto de dados push**, os dados são emitidos via push para o serviço Power BI. Quando o conjunto de dados é criado, o serviço Power BI cria automaticamente uma nova base de dados no serviço para armazenar os dados. Uma vez que há uma base de dados subjacente que continua a armazenar os dados à medida que estes vão dando entrada, é possível criar relatórios com os dados. Estes relatórios e os elementos visuais são semelhantes a qualquer outro elemento visual de relatório, o que significa que pode utilizar todas as funcionalidades de criação de relatórios do Power BI para criar elementos visuais, incluindo elementos visuais do Power BI, alertas de dados, mosaicos de dashboard afixados e mais.
 
 Assim que um relatório for criado com o conjunto de dados push, é possível afixar qualquer um dos respetivos elementos visuais a um dashboard. Nesse dashboard, os elementos visuais são atualizados em tempo real sempre que os dados são atualizados. No serviço, por sua vez, o dashboard aciona uma atualização de mosaicos sempre que são recebidos novos dados.
 
@@ -45,16 +45,16 @@ Existem dois factos a ter em atenção no que diz respeito a mosaicos afixados a
 ### <a name="streaming-dataset"></a>Conjunto de dados de transmissão
 Com um **conjunto de dados de transmissão em fluxo**, os dados também são emitidos via push para o serviço Power BI, com uma diferença importante: o Power BI só armazena os dados numa cache temporária, que expira rapidamente. A cache temporária só é utilizada para apresentar elementos visuais que tenham algum sentido transitório em termos de histórico, como um gráfico de linhas com um intervalo de tempo de uma hora.
 
-Com um **conjunto de dados de transmissão em fluxo**, *não* há qualquer base de dados subjacente, pelo que *não pode* criar elementos visuais de relatório com os dados transmitidos a partir do fluxo. Isso significa que não pode utilizar funcionalidades de relatório como a filtragem, os elementos visuais personalizados e outras funções de relatório.
+Com um **conjunto de dados de transmissão em fluxo**, *não* há qualquer base de dados subjacente, pelo que *não pode* criar elementos visuais de relatório com os dados transmitidos a partir do fluxo. Isso significa que não pode utilizar funcionalidades de relatório como a filtragem, os elementos visuais do Power BI e outras funções de relatório.
 
-A única forma de visualizar um conjunto de dados de transmissão em fluxo consiste em adicionar um mosaico e utilizar o conjunto de dados de transmissão em fluxo como uma origem de **dados de transmissão em fluxo personalizados**. Os mosaicos de transmissão em fluxo personalizados baseados num **conjunto de dados de transmissão em fluxo** estão otimizados para apresentar rapidamente os dados em tempo real. Existe uma latência muito ténue entre o momento em que os dados são emitidos via push para o serviço Power BI e a altura em que o elemento visual é atualizado, uma vez que não há necessidade de proceder à introdução ou leitura dos dados a partir de uma base de dados.
+A única forma de visualizar um conjunto de dados de transmissão em fluxo consiste em adicionar um mosaico e utilizar o conjunto de dados de transmissão em fluxo como uma origem de **dados de transmissão em fluxo personalizados**. Os mosaicos de transmissão em fluxo personalizados baseados num **conjunto de dados de transmissão em fluxo** estão otimizados para apresentar rapidamente os dados em tempo real. Existe uma latência muito ténue entre o momento em que os dados são emitidos via push para o serviço Power BI e a altura em que o elemento visual é atualizado, uma vez que não há necessidade de proceder à introdução ou leitura dos dados a partir de uma base de dados.
 
 Na prática, os conjuntos de dados de transmissão em fluxo e os elementos visuais de transmissão em fluxo que lhes estão associados são mais úteis em situações nas quais é fundamental minimizar a latência entre o momento em que os dados são emitidos via push e a visualização dos mesmos. Além disso, as melhores práticas recomendam que os dados sejam emitidos via push num formato que possa ser visualizado tal como está, sem agregações adicionais. Exemplos de dados prontos tal como estão incluem temperaturas e médias pré-calculadas.
 
 ### <a name="pubnub-streaming-dataset"></a>Conjunto de dados de transmissão em fluxo PubNub
 Com um conjunto de dados de transmissão em fluxo **PubNub**, o cliente Web do Power BI utiliza o SDK de PubNub para ler um fluxo de dados PubNub existente e não são armazenados quaisquer dados pelo serviço Power BI.
 
-À semelhança do **conjunto de dados de transmissão em fluxo**, com o **conjunto de dados de transmissão em fluxo PubNub** não há qualquer base de dados subjacente no Power BI, pelo que não pode criar elementos visuais de relatório com base nos dados transmitidos em fluxo, da mesma forma que não pode tirar partido das funcionalidades de relatório, como a filtragem, os elementos visuais personalizados, entre outros. Como tal, o **conjunto de dados de transmissão em fluxo PubNub** também só pode ser visualizado quando se adiciona um mosaico ao dashboard e se configura um fluxo de dados PubNub como origem.
+À semelhança do **conjunto de dados de transmissão em fluxo**, com o **conjunto de dados de transmissão em fluxo PubNub** não há qualquer base de dados subjacente no Power BI, pelo que não pode criar elementos visuais de relatório com base nos dados transmitidos em fluxo, da mesma forma que não pode tirar partido das funcionalidades de relatório, como a filtragem, os elementos visuais do Power BI, entre outras. Como tal, o **conjunto de dados de transmissão em fluxo PubNub** também só pode ser visualizado quando se adiciona um mosaico ao dashboard e se configura um fluxo de dados PubNub como origem.
 
 Os mosaicos baseados num **conjunto de dados de transmissão em fluxo PubNub** estão otimizados para apresentar rapidamente os dados em tempo real. Uma vez que o Power BI está diretamente ligado ao fluxo de dados PubNub, existe uma latência muito ténue entre o momento em que os dados são emitidos via push para o serviço Power BI e a altura em que o elemento visual é atualizado.
 
@@ -64,9 +64,7 @@ A tabela que se segue (ou matriz, se preferir) descreve os três tipos de conjun
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> Veja [este artigo](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations) para obter informações sobre as limitações de **Push** no que se refere à quantidade de dados que podem ser emitidos via push.
-> 
-> 
+> Veja [este artigo](developer/automation/api-rest-api-limitations.md) para obter informações sobre as limitações de **Push** no que se refere à quantidade de dados que podem ser emitidos via push.
 
 ## <a name="pushing-data-to-datasets"></a>Emitir dados via push para conjuntos de dados
 Na secção anterior, foram descritos os três principais tipos de conjunto de dados em tempo real que pode utilizar na transmissão em fluxo em tempo real, bem como as diferenças que os distinguem. Esta secção descreve como criar e emitir dados via push para esses conjuntos de dados.
@@ -110,7 +108,7 @@ Quando a **Análise de histórico de dados** está desativada (e está desativad
 ### <a name="using-azure-stream-analytics-to-push-data"></a>Utilizar o Azure Stream Analytics para emitir dados via push
 Pode adicionar o Power BI como uma saída no **Azure Stream Analytics** (ASA) e, em seguida, visualizar esses fluxos de dados no serviço Power BI em tempo real. Esta secção descreve os detalhes técnicos de como esse processo decorre.
 
-O Azure Stream Analytics utiliza as APIs REST do Power BI para criar o respetivo fluxo de dados de saída para o Power BI, com o sinalizador *defaultMode* definido como *pushStreaming* (consulte as secções anteriores deste artigo para obter informações sobre o sinalizador *defaultMode*), o que resulta num conjunto de dados capaz de tirar partido das vertentes **push** e **transmissão em fluxo**. No decorrer da criação do conjunto de dados, o Azure Stream Analytics também define o sinalizador **retentionPolicy* como *basicFIFO*. Com essa definição, a base de dados que suporta o conjunto de dados push armazena 200 000 linhas. Uma vez atingido esse limite, as linhas são ignoradas segundo a ordem de entrada, com base no princípio first in, first out (FIFO).
+O Azure Stream Analytics utiliza as APIs REST do Power BI para criar o respetivo fluxo de dados de saída para o Power BI, com o sinalizador *defaultMode* definido como *pushStreaming* (consulte as secções anteriores deste artigo para obter informações sobre o sinalizador *defaultMode*), o que resulta num conjunto de dados capaz de tirar partido das vertentes **push** e **transmissão em fluxo**. Durante a criação do conjunto de dados, o Azure Stream Analytics também define o sinalizador **retentionPolicy** como *basicFIFO*. Com essa definição, a base de dados que suporta o conjunto de dados push armazena 200 000 linhas. Uma vez atingido esse limite, as linhas são ignoradas segundo a ordem de entrada, com base no princípio first in, first out (FIFO).
 
 > [!CAUTION]
 > Se a consulta do Azure Stream Analytics resultar numa saída muito rápida para o Power BI (por exemplo, uma ou duas vezes por segundo), o Azure Stream Analytics começará a organizar essas saídas em lotes agregados num único pedido. Isto pode fazer com que o tamanho do pedido exceda o limite de mosaicos de transmissão em fluxo. Nesse caso, tal como mencionado em secções anteriores, os mosaicos de transmissão em fluxo não serão compostos. Nesse tipo de situações, a melhor prática consiste em reduzir a taxa de saída de dados para o Power BI. Por exemplo, em vez de um valor máximo por cada segundo, defina um máximo para 10 segundos.
@@ -225,7 +223,7 @@ Não é possível modelar conjuntos de dados de transmissão em fluxo, uma vez q
 #### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>O que devo fazer para limpar todos os valores presentes num conjunto de dados push? E em relação a um conjunto de dados de transmissão em fluxo?
 Num conjunto de dados push, pode utilizar a chamada de API REST de eliminação de linhas. Neste momento, não existe forma de limpar os dados de um conjunto de dados de transmissão em fluxo, apesar de os mesmos serem limpos automaticamente ao fim de uma hora.
 
-#### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Configurei uma saída do Azure Stream Analytics para o Power BI, mas esta não aparece no Power BI. O que aconteceu?
+#### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Configurei uma saída do Azure Stream Analytics para o Power BI, mas esta não aparece no Power BI. O que aconteceu?
 Segue-se uma lista de verificação que pode utilizar para resolver o problema:
 
 1. Reinicie a tarefa do Azure Stream Analytics (as tarefas criadas antes da disponibilização de GA de transmissão em fluxo terão de ser reiniciadas)

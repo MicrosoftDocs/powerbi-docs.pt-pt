@@ -7,16 +7,16 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: ad63a1b97c744e8614e584874c4d896a85598e48
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819129"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379939"
 ---
-# <a name="add-the-locale-in-power-bi-for-custom-visuals"></a>Adicionar a região do Power BI para obter elementos visuais personalizados
+# <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Adicionar a região do Power BI para obter elementos visuais do Power BI
 
 Os elementos visuais podem obter a região do Power BI para localizar os respetivos conteúdos para o idioma aplicável.
 
@@ -24,7 +24,7 @@ Leia mais sobre [Idiomas com suporte e países/regiões do Power BI](./../../sup
 
 Por exemplo, obter a região do elemento visual Gráfico de Barras de Exemplo.
 
-![Localização no elemento visual Gráfico de Barras de Exemplo](media/locale-in-samplebarchart.png)
+![Localização no elemento visual Gráfico de Barras de Exemplo](media/localization/locale-in-samplebarchart.png)
 
 Cada um destes gráficos de barras foi criado numa região diferente (Inglês, Basco, Hindi) e é apresentado na descrição.
 
@@ -95,13 +95,13 @@ zh-TW | 中國 (Chinês Tradicional)
 > [!NOTE]
 > No Power BI Desktop, a propriedade da região irá conter o idioma instalado.
 
-## <a name="localizing-the-property-pane-for-custom-visuals"></a>Localizar o painel de propriedades dos elementos visuais personalizados
+## <a name="localizing-the-property-pane-for-power-bi-visuals"></a>Localizar o painel de propriedades dos elementos visuais do Power BI
 
 Os campos no painel de propriedades podem ser localizados, de modo a fornecer uma experiência mais integrada e coerente. Isto faz com que o seu elemento visual se comporte como qualquer outro elemento visual importante do Power BI.
 
 Por exemplo, um elemento visual personalizado não localizado, criado através do comando `pbiviz new`, apresenta os seguintes campos no painel de propriedades:
 
-![Localização no painel de propriedades](media/property-pane.png)
+![Localização no painel de propriedades](media/localization/property-pane.png)
 
 os campos Dados de Categorias e Dados de Medida são definidos no ficheiro .json de capacidades `displayName`.
 
@@ -128,11 +128,11 @@ Em primeiro lugar, adicione uma chave de nome a apresentar para qualquer nome a 
 }
 ```
 
-Em seguida, adicione um diretório chamado stringResources. O diretório irá conter todos os seus ficheiros de recursos de cadeia com base nas regiões que pretende que o elemento visual suporte. Neste diretório, terá de adicionar um ficheiro JSON por cada região que pretenda suportar. Esses ficheiros contêm as informações da região e os valores das cadeias localizadas de cada displayNameKey que pretenda substituir.
+Em seguida, adicione um diretório chamado stringResources. O diretório irá conter todos os seus ficheiros de recursos de cadeia com base nas regiões que pretende que o elemento visual suporte. Neste diretório, terá de adicionar um ficheiro JSON por cada região que pretende suportar. Esses ficheiros contêm as informações da região e os valores das cadeias localizadas de cada displayNameKey que pretenda substituir.
 
 No nosso exemplo, queremos suportar o árabe e o hebraico. Teremos de adicionar dois ficheiros JSON da seguinte forma:
 
-![Cadeias de localização na pasta de recursos de cadeia](media/stringresources-files.png)
+![Cadeias de localização na pasta de recursos de cadeia](media/localization/stringresources-files.png)
 
 Todos os ficheiros JSON definem uma única região (o ficheiro tem de ser uma das regiões da lista suportada apresentada acima) com os valores de cadeia para as chaves pretendidas do nome a apresentar. No nosso exemplo, o ficheiro de recursos de cadeia em hebraico terá o seguinte aspeto:
 
@@ -161,13 +161,13 @@ Para utilização em computador, transfira a versão localizada do Power BI Desk
 
 Se utilizar o cliente Web (browser) no serviço, altere o seu idioma nas definições:
 
-![Localização no serviço Web](media/webservice-settings.png)
+![Localização no serviço Web](media/localization/webservice-settings.png)
 
 ## <a name="resource-file"></a>Ficheiro de recurso
 
 Adicione um ficheiro resources.resjson a uma pasta com o mesmo nome da região que vai utilizar dentro da pasta stringResources. No nosso exemplo, as regiões são en-US e ru-RU.
 
-![O novo ficheiro resjson](media/new-resjson.png)
+![O novo ficheiro resjson](media/localization/new-resjson.png)
 
 Depois disso, adicione todas as cadeias de localização que irá utilizar ao ficheiro resources.resjson que adicionou no passo anterior.
 
@@ -195,7 +195,7 @@ Este exemplo é a versão en-US do ficheiro resources.resjson:
 }
 ```
 
-Nova instância da função localizationManager Crie uma instância da função localizationManager no código do seu elemento visual como indicado abaixo
+Nova instância da função localizationManager. Crie uma instância da função localizationManager no código do seu elemento visual como indicado abaixo:
 
 ```typescript
 private localizationManager: ILocalizationManager;

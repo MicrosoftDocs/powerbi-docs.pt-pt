@@ -6,19 +6,19 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 4ce61fcd4f322abc0362956453d76ced9b78d887
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: c87d1af9033044a8b79d6fe00d566d9b46c499fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78264249"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377918"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Como depurar elementos visuais do Power BI
 
 Esta página mostra algumas sugestões para depurar enquanto cria o elemento visual. Inclui passos básicos e mostra as diferenças entre as aplicações de front-end padrão e a depuração do elemento visual do Power BI.
-Depois de ler o artigo, conseguirá depurar elementos visuais personalizados com pontos de interrupção, bem como registar e capturar exceções no Chrome e no Edge.
+Depois de ler o artigo, conseguirá depurar elementos visuais do Power BI com pontos de interrupção, bem como registar e capturar exceções no Chrome e no Edge.
 
 ## <a name="using-breakpoints"></a>Utilizar pontos de interrupção
 
@@ -35,7 +35,7 @@ public update(options: VisualUpdateOptions) {
 
 ## <a name="showing-exceptions"></a>Mostrar exceções
 
-Ao trabalhar no elemento visual, notará que todos os erros são “consumidos” pelo serviço Power BI. Esta é uma funcionalidade intencional do Power BI para evitar que elementos visuais incorretos tornem toda a aplicação instável.
+Ao trabalhar no elemento visual, irá reparar que todos os erros são "consumidos" pelo serviço Power BI. Esta é uma funcionalidade intencional do Power BI para evitar que elementos visuais incorretos tornem toda a aplicação instável.
 
 Como solução, adicione código para capturar e registar as exceções ou defina o depurador para ser interrompido ao capturar exceções.
 
@@ -80,7 +80,7 @@ Também pode definir o browser para ser interrompido ao capturar exceções. Est
 3. Clique no ícone **interromper nas exceções** (hexágono com um símbolo de pausa).
 4. Selecione **Interromper em todas as exceções**.
 
-![Campos de função de dados](./media/how-to-debug-edge.png)
+![Campos de função de dados](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
@@ -89,8 +89,8 @@ Também pode definir o browser para ser interrompido ao capturar exceções. Est
 3. Clique no ícone **interromper nas exceções** (sinal de stop com um símbolo de pausa).
 4. Selecione a caixa de verificação **Pausa ao Capturar Exceções**.
 
-![Campos de função de dados](./media/how-to-debug-chrome.png)
+![Campos de função de dados](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>Próximos passos
-* [Resolver problemas com os elementos visuais do Power BI](../power-bi-custom-visuals-troubleshoot.md)
-* Para obter mais informações e respostas a perguntas, veja [Perguntas frequentes sobre os elementos visuais do Power BI](../power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)
+* [Resolver problemas com os elementos visuais do Power BI](power-bi-custom-visuals-troubleshoot.md)
+* Para obter mais informações e respostas a perguntas, veja [Perguntas frequentes sobre os elementos visuais do Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)

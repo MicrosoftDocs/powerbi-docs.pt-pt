@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: ff2f22620cf062dcc342323e71dc7401b5991cd7
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6b2876ca78e07cf7c3c2b778ef9c571745baa1e5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697043"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488666"
 ---
 # <a name="power-bi-premium-faq"></a>Perguntas Frequentes do Power BI Premium
 
@@ -42,10 +42,10 @@ O Power BI Premium é uma licença com base na capacidade, enquanto o Power BI P
 * Analisar dados no Excel ou Power BI Desktop
 * Partilhar com suporte para o Excel Web App
 * Partilhar dashboards e colaborar com grupos do Office 365
-* Integrar conteúdos com Microsoft Teams
+* Integrar conteúdo no Microsoft Teams
 
 **Preciso do Power BI Pro para utilizar o Power BI Premium?**  
-Sim. O Power BI Pro é necessário para publicar relatórios, partilhar dashboards, colaborar com colegas em áreas de trabalho e participar noutras atividades relacionadas. O Power BI Pro não é necessário para consumir conteúdos na capacidade Premium.
+Yes. O Power BI Pro é necessário para publicar relatórios, partilhar dashboards, colaborar com colegas em áreas de trabalho e participar noutras atividades relacionadas. O Power BI Pro não é necessário para consumir conteúdos na capacidade Premium.
 
 **Pode descrever um cenário de como o Power BI Pro e o Power BI Premium funcionam para abranger uma organização para BI Moderno?**  
 Os exemplos seguintes descrevem como os clientes podem satisfazer as suas necessidades de BI com uma combinação do Power BI Pro e do Power BI Premium.
@@ -88,6 +88,6 @@ Para obter mais informações, veja [Introdução ao Power BI Report Server](rep
 [Microsoft Power BI Premium whitepaper](https://aka.ms/pbipremiumwhitepaper) (Documento técnico do Microsoft Power BI Premium) 
 [Documento técnico Planning a Power BI Enterprise Deployment](https://aka.ms/pbienterprisedeploy) (Planear uma Implementação Empresarial do Power BI) 
 [Ativação da Avaliação Pro Expandida](service-extended-pro-trial.md)
-[Perguntas Frequentes sobre o Power BI Embedded](developer/embedded-faq.md)
+[Perguntas Frequentes sobre o Power BI Embedded](developer/embedded/embedded-faq.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

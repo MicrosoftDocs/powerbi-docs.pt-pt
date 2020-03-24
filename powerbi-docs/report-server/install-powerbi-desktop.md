@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426662"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381129"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Power BI Report Server
 
@@ -70,7 +70,7 @@ Para o Power BI Desktop otimizado para o Power BI Report Server, irá selecionar
 
 ### <a name="report-visuals-in-a-browser"></a>Elementos visuais de relatórios num browser
 
-Os relatórios do Power BI Report Server suportam quase todas as visualizações, incluindo elementos visuais personalizados. Os relatórios do Power BI Report Server não suportam:
+Os relatórios do Power BI Report Server suportam quase todas as visualizações, incluindo elementos visuais do Power BI. Os relatórios do Power BI Report Server não suportam:
 
 * Visuais R
 * Mapas ArcGIS
@@ -89,7 +89,7 @@ Os relatórios do Power BI Report Server não suportam estas funcionalidades nas
 
 * Visuais R
 * Mapas ArcGIS
-* Elementos visuais personalizados
+* Elementos Visuais do Power BI
 * Trilhos
 * Geofiltragem ou códigos de barras
 

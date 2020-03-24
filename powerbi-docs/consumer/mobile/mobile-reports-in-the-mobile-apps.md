@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/18/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538144"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435772"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -21,6 +21,9 @@ Aplica-se a:
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Telemóvel Android](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Tablet Android](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Dispositivos Windows 10](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
 |:---: |:---: |:---: |:---: |:---: |
 | iPhones |iPads |Telemóveis Android |Tablets Android |Dispositivos Windows 10 |
+
+>[!NOTE]
+>O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Um relatório do Power BI é uma vista interativa dos seus dados, com elementos visuais que representam diferentes descobertas e informações obtidas por meio desses dados. Ver os relatórios nas aplicações móveis do Power BI é o terceiro passo num processo de três passos:
 
@@ -59,6 +62,14 @@ Quando transfere a aplicação móvel do Power BI, a mesma encontra-se definida 
 Se preferir, pode desativar a interação com duplo toque. Na interação com duplo toque, começa por tocar num elemento visual para selecionar o mesmo, e depois toca novamente no elemento visual para executar a ação pretendida.
 
 Para mudar para a interação com duplo toque, ou para voltar à interação com toque único, aceda a [definições de interação da aplicação](./mobile-app-interaction-settings.md).
+
+### <a name="single-select-versus-multi-select-mode-for-data-point-selection"></a>Modo de seleção única versus modo de seleção múltipla da seleção de pontos de dados
+
+Num relatório, pode tocar num ponto de dados para o selecionar. Pode escolher se quer utilizar o modo de seleção única ou o modo de seleção múltipla. No modo de seleção única, quando toca num ponto de dados para o selecionar, essa seleção substitui qualquer seleção anterior que tenha feito. No modo de seleção múltipla, quando toca num ponto de dados para o selecionar, a sua seleção é *adicionada* a qualquer seleção que tenha atualmente selecionada e o resultado combinado de todas as seleções é realçado em todos os elementos visuais do relatório.
+
+Para cancelar a seleção de um ponto de dados, basta tocar no mesmo novamente.
+
+Para alternar entre o modo de seleção única e o modo de seleção múltipla, aceda às [definições de interação da aplicação](./mobile-app-interaction-settings.md).
 
 ### <a name="using-tap-and-long-tap"></a>Tocar e tocar sem soltar
 Um toque tem o mesmo efeito que um clique com o rato. Assim, se quiser fazer um realce cruzado no relatório com base num ponto de dados, toque no mesmo.

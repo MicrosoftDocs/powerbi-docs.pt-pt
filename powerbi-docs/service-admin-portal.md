@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/25/2019
+ms.date: 03/16/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: d56e329d5331403c0ed0ce4da28bf73aea65d9a6
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 97aad9a72cba6fe195208902e2a3d986b3225a3d
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427881"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488712"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -57,7 +57,7 @@ As **Métricas de utilização** permitem-lhe monitorizar a utilização do Powe
 
 Após o carregamento do dashboard, verá duas secções de mosaicos. A primeira secção inclui os dados de utilização dos utilizadores individuais e a segunda secção tem informações semelhantes dos grupos na sua organização.
 
-Veja a seguir uma análise detalhada do que pode ver em cada mosaico:
+Segue-se uma análise detalhada do que pode ver em cada mosaico:
 
 * Contagem distinta de todos os dashboards, relatórios e conjuntos de dados na área de trabalho do utilizador.
   
@@ -277,6 +277,14 @@ Os utilizadores na organização podem criar subscrições por e-mail. Saiba mai
 
 ![Ativar as subscrições por e-mail](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
 
+### <a name="featured-content"></a>Conteúdo em destaque
+
+Permita que alguns ou todos os autores de relatórios na sua organização destaquem os respetivos conteúdos na secção Em destaque da Base do Power BI. Os novos utilizadores verão o conteúdo em destaque na parte superior da respetiva Base do Power BI. O conteúdo em destaque move-se na Base à medida que os utilizadores adicionam conteúdos **Favoritos**, **Frequentes** e **Recentes**. 
+
+Recomendamos que comece com um pequeno conjunto de promotores. Permitir que toda a organização destaque conteúdos na Base pode dificultar a monitorização de todos os conteúdos promovidos. 
+
+Após permitir conteúdo em destaque, também pode geri-lo no Portal de administração. Veja [Gerir conteúdo em destaque](#manage-featured-content)neste artigo para ler sobre como controlar conteúdo em destaque no seu domínio.
+
 ## <a name="content-pack-and-app-settings"></a>Definições da aplicação e do pacote de conteúdos
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Publicar pacotes de conteúdo e aplicações em toda a organização
@@ -312,17 +320,16 @@ Os utilizadores na organização podem utilizar a visualização dos ArcGIS Maps
 
 Os utilizadores na organização podem utilizar as funcionalidades de pesquisa externa que dependem do Azure Search.
 
-## <a name="custom-visuals-settings"></a>Definições de elementos visuais personalizados
+## <a name="power-bi-visuals-settings"></a>Definições de elementos visuais do Power BI
 
-### <a name="add-and-use-custom-visuals"></a>Adicionar e utilizar elementos visuais personalizados
+### <a name="add-and-use-power-bi-visuals"></a>Adicionar e utilizar elementos visuais do Power BI
 
-Os utilizadores na organização podem interagir e partilhar elementos visuais personalizados. [Saiba mais](developer/power-bi-custom-visuals.md)
+Os utilizadores na organização podem partilhar e interagir com elementos visuais do Power BI. [Saiba mais](developer/visuals/power-bi-custom-visuals.md)
 
 > [!NOTE]
 > Esta definição pode ser aplicada a toda a organização ou pode ser limitada a grupos específicos.
 
-
-O Power BI Desktop (a partir do lançamento de março de 2019) suporta a utilização da **Política de Grupo** para desativar a utilização de elementos visuais personalizados nos computadores implementados numa organização.
+O Power BI Desktop (a partir do lançamento de março de 2019) suporta a utilização da **Política de Grupo** para desativar a utilização de elementos visuais do Power BI nos computadores implementados numa organização.
 
 <table>
 <tr><th>Atributo</th><th>Valor</th>
@@ -335,16 +342,16 @@ O Power BI Desktop (a partir do lançamento de março de 2019) suporta a utiliza
 </tr>
 </table>
 
-Um valor de 1 (decimal) ativa a utilização de elementos visuais personalizados no Power BI (esta é a predefinição).
+Um valor de 1 (decimal) ativa a utilização de elementos visuais do Power BI no Power BI (esta é a predefinição).
 
-Um valor de 0 (decimal) desativa a utilização de elementos visuais personalizados no Power BI.
+Um valor de 0 (decimal) desativa a utilização de elementos visuais do Power BI no Power BI.
 
 ### <a name="allow-only-certified-visuals"></a>Permitir apenas elementos visuais certificados
 
-Os utilizadores na organização que receberam permissões para adicionar e utilizar elementos visuais personalizados, representado pela definição "Adicionar e utilizar elementos visuais personalizados", só poderão utilizar [elementos visuais personalizados certificados](https://go.microsoft.com/fwlink/?linkid=2002010) (os elementos visuais não certificados serão bloqueados e apresentarão uma mensagem de erro quando utilizados). 
+Os utilizadores na organização que receberam permissões para adicionar e utilizar elementos visuais do Power BI, representado pela definição "Adicionar e utilizar elementos visuais do Power BI", só poderão utilizar [elementos visuais do Power BI certificados](https://go.microsoft.com/fwlink/?linkid=2002010) (os elementos visuais não certificados serão bloqueados e apresentarão uma mensagem de erro quando utilizados). 
 
 
-O Power BI Desktop (a partir do lançamento de março de 2019) suporta a utilização da **Política de Grupo** para desativar a utilização de elementos visuais personalizados não certificados nos computadores implementados numa organização.
+O Power BI Desktop (a partir do lançamento de março de 2019) suporta a utilização da **Política de Grupo** para desativar a utilização de elementos visuais do Power BI não certificados nos computadores implementados numa organização.
 
 <table>
 <tr><th>Atributo</th><th>Valor</th>
@@ -357,9 +364,9 @@ O Power BI Desktop (a partir do lançamento de março de 2019) suporta a utiliza
 </tr>
 </table>
 
-Um valor de 1 (decimal) ativa a utilização de elementos visuais personalizados não certificados no Power BI (esta é a predefinição).
+Um valor de 1 (decimal) ativa a utilização de elementos visuais do Power BI não certificados no Power BI (esta é a predefinição).
 
-Um valor de 0 (decimal) desativa a utilização de elementos visuais personalizados não certificados no Power BI (esta opção só ativa a utilização de [elementos visuais personalizados certificados](https://go.microsoft.com/fwlink/?linkid=2002010)).
+Um valor de 0 (decimal) desativa a utilização de elementos visuais do Power BI não certificados no Power BI (esta opção só ativa a utilização de [elementos visuais do Power BI certificados](https://go.microsoft.com/fwlink/?linkid=2002010)).
 
 ## <a name="r-visuals-settings"></a>Definições de elementos visuais R
 
@@ -404,11 +411,11 @@ Os utilizadores na organização podem identificar os dashboards com classifica�
 
 ### <a name="embed-content-in-apps"></a>Incorporar conteúdo em aplicações
 
-Os utilizadores na organização podem incorporar dashboards e relatórios do Power BI em aplicações Software como Serviço (SaaS). Desativar esta definição impede os utilizadores de usarem as APIs REST para incorporar conteúdo do Power BI na respetiva aplicação. [Saiba mais](developer/embedding.md)
+Os utilizadores na organização podem incorporar dashboards e relatórios do Power BI em aplicações Software como Serviço (SaaS). Desativar esta definição impede os utilizadores de usarem as APIs REST para incorporar conteúdo do Power BI na respetiva aplicação. [Saiba mais](developer/embedded/embedding.md)
 
 ### <a name="allow-service-principals-to-use-power-bi-apis"></a>Permitir que os principais de serviço utilizem as APIs do Power BI
 
-As aplicações Web registadas no Azure Active Directory (Azure AD) utilizarão um principal de serviço atribuído para aceder às APIs do Power BI que não tenham um utilizador com sessão iniciada. Para que uma aplicação possa utilizar a autenticação do principal de serviço, esta tem de ser incluída num grupo de segurança permitido. [Saiba mais](developer/embed-service-principal.md)
+As aplicações Web registadas no Azure Active Directory (Azure AD) utilizarão um principal de serviço atribuído para aceder às APIs do Power BI que não tenham um utilizador com sessão iniciada. Para que uma aplicação possa utilizar a autenticação do principal de serviço, esta tem de ser incluída num grupo de segurança permitido. [Saiba mais](developer/embedded/embed-service-principal.md)
 
 > [!NOTE]
 > Os principais de serviço herdam as permissões de todas as definições do inquilino do Power BI do respetivo grupo de segurança. Para restringir as permissões, crie um grupo de segurança dedicado para os principais de serviço e adicione-o à lista "Exceto grupos de segurança específicos" para as definições do Power BI relevantes ativadas.
@@ -456,9 +463,9 @@ O separador **Power BI Premium** permite-lhe gerir todas as capacidades do Powe
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-O separador **Power BI Embedded** permite-lhe ver as capacidades do Power BI Embedded (SKU A) que comprou para o seu cliente. Uma vez que apenas pode comprar SKUs A no Azure, vai [gerir as capacidades incorporadas no Azure](developer/azure-pbie-create-capacity.md) no **Portal do Azure**.
+O separador **Power BI Embedded** permite-lhe ver as capacidades do Power BI Embedded (SKU A) que comprou para o seu cliente. Uma vez que apenas pode comprar SKUs A no Azure, vai [gerir as capacidades incorporadas no Azure](developer/embedded/azure-pbie-create-capacity.md) no **Portal do Azure**.
 
-Para obter mais informações sobre como gerir as definições do Power BI Embedded (SKU A), veja [O que é o Power BI Embedded?](developer/azure-pbie-what-is-power-bi-embedded.md)
+Para obter mais informações sobre como gerir as definições do Power BI Embedded (SKU A), veja [O que é o Power BI Embedded?](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
 
 ## <a name="embed-codes"></a>Códigos de incorporação
 
@@ -466,14 +473,14 @@ Enquanto administrador, pode ver os códigos de incorporação gerados para o se
 
 ![Códigos de incorporação no portal de administração do Power BI](media/service-admin-portal/embed-codes.png)
 
- ## <a name="organizational-visuals">Elemento visuais da organização</a> 
+ ## <a name=""></a><a name="organizational-visuals">Elemento visuais da organização</a> 
 
-O separador **Elementos visuais da organização** permite-lhe implementar e gerir os elementos visuais personalizados na sua organização. Com os elementos visuais organizacionais, pode facilmente implementar elementos visuais proprietários na sua organização, os quais os autores dos relatórios podem posteriormente detetar e importar para os seus relatórios do Power BI Desktop. [Saiba mais](developer/power-bi-custom-visuals-organization.md)
+O separador **Elementos visuais da organização** permite-lhe implementar e gerir os elementos visuais do Power BI na sua organização. Com os elementos visuais organizacionais, pode facilmente implementar elementos visuais proprietários na sua organização, os quais os autores dos relatórios podem posteriormente detetar e importar para os seus relatórios do Power BI Desktop. [Saiba mais](developer/visuals/power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > Um elemento visual personalizado pode conter código com riscos de privacidade ou de segurança. Garanta que confia no autor e na origem do elemento visual personalizado antes de implementar no repositório da organização.
 
-A página seguinte mostra todos os elementos visuais personalizados que estão atualmente implementados no repositório da organização.
+A página seguinte mostra todos os elementos visuais do Power BI que estão atualmente implementados no repositório da organização.
 
 ![Elemento visual de administração da organização](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
@@ -483,11 +490,11 @@ Para adicionar um novo elemento visual personalizado à lista, siga estes passos
 
 1. No painel direito, selecione **Adicionar um elemento visual personalizado**.
 
-    ![Formulário dos elementos visuais personalizados](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+    ![Formulário sobre elementos visuais do Power BI](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
 
 1. Preencha o formulário **Adicionar elemento visual personalizado**:
 
-    * **Escolher um ficheiro .pbiviz** (obrigatório): selecione um ficheiro de elemento visual personalizado para carregar. Apenas são suportados os elementos visuais personalizados com a versão da API (leia aqui o que significa).
+    * **Escolher um ficheiro .pbiviz** (obrigatório): selecione um ficheiro de elemento visual personalizado para carregar. Apenas são suportados os elementos visuais do Power BI com a versão da API (leia aqui o que significa).
 
     Antes de carregar um elemento visual personalizado, deverá verificar a segurança e privacidade desse elemento visual para garantir que este cumpre os padrões da sua organização.
 
@@ -524,9 +531,9 @@ Para atualizar o elemento visual na loja organizacional, selecione o ícone de e
 
 Confirme que o ID de Elemento Visual permanece inalterado. O novo ficheiro substituirá o ficheiro anterior em todos os relatórios da organização. Contudo, se houver a possibilidade de a nova versão do elemento visual interromper qualquer utilização ou estrutura de dados da versão anterior do elemento visual, não substitua a versão anterior. Em vez disso, deve criar uma nova lista para a nova versão do elemento visual. Por exemplo, adicione um novo número de versão (versão X.X) ao título do novo elemento visual listado. Desta forma, torna-se claro que é o mesmo elemento visual apenas com um número de versão atualizado, assim, os relatórios existentes não vão interromper a sua funcionalidade. Novamente, verifique se o ID de Elemento Visual permanece inalterado. Da próxima vez que os utilizadores entrarem no repositório da organização a partir do Power BI Desktop, poderão importar a nova versão, que pedirá a substituição da versão atual que têm no relatório.
 
-Para obter mais informações, visite [Perguntas frequentes sobre os elementos visuais personalizados organizacionais](/power-bi/developer/power-bi-custom-visuals-faq#organizational-power-bi-visuals)
+Para obter mais informações, veja [Perguntas frequentes sobre os elementos visuais do Power BI organizacionais](developer/visuals/power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)
 
-## <a name="dataflowStorage">Armazenamento do fluxo de dados (pré-visualização)</a>
+## <a name=""></a><a name="dataflowStorage">Armazenamento do fluxo de dados (pré-visualização)</a>
 
 Por predefinição, os dados utilizados com o Power BI são armazenados no armazenamento interno fornecido pelo Power BI. Com a integração dos fluxos de dados e do Azure Data Lake Storage Gen2 (ADLS Gen2), pode armazenar os seus fluxos de dados na conta do Azure Data Lake Storage Gen2 da sua organização. Para obter mais informações, veja [Fluxos de dados e integração do Azure Data Lake (Pré-visualização)](service-dataflows-azure-data-lake-integration.md).
 
@@ -542,7 +549,7 @@ No separador **Áreas de trabalho**, vê o *estado* de cada área de trabalho. A
 |---------|---------|
 | Ativo | Uma área de trabalho normal. Não indica nada sobre a utilização ou os respetivos conteúdos; apenas indica que a própria área de trabalho é "normal". |
 | Isolado | Uma área de trabalho sem utilizador administrador. |
-| Eliminado | Uma área de trabalho eliminada. Mantemos metadados suficientes para restaurar a área de trabalho, se for pretendido. |
+| Eliminado | Uma área de trabalho eliminada. Mantemos, durante 90 dias, metadados suficientes para restaurar a área de trabalho, se desejado. |
 | A remover | Uma área de trabalho prestes a ser eliminada, mas que ainda não foi. Os utilizadores podem eliminar as suas próprias áreas de trabalho, colocando-as em A remover e, por fim, em Eliminado. |
 
 ## <a name="custom-branding"></a>Imagem corporativa personalizada
@@ -561,6 +568,17 @@ Como administrador, pode personalizar o aspeto do Power BI para toda a sua organ
 Para obter mais informações, veja [Custom branding for your organization](https://aka.ms/orgBranding) (Imagem corporativa personalizada para a sua organização).
 
 ![Lista de áreas de trabalho](media/service-admin-portal/workspaces-list.png)
+
+## <a name="manage-featured-content"></a>Gerir conteúdo em destaque
+
+Enquanto administrador do inquilino, pode gerir todos os relatórios, dashboards e aplicações que tenham sido promovidos na secção Em destaque na Base do Power BI na sua organização.
+
+- No portal de Administração, selecione **Conteúdo em destaque**.
+
+Aqui pode ver uma descrição geral de quem destacou o conteúdo, quando o mesmo foi destacado e todos os respetivos metadados relevantes. Se algo parecer suspeito ou caso queira limpar a secção Em destaque, pode eliminar conteúdo promovido conforme necessário.
+
+Veja [Conteúdo em destaque](#featured-content) neste artigo para obter informações sobre a ativação de conteúdo em destaque.
+
 ## <a name="next-steps"></a>Próximos passos
 
 [Administrar o Power BI na sua Organização](service-admin-administering-power-bi-in-your-organization.md)  

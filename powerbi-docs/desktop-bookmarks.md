@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08d222f03991bdf605f8e465ff0152d40d07d815
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 00ea3e70b34ecdaf2c5bd8b8728153bfb26f899b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75761893"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378990"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Criar marcadores no Power BI Desktop para partilhar informações e criar histórias
 Com os *marcadores* no Power BI Desktop ajuda-o a capturar a vista atualmente configurada de uma página de relatório, incluindo a filtragem e o estado dos elementos visuais. Posteriormente, pode regressar a esse estado ao selecionar o marcador guardado. 
@@ -198,7 +198,7 @@ Para ativar a funcionalidade dos marcadores de pré-visualização:
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Nesta versão das funcionalidades dos marcadores, existem algumas limitações e considerações a não esquecer.
 
-* A maioria dos elementos visuais personalizados deve funcionar devidamente com a marcação. Contudo, caso se depare com problemas com um marcador e um elemento visual personalizado, contacte o criador desse elemento visual personalizado e peça-lhe para adicionar suporte para marcadores ao elemento visual. 
+* A maioria dos elementos visuais do Power BI deve funcionar devidamente com a marcação. Contudo, caso se depare com problemas com um marcador e um elemento visual personalizado, contacte o criador desse elemento visual personalizado e peça-lhe para adicionar suporte para marcadores ao elemento visual. 
 * Se adicionar um elemento visual numa página de relatório depois de criar um marcador, este é apresentado no estado predefinido. Ou seja, isto também significa que se apresentar uma segmentação de dados numa página onde criou anteriormente marcadores, esta irá estar no estado predefinido.
 * Mover o elemento visual depois de ser criado um marcador será refletido automaticamente no marcador. 
 

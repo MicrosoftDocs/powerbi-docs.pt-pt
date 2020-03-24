@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 0876d5ecd1d58c909242bbc05be213780d3aefdc
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237989"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488781"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -124,9 +124,9 @@ Depois de criar e partilhar o seu código de incorporação da funcionalidade **
 
 As atualizações de dados são refletidas automaticamente no relatório ou visual incorporado. Poderá demorar aproximadamente uma hora para que os dados atualizados fiquem visíveis nos códigos de incorporação. Para desativar as atualizações automáticas, selecione **não atualizar** no agendamento do conjunto de dados que o relatório utiliza.  
 
-## <a name="custom-visuals"></a>Elementos visuais personalizados
+## <a name="power-bi-visuals"></a>Elementos Visuais do Power BI
 
-Os visuais personalizados são suportados na funcionalidade **Publicar na Web**. Quando utiliza a funcionalidade **Publicar na Web**, os utilizadores com quem partilha os elementos visuais publicados não precisam de ativar os elementos visuais personalizados para ver o relatório.
+Os elementos visuais do Power BI são suportados na funcionalidade **Publicar na Web**. Quando utiliza a funcionalidade **Publicar na Web**, os utilizadores com quem partilha os elementos visuais publicados não precisam de ativar os elementos visuais do Power BI para ver o relatório.
 
 ## <a name="limitations"></a>Limitações
 
@@ -144,7 +144,7 @@ A funcionalidade **Publicar na Web** é suportada na grande maioria das origens 
 - Modelos de consulta de dados de início de sessão único.
 - Informações confidenciais ou proprietárias.
 - [Conjuntos de dados partilhados e certificados](service-datasets-share.md).
-- A capacidade de autenticação automática fornecida com a opção **Incorporar** não funciona com a API de JavaScript do Power BI. Para a API de JavaScript do Power BI, utilize a abordagem [O utilizador detém os dados](developer/embed-sample-for-your-organization.md) para incorporar.
+- A capacidade de autenticação automática fornecida com a opção **Incorporar** não funciona com a API de JavaScript do Power BI. Para a API de JavaScript do Power BI, utilize a abordagem [O utilizador detém os dados](developer/embedded/embed-sample-for-your-organization.md) para incorporar.
 
 ## <a name="tenant-setting"></a>Definição de inquilino
 

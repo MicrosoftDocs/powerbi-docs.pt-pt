@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: db636f16729847c40806bc328efbbdd700e79083
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 0bbdc13e1adf52ba90435f22920e4351e8f34404
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114746"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435956"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introdução à aplicação móvel do Power BI para Windows 10
 A aplicação móvel Power BI para Windows 10 traz o Power BI para o seu tablet ou telemóvel. Obtém acesso móvel atualizado e tátil às suas informações empresariais. Veja e interaja com os seus dashboards de empresa de qualquer lugar, diretamente no [ecrã de Início do Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -28,8 +28,11 @@ Em seguida, interaja com os seus dashboards e relatórios, explore os dados e pa
 * [**Obtenha a aplicação móvel do Power BI para Windows 10**](https://go.microsoft.com/fwlink/?LinkID=526478) na Windows Store.
   
   O seu dispositivo deve executar o Windows 10. A aplicação funciona em dispositivos com pelo menos 3 GB de RAM e 8 GB de armazenamento interno.
+
+  >[!NOTE]
+  >O suporte à aplicação móvel Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
    
-* Descubra as [novidades nas aplicações móveis do Power BI](mobile-whats-new-in-the-mobile-apps.md).
+* Descubra as [novidades nas aplicações móveis Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Inscrever-se no serviço Power BI na Web
 Se ainda não se inscreveu, aceda ao [serviço Power BI](https://powerbi.com/). Inscreva-se numa conta própria, para criar e armazenar dashboards e relatórios, e coloque os seus dados no mesmo local. Em seguida, entre no Power BI do seu dispositivo Windows 10 para ver os seus próprios dashboards, a partir de qualquer lugar.

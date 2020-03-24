@@ -6,30 +6,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 03/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: cbaf3244ce8e8aa2755b6b47bf6381c191293306
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527491"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133238"
 ---
-# <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>Use the updated ribbon in Power BI Desktop (preview) (Utilizar o friso atualizado no Power BI Desktop [pré-visualização])
+# <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Use the updated ribbon in Power BI Desktop (Utilizar o friso atualizado no Power BI Desktop)
 
-A partir da atualização de novembro de 2019, o Power BI Desktop vai reformular o friso para alinhar o aspeto e a experiência da melhor forma com outros produtos da Microsoft, como o Microsoft Office.
+A partir da atualização de março de 2020, o Power BI Desktop vai reformular o friso para alinhar o aspeto e a experiência da melhor forma com outros produtos da Microsoft, como o Microsoft Office. O friso atualizado aparece nas atualizações mensais de novembro de 2019 como uma funcionalidade de pré-visualização e, a partir da atualização de março de 2020, o novo friso será a experiência predefinida.
 
-![Novo friso no Power BI Desktop](media/desktop-ribbon/desktop-ribbon-02.png)
-
-O friso atualizado está em pré-visualização, para que possamos reunir os comentários dos utilizadores e clientes e assegurar que a experiência é excecional. Prevemos alguns meses de pré-visualização, comentários e melhorias antes de o friso atualizado do Power BI Desktop ser lançado para disponibilidade geral. 
+![Novo friso do Power BI Desktop](media/desktop-ribbon/desktop-ribbon-02.png)
 
 ## <a name="how-to-enable-the-updated-ribbon"></a>Como ativar o friso atualizado
 
-O friso atualizado do Power BI é uma funcionalidade de pré-visualização e deve ser ativada. Para a ativar, selecione **Ficheiro > Opções e definições > Opções** e, em seguida, **Funcionalidades de pré-visualização** na coluna esquerda. No painel direito, existe uma seleção para o **Friso atualizado**. Marque a caixa ao lado de **Friso atualizado** para ativar a funcionalidade de pré-visualização. Terá de reiniciar o Power BI Desktop para que a alteração da funcionalidade de pré-visualização produza efeito.
+A partir da atualização de março de 2020, o friso atualizado estará ativo por predefinição. Para as versões do Power BI Desktop anteriores a esta atualização (a partir da atualização de novembro de 2019), o friso atualizado no Power BI é uma funcionalidade de pré-visualização que tem de ser ativada. Para a ativar nessas atualizações anteriores, selecione **Ficheiro > Opções e definições > Opções** e, em seguida, selecione **Funcionalidades de pré-visualização** na coluna esquerda. No painel direito, existe uma seleção para o **Friso atualizado**. Marque a caixa ao lado de **Friso atualizado** para ativar a funcionalidade de pré-visualização. Terá de reiniciar o Power BI Desktop para que a alteração da funcionalidade de pré-visualização produza efeito.
 
 ![Opção Friso atualizado do Power BI Desktop](media/desktop-ribbon/desktop-ribbon-01.png)
 
+> [!NOTE]
+> Para as versões do Power BI Desktop a partir de março de 2020, não é necessário ativar o friso atualizado, porque o novo friso será a experiência predefinida a partir de março de 2020.
 
 ## <a name="features-of-the-new-ribbon"></a>Funcionalidades do novo friso
 

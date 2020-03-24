@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 27e4bbd1437f59b7cf213333d9df27019aaadcd4
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: ad7c0dab0c4390326eea157351735802d12b3795
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698860"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488574"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configurar o suporte da Multi-Geo para o Power BI Premium
 
-A Multi-Geo é uma funcionalidade do Power BI Premium que ajuda os clientes multinacionais a cumprir os requisitos regionais, específicos da indústria ou da residência dos dados organizacionais. Como cliente do Power BI Premium, pode implementar conteúdo em centros de dados em regiões diferentes da região base do inquilino do Power BI. Uma área geográfica (geografia) pode conter mais do que uma região. Por exemplo, os Estados Unidos são uma área geográfica e EUA Centro-Oeste e EUA Centro-Sul são regiões nos Estados Unidos. Pode optar por implementar conteúdo em qualquer uma das seguintes áreas geográficas:
+A Multi-Geo é uma funcionalidade do Power BI Premium que ajuda os clientes multinacionais a cumprir os requisitos regionais, específicos da indústria ou da residência dos dados organizacionais. Como cliente do Power BI Premium, pode implementar conteúdo em centros de dados em regiões diferentes da região base do inquilino do Power BI. Uma área geográfica (geografia) pode conter mais do que uma região. Por exemplo, os Estados Unidos são uma área geográfica e E.U.A. Centro-Oeste e E.U.A. Centro-Sul são regiões nos Estados Unidos. Pode optar por implementar conteúdo em qualquer uma das seguintes áreas geográficas:
 
 - Estados Unidos
 - Canadá
@@ -33,11 +33,11 @@ A Multi-Geo é uma funcionalidade do Power BI Premium que ajuda os clientes mul
 
 A Multi-Geo não está disponível para o Power BI Alemanha, o Power BI China operado pela 21Vianet ou o Power BI para o Governo dos EUA.
 
-A Multi-Geo também está agora disponível no Power BI Embedded. Leia mais em [Suporte da Multi-Geo no Power BI Embedded](developer/embedded-multi-geo.md).
+A Multi-Geo também está agora disponível no Power BI Embedded. Leia mais em [Suporte da Multi-Geo no Power BI Embedded](developer/embedded/embedded-multi-geo.md).
 
 ## <a name="enable-and-configure"></a>Ativar e configurar
 
-Para obter as novas capacidades, ative a Multi-Geo ao selecionar uma região diferente da região predefinida na lista pendente.  Cada capacidade disponível mostra a região onde está atualmente localizada, por exemplo, **EUA Centro-Oeste**.
+Para obter as novas capacidades, ative a Multi-Geo ao selecionar uma região diferente da região predefinida na lista pendente.  Cada capacidade disponível mostra a região onde está atualmente localizada, por exemplo, **E.U.A. Centro-Oeste**.
 
 ![Tamanho da capacidade: selecione uma região. Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
 
@@ -70,7 +70,7 @@ Estes itens permanecem na região base do inquilino:
 
 ## <a name="view-capacity-regions"></a>Ver as regiões das capacidades
 
-No Portal de Administração, pode ver todas as capacidades do seu inquilino do Power BI e as regiões onde atualmente se encontram.
+No Portal de Administração, pode ver todas as capacidades do seu inquilino do Power BI e as regiões onde atualmente se encontram.
 
 ![Ver as capacidades Premium](media/service-admin-premium-multi-geo/power-bi-multi-geo-premium-capacities.png) 
 
@@ -99,6 +99,6 @@ Pode retirar as áreas de trabalho da capacidade Multi-Geo de uma das seguintes 
 ## <a name="next-steps"></a>Próximos passos
 
 - [O que é o Power BI Premium?](service-premium-what-is.md)
-- [Multi-Geo para as capacidades do Power BI Embedded](developer/embedded-multi-geo.md)
+- [Multi-Geo para as capacidades do Power BI Embedded](developer/embedded/embedded-multi-geo.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

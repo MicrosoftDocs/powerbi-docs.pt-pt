@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 04ee1386547ed888531ea139227969d49629863d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 79f18faf56fba8afa85afd808f6faa1bd16811d8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699550"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381152"
 ---
 # <a name="troubleshooting-tile-errors"></a>Resolver problemas de erros de mosaico
 Veja abaixo os erros comuns que podem ser encontrados com mosaicos e uma explicação.
@@ -31,13 +31,14 @@ ou **Não foi possível recuperar o modelo de dados. Entre em contacto com o pro
 
 Não conseguimos aceder aos dados, porque a origem de dados não estava acessível. Este problema pode ocorrer se o nome da origem de dados tiver sido alterado ou se a mesma tiver sido removida ou movida, estiver offline ou se as permissões tiverem sido alteradas. Verifique se a origem ainda está no local para o qual estamos apontando e se ainda tem permissão para aceder a ela. Se esse não for o problema, a origem pode estar lenta. Tente novamente mais tarde numa hora em que a carga na origem seja menor. Se for uma origem local, o proprietário da origem de dados pode conseguir fornecer mais informações.
 
-**Não tem permissão para ver este bloco ou abrir o livro.**
+**Não tem permissão para ver este mosaico ou abrir o livro.**
 
 Entre em contacto com o proprietário do dashboard para ter a certeza de que as origens e o modelo de dados existem e estão acessíveis para a sua conta.
 
-**Os elementos visuais personalizados foram desativados pelo administrador.**
+**Os elementos visuais do Power BI foram desativados pelo administrador.**
 
-O administrador do Power BI desativou a utilização de elementos visuais personalizados para a sua organização ou o seu grupo de segurança. Não poderá utilizar elementos visuais personalizados a partir do [Microsoft Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) ou importar elementos visuais privados de um ficheiro. Só poderá utilizar o conjunto de elementos visuais pré-empacotados.
+O administrador do Power BI desativou a utilização de elementos visuais do Power BI para a sua organização ou o seu grupo de segurança.
+Não poderá utilizar elementos visuais do Power BI a partir do [Microsoft Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) ou importar elementos visuais privados a partir de um ficheiro. Só poderá utilizar o conjunto de elementos visuais pré-empacotados.
 
 
 **As formas de dados devem conter pelo menos um grupo ou cálculo que produza dados. Entre em contacto com o proprietário do dashboard.**

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 5208c72016a148f86a119bdddd2bbd1f69d3456b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74831110"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381037"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Subscrever relatórios e dashboards no serviço Power BI para si e para outras pessoas
 
@@ -53,7 +53,7 @@ A subscrição de relatórios paginados é ligeiramente diferente. Veja [Subscre
 
 5. Preencha os detalhes **Assunto** e **Mensagem** do e-mail. 
 
-5. Selecione uma **Frequência** para a sua subscrição: **Diariamente**, **Hora a Hora**, **Semanalmente**, **Mensalmente** ou **Depois da Atualização de Dados (Uma Vez por Dia)**.  Para receber o e-mail de subscrição apenas em determinados dias, selecione **Hora a hora** ou **Semanalmente** e selecione os dias em que o pretende receber.  Por exemplo, se quiser receber o e-mail de subscrição apenas durante os dias úteis, selecione **Semanalmente** e desselecione as caixas **Sáb** e **Dom**.  Se selecionar **Mensalmente**, introduza os dias do mês nos quais pretende receber o e-mail de subscrição.  
+5. Selecione uma **Frequência** para a sua subscrição: **Diariamente**, **Hora a Hora**, **Semanalmente**, **Mensalmente** ou **Depois da Atualização de Dados (Uma Vez por Dia)** .  Para receber o e-mail de subscrição apenas em determinados dias, selecione **Hora a hora** ou **Semanalmente** e selecione os dias em que o pretende receber.  Por exemplo, se quiser receber o e-mail de subscrição apenas durante os dias úteis, selecione **Semanalmente** e desselecione as caixas **Sáb** e **Dom**.  Se selecionar **Mensalmente**, introduza os dias do mês nos quais pretende receber o e-mail de subscrição.  
 
 6. Se escolher **Diariamente**, **Hora a Hora**, **Mensalmente** ou **Semanalmente**, também pode escolher uma **Hora Agendada** para a subscrição.  Pode definir para que seja executada a cada hora ou a cada 15, 30 ou 45 minutos.  Selecione manhã ou tarde/noite. Também pode especificar o fuso horário.  Se escolher **Hora a hora**, selecione a **Hora Agendada** para o início da subscrição e esta será executada a cada hora seguinte.
 
@@ -95,10 +95,10 @@ Uma subscrição terminará se a licença Pro expirar, o proprietário eliminar 
 * Para subscrições de e-mail do relatório, se o conjunto de dados utilizar RLS, poderá criar uma subscrição para si próprio. Não pode subscrever um relatório para outras pessoas com segurança ao nível da linha (RLS) aplicada, a menos que esteja a utilizar um relatório paginado, que irá permitir que envie a subscrição para outras pessoas com o seu contexto de segurança. 
 * As subscrições de páginas de relatório estão associadas ao nome da página de relatório. Se subscrever uma página de relatório e, em seguida, mudar o nome da mesma, terá de voltar a criar a sua subscrição.
 * A sua organização pode configurar determinadas definições no Azure Active Directory que podem limitar a capacidade de utilizar as subscrições de e-mail no Power BI.  Estas limitações incluem, mas não se limitam a, ter uma autenticação multifator ou restrições de intervalos de IP quando se acede a recursos.
-* Atualmente, as subscrições de e-mail para relatórios/dashboards com conjuntos de dados de ligações em direto não são suportadas ao subscrever outros utilizadores, a menos que esteja a utilizar um relatório paginado, que irá permitir que envie a subscrição para outras pessoas com o seu contexto de segurança. 
-* As subscrições de e-mail não suportam a maioria dos [elementos visuais personalizados](developer/power-bi-custom-visuals.md).  A única exceção são os elementos visuais personalizados que foram [certificados](developer/power-bi-custom-visuals-certified.md).  
-* Neste momento, as subscrições de e-mail não suportam elementos visuais personalizados baseados em R.  
-* As subscrições por e-mail são enviadas com as estatísticas de filtro e segmentação de dados predefinidas do relatório. Quaisquer alterações às predefinições efetuadas depois da subscrição não irão aparecer no e-mail.  Os Relatórios Paginados suportam esta funcionalidade e permitem-lhe definir os valores de parâmetros específicos por subscrição.   
+* Atualmente, as subscrições de e-mail para relatórios/dashboards com conjuntos de dados de ligações em direto não são suportadas ao subscrever outros utilizadores, a menos que esteja a utilizar um relatório paginado, que irá permitir que envie a subscrição para outras pessoas com o seu contexto de segurança.
+* As subscrições por e-mail não suportam a maioria dos [elementos visuais do Power BI](developer/visuals/power-bi-custom-visuals.md).  A única exceção são os elementos visuais do Power BI que foram [certificados](developer/visuals/power-bi-custom-visuals-certified.md).  
+* De momento, as subscrições por e-mail não suportam elementos visuais do Power BI baseados em R.  
+* As subscrições por e-mail são enviadas com as estatísticas de filtro e segmentação de dados predefinidas do relatório. Quaisquer alterações às predefinições efetuadas depois da subscrição não irão aparecer no e-mail.  Os Relatórios Paginados suportam esta funcionalidade e permitem-lhe definir os valores de parâmetros específicos por subscrição.
 * Especificamente para subscrições de dashboards, determinados tipos de mosaicos ainda não são suportados.  Estes incluem: transmissão em fluxo de mosaicos, mosaicos de vídeos e mosaicos de conteúdo Web personalizados.     
 * Se partilhar um dashboard com um colega fora do seu inquilino, também não poderá criar uma subscrição para esse colega. Por isso, se for aaron@xyz.com, poderá partilhar com anyone@ABC.com, mas ainda não poderá subscrever anyone@ABC.com e o mesmo não poderá subscrever o conteúdo partilhado.      
 * O Power BI interrompe automaticamente a atualização nos conjuntos de dados associados a dashboards e relatórios que não tenham sido acedidos durante mais de dois meses.  No entanto, se adicionar uma subscrição a um dashboard ou relatório, este não será interrompido, mesmo se não for acedido.    

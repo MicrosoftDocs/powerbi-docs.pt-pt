@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 40e11f6423df12355800a2c62876e5de1f8b3f82
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 344b041b8cca3e6ed4be1f40c0e783df18315679
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867465"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378599"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Amostragem de linhas de alta densidade no Power BI
-A partir da versão de junho de 2017 do **Power BI Desktop** e das atualizações ao **serviço Power BI**, há um novo algoritmo de amostragem disponível destinado a melhorar os elementos visuais que fornecem uma amostra dos dados de alta densidade. Por exemplo, pode criar um gráfico de linhas a partir dos resultados de vendas das suas lojas de revenda, em que cada loja tem mais de dez mil recibos de vendas por ano. Um gráfico de linhas dessas informações de vendas forneceria uma amostra dos dados (selecione uma representação expressiva desses dados, para ilustrar como as vendas variam ao longo do tempo) de cada loja e criaria um gráfico de linhas com várias séries que, desse modo, representa os dados subjacentes. Trata-se de uma prática corrente na visualização de dados de elevada densidade. O Power BI Desktop melhorou a respetiva capacidade de amostragem de dados de alta densidade, cujos detalhes são descritos neste artigo.
+A partir da versão de junho de 2017 do **Power BI Desktop** e das atualizações ao **serviço Power BI**, há um novo algoritmo de amostragem disponível destinado a melhorar os elementos visuais que fornecem uma amostra dos dados de alta densidade. Por exemplo, pode criar um gráfico de linhas a partir dos resultados de vendas das suas lojas de revenda, em que cada loja tem mais de 10 mil recibos de vendas por ano. Um gráfico de linhas dessas informações de vendas forneceria uma amostra dos dados (selecione uma representação expressiva desses dados, para ilustrar como as vendas variam ao longo do tempo) de cada loja e criaria um gráfico de linhas com várias séries que, desse modo, representa os dados subjacentes. Trata-se de uma prática corrente na visualização de dados de elevada densidade. O Power BI Desktop melhorou a respetiva capacidade de amostragem de dados de alta densidade, cujos detalhes são descritos neste artigo.
 
 ![](media/desktop-high-density-sampling/high-density-sampling_01.png)
 
@@ -46,7 +46,7 @@ As limitações de elementos visuais que se seguem aplicam-se a qualquer visuali
 O número máximo de limites de dados é superior para os seguintes tipos de elementos visuais, que são *exceções* ao limite de 3500 pontos de dados:
 
 * **150 000** pontos de dados no máximo para elementos visuais R.
-* **30 000** pontos de dados para elementos visuais personalizados.
+* **30 mil** pontos de dados para elementos visuais do Power BI.
 * **10 000** pontos de dados para gráficos de dispersão (os gráficos de dispersão têm uma predefinição de 3500).
 * **3500** para todos os outros elementos visuais.
 

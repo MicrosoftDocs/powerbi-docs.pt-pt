@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f6f0db28103b937d2074e6f339c9aaa61bfd688
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2492996c8bbc6ea7a8d359b4b1015de67bb17430
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879644"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378714"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Criar descrições com base em páginas de relatório no Power BI Desktop
 Pode criar **descrições de relatórios** visualmente avançadas que surgem ao pairar o cursor sobre elementos visuais, com base nas páginas de relatórios que criar no **Power BI Desktop**. Ao criar uma página de relatório que serve como descrição, as suas descrições personalizadas podem incluir elementos visuais, imagens e qualquer outra coleção de itens que criar na página do relatório. 
@@ -112,7 +112,7 @@ Quando um elemento visual é realçado de forma cruzada num relatório, as descr
 Existem algumas limitações e considerações a ter em conta relativamente às **descrições**.
 
 * A partir da versão de dezembro de 2018 do **Power BI Desktop**, os elementos visuais de botões também suportam descrições.
-* As descrições de relatórios não são suportadas para elementos visuais personalizados. 
+* As descrições de relatórios não são suportadas para elementos visuais do Power BI. 
 * Atualmente, os clusters não são suportados como campos que podem ser apresentados em descrições de relatórios. 
 * Ao selecionar um campo a apresentar em descrições de relatórios, se utilizar um campo em vez de uma categoria, os elementos visuais que contêm esse campo só mostrarão a descrição especificada quando o resumo do campo selecionado corresponder. 
 

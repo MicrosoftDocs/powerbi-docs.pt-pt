@@ -1,24 +1,24 @@
 ---
 title: Introdução à utilização de utilitários de SVG no elemento visual do Power BI
-description: Este artigo descreve como utilizar utilitários de SVG para simplificar manipulações de SVG para elementos visuais personalizados do Power BI
+description: Este artigo descreve como utilizar utilitários de SVG para simplificar manipulações de SVG para elementos visuais do Power BI
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 612c253e53cdaec5819387548354595c8bd94fa0
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: aa1ac8074e842a51b369c48f57c4b5016a80140c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819313"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377978"
 ---
 # <a name="svg-utils"></a>Utilitários de SVG
 
-SVGUtils é um conjunto de funções e classes para simplificar manipulações de SVG para elementos visuais personalizados do Power BI
+SVGUtils é um conjunto de funções e classes para simplificar manipulações de SVG para elementos visuais do Power BI
 
 ## <a name="installation"></a>Instalação
 

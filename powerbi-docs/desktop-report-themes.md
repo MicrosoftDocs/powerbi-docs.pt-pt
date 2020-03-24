@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/23/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5a4ed3ffc833b2405a3c231b80047c71b40a64cc
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.openlocfilehash: 2316fcf5d0b5c0a4c63e4786b80b8c7e20c643e3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "76753703"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378967"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Utilizar temas de relatório no Power BI Desktop
 
@@ -195,7 +195,7 @@ Imagine que quer definir manualmente a cor de um ponto de dados com a secção *
 
 ![Reverter para predefinição](media/desktop-report-themes/report-themes_9.png)
 
-Muitos elementos visuais personalizados não se aplicam aos temas de relatório.
+Muitos elementos visuais do Power BI não se aplicam aos temas de relatório.
 
 ## <a name="custom-report-theme-files-you-can-use-right-now"></a>Ficheiros de temas de relatório personalizados que pode utilizar atualmente
 
@@ -265,13 +265,13 @@ No seu nível mais básico, o ficheiro JSON de temas tem apenas uma linha necess
 }
 ```
 
-Além de **name**, tudo o resto é opcional, o que significa que é livre de adicionar apenas as propriedades que deseja formatar especificamente para o ficheiro de temas e continuar a utilizar as predefinições do Power BI para o resto.
+Além de **name**, tudo o resto é opcional, o que significa que é livre de adicionar apenas as propriedades que pretende formatar especificamente para o ficheiro de temas e continuar a utilizar as predefinições do Power BI para o resto.
 
 ### <a name="setting-theme-colors"></a>Definição de cores do tema
 
 Em **name**, pode adicionar as seguintes propriedades básicas relacionadas com a cor dos dados:
 
-- **dataColors**: A lista de códigos de cor hexadecimais a utilizar para as formas de cores que representam os dados em elementos visuais do Power BI Desktop. Esta lista pode ter o número de cores que quiser. Após todas as cores desta lista terem sido utilizadas, se o elemento visual ainda precisar de mais cores, será revertido para utilizar a paleta de cores predefinida do Power BI.
+- **dataColors**: A lista de códigos de cor hexadecimais a utilizar para as formas de cores que representam os dados em elementos visuais do Power BI Desktop. Esta lista pode ter o número de cores que quiser. Após todas as cores desta lista terem sido utilizadas, se o elemento visual ainda precisar de mais cores, será revertido para utilizar a paleta de cores predefinida do Power BI.
 - **good**, **neutral**, **bad**: estas propriedades definem as cores do estado utilizadas pelo gráfico de cascata e pelo elemento visual do KPI.
 - **maximum**, **center**, **minimum**, **null**: estas cores definem as várias cores de gradiente na caixa de diálogo da formatação condicional.
 
@@ -312,10 +312,10 @@ A tabela seguinte mostra as seis classes de cores que pode formatar.  Os nomes *
 |---------|---------|
 | **firstLevelElements** <br> **foreground** (preterido) | Cor do fundo das etiquetas (quando estiver fora dos pontos de dados) <br> Cor da linha de tendência <br>  Cor predefinida da caixa de texto <br> Valores de tabela e matriz e cores de tipo de letra totais Cor do eixo das barras de dados <br> Etiquetas de dados de cartão <br> Valor de cor de chamada de medidor <br> Cor do objetivo do KPI <br>  Cor do texto do KPI <br> Cor do item da segmentação (quando no modo de detalhe)  <br> Cor do tipo de letra do item pendente da segmentação <br> Cor do tipo de letra da entrada numérica da segmentação <br> Cor do tipo de letra do cabeçalho da segmentação <br> Cor da linha de proporção do gráfico de dispersão <br> Cor da linha da previsão do gráfico de linhas <br> Cor da linha de preenchimento do mapa <br> Cor do painel de filtro e texto do cartão|
 | **secondLevelElements** <br> **foregroundNeutralSecondary** (preterido) | [classes de texto secundárias](#setting-formatted-text-defaults) "light" <br> Cores da etiqueta  <br> Cor da etiqueta da legenda <br> Cor da etiqueta do eixo <br> Cor do tipo de letra do cabeçalho da tabela e da matriz <br> Cor da linha de preenchimento de destino e destino do medidor <br>  Cor do eixo de tendência do KPI <br> Cor do controlo de deslize da segmentação <br> Cor do tipo de letra do item da segmentação <br> Cor do contorno da segmentação <br> Cor do cursor do gráfico de linhas <br> Cor do título do cartão multilinhas <br> Cor do traço do gráfico do friso <br> Cor do limite do mapa de forma <br> Cor do tipo de letra do texto do botão <br> Cor da linha do ícone do botão <br> Cor do contorno do botão |
-| **thirdLevelElements** <br >**backgroundLight** (preterido) | Cor da linha de grelha do eixo <br> Cor da grelha de tabela e matriz <br> Cor do fundo do cabeçalho da segmentação (quando no modo de detalhe)  <br> Cor do contorno do cartão multilinhas  <br> Cor de preenchimento da forma <br> Cor de fundo do arco do medidor <br> Cor do fundo do cartão de filtro aplicado <br> |
-| **fourthLevelElements** <br> **foregroundNeutralTertiary** (preterido) | cor esbatida da legenda <br> Cor das etiquetas de categoria do cartão <br> Cor das etiquetas de categoria do cartão multilinhas <br> Cor da barra do cartão multilinhas <br> Cor do traço da taxa de conversão do gráfico de funil
+| **thirdLevelElements** <br >**backgroundLight** (preterido) | Cor da linha de grelha do eixo <br> Cor da grelha de tabela e matriz <br> Cor do fundo do cabeçalho da segmentação (quando no modo de detalhe)  <br> Cor do contorno do cartão multilinhas  <br> Cor de preenchimento da forma <br> Cor de fundo do arco do medidor <br> Cor do fundo do cartão de filtro aplicado <br> Quando o fundo = FFFFFF: <br> Cor de preenchimento do botão desativado <br> Cor do contorno do botão desativado <br> |
+| **fourthLevelElements** <br> **foregroundNeutralTertiary** (preterido) | cor esbatida da legenda <br> Cor das etiquetas de categoria do cartão <br> Cor das etiquetas de categoria do cartão multilinhas <br> Cor da barra do cartão multilinhas <br> Cor do traço da taxa de conversão do gráfico de funil <br> Cor do tipo de letra do texto do botão desativado <br> Cor da linha do ícone do botão desativado <br> |
 | **background** | Cor do fundo das etiquetas (quando estiver dentro dos pontos de dados) <br> Cor do fundo de itens pendentes da segmentação  <br> Cor do traço do gráfico em anel <br> Cor do traço do gráfico treemap <br> Cor do fundo do gráfico de combinação <br> Cor de preenchimento do botão <br> Cor do fundo do cartão do painel de filtro e do filtro disponível |
-| **secondaryBackground** <br> **backgroundNeutral** (preterido) | Cor do contorno da grelha de tabela e matriz <br> Cor predefinida do mapa de forma <br> Cor de preenchimento do friso do gráfico de friso (quando a opção Fazer corresponder série está desativada) |
+| **secondaryBackground** <br> **backgroundNeutral** (preterido) | Cor do contorno da grelha de tabela e matriz <br> Cor predefinida do mapa de forma <br> Cor de preenchimento do friso do gráfico de friso (quando a opção Fazer corresponder série está desativada) <br> Quando o fundo != FFFFFF: <br> Cor de preenchimento do botão desativado <br> Cor do contorno do botão desativado <br> |
 | **tableAccent** | Substitui a cor do contorno da grelha da tabela e da matriz quando presente |
 
 Veja a seguir um tema de exemplo que define as classes de cores:
@@ -344,7 +344,7 @@ Existem 12 classes de texto, mas tem de definir apenas quatro classes, chamadas 
 
 Outras classes de texto, consideradas *classes secundárias*, derivam automaticamente as suas propriedades das classes primárias associadas. Geralmente, uma classe secundária seleciona uma tonalidade mais clara de cor de texto ou de um tamanho de texto em percentagem maior ou menor em relação à classe primária.
 
-Considere a classe **label** como exemplo. A formatação predefinida da classe **label** é Segoe UI, #252423 (cor cinzento escuro) e 12 pontos. Esta classe é utilizada para formatar os valores na tabela e na matriz. Normalmente, os totais numa tabela ou numa matriz têm formatação semelhante, mas estão a negrito com a classe **bold label** para que fiquem destacados. No entanto, não tem de especificar essa classe no JSON de temas; o Power BI faz isso automaticamente. Mais tarde, se decidir especificar etiquetas com um tipo de letra 14 pt no tema, não será necessário atualizar a classe **bold label**, uma vez que herdará a formatação da classe **label**.
+Considere a classe **etiqueta** como exemplo. A formatação predefinida da classe **label** é Segoe UI, #252423 (cor cinzento escuro) e 12 pontos. Esta classe é utilizada para formatar os valores na tabela e na matriz. Normalmente, os totais numa tabela ou numa matriz têm formatação semelhante, mas estão a negrito com a classe **bold label** para que fiquem destacados. No entanto, não tem de especificar essa classe no JSON de temas; o Power BI faz isso automaticamente. Mais tarde, se decidir especificar etiquetas com um tipo de letra 14 pt no tema, não será necessário atualizar a classe **bold label**, uma vez que herdará a formatação da classe **label**.
 
 A tabela abaixo mostra as seguintes informações:
 
@@ -401,7 +401,7 @@ Veja um tema de exemplo que define apenas as classes de texto primárias:
 }
 ```
 
-Como as classes secundárias herdam as classes primárias, não tem de defini-las no ficheiro de temas. No entanto, se não gostar das regras de herança (por exemplo, se não quiser que os totais sejam uma versão a negrito dos valores numa tabela), poderá formatar explicitamente as classes secundárias no ficheiro de tema, assim como poderá formatar as classes primárias.
+Como as classes secundárias herdam as classes primárias, não tem de defini-las no ficheiro de temas. No entanto, se não gostar das regras de herança (por exemplo, se não quiser que os totais sejam uma versão a negrito dos valores numa tabela), pode formatar explicitamente as classes secundárias no ficheiro de tema, assim como pode formatar as classes primárias.
 
 ### <a name="setting-visual-property-defaults-visualstyles"></a>Definição de predefinições de propriedades de elemento visual (`visualStyles`)
 
@@ -464,7 +464,7 @@ Este exemplo utiliza as seguintes definições:
 
 - Ativa a moldagem do texto em todo o lado
 - Define o estilo da linha de grelha como pontilhado para todos os elementos visuais com um eixo de categoria
-- Define alguma formatação para os cartões de filtro disponíveis e aplicados (repare no formato que utiliza “$id” para definir as diferentes versões dos cartões de filtro)
+- Define alguma formatação para os cartões de filtro disponíveis e aplicados (repare no formato que utiliza "$id" para definir as diferentes versões dos cartões de filtro)
 - Define o tamanho da bolha dos gráficos de dispersão como -10.
 
 > [!NOTE]
@@ -574,7 +574,7 @@ Quando utilizar **dateTime**, a data tem de ser uma data ISO entre plicas, com d
 
 Os valores booleanos são true ou false. As cadeias têm de estar entre aspas, tal como "trata-se de uma cadeia". Os números são apenas o valor em si, não entre aspas.
 
-As cores utilizam o seguinte formato, em que o código hexadecimal personalizado substitui “FFFFFF” no exemplo seguinte:
+As cores utilizam o seguinte formato, em que o código hexadecimal personalizado substitui "FFFFFF" no exemplo seguinte:
 
     { "solid": { "color": "#FFFFFF" } }
 
@@ -4491,7 +4491,7 @@ A secção seguinte define as enumerações que pode utilizar no ficheiro JSON.
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 
-Se estiver a utilizar um dos nossos temas originais, o tema "Clássico", ou um tema personalizado que importou sobre um destes, a secção de texto da caixa de diálogo de temas não está disponível para configuração.
+Se estiver a utilizar um dos nossos temas originais, o tema "Clássico" ou um tema personalizado que importou sobre um destes, a secção de texto da caixa de diálogo de temas não está disponível para configuração.
 
 Os temas incorporados que são afetados por esta limitação incluem os seguintes temas:
 * Clássico

@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 03/17/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 869da47cd64e93a930fe6e92071345be093617a7
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 11e9bfb2c8dce526ad81395645165c2c7dd70a00
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114031"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525712"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Subscrever um relatório ou dashboard no serviço Power BI 
 
@@ -65,7 +65,7 @@ Quer esteja a subscrever um dashboard ou um relatório, o processo é semelhante
 
 3. Se tudo estiver correto, selecione **Guardar e fechar** para guardar a subscrição. Receberá um e-mail e um instantâneo do dashboard ou do relatório dentro do período que definiu. Todas as subscrições cuja frequência estiver definida para **Depois da atualização de dados** só enviarão um e-mail após a primeira atualização agendada para o dia em questão.
    
-   ![instantâneo do dashboard num e-mail](media/end-user-subscribe/power-bi-email.png)
+   ![instantâneo do dashboard num e-mail](media/end-user-subscribe/power-bi-email-old.png)
    
     Atualizar a página de relatório não atualiza o conjunto de dados. Apenas o proprietário do conjunto de dados pode atualizar manualmente um conjunto de dados. Para procurar o nome do proprietário do(s) conjunto(s) de dados subjacente(s), selecione o menu pendente na barra de menus ou procure o e-mail da subscrição original.
    
@@ -80,14 +80,14 @@ Apenas o utilizador pode gerir as subscrições que cria. Selecione **Subscrever
 Uma subscrição terminará se a licença Pro expirar, o dashboard ou o relatório for eliminado pelo proprietário ou a conta de utilizador utilizada para criar a subscrição for eliminada.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
-* Para evitar que os e-mails da subscrição vão para a pasta de spam, adicione o alias de e-mail do Power Platform (PowerPlat-noreply@microsoft.com) aos contactos. Se estiver a utilizar o Microsoft Outlook, clique com o botão direito do rato no alias e selecione **Adicionar aos contactos do Outlook**. 
+* Para evitar que os e-mails da subscrição vão para a pasta de spam, adicione o alias de e-mail do Power BI (no-reply-powerbi@microsoft.com) aos contactos. Se estiver a utilizar o Microsoft Outlook, clique com o botão direito do rato no alias e selecione **Adicionar aos contactos do Outlook**. 
 * É possível que os dashboards com mais de 25 mosaicos afixados ou mais de quatro páginas de relatórios dinâmicos afixadas não sejam apresentados por inteiro nos e-mails de subscrição enviados aos utilizadores. Sugerimos que contacte o designer do dashboard e lhe peça que reduza o número de mosaicos afixados para 25 e o de relatórios dinâmicos afixados para menos de quatro, de modo a garantir que o e-mail é apresentado corretamente.  
 * Para subscrições de e-mail do dashboard, se um mosaico tiver segurança aplicada ao nível da linha (RLS), o mesmo não será apresentado.  Para subscrições de e-mail do relatório, se o conjunto de dados utilizar RLS, não poderá criar uma subscrição.
 * Se as ligações no seu e-mail (para o conteúdo) deixarem de funcionar, o conteúdo poderá ter sido eliminado. No e-mail, abaixo da captura de ecrã, pode ver se foi você ou outra pessoa que o subscreveu. Se foi outra pessoa, peça a esse colega que cancele os e-mails ou volte a subscrever.
 * As subscrições de páginas de relatório estão associadas ao nome da página de relatório. Se subscrever uma página de relatório e lhe for atribuído um nome novo, terá de criar novamente a sua subscrição.
 * Se não conseguir utilizar a funcionalidade de subscrição, contacte o seu administrador de sistema. A sua organização pode ter desativado esta funcionalidade.  
-* As subscrições por e-mail não suportam a maioria dos [elementos visuais personalizados](../developer/power-bi-custom-visuals.md).  A exceção são os elementos visuais personalizados que foram [certificados](../developer/power-bi-custom-visuals-certified.md).  
-* De momento, as subscrições por e-mail não suportam elementos visuais personalizados baseados em R.  
+* As subscrições por e-mail não suportam a maioria dos [elementos visuais do Power BI](../developer/visuals/power-bi-custom-visuals.md).  A exceção são os elementos visuais do Power BI que foram [certificados](../developer/visuals/power-bi-custom-visuals-certified.md).  
+* De momento, as subscrições por e-mail não suportam elementos visuais do Power BI baseados em R.  
 * Para as subscrições de dashboard em específico, certos tipos de mosaicos não são ainda suportados.  Estes incluem: transmissão em fluxo de mosaicos, mosaicos de vídeos e mosaicos de conteúdo Web personalizados.     
 * As subscrições podem falhar em dashboards ou relatórios com imagens extremamente grandes devido aos limites de tamanho por e-mail.    
 * O Power BI interrompe automaticamente a atualização nos conjuntos de dados associados a dashboards e relatórios que não tenham sido acedidos durante mais de dois meses.  No entanto, se adicionar uma subscrição a um dashboard ou relatório, este não será interrompido, mesmo se não for acedido.

@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1e69c7eefe25da771ecc4d9602d6a21081f2c052
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 067171f7ec74beccdb5a312c1cac5bbc6c87541f
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920760"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377656"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>Orientação para a obtenção de dados para relatórios paginados
 

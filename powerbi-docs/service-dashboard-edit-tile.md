@@ -11,11 +11,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877473"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207603"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Editar ou remover um mosaico do dashboard
 
@@ -126,7 +126,7 @@ Por predefinição, a seleção de um mosaico normalmente permite aceder ao rela
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>Afixar o mosaico a um dashboard diferente
-1. No menu de lista pendente das reticências, selecione **Afixar mosaico** ![ícone afixar](media/service-dashboard-edit-tile/pinnooutline.png).
+1. No menu de lista pendente de reticências, selecione **Afixar mosaico**![ícone afixar](media/service-dashboard-edit-tile/pinnooutline.png).
 2. Decida se pretende afixar um duplicado deste mosaico a um dashboard existente ou a um novo dashboard. 
    
    ![Caixa de diálogo Afixar no dashboard](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
@@ -135,7 +135,7 @@ Por predefinição, a seleção de um mosaico normalmente permite aceder ao rela
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>Excluir o mosaico
-1. Para remover permanentemente um mosaico de um dashboard, selecione **Eliminar mosaico** ![ícone eliminar](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) no menu de lista pendente das reticências. 
+1. Para remover permanentemente um mosaico de um dashboard, selecione **Eliminar mosaico**![ícone eliminar](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) no menu de lista pendente de reticências. 
 
 2. Eliminar um mosaico não elimina a visualização subjacente. Abra o relatório subjacente, selecionando o mosaico "Valor". Abra a última página do relatório para ver que a visualização original não foi eliminada do relatório. 
 

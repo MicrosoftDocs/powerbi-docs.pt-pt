@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 01/21/2019
-ms.openlocfilehash: 7665f0c8e3c909263f194a0fd54a54ed2a752c8c
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: e2cb11ea9be85916e6b5557e7933f6a6b5a7159a
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819106"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380600"
 ---
 # <a name="local-storage-api"></a>Local Storage API (API de Armazenamento Local)
 
@@ -59,5 +59,5 @@ export class Visual implements IVisual {
 
 ## <a name="known-limitations-and-issues"></a>Limitações e problemas conhecidos
 
-A API de Armazenamento Local não está ativada para Elementos Visuais Personalizados por predefinição. Se quiser ativá-la para o seu Elemento Visual Personalizado, envie o pedido para o Suporte de Elementos Visuais Personalizados do Power BI `pbicvsupport@microsoft.com`.  
+A API de Armazenamento Local não está ativada para elementos visuais do Power BI por predefinição. Se quiser ativá-la para o seu elemento visual do Power BI, envie o pedido para o Suporte de elementos visuais do Power BI `pbicvsupport@microsoft.com`.  
 **Tenha em atenção que o seu elemento visual deverá estar disponível no [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) e ser [certificado](https://powerbi.microsoft.com/en-us/documentation/powerbi-custom-visuals-certified/).**

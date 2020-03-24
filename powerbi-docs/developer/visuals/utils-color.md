@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: d688e54607283a6bcb67f895a89ca991f68bc01b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922488"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379358"
 ---
 # <a name="color-utils"></a>Color utils (Utilitários de cor)
 Este artigo vai ajudá-lo a instalar, importar e utilizar utilitários de cores. Este artigo descreve como utilizar utilitários de cores para simplificar a aplicação de temas e paletas nos pontos de dados de elementos visuais do Power BI.
@@ -40,7 +40,7 @@ Para os utilitários de interatividade do utilizador, precisa de importar o comp
 import { ColorHelper } from "powerbi-visuals-utils-colorutils";
 ```
 
-Saiba como instalar e utilizar os ColorUtils nos elementos visuais personalizados:
+Saiba como instalar e utilizar os ColorUtils nos elementos visuais do Power BI:
 
 * [Guia de Utilização] O Guia de Utilização descreve uma API pública do pacote. Encontrará uma descrição e alguns exemplos para cada interface pública do pacote.
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 28116a4e2b89fe5f8fe719f8d6c0d9eca28310eb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6e468ac429c26f3b1880501914816ac60f8b7858
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867703"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378737"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Exportar relatórios do Power BI Desktop para PDF
 No **Power BI Desktop** ou no serviço Power BI, pode exportar relatórios para um ficheiro PDF e, deste modo, partilhar ou imprimir facilmente os seus relatórios a partir desse PDF.
@@ -34,7 +34,7 @@ Quando a exportação terminar, o PDF será carregado para o visualizador de PDF
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 Existem algumas considerações a ter em conta com a funcionalidade **Exportar para PDF**:
 
-* A funcionalidade exporta elementos visuais personalizados, mas *não* exporta os padrões de fundo que possa ter aplicado ao relatório.
+* A funcionalidade exporta elementos visuais do Power BI, mas *não* exporta os padrões de fundo que possa ter aplicado ao relatório.
 
 Uma vez que os padrões de fundo não são exportados para o PDF, deve prestar especial atenção aos relatórios que utilizam padrões de fundo escuros. Se o texto no seu relatório for de cor clara ou branco para se destacar no seu padrão de fundo escuro, irá tornar-se difícil de ler ou ilegível no processo de exportação para PDF, dado que o padrão de fundo não será exportado juntamente com o resto do relatório. 
 

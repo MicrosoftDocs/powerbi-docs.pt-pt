@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/17/2019
 ms.author: painbar
-ms.openlocfilehash: bfc6a32f7b6ef83e6e69351fb4d87d89c8c2806e
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: c9a42949ca517860c8b3f0e6faa07d49bd8054e8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427598"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376690"
 ---
 # <a name="what-are-power-bi-template-apps"></a>O que são as aplicações de modelo do Power BI?
 
@@ -102,7 +102,7 @@ Veja [Tips for authoring template apps in Power BI](service-template-apps-tips.m
 | Origens de dados | São permitidas origens de dados suportadas para atualizações de Dados Agendadas da cloud. <br>Não suportado: <li> DirectQuery</li><li>Ligações em direto (no Azure Analysis Services)</li> <li>Origens de dados no local (não são suportados gateways empresariais e pessoais)</li> <li>Em tempo real (não existe suporte para conjuntos de dados de emissão)</li> <li>Modelos compostos</li></ul> |
 | Conjunto de dados: em várias áreas de trabalho | Não são permitidos conjuntos de dados em várias áreas de trabalho  |
 | Parâmetros de consulta | Não suportado: parâmetros do tipo "Qualquer" ou "Binário" bloqueiam a operação de atualização do conjunto de dados |
-| Elementos visuais personalizados | Só são suportados elementos visuais personalizados disponíveis para o público. Não são suportados [elementos visuais personalizados organizacionais](developer/power-bi-custom-visuals-organization.md) |
+| Elementos Visuais do Power BI | Só são suportados elementos visuais do Power BI disponíveis para o público. Não são suportados [elementos visuais do Power BI organizacionais](developer/visuals/power-bi-custom-visuals-organization.md) |
 
 ## <a name="support"></a>Suporte
 Para obter suporte durante o desenvolvimento, utilize [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Monitorizamos e gerimos este site de forma ativa. Os incidentes dos clientes são rapidamente reencaminhados para a equipa adequada.

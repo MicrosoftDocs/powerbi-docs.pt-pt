@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290619"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377748"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Extend visuals with report page tooltips (Desenvolver elementos visuais com descrições de páginas de relatório)
 
@@ -31,7 +31,7 @@ As descrições de páginas de relatório podem otimizar a experiência para os 
 >
 > As descrições de página não suportam interatividade. Se pretende que os utilizadores do seu relatório possam interagir, crie antes uma [página de pormenorização](../desktop-drillthrough.md).
 >
-> Os elementos visuais personalizados não suportam descrições de página.
+> Os elementos visuais do Power BI não suportam descrições de página.
 
 Eis alguns cenários de estrutura sugeridos:
 
