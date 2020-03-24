@@ -6,18 +6,18 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 8829cb8af41611fb29cd4fc22da7706e80ef3210
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4379fbfe051b69a2c9502a033ba462c1dded2022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880339"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380655"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Descrições em elementos visuais do Power BI
 
-Agora os elementos visuais conseguem utilizar o suporte de descrições do Power BI. As descrições do Power BI suportam as seguintes interações:
+Agora, os elementos visuais conseguem utilizar o suporte de descrições do Power BI. As descrições do Power BI suportam as seguintes interações:
 
 * Mostrar uma descrição.
 * Ocultar uma descrição.
@@ -27,7 +27,7 @@ As descrições podem apresentar um elemento textual com um título, um valor co
 
 A seguinte imagem apresenta uma descrição num gráfico de barras de exemplo:
 
-![Descrições de gráfico de barras de exemplo](./media/tooltips-in-samplebarchart.png)
+![Descrições de gráfico de barras de exemplo](media/add-tooltips/tooltips-in-samplebarchart.png)
 
 A imagem de descrição anterior ilustra o valor e a categoria de uma única barra. Pode expandir uma única descrição para apresentar múltiplos valores.
 
@@ -209,7 +209,7 @@ Abaixo encontra-se um exemplo de esquema.
 
 Pode definir descrições da página de relatório no painel **Formatar**.
 
-![Descrição da página de relatório](media/report-page-tooltip.png)
+![Descrição da página de relatório](media/add-tooltips/report-page-tooltips.png)
 
 * `supportedTypes`: A configuração das descrições é suportada pelo elemento visual e refletida no conjunto de campos. 
    * `default`: especifica se o enlace de descrições "automático" através do campo de dados é suportado. 

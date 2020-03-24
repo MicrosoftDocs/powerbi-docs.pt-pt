@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 0f29b70a42375be945d206672116219b7d5a3b48
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: d718c9c7f627d735c083a46c1483815e3744faca
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77610001"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378875"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Guia de otimização para o Power BI
 
@@ -69,7 +69,7 @@ O princípio apresentado acima aplica-se também ao número de elementos visuais
 
 #### <a name="evaluate-custom-visual-performance"></a>Avaliar o desempenho dos elementos visuais personalizados
 
-Certifique se de que testa os seus elementos visuais personalizados com cuidado para garantir um desempenho elevado. Os elementos visuais personalizados mal otimizados podem afetar negativamente o desempenho de todo o relatório.
+Certifique se de que testa os seus elementos visuais personalizados com cuidado para garantir um desempenho elevado. Os elementos visuais do Power BI mal otimizados podem afetar negativamente o desempenho de todo o relatório.
 
 ### <a name="power-bi-paginated-reports"></a>Relatórios paginados do Power BI
 
