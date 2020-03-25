@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: b36bc6d23b56b4118f848ad9fa4e8f39dbc65d2d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 349b4d51c1649b714c67e61ac42ddcc49b2eeb12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376730"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114894"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes da Administração Pública dos EUA
 Este artigo é para clientes do US Government que estão a implementar o Power BI como parte de um plano do Office 365 para o Governo Norte-Americano. Os planos governamentais destinam-se às necessidades únicas das organizações que devem cumprir as normas de conformidade e segurança dos EUA. O serviço Power BI concebido para clientes do US Government difere da versão comercial do serviço Power BI. Estas capacidades e diferenças das funcionalidades são descritas nas secções seguintes.
@@ -95,7 +95,7 @@ Para cumprir os requisitos dos clientes da cloud governamental, existem algumas 
 |  |Importar dados de ficheiros CSV|Disponível|Disponível|Disponível|
 |  |Importar dados de ficheiros do Power BI Desktop|Disponível|Disponível|Disponível|
 |  |Conectividade para CDS|Disponível|Não disponível|Não disponível|
-|  |Conector do Azure Data Lake Storage Gen2|Não disponível|Não disponível|Não disponível|
+|  |Conector do Azure Data Lake Storage Gen2|Disponível|Não disponível|Não disponível|
 |Gestão de dados|Gateway de gestão de dados|Disponível|Disponível|Disponível|
 |  |Encriptação de dados no Azure SQL|Disponível|Disponível|Disponível|
 |  |Encriptação de dados no Armazenamento de Blobs do Power BI|Disponível|Disponível|Disponível|

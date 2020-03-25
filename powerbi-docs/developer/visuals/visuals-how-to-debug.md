@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 02/14/2020
-ms.openlocfilehash: c87d1af9033044a8b79d6fe00d566d9b46c499fc
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: a9ee6c367c9b513b1d84133670d646448c9f6a13
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377918"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113721"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Como depurar elementos visuais do Power BI
 
