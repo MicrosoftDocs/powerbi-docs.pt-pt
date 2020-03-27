@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 08/29/2019
-ms.openlocfilehash: b8301ca17559b81d4db132fbeaa0955ce68a4c6e
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 7a5ec7ef1f66a4a5b6ec80c80e9fd37e19bb2813
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922534"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113560"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Transmitir um parâmetro de relatório num URL para um relatório paginado no Power BI 
 
@@ -64,8 +64,8 @@ Para transmitir um valor booleano, utilize 0 para falso e 1 verdadeiro. Para tra
 
 > [!NOTE]
 > Se o seu relatório contiver um parâmetro de relatório com um valor predefinido e o valor da propriedade **Prompt** for **falso** (ou seja, se a propriedade **Prompt User** não estiver selecionada no Report Manager), não poderá transmitir um valor a esse parâmetro de relatório num URL. Isto permite que os administradores possam impedir os utilizadores finais de adicionarem ou modificarem os valores de determinados parâmetros de relatório.
-
-> O Power BI não suporta uma cadeia de consulta com mais de 900 carateres.  Este valor pode ser excedido se estiver a utilizar parâmetros de URL para ver o seu relatório paginado.  Isto aplica-se sobretudo se estiver a utilizar parâmetros de múltiplos valores.
+> 
+> O Power BI não suporta uma cadeia de consulta com mais de 2000 carateres.  Este valor pode ser excedido se estiver a utilizar parâmetros de URL para ver o seu relatório paginado.  Isto aplica-se sobretudo se estiver a utilizar parâmetros de múltiplos valores.
 
 ## <a name="additional-examples"></a>Exemplos adicionais 
 

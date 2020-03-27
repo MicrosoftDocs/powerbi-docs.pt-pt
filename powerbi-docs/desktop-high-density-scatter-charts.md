@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ae33d7aac0eb42e925e78b8b76a9d7106cdf9d20
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b603ced5775d72c09419ea5e18b2eb03b2680e95
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867450"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273369"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Amostragem de alta densidade em gráficos de dispersão do Power BI
 A partir da versão de setembro de 2017 do **Power BI Desktop** e das atualizações ao **serviço Power BI**, há um novo algoritmo de amostragem disponível destinado a melhorar a forma como os gráficos de dispersão representam dados de alta densidade.
@@ -85,7 +85,8 @@ A amostragem do algoritmo de alta densidade é uma melhoria importante para o Po
 * O algoritmo de **Amostragem de Alta Densidade** funciona apenas com ligações em direto a modelos baseados no serviço Power BI, modelos importados ou do DirectQuery.
 
 ## <a name="next-steps"></a>Próximos passos
-Para obter mais informações sobre a amostragem de alta densidade em outros gráficos, veja o seguinte artigo.
+
+Para obter mais informações sobre a amostragem de alta densidade, consulte os seguintes artigos:
 
 * [Amostragem de linhas de alta densidade no Power BI](desktop-high-density-sampling.md)
-
+* [Sugestões para ordenar e distribuir diagramas de dados em relatórios do Power BI](guidance/report-tips-sort-distribute-data-plots.md)

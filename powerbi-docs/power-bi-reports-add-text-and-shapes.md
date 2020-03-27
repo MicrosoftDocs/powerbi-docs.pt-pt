@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b90bfd9482e28faa8d9dfb0d089ca07656663b53
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762468"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273208"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Adicionar caixas de texto e formas a relatórios do Power BI
 Pode adicionar caixas de texto e formas aos relatórios com o serviço Power BI e o Power BI Desktop. Em ambos os casos, tem de ter permissões de edição para o relatório. Se um relatório tiver sido partilhado consigo no serviço Power BI, não terá permissões de edição. 
@@ -63,8 +63,10 @@ Veja o Will a utilizar o Power BI Desktop para [adicionar imagens estáticas a u
    > 
 
 ## <a name="next-steps"></a>Próximos passos
-[Adicionar uma hiperligação a uma caixa de texto](service-add-hyperlink-to-text-box.md)
 
-[Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
+Poderá também estar interessado nos seguintes artigos:
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
+* [Adicionar uma hiperligação a uma caixa de texto](service-add-hyperlink-to-text-box.md)
+* [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
+* [Sugestões para melhorar a análise com formas, imagens e ícones em relatórios do Power BI](guidance/report-tips-shapes-images-icons.md)
+* Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

@@ -100,7 +100,7 @@
               href: ../service-encryption-byok.md
             - name: Restart a Premium capacity (Reiniciar uma capacidade Premium)
               href: ../service-admin-premium-restart.md
-            - name: Connect to datasets with client applications and tools (Ligar a conjuntos de dados com ferramentas e aplicações cliente)
+            - name: 'Dataset connectivity with the XMLA endpoint (Preview) (Conectividade de conjuntos de dados com o ponto final de XMLA [Pré-visualização])'
               href: ../service-premium-connect-tools.md
     - name: Referência
       items:

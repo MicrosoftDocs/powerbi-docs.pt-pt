@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
+ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207879"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80147383"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar uma aplicação no Power BI
 
@@ -28,6 +28,7 @@ Os utilizadores empresariais obtêm as suas aplicações de algumas formas difer
 - Podem encontrar e instalar a sua aplicação a partir do Microsoft AppSource.
 - Pode enviar-lhes uma ligação direta.
 - Pode instalar aplicações automaticamente nas contas do Power BI dos seus colegas de trabalho, se o administrador do Power BI lhe der permissão.
+- O Power BI não envia nenhum e-mail aos utilizadores internos quando distribui ou atualiza uma aplicação. Se o distribuir para os utilizadores externos, estes receberão um e-mail com uma ligação direta. 
 
 Pode criar a aplicação com a sua própria navegação incorporada, para que os utilizadores possam navegar facilmente nos seus conteúdos. Estes não podem modificar os conteúdos da aplicação. No entanto, podem interagir com a mesma no serviço Power BI ou numa das aplicações móveis para filtrar, realçar e ordenar os dados. Obtêm as atualizações automaticamente e pode controlar a frequência de atualização dos dados. Pode também conceder-lhes Permissão de compilação para se ligarem aos conjuntos de dados subjacentes e criarem cópias dos relatórios na aplicação. Saiba mais sobre a [permissão de compilação](service-datasets-build-permissions.md).
 
