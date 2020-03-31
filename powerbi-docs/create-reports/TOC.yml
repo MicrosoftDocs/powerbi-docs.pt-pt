@@ -18,10 +18,8 @@
     - name: Exemplos
       expanded: true
       items:
-        - name: Obter dados de exemplo para o Power BI
+        - name: Veja exemplos do Power BI
           href: ../sample-datasets.md
-        - name: Importar e abrir pacotes de exemplo
-          href: ../sample-tutorial-connect-to-the-samples.md
         - name: Exemplo de Rentabilidade do Cliente
           href: ../sample-customer-profitability.md
         - name: Exemplo de Análise de Gastos de TI
@@ -34,6 +32,8 @@
           href: ../sample-procurement.md
         - name: Exemplo de Análise de Revenda
           href: ../sample-retail-analysis.md
+        - name: Explorar o exemplo de Análise de Revenda
+          href: ../sample-tutorial-connect-to-the-samples.md
         - name: Sales and Marketing sample
           href: ../sample-sales-and-marketing.md
         - name: Supplier Quality Analysis sample (Exemplo de Análise de Qualidade dos Fornecedores)
