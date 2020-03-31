@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 50c8416573b995c34d62129d11926e70d9d4242d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381405"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404583"
 ---
 # <a name="power-bi-security-whitepaper"></a>Documento técnico de segurança do Power BI
 
@@ -135,7 +135,7 @@ A autenticação de utilizadores no serviço Power BI consiste numa série de pe
 
 A sequência de autenticação de utilizadores no serviço Power BI ocorre conforme descrito nos seguintes passos, ilustrados nas imagens abaixo.
 
-1. Um utilizador inicia uma ligação ao serviço Power BI num browser ao escrever o endereço do Power BI na barra de endereço (como https://app.powerbi.com)) ou ao selecionar _Iniciar Sessão_ na página de destino do Power BI (https://powerbi.microsoft.com)). A ligação é estabelecida através de TLS 1.2 e HTTPS, e todas as comunicações subsequentes entre o browser e o serviço Power BI utilizam HTTPS. O pedido é enviado para o **Gestor de Tráfego do Azure**.
+1. Um utilizador inicia uma ligação ao serviço Power BI a partir de um browser, quer digitando o endereço Power BI na barra de endereços (como `https://app.powerbi.com`) ou selecionando _o Sign In_ a partir da página de aterragem do Power BI (https://powerbi.microsoft.com). A ligação é estabelecida através de TLS 1.2 e HTTPS, e todas as comunicações subsequentes entre o browser e o serviço Power BI utilizam HTTPS. O pedido é enviado para o **Gestor de Tráfego do Azure**.
 
 2. O **Gestor de Tráfego do Azure** verifica o registo DNS do utilizador para determinar o datacenter mais próximo no qual o Power BI está implementado e envia uma resposta para o DNS com o endereço IP do cluster WFE para o qual o utilizador deve ser enviado.
 
@@ -241,7 +241,7 @@ O Power BI proporciona a monitorização da integridade dos dados das seguintes 
 
 * Para dados inativos no armazenamento de Blobs do Azure, o Power BI utiliza a encriptação do lado do cliente e o HTTPS para transferir dados para o armazenamento, o que inclui verificações de integridade durante a obtenção dos dados. [Saiba mais sobre a segurança do armazenamento de Blobs do Azure](https://azure.microsoft.com/documentation/articles/storage-security-guide/).
 
-#### <a name="reports"></a>Reports (Relatórios)
+#### <a name="reports"></a>Relatórios
 
 1. Metadados (definição do relatório)
 
@@ -259,7 +259,7 @@ O Power BI proporciona a monitorização da integridade dos dados das seguintes 
 
     &ensp; &ensp; b. Para relatórios do Power BI, os dados estáticos são armazenados e encriptados no armazenamento de Blobs do Azure.
 
-3. caches
+3. Caches
 
     &ensp; &ensp;. Para relatórios criados com o Excel para o Office 365, nada é colocado em cache.
 
@@ -348,7 +348,7 @@ A seguinte tabela apresenta o suporte da autenticação baseada em certificados 
 | **Suporte CBA** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
 | **Power BI** (iniciar sessão no serviço) | Suportado | Suportado | Não suportado |
-| **ADFS do SSRS** (ligar ao servidor SSRS) | Não suportado | Suportado | Não suportado |
+| **ADFS do SSRS** (ligar ao servidor SSRS) | Não suportado | Suportadas | Não suportado |
 
 As aplicações do Power BI Mobile comunicam ativamente com o serviço Power BI. É utilizada telemetria para recolher estatísticas de utilização de aplicações móveis e dados semelhantes, que são transmitidos aos serviços utilizados para monitorizar a utilização e a atividade. Não são enviados dados pessoais com os dados de telemetria.
 
@@ -440,14 +440,14 @@ Seguem-se perguntas e respostas comuns relacionadas com a segurança do Power BI
 
 **Para os visuais do Power BI, a Microsoft realiza alguma avaliação de segurança ou privacidade do código visual personalizado antes de publicar artigos na Galeria?**
 
-* N.º É da responsabilidade do cliente analisar e determinar se o código do elemento visual personalizado é confiável. Todos os códigos de elementos visuais personalizados são processados num ambiente sandbox, de forma que qualquer código anómalo num elemento visual personalizado não afete negativamente o resto do serviço Power BI.
+* Não. É da responsabilidade do cliente analisar e determinar se o código do elemento visual personalizado é confiável. Todos os códigos de elementos visuais personalizados são processados num ambiente sandbox, de forma que qualquer código anómalo num elemento visual personalizado não afete negativamente o resto do serviço Power BI.
 
 **Existem outros elementos visuais do Power BI que enviam informações para fora da rede do cliente?**
 
 * Sim. Os elementos visuais do Mapas Bing e da ESRI transmitem dados para fora do serviço Power BI, caso utilizem esses serviços.
 
 **Para aplicações de modelo, a Microsoft realiza alguma avaliação de segurança ou privacidade da aplicação Modelo antes de publicar itens na Galeria?**
-* N.º A editora de aplicações é responsável pelo conteúdo, enquanto o cliente é responsável por rever e determinar se confia na editora de aplicações Do Modelo. 
+* Não. A editora de aplicações é responsável pelo conteúdo, enquanto o cliente é responsável por rever e determinar se confia na editora de aplicações Do Modelo. 
 
 **Existem aplicações de modelo que podem enviar informações fora da rede de clientes?**
 * Sim. É da responsabilidade do cliente rever a política de privacidade da editora e determinar se deve instalar a aplicação Modelo no Tenant. Além disso, a editora é responsável por notificar o comportamento e as capacidades da aplicação.
