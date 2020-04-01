@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 6dd5b7838a1f59971e11a4674853abead7af0b90
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 0042c7db70cac103d04d1c48d06c12b71634b541
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492796"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403653"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
@@ -96,7 +96,7 @@ O utilizador pode resolver este problema ao chamar a [API refreshUserPermissions
 
 Pode utilizar o portal do Power BI para encontrar a sua região de Inquilino do PBI.
 
-[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > Sobre o Power BI
+[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > Sobre o Power BI
 
 ![Sobre o Power BI](media/embedded-faq/about-01.png)
 ![Região de inquilino](media/embedded-faq/tenant-location-01.png)
@@ -200,7 +200,7 @@ Esta situação é importante quando adicionar o principal de serviço como um *
 
 O **[ID da aplicação](embed-sample-for-customers.md#application-id)** é utilizado para criar o token de acesso ao passar o ID da aplicação para autenticação.
 
-Para fazer referência a um principal de serviço para operações ou fazer alterações, é utilizado o **[ID do objeto do principal de serviço](embed-service-principal.md#how-to-get-the-service-principal-object-id)** – por exemplo, para aplicar um principal de serviço como um administrador a uma área de trabalho.
+Para fazer referência a um principal de serviço para operações ou fazer alterações, é utilizado o **[ID do objeto do principal de serviço](embed-service-principal.md)** – por exemplo, para aplicar um principal de serviço como um administrador a uma área de trabalho.
 
 ### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>É possível gerir um gateway de dados no local com o principal de serviço?
 

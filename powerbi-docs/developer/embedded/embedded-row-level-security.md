@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 80b97757ab0ab8fefa23f4481abb2d8bc02de78d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 66a1253233ab623ff2332a7b112575a7509c0e3c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492497"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403694"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Segurança ao nível da linha com o Power BI Embedded
 
@@ -217,7 +217,7 @@ Estes são os passos para começar a configurar a funcionalidade CustomData() co
 
 7. Utilize as APIs Power BI para utilizar a funcionalidade CustomData na aplicação.  Ao gerar um token com a funcionalidade CustomData, precisa de ter um nome de utilizador. O nome de utilizador tem de ser igual ao UPN do utilizador principal. O utilizador principal tem de ser membro das funções que criou. Se não for especificada nenhuma função, serão utilizadas para a avaliação da RLS todas as funções das quais o utilizador principal é membro.
 
-    Ao trabalhar com um [principal de serviço](embed-service-principal.md), também precisa de seguir os passos acima em vez de utilizar uma conta principal. Utilize o [ID de objeto do principal de serviço](embed-service-principal.md#how-to-get-the-service-principal-object-id) como nome de utilizador quando gerar o token de incorporação.
+    Ao trabalhar com um [principal de serviço](embed-service-principal.md), também precisa de seguir os passos acima em vez de utilizar uma conta principal. Utilize o [ID de objeto do principal de serviço](embed-service-principal.md) como nome de utilizador quando gerar o token de incorporação.
 
     > [!Note]
     > Quando estiver pronto para implementar a aplicação para produção, a opção ou o campo da conta do utilizador principal não deve estar visível para o utilizador final.

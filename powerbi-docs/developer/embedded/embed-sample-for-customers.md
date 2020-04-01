@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/12/2019
-ms.openlocfilehash: 37f8858d3581f58fc82fcbd1f3a1718ca56b6d72
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4eca0a799440da57cdb37a603447ba2b0d0c99c8
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79494038"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403812"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Incorporar conteúdo do Power BI numa aplicação para os seus clientes
 
@@ -438,7 +438,7 @@ Assim que criar uma capacidade dedicada, pode atribuir a área de trabalho a ess
 
 Todas as áreas de trabalho que contêm recursos do Power BI relacionados com os conteúdos incorporados (incluindo conjuntos de dados, relatórios e dashboards) têm de ser atribuídas a capacidades dedicadas. Por exemplo, se um relatório incorporado e o conjunto de dados a este vinculado residirem em diferentes áreas de trabalho, ambas as áreas de trabalho têm de ser atribuídas a capacidades dedicadas.
 
-Para atribuir uma capacidade dedicada a uma área de trabalho com o [principal de serviço](embed-service-principal.md), utilize a [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Ao utilizar as APIs REST do Power BI, certifique-se de que utiliza o [ID do objeto do principal de serviço](embed-service-principal.md#how-to-get-the-service-principal-object-id).
+Para atribuir uma capacidade dedicada a uma área de trabalho com o [principal de serviço](embed-service-principal.md), utilize a [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Ao utilizar as APIs REST do Power BI, certifique-se de que utiliza o [ID do objeto do principal de serviço](embed-service-principal.md).
 
 Siga os passos abaixo para atribuir uma capacidade dedicada a uma área de trabalho com uma **conta principal**.
 

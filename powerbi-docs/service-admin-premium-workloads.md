@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/14/2020
+ms.date: 03/24/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: de988442edf4c60841bac757bb67ea5ed5038b25
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: d468ab70f47edcd5487b548596f4aea4080cd994
+ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207971"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329629"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho numa capacidade Premium
 
@@ -28,7 +28,7 @@ As cargas de trabalho de consulta são otimizadas e limitadas por recursos deter
 
 |                     | EM2                      | EM3                       | P1                      | P2                       | P3                       |
 |---------------------|--------------------------|--------------------------|-------------------------|--------------------------|--------------------------|
-| IA | N/D | N/D | 20% predefinido; 20% mínimo | 20% predefinido; 10% mínimo | 20% predefinido; 5% mínimo |
+| IA | 40% predefinido; 40% mínimo | 20% predefinido; 20% mínimo | 20% predefinido; 8% mínimo | 20% predefinido; 4% mínimo | 20% predefinido; 2% mínimo |
 | Fluxos de Dados | N/D |20% predefinido; 12% mínimo  | 20% predefinido; 5% mínimo  | 20% predefinido; 3% mínimo | 20% predefinido; 2% mínimo  |
 | Relatórios paginados | N/D |N/D | 20% predefinido; 10% mínimo | 20% predefinido; 5% mínimo | 20% predefinido; 2,5% mínimo |
 | | | | | | |
@@ -37,7 +37,7 @@ As cargas de trabalho de consulta são otimizadas e limitadas por recursos deter
 
 |                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
 |-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| IA | N/D                      | 20% predefinido; 100% mínimo                     | 20% predefinido; 50% mínimo                     | 20% predefinido; 20% mínimo | 20% predefinido; 10% mínimo | 20% predefinido; 5% mínimo |
+| IA | N/D  | 40% predefinido; 40% mínimo  | 20% predefinido; 20% mínimo | 20% predefinido; 8% mínimo | 20% predefinido; 4% mínimo | 20% predefinido; 2% mínimo |
 | Fluxos de Dados         | 40% predefinido; 40% mínimo | 24% predefinido; 24% mínimo | 20% predefinido; 12% mínimo | 20% predefinido; 5% mínimo  | 20% predefinido; 3% mínimo | 20% predefinido; 2% mínimo   |
 | Relatórios paginados | N/D                      | N/D                      | N/D                     | 20% predefinido; 10% mínimo | 20% predefinido; 5% mínimo | 20% predefinido; 2,5% mínimo |
 | | | | | | |

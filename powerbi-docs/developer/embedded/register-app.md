@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: 123dde6621cee901dc788476b3554fc9584ed0e5
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: e47cb22ba4c30c8090e2e9552e1994a5c545b47b
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114365"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404014"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Registar uma aplicação do Azure AD para utilizar com o Power BI
 
@@ -94,7 +94,7 @@ Ao registar uma aplicação, receberá um [ID de Aplicação](embed-sample-for-c
 
 ## <a name="how-to-get-the-service-principal-object-id"></a>Como obter o ID do objeto do principal de serviço
 
-Ao utilizar as [APIs Power BI](https://docs.microsoft.com/rest/api/power-bi/), certifique-se de que define as operações através do [ID do objeto do principal de serviço](embed-service-principal.md#how-to-get-the-service-principal-object-id) para fazer referência ao principal de serviço – por exemplo, para aplicar um principal de serviço como um administrador à sua área de trabalho.
+Ao utilizar as [APIs Power BI](https://docs.microsoft.com/rest/api/power-bi/), certifique-se de que define as operações através do [ID do objeto do principal de serviço](embed-service-principal.md) para fazer referência ao principal de serviço – por exemplo, para aplicar um principal de serviço como um administrador à sua área de trabalho.
 
 ## <a name="apply-permissions-to-your-application-within-azure-ad"></a>Aplicar permissões à sua aplicação no Azure AD
 
