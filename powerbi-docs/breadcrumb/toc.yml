@@ -19,7 +19,17 @@
             - name: Programador
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
-            - name: Aprendizagem Orientada
+              items:
+                - name: Embedded analytics (Análise incorporada)
+                  tocHref: /power-bi/developer/embedded/
+                  topicHref: /power-bi/developer/embedded/
+                - name: Elementos Visuais do Power BI
+                  tocHref: /power-bi/developer/visuals/
+                  topicHref: /power-bi/developer/visuals/
+                - name: Automatização
+                  tocHref: /power-bi/developer/automation/
+                  topicHref: /power-bi/developer/automation/
+            - name: Aprendizagem Interativa
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/
             - name: Report Server
