@@ -1,0 +1,110 @@
+- name: Documentação de análise incorporada do Power BI
+  href: index.yml
+  expanded: true
+  items:
+    - name: Descrição geral
+      expanded: true
+      items:
+        - name: O que é a incorporação com o Power BI?
+          href: embedding.md
+        - name: What is Power BI Embedded in Azure (O que é o Power BI Embedded no Azure?)
+          href: azure-pbie-what-is-power-bi-embedded.md
+    - name: Tutoriais
+      expanded: true
+      items:
+        - name: Incorporar conteúdo para clientes
+          href: embed-sample-for-customers.md
+        - name: Embed content for your organization (Incorporar conteúdos para a sua organização)
+          href: embed-sample-for-your-organization.md
+        - name: Embed paginated reports for customers (Incorporar relatórios paginados para clientes)
+          href: embed-paginated-reports-customers.md
+        - name: Embed content for national clouds (Incorporar conteúdos para clouds nacionais)
+          href: embed-sample-for-customers-national-clouds.md
+    - name: Conceitos
+      items:
+        - name: Capacity and SKUs in Power BI embedded analytics (Capacidade e SKUs na análise incorporada do Power BI)
+          href: embedded-capacity.md
+        - name: Planeamento de capacidade
+          href: embedded-capacity-planning.md
+        - name: Melhores Práticas para o Desempenho
+          href: embedded-performance-best-practices.md
+        - name: Service principal (Principal de serviço)
+          href: embed-service-principal.md
+        - name: Row-level security
+          href: embedded-row-level-security.md
+        - name: Paginated reports Row-level security (Segurança ao nível de linha em relatórios paginados)
+          href: paginated-reports-row-level-security.md
+        - name: Manage multi-tenants (Gerir vários inquilinos)
+          href: embed-multi-tenancy.md
+        - name: Registo de diagnóstico do Power BI Embedded no Azure
+          href: azure-pbie-diag-logs.md
+        - name: FAQ sobre incorporação
+          href: embedded-faq.md
+        - name: Permissões do Power BI
+          href: power-bi-permissions.md
+    - name: Procedimentos
+      items:
+        - name: Embed from an app (Incorporar a partir de uma aplicação)
+          href: embed-from-apps.md
+        - name: Exportar relatório para ficheiro
+          href: export-to.md
+        - name: Instalar aplicações automaticamente
+          href: embed-auto-install-app.md
+        - name: Criar um inquilino do Azure Active Directory
+          href: create-an-azure-active-directory-tenant.md
+        - name: Registar uma aplicação
+          href: register-app.md
+        - name: Obter um token de acesso do Azure AD
+          href: get-azuread-access-token.md
+        - name: Ligar um relatório através do enlace dinâmico
+          href: embed-dynamic-binding.md
+        - name: Embedding Q&A (Incorporação das Perguntas e Respostas)
+          href: qanda.md
+        - name: Resolver problemas da sua aplicação incorporada
+          href: embedded-troubleshoot.md
+        - name: Gerir capacidades no Azure
+          items:
+            - name: Create a capacity in Azure (Criar uma capacidade no Azure)
+              href: azure-pbie-create-capacity.md
+            - name: Create a capacity using Multi-Geo in Azure (Criar uma capacidade com a Multi-Geo no Azure)
+              href: embedded-multi-geo.md
+            - name: Scale a capacity in Azure (Dimensionar uma capacidade no Azure)
+              href: azure-pbie-scale-capacity.md
+            - name: Pause and start a capacity in Azure (Colocar em pausa e iniciar uma capacidade no Azure)
+              href: azure-pbie-pause-start.md
+        - name: Migrar de Coleções de Áreas de Trabalho
+          items:
+            - name: Como migrar de Coleções de Áreas de Trabalho do Power BI
+              href: migrate-from-powerbi-embedded.md
+            - name: Ferramentas de migração
+              href: migrate-tool.md
+            - name: Migration code snippets (Fragmentos de código de migração)
+              href: migrate-code-snippets.md
+    - name: Referência
+      items:
+        - name: APIs
+          items:
+            - name: Azure Resource Management REST APIs (APIs REST de Gestão de Recursos do Azure)
+              href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+            - name: Power BI REST APIs (APIs REST do Power BI)
+              href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+        - name: Bibliotecas do Power BI
+          href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+        - name: Incorporar esquemas personalizados numa aplicação
+          href: embedded-custom-layout.md
+    - name: Recursos
+      items:
+        - name: Centro para programadores
+          href: 'https://powerbi.microsoft.com/en-us/developers/'
+        - name: Ferramenta de configuração de incorporação
+          href: 'https://aka.ms/embedsetup'
+        - name: Exemplo do JavaScript Playground
+          href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+        - name: Wiki de JavaScript do Power BI
+          href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+        - name: Exemplos e scripts de programador
+          href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+        - name: Power BI community (Comunidade do Power BI)
+          href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+        - name: Stack Overflow (Capacidade de Pilha Excedida)
+          href: 'https://go.microsoft.com/fwlink/?linkid=848281'

@@ -20,6 +20,8 @@
       items:
         - name: Veja exemplos do Power BI
           href: ../sample-datasets.md
+        - name: Exemplo COVID-19 dos EUA
+          href: sample-covid-19-us.md
         - name: Exemplo de Rentabilidade do Cliente
           href: ../sample-customer-profitability.md
         - name: Exemplo de Análise de Gastos de TI

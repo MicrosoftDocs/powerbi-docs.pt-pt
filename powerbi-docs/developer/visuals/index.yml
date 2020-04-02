@@ -1,0 +1,59 @@
+### YamlMime:Landing
+title: Documentação de elementos visuais do Power BI
+summary: Desenvolva os seus próprios elementos visuais do Power BI, para serem utilizados por si, pela sua organização ou por toda a comunidade do Power BI. A nossa documentação fornece as informações de que precisa.
+metadata:
+  title: Documentação de elementos visuais do Power BI
+  description: Desenvolva os seus próprios elementos visuais do Power BI, para serem utilizados por si, pela sua organização ou por toda a comunidade do Power BI. A nossa documentação fornece as informações de que precisa.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: d68b08f941ebe04c41e29f1260332e6f2b0d332c
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516244"
+landingContent:
+- title: Introdução
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Visuals in Power BI (Elementos visuais no Power BI)
+      url: power-bi-custom-visuals.md
+    - text: Power BI visual project structure (Estrutura de projeto de elementos visuais do Power BI)
+      url: visual-project-structure.md
+    - text: Perguntas frequentes
+      url: power-bi-custom-visuals-faq.md
+- title: Develop a Power BI visual (Criar um elemento visual do Power BI)
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 'Tutorial: Develop a Power BI visual (Criar um elemento visual do Power BI)'
+      url: custom-visual-develop-tutorial.md
+    - text: 'Tutorial: Adicionar opções de formatação a um elemento visual do Power BI'
+      url: custom-visual-develop-tutorial-format-options.md
+  - linkListType: concept
+    links:
+    - text: Diretrizes de elementos visuais do Power BI
+      url: guidelines-powerbi-visuals.md
+- title: Publicar elementos visuais do Power BI
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Publicar elementos visuais do Power BI no Centro de Parceiros
+      url: office-store.md
+    - text: Certificar um elemento visual do Power BI
+      url: power-bi-custom-visuals-certified.md
+- title: Referências e recursos
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Exemplos de elementos visuais do Power BI
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - text: Repositório Git
+      url: https://github.com/Microsoft/PowerBI-visuals

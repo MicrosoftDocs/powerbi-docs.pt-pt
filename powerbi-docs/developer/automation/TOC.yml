@@ -1,0 +1,54 @@
+- name: Documentação da automatização do Power BI
+  href: index.yml
+  expanded: true
+  items:
+    - name: Descrição geral
+      expanded: true
+      items:
+        - name: What can I do with the Power BI API? (O que posso fazer com a API do Power BI?)
+          href: overview-of-power-bi-rest-api.md
+    - name: Tutoriais
+      expanded: true
+      items:
+        - name: Enviar dados por push para um conjunto de dados
+          href: walkthrough-push-data.md
+        - name: Obter um token de acesso de autenticação
+          href: walkthrough-push-data-get-token.md
+        - name: Create a dataset (Criar um conjunto de dados)
+          href: walkthrough-push-data-create-dataset.md
+        - name: Get a dataset to add rows (Obter um conjunto de dados para adicionar linhas)
+          href: walkthrough-push-data-get-datasets.md
+        - name: Adicionar linhas a uma tabela
+          href: walkthrough-push-data-add-rows.md
+    - name: Conceitos
+      items:
+        - name: Automatic retention policy for real-time data (Política de retenção automática para dados em tempo real)
+          href: api-automatic-retention-policy-for-real-time-data.md
+        - name: Enviar dados por push
+          items:
+            - name: Power BI REST API limitations (Limitações da API REST do Power BI)
+              href: api-rest-api-limitations.md
+            - name: Dataset properties (Propriedades do conjunto de dados)
+              href: api-dataset-properties.md
+            - name: Data model versioning (Controlo de versões do modelo de dados)
+              href: api-data-model-versioning.md
+    - name: Procedimentos
+      items:
+        - name: Configurar credenciais
+          href: configure-credentials.md
+    - name: Referência
+      items:
+        - name: APIs REST
+          href: 'https://docs.microsoft.com/rest/api/power-bi'
+        - name: Referência da API REST do Power BI
+          href: rest-api-reference.md
+        - name: Listagem de código completo
+          href: walkthrough-push-data-complete-code.md
+    - name: Recursos
+      items:
+        - name: Dev Center
+          href: 'https://powerbi.microsoft.com/en-us/developers/'
+        - name: 'Power BI C# Git Repo (Repositório Git C# do Power BI)'
+          href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+        - name: .NET SDK Download (Transferência do SDK do .NET)
+          href: 'https://go.microsoft.com/fwlink/?linkid=848274'

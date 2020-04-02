@@ -1,0 +1,120 @@
+- name: Documentação de elementos visuais do Power BI
+  href: index.yml
+  expanded: true
+  items:
+    - name: Descrição geral
+      expanded: true
+      items:
+        - name: Visuals in Power BI (Elementos visuais no Power BI)
+          href: power-bi-custom-visuals.md
+    - name: Tutoriais
+      expanded: true
+      items:
+        - name: Develop a Power BI visual (Criar um elemento visual do Power BI)
+          href: custom-visual-develop-tutorial.md
+        - name: Add formatting options (Adicionar opções de formatação)
+          href: custom-visual-develop-tutorial-format-options.md
+        - name: Add unit tests for visual project (Adicionar testes de unidades nos projetos de elementos visuais)
+          href: unit-tests-introduction.md
+    - name: Conceitos
+      items:
+        - name: Power BI visual project structure (Estrutura de projeto de elementos visuais do Power BI)
+          href: visual-project-structure.md
+        - name: Conceitos dos elementos visuais
+          href: power-bi-visuals-concept.md
+        - name: Visuals for organizations in Power BI (Elementos visuais para organizações no Power BI)
+          href: power-bi-custom-visuals-organization.md
+        - name: Diretrizes de elementos visuais do Power BI
+          href: guidelines-powerbi-visuals.md
+        - name: Visuals FAQ (FAQ sobre elementos visuais)
+          href: power-bi-custom-visuals-faq.md
+        - name: Using capabilities (Utilizar capacidades)
+          href: capabilities.md
+        - name: Data view mappings (Mapeamentos de vista de dados)
+          href: dataview-mappings.md
+        - name: Objects and properties (Objetos e propriedades)
+          href: objects-properties.md
+        - name: Advanced Edit Mode (Modo de Edição Avançado)
+          href: advanced-edit-mode.md
+    - name: Procedimentos
+      items:
+        - name: Certificar um elemento visual do Power BI
+          href: power-bi-custom-visuals-certified.md
+        - name: Publicar elementos visuais do Power BI no AppSource
+          href: office-store.md
+        - name: Utilizar elementos visuais baseados em R no Power BI
+          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+        - name: Interações visuais
+          href: visuals-interactions.md
+        - name: Add selections (Adicionar seleções)
+          href: selection-api.md
+        - name: Add visuals tooltips (Adicionar descrições em elementos visuais)
+          href: add-tooltips.md
+        - name: Add analytics pane (Adicionar painel de análise)
+          href: analytics-pane.md
+        - name: Filter visuals (Filtrar elementos visuais)
+          href: filter-api.md
+        - name: Fetch more data (Obter mais dados)
+          href: fetch-more-data.md
+        - name: Add bookmarks support (Adicionar suporte para marcadores)
+          href: bookmarks-support.md
+        - name: Add context menu support (Adicionar suporte de menu de contexto)
+          href: context-menu.md
+        - name: Adicionar suporte de Desagregação
+          href: drill-down-support.md
+        - name: Highlight data in visuals (Destacar dados em elementos visuais)
+          href: highlight.md
+        - name: Add High-Contrast mode support (Adicionar suporte para o modo Alto Contraste)
+          href: high-contrast-support.md
+        - name: Enable sync slicers (Ativar segmentação de dados)
+          href: enable-sync-slicers.md
+        - name: Elementos visuais de depuração
+          href: visuals-how-to-debug.md
+        - name: Troubleshoot Power BI visuals (Resolver problemas com os elementos visuais do Power BI)
+          href: power-bi-custom-visuals-troubleshoot.md
+    - name: Referência
+      items:
+        - name: Landing page (Página de destino)
+          href: landing-page.md
+        - name: Launch URL (Iniciar URL)
+          href: launch-url.md
+        - name: Local Storage API (API de Armazenamento Local)
+          href: local-storage.md
+        - name: Rendering events (Eventos de composição)
+          href: event-service.md
+        - name: Ordenação
+          href: sort-options.md
+        - name: Localização
+          href: localization.md
+        - name: Utilitários dos elementos visuais do Power BI
+          items:
+            - name: Adding external libraries (Adicionar bibliotecas externas)
+              href: adding-external-libraries.md
+            - name: Interactivity utils (Utilitários de interatividade)
+              href: utils-interactivity-selections.md
+            - name: Formatting utils (Utilitários de formatação)
+              href: utils-formatting.md
+            - name: Utilitários de vista de dados
+              href: utils-dataview.md
+            - name: Utilitários de gráficos
+              href: utils-chart.md
+            - name: Color utils (Utilitários de cor)
+              href: utils-color.md
+            - name: Utilitários de SVG
+              href: utils-svg.md
+            - name: Utilitários de escrita
+              href: utils-type.md
+            - name: Utilitários de descrição
+              href: utils-tooltip.md
+            - name: Utilitários de vista de dados
+              href: utils-dataview.md
+    - name: Recursos
+      items:
+        - name: Dev Center
+          href: 'https://powerbi.microsoft.com/developers/'
+        - name: Exemplos de elementos visuais do Power BI
+          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+        - name: "Repositório Git de elementos visuais do Power\_BI"
+          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+        - name: Creating SSL certificate (Criar um certificado SSL)
+          href: create-ssl-certificate.md
