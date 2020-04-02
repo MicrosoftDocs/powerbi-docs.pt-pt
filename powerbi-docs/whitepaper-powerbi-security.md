@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: a13e48e413f047812d9b00fe67c2ee2b69bbc2dc
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404583"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551096"
 ---
 # <a name="power-bi-security-whitepaper"></a>Documento técnico de segurança do Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "80404583"
 
 O **Power BI** é uma oferta de serviço de software online (_SaaS_ ou Software como Serviço) da Microsoft que permite criar rápida e facilmente dashboards, relatórios, conjuntos de dados e visualizações de Business Intelligence de gestão personalizada. Com o Power BI, pode ligar a várias origens de dados diferentes, combinar e formatar os dados dessas ligações, e criar relatórios e dashboards que podem ser partilhados com outras pessoas.
 
-O serviço Power BI é regido pelos [Termos do Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) e a [Declaração de Privacidade do Microsoft Enterprise](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Para obter a localização do processamento de dados, veja os termos da Localização do Processamento de Dados nos Termos do Microsoft Online Services. No que toca a informações de conformidade, o [Microsoft Trust Center](https://www.microsoft.com/trustcenter) é o principal recurso para o Power BI. A equipa do Power BI está empenhada em proporcionar aos seus clientes produtividade e as mais recentes inovações. O Power BI encontra-se atualmente no nível D do Quadro de Conformidade do [Instituto 365](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf).
+O serviço Power BI é regido pelos [Termos do Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) e a [Declaração de Privacidade do Microsoft Enterprise](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Para obter a localização do processamento de dados, veja os termos da Localização do Processamento de Dados nos Termos do Microsoft Online Services. No que toca a informações de conformidade, o [Microsoft Trust Center](https://www.microsoft.com/trustcenter) é o principal recurso para o Power BI. A equipa do Power BI está empenhada em proporcionar aos seus clientes produtividade e as mais recentes inovações. O Power BI encontra-se atualmente no nível D do Quadro de Conformidade do [Instituto 365](https://www.microsoft.com/trust-center/compliance/compliance-overview).
 
 Este artigo descreve a segurança do Power BI ao fornecer uma explicação sobre a arquitetura do Power BI e sobre como os utilizadores efetuam a autenticação no Power BI e são estabelecidas as ligações de dados, e, em seguida, ao descrever como o Power BI armazena e move dados através do serviço. A última secção é dedicada a perguntas e respostas relacionadas com segurança.
 
@@ -200,7 +200,7 @@ As chaves de encriptação de gateways baseadas na chave de recuperação nunca 
 
 Para origens de dados baseado na cloud, a Função de Movimento de Dados encripta as chaves de encriptação com os métodos [Always Encrypted](https://msdn.microsoft.com/library/mt163865.aspx). Para saber mais, veja [Always Encrypted database feature](https://msdn.microsoft.com/library/mt163865.aspx) (Funcionalidade de base de dados Always Encrypted).
 
-#### <a name="datasets"></a>Conjuntos de dados
+#### <a name="datasets"></a>Conjuntos de Dados
 
 1. Metadados (tabelas, colunas, medidas, cálculos, cadeias de ligação, etc.)
 
@@ -223,7 +223,7 @@ Para origens de dados baseado na cloud, a Função de Movimento de Dados encript
         - Se o conjunto de dados estiver definido para atualização, as credenciais serão armazenadas encriptadas na Base de Dados SQL do Azure do Movimento de Dados. A chave de encriptação é armazenada no computador com o Gateway na infraestrutura do cliente.
         - Se o conjunto de dados não estiver definido para atualização, não haverá credenciais armazenadas para as origens de dados.
 
-1. Dados
+1. Recebidos
 
     a. Analysis Services no local e DirectQuery – nada é armazenado no serviço Power BI.
 
@@ -282,7 +282,7 @@ Independentemente do método de encriptação utilizado, a Microsoft gere a encr
 
 Dispositivos não voláteis são dispositivos que têm memória que persiste sem energia constante. Segue-se uma descrição dos dados armazenados transitoriamente em dispositivos não voláteis. 
 
-#### <a name="datasets"></a>Conjuntos de dados
+#### <a name="datasets"></a>Conjuntos de Dados
 
 1. Metadados (tabelas, colunas, medidas, cálculos, cadeias de ligação, etc.)
 
@@ -300,7 +300,7 @@ Dispositivos não voláteis são dispositivos que têm memória que persiste sem
     c. Dados enviados por push – nenhumas (não aplicável).
 
     d. ETL – nenhumas (nada é armazenado no nó de computação nem o procedimento é diferente do explicado na secção **Dados Inativos** acima).
-4. Dados
+4. Recebidos
 
     Alguns artefactos de dados podem ser armazenados no disco dos nós de computação durante um período de tempo limitado.
 
@@ -348,7 +348,7 @@ A seguinte tabela apresenta o suporte da autenticação baseada em certificados 
 | **Suporte CBA** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
 | **Power BI** (iniciar sessão no serviço) | Suportado | Suportado | Não suportado |
-| **ADFS do SSRS** (ligar ao servidor SSRS) | Não suportado | Suportadas | Não suportado |
+| **ADFS do SSRS** (ligar ao servidor SSRS) | Não suportado | Suportado | Não suportado |
 
 As aplicações do Power BI Mobile comunicam ativamente com o serviço Power BI. É utilizada telemetria para recolher estatísticas de utilização de aplicações móveis e dados semelhantes, que são transmitidos aos serviços utilizados para monitorizar a utilização e a atividade. Não são enviados dados pessoais com os dados de telemetria.
 
@@ -444,13 +444,13 @@ Seguem-se perguntas e respostas comuns relacionadas com a segurança do Power BI
 
 **Existem outros elementos visuais do Power BI que enviam informações para fora da rede do cliente?**
 
-* Sim. Os elementos visuais do Mapas Bing e da ESRI transmitem dados para fora do serviço Power BI, caso utilizem esses serviços.
+* Yes. Os elementos visuais do Mapas Bing e da ESRI transmitem dados para fora do serviço Power BI, caso utilizem esses serviços.
 
 **Para aplicações de modelo, a Microsoft realiza alguma avaliação de segurança ou privacidade da aplicação Modelo antes de publicar itens na Galeria?**
 * Não. A editora de aplicações é responsável pelo conteúdo, enquanto o cliente é responsável por rever e determinar se confia na editora de aplicações Do Modelo. 
 
 **Existem aplicações de modelo que podem enviar informações fora da rede de clientes?**
-* Sim. É da responsabilidade do cliente rever a política de privacidade da editora e determinar se deve instalar a aplicação Modelo no Tenant. Além disso, a editora é responsável por notificar o comportamento e as capacidades da aplicação.
+* Yes. É da responsabilidade do cliente rever a política de privacidade da editora e determinar se deve instalar a aplicação Modelo no Tenant. Além disso, a editora é responsável por notificar o comportamento e as capacidades da aplicação.
 
 **E a soberania dos dados? Podemos fornecer inquilinos em centros de dados localizados em geografias específicas, para garantir que os dados não saem das fronteiras do país?**
 
