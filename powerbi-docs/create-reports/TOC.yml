@@ -317,8 +317,6 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: Relatórios paginados
           items:
-            - name: 'Laboratório prático: Criar um relatório paginado'
-              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: Enter data directly in a paginated report (Introduzir dados diretamente num relatório paginado)
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: Criar uma origem de dados incorporada
