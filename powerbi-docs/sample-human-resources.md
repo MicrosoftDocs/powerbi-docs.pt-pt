@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8124a80f471e33ebbd140a30d6a49e2a762206ee
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858872"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404088"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Exemplo de Recursos Humanos do Power BI: veja uma apresentação
 
@@ -61,7 +61,7 @@ Em alternativa, pode transferir o exemplo de Recursos Humanos como um [ficheiro 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
 
-Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529780). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529780). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos do Power View e do Power Pivot, veja [Explorar os exemplos do Excel](sample-datasets.md#explore-excel-samples-inside-excel) para obter detalhes.
 
 ## <a name="new-hires"></a>Novas contratações
 Primeiro, vamos explorar as novas contratações.
@@ -79,7 +79,7 @@ Primeiro, vamos explorar as novas contratações.
 
     * O gráfico de combinação **Número de Novas Contratações, Novas Contratações no Mesmo Período do Ano Passado, Alteração da % Anual de Funcionários Ativos por Mês** mostra que contratámos mais pessoas mensalmente neste ano em comparação com o ano passado. Um número significativamente superior de pessoas em alguns meses.
     * No gráfico de combinação **Número de Novas Contratações e Número de Funcionários Ativos por Região e Etnia**, observe que estamos a contratar menos pessoas na região **Leste**.
-    * O gráfico de cascata **Var. de YoY de Novas Contratações por Grupo Etário** mostra que estamos a contratar principalmente pessoas mais jovens. Esta tendência pode dever-se, sobretudo, ao facto de os trabalhos serem em part-time.
+    * O gráfico de cascata **Var. em Termos Anuais das Novas Contratações por Grupo Etário** mostra que estamos a contratar principalmente pessoas mais jovens. Esta tendência pode dever-se, sobretudo, ao facto de os trabalhos serem em part-time.
     * O gráfico circular **Número de Novas Contratações por Género** mostra uma divisão aproximadamente uniforme.
 
     Pode encontrar mais informações? Por exemplo, uma região onde a divisão de género não é uniforme. 
@@ -91,7 +91,7 @@ Primeiro, vamos explorar as novas contratações.
    ![Voltar ao dashboard](media/sample-human-resources/power-bi-breadcrumbs.png)
 
 ## <a name="compare-currently-active-and-former-employees"></a>Comparar os funcionários atualmente ativos e os funcionários antigos
-Vamos explorar os dados de funcionários atualmente ativos e de funcionários que já não trabalham na empresa.
+Vamos explorar os dados dos funcionários atualmente ativos e dos funcionários que já não trabalham na empresa.
 
 1. No dashboard, selecione o mosaico **Número de Funcionários Ativos por Grupo Etário**.
 
@@ -135,7 +135,7 @@ Veja novamente o relatório no modo de Vista de Edição. Pode alterar os gráfi
 9. Selecione **Exemplo de Recursos Humanos** no painel de navegação superior para regressar ao dashboard. Pode optar por guardar as alterações realizadas no relatório.
 
 ## <a name="bad-hires"></a>Contratações incorretas
-A última área a explorar são as más contratações. As más contratações são definidas como funcionários que não duraram mais de 60 dias. Estamos a contratar rapidamente, mas estamos a contratar bons candidatos?
+A última área a explorar são as más contratações. As más contratações são definidas como os funcionários que não permaneceram mais de 60 dias. Estamos a contratar rapidamente, mas estamos a contratar bons candidatos?
 
 1. Selecione o mosaico do dashboard **Contratações Incorretas como % de Funcionários Ativos por Grupo Etário**. O relatório abre o separador três, **Contratações Incorretas**.
 
@@ -161,7 +161,7 @@ Na [caixa Perguntas e Respostas](power-bi-tutorial-q-and-a.md) no dashboard, pod
 
    Veja que a maioria das más contratações de mulheres estão abaixo de 30 anos.
 
-## <a name="next-steps-connect-to-your-data"></a>Próximos passos: Ligar aos seus dados
+## <a name="next-steps-connect-to-your-data"></a>Next steps: Ligar aos seus dados
 Aqui pode explorar à vontade, pois pode optar por não guardar as alterações. No entanto, se as guardar, pode sempre aceder a **Obter Dados** para obter uma nova cópia deste exemplo.
 
 Esperamos que esta apresentação tenha mostrado como os dashboards, as Perguntas e Respostas e os relatórios do Power BI podem fornecer informações sobre os dados do exemplo. Agora, é a sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Para saber mais, veja [Introdução ao serviço Power BI](service-get-started.md).

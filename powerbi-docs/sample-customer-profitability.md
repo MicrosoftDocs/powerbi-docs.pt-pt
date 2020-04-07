@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cef0983479a4b63dd97c1f709d69d65172dea334
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205303"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404155"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente do Power BI: veja uma apresentação
 
@@ -56,7 +56,7 @@ Em alternativa, pode transferir o exemplo Rentabilidade do Cliente como um [fich
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
 
-Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529781). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529781). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos do Power View e do Power Pivot, veja [Explorar os exemplos do Excel](sample-datasets.md#explore-excel-samples-inside-excel) para obter detalhes.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O que nos diz o nosso dashboard?
 
@@ -137,18 +137,18 @@ Vejamos dois dos membros da equipa ao detalhe e que informações podem ser obti
 
 1. Na segmentação de dados **Executive** (Executivos) à esquerda, selecione o nome do Andrew para filtrar a página do relatório e ver apenas os dados dele:
 
-   * Para um KPI rápido, analise o **Revenue Status (Total Year)** (Estado da Receita [Total do Ano]) de Andrew. É apresentado a verde, o que significa que Andrew está a ter um bom desempenho.
+   * Para um KPI rápido, analise o **Estado da Receita (Total do Ano)** de Andrew. É apresentado a verde, o que significa que Andrew está a ter um bom desempenho.
    * O gráfico **Revenue % Variance to Budget by Month and Executive** (% de Variação da Receita do Orçamento por Mês e Executivo) mostra que, com exceção de uma queda em fevereiro, Andrew está a ter um bom desempenho. A região dominante do Andrew é o Leste, que inclui 49 clientes e cinco de sete produtos. A % GM do Andrew não é a mais alta nem a mais baixa.
    * O gráfico**RevenueTY and Revenue % Var to Budget by Month** (Total da Receita do Ano e % de Variação da Receita do Orçamento por Mês) mostra um histórico de lucros contínuo e equilibrado. No entanto, se filtrar ao selecionar o quadrado para **Central** no mapa de árvore da região, irá descobrir que Andrew só tem receitas em Março e no Indiana. É uma tendência intencional ou é algo que tem de ser analisado?
 
-2. Agora, com Valery. Na segmentação de dados **Executive** (Executivos), selecione o nome da Valery para filtrar a página de relatório e ver apenas os dados dela. 
+2. Agora, com Valery. Na segmentação de dados **Executivos**, selecione o nome da Valery para filtrar a página de relatório e ver apenas os dados dela. 
 
    ![Dados de Valery](media/sample-customer-profitability/customer3.png)
 
    * Observe o KPI a vermelho para **Revenue Status (Total Year)** (Estado da Receita [Total do Ano]). Este item necessita definitivamente de mais investigação.
    * A variação da receita da Valery também revela algo preocupante: ela não está a atingir as margens de receita definidas.
    * Valery só tem nove clientes, lida apenas com dois produtos e trabalha quase exclusivamente com clientes na região norte. Esta especialização poderá explicar as grandes oscilações nas métricas.
-   * Se selecionar o quadrado **North** (Norte) no gráfico treemap, este mostra que a margem bruta da Valery na região norte é consistente com a margem geral.
+   * Se selecionar o quadrado **Norte** no gráfico treemap, este mostrará que a margem bruta da Valery na região norte é consistente com a margem geral.
    * Ao selecionar cada um dos outros quadrados **Total Revenue by Region** (Receita Total por Região), vemos dados interessantes: a % GM varia entre 23% e 79%. Os números de receita da Valery em todas as regiões, exceto na região norte, são extremamente sazonais.
 
 3. Continue a explorar para descobrir porque é que a área de Valery não apresenta um bom desempenho. Analise as regiões, as outras unidades de negócios e a próxima página do relatório: **Análise de Margem do Setor**.
@@ -173,7 +173,7 @@ Esta página de relatório fornece uma secção diferente dos dados. Examina a m
 Esta página tem um formato de tamanho de página personalizado.
 
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Investigue os dados fazendo perguntas em Perguntas e Respostas
-Para a nossa análise, poderá ser útil determinar que setor gera a maior parte da receita para Valery. Vamos usar Perguntas e Respostas.
+Para a nossa análise, poderá ser útil determinar que setor gera a maior parte da receita para Valery. Vamos utilizar as Perguntas e Respostas.
 
 1. Selecione **Editar relatório** para abrir o relatório na Vista de edição. A vista de Edição só está disponível se for proprietário do relatório. Esta vista é por vezes denominada modo de *criador*. Se, em vez disso, este relatório for partilhado apenas consigo, não poderá abri-lo na vista de Edição.
 

@@ -6,20 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 04/01/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 15a4d88ac9de5d50caeb975afa8ad1758246031f
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881827"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551090"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Transferir um relatório do serviço Power BI para o Power BI Desktop (Pré-visualização)
 No Power BI Desktop, pode publicar um relatório (um ficheiro *.pbix*) do seu computador local no serviço Power BI. Os relatórios do Power BI também podem ir noutra direção: Pode transferir um relatório do serviço Power BI para o Power BI Desktop. A extensão de um relatório do Power BI, em ambos os casos, é .pbix.
 
-Existem algumas limitações e considerações a ter em conta, que são abrangidas mais adiante neste artigo.
+Existem algumas limitações a ter em conta, que são abrangidas na secção [Considerações e resolução de problemas](#considerations-and-troubleshooting) deste artigo.
 
 ![Menu pendente Ficheiro](media/service-export-to-pbix/power-bi-file-export.png)
 
@@ -55,6 +55,7 @@ Existem algumas considerações e limitações importantes associadas à transfe
 * Utilize sempre a versão mais recente do Power BI Desktop ao abrir ficheiros transferidos. Os ficheiros .pbix transferidos poderão não ser abertos em versões não atuais do Power BI Desktop.
 * Se o seu administrador tiver desativado a capacidade de transferir dados, esta funcionalidade não estará visível no serviço Power BI.
 * Não é possível transferir um conjunto de dados com atualização incremental para um ficheiro .pbix.
+* Se criar um relatório do Power BI baseado num conjunto de dados numa área de trabalho e o publicar numa área de trabalho diferente, este relatório não poderá ser transferido nem por si nem pelos utilizadores. A funcionalidade de transferência não é suportada neste cenário.
 
 ## <a name="next-steps"></a>Próximos passos
 Veja o vídeo de um minuto do canal **Guy in a Cube** sobre esta funcionalidade:

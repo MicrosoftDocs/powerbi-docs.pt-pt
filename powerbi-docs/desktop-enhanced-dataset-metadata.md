@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3812f16489d304912ec9574352897e1effb29d4a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201407"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464626"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Using enhanced dataset metadata (preview) (Utilizar metadados de conjuntos de dados otimizados [pré-visualização])
 
@@ -24,6 +24,8 @@ Com o lançamento da funcionalidade **metadados de conjuntos de dados otimizados
 
 
 A funcionalidade **metadados de conjuntos de dados otimizados** é estratégica e fundamental, uma vez que as futuras funcionalidades do Power BI serão criadas com base nos respetivos metadados. Algumas funcionalidades adicionais que tiram partido dos metadados de conjuntos de dados otimizados incluem a [leitura/escrita de XMLA](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite) para gestão de conjuntos de dados do Power BI e a migração de cargas de trabalho do Analysis Services para o Power BI que tira partido de funcionalidades de próxima geração.
+
+
 
 ## <a name="enable-enhanced-dataset-metadata"></a>Ativar a funcionalidade metadados de conjuntos de dados otimizados
 
@@ -36,6 +38,9 @@ Ser-lhe-á pedido que reinicie o Power BI Desktop.
 ![Mensagem de reinício](media/desktop-enhanced-dataset-metadata/enhanced-dataset-metadata-02.png)
 
 Assim que a funcionalidade de pré-visualização é ativada, o Power BI Desktop tenta atualizar os ficheiros PBIX e PBIT que utilizam o formato de metadados anterior. 
+
+> [!IMPORTANT]
+> A ativação da funcionalidade **metadados de conjuntos de dados otimizados** resulta numa atualização irreversível dos relatórios. Todos os relatórios do Power BI carregados ou criados no Power BI Desktop, uma vez ativados os **metadados de conjuntos de dados otimizados**, são irreversivelmente convertidos para o formato de metadados de conjuntos de dados otimizados.
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 

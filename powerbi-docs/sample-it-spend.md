@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 6f39f8b5c288c1dbff3cd87c7beee27683cfeae2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 00effa1838327a9463671cf9be2f5764be71deb4
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873914"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404688"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Gastos de TI do Power BI: veja uma apresentação
 
@@ -57,7 +57,7 @@ Em alternativa, pode transferir o exemplo de Análise de Gastos de TI como um [f
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
 
-Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529783). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529783). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos do Power View e do Power Pivot, veja [Explorar os exemplos do Excel](sample-datasets.md#explore-excel-samples-inside-excel) para obter detalhes.
 
 ## <a name="it-spend-analysis-sample-dashboard"></a>Dashboard de Exemplo de Análise de Gastos de TI
 Os dois mosaicos de números à esquerda no dashboard, **% do Plano de Variação** e **% da Estimativa mais Recente da Variação do 3.º Trimestre**, fornecem uma descrição geral do nosso desempenho em relação ao plano e à estimativa mais recente do último trimestre (LE3 = Estimativa mais recente do 3.º trimestre). No geral, estamos cerca de 6% fora do plano. Vamos explorar a causa desta variação: quando, onde e em que categoria.
@@ -74,7 +74,7 @@ Porém, observar apenas este gráfico e tirar conclusões pode ser enganoso. Tem
    ![Página da Análise das Tendências de Gastos de TI do Ano Até à Data](media/sample-it-spend/it3.png)
 2. Agora, selecione **USA**. Tenha em atenção que a Austrália e a Nova Zelândia são uma parte muito pequena dos nossos gastos gerais em comparação com os Estados Unidos.
 
-    A seguir, vamos explorar que categoria nos EUA está a causar a variação.
+    Em seguida, vamos explorar que categoria nos EUA está a causar a variação.
 
 ## <a name="ask-questions-of-the-data"></a>Fazer perguntas sobre os dados
 1. Selecione **Exemplo de Análise de Gastos de TI** no painel de navegação superior para regressar ao dashboard de exemplo.
@@ -126,7 +126,7 @@ Selecione **Editar Relatório** no canto superior esquerdo para explorar na Vist
 * Altere o tipo de visualização de cada gráfico.
 * Afixe gráficos de interesse ao dashboard.
 
-## <a name="next-steps-connect-to-your-data"></a>Próximos passos: Ligar aos seus dados
+## <a name="next-steps-connect-to-your-data"></a>Next steps: Ligar aos seus dados
 Aqui pode explorar à vontade, pois pode optar por não guardar as alterações. No entanto, se as guardar, pode sempre aceder a **Obter Dados** para obter uma nova cópia deste exemplo.
 
 Esperamos que esta apresentação tenha mostrado como os dashboards, as Perguntas e Respostas e os relatórios do Power BI podem fornecer informações sobre os dados do exemplo. Agora, é a sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Para saber mais, veja [Introdução ao serviço Power BI](service-get-started.md).

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 51c9b8a570abf2686abe9b26a4d9e111e8ef022a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858413"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404642"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Qualidade do Fornecedor do Power BI: veja uma apresentação
 
@@ -62,10 +62,10 @@ Em alternativa, pode transferir o exemplo Supplier Quality Analysis Sample como 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
 
-Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529779). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529779). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos do Power View e do Power Pivot, veja [Explorar os exemplos do Excel](sample-datasets.md#explore-excel-samples-inside-excel) para obter detalhes.
 
 ## <a name="downtime-caused-by-defective-materials"></a>Tempo de inatividade causado por materiais com defeito
-Vamos analisar o tempo de inatividade causado por material defeituoso e ver os fornecedores que são responsáveis.  
+Vamos analisar o tempo de inatividade causado por material defeituoso e ver quais os fornecedores responsáveis.  
 
 1. No dashboard, selecione o mosaico **Total Defect Quantity** ou **Total Downtime Minutes**.
 
@@ -96,7 +96,7 @@ Vamos analisar o tempo de inatividade causado por material defeituoso e ver os f
 3. Selecione **Supplier Quality Analysis Sample** no painel de navegação superior para voltar ao dashboard.
 
 ### <a name="comparing-plants"></a>Comparar fábricas
-Agora vamos explorar as fábricas que fazem um trabalho de melhor gestão de material com defeito, resultando num tempo de inatividade inferior.  
+Agora, vamos explorar as fábricas que melhor gerem o material com defeito, resultando num tempo de inatividade inferior.  
 
 1. No dashboard, selecione o mosaico de mapa **Total Defect Reports by Plant, Defect Type**.      
 
@@ -109,7 +109,7 @@ Agora vamos explorar as fábricas que fazem um trabalho de melhor gestão de mat
     ![Selecionar Impact](media/sample-supplier-quality/supplier7.png)  
 
     No gráfico de bolhas, verá que a categoria **Logistics** é a mais problemática. É a que apresenta maior impacto em termos da quantidade total de defeitos, relatórios de defeitos e minutos de inatividade. Vamos explorar melhor esta categoria.  
-3. Selecione a bolha **Logistics** no gráfico de bolhas e observe as fábricas em Springfield e Naperville, IL. Naperville parece fazer um melhor trabalho de gestão de fornecimentos com defeitos, uma vez tem um número alto de rejeição e alguns impactos, comparado ao grande número de impactos de Springfield.  
+3. Selecione a bolha **Logistics** no gráfico de bolhas e observe as fábricas em Springfield e Naperville, IL. Naperville parece estar a gerir melhor os materiais com defeitos, uma vez tem um número alto de rejeições e poucos impactos, comparado ao grande número de impactos da Springfield.  
 
    ![Selecionar Logistics](media/sample-supplier-quality/supplier8.png)  
 4. Selecione **Supplier Quality Analysis Sample** no painel de navegação superior para voltar ao dashboard.
@@ -168,7 +168,7 @@ Vejamos outro mosaico de dashboard relacionado com a quantidade total de defeito
 4. Para explorar os meses de exceções, verifique os minutos de tempo de inatividade durante outubro por tipo de material, localização da fábrica, categoria e assim por diante ao fazer perguntas como *total downtime minutes in October by plant* (minutos de tempo de inatividade total em outubro pela fábrica). 
 5. Selecione **Sair das Perguntas e Respostas** no canto superior esquerdo para voltar ao dashboard.
 
-## <a name="next-steps-connect-to-your-data"></a>Próximos passos: Ligar aos seus dados
+## <a name="next-steps-connect-to-your-data"></a>Next steps: Ligar aos seus dados
 Aqui pode explorar à vontade, pois pode optar por não guardar as alterações. No entanto, se as guardar, pode sempre aceder a **Obter Dados** para obter uma nova cópia deste exemplo.
 
 Esperamos que esta apresentação tenha mostrado como os dashboards, as Perguntas e Respostas e os relatórios do Power BI podem fornecer informações sobre os dados do exemplo. Agora, é a sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Para saber mais, veja [Introdução ao serviço Power BI](service-get-started.md).

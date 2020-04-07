@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 8ee77485da03cb8e507d30d511c08aa869c3e4ba
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873862"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404673"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Aprovisionamento do Power BI: veja uma apresentação
 
@@ -61,11 +61,11 @@ Em alternativa, pode transferir o exemplo de Análise de Aprovisionamento como u
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
 
-Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529784). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529784). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos do Power View e do Power Pivot, veja [Explorar os exemplos do Excel](sample-datasets.md#explore-excel-samples-inside-excel) para obter detalhes.
 
 
 ## <a name="spending-trends"></a>Tendências de gastos
-Primeiro, vamos analisar as tendências de gastos por categoria e local.  
+Primeiro, vamos analisar as tendências dos gastos por categoria e local.  
 
 1. Na área de trabalho onde guardou o exemplo, abra o separador **Dashboards** e, em seguida, localize o dashboard **Exemplo de Análise de Aprovisionamento** e selecione-o. 
 2. Selecione o mosaico de dashboard **Total da Fatura por País/Região**, que é aberto na página **Descrição Geral de Gastos** do relatório **Exemplo de Análise de Aprovisionamento**.
@@ -104,12 +104,12 @@ Vamos explorar as áreas de gastos no México.
 Podemos utilizar o realce para avaliar cidades diferentes.
 
 1. Selecione o mosaico de dashboard **Total da Fatura, % Desconto por Mês**, que é aberto na página **Análise de Descontos** do relatório **Exemplo de Análise de Aprovisionamento**.
-2. No mapa de árvore **Total da Fatura por Cidade**, selecione cada cidade à vez para ver a comparação entre elas. Note que quase todas as faturas de Miami são provenientes de fornecedores da camada 1.
+2. No mapa de árvore **Total da Fatura por Cidade**, selecione cada cidade à vez para ver a comparação entre elas. Note que quase todas as faturas de Miami são provenientes de fornecedores da camada 1.
 
    ![Cidade versus % de desconto por camada](media/sample-procurement/pbi_procsample_miamitreemap2.png)
 
 ## <a name="vendor-discounts"></a>Descontos de fornecedores
-Também vamos explorar os descontos disponíveis de fornecedores e os períodos de tempo quando obtemos a maioria dos descontos:
+Também vamos explorar os descontos disponíveis dos fornecedores e os períodos de tempo quando obtemos a maioria dos descontos:
 * Os descontos são diferentes em cada mês ou permanecem iguais?
 * Algumas cidades têm mais descontos do que outras?
 

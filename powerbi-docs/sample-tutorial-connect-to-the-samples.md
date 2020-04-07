@@ -1,37 +1,37 @@
 ---
-title: Ligar aos exemplos no serviço Power BI
-description: Saiba como instalar e explorar os exemplos no serviço Power BI.
+title: Explorar o exemplo de Análise de Revenda
+description: Saiba como instalar e explorar o exemplo de Análise de Revenda no serviço Power BI e no Power BI Desktop.
 author: maggiesMSFT
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c1fbd57f1c92c9900178eb212a1369d25fdf838a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f18ec650167b7872cb332bc9ccd606f7ea1f7500
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762169"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404600"
 ---
-#  <a name="import-and-open-sample-packs-for-power-bi"></a>Importar e abrir pacotes de exemplo do Power BI
+# <a name="explore-the-retail-analysis-sample"></a>Explorar o exemplo de Análise de Revenda
 
 Este tutorial mostra-lhe como: 
-- Importar um pacote de conteúdos de exemplo, adicioná-lo ao serviço Power BI e abrir o conteúdo. Um *pacote de conteúdos* é um tipo de exemplo em que o conjunto de dados é fornecido num pacote com um dashboard e relatório. 
-- Abra um ficheiro .pbix de exemplo no Power BI Desktop.
+- Importar o pacote de conteúdos do exemplo de Análise de Revenda, adicioná-lo ao serviço Power BI e abrir os conteúdos. Um *pacote de conteúdos* é um tipo de exemplo em que o conjunto de dados é fornecido num pacote com um dashboard e relatório. 
+- Abrir o ficheiro .pbix de exemplo de Análise de Revenda no Power BI Desktop.
 
 Caso queira obter mais informações detalhadas, veja [Conjuntos de dados de exemplo do Power BI](sample-datasets.md). Nesse artigo, irá aprender tudo sobre os exemplos; como obtê-los, onde guardá-los, como utilizá-los e algumas das histórias de cada um deles. 
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Os exemplos estão disponíveis para o serviço Power BI e para o Power BI Desktop. Para acompanhar, vamos utilizar o exemplo da Análise de Revenda.
+Os exemplos estão disponíveis para o serviço Power BI e para o Power BI Desktop. Estamos a utilizar o exemplo de Análise de Revenda, caso pretenda acompanhar.
 
 O pacote de conteúdos de exemplo de *Análise de Retalho* utilizado neste tutorial consiste num dashboard, relatório e conjunto de dados.
 Para se familiarizar com este pacote de conteúdos específico e o respetivo cenário, veja [Exemplo de Análise de Revenda do Power BI: ver uma apresentação](sample-retail-analysis.md) antes de começar.
 
-## <a name="samples-in-the-power-bi-service"></a>Exemplos no serviço Power BI
+## <a name="import-the-sample-in-the-power-bi-service"></a>Importar o exemplo no serviço Power BI
 
 1. Abra o serviço Power BI (app.powerbi.com), inicie sessão e abra a área de trabalho onde quer guardar o exemplo. 
 
@@ -94,8 +94,8 @@ Agora explore o dashboard, o conjunto de dados e o relatório por conta própria
      
     ![Relatório de informações](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
-## <a name="samples-in-power-bi-desktop"></a>Exemplos no Power BI Desktop 
-Quando abre o ficheiro .pbix de exemplo no Power BI Desktop pela primeira vez, este apresenta a Vista de Relatório, na qual pode explorar, criar e modificar qualquer número de páginas de relatórios com visualizações. A Vista de Relatório proporciona praticamente a mesma experiência de design que a Vista de Edição de um relatório no serviço Power BI. Pode mover as visualizações de um lado para o outro, copiar e colar, unir, etc. 
+## <a name="download-the-sample-in-power-bi-desktop"></a>Transferir o exemplo no Power BI Desktop 
+Quando abre o ficheiro .pbix de exemplo no Power BI Desktop pela primeira vez, este apresenta a Vista de Relatório, na qual pode explorar, criar e modificar qualquer número de páginas de relatórios com visualizações. A Vista de relatório proporciona praticamente a mesma experiência de design que a Vista de edição de um relatório no serviço Power BI. Pode mover as visualizações de um lado para o outro, copiar e colar, unir, etc. 
 
 Ao contrário do que acontece quando se edita um relatório no serviço Power BI, no Power BI Desktop também pode trabalhar com as suas consultas e modelar os seus dados para se certificar de que os seus dados suportam as melhores informações nos seus relatórios. Em seguida, pode guardar o seu ficheiro do Power BI Desktop onde quiser, quer seja na sua unidade local ou na cloud.
 
@@ -119,7 +119,7 @@ Quando transfere um ficheiro .pbix de exemplo, transfere não apenas um relatór
 
     Na Vista de Dados, pode inspecionar, explorar e compreender os dados no seu modelo do Power BI Desktop. É diferente do modo como vê as tabelas, as colunas e os dados no Editor de Consultas. Na Vista de Dados, os dados já estão carregados no modelo.
 
-    Quando está a modelar os seus dados, às vezes quer ver o que está realmente nas linhas e colunas de uma tabela sem criar um elemento visual na tela de relatório. Isso é particular verdadeiro quando está a criar colunas calculadas e medidas, ou quando precisa de identificar um tipo de dados ou uma categoria de dados.
+    Quando está a modelar os dados, às vezes quer ver o que está realmente nas linhas e colunas de uma tabela sem criar um elemento visual na tela de relatório. Isso é particularmente verdadeiro quando está a criar colunas calculadas e medidas, ou quando precisa de identificar um tipo de dados ou uma categoria de dados.
 
 1. Mude para a [Vista de Relações](desktop-relationship-view.md) ao selecionar o seguinte ícone: ![Ícone de Vista de Relações](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png).
  

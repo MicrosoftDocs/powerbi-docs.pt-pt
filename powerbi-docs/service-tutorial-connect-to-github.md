@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871257"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403414"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Tutorial: ligar-se a um repositório do GitHub com o Power BI
 Neste tutorial, irá ligar a dados reais no serviço GitHub com o Power BI e o Power BI criará automaticamente dashboards e relatórios. Vai ligar-se ao repositório de conteúdos públicos do Power BI (também conhecido como *repositório*) e ver respostas a perguntas como: Quantas pessoas contribuem para os conteúdos públicos do Power BI? Quem contribui mais? Que dia da semana tem mais contribuições? Entre outras perguntas. 
@@ -43,7 +43,7 @@ Para concluir este tutorial, precisa de uma conta do GitHub, se ainda não tiver
 
 
 ## <a name="how-to-connect"></a>Como se ligar
-1. Inicie sessão no serviço Power BI (https://app.powerbi.com). 
+1. Inicie sessão no serviço Power BI (`https://app.powerbi.com`). 
 2. No painel de navegação, selecione **Aplicações** e, em seguida, **Obter aplicações**.
    
    ![Power BI: obter aplicações](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
@@ -64,7 +64,7 @@ Para concluir este tutorial, precisa de uma conta do GitHub, se ainda não tiver
 
 5. Introduza as credenciais do GitHub que criou. O Power BI poderá ignorar este passo se já tiver iniciado sessão no GitHub no seu browser. 
 
-6. Para o **Método de Autenticação**, mantenha **oAuth2** selecionado \> **Iniciar Sessão**.
+6. Para **Método de Autenticação**, mantenha **oAuth2** selecionado \>**Iniciar Sessão**.
 
 7. Siga os ecrãs de autenticação do GitHub. Conceda permissão ao Power BI para aceder aos dados do GitHub.
    

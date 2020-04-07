@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: eac1c22ba23f7a1a67b2cc120fe38d4c396d864a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207488"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404713"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Revenda do Power BI: veja uma apresentação
 
@@ -57,7 +57,7 @@ Em alternativa, pode transferir o exemplo de Análise de Revenda como um [fichei
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
 
-Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529778). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529778). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos do Power View e do Power Pivot, veja [Explorar os exemplos do Excel](sample-datasets.md#explore-excel-samples-inside-excel) para obter detalhes.
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>Iniciar no dashboard e abrir o relatório
 
@@ -111,7 +111,7 @@ Agora, vamos explorar num nível mais detalhado e analisar os desempenhos dos di
 
    ![Gráfico da % da Variação do Total de Vendas por Mês Fiscal](media/sample-retail-analysis/pbi_sample_retanlsalesvarcol.png)
 
-   Vamos ver se podemos chegar até onde os problemas podem estar.
+   Vejamos se conseguimos restringir a origem dos problemas.
 2. No gráfico de bolhas, selecione a bolha **020-Mens**.
 
    ![Selecionar 020-Mens](media/sample-retail-analysis/retail11.png)  
@@ -131,7 +131,7 @@ Vejamos o desempenho de distritos específicos.
 
    ![Selecionar Artur Gomes](media/sample-retail-analysis/retail13.png)
 
-   Observe que o distrito de Artur teve um desempenho superior em março e junho, no Ano Passado, em comparação com o ano passado.
+   Observe que o distrito de Artur teve um desempenho superior em março e junho em comparação com o ano passado.
 2. Com o **Artur Gomes** ainda selecionado, selecione a bolha **Womens-10** no gráfico de bolhas.
 
    ![Artur Gomes e Womens-10 selecionados](media/sample-retail-analysis/power-bi-allan.png)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73872699"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404751"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Adicionar uma pasta de CDM ao Power BI como um fluxo de dados (Pré-visualização)
 
@@ -24,9 +24,10 @@ No Power BI, pode adicionar pastas de CDM (Common Data Service) armazenadas no A
 
 Existem alguns requisitos para a criação de fluxos de dados a partir de pastas de CDM, como a lista seguinte descreve:
 
+* Um administrador tem de ligar a conta de armazenamento ADLS Gen2 no Power BI para a poder utilizar. Veja [Ligar o Azure Data Lake Storage Gen2 para armazenar fluxo de dados](service-dataflows-connect-azure-data-lake-storage-gen2.md) para saber como ligar uma conta ADLS Gen2 ao Power BI.
 * A criação de fluxos de dados a partir de pastas de CDM *apenas* está disponível na [nova experiência de área de trabalho](service-create-the-new-workspaces.md). 
 * Adicionar uma pasta de CDM ao Power BI requer que o utilizador que adicionar a pasta tenha [autorização para a pasta de CDM e os respetivos ficheiros](https://go.microsoft.com/fwlink/?linkid=2029121).
-* Devem ser-lhe concedidas permissões de leitura e de execução em todos os ficheiros e pastas na pasta de CDM, para adicioná-los ao Power BI.
+* Devem ser-lhe concedidas permissões de leitura e de execução em todos os ficheiros e pastas na pasta de CDM, para os adicionar ao Power BI.
 
 As secções seguintes descrevem como criar um fluxo de dados a partir de uma pasta de CDM.
 
@@ -57,12 +58,12 @@ Ao trabalhar com permissões para um fluxo de dados criado a partir de uma pasta
 
 As listas seguintes ajudam a esclarecer como os fluxos de dados de pastas de CDM funcionam no Power BI.
 
-Áreas de trabalho do Power BI Pro, Premium e Embedded:
-* Não é possível editar fluxos de dados de pastas de CDM
+Áreas de trabalho do Power BI Pro, Premium e Embedded:
+* Não pode editar os fluxos de dados de pastas de CDM
 * As permissões para ler um fluxo de dados criado a partir de uma pasta de CDM são geridas pelo proprietário da pasta de CDM e não pelo Power BI
 
 Power BI Desktop:
-* Apenas os utilizadores que têm autorização para a área de trabalho na qual o fluxo de dados foi criado, e para a pasta de CDM, podem aceder aos respetivos dados a partir do conector de Fluxos de Dados do Power BI
+* Apenas os utilizadores que têm autorização para a área de trabalho na qual o fluxo de dados foi criado e para a pasta de CDM podem aceder aos dados a partir do conector de Fluxos de Dados do Power BI
 
 
 Existem algumas considerações adicionais, descritas na lista seguinte:
@@ -71,13 +72,13 @@ Existem algumas considerações adicionais, descritas na lista seguinte:
 * As entidades ligadas não estão disponíveis para fluxos de dados criados a partir de pastas de CDM
 
 
-Os clientes do **Power BI Desktop** não podem aceder a fluxos de dados armazenados numa conta do Azure Data Lake Storage Gen2, salvo se forem os proprietários do fluxo de dados ou se lhes tiver sido dada autorização explícita para a pasta de CDM do fluxo de dados. Considere a situação seguinte:
+Os clientes do **Power BI Desktop** não podem aceder a fluxos de dados armazenados numa conta do Azure Data Lake Storage Gen2, salvo se forem os proprietários do fluxo de dados ou se lhes tiver sido dada autorização explícita para a pasta de CDM do fluxo de dados. Considere a situação seguinte:
 
-1.  A Ana cria uma nova área de trabalho e configura-a para armazenar os fluxos de dados de uma pasta de CDM.
-2.  O Nuno, que também é membro da área de trabalho criada pela Ana, quer utilizar o Power BI Desktop e o conector de fluxo de dados para obter dados do fluxo de dados criado pela Ana.
-3.  O Miguel recebe um erro porque não foi adicionado como utilizador autorizado à pasta de CDM do fluxo de dados no data lake.
+1.    A Ana cria uma nova área de trabalho e configura-a para armazenar os fluxos de dados de uma pasta de CDM.
+2.    O Nuno, que também é membro da área de trabalho criada pela Ana, quer utilizar o Power BI Desktop e o conector de fluxo de dados para obter dados do fluxo de dados criado pela Ana.
+3.    O Miguel recebe um erro porque não foi adicionado como utilizador autorizado à pasta de CDM do fluxo de dados no data lake.
 
-    ![Erro ao tentar utilizar o fluxo de dados](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
+  ![Erro ao tentar utilizar o fluxo de dados](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
 Para resolver este problema, devem ser concedidas permissões de leitor ao Nuno à Pasta de CDM e aos respetivos ficheiros. Pode saber mais sobre como conceder acesso à pasta de CDM [neste artigo](https://go.microsoft.com/fwlink/?linkid=2029121).
 

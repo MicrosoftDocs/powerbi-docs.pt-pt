@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 280e29d90e956ba47de6a0ff80b6f29bc0f00a18
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207925"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404073"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceitos básicos para designers no serviço Power BI
 
 O objetivo deste artigo é orientá-lo no serviço Power BI: quais são os diferentes elementos, como funcionam em conjunto e como pode trabalhar com eles. Pode tirar mais proveito deste artigo se já se tiver [inscrito no serviço Power BI](service-self-service-signup-for-power-bi.md) e [adicionado alguns dados](service-get-data.md). Como designer, o seu fluxo de trabalho típico começa, geralmente, pela criação de relatórios no Power BI Desktop. Em seguida, publica-os no serviço Power BI, onde pode continuar a modificá-los. Também cria os dashboards com base nos seus relatórios no serviço Power BI. 
 
-Para este artigo, caso ainda não tenha os seus próprios relatórios, experimente instalar um [pacote de conteúdos de exemplo do Power BI](sample-datasets.md#the-power-bi-samples-as-content-packs).
+Para este artigo, caso ainda não tenha os seus próprios relatórios, experimente instalar um dos [exemplos do Power BI](sample-datasets.md).
 
 ![Ecrã principal do serviço Power BI num browser](media/service-basic-concepts/power-bi-home-screen.png)
 
@@ -165,9 +165,9 @@ Existem muitas formas diferentes de o utilizador ou de um colega poder [partilha
 ## <a name="workbooks"></a>Livros
 Os livros são um tipo de conjunto de dados especial. Se já leu a secção **Conjuntos de dados** acima, já deve saber praticamente tudo sobre os livros. Mas poderá perguntar-se por que motivo, por vezes, o Power BI classifica um livro do Excel como um **Conjunto de dados** e outras como um **Livro**.
 
-Quando utiliza **Obter dados** com ficheiros do Excel, tem a opção de *Importar* ou de se *Ligar* ao ficheiro. Ao escolher Ligar, o livro será apresentado no Power BI, exatamente como apareceria no Excel Online. Mas, ao contrário do Excel Online, terá algumas excelentes funcionalidades para ajudá-lo a afixar elementos das suas folhas de cálculo diretamente nos dashboards.
+Quando utiliza **Obter dados** com ficheiros do Excel, tem a opção de *Importar* ou de se *Ligar* ao ficheiro. Ao escolher Ligar, o livro será apresentado no Power BI, exatamente como apareceria no Excel Online. Mas, ao contrário do Excel Online, terá algumas excelentes funcionalidades para o ajudar a afixar elementos das suas folhas de cálculo diretamente nos dashboards.
 
-Não é possível editar o livro no Power BI. No entanto, se precisar de fazer alterações, clique em Editar e escolha a opção para editar o livro no Excel Online ou abri-lo no Excel no seu computador. Todas as alterações efetuadas são guardadas no livro no OneDrive.
+Não pode editar o livro no Power BI. No entanto, se precisar de fazer alterações, clique em Editar e escolha a opção para editar o livro no Excel Online ou abri-lo no Excel no computador. Todas as alterações efetuadas são guardadas no livro no OneDrive.
 
 ### <a name="dig-deeper"></a>Explorar mais
 * [Get data from Excel workbook files (Obter dados de ficheiros de livro do Excel)](service-excel-workbook-files.md)

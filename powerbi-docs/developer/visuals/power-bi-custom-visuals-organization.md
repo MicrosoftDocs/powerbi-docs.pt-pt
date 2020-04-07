@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ab2aa7f1771c09a7ec725f9cc533717e7daf11a0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79383511"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464576"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Elementos visuais organizacionais no Power BI
 
@@ -35,7 +35,7 @@ Para saber mais sobre como utilizar os elementos visuais do Power BI da organiza
 Para saber mais sobre como administrar, implementar e gerir os elementos visuais organizacionais do Power BI na sua organização, veja o artigo: [Saiba mais sobre como implementar e gerir elementos visuais organizacionais do Power BI](https://go.microsoft.com/fwlink/?linkid=866790).
 
 > [!WARNING]
-> Um elemento visual personalizado pode conter código com riscos de privacidade ou segurança. Garanta que confia no autor e na origem de qualquer elemento visual personalizado antes de o implementar no repositório da organização.
+> Um elemento visual do Power BI instalado a partir de um ficheiro pode conter código com riscos de privacidade ou segurança. Garanta que confia no autor e na origem do ficheiro visual do Power BI antes de o implementar no repositório da organização.
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
@@ -45,7 +45,9 @@ Administrador:
 
 * Os elementos visuais do Power BI legados (por exemplo, os elementos visuais do Power BI que não foram criados sobre as APIs da nova versão) não são suportados
 
-* Se um elemento visual personalizado for eliminado do repositório, todos os relatórios existentes que utilizem o elemento visual eliminado deixarão de ser compostos. A operação de eliminação do repositório é irreversível. Para desativar temporariamente um elemento visual personalizado, utilize a funcionalidade “Desativar”.
+* Se um elemento visual do Power BI no AppSource ou num ficheiro for eliminado do repositório, todos os relatórios existentes que utilizem o elemento visual eliminado deixarão de ser compostos. A eliminação do repositório é irreversível. Para desativar temporariamente um elemento visual do Power BI no AppSource ou num ficheiro, utilize a funcionalidade “Desativar”.
+
+* Os elementos visuais organizacionais do Power BI não são suportados no servidor de relatórios do Power BI.
 
 Utilizador final:
 

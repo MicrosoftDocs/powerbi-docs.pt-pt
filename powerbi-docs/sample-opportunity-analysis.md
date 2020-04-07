@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d871fa15c999e5b6c83b0334d6c978b2ba3c9870
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4863bfe3d99a63fbf4ad49834e66ecb8fcaf5525
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858718"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404131"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Oportunidade do Power BI: veja uma apresentação
 
@@ -22,7 +22,7 @@ O pacote de conteúdos do exemplo da Análise de Oportunidade contém um dashboa
 
 Este exemplo baseia-se em duas medidas de receita:
 
-* Receita: A estimativa de um representante de vendas sobre qual será a receita.
+* Receita: a estimativa de um representante de vendas sobre qual será a receita.
 * Receita de fatores: Calculada como a percentagem (%) entre a receita x probabilidade e é aceite como sendo uma previsão mais precisa da receita de vendas real. A probabilidade é determinada pela *fase de vendas* atual do negócio:
   * Cliente potencial: 10%  
   * Elegível: 20%  
@@ -66,7 +66,7 @@ Em alternativa, pode transferir o exemplo de Análise de Oportunidade como um [f
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
 
-Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529782). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529782). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos do Power View e do Power Pivot, veja [Explorar os exemplos do Excel](sample-datasets.md#explore-excel-samples-inside-excel) para obter detalhes.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O que nos diz o nosso dashboard?
 O nosso gestor de vendas criou um dashboard para monitorizar as métricas mais importantes. Quando vê algo interessante, pode selecionar um mosaico para examinar os dados:
@@ -122,7 +122,7 @@ Repare nos seguintes detalhes:
 * As grandes oportunidades são mais comuns na região Central, as pequenas oportunidades são mais comuns na região Leste e as médias oportunidades são mais comuns na região Oeste.
 
 ### <a name="upcoming-opportunities-by-month-page"></a>Página Oportunidades Futuras por Mês
-Para esta página estamos a analisar fatores semelhantes, mas numa perspetiva de data e hora. 
+Para esta página, estamos a analisar fatores semelhantes, mas numa perspetiva de data e hora. 
  
 ![Página Oportunidades Futuras](media/sample-opportunity-analysis/opportunity6.png)
 
@@ -133,7 +133,7 @@ Repare nos seguintes detalhes:
 * Se filtrar por mês (selecionando um mês na segmentação de dados **Mês**) verá que janeiro tem uma grande quantidade de negócios grandes na fase Finalizar com receita de fatores de 75 milhões de USD. Fevereiro, por outro lado, tem principalmente negócios médios nas fases de vendas de Proposta e Solução.
 * Em geral, os números de receita faturada flutuam com base no nível de vendas, no número de oportunidades e no tamanho do negócio. Adicione filtros para estes fatores usando o painel **Filtro** à direita para descobrirem mais informações.
 
-## <a name="next-steps-connect-to-your-data"></a>Próximos passos: Ligar aos seus dados
+## <a name="next-steps-connect-to-your-data"></a>Next steps: Ligar aos seus dados
 Aqui pode explorar à vontade, pois pode optar por não guardar as alterações. No entanto, se as guardar, pode sempre aceder a **Obter Dados** para obter uma nova cópia deste exemplo.
 
 Esperamos que esta apresentação tenha mostrado como os dashboards, as Perguntas e Respostas e os relatórios do Power BI podem fornecer informações sobre os dados do exemplo. Agora, é a sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Para saber mais, veja [Introdução ao serviço Power BI](service-get-started.md).

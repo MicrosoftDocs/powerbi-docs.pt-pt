@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 5208c72016a148f86a119bdddd2bbd1f69d3456b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 0804650149f98d7f63315025ffe3f8a1771ac2ef
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381037"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302733"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Subscrever relatórios e dashboards no serviço Power BI para si e para outras pessoas
 
@@ -96,7 +96,7 @@ Uma subscrição terminará se a licença Pro expirar, o proprietário eliminar 
 * As subscrições de páginas de relatório estão associadas ao nome da página de relatório. Se subscrever uma página de relatório e, em seguida, mudar o nome da mesma, terá de voltar a criar a sua subscrição.
 * A sua organização pode configurar determinadas definições no Azure Active Directory que podem limitar a capacidade de utilizar as subscrições de e-mail no Power BI.  Estas limitações incluem, mas não se limitam a, ter uma autenticação multifator ou restrições de intervalos de IP quando se acede a recursos.
 * Atualmente, as subscrições de e-mail para relatórios/dashboards com conjuntos de dados de ligações em direto não são suportadas ao subscrever outros utilizadores, a menos que esteja a utilizar um relatório paginado, que irá permitir que envie a subscrição para outras pessoas com o seu contexto de segurança.
-* As subscrições por e-mail não suportam a maioria dos [elementos visuais do Power BI](developer/visuals/power-bi-custom-visuals.md).  A única exceção são os elementos visuais do Power BI que foram [certificados](developer/visuals/power-bi-custom-visuals-certified.md).  
+* Apenas os elementos visuais predefinidos e os [elementos visuais certificados do Power BI](developer/visuals/power-bi-custom-visuals.md) são suportados para subscrições de e-mail.  
 * De momento, as subscrições por e-mail não suportam elementos visuais do Power BI baseados em R.  
 * As subscrições por e-mail são enviadas com as estatísticas de filtro e segmentação de dados predefinidas do relatório. Quaisquer alterações às predefinições efetuadas depois da subscrição não irão aparecer no e-mail.  Os Relatórios Paginados suportam esta funcionalidade e permitem-lhe definir os valores de parâmetros específicos por subscrição.
 * Especificamente para subscrições de dashboards, determinados tipos de mosaicos ainda não são suportados.  Estes incluem: transmissão em fluxo de mosaicos, mosaicos de vídeos e mosaicos de conteúdo Web personalizados.     

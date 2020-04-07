@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9338bc914c7f4e4afd826bcd3e3452e7c7a3ef35
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 403537f8cd18948c99cc4dffb911009771a8b806
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040440"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404740"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Criar e utilizar fluxos de dados no Power BI
 
@@ -57,7 +57,7 @@ Uma **entidade** é um conjunto de campos que servem para armazenar dados, tal c
 
 Quando selecionar uma origem de dados, é-lhe pedido para indicar as definições da ligação, incluindo a conta a utilizar ao ligar à origem de dados, conforme mostrado na imagem seguinte.
 
-![Ligar à origem de dados](media/service-dataflows-create-use/dataflows-create-use_06.png)
+![Ligar a origem de dados](media/service-dataflows-create-use/dataflows-create-use_06.png)
 
 Depois de ligado, pode selecionar os dados a utilizar para a entidade. Ao escolher os dados e uma origem, o Power BI voltará posteriormente a ligar à origem de dados para manter os dados no fluxo de dados atualizados, com a frequência que selecionar mais tarde no processo de configuração.
 
@@ -75,7 +75,7 @@ Se pretender ver o código que a Consulta está a criar em cada passo ou criar o
 
 ### <a name="dataflows-and-the-common-data-model-cdm"></a>Fluxos de dados e o Common Data Service (CDS)
 
-As entidades de fluxos de dados incluem novas ferramentas para mapear facilmente os dados da sua empresa para o Common Data Service (o esquema padronizado da Microsoft), enriquecê-los com dados da Microsoft e dados de terceiros e obter acesso simplificado à aprendizagem automática. Estas novas capacidades podem ser aproveitadas para proporcionar informações inteligentes e acionáveis sobre os seus dados de negócio. Depois de concluir as transformações no passo Editar Consultas, pode mapear as colunas das suas tabelas de origem de dados para campos de entidade padrão, conforme definido pelo Common Data Service. As entidades padrão têm um esquema conhecido definido pelo Common Data Service.
+As entidades de fluxos de dados incluem novas ferramentas para mapear facilmente os dados da sua empresa para o Common Data Model (o esquema padronizado da Microsoft), enriquecê-los com dados da Microsoft e dados de terceiros e obter acesso simplificado à aprendizagem automática. Estas novas capacidades podem ser aproveitadas para proporcionar informações inteligentes e acionáveis sobre os seus dados de negócio. Depois de concluir as transformações no passo Editar Consultas, pode mapear as colunas das tabelas de origem de dados para campos de entidade padrão, conforme definido pelo Common Data Model. As entidades padrão têm um esquema conhecido definido pelo Common Data Service.
 
 Obtenha mais informações sobre esta abordagem e sobre o Common Data Service, no artigo [O que é o Common Data Service?](https://docs.microsoft.com/powerapps/common-data-model/overview)
 
@@ -92,7 +92,7 @@ Para manter a entidade padrão do Common Data Service, todos os campos padrão q
 
 Todas as colunas da origem que não estão mapeadas permanecem tal como estão para garantir que o resultado do mapeamento é uma entidade padrão com campos personalizados.
 
-Depois de concluir as suas seleções e quando a sua entidade e as definições de dados estiverem prontas, pode selecionar **Guardar** no menu. Repare que pode criar várias entidades, ao selecionar o botão **Adicionar entidades**, e pode Editar entidades para refinar as consultas e as entidades que criou.
+Depois de concluir as seleções e quando a entidade e as definições de dados estiverem prontas, pode selecionar **Guardar** no menu. Repare que pode criar várias entidades, ao selecionar o botão **Adicionar entidades**, e pode Editar entidades para refinar as consultas e as entidades que criou.
 
 ![Guardar o mapeamento da entidade](media/service-dataflows-create-use/dataflows-create-use_09.png)
 
@@ -104,11 +104,11 @@ Quando estiver pronto e selecionar o botão **Guardar**, é apresentada uma jane
 
 ![O fluxo de dados é guardado](media/service-dataflows-create-use/dataflows-create-use_11.png)
 
-Ótimo, agora está pronto para o próximo passo, que é agendar a frequência de atualização das suas origens de dados.
+Ótimo, agora está pronto para o próximo passo, que é agendar a frequência de atualização das origens de dados.
 
 ## <a name="schedule-the-refresh-frequency"></a>Agendar a frequência de atualização
 
-Após guardar o fluxo de dados, vai querer agendar a frequência de atualização para cada uma das suas origens de dados ligadas.
+Após guardar o fluxo de dados, vai querer agendar a frequência de atualização para cada uma das origens de dados ligadas.
 
 Os fluxos de dados do Power BI utilizam o processo de atualização de dados do Power BI para manter os dados atualizados. No **serviço Power BI**, na secção **área de trabalho**, existe uma coleção de áreas onde as suas informações podem ser listadas, incluindo os fluxos de dados, conforme mostrado na imagem seguinte.
 
@@ -127,7 +127,7 @@ Para obter mais informações sobre o agendamento da atualização, veja o artig
 
 ## <a name="connect-to-your-dataflow-in-power-bi-desktop"></a>Ligar aos fluxos de dados no Power BI Desktop
 
-Depois de criar o fluxo de dados e ter agendado a frequência de atualização para cada origem de dados que irá preencher o modelo, está pronto para o terceiro e último passo, que é ligar ao fluxo de dados a partir do **Power BI Desktop**. 
+Depois de criar o fluxo de dados e ter agendado a frequência de atualização para cada origem de dados que irá povoar o modelo, estará pronto para o terceiro e último passo, que é ligar ao fluxo de dados a partir do **Power BI Desktop**. 
 
 Para ligar a um fluxo de dados, no Power BI Desktop, selecione **Obter Dados > Power BI > Fluxos de dados do Power BI (Beta)** , conforme mostrado na imagem seguinte.
 
@@ -150,9 +150,9 @@ Em determinadas ocasiões, pode deparar-se com problemas ao ligar a origens de d
 
 * **Conector do Salesforce** – utilizar uma conta de avaliação para o Salesforce com fluxos de dados resulta numa falha de ligação e não é apresentada nenhuma informação. Para resolver este problema, utilize uma conta do Salesforce de produção ou uma conta de programador para fins de teste.
 
-* **Conector do SharePoint** – garanta que indica o endereço raiz do site do SharePoint, sem subpastas nem documentos. Por exemplo, utilize uma ligação semelhante à seguinte: https://microsoft.sharepoint.com/teams/ObjectModel/ 
+* **Conector do SharePoint** – garanta que indica o endereço raiz do site do SharePoint, sem subpastas nem documentos. Por exemplo, utilize uma ligação semelhante à seguinte: `https://microsoft.sharepoint.com/teams/ObjectModel/` 
 
-* **Conector do Ficheiro JSON** – atualmente pode ligar-se a um ficheiro JSON apenas através da autenticação básica.  Atualmente **não** é suportado ligar-se a um ficheiro JSON ao fornecer credenciais no URL (por exemplo, https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg...).  
+* **Conector do Ficheiro JSON** – atualmente pode ligar-se a um ficheiro JSON apenas através da autenticação básica.  Atualmente, **não** é suportada a ligação a um ficheiro JSON ao indicar as credenciais no URL (por exemplo, `https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg`...).  
 
 * **Azure SQL Data Warehouse** – os fluxos de dados não suportam atualmente a autenticação do Azure Active Directory (AAD) para o Azure SQL Data Warehouse. Utilize a autenticação Básica neste cenário.
 
