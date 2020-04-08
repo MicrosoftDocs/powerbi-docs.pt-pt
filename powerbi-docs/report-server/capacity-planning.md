@@ -1,19 +1,19 @@
 ---
 title: Orientações de planeamento de capacidade do Power BI Report Server
 description: Este documento oferece orientação sobre o planeamento da capacidade do Power BI Report Server ao partilhar resultados de execuções do teste de carga das várias cargas de trabalho.
-author: parthsha
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 3/5/2018
-ms.author: parshah
-ms.openlocfilehash: 8b30089fe04c832734bd418cc58fabb7b574a082
-ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
+ms.date: 04/02/2020
+ms.author: maggies
+ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
+ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80361769"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80647657"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Orientações de planeamento de capacidade do Power BI Report Server
 Power BI Report Server é uma solução personalizada de relatórios empresariais que os clientes podem implementar no seu local, por trás da firewall. Combina a capacidade de relatórios interativos do Power BI Desktop com a plataforma de servidor no local do SQL Server Reporting Services. Com uma utilização intensa e crescente de análises e relatórios nas empresas, a orçamentação das licenças de software e da infraestrutura de hardware necessárias para dimensionar uma base de utilizadores da empresa pode ser um desafio. Este documento destina-se a oferecer orientação sobre o planeamento da capacidade do Power BI Report Server ao partilhar resultados de numerosas execuções do teste de carga das várias cargas de trabalho em relação a um servidor de relatório. Apesar de os relatórios, as consultas e os padrões de utilização das organizações variarem bastante, os resultados apresentados neste documento, juntamente com os testes reais utilizados e uma descrição detalhada de como foram executados, servem como um ponto de referência para todas as pessoas no processo de planeamento antecipado do Power BI Report Server.
@@ -90,22 +90,6 @@ Na Microsoft, temos uma implementação de produção do Power BI Report Server 
 | --- | --- | --- |
 | **Servidor de Relatório do Power BI** |1\.000 utilizadores |3\.000 utilizadores |
 | **Relatório Paginado Pesado** |2\.000 utilizadores |3\.200 utilizadores |
-
-### <a name="view-results"></a>Ver resultados
-Selecione um relatório para ver os resultados do teste de carga.
-
-| Carga de trabalho | 8 núcleos/32 GB | 16 núcleos/64 GB |
-| --- | --- | --- |
-| **Servidor de Relatório do Power BI** |[Vista - 8 núcleos](https://msit.powerbi.com/view?r=eyJrIjoiMDhhNGY4NGQtNGRhYy00Yzk4LTk2MzAtYzFlNWI5NjBkMGFiIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |[Vista - 16 núcleos](https://msit.powerbi.com/view?r=eyJrIjoiNDBiODk1OGUtYTAyOC00MzVhLThmZmYtNzVjNTFjNzMwYzkwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |
-| **Relatório Paginado Pesado** |[Vista - 8 núcleos](https://msit.powerbi.com/view?r=eyJrIjoiNDFiZWYzMTktZGIxNS00MzcwLThjODQtMmJkMGRiZWEzNjhlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |[Vista - 16 núcleos](https://msit.powerbi.com/view?r=eyJrIjoiOTU0YjJkYTgtNDg4Yy00NzlhLWIwMGYtMzg4YWI2MjNmOTZjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiMDhhNGY4NGQtNGRhYy00Yzk4LTk2MzAtYzFlNWI5NjBkMGFiIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiNDBiODk1OGUtYTAyOC00MzVhLThmZmYtNzVjNTFjNzMwYzkwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiNDFiZWYzMTktZGIxNS00MzcwLThjODQtMmJkMGRiZWEzNjhlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiOTU0YjJkYTgtNDg4Yy00NzlhLWIwMGYtMzg4YWI2MjNmOTZjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
 
 ## <a name="summary"></a>Resumo
 Para cada execução de teste de carga, a CPU foi o recurso mais sobrecarregado no momento do pico de carga na máquina do Power BI Report Server. Devido a esta situação, o primeiro recurso que deve ser aumentado é o número de núcleos. Em alternativa, pode considerar aumentar adicionando mais servidores que alojam o Power BI Report Server na sua topologia.

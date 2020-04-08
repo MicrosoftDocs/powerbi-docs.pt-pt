@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/21/2020
 ms.author: maggies
-ms.openlocfilehash: 02774bb495fb5a41dddf1c3fad43caaab339960c
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 9ca5d47a938210c10903c916c54713b89923e287
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79525896"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751536"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>Alterar cadeias de ligação da origem de dados em relatórios do Power BI com o PowerShell – Power BI Report Server
 
@@ -54,7 +54,7 @@ Pode alterar cadeias de ligação da origem de dados em relatórios do Power BI 
     Para alterar o nome de utilizador/palavra-passe da origem de dados:
 
     ```powershell
-    $dataSources[0].DataModelDataSource.Username = 'domain\user
+    $dataSources[0].DataModelDataSource.Username = 'domain\user'
     ```
     ```powershell
     $dataSources[0].DataModelDataSource.Secret = 'password'

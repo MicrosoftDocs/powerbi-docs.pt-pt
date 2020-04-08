@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 69f498239b80dd7445898528aeb09396d0046689
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 4df77ee94ee72e2104b7964f1835b446bde6b676
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79526101"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621496"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Curso online: Power BI Paginated Reports in a Day (Relatórios Paginados do Power BI num Dia)
 
@@ -88,6 +88,5 @@ Em breve, publicaremos a apresentação PowerPoint e os laboratórios práticos 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
 - Tutorial: [Criar um relatório paginado e carregá-lo para o serviço Power BI](paginated-reports-quickstart-aw.md)
-- Laboratórios práticos alojados: [Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (Criar um relatório paginado do Microsoft Power BI)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)

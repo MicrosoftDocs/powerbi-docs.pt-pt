@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 1db56c2844d217bf6bff633609893e5a97a6dae5
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114877"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802140"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Ver relatórios do Power BI otimizados para o seu telemóvel
 
@@ -39,10 +39,11 @@ Todas as restantes funcionalidades de relatórios do Power BI continuam a funcio
 ## <a name="filter-the-report-page-on-a-phone"></a>Filtrar a página de relatório num telemóvel
 Se um relatório otimizado para telemóvel tiver filtros definidos, quando vir o relatório num telemóvel, pode utilizar esses filtros. O relatório é aberto no seu telemóvel, filtrado com os valores que estão a ser filtrados no relatório na Web. Aparece uma mensagem a indicar que existem filtros ativos na página. Pode alterar os filtros no seu telemóvel.
 
-1. Toque no ícone de filtro ![Ícone de filtro no telemóvel](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) na parte inferior da página. 
+1. Toque no ícone de filtro ![Ícone de filtro no telemóvel](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) na parte inferior da página.
+
 2. Utilize a filtragem básica ou avançada para ver os resultados em que está interessado.
    
-    ![Filtro avançado de relatórios do Power BI no telemóvel](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
+    ![Filtro avançado de relatórios do Power BI no telemóvel](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.png)
 
 ## <a name="cross-highlight-visuals"></a>Realce cruzado de visuais
 O realce cruzado dos elementos visuais funciona na vista vertical no serviço Power BI e na vista horizontal em telemóveis: quando selecionar dados num elemento visual, este realça dados relacionados noutros elementos visuais nessa página.
