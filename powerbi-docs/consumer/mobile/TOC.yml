@@ -60,6 +60,8 @@
               href: mobile-apps-view-phone-report.md
             - name: Ver relatórios no local nas aplicações móveis
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: 'Protect with Face ID, Touch ID, Passcode or Fingerprint ID (Proteção com o Face ID, Touch ID, Código de Acesso ou Fingerprint ID)'
+              href: mobile-native-secure-access.md
             - name: Aceder a conteúdos de uma organização externa (B2B)
               href: mobile-apps-b2b.md
             - name: Scan a Power BI QR code from your phone (Digitalizar um código QR do Power BI a partir do seu telemóvel)
@@ -76,8 +78,6 @@
           items:
             - name: Introdução à aplicação iOS
               href: mobile-iphone-app-get-started.md
-            - name: 'Protect with Face ID, Touch ID, or Passcode (Proteger com Face ID, Touch ID ou Código)'
-              href: mobile-ios-native-secure-access.md
             - name: Analista virtual de Perguntas e Respostas em aplicações móveis para iOS
               href: mobile-apps-ios-qna.md
             - name: Power BI mobile app integration with Siri Shortcuts (Integração de Atalhos da Siri na aplicação móvel do Power BI)
@@ -90,6 +90,10 @@
           items:
             - name: Introdução à aplicação Android
               href: mobile-android-app-get-started.md
+            - name: Use Android app Shortcuts (Utilizar Atalhos de aplicação no Android)
+              href: mobile-app-quick-access-shortcuts.md
+            - name: Find and access content with Google Search (Localizar e aceder a conteúdos com a Pesquisa do Google)
+              href: mobile-app-find-access-google-search.md
             - name: Corrigir o erro "O certificado SSL empresarial não é fidedigno"
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
             - name: Corrigir o erro "Tem de atualizar o Android System WebView"
