@@ -49,15 +49,15 @@
           items:
             - name: Trabalhar com a Vista de relatório
               href: ../desktop-report-view.md
-            - name: "Tipos de filtros nos relatórios do Power\_BI"
+            - name: Tipos de filtros nos relatórios
               href: ../power-bi-report-filter-types.md
             - name: Filtros e realce em relatórios
               href: ../power-bi-reports-filters-and-highlighting.md
             - name: Amostragem de linhas de alta densidade
               href: ../desktop-high-density-sampling.md
-            - name: Acerca dos elementos visuais das Perguntas e Respostas do Power BI
+            - name: Acerca dos elementos visuais das Perguntas e Respostas
               href: ../visuals/power-bi-visualization-q-and-a.md
-            - name: Acerca da acessibilidade no Power BI
+            - name: Acerca da Acessibilidade
               href: ../desktop-accessibility-overview.md
             - name: Natural language Q&A (Perguntas e Respostas sobre linguagem natural)
               items:
@@ -125,7 +125,7 @@
               href: ../desktop-bookmarks.md
             - name: Trabalhar com temas de relatórios
               href: ../desktop-report-themes.md
-            - name: Trabalhar com filtros nos relatórios do Power BI
+            - name: Trabalhar com filtros nos relatórios
               href: ../power-bi-report-filter.md
             - name: Utilizar a pormenorização
               href: ../desktop-drillthrough.md
@@ -139,7 +139,7 @@
               href: ../desktop-r-powered-custom-visuals.md
             - name: Aplicar linhas de grelha e ajuste à grelha
               href: ../desktop-gridlines-snap-to-grid.md
-            - name: Aplicar as definições de visualização da página em relatórios do Power BI
+            - name: Aplicar as definições de visualização da página em relatórios
               href: ../power-bi-report-display-settings.md
             - name: Add a column from an example (Adicionar uma coluna de um exemplo)
               href: ../desktop-add-column-from-example.md
@@ -147,12 +147,16 @@
               href: ../desktop-add-custom-column.md
             - name: Utilizar etiquetas de hierarquia inline
               href: ../desktop-inline-hierarchy-labels.md
-            - name: Use the numeric range slicer (Utilizar a segmentação de dados do intervalo numérico)
+            - name: Segmentações
+              href: ../visuals/power-bi-visualization-slicers.md
+            - name: Segmentações de intervalos numéricos
               href: ../desktop-slicer-numeric-range.md
-            - name: Utilizar a segmentação e filtro de data relativa
-              href: ../desktop-slicer-filter-date-range.md
+            - name: Segmentações e filtros de data relativas
+              href: ../visuals/desktop-slicer-filter-date-range.md
             - name: Criar uma segmentação de dados que pode redimensionar
               href: ../power-bi-slicer-filter-responsive.md
+            - name: Adicionar vários campos a segmentações
+              href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: Restringir o acesso aos dados com segurança ao nível da linha
               href: ../desktop-rls.md
             - name: Personalizar descrições
@@ -205,17 +209,17 @@
               href: ../desktop-upload-desktop-files.md
         - name: Visualizações
           items:
-            - name: Adicionar elementos visuais a um relatório do Power BI (parte 1)
+            - name: Adicionar elementos visuais a um relatório (parte 1)
               href: ../visuals/power-bi-report-add-visualizations-i.md
-            - name: Adicionar elementos visuais a um relatório do Power BI (parte 2)
+            - name: Adicionar elementos visuais a um relatório (parte 2)
               href: ../visuals/power-bi-report-add-visualizations-ii.md
-            - name: Adicionar elementos visuais a relatórios do Power BI
+            - name: Adicionar elementos visuais a relatórios
               href: ../visuals/power-bi-report-visualizations.md
-            - name: Alterar elementos visuais em relatórios do Power BI
+            - name: Alterar elementos visuais em relatórios
               href: ../visuals/power-bi-report-change-visualization-type.md
             - name: 'Personalizar títulos, fundos e legendas de elementos visuais'
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
-            - name: Mostrar itens sem dados no Power BI
+            - name: Mostrar itens sem dados
               href: ../desktop-show-items-no-data.md
             - name: Aplicar limites de pontos de dados e estratégias por tipo de elemento visual
               href: ../visuals/power-bi-data-points.md
@@ -233,7 +237,7 @@
               href: ../visuals/power-bi-visualization-move-and-resize.md
             - name: Alterar a forma como os elementos visuais interagem num relatório
               href: ../service-reports-visual-interactions.md
-            - name: Truques e sugestões para visualizações de mapa do Power BI
+            - name: Sugestões e truques para visualizações de mapas
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: Personalizar as propriedades dos eixos X e Y
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
@@ -241,47 +245,45 @@
               href: ../visuals/power-bi-visualizations-arcgis.md
             - name: "Criar mapas ArcGIS para os elementos visuais do Power\_BI"
               href: ../visuals/power-bi-visualization-arcgis.md
-            - name: Criar e utilizar gráficos de área básicos
+            - name: Gráficos de área básicos
               href: ../visuals/power-bi-visualization-basic-area-chart.md
             - name: Criar elementos visuais de cartão (mosaicos de número grande)
               href: ../visuals/power-bi-visualization-card.md
-            - name: Criar e utilizar gráficos de combinação
+            - name: Gráficos de combinação
               href: ../visuals/power-bi-visualization-combo-chart.md
-            - name: Criar e utilizar elementos visuais da árvore de decomposição (pré-visualização)
+            - name: Elementos visuais de árvore de decomposição (pré-visualização)
               href: ../visuals/power-bi-visualization-decomposition-tree.md
-            - name: Criar e utilizar gráficos em anel
+            - name: Gráficos em anel
               href: ../visuals/power-bi-visualization-doughnut-charts.md
-            - name: Criar e utilizar mapas de manchas (coropletos)
+            - name: Mapas preenchidos (coropletos)
               href: ../visuals/power-bi-visualization-filled-maps-choropleths.md
-            - name: Criar e utilizar gráficos de funil
+            - name: Gráficos de funil
               href: ../visuals/power-bi-visualization-funnel-charts.md
-            - name: Criar e utilizar elementos visuais de influenciadores principais
+            - name: Elementos visuais de influenciadores principais
               href: ../visuals/power-bi-visualization-influencers.md
-            - name: Criar e utilizar elementos visuais do KPI
+            - name: Elementos visuais do KPI
               href: ../visuals/power-bi-visualization-kpi.md
-            - name: Criar e utilizar elementos visuais de matriz
+            - name: Elementos visuais de matriz
               href: ../visuals/desktop-matrix-visual.md
-            - name: Create and use Power Apps visuals (Criar e utilizar elementos visuais do Power Apps)
+            - name: Elementos visuais do Power Apps
               href: ../visuals/power-bi-visualization-powerapp.md
-            - name: "Criar e utilizar elementos visuais em linguagem\_R"
+            - name: Visuais R
               href: ../visuals/service-r-visuals.md
-            - name: Criar e utilizar gráficos de medidores radiais
+            - name: Gráficos de medidor radial
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
-            - name: Criar e utilizar gráficos de friso
+            - name: Ribbon charts (Gráficos de friso)
               href: ../visuals/desktop-ribbon-charts.md
-            - name: 'Criar e utilizar gráficos de dispersão, de bolhas e de pontos'
+            - name: 'Gráficos de dispersão, de bolhas e de pontos'
               href: ../visuals/power-bi-visualization-scatter.md
             - name: Utilizar gráficos de dispersão de alta densidade
               href: ../visuals/desktop-high-density-scatter-charts.md
-            - name: Criar e utilizar elementos visuais de Mapa de Forma (pré-visualização)
+            - name: Elementos visuais de Mapa de Forma (pré-visualização)
               href: ../visuals/desktop-shape-map.md
-            - name: Criar e utilizar segmentações de dados
-              href: ../visuals/power-bi-visualization-slicers.md
-            - name: Criar e utilizar tabelas em relatórios e dashboards do Power BI
+            - name: Tabelas em relatórios e dashboards
               href: ../visuals/power-bi-visualization-tables.md
-            - name: Criar e utilizar gráficos treemap
+            - name: Treemaps
               href: ../visuals/power-bi-visualization-treemaps.md
-            - name: Criar e utilizar gráficos de cascata
+            - name: Gráficos de cascata
               href: ../visuals/power-bi-visualization-waterfall-charts.md
         - name: Natural language Q&A (Perguntas e Respostas sobre linguagem natural)
           items:
@@ -301,17 +303,17 @@
               href: ../service-q-and-a-create-featured-questions.md
             - name: Use Q&A with live connections (Utilizar as Perguntas e Respostas com ligações em direto)
               href: ../service-q-and-a-direct-query.md
-            - name: Quick Insights in Power BI (Informações Rápidas no Power BI)
+            - name: Informações Rápidas
               href: ../service-insights.md
             - name: Otimizar os dados para as Informações Rápidas
               href: ../service-insights-optimize.md
         - name: Accessibility (Acessibilidade)
           items:
-            - name: "Estruturar relatórios acessíveis no Power\_BI"
+            - name: Estruturar relatórios acessíveis
               href: ../desktop-accessibility-creating-reports.md
-            - name: "Criar relatórios do Power\_BI com as ferramentas de acessibilidade"
+            - name: Criar relatórios com as ferramentas de acessibilidade
               href: ../desktop-accessibility-creating-tools.md
-            - name: "Consumir relatórios do Power\_BI com as ferramentas de acessibilidade"
+            - name: Consumir relatórios com as funcionalidades de acessibilidade
               href: ../desktop-accessibility-consuming-tools.md
             - name: Atalhos de teclado no Power BI Desktop
               href: ../desktop-accessibility-keyboard-shortcuts.md
@@ -351,7 +353,7 @@
               href: ../service-dashboard-pin-tile-from-q-and-a.md
             - name: Afixar uma página de relatório inteira a um dashboard
               href: ../service-dashboard-pin-live-tile-from-report.md
-            - name: Alertas de dados no serviço Power BI
+            - name: Alertas de dados no serviço
               href: ../service-set-data-alerts.md
             - name: 'Adicionar uma imagem, caixa de texto, vídeo ou código a um dashboard'
               href: ../service-dashboard-add-widget.md
@@ -369,9 +371,9 @@
               href: ../service-dashboard-themes.md
         - name: Outras tarefas
           items:
-            - name: Mudar o nome do conteúdo no Power BI
+            - name: Mudar o nome de conteúdos
               href: ../service-rename.md
             - name: Set item contacts (Definir contactos para itens)
               href: ../service-item-contact.md
-            - name: Eliminar praticamente qualquer coisa no Power BI
+            - name: Eliminar praticamente qualquer coisa
               href: ../service-delete.md
