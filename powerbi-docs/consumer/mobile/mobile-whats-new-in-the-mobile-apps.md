@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435979"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802101"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -24,6 +24,20 @@ Para informações sobre “Novidades” relacionadas, veja:
 
 >[!NOTE]
 >O suporte à aplicação móvel Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="march-2020"></a>Março de 2020
+
+### <a name="use-shortcuts-and-google-search-to-launch-your-content-android"></a>Utilizar atalhos e a Pesquisa Google para iniciar o conteúdo (Android)
+Simplificámos a forma como localiza e inicia os seus dados ao integrar os atalhos e a Pesquisa Google com a aplicação Power BI. Crie atalhos para facilitar o acesso aos seus relatórios e dashboards favoritos diretamente do ecrã principal do seu dispositivo. Utilize a Pesquisa Google para procurar rapidamente e abrir os seus conteúdos do Power BI. Saiba mais sobre [atalhos da aplicação no Android](mobile-app-quick-access-shortcuts.md) e a [Pesquisa Google](mobile-app-find-access-google-search.md)!
+
+### <a name="enhanced-security-using-device-protection-preview-android"></a>Segurança avançada com proteção de dispositivo (pré-visualização) (Android)
+Utilize as funcionalidades de proteção incorporadas do seu dispositivo para proteger a sua aplicação Power BI e obter a privacidade de que necessita. A necessidade de autenticação biométrica (ID de Impressão Digital) para aceder à aplicação Power BI garante que os seus dados são mantidos privados e vistos apenas por si. [Saiba mais sobre acesso seguro nativo](mobile-native-secure-access.md)
+
+### <a name="scanning-is-now-available-on-ipad"></a>A leitura de códigos já está disponível no iPad
+Diretamente no seu iPad, pode ler códigos de barras para filtrar os seus relatórios e utilizar os códigos QR para abrir relatórios rapidamente.  
+
+### <a name="updated-filtering-experience"></a>Experiência de filtragem atualizada
+Os filtros na aplicação Power BI têm novas funcionalidades e um novo design. Inclui visibilidade melhorada dos filtros aplicados que afetam os elementos visuais do relatório e a capacidade de bloquear e até mesmo ocultar filtros. Estas alterações também fornecem uma melhor compatibilidade com filtragem no serviço Power BI.
 
 ## <a name="february-2020"></a>Fevereiro de 2020
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
+ms.date: 04/08/2020
 ms.author: maggies
-ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237529"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979851"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origens de dados de relatórios do Power BI no Power BI Report Server
 Os relatórios do Power BI podem estabelecer ligação a diversas origens de dados. Consoante a forma como os dados são utilizados, estão disponíveis diferentes origens de dados. Pode importar ou consultar dados diretamente através do DirectQuery ou de uma ligação em direto ao SQL Server Analysis Services.
@@ -156,7 +156,7 @@ O Power BI Report Server não suporta autenticação com base em OAuth para a at
 | Lista do SharePoint Online |Não |Não |Não |Não |
 | Snowflake |Não |Não |Não |Não |
 | Base de Dados Sybase |Não |Não |Sim |Sim |
-| Teradata |Não |Não |Sim |Sim |
+| Teradata |Não |Não |Sim |Sim** |
 | appFigures (Beta) |Não |Não |Não |Não |
 | Base de Dados do Azure Analysis Services (Beta) |Não |Não |Não |Não |
 | Azure Cosmos DB (Beta) |Não |Não |Não |Não |
@@ -189,6 +189,8 @@ O Power BI Report Server não suporta autenticação com base em OAuth para a at
 | Visual Studio Team Services (Beta) |Não |Não |Não |Não |
 | Webtrends (Beta) |Não |Não |Não |Não |
 | ZenDesk (Beta) |Não |Não |Não |Não |
+
+**A utilização da autenticação LDAP com Teradata (ativada no Power BI Desktop com a linha de comandos "setx PBI_EnableTeradataLdap true") não é suportada para a atualização de modelos.
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>Lista de métodos de autenticação suportados para o DirectQuery
 

@@ -8,13 +8,13 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 09/10/2019
-ms.openlocfilehash: 35df214da19d5f35130408ce8128643f52682428
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.date: 04/02/2020
+ms.openlocfilehash: df59d09a1e8557842904b46eded0a83c86448224
+ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922235"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80647699"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Parâmetros de URL em relatórios paginados no Power BI
 
@@ -78,6 +78,14 @@ Pode utilizar os seguintes parâmetros como parte de um URL para configurar o as
 - CSV 
 - PDF 
 - XML 
+
+**Estado do painel de parâmetros** – especifica se o painel de parâmetros está fechado ou aberto quando o relatório é carregado ou se está oculto.
+
+-   rdl:parameterPanelState
+
+    - "fechado": carregar o relatório com o painel de parâmetros fechado. O botão de parâmetro está ativado para que os utilizadores possam clicar no botão para expandir;
+    - "oculto": carregar o relatório com o painel de parâmetros fechado e o botão de parâmetro desativado;
+    - "expandido" (predefinição): carregar o relatório com o painel de parâmetros aberto e o botão de parâmetro ativado;
 
 **Informações do dispositivo** – pode especificar parâmetros de saída adicionais para os seguintes formatos de exportação. 
 

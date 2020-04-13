@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: ee3cfec0c735ad52f9a036e75f61c1ab0400567b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 043f27a2fb695811ac867689b4a63efdefded2e6
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75217824"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802055"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Ler um código de barras com o seu dispositivo a partir da aplicação móvel Power BI
 Leia códigos de barras físicos para aceder diretamente a informações filtradas do Power BI na aplicação móvel do Power BI.
@@ -21,9 +21,9 @@ Leia códigos de barras físicos para aceder diretamente a informações filtrad
 
 Aplica-se a:
 
-| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | 
-|:--- |:--- |
-| iPhone | Android (Telemóvel, Tablet) | 
+| ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPads](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Telemóvel Android](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Tablet Android](././media/mobile-apps-qr-code/android-logo-40-px.png) |
+|:--- |:--- |:--- |:--- |
+|iPhones |iPads |Telemóveis Android |Tablets Android |
 
 Suponhamos que um colega [marcou um campo de código de barras num relatório do Power BI Desktop](../../desktop-mobile-barcodes.md) e partilhou o relatório consigo. 
 
@@ -36,7 +36,7 @@ Quando ler um código de barras de um produto com o leitor da aplicação Power 
 
     ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
 
-2. Se a câmara não estiver ativada, tem de aprovar a utilização da câmara pela aplicação do Power BI. Esta aprovação só é feita uma vez. 
+2. Se a câmara não estiver ativada, tem de aprovar a utilização da câmara pela aplicação do Power BI. Esta é uma aprovação única. 
 4. Aponte o leitor para um código de barras num produto. Irá ver uma lista de relatórios associados a esse código de barras.
 5. Toque no nome do relatório para o abrir no seu dispositivo. O relatório é filtrado automaticamente com base nesse código de barras.
 
@@ -58,8 +58,8 @@ Eis algumas das mensagens que poderá ver quando ler um código de barras num pr
 ### <a name="couldnt-filter-report"></a>"Não foi possível filtrar o relatório..."
 O relatório que decidiu filtrar baseia-se num modelo de dados que não inclui este valor de código de barras. Por exemplo, o produto "água mineral" não está incluído no relatório.  
 
-### <a name="allsome-of-the-visuals-in-the-report-dont-contain-any-value"></a>Os visuais no relatório, ou alguns deles, não contêm valores
-O valor do código de barras que leu existe no modelo mas os visuais no relatório, ou alguns deles, não contêm este valor e, consequentemente, a filtragem devolve um estado vazio. Tente ver outras páginas de relatório ou editar os seus relatórios no Power BI Desktop para conter este valor 
+### <a name="allsome-of-the-visuals-in-the-report-dont-contain-any-value"></a>Os elementos visuais no relatório, ou alguns deles, não contêm valores
+O valor do código de barras que leu existe no modelo mas os elementos visuais no relatório, ou alguns deles, não contêm este valor e, consequentemente, a filtragem devolve um estado vazio. Tente ver outras páginas de relatório ou editar os seus relatórios no Power BI Desktop para conter este valor 
 
 ### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>"Parece que não tem relatórios que possam ser filtrados por códigos de barras."
 Isto significa que não tem relatórios compatíveis com códigos de barras. O leitor de código de barras só pode filtrar relatórios que tenham uma coluna marcada como **Código de barras**.  

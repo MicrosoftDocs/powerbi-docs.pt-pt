@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 04/03/2020
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: c5105d038480bbee3e534574add91203f54e3119
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 72c285fd57af21fcb3d1a4568a5ff2e83016072f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609846"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979874"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>Criar elementos visuais do Power BI através de Python
 
@@ -155,9 +155,9 @@ Quando selecionar o botão do script **Executar**, será gerado o seguinte gráf
 > **Segurança dos scripts Python:** os elementos visuais do Python são criados a partir de scripts Python, que podem conter código com riscos de segurança ou de privacidade. Ao tentar ver ou interagir com um elemento visual do Python pela primeira vez, é apresentada uma mensagem de aviso de segurança. Ative os elementos visuais do Python apenas se confiar no autor e na origem, ou depois de analisar e compreender o script de Python.
 >  
 
-## <a name="more-information-about-plotting-with-matprolib-pandas-and-python"></a>Mais informações sobre como desenhar gráficos com as bibliotecas Matprolib, Pandas e Python
+## <a name="more-information-about-plotting-with-matplotlib-pandas-and-python"></a>Mais informações sobre como desenhar gráficos com as bibliotecas Matplotlib, Pandas e Python
 
-Este tutorial foi concebido para ajudar a começar a criar elementos visuais com o Python no Power BI Desktop. Abrange apenas de forma geral as imensas opções e funcionalidades para criar relatórios de elementos visuais com as bibliotecas Matprolib, Pandas e Python. Estão disponíveis muitas mais informações, mas incluímos aqui algumas ligações para começar.
+Este tutorial foi concebido para ajudar a começar a criar elementos visuais com o Python no Power BI Desktop. Abrange apenas de forma geral as imensas opções e funcionalidades para criar relatórios de elementos visuais com as bibliotecas Matplotlib, Pandas e Python. Estão disponíveis muitas mais informações, mas incluímos aqui algumas ligações para começar.
 
 - Documentação no site da [Matplotlib](https://matplotlib.org/). 
 - [Matplotlib Tutorial: A Basic Guide to Use Matplotlib with Python](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) (Tutorial da Matplotlib: um Guia Básico para Utilizar a Matplotlib com Python 
@@ -177,6 +177,7 @@ Os elementos visuais do Python no Power BI Desktop apresentam algumas limitaç
 - Os elementos visuais do Python são atualizados após atualizações, filtragem e destaque de dados. No entanto, a própria imagem não é interativa e não pode ser a origem da filtragem cruzada.
 - Os elementos visuais em Python respondem ao realce de outros elementos visuais, mas não pode clicar em elementos no elemento visual em Python para efetuar a filtragem cruzada de outros elementos.
 - Apenas os desenhos que são desenhados no dispositivo de visualização predefinida do Python são apresentados corretamente na tela. Evite a utilização explícita de um dispositivo de visualização diferente do Python.
+- Os elementos visuais Python não suportam a mudança de nome de colunas de entrada. As colunas serão referidas pelo seu nome original durante a execução do script.
 
 ## <a name="next-steps"></a>Próximos passos
 

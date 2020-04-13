@@ -2,18 +2,17 @@
 title: Definições de configuração da aplicação Power BI
 description: Como personalizar o comportamento do Power BI com a ferramenta MDM
 author: paulinbar
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 04/05/2020
 ms.author: painbar
-ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: ce147be4c23b738e1a09296a5d798fb0f94efe13
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205556"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802032"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Configurar remotamente a aplicação Power BI com a ferramenta de gestão de dispositivos móveis (MDM)
 
@@ -22,7 +21,7 @@ A aplicação Power BI Mobile para iOS e Android suporta as definições da apl
 A aplicação Power BI Mobile suporta os seguintes cenários de configuração:
 
 * Configuração do Servidor de Relatórios (iOS e Android)
-* Definições de proteção de dados (iOS)
+* Definições de proteção de dados (iOS e Android)
 * Definições de interação (iOS e Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Configuração do servidor de relatórios (iOS e Android)
@@ -36,13 +35,16 @@ A aplicação Power BI para iOS e Android permite que os administradores “emi
 | com.microsoft.powerbi.mobile.ServerDisplayName | Cadeia | [opcional]<br><br>O valor predefinido é “Servidor de relatórios”<br><br>Um nome amigável utilizado na aplicação para representar o servidor. |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | Booleano | [opcional]<br><br>O valor predefinido é Verdadeiro. Quando definido como Verdadeiro, substitui todas as definições do Servidor de Relatórios já existente no dispositivo móvel. Os servidores existentes que já estiverem configurados serão eliminados. Quando a substituição está definida como Verdadeiro, isto impede também que o utilizador remova essa configuração.<br><br>Se estiver definido como Falso, adicionará os valores emitidos, mantendo as definições existentes. Se o mesmo URL do servidor já estiver configurado na aplicação móvel, esta manterá essa configuração tal como está. A aplicação não pedirá ao utilizador para voltar a autenticar para o mesmo servidor. |
 
-## <a name="data-protection-settings-ios"></a>Definições de proteção de dados (iOS)
+## <a name="data-protection-settings-ios-and-android"></a>Definições de proteção de dados (iOS e Android)
 
-A aplicação Power BI para iOS permite que os administradores personalizem a configuração predefinida para as definições de privacidade e segurança. Pode forçar os utilizadores a fornecer o Face ID, o Touch ID ou um código de acesso para acederem à aplicação Power BI.
+A aplicação móvel Power BI para iOS e Android permite que os administradores personalizem a configuração predefinida para as definições de privacidade e segurança. Para iOS, pode forçar os utilizadores a fornecer o Face ID, o Touch ID ou um código de acesso para acederem à aplicação móvel Power BI. Para Android, pode forçar os utilizadores a utilizar autenticação biométrica (ID de Impressão Digital).
 
 | Chave | Tipo | Descrição |
 |---|---|---|
-| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Booleano | O valor predefinido é Falso. <br><br>Podem ser necessários dados biométricos, tais como o TouchID e o FaceID, para que os utilizadores acedam à aplicação no respetivo dispositivo. Nesse caso, são utilizados dados biométricos além da autenticação.<br><br>Se forem utilizadas políticas de proteção de aplicações, a Microsoft recomenda a desativação desta definição para evitar pedidos de acesso duplo. |
+| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Booleano | O valor predefinido é Falso. <br><br>Podem ser necessários dados biométricos, tais como o TouchID ou o FaceID (iOS) ou o ID de Impressão Digital (Android), para que os utilizadores acedam à aplicação no respetivo dispositivo. Nesse caso, são utilizados dados biométricos além da autenticação.<br><br>Se forem utilizadas políticas de proteção de aplicações, a Microsoft recomenda a desativação desta definição para evitar pedidos de acesso duplo. |
+
+>[!NOTE]
+>As definições de proteção de dados serão aplicadas apenas em dispositivos Android que suportam a autenticação biométrica.
 
 ## <a name="interaction-settings-ios-and-android"></a>Definições de interação (iOS e Android)
 

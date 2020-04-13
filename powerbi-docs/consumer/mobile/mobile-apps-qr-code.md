@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: d28596aae776d9a0087895cae38fc2e8848297b6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218951"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802078"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Digitalizar um código QR do Power BI a partir do dispositivo móvel
 Aplica-se a:
 
-| ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Telemóvel Android](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Tablet Android](././media/mobile-apps-qr-code/android-logo-40-px.png) |
+| ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPads](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Telemóvel Android](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Tablet Android](././media/mobile-apps-qr-code/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhones |Telemóveis Android |Tablets Android |
+|iPhones |iPads |Telemóveis Android |Tablets Android |
 
 Os códigos QR no Power BI podem ligar qualquer item do mundo real diretamente às informações do BI relacionadas; não é necessária navegação ou pesquisa.
 
@@ -52,7 +52,7 @@ Se o seu colega não tiver partilhado o dashboard ou relatório consigo, pode pe
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-iphone"></a>Digitalizar um código QR de um scanner externo no iPhone
 1. Com qualquer scanner instalado no seu telemóvel, aponte o scanner para o código QR relevante do Power BI para ter acesso imediato ao mosaico ou relatório. 
-2. Caso não tenha a aplicação do Power BI instalada, será redirecionado para a [Apple App Store para transferi-la](https://go.microsoft.com/fwlink/?LinkId=522062) no seu iPhone.
+2. Caso não tenha a aplicação Power BI instalada, será redirecionado para a [Apple App Store para transferi-la](https://go.microsoft.com/fwlink/?LinkId=522062) no seu iPhone.
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>Digitalizar um código QR do Power BI no dispositivo Android com o scanner do Power BI
 

@@ -9,24 +9,18 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80403532"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751626"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Incorporar conteúdos do Power BI com o principal de serviço e o segredo da aplicação
 
-O principal de serviço é um método de autenticação que pode ser utilizado para permitir que uma aplicação do Azure Active Directory aceda aos conteúdos e às APIs do serviço Power BI.
+[!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
-Quando cria uma aplicação do Azure Ative Directory (AAD), é criado um [objeto do principal de serviço](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object). O objeto do principal de serviço, também conhecido como *principal de serviço*, permite que o AAD autentifique a aplicação. Uma vez autenticada, a aplicação pode aceder aos recursos do inquilino do AAD.
-
-Para autenticar, o principal de serviço utiliza o *ID da Aplicação* do AAD e um dos seguintes:
-* Segredo da aplicação
-* Certificado
-
-Este artigo descreve a autenticação do principal de serviço com o *ID da Aplicação* e o *Segredo da aplicação*. Para autenticar através de um principal de serviço com um certificado, veja [Autenticação com base em certificado do Power BI]().
+Este artigo descreve a autenticação do principal de serviço com o *ID da Aplicação* e o *Segredo da aplicação*.
 
 ## <a name="method"></a>Método
 
@@ -55,12 +49,12 @@ Para utilizar o principal de serviço e um ID da aplicação com a análise inco
 ## <a name="step-1---create-an-azure-ad-app"></a>Passo 1 – Criar uma aplicação do Azure Active Directory
 
 Crie uma aplicação do AAD através de um destes métodos:
-* Crie a aplicação no portal do [Microsoft Azure](https://ms.portal.azure.com/#allservices)
+* Crie a aplicação no portal do [Microsoft Azure](https://portal.azure.com/#allservices)
 * Crie a aplicação com o [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1).
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Criar uma aplicação do AAD no portal do Microsoft Azure
 
-1. Inicie sessão no [Microsoft Azure](https://ms.portal.azure.com/#allservices).
+1. Inicie sessão no [Microsoft Azure](https://portal.azure.com/#allservices).
 
 2. Procure **Registos de aplicações** e clique na ligação **Registos de aplicações**.
 
@@ -72,7 +66,7 @@ Crie uma aplicação do AAD através de um destes métodos:
 
 4. Preencha as informações necessárias:
     * **Nome** – introduza um nome para a aplicação
-    * **Tipos de conta suportados** – selecione os tipos de conta suportados
+    * **Tipos de conta suportados** – selecione a conta do Azure AD necessária
     * (Opcional) **URI de Redirecionamento** – introduza um URI, se necessário
 
 5. Clique em **Registar**.
@@ -205,5 +199,3 @@ Uma vez incorporados os conteúdos, está pronto para [avançar para a produçã
 * [Power BI Embedded para clientes](embed-sample-for-customers.md)
 
 * [Segurança ao nível da linha com o gateway de dados no local com o principal de serviço](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
-
-* [Incorporar conteúdos do Power BI com o principal de serviço e um certificado]()

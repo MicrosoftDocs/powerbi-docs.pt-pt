@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 60432c110df7c20aa13969d70ed7c2a90d0ef575
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114848"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979828"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Criar e utilizar elementos visuais R no Power BI Desktop
 Atualmente, os elementos visuais R só podem ser criados no **Power BI Desktop** e publicados no serviço Power BI. Para obter mais informações sobre a criação de elementos visuais R, veja [Criar elementos visuais do Power BI com o R](../desktop-r-visuals.md).
@@ -94,6 +94,7 @@ Os elementos visuais R no serviço Power BI têm algumas limitações:
 * Os elementos visuais do R respondem ao destaque de outros elementos visuais, mas não pode clicar em elementos em elementos no visual do R para efetuar a filtragem cruzada de outros elementos.
 * Os elementos visuais R não são atualmente suportados para o tipo de dados *Tempo*. Em vez disso, utilize Data/Hora.
 * Os elementos visuais R não são apresentados quando utilizar **Publicar na Web**.
+* Os elementos visuais R não suportam a mudança de nome de colunas de entrada. As colunas serão referidas pelo seu nome original durante a execução do script.
 * Atualmente, os elementos visuais R não são impressos a partir do dashboard e de relatórios
 * Atualmente, os elementos visuais R não são suportados no modo DirectQuery do Analysis Services
 * Os elementos visuais R têm a capacidade de converter etiquetas de texto em elementos gráficos. Para o fazer no serviço Power BI, é necessário o seguinte passo adicional:

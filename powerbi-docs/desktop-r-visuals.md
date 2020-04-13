@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 729a50e251a9c2ae083375e187ff133022f3ce91
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 061a2a99ad4cc812aac0d66ec4993001187179a0
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114871"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979897"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Criar elementos visuais do Power BI com o R
 Com o Power BI Desktop, pode utilizar o *R* para visualizar os dados. [R](https://mran.revolutionanalytics.com/documents/what-is-r) é uma linguagem e um ambiente para computação e gráficos estatísticos.
@@ -142,6 +142,8 @@ Os elementos visuais do R no Power BI Desktop apresentam as seguintes limitaçõ
 * Destaques: Os elementos visuais do R respondem se realçar outros elementos visuais, mas não pode selecionar elementos no elemento visual do R para efetuar a filtragem cruzada de outros elementos.
 
 * Dispositivos de visualização: Apenas os desenhos que são desenhados no dispositivo de visualização predefinida do R são apresentados corretamente na tela. Evite a utilização explícita de um dispositivo de visualização diferente do R.
+
+* Mudança de nome de colunas: os elementos visuais R não suportam a mudança de nome de colunas de entrada. As colunas serão referidas pelo seu nome original durante a execução do script.
 
 * Instalações do RRO: Nesta versão, as instalações do RRO não são automaticamente identificadas pela versão de 32 bits do Power BI Desktop; portanto, é necessário fornecer manualmente o caminho para o diretório de instalação do R em **Opções e definições** > **Opções** > **Scripting R**.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79133243"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751616"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Compreender o que é um esquema de estrela e qual a importância para o Power BI
 
@@ -75,7 +75,7 @@ No entanto, existem três motivos apelativos para criar medidas, até mesmo para
 
 - Quando souber que os autores de relatórios irão consultar o modelo com [MDX (Multidimensional Expressions)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), o modelo tem de incluir _medidas explícitas_. As medidas explícitas são definidas ao utilizar DAX. Esta abordagem de design é altamente relevante quando um conjunto de dados Power BI é consultado ao utilizar MDX, porque o MDX não consegue resumir os valores de colunas. Notavelmente, o MDX será utilizado ao executar [Analisar no Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) porque as tabelas dinâmicas emitem consultas MDX.
 - Quando souber que os autores de relatórios irão criar relatórios paginados do Power BI com o estruturador de consulta MDX, o modelo tem de incluir medidas explícitas. Apenas o estruturador de consulta MDX suporta [agregados de servidores](/sql/reporting-services/report-design/report-builder-functions-aggregate-function). Assim, se os autores de relatórios precisarem de ter medidas avaliadas pelo Power BI (em vez do motor de relatórios paginados), têm de utilizar o estruturador de consulta MDX.
-- Se precisar de garantir que os autores de relatórios só podem resumir colunas de formas específicas. Por exemplo, a coluna **Preço Unitário** de vendas de revendedor (que representa uma taxa por unidade) pode ser resumida, mas apenas com funções de agregação específicas. Nunca deve ser somada, mas é adequado resumir com outras funções de agregação (min, max, average, etc.). Neste caso, o modelador pode ocultar a coluna **Preço Unitário** e criar medidas para todas as funções de agregação adequadas.
+- Quando precisar de garantir que os autores de relatórios só podem resumir colunas de formas específicas. Por exemplo, a coluna **Preço Unitário** de vendas de revendedor (que representa uma taxa por unidade) pode ser resumida, mas apenas com funções de agregação específicas. Nunca deve ser somada, mas é adequado resumir com outras funções de agregação, como min, max, average, etc. Neste caso, o modelador pode ocultar a coluna **Preço Unitário** e criar medidas para todas as funções de agregação adequadas.
 
 Esta abordagem de design funciona bem para relatórios criados no serviço Power BI e Perguntas e Respostas. No entanto, as ligações em direto do Power BI Desktop permitem que os autores de relatórios mostrem campos ocultos no painel **Campos**, o que pode contornar esta abordagem de design.
 
@@ -188,7 +188,7 @@ No modelo do Power BI, pode ser adequado adicionar a coluna de número da nota d
 
 ![Exemplo de dimensão de degeneração](media/star-schema/degenerate-dimension.png)
 
-Para obter mais informações, veja [Documento de orientação das relações um-para-um (Dimensões de degeneração)](relationships-one-to-one.md#degenerate-dimensions).
+No entanto, se a tabela de vendas de revendedores da Adventure Works tiver colunas de número de encomenda _e_ número de linha de encomenda e forem necessárias para filtragem, uma tabela de dimensão de degeneração seria um bom design. Para obter mais informações, veja [Documento de orientação das relações um-para-um (Dimensões de degeneração)](relationships-one-to-one.md#degenerate-dimensions).
 
 ## <a name="factless-fact-tables"></a>Tabelas de factos sem factos
 
@@ -196,7 +196,7 @@ Um tabela de **factos sem factos** não inclui quaisquer colunas de medidas. Con
 
 Uma tabela de factos sem factos pode armazenar observações definidas por chaves de dimensões. Por exemplo, numa data e hora específica, um cliente específico com sessão iniciada no seu site. Pode definir uma medida para contar as linhas de uma tabela de factos sem factos para efetuar a análise de quando e quantos clientes iniciaram sessão.
 
-Uma forma mais apelativa de utilizar uma tabela de factos sem factos é armazenar relações entre dimensões e a abordagem de design do modelo do Power BI que recomendamos é definir relações de dimensão muitos para muitos. Num design de relação de dimensão muitos para muitos, a tabela de factos sem factos é referida como uma _tabela de bridging_.
+Uma forma mais apelativa de utilizar uma tabela de factos sem factos é armazenar relações entre dimensões e a abordagem de design do modelo do Power BI que recomendamos é definir relações de dimensão muitos para muitos. Num [design de relação de dimensão muitos para muitos](relationships-many-to-many.md#relate-many-to-many-dimensions), a tabela de factos sem factos é referida como uma _tabela de bridging_.
 
 Por exemplo, considere que o vendedor pode ser atribuído a uma _ou mais_ regiões de vendas. A tabela de bridging seria concebida como uma tabela de factos sem factos que consiste em duas colunas: chave de vendedor e chave de região. Os valores duplicados podem ser armazenados em ambas as colunas.
 

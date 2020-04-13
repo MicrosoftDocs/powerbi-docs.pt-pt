@@ -7,21 +7,21 @@ featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 8f5d11b53526c5d266b96a8f21c42fecc66d3795
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a67d983d11ae8fa2f82a540c0649c2da475d5249
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74163765"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621615"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Alertas de dados no serviço Power BI
 
 Defina alertas para receber notificações quando os dados nos seus dashboards forem alterados para além dos limites que definiu.
 
-Pode definir alertas em mosaicos se tiver uma licença Power BI Pro. Também pode definir alertas se alguém partilhar um dashboard que esteja numa [capacidade Premium](service-premium-what-is.md). Os alertas só podem ser definidos nos mosaicos afixados a partir de elementos visuais de relatório e apenas em medidores, KPIs e cartões. Os alertas podem ser definidos em elementos visuais criados a partir de fluxos de conjuntos de dados que afixa de um relatório a um dashboard. Os alertas não podem ser definidos em fluxos de mosaicos criados diretamente no dashboard com **Adicionar mosaico** > **Dados de transmissão em fluxo personalizados**.
+Pode definir alertas em mosaicos em A Minha Área de Trabalho. Também pode definir alertas se alguém partilhar um dashboard que esteja numa [capacidade Premium](service-premium-what-is.md). Se tiver uma licença do Power BI Pro, também pode definir alertas em mosaicos em qualquer outra área de trabalho. Os alertas só podem ser definidos nos mosaicos afixados a partir de elementos visuais de relatório e apenas em medidores, KPIs e cartões. Os alertas podem ser definidos em elementos visuais criados a partir de fluxos de conjuntos de dados que afixa de um relatório a um dashboard. Os alertas não podem ser definidos em fluxos de mosaicos criados diretamente no dashboard com **Adicionar mosaico** > **Dados de transmissão em fluxo personalizados**.
 
 Só o utilizador pode ver os alertas que definir, mesmo que partilhe o dashboard. Mesmo o proprietário do dashboard não consegue ver os alertas que definiu na vista do respetivo dashboard. Os alertas de dados são totalmente sincronizados entre plataformas; defina e veja alertas de dados [nas aplicações móveis do Power BI](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) e no serviço Power BI. Não estão disponíveis para o Power BI Desktop. Pode até automatizar e integrar alertas com o Power Automate. Pode experimentá-lo neste artigo: [Power Automate e Power BI](service-flow-integration.md).
 
