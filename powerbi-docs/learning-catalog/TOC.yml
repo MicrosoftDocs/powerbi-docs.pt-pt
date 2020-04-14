@@ -1,0 +1,21 @@
+- name: Catálogo de Aprendizagem
+  href: index.yml
+  items:
+    - name: Business decision makers (Decisores empresariais)
+      href: learning-catalog-bdm.md
+    - name: Consumidores
+      href: learning-catalog-consumer.md
+    - name: Report creators (Criadores de relatórios)
+      href: learning-catalog-report-creator.md
+    - name: Data analysts (Analistas de dados)
+      href: learning-catalog-data-analyst.md
+    - name: Administradores
+      href: learning-catalog-administrator.md
+    - name: Programadores
+      href: learning-catalog-developer.md
+    - name: Parter pre-sales roles (Funções de pré-vendas dos parceiros)
+      href: learning-catalog-presales.md
+    - name: Functional consultants (Consultores funcionais)
+      href: learning-catalog-functional-consultant.md
+    - name: Solution architects (Arquitetos de soluções)
+      href: learning-catalog-solution-architect.md

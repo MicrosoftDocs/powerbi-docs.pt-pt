@@ -81,7 +81,9 @@
           items:
             - name: Create and use dataflows (Criar e utilizar fluxos de dados)
               href: ../service-dataflows-create-use.md
-            - name: Utilizar o mecanismo de computação melhorado com fluxos de dados
+            - name: Promote or certify dataflows (Promover ou certificar fluxos de dados)
+              href: service-dataflows-promote-certify.md
+            - name: Utilizar o motor de computação melhorado com fluxos de dados
               href: ../service-dataflows-enhanced-compute-engine.md
             - name: Entidades calculadas com o Power BI Premium
               href: ../service-dataflows-computed-entities-premium.md
