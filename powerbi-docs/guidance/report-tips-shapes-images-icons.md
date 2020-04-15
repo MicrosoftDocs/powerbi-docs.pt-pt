@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 44d7559d573eb58a303b509f726d5a7aaab3be79
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: a4c1357ba2bcd4e4703a09974ee01a3ee10ad87b
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273598"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006555"
 ---
 # <a name="tips-to-improve-analysis-with-shapes-images-and-icons-in-power-bi-reports"></a>Sugestões para melhorar a análise com formas, imagens e ícones em relatórios do Power BI
 
@@ -22,7 +22,7 @@ O presente artigo destina-se aos autores de relatórios que criam relatórios do
 
 Veja o vídeo que demonstra as quatro sugestões principais para melhorar a análise com formas, imagens e ícones nos relatórios do Power BI.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-gLwXonWNsI" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/-gLwXonWNsI]
 
 ## <a name="tips"></a>Sugestões
 

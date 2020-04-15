@@ -7,17 +7,17 @@ ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 06/18/2019
-ms.openlocfilehash: b850fddeb08428171aa653b97a6fb9e45a3afce7
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.date: 04/09/2020
+ms.openlocfilehash: 3896d5d4698f815b5bce53dd80639ff6de975257
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114288"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006210"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Descrições em elementos visuais do Power BI
 
-Agora, os elementos visuais conseguem utilizar o suporte de descrições do Power BI. As descrições do Power BI suportam as seguintes interações:
+Agora os elementos visuais conseguem utilizar o suporte de descrições do Power BI. As descrições do Power BI suportam as seguintes interações:
 
 * Mostrar uma descrição.
 * Ocultar uma descrição.

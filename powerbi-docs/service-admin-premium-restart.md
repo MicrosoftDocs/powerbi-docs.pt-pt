@@ -40,7 +40,7 @@ Siga estes passos para reiniciar uma capacidade.
 
 1. No portal de administração do Power BI, no separador **Definições de Capacidade**, navegue até à capacidade. 
 
-1. Adicione o *sinalizador de funcionalidade***CapacityRestart** ao URL da capacidade: `https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`.
+1. Adicione o *sinalizador de funcionalidade* **CapacityRestart** ao URL da capacidade: `https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`.
 
 1. Em **Definições Avançadas** > **REINÍCIO DA CAPACIDADE**, selecione **Reiniciar capacidade**.
 
