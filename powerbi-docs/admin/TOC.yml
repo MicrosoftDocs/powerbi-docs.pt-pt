@@ -16,14 +16,24 @@
       items:
         - name: Administration role in Microsoft 365 (Função de administração no Microsoft 365)
           href: ../service-admin-role.md
+        - name: Licenciamento para a sua organização
+          href: ../service-admin-licensing-organization.md
+        - name: Power BI for US Government (Power BI para a Administração Pública dos EUA)
+          items:
+            - name: Power BI for US Government (Power BI para a Administração Pública dos EUA)
+              href: ../service-govus-overview.md
+            - name: Enroll a US Government organization (Inscrever uma organização de Administração Pública dos EUA)
+              href: ../service-govus-signup.md
+        - name: Power BI in regional clouds (Power BI nas clouds regionais)
+          items:
+            - name: Migrar para Regiões Geográficas na Alemanha
+              href: service-admin-migrate-data-germany.md
+            - name: FAQ para os clientes da Germany Cloud
+              href: ../service-govde-faq.md
         - name: Perguntas Frequentes (FAQ)
           href: ../service-admin-faq.md
         - name: High availability and failover FAQ (FAQ sobre elevada disponibilidade e ativação pós-falha)
           href: ../service-admin-failover.md
-        - name: Migrar para Regiões Geográficas na Alemanha
-          href: service-admin-migrate-data-germany.md
-        - name: FAQ para os clientes da Germany Cloud
-          href: ../service-govde-faq.md
         - name: Power BI Premium
           items:
             - name: Gerir as capacidades Premium
@@ -38,14 +48,14 @@
       items:
         - name: Licenciamento e inscrição
           items:
-            - name: Licenciamento para a sua organização
-              href: ../service-admin-licensing-organization.md
+            - name: Get Power BI for your organization (Obter o Power BI para a sua organização)
+              href: service-admin-org-subscription.md
             - name: Comprar o Power BI Pro
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: Power BI for US Government (Power BI para a Administração Pública dos EUA)
-              href: ../service-govus-overview.md
-            - name: Enroll a US Government organization (Inscrever uma organização de Administração Pública dos EUA)
-              href: ../service-govus-signup.md
+            - name: Disable self-service sign-up (Desativar a inscrição self-service)
+              href: service-admin-disable-self-service.md
+            - name: View and manage user licenses (Ver e gerir licenças de utilizador)
+              href: service-admin-manage-licenses.md
             - name: Sign up with a Microsoft 365 Trial (Inscrever-se com uma Avaliação Gratuita do Microsoft 365)
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: Add Power BI with a Microsoft 365 partner (Adicionar o Power BI com um parceiro Microsoft 365)

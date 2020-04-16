@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Catálogo de Aprendizagem do Power BI
-summary: Encontre todas as opções de formação para o Power BI
+summary: Find training options for Power BI (Encontrar opções de formação para o Power BI)
 metadata:
   title: Catálogo de aprendizagem do Power BI
   description: Encontre as opções de formação do Power BI adequadas às funções na sua organização.
@@ -9,12 +9,12 @@ metadata:
   author: loreleishannonmsft
   ms.author: v-lshann
   ms.date: 04/08/2020
-  ms.openlocfilehash: aff1866616a10e5df124619261d8398bda5c51a3
-  ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+  ms.openlocfilehash: 9f03f812eb20454f655a876438312ba50b521a29
+  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 04/13/2020
-  ms.locfileid: "81269047"
+  ms.lasthandoff: 04/16/2020
+  ms.locfileid: "81439302"
 landingContent:
 - title: Decisores empresariais
   linkLists:
