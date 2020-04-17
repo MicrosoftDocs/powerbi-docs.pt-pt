@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: a4466f3ce963891d03ca48dc99767eec6670872f
-  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+  ms.openlocfilehash: eecccb15eb48e922fd6b29e703a2bc4f298caa6e
+  ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
   ms.translationtype: HT
   ms.contentlocale: pt-PT
   ms.lasthandoff: 04/16/2020
-  ms.locfileid: "81439762"
+  ms.locfileid: "81525359"
 landingContent:
 - title: Orientações para o Power BI
   linkLists:
@@ -133,5 +133,7 @@ landingContent:
       url: admin-tenant-settings.md
     - text: Dimensionamento do gateway de dados no local
       url: gateway-onprem-sizing.md
-    - text: Monitorizar o desempenho dos relatórios
+    - text: Monitor report performance (Monitorizar o desempenho dos relatórios)
       url: monitor-report-performance.md
+    - text: Troubleshoot report performance (Resolver problemas com o desempenho dos relatórios)
+      url: report-performance-troubleshoot.md
