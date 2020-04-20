@@ -23,6 +23,8 @@
           items:
             - name: Criar as novas áreas de trabalho
               href: ../service-create-the-new-workspaces.md
+            - name: Opt in to the new look for workspaces (Optar ativamente pelo novo aspeto das áreas de trabalho)
+              href: service-workspaces-new-look.md
             - name: Upgrade classic workspaces (Atualizar áreas de trabalhos clássicas)
               href: ../designer/service-upgrade-workspaces.md
             - name: Criar áreas de trabalho
@@ -65,8 +67,6 @@
               href: ../service-publish-to-web.md
             - name: Partilhar um dashboard que liga a um livro do Excel no OneDrive
               href: ../service-share-dashboard-that-links-to-excel-onedrive.md
-            - name: Power BI Publisher para Excel
-              href: ../publisher-for-excel.md
         - name: Expandir o Power BI
           items:
             - name: Analisar no Excel
