@@ -6,19 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/04/2018
+ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877589"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006509"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Criar uma segmentação de dados reativa que pode redimensionar no Power BI
 
-As segmentações de dados reativas são redimensionadas para se ajustarem a qualquer espaço no seu relatório. Pode ajustar as segmentações de dados reativas para diferentes formas e tamanhos (por exemplo, na horizontal, vertical ou em quadrado) e os valores da segmentação de dados serão reorganizados à medida que o fizer. No Power BI Desktop e no serviço Power BI, pode tornar as segmentações de dados horizontais e de data/intervalo reativas. Além disso, as segmentações de dados de data/intervalo têm áreas de toque melhoradas para que sejam fáceis de alterar com um só dedo. Pode aumentar ou diminuir as segmentações de dados reativas o quanto quiser. Também são redimensionadas automaticamente para se ajustarem a relatórios no serviço Power BI e nas aplicações móveis do Power BI. 
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
+
+As segmentações de dados reativas são redimensionadas para se ajustarem a qualquer espaço no seu relatório. Pode ajustar as segmentações de dados reativas para diferentes formas e tamanhos (por exemplo, na horizontal, vertical ou em quadrado) e os valores da segmentação de dados serão reorganizados à medida que o fizer. No Power BI Desktop e no serviço Power BI, pode tornar as segmentações de dados horizontais e de data/intervalo reativas. Além disso, as segmentações de dados de data/intervalo têm áreas de toque melhoradas para que sejam fáceis de alterar com um dedo. Pode aumentar ou diminuir as segmentações de dados reativas o quanto quiser. Também são redimensionadas automaticamente para se ajustarem a relatórios no serviço Power BI e nas aplicações móveis do Power BI. 
 
 ![As segmentações de dados podem ter várias formas](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer.gif)
 
@@ -26,7 +28,7 @@ As segmentações de dados reativas são redimensionadas para se ajustarem a qua
 
 O primeiro passo para criar uma segmentação de dados dinâmica é criar uma segmentação de dados básica. 
 
-1. Selecione o ícone **Segmentação de Dados** ![ícone Segmentação de Dados](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) no painel **Visualizações**.
+1. Selecione o ícone **Segmentação de Dados**![ícone Segmentação de Dados](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) no painel **Visualizações**.
 2. Arraste o campo que pretende filtrar para **Campo**.
 
     ![Adicionar um campo à segmentação de dados](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)

@@ -7,36 +7,36 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 35b5c5f05a9c0ae5a36875671a919df12843e295
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273300"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267509"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportar relatório do Power BI para ficheiro (pré-visualização)
 
 A API `exportToFile` permite exportar um relatório do Power BI através de uma chamada REST. São suportados os seguintes formatos de ficheiro:
-* **PPTX** (PowerPoint)
-* **PDF**
-* **PNG**
-    * Ao exportar para um PNG, os relatórios com várias páginas são comprimidos num ficheiro zip
-    * Cada ficheiro no zip PNG representa uma página de relatório
+* **.pptx** (PowerPoint)
+* **.pdf**
+* **.png**
+    * Ao exportar para um .png, os relatórios com várias páginas são comprimidos num ficheiro .zip
+    * Cada ficheiro no .zip representa uma página de relatório
     * Os nomes de página são os mesmos que os valores devolvidos das APIs [Obter Páginas](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) ou [Obter Páginas no Grupo](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup)
 
 ## <a name="usage-examples"></a>Exemplos de utilização
 
 Pode utilizar a funcionalidade de exportação de várias formas. Veja a seguir alguns exemplos:
 
-* **Botão Enviar para impressão** – na aplicação, crie um botão que, quando clicado, aciona uma tarefa de exportação. A tarefa pode exportar o relatório visualizado como PDF ou PPTX e, quando estiver concluída, o utilizador pode receber o ficheiro como transferência. Através de marcadores, pode exportar o relatório num estado específico, incluindo filtros configurados, segmentações de dados e definições adicionais. Como a API é assíncrona, pode demorar algum tempo até o ficheiro estar disponível.
+* **Botão Enviar para impressão** – na aplicação, crie um botão que, quando clicado, aciona uma tarefa de exportação. A tarefa pode exportar o relatório visualizado como .pdf ou .pptx e, quando estiver concluída, o utilizador pode receber o ficheiro como transferência. Através de marcadores, pode exportar o relatório num estado específico, incluindo filtros configurados, segmentações de dados e definições adicionais. Como a API é assíncrona, pode demorar algum tempo até o ficheiro estar disponível.
 
-* **Enviar anexo por e-mail** – envie um e-mail automatizado, em intervalos definidos, com um relatório PDF anexado. Este cenário poderá ser útil se quiser automatizar o envio de um relatório semanal aos executivos.
+* **Enviar anexo por e-mail** – envie um e-mail automatizado, em intervalos definidos, com um relatório .pdf anexado. Este cenário poderá ser útil se quiser automatizar o envio de um relatório semanal aos executivos.
 
 ## <a name="using-the-api"></a>Utilizar a API
 
 Antes de utilizar a API, verifique se estão ativadas as seguintes [definições de inquilino de administração](../../service-admin-portal.md#tenant-settings):
 * **Exportar relatórios como apresentações do PowerPoint ou documentos PDF** – ativada por predefinição.
-* **Exportar relatórios como ficheiros de imagem** – obrigatória apenas para PNG e desativada por predefinição.
+* **Exportar relatórios como ficheiros de imagem** – obrigatória apenas para *.png* e desativada por predefinição.
 
 A API é assíncrona. Quando a API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) é chamada, aciona uma tarefa de exportação. Depois de acionar uma tarefa de exportação, utilize a [consulta](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) para controlar a tarefa, até estar concluída.
 
@@ -73,9 +73,9 @@ Para exportar com RLS, tem de ter as seguintes permissões:
 
 ### <a name="data-protection"></a>Proteção de dados
 
-Os formatos PDF e PPTX suportam [etiquetas de confidencialidade](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi). Se exportar um relatório com uma etiqueta de confidencialidade para PDF ou PPTX, o ficheiro exportado apresentará o relatório com a etiqueta de confidencialidade.
+Os formatos .pdf e .pptx suportam [etiquetas de confidencialidade](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi). Se exportar um relatório com uma etiqueta de confidencialidade para .pdf ou .pptx, o ficheiro exportado apresentará o relatório com a etiqueta de confidencialidade.
 
-Um relatório com uma etiqueta de confidencialidade não pode ser exportado para um PDF ou um PPTX através de um [principal de serviço](embed-service-principal.md).
+Um relatório com uma etiqueta de confidencialidade não pode ser exportado para um .pdf ou um .pptx através de um [principal de serviço](embed-service-principal.md).
 
 ### <a name="localization"></a>Localização
 
@@ -102,8 +102,8 @@ Uma tarefa que exceda o número de pedidos simultâneos não termina. Por exempl
 * O conjunto de dados do relatório que está a exportar tem de residir numa capacidade Premium ou Incorporada.
 * Na pré-visualização pública, o número de páginas de relatórios do Power BI exportadas por hora está limitado a 50 por capacidade.
 * Os relatórios exportados não podem exceder o tamanho de ficheiro de 250 MB.
-* Ao exportar para PNG, as etiquetas de confidencialidade não são suportadas.
-* Um relatório com uma etiqueta de confidencialidade não pode ser exportado para um PDF ou um PPTX utilizando um [principal de serviço](embed-service-principal.md).
+* Ao exportar para .png, as etiquetas de confidencialidade não são suportadas.
+* Um relatório com uma etiqueta de confidencialidade não pode ser exportado para um .pdf ou um .pptx através de um [principal de serviço](embed-service-principal.md).
 * O número de páginas que podem ser incluídas num relatório exportado é de 30. Se o relatório incluir mais páginas, a API devolverá um erro e a tarefa de exportação será cancelada.
 * Não são suportados [marcadores pessoais](../../consumer/end-user-bookmarks.md#personal-bookmarks) nem [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/).
 * Os elementos visuais do Power BI listados abaixo não são suportados. Quando for exportado um relatório com estes elementos visuais, as partes do relatório que contêm estes elementos visuais não serão compostas e apresentarão um símbolo de erro.
@@ -263,6 +263,9 @@ private async Task<ExportedFile> ExportPowerBIReport(
 ## <a name="next-steps"></a>Próximos passos
 
 Veja como incorporar conteúdo para os seus clientes e organização:
+
+> [!div class="nextstepaction"]
+>[Export paginated report to file](export-paginated-report.md) (Exportar relatórios paginados para ficheiros)
 
 > [!div class="nextstepaction"]
 >[Incorporar para os seus clientes](embed-sample-for-customers.md)

@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377242"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267233"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário para o serviço Power BI
 O serviço Power BI pode introduzir terminologia que é confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar a terminologia, pode até mesmo guardá-la nos marcadores. Outro recurso excelente para saber mais sobre os blocos de construção que formam o serviço Power BI é [Conceitos Básicos](end-user-basic-concepts.md). Conceitos básicos proporciona uma perspetiva geral de alto nível das *partes* do Power BI e de como estão ligadas.
@@ -24,7 +24,7 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
 
 **conta** Existem diferentes tipos de contas do Power BI, também denominadas de *licenças*.  As contas são: por utilizador ou profissionais. As contas por utilizador estão disponíveis como *gratuitas* ou *Pro*.  Um utilizador *gratuito* do Power BI está a utilizar o Power BI Desktop autónomo ou está a utilizar o serviço Power BI dentro de uma conta profissional Premium. A conta *Pro* por utilizador do Power BI é uma subscrição mensal paga que permite a colaboração e a partilha de conteúdos com outros utilizadores *Pro*. 
 
-A conta profissional *Premium* (também denominada de *capacidade Premium*) adiciona uma camada de funcionalidades às licenças por utilizador. Por exemplo, os titulares de uma conta por utilizador *gratuita* numa organização que possui uma licença *Premium* podem fazer muito mais com o Power BI do que os utilizadores *gratuitos* sem uma licença *Premium*. Por exemplo, os utilizadores *gratuitos* em contas profissionais *Premium* podem colaborar com os colegas e podem visualizar os conteúdos que estão hospedados na capacidade do Power BI Premium.  
+A conta profissional *Premium* (também denominada de *capacidade Premium*) adiciona uma camada de funcionalidades às licenças por utilizador. Por exemplo, os titulares de uma conta por utilizador *gratuita* numa organização que possui uma licença *Premium* podem fazer muito mais com o Power BI do que os utilizadores *gratuitos* sem uma licença *Premium*. Por exemplo, os utilizadores *gratuitos* em contas organizacionais *Premium* podem colaborar com os colegas e visualizar os conteúdos alojados na capacidade do Power BI Premium.  
 
 **admin portal (portal de administração)** A localização onde os administradores do Power BI gerem utilizadores, recursos e definições para o Power BI na sua organização. (Nota: o Office 365, o Azure e o PowerApps utilizam o centro de administração.)
 
@@ -36,8 +36,7 @@ A conta profissional *Premium* (também denominada de *capacidade Premium*) adic
 
 **annotate (anotar)** Para escrever linhas, texto ou carimbos numa cópia de um instantâneo de um mosaico, relatório ou elemento visual sobre a aplicação móvel do Power BI para dispositivos iOS e Android.
 
-**app, apps (aplicação, aplicações)** 
-
+**aplicação, aplicações** Um grupo de dashboards, relatórios e conjuntos de dados. Refere-se também às aplicações móveis para consumir conteúdos, como a aplicação Power BI para iOS.
 
 **AppSource** Repositório online centralizado, onde pode procurar e descobrir dashboards, relatórios, conjuntos de dados e aplicações para transferir.
 
@@ -87,7 +86,7 @@ A conta profissional *Premium* (também denominada de *capacidade Premium*) adic
 
 **cross-highlight (realce cruzado)** Aplica-se a interações visuais. O realce cruzado retém todos os pontos de dados originais, mas escurece a parte que não se aplica à sua seleção. Por exemplo, a seleção de **Moderação** no gráfico em anel permite realçar o gráfico de colunas de forma cruzada. O gráfico de colunas escurece todos os dados que não se aplicam ao segmento Moderação e realça todos os dados que se aplicam ao segmento Moderação.
 
-**custom visual (elemento visual personalizado0** Os elementos visuais que são criados pela comunidade e pela Microsoft. Podem ser transferidos da loja Office para utilização nos relatórios do Power BI.
+**custom visual (elemento visual personalizado)** Os elementos visuais que são criados pela comunidade e pela Microsoft. Podem ser transferidos da loja Office para utilização nos relatórios do Power BI.
 
 ## <a name="d"></a>D
 

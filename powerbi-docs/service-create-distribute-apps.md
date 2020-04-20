@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
-ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
+ms.openlocfilehash: 93cb384c06fc78f8d006aed02aef323bf3a72d31
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80147383"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006367"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar uma aplicação no Power BI
 
@@ -43,25 +43,26 @@ Quando os dashboards e relatórios na sua área de trabalho estiverem prontos, p
 
 1. Na vista de lista da área de trabalho, tem de decidir quais os dashboards e relatórios que pretende que sejam **Incluídos na aplicação**.
 
-     ![Selecionar o dashboard a publicar](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
+    ![Selecionar o dashboard a publicar](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
 
-     Se optar por não incluir um relatório com um dashboard relacionado, verá um aviso junto ao relatório. Pode publicar a aplicação, mas o dashboard relacionado não terá os mosaicos desse relatório.
+    Se optar por não incluir um relatório com um dashboard relacionado, verá um aviso junto ao relatório. Pode publicar a aplicação, mas o dashboard relacionado não terá os mosaicos desse relatório.
 
-     ![Aviso sobre o dashboard relacionado](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
+    ![Aviso sobre o dashboard relacionado](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
 2. Selecione o botão **Publicar aplicação** no canto superior direito para iniciar o processo de criar e publicar uma aplicação a partir da área de trabalho.
    
-     ![Publicar aplicação](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
+    ![Publicar aplicação](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
 3. Em **Configuração**, preencha o nome e a descrição para ajudar as pessoas a encontrarem a aplicação. Pode definir uma cor de tema para personalizá-la. Também pode adicionar uma ligação para um site de suporte.
    
-     ![Criar a sua aplicação](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
+    ![Criar a sua aplicação](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
 4. Em **Navegação**, selecione os conteúdos que pretende que sejam publicados como parte da aplicação. Em seguida, adicione a navegação da aplicação para organizar os conteúdos em secções. Veja [Conceber a experiência de navegação da aplicação](#design-the-navigation-experience) neste artigo para obter detalhes.
    
-     ![Navegação da aplicação](media/service-create-distribute-apps/power-bi-apps-navigation.png)
+    ![Navegação da aplicação](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 5. Em **Permissões**, decida quem vai ter acesso à aplicação e o que essas pessoas podem fazer com a mesma. 
+
     - Em [áreas de trabalho clássicas](service-create-workspaces.md): todas as pessoas na sua organização, pessoas específicas ou grupos de segurança do Azure Active Directory (AAD).
     - Na [nova experiência de áreas de trabalho](service-create-the-new-workspaces.md): pessoas específicas, grupos de segurança e listas de distribuição do AAD e Grupos do Office 365. Todos os utilizadores da área de trabalho recebem automaticamente acesso à aplicação da mesma.
     - Pode permitir que os utilizadores da aplicação se liguem aos conjuntos de dados subjacentes da aplicação através da permissão Compilação. Verão estes conjuntos de dados quando estiverem a procurar conjuntos de dados partilhados. Leia mais sobre [permitir que os utilizadores se liguem aos conjuntos de dados da aplicação](#allow-users-to-connect-to-datasets) neste artigo.
@@ -73,11 +74,11 @@ Quando os dashboards e relatórios na sua área de trabalho estiverem prontos, p
 
 6. Pode instalar a aplicação automaticamente para os destinatários se o seu administrador do Power BI tiver ativado esta definição no Portal de Administração do Power BI. Leia mais sobre como [instalar automaticamente uma aplicação](#automatically-install-apps-for-end-users) neste artigo.
 
-     ![Permissões da aplicação](media/service-create-distribute-apps/power-bi-apps-permissions.png)
+    ![Permissões da aplicação](media/service-create-distribute-apps/power-bi-apps-permissions.png)
 
 7. Quando selecionar **Publicar aplicação**, verá uma mensagem a confirmar que está pronto para publicar. Na caixa de diálogo **Partilhar esta aplicação**, pode copiar o URL que é uma ligação direta para esta aplicação.
    
-     ![Conclusão da aplicação](media/service-create-distribute-apps/power-bi-apps-success.png)
+    ![Conclusão da aplicação](media/service-create-distribute-apps/power-bi-apps-success.png)
 
 Pode enviar essa ligação direta para as pessoas com quem a partilhou ou pode localizar a aplicação no separador Aplicações ao aceder a **Transferir e explorar mais aplicações do AppSource**. Leia mais sobre a [experiência de aplicação para utilizadores empresariais](consumer/end-user-apps.md).
 
@@ -86,11 +87,11 @@ Depois de publicar a aplicação, poderá querer alterá-la ou atualizá-la. É 
 
 1. Abra a área de trabalho que corresponde à aplicação. 
    
-     ![Abrir área de trabalho](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
+    ![Abrir área de trabalho](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
 
 2. Faça as alterações que pretende aos dashboards ou relatórios.
  
-     A área de trabalho é a área de teste, pelo que as suas alterações não são apresentadas em direto na aplicação até a publicar novamente. Isto permite-lhe efetuar alterações sem afetar as aplicações publicadas.  
+    A área de trabalho é a área de teste, pelo que as suas alterações não são apresentadas em direto na aplicação até a publicar novamente. Isto permite-lhe efetuar alterações sem afetar as aplicações publicadas.  
  
     > [!IMPORTANT]
     > Se remover um relatório e atualizar a aplicação, mesmo que volte a adicioná-lo à mesma, os consumidores da sua aplicação irão perder todas as personalizações como marcadores, comentários, etc.  
@@ -99,7 +100,7 @@ Depois de publicar a aplicação, poderá querer alterá-la ou atualizá-la. É 
    
 1. Atualize as secções **Configuração**, **Navegação** e **Permissões** se necessário e, em seguida, selecione **Atualizar aplicação**.
    
-As pessoas com as quais partilhou a aplicação veem automaticamente a versão atualizada da aplicação. 
+As pessoas com as quais publicou a aplicação veem automaticamente a versão atualizada da aplicação. 
 
 ## <a name="design-the-navigation-experience"></a>Conceber a experiência de navegação
 A opção **Novo construtor de navegação** permite-lhe criar uma navegação personalizada para a sua aplicação. A navegação personalizada torna mais fácil para os seus utilizadores localizarem e utilizarem os conteúdos na aplicação. As aplicações existentes têm esta opção desativada e, por predefinição, as novas aplicações têm esta opção ativada.
@@ -111,6 +112,7 @@ Quando ativar o **Novo construtor de navegação**, pode conceber uma navegaçã
 ![Navegação da aplicação](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 Pode personalizar ainda mais a navegação da aplicação ao:
+
 * Reordenar os itens com as teclas Seta Para Cima/Seta Para Baixo. 
 * Mudar o nome dos itens nos **Detalhes do relatório**, nos **Detalhes do dashboard** e nos **Detalhes do livro**.
 * Ocultar determinados itens da navegação.
@@ -121,16 +123,20 @@ Ao adicionar uma **ligação**, em **Detalhes da ligação** pode selecionar o l
 
 ### <a name="considerations-for-using-the-new-navigation-builder-option"></a>Considerações sobre a utilização da opção Novo construtor de navegação
 Seguem-se alguns aspetos gerais a ter em atenção ao utilizar o novo construtor de navegação:
-* As páginas de relatórios são apresentadas na área de navegação da aplicação como uma secção expansível
+
+* As páginas de relatórios são apresentadas na área de navegação da aplicação como uma secção expansível. Quando um relatório tem uma página visível, só é apresentado o nome do relatório. Clicar no nome do relatório na navegação abre a primeira página do relatório. 
+
+    > [!NOTE]
+    > O relatório pode ter apenas uma página visível porque configurou a navegação para o resto das páginas com botões ou ações de pormenorização.
+
 * Se desativar o novo construtor de navegação e, em seguida, publicar ou atualizar a sua aplicação, irá perder as personalizações que efetuou. Por exemplo, as secções, ordenações, ligações e nomes personalizados dos itens de navegação serão perdidos.
+* Está disponível a opção de não utilizar o construtor de aplicações.
 
 Ao adicionar ligações à navegação da sua aplicação e ao selecionar a opção Área de conteúdo:
 * Certifique-se de que a ligação pode ser incorporada. Alguns serviços impedem a incorporação dos respetivos conteúdos em sites de terceiros, como o Power BI.
 * A incorporação de conteúdos do serviço Power BI como relatórios ou dashboards noutras áreas de trabalho não é suportada. 
 * Incorpore conteúdos do Power BI Report Server através do respetivo URL incorporado nativo a partir de uma implementação no local. Siga os passos indicados em [Criar o URL do Power BI Report Server](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) para obter o URL. Tenha em atenção que são aplicadas regras de autenticação normais, pelo que a visualização de conteúdos requer uma ligação ao servidor no local. 
 * Será apresentado um aviso de segurança na parte superior dos conteúdos incorporados para indicar que estes não se encontram no Power BI.
-
-
 
 ## <a name="automatically-install-apps-for-end-users"></a>Instalar automaticamente as aplicações para os utilizadores finais
 Se um administrador lhe atribuir permissões, pode instalar aplicações de forma automática ao *emiti-las* por push para os utilizadores finais. Esta funcionalidade de push torna mais fácil distribuir as aplicações certas para as pessoas ou grupos certos. A sua aplicação é apresentada automaticamente na lista de conteúdos das Aplicações dos seus utilizadores finais. Estes não precisam de a procurar no Microsoft AppSource ou de seguir uma ligação de instalação. Veja como os administradores permitem a [emissão de aplicações por push para utilizadores finais](service-admin-portal.md#push-apps-to-end-users) no artigo do portal de administração do Power BI.
@@ -181,22 +187,28 @@ Qualquer membro da área de trabalho pode anular a publicação da aplicação.
 
 * Na área de trabalho, selecione as reticências ( **...** ) no canto superior direito > **Anular aplicação**.
   
-     ![Anular publicação da aplicação](media/service-create-distribute-apps/power-bi-app-unpublish.png)
+    ![Anular publicação da aplicação](media/service-create-distribute-apps/power-bi-app-unpublish.png)
 
 Esta ação desinstala a aplicação de todas as pessoas para as quais a publicou e já não terão acesso à mesma. Não elimina a área de trabalho nem os respetivos conteúdos.
 
 ## <a name="view-your-published-app"></a>Ver a aplicação publicada
 
-Quando os consumidores da sua aplicação abrirem a mesma, verão o painel de navegação que criou em vez do painel de navegação padrão do Power BI. As listas de navegação da aplicação apresentam os relatórios e dashboards nas secções que definiu. Também apresentam as páginas individuais em cada relatório em vez de apenas mostrarem o nome do relatório.
+Quando os consumidores da sua aplicação abrirem a mesma, verão o painel de navegação que criou em vez do painel de navegação padrão do Power BI. As listas de navegação da aplicação apresentam os relatórios e dashboards nas secções que definiu. Também apresentam as páginas individuais em cada relatório em vez de apenas mostrarem o nome do relatório. Pode expandir e fechar a navegação à esquerda com as setas na barra de menus.
 
 ![Aplicação com navegação](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+No modo de ecrã inteiro, pode mostrar ou ocultar a navegação ao selecionar a opção no canto.
+
+![Navegação de ecrã inteiro](media/service-create-distribute-apps/full-screen-app-show-navigation.png)
 
 ## <a name="considerations-and-limitations"></a>Considerações e Limitações
 Elementos a ter em conta sobre a publicação de aplicações:
 
+* A página de permissões não altera a permissão em conjuntos de dados noutras áreas de trabalho. Vê um aviso a relembrá-lo para conceder acesso a esses conjuntos de dados de forma independente. A melhor prática é contactar o proprietário do conjunto de dados antes de começar a criar a sua aplicação para garantir que não há problema em dar a todos os utilizadores da aplicação acesso a esses conjuntos de dados. 
 * Pode ter até 100 utilizadores ou grupos na lista de acesso à aplicação. No entanto, pode permitir o acesso à aplicação a mais de 100 utilizadores. Para tal, utilize um ou mais grupos de utilizadores que contenham todos os utilizadores pretendidos.
 * Relativamente à nova experiência de área de trabalho, se o utilizador adicionado à lista de acesso à aplicação já tiver acesso à aplicação através da área de trabalho, não será apresentado na lista de acesso da aplicação.  
-
+* Ao utilizar o novo aspeto do serviço Power BI, o URL do site de suporte é apresentado no cartão de informação do item. Leia mais sobre o ["novo aspeto" do Power BI](service-new-look.md).
+* As aplicações têm a opção de permitir que os utilizadores partilhem a aplicação e os conjuntos de dados subjacentes da aplicação ao utilizar a permissão de partilha. Para novas aplicações, esta opção está desativada por predefinição. Recomendamos que desative esta opção para as suas aplicações existentes e atualize a permissão nos conjuntos de dados subjacentes. A opção foi ativada para aplicações existentes porque as aplicações foram concebidas inicialmente para substituir pacotes de conteúdos que tinham este comportamento.
 
 ## <a name="next-steps"></a>Próximos passos
 * [Criar uma área de trabalho](service-create-workspaces.md)
