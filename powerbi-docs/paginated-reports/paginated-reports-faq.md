@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 03/18/2020
-ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.date: 04/21/2020
+ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
+ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113622"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "81766280"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Relatórios paginados no Power BI: PERGUNTAS FREQUENTES 
 
@@ -88,6 +88,8 @@ Os relatórios paginados são melhores para os cenários que exigem uma saída d
 
 Os relatórios do Power BI estão otimizados para a exploração e a interatividade.  Os relatórios do Power BI constituiriam uma melhor solução no caso dos relatórios de vendas em que os diferentes vendedores pretendem segmentar os dados no mesmo relatório pela sua região/indústria/cliente específicos e ver como os números se alteram.
 
+Para obter mais informações, veja [Quando utilizar os relatórios paginados no Power BI](../guidance/report-paginated-or-power-bi.md).
+
 ### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>A documentação indica que o Report Builder do Power BI é a ferramenta de criação preferencial. Posso criar relatórios paginados no SQL Server Data Tools para o Power BI?
 
 Sim, mas o serviço Power BI permite-lhe apenas carregar um único item de cada vez, assim, muitos dos cenários que os autores utilizam com o SQL Server Data Tools (SSDT) não são ainda suportados. Veja a [lista completa de funcionalidades não suportadas](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi), disponível mais adiante nestas perguntas frequentes.  
@@ -110,10 +112,8 @@ Atualmente, os relatórios paginados não suportam os seguintes itens:
 
 - Origens de dados partilhadas
 - Conjuntos de dados partilhados
-- Sub-relatórios
 - Pormenorização e click-through para outros relatórios
 - Relatórios ligados
-- Camadas de mapa Bing
 - Tipos de letra personalizados
 
 Receberá uma mensagem de erro se tentar carregar um ficheiro que tem uma funcionalidade não suportada no serviço Power BI, além da alternância/ordenação.

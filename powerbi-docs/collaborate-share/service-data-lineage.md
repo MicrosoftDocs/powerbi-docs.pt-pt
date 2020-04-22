@@ -1,5 +1,5 @@
 ---
-title: Linhagem de dados (pré-visualização)
+title: Linhagem de dados
 description: Em projetos modernos de business intelligence (BI), um dos principais desafios para muitos clientes é compreender o fluxo de dados desde a origem até ao destino.
 author: paulinbar
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 165651beab2e20f033d20480e78a3876931ea806
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267279"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525405"
 ---
-# <a name="data-lineage-preview"></a>Linhagem de dados (pré-visualização)
+# <a name="data-lineage"></a>Linhagem de dados
 Em projetos modernos de business intelligence (BI), compreender o fluxo de dados desde a origem até ao destino pode ser um desafio. A dimensão deste desafio é ainda maior se tiver desenvolvido projetos de análise avançados que abranjam múltiplas origens de dados, artefactos e dependências. Responder a perguntas como "O que acontece se alterar estes dados?" ou "Porque é que este relatório não está atualizado?" pode ser difícil. A compreensão destas questões pode exigir o trabalho de uma equipa de peritos ou uma investigação profunda. Para ajudar a responder a estas perguntas, criámos uma vista de linhagem de dados.
 
 ![Vista de linhagem de dados do Power BI](media/service-data-lineage/service-data-lineage-view.png)

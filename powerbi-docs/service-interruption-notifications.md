@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 ms.author: kfollis
-ms.openlocfilehash: 984991d8640df04c19b6461f5f0faaf0a50fe4ed
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 85b26b68c4943e0bc100be7a298730cec34cfc78
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80812982"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637759"
 ---
 # <a name="service-interruption-notifications"></a>Service interruption notifications (Notificações de interrupção do serviço)
 
@@ -32,26 +32,8 @@ As notificações são enviadas quando houver um _atraso maior_ em operações, 
 > [!NOTE]
 > De momento, esta funcionalidade só está disponível para capacidades dedicadas no Power BI Premium. Não está disponível para capacidade partilhada ou incorporada.
 
-## <a name="capacity-and-reliability-notifications"></a>Notificações de fiabilidade e capacidade
-
-Quando uma capacidade do Power BI Premium tem longos períodos de alta utilização de recursos que afetam potencialmente a fiabilidade, é enviado um e-mail de notificação. Exemplos de tais impactos incluem atrasos alargados em operações como a abertura de um relatório, atualização do conjunto de dados e execuções de consultas. 
-
-O e-mail de notificação fornece informações sobre o motivo da alta utilização de recursos, incluindo o seguinte:
-
-* ID do conjunto de dados responsável
-* Tipo de operação
-* Tempo de CPU associado à alta utilização de recursos
-
-O Power BI também envia notificações de e-mail quando é detetada uma sobrecarga na capacidade do Power BI Premium. O e-mail explica o motivo provável da sobrecarga, que operações geraram a carga nos 10 minutos anteriores e a quantidade de carga gerada por cada operação. 
-
-Se tiver mais do que uma capacidade Premium, o e-mail incluirá informações sobre essas capacidades durante o período sobrecarregado, para que possa considerar mover áreas de trabalho que contenham itens com muitos recursos para capacidades com menor carga.
-
-As notificações de e-mail de sobrecarga só são enviadas quando é acionado um limiar de sobrecarga. Não receberá um segundo e-mail quando a carga nessa capacidade Premium voltar a níveis não sobrecarregados.
-
-A imagem seguinte mostra um e-mail de notificação de exemplo:
 
 
-![e-mail de notificação de capacidade sobrecarregada](media/service-interruption-notifications/refresh-notification-email-2.png)
 
 
 ## <a name="enable-notifications"></a>Ativar notificações

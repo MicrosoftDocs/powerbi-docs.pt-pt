@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3be5f9efe3a6e18ba46f6990b09952d37b967e16
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 5628a114b872b7c0d92d5079198616a20fe85b87
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79525942"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637779"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Tutorial: Incorporar um elemento visual do Power Apps num relatório Power BI
 
@@ -53,7 +53,7 @@ Ao adicionar o elemento visual do Power Apps ao relatório, este inicia o Power
 
 3. No painel **Campos**, selecione **Nome**, **Código do Produto** e **Fase de Venda**. 
 
-    ![selecionar campos](media/power-bi-visualization-powerapp/power-bi-fields.jpg)
+    ![selecionar campos](media/power-bi-visualization-powerapp/power-bi-fields.png)
 
 4. No elemento visual do Power Apps, selecione o ambiente do Power Apps onde quer criar a aplicação e, em seguida, selecione **Criar nova**.
 

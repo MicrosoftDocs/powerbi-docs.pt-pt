@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a6dd3040fd765010c5d6baaf76991f7d1be4cfa7
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877052"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637899"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Obter dados de ficheiros de livros do Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -41,7 +41,7 @@ Se utilizar o Excel para ligar a uma origem de dados externa, depois de inserir 
 ### <a name="workbooks-with-power-view-sheets-pivottables-and-charts"></a>Livros com folhas de cálculo do Power View, Tabelas Dinâmicas e gráficos
 A forma como as folhas de cálculo do PowerView, as Tabelas Dinâmicas e os gráficos são apresentados ou não no Power BI dependerá do local em que o ficheiro de livro é guardado e de como optar por inseri-los no Power BI. Vamos examinar este aspeto mais detalhadamente abaixo.
 
-## <a name="data-types"></a>Tipo de dados
+## <a name="data-types"></a>Tipos de dados
 O Power BI suporta os seguintes tipos de dados: Número Inteiro, Número Decimal, Moeda, Data, Verdadeiro/Falso, Texto. Marcar os dados no Excel como tipos de dados específicos melhora a experiência do Power BI.
 
 ## <a name="prepare-your-workbook-for-power-bi"></a>Preparar o livro para o Power BI
@@ -113,19 +113,17 @@ Assim que o livro estiver pronto, pode encontrá-lo na secção **Relatórios** 
 ## <a name="publish-from-excel-2016-to-your-power-bi-site"></a>Publicar no seu site do Power BI a partir do Excel 2016
 A utilização da funcionalidade **Publicar no Power BI** no Excel 2016 é praticamente o mesmo que utilizar **Obter Dados** no Power BI para importar ou ligar ao ficheiro. Não entraremos em detalhes aqui, mas pode ver [Publicar no Power BI a partir do Excel 2016](service-publish-from-excel.md) para saber mais.
 
-## <a name="troubleshooting"></a>Resolução de Problemas
+## <a name="troubleshooting"></a>Resolução de problemas
 O ficheiro de livro é muito grande? Confira [Reduzir o tamanho de um livro do Excel para apresentá-lo no Power BI](reduce-the-size-of-an-excel-workbook.md).
 
 Atualmente, ao escolher a opção Importar, o Power BI importa apenas os dados que fazem parte de uma tabela ou de um modelo de dados com nome. Como resultado, se o livro não contiver nenhuma tabela, folhas de cálculo do Power View ou modelos de dados do Excel com nome, poderá ser apresentado este erro: **“Não conseguimos encontrar dados no seu livro do Excel”** . [Este artigo](service-admin-troubleshoot-excel-workbook-data.md) explica como corrigir o livro e importá-lo novamente.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 **Explore os dados** – Depois de obter dados e relatórios do seu ficheiro no Power BI, está na altura de explorá-los. Basta clicar com o botão direito do rato no novo conjunto de dados e clicar em Explorar. Caso tenha decidido ligar a um ficheiro de livro no OneDrive no passo 4, o livro será apresentado em Relatórios. Ao clicar nele, será aberto no Power BI, da mesma forma como seria aberto se estivesse no Excel Online.
 
 **Agendar atualização** – Se o ficheiro de livro do Excel ligar a origens de dados externas ou se tiver sido importado de uma unidade local, pode configurar a atualização agendada para garantir que o conjunto de dados ou relatório está sempre atualizado. Na maioria dos casos, é muito fácil configurar a atualização agendada, no entanto, não entraremos em detalhes sobre esta configuração porque está fora do âmbito deste artigo. Veja [Atualização de dados no Power BI](refresh-data.md) para saber mais.
 
 [Publicar no Power BI a partir do Excel 2016](service-publish-from-excel.md)
-
-[Power BI Publisher para Excel](publisher-for-excel.md)
 
 [Atualização de dados no Power BI](refresh-data.md)
 

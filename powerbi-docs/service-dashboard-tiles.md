@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 801af5e9c4d5306a3e77d4e82c787cc90e9cac37
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: efa5acbe70ea4541c2f9819d5260cb662ca0adac
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872788"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637887"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introdução aos mosaicos dos dashboards para designers do Power BI
 
@@ -41,7 +41,6 @@ Existem diversas formas diferentes de adicionar (afixar) um mosaico a um dashboa
 * [Um relatório](service-dashboard-pin-tile-from-report.md)
 * [Outro dashboard](service-pin-tile-to-another-dashboard.md)
 * [um livro do Excel no OneDrive para Empresas](service-dashboard-pin-tile-from-excel.md)
-* [Power BI Publisher para Excel](publisher-for-excel.md)
 * [Quick Insights (Informações Rápidas)](service-insights.md)
 * [Um relatório paginado no local no Power BI Report Server ou SQL Server Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 

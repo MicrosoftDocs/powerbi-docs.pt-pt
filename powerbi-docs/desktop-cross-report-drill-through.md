@@ -1,20 +1,20 @@
 ---
-title: Utilizar a pormenorização de relatório cruzado no Power BI Desktop
+title: Utilizar a pormenorização entre relatórios no Power BI Desktop
 description: Saiba como pormenorizar de um relatório para outro no Power BI Desktop
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2019
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: e500cb29bcc4472c59e7e8215fc0a7e7e728ea0d
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 33d0b7850b5e396d8f03e80cbcb32768fb26bf6d
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538884"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439808"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Utilizar a pormenorização de relatório cruzado no Power BI
 
@@ -33,11 +33,11 @@ Este artigo mostra como configurar e utilizar a pormenorização de relatório c
 > [!NOTE]
 > Não pode utilizar a pormenorização de relatório cruzado com relatórios [Partilhados comigo](service-share-dashboards.md#share-a-dashboard-or-report) partilhados individualmente em **A Minha Área de Trabalho**. Para utilizar a pormenorização de relatório cruzado, tem de aceder aos relatórios na área de trabalho a partir da qual foram partilhados.
 
-## <a name="enable-cross-report-drillthrough"></a>Ativar a pormenorização de relatório cruzado
+## <a name="enable-cross-report-drillthrough"></a>Ativar a pormenorização entre relatórios
 
 O primeiro passo na ativação da pormenorização de relatório cruzado consiste em validar os modelos de dados para os relatórios de origem e de destino. Embora os esquemas em cada relatório não tenham de ser os mesmos, os campos que pretende transmitir têm de existir em ambos os modelos de dados. Os nomes dos campos e os nomes das tabelas a que pertencem têm de ser idênticos. As cadeias têm de coincidir e são sensíveis a maiúsculas e minúsculas.
 
-Por exemplo, se quiser transmitir um filtro no campo **Estado** na tabela **E.U.A.** , ambos os modelos têm de ter uma tabela **E.U.A.** e um campo **Estado** dentro desta tabela. Caso contrário, terá de atualizar o nome do campo ou o nome da tabela no modelo subjacente. A simples atualização do nome apresentado dos campos não funcionará corretamente para a pormenorização de relatório cruzado.
+Por exemplo, se quiser transmitir um filtro no campo **Estado** na tabela **E.U.A.** , ambos os modelos têm de ter uma tabela **E.U.A.** e um campo **Estado** dentro desta tabela. Caso contrário, terá de atualizar o nome do campo ou o nome da tabela no modelo subjacente. A simples atualização do nome apresentado dos campos não funcionará corretamente para a pormenorização entre relatórios.
 
 Após validar os seus modelos, ative o relatório de origem para utilizar a pormenorização de relatório cruzado. 
 
@@ -72,7 +72,7 @@ Pode configurar um destino para a pormenorização de relatório cruzado no Powe
 
 Já está! Os seus relatórios estão prontos para pormenorização de relatório cruzado. 
 
-## <a name="use-cross-report-drillthrough"></a>Utilizar a pormenorização de relatório cruzado
+## <a name="use-cross-report-drillthrough"></a>Use cross-report drillthrough (Utilizar a pormenorização entre relatórios)
 
 Para utilizar a pormenorização de relatório cruzado, selecione o relatório de origem no serviço Power BI e, em seguida, selecione um elemento visual que utiliza o campo de pormenorização da forma especificada quando configurou a página de destino. Clique com o botão direito do rato num ponto de dados para abrir o menu de contexto do elemento visual, selecione **Pormenorização** e, em seguida, selecione o destino de pormenorização. Os destinos de pormenorização de relatório cruzado são formatados como **Nome da página [Nome do relatório]** .
 

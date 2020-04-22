@@ -1,5 +1,5 @@
 ---
-title: Análise de impacto dos conjuntos de dados (pré-visualização)
+title: Dataset impact analysis (Análise de impacto dos conjuntos de dados)
 description: Visualize e analise o impacto a jusante de efetuar alterações nos conjuntos de dados.
 author: paulinbar
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 016c555c6df65a45a9d429c25db93110022d9d8f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81268035"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525336"
 ---
-# <a name="dataset-impact-analysis-preview"></a>Análise de impacto dos conjuntos de dados (pré-visualização)
+# <a name="dataset-impact-analysis"></a>Dataset impact analysis (Análise de impacto dos conjuntos de dados)
 
 Quando efetua alterações a um conjunto de dados ou está a considerar efetuar alterações, é importante conseguir avaliar o impacto que essas alterações terão em relatórios e dashboards a jusante que dependem desse conjunto de dados. A **análise de impacto dos conjuntos de dados** fornece informações que podem ajudá-lo a fazer esta avaliação.
 * Mostra quantas áreas de trabalho, relatórios e dashboards podem ser afetados pela alteração e fornece uma navegação fácil para as áreas de trabalho onde estão localizados os relatórios e dashboards afetados, para que possa investigar mais.
