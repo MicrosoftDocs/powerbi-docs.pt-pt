@@ -18,7 +18,7 @@ ms.locfileid: "80113721"
 # <a name="how-to-debug-power-bi-visuals"></a>Como depurar elementos visuais do Power BI
 
 Esta página mostra algumas sugestões para depurar enquanto cria o elemento visual. Inclui passos básicos e mostra as diferenças entre as aplicações de front-end padrão e a depuração do elemento visual do Power BI.
-Depois de ler o artigo, conseguirá depurar elementos visuais do Power BI com pontos de interrupção, bem como registar e capturar exceções no Chrome e no Edge.
+Depois de ler o artigo, conseguirá depurar elementos visuais do Power BI com pontos de interrupção, bem como registar e capturar exceções no Chrome e no Microsoft Edge.
 
 ## <a name="using-breakpoints"></a>Utilizar pontos de interrupção
 
