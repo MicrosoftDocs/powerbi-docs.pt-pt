@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/19/2020
+ms.date: 03/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 27a7bdce79d0cf39a15b3350d06fd01d7d9e13c2
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 4e9bd94a044d88c4f0a767738d07b97ddc989f7e
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79040043"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065622"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Dashboards em destaque no serviço Power BI
 
