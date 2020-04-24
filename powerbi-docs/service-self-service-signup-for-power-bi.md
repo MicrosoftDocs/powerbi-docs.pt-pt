@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/31/2019
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 13928bc39801cdaccf73450da64c4f84048fbce3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: fcbafe3a66052971a725d1354fe5d12e22fabc63
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74791628"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439900"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>Inscrever-se no Power BI como um indivíduo
 
@@ -79,7 +79,7 @@ Na maioria dos casos, conseguirá inscrever-se no Power BI ao seguir o procedime
 | Sintoma/Mensagem de Erro | Motivo e Solução |
 | ----------------------- | -------------------- |
 | <strong>Endereços de e-mail pessoais (por exemplo nancy@gmail.com)</strong> Receberá uma mensagem semelhante a esta durante a inscrição: <br /><br /> *Introduziu um endereço de e-mail pessoal: introduza o seu endereço de e-mail de trabalho para que possamos armazenar os dados da sua empresa de forma segura.* <br /><br /> ou <br /><br /> *Isto parece ser um endereço de e-mail pessoal. Escreva o seu endereço de trabalho para que possamos ligá-lo a outras pessoas na sua empresa. E não se preocupe. Não iremos partilhar o seu endereço com ninguém.* | O Power BI não suporta endereços de e-mail fornecidos por serviços de e-mail dos consumidores ou por fornecedores de telecomunicações. <br /><br /> Para concluir a inscrição, experimente novamente com um endereço de e-mail atribuído pela sua empresa ou escola. <br /><br /> Se ainda não conseguiu inscrever-se e deseja realizar um processo de configuração mais avançado, pode [registar-se para uma nova subscrição de avaliação do Office 365 e usar esse endereço de e-mail para se inscrever](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Também pode receber um [convite](service-admin-azure-ad-b2b.md) de um utilizador existente. |
-| **Inscrição self-service desativada**: É apresentada uma mensagem semelhante a esta durante a inscrição: <br /><br /> *Não podemos concluir a sua inscrição. O departamento de TI desativou a inscrição para o Microsoft Power BI. Contacte-o para concluir a inscrição.* <br /><br /> ou <br /><br /> *Isto parece ser um endereço de e-mail pessoal. Escreva o seu endereço de trabalho para que possamos ligá-lo a outras pessoas na sua empresa. E não se preocupe. Não iremos partilhar o seu endereço com ninguém.* | O administrador de TI da sua organização desativou a inscrição self-service para o Power BI. <br /><br /> Para concluir a inscrição, entre em contacto com o seu administrador de TI e peça-lhe para [seguir as instruções para permitir a inscrição](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory). <br/><br/> Também pode ter este problema se tiver efetuado a [inscrição no Office 365 através de um parceiro](service-admin-syndication-partner.md). |
+| **Inscrição self-service desativada**: É apresentada uma mensagem semelhante a esta durante a inscrição: <br /><br /> *Não podemos concluir a sua inscrição. O departamento de TI desativou a inscrição para o Microsoft Power BI. Contacte-o para concluir a inscrição.* <br /><br /> ou <br /><br /> *Isto parece ser um endereço de e-mail pessoal. Escreva o seu endereço de trabalho para que possamos ligá-lo a outras pessoas na sua empresa. E não se preocupe. Não iremos partilhar o seu endereço com ninguém.* | O administrador de TI da sua organização desativou a inscrição self-service para o Power BI. <br /><br /> Para concluir a inscrição, entre em contacto com o seu administrador de TI e peça-lhe para [seguir as instruções para permitir a inscrição](admin/service-admin-disable-self-service.md). <br/><br/> Também pode ter este problema se tiver efetuado a [inscrição no Office 365 através de um parceiro](service-admin-syndication-partner.md). |
 | **O endereço de e-mail não é um ID do Office 365** É apresentada uma mensagem semelhante a esta durante a inscrição: <br /><br /> *Não foi possível encontrá-lo em contoso.com.  Utiliza um ID diferente no trabalho ou escola? <br /><br /> Experimente iniciar sessão com esse ID e, se não funcionar, contacte o seu departamento de TI.* | A sua organização utiliza IDs para iniciar sessão no Office 365 e noutros serviços Microsoft que são diferentes do endereço de e-mail.  Por exemplo, o seu endereço de e-mail pode ser Nancy.Smith@contoso.com mas o seu ID é nancys@contoso.com. <br /><br /> Para concluir a inscrição, utilize o ID que a sua organização lhe atribuiu para iniciar sessão no Office 365 ou noutros serviços da Microsoft.  Se não souber qual é o ID, contacte o seu administrador de TI. <br /><br /> Se ainda não conseguiu inscrever-se e deseja realizar um processo de configuração mais avançado, pode [registar-se para uma nova subscrição de avaliação do Office 365 e usar esse endereço de e-mail para se inscrever](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
 ## <a name="next-steps"></a>Próximos passos

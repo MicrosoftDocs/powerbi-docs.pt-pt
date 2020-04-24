@@ -6,19 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2216fb2b18fd0f35fe9ece25ae2bfeea26672a66
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 69b42452af53b8929f49a6bde6b47b0cf3cc152e
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872031"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525566"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>O "novo visual": onde se encontram as ações?
 
 O serviço Power BI (app.powerbi.com) tem um novo aspeto que facilita a visualização dos seus relatórios e a interação com os mesmos. Como resultado, muitas ações do menu foram movidas. As tabelas neste artigo mapeiam a localização antiga para a nova. Para contextualizar, veja [O “novo aspeto” do serviço Power BI](service-new-look.md).
+
+Procura informações sobre o novo aspeto do **Power BI Desktop**? Veja [Utilizar o friso atualizado no Power BI Desktop](desktop-ribbon.md).
 
 ## <a name="report-actions-in-the-new-look"></a>Ações dos relatórios no novo aspeto
 

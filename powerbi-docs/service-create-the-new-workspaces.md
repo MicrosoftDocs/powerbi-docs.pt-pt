@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/02/2019
+ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bbb5eeee7422670c771f7bbfb4b051de0538a10a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 02f6bc83c7d939bd54c5c9a06067185ab0618183
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207833"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675623"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Criar as novas áreas de trabalho no Power BI
 
@@ -127,7 +127,7 @@ Na nova experiência de áreas de trabalho, não pode criar ou consumir pacotes 
 
     ![Lista de conteúdo da área de trabalho](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
-1. Adicione grupos de segurança, listas de distribuição, grupos do Office 365 ou utilizadores individuais a estas áreas de trabalho como membros, contribuidores ou administradores. Veja [Funções nas novas áreas de trabalho](service-new-workspaces.md#roles-in-the-new-workspaces) para obter uma explicação sobre as diferentes funções.
+1. Adicione grupos de segurança, listas de distribuição, grupos do Office 365 ou utilizadores individuais a estas áreas de trabalho como visualizadores, membros, contribuidores ou administradores. Veja [Funções nas novas áreas de trabalho](service-new-workspaces.md#roles-in-the-new-workspaces) para obter uma explicação sobre as diferentes funções.
 
     ![Opção para adicionar membros, administradores e contribuidores às áreas de trabalho](media/service-create-the-new-workspaces/power-bi-workspace-add-members.png)
 

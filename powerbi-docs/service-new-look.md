@@ -6,23 +6,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c69e0247ecde7d6bd1cf158761a2ff9efd31d2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: de30da9c5cf6ad2046a99fb327cdad825725a14d
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881373"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637831"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>O "novo aspeto" do serviço Power BI
 
-O serviço Power BI (app.powerbi.com) tem um novo aspeto que facilita a visualização dos seus relatórios e a interação com os mesmos. O novo aspeto é mais simples e baseia-se na sua familiaridade com outros produtos da Microsoft. Fizemos dos conteúdos dos relatórios o principal foco do serviço Power BI, ao atualizarmos os ícones e mudarmos para um tema de cores mais claro. Eis uma descrição geral das alterações do novo aspeto. Veja as secções numeradas para obter mais detalhes:
+O serviço Power BI (app.powerbi.com) tem um novo aspeto que facilita a visualização dos seus relatórios e a interação com os mesmos. O novo aspeto é mais simples e baseia-se na sua familiaridade com outros produtos da Microsoft. Fizemos dos conteúdos dos relatórios o principal foco do serviço Power BI, ao atualizarmos os ícones e mudarmos para um tema de cores mais claro. 
+
+Procura informações sobre o novo aspeto do **Power BI Desktop**? Veja [Utilizar o friso atualizado no Power BI Desktop](desktop-ribbon.md).
+
+Eis uma descrição geral das alterações do novo aspeto. Veja as secções numeradas para obter mais detalhes:
 
 ![Descrição geral das alterações do novo aspeto](media/service-new-look/power-bi-new-look-changes.png)
 
-Procura uma ação específica? Veja [The "new look": Where did the actions go?](service-new-look-where-actions.md) (O “novo aspeto”: onde se encontram as ações?)
+Procura uma ação específica? Veja [The "new look": onde se encontram as ações?](service-new-look-where-actions.md).
 
 ## <a name="quick-tour-of-the-changes"></a>Breve apresentação das alterações
 
@@ -87,4 +91,6 @@ Mantivemos a experiência de criação semelhante à experiência do Desktop. As
 
 ## <a name="next-steps"></a>Próximos passos
 
-[Power BI para consumidores](consumer/end-user-consumer.md)
+- [Utilizar o friso atualizado no Power BI Desktop](desktop-ribbon.md)
+- [Opt in to the workspace 'new look'](collaborate-share/service-workspaces-new-look.md) (Aceitar o “novo aspeto” da área de trabalho)
+- [Power BI para consumidores](consumer/end-user-consumer.md)

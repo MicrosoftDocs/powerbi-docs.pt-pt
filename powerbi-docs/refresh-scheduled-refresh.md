@@ -1,20 +1,20 @@
 ---
 title: Configurar a atualização agendada
 description: Isto inclui os passos para selecionar um gateway e configurar a atualização agendada.
-author: maggiesMSFT
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.author: maggies
+ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: cc0527d093118fdb585800d0038f824223098119
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74958408"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675683"
 ---
 # <a name="configure-scheduled-refresh"></a>Configurar a atualização agendada
 
@@ -32,17 +32,17 @@ Para aceder ao ecrã **Atualização agendada**:
 
 ## <a name="gateway-connection"></a>Ligação do gateway
 
-Aqui verá diferentes opções, dependendo de se tem um gateway pessoal ou empresarial, online e disponível.
+Verá diferentes opções, dependendo de se tem um gateway pessoal ou empresarial, online e disponível.
 
-Se nenhum gateway estiver disponível, a opção **Ligação do gateway** estará desativada. Também verá uma mensagem a indicar como instalar o gateway pessoal.
+Se nenhum gateway estiver disponível, verá a opção **Ligação do gateway** desativada. Verá também uma mensagem a indicar como instalar o gateway pessoal.
 
 ![Gateway não configurado](media/refresh-scheduled-refresh/gateway-not-configured.png)
 
-Se tiver um gateway pessoal configurado, este estará disponível para seleção, caso esteja online. Será apresentado offline caso não esteja disponível.
+Se tiver um gateway pessoal configurado e este estiver online, poderá selecioná-lo. Será apresentado offline se não estiver disponível.
 
 ![Ligação do gateway](media/refresh-scheduled-refresh/gateway-connection.png)
 
-Também poderá selecionar o gateway empresarial, se houver um disponível. Só verá um gateway empresarial disponível se a sua conta estiver listada no separador **Utilizadores** da origem de dados configurada para determinado gateway.
+Também poderá selecionar o gateway empresarial, se houver um disponível. Só verá um gateway empresarial disponível se a sua conta estiver listada no separador **Utilizadores** da origem de dados configurada para um determinado gateway.
 
 ## <a name="data-source-credentials"></a>Credenciais da origem de dados
 
@@ -55,9 +55,9 @@ Se estiver a utilizar o gateway pessoal para atualizar os dados, terá de fornec
 Só terá de iniciar sessão numa origem de dados na primeira vez que utilizar a atualização nesse conjunto de dados. Uma vez introduzidas, essas credenciais são mantidas com o conjunto de dados.
 
 > [!NOTE]
-> Para alguns métodos de autenticação, se a palavra-passe utilizada para iniciar sessão numa origem de dados expirar ou for alterada, também terá de alterá-la para a origem de dados em **Credenciais de origem de dados**.
+> Para alguns métodos de autenticação, se a palavra-passe utilizada para iniciar sessão numa origem de dados expirar ou for alterada, também terá de alterá-la na origem de dados em **Credenciais de origem de dados**.
 
-Quando ocorre algum erro, o problema geralmente tem algo a ver com o gateway estar offline porque não foi possível iniciar sessão no Windows e iniciar o serviço ou o Power BI não conseguiu ligar-se às origens de dados para consultar dados atualizados. Se a atualização falhar, verifique as configurações do conjunto de dados. Se o serviço de gateway estiver offline, verá o erro em **Estado**. Se o Power BI não conseguir iniciar sessão nas origens de dados, será apresentado um erro em Credenciais da Origem de Dados.
+Se ocorrer algum erro, o problema poderá estar relacionado com o facto de o gateway estar offline porque não ter sido possível iniciar sessão no Windows e iniciar o serviço ou o Power BI não conseguiu iniciar sessão nas origens de dados para consultar os dados atualizados. Se a atualização falhar, verifique as configurações do conjunto de dados. Se o serviço de gateway estiver offline, verá o erro em **Estado**. Se o Power BI não conseguir iniciar sessão nas origens de dados, será apresentado um erro em Credenciais da Origem de Dados.
 
 ### <a name="on-premises-data-gateway"></a>Gateway de dados no local
 
@@ -66,7 +66,7 @@ Se estiver a utilizar o Gateway de dados no local para atualizar os dados, não 
 ![Comando Agendar Atualização](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
 > [!NOTE]
-> Ao ligar ao SharePoint no local para a atualização de dados, o Power BI suporta apenas os mecanismos de autenticação *Anónimo*, *Básico* e *Windows (NTLM/Kerberos)*. O Power BI não suporta *ADFS* nem nenhum mecanismo *Autenticação Baseada em Formulários* de atualização de dados de origens de dados do SharePoint no local.
+> Ao ligar ao SharePoint no local para a atualização de dados, o Power BI suporta apenas os mecanismos de autenticação *Anónimo*, *Básico* e *Windows (NTLM/Kerberos)* . O Power BI não suporta *ADFS* nem nenhum mecanismo *Autenticação Baseada em Formulários* de atualização de dados de origens de dados do SharePoint no local.
 
 ## <a name="scheduled-refresh"></a>Atualização agendada
 
@@ -82,7 +82,11 @@ Defina o controlo de deslize **Manter os dados atualizados** para **Ativado** pa
 > [!NOTE]
 > Após dois meses de inatividade, a atualização agendada no conjunto de dados é colocada em pausa. Um conjunto de dados é considerado inativo quando nenhum utilizador tiver visitado qualquer dashboard ou relatório incorporado no conjunto de dados. Nessa altura, é enviado um e-mail ao proprietário do conjunto de dados, a indicar que a atualização agendada foi interrompida. O agendamento de atualizações do conjunto de dados apresentará o estado **desativado**. Para retomar a atualização agendada, basta visitar novamente qualquer dashboard ou relatório incorporado no conjunto de dados.
 
-## <a name="whats-supported"></a>O que tem suporte?
+## <a name="whats-supported"></a>O que é suportado?
+
+
+> [!NOTE]
+> A atualização agendada também será desativada automaticamente após quatro erros consecutivos.
 
 Alguns conjuntos de dados são suportados em gateways diferentes para a atualização agendada. Aqui está uma referência para entender o que está disponível.
 
@@ -90,8 +94,8 @@ Alguns conjuntos de dados são suportados em gateways diferentes para a atualiza
 
 **Power BI Desktop**
 
-* Todas as origens de dados online apresentadas no Editor de Consultas e em **Obter Dados** no Power BI Desktop.
-* Todas as origens de dados locais apresentadas no Editor de Consultas e em **Obter Dados** no Power BI Desktop, exceto o ficheiro do Hadoop (HDFS) e o Microsoft Exchange.
+* Todas as origens de dados online apresentadas nas opções **Obter Dados** e Editor de Consultas do Power BI Desktop.
+* Todas as origens de dados locais apresentadas nas opções **Obter Dados** e Editor de Consultas do Power BI Desktop, exceto o Ficheiro Hadoop (HDFS) e o Microsoft Exchange.
 
 **Excel**
 
