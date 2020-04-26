@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576836"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637858"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Criar visualizações de matriz no Power BI
 
@@ -57,7 +57,8 @@ O estado de expansão da matriz será guardado com o relatório. Pode afixar uma
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-
+> [!NOTE]
+> Se estiver a criar um relatório sobre um modelo multidimensional dos Analysis Services, existirão algumas considerações especiais para expandir/fechar se o modelo utilizar a funcionalidade Membro Predefinido. Para obter mais informações, veja [Trabalhar com modelos multidimensionais no Power BI](../desktop-default-member-multidimensional-models.md)
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Utilizar a desagregação no elemento visual de matriz
 Com o elemento visual de matriz, pode fazer todos os tipos de atividades de desagregação interessantes que não estavam disponíveis anteriormente. Isto inclui a capacidade de desagregar com linhas, colunas e até em células e secções individuais. Vamos ver como funciona cada uma.

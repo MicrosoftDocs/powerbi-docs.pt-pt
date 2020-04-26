@@ -6,24 +6,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 04/16/2020
 ms.author: painbar
-ms.openlocfilehash: c9a42949ca517860c8b3f0e6faa07d49bd8054e8
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376690"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066331"
 ---
 # <a name="what-are-power-bi-template-apps"></a>O que são as aplicações de modelo do Power BI?
 
 As novas *aplicações de modelo* do Power BI permitem que os parceiros do mesmo criem aplicações do Power BI com pouco ou nenhum código e que as implementem para qualquer cliente do Power BI.  Este artigo é uma descrição geral do programa de aplicações de modelo do Power BI.
 
-As aplicações de modelo são um substituto dos atuais pacotes de conteúdos do serviço. Enquanto parceiro do Power BI, pode criar um conjunto de conteúdos prontos a utilizar para os clientes e publicá-los manualmente.  
+Enquanto parceiro do Power BI, pode criar um conjunto de conteúdos prontos a utilizar para os clientes e publicá-los manualmente.  
 
 Pode criar aplicações de modelo que permitam que os clientes estabeleçam ligação e criem instâncias nas próprias contas. Como especialistas de domínio, podem desbloquear os dados de forma a que seja fácil para os utilizadores empresariais consumirem.  
 
-Pode submeter as suas aplicações de modelo no Cloud Partner Portal. Em seguida, as aplicações são disponibilizadas publicamente no [Marketplace de Aplicações do Power BI](https://app.powerbi.com/getdata/services) e no [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi). Eis uma descrição geral da experiência pública de criação de aplicações de modelo.
+Pode submeter aplicações de modelo ao Centro de parceiros. Em seguida, as aplicações são disponibilizadas publicamente no [Marketplace de Aplicações do Power BI](https://app.powerbi.com/getdata/services) e no [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi). Eis uma descrição geral da experiência pública de criação de aplicações de modelo.
 
 ## <a name="power-bi-apps-marketplace"></a>Marketplace de Aplicações do Power BI
 
@@ -38,7 +38,7 @@ As Aplicações de Modelo do Power BI permitem que os utilizadores do Power BI
 O processo geral para desenvolver e submeter uma aplicação de modelo inclui várias fases. Algumas fases podem incluir mais do que uma atividade em simultâneo.
 
 
-| Fase | Power BI Desktop |  |Serviço Power BI  |  |Cloud Partner Portal  |
+| Fase | Power BI Desktop |  |Serviço Power BI  |  |Centro de Parceiros  |
 |---|--------|--|---------|---------|---------|
 | **Um** | Crie um modelo de dados e um relatório num ficheiro .pbix |  | Crie uma área de trabalho. Importe o ficheiro .pbix. Crie um dashboard complementar  |  | Registe-se como um parceiro |
 | **Dois** |  |  | Crie um pacote de teste e execute uma validação interna        |  | |
@@ -49,7 +49,7 @@ O processo geral para desenvolver e submeter uma aplicação de modelo inclui v�
 
 Para criar a aplicação de modelo, necessita de permissões para esse efeito. Veja as Definições de aplicação de modelo do portal de administração do Power BI para obter detalhes. 
 
-Para publicar uma aplicação de modelo no serviço Power BI e no AppSource, tem de cumprir os requisitos para se [tornar um Publicador do Cloud Marketplace](https://docs.microsoft.com/azure/marketplace/become-publisher).
+Para publicar uma aplicação de modelo no serviço Power BI e no AppSource, tem de cumprir os requisitos para [se tornar num publicador do Centro de Parceiros](https://docs.microsoft.com/azure/marketplace/become-publisher).
  
 ## <a name="high-level-steps"></a>Passos gerais
 
@@ -67,7 +67,7 @@ Eis os passos gerais.
 
 6. Promova a aplicação de teste na pré-produção para submeter a aplicação para validação no AppSource e para testá-la fora do seu próprio inquilino. 
 
-7. Submeta os conteúdos no Cloud Partner Platform para publicação. 
+7. Submeta o conteúdo ao [Centro de parceiros](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) para publicação. 
 
 8. Altere o estado da sua oferta para "Em direto" no AppSource e mude a sua aplicação para produção no Power BI.
 
@@ -75,11 +75,11 @@ Eis os passos gerais.
 
 ## <a name="requirements"></a>Requirements
 
-Para criar a aplicação de modelo, necessita de permissões para esse efeito. Veja as [Definições de aplicação de modelo do portal de administração](service-admin-portal.md#template-apps-settings) do Power BI para obter detalhes. 
+Para criar a aplicação de modelo, necessita de permissões para esse efeito. Veja as [Definições de aplicação de modelo do portal de administração](service-admin-portal.md#template-apps-settings) do Power BI para obter detalhes.
 
-Para publicar uma aplicação de modelo no serviço Power BI e no AppSource, tem de cumprir os requisitos para se [tornar um Publicador do Cloud Marketplace](https://docs.microsoft.com/azure/marketplace/become-publisher).
+Para publicar uma aplicação de modelo no serviço Power BI e no AppSource, tem de cumprir os requisitos para [se tornar num publicador do Centro de Parceiros](https://docs.microsoft.com/azure/marketplace/become-publisher).
  > [!NOTE] 
- > As submissões de aplicações de modelo são geridas no [Cloud Partner Portal](https://cloudpartner.azure.com). Utilize a mesma conta de registo do Centro de Programadores da Microsoft para iniciar sessão. Deve ter apenas uma conta Microsoft para as ofertas de AppSource. As contas não devem ser específicas de ofertas ou serviços individuais.
+ > As submissões de aplicações de modelo são geridas no [Centro de Parceiros](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer). Utilize a mesma conta de registo do Centro de Programadores da Microsoft para iniciar sessão. Deve ter apenas uma conta Microsoft para as ofertas de AppSource. As contas não devem ser específicas de ofertas ou serviços individuais.
 
 ## <a name="tips"></a>Sugestões 
 
