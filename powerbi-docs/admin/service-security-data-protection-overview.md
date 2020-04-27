@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: e2c742abe5db21ef567d07cf88755eb459d8e091
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 97e7bf44233e0986459be9edf719cd21cd3d7a01
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006624"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637586"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Proteção de dados no Power BI (pré-visualização)
 
@@ -105,8 +105,8 @@ A lista seguinte fornece algumas limitações de etiquetas de confidencialidade 
 * A [proteção do HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) não é suportada para etiquetas aplicadas no Power BI.
 * A visualização e a aplicação de etiquetas em aplicações do Office estão sujeitas a [requisitos de licenciamento](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels).
 * As etiquetas de confidencialidade só são suportadas para inquilinos na cloud (pública) global. As etiquetas de confidencialidade não são suportadas para inquilinos noutras clouds.
-* As etiquetas de confidencialidade de dados não são suportadas para aplicações de modelo.
-* O Power BI não suporta etiquetas de confidencialidade dos tipos de proteção **Não reencaminhar** e **Ad-Hoc**.
+* As etiquetas de confidencialidade de dados não são suportadas para aplicações de modelo. As etiquetas de confidencialidade definidas pelo criador de aplicações de modelo serão removidas quando a aplicação é extraída e instalada e as etiquetas de confidencialidade adicionadas a artefactos numa aplicação de modelo instalada pelo consumidor de aplicações serão perdidas (repostas a zero) quando a aplicação é atualizada.
+* O Power BI não suporta etiquetas de confidencialidade dos tipos de proteção **Não Reencaminhar** e **Ad Hoc**.
 
 ## <a name="next-steps"></a>Próximos passos
 

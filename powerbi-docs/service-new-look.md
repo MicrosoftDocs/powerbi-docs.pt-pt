@@ -92,5 +92,5 @@ Mantivemos a experiência de criação semelhante à experiência do Desktop. As
 ## <a name="next-steps"></a>Próximos passos
 
 - [Utilizar o friso atualizado no Power BI Desktop](desktop-ribbon.md)
-- [Opt in to the workspace 'new look'](collaborate-share/service-workspaces-new-look.md) (Aceitar o “novo aspeto” da área de trabalho)
+- [Aceitar o “novo aspeto” da área de trabalho](collaborate-share/service-workspaces-new-look.md)
 - [Power BI para consumidores](consumer/end-user-consumer.md)
