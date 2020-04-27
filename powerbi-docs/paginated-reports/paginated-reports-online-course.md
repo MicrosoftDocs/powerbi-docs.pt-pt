@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267601"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675648"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Curso online: Power BI Paginated Reports in a Day (Relatórios Paginados do Power BI num Dia)
 
@@ -83,7 +83,7 @@ Este [curso com 24 vídeos](https://www.youtube.com/playlist?list=PL1N57mwBHtN1i
 
 Pode transferir e configurar um kit de estudo autónomo, que consiste no conteúdo de apresentação e oito laboratórios práticos:
 
-1. Utilize [esta ligação](https://aka.ms/priad-ilt-student) para transferir o kit de estudo autónomo (.zip) localmente para o seu PC.
+1. Utilize [esta ligação](https://aka.ms/priad-student) para transferir o kit de estudo autónomo (.zip) localmente para o seu PC.
 1. Abra as propriedades do ficheiro e selecione "desbloquear" (o Windows pode sinalizar o ficheiro como potencialmente não confiável).
 1. Extraia os conteúdos do ficheiro para uma pasta no seu sistema de ficheiros. Recomendamos que crie uma pasta que será fácil de encontrar ao atribuir o nome **Formação**, por exemplo. Os documentos do laboratório referem-se a esta localização como **&lt;CourseFolder&gt;** .
 
@@ -105,6 +105,10 @@ Quando estiver pronto para iniciar o primeiro laboratório, abra o ficheiro **&l
 > Tem de iniciar sessão no Power BI para publicar um ficheiro do Power BI Desktop numa área de trabalho. A publicação resulta num conjunto de dados que é utilizado como uma origem de dados de relatório. Não precisa de uma licença do Power BI Pro ou uma subscrição do Power BI Premium para utilizar um conjunto de dados como uma origem de dados do relatório.
 >
 > No entanto, algumas tarefas do laboratório envolvem a publicação do seu próprio relatório paginado numa área de trabalho. Só pode abrir um relatório paginado quando for guardado numa área de trabalho na [capacidade dedicada](../service-premium-what-is.md#dedicated-capacities), que tem a área de trabalho dos relatórios paginados ativada. Se não tiver acesso a uma área de trabalho adequada, receberá uma ligação para ver um vídeo que demonstra a publicação do relatório.
+
+## <a name="instructor-kit"></a>Kit do professor
+
+Utilize [esta ligação](https://aka.ms/priad-instructor) para transferir o kit do professor (.zip) localmente para o PC.
 
 ## <a name="next-steps"></a>Próximos passos
 

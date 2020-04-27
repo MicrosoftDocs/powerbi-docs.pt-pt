@@ -10,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/24/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bfec81aaa47f210855c4db4c8c97ab259b685110
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 10d1e87fabc54c5886930c52ce60ed4a62479847
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302437"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525451"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Subscrever um relatório ou dashboard no serviço Power BI 
 
@@ -33,7 +33,7 @@ Quando receber o e-mail, verá que este inclui uma ligação para "ir para o rel
 
 
 ## <a name="requirements"></a>Requirements
-**Criar** uma subscrição para si requer um certo tipo de [licença](end-user-license.md). Se não conseguir criar uma subscrição, contacte o administrador do Power BI. **Subscrever outros** só está disponível para o proprietário do relatório ou do dashboard. A subscrição de relatórios paginados é ligeiramente diferente. Veja  [Subscrever relatórios paginados no serviço Power BI para si e para outras pessoas](paginated-reports-subscriptions.md)  para obter mais informações. 
+**Criar** uma subscrição para si requer um certo tipo de [licença](end-user-license.md). Se não conseguir criar uma subscrição, contacte o administrador do Power BI. **Subscrever outros** só está disponível para o proprietário do relatório ou do dashboard. A subscrição de relatórios paginados é ligeiramente diferente. Veja [Subscrever um relatório paginado no serviço Power BI para si e para outras pessoas](paginated-reports-subscriptions.md) para obter mais informações. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Subscrever um dashboard ou uma página de relatórios
 Quer esteja a subscrever um dashboard ou um relatório, o processo é semelhante. O mesmo botão permite-lhe subscrever os dashboards e os relatórios do serviço Power BI.
@@ -55,7 +55,7 @@ Quer esteja a subscrever um dashboard ou um relatório, o processo é semelhante
 
     c. Opcionalmente, adicione um assunto e preencha os detalhes da mensagem de e-mail. 
 
-    d. Selecione uma **Frequência** para a sua subscrição.  Pode selecionar as opções Diariamente, Semanalmente ou Depois da atualização de dados (Diariamente).  Para receber o e-mail de subscrição apenas em determinados dias, selecione **Semanalmente** e escolha os dias em que o pretende receber.  Por exemplo, se quiser receber o e-mail de subscrição apenas durante os dias úteis, selecione a opção **Semanalmente** e desmarque as caixas Sáb. e Dom. Se selecionar  **Mensalmente**, introduza os dias do mês nos quais quer receber o e-mail de subscrição.   
+    d. Selecione uma **Frequência** para a sua subscrição.  Pode selecionar as opções Diariamente, Semanalmente ou Depois da atualização de dados (Diariamente).  Para receber o e-mail de subscrição apenas em determinados dias, selecione **Semanalmente** e escolha os dias em que o pretende receber.  Por exemplo, se quiser receber o e-mail de subscrição apenas durante os dias úteis, selecione a opção **Semanalmente** e desmarque as caixas Sáb. e Dom. Se selecionar **Mensalmente**, introduza os dias do mês nos quais pretende receber o e-mail de subscrição.   
 
     e. Se escolher Diariamente, Hora a Hora, Mensalmente ou Semanalmente, também poderá escolher uma Hora Agendada para a subscrição. Pode definir para que seja executada a cada hora ou a cada 15, 30 ou 45 minutos. Selecione manhã ou tarde/noite. Também pode especificar o fuso horário. Se escolher Hora a Hora, selecione a Hora Agendada para o início da subscrição e esta será executada a cada hora.  
 
@@ -73,7 +73,7 @@ Quer esteja a subscrever um dashboard ou um relatório, o processo é semelhante
 
 
 ## <a name="manage-your-subscriptions"></a>Gerir as subscrições
-Apenas o utilizador pode gerir as subscrições que cria. Selecione **Subscrever** novamente e escolha **Gerir todas as subscrições** no canto inferior esquerdo (ver capturas de ecrã acima). As subscrições específicas apresentadas dependem da área de trabalho atualmente ativa. Para ver todas as subscrições de uma só vez para todas as áreas de trabalho, confirme que a opção  **A Minha Área de Trabalho**  está ativa. Para o ajudar a compreender as áreas de trabalho, veja  [Áreas de Trabalho no Power BI](end-user-workspaces.md). 
+Apenas o utilizador pode gerir as subscrições que cria. Selecione **Subscrever** novamente e escolha **Gerir todas as subscrições** no canto inferior esquerdo (ver capturas de ecrã acima). As subscrições específicas apresentadas dependem da área de trabalho atualmente ativa. Para ver todas as subscrições de uma só vez para todas as áreas de trabalho, certifique-se de que a opção **A Minha Área de Trabalho** está ativa. Para ajudar a compreender as áreas de trabalho, veja [Áreas de Trabalho no Power BI](end-user-workspaces.md). 
 
 ![ver todas as subscrições em A Minha Área de Trabalho](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 

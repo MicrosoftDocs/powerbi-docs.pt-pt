@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267509"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525474"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportar relatório do Power BI para ficheiro (pré-visualização)
 
@@ -106,6 +106,7 @@ Uma tarefa que exceda o número de pedidos simultâneos não termina. Por exempl
 * Um relatório com uma etiqueta de confidencialidade não pode ser exportado para um .pdf ou um .pptx através de um [principal de serviço](embed-service-principal.md).
 * O número de páginas que podem ser incluídas num relatório exportado é de 30. Se o relatório incluir mais páginas, a API devolverá um erro e a tarefa de exportação será cancelada.
 * Não são suportados [marcadores pessoais](../../consumer/end-user-bookmarks.md#personal-bookmarks) nem [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/).
+* As clouds soberanas não são suportadas.
 * Os elementos visuais do Power BI listados abaixo não são suportados. Quando for exportado um relatório com estes elementos visuais, as partes do relatório que contêm estes elementos visuais não serão compostas e apresentarão um símbolo de erro.
     * Elementos visuais do Power BI não certificados
     * Visuais R
