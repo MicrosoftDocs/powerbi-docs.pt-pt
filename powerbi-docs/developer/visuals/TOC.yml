@@ -26,6 +26,8 @@
           href: power-bi-custom-visuals-organization.md
         - name: Diretrizes de elementos visuais do Power BI
           href: guidelines-powerbi-visuals.md
+        - name: Sugestões de desempenho
+          href: performance-tips.md
         - name: Visuals FAQ (FAQ sobre elementos visuais)
           href: power-bi-custom-visuals-faq.md
         - name: Using capabilities (Utilizar capacidades)
@@ -70,6 +72,8 @@
           href: enable-sync-slicers.md
         - name: Elementos visuais de depuração
           href: visuals-how-to-debug.md
+        - name: Mobile development (Desenvolvimento para dispositivos móveis)
+          href: mobile-development.md
         - name: Troubleshoot Power BI visuals (Resolver problemas com os elementos visuais do Power BI)
           href: power-bi-custom-visuals-troubleshoot.md
     - name: Referência
@@ -104,6 +108,8 @@
               href: utils-svg.md
             - name: Utilitários de escrita
               href: utils-type.md
+            - name: Test utils (Utilitários de teste)
+              href: utils-test.md
             - name: Utilitários de descrição
               href: utils-tooltip.md
             - name: Utilitários de vista de dados
