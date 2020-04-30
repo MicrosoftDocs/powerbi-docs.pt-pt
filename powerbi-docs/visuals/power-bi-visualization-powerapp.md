@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 03/17/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5628a114b872b7c0d92d5079198616a20fe85b87
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.openlocfilehash: bd27973a1cf6a73ba79079911ec175f990925524
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/18/2020
-ms.locfileid: "81637779"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585458"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Tutorial: Incorporar um elemento visual do Power Apps num relatório Power BI
 
@@ -107,4 +107,4 @@ Se não quiser continuar a utilizar o Exemplo de Análise de Oportunidade, pode 
 
 ## <a name="next-steps"></a>Próximos passos
 [Q&A visual](power-bi-visualization-types-for-reports-and-q-and-a.md)   (Elemento visual Perguntas e Respostas)  
-[Tutorial: Incorporar um elemento visual do Power Apps num relatório Power BI](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)
+[Tutorial: Incorporar um elemento visual do Power Apps num relatório Power BI](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)    

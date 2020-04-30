@@ -2,20 +2,20 @@
 title: Exemplo de controlo da COVID-19 das autoridades locais e estaduais dos EUA
 description: Transfira e modifique o relatório de exemplo com dados locais e estaduais dos EUA para a pandemia da COVID-19.
 author: LukaszPawlowski-MS
-ms.reviewer: ''
+ms.reviewer: maggies
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 66e76c21e7d5171d24ff1518745a35947aa7ca42
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979782"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584923"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>Exemplo de controlo da COVID-19 das autoridades locais e estaduais dos EUA
 
@@ -48,7 +48,7 @@ Para incluir o gráfico interativo no site, copie e cole o seguinte código de i
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-O código de incorporação é um elemento iFrame HTML que pode inserir em qualquer página HTML. Ajuste a largura e a altura do iFrame fornecido para caber dentro do site. O relatório de exemplo é criado com as proporções 16:9, por isso, escolha um tamanho para preservar esta dimensão. Quando implementado corretamente, o gráfico aparece sem limites cinzentos extra. É útil que reveja [as sugestões e truques de dimensões do iFrame](../service-publish-to-web.md#tips-and-tricks-for-iframe-height-and-width) ao fazer estas alterações.
+O código de incorporação é um elemento iFrame HTML que pode inserir em qualquer página HTML. Ajuste a largura e a altura do iFrame fornecido para caber dentro do site. O relatório de exemplo é criado com as proporções 16:9, por isso, escolha um tamanho para preservar esta dimensão. Quando implementado corretamente, o gráfico aparece sem limites cinzentos extra. É útil que reveja [as sugestões e truques de dimensões do iFrame](../service-publish-to-web.md#tips-for-iframe-height-and-width) ao fazer estas alterações.
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>Opção 2: Personalizar o ficheiro do Power BI de exemplo
 
@@ -112,7 +112,7 @@ Se quiser publicar o relatório personalizado no site, o melhor é configurar a 
 
 ### <a name="create-a-publish-to-web-embed-code"></a>Criar um código de incorporação para publicação na Web 
 
-Para incorporar o relatório personalizado no seu próprio site, siga as instruções para [criar o seu próprio código de incorporação para publicação na Web](../service-publish-to-web.md#how-to-use-publish-to-web).
+Para incorporar o relatório personalizado no seu próprio site, siga as instruções para [criar o seu próprio código de incorporação para publicação na Web](../service-publish-to-web.md#create-embed-codes-with-publish-to-web).
 
 Assim que publicar o código de incorporação, utilize o iFrame na caixa de diálogo de confirmação para incorporar no site.
 
