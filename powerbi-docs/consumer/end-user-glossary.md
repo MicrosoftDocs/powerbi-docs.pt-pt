@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 101cdbc7ad7ea5d07edf182765d305ad2f1fa8c7
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267233"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120120"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário para o serviço Power BI
 O serviço Power BI pode introduzir terminologia que é confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar a terminologia, pode até mesmo guardá-la nos marcadores. Outro recurso excelente para saber mais sobre os blocos de construção que formam o serviço Power BI é [Conceitos Básicos](end-user-basic-concepts.md). Conceitos básicos proporciona uma perspetiva geral de alto nível das *partes* do Power BI e de como estão ligadas.
@@ -22,9 +22,9 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
 
 ## <a name="a"></a>A
 
-**conta** Existem diferentes tipos de contas do Power BI, também denominadas de *licenças*.  As contas são: por utilizador ou profissionais. As contas por utilizador estão disponíveis como *gratuitas* ou *Pro*.  Um utilizador *gratuito* do Power BI está a utilizar o Power BI Desktop autónomo ou está a utilizar o serviço Power BI dentro de uma conta profissional Premium. A conta *Pro* por utilizador do Power BI é uma subscrição mensal paga que permite a colaboração e a partilha de conteúdos com outros utilizadores *Pro*. 
+**conta** Existem diferentes tipos de contas do Power BI, também denominadas de *licenças* ou *subscrições*.  As contas são: por utilizador ou organizacionais. As contas por utilizador estão disponíveis como *gratuitas* ou *Pro*.  Um utilizador *gratuito* do Power BI está a utilizar o Power BI Desktop autónomo ou está a utilizar o serviço Power BI autónomo ou a utilizar o serviço Power BI dentro de uma subscrição organizacional Premium. A conta *Pro* por utilizador do Power BI é uma subscrição mensal paga que permite a colaboração e a partilha de conteúdos com outros utilizadores *Pro*. 
 
-A conta profissional *Premium* (também denominada de *capacidade Premium*) adiciona uma camada de funcionalidades às licenças por utilizador. Por exemplo, os titulares de uma conta por utilizador *gratuita* numa organização que possui uma licença *Premium* podem fazer muito mais com o Power BI do que os utilizadores *gratuitos* sem uma licença *Premium*. Por exemplo, os utilizadores *gratuitos* em contas organizacionais *Premium* podem colaborar com os colegas e visualizar os conteúdos alojados na capacidade do Power BI Premium.  
+A subscrição organizacional *Premium* (também denominada de *capacidade Premium*) adiciona uma camada de funcionalidades às licenças por utilizador. Por exemplo, os titulares de uma conta por utilizador *gratuita* numa organização que possui uma subscrição *Premium* podem fazer muito mais com o Power BI do que os utilizadores *gratuitos* sem uma licença *Premium*. Por exemplo, os utilizadores *gratuitos* em contas organizacionais *Premium* podem colaborar com os colegas e visualizar os conteúdos alojados na capacidade do Power BI Premium. 
 
 **admin portal (portal de administração)** A localização onde os administradores do Power BI gerem utilizadores, recursos e definições para o Power BI na sua organização. (Nota: o Office 365, o Azure e o PowerApps utilizam o centro de administração.)
 
@@ -86,7 +86,7 @@ A conta profissional *Premium* (também denominada de *capacidade Premium*) adic
 
 **cross-highlight (realce cruzado)** Aplica-se a interações visuais. O realce cruzado retém todos os pontos de dados originais, mas escurece a parte que não se aplica à sua seleção. Por exemplo, a seleção de **Moderação** no gráfico em anel permite realçar o gráfico de colunas de forma cruzada. O gráfico de colunas escurece todos os dados que não se aplicam ao segmento Moderação e realça todos os dados que se aplicam ao segmento Moderação.
 
-**custom visual (elemento visual personalizado)** Os elementos visuais que são criados pela comunidade e pela Microsoft. Podem ser transferidos da loja Office para utilização nos relatórios do Power BI.
+**custom visual (elemento visual personalizado0** Os elementos visuais que são criados pela comunidade e pela Microsoft. Podem ser transferidos da loja Office para utilização nos relatórios do Power BI.
 
 ## <a name="d"></a>D
 

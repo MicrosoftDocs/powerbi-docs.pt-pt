@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/19/2020
+ms.date: 04/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1b23f76425fdf7ceb245b25bcc2b7551dabf0600
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496699"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120258"
 ---
 # <a name="apps-in-power-bi"></a>Aplicações no Power BI
 
@@ -29,8 +29,8 @@ As suas aplicações estão organizadas na lista de conteúdos **Aplicações**.
 
 ![Aplicações no Power BI](./media/end-user-apps/power-bi-apps.png)
 
-> [!NOTE]
-> A utilização da funcionalidade de aplicações requer uma licença do Power BI Pro. [Procurar o seu tipo de licença](end-user-license.md)
+
+A utilização da funcionalidade de aplicações exige uma licença do Power BI Pro ou que a aplicação seja armazenada na capacidade Premium. Para saber mais sobre licenças e capacidade Premium, veja [Licenças para consumidores](end-user-license.md).
 
 ## <a name="app-designers-and-app-consumers"></a>*Designers* e *consumidores* de aplicações
 Consoante o seu cargo, pode ser uma pessoa que cria aplicações (*designer*) para sua utilização ou para partilhar com colegas. Também pode ser uma pessoa que recebe e transfere aplicações (*consumidor*) criadas por outras pessoas. Este artigo é direcionado para *consumidores* de aplicações.
@@ -44,8 +44,8 @@ Com as aplicações, sempre que o autor da aplicação lançar atualizações, o
 ## <a name="get-a-new-app"></a>Obter uma nova aplicação
 Pode obter aplicações de várias formas diferentes. Algumas dessas formas estão listadas abaixo.  No entanto, para receber instruções detalhadas de forma a obter e explorar uma aplicação, veja [Abrir e interagir com uma aplicação](end-user-app-view.md).
 
-- O estruturador de aplicações pode instalar a aplicação automaticamente na sua conta do Power BI e, na próxima vez que abrir o Power BI, verá a nova aplicação na sua lista de conteúdos **Aplicações**. 
-- O estruturador de aplicações pode enviar-lhe uma ligação direta para uma aplicação. Ao selecionar a ligação abre a aplicação no Power BI.
+- O estruturador de aplicações pode instalar a aplicação automaticamente na sua conta do Power BI e, na próxima vez que abrir o serviço Power BI, verá a nova aplicação na sua lista de conteúdos **Aplicações**. 
+- O estruturador de aplicações pode enviar-lhe uma ligação direta para uma aplicação. Ao selecionar a ligação, abre a aplicação no serviço Power BI.
 - Quanto ao Power BI no seu dispositivo móvel, só pode instalar uma aplicação a partir de uma ligação direta. Não pode fazê-lo a partir do AppSource. Se o autor instalar a aplicação automaticamente, irá vê-la na sua lista de aplicações.
 - Pode procurar aplicações no [AppSource](https://appsource.microsoft.com). O AppSource contém aplicações publicadas por designers de relatórios dentro e fora da sua empresa. Por exemplo, pode encontrar uma aplicação no AppSource para um serviço que já utiliza, como o Google Analytics, o GitHub ou o Microsoft Dynamics. Também irá encontrar exemplos de aplicações que pode utilizar para saber mais sobre o Power BI.  
 

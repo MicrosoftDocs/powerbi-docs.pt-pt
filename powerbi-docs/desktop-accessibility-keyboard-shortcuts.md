@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c4db4d659c64fba8b7a79e6e36a5f27d8dd5d34
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 986c09e404e0190a3efee8480d413d49cbd49186
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869382"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584814"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Atalhos de teclado no Power BI Desktop
 
@@ -36,7 +36,7 @@ Para além de utilizar estes atalhos de teclado no **Power BI Desktop**, esses 
 Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista anterior de experiências também suporta leitores de ecrã e definições de alto contraste.
 
 ## <a name="frequently-used-shortcuts"></a>Atalhos frequentes
-| Para executar esta ação           | Prima                |
+| Para efetuar esta ação           | Prima                |
 | :------------------- | :------------------- |
 | Mover o foco entre secções  | **Ctrl+F6** |
 | Mover o foco para a frente na secção | **Tecla de Tabulação**         |
@@ -44,8 +44,8 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 | Selecionar ou desselecionar um objeto | **Enter** ou **Barra de Espaço** |
 | Selecionar vários objetos | **Ctrl+Barra de Espaço** |
 
-## <a name="on-visual"></a>No visual
-| Para executar esta ação           | Prima                |
+## <a name="on-visual"></a>No elemento visual
+| Para efetuar esta ação           | Prima                |
 | :------------------- | :------------------- |
 | Mover o foco para o menu visual | **Alt+Shift+F10** |
 | Mostrar dados | **Alt+Shift+F11**  |
@@ -56,6 +56,7 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 | Seleção múltipla | **Ctrl+Enter** ou **Ctrl+Barra de Espaço** |
 | Clique com o botão direito do rato | <ul><li>Teclado do Windows: **Tecla de Contexto do Windows+F10.** A tecla de contexto do Windows está entre a tecla Alt à direita e a tecla Seta Para a Esquerda</li><li>Outro teclado: **Shift+F10**</li></ul> |
 | Limpar seleção | **Ctrl+Shift+C** |
+| Mostrar ou ocultar a descrição | **Ctrl+H** |
 
 ## <a name="table-and-matrix-navigation"></a>Navegação em tabelas e matrizes
 | Para efetuar esta ação          | Prima                |
@@ -74,12 +75,12 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 | Abrir um menu de contexto | <ul><li>Teclado do Windows: **Tecla de Contexto do Windows+F10.**  A tecla de contexto do Windows está entre a tecla Alt à direita e a tecla Seta Para a Esquerda</li><li>Outro teclado: **Shift+F10**</li></ul> |
 
 ## <a name="slicer"></a>Segmentação de Dados
-| Para executar esta ação         | Prima                |
+| Para efetuar esta ação         | Prima                |
 | :------------------- | :------------------- |
 | Interagir com uma segmentação de dados | **Ctrl+Seta Para a Direita** |
 
 ## <a name="selection-pane"></a>Painel de seleção
-| Para executar esta ação           | Prima                |
+| Para efetuar esta ação           | Prima                |
 | :------------------- | :------------------- |
 | Ativar o painel de seleção | **F6** |
 | Mover um objeto para cima nas camadas | **Ctrl+Shift+F** |

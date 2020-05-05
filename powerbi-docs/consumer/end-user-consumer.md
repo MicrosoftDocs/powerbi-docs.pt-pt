@@ -5,15 +5,15 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 02/24/2020
+ms.date: 04/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fb1209103c88e78148f746321d5ff8d8bd6e1a20
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: b3f23b85d048a4ca4232152e5d2252c522a036ac
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79039958"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120246"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>O serviço Power BI para consumidores
 
@@ -45,7 +45,7 @@ Enquanto consumidor, não terá acesso a todas as funcionalidades do Power BI, o
 
 Irá certamente deparar-se com o termo "Power BI Desktop" ou apenas "Desktop", que é uma ferramenta autónoma utilizada pelos *criadores* que criam e partilham dashboards e relatórios consigo.  É importante saber que existem outras ferramentas do Power BI. No entanto, se for um consumidor, só irá trabalhar com o serviço Power BI. 
 
-E, como está a trabalhar com conteúdos *partilhados*, precisará de uma licença **gratuita** Standard, que funcione numa organização que está a utilizar uma capacidade **Premium**. [Qual é a minha licença?](end-user-license.md)
+Dado que está a trabalhar com conteúdos *partilhados*, tudo o que irá precisar é de uma licença **gratuita** porque está a trabalhar numa organização que está a utilizar uma capacidade **Premium**. [Qual é a minha licença?](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>Interagir com conteúdos de forma segura 

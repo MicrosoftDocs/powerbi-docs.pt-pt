@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006808"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585058"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentação de Dados no Power BI
 
@@ -131,6 +131,11 @@ No relatório atual, a página **Vendas Mensais Distritais** também tem uma seg
     >[!NOTE]
     >Se sincronizar uma segmentação de dados numa página, mas não a tornar visível nessa página, as seleções da segmentação de dados efetuadas nas outras páginas continuarão a filtrar os dados na página.
  
+## <a name="filtering-slicers"></a>Filtrar segmentações de dados
+Pode aplicar filtros de nível visual às segmentações de dados para reduzir a lista de valores que são apresentados na segmentação. Por exemplo, pode filtrar valores em branco de uma segmentação de listas ou filtrar certas datas de uma segmentação de dados de intervalo. Quando o faz, isso só afeta *os valores que são apresentados na segmentação de dados* e não *o filtro que a segmentação de dados aplica a outros elementos visuais* quando faz uma seleção. Digamos, por exemplo, que aplica um filtro a uma segmentação de dados de intervalo para apresentar apenas certas datas. A seleção na segmentação de dados só apresentará as primeiras e últimas datas desse intervalo, mas continuaria a ver outras datas noutros elementos visuais. Assim que alterar o intervalo selecionado na segmentação de dados, verá a atualização dos outros elementos visuais. Se limpar a segmentação de dados, todas as datas serão novamente apresentadas.
+
+Veja [Tipos de filtro](../power-bi-report-filter-types.md) para obter mais informações sobre filtros de nível visual.
+
 ## <a name="format-slicers"></a>Formatar as segmentações de dados
 Estão disponíveis diferentes opções de formatação, dependendo do tipo de segmentação de dados. Ao utilizar a orientação **Horizontal**, o esquema **Reativo** e a cor **Item**, pode criar botões ou mosaicos em vez de itens de lista padrão e fazer com que os itens da segmentação de dados sejam redimensionados para se ajustarem aos diferentes tamanhos de ecrã e esquemas.  
 

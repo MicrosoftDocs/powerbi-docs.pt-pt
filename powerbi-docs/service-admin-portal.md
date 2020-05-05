@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/16/2020
+ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: e44a50a6e44006c0b23b0d57917f16260fdbe2f8
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114468"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585419"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -203,32 +203,30 @@ A imagem seguinte mostra a mensagem que aparece quando partilha com um utilizado
 
 ### <a name="publish-to-web"></a>Publicar na Web
 
-Os utilizadores na organização podem publicar os relatórios na Web. [Saiba mais](service-publish-to-web.md). A publicação disponibiliza o relatório e os dados que contém disponíveis a qualquer pessoa na Web.
+Como administrador de um inquilino do Power BI, a definição **Publicar na Web** permite-lhe escolher os utilizadores que podem criar códigos de incorporação para publicar relatórios na Web. Esta funcionalidade permite-lhe disponibilizar o relatório e os dados que contém a qualquer pessoa na Web. Saiba mais sobre como [publicar na Web](service-publish-to-web.md).
 
 > [!NOTE]
-> O administrador do Power BI tem de permitir a criação de novos códigos de incorporação de publicação na Web. As organizações podem ter códigos de incorporação existentes. Utilize a página [Códigos de incorporação](service-admin-portal.md#embed-codes) para ver os relatórios atualmente publicados.
+> Apenas o administrador do Power BI pode permitir a criação de novos códigos de incorporação de publicação na Web. As organizações poderão já ter códigos de incorporação. Veja a secção [Códigos de incorporação](service-admin-portal.md#embed-codes) do portal de administração para consultar os relatórios atualmente publicados.
 
-A imagem seguinte mostra o menu **Ficheiro** de um relatório quando a definição **Publicar na Web** está ativada.
+A imagem seguinte mostra o menu **Mais opções (...)** de um relatório quando a definição **Publicar na Web** está ativada.
 
-![Publicar na Web no menu de ficheiros](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![Publicar na Web no menu Mais opções](media/service-admin-portal/power-bi-more-options-publish-web.png)
 
-A definição **Publicar na Web** apresenta opções para definir quais os utilizadores que podem criar códigos de incorporação.
+A definição **Publicar na Web** no portal de administração permite escolher os utilizadores que podem criar códigos de incorporação.
 
 ![Definição Publicar na Web](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
 
-
-É pedido aos utilizadores que contactem o administrador do Power BI para que permita a criação de um código de incorporação quando a opção **Escolher como os códigos de incorporação funcionam** está definida como **Permitir apenas códigos de incorporação existentes** e a definição **Publicar na web** está **Ativada**.
+Os administradores podem definir **Publicar na Web** como **Ativada** e **Escolha como funcionam os códigos de incorporação** como **Permitir apenas códigos de incorporação existentes**. Nesse caso, os utilizadores podem criar códigos de incorporação, mas têm de contactar o administrador do Power BI para lhes permitir isso.
 
 ![Pedido para publicar na Web](media/service-publish-to-web/publish_to_web_admin_prompt.png)
-
 
 Os utilizadores veem opções diferentes na IU consoante a definição **Publicar na Web**.
 
 |Funcionalidade |Ativada para toda a organização |Desativada para toda a organização |Grupos de segurança específicos   |
 |---------|---------|---------|---------|
-|**Publicar na Web**, no menu **Ficheiro** do relatório.|Ativada para todos|Não visível para todos|Visível apenas para utilizadores ou grupos autorizados.|
+|**Publicar na Web** no menu **Mais opções (...)** do relatório|Ativada para todos|Não visível para todos|Visível apenas para utilizadores ou grupos autorizados.|
 |**Gerir códigos de incorporação**, em **Definições**|Ativada para todos|Ativada para todos|Ativada para todos<br><br>* A opção **Eliminar** está ativada apenas para utilizadores e grupos autorizados.<br>* A opção **Obter códigos** está ativada para todos.|
-|**Incorporar códigos** no portal de administração|O estado é um dos seguintes:<br>* Ativo<br>* Não suportado<br>* Bloqueado|O estado apresenta **Desativado**|O estado é um dos seguintes:<br>* Ativo<br>* Não suportado<br>* Bloqueado<br><br>Se um utilizador não tiver autorizações com base na definição do inquilino, o estado apresentado será **Em violação**.|
+|**Incorporar códigos** no portal de administração|O estado é um dos seguintes:<br>* Ativo<br>* Não suportado<br>* Bloqueado|O estado apresenta **Desativado**|O estado é um dos seguintes:<br>* Ativo<br>* Não suportado<br>* Bloqueado<br><br>Se um utilizador não tiver autorizações com base na definição do inquilino, o estado é apresentado como **Em violação**.|
 |Relatórios publicados existentes|Todos ativados|Todos desativados|Os relatórios continuam a ser compostos para todos.|
 
 ### <a name="export-data"></a>Exportar dados

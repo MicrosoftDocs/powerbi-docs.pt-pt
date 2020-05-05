@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 218a05c41c3befed8f8600f6a584560f5be92a1f
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 4ce9946672514d3d3f181c573789b256888a4372
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76709569"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584833"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>Especificar categorias de dados no Power BI Desktop
 No Power BI Desktop, pode especificar a *categoria de dados* de uma coluna para que o Power BI Desktop saiba como tratar esses valores numa visualização.
@@ -33,7 +33,7 @@ O Power BI Desktop deve mostrar uma imagem do mundo com países realçados? Ou d
 **Para especificar uma categoria de dados**
 
 1. Na Vista de **Relatório** ou de **Dados**, na lista **Campos**, selecione o campo que pretende ordenar por uma categorização diferente.
-2. No friso, na área **Propriedades** do separador **Modelação**, selecione a seta pendente ao lado de **Categoria de Dados**.  Esta lista mostra as categorias de dados que pode escolher para a coluna. Algumas seleções podem estar desativadas se não funcionarem com o tipo de dados atual da coluna.  Por exemplo, se uma coluna for um tipo de dados binário, o Power BI Desktop não permite que escolha categorias de dados geográficos. 
+2. No friso, na área **Propriedades** do separador **Modelação**, selecione a seta pendente ao lado de **Categoria de Dados**.  Esta lista mostra as categorias de dados que pode escolher para a coluna. Algumas seleções podem estar desativadas se não funcionarem com o tipo de dados atual da coluna.  Por exemplo, se uma coluna for um tipo de dados de data ou hora, o Power BI Desktop não permite que escolha categorias de dados geográficos. 
 3. Selecione a categoria que pretende.
 
    ![](media/desktop-data-categorization/desktop-data-categorization.png)

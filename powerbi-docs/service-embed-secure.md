@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4be8a1ce88d50461ca51bb65278b823046459e30
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488827"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585009"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Incorporar um relatório num site ou portal seguro
 
@@ -22,11 +22,13 @@ Com a nova opção **Incorporar** dos relatórios do Power BI, pode permitir que
 
 A opção **Incorporar** suporta [Filtros de URL](service-url-filters.md) e definições de URL. Permite-lhe integrar portais através de uma abordagem de código reduzido que apenas requer conhecimento básico de HTML e JavaScript.
 
-## <a name="how-to-embed-power-bi-reports-into-portals"></a>Como **Incorporar** relatórios do Power BI em portais
+## <a name="how-to-embed-power-bi-reports-into-portals"></a>Como incorporar relatórios do Power BI em portais
 
-1. A nova opção **Incorporar** está disponível no menu **Ficheiro** para relatórios no serviço Power BI.
+1. Abra um relatório no serviço Power BI.
 
-    ![Opção de menu pendente da opção Incorporar segura](media/service-embed-secure/secure-embed-drop-down-menu.png)
+2. No menu **Mais opções (...)** , selecione **Incorporar** >  **Site ou portal**.
+
+    ![Opção Site ou portal](media/service-embed-secure/power-bi-more-options-website.png)
 
 2. Selecione a opção **Incorporar** para abrir uma caixa de diálogo que apresenta uma ligação e um iFrame que pode utilizar para incorporar o relatório de forma segura.
 
