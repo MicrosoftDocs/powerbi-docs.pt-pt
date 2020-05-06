@@ -1,5 +1,5 @@
 ---
-title: Dados reais do SQL Server Analysis Services no Power BI
+title: SQL Server Analysis Services live data in Power BI (Dados dinâmicos do SQL Server Analysis Services no Power BI)
 description: Dados dinâmicos do SQL Server Analysis Services no Power BI. Isto é feito através de uma origem de dados configurada para um gateway empresarial.
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,13 +11,13 @@ ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 00b7c98236f37505fbb0ddec81a45b65bf3e3ee6
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871197"
 ---
-# <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Dados reais do SQL Server Analysis Services no Power BI
+# <a name="sql-server-analysis-services-live-data-in-power-bi"></a>SQL Server Analysis Services live data in Power BI (Dados dinâmicos do SQL Server Analysis Services no Power BI)
 
 No Power BI, existem duas formas de ligar a um servidor do SQL Server Analysis Services. Em **Obter dados**, pode lugar a um servidor do SQL Server Analysis Services ou a um [ficheiro do Power BI Desktop](service-desktop-files.md) ou [livro do Excel](service-excel-workbook-files.md), já ligado a um servidor do Analysis Services. Como melhor prática, a Microsoft recomenda vivamente que utilize o Power BI Desktop devido à riqueza do conjunto de ferramentas e à capacidade para manter uma cópia de segurança do ficheiro do Power BI Desktop localmente.
 
@@ -48,7 +48,7 @@ Depois de ligar ao modelo, este será apresentado no site do Power BI em **A Min
 
 ![Ligar-se a conjunto de dados](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 
-## <a name="dashboard-tiles"></a>Os mosaicos do dashboard
+## <a name="dashboard-tiles"></a>Mosaicos de dashboard
 
 Se afixar elementos visuais de um relatório no dashboard, os mosaicos afixados serão atualizados automaticamente a cada 10 minutos. Se os dados no servidor do Analysis Services no local forem atualizados, os mosaicos serão atualizados automaticamente após 10 minutos.
 
@@ -56,9 +56,9 @@ Se afixar elementos visuais de um relatório no dashboard, os mosaicos afixados 
 
 * Erro "Não é possível carregar o esquema do modelo" – Este erro ocorre quando o utilizador que está a ligar ao SSAS não tem acesso à base de dados, ao cubo e ao modelo SSAS.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
-* [On-premises data gateway (Gateway de dados no local)](service-gateway-onprem.md)  
+* [Gateway de dados no local](service-gateway-onprem.md)  
 * [Gerir origens de dados do Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 * [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
 
