@@ -1,5 +1,5 @@
 ---
-title: Vídeos do Power BI
+title: Power BI videos (Vídeos do Power BI)
 description: Vídeos do Power BI e ligação para o canal do YouTube.
 author: davidiseminger
 ms.reviewer: ''
@@ -10,13 +10,13 @@ ms.topic: conceptual
 ms.date: 03/03/2020
 ms.author: davidi
 ms.openlocfilehash: 41a0d100817f23d3a395f05cefbe60a0214bfb59
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78260859"
 ---
-# <a name="power-bi-videos"></a>Vídeos do Power BI
+# <a name="power-bi-videos"></a>Power BI videos (Vídeos do Power BI)
 Temos um canal do YouTube para o Power BI! Pode visitar o [nosso canal](https://www.youtube.com/user/mspowerbi/videos) e, se for novo no Power BI, um bom lugar para começar é a [Lista de reprodução Analisar e Visualizar dados com o Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
 
 Seguem-se alguns vídeos das listas de reprodução para o ajudar a começar.
@@ -42,9 +42,9 @@ Seguem-se alguns vídeos das listas de reprodução para o ajudar a começar.
 ## <a name="more-videos"></a>Mais vídeos
 Consulte a seguinte coleção de origens e conteúdo para mais vídeos.
 
-* [Aprendizagem Orientada para o Power BI](https://powerbi.microsoft.com/guided-learning/) - uma apresentação sequencial do Power BI, em peças de tamanho de bytes
+* [Aprendizagem Orientada para o Power BI](https://powerbi.microsoft.com/guided-learning/) - uma tour de apresentação sequencial do Power BI, em peças de tamanho de bytes
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [O que é o Power BI?](fundamentals/power-bi-overview.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

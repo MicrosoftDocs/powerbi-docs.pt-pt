@@ -10,10 +10,10 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: ee32d10ffeb22160b054661ca91c46890a877fa3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871468"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Partilhar um dashboard do Power BI associado a um ficheiro do Excel no OneDrive
@@ -53,7 +53,7 @@ a partilha de um dashboard a partir de uma área de trabalho do Power BI é seme
 
 ![Partilhar a partir do OneDrive](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_onedriveshare.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Afixar um mosaico a um dashboard do Power BI a partir do Excel](service-dashboard-pin-tile-from-excel.md)
 * [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
 * Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

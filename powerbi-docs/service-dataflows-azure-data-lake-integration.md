@@ -10,13 +10,13 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 5b13fdc1f65fe2650ea0fb4fee1be20611ac3e8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877305"
 ---
-# <a name="dataflows-and-azure-data-lake-integration-preview"></a>Integração dos fluxos de dados e do Azure Data Lake (Pré-visualização)
+# <a name="dataflows-and-azure-data-lake-integration-preview"></a>Dataflows and Azure Data Lake integration (Preview) (Integração do Azure Data Lake e fluxos de dados [Pré-visualização])
 
 Por predefinição, os dados utilizados com o Power BI são armazenados no armazenamento interno fornecido pelo Power BI. Com a integração dos fluxos de dados e do Azure Data Lake Storage Gen2 (ADLS Gen2), pode armazenar os seus fluxos de dados na conta do Azure Data Lake Storage Gen2 da sua organização. 
 
@@ -70,7 +70,7 @@ As pessoas ou serviços externos ao Power BI também podem tirar partido de form
 ) fornece detalhes completos sobre os esquemas de autorização disponíveis.
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Este artigo disponibilizou uma descrição geral da integração dos fluxos de dados do Power BI, das pastas de CDM e do Azure Data Lake Storage Gen2. Para obter informações adicionais, veja os seguintes artigos:
 

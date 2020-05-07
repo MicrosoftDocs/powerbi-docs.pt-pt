@@ -10,10 +10,10 @@ ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
 ms.openlocfilehash: c2a4719a03e37569e40d4247939a9f2c73379e52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872502"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>De um livro do Excel a um relatório incrível no serviço Power BI
@@ -60,7 +60,7 @@ O serviço Power BI liga a muitas origens de dados, incluindo ficheiros do Excel
 
 5. Na página **Obter Dados**, na caixa **Ficheiros** em **Criar novo conteúdo**, selecione **Obter**.
 
-   ![Obter dados de ficheiros](media/service-from-excel-to-stunning-report/pbi_get_files.png)
+   ![Get data from files (Obter dados de ficheiros)](media/service-from-excel-to-stunning-report/pbi_get_files.png)
 
 6. Na página **Ficheiros**, selecione **Ficheiro Local**. Navegue para o ficheiro de livro do Excel no seu computador e selecione **Abrir** para o carregar no serviço Power BI. 
 
@@ -133,7 +133,7 @@ Imagine que pretende partilhar o seu dashboard com o seu gestor. Pode partilhar 
 
    ![Janela Partilhar dashboard](media/service-from-excel-to-stunning-report/power-bi-share-dash-new.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Introdução ao serviço Power BI](service-get-started.md)
 * [Introdução ao Power BI Desktop](desktop-getting-started.md)

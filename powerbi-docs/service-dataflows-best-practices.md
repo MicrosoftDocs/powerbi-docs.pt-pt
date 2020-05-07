@@ -10,10 +10,10 @@ ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 4bbc8b71455d01405854304dd4b889f664ce8575
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877299"
 ---
 # <a name="dataflows-best-practice"></a>Melhores práticas dos fluxos de dados
@@ -64,7 +64,7 @@ Além das melhores práticas descritas anteriormente, pode criar um fluxo de dad
 
 Se estiver a enfrentar limitações ou estiver a ver falhas regulares nos fluxos de dados devido a limites de memória na capacidade, considere separar os fluxos de dados ou aumentar verticalmente a capacidade Premium para memória adicional.
 
-## <a name="next-steps"></a>Próximos Passos
+## <a name="next-steps"></a>Passos Seguintes
 
 Este artigo forneceu informações sobre as melhores práticas dos fluxos de dados. Para obter mais informações sobre os fluxos de dados, os artigos seguintes podem ser úteis:
 
@@ -80,5 +80,5 @@ Para obter informações sobre o desenvolvimento do CDM e os recursos de tutoria
 
 
 Para obter mais informações sobre o Power Query e a atualização agendada, pode ler estes artigos:
-* [Descrição geral das consultas no Power BI Desktop](desktop-query-overview.md)
+* [Descrição geral de consulta no Power BI Desktop](desktop-query-overview.md)
 * [Configurar a atualização agendada](refresh-scheduled-refresh.md)

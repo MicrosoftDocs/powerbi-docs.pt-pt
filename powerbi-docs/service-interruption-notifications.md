@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: kfollis
 ms.openlocfilehash: 85b26b68c4943e0bc100be7a298730cec34cfc78
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637759"
 ---
 # <a name="service-interruption-notifications"></a>Service interruption notifications (Notificações de interrupção do serviço)
@@ -49,9 +49,9 @@ Os administradores de inquilinos do Power BI têm de seguir os passos abaixo par
     ![Ativar notificações de serviço](media/service-interruption-notifications/enable-notifications.png)
 
 > [!NOTE]
-> O Power BI envia notificações da conta no-reply-powerbi@microsoft.com. Certifique-se de que essa conta está na lista de permissões para que as notificações não acabem numa pasta de spamou de lixo.
+> O Power BI envia notificações da conta no-reply-powerbi@microsoft.com. Certifique-se de que essa conta está na lista de permissões para que as notificações não acabem numa pasta de spam{1}{2}ou de lixo.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [Opções de suporte para o Power BI Pro e Power BI Premium](service-support-options.md)
 

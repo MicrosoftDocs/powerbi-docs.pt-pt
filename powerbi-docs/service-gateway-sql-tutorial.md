@@ -1,5 +1,5 @@
 ---
-title: 'Tutorial: Ligar a dados no local no SQL Server'
+title: 'Tutorial: ligar a dados no local no SQL Server'
 description: Saiba como utilizar o SQL Server como uma origem de dados do gateway, incluindo como atualizar os dados.
 author: arthiriyer
 ms.reviewer: kayu
@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958448"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Atualizar dados de uma base de dados do SQL Server no local
@@ -103,7 +103,7 @@ No Power BI Desktop, ligou diretamente à sua base de dados do SQL Server no loc
 
 3. Expanda a **Ligação de gateway** e certifique-se de que está listado pelo menos um gateway. Se não tiver um gateway, veja a secção [Pré-requisitos](#prerequisites) apresentada anteriormente neste tutorial para obter uma ligação para a documentação de produto que explica como instalar e configurar um gateway.
 
-    ![Ligação do gateway](./media/service-gateway-sql-tutorial/gateway-connection.png)
+    ![Ligação do Gateway](./media/service-gateway-sql-tutorial/gateway-connection.png)
 
 4. Em **Ações**, expanda o botão de alternar para ver as origens de dados e selecione a ligação **Adicionar a um gateway**.
 
@@ -114,15 +114,15 @@ No Power BI Desktop, ligou diretamente à sua base de dados do SQL Server no loc
 
 5. Na página de gestão **Gateways**, no separador **Definições da Origem de Dados**, introduza e verifique as seguintes informações e selecione **Adicionar**.
 
-    | Opção | Valor |
+    | Opção | Value |
     | --- | --- |
     | Nome da Origem de Dados | ProdutosAdventureWorks |
     | Tipo de Origem de Dados | SQL Server |
     | Servidor | O nome da sua instância do SQL Server, como SQLServer01 (tem de ser idêntico ao que especificou no Power BI Desktop). |
-    | Base de Dados | O nome da sua base de dados do SQL Server, como AdventureWorksDW (tem de ser idêntico ao que especificou no Power BI Desktop). |
+    | Base de dados | O nome da sua base de dados do SQL Server, como AdventureWorksDW (tem de ser idêntico ao que especificou no Power BI Desktop). |
     | Método de Autenticação | Básico ou do Windows (normalmente, é o do Windows). |
-    | Nome de utilizador | A conta de utilizador que utiliza para ligar ao SQL Server. |
-    | Palavra-passe | A palavra-passe da conta que utiliza para ligar ao SQL Server. |
+    | Nome de Utilizador | A conta de utilizador que utiliza para ligar ao SQL Server. |
+    | Password | A palavra-passe da conta que utiliza para ligar ao SQL Server. |
 
     ![Definições da origem de dados](./media/service-gateway-sql-tutorial/data-source-settings.png)
 
@@ -143,7 +143,7 @@ Agora que já ligou o seu conjunto de dados no Power BI à sua base de dados do 
 
 3. Selecione a **Frequência de atualização** mais adequada (**Diariamente**, neste exemplo) e, em seguida, em **Hora**, selecione **Adicionar outra hora** para especificar a hora de atualização pretendida (6:30 e 18:30, neste exemplo).
 
-    ![Configurar a atualização agendada](./media/service-gateway-sql-tutorial/configure-scheduled-refresh.png)
+    ![Configure scheduled refresh (Configurar a atualização agendada)](./media/service-gateway-sql-tutorial/configure-scheduled-refresh.png)
 
     > [!NOTE]
     > Pode configurar até 8 intervalos de tempo diários se o conjunto de dados estiver na capacidade partilhada ou 48 intervalos de tempo no Power BI Premium.
@@ -201,7 +201,7 @@ Agora, siga estes passos, para que os dados atualizados possam passar pela liga�
 
 Se já não quiser utilizar os dados de exemplo, elimine a base de dados do SQL Server Management Studio (SSMS). Se não quiser utilizar a origem de dados do SQL Server, remova a origem de dados do seu gateway de dados. Pondere a desinstalação do gateway de dados se o tiver instalado apenas para este tutorial. Também deve eliminar o conjunto de dados ProdutosAdventureWorks e o relatório ProdutosAdventureWorks que o Power BI criou quando carregou o ficheiro ProdutosAdventureWorks.pbix.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Neste tutorial, descobriu como pode importar dados de uma base de dados do SQL Server no local para um conjunto de dados do Power BI e como pode atualizar este conjunto de dados de forma agendada e a pedido para manter os relatórios e dashboards que utilizam este conjunto de dados atualizados no Power BI. Agora, pode saber mais sobre a gestão de gateways de dados e origens de dados no Power BI. Também é recomendado rever o artigo conceptual Atualização de dados no Power BI.
 

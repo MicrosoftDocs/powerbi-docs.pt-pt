@@ -11,10 +11,10 @@ ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74415402"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>Utilizar medidas rápidas para realizar cálculos comuns
@@ -50,10 +50,10 @@ Os cinco tipos de cálculos de medidas rápidas, com os seus cálculos, são:
 * **Análise de tempo**
   * Total do ano até à data
   * Total do trimestre até à data
-  * Total acumulado do mês
+  * Total do mês até à data
   * Alteração ano a ano
   * Alteração trimestre a trimestre
-  * Alteração mês a mês
+  * Alteração ao longo dos meses
   * Média móvel
 * **Totais**
   * Total corrente
@@ -134,5 +134,5 @@ Existem algumas limitações e considerações a ter em conta.
 Pode utilizar as suas próprias tabelas de dados personalizadas com medidas rápidas da análise de tempo. Se estiver a utilizar um modelo em tabela externo, certifique-se de que, quando o modelo foi criado, a coluna da data principal na tabela foi marcada como uma tabela de datas, conforme descrito em [Especificar Marcar como Tabela de Datas para utilizar com análise de tempo](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular). Se estiver a importar a sua própria tabela de datas, certifique-se de que marca a mesma como uma tabela de datas, conforme descrito em [Configurar e utilizar tabelas de datas no Power BI Desktop](desktop-date-tables.md).
 
 ### <a name="additional-information-and-examples"></a>Informações adicionais e exemplos
-Tem uma ideia para uma medida rápida que ainda não tenha sido dada? Excelente! Consulte a página [Ideias do Power BI](https://go.microsoft.com/fwlink/?linkid=842906) e envie a suas ideias e fórmulas DAX para medidas rápidas que gostaria de ver no Power BI Desktop. Iremos considerar adicioná-las à lista de medidas rápidas numa versão futura.
+Tem uma ideia para uma medida rápida que ainda não tenha sido dada? Ótimo! Consulte a página [Ideias do Power BI](https://go.microsoft.com/fwlink/?linkid=842906) e envie a suas ideias e fórmulas DAX para medidas rápidas que gostaria de ver no Power BI Desktop. Iremos considerar adicioná-las à lista de medidas rápidas numa versão futura.
 

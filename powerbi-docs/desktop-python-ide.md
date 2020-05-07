@@ -10,10 +10,10 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: dbdd4076c9944cf0335ed1f6b6aa43a2a3887189
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73865975"
 ---
 # <a name="use-an-external-python-ide-with-power-bi"></a>Utilizar um IDE de Python externo com o Power BI
@@ -26,7 +26,7 @@ Pode iniciar o IDE de Python externo a partir do **Power BI Desktop** e fazer co
 
 Pode especificar o IDE de Python que pretende utilizar e fazer com que seja iniciado automaticamente a partir do **Power BI Desktop**.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 Para utilizar esta funcionalidade, tem de instalar um **IDE de Python** no seu computador local. O **Power BI Desktop** não inclui, implementa nem instala o mecanismo de Python, pelo que é necessário instalar separadamente o **Python** no seu computador local. Pode escolher o IDE de Python a utilizar com as seguintes opções:
 
 * Pode instalar o seu IDE de Python favorito, muitos dos quais estão disponíveis gratuitamente, tal como o [Visual Studio Code (página de transferência)](https://code.visualstudio.com/download/).
@@ -80,7 +80,7 @@ Iniciar um IDE de Python diretamente a partir do Power BI Desktop tem algumas li
 
 * A exportação automática do script do IDE de Python para o **Power BI Desktop** não é suportada.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Veja as seguintes informações adicionais sobre o Python no Power BI.
 
 * [Executar scripts de Python no Power BI Desktop](desktop-python-scripts.md)

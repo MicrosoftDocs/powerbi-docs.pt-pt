@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 02/14/2020
 ms.openlocfilehash: 9469127ea28b0370edebd4c044bd929ff22c488f
-ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81675721"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Como depurar elementos visuais do Power BI
@@ -89,6 +89,6 @@ Também pode definir o browser para ser interrompido ao capturar exceções. Est
 
 ![Campos de função de dados](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Resolver problemas com os elementos visuais do Power BI](power-bi-custom-visuals-troubleshoot.md)
 * Para obter mais informações e respostas a perguntas, veja [Perguntas frequentes sobre os elementos visuais do Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)

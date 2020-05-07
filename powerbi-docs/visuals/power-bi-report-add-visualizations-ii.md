@@ -10,10 +10,10 @@ ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 132c795724b6f3744e0648ac1f3229c5e6538a97
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75758428"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Adicionar elementos visuais a um relatório do Power BI (parte 2)
@@ -36,7 +36,7 @@ Este tutorial utiliza o [ficheiro PBIX de Exemplo de análise de revenda](https:
 
 1. Abra o **Ficheiro PBIX do Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+1. Seleção ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
 ## <a name="add-visualizations-to-the-report"></a>Adicione visualizações ao relatório
 
@@ -69,7 +69,7 @@ Crie uma visualização selecionando um campo no painel **Campos**. O tipo de vi
 2. Adicione uma legenda.  Para ver os dados pelo nome da loja, arraste **Store** (Loja) > **Chain** (Cadeia) para a área Legenda.  
    ![tela de relatórios com uma seta a apontar da Cadeia na lista de campos para a Cadeia no registo Legenda](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
-## <a name="next-steps"></a>Próximos passos
-* Mais sobre [Visualizações nos relatórios do Power BI](power-bi-report-visualizations.md).  
+## <a name="next-steps"></a>Próximas etapas
+* Mais sobre [Visualizações em relatórios do Power BI](power-bi-report-visualizations.md).  
 * Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

@@ -11,10 +11,10 @@ ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 2de2cd80dbffc8c65a4577fffd6a8e41bc6116d2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873802"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Adicionar uma hiperligação a uma caixa de texto num relatório
@@ -59,7 +59,7 @@ Para obter informações sobre as hiperligações em tabelas e matrizes do Power
 
    O Power BI Desktop remove a hiperligação, mas mantém o texto.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Caixas de texto e formas em relatórios do Power BI](power-bi-reports-add-text-and-shapes.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).

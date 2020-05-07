@@ -10,10 +10,10 @@ ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: c9de9031fdbee48fca3b9a025fe2547ec08a5f20
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871030"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Alterar o tipo de visualização num relatório do Power BI
@@ -34,10 +34,10 @@ Experimente diferentes tipos de visualizações no serviço Power BI e no Power 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 Se alterar o tipo de visualização no relatório após afixar a visualização ao seu dashboard, o mosaico do dashboard não será atualizado automaticamente. Portanto, se utilizou o serviço Power BI para fixar a visualização como um gráfico de linhas e, em seguida, no relatório, foi alterado para um gráfico de barras, a versão fixada desses dados permanece um gráfico de linhas. Fixe o gráfico de barras para vê-lo também no dashboard.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Mais sobre [Visualizações nos relatórios do Power BI](power-bi-report-visualizations.md)
 
-[Power BI - Conceitos Básicos](../consumer/end-user-basic-concepts.md)
+[Power BI - conceitos básicos](../consumer/end-user-basic-concepts.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

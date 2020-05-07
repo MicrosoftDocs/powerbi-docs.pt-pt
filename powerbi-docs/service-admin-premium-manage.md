@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637911"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Configurar e gerir capacidades no Power BI Premium
@@ -126,7 +126,7 @@ Os administradores de capacidade, em conjunto com os administradores do Power BI
 
     ![Atribuir áreas de trabalho](media/service-admin-premium-manage/assign-workspaces.png)
 
-   | Seleção | Descrição |
+   | Selection | Descrição |
    | --- | --- |
    | **Áreas de trabalho por utilizadores** | Quando atribui áreas de trabalho por utilizador ou grupo, todas as áreas de trabalho pertencentes a esses utilizadores são atribuídas à capacidade de Premium, incluindo a área de trabalho pessoal do utilizador. Os utilizadores referidos obtêm automaticamente permissões de atribuição de áreas de trabalho.<br>Isto inclui áreas de trabalho já atribuídas a uma capacidade diferente. |
    | **Áreas de trabalho específicas** | Introduza o nome de uma área de trabalho específica a atribuir à capacidade selecionada. |
@@ -159,13 +159,13 @@ No separador **Definições de capacidade** do portal do administração do Powe
 
 ![Chave do Power BI Report Server nas definições de capacidade](media/service-admin-premium-manage/pbirs-product-key.png)
 
-Ao selecionar **Chave do Power BI Report Server**, será apresentada uma caixa de diálogo com a sua chave de produto. Pode copiá-la e utilizá-la na instalação.
+Ao selecionar **chave do Power BI Report Server**, será apresentada uma caixa de diálogo com a sua chave de produto. Pode copiá-la e utilizá-la na instalação.
 
 ![Chave de produto do Power BI Report Server](media/service-admin-premium-manage/pbirs-product-key-dialog.png)
 
 Para obter mais informações, consulte [Instalar o Power BI Report Server](report-server/install-report-server.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [Gerir as capacidades Premium](service-premium-capacity-manage.md)
 

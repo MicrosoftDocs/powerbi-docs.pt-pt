@@ -1,5 +1,5 @@
 ---
-title: Não é possível adicionar o Power BI ao parceiro do O365
+title: Unable to add Power BI to O365 partner (Não é possível adicionar o Power BI ao parceiro do Office 365)
 description: Não é possível adicionar o Power BI a um parceiro de distribuição do Office 365. O modelo de distribuição é um modelo de compra utilizado pelo Office 365.
 author: kfollis
 ms.reviewer: ''
@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: cc85fb07f50a42952e9b293908a797b1cbac023f
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958362"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Não é possível adicionar o Power BI a uma subscrição de parceiro do Office 365
@@ -52,13 +52,13 @@ Pode inscrever-se numa avaliação gratuita do Power BI. Se não comprar o Powe
 
 ### <a name="enable-ad-hoc-subscriptions"></a>Ativar as subscrições ad-hoc
 
-Por predefinição, as inscrições individuais (também conhecidas como subscrições ad-hoc) estão desativadas. Neste caso, é apresentada a seguinte mensagem quando se tenta inscrever: *O departamento de TI desativou a inscrição para o Microsoft Power BI*.
+Por predefinição, as inscrições individuais (também conhecidas como subscrições ad-hoc) estão desativadas. Neste caso, pode ver a seguinte mensagem quando tentar inscrever-se: *O departamento de TI desativou a inscrição no Microsoft Power BI*.
 
 ![Imagem Lamentamos](media/service-admin-syndication-partner/sorry.png)
 
 Para ativar as subscrições ad-hoc, contacte o seu parceiro e peça-lhe que as ative. Se for um administrador do inquilino e souber utilizar os comandos do Azure Active Directory PowerShell, poderá ativar as subscrições ad-hoc. [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2/) (Azure Active Directory PowerShell para Graph)
 
-1. Inicie sessão no Azure Active Directory com as suas credenciais do Office 365. A primeira linha do script abaixo pede-lhe as suas credenciais. Na segunda linha, será ligado ao Azure Active Directory.
+1. Inicie sessão no Azure Active Directory com as suas credenciais do Office 365. A primeira linha do script abaixo pede-lhe as suas credenciais. Na segunda linha, é ligado ao Azure Active Directory.
 
     ```powershell
     $msolcred = get-credential
@@ -79,7 +79,7 @@ Para ativar as subscrições ad-hoc, contacte o seu parceiro e peça-lhe que as 
     Set-MsolCompanySettings -AllowAdHocSubscriptions $true
     ```
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [Licenciamento do Power BI na sua organização](service-admin-licensing-organization.md)
 

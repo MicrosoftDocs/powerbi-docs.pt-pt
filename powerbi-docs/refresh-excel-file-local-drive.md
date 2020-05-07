@@ -1,5 +1,5 @@
 ---
-title: Atualizar um conjunto de dados criado com base numa pasta de trabalho do Excel – local
+title: Refresh a dataset created from an Excel workbook - local (Atualizar um conjunto de dados criado a partir de um livro do Excel – local)
 description: Atualizar um conjunto de dados criado com base numa pasta do Excel numa unidade local
 author: davidiseminger
 ms.reviewer: kayu
@@ -10,21 +10,21 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: bf007dfe70b5bfb7be9fa8c00865663b07210367
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698768"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Atualizar um conjunto de dados criado com base numa pasta do Excel numa unidade local
-## <a name="whats-supported"></a>O que é suportado?
+## <a name="whats-supported"></a>O que tem suporte?
 No Power BI, há suporte para os recursos Atualizar Agora e Agendar Atualização para os conjuntos de dados criados por meio de pastas de trabalho do Excel importadas de uma unidade local em que o Power Query (Obter e Transformar dados no Excel 2016) ou o Power Pivot é usado para se conectar a qualquer uma das seguintes origens de dados e carregar dados no modelo de dados do Excel:  
 
-### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
-* Todas as origens de dados online mostradas no Power Query.
+### <a name="power-bi-gateway---personal"></a>Gateway do Power BI - Pessoal
+* Todas as origens de dados online apresentadas no Power Query.
 * Todas as origens de dados locais apresentadas no Power Query, exceto o ficheiro do Hadoop (HDFS) e o Microsoft Exchange.
 * Todas as origens de dados online mostradas no Power Pivot.\*
-* Todas as origens de dados locais mostradas no Power Pivot, exceto o ficheiro do Hadoop (HDFS) e o Microsoft Exchange.
+* Todas as origens de dados locais apresentadas no Power Pivot, exceto o ficheiro do Hadoop (HDFS) e o Microsoft Exchange.
 
 <!-- Refresh Data sources-->
 [!INCLUDE [refresh-datasources](./includes/refresh-datasources.md)]
@@ -38,7 +38,7 @@ No Power BI, há suporte para os recursos Atualizar Agora e Agendar Atualizaçã
 > 
 > 
 
-## <a name="how-do-i-make-sure-data-is-loaded-to-the-excel-data-model"></a>Como ter certeza de que os dados são carregados no modelo de dados do Excel?
+## <a name="how-do-i-make-sure-data-is-loaded-to-the-excel-data-model"></a>Como me certifico de que os dados são carregados no modelo de dados do Excel?
 Quando usa o Power Query (Obter e Transformar dados no Excel 2016) para se ligar a uma origem de dados, tem várias opções de onde carregar os dados. Para se certificar de que carrega os dados no modelo de dados, tem de selecionar a opção **Adicionar estes dados ao Modelo de Dados** na caixa de diálogo **Carregar para**.
 
 > [!NOTE]
@@ -63,21 +63,21 @@ Quando configurar um agendamento de atualização, o Power BI ligará diretament
 
 Para obter detalhes sobre como configurar a atualização de agendamento, veja [Configurar uma atualização agendada](refresh-scheduled-refresh.md).
 
-## <a name="when-things-go-wrong"></a>Quando acontece algo de errado
+## <a name="when-things-go-wrong"></a>Quando algo dá errado
 Quando ocorre algo errado, normalmente isso deve-se ao facto de o Power BI não conseguir iniciar sessão nas origens de dados ou se o conjunto de dados ligar a uma origem de dados no local, o gateway ficar offline. Certifique-se de que o Power BI consegue iniciar sessão nas origens de dados. Se uma palavra-passe que utiliza para entrar numa origem de dados for alterada ou o Power BI for desligado de uma origem de dados, certifique-se de que se inscreve novamente nas suas origens de dados nas Credenciais da Origem de Dados.
 
-Lembre-se de deixar marcada a opção **Enviar-me e-mail de notificação de falha de atualização**. Vai querer saber imediatamente de uma falha numa atualização agendada.
+Lembre-se de deixar marcada a opção **Enviar-me e-mail de notificação de falha de atualização**. Quer saber imediatamente de uma falha numa atualização agendada.
 
 >[!IMPORTANT]
->Não é suportada a atualização de feeds OData ligados e consultados do Power Pivot. Ao utilizar um feed OData como uma origem de dados, use o Power Query.
+>Não é suportada a atualização de feeds OData ligados e consultados do Power Pivot. Ao utilizar um feed OData como uma origem de dados, utilize o Power Query.
 
-## <a name="troubleshooting"></a>Resolução de problemas
+## <a name="troubleshooting"></a>Troubleshooting (Resolução de problemas)
 Por vezes, atualizar os dados pode não correr como esperado. Normalmente, este problema está ligado a um gateway. Veja os artigos de resolução de problemas de gateways para ferramentas e problemas conhecidos.
 
 [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)
 
 [Resolver problemas do Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

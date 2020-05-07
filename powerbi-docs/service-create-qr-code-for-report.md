@@ -10,10 +10,10 @@ ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c98f06afe2af93e32d98ff1c3147cc15b64fbb57
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853372"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Criar um código QR para um relatório no Power BI a utilizar nas aplicações móveis
@@ -46,9 +46,9 @@ O Power BI gera o código QR como um ficheiro JPG pronto para impressão.
 1. Imprima o ficheiro em 100% ou "tamanho real".  
 2. Corte o código QR pelas margens e cole-o num local relevante para o relatório. 
 
-## <a name="next-steps"></a>Próximos passos
-* [Ligar a dados do Power BI do mundo real](consumer/mobile/mobile-apps-data-in-real-world-context.md) com as aplicações móveis
+## <a name="next-steps"></a>Próximas etapas
+* [Ligar-se a dados do Power BI do mundo real](consumer/mobile/mobile-apps-data-in-real-world-context.md) com as aplicações móveis
 * [Digitalizar um código QR do Power BI a partir do seu dispositivo móvel](consumer/mobile/mobile-apps-qr-code.md)
 * [Criar um código QR para um mosaico](service-create-qr-code-for-tile.md)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

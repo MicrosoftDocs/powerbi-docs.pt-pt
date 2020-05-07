@@ -1,5 +1,5 @@
 ---
-title: Formatação de tabela condicional no Power BI Desktop
+title: Conditional table formatting in Power BI Desktop (Formatação de tabela condicional no Power BI Desktop)
 description: Aplicar formatação personalizada a tabelas
 author: davidiseminger
 ms.reviewer: ''
@@ -10,10 +10,10 @@ ms.date: 12/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c79a8ddd68fa64b0a16663500a3f02e9a991835b
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75730528"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>Utilizar a formatação condicional em tabelas 
@@ -173,7 +173,7 @@ Existem algumas considerações a ter em mente ao trabalhar com formatação con
 - Pode aplicar a formatação de gradação com valores máximos/mínimos automáticos ou a formatação baseada em regras se os seus dados tiverem valores *NaN*. NaN significa "Não é um número" e, geralmente, é causado por um erro de divisão por zero. Pode utilizar a [função DIVIDE() DAX ](https://docs.microsoft.com/dax/divide-function-dax) para evitar estes erros.
 - A formatação condicional precisa de uma agregação ou de uma medida para ser aplicada ao valor. É por isso que é apresentado "Primeiro" ou "Último" no exemplo de **Cor por valor**. Se estiver a criar o seu relatório num cubo multidimensional do Analysis Service, não poderá utilizar um atributo para a formatação condicional, a menos que o proprietário do cubo tenha criado uma medida que fornece o valor.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Para obter mais informações sobre a formatação de cores, veja [Dicas e truques para formatação com cores no Power BI](visuals/service-tips-and-tricks-for-color-formatting.md).  
 

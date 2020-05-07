@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
 ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/12/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73925840"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>Configurar o acesso da aplicação móvel do Power BI para um Servidor de Relatórios remotamente
@@ -67,7 +67,7 @@ Eis um exemplo de definição da política de configuração com o Intune.
 
 Agora, podem ver e interagir com os KPIs e os relatórios do Power BI armazenados no Servidor de Relatórios.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 - [Ativar o acesso remoto ao Power BI Mobile com o Proxy de Aplicações do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
 - [Descrição geral para administradores](admin-handbook-overview.md)  

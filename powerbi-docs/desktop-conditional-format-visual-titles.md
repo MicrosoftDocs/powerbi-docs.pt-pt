@@ -10,10 +10,10 @@ ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f3c1f047e3be7520005458294381877d1198ee21
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878615"
 ---
 # <a name="expression-based-titles-in-power-bi-desktop"></a>Títulos baseados em expressões no Power BI Desktop
@@ -70,7 +70,7 @@ De momento, a implementação de títulos baseados em expressões para elementos
 * O tipo de dados do campo que criar para o título tem de ser uma cadeia de carateres. Atualmente, não são suportadas medidas que devolvem números ou data/hora (ou qualquer outro tipo de dados).
 * Os títulos baseados em expressões não são transferidos quando afixa um elemento visual a um dashboard.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Este artigo descreveu como criar expressões DAX que transformam os títulos dos seus elementos visuais em campos dinâmicos que podem mudar à medida que os utilizadores interagem com os seus relatórios. Também poderá achar os seguintes artigos úteis.
 

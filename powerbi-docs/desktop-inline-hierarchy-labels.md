@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: db86fee2303759d30b2ff64dc59b56314f220474
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73867341"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Utilizar etiquetas de hierarquia inline no Power BI Desktop
@@ -63,7 +63,7 @@ Quando **PaísDoEnvio** estiver selecionado, os dados serão ordenados com base 
 > 
 > 
 
-## <a name="troubleshooting"></a>Resolução de problemas
+## <a name="troubleshooting"></a>Troubleshooting (Resolução de problemas)
 É possível que os elementos visuais fiquem bloqueados num estado de nível de hierarquia inline expandido. Em alguns casos, pode verificar que alguns dos elementos visuais estão bloqueados no modo a partir do qual foram expandidos. Nesse caso, a agregação não funciona. Isto pode acontecer se seguiu os passos seguintes (a correção está *abaixo* destes passos):
 
 Passos que podem bloquear os elementos visuais num estado expandido:

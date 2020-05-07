@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 10aec8659fcb643c5b0511360ba798c7b4873c77
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697894"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Intercalar ou anexar origens de dados na cloud e no local
@@ -35,7 +35,7 @@ Pode utilizar o gateway de dados no local para intercalar ou anexar origens de d
 
 1. No canto superior direito do serviço Power BI, selecione o ícone de engrenagem ![Ícone de engrenagem de Definições](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) > **Gerir gateways**.
 
-    ![Gerir gateways](media/service-gateway-mashup-on-premises-cloud/manage-gateways.png)
+    ![Gerir os gateways](media/service-gateway-mashup-on-premises-cloud/manage-gateways.png)
 
 2. Selecione o gateway que pretende configurar.
 
@@ -58,6 +58,6 @@ Pode utilizar o gateway de dados no local para intercalar ou anexar origens de d
 
 7. Com as credenciais da cloud definidas, pode atualizar o conjunto de dados através da opção **Atualizar agora**. Em alternativa, pode agendá-la para ser atualizada periodicamente.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Para saber mais sobre a atualização dos dados dos gateways, veja [Utilizar a origem de dados para a atualização agendada](service-gateway-enterprise-manage-scheduled-refresh.md#use-the-data-source-for-scheduled-refresh).

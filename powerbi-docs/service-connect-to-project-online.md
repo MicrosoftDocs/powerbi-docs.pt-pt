@@ -10,10 +10,10 @@ ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 32d731c354d848809d336392ef51f667b14427d8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74565687"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Ligar-se ao Project Web App com o Power BI
@@ -21,7 +21,7 @@ O Microsoft Project Web App é uma solução online flexível para PPM (gestão 
 
 Ligue-se à [Aplicação de Modelos do Project Web App](https://appsource.microsoft.com/product/power-bi/pbi_msprojectonline.pbi-microsoftprojectwebapp) para o Power BI.
 
-## <a name="how-to-connect"></a>Como se ligar
+## <a name="how-to-connect"></a>Como ligar
 
 1. Selecione **Aplicações** no painel de navegação e selecione **Obter aplicações** no canto superior direito.
 
@@ -40,7 +40,7 @@ Ligue-se à [Aplicação de Modelos do Project Web App](https://appsource.micros
    ![Microsoft Project Web App](media/service-connect-to-project-online/getstarted.png)
 6. Em **Comece já com a sua nova aplicação** , selecione **Ligar dados**.
    
-   ![Ligar-se a dados](media/service-connect-to-project-online/mproject.png)
+   ![Ligar a dados](media/service-connect-to-project-online/mproject.png)
 7. Na caixa de texto **URL do Project Web App**, introduza o URL para o PWA (Project Web App) ao qual pretende ligar-se.  Observe que isso pode ser diferente do exemplo, caso tenha um domínio personalizado. Na caixa de texto **Idioma do Site do PWA**, escreva o número que corresponde ao seu idioma do site do PWA. Escreva o dígito "1" para inglês, "2" para francês, "3" para alemão, "4" para português (Brasil), "5" para português (Portugal) e "6" para espanhol. 
    
    ![Ligar a Microsoft Project Online](media/service-connect-to-project-online/params.png)
@@ -69,7 +69,7 @@ Ligue-se à [Aplicação de Modelos do Project Web App](https://appsource.micros
 
 Transfira o [ficheiro PBIT do GitHub](https://github.com/OfficeDev/Project-Power-BI-Content-Packs) para atualizar e personalizar ainda mais o Pacote de Conteúdos.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)

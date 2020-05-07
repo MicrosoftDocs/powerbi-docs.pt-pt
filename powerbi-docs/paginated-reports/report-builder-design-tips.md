@@ -9,10 +9,10 @@ ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 13b9e37d4a64493dfdcac02d9df86a1e19a1c24b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921177"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Sugestões de estrutura de relatórios no Report Builder do Power BI
@@ -20,7 +20,7 @@ ms.locfileid: "78921177"
   
    
   
-##  <a name="DesigningReports"></a> Estruturação de relatórios  
+##  <a name="designing-reports"></a><a name="DesigningReports"></a> Estruturação de relatórios  
   
 -   Um relatório bem estruturado transmite informações que conduzem à ação. Identifique as perguntas a que o relatório ajuda a responder. Tenha essas perguntas em mente quando estruturar o relatório.  
   
@@ -36,7 +36,7 @@ ms.locfileid: "78921177"
   
  Para obter mais informações sobre o que deve ter em consideração ao estruturar o seu relatório, veja [Planear um Relatório no Report Builder](report-builder-planning-report.md)).  
   
-##  <a name="NamingConventions"></a> Convenções de nomenclatura para relatórios, origens de dados e conjuntos de dados  
+##  <a name="naming-conventions-for-reports-data-sources-and-datasets"></a><a name="NamingConventions"></a> Convenções de nomenclatura para relatórios, origens de dados e conjuntos de dados  
   
 -   Utilize as convenções de nomenclatura para origens de dados e conjuntos de dados que documentem a origem dos dados.  
   
@@ -44,7 +44,7 @@ ms.locfileid: "78921177"
   
     2.  **Conjuntos de dados.** Utilize um nome que indique a origem de dados em que se baseia.  
   
-##  <a name="Data"></a>Trabalhar com dados  
+##  <a name="working-with-data"></a><a name="Data"></a>Trabalhar com dados  
   
 -   Em primeiro lugar, faça com que todos os dados com que pretende trabalhar apareçam no painel Dados do Relatório. Ao refinar as perguntas para as quais o relatório foi estruturado para responder, pense em como limitar os dados nos conjuntos de dados de relatórios para apenas os que são necessários.  
   
@@ -54,7 +54,7 @@ ms.locfileid: "78921177"
   
 -   Dependendo dos requisitos, pode apresentar os nomes e localizações das origens de dados de relatório, o texto do comando de consulta do conjunto de dados e os valores de parâmetros no relatório. A primeira pergunta colocada por muitos novos utilizadores tem a ver com a origem dos dados. De modo a reduzir a desorganização no relatório, pode ocultar condicionalmente as caixas de texto com este tipo de informações e permitir que os utilizadores escolham se querem vê-las. Experimente adicionar estas informações na última página do relatório. Defina a visibilidade da caixa de texto com base num parâmetro que o utilizador possa alterar.  
   
-##  <a name="DesignSurface"></a> Interagir com a superfície da estrutura do relatório  
+##  <a name="interacting-with-the-report-design-surface"></a><a name="DesignSurface"></a> Interagir com a superfície da estrutura do relatório  
  A superfície da estrutura do relatório não é WYSIWIG. Ao colocar os itens de relatório na superfície da estrutura, a sua localização relativa afeta a forma como os itens são apresentados na página de relatório composto. O espaço em branco é preservado.  
   
 -   Utilize botões de esquema e linhas de ajuste para alinhar e organizar os itens na superfície da estrutura do relatório. Por exemplo, pode alinhar as margens superiores ou margens de itens selecionados, expandir um item de acordo com o tamanho de outro item ou ajustar o espaçamento entre itens.  
@@ -77,7 +77,7 @@ ms.locfileid: "78921177"
   
 -   Para arrastar campos do painel Dados do Relatório para o painel Agrupamento, evite arrastar o campo por outros itens de relatório na superfície da estrutura, uma vez que isto seleciona os outros itens e desseleciona a região de dados de tablix. Arraste o campo para baixo no painel Dados do Relatório e, em seguida, para o painel Agrupamento.  
   
-###  <a name="Selecting"></a> Selecionar itens  
+###  <a name="selecting-items"></a><a name="Selecting"></a> Selecionar itens  
  Para ajudar a selecionar o objeto que pretende na superfície da estrutura do relatório, utilize a tecla Esc, o menu de contexto, o painel Propriedades e o painel Agrupamento.  
   
 -   -   Prima Esc para percorrer a pilha de itens de relatório que ocupam o mesmo espaço na superfície da estrutura.  
@@ -89,31 +89,31 @@ ms.locfileid: "78921177"
     -   Para trabalhar com grupos de linhas e grupos de colunas numa região de dados de tablix, selecione o grupo a partir do painel Agrupamento.  
 
   
-##  <a name="ReportItems"></a> Trabalhar com tipos específicos de itens de relatório  
+##  <a name="working-with-specific-types-of-report-items"></a><a name="ReportItems"></a> Trabalhar com tipos específicos de itens de relatório  
   
-###  <a name="Parameters"></a> Trabalhar com parâmetros  
+###  <a name="working-with-parameters"></a><a name="Parameters"></a> Trabalhar com parâmetros  
   
 -   A principal finalidade dos parâmetros de relatórios é filtrar os dados na origem de dados e recuperar apenas o que é necessário para efeitos de relatório.  
   
 -   Para os parâmetros de relatório, encontre um equilíbrio entre permitir a interatividade e ajudar um utilizador a obter os resultados que pretende. Por exemplo, pode definir valores predefinidos para um parâmetro para valores que sabe que são populares.  
   
-###  <a name="Text"></a> Trabalhar com texto  
+###  <a name="working-with-text"></a><a name="Text"></a> Trabalhar com texto  
   
 -   Ao colar várias linhas numa caixa de texto, o texto é adicionado como uma execução de texto. Cada execução de texto só pode ser formatada como uma unidade. Para formatar cada linha de forma independente, insira uma nova linha ao premir Enter na execução de texto, conforme necessário. Em seguida, pode aplicar estilos e formatação a cada linha de texto independente na caixa de texto.  
   
 -   Pode definir propriedades de formato e ações numa caixa de texto ou em texto de marcador de posição na caixa de texto. Se existir apenas uma linha de texto, é mais eficaz definir as propriedades da caixa de texto e não do texto.  
   
-###  <a name="Expressions"></a> Trabalhar com expressões  
+###  <a name="working-with-expressions"></a><a name="Expressions"></a> Trabalhar com expressões  
   
 -   Compreenda formatos de expressão simples e complexos. Pode escrever o formato de expressão simples diretamente nas caixas de texto, as propriedades no painel Propriedade ou em localizações nas caixas de diálogo que aceitem uma expressão.
   
 -   Ao criar uma expressão, esta ajuda a criar cada parte de forma independente e verifica o respetivo valor. Em seguida, pode combinar todas as partes numa expressão final. Uma técnica útil é adicionar uma caixa de texto numa célula de matriz, apresentar cada parte da expressão e definir a visibilidade condicional na caixa de texto. Para controlar o estilo e a cor do limite quando a caixa de texto está oculta, primeiro coloque a caixa de texto num retângulo e, em seguida, defina o estilo e a cor do limite do retângulo de acordo com a matriz.  
   
-###  <a name="Indicators"></a> Trabalhar com indicadores  
+###  <a name="working-with-indicators"></a><a name="Indicators"></a> Trabalhar com indicadores  
   
 -   Por predefinição, um indicador mostra pelo menos três estados. Depois de adicionar um indicador a um relatório, pode configurá-lo ao adicionar ou remover estados. Para facilitar a visualização pelos seus utilizadores, selecione um indicador que varie de acordo com a cor e a forma.  
   
-##  <a name="Rendering"></a> Controlar a composição dos itens de relatório na página de relatório  
+##  <a name="controlling-the-rendering-of-report-items-on-the-report-page"></a><a name="Rendering"></a> Controlar a composição dos itens de relatório na página de relatório  
   
 -   Na superfície da estrutura do relatório, os itens de relatório aumentam para acomodar os conteúdos do conjunto de dados, expressão, sub-relatório ou texto associado.  
   
@@ -145,6 +145,6 @@ ms.locfileid: "78921177"
 
  Este comportamento, as propriedades de largura e altura dos itens de relatório, o tamanho do corpo do relatório, a definição de largura e altura da página, as definições de margem do relatório principal e o suporte específico do compositor para paginação combinam-se para determinar que itens de relatório se conjugam numa página composta.
  
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)  

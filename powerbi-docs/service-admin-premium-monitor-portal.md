@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 18ae8828ce5811b4f06038b18ff6b423562c335b
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637697"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Monitorizar capacidades no Portal de administração
@@ -52,7 +52,7 @@ Cada carga de trabalho tem métricas adicionais. O tipo de métrica mostrada dep
 
 ![Expandir estado de funcionamento da carga de trabalho](media/service-admin-premium-monitor-portal/admin-portal-health-expand.png)
 
-#### <a name="dataflows"></a>Fluxos de Dados
+#### <a name="dataflows"></a>Fluxos de dados
 
 ##### <a name="dataflow-operations"></a>Operações do Fluxo de Dados
 
@@ -65,7 +65,7 @@ Cada carga de trabalho tem métricas adicionais. O tipo de métrica mostrada dep
 | Tempo Médio de Espera (min) | o atraso médio entre a hora agendada e o início da atualização do fluxo de dados, em minutos. |
 | Tempo Máximo de Espera (min) | o tempo máximo de espera do fluxo de dados, em minutos.  |
 
-#### <a name="datasets"></a>Conjuntos de Dados
+#### <a name="datasets"></a>Conjuntos de dados
 
 ##### <a name="refresh"></a>Atualizar
 
@@ -80,7 +80,7 @@ Cada carga de trabalho tem métricas adicionais. O tipo de métrica mostrada dep
 | Tempo Médio de Espera (min) | o atraso médio entre a hora agendada e o início da atualização do conjunto de dados, em minutos. |
 | Tempo Máximo de Espera (min) | o tempo máximo de espera do conjunto de dados, em minutos. |
 
-##### <a name="query"></a>Consulta
+##### <a name="query"></a>Dependências de
 
 | **Métrica** | **Descrição** |
 | --- | --- |
@@ -118,7 +118,7 @@ Cada carga de trabalho tem métricas adicionais. O tipo de métrica mostrada dep
 > [!NOTE]
 > As métricas detalhadas da carga de trabalho **IA** ainda não estão disponíveis.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Agora que tem uma noção de como monitorizar as capacidades do Power BI Premium, saiba mais sobre as capacidades de otimização.
 

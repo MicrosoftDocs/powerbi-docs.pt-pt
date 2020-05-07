@@ -10,10 +10,10 @@ ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872670"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Ligar a origens de dados de fluxos de dados do Power BI
@@ -49,18 +49,18 @@ Pode ver as origens de dados disponíveis ao selecionar **Obter Dados** nas ferr
 As origens de dados de fluxos de dados estão organizadas de acordo com as seguintes categorias, que aparecem na parte superior da caixa de diálogo **Obter dados**:
 
 * Todas as categorias
-* Ficheiro
-* Base de Dados
+* File
+* Base de dados
 * Power BI
 * Azure
 * Serviços Online
-* Outros
+* Other
 
 A categoria **Todas as categorias** contém todas as origens de dados, de todas as categorias. 
 
 A categoria **Ficheiro** inclui as seguintes ligações de dados disponíveis para fluxos de dados:
 
-* Acesso
+* Access
 * Excel
 * JSON
 * Texto/CSV
@@ -86,13 +86,13 @@ A categoria **Azure** inclui as seguintes ligações de dados disponíveis para 
 * Blobs do Azure
 * Azure Data Explorer
 * Azure SQL Data Warehouse
-* Base de Dados SQL do Azure
+* Base de dados SQL do Azure
 * Tabelas do Azure
 
 A categoria **Serviços Online** inclui as seguintes ligações de dados disponíveis para fluxos de dados:
 
 * Amazon Redshift
-* Common Data Service for Apps
+* Common Data Service para Aplicações
 * Microsoft Exchange Online
 * Objetos do Salesforce
 * Relatórios do Salesforce
@@ -158,7 +158,7 @@ A seguinte lista mostra os conectores que pode utilizar atualmente ao copiar e c
 * Azure Analysis Services
 * Adobe Analytics
 * ODBC
-* OLEDB
+* OLE DB
 * Pasta
 * Pasta do SharePoint Online
 * Pasta do SharePoint
@@ -170,7 +170,7 @@ A seguinte lista mostra os conectores que pode utilizar atualmente ao copiar e c
 E isto é tudo o que precisa de saber sobre a ligação a origens de dados em fluxos de dados do Power BI.
 
 
-## <a name="next-steps"></a>Próximos Passos
+## <a name="next-steps"></a>Passos Seguintes
 
 Este artigo mostrou as origens de dados a que pode ligar em fluxos de dados. Os artigos seguintes entram em mais detalhes sobre os cenários de utilização comuns dos fluxos de dados. 
 
@@ -182,7 +182,7 @@ Este artigo mostrou as origens de dados a que pode ligar em fluxos de dados. Os 
 * [Fluxos de dados e integração do Azure Data Lake (Pré-visualização)](service-dataflows-azure-data-lake-integration.md)
 
 Para obter mais informações sobre o Power Query e a atualização agendada, pode ler estes artigos:
-* [Descrição geral das consultas no Power BI Desktop](desktop-query-overview.md)
+* [Descrição geral de consulta no Power BI Desktop](desktop-query-overview.md)
 * [Configurar a atualização agendada](refresh-scheduled-refresh.md)
 
 Para obter mais informações sobre o Common Data Service, pode ler o seguinte artigo de descrição geral:

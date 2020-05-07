@@ -10,10 +10,10 @@ ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 3a9b2a5e7de0a5072b266c7b146488e5d546f616
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872339"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>Tutorial: Introdução ao serviço Power BI
@@ -161,7 +161,7 @@ Para explorar os dados rapidamente, experimente fazer uma pergunta na caixa de P
 
    Verá que, apesar de ter alterado o gráfico para um gráfico de linhas, o mosaico permaneceu um gráfico de barras porque, quando o afixou, tinha esse formato. 
 
-## <a name="step-4-reposition-tiles"></a>Passo 4: Reposicionar os mosaicos
+## <a name="step-4-reposition-tiles"></a>Step 4: Reposicionar os mosaicos
 
 O dashboard é largo. Podemos reorganizar os mosaicos para garantir uma melhor utilização do espaço do dashboard.
 
@@ -179,7 +179,7 @@ O dashboard é largo. Podemos reorganizar os mosaicos para garantir uma melhor u
 
     ![Dashboard reorganizado](media/service-get-started/power-bi-service-rearranged-dashboard.png)
 
-## <a name="step-5-interact-with-tiles"></a>Passo 5: Interagir com os mosaicos
+## <a name="step-5-interact-with-tiles"></a>Step 5: Interagir com os mosaicos
 
 Antes de começar a criar os seus próprios dashboards e relatórios, eis uma última interação que deve ser observada. Se selecionar diferentes mosaicos, obterá resultados diferentes. 
 

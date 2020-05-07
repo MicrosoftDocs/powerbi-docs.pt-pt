@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853063"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Afixar uma página de relatório inteira, como um mosaico dinâmico, a um dashboard do Power BI
@@ -37,9 +37,9 @@ Veja a Amanda afixar uma página de relatório dinâmico num dashboard e, em seg
 2. Sem visualizações selecionadas, a partir da barra do menu, selecione **Afixar Página Dinâmica**.
    
    ![ícone Afixar Página Dinâmica](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. Afixe o mosaico num dashboard existente ou num novo dashboard. Observe o texto realçado: *afixar páginas dinâmicas permite que as alterações feitas a relatórios apareçam no mosaico do dashboard quando a página é atualizada.*
+3. Afixe o mosaico a um dashboard existente ou a um novo dashboard. Observe o texto realçado: *Afixar esta página em tempo real permite que as alterações nos relatórios sejam apresentadas no mosaico do dashboard quando a página é atualizada.*
    
-   * Dashboard existente: selecione o nome do dashboard a partir da lista pendente. Os dashboard que foram partilhados consigo não aparecerão na lista pendente.
+   * Dashboard existente: selecione o nome do dashboard na lista pendente. Os dashboard que foram partilhados consigo não aparecerão na lista pendente.
    * Novo dashboard: escreva o nome do novo dashboard.
      
      ![Caixa de diálogo Afixar no dashboard](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page-dialog.png)
@@ -51,7 +51,7 @@ Veja a Amanda afixar uma página de relatório dinâmico num dashboard e, em seg
    
     ![dashboards com um mosaico dinâmico](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Dashboards no Power BI](consumer/end-user-dashboards.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

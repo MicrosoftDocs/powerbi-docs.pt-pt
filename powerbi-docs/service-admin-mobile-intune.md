@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 2f2c0b2c6ba4d991dd6293b435acc07659013f5b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698515"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Configurar aplicações móveis do Power BI com o Microsoft Intune
@@ -29,7 +29,7 @@ O Microsoft Intune pode coexistir com a Gestão de Dispositivos Móveis (MDM) no
 > [!NOTE]
 > Depois de configurar o Intune, a atualização de dados em segundo plano é desativada para a aplicação móvel do Power BI no dispositivo iOS ou Android. O Power BI atualiza os dados do serviço Power BI na Web quando entra na aplicação.
 
-## <a name="step-1-get-the-url-for-the-application"></a>Passo 1: Obter o URL da aplicação
+## <a name="step-1-get-the-url-for-the-application"></a>Passo 1: obter o URL da aplicação
 
 Antes de criar a aplicação no Intune, tem de obter os URLs das aplicações. Para iOS, serão obtidos pelo iTunes. Para Android, pode obtê-los na página de aplicações móveis do Power BI.
 
@@ -55,7 +55,7 @@ Deve ser semelhante ao seguinte: *https://itunes.apple.com/us/app/microsoft-powe
 
 Pode obter o URL para o Google Play na [página de aplicações móveis do Power BI](https://powerbi.microsoft.com/mobile/). Selecione **Transferir do Google Play** para avançar para a página da aplicação. Pode copiar o URL da barra de endereços do browser. Deve ser semelhante ao seguinte: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim* .
 
-## <a name="step-2-create-a-mobile-application-management-policy"></a>Passo 2: Criar uma política de gestão de aplicações móveis
+## <a name="step-2-create-a-mobile-application-management-policy"></a>Passo 2: criar uma política de gestão de aplicações móveis
 
 A política de gestão de aplicações móveis permite-lhe impor itens, como um PIN de acesso. Pode criar um no portal do Intune.
 
@@ -71,7 +71,7 @@ Pode criar a aplicação ou a política primeiro. Não importa a ordem com que s
 
 1. Edite a política para configurar as restrições que quer na aplicação.
 
-## <a name="step-3-create-the-application"></a>Passo 3: Criar a aplicação
+## <a name="step-3-create-the-application"></a>Passo 3: criar a aplicação
 
 A aplicação é uma referência, ou pacote, guardada no Intune para implementação. Temos de criar uma aplicação e fazer referência ao URL da aplicação que obtivemos do Google Play ou do iTunes.
 
@@ -93,7 +93,7 @@ Pode criar a aplicação ou a política primeiro. Não importa a ordem com que s
 
 1. Pode decidir se quer publicar a aplicação como **Qualquer** (predefinição), **iPad** ou **iPhone**. Por predefinição, será mostrado **Qualquer** e funcionará para ambos os tipos de dispositivo. A aplicação Power BI utiliza o mesmo URL para iPhone e iPad. Selecione **Seguinte**.
 
-1. Selecione **Carregar**.
+1. Selecione **Upload**.
 
 1. Se não vir a aplicação na lista, atualize a página: aceda a **Descrição geral** e, em seguida, volte para **Aplicações**.
 
@@ -109,13 +109,13 @@ Pode criar a aplicação ou a política primeiro. Não importa a ordem com que s
 
 1. Forneça um **Editor**, um **Nome** e uma **Descrição**. Como alternativa, pode fornecer um **Ícone**. A **Categoria** refere-se à aplicação do Portal da Empresa. Quando terminar, selecione **Seguinte**.
 
-1. Selecione **Carregar**.
+1. Selecione **Upload**.
 
 1. Se não vir a aplicação na lista, atualize a página: aceda a **Descrição geral** e, em seguida, volte para **Aplicações**.
 
     ![Separador Aplicações](media/service-admin-mobile-intune/intune-add-software-android2.png)
 
-## <a name="step-4-deploy-the-application"></a>Passo 4: Implementar a aplicação
+## <a name="step-4-deploy-the-application"></a>Passo 4: implementar a aplicação
 
 Depois de ter adicionado a aplicação, tem de implementá-la para que fique disponível para os utilizadores finais. Este é o passo em que associará a política criada com a aplicação.
 
@@ -158,7 +158,7 @@ Depois de implementar a aplicação, deverá ser mostrado **Sim** para implement
 
 Depois de implementar a aplicação, deverá ser mostrado **Sim** para implementado, na página de aplicações.
 
-## <a name="step-5-install-the-application-on-a-device"></a>Passo 5: Instalar a aplicação num dispositivo
+## <a name="step-5-install-the-application-on-a-device"></a>Passo 5: instalar a aplicação num dispositivo
 
 Instale a aplicação através da aplicação *Portal da Empresa*. Se ainda não instalou o Portal da Empresa, pode obtê-lo na loja de aplicações nas plataformas iOS ou Android. Iniciará sessão no Portal da Empresa com o início de sessão empresarial.
 
@@ -184,7 +184,7 @@ Instale a aplicação através da aplicação *Portal da Empresa*. Se ainda não
 
     ![Introduzir PIN](media/service-admin-mobile-intune/intune-powerbi-pin.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [Configurar e implementar políticas de gestão de aplicações móveis na consola do Microsoft Intune](/intune/app-protection-policies/)  
 

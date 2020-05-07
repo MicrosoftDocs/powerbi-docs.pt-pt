@@ -11,10 +11,10 @@ ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
 ms.openlocfilehash: 9b3e06172d29f218f9234cf1f3d7e1f623495001
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697273"
 ---
 # <a name="premium-capacity-scenarios"></a>Cenários de capacidades Premium
@@ -91,7 +91,7 @@ Há várias razões possíveis para o tempo de espera da consulta acumular nos c
 
 - Um design de modelo de qualidade inferior, expressões de medida ou até mesmo o design do relatório – todas as circunstâncias que podem contribuir para consultas de execução prolongada que consomem altos níveis de CPU. O que força as novas consultas a aguardar até que os threads de CPU fiquem disponíveis e possam criar um efeito de comboio (como um engarrafamento de trânsito), normalmente visto durante o pico do horário comercial. A página **Esperas de Consulta** será o recurso principal para determinar se os conjuntos de dados têm tempos de espera médios de consulta.
 - Um elevado número de utilizadores de capacidade simultânea (centenas a milhares) que consomem o mesmo relatório ou conjunto de dados. Até mesmo os conjuntos de dados bem desenhados podem ter um mau desempenho além de um limite de simultaneidade. O que é geralmente indicado por um único conjunto de dados, mostrando um valor consideravelmente mais alto para contagens de consulta do que outros conjuntos de valores mostram (por exemplo, 300 mil consultas para um conjunto de dados em comparação com <30 mil consultas para todos os outros conjuntos de dados). Em algum momento, a consulta espera que este conjunto de dados comece a escalonar, o que pode ser visto no elemento visual **Durações da Consulta**.
-- Foram consultados muitos conjuntos de dados diferentes em simultâneo, causando thrashing, dado que os conjuntos de dados saem e entram frequentemente da memória. O que resulta num desempenho reduzido para os utilizadores quando o conjunto de dados é carregado para a memória. Para confirmar, o administrador do Power BI pode consultar o elemento visual **Expulsões do Conjunto de Dados e Consumo de Memória Por Hora**, que pode indicar que um grande número de conjuntos de dados carregados para a memória está a ser expulso repetidamente.
+- Foram consultados muitos conjuntos de dados diferentes em simultâneo, causando {1}thrashing{2}, dado que os conjuntos de dados saem e entram frequentemente da memória. O que resulta num desempenho reduzido para os utilizadores quando o conjunto de dados é carregado para a memória. Para confirmar, o administrador do Power BI pode consultar o elemento visual **Expulsões do Conjunto de Dados e Consumo de Memória Por Hora**, que pode indicar que um grande número de conjuntos de dados carregados para a memória está a ser expulso repetidamente.
 
 ## <a name="identifying-causes-for-sporadically-slow-responding-datasets"></a>Identificar causas de conjuntos de dados de resposta esporadicamente lenta
 
@@ -145,7 +145,7 @@ Em alguns casos, os administradores do Power BI podem pedir que os proprietário
 
 Este artigo foi escrito por Peter Myers, MVP de Plataforma de Dados e especialista independente de BI na [Bitwise Solutions](https://www.bitwisesolutions.com.au/).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 > [!div class="nextstepaction"]
 > [Monitorizar as capacidades Premium com a aplicação](service-admin-premium-monitor-capacity.md)    

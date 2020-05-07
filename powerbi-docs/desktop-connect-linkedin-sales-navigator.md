@@ -10,10 +10,10 @@ ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74565628"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Ligar-se ao LinkedIn Sales Navigator no Power BI Desktop
@@ -79,7 +79,7 @@ Pode obter a aplicação de modelo do **LinkedIn Sales Navigator** através da s
 
 A aplicação de modelo fornece quatro separadores para ajudar a analisar e partilhar as informações:
 
-* Utilização
+* Usage
 * Procurar
 * InMail
 * SSI
@@ -116,12 +116,12 @@ Depois de os dados serem atualizados, poderá ver a aplicação a ser preenchida
 
 Caso se depare com problemas ao ligar-se aos seus dados, pode contactar o suporte do LinkedIn Sales Navigator através da ligação https://www.linkedin.com/help/sales-navigator. 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
-* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Ligar a livros do Excel no Power BI Desktop](desktop-connect-excel.md)   
 * [Introduzir dados diretamente no Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   
 

@@ -1,5 +1,5 @@
 ---
-title: Desativar a atualização em segundo plano do Power Query
+title: Disable Power Query background refresh (Desativar a atualização em segundo plano do Power Query)
 description: Orientações sobre quando desativar a atualização em segundo plano do Power Query.
 author: peter-myers
 manager: asaxton
@@ -10,13 +10,13 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 59cb62a9186da03a265fc3a8711d7275c3772af3
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75623067"
 ---
-# <a name="disable-power-query-background-refresh"></a>Desativar a atualização em segundo plano do Power Query
+# <a name="disable-power-query-background-refresh"></a>Disable Power Query background refresh (Desativar a atualização em segundo plano do Power Query)
 
 Este artigo destina-se aos Modeladores de dados de importação que trabalham com o Power BI Desktop.
 
@@ -38,9 +38,9 @@ Pode sempre atualizar a cache de pré-visualização. Pode atualizá-la para uma
 
 ![Comandos do Editor do Power Query para atualizar os dados de pré-visualização](media/power-query-background-refresh/power-query-refresh-preview-data.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
 - [Documentação do Power Query](/power-query/)
-- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
