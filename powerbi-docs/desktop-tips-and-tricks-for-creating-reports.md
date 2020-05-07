@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: davidi
 ms.openlocfilehash: 95492b8561c37b52e77fbd8b16ce5e1e2ec4e4e1
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82066239"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugestões e truques para criar relatórios no Power BI Desktop

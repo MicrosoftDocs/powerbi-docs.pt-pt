@@ -1,6 +1,6 @@
 ---
-title: Gráficos de cascata no Power BI
-description: Gráficos de cascata no Power BI
+title: Gráficos de cascata no Power BI
+description: Gráficos de cascata no Power BI
 author: mihart
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
@@ -11,13 +11,13 @@ ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74907670"
 ---
-# <a name="waterfall-charts-in-power-bi"></a>Gráficos de cascata no Power BI
+# <a name="waterfall-charts-in-power-bi"></a>Gráficos de cascata no Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -56,7 +56,7 @@ Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](https:
 
 1. Abra o **Ficheiro PBIX do Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+1. Seleção ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
 
 ## <a name="create-a-waterfall-chart"></a>Criar um gráfico de cascata
@@ -115,7 +115,7 @@ Aprofunde um pouco mais para ver o que contribui mais para as alterações mês 
 
     ![gráfico de cascata](media/power-bi-visualization-waterfall-charts/power-bi-axis-waterfall.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Alterar a forma como os elementos visuais interagem num relatório do Power BI](../service-reports-visual-interactions.md)
 

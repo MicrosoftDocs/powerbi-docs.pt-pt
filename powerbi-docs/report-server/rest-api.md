@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.openlocfilehash: 9b8e795c4a55f9efd6fd534d92d95b36c93cf2c0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874061"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Desenvolver com as APIs REST do Power BI Report Server
@@ -30,8 +30,8 @@ Um par pedido/resposta da API REST pode ser separado em cinco componentes:
 * O **URI do pedido**, que consiste em: `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`. Embora o URI do pedido esteja incluído no cabeçalho da mensagem de pedido, este é chamado separadamente, porque a maioria das linguagens ou estruturas requerem que seja transmitido em separado da mensagem de pedido.
   
   * Esquema do URI: indica o protocolo utilizado para transmitir o pedido. Por exemplo, `http` ou `https`.
-  * Anfitrião do URI: especifica o nome de domínio ou o endereço IP do servidor onde o ponto final do serviço REST está alojado, como `myserver.contoso.com`.
-  * Caminho do recurso: especifica o recurso ou a coleção de recursos, o que pode incluir vários segmentos utilizados pelo serviço para determinar a seleção desses recursos. Por exemplo: é possível utilizar `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` para obter as propriedades especificadas de CatalogItem.
+  * Anfitrião do URI: especifica o nome de domínio ou o endereço IP do servidor onde o ponto final de serviço REST está alojado, como `myserver.contoso.com`.
+  * Caminho do recurso: especifica o recurso ou coleção de recursos, o que pode incluir vários segmentos utilizados pelo serviço para determinar a seleção desses recursos. Por exemplo: é possível utilizar `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` para obter as propriedades especificadas de CatalogItem.
   * Cadeia de consulta (opcional): fornece parâmetros simples adicionais, como a versão da API ou os critérios de seleção de recursos.
 * Campos de cabeçalho da mensagem de pedido HTTP:
   
@@ -54,7 +54,7 @@ Uma API REST moderna chama a documentação da API moderna. A API REST é criada
 
 Uma ferramenta para testar as mensagens de pedido/resposta HTTP é o [Fiddler](https://www.telerik.com/fiddler). O Fiddler é um proxy de depuração Web gratuito que pode intercetar os pedidos REST, o que facilita o diagnóstico das mensagens de pedido/resposta HTTP.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximas etapas
 
 Reveja as APIs disponíveis no [SwaggerHub](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0).
 

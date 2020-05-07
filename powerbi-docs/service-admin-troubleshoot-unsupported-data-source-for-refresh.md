@@ -1,6 +1,6 @@
 ---
-title: Resolver problemas de origem de dados sem suporte para atualização
-description: Resolver problemas de origem de dados sem suporte para atualização
+title: Troubleshooting unsupported data source for refresh (Resolução de problemas de origem de dados sem suporte para atualização)
+description: Troubleshooting unsupported data source for refresh (Resolução de problemas de origem de dados sem suporte para atualização)
 author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
@@ -11,13 +11,13 @@ ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74791995"
 ---
-# <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Resolver problemas de origem de dados sem suporte para atualização
+# <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Troubleshooting unsupported data source for refresh (Resolução de problemas de origem de dados sem suporte para atualização)
 Vai ver um erro ao tentar configurar um conjunto de dados para atualização agendada.
 
         You cannot schedule refresh for this dataset because it gets data from sources that currently don’t support refresh.
@@ -37,10 +37,10 @@ Se não tiver a certeza de que origem de dados foi utilizara, pode encontrar ao 
    ![Fornecedor de origem de dados](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
 5. Compare o fornecedor com a lista de origens de dados suportadas encontrada em [Origens de dados do Power BI](power-bi-data-sources.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Atualização de Dados](refresh-data.md)  
 [Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[On-premises data gateway (Gateway de dados no local)](service-gateway-onprem.md)  
+[Gateway de dados no local](service-gateway-onprem.md)  
 [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
 [Resolver problemas do Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

@@ -12,10 +12,10 @@ ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872235"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Gerar informações de dados automaticamente com o Power BI
@@ -84,14 +84,14 @@ Agora, é a sua vez. Explore as informações através do [exemplo de Análise d
 ## <a name="run-insights-on-a-dashboard-tile"></a>Executar as informações num mosaico do dashboard
 Em vez de procurar informações em todo um conjunto de dados, filtre a sua pesquisa de forma a obter informações apenas dos dados que são utilizados para criar um único mosaico de dashboard. 
 
-1. Abre um dashboard.
+1. Abra um dashboard.
 2. Coloque o cursor sobre um mosaico, selecione **Mais opções** (...) e, em seguida, selecione **Ver informações**. O mosaico abre-se no [Modo de detalhe](service-focus-mode.md) com os cartões de informações apresentados no lado direito.    
    
     ![Modo de detalhe](media/service-insights/pbi-insights-tile.png)    
 3. Há alguma informação que desperte o seu interesse? Selecione esse cartão de informação para investigar melhor. A informação selecionada é apresentada à esquerda e os cartões de informações novos, com base apenas nos dados dessa informação, são apresentados à direita.    
 4. Continue a investigar os dados e, quando encontrar uma informação interessante, afixe-o ao dashboard ao selecionar **Afixar visual** no canto superior direito.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 - Se é proprietário de um conjunto de dados, [otimize-o para as Informações Rápidas](service-insights-optimize.md).
 - Saiba mais sobre os [tipos de Informações Rápidas disponíveis](service-insight-types.md).
 

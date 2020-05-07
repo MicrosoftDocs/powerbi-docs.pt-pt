@@ -1,5 +1,5 @@
 ---
-title: Configure o Kerberos para usar relatórios do Power BI
+title: Configure Kerberos to use Power BI reports (Configurar o Kerberos para utilizar relatórios do Power BI)
 description: Saiba como configurar o servidor de relatórios para a autenticação Kerberos das origens de dados utilizadas nos seus relatórios do Power BI para obter um ambiente distribuído.
 author: maggiesMSFT
 ms.reviewer: ''
@@ -9,13 +9,13 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maggies
 ms.openlocfilehash: 6e341f80e3631228c28590ccf0a7711e0b624f2c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874228"
 ---
-# <a name="configure-kerberos-to-use-power-bi-reports"></a>Configure o Kerberos para usar relatórios do Power BI
+# <a name="configure-kerberos-to-use-power-bi-reports"></a>Configure Kerberos to use Power BI reports (Configurar o Kerberos para utilizar relatórios do Power BI)
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Saiba como configurar o servidor de relatórios para a autenticação Kerberos das origens de dados utilizadas nos seus relatórios do Power BI para obter um ambiente distribuído.
@@ -134,7 +134,7 @@ Para o Analysis Services, utilizamos um serviço de MSOLAPSvc.3. Vamos especific
 
 Um exemplo de um SPN de Azure Analysis Services deve ter o seguinte aspeto.
 
-| Tipo | Format |
+| Tipo | Formato |
 | --- | --- |
 | Instância predefinida |MSOLAPSvc.3/ContosoAS.contoso.com<br>MSOLAPSvc.3/ContosoAS |
 | Instância com nome |MSOLAPSvc.3/ContosoAS.contoso.com:INSTANCENAME<br>MSOLAPSvc.3/ContosoAS:INSTANCENAME |
@@ -213,7 +213,7 @@ Depois de todas as configurações acima estarem implementadas, o relatório dev
 
 Embora esta configuração funcione na maioria dos casos, no caso do Kerberos, pode haver uma configuração diferente consoante o seu ambiente. Se mesmo assim o relatório não for carregado, é melhor contactar o seu administrador de domínio para uma investigação posterior ou contacte o suporte.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Descrição geral para administradores](admin-handbook-overview.md)  
 [Instalar o Power BI Report Server](install-report-server.md)  
 

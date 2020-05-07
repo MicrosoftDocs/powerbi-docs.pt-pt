@@ -10,10 +10,10 @@ ms.date: 06/06/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 21b7b93b4e522a8e6a49d22b54c9ddd83cb5e042
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699627"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Atualizar um conjunto de dados criado a partir de um livro do Excel no OneDrive ou SharePoint Online
@@ -41,21 +41,21 @@ No Power BI, as opções **Atualizar Agora** e **Agendar Atualização** são su
 [!INCLUDE [refresh-datasources](./includes/refresh-datasources.md)]
 
 > [!NOTE]
-> Um gateway tem de ser instalado e estar em execução para que o Power BI ligue a origens de dados no local e atualize o conjunto de dados.
+> Um gateway deve ser instalado e estar em execução para que o Power BI se ligue a origens de dados locais e atualize o conjunto de dados.
 >
 >
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive ou OneDrive para Empresas. Qual é a diferença?
 
-Se tiver um OneDrive pessoal e um OneDrive para Empresas, é recomendado manter todos os ficheiro que quer importar para o Power BI no OneDrive para Empresas. Eis o porquê: Provavelmente utiliza duas contas diferentes para iniciar sessão.
+Se tiver um OneDrive pessoal e um OneDrive para Empresas, é recomendado manter todos os ficheiro que quer importar para o Power BI no OneDrive para Empresas. Eis o porquê: provavelmente utiliza duas contas diferentes para iniciar sessão.
 
-Ligar ao OneDrive para Empresas no Power BI pode ser muito simples, pois a conta que utiliza para iniciar sessão no Power BI é geralmente a mesma conta utilizada para iniciar sessão no OneDrive para Empresas. No entanto, com o OneDrive pessoal, provavelmente inicia sessão com outra [conta Microsoft](https://account.microsoft.com).
+Ligar ao OneDrive para Empresas no Power BI pode ser muito simples, pois a conta que utiliza para iniciar sessão no Power BI é geralmente a mesma conta utilizada para iniciar sessão no OneDrive para Empresas. Mas, com o OneDrive pessoal, provavelmente entra com outra [conta da Microsoft](https://account.microsoft.com).
 
-Ao iniciar sessão com a sua conta Microsoft, certifique-se de que seleciona a opção **Manter a sessão iniciada**. Assim, o Power BI pode sincronizar as atualizações feitas no ficheiro no Power BI Desktop com os conjuntos de dados no Power BI.  
+Ao iniciar sessão com a sua conta Microsoft, confirme que seleciona a opção **Manter sessão iniciada**. Assim, o Power BI pode sincronizar as atualizações feitas no ficheiro no Power BI Desktop com os conjuntos de dados no Power BI.  
 
 ![Caixa de verificação Manter a sessão iniciada](media/refresh-excel-file-onedrive/refresh_signin_keepmesignedin.png)
 
-Se fizer alterações ao ficheiro no OneDrive que não podem ser sincronizadas com o conjunto de dados ou os relatórios no Power BI devido à possibilidade de as credenciais da conta Microsoft terem sido alteradas, tem de ligar e importar o ficheiro novamente a partir do seu OneDrive pessoal.
+Se fizer alterações no ficheiro no OneDrive que não podem ser sincronizadas com o conjunto de dados ou relatórios no Power BI por as suas credenciais de conta Microsoft terem sido alteradas, terá de se ligar e importar o ficheiro novamente do OneDrive pessoal.
 
 ## <a name="options-for-connecting-to-excel-file"></a>Opções de ligação ao ficheiro do Excel
 
@@ -100,17 +100,17 @@ Quando configurar uma atualização agendada, o Power BI irá ligar diretamente 
 
 Para obter detalhes sobre como configurar uma atualização agendada, veja [Configurar atualizações agendadas](refresh-scheduled-refresh.md).
 
-## <a name="when-things-go-wrong"></a>Quando acontece algo de errado
+## <a name="when-things-go-wrong"></a>Quando algo dá errado
 
 Quando ocorre algo errado, normalmente isso deve-se ao facto de o Power BI não conseguir iniciar sessão nas origens de dados ou se o conjunto de dados ligar a uma origem de dados no local, o gateway ficar offline. Certifique-se de que o Power BI consegue iniciar sessão nas origens de dados. Se uma palavra-passe que utiliza para entrar numa origem de dados for alterada ou o Power BI for desligado de uma origem de dados, certifique-se de que se inscreve novamente nas suas origens de dados nas Credenciais da Origem de Dados.
 
-Lembre-se de deixar marcada a opção **Enviar-me e-mail de notificação de falha de atualização**. Irá querer saber de imediato sobre uma falha de uma atualização agendada.
+Lembre-se de deixar marcada a opção **Enviar-me e-mail de notificação de falha de atualização**. Quer saber imediatamente de uma falha numa atualização agendada.
 
 ## <a name="important-notes"></a>Notas importantes
 
-Não é suportada a atualização de feeds OData ligados e consultados do Power Pivot. Ao utilizar um feed OData como uma origem de dados, use o Power Query.
+Não é suportada a atualização de feeds OData ligados e consultados do Power Pivot. Ao utilizar um feed OData como uma origem de dados, utilize o Power Query.
 
-## <a name="troubleshooting"></a>Resolução de problemas
+## <a name="troubleshooting"></a>Troubleshooting (Resolução de problemas)
 
 Por vezes, atualizar os dados pode não correr como esperado. Normalmente, este problema está relacionado com um gateway. Veja os artigos de resolução de problemas de gateways que incluem ferramentas e problemas conhecidos:
 

@@ -9,10 +9,10 @@ ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: painbar
 ms.openlocfilehash: f946c3b10f9d4922c227dd92a748af91266c040e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75221815"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Tutorial: Fazer perguntas sobre os seus dados com o analista virtual Perguntas e Respostas nas aplicações Power BI para iOS

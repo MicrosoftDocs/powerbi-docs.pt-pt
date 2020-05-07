@@ -10,10 +10,10 @@ ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871753"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Criar um relatório no serviço Power BI através da importação de um conjunto de dados
@@ -35,7 +35,7 @@ Este método de criação de um relatório começa por um conjunto de dados e um
 3. Selecione **Ficheiros** e navegue para o local onde guardou o exemplo de Análise de Revenda.
    
     ![selecionar Ficheiros](media/service-report-create-new/power-bi-select-files.png)
-4. Neste exercício, selecione **Importar**.
+4. Para este exercício, selecione **Importar**.
    
    ![selecionar Importar](media/service-report-create-new/power-bi-import.png)
 5. Após o conjunto de dados ser importado, selecione **Ver conjunto de dados**.
@@ -89,7 +89,7 @@ A nossa CMO quer que respondamos a algumas perguntas adicionais. Ela gostaria de
 
 Continue a explorar os dados e a adicionar visualizações. Quando encontrar informações especialmente interessantes, [afixe-as num dashboard](service-dashboard-pin-tile-from-report.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * Saiba como [afixar visualizações a um dashboard](service-dashboard-pin-tile-from-report.md)   
 * Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

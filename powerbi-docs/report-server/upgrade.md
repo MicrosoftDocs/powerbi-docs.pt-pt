@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
 ms.openlocfilehash: eac019bc31396359b7520e057f2384adce386a96
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873945"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Atualizar o Power BI Report Server
@@ -24,7 +24,7 @@ Saiba como atualizar o Power BI Report Server.
 
 Para transferir o Power BI Report Server e o Power BI Desktop otimizado para o Power BI Report Server, aceda a [Relatórios no local com o Power BI Report Server](https://powerbi.microsoft.com/report-server/).
 
-## <a name="before-you-begin"></a>Before you begin
+## <a name="before-you-begin"></a>Antes de começar
 
 Antes de atualizar um servidor de relatórios, recomendamos que siga os passos seguintes para criar uma cópia de segurança do seu servidor de relatórios.
 
@@ -76,7 +76,7 @@ Atualizar o Power BI Report Server é simples. Bastam alguns passos para instala
 
 Após o servidor de relatórios ser atualizado, deverá certificar-se de que os autores de relatórios do Power BI atualizam para a versão do Power BI Desktop otimizada para o Power BI Report Server que corresponde ao servidor.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Descrição geral para administradores](admin-handbook-overview.md)  
 * [Instalar o Power BI Desktop otimizado para o Power BI Report Server](install-powerbi-desktop.md)  
@@ -87,6 +87,6 @@ Após o servidor de relatórios ser atualizado, deverá certificar-se de que os 
 * [Inicializar um servidor de relatórios](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
 * [Configurar ligações SSL num servidor de relatório](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
 * [Configurar permissões e contas de serviço Windows](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
-* [Suporte de browser para o Power BI Report Server](browser-support.md)
+* [Suporte do browser para o Power BI Report Server](browser-support.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

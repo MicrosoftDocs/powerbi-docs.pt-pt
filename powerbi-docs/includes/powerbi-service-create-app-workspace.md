@@ -9,10 +9,10 @@ ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
 ms.openlocfilehash: 6d8de145f9158e4aa649fa39670fdf2808fc5af4
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73021119"
 ---
 1. Comece por criar a área de trabalho. Selecione **Áreas de trabalho** > **Criar área de trabalho**. 

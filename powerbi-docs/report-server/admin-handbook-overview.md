@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 ms.openlocfilehash: a93b3def115aaadbc33f6d0985aeea424558f248
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73860209"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Descrição geral de administração, Power BI Report Server
@@ -40,10 +40,10 @@ Tem várias opções de configuração do servidor de relatórios. Irá utilizar
 
 A maioria da configuração irá ocorrer no Gestor de Configuração do Servidor de Relatórios. Veja a documentação do [gestor de configuração](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) para obter mais detalhes.
 
-## <a name="security"></a>Segurança
+## <a name="security"></a>Security
 A segurança e proteção são importantes para todas as organizações. Pode saber mais sobre a autenticação, a autorização, as funções e as permissões na documentação de [segurança](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Instalar o Power BI Report Server](install-report-server.md)  
 [Encontrar a chave de produto do servidor de relatórios](find-product-key.md)  
 [Instalar o Power BI Desktop otimizado para o Power BI Report Server](install-powerbi-desktop.md)  

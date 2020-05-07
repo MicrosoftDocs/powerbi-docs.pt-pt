@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
 ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859491"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Gerir conteúdo no portal Web 
@@ -20,10 +20,10 @@ O portal Web do Power BI Report Server é uma localização no local para ver, a
 
 ![Portal Web do Report Server](media/getting-around/report-server-web-portal.png)
 
-Pode ver o portal Web em qualquer browser moderno. No portal Web, os relatórios e os KPIs estão organizados em pastas e pode marcá-los como favoritos. Pode também armazenar livros do Excel. No portal Web, pode iniciar as ferramentas necessárias para criar relatórios:
+Pode ver o portal Web em qualquer browser moderno. No portal Web, os relatórios e os KPIs estão organizados em pastas e pode marcá-los como favoritos. Também pode armazenar livros do Excel. No portal Web, pode iniciar as ferramentas necessárias para criar relatórios:
 
-* **Relatórios do Power BI** criados com o Power BI Desktop: visualize-os no portal Web e nas aplicações móveis do Power BI.
-* **Relatórios paginados** criados no Report Builder: documentos com aspeto moderno e esquema fixo, otimizados para impressão.
+* **Relatórios do Power BI** criados com o Power BI Desktop: visualize-os no portal Web e nas aplicações móveis do Power BI.
+* **Relatórios paginados** criados no Report Builder: documentos modernos de esquema fixo otimizados para impressão.
 * **KPIs** criados diretamente no portal Web.
 
 No portal Web, pode procurar as pastas do servidor de relatórios ou relatórios específicos. Pode ver um relatório, as respetivas propriedades gerais e cópias anteriores do relatório capturadas no histórico de relatórios. Consoante as suas permissões, poderá também subscrever relatórios para entrega na caixa de entrada do seu e-mail ou numa pasta partilhada no sistema de ficheiros.
@@ -49,8 +49,8 @@ A aplicação portal Web é executada num browser. Quando inicia o portal Web, a
    * Relatórios do Power BI Desktop
    * Livros do Excel
    * Conjuntos de dados
-   * Origens de dados
-   * Recursos
+   * Data sources
+   * Resources (Recursos)
 
 ## <a name="manage-items-in-the-web-portal"></a>Gerir itens no portal Web
 O Power BI Report Server disponibiliza um controlo detalhado dos itens que armazena no portal Web. Por exemplo, pode configurar subscrições, a colocação em cache, instantâneos e a segurança em relatórios paginados individuais.
@@ -65,7 +65,7 @@ O Power BI Report Server disponibiliza um controlo detalhado dos itens que armaz
 
 Leia mais sobre [Trabalhar com subscrições no portal Web](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [O que é o Power BI Report Server?](get-started.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

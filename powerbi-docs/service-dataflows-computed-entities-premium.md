@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a655c55520d76bfaeb51318d09244ea663ccc192
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872640"
 ---
 # <a name="using-computed-entities-on-power-bi-premium"></a>Utilizar entidades calculadas no Power BI Premium
@@ -78,7 +78,7 @@ As entidades ligadas não estão disponíveis para fluxos de dados criados a par
 
 Como melhor prática, quando efetuar cálculos em dados associados no local e na cloud, crie uma nova entidade para efetuar esses cálculos. Isto fornece uma experiência melhor do que utilizar uma entidade existente para cálculos, como uma entidade que também consulta dados de ambas as origens e efetua transformações no repositório.
 
-## <a name="next-steps"></a>Próximos Passos
+## <a name="next-steps"></a>Passos Seguintes
 
 Este artigo descreveu as entidades calculadas e os fluxos de dados disponíveis no serviço Power BI. Veja a seguir mais alguns artigos que podem ser úteis.
 
@@ -91,7 +91,7 @@ Este artigo descreveu as entidades calculadas e os fluxos de dados disponíveis 
 * [Connect Azure Data Lake Storage Gen2 for dataflow storage (Preview) (Ligar o Azure Data Lake Storage Gen2 para armazenar fluxos de dados [Pré-visualização])](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Para obter mais informações sobre o Power Query e a atualização agendada, pode ler estes artigos:
-* [Descrição geral das consultas no Power BI Desktop](desktop-query-overview.md)
+* [Descrição geral de consulta no Power BI Desktop](desktop-query-overview.md)
 * [Configurar a atualização agendada](refresh-scheduled-refresh.md)
 
 Para obter mais informações sobre o Common Data Service, pode ler o seguinte artigo de descrição geral:

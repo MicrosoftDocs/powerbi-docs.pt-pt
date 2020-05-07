@@ -10,10 +10,10 @@ ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 10540ed49064b9e28543ce46b43d8bb2d9ca6cf7
-ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74178233"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 sugestões para obter ajuda com as suas perguntas do Power BI
@@ -29,7 +29,7 @@ Os especialistas que precisam de respostas para o Power BI costumam utilizar a p
 A equipa do Power BI está constantemente a atualizar e a melhorar a documentação e a formação do Power BI. Pode encontrar excelentes conteúdos, incluindo gravações de webinars, documentos técnicos, aprendizagem guiada e ligações para publicações no blogue sobre todas as funcionalidades mais recentes.
 
 ## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>3 Ler o blogue do Power BI para obter as notícias mais recentes
-A equipa do Power BI explica todas as novas funcionalidades nas suas habituais [publicações no blogue do Power BI](https://powerbi.microsoft.com/blog/). Saiba todas as novidades, desde o Power BI Desktop às aplicações móveis do Power BI. Crie o hábito de regressar com frequência para ver as novidades: guarde alguns minutos todas as semanas para ler os blogues. Nunca se sabe quando poderá beneficiar de informações que tenha encontrado há meses.
+A equipa do Power BI explica todas as novas funcionalidades nas suas habituais [publicações no blogue do Power BI](https://powerbi.microsoft.com/blog/). Saiba todas as novidades, desde o Power BI Desktop às aplicações móveis do Power BI. Crie um hábito de regressar com frequência para ver as novidades: dispense alguns minutos todas as semanas para ler os blogues. Nunca se sabe quando poderá beneficiar de informações que tenha encontrado há meses.
 
 ## <a name="4-try-twitter"></a>4 Experimentar o Twitter
 Muitos clientes e especialistas do Power BI estão no Twitter. Coloque a sua pergunta num tweet. Adicione as hashtags #powerbi e #powerbihelp para que as pessoas conhecedoras vejam o seu tweet.
@@ -67,7 +67,7 @@ Se todas as outras soluções falharem, a última sugestão é observar o sistem
 
 Por exemplo, imaginemos que quer saber se pode partilhar dashboards com um grupo de segurança. Para responder a essa questão, aceda à caixa de diálogo de partilha e experimente adicionar um grupo de segurança. De qualquer forma, terá a sua resposta após este teste.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [O que é o Power BI?](fundamentals/power-bi-overview.md)
 * Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/)
 * Ainda tem problemas? Visite a [página de suporte do Power BI](https://powerbi.microsoft.com/support/)

@@ -10,10 +10,10 @@ ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 143851013679dd0356c1ea5036c3d724b1dc436d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73875184"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Add a filter to a report in Power BI (Adicionar um filtro a um relatório no Power BI)
@@ -29,7 +29,7 @@ Este artigo explica como adicionar um filtro de página, um filtro de visualiza�
 O Power BI disponibiliza vários tipos de filtros: manual, automático, pormenorização, pass-through, entre outros. Saiba mais sobre os [diferentes tipos de filtros](power-bi-report-filter-types.md).
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>Filtros na Vista de edição ou na Vista de leitura
-Pode interagir com os relatórios em duas vistas diferentes: a Vista de leitura e a Vista de edição. As capacidades de filtragem disponíveis dependem do modo no qual se encontra. Para obter detalhes, leia tudo [sobre filtros e realces nos relatórios do Power BI](power-bi-reports-filters-and-highlighting.md).
+Pode interagir com os relatórios em duas vistas diferentes: Vista de leitura e Vista de edição. As capacidades de filtragem disponíveis dependem do modo no qual se encontra. Para obter detalhes, leia tudo [sobre filtros e realces nos relatórios do Power BI](power-bi-reports-filters-and-highlighting.md).
 
 Este artigo descreve como criar filtros na **Vista de edição** dos relatórios.  Para obter mais informações sobre os filtros na Vista de leitura, veja [Interagir com filtros na Vista de leitura dos relatórios](consumer/end-user-report-filter.md).
 
@@ -89,7 +89,7 @@ Agora, vamos adicionar um novo campo à nossa visualização como um filtro de n
      
     ![Adicionar um campo ao painel Filtros](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
-    Repare que o **Gestor Distrital** *não* foi adicionado à visualização propriamente dita. A visualização continua a ser composta por **StoreNumberName** como o Eixo e **This Year Sales** como o Valor.  
+    Repare que o **Gestor Distrital***não* foi adicionado à visualização propriamente dita. A visualização continua a ser composta por **StoreNumberName** como o Eixo e **This Year Sales** como o Valor.  
      
     ![O campo não está no elemento visual](media/power-bi-report-add-filter/power-bi-visualization.png)
 
@@ -172,7 +172,7 @@ Vamos ver como funciona o filtro de pormenorização.
 - Se não vir o painel Campos, certifique-se de que está na [Vista de edição](service-interact-with-a-report-in-editing-view.md) do relatório    
 - Se tiver feito várias alterações aos filtros e quiser regressar às predefinições do autor do relatório, selecione **Repor para predefinição** na barra de menus superior.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [ Fazer uma visita do painel Filtros](consumer/end-user-report-filter.md)
 
 [Filtros e realce em relatórios](power-bi-reports-filters-and-highlighting.md)

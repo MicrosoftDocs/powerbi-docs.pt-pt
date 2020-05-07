@@ -10,10 +10,10 @@ ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 02f6bc83c7d939bd54c5c9a06067185ab0618183
-ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81675623"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Criar as novas áreas de trabalho no Power BI
@@ -75,7 +75,7 @@ Pode especificar os utilizadores que receberão notificações sobre problemas q
 
     No painel de navegação, selecione a seta junto a **Áreas de trabalho**, selecione **Mais opções** (...) junto ao nome da área de trabalho > **Definições da área de trabalho**. O painel **Definições** é apresentado.
 
-    ![Definições de área de trabalho](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
+    ![Definições da área de trabalho](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
 2. Em **Avançado** > **Lista de contactos**, aceite a predefinição, **Administradores da área de trabalho**, ou adicione a sua própria lista de **Utilizadores ou grupos específicos**. 
 
@@ -95,7 +95,7 @@ O Power BI não sincroniza as permissões de utilizadores ou grupos que estão 
 
     No painel de navegação, selecione a seta junto a **Áreas de trabalho**, selecione **Mais opções** (...) junto ao nome da área de trabalho > **Definições da área de trabalho**. O painel **Definições** é apresentado.
 
-    ![Definições de área de trabalho](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
+    ![Definições da área de trabalho](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
 2. Em **Avançado** > **Área de trabalho OneDrive**, introduza o nome do grupo do Office 365 que criou anteriormente. O Power BI seleciona automaticamente o OneDrive para o grupo.
 
@@ -140,8 +140,8 @@ Se quiser distribuir conteúdos oficiais para um grande público na sua organiza
 
 Leia sobre como [publicar uma aplicação com base nas novas áreas de trabalho](service-create-distribute-apps.md)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * Leia mais no artigo [Organizar o trabalho na nova experiência de áreas de trabalho no Power BI](service-new-workspaces.md)
 * [Criar as áreas de trabalho clássicas](service-create-workspaces.md)
 * [Publicar uma aplicação a partir das novas áreas de trabalho no Power BI](service-create-distribute-apps.md)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

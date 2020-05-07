@@ -1,5 +1,5 @@
 ---
-title: Ligar ao feed OData no Power BI Desktop
+title: Connect to an OData feed in Power BI Desktop (Ligar a um feed OData no Power BI Desktop)
 description: Ligar e utilizar facilmente um feed OData no Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 3f825c3c7247cba41d574dccde2fc5eda49e70a2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73876440"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>Ligar a feeds OData no Power BI Desktop
@@ -46,12 +46,12 @@ E já está!
 
 Está pronto para utilizar os dados importados do feed OData no Power BI Desktop para criar visuais, relatórios ou interagir com outros dados aos quais se possa querer ligar e importar, como outros livros do Excel, bases de dados ou outra origem de dados.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
-* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Ligar a livros do Excel no Power BI Desktop](desktop-connect-excel.md)   
 * [Introduzir dados diretamente no Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   
 
