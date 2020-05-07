@@ -10,10 +10,10 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: ea60400a4522dd496e19d508f13760581c0b2620
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761255"
 ---
 # <a name="work-with-multidimensional-models-in-power-bi"></a>Trabalhar com modelos multidimensionais no Power BI
@@ -100,7 +100,7 @@ O Power BI não limpará nenhum **membro predefinido** de uma determinada colun
 * A coluna for superior a outra coluna no ARP e o Power BI tiver um cartão de filtro para essa coluna no estado predefinido.
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Este artigo descreveu o comportamento do Power BI ao trabalhar com membros predefinidos em modelos multidimensionais. Poderá também estar interessado nos seguintes artigos: 
 

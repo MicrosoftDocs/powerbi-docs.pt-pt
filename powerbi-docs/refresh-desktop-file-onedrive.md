@@ -11,10 +11,10 @@ ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: b2a05f3112a9272d5e41cff20729c445c7a0ae39
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76038563"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Atualizar um conjunto de dados armazenado no OneDrive ou o SharePoint Online
@@ -52,11 +52,11 @@ O Power BI suporta as opções **Atualizar** e **Agendar Atualização** para o
 > 
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive ou OneDrive para Empresas. Qual é a diferença?
-Se tiver um OneDrive pessoal e um OneDrive para Empresas, deverá manter todos os ficheiros que quer importar para o Power BI no OneDrive para Empresas. Eis o porquê: Provavelmente utiliza duas contas diferentes para iniciar sessão.
+Se tiver um OneDrive pessoal e um OneDrive para Empresas, deverá manter todos os ficheiros que quer importar para o Power BI no OneDrive para Empresas. Eis o porquê: provavelmente utiliza duas contas diferentes para iniciar sessão.
 
 Quando se ligar ao OneDrive para Empresas no Power BI, a ligação será facilitada porque a sua conta do Power BI é, muitas vezes, a mesma conta do OneDrive para Empresas. Com o OneDrive pessoal, normalmente inicia sessão com outra [conta Microsoft](https://account.microsoft.com).
 
-Ao iniciar sessão com a sua conta Microsoft, confirme que seleciona a opção **Manter sessão iniciada**. Assim, o Power BI pode sincronizar as atualizações feitas no ficheiro no Power BI Desktop com os conjuntos de dados no Power BI.
+Ao iniciar sessão com a sua conta Microsoft, confirme que seleciona a opção **Manter sessão iniciada**. Assim, o Power BI pode sincronizar as atualizações feitas no ficheiro no Power BI Desktop com os conjuntos de dados no Power BI.
 
 ![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
 
@@ -67,14 +67,14 @@ Quando configura uma atualização agendada, o Power BI liga-se diretamente às
 
 Para obter detalhes sobre como configurar uma atualização agendada, veja [Configurar atualização agendada](refresh-scheduled-refresh.md).
 
-## <a name="when-things-go-wrong"></a>Quando acontece algo de errado
+## <a name="when-things-go-wrong"></a>Quando algo dá errado
 Quando as coisas correm mal, normalmente deve-se à incapacidade do Power BI de iniciar sessão nas origens de dados. Também poderá ocorrer um erro se o conjunto de dados tentar ligar a uma origem de dados no local, mas o gateway estiver offline. Para evitar estes problemas, confirme que o Power BI consegue iniciar sessão nas origens de dados. Experimente iniciar sessão nas suas origens de dados nas **Credenciais da Origem de Dados**. Por vezes, a palavra-passe que utiliza para iniciar sessão numa origem de dados é alterada ou a sessão do Power BI na origem de dados termina.
 
 Quando guarda as alterações no ficheiro do Power BI Desktop no OneDrive mas não vê essas mesmas alterações no Power BI dentro de aproximadamente uma hora, tal pode dever-se ao facto de o Power BI não conseguir ligar ao OneDrive. Tente ligar novamente ao ficheiro no OneDrive. Se lhe for pedido para iniciar sessão, confirme que seleciona **Manter sessão iniciada**. Como o Power BI não conseguiu ligar ao OneDrive para sincronizar com o ficheiro, terá de importar novamente o ficheiro.
 
 Certifique-se de que deixa a opção **Enviar-me notificação de falha de atualização por e-mail** selecionada. Quer saber imediatamente de uma falha numa atualização agendada.
 
-## <a name="troubleshooting"></a>Resolução de problemas
+## <a name="troubleshooting"></a>Troubleshooting (Resolução de problemas)
 Por vezes, atualizar os dados pode não correr como esperado. Normalmente, vai encontrar problemas de atualização de dados quando está ligado com um gateway. Veja os artigos de resolução de problemas de gateways para ferramentas e problemas conhecidos.
 
 [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)

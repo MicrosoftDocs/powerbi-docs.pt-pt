@@ -10,10 +10,10 @@ ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a8d99a041edbbe353badbb580940e918b30a0a9d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73879718"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Mostrar itens sem dados no Power BI
@@ -31,7 +31,7 @@ Para começar a compreender a forma como o Power BI determina os dados cuja apre
 |*Product[Color]*  |*Product[Size]*  |
 |---------|---------|
 |Azul     |Grande         |
-|Azul     |Medium         |
+|Azul     |Média         |
 |Azul     |Small         |
 |Vermelho     |Grande         |
 
@@ -80,7 +80,7 @@ Para ativar a funcionalidade **Mostrar itens sem dados**, selecione um elemento 
 ![Como ativar a funcionalidade Mostrar itens sem dados](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
 
-A funcionalidade **Mostrar itens sem dados** *não* tem efeito nas circunstâncias abaixo:
+A funcionalidade **Mostrar itens sem dados***não* tem efeito nas circunstâncias abaixo:
 
 * Não há medidas adicionadas ao elemento visual e as colunas de agrupamento são provenientes da mesma tabela
 * Os grupos não são relacionados; o Power BI não executa consultas para elementos visuais que têm grupos não relacionados
@@ -99,7 +99,7 @@ Como aparece se a funcionalidade **Mostrar itens sem dados** estiver desativada:
 
 |*Product[Color]*  |*Product[Size]*  |*[SumQuantity]*  |
 |---------|---------|---------|
-|Azul     |Medium         |15         |
+|Azul     |Média         |15         |
 |Azul     |Small         |10         |
 
 Como aparece se a funcionalidade **Mostrar itens sem dados** estiver ativada:
@@ -107,7 +107,7 @@ Como aparece se a funcionalidade **Mostrar itens sem dados** estiver ativada:
 |*Product[Color]*  |*Product[Size]*  |*[SumQuantity]*  |
 |---------|---------|---------|
 |Azul     |Grande         |         |
-|Azul     |Medium         |15         |
+|Azul     |Média         |15         |
 |Azul     |Small         |10         |
 |Vermelho     |Grande         |         |
 
@@ -163,7 +163,7 @@ Por exemplo, num Elemento visual de matriz com quatro campos no registo **Linhas
 
 ![Os campos no mesmo elemento visual ativam automaticamente a opção Mostrar itens sem dados](media/desktop-show-items-no-data/show-items-no-data-05.png)
 
-Em contrapartida, o campo *Continente* apresentado no registo **Colunas** *não* tem a opção **Mostrar itens sem dados** ativa automaticamente. 
+Em contrapartida, o campo *Continente* apresentado no registo **Colunas***não* tem a opção **Mostrar itens sem dados** ativa automaticamente. 
 
 O comportamento deste elemento visual é comum quando um elemento visual é convertido num tipo diferente, por exemplo, quando ocorre a conversão de um Elemento visual de matriz num elemento visual de tabela. Nestas conversões, a opção **Mostrar itens sem dados** é automaticamente ativada em qualquer campo movido para um registo que inclua um campo que tenha a funcionalidade ativa. No exemplo anterior, se o campo *IDdeFornecedor* tivesse a funcionalidade **Mostrar itens sem dados** ativa e o elemento visual fosse convertido numa tabela, o campo *Continente* do registo **Colunas** seria movido (juntamente com os campos no registo **Linhas**) para o único registo utilizado num elemento visual de tabela – o registo **Valores**. Assim, todos os campos no registo **Valores** teriam a funcionalidade **Mostrar itens sem dados** ativa.
 
@@ -183,7 +183,7 @@ Esta secção mostra o modelo de dados de exemplo utilizado nos exemplos deste a
 |Product[ProductId]|    Product[ProductName]|   Product[Color]| Product[Size]|  Product[CategoryId]|    Product[StyleId]|
 |---------|---------|---------|---------|---------|---------|
 |1  |Prod1  |Azul   |Small  |1  |1 |
-|2  |Prod2  |Azul   |Medium |2  |2 |
+|2  |Prod2  |Azul   |Média |2  |2 |
 |3  |Prod3  |Vermelho    |Grande  |1  |1 |
 |4  |Prod4  |Azul   |Grande  |2  |2 |
 

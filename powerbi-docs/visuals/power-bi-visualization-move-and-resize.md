@@ -10,10 +10,10 @@ ms.date: 10/31/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: cda52bd8814c409bdc8d8d7e14a30744fc91b9ad
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73880775"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report"></a>Mover e redimensionar uma visualização num relatório
@@ -36,7 +36,7 @@ No Power BI Desktop, abra um relatório que tenha, pelo menos, uma visualizaçã
 * Passe o cursor sobre a visualização e selecione o ícone do modo de Detalhe.
   ![Ícone do Modo de detalhe](media/power-bi-visualization-move-and-resize/pbi_popouticon.jpg)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Redimensionar uma visualização num dashboard](../service-dashboard-edit-tile.md)  
 
 [Modo de detalhe](../consumer/end-user-focus.md)
