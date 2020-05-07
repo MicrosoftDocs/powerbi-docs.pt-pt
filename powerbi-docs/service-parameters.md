@@ -10,10 +10,10 @@ ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 656de2cbf318211bf2fe19f15a3867ab183f3173
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871963"
 ---
 # <a name="edit-parameter-settings-in-the-power-bi-service"></a>Editar definições de parâmetro no serviço Power BI
@@ -38,5 +38,5 @@ Como criador de relatórios, pode definir parâmetros no Desktop. Quando [public
     Reveja as definições de parâmetros e faça alterações, se necessário. Os campos a cinzento não são editáveis. 
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Uma forma ad-hoc de adicionar parâmetros simples é ao [modificar o URL](service-url-filters.md).
