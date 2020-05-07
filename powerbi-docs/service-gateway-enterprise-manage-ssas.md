@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: ea6d4186d2f02665201f2161f50e06ad8f0f45a6
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699412"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gerir a sua origem de dados – Analysis Services
@@ -194,7 +194,7 @@ O Analysis Services também pode fornecer a filtragem com base nesta conta. A fi
 
 Os modelos fornecem uma segurança baseada nas funções de utilizadores. As funções são definidas para um determinado projeto modelo durante a criação de conteúdos no SQL Server Data Tools – Business Intelligence ou, após a implementação de um modelo, com o SQL Server Management Studio. As funções contêm membros por nome de utilizador do Windows ou grupo do Windows. As funções definem as permissões que um utilizador tem para consultar ou realizar ações no modelo. A maioria dos utilizadores pertence a uma função com permissões de leitura. As outras funções são destinadas a administradores com permissões para processar itens, gerir bases de dados e gerir outras funções.
 
-## <a name="row-level-security"></a>Row-level security
+## <a name="row-level-security"></a>Segurança ao nível da linha
 
 A segurança ao nível da linha é específica do Analysis Services. Os modelos podem fornecer uma segurança dinâmica ao nível da linha. A segurança dinâmica não é necessária num modelo de tabela, ao contrário do que acontece quando existe pelo menos uma função à qual os utilizadores pertencem. Num nível elevado, a segurança dinâmica define o acesso de leitura de um utilizador aos dados diretamente para uma linha específica numa determinada tabela. De forma semelhante às funções, a segurança dinâmica ao nível da linha depende do nome de utilizador do Windows de um utilizador.
 
@@ -249,7 +249,7 @@ Depois de criar a origem de dados, esta fica disponível para utilização com a
 > [!NOTE]
 > Os nomes do servidor e da base de dados têm de corresponder entre o Power BI Desktop e a origem de dados no gateway de dados no local.
 
-A ligação entre o conjunto de dados e a origem de dados no gateway é baseada no nome do servidor e no nome da base de dados. Estes nomes têm de corresponder. Por exemplo, se fornecer um endereço IP ao nome do servidor, no Power BI Desktop, terá de utilizar o endereço IP para a origem de dados na configuração do gateway. Se utilizar *SERVIDOR\INSTÂNCIA* no Power BI Desktop, também terá de o utilizar na origem de dados configurada para o gateway.
+A ligação entre o conjunto de dados e a origem de dados no gateway baseia-se no nome do servidor e no nome da base de dados. Estes nomes têm de corresponder. Por exemplo, se fornecer um endereço IP ao nome do servidor, no Power BI Desktop, terá de utilizar o endereço IP para a origem de dados na configuração do gateway. Se utilizar *SERVIDOR\INSTÂNCIA* no Power BI Desktop, também terá de o utilizar na origem de dados configurada para o gateway.
 
 Este requisito aplica-se tanto às ligações em direto como à atualização agendada.
 
@@ -267,7 +267,7 @@ Se estiver listado no separador **Utilizadores** da origem de dados configurada 
 
 ### <a name="limitations-of-analysis-services-live-connections"></a>Limitações das ligações em direto do Analysis Services
 
-Pode utilizar uma ligação em direto para instâncias em tabela ou multidimensionais.
+Pode utilizar uma ligação em direto contra instâncias em tabela ou multidimensionais.
 
 | **Versão do servidor** | **SKU necessário** |
 | --- | --- |
@@ -278,7 +278,7 @@ Pode utilizar uma ligação em direto para instâncias em tabela ou multidimensi
 * As funcionalidades de conversão e formatação ao nível da célula não são suportadas.
 * As ações e os conjuntos com nome não são expostos ao Power BI. No entanto, pode continuar a ligar a cubos multidimensionais que também contêm ações ou conjuntos com nome e criar elementos visuais e relatórios.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Resolução de problemas do gateway de dados no local](/data-integration/gateway/service-gateway-tshoot)
 * [Resolver problemas de gateways – Power BI](service-gateway-onprem-tshoot.md)

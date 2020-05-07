@@ -11,10 +11,10 @@ ms.cunstom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Get started
 ms.openlocfilehash: ff44527ab0f6c57007db82c79d6b357973eded17
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699182"
 ---
 # <a name="get-started-with-third-party-apps"></a>Introdução com aplicações de terceiros
@@ -58,4 +58,4 @@ No site **As minhas aplicações do Office 365**, eis como revogar permissões d
 
 3. Coloque o cursor sobre o mosaico da aplicação, clique no botão **(…)**  e em **Remover**.
 
-   ![Remover](media/service-power-bi-get-started-third-party-apps/remove.png)
+   ![Remove](media/service-power-bi-get-started-third-party-apps/remove.png)
