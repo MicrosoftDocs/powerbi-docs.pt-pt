@@ -9,17 +9,17 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114490"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Fragmentos de código para a migração de conteúdo a partir da Coleção de Áreas de Trabalho do Power BI
 
 Seguem-se alguns fragmentos de código de operações básicas necessários para a migração de conteúdo. Para obter fluxos relacionados para determinados tipos de relatório, veja [Como migrar conteúdos da coleção de áreas de trabalho do Power BI para o Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).
 
-Existe uma **ferramenta de migração** à sua disposição para ajudar a copiar o conteúdo do Power BI Embedded (PaaS) para o serviço Power BI (SaaS). Especialmente se tiver muito conteúdo. Para obter mais informações, veja [Ferramenta de migração do Power BI Embedded](migrate-tool.md).
+Existe uma **ferramenta de migração** à sua disposição para ajudar a copiar o conteúdo do Power BI Embedded (PaaS) para o serviço Power BI (SaaS). Especialmente se tiver muito conteúdo. Para obter mais informações, consulte [Ferramenta de migração do Power BI Embedded](migrate-tool.md).
 
 Os códigos abaixo são exemplos da utilização de C# e do [SDK .NET do Power BI](https://www.nuget.org/profiles/powerbi).
 
@@ -227,11 +227,11 @@ Neste fragmento, partimos do pressuposto que o conjunto de dados enviado por pus
     }
 ```
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
-[Ferramenta de migração Power BI Embedded](migrate-tool.md)  
+[Ferramenta de migração do Power BI Embedded](migrate-tool.md)  
 [Incorporar com o Power BI](embedding.md)  
-[Como migrar conteúdo da coleção de áreas de trabalho do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md)  
+[Como migrar conteúdos da coleção de áreas de trabalho do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md)  
 [Como incorporar os dashboards, relatórios e mosaicos do Power BI](embed-sample-for-your-organization.md)  
 [Power BI Premium - what is it?](../../service-premium-what-is.md) (Power BI Premium – o que é?)  
 [Repositório Git da API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  

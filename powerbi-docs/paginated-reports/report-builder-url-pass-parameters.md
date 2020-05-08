@@ -8,13 +8,13 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 08/29/2019
-ms.openlocfilehash: 7a5ec7ef1f66a4a5b6ec80c80e9fd37e19bb2813
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.date: 05/01/2020
+ms.openlocfilehash: e6e4187f89bb0ae6e6772f29b19782ee7fbfad25
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113560"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82692874"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Transmitir um parâmetro de relatório num URL para um relatório paginado no Power BI 
 
@@ -45,7 +45,7 @@ https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d
 Para especificar os mesmos dois parâmetros definidos num relatório numa aplicação, terá de utilizar o seguinte URL: 
 
 ```
-https://app.powerbi.com/groups/me/apps/xxxxxxx-c4c4-4217-afd9-3920a0d1e2b0/rdlreports/b1d5e659-639e-41d0-b733-05d2bca9853c?rp:Salesperson=Tiggee&State=Utah 
+https://app.powerbi.com/groups/me/apps/xxxxxxx-c4c4-4217-afd9-3920a0d1e2b0/rdlreports/b1d5e659-639e-41d0-b733-05d2bca9853c?rp:Salesperson=Tiggee&rp:State=Utah 
 ```
 
 Para transmitir um valor nulo a um parâmetro, utilize a seguinte sintaxe: 
@@ -81,7 +81,7 @@ O seguinte URL de exemplo transmite um único parâmetro de  SellStartDate  
 https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d?rp:SellStartDate=7/1/2005
 ```
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 - [Parâmetros de URL em relatórios paginados no Power BI](report-builder-url-parameters.md)
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)

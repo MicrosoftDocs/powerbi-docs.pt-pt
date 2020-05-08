@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 03/08/2020
 ms.author: painbar
 ms.openlocfilehash: 58ef9c6760194e3f11374bdb0663552fd11ce285
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377381"
 ---
 # <a name="configure-report-interaction-settings"></a>Configurar definições de interação em relatórios
 
-## <a name="overview"></a>Descrição geral
+## <a name="overview"></a>Overview (Descrição geral)
 
 A aplicação móvel do Power BI tem uma série de definições de "interação" configuráveis que lhe permitem controlar a forma como interage com os seus dados e definir o comportamento de determinados elementos na aplicação. A tabela abaixo mostra as definições de interação que estão atualmente disponíveis e os dispositivos que as têm.
 
@@ -76,6 +76,6 @@ Para alterar a definição de atualização do relatório, aceda ao item de atua
 Podem também ser configuradas interações remotamente por um administrador, através de uma ferramenta MDM com um ficheiro de configuração de aplicação. Desta forma, é possível uniformizar a experiência de interação dos relatórios em toda a organização ou para grupos específicos de utilizadores na organização. Veja [Configurar interação com a gestão de dispositivos móveis](./mobile-app-configuration.md) para obter detalhes.
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Interagir com relatórios](./mobile-reports-in-the-mobile-apps.md#interact-with-reports)
 * [Configurar interação com a gestão de dispositivos móveis](./mobile-app-configuration.md)

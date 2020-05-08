@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: f59d83823ee14648cb8c3d3fe740074d057d3425
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114346"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Conteúdos **recentes** no serviço Power BI
@@ -52,7 +52,7 @@ As ações disponíveis dependem das definições atribuídas pelo *designer* do
     ![ordenar todo o conteúdo recente](./media/end-user-recent/power-bi-recent-sort.png)
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Aplicações do serviço Power BI](end-user-apps.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

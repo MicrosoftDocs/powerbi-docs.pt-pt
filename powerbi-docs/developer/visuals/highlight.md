@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
 ms.openlocfilehash: a472db6c6dcc1266a11e78d72ab8465df7682042
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114158"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Realçar pontos de dados em elementos visuais do Power BI
@@ -333,7 +333,7 @@ Dados de exemplo para criar a hierarquia para o mapeamento de matriz da vista de
 |   R1   |   R12   |   R123   |   C1   |   C12   |   C123   |   6   |
 |   R1   |   R13   |   R131   |   C1   |   C13   |   C131   |   7   |
 |   R1   |   R13   |   R132   |   C1   |   C13   |   C132   |   8   |
-|   R1   |   R13   |   R133   |   C1   |   C13   |   C133   |   9   |
+|   R1   |   R13   |   R133   |   C1   |   C13   |   C133   |   09   |
 |   R2   |   R21   |   R211   |   C2   |   C21   |   C211   |   10   |
 |   R2   |   R21   |   R212   |   C2   |   C21   |   C212   |   11   |
 |   R2   |   R21   |   R213   |   C2   |   C21   |   C213   |   12   |
@@ -645,7 +645,7 @@ Como resultado, irá obter o elemento visual com botões e valores `highlighted 
 
 ![O elemento visual com mapeamento e realce de vistas de dados de matriz](media/highlight/dev-matrix-visual-highlight-demo.gif)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Ler sobre os mapeamentos de vistas de dados](dataview-mappings.md#matrix-data-mapping)
 

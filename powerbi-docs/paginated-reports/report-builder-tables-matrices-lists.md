@@ -9,10 +9,10 @@ ms.assetid: 9dcf3fc8-bf9c-4a14-a03d-e78254aa4098
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 02ac131325dab59590cb88c524ace68a1226fc69
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921499"
 ---
 # <a name="tables-matrixes-and-lists-in-power-bi-report-builder"></a>Tabelas, matrizes e listas no Report Builder do Power BI
@@ -28,7 +28,7 @@ ms.locfileid: "78921499"
 
 ![Tabela, matriz e lista do Report Builder](media/report-builder-tables-matrices-lists/report-builder-table-matrix-list.png)
   
-##  <a name="Table"></a> Tabelas  
+##  <a name="tables"></a><a name="Table"></a> Tabelas  
  Utilize uma tabela para apresentar dados detalhados, organizar os dados em grupos de linhas ou ambos. O modelo de Tabela inclui três colunas com uma linha de cabeçalho da tabela e uma linha de detalhes para dados. A seguinte imagem mostra o modelo de tabela inicial, selecionado na superfície da estrutura:  
 
 ![Modelo de tabela do Report Builder com a superfície da estrutura selecionada](media/report-builder-tables-matrices-lists/report-builder-new-table.png)
@@ -37,7 +37,7 @@ ms.locfileid: "78921499"
   
  Inicialmente, pode ocultar dados agrupados ou detalhados e incluir botões de alternar de desagregação para permitir que os utilizadores selecionem a quantidade de dados a apresentar de forma interativa.  
   
-##  <a name="Matrix"></a> Matrizes  
+##  <a name="matrixes"></a><a name="Matrix"></a> Matrizes  
  Utilize uma matriz para apresentar resumos de dados agregados, agrupados em linhas e colunas, de forma semelhante a uma tabela dinâmica ou referência cruzada. O número de linhas e colunas para grupos é determinado pelo número de valores exclusivos para cada grupo de linhas e colunas. A seguinte imagem mostra o modelo de matriz inicial, selecionado na superfície da estrutura:  
 
 ![Nova matriz do Report Builder adicionada a partir da Caixa de Ferramentas, selecionada](media/report-builder-tables-matrices-lists/report-builder-new-matrix.png)
@@ -48,24 +48,24 @@ ms.locfileid: "78921499"
   
  Também pode incluir botões de alternar de desagregação que ocultam inicialmente os dados detalhados. Em seguida, o utilizador pode clicar nos botões para apresentar mais ou menos detalhes, conforme necessário.  
   
-##  <a name="List"></a> Listas  
+##  <a name="lists"></a><a name="List"></a> Listas  
  Utilize uma lista para criar um esquema de forma livre. Não está restringido a um esquema de grelha, mas pode colocar campos livremente dentro da lista. Pode utilizar uma lista para estruturar um formulário e apresentar vários campos de conjuntos de dados ou utilizar uma lista como contentor e apresentar múltiplas regiões de dados lado a lado para dados agrupados. Por exemplo, pode definir um grupo para uma lista; adicionar uma tabela, gráfico e imagem; e apresentar valores numa tabela e gráfico para cada valor de grupo, como faria para o registo de um paciente ou colaborador.  
 
 ![Nova lista do Report Builder adicionada a partir da Caixa de Ferramentas, selecionada](media/report-builder-tables-matrices-lists/report-builder-new-list.png)
   
-##  <a name="PreparingData"></a> Preparar dados  
+##  <a name="preparing-data"></a><a name="PreparingData"></a> Preparar dados  
  As regiões de dados de tabelas, matrizes e listas apresentam dados de um conjunto de dados. Pode preparar os dados na consulta que obtém os dados para o conjunto de dados ou definir as propriedades na tabela, matriz ou lista.  
   
  As linguagens de consulta, como o Transact-SQL, que utiliza para obter os dados para conjuntos de dados de relatórios, podem preparar os dados ao aplicar filtros para incluir apenas um subconjunto dos dados, substituindo valores nulos ou em branco pelas constantes que facilitam a leitura do relatório, bem como ordenar e agrupar dados.  
   
  Se optar por preparar os dados na região de dados da tabela, matriz ou lista de um relatório, defina as propriedades na região de dados ou nas células da região de dados. Se quiser filtrar ou ordenar os dados, defina as propriedades na região de dados. Por exemplo, para ordenar os dados, especifique as colunas nas quais pretende ordenar e a direção de ordenação. Se quiser indicar um valor alternativo para um campo, defina os valores do texto da célula que apresenta o campo. Por exemplo, para apresentar Em Branco quando um campo estiver vazio ou nulo, utilize uma expressão para definir o valor.  
   
-##  <a name="BuildingConfiguringTableMatrixList"></a> Criar e configurar uma tabela, matriz ou lista  
+##  <a name="building-and-configuring-a-table-matrix-or-list"></a><a name="BuildingConfiguringTableMatrixList"></a> Criar e configurar uma tabela, matriz ou lista  
  Ao adicionar tabelas ou matrizes ao seu relatório, pode utilizar o Assistente de Tabelas e Matrizes ou criá-las manualmente a partir dos modelos fornecidos pelo Report Builder. As listas são criadas manualmente a partir do modelo de lista.  
   
  O assistente orienta-o durante os passos para criar e configurar rapidamente uma tabela ou matriz. Quando concluir o assistente ou se criar as regiões de dados tablix de raiz, poderá configurar e refiná-las ainda mais. As caixas de diálogo (disponíveis através dos menus de contexto nas regiões de dados) facilitam a definição das propriedades mais utilizadas para quebras de página, repetição e visibilidade de cabeçalhos e rodapés, opções de apresentação, filtros e ordenação. Porém, a região de dados tablix disponibiliza diversas propriedades adicionais, que só podem ser configuradas no painel Propriedades do Report Builder. Por exemplo, se quiser apresentar uma mensagem quando o conjunto de dados de uma tabela, matriz ou lista estiver vazio, especifique o texto da mensagem na propriedade de tablix NoRowsMessage, no painel Propriedades.  
   
-##  <a name="ChangingBetweenTablixTemplates"></a> Alternar entre modelos de tablix  
+##  <a name="changing-between-tablix-templates"></a><a name="ChangingBetweenTablixTemplates"></a> Alternar entre modelos de tablix  
  Não está restringido ao modelo de tablix que escolher inicialmente. À medida que adicionar grupos, totais e etiquetas, poderá querer modificar a estrutura da sua tablix. Por exemplo, pode começar com uma tabela e, em seguida, eliminar a linha de detalhes e adicionar grupos de colunas.  
   
  Pode continuar a desenvolver uma tabela, matriz ou lista ao adicionar uma funcionalidade de tablix. As funcionalidades de tablix incluem a apresentação de agregados ou dados detalhados para dados agrupados em linhas e colunas. Pode criar grupos aninhados, grupos adjacentes independentes ou grupos recursivos. Pode filtrar e ordenar dados agrupados, bem como combinar facilmente grupos ao incluir múltiplas expressões de grupo numa definição de grupo.  

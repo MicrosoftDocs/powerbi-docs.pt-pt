@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006509"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Criar uma segmentação de dados reativa que pode redimensionar no Power BI
@@ -79,7 +79,7 @@ Pode seguir os mesmos passos para tornar uma segmentação de dados de intervalo
 - As novas barras de deslocamento redondas nas segmentações de dados otimizam as interações de toque. 
 - Quando um elemento visual se torna demasiado pequeno para ser útil, torna-se um ícone que representa o tipo de elemento visual, como substituto. Para interagir com o mesmo, faça duplo toque para abri-lo no modo de detalhe. Isto poupa espaço importante na página do relatório sem prejudicar a funcionalidade.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 - [Segmentações de dados no serviço Power BI](visuals/power-bi-visualization-slicers.md)
 - Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

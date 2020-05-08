@@ -9,10 +9,10 @@ ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Share your work
 ms.openlocfilehash: 1fc33b48613335f4fba97921e3d528175eb2a47f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81267851"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>Configurar a certificação de conjuntos de dados e de fluxos de dados (pré-visualização)
@@ -39,9 +39,9 @@ A certificação de conjuntos de dados e de fluxos de dados faz parte do *endoss
 1. Especifique os utilizadores ou grupos autorizados a certificar conjuntos de dados e fluxos de dados. Estas pessoas autorizadas poderão utilizar o botão Certificação na secção de certificação da caixa de diálogo de definições do endossamento do [conjunto de dados](../service-datasets-promote.md#request-dataset-certification) ou [fluxo de dados](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow).
 1. Clique em **Aplicar**.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Promote datasets](../service-datasets-promote.md) (Promover conjuntos de dados)
 * [Certify datasets](../service-datasets-certify.md) (Certificar conjuntos de dados)
 * [Promote dataflows](../transform-model/service-dataflows-promote-certify.md#promote-a-dataflow) (Promover fluxos de dados)
 * [Certify dataflows](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow) (Certificar fluxos de dados)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

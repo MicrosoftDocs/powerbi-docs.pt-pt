@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207603"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Editar ou remover um mosaico do dashboard
@@ -140,8 +140,8 @@ Por predefinição, a seleção de um mosaico normalmente permite aceder ao rela
 2. Eliminar um mosaico não elimina a visualização subjacente. Abra o relatório subjacente, selecionando o mosaico "Valor". Abra a última página do relatório para ver que a visualização original não foi eliminada do relatório. 
 
 - - -
-## <a name="next-steps"></a>Próximos passos
-[Mosaicos do dashboard no Power BI](consumer/end-user-tiles.md)
+## <a name="next-steps"></a>Próximas etapas
+[Mosaicos de dashboards no Power BI](consumer/end-user-tiles.md)
 
 [Dashboards no Power BI](consumer/end-user-dashboards.md)
 

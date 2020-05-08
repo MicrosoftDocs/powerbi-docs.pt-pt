@@ -13,10 +13,10 @@ metadata:
   ms.author: maggies
   ms.date: 03/03/2020
   ms.openlocfilehash: d4099c6ad1a5ed6396d8c4a777e3a0aa13a6d570
-  ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 03/11/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "79112761"
 landingContent:
 - title: Começar a colaborar e a partilhar
@@ -37,7 +37,7 @@ landingContent:
     links:
     - text: Organizar o trabalho nas novas áreas de trabalho
       url: ../service-new-workspaces.md
-- title: Partilhar o seu trabalho
+- title: Share your work (Partilhar seu trabalho)
   linkLists:
   - linkListType: concept
     links:
@@ -57,7 +57,7 @@ landingContent:
   linkLists:
   - linkListType: concept
     links:
-    - text: Azure e Power BI
+    - text: Azure and Power BI (Azure e Power BI)
       url: ../service-azure-and-power-bi.md
     - text: Analisar no Excel
       url: ../service-analyze-in-excel.md

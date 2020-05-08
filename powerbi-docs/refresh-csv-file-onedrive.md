@@ -11,10 +11,10 @@ ms.date: 09/12/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: d18d3a5b5d85a121f67c5b3109a150a21ab72d1a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699711"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>Atualizar um conjunto de dados criado com base num ficheiro .CSV no OneDrive ou SharePoint Online
@@ -29,7 +29,7 @@ Muitas organizações realizam processos que consultam automaticamente nas bases
 Os ficheiros de valores separados por vírgulas são ficheiros de texto simples; portanto, não há suporte para conexões a relatórios e origens de dados externas. Não é possível agendar uma atualização num conjunto de dados criado por meio de um ficheiro delimitado por vírgulas. No entanto, quando o ficheiro estiver no OneDrive ou SharePoint Online, o Power BI sincronizará todas as alterações no ficheiro com o conjunto de dados automaticamente em intervalos aproximados de sessenta minutos.
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive ou OneDrive para Empresas. Qual é a diferença?
-Se tiver um OneDrive Pessoal e um OneDrive para Empresas, é recomendável manter todos os ficheiros aos quais deseja se conectar no Power BI no OneDrive para Empresas. Eis o porquê: Provavelmente utiliza duas contas diferentes para iniciar sessão.
+Se tiver um OneDrive Pessoal e um OneDrive para Empresas, é recomendável manter todos os ficheiros aos quais deseja se conectar no Power BI no OneDrive para Empresas. Eis o porquê: provavelmente utiliza duas contas diferentes para iniciar sessão.
 
 A ligação ao OneDrive para Empresas no Power BI é normalmente contínua, porque a mesma conta com a qual inicia sessão no Power BI é geralmente a mesma conta utilizada para iniciar sessão no OneDrive para Empresas. Mas, com o OneDrive pessoal, provavelmente entra com outra [conta da Microsoft](https://account.microsoft.com).
 
@@ -42,7 +42,7 @@ Se fizer alterações no ficheiro .csv no OneDrive que não podem ser sincroniza
 ## <a name="when-things-go-wrong"></a>Quando algo dá errado
 Se os dados no ficheiro .csv no OneDrive forem alterados e essas alterações não forem refletidas no Power BI, isso ocorre provavelmente porque o Power BI não pode se conectar ao OneDrive. Tente se conectar ao ficheiro e importá-lo novamente. Se for solicitado a iniciar a sessão, certifique-se de selecionar **Manter-me ligado**.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Ferramentas para resolver problemas de atualização](service-gateway-onprem-tshoot.md)
 [Resolver problemas de cenários de atualização](refresh-troubleshooting-refresh-scenarios.md)
 

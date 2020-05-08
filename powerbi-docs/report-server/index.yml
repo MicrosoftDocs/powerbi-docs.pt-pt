@@ -13,17 +13,17 @@ metadata:
   ms.author: maggies
   ms.date: 03/03/2020
   ms.openlocfilehash: f727b8832c29c4bfca448a03898620c183eb13a2
-  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 03/07/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "78924627"
 landingContent:
 - title: Sobre o Power BI Report Server
   linkLists:
   - linkListType: overview
     links:
-    - text: O que é o Power BI Report Server?
+    - text: O que é o Power BI Report Server?
       url: get-started.md
   - linkListType: concept
     links:
@@ -41,7 +41,7 @@ landingContent:
     links:
     - text: Descrição geral para administradores
       url: admin-handbook-overview.md
-    - text: Descrição geral
+    - text: Descrição geral do programador
       url: developer-handbook-overview.md
   - linkListType: how-to-guide
     links:
@@ -83,5 +83,5 @@ landingContent:
       url: getting-around.md
     - text: Aceder a conjuntos de dados partilhados como feeds do OData
       url: access-dataset-odata.md
-    - text: Row-level security
+    - text: Segurança ao Nível da Linha
       url: row-level-security-report-server.md

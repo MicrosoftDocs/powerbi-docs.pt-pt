@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 81581b861f731ac287cc18f4ab1fdf77ab7a4e7c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040119"
 ---
 # <a name="your-content-is-up-to-date"></a>Os seus conteúdos estão atualizados
@@ -40,7 +40,7 @@ O nome do proprietário está disponível na barra de título de dashboards e re
 ![Proprietário do dashboard do Power BI](media/end-user-fresh/power-bi-owner.png)
 
 
-### <a name="apps"></a>Aplicações
+### <a name="apps"></a>Apps
 
 O ecrã da aplicação apresenta o nome do criador e a data em que a aplicação foi atualizada pela última vez.  
 
@@ -55,7 +55,7 @@ O ecrã da aplicação apresenta o nome do criador e a data em que a aplicação
     ![2 aplicações com uma selecionada](media/end-user-fresh/power-bi-app.png)
 
 
-### <a name="shared-with-me"></a>Partilhado comigo
+### <a name="shared-with-me"></a>Shared with me (Partilhado comigo)
 O ecrã **Partilhado comigo** mostra-lhe o nome do proprietário dos conteúdos, bem como a data na qual o mesmo foi partilhado consigo da última vez.
 
 ![ecrã partilhado comigo a mostrar Data da alteração e Proprietário](media/end-user-fresh/power-bi-share.png) 
@@ -64,7 +64,7 @@ O ecrã **Partilhado comigo** mostra-lhe o nome do proprietário dos conteúdos,
 ## <a name="how-to-look-up-the-last-refresh-date"></a>Como encontrar a última data de atualização
 Se quiser, pode encontrar a última data de atualização de grande parte dos conteúdos. 
 
-### <a name="dashboard-tiles"></a>Os mosaicos do dashboard
+### <a name="dashboard-tiles"></a>Mosaicos de dashboard
 Para os mosaicos do dashboard, consulte o mosaico em modo de Detalhe para ver o carimbo de data/hora da Última atualização.
 
 1. No mosaico do dashboard, selecione **Mais opções** (...) e, em seguida, **Abrir no modo de Detalhe**.
@@ -95,7 +95,7 @@ Outra forma de se manter atualizado é ao subscrever um relatório ou dashboard.
 ## <a name="set-data-alerts"></a>Definir alertas de dados
 Quer receber notificações se os dados forem alterados para além de um limite definido por si? [Crie um alerta de dados](end-user-alerts.md).  É fácil manter-se atualizado com os alertas de dados. Com os alertas de dados, indica ao Power BI que lhe envie um e-mail se um valor num relatório ultrapassar um patamar específico.  Por exemplo, se o inventário tiver menos de 25 unidades ou se as vendas ultrapassarem os objetivos.  
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Criar um alerta de dados](end-user-alerts.md)    
 [Subscrever dashboards e relatórios](end-user-subscribe.md)    
 [Ver conteúdos relacionados](end-user-related.md)    

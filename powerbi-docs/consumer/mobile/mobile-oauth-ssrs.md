@@ -9,10 +9,10 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114955"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Utilizar OAuth para ligar ao Power BI Report Server e SSRS
@@ -28,7 +28,7 @@ Veja o Adam a ligar-se do Power BI Mobile ao SSRS com o OAuth:
 > [!NOTE]
 > A visualização de relatórios do Power BI alojados no Power BI Report Server com a utilização de WAP para autenticação é agora suportada para aplicações iOS e Android.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 O Windows Server 2016 é necessário para os servidores do Proxy de Aplicações Web (WAP) e dos Serviços de Federação do Active Directory (AD FS). Não precisa de ter um domínio de nível funcional do Windows 2016.
 
@@ -232,11 +232,11 @@ Quando selecionar **Ligar**, será direcionado para a página de início de sess
 
 Depois de selecionar **Iniciar sessão**, verá os elementos do servidor do Reporting Services.
 
-## <a name="multi-factor-authentication"></a>Autenticação multifator
+## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 
 Pode ativar a autenticação multifator para ativar segurança adicional no seu ambiente. Para obter mais informações, veja [Configure AD FS 2016 and Azure MFA (Configurar o AD FS 2016 e o MFA do Azure)](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
 
-## <a name="troubleshooting"></a>Resolução de problemas
+## <a name="troubleshooting"></a>Troubleshooting (Resolução de problemas)
 
 ### <a name="you-receive-the-error-failed-to-login-to-ssrs-server"></a>Vê o erro "Falha ao iniciar sessão no servidor SSRS"
 
@@ -246,7 +246,7 @@ Pode configurar o [Fiddler](https://www.telerik.com/fiddler) para atuar como um 
 
 Se o início de sessão for bem-sucedido ao utilizar o Fiddler, poderá ocorrer um problema de certificado com a aplicação WAP ou o servidor ADFS. 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [Registar um Nome do Principal do Serviço (SPN) para um Servidor de Relatórios](https://msdn.microsoft.com/library/cc281382.aspx)  
 [Modificar um Ficheiro de Configuração do Reporting Services](https://msdn.microsoft.com/library/bb630448.aspx)  

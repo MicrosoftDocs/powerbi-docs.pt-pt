@@ -1,6 +1,6 @@
 ---
-title: Permissões do Power BI
-description: Permissões do Power BI
+title: Power BI permissions (Permissões do Power BI)
+description: Power BI permissions (Permissões do Power BI)
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,13 +9,13 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
 ms.openlocfilehash: 51c43a19613381d39e0397864e55baed2022663c
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79491370"
 ---
-# <a name="power-bi-permissions"></a>Permissões do Power BI
+# <a name="power-bi-permissions"></a>Power BI permissions (Permissões do Power BI)
 
 ## <a name="permission-scopes"></a>Âmbitos de permissão
 
@@ -26,9 +26,9 @@ As permissões do Power BI fornecem a uma aplicação a capacidade de executar d
 | Ver Todos os Conjuntos de Dados |A aplicação pode ver todos os conjuntos de dados do utilizador com sessão iniciada e os conjuntos de dados a que o utilizador tem acesso. |Dataset.Read.All |
 | Ler e Escrever Todos os Conjuntos de Dados |A aplicação pode ver e escrever em todos os conjuntos de dados do utilizador com sessão iniciada e os conjuntos de dados a que o utilizador tem acesso. |Dataset.ReadWrite.All |
 | Adicionar dados ao conjunto de dados de um utilizador |Dá acesso a uma aplicação para adicionar ou eliminar linhas de conjuntos de dados de um utilizador. Esta permissão não concede o acesso da aplicação aos dados do utilizador. |Data.Alter_Any |
-| Criar conteúdos |A aplicação pode criar conteúdos e conjuntos de dados automaticamente para um utilizador. |Content.Create |
+| Create content |A aplicação pode criar conteúdos e conjuntos de dados automaticamente para um utilizador. |Content.Create |
 | Ver Grupos de Utilizadores |A aplicação pode ver todos os grupos a que o utilizador com sessão iniciada pertence. |Group.Read |
-| Ver todos os grupos |A aplicação pode ver todos os grupos a que o utilizador com sessão iniciada pertence. |Group.Read.All |
+| Ver todos os Grupos |A aplicação pode ver todos os grupos a que o utilizador com sessão iniciada pertence. |Group.Read.All |
 | Ler e escrever todos os Grupos |A aplicação pode ver e escrever em todos os grupos do utilizador com a sessão iniciada e todos os grupos a que o utilizador tenha acesso. |Group.ReadWrite.All |
 | Ver todos os Dashboards |A aplicação pode ver todos os dashboards do utilizador com sessão iniciada e os dashboards a que o utilizador com sessão iniciada tem acesso. |Dashboard.Read.All |
 | Ver todos os Relatórios |A aplicação pode ver todos os relatórios para o utilizador com a sessão iniciada e os relatórios a que o utilizador tem acesso. A aplicação também pode ver os dados nos relatórios, bem como a sua estrutura. |Report.Read.All |

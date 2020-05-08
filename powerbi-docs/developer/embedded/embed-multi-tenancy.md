@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
 ms.openlocfilehash: 435f643ba155bc9d6c67d1131d946769e3d61730
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79494958"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Gerir multi-inquilinos com a análise incorporada do Power BI
@@ -120,7 +120,7 @@ Existem duas abordagens para as aplicações SaaS que fornecem aos utilizadores 
 
 Com o isolamento baseado na área de trabalho do Power BI, a aplicação SaaS suporta vários inquilinos a partir de um único inquilino do Power BI. O isolamento baseado na área de trabalho contém todo o conteúdo do Power BI utilizado por diferentes inquilinos. A separação de inquilinos é feita ao nível da área de trabalho do Power BI, através da criação de várias áreas de trabalho. Cada área de trabalho contém os conjuntos de dados, os relatórios e os dashboards relevantes desse inquilino. Além disso, cada área de trabalho está ligada apenas aos dados desse inquilino. Se precisar de isolamento adicional, poderá criar um utilizador *principal* ou um principal de serviço para cada área de trabalho e conteúdo.
 
-![Área de trabalho](media/embed-multi-tenancy/multi-tenant-saas-workspace.png)
+![Área de Trabalho](media/embed-multi-tenancy/multi-tenant-saas-workspace.png)
 
 ### <a name="data-architecture"></a>Arquitetura dos dados
 
@@ -181,7 +181,7 @@ Para os casos de utilização primária de criação de conteúdo, o programador
 
 Com o isolamento baseado na segurança ao nível da linha, a aplicação SaaS utiliza uma área de trabalho única para alojar vários inquilinos, o que significa que todos os relatórios de artefactos, dashboards e conjuntos de dados do Power BI são criados assim que todos os inquilinos os utilizam. A separação de dados entre inquilinos é obtida com a [segurança ao nível da linha](embedded-row-level-security.md) no conjunto de dados multi-inquilinos. Quando os utilizadores finais iniciam sessão na aplicação SaaS e abrem conteúdos, é gerado um Token de incorporação para a sessão desse utilizador, com as funções e os filtros que asseguram que o utilizador acede apenas aos dados para os quais tem permissão. Se os utilizadores do mesmo inquilino não tiverem permissão para ver os mesmos dados, o programador de aplicações precisará de implementar funções hierárquicas tanto entre inquilinos como no mesmo inquilino.
 
-![Row-level security](media/embed-multi-tenancy/multi-tenant-saas-rls.png)
+![Segurança ao nível da linha](media/embed-multi-tenancy/multi-tenant-saas-rls.png)
 
 ### <a name="data-architecture"></a>Arquitetura dos dados
 
@@ -252,7 +252,7 @@ O controlador primário de custo com isolamento baseado na segurança ao nível 
 * Para o número de atualizações que podem ser executadas simultaneamente numa capacidade, veja [gestão e otimização de recursos](../../service-premium-what-is.md#capacity-nodes).
 * O tempo médio de dimensionamento de uma capacidade está entre 1 e 2 minutos. Durante esse tempo, a capacidade não está disponível. Recomendamos que utilize uma abordagem de escalamento horizontal para [evitar períodos de inatividade](https://powerbi.microsoft.com/blog/power-bi-developer-community-november-update-2018/#scale-script).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Análise incorporada com o Power BI](embedding.md)
 * [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)

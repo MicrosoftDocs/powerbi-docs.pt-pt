@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 92aa2c5d8da91590f5d491090761a6a6b1501061
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78263812"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Documento de orientação das relações um-para-um
@@ -71,7 +71,7 @@ Para ajudar a descrever como funciona a propagação do filtro de relacionamento
 Os detalhes da linha para as duas tabelas estão descritos na seguinte lista com marcas:
 
 - A tabela **Produto** tem três linhas:
-  - **SKU** CL-01, **Produto** T-shirt, **Cor** Verde
+  - **SKU** CL-01, **Produto** T-shirts, **Cor** Verde
   - **SKU** CL-02, **Produto** Calças de Ganga, **Cor** Azul
   - **SKU** AC-01, **Produto** Chapéu, **Cor** Azul
 - A tabela **Categoria de Produto** tem duas linhas:

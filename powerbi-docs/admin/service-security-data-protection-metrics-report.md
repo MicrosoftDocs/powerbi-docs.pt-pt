@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: d2bd3308de21aa6064765b820745201efd8b23ab
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79112492"
 ---
 # <a name="data-protection-metrics-report-preview"></a>Relatório de métricas de proteção de dados (pré-visualização)
@@ -52,7 +52,7 @@ Versões melhoradas do relatório de métricas de proteção de dados são lanç
 * Se decidir partilhar informações do relatório de métricas de proteção de dados com um utilizador que não é administrador do Power BI, esteja ciente de que este relatório contém informações confidenciais sobre a sua organização.
 * O relatório de métricas de proteção de dados é um tipo especial de relatório e não aparece nas listas “Partilhado comigo”, “Recentes” e “Favoritos”.
 * O relatório de métricas de proteção de dados não está disponível para [utilizadores externos (utilizadores convidados do Azure Active Directory B2B)](../service-admin-azure-ad-b2b.md).
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Proteção de dados no Power BI (pré-visualização)](./service-security-data-protection-overview.md)
 * [Utilizar controlos do Microsoft Cloud App Security no Power BI (pré-visualização)](./service-security-using-microsoft-cloud-app-security-controls.md)
 * [Compreender a função de administrador do serviço Power BI](../service-admin-role.md)

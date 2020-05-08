@@ -9,10 +9,10 @@ ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6af8568dc39544ce064643c8dfb80fa2932cf13a
-ms.sourcegitcommit: 834cad24901f7fd966c4010e36a7904bc120e57f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82149676"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>Ligar ao Regional Emergency Response Dashboard (Dashboard de Respostas a Emergências Regionais)

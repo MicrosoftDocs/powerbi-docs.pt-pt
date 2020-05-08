@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
 ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802078"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Digitalizar um código QR do Power BI a partir do dispositivo móvel
@@ -73,10 +73,10 @@ Se o seu colega não tiver partilhado o dashboard ou relatório consigo, pode pe
 1. Com qualquer scanner instalado no dispositivo Android, aponte o scanner para o código QR relevante do Power BI para ter acesso imediato ao mosaico ou relatório. 
 2. Se não tiver a aplicação Power BI instalada, será redirecionado para o [Google Play para transferi-la](https://go.microsoft.com/fwlink/?LinkID=544867). 
 
-## <a name="next-steps"></a>Próximos passos
-* [Ligar a dados do Power BI do mundo real](mobile-apps-data-in-real-world-context.md) com as aplicações móveis
+## <a name="next-steps"></a>Próximas etapas
+* [Ligar-se a dados do Power BI do mundo real](mobile-apps-data-in-real-world-context.md) com as aplicações móveis
 * [Criar um código QR para um mosaico no serviço Power BI](../../service-create-qr-code-for-tile.md)
 * [Criar um código QR para um relatório no serviço Power BI](../../service-create-qr-code-for-report.md)
 * Também pode [ler um código QR com a aplicação Power BI for Mixed Reality](mobile-mixed-reality-app.md)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

@@ -10,10 +10,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 09/28/2017
 ms.openlocfilehash: 07c9c12366b100936e03fe07358ee180e026dfc5
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114756"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Colocar em pausa e iniciar a sua capacidade do Power BI Embedded no portal do Azure
@@ -71,7 +71,7 @@ Retome a utilização ao iniciar a sua capacidade. Iniciar a sua capacidade tamb
 
 Se algum conteúdo estiver atribuído a esta capacidade, o mesmo ficará disponível após o início.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Se quiser aumentar ou diminuir o dimensionamento da sua capacidade, veja [Scale your Power BI Embedded capacity](azure-pbie-scale-capacity.md) (Dimensionar a sua capacidade do Power BI Embedded).
 

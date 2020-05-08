@@ -1,6 +1,6 @@
 ---
 title: Visuals in Power BI (Elementos visuais no Power BI)
-description: Visualizações personalizadas no Power BI
+description: Custom visualizations in Power BI (Visualizações personalizadas no Power BI)
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -11,10 +11,10 @@ ms.topic: overview
 ms.date: 01/03/2019
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 22c367dbc6160928541570bf2de37c51edcbfc14
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80550869"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI (Elementos visuais no Power BI)
@@ -72,7 +72,7 @@ Se for programador Web e estiver interessado em criar o seu próprio elemento vi
 > [!WARNING]
 > Um elemento visual do Power BI pode conter código com riscos de privacidade ou segurança. Certifique-se de que confia no autor e na origem do elemento visual do Power BI antes de o importar para o seu relatório.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * Se for programador, comece com o tutorial [Desenvolver um elemento visual do Power BI](custom-visual-develop-tutorial.md).
 

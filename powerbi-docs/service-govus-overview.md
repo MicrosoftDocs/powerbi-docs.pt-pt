@@ -10,10 +10,10 @@ ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
 ms.openlocfilehash: a9a5f3fd5304e64209b6069741dffcc3fa9b07c8
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82256158"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes do Governo Norte-Americano
@@ -76,7 +76,7 @@ Para configurar firewalls no SQL, siga os passos para [Criar e gerir as regras d
 
 Para cumprir os requisitos dos clientes da cloud governamental, existem algumas diferenças entre os planos governamentais e os planos comerciais. Veja a tabela seguinte para ver quais as funcionalidades disponíveis em cada ambiente governamental.
 
-|Funcionalidade |   |GCC |GCC-High |DoD|
+|Destaque |   |GCC |GCC-High |DoD|
 |------|------|------|------|------|
 |Administração|Licenças gratuitas|Não disponível|Não disponível|Não disponível|
 |  |Definir limites de armazenamento de dados|Disponível|Disponível|Disponível|
@@ -90,7 +90,7 @@ Para cumprir os requisitos dos clientes da cloud governamental, existem algumas 
 |  |Dashboards de equipa atualizáveis|Disponível|Disponível|Disponível|
 |  |Relatórios paginados|Disponível|Previsto|Previsto|
 |  |Aplicações de modelo|Não disponível|Não disponível|Não disponível|
-|Ligar-se a dados|Importar dados e relatórios do Excel|Disponível|Disponível|Disponível|
+|Ligar a dados|Importar dados e relatórios do Excel|Disponível|Disponível|Disponível|
 |  |Importar dados de ficheiros CSV|Disponível|Disponível|Disponível|
 |  |Importar dados de ficheiros do Power BI Desktop|Disponível|Disponível|Disponível|
 |  |Conectividade para CDS|Disponível|Não disponível|Não disponível|
@@ -107,7 +107,7 @@ Para cumprir os requisitos dos clientes da cloud governamental, existem algumas 
 |  |Serviços Cognitivos|Não disponível|Não disponível|Não disponível|
 |  |Azure ML|Não disponível|Não disponível|Não disponível|
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Inscrever-se no Power BI para o Governo dos Estados-Unidos](service-govus-signup.md)
 * [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)

@@ -10,10 +10,10 @@ ms.date: 01/13/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273346"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Executar scripts de Python no Power BI Desktop
@@ -104,7 +104,7 @@ Para executar o seu Script de Python no Power BI Desktop:
 
    ![Navegador a mostrar dados para carregar e utilizar](media/desktop-python-scripts/python-scripts-5.png) 
 
-### <a name="troubleshooting"></a>Resolução de problemas
+### <a name="troubleshooting"></a>Troubleshooting (Resolução de problemas)
 
 Se o Python não estiver instalado ou identificado, será apresentado um aviso. Também poderá ser apresentado um aviso caso tenha múltiplas instalações no computador local. Veja novamente as secções anteriores sobre como instalar e ativar os scripts de Python.
 
@@ -122,7 +122,7 @@ Como solução possível, pode iniciar o Power BI Desktop a partir do seu pedido
 
 Pode atualizar um script de Python no Power BI Desktop. Para atualizar, aceda ao friso **Home Page** e selecione **Atualizar**. Quando atualizar um script de Python, o Power BI Desktop executará o script de Python novamente.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Veja as seguintes informações adicionais sobre o Python no Power BI.
 

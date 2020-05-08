@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 7d61a57a928df95bd2210bf58cc44e37d14c393d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114474"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>Integração da funcionalidade de Pesquisa (Spotlight) de Dispositivos iOS na Aplicação Power BI Mobile para iOS (pré-visualização)
@@ -30,9 +30,9 @@ Para encontrar itens com a funcionalidade de pesquisa do dispositivo:
  
    Os resultados de pesquisa irão incluir os seguintes tipos de itens do Power BI:
 
-    * Dashboards
-    * Relatórios
-    * Aplicações
+    * Painéis
+    * Reports (Relatórios)
+    * Apps
     * Áreas de trabalho
     * Itens partilhados pelo contacto que procurou
 
@@ -47,7 +47,7 @@ A pesquisa do dispositivo, com tecnologia da Siri, irá também incluir sugestõ
 >Para desativar a pesquisa de dispositivos e as sugestões da Siri, aceda a **Definições do dispositivo** > **Definições do Power BI** > **Siri e Pesquisa** e desative a opção **Siri e sugestões**.
 >
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Saiba mais sobre a aplicação móvel do Power BI ao fazer o seguinte: 
 
 * Transfira a [aplicação móvel do Power BI para iPhone](https://go.microsoft.com/fwlink/?LinkId=522062)

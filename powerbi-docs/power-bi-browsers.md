@@ -1,5 +1,5 @@
 ---
-title: Browsers com suporte para o Power BI
+title: Supported browsers for Power BI (Browsers suportados para o Power BI)
 description: Ver uma lista de browsers que suportam o Power BI
 author: maggiesMSFT
 ms.reviewer: ''
@@ -10,13 +10,13 @@ ms.date: 03/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: abe556231978d762dab652263aa2c55cf3c8a955
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273277"
 ---
-# <a name="supported-browsers-for-power-bi"></a>Browsers com suporte para o Power BI
+# <a name="supported-browsers-for-power-bi"></a>Supported browsers for Power BI (Browsers suportados para o Power BI)
 
 O Power BI foi concebido para funcionar com qualquer um destes browsers suportados, mas o desempenho difere consoante o browser que escolher. Se estiver a utilizar o Internet Explorer em particular, poderá obter um desempenho pior. Recomendamos vivamente que mude do Internet Explorer para um browser moderno, incluindo o Microsoft Edge, para obter um melhor desempenho. Esperamos que o desempenho do Microsoft Edge continue a melhorar com o Edge Chromium. Se continuar a ter um desempenho inaceitável, teste outros browsers modernos suportados para ver se fornecem melhores resultados para a sua solução do Power BI.
 
@@ -31,7 +31,7 @@ O Power BI suporta estes browsers em todas as plataformas onde estiverem dispon�
 > [!NOTE]
 > Não é possível executar o Power BI em nenhum browser no iOS 10 ou em versões anteriores.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [O que é o Power BI?](power-bi-overview.md)
 * Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/)
 * Ainda tem problemas? Visite a [página de suporte do Power BI](https://powerbi.microsoft.com/support/)

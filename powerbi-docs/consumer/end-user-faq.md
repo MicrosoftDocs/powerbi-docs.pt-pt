@@ -10,10 +10,10 @@ ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79039998"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
@@ -60,7 +60,7 @@ O Power BI não suporta endereços de e-mail fornecidos por serviços de e-mail
 
 ## <a name="does-power-bi-support-mobile-devices"></a>O Power BI suporta dispositivos móveis?
 
-Yes. O Power BI tem aplicações nativas para telemóveis e tablets Android, dispositivos iOS e dispositivos Windows 10. Transfira uma das [aplicações móveis do Power BI](https://powerbi.microsoft.com/mobile) a partir da respetiva loja:  
+Sim. O Power BI tem aplicações nativas para telemóveis e tablets Android, dispositivos iOS e dispositivos Windows 10. Transfira uma das [aplicações móveis do Power BI](https://powerbi.microsoft.com/mobile) a partir da respetiva loja:  
 
 * [Apple App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
 * [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
@@ -109,7 +109,7 @@ Como muitos outros serviços e softwares da Microsoft, o Power BI fornece uma fo
 
 * Para **anular** a sua última ação, ou ações, prima CTRL+Z.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [O que é um consumidor do Power BI?](end-user-consumer.md)
 * [Como é que um consumidor pode utilizar o Power BI?](end-user-reading-view.md)
