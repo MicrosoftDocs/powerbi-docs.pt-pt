@@ -9,10 +9,10 @@ ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 180fd8d451be794070d8b0f4d37c40965671d23d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73854887"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Ligar a ficheiros armazenados no OneDrive para a sua área de trabalho do Power BI
@@ -75,10 +75,10 @@ Agora que os seus ficheiros estão no OneDrive para Empresas para a sua área de
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Criar aplicações e áreas de trabalho no Power BI](service-create-distribute-apps.md)
 * [Importar dados de livros do Excel](service-get-data-from-files.md)
 * [Ligar a livros inteiros do Excel](service-excel-workbook-files.md)
-* Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
+* Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 * Comentários? Visite [Ideias para o Power BI](https://ideas.powerbi.com/forums/265200-power-bi)
 

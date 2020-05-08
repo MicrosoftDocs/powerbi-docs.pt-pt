@@ -10,15 +10,15 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874470"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Criar um elemento visual com as Perguntas e Respostas do Power BI
 
-Às vezes, a maneira mais rápida de obter uma resposta dos seus dados é fazer uma pergunta em linguagem natural.  Neste artigo, examinaremos duas formas diferentes de criar a mesma visualização: em primeiro lugar, fazer uma pergunta com as Perguntas e Respostas e, em segundo lugar, compilá-la num relatório. Iremos utilizar o serviço Power BI para compilar o elemento visual no relatório, mas o processo é quase idêntico a utilizar o Power BI Desktop.
+Às vezes, a forma mais rápida de obter uma resposta dos seus dados é fazer uma pergunta com linguagem natural.  Neste artigo, examinaremos duas formas diferentes de criar a mesma visualização: em primeiro lugar, fazer uma pergunta com as Perguntas e Respostas e, em segundo lugar, compilá-la num relatório. Iremos utilizar o serviço Power BI para compilar o elemento visual no relatório, mas o processo é quase idêntico a utilizar o Power BI Desktop.
 
 ![Gráfico preenchido do Power BI](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-create-visual.png)
 
@@ -48,7 +48,7 @@ Como podemos criar este gráfico de linhas com as Perguntas e Respostas?
    
    ![Gráfico de área preenchido nas Perguntas e Respostas](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-create-filled-chart.png)
 
-4. Para afixar o gráfico no seu dashboard, selecione o ícone de afixar ![Ícone de afixar](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) no canto superior direito.
+4. Para afixar o gráfico no seu dashboard, selecione o ícone de afixar ![ícone de afixação](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) no canto superior direito.
 
 ## <a name="create-a-visual-in-the-report-editor"></a>Criar um elemento visual no editor de relatórios
 
@@ -67,7 +67,7 @@ Como podemos criar este gráfico de linhas com as Perguntas e Respostas?
 
     Vê que ficaram com o mesmo elemento visual. Não foi muito complicado criá-los desta forma. No entanto, é mais fácil criar com as Perguntas e Respostas!
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 - [Utilizar Perguntas e Respostas em dashboards e relatórios](power-bi-tutorial-q-and-a.md)  
 - [Perguntas e Respostas para consumidores](consumer/end-user-q-and-a.md)

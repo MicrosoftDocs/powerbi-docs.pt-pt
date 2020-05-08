@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496299"
 ---
 # <a name="view-a-dashboard"></a>Visualizar um dashboard
@@ -24,7 +24,7 @@ ms.locfileid: "77496299"
 
 Os *consumidores* do Power BI passam muito tempo a visualizar dashboards. Os dashboards foram criados para realçar as informações específicas de relatórios e conjuntos de dados subjacentes. E os consumidores do Power BI utilizam essas informações para controlar, monitorizar, responder a perguntas, testar e muito mais – para tomar decisões condicionadas pelos dados empresariais.
 
-![dashboard](media/end-user-dashboard-open/power-bi-new-dash-new.png)
+![Dashboard](media/end-user-dashboard-open/power-bi-new-dash-new.png)
 
 
 É necessária uma licença do Power BI Pro ou Premium tanto para partilhar um dashboard como para visualizar um dashboard partilhado. [Qual é a minha licença?](end-user-license.md) 
@@ -44,7 +44,7 @@ Poderá encontrar dashboards em todos os contentores no painel de navegação.
 
 ![ícone do dashboard](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 
-- **Home Page** 
+- **Base** 
 - **Favoritos** – se definiu [um dashboard como favorito](end-user-favorite.md)
 - **Recente** – se visitou recentemente um dashboard
 - **Aplicações** – a maioria das aplicações contêm dashboards e relatórios
@@ -53,6 +53,6 @@ Poderá encontrar dashboards em todos os contentores no painel de navegação.
 
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * Conheça melhor os dashboards ao ver uma apresentação de um dos nossos [dashboards de exemplo](../sample-tutorial-connect-to-the-samples.md).    
 * Saiba mais sobre [mosaicos do dashboard](end-user-tiles.md) e o que acontece quando seleciona um.

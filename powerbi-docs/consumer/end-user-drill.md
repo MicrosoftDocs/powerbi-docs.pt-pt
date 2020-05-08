@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496421"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Modo de exploração num elemento visual no Power BI
@@ -149,12 +149,12 @@ Repare que os totais são iguais para **City** (Cidade), **PostalCode** (Código
 - Para ver um relatório que foi partilhado consigo necessita de uma licença Power BI Pro ou Premium. [Qual é a minha licença?](end-user-license.md)
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [Elementos visuais em relatórios do Power BI](../visuals/power-bi-report-visualizations.md)
 
 [Relatórios do Power BI](end-user-reports.md)
 
-[Power BI - Conceitos Básicos](end-user-basic-concepts.md)
+[Power BI - conceitos básicos](end-user-basic-concepts.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/07/2020
 ms.author: maggies
 ms.openlocfilehash: 33c4f7b208916c2d920591acfc444f52c7655e47
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78919528"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Criar um relatório paginado para o Power BI Report Server

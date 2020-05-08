@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78260462"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Guia de relações muitos-para-muitos
@@ -297,6 +297,6 @@ Para obter mais informações relacionadas com este artigo, consulte os seguinte
 
 - [Relações de modelos no Power BI Desktop](../desktop-relationships-understand.md)
 - [Compreender o que é um esquema de estrela e qual a importância para o Power BI](star-schema.md)
-- [Relationship troubleshooting guidance](relationships-troubleshoot.md) (Documento de orientação na resolução de problemas de relações)
+- [Documento de orientação da resolução de problemas de relações](relationships-troubleshoot.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)
