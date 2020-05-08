@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/03/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 007ff786fcee5d2a7b7237ad578a202cfcf25b69
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78401925"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Modelos grandes no Power BI Premium (pré-visualização)

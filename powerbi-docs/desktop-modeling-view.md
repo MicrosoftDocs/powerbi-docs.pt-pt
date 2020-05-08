@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: b9df4398c410f52e3d5cdd51a99a40de107f5867
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760888"
 ---
 # <a name="work-with-modeling-view-in-power-bi-desktop"></a>Trabalhar com a Vista de modelação no Power BI Desktop
@@ -50,7 +50,7 @@ Por exemplo, pode alterar o [modo de armazenamento](desktop-storage-mode.md) de 
 ![Selecionar várias tabelas ao manter premida a tecla CTRL e, em seguida, definir propriedades comuns em todas as tabelas selecionadas](media/desktop-modeling-view/modeling-view_06.png)
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Os artigos seguintes descrevem de forma mais detalhada os modelos de dados e também o DirectQuery.
 

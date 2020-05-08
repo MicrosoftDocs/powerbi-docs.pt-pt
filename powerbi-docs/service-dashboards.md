@@ -10,10 +10,10 @@ ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160794"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introdução aos dashboards para designers do Power BI
@@ -50,18 +50,18 @@ Os [Relatórios](service-reports.md) e os dashboards parecem semelhantes porque 
 | **Capacidade** | **Dashboards** | **Relatórios** |
 | --- | --- | --- |
 | Páginas |Uma página |Uma ou mais páginas |
-| Origens de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
-| Disponível no Power BI Desktop |Não | Yes. Podem criar e ver relatórios no Power BI Desktop |
-| Subscrever |Yes. Pode subscrever um dashboard |Yes. Pode subscrever uma página de relatório |
-| Filtragem |Não. Não pode filtrar nem segmentar |Yes. Várias formas diferentes de filtrar, realçar e segmentar |
-| Destaques |Yes. Pode definir um dashboard como o seu dashboard *em destaque* |Não |
-| Favorito | Yes. Pode definir múltiplos dashboards como *favoritos* | Yes. Pode definir múltiplos relatórios como *favoritos*
-| Definir alertas |Yes. Disponível para mosaicos de dashboards em determinadas circunstâncias |Não |
-| Consultas de linguagem natural (Perguntas e Respostas) |Sim | Sim, desde que tenha permissões de edição para o relatório e o conjunto de dados subjacente |
-| Pode ver as tabelas e os campos de conjuntos de dados subjacentes |Não. Pode exportar dados, mas não pode ver tabelas e campos no próprio dashboard |Sim |
+| Data sources |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
+| Disponível no Power BI Desktop |No | Sim. Podem criar e ver relatórios no Power BI Desktop |
+| Subscrição |Sim. Pode subscrever um dashboard |Sim. Pode subscrever uma página de relatório |
+| Filtragem |N.º Não pode filtrar nem segmentar |Sim. Várias formas diferentes de filtrar, realçar e segmentar |
+| Destaques |Sim. Pode definir um dashboard como o seu dashboard *em destaque* |No |
+| Favorito | Sim. Pode definir múltiplos dashboards como *favoritos* | Sim. Pode definir múltiplos relatórios como *favoritos*
+| Definir alertas |Sim. Disponível para mosaicos de dashboards em determinadas circunstâncias |No |
+| Consultas de linguagem natural (Perguntas e Respostas) |Yes | Sim, desde que tenha permissões de edição para o relatório e o conjunto de dados subjacente |
+| Pode ver tabelas e campos de conjuntos de dados subjacentes |N.º Pode exportar dados, mas não pode ver tabelas e campos no próprio dashboard |Yes |
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * Conheça melhor os dashboards ao ver uma apresentação de um dos nossos [dashboards de exemplo](sample-tutorial-connect-to-the-samples.md).
 * Saiba mais sobre os [mosaicos de dashboards](service-dashboard-tiles.md).
 * Quer controlar um mosaico do dashboard individual e receber um e-mail quando atingir um determinado limiar? [Criar um alerta num mosaico](service-set-data-alerts.md).

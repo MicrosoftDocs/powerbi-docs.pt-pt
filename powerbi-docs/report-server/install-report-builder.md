@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
 ms.openlocfilehash: a18e0a094c5bc42f7a77a045ac7b552e458e5628
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78919831"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>Instalar o Report Builder – Power BI Report Server
@@ -23,7 +23,7 @@ Está à procura de ajuda com a instalação do Report Builder do serviço Power
   
 Normalmente, um administrador instala e configura o Power BI Report Server, concede permissão para transferir o Report Builder a partir do portal Web e gere pastas e permissões para relatórios e conjuntos de dados partilhados no Report Server. Para obter mais informações sobre a administração do Power BI Report Server, veja [Descrição geral de administração, Power BI Report Server](admin-handbook-overview.md).  
   
-## <a name="system-requirements"></a>Requisitos de sistema
+## <a name="system-requirements"></a>Requisitos do sistema
   
  Veja a secção **Requisitos do sistema** da [página de transferência do Report Builder](https://go.microsoft.com/fwlink/?LinkID=734968) no Centro de Transferências da Microsoft.
  
@@ -46,7 +46,7 @@ Pode instalar o Report Builder a partir de um portal Web do Power BI Report Serv
     ![Ecrã Novo Relatório ou Conjunto de Dados](media/quickstart-create-paginated-report/reportserver-paginated-new-report-screen.png)
  
 
-##  <a name="download"></a> Instalar o Report Builder a partir do Centro de Transferências  
+##  <a name="install-report-builder-from-the-download-center"></a><a name="download"></a> Instalar o Report Builder a partir do Centro de Transferências  
   
 1.  Na [página Report Builder do Centro de Transferências da Microsoft](https://go.microsoft.com/fwlink/?LinkID=734968), selecione **Transferir**.  
   
@@ -59,6 +59,6 @@ Pode instalar o Report Builder a partir de um portal Web do Power BI Report Serv
 5.  Selecione **Instalar** para concluir a instalação do Report Builder.  
  
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [O que é o Power BI Report Server?](get-started.md)

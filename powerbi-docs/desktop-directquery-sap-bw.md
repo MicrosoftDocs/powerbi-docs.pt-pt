@@ -10,10 +10,10 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761186"
 ---
 # <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Ligar ao SAP Business Warehouse com o DirectQuery no Power BI
@@ -32,8 +32,8 @@ Além disso, é *extremamente importante* compreender que muitas funcionalidades
 As principais restrições de modelação adicionais ao ligar ao SAP BW com o DirectQuery no Power BI são as seguintes:
 
 * **Não existe suporte para colunas calculadas:** a capacidade de criar colunas calculadas está desativada. Isto também significa que o Agrupamento e o Clustering, que criam colunas calculadas, não estão disponíveis.
-* **Limitações adicionais das medidas:** existem limitações adicionais impostas nas expressões DAX que podem ser utilizadas em medidas, para refletir o nível de suporte oferecido pelo SAP BW.
-* **Não existe suporte para definir relações:** as relações são inerentes na origem SAP externa e não se pode definir relações adicionais no modelo.
+* **Limitações adicionais para medidas:** existem limitações adicionais impostas em expressões DAX que podem ser utilizadas em medidas, para refletir o nível de suporte oferecido pelo SAP BW.
+* **Não existe suporte para definir relações:** as relações são inerentes na origem SAP externa e não é possível definir relações adicionais no modelo.
 * **Sem Vista de Dados:** a **Vista de Dados** normalmente apresenta os dados de nível de detalhe nas tabelas. Tendo em conta a natureza das origens OLAP, como o SAP BW, esta vista não está disponível através do SAP BW.
 * **Os detalhes das colunas e medidas são fixos:** a lista de colunas e medidas vistas na lista de campos é fixa pela origem subjacente e não pode ser modificada. Por exemplo, não é possível eliminar uma coluna, nem alterar o respetivo tipo de dados (no entanto, o nome pode ser mudado).
 * **Limitações adicionais no DAX:** existem limitações adicionais no DAX que podem ser utilizadas nas definições de medida, para refletir as limitações na origem. Por exemplo, não é possível utilizar uma função de agregação através de uma tabela.
@@ -43,12 +43,12 @@ As principais restrições adicionais em visualizações ao ligar ao SAP BW com 
 
 * **Nenhuma agregação de colunas:** não é possível alterar a agregação de uma coluna num elemento visual e é sempre *Não Resumir*
 * **A filtragem de medidas está desativada:** a filtragem de medidas está desativada para refletir o suporte oferecido pelo SAP BW.
-* **Seleção múltipla e incluir/excluir:** a capacidade de selecionar vários pontos de dados num elemento visual estará desativada se os pontos representarem valores de mais do que uma coluna. Por exemplo, num gráfico de barras que mostra as Vendas por País, com Categoria na Legenda, não seria possível selecionar o ponto para (EUA, Bicicletas) e (França, Roupas). Da mesma forma, não seria possível selecionar o ponto para (EUA, Bicicletas) e exclui-lo do elemento visual. Ambas as limitações são impostas para refletir o suporte oferecido pelo SAP BW.
+* **Seleção múltipla e incluir/excluir:** a capacidade de selecionar vários pontos de dados num elemento visual estará desativada, se os pontos representarem valores de mais do que uma coluna. Por exemplo, num gráfico de barras que mostra as Vendas por País, com Categoria na Legenda, não seria possível selecionar o ponto para (EUA, Bicicletas) e (França, Roupas). Da mesma forma, não seria possível selecionar o ponto para (EUA, Bicicletas) e exclui-lo do elemento visual. Ambas as limitações são impostas para refletir o suporte oferecido pelo SAP BW.
 
 ## <a name="support-for-sap-bw-features"></a>Suporte para funcionalidades do SAP BW
 A tabela seguinte apresenta uma lista de todas as funcionalidades do SAP BW que não são totalmente suportadas ou que irão comportar-se de forma diferente ao utilizar o Power BI.   
 
-| Funcionalidade | Descrição |
+| Destaque | Descrição |
 | --- | --- |
 | Cálculos locais |Os cálculos locais definidos numa Consulta BEx irão alterar os números, conforme apresentado através de ferramentas como o BEx Analyzer. No entanto, não são refletidos nos números devolvidos do SAP, através da interface MDX pública. <br/> <br/> **Como tal, os números vistos num elemento visual do Power BI não correspondem necessariamente a um elemento visual correspondente numa ferramenta SAP.**<br/> <br/>  Por exemplo, ao ligar a um cubo de consultas de uma consulta BEx que define a agregação como Acumulado (por exemplo, soma parcial), o Power BI iria devolver os números base, ignorando essa definição.  Um analista iria certamente aplicar então um cálculo de soma parcial localmente no Power BI, mas teria de ter cuidado na forma como os números seriam interpretados, se isto não fosse feito. |
 | Agregações |Em alguns casos (particularmente ao lidar com várias moedas), os números de agregação devolvidos pela interface pública SAP não correspondem aos que são mostrados pelas ferramentas SAP. <br/> <br/> **Como tal, os números vistos num elemento visual do Power BI não correspondem necessariamente a um elemento visual correspondente numa ferramenta SAP.** <br/> <br/> Por exemplo, os totais de moedas diferentes seriam mostrados como "*" no BEx Analyzer, mas o total seria devolvido pela interface pública SAP, sem informações de que esse número agregado seria insignificante. Por conseguinte, o número (ao agregar, por exemplo, $, EUR e AUD) seria apresentado pelo Power BI. |
@@ -71,10 +71,10 @@ A tabela seguinte apresenta uma lista de todas as funcionalidades do SAP BW que 
 | Definição do idioma do utilizador final |A região utilizada para ligar ao SAP BW está definida como parte dos detalhes da ligação e não reflete a região do consumidor do relatório final. |
 | Variáveis de Texto |O SAP BW permite que os nomes de campos contenham marcadores de posição para variáveis (por exemplo, "$YEAR$ Actuals") que seriam então substituídos pelo valor selecionado. Por exemplo, o campo é apresentado como "2016 Actuals" nas ferramentas BEx, se o ano 2016 estiver selecionado para a variável. <br/> <br/> O nome da coluna no Power BI não será alterado consoante o valor de variável e, por conseguinte, aparece como "$YEAR$ Actuals".  No entanto, o nome da coluna pode ser alterado no Power BI. |
 | Variáveis de Saída do Cliente | As Variáveis de Saída do Cliente não são expostas pela API pública e, por conseguinte, não são suportadas pelo Power BI. |
-| Estruturas de Características | As Estruturas de Características na origem do SAP BW subjacente irão resultar numa “explosão” das medidas que são expostas no Power BI. Por exemplo, com as duas medidas Vendas e Custos e uma estrutura de características com Orçamento e Real, vão ser expostas quatro medidas: Vendas.Orçamento, Vendas.Real, Custos.Orçamento, Custos.Real. |
+| Estruturas de Características | As Estruturas de Características na origem do SAP BW subjacente irão resultar numa “explosão” das medidas que são expostas no Power BI. Por exemplo, com as duas medidas Vendas e Custos e uma estrutura de características com Orçamento e Real, serão expostas quatro medidas: Vendas.Orçamento, Vendas.Real, Custos.Orçamento, Custos.Real. |
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações sobre o DirectQuery, consulte os seguintes recursos:
 
 * [DirectQuery no Power BI](desktop-directquery-about.md)

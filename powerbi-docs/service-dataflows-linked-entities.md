@@ -10,10 +10,10 @@ ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 3e6de89f66d6f6282fcde25a1d2be445e2721817
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762192"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>Ligar entidades entre fluxos de dados no Power BI
@@ -84,7 +84,7 @@ Existem algumas limitações a ter em mente ao trabalhar com entidades ligadas:
 * Quando uma consulta (consulta A, por exemplo) é utilizada no cálculo de outra consulta (consulta B) nos fluxos de dados, a consulta B torna-se uma entidade calculada. As entidades calculadas não podem fazer referência a origens no local.
 
 
-## <a name="next-steps"></a>Próximos Passos
+## <a name="next-steps"></a>Passos Seguintes
 
 Os artigos seguintes podem ser úteis à medida que criar ou trabalhar com fluxos de dados. 
 
@@ -95,7 +95,7 @@ Os artigos seguintes podem ser úteis à medida que criar ou trabalhar com fluxo
 * [Recursos para programadores para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
 
 Para obter mais informações sobre o Power Query e a atualização agendada, pode ler estes artigos:
-* [Descrição geral das consultas no Power BI Desktop](desktop-query-overview.md)
+* [Descrição geral de consulta no Power BI Desktop](desktop-query-overview.md)
 * [Configurar a atualização agendada](refresh-scheduled-refresh.md)
 
 Para obter mais informações sobre o Common Data Service, pode ler o seguinte artigo de descrição geral:

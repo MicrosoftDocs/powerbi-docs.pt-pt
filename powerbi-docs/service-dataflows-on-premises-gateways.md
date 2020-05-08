@@ -10,10 +10,10 @@ ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: efd110ad73b1bd72813d418a1f641613c88dc0d5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762583"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>Utilizar fluxos de dados com origens de dados no local
@@ -71,7 +71,7 @@ Existem algumas limitações conhecidas sobre a utilização de Gateways de Empr
 * Os fluxos de dados são apenas suportados através de gateways de empresa. Os gateways pessoais não estarão disponíveis para seleção nas listas pendentes nem nos ecrãs de definições.
 
 
-## <a name="next-steps"></a>Próximos Passos
+## <a name="next-steps"></a>Passos Seguintes
 
 Este artigo fornece informações sobre a utilização da origem de dados no local para fluxos de dados e sobre como utilizar e configurar gateways para aceder a esses dados. Os seguintes artigos também podem ser úteis
 
@@ -81,7 +81,7 @@ Este artigo fornece informações sobre a utilização da origem de dados no loc
 * [Recursos para programadores para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
 
 Para obter mais informações sobre o Power Query e a atualização agendada, pode ler estes artigos:
-* [Descrição geral das consultas no Power BI Desktop](desktop-query-overview.md)
+* [Descrição geral de consulta no Power BI Desktop](desktop-query-overview.md)
 * [Configurar a atualização agendada](refresh-scheduled-refresh.md)
 
 Para obter mais informações sobre o Common Data Service, pode ler o seguinte artigo de descrição geral:

@@ -10,10 +10,10 @@ ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2dca4094ed0c21c421aa2fef89353e6f210b3ea4
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761485"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Otimizar relatórios do Power BI para a aplicação móvel
@@ -105,7 +105,7 @@ Se otimizar apenas algumas páginas, os leitores verão uma mensagem na vista ve
 
 Os leitores de relatórios podem colocar os telemóveis ou tablets de lado para ver a página no modo horizontal. Leia mais sobre como [interagir com relatórios do Power BI otimizados para o modo vertical](consumer/mobile/mobile-apps-view-phone-report.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Criar uma vista de telemóvel de um dashboard no Power BI](service-create-dashboard-mobile-phone-view.md).
 * [Ver relatórios do Power BI otimizados para o seu telemóvel](consumer/mobile/mobile-apps-view-phone-report.md).
 * [Criar elementos visuais reativos otimizados para qualquer tamanho](visuals/desktop-create-responsive-visuals.md).

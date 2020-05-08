@@ -10,10 +10,10 @@ ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: ced98b8290059b3098ce83efdd05bb2a20e2d5ee
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761140"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>Agrupar elementos visuais nos relatórios do Power BI Desktop
@@ -65,7 +65,7 @@ Também pode aplicar uma cor de fundo a um grupo com a secção **Formatação**
 Depois de aplicar uma cor de fundo, clicar no espaço entre elementos visuais no grupo seleciona o grupo (em contraste com o clicar no espaço em branco entre os elementos visuais num grupo, o que não seleciona o grupo). 
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações sobre agrupamentos, veja o seguinte vídeo:
 
 * [Agrupamentos no Power BI Desktop – vídeo](https://youtu.be/sf4n7VXoQHY?t=10)

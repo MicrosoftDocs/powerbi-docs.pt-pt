@@ -11,10 +11,10 @@ ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 925d63f0abf92bd7a9c0d5fdd2ff6eff5b88b961
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761163"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-explain-fluctuations-in-visuals-preview"></a>Aplicar informações no Power BI Desktop para explicar as flutuações nos elementos visuais (pré-visualização)
@@ -126,13 +126,13 @@ Além disso, os seguintes tipos de modelos e origens de dados não são atualmen
 * Reporting Services no local
 * Incorporação
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações sobre o **Power BI Desktop**, e sobre como começar, consulte os seguintes artigos.
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
-* [Descrição Geral das Consultas no Power BI Desktop](desktop-query-overview.md)
+* [Descrição Geral das Consultas com o Power BI Desktop](desktop-query-overview.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
 * [Ligar a Dados no Power BI Desktop](desktop-connect-to-data.md)
 * [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
-* [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)   
+* [Tarefas de Consulta Comuns no Power BI Desktop](desktop-common-query-tasks.md)   
 

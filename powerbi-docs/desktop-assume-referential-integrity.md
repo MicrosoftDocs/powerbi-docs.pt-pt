@@ -1,5 +1,5 @@
 ---
-title: Definição Assumir integridade referencial no Power BI Desktop
+title: Assume referential integrity setting in Power BI Desktop (Assumir a definição de integridade referencial no Power BI Desktop)
 description: Com o DirectQuery, saiba como o Power BI Desktop pode assumir a integridade referencial
 author: davidiseminger
 ms.reviewer: ''
@@ -10,10 +10,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 4d478396f88a1443c0d23d64199d84f0b615b1da
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761824"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>Aplicar a definição Assumir Integridade Referencial no Power BI Desktop
@@ -37,10 +37,10 @@ O exemplo seguinte demonstra como se comporta a funcionalidade **Assumir Integri
 1. Na imagem seguinte que mostra as tabelas **Orders** e **Products**, tenha em atenção que existe integridade referencial entre **Orders[ProductID]** e **Products[ProductID]** . A coluna **[ProductID]** na tabela **Orders** nunca é *Nula* e cada valor também aparece na tabela **Products**. Como tal, **Assumir Integridade Referencial** deve ser definido para obter consultas mais eficientes (esta definição não altera os valores apresentados nos elementos visuais).
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. Na imagem seguinte, tenha em atenção que não existe integridade referencial entre **Orders[DepotID]** e **Depots[DepotID]** , uma vez que o **DepotID** é *Nulo* para algumas *Orders*. Como tal, **Assumir Integridade Referencial** *não* deve ser definido.
+2. Na imagem seguinte, tenha em atenção que não existe integridade referencial entre **Orders[DepotID]** e **Depots[DepotID]** , uma vez que o **DepotID** é *Nulo* para algumas *Orders*. Como tal, **Assumir Integridade Referencial***não* deve ser definido.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
-3. Por fim, não existe integridade referencial entre **Orders[CustomerID]** e **Customers[CustID]** nas tabelas seguintes. **CustomerID** contém alguns valores (neste caso, *CustX*) que não existem na tabela *Customers*. Como tal, **Assumir Integridade Referencial** *não* deve ser definido.
+3. Por fim, não existe integridade referencial entre **Orders[CustomerID]** e **Customers[CustID]** nas tabelas seguintes. **CustomerID** contém alguns valores (neste caso, *CustX*) que não existem na tabela *Customers*. Como tal, **Assumir Integridade Referencial***não* deve ser definido.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
 
@@ -59,7 +59,7 @@ Se definir **Assumir Integridade Referencial** quando existem problemas de integ
 * Um elemento visual que mostra o total de *Order Qty* mostraria um valor de 40
 * Um elemento visual que mostra o total de *Order Qty by Depot City* mostraria um valor total de apenas *30*, uma vez que não inclui o ID de Encomenda 1, em que **DepotID** é *Nulo*.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Saiba mais sobre o [DirectQuery](desktop-use-directquery.md)
 
 Obtenha mais informações sobre [Relações no Power BI](desktop-create-and-manage-relationships.md)
