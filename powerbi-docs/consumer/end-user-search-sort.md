@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 63c18ae6452b36a72ab72eb6fdf0ce14a73011e9
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114117"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Navegação para consumidores do Power BI: pesquisa global
@@ -58,7 +58,7 @@ Nem todas as colunas podem ser ordenadas. Paire o cursor sobre os cabeçalhos de
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 * Para conjuntos de dados, a opção **Ordenar por** não está disponível por proprietário.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Ordenar os elementos visuais em relatórios](end-user-change-sort.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

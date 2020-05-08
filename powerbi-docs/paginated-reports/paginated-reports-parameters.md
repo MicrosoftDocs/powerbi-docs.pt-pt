@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: 42b9057ccfaa918593e1be8a182c7b0ee57f9760
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78920993"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Criar parâmetros para relatórios paginados no serviço Power BI
@@ -67,7 +67,7 @@ A ilustração seguinte mostra a vista Estrutura no Report Builder do Power BI p
 - Se estiver a utilizar um conjunto de dados do Power BI ou um modelo do Analysis Services como a sua origem de dados, não poderá transmitir mais de 1000 valores de parâmetro num único pedido devido a limitações DAX. 
 
  
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Veja [Ver parâmetros dos relatórios paginados](../consumer/paginated-reports-view-parameters.md) para ver o aspeto dos parâmetros no serviço Power BI.
 
