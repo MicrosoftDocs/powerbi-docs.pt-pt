@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 33fc0faf92d1730c1d08f91eabc276cdafadfffb
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761117"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>Aplicar as informações no Power BI Desktop para detetar onde é que as distribuições variam (pré-visualização)
@@ -66,15 +66,15 @@ Poderá estar a perguntar-se o que significa *diferente*. Por exemplo, imagine q
 
 |País  |Vendas (M. €)|
 |---------|----------|
-|EUA      |15        |
-|Canadá   |5         |
+|USA      |15        |
+|Canada   |5         |
 
 Então, para uma categoria em particular de produto *"Bicicleta de Estrada"* , a divisão das vendas seria:
 
 |País  |Vendas (M. €)|
 |---------|----------|
-|EUA      |3        |
-|Canadá   |1         |
+|USA      |3        |
+|Canada   |1         |
 
 Apesar de os números serem diferentes em cada uma dessas tabelas, os valores relativos entre os E.U.A. e o Canadá são idênticos (75% e 25% ao todo e para Bicicletas de Estrada). Por isso, estes não são considerados diferentes. Para medidas de adição simples como esta, o algoritmo procura diferenças no valor *relativo*.  
 
@@ -82,15 +82,15 @@ Em contraste, considere uma medida como a margem, que é calculada como Lucro/Cu
 
 |País  |Margem (%)|
 |---------|----------|
-|EUA      |15        |
-|Canadá   |5         |
+|USA      |15        |
+|Canada   |5         |
 
 Então, para uma categoria em particular de produto *"Bicicleta de Estrada"* , a divisão das vendas seria:
 
 |País  |Margem (%)|
 |---------|----------|
-|EUA      |3        |
-|Canadá   |1         |
+|USA      |3        |
+|Canada   |1         |
 
 Tendo em conta a natureza de tais medidas, isto *é* considerado significativamente diferente. Para medidas não aditivas, como esta margem de exemplo, o algoritmo procura diferenças no valor absoluto.
 
@@ -102,7 +102,7 @@ Da mesma forma, para medidas não aditivas como a *Margem* no exemplo anterior, 
 
 * O tamanho da população é tido em conta, uma vez que uma diferença é menos significativa estatisticamente e menos relevante quando aplicada a uma proporção mais pequena da população geral. Como exemplo, a distribuição de vendas nos países poderá ser bastante diferente para um produto em particular. Isto não seria considerado relevante se existissem milhares de produtos e, portanto, esse produto em particular fosse contabilizado para uma pequena percentagem das vendas gerais.
 
-* As diferenças das categorias em que os valores originais eram muito altos ou muito próximos de zero são ponderadas de forma superior do que outras. Por exemplo, se um país contribuir apenas 1% para as vendas gerais, mas para um determinado tipo de produto contribuir com 6%, isso é mais significativo estatisticamente e, por isso, considerado mais relevante do que um país cuja contribuição se alterou de 50% para 55%. 
+* As diferenças das categorias em que os valores originais eram muito elevados ou muito próximos de zero são ponderadas de forma superior às outras. Por exemplo, se um país contribuir apenas 1% para as vendas gerais, mas para um determinado tipo de produto contribuir com 6%, isso é mais significativo estatisticamente e, por isso, considerado mais relevante do que um país cuja contribuição se alterou de 50% para 55%. 
 
 * São utilizados vários processos para selecionar os resultados mais significativos, por exemplo, ao considerar outras relações entre os dados.
      
@@ -139,13 +139,13 @@ Além disso, os seguintes tipos de modelos e origens de dados não são atualmen
 * Reporting Services no local
 * Incorporação
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações sobre o **Power BI Desktop**, e sobre como começar, consulte os seguintes artigos.
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
-* [Descrição Geral das Consultas no Power BI Desktop](desktop-query-overview.md)
+* [Descrição Geral das Consultas com o Power BI Desktop](desktop-query-overview.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
 * [Ligar a Dados no Power BI Desktop](desktop-connect-to-data.md)
 * [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
-* [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)   
+* [Tarefas de Consulta Comuns no Power BI Desktop](desktop-common-query-tasks.md)   
 
