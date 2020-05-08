@@ -10,10 +10,10 @@ ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 25ed90dba0c164a44d691f8247023f2ff7e0a67f
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/01/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76913541"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>Criar modelos de relatório para o Power BI Desktop
@@ -68,14 +68,14 @@ Após os parâmetros e os dados terem sido especificados, será criado um relat�
 
 Já está! Criar e utilizar modelos de relatório no Power BI Desktop é fácil e permite-lhe reproduzir esquemas apelativos e outros aspetos do relatório, e partilhá-lo com outras pessoas.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Também pode estar interessado em aprender a utilizar os **Parâmetros de Consulta**:
 * [Using Query Parameters in Power BI Desktop](https://docs.microsoft.com/power-query/power-query-query-parameters) (Utilizar Parâmetros de Consulta no Power BI Desktop)
 
-Para além de criar e utilizar Parâmetros de Consulta, existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as suas capacidades, veja os seguintes recursos:
+Para além de criar e utilizar Parâmetros de Consulta, existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as respetivas capacidades, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
-* [Descrição Geral das Consultas no Power BI Desktop](desktop-query-overview.md)
+* [Descrição Geral das Consultas com o Power BI Desktop](desktop-query-overview.md)
 * [Tipos de Dados no Power BI Desktop](desktop-data-types.md)
-* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
-* [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)    
+* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Tarefas de Consulta Comuns no Power BI Desktop](desktop-common-query-tasks.md)    

@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: painbar
 ms.openlocfilehash: 177f029073320c8db68b532fdb282b745c69a408
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802646"
 ---
 # <a name="find-and-access-your-content-with-google-search"></a>Localizar e aceder a conteúdos com a Pesquisa Google
@@ -35,7 +35,7 @@ Na caixa de pesquisa do Google, procure através do formato ***procurar &lt;item
 
 ![Resultado da Pesquisa Google na aplicação móvel Power BI para Android](media/mobile-app-find-access-google-search/mobile-google-search.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Use Android app Shortcuts in the Power BI Android app](mobile-app-quick-access-shortcuts.md) (Utilizar atalhos da aplicação no Android na aplicação Power BI para Android)
 * [Integração da funcionalidade de Pesquisa (Spotlight) de Dispositivos iOS na Aplicação Power BI Mobile para iOS](mobile-apps-ios-search-integration.md)
 * [Favoritos nas aplicações móveis do Power BI](mobile-apps-favorites.md)

@@ -10,10 +10,10 @@ ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 72694ea771950b4a12427e0a0696e221fbe993bf
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78237851"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Gerir a sua área de trabalho no Power BI e no Office 365
@@ -36,7 +36,7 @@ No **Office 365**, pode:
 * Ver o endereço de e-mail do grupo.
 * Eliminar o grupo.
 
-Precisa de uma licença do [Power BI Pro](service-features-license-type.md) para ser administrador ou membro de uma área de trabalho. Os utilizadores da aplicação também precisam de uma licença do Power BI Pro, a menos que a sua área de trabalho esteja numa capacidade Power BI Premium. Para mais detalhes, leia [O que é o Power BI Premium?](service-premium-what-is.md).
+Precisa de uma licença do [Power BI Pro](service-features-license-type.md) para ser administrador ou membro de uma área de trabalho. Os utilizadores da aplicação também precisam de uma licença do Power BI Pro, a menos que a sua área de trabalho esteja numa capacidade Power BI Premium. Leia [O que é o Power BI Premium?](service-premium-what-is.md) para obter detalhes.
 
 ## <a name="edit-your-workspace-in-power-bi"></a>Editar a sua área de trabalho no Power BI
 
@@ -82,7 +82,7 @@ Quando distribuir a aplicação a partir da área de trabalho, a imagem que adic
 
 1. Selecione **Guardar** ou **Eliminar**.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Publicar uma aplicação no Power BI](service-create-distribute-apps.md)
 

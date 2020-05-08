@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205533"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Ver dashboards e relatórios nas aplicações móveis do Power BI
@@ -152,9 +152,9 @@ Se for o proprietário do dashboard, no serviço Power BI, pode *criar uma vista
 
 Leia mais sobre como [criar uma vista de telemóvel de um dashboard](../../service-create-dashboard-mobile-phone-view.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Transferir a aplicação Android](https://go.microsoft.com/fwlink/?LinkID=544867) do Google Play  
 * [Introdução à aplicação Android para o Power BI](mobile-android-app-get-started.md)  
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

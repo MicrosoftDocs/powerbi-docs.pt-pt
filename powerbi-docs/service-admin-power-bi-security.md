@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: e856c3afca0578c906a54f636dd58cd9208607a8
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 31ce44059ec2abd5a2615267311ba651993342ba
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207994"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841900"
 ---
 # <a name="power-bi-security"></a>Segurança do Power BI
 
-Para obter uma explicação detalhada sobre a segurança do Power BI, [leia a documentação técnica de Segurança do Power BI](whitepaper-powerbi-security.md).
+Para obter uma explicação detalhada sobre a segurança do Power BI, [leia a documentação técnica de Segurança do Power BI](guidance/whitepaper-powerbi-security.md).
 
 O serviço Power BI baseia-se no **Azure**, que é a plataforma e infraestrutura de computação na cloud da Microsoft. A arquitetura do serviço Power BI baseia-se em dois clusters – o cluster de Front-end da Web (**WFE**) e o cluster de **Back-end**. O cluster WFE gere a ligação e autenticação inicial do serviço Power BI e, uma vez autenticado, o Back-end processa todas as interações de utilizador subsequentes. O Power BI utiliza o Azure Active Directory (AAD) para armazenar e gerir identidades de utilizador e gere o armazenamento de dados e metadados através do BLOB do Azure e da Base de Dados SQL do Azure, respetivamente.
 

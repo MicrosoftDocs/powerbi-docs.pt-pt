@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205924"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicação Power BI for Mixed Reality (Pré-visualização)
 Veja os seus dashboards e relatórios na aplicação Power BI for Mixed Reality (Preview) no mundo virtual ou coloque-os em localizações específicas no contexto do seu ambiente. 
 
-[Transfira a aplicação Power BI for Mixed Reality](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) a partir da Windows Store: na Windows Store, é denominado “Power BI Mobile”. Interaja com os seus dashboards e relatórios no mundo virtual e selecione os que pretende colocar no seu ambiente. 
+[Transfira a aplicação Power BI for Mixed Reality](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) da Microsoft Store. Na Microsoft Store, está com o nome "Power BI Mobile". Interaja com os seus dashboards e relatórios no mundo virtual e selecione os que pretende colocar no seu ambiente. 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>Duas vistas: vista clássica do Windows e vista holográfica
 
@@ -96,7 +96,7 @@ Eis algumas limitações e considerações sobre a vista holográfica.
 - Os dashboards e relatórios são atualizados a cada 45 segundos, conforme a alteração dos dados.
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 - [Obter dados do mundo real com as aplicações móveis do Power BI](mobile-apps-data-in-real-world-context.md)
 

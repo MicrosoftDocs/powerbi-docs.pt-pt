@@ -10,14 +10,14 @@ ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79133215"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Resolução de problemas de início de sessão no Power BI Desktop
-Por vezes, podem ocorrer erros ao tentar iniciar sessão no **Power BI Desktop**. Existem sobretudo duas razões para ocorrerem de problemas de início de sessão: **erros de Autenticação de Proxy** e **erros de redirecionamento de URLs não HTTPS**. 
+Por vezes, podem ocorrer erros ao tentar iniciar sessão no **Power BI Desktop**. Existem sobretudo duas razões para ocorrerem problemas de início de sessão: **erros de Autenticação de Proxy** e **erros de redirecionamento de URLs não HTTPS**. 
 
 Para determinar o que está a causar o problema de início de sessão, o primeiro passo é contactar o seu administrador e fornecer informações de diagnóstico para que este possa determinar a causa. Ao rastrear problemas associados ao seu problema de início de sessão, os administradores podem determinar quais dos erros a seguir se aplicam ao utilizador. 
 
@@ -55,7 +55,7 @@ As versões atuais do **Power BI Desktop** utilizam a versão atual do Active D
 
 As seguintes exceções nos ficheiros de rastreio do *Power BI Desktop* estão associadas a este erro:
 
-* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: o redirecionamento de URLs não HTTPS não é suportado na vista Web*
+* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: o redireccionamento de URLs não HTTPS não é suportado na vista Web*
 * *ErrorCode: non_https_redirect_failed*
 
 Se *ErrorCode: non_https_redirect_failed* ocorrer, significa que uma ou mais páginas de redirecionamento ou fornecedores na cadeia de redirecionamento não são um ponto final HTTPS protegido ou que um emissor do certificado de um ou mais redirecionamentos não se encontra entre a raízes fidedignas do dispositivo. Todos os fornecedores em qualquer cadeia de redireccionamento de início de sessão têm de utilizar URLs HTTPS. Para resolver este problema, contacte o seu administrador e solicite a utilização de URLs protegidos para os sites de autenticação. 

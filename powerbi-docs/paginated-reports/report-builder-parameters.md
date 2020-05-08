@@ -10,17 +10,17 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
 ms.openlocfilehash: 823f2ea621d16eb911284cadeced2fb676fa5c75
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78923063"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Parâmetros de relatórios no Report Builder do Power BI
 
 Este tópico descreve as utilizações comuns dos parâmetros de relatórios do Report Builder do Power BI, as propriedades que pode definir e muito mais. Os parâmetros de relatórios permitem-lhe controlar os dados dos relatórios, ligar os relatórios relacionados entre si e variar a apresentação do relatório. Pode utilizar os parâmetros de relatórios nos relatórios paginados que criar no Report Builder.
 
-## <a name="bkmk_Common_Uses_for_Parameters"></a> Utilizações comuns dos parâmetros
+## <a name="common-uses-for-parameters"></a><a name="bkmk_Common_Uses_for_Parameters"></a> Utilizações comuns dos parâmetros
 
  Abaixo encontram-se algumas das formas mais comuns de utilizar parâmetros.  
   
@@ -36,7 +36,7 @@ Este tópico descreve as utilizações comuns dos parâmetros de relatórios do 
   
 - Permita que os utilizadores personalizem os dados e o aspeto dos relatórios, incluindo os parâmetros numa expressão.  
   
-## <a name="UserInterface"></a>Ver um relatório paginado com parâmetros
+## <a name="viewing-a-report-with-parameters"></a><a name="UserInterface"></a>Ver um relatório paginado com parâmetros
 
 Quando visualizar um relatório que tenha parâmetros, a barra de ferramentas do visualizador de relatórios apresenta cada parâmetro para que possa especificar os valores e forma interativa. A seguinte ilustração mostra a área de parâmetros de um relatório com os parâmetros @ReportMonth, @ReportYear, @EmployeeID, @ShowAll, @ExpandTableRows, @CategoryQuota e @SalesDate.  
 
@@ -54,7 +54,7 @@ Quando visualizar um relatório que tenha parâmetros, a barra de ferramentas do
   
 6. **Ver Relatório** Depois de introduzir os valores dos parâmetros, clique em **Ver Relatório** para executar o relatório. Se todos os parâmetros tiverem os valores predefinidos, o relatório será executado automaticamente na primeira visualização.  
   
-## <a name="bkmk_Create_Parameters"></a> Criar parâmetros
+## <a name="creating-parameters"></a><a name="bkmk_Create_Parameters"></a> Criar parâmetros
 
 Pode criar parâmetros de relatórios de algumas formas diferentes.
   
@@ -97,13 +97,13 @@ Pode criar um parâmetro manualmente a partir do painel Dados do Relatório. Pod
   
 - Execute o relatório sem ter de selecionar primeiro um valor de parâmetro devido à criação de um valor predefinido para o parâmetro.  
   
-## <a name="bkmk_Report_Parameters"></a> Propriedades dos parâmetros de relatórios
+## <a name="report-parameter-properties"></a><a name="bkmk_Report_Parameters"></a> Propriedades dos parâmetros de relatórios
 
  Pode alterar as propriedades dos parâmetros de relatórios através da caixa de diálogo Propriedades do Relatório. A seguinte tabela resume as propriedades que pode definir para cada parâmetro:  
   
 |Propriedade|Descrição|  
 |--------------|-----------------|  
-|Nome|Escreva um nome sensível às maiúsculas e minúsculas para o parâmetro. O nome tem de começar por uma letra e pode ter letras, números e um caráter de sublinhado (_). Não pode ter espaços. No caso dos parâmetros gerados automaticamente, o nome corresponde ao parâmetro que se encontra na consulta do conjunto de dados. Por predefinição, os parâmetros criados manualmente são semelhantes a ReportParameter1.|  
+|NOME|Escreva um nome sensível às maiúsculas e minúsculas para o parâmetro. O nome tem de começar por uma letra e pode ter letras, números e um caráter de sublinhado (_). Não pode ter espaços. No caso dos parâmetros gerados automaticamente, o nome corresponde ao parâmetro que se encontra na consulta do conjunto de dados. Por predefinição, os parâmetros criados manualmente são semelhantes a ReportParameter1.|  
 |Pedido|O texto que aparece ao lado do parâmetro na barra de ferramentas do visualizador de relatórios.|  
 |Tipo de dados|Os parâmetros de relatórios têm de ser um dos seguintes tipos de dados:<br /><br /> **Booleano**. O utilizador seleciona Verdadeiro ou Falso a partir de um botão de opção.<br /><br /> **DateTime**. O utilizador seleciona uma data a partir de um controlo de calendário.<br /><br /> **Número inteiro**. O utilizador escreve valores numa caixa de texto.<br /><br /> **Flutuante**. O utilizador escreve valores numa caixa de texto.<br /><br /> **Texto**. O utilizador escreve valores numa caixa de texto.<br /><br /> Quando os valores disponíveis estão definidos para um parâmetro, o utilizador seleciona valores a partir de uma lista pendente, mesmo quando o tipo de dados é **DateTime**.|  
 |Permitir valor em branco|Selecione esta opção se o valor do parâmetro puder ser uma cadeia vazia ou um valor em branco.<br /><br /> Se especificar valores válidos para um parâmetro e quiser que um valor em branco seja um dos valores válidos, tem de o incluir como um dos valores que especificou. A seleção desta opção não inclui automaticamente um valor em branco para valores disponíveis.|  
@@ -114,9 +114,9 @@ Pode criar um parâmetro manualmente a partir do painel Dados do Relatório. Pod
 |Interno|Selecione esta opção para ocultar o parâmetro de relatório. No relatório publicado, o parâmetro de relatório só pode ser visto na definição do relatório.|  
 |Valores disponíveis|Se tiver especificado valores disponíveis para um parâmetro, os valores válidos serão sempre apresentados sob a forma de lista pendente. Por exemplo, se fornecer valores disponíveis para um parâmetro **DateTime**, será apresentada uma lista pendente para datas no painel do parâmetro em vez de um controlo de calendário.<br /><br /> Para garantir que as listas de valores são consistentes nos relatórios e sub-relatórios, pode definir uma opção na origem de dados que permite utilizar uma única transação para todas as consultas nos conjuntos de dados associados a uma origem de dados.<br /><br /> **Nota de Segurança** No caso dos relatórios que incluem um parâmetro do tipo de dados **Texto**, certifique-se de que utiliza uma lista de valores disponíveis (também conhecida como uma lista de valores válidos) e de que os utilizadores que executam o relatório só têm as permissões necessário para ver os dados contidos no relatório.|  
 |Valores predefinidos|Permite definir valores predefinidos a partir de uma consulta ou de uma lista estática.<br /><br /> Se cada parâmetro tiver um valor predefinido, o relatório será executado automaticamente na primeira visualização.|  
-|Avançadas|Permite definir o atributo de definição de relatório **UsedInQuery**, um valor que indica se este parâmetro afeta os dados num relatório de forma direta ou indireta.<br /><br /> **Determinar automaticamente ao atualizar**<br /> Selecione esta opção quando quiser que o processador do relatório determine uma definição para este valor. O valor é **Verdadeiro** se o processador do relatório detetar uma consulta de conjunto de dados com uma referência direta ou indireta para este parâmetro ou se o relatório tiver sub-relatórios.<br /><br /> **Atualizar sempre**<br /> Selecione esta opção quando o parâmetro de relatório for utilizado, de forma direta ou indireta, numa consulta de conjunto de dados ou expressão de parâmetro. Esta opção define **UsedInQuery** como Verdadeiro.<br /><br /> **Nunca atualizar**<br /> Selecione esta opção quando o parâmetro de relatório não for utilizado, de forma direta ou indireta, numa consulta de conjunto de dados ou expressão de parâmetro. Esta opção define **UsedInQuery** como Falso.<br /><br /> **Atenção** Utilize **Nunca Atualizar** com precaução. No servidor de relatórios, **UsedInQuery** é utilizado para ajudar a controlar as opções da cache para dados de relatório e relatórios compostos, bem como as opções de parâmetros para os relatórios de instantâneos. Se definir **Nunca Atualizar** incorretamente, poderá estar a armazenar em cache relatórios ou dados de relatório incorretos ou a fazer com que um relatório de instantâneo tenha dados inconsistentes. |  
+|Avançado|Permite definir o atributo de definição de relatório **UsedInQuery**, um valor que indica se este parâmetro afeta os dados num relatório de forma direta ou indireta.<br /><br /> **Determinar automaticamente ao atualizar**<br /> Selecione esta opção quando quiser que o processador do relatório determine uma definição para este valor. O valor é **Verdadeiro** se o processador do relatório detetar uma consulta de conjunto de dados com uma referência direta ou indireta para este parâmetro ou se o relatório tiver sub-relatórios.<br /><br /> **Atualizar sempre**<br /> Selecione esta opção quando o parâmetro de relatório for utilizado, de forma direta ou indireta, numa consulta de conjunto de dados ou expressão de parâmetro. Esta opção define **UsedInQuery** como Verdadeiro.<br /><br /> **Nunca atualizar**<br /> Selecione esta opção quando o parâmetro de relatório não for utilizado, de forma direta ou indireta, numa consulta de conjunto de dados ou expressão de parâmetro. Esta opção define **UsedInQuery** como Falso.<br /><br /> **Atenção** Utilize **Nunca Atualizar** com precaução. No servidor de relatórios, **UsedInQuery** é utilizado para ajudar a controlar as opções da cache para dados de relatório e relatórios compostos, bem como as opções de parâmetros para os relatórios de instantâneos. Se definir **Nunca Atualizar** incorretamente, poderá estar a armazenar em cache relatórios ou dados de relatório incorretos ou a fazer com que um relatório de instantâneo tenha dados inconsistentes. |  
   
-##  <a name="bkmk_Dataset_Parameters"></a> Consulta de conjunto de dados  
+##  <a name="dataset-query"></a><a name="bkmk_Dataset_Parameters"></a> Consulta de conjunto de dados  
  Para filtrar dados na consulta de conjunto de dados, pode incluir uma cláusula de restrição que limita os dados obtidos ao especificar valores a incluir ou excluir dos resultados.  
   
  Utilize o estruturador de consulta da origem de dados para ajudar a criar uma consulta parametrizada.  
@@ -125,7 +125,7 @@ Pode criar um parâmetro manualmente a partir do painel Dados do Relatório. Pod
   
 -   No caso das consultas baseadas numa origem de dados multidimensional, tal como o Microsoft SQL Server Analysis Services, pode especificar se quer criar um parâmetro com base num filtro especificado por si no estruturador de consulta. 
   
-##  <a name="bkmk_Manage_Parameters"></a> Gestão de parâmetros para um relatório publicado  
+##  <a name="parameter-management-for-a-published-report"></a><a name="bkmk_Manage_Parameters"></a> Gestão de parâmetros para um relatório publicado  
  Quando estrutura um relatório, os parâmetros do relatório são guardados na definição do relatório. Quando publica um relatório, os parâmetros do relatório são guardados e geridos em separado da definição do relatório.  
   
  No caso de um relatório publicado, pode utilizar o seguinte:  
@@ -140,12 +140,12 @@ Pode criar um parâmetro manualmente a partir do painel Dados do Relatório. Pod
   
  As opções de execução dos relatórios podem afetar a forma como os parâmetros são processados. Um relatório que é executado como um instantâneo não pode utilizar parâmetros derivados de uma consulta a não ser que a consulta inclua valores predefinidos para os parâmetros.  
   
-##  <a name="bkmk_Parameters_Subscription"></a> Parâmetros para uma subscrição  
+##  <a name="parameters-for-a-subscription"></a><a name="bkmk_Parameters_Subscription"></a> Parâmetros para uma subscrição  
  Pode definir uma subscrição para um relatório a pedido ou de instantâneo e especificar os valores dos parâmetros a utilizar durante o processamento da subscrição.  
   
 -   **Relatório a pedido.**  No caso dos relatórios a pedido, pode especificar um valor de parâmetro diferente do valor publicado para cada parâmetro listado para o relatório. Por exemplo, imagine que tem um relatório de Serviço de Chamada que utiliza um parâmetro *Período de tempo* para devolver pedidos de suporte ao cliente do dia, da semana ou do mês corrente. Se o valor de parâmetro predefinido para o relatório estiver definido como **hoje**, a sua subscrição pode utilizar um valor de parâmetro diferente (tal como **semana** ou **mês**) para produzir um relatório que contenha os valores semanais ou mensais.  
   
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)  
 - [Utilizar parâmetros em cascata em relatórios paginados](../guidance/paginated-report-cascading-parameter.md)

@@ -10,13 +10,13 @@ ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 0a7268c041976a3cab3316c91470c1378a3685f5
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871670"
 ---
-# <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Como atualizar as suas credenciais do pacote de conteúdos Xero se a atualização falhar
+# <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>How to refresh your Xero content pack credentials if refresh failed (Como atualizar as suas credenciais do pacote de conteúdos Xero se a atualização tiver falhado)
 Se utilizar o pacote de conteúdos do Xero Power BI, podem ter ocorrido alguns problemas na atualização diária do pacote de conteúdos devido a um incidente recente do serviço Power BI.
 
 Pode ver se o pacote de conteúdos é atualizado com êxito ao verificar o último estado de atualização do conjunto de dados do Xero, conforme mostrado na captura de ecrã abaixo.
@@ -48,6 +48,6 @@ Se ainda estiver a ter problemas de atualização, não hesite em contactar-nos 
 
 Para obter mais informações sobre o pacote de conteúdos do Xero do Power BI, aceda à [página de ajuda do pacote de conteúdos do Xero](service-connect-to-xero.md).
 
-### <a name="next-steps"></a>Próximos passos
+### <a name="next-steps"></a>Próximas etapas
 * Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

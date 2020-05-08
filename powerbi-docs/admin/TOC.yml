@@ -5,7 +5,7 @@
     - name: Descrição geral
       expanded: true
       items:
-        - name: "O que é a administração do Power\_BI?"
+        - name: O que é a administração do Power BI?
           href: ../service-admin-administering-power-bi-in-your-organization.md
         - name: Where is my tenant located? (Onde está localizado o meu inquilino?)
           href: ../service-admin-where-is-my-tenant-located.md
@@ -30,7 +30,7 @@
               href: service-admin-migrate-data-germany.md
             - name: FAQ para os clientes da Germany Cloud
               href: ../service-govde-faq.md
-        - name: Perguntas Frequentes (FAQ)
+        - name: Perguntas Mais Frequentes (FAQ)
           href: ../service-admin-faq.md
         - name: High availability and failover FAQ (FAQ sobre elevada disponibilidade e ativação pós-falha)
           href: ../service-admin-failover.md
@@ -42,9 +42,9 @@
               href: ../service-premium-capacity-optimize.md
             - name: Cenários de capacidades Premium
               href: ../service-premium-capacity-scenarios.md
-            - name: Perguntas Frequentes do Power BI Premium
+            - name: Power BI Premium FAQ (FAQ do Power BI Premium)
               href: ../service-premium-faq.md
-    - name: Procedimentos
+    - name: Como
       items:
         - name: Licenciamento e inscrição
           items:
@@ -84,7 +84,7 @@
               href: service-security-using-microsoft-cloud-app-security-controls.md
             - name: Data protection metrics report (Relatório de métricas de proteção de dados)
               href: service-security-data-protection-metrics-report.md
-        - name: Row-level security
+        - name: Segurança ao Nível da Linha
           href: ../service-admin-rls.md
         - name: Set up dataset and dataflow certification (Configurar a certificação de conjuntos de dados e de fluxos de dados)
           href: service-admin-setup-certification.md
@@ -131,7 +131,7 @@
           href: ../service-admin-power-bi-security.md
         - name: Níveis de privacidade
           href: ../desktop-privacy-levels.md
-    - name: Resolução de Problemas
+    - name: Resolução de problemas
       items:
         - name: Não consegue iniciar sessão?
           href: ../power-bi-cannot-sign-in.md
@@ -139,13 +139,11 @@
           href: ../service-support-options.md
         - name: Service interruption notifications (Notificações de interrupção do serviço)
           href: ../service-interruption-notifications.md
-        - name: Esqueceu-se da sua palavra-passe para o Power BI?
+        - name: Forgot your password for Power BI? (Esqueceu-se da sua palavra-passe do Power BI?)
           href: ../service-admin-forgot-your-password.md
         - name: Capturing additional diagnostic information for Power BI (Capturar informações de diagnóstico adicionais para o Power BI)
           href: ../service-admin-capturing-additional-diagnostic-information-for-power-bi.md
         - name: Endereço de e-mail alternativo para o Power BI
           href: ../service-admin-alternate-email-address-for-power-bi.md
-        - name: Como usar o mesmo início de sessão na conta para o Power BI e o Azure
+        - name: How to use the same account login for Power BI and Azure (Como utilizar o mesmo início de sessão de conta para o Power BI e o Azure)
           href: ../service-admin-how-to-use-the-same-account-as-azure.md
-        - name: Office 365 dedicated - known issues (Office 365 dedicado – problemas conhecidos)
-          href: ../service-admin-office-365-dedicated-known-issues.md

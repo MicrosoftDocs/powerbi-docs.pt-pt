@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006797"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Utilizar uma segmentação e filtro de data relativa no Power BI
@@ -42,7 +42,7 @@ Na primeira definição, na *segmentação de data relativa*, tem as seguintes o
 
 ![Captura de ecrã a mostrar as opções de configuração de Relativo com a primeira definição destacada.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* Último
+* Last
 
 * Seguinte
 
@@ -104,6 +104,6 @@ As seguintes limitações e considerações aplicam-se atualmente ao filtro e **
 
 * Pode converter dados capturados de um fuso horário local em UTC com o **Editor do Power Query**.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Saiba como [utilizar o agrupamento e discretização no Power BI Desktop](../desktop-grouping-and-binning.md).

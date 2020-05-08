@@ -11,10 +11,10 @@ ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79126265"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Comparar o Power BI Desktop e o serviço Power BI
@@ -56,7 +56,7 @@ Depois de criar os seus relatórios, pode guardá-los numa *área de trabalho* n
 
 Os fluxos de dados ajudam as organizações a uniformizar os dados de diferentes origens e a prepará-los para a modelação. Os analistas podem criar facilmente fluxos de dados, com ferramentas de gestão personalizada conhecidas. Os analistas utilizam fluxos de dados para ingerir, transformar, integrar e enriquecer grandes volumes de dados ao definir ligações de origem de dados, lógica ETL, agendas de atualização e muito mais. Leia mais sobre a [preparação personalizada de dados com fluxos de dados](../service-dataflows-overview.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [O que é o Power BI Desktop?](../desktop-what-is-desktop.md)
 

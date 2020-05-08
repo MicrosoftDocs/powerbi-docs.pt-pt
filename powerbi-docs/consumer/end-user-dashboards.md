@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b0e52ebf4f529c7da75e79becf30c74d6e2c0248
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496325"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboards para consumidores do serviço Power BI
@@ -24,7 +24,7 @@ ms.locfileid: "77496325"
 
 Um ***dashboard*** do Power BI é uma única página, frequentemente denominada tela, que utiliza visualizações para contar uma história. Como está limitada a uma página, um dashboard bem concebido contém apenas os elementos mais importantes da história.
 
-![dashboard](media/end-user-dashboards/power-bi-dashboard2.png)
+![Dashboard](media/end-user-dashboards/power-bi-dashboard2.png)
 
 As visualizações apresentadas no dashboard são denominadas *mosaicos* e são *afixadas* ao dashboard por *designers* de relatórios. Na maioria dos casos, ao selecionar um mosaico, é direcionado para a página de relatório onde foi criada a visualização. Se for um novo utilizador do Power BI, pode obter uma boa base de aprendizagem ao ler os [conceitos básicos do Power BI](end-user-basic-concepts.md).
 
@@ -49,11 +49,11 @@ Os relatórios costumam ser confundidos com os dashboards, pois também são tel
 | **Capacidade** | **Dashboards** | **Relatórios** |
 | --- | --- | --- |
 | Páginas |Uma página |Uma ou mais páginas |
-| Origens de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
+| Data sources |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
 | Filtragem |Não pode filtrar nem segmentar |Várias formas diferentes de filtrar, realçar e segmentar |
-| Definir alertas |Pode criar alertas para que lhe seja enviado um e-mail quando são cumpridas determinadas condições |Não |
+| Definir alertas |Pode criar alertas para lhe enviar um e-mail quando são cumpridas determinadas condições |No |
 | Destaques |Pode definir um dashboard como o seu dashboard "em destaque" |Não pode criar um relatório em destaque |
-| Pode ver as tabelas e os campos de conjuntos de dados subjacentes |Não. Pode exportar dados mas não pode ver tabelas e campos no próprio dashboard. |Yes. Pode ver tabelas, campos e valores de conjuntos de dados. |
+| Pode ver tabelas e campos de conjuntos de dados subjacentes |N.º Pode exportar dados mas não pode ver tabelas e campos no próprio dashboard. |Sim. Pode ver tabelas, campos e valores de conjuntos de dados. |
 
 
 ## <a name="dashboard-designers-and-dashboard-consumers"></a>designers e consumidores de dashboards
@@ -68,5 +68,5 @@ Enquanto ***consumidor*** do Power BI, recebe dashboards de *designers*. Continu
 > Se não encontrou aqui o que procurava, utilize o Índice à esquerda.
 > 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Visualizar um dashboard](end-user-dashboard-open.md) 

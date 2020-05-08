@@ -11,10 +11,10 @@ ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 16041ebc9ba293ab166178e008b12277d94e89c3
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76894921"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>Filtrar e partilhar um relatório do Power BI
@@ -78,9 +78,9 @@ Guarde o relatório.
 7. Ao partilhar esta ligação, os destinatários verão o relatório filtrado. 
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Formas de partilhar o seu trabalho no Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Partilhar um dashboard](service-share-dashboards.md)
 * Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).
-* Tem comentários? Vá ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
+* Tem comentários? Aceda ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
 

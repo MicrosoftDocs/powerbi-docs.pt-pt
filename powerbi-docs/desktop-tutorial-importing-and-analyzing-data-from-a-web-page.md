@@ -11,10 +11,10 @@ ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 5497c56f358470d0d24f69f0d67865dbbd7839a3
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/05/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77026744"
 ---
 # <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>Tutorial: Analisar dados de páginas Web com o Power BI Desktop

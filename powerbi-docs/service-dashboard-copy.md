@@ -11,14 +11,14 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: ab629c15f1e1e998c3870b95993cdf7348cb15ff
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872834"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Criar uma cópia de um dashboard no serviço Power BI
-![dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
+![Dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
 
  Existem muitas razões diferentes para fazer uma cópia de um dashboard. Talvez queira efetuar alterações e testar o desempenho relativamente ao original; ou criar versões ligeiramente diferentes para distribuir por colega, região ou equipa. Talvez um colega admire a estrutura do seu dashboard e queira utilizá-lo nos relatórios para os gestores. Outra razão seria se tiver uma nova base de dados com a mesma estrutura de dados e tipos de dados e quiser reutilizar o dashboard já criado. Isto também pode ser feito, mas iria requerer algum trabalho no Power BI Desktop. 
 
@@ -46,7 +46,7 @@ Para fazer uma cópia de um dashboard, o utilizador tem de ser o *criador* do da
     f. Partilhe o seu dashboard diretamente com os seus colegas ou como parte de uma aplicação do Power BI. 
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Sugestões para criar um excelente dashboard](service-dashboards-design-tips.md) 
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

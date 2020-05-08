@@ -9,10 +9,10 @@ ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76975039"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Ligar aos serviços que utiliza com o Power BI
@@ -29,7 +29,7 @@ Após instalar a aplicação, pode ver o dashboard e os relatórios na aplicaç�
 
 ![Aplicação Google Analytics na aplicação móvel do Power BI](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 
-## <a name="get-started"></a>Introdução
+## <a name="get-started"></a>Get started (Introdução)
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
 ## <a name="edit-the-dashboard-and-reports"></a>Editar o dashboard e os relatórios
@@ -38,7 +38,7 @@ Quando a importação estiver concluída, a nova aplicação aparecerá na pági
 1. Selecione **Aplicações** no painel de navegação > selecione a aplicação.
    
      ![Página Aplicações](media/service-connect-to-services/power-bi-service-apps-open-app.png)
-2. Pode fazer uma pergunta ao escrever na caixa de Perguntas e Respostas ou clicar num mosaico para abrir o relatório subjacente. 
+2. Pode fazer uma pergunta ao escrever na caixa de perguntas e respostas ou clicar num mosaico para abrir o relatório subjacente. 
    
     ![Dashboard do Google Analytics](media/service-connect-to-services/googleanalytics2.png)
    
@@ -51,11 +51,11 @@ Também pode [ligar a vários serviços no Power BI Desktop](desktop-data-source
 
 Para obter mais detalhes sobre ligar-se a serviços específicos, consulte as páginas de ajuda individuais.
 
-## <a name="troubleshooting"></a>Resolução de problemas
+## <a name="troubleshooting"></a>Troubleshooting (Resolução de problemas)
 **Mosaicos vazios**  
 Apesar de o Power BI começar por se ligar ao serviço, poderá ver um conjunto vazio de mosaicos no seu dashboard. Se ainda vir um dashboard vazio após 2 horas, é provável que tenha havido uma falha de ligação. Se não vir uma mensagem de erro com informações sobre como corrigir o problema, envie um pedido de suporte.
 
-* Selecione o ícone de ponto de interrogação (**?**) no canto superior direito >  **Obter ajuda**.
+* Selecione o ícone de ponto de interrogação ( **?** ) no canto superior direito >  **Obter ajuda**.
   
     ![Ícone Obter ajuda](media/service-connect-to-services/power-bi-service-get-help.png)
 
@@ -67,8 +67,8 @@ Utiliza um serviço que pretende sugerir para uma aplicação do Power BI? Vá p
 
 Se estiver interessado em criar aplicações de modelo para distribuição própria, veja [Create a template app in Power BI](service-template-apps-create.md) (Criar uma aplicação de modelo no Power BI). Os parceiros do Power BI podem criar aplicações do Power BI com pouco ou nenhum código e implementá-las em clientes do Power BI. 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Distribuir aplicações aos seus colegas](service-create-distribute-apps.md)
 * [Create the new workspaces in Power BI](service-create-the-new-workspaces.md) (Criar as novas áreas de trabalho no Power BI)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

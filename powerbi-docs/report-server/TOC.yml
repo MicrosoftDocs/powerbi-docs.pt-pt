@@ -5,7 +5,7 @@
     - name: Descrição geral
       expanded: true
       items:
-        - name: "O que é o Power\_BI Report Server?"
+        - name: O que é o Power BI Report Server?
           href: get-started.md
         - name: Comparar o Power BI Report Server e o serviço
           href: compare-report-server-service.md
@@ -21,9 +21,9 @@
           href: whats-new.md
         - name: Descrição geral para administradores
           href: admin-handbook-overview.md
-        - name: Change log
+        - name: Change log (Registo de alterações)
           href: changelog.md
-        - name: Support timeline (Linha cronológica de suporte)
+        - name: Linha cronológica de suporte
           href: support-timeline.md
         - name: Suporte de Always Encrypted
           href: always-encrypted-support.md
@@ -55,7 +55,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848723'
             - name: Incorporar relatórios
               href: quickstart-embed.md
-    - name: Procedimentos
+    - name: Como
       items:
         - name: Install Power BI Desktop (Instalar o Power BI Desktop)
           href: install-powerbi-desktop.md
@@ -79,7 +79,7 @@
               href: access-dataset-odata.md
             - name: Change data source connection strings with PowerShell (Alterar cadeias de ligação de origem de dados com o PowerShell)
               href: connect-data-source-apis.md
-            - name: Configurar a atualização agendada
+            - name: Configure scheduled refresh (Configurar a atualização agendada)
               href: configure-scheduled-refresh.md
             - name: Add comments to a report (Adicionar comentários a um relatório)
               href: add-comments.md
@@ -93,7 +93,7 @@
               href: upgrade.md
             - name: Migrate a report server (Migrar um servidor de relatórios)
               href: migrate-report-server.md
-            - name: Configure o Kerberos para usar relatórios do Power BI
+            - name: Configure Kerberos to use Power BI reports (Configurar o Kerberos para utilizar relatórios do Power BI)
               href: configure-kerberos-powerbi-reports.md
             - name: Configure mobile app access remotely (Configurar o acesso por aplicação móvel remotamente)
               href: configure-powerbi-mobile-apps-remote.md
@@ -115,7 +115,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848721'
         - name: URL Access (Acesso por URL)
           href: 'https://go.microsoft.com/fwlink/?linkid=848722'
-        - name: Extensions (Extensões)
+        - name: Extensões
           href: 'https://go.microsoft.com/fwlink/?linkid=848723'
     - name: Recursos
       items:

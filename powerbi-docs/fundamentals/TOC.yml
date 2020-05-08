@@ -15,7 +15,7 @@
           href: ../service-service-vs-desktop.md
     - name: Conceitos
       items:
-        - name: Novidades na atualização mais recente do Power BI Desktop
+        - name: What's new in the latest Power BI Desktop update? (Novidades na atualização mais recente do Power BI Desktop)
           href: ../desktop-latest-update.md
         - name: What's new in the Power BI service (Novidades no serviço Power BI)
           href: ../service-whats-new.md
@@ -23,13 +23,13 @@
           href: ../service-basic-concepts.md
         - name: Dez sugestões para obter ajuda
           href: ../service-tips-for-finding-help.md
-        - name: Licensing
+        - name: Licenciamento
           items:
             - name: Inscrever-se no Power BI
               href: ../service-self-service-signup-for-power-bi.md
             - name: Recursos por tipo de licença
               href: ../service-features-license-type.md
-    - name: Manuais de instruções
+    - name: Guias de procedimentos
       items:
         - name: Obter o Power BI Desktop
           href: ../desktop-get-the-desktop.md

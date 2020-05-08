@@ -11,10 +11,10 @@ ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 0c9e3db46c66fcd440ebd304370d31539dd5c5c7
-ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76282038"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Adicionar imagens, vídeos e mais ao dashboard
@@ -240,7 +240,7 @@ Para alterar um mosaico existente:
 * Para facilitar ainda mais a movimentação do mosaico no dashboard, adicione um título e um subtítulo opcional.
 * Se quiser introduzir conteúdo de um site, mas o site não fornecer o código de incorporação para copiar e colar, aceda a embed.ly para obter ajuda para gerar o código de incorporação.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Introdução aos mosaicos dos dashboards para designers do Power BI](service-dashboard-tiles.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).

@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 ms.openlocfilehash: 139c9cb31ecbb6853228c0d362b61d5a74debac5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874978"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867789"
 ---
 # <a name="intro-to-power-bi-qa"></a>Introdução às Perguntas e Respostas do Power BI
 
@@ -97,7 +97,7 @@ Por predefinição, a funcionalidade Perguntas e Respostas está disponível na 
 
 ![Dashboard das Perguntas e Respostas](media/qna-dashboard.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Pode integrar uma linguagem natural nos seus relatórios de diversas formas. Para obter mais informações, veja estes artigos:
 

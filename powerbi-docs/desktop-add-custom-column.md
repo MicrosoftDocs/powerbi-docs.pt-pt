@@ -10,10 +10,10 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 443053bc973005d3e2a655b1222d049a4251e7d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878882"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Adicionar uma coluna personalizada no Power BI Desktop
@@ -79,7 +79,7 @@ A janela **Adicionar Coluna Personalizada** tem as seguintes funcionalidades:
 
 ## <a name="use-the-advanced-editor-for-custom-columns"></a>Utilizar o Editor Avançado para colunas personalizadas
 
-Após criar a sua consulta, pode também utilizar o **Editor Avançado** para modificar qualquer passo da sua consulta. Para o fazer, siga estes passos:
+Após criar a sua consulta, pode também utilizar o **Editor Avançado** para modificar qualquer passo da sua consulta. Para tal, siga estes passos:
 
 1. Na janela do **Editor de Consultas**, selecione o separador **Ver** no friso. 
 
@@ -90,7 +90,7 @@ Após criar a sua consulta, pode também utilizar o **Editor Avançado** para mo
    ![Página do Editor Avançado](media/desktop-add-custom-column/add-custom-column_07.png)
 
    
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 - Pode criar uma coluna personalizada de outras formas, incluindo a criação de uma coluna com base nos exemplos fornecidos ao Editor de Consultas. Para obter mais informações, veja [Adicionar uma coluna a partir de um exemplo no Power BI Desktop](desktop-add-column-from-example.md).
 

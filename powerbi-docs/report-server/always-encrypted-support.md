@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
 ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76710212"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Funcionalidade Always Encrypted no Power BI Report Server
@@ -29,9 +29,9 @@ Neste momento, o Power BI Report Server não restringe o acesso a colunas Always
 
 |Armazenamento  |Suportado  |
 |---------|---------|
-|Arquivo de Certificados do Windows | Sim |
-|Azure Key Vault | Não |
-| Cryptography Next Generation (CNG) | Não |
+|Arquivo de Certificados do Windows | Yes |
+|Azure Key Vault | No |
+| Cryptography Next Generation (CNG) | No |
 
 ### <a name="certificate-storage-and-access"></a>Acesso e armazenamento de certificados
 
@@ -44,12 +44,12 @@ A conta que requer acesso ao certificado é a conta de serviço. O certificado d
 
 No Power BI Report Server, a estratégia de encriptação de coluna pode ser *determinista* ou *aleatória*. A tabela seguinte descreve as diferenças, dependendo da estratégia utilizada.
 
-|Utilizar  |Determinista  |Aleatório  |
+|Utilização  |Determinista  |Aleatório  |
 |---------|---------|---------|
-|Pode ser lido tal como está nos resultados de uma consulta, por exemplo, instruções SELECT. | Sim  | Sim  |
-|Pode ser utilizado como uma entidade Agrupar Por na consulta. | Sim | Não |
-|Pode ser utilizado como um campo agregado, exceto para COUNT e DISTINCT. | Não, exceto para COUNT e DISTINCT | Não |
-|Pode ser utilizado como um parâmetro de relatório | Sim | Não |
+|Pode ser lido tal como está nos resultados de uma consulta, por exemplo, instruções SELECT. | Yes  | Yes  |
+|Pode ser utilizado como uma entidade Agrupar Por na consulta. | Yes | No |
+|Pode ser utilizado como um campo agregado, exceto para COUNT e DISTINCT. | Não, exceto para COUNT e DISTINCT | No |
+|Pode ser utilizado como um parâmetro de relatório | Yes | No |
 
 Saiba mais sobre [encriptação determinista vs. aleatória](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption).
 
@@ -71,14 +71,14 @@ A utilização de parâmetros aplica-se apenas à encriptação determinista.
 
 | Tipos de Dados SQL | Suporta o campo de leitura | Suporta a utilização como um elemento Agrupar Por | Agregações suportadas (COUNT, DISTINCT, MAX, MIN, SUM, entre outros) | Suporta a filtragem através da igualdade com parâmetros | Notas |
 | --- | --- | --- | --- | --- | --- |
-| int | Sim | Sim | COUNT, DISTINCT | Sim, como Número Inteiro |   |
-| float | Sim | Sim | COUNT, DISTINCT | Sim, como Flutuante |   |
-| nvarchar | Sim | Sim | COUNT, DISTINCT | Sim, como Texto | A encriptação determinista tem de utilizar um agrupamento de colunas com uma sequência de ordenação binary2 para colunas de carateres. Veja o artigo [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) do SQL Server para obter detalhes.  |
-| varchar | Sim | Sim | COUNT, DISTINCT | Não |   |
-| decimal | Sim | Sim | COUNT, DISTINCT | Não |   |
-| numeric | Sim | Sim | COUNT, DISTINCT | Não |   |
-| datetime | Sim | Sim | COUNT, DISTINCT | Não |   |
-| datetime2 | Sim | Sim | COUNT, DISTINCT | Sim, como Data/Hora | Suportado se a coluna não tiver precisão de milissegundos (por outras palavras, não é datetime2(0)) |
+| int | Yes | Yes | COUNT, DISTINCT | Sim, como Número Inteiro |   |
+| float | Yes | Yes | COUNT, DISTINCT | Sim, como Flutuante |   |
+| nvarchar | Yes | Yes | COUNT, DISTINCT | Sim, como Texto | A encriptação determinista tem de utilizar um agrupamento de colunas com uma sequência de ordenação binary2 para colunas de carateres. Veja o artigo [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) do SQL Server para obter detalhes.  |
+| varchar | Yes | Yes | COUNT, DISTINCT | No |   |
+| decimal | Yes | Yes | COUNT, DISTINCT | No |   |
+| numeric | Yes | Yes | COUNT, DISTINCT | No |   |
+| datetime | Yes | Yes | COUNT, DISTINCT | No |   |
+| datetime2 | Yes | Yes | COUNT, DISTINCT | Sim, como Data/Hora | Suportado se a coluna não tiver precisão de milissegundos (por outras palavras, não é datetime2(0)) |
 
 ## <a name="aggregation-alternatives"></a>Alternativas de agregação
 
@@ -88,7 +88,7 @@ Atualmente, as únicas agregações suportadas nas colunas deterministas Always 
 
 Tem de ativar a funcionalidade Always Encrypted na cadeia de ligação de uma origem de dados do SQL Server. Saiba mais sobre como ativar a funcionalidade [Always Encrypted nas consultas da aplicação](https://docs.microsoft.com/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine) no SQL Server e Base de Dados SQL do Azure
 

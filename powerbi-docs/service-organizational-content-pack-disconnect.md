@@ -10,10 +10,10 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 3936ebfedb1e4e51fe93b948a49de0b9fb133c52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881302"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Remover a ligação a um pacote de conteúdos organizacionais do Power BI
@@ -32,7 +32,7 @@ Para remover um pacote de conteúdos, remova o respetivo conjunto de dados.
 
 Remover o conjunto de dados também remove todos os relatórios e dashboards associados. Contudo, a remoção da ligação ao pacote de conteúdos não elimina o pacote de conteúdos do AppSource da sua organização.  Pode sempre voltar ao AppSource e adicionar o pacote de conteúdos à sua área de trabalho. Só pode [eliminar um pacote de conteúdos do AppSource](service-organizational-content-pack-manage-update-delete.md) se foi quem o criou.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Introdução aos pacotes de conteúdos organizacionais](service-organizational-content-pack-introduction.md) 
 * [Create and distribute an app in Power BI](service-create-distribute-apps.md) (Criar e distribuir uma aplicação no Power BI) 
 * [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)  

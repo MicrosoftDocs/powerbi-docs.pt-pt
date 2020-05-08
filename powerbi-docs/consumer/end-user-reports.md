@@ -10,13 +10,13 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114240"
 ---
-# <a name="reports-in-power-bi"></a>Relatórios no Power BI
+# <a name="reports-in-power-bi"></a>Reports in Power BI (Relatórios no Power BI)
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
@@ -58,12 +58,12 @@ Os [Dashboards](end-user-dashboards.md) costumam ser confundidos com relatórios
 | **Capacidade** | **Dashboards** | **Relatórios** |
 | --- | --- | --- |
 | Páginas |Uma página |Uma ou mais páginas |
-| Origens de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
+| Data sources |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
 | Filtragem |Não pode filtrar nem segmentar |Várias formas diferentes de filtrar, realçar e segmentar |
-| Definir alertas |Pode criar alertas para que lhe seja enviado um e-mail quando um dashboard cumpre determinadas condições |Não |
-| Funcionalidade |Pode definir um dashboard como o seu dashboard em destaque |Não pode criar um relatório em destaque |
-| Pode ver as tabelas e os campos de conjuntos de dados subjacentes |Não. Pode exportar dados, mas não pode ver os campos e tabelas do conjunto de dados no próprio dashboard |Yes. Pode ver campos e tabelas de conjuntos de dados e valores para os quais tem permissões de visualização |
-| Personalização |Não  |Pode filtrar, exportar, ver conteúdos relacionados, adicionar marcadores, gerar códigos QR, analisar no Excel e mais |
+| Definir alertas |Pode criar alertas para que lhe seja enviado um e-mail quando um dashboard cumpre determinadas condições |No |
+| Destaque |Pode definir um dashboard como o seu dashboard em destaque |Não pode criar um relatório em destaque |
+| Pode ver tabelas e campos de conjuntos de dados subjacentes |N.º Pode exportar dados, mas não pode ver os campos e tabelas do conjunto de dados no próprio dashboard |Sim. Pode ver campos e tabelas de conjuntos de dados e valores para os quais tem permissões de visualização |
+| Personalização |No  |Pode filtrar, exportar, ver conteúdos relacionados, adicionar marcadores, gerar códigos QR, analisar no Excel e mais |
 
 <!--| Available in Power BI Desktop |No |Yes, can create and view reports in Desktop |
 | Pinning |Can pin existing visuals (tiles) only from current dashboard to your other dashboards |Can pin visuals (as tiles) to any of your dashboards. Can pin entire report pages to any of your dashboards. | -->
@@ -82,7 +82,7 @@ Em alternativa, pode ser um *consumidor*, isto é, uma pessoa que recebe relató
 > [!TIP]
 > Se não encontrou aqui o que procurava, utilize o Índice à esquerda para procurar todos os artigos sobre *Relatórios*.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [Abrir e ver um relatório](end-user-report-open.md)    
 [Dashboards no serviço Power BI](end-user-dashboards.md)

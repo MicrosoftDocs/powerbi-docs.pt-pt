@@ -11,10 +11,10 @@ ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: a67d983d11ae8fa2f82a540c0649c2da475d5249
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80621615"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Alertas de dados no serviço Power BI
@@ -38,7 +38,7 @@ Veja a Margarida a adicionar alguns alertas a mosaicos no dashboard. Em seguida,
 
 Este exemplo utiliza um mosaico de cartão do dashboard de exemplo de Análise de Revenda. [Obtenha o exemplo de Análise de Revenda](sample-retail-analysis.md#get-the-content-pack-for-this-sample) se quiser acompanhar.
 
-1. Comece num dashboard. No mosaico **Total de lojas**, selecione as reticências.
+1. Inicie um dashboard. No mosaico **Total de lojas**, selecione as reticências.
 
    ![Mosaico Total de Lojas](media/service-set-data-alerts/powerbi-card.png)
 
@@ -123,7 +123,7 @@ Existem várias formas de gerir os alteras:
 * Os alertas só funcionam em conjuntos de dados de transmissão em fluxo se criar um elemento visual de relatório de KPI, cartão ou medidor e, em seguida, afixar esse elemento visual ao dashboard.
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Criar um fluxo do Power Automate que inclua um alerta de dados](service-flow-integration.md).
 

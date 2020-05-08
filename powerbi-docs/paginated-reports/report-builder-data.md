@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
 ms.openlocfilehash: fea4e4927b009e30bc040593f9237cc49ff73956
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921453"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Dados de relatórios no Report Builder do Power BI
@@ -23,7 +23,7 @@ Os dados de relatórios podem ser provenientes de múltiplas origens de dados na
 Saiba como [Criar uma origem de dados incorporada para relatórios paginados no Report Builder do Power BI](paginated-reports-embedded-data-source.md).
 
 
-##  <a name="BkMk_ReportDataTerms"></a> Termos  
+##  <a name="terms"></a><a name="BkMk_ReportDataTerms"></a> Termos  
   
 - **Ligação de dados.** Também conhecida como uma *origem de dados*. Uma ligação de dados inclui um nome e propriedades de ligação que dependem do tipo de ligação. Por predefinição, uma ligação de dados não inclui credenciais. Uma ligação de dados não especifica os dados a recuperar a partir da origem de dados externa. Para tal, especifique uma consulta ao criar um conjunto de dados.  
   
@@ -33,7 +33,7 @@ Saiba como [Criar uma origem de dados incorporada para relatórios paginados no 
   
 - **Credenciais.** As credenciais são as informações de autenticação que têm de ser fornecidas para lhe permitir aceder a dados externos.  
   
-##  <a name="BkMk_ReportDataTips"></a> Sugestões para especificar os dados de relatório
+##  <a name="tips-for-specifying-report-data"></a><a name="BkMk_ReportDataTips"></a> Sugestões para especificar os dados de relatório
 
  Utilize as seguintes informações para estruturar a sua estratégia de dados do relatório.  
   
@@ -57,7 +57,7 @@ Saiba como [Criar uma origem de dados incorporada para relatórios paginados no 
   
 - As origens de dados e os conjuntos de dados são criados num relatório e publicados no serviço Power BI. Depois de serem publicados, pode configurar as credenciais diretamente no serviço Power BI ou no Gateway da Empresa. 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)  
 - [Orientação para a obtenção de dados para relatórios paginados](../guidance/report-paginated-data-retrieval.md)

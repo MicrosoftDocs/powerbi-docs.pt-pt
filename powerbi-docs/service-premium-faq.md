@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: 6b2876ca78e07cf7c3c2b778ef9c571745baa1e5
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488666"
 ---
 # <a name="power-bi-premium-faq"></a>Perguntas Frequentes do Power BI Premium

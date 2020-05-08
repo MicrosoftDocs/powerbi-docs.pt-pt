@@ -1,6 +1,6 @@
 ---
 title: Explorar dados do Power BI na aplicação móvel no Apple Watch
-description: Aplicação Power BI Apple Watch
+description: Power BI Apple Watch app (Aplicação Power BI no Apple Watch)
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: e2014f359d4085ab0dcb85135f7436c9e403eaab
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114508"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Explorar os dados BI na aplicação móvel do Power no Apple Watch
@@ -82,10 +82,10 @@ Devido ao espaço pequeno no mostrador do Apple Watch, a aplicação Power BI Ap
 > 
 > 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Os seus comentários ajudam-nos a decidir o que implementar no futuro; portanto, não se esqueça de votar noutros recursos que gostaria de ver nas aplicações móveis do Power BI. 
 
 * Transfira a [aplicação móvel do Power BI para iPhone](https://go.microsoft.com/fwlink/?LinkId=522062)
-* Siga [@MSPowerBI no Twitter](https://twitter.com/MSPowerBI)
+* Siga o [@MSPowerBI no Twitter](https://twitter.com/MSPowerBI)
 * Participe na conversa na [Comunidade do Power BI](https://community.powerbi.com/)
 

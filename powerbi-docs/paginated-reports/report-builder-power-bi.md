@@ -10,10 +10,10 @@ ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80621533"
 ---
 # <a name="power-bi-report-builder"></a>Power BI Report Builder
@@ -58,7 +58,7 @@ O relatório paginado que se segue inclui uma matriz com grupos de linhas e colu
   
 -   **Configure subscrições.** Após a publicação do relatório no serviço Power BI, poderá configurar o seu relatório para ser executado a uma hora específica e enviado como uma subscrição de e-mail.  
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)
 - Veja a [série de vídeos de relatórios paginados do Power BI](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) no YouTube, pelo Gestor de Programas Principal do Power BI, Chris Finlan
