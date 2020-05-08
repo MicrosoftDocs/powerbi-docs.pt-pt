@@ -12,13 +12,13 @@
       items:
         - name: Enviar dados por push para um conjunto de dados
           href: walkthrough-push-data.md
-        - name: Obter um token de acesso de autenticação
+        - name: Get an authentication access token (Obter um token de acesso de autenticação)
           href: walkthrough-push-data-get-token.md
-        - name: Create a dataset (Criar um conjunto de dados)
+        - name: Criar um conjunto de dados
           href: walkthrough-push-data-create-dataset.md
         - name: Get a dataset to add rows (Obter um conjunto de dados para adicionar linhas)
           href: walkthrough-push-data-get-datasets.md
-        - name: Adicionar linhas a uma tabela
+        - name: Add rows to a table (Adicionar linhas a uma tabela)
           href: walkthrough-push-data-add-rows.md
     - name: Conceitos
       items:
@@ -32,9 +32,9 @@
               href: api-dataset-properties.md
             - name: Data model versioning (Controlo de versões do modelo de dados)
               href: api-data-model-versioning.md
-    - name: Procedimentos
+    - name: Como
       items:
-        - name: Configurar credenciais
+        - name: Configurar as credenciais
           href: configure-credentials.md
     - name: Referência
       items:
@@ -46,9 +46,9 @@
           href: walkthrough-push-data-complete-code.md
     - name: Recursos
       items:
-        - name: Dev Center
+        - name: Centro de Desenvolvimento
           href: 'https://powerbi.microsoft.com/en-us/developers/'
-        - name: 'Power BI C# Git Repo (Repositório Git C# do Power BI)'
+        - name: 'Repositório de Git de C# do Power BI'
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
         - name: .NET SDK Download (Transferência do SDK do .NET)
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'

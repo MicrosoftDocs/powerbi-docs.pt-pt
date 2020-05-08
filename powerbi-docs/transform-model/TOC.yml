@@ -35,7 +35,7 @@
           href: ../desktop-bidirectional-filtering.md
         - name: Trabalhar com modelos multidimensionais no Power BI
           href: ../desktop-default-member-multidimensional-models.md
-    - name: Manuais de instruções
+    - name: Guias de procedimentos
       items:
         - name: Realizar tarefas de consulta comuns
           href: ../desktop-common-query-tasks.md
@@ -55,7 +55,7 @@
               href: ../desktop-combine-binaries.md
             - name: Utilizar o Insights da IA (pré-visualização)
               href: ../desktop-ai-insights.md
-        - name: Model your data (Modelar os seus dados)
+        - name: Modelar os dados
           items:
             - name: Criar medidas rápidas para realizar cálculos comuns
               href: ../desktop-quick-measures.md
@@ -79,11 +79,11 @@
               href: ../desktop-auto-date-time.md
         - name: Preparação personalizada de dados
           items:
-            - name: Create and use dataflows (Criar e utilizar fluxos de dados)
+            - name: Criar e utilizar fluxos de dados
               href: ../service-dataflows-create-use.md
             - name: Promote or certify dataflows (Promover ou certificar fluxos de dados)
               href: service-dataflows-promote-certify.md
-            - name: Utilizar o motor de computação melhorado com fluxos de dados
+            - name: Utilizar o mecanismo de computação melhorado com fluxos de dados
               href: ../service-dataflows-enhanced-compute-engine.md
             - name: Entidades calculadas com o Power BI Premium
               href: ../service-dataflows-computed-entities-premium.md
@@ -99,11 +99,11 @@
               href: ../service-dataflows-developer-resources.md
             - name: Ligar a fluxos de dados no Power BI Desktop
               href: ../desktop-connect-dataflows.md
-            - name: Integração dos fluxos de dados e do Azure Data Lake (Pré-visualização)
+            - name: 'Dataflows and Azure Data Lake integration (Preview) (Integração do Azure Data Lake e fluxos de dados [Pré-visualização])'
               href: ../service-dataflows-azure-data-lake-integration.md
             - name: Ligar o Azure Data Lake Storage Gen2 para armazenar fluxos de dados
               href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
-            - name: Configurar definições de fluxos de dados da área de trabalho (Pré-visualização)
+            - name: Configurar definições do fluxo de dados da área de trabalho (Pré-visualização)
               href: ../service-dataflows-configure-workspace-storage-settings.md
             - name: Adicionar uma pasta de CDM ao Power BI como um fluxo de dados (Pré-visualização)
               href: ../service-dataflows-add-cdm-folder.md

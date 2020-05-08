@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: painbar
 ms.openlocfilehash: ce7b3c3bc667023ef36650d8c551caaceab04c02
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802807"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-passcode-or-biometric-data"></a>Proteger a aplicação Power BI com o Face ID, Touch ID, código de acesso ou dados biométricos 
@@ -61,5 +61,5 @@ Algumas organizações têm políticas de segurança e requisitos de conformidad
 
 Para suportar esta situação, a aplicação móvel Power BI permite que os administradores controlem a definição de acesso seguro da aplicação móvel ao emitir as definições de configuração da aplicação a partir do Microsoft Intune e de outras soluções de gestão de dados globais (MDM). Os administradores podem utilizar a política de proteção de aplicações para ativar esta definição para todos ou para um grupo de utilizadores. Para obter detalhes, veja [Use MDM to remotely configure Power BI mobile app](mobile-app-configuration.md#data-protection-settings-ios-and-android) (Utilizar a MDM para configurar a aplicação móvel Power BI remotamente).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Use MDM to remotely configure Power BI mobile app](mobile-app-configuration.md) (Utilizar a MDM para configurar a aplicação móvel Power BI remotamente)

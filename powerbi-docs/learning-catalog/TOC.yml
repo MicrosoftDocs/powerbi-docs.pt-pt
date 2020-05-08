@@ -1,7 +1,7 @@
 - name: Catálogo de aprendizagem
   href: index.yml
   items:
-    - name: Decisores empresariais
+    - name: Business decision makers (Decisores empresariais)
       href: learning-catalog-bdm.md
     - name: Consumidores
       href: learning-catalog-consumer.md
@@ -15,9 +15,9 @@
       href: learning-catalog-developer.md
     - name: Partner pre-sales roles (Funções de pré-vendas dos parceiros)
       href: learning-catalog-presales.md
-    - name: Consultores funcionais
+    - name: Functional consultants (Consultores funcionais)
       href: learning-catalog-functional-consultant.md
-    - name: Arquitetos de soluções
+    - name: Solution architects (Arquitetos de soluções)
       href: learning-catalog-solution-architect.md
     - name: Introdução à DAX
       href: ../guided-learning/introductiontodax.yml?tutorial-step=1

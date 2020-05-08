@@ -7,10 +7,10 @@ ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
 ms.openlocfilehash: f318aa59f33a9993b31787fcb3e0036286616608
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268817"
 ---
 # <a name="report-creator-learning-catalog"></a>Catálogo de aprendizagem para Criadores de Relatórios
@@ -24,7 +24,7 @@ O seguinte catálogo está organizado do conhecimento básico aos domínios espe
 |-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|----------------|
 | [Create and use analytics reports with Power BI](https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/) (Criar e utilizar relatórios de análise com o Power BI)  | Este percurso de aprendizagem apresenta o Power BI e ensina a utilizar e a criar relatórios de business intelligence.  | Percurso de aprendizagem online personalizado e gratuito | 6 horas e 22 minutos      |
 | [Prepare your data for Power BI](https://youtu.be/l2wy4XgQIu0) (Preparar os dados para o Power BI)  | Veja algumas sugestões básicas sobre como preparar os seus dados do Excel para o Power BI. | 1 minuto e 20 segundos      |
-| [Microsoft Power BI YouTube channel](https://www.youtube.com/user/mspowerbi/videos) (Canal do YouTube do Microsoft Power BI) | Canal do YouTube com conteúdos da equipa de produto do Power BI da Microsoft  | Vídeos   |                |
+| [Microsoft Power BI YouTube channel](https://www.youtube.com/user/mspowerbi/videos) (Canal do YouTube do Microsoft Power BI) | Canal do YouTube com conteúdos da equipa do produto do Power BI da Microsoft  | Vídeos   |                |
 | [Introdução ao Power BI](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)  | Quer saber como começar a utilizar o Power BI? Como ligar-se aos dados e vê-los pela primeira vez? Saiba como começar rapidamente a utilizar o Power BI e obter informações a partir dos dados da sua empresa num instante.  | Webinar   |                |
 | [Get Started with the Power BI Mobile App](https://info.microsoft.com/ww-Landing-Getting-Started-with-the-Power-BI-Mobile-App-Video.html) (Introdução à Aplicação Power BI Mobile) | Veja este webinar para saber como manter os seus dados atualizados através de um dispositivo móvel. Saiba como melhorar a sua experiência ao utilizar esquemas otimizados para dispositivos móveis, interagir com os seus dados em qualquer lugar, obter notificações push quando os dados necessitarem de atenção e partilhe e colabore com colegas a partir do dispositivo móvel. | Webinar    |                |
 | [Power Tricks, Tips and Tools from the owners of PowerBI.Tips](https://www.youtube.com/watch?v=fnj1_e3HXow) (Truques, Sugestões e Ferramentas do Power dos proprietários do PowerBI.Tips) | Nesta reunião de grupo de utilizadores muito especial, os proprietários do Power BI.Tips e os MVPs (Most Valuable Professionals) do Power BI, Seth Bauer e Mike Carlo, irão partilhar consigo o respetivo conjunto vasto de Truques, Sugestões e Ferramentas do Power que publicaram em http://PowerBI.Tips ao longo dos últimos 18 meses.  | Vídeo do YouTube  | 1 hora, 7 minutos e 40 segundos |

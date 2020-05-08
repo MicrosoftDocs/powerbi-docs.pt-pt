@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d92d7a3095ff2f252a09834becf90d5efc1811a0
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113076"
 ---
 # <a name="view-power-bi-notifications"></a>Ver notificações do Power BI
@@ -44,9 +44,9 @@ Veja a Margarida a analisar, gerir e responder a notificações. Em seguida, sig
    ![Centro de Notificações](./media/end-user-notification-center/power-bi-notification-center.png)
 4. Para dispensar uma notificação, selecione o ícone X.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Alertas de dados no serviço Power BI](end-user-alerts.md)
 * [Definir alertas de dados na aplicação para iPhone (Power BI para iOS)](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Definir alertas de dados na aplicação móvel do Power BI para Windows 10](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Definir alertas de dados na aplicação móvel Power BI para Windows 10](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

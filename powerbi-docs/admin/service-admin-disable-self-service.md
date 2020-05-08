@@ -10,10 +10,10 @@ ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 561d8b6cd0e17e885ced984315a04376400a2a58
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81447516"
 ---
 # <a name="enable-or-disable-self-service-sign-up-and-purchasing"></a>Ativar ou desativar a compra e inscrição de gestão personalizada

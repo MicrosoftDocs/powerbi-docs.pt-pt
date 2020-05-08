@@ -62,7 +62,7 @@
             - name: Natural language Q&A (Perguntas e Respostas sobre linguagem natural)
               items:
                 - name: Q&A introduction (Introdução às Perguntas e Respostas)
-                  href: ../natural-language/q-and-a-tooling-intro.md
+                  href: ../natural-language/q-and-a-intro.md
                 - name: Q&A tooling introduction (Introdução às ferramentas das Perguntas e Respostas)
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Q&A tooling advanced (Ferramentas avançadas das Perguntas e Respostas)
@@ -99,6 +99,14 @@
               href: ../paginated-reports/report-builder-previewing-reports.md
             - name: FAQ sobre relatórios paginados
               href: ../paginated-reports/paginated-reports-faq.md
+        - name: Deployment pipelines (Pipelines de implementação)
+          items:
+            - name: Introduction to deployment pipelines (Introdução aos pipelines de implementação)
+              href: deployment-pipelines-overview.md
+            - name: Understand the deployment process (Compreender o processo de implementação)
+              href: deployment-pipelines-process.md
+            - name: Melhores práticas
+              href: deployment-pipelines-best-practices.md
     - name: Manuais de instruções
       items:
         - name: Relatórios do Power BI
@@ -121,22 +129,20 @@
               href: ../desktop-buttons.md
             - name: Create drill-through buttons (Criar botões de pormenorização)
               href: ../desktop-drill-through-buttons.md
+            - name: Utilizar a pormenorização
+              href: ../desktop-drillthrough.md
+            - name: Utilizar a pormenorização entre relatórios
+              href: ../desktop-cross-report-drill-through.md
             - name: Criar marcadores para guardar e partilhar informações
               href: ../desktop-bookmarks.md
             - name: Trabalhar com temas de relatórios
               href: ../desktop-report-themes.md
             - name: Trabalhar com filtros nos relatórios
               href: ../power-bi-report-filter.md
-            - name: Utilizar a pormenorização
-              href: ../desktop-drillthrough.md
-            - name: Utilizar a pormenorização entre relatórios
-              href: ../desktop-cross-report-drill-through.md
+            - name: Adicionar um filtro a um relatório
+              href: ../power-bi-report-add-filter.md
             - name: Aplicar agrupamento e discretização
               href: ../desktop-grouping-and-binning.md
-            - name: "Criar elementos visuais do Power\_BI com a linguagem\_R"
-              href: ../desktop-r-visuals.md
-            - name: "Transferir e utilizar elementos visuais do Power\_BI baseados em R"
-              href: ../desktop-r-powered-custom-visuals.md
             - name: Aplicar linhas de grelha e ajuste à grelha
               href: ../desktop-gridlines-snap-to-grid.md
             - name: Aplicar as definições de visualização da página em relatórios
@@ -153,6 +159,8 @@
               href: ../desktop-slicer-numeric-range.md
             - name: Segmentações e filtros de data relativas
               href: ../visuals/desktop-slicer-filter-date-range.md
+            - name: Relative time slicers and filters (Filtros e segmentações de dados de hora relativa)
+              href: slicer-filter-relative-time.md
             - name: Criar uma segmentação de dados que pode redimensionar
               href: ../power-bi-slicer-filter-responsive.md
             - name: Adicionar vários campos a segmentações
@@ -189,8 +197,6 @@
               href: ../desktop-templates.md
             - name: Criar um relatório a partir de um conjunto de dados
               href: ../service-report-create-new.md
-            - name: Adicionar um filtro a um relatório
-              href: ../power-bi-report-add-filter.md
             - name: Guardar um relatório
               href: ../service-report-save.md
             - name: Interagir com um relatório na Vista de Edição
@@ -201,6 +207,8 @@
               href: ../service-aggregates.md
             - name: Criar um código QR para um relatório
               href: ../service-create-qr-code-for-report.md
+            - name: 'Let consumers customize visuals (Preview) (Permitir aos clientes personalizar elementos visuais [Pré-visualização])'
+              href: power-bi-personalize-visuals.md
             - name: Exportar um relatório para o Power BI Desktop (Pré-visualização)
               href: ../service-export-to-pbix.md
             - name: Publicar conjuntos de dados e relatórios
@@ -267,6 +275,10 @@
               href: ../visuals/power-bi-visualization-powerapp.md
             - name: Visuais R
               href: ../visuals/service-r-visuals.md
+            - name: "Criar elementos visuais do Power\_BI com a linguagem\_R"
+              href: ../desktop-r-visuals.md
+            - name: "Transferir e utilizar elementos visuais do Power\_BI baseados em R"
+              href: ../desktop-r-powered-custom-visuals.md
             - name: Gráficos de medidor radial
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: Ribbon charts (Gráficos de friso)
@@ -371,6 +383,12 @@
               href: ../service-data-classification.md
             - name: Temas de dashboard
               href: ../service-dashboard-themes.md
+        - name: Deployment pipelines (Pipelines de implementação)
+          items:
+            - name: Introdução
+              href: deployment-pipelines-get-started.md
+            - name: Resolução de problemas
+              href: deployment-pipelines-troubleshooting.md
         - name: Outras tarefas
           items:
             - name: Mudar o nome de conteúdos

@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: 03b361c56bd545036a8d706ae01e2bfa2ec30222
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921246"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Paginação nos relatórios paginados do Power BI
@@ -85,7 +85,7 @@ ms.locfileid: "78921246"
   
  Para obter mais informações sobre como estas propriedades funcionam quando os relatórios são exportados para o Excel, veja [Exporting to Microsoft Excel](https://docs.microsoft.com/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs) (Exportar para o Microsoft Excel) na documentação do Report Builder e do SQL Server Reporting Services.  
   
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 - [Ver um relatório paginado no serviço Power BI](../consumer/paginated-reports-view-power-bi-service.md)
 - [Avoid blank pages when printing paginated reports](../guidance/report-paginated-blank-page.md) (Evitar páginas em branco ao imprimir relatórios paginados)

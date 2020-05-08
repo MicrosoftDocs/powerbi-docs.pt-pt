@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: davidi
 ms.openlocfilehash: cab64bdcd5707cfd0b1578e82334de4b5c84495c
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439969"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Como configurar a atualização agendada de relatórios do Power BI
@@ -70,7 +70,7 @@ Veja o estado de um plano de atualização agendada no portal Web.
 2. No menu à esquerda, selecione o separador **Atualização agendada**.
 3. Na página de **Atualização agendada**, a coluna mais à direita apresenta o estado de um plano.
    
-   | **Estado** | **Descrição** |
+   | **Status** (Estado) | **Descrição** |
    | --- | --- |
    | Novo Plano de Atualização Agendada |O plano foi criado, mas ainda não foi executado. |
    | A atualizar |O processo de atualização começou. |
@@ -83,7 +83,7 @@ Veja o estado de um plano de atualização agendada no portal Web.
 
 A página Web tem de ser atualizada para ver o estado atual. O estado não será alterado automaticamente.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Para saber mais sobre criar e modificar agendas, consulte [Criar, modificar e eliminar agendas](https://docs.microsoft.com/sql/reporting-services/subscriptions/create-modify-and-delete-schedules).
 
 Para obter informações sobre como resolver problemas de atualização agendada, consulte [Resolução de problemas da atualização agendada no Power BI Report Server](scheduled-refresh-troubleshoot.md).

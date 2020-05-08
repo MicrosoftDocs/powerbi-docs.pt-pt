@@ -10,10 +10,10 @@ ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 410058cad59fdf134b54b45754ef06c0d382c4ef
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439946"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Comprar e atribuir licenças de utilizador do Power BI Pro
@@ -78,7 +78,7 @@ Siga estes passos para atribuir licenças do Power BI Pro a contas de utilizad
 
 5. Na barra de comandos, selecione **+Atribuir**. Na página **Atribuir licença**, escolha primeiro um utilizador e, em seguida, selecione **Opções de atribuição** para ativar uma licença do Power BI Pro para a conta de utilizador selecionada.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 - [Licenciamento do Power BI na sua organização](service-admin-licensing-organization.md)
 

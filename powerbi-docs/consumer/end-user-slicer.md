@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6ae8efdeb6004d700cd10fee447499a33c88e642
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268242"
 ---
 # <a name="slicers-in-the-power-bi-service"></a>Segmentações de dados no serviço Power BI
@@ -65,7 +65,7 @@ Para desativar uma segmentação de dados, selecione o ícone de borracha.
 
 ![ícone da borracha](media/end-user-slicer/power-bi-eraser.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações, veja os seguintes artigos:
 
 [Tipos de visualização no Power BI](end-user-visualizations.md)

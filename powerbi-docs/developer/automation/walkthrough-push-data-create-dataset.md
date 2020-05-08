@@ -1,5 +1,5 @@
 ---
-title: Criar um conjunto de dados
+title: Create a dataset (Criar um conjunto de dados)
 description: Instruções – Enviar dados para um conjunto de dados – Criar um conjunto de dados no Power BI
 author: KesemSharabi
 ms.author: kesharab
@@ -9,13 +9,13 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
 ms.openlocfilehash: 149b4f8663838c0a87609a1ec24358fb9ee9727e
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80403645"
 ---
-# <a name="step-3-create-a-dataset-in-power-bi"></a>Passo 3: Criar um conjunto de dados no Power BI
+# <a name="step-3-create-a-dataset-in-power-bi"></a>Passo 3: criar um conjunto de dados no Power BI
 Este artigo faz parte das instruções passo-a-passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
 
 No **passo 2** de Enviar dados para um conjunto de dados, [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md), obtém um token para autenticação no **do Azure AD**. Neste passo, utilizará o token para chamar a operação [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets).
@@ -111,7 +111,7 @@ Segue-se a [lista completa de códigos](#code).
 
 <a name="code"/>
 
-## <a name="complete-code-listing"></a>Lista completa de códigos
+## <a name="complete-code-listing"></a>Listagem de código completo
 
 ```csharp
 using System;
@@ -226,13 +226,13 @@ namespace walkthrough_push_data
 
 [Próximo Passo >](walkthrough-push-data-get-datasets.md)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Obter um conjunto de dados para adicionar linhas a uma tabela do Power BI](walkthrough-push-data-get-datasets.md)  
 * [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md)  
 * [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)  
 [PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
-* [Enviar dados por push a um Dashboard do Power BI](walkthrough-push-data.md)  
-* [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
+* [Enviar dados para um Dashboard do Power BI](walkthrough-push-data.md)  
+* [Descrição Geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 * [Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

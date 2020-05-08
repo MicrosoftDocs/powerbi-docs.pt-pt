@@ -1,6 +1,6 @@
 ---
-title: 'Exemplo de Análise de Aprovisionamento: veja uma apresentação'
-description: 'Exemplo de Análise de Aprovisionamento do Power BI: veja uma apresentação'
+title: 'Procurement Analysis sample: Take a tour (Exemplo de Análise de Aprovisionamento: veja uma apresentação)'
+description: 'Exemplo de Análise de Compras para o Power BI: faça um tour'
 author: maggiesMSFT
 ms.reviewer: amac
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 8ee77485da03cb8e507d30d511c08aa869c3e4ba
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404673"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Aprovisionamento do Power BI: veja uma apresentação
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Compras para o Power BI: faça um tour
 
 O pacote de conteúdos do exemplo da Análise de Aprovisionamento contém um dashboard, um relatório e um conjunto de dados que analisa os gastos de uma empresa industrial nos fornecedores por categoria e local. No exemplo, exploraremos estas áreas:
 
@@ -138,8 +138,8 @@ Selecione **Editar relatório** no canto superior esquerdo e explore em Vista de
 * Altere o tipo de visualização de um gráfico, por exemplo, altere o mapa de árvore para um gráfico em anel.
 * Afixe os gráficos no seu dashboard.
 
-## <a name="next-steps-connect-to-your-data"></a>Next steps: Ligar aos seus dados
+## <a name="next-steps-connect-to-your-data"></a>Próximas etapas: ligar-se aos seus dados
 Aqui pode explorar à vontade, pois pode optar por não guardar as alterações. No entanto, se as guardar, pode sempre aceder a **Obter Dados** para obter uma nova cópia deste exemplo.
 
-Esperamos que esta apresentação tenha mostrado como os dashboards, as Perguntas e Respostas e os relatórios do Power BI podem fornecer informações sobre os dados do exemplo. Agora, é a sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Para saber mais, veja [Introdução ao serviço Power BI](service-get-started.md).
+Esperamos que esta apresentação tenha mostrado como os dashboards, as Perguntas e Respostas e os relatórios do Power BI podem fornecer informações sobre os dados do exemplo. Agora, é a sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Para saber mais, veja [Introdução ao serviço Power BI](service-get-started.md).
 

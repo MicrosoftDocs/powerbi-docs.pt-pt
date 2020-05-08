@@ -13,10 +13,10 @@ metadata:
   ms.author: maggies
   ms.date: 03/05/2020
   ms.openlocfilehash: 04ce4ce2ec0038ff6e79a2e65de8279a3a73dcad
-  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 04/16/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "81439601"
 landingContent:
 - title: O que é Power BI?
@@ -47,7 +47,7 @@ landingContent:
       url: https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/
     - text: Obter dados com o Power BI Desktop
       url: https://docs.microsoft.com/learn/modules/get-data-power-bi/?tutorial-step=1
-- title: Licensing
+- title: Licenciamento
   linkLists:
   - linkListType: concept
     links:
@@ -59,7 +59,7 @@ landingContent:
   linkLists:
   - linkListType: reference
     links:
-    - text: Vídeos do Power BI
+    - text: Power BI videos (Vídeos do Power BI)
       url: ../videos.md
     - text: Vídeos do Power BI Desktop
       url: ../desktop-videos.md

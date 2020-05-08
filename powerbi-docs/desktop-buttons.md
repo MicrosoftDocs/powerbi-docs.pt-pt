@@ -10,10 +10,10 @@ ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: c703a4b67b642af5199413e80ff1e140905a2338
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439831"
 ---
 # <a name="use-buttons-in-power-bi"></a>Utilizar botões no Power BI
@@ -50,7 +50,7 @@ Os seguintes cartões no painel **Visualizações** permitem-lhe ajustar a forma
 * Texto do Botão
 * Ícone
 * Contorno
-* Preenchimento
+* Preencher
 
 Para selecionar a forma como um botão deve ser apresentado em cada estado, expanda um desses cartões e selecione a lista pendente apresentada na parte superior do cartão. Na imagem seguinte, pode ver o cartão **Ícone** expandido, com a lista pendente selecionada para apresentar os três estados.
 
@@ -89,7 +89,7 @@ Pode criar um painel de navegação personalizado rapidamente. Assim, evita ter 
 
 Além disso, pode formatar condicionalmente a descrição, tal como faz com outros tipos de botão.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações sobre funcionalidades semelhantes ou como interagir com botões, veja os artigos seguintes:
 
 * [Utilizar a exploração em relatórios do Power BI](desktop-drillthrough.md)

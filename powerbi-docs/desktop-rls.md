@@ -11,10 +11,10 @@ ms.custom: ''
 ms.date: 01/31/2020
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7a9aa0ca62ae4f1008d4cf47caa909841f9ec495
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464476"
 ---
 # <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>Restringir o acesso aos dados com segurança ao nível da linha (RLS) para o Power BI Desktop
@@ -34,7 +34,7 @@ Pode agora configurar a RLS para os modelos de dados importados para o Power BI 
 
 [!INCLUDE [include-short-name](./includes/rls-faq.md)]
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [Segurança ao nível da linha (RLS) com o serviço Power BI](service-admin-rls.md)  
 

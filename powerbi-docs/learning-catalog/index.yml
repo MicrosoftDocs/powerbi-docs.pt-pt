@@ -10,13 +10,13 @@ metadata:
   ms.author: v-lshann
   ms.date: 04/08/2020
   ms.openlocfilehash: 9f03f812eb20454f655a876438312ba50b521a29
-  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 04/16/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "81439302"
 landingContent:
-- title: Decisores empresariais
+- title: Business decision makers (Decisores empresariais)
   linkLists:
   - linkListType: overview
     links:
@@ -28,7 +28,7 @@ landingContent:
     links:
     - text: Catálogo de Aprendizagem para Consumidores
       url: learning-catalog-consumer.md#
-- title: Criadores de relatórios
+- title: Report creators (Criadores de relatórios)
   linkLists:
   - linkListType: overview
     links:
@@ -44,7 +44,7 @@ landingContent:
       url: learning-catalog-report-creator.md#visualization
     - text: Integração
       url: learning-catalog-report-creator.md#integration
-- title: Analistas de dados
+- title: Data analysts (Analistas de dados)
   linkLists:
   - linkListType: overview
     links:
@@ -96,7 +96,7 @@ landingContent:
     links:
     - text: Catálogo de Aprendizagem para Pré-Vendas de Parceiros
       url: learning-catalog-presales.md#
-- title: Consultores funcionais
+- title: Functional consultants (Consultores funcionais)
   linkLists:
   - linkListType: overview
     links:
@@ -118,7 +118,7 @@ landingContent:
       url: learning-catalog-functional-consultant.md#security
     - text: Visualizações
       url: learning-catalog-functional-consultant.md#visualizations
-- title: Arquitetos de soluções
+- title: Solution architects (Arquitetos de soluções)
   linkLists:
   - linkListType: overview
     links:

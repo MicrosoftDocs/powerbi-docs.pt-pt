@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/02/2020
 ms.author: maggies
 ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
-ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80647657"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Orientações de planeamento de capacidade do Power BI Report Server
@@ -41,7 +41,7 @@ A implementação do Power BI Report Server consistiu nas seguintes máquinas vi
 
 * Controlador de Domínio do Active Directory: foi necessário pelo SQL Server Database Engine, SQL Server Analysis Services e Power BI Report Server para autenticar em segurança todos os pedidos.
 * O motor de base de dados do SQL Server e SQL Server Analysis Services: foi onde armazenamos todas as bases de dados dos relatórios a consumir depois de serem compostos.
-* Power BI Report Server
+* Servidor de Relatório do Power BI
 * Base de dados do Power BI Report Server. A base de dados do servidor de relatórios está alojada numa máquina diferente do Power BI Report Server, para que não seja necessário competir com o SQL Server Database Engine por memória, CPU, rede e recursos de disco.
 
 ![](media/capacity-planning/report-server-topology.png)
@@ -62,7 +62,7 @@ Todos os testes foram escritos para efetuar uma operação de ponto a ponto (tai
 > A ferramenta não é suportada oficialmente pela Microsoft, mas a equipa de produto contribui para o projeto e responde a perguntas feitas por outros contribuidores.
 
 ### <a name="workloads"></a>Cargas de trabalho
-Existem dois perfis de carga de trabalho utilizados nos testes: Heavy do Relatório do Power BI e Heavy do Relatório Paginado. A tabela abaixo descreve a distribuição de pedidos executados em relação ao Report Server.
+Existem 2 perfis de carga de trabalho utilizados nos testes: Relatório Pesada do Power BI e Relatório Paginado Pesado. A tabela abaixo descreve a distribuição de pedidos executados em relação ao Report Server.
 
 | Atividade | Relatório Pesado do Power BI, Frequência de ocorrência | Relatório Paginado Pesado, Frequência da ocorrência |
 | --- | --- | --- |
@@ -74,7 +74,7 @@ Existem dois perfis de carga de trabalho utilizados nos testes: Heavy do Relató
 ### <a name="user-load"></a>Carregamento do utilizador
 Para cada execução de teste, os testes foram executados com base numa frequência especificada numa de duas cargas de trabalho. Os testes começaram com 20 pedidos simultâneos de utilizador do servidor do relatório. Em seguida, o carregamento de utilizador aumentou gradualmente até a fiabilidade diminuir abaixo dos 99% do valor de destino.
 
-## <a name="results"></a>Results
+## <a name="results"></a>Resultados
 ### <a name="concurrent-user-capacity"></a>Capacidade simultânea de utilizador
 Tal como mencionado anteriormente, os testes começaram com 20 utilizadores em simultâneo com pedidos ao servidor de relatório. Em seguida, o número de utilizadores em simultâneo foi aumentando gradualmente até 1% de todos os pedidos falharem. Os resultados na seguinte tabela indicam o número de pedidos de utilizador em simultâneo que o servidor seria capaz de lidar num pico de carga com uma taxa de falha de menos de 1%.
 

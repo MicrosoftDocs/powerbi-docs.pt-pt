@@ -14,10 +14,10 @@ metadata:
   ms.author: kesharab
   ms.date: 31/03/2020
   ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
-  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 04/01/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "80487807"
 highlightedContent:
   items:
@@ -49,7 +49,7 @@ conceptualContent:
     footerLink:
       url: embedded/index.yml
       text: Ver mais
-  - title: Elementos Visuais do Power BI
+  - title: Power BI visuals
     links:
     - url: visuals/power-bi-custom-visuals.md
       itemType: overview
@@ -73,7 +73,7 @@ conceptualContent:
       text: Enviar dados por push para um conjunto de dados do Power BI
     - url: automation/configure-credentials.md
       itemType: how-to-guide
-      text: Configurar credenciais
+      text: Configurar as credenciais
     footerLink:
       url: automation/index.yml
       text: Ver mais
@@ -81,7 +81,7 @@ additionalContent:
   sections:
   - title: Ferramentas relacionadas
   - items:
-    - title: Power BI REST APIs (APIs REST do Power BI)
+    - title: APIs REST do Power BI
       summary: As APIs REST do Power BI fornecem pontos finais de serviço para recursos de utilizadores e ao nível da incorporação e administração.
       url: https://docs.microsoft.com/rest/api/power-bi/
     - title: API REST do Azure Resource Manager

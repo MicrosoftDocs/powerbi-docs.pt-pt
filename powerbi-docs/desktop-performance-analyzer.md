@@ -10,17 +10,17 @@ ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76709766"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Utilizar o Analisador de Desempenho para examinar o desempenho do elemento de relatório
 
 No **Power BI Desktop**, pode saber o desempenho de cada um dos seus elementos de relatórios, como elementos visuais e fórmulas DAX. Com o **Analisador de Desempenho**, pode ver e criar registos que medem o desempenho de cada um dos seus elementos de relatórios quando os utilizadores interagem com os mesmos, bem como os aspetos do seu desempenho que consomem mais (ou menos) recursos.
 
-![Analisador de desempenho](media/desktop-performance-analyzer/performance-analyzer-01.png)
+![Analisador de Desempenho](media/desktop-performance-analyzer/performance-analyzer-01.png)
 
 O Analisador de Desempenho inspeciona e mostra a duração necessária para atualizar todos os elementos visuais que as interações com utilizadores iniciam, e apresenta as informações para que possa ver, desagregar ou exportar os resultados. O Analisador de Desempenho pode ajudá-lo a identificar elementos visuais que estão a afetar o desempenho dos seus relatórios e a identificar o motivo do impacto.
 
@@ -82,14 +82,14 @@ Pode guardar as informações que o Analisador de Desempenho cria sobre um relat
 ![Guardar o ficheiro de registo do analisador de desempenho](media/desktop-performance-analyzer/performance-analyzer-05.png)
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações sobre o **Power BI Desktop**, e sobre como começar, consulte os seguintes artigos.
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
-* [Descrição Geral das Consultas no Power BI Desktop](desktop-query-overview.md)
+* [Descrição Geral das Consultas com o Power BI Desktop](desktop-query-overview.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
 * [Ligar a Dados no Power BI Desktop](desktop-connect-to-data.md)
-* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Tarefas de Consulta Comuns no Power BI Desktop](desktop-common-query-tasks.md)   
 
 Para obter informações sobre o exemplo do Analisador de Desempenho, veja os seguintes recursos.

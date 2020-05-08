@@ -7,10 +7,10 @@ ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
 ms.openlocfilehash: 6262b7ba0f3d01db6f9f5ff24f411de6ec4f35cb
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268610"
 ---
 # <a name="developer-learning-catalog"></a>Catálogo de aprendizagem para Programadores
@@ -22,7 +22,7 @@ O seguinte catálogo está organizado do conhecimento básico aos domínios espe
 ## <a name="get-started"></a>Introdução<a name="get-started"></a>
 | Conteúdo | Descrição | Formatar  | Comprimento      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
-| [Microsoft Power BI YouTube channel](https://www.youtube.com/user/mspowerbi/videos) (Canal do YouTube do Microsoft Power BI)  | Canal do YouTube com conteúdos da equipa de produto do Power BI da Microsoft   | Vídeos  |             |
+| [Microsoft Power BI YouTube channel](https://www.youtube.com/user/mspowerbi/videos) (Canal do YouTube do Microsoft Power BI)  | Canal do YouTube com conteúdos da equipa do produto do Power BI da Microsoft   | Vídeos  |             |
 | [How Microsoft Is Changing BI Data Protection](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection-OnDemand.html) (Como a Microsoft está a alterar a Proteção de Dados de BI) | Inscreva-se neste webinar para saber como ajudar a manter os seus dados do BI protegidos, mesmo quando são exportados. Permita classificações de sensibilidade e análises de risco em tempo real para definir as permissões de acesso. | Webinar | 18 minutos e 49 segundos |
 ## <a name="embedded"></a>Embedded<a name="embedded"></a>
 | Conteúdo | Descrição | Formatar  | Comprimento      |

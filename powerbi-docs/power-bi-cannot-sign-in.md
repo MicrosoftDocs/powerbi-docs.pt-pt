@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
 ms.openlocfilehash: b65cf23e37773861d41b037b0f45c430224f1930
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74882863"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Resolução de problemas de início de sessão no Power BI
@@ -47,6 +47,6 @@ Outra opção para contactar o suporte da Microsoft para obter ajuda é comprar 
 
 Se não conseguir criar uma publicação no fórum da comunidade do Power BI, é porque o fórum também necessita que inicie sessão. Veja o [Suporte da Comunidade](https://community.powerbi.com/t5/Community-Support/ct-p/PBI_CommunitySupport) para obter mais detalhes.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [Opções de suporte para o Power BI Pro e Power BI Premium](service-support-options.md)

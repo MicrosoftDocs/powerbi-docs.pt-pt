@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79079675"
 ---
 # <a name="dataset-properties"></a>Dataset properties (Propriedades do conjunto de dados)
@@ -24,29 +24,29 @@ A versão 1 atual da API de conjuntos de dados só permite a criação de um con
 
 ## <a name="dataset"></a>Conjunto de dados
 
-Nome  |Tipo  |Descrição  |Só de Leitura  |Obrigatório
+NOME  |Tipo  |Descrição  |Só de Leitura  |Necessário
 ---------|---------|---------|---------|---------
-ID     |  GUID       | Identificador exclusivo ao nível do sistema para o conjunto de dados.        | Verdadeiro        | Falso        
-name     | Cadeia        | Nome do conjunto de dados definido pelo utilizador.        | Falso        | Verdadeiro        
+id     |  GUID       | Identificador exclusivo ao nível do sistema para o conjunto de dados.        | True        | Falso        
+nome     | Cadeia        | Nome do conjunto de dados definido pelo utilizador.        | Falso        | True        
 tables     | Tabela[]        | Coleção de tabelas.        |  Falso       | Falso        
 relationships     | Relação[]        | Coleção de relações entre tabelas.        | Falso        |  Falso  
 defaultMode     | Cadeia        | Determina se o conjunto de dados foi emitido, transmitido ou ambos com os valores "Push" e "Streaming".         | Falso        |  Falso
 
 ## <a name="table"></a>Tabela
 
-Nome  |Tipo  |Descrição  |Só de Leitura  |Obrigatório
+NOME  |Tipo  |Descrição  |Só de Leitura  |Necessário
 ---------|---------|---------|---------|---------
-name     | Cadeia        |  Nome definido pelo utilizador da tabela. Também é utilizado como o identificador da tabela.       | Falso        |  Verdadeiro       
-colunas     |  coluna[]       |  Coleção de colunas.       | Falso        |  Verdadeiro       
+nome     | Cadeia        |  Nome definido pelo utilizador da tabela. Também é utilizado como o identificador da tabela.       | Falso        |  True       
+colunas     |  coluna[]       |  Coleção de colunas.       | Falso        |  True       
 measures     | medida[]        |  Coleção de medidas.       | Falso        |  Falso       
 isHidden     | Booleano        | Se for verdadeiro, a tabela será ocultada das ferramentas de cliente.        | Falso        | Falso        
 
-## <a name="column"></a>Coluna
+## <a name="column"></a>Personalizada
 
-Nome  |Tipo  |Descrição  |Só de Leitura  |Obrigatório
+NOME  |Tipo  |Descrição  |Só de Leitura  |Necessário
 ---------|---------|---------|---------|---------
-name     |  Cadeia        | Nome definido pelo utilizador da coluna.        |  Falso       | Verdadeiro       
-dataType     |  Cadeia       |  [Tipos de dados EDM](https://msdn.microsoft.com/library/ee382832.aspx) suportados e restrições. Veja [Data type restrictions](#data-type-restrictions) (Restrições de tipos de dados).      |  Falso       | Verdadeiro        
+nome     |  Cadeia        | Nome definido pelo utilizador da coluna.        |  Falso       | True       
+dataType     |  Cadeia       |  [Tipos de dados EDM](https://msdn.microsoft.com/library/ee382832.aspx) suportados e restrições. Veja [Data type restrictions](#data-type-restrictions) (Restrições de tipos de dados).      |  Falso       | True        
 formatString     | Cadeia        | Uma cadeia que descreve como o valor deveria ser formatado ao ser apresentado. Para saber mais sobre a formatação de cadeias, veja [FORMAT_STRING Contents](https://msdn.microsoft.com/library/ms146084.aspx) (Conteúdos FORMAT_STRING).      | Falso        | Falso        
 sortByColumn    | Cadeia        |   Nome de cadeia de uma coluna na mesma tabela a utilizar para ordenar a coluna atual.     | Falso        | Falso       
 dataCategory     | Cadeia        |  Valor de cadeia a utilizar para a categoria de dados que descreve os dados nesta coluna. Alguns valores comuns incluem: Endereço, Cidade, Continente, País, Imagem, URL da Imagem, Latitude, Longitude, Organização, Lugar, Código Postal, Distrito, URL da Web       |  Falso       | Falso        
@@ -55,23 +55,23 @@ summarizeBy     | Cadeia        |  Método de agregação predefinido da coluna.
 
 ## <a name="measure"></a>Medida
 
-Nome  |Tipo  |Descrição  |Só de Leitura  |Obrigatório
+NOME  |Tipo  |Descrição  |Só de Leitura  |Necessário
 ---------|---------|---------|---------|---------
-name     | Cadeia        |  Nome definido pelo utilizador da medida.       |  Falso       | Verdadeiro        
-expression     | Cadeia        | Uma expressão DAX válida.        | Falso        |  Verdadeiro       
+nome     | Cadeia        |  Nome definido pelo utilizador da medida.       |  Falso       | True        
+expression     | Cadeia        | Uma expressão DAX válida.        | Falso        |  True       
 formatString     | Cadeia        |  Uma cadeia que descreve como o valor deveria ser formatado ao ser apresentado. Para saber mais sobre a formatação de cadeias, veja [FORMAT_STRING Contents](https://msdn.microsoft.com/library/ms146084.aspx) (Conteúdos FORMAT_STRING).       | Falso        | Falso        
 isHidden     | Cadeia        |  Se for verdadeiro, a tabela será ocultada das ferramentas de cliente.       |  Falso       | Falso       
 
 ## <a name="relationship"></a>Relação
 
-Nome  |Tipo  |Descrição  |Só de Leitura  |Obrigatório 
+NOME  |Tipo  |Descrição  |Só de Leitura  |Necessário 
 ---------|---------|---------|---------|---------
-name     | Cadeia        | Nome definido pelo utilizador da relação. Também é utilizado como o identificador da relação.        | Falso       | Verdadeiro        
-crossFilteringBehavior     | Cadeia        |    A direção do filtro da relação: OneDirection (predefinição), BothDirections, Automático       | Falso        | Falso        
-fromTable     | Cadeia        | Nome da tabela de chave externa.        | Falso        | Verdadeiro         
-fromColumn    | Cadeia        | Nome da coluna de chave externa.        | Falso        | Verdadeiro         
-toTable    | Cadeia        | Nome da tabela de chave primária.        | Falso        | Verdadeiro         
-toColumn     | Cadeia        | Nome da coluna de chave primária.        | Falso        | Verdadeiro        
+nome     | Cadeia        | Nome definido pelo utilizador da relação. Também é utilizado como o identificador da relação.        | Falso       | True        
+crossFilteringBehavior     | Cadeia        |    A direção de filtro da relação: OneDirection (predefinição), BothDirections, Automatic       | Falso        | Falso        
+fromTable     | Cadeia        | Nome da tabela de chave externa.        | Falso        | True         
+fromColumn    | Cadeia        | Nome da coluna de chave externa.        | Falso        | True         
+toTable    | Cadeia        | Nome da tabela de chave primária.        | Falso        | True         
+toColumn     | Cadeia        | Nome da coluna de chave primária.        | Falso        | True        
 
 ## <a name="data-type-restrictions"></a>Restrições de tipos de dados
 

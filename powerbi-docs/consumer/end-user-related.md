@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 0d3bbbf9042d2b0d1a42ab9c1f759ccfd03c6609
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114383"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Ver conteúdos relacionados no serviço Power BI
@@ -74,7 +74,7 @@ A partir daqui, pode efetuar ações diretamente sobre os conteúdos relacionado
 * Para abrir o Conteúdo relacionado de um relatório, precisa de estar na [Vista de leitura](end-user-reading-view.md).
 * A funcionalidade Conteúdos relacionados não funciona em transmissão de conjuntos de dados.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Introdução ao serviço Power BI](../service-get-started.md)
 * Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

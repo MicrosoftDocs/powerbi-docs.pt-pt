@@ -16,20 +16,20 @@
             - name: Telemóvel
               tocHref: /power-bi/consumer/mobile/
               topicHref: /power-bi/consumer/mobile/index
-            - name: Programador
+            - name: Desenvolvedor
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
               items:
                 - name: Embedded analytics (Análise incorporada)
                   tocHref: /power-bi/developer/embedded/
                   topicHref: /power-bi/developer/embedded/
-                - name: Elementos Visuais do Power BI
+                - name: Power BI visuals
                   tocHref: /power-bi/developer/visuals/
                   topicHref: /power-bi/developer/visuals/
                 - name: Automatização
                   tocHref: /power-bi/developer/automation/
                   topicHref: /power-bi/developer/automation/
-            - name: Aprendizagem guiada
+            - name: Aprendizagem orientada
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/
             - name: Catálogo de aprendizagem
@@ -47,7 +47,7 @@
             - name: Criar relatórios e dashboards
               tocHref: /power-bi/create-reports/
               topicHref: /power-bi/create-reports/index
-            - name: Ligar-se a dados
+            - name: Ligar a dados
               tocHref: /power-bi/connect-data/
               topicHref: /power-bi/connect-data/index
             - name: Introdução

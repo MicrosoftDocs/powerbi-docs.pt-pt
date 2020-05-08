@@ -9,10 +9,10 @@ ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 30ab632d11befd34ff9a234e441b345c696fb54d
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78922994"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>Planear um relatório no Report Builder do Power BI
@@ -47,6 +47,6 @@ Considere se quer ocultar itens de relatório, incluindo colunas, grupos e regi�
   
 Pode guardar o relatório no computador local e continuar a trabalhar no mesmo ou abri-lo localmente para efeitos de consulta. No entanto, para partilhar o seu relatório com outras pessoas, precisa de guardá-lo no Power BI. Ao guardá-lo no Power BI, permite que outras pessoas o utilizem sempre que quiserem. Em alternativa, pode configurar uma subscrição e a entrega de e-mail do relatório para outros utilizadores individuais. Se preferir, o relatório pode ser entregue num formato de exportação específico à sua escolha. 
   
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)

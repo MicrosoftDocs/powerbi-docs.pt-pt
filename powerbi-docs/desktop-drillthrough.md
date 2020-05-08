@@ -10,10 +10,10 @@ ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 5e415fb46f845312253f37d8549a4eecb5b10ae7
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439785"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>Configurar a pormenorização em relatórios do Power BI
@@ -83,7 +83,7 @@ Ao adicionar uma medida ou uma coluna numérica resumida, pode explorar a págin
 
 É tudo o que precisa de saber acerca da utilização da pormenorização nos relatórios. É uma excelente forma de obter uma vista expandida das informações da entidade que selecionou para o seu filtro de pormenorização.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Poderá também estar interessado nos seguintes artigos:
 

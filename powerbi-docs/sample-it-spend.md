@@ -1,6 +1,6 @@
 ---
-title: 'Exemplo de Análise de Gastos de TI do Power BI: veja uma apresentação'
-description: 'Exemplo de Análise de Gastos de TI do Power BI: veja uma apresentação'
+title: 'IT Spend Analysis sample for Power BI: Take a tour (Exemplo de Análise de Gastos de TI para o Power BI: veja uma apresentação)'
+description: 'IT Spend Analysis sample for Power BI: Take a tour (Exemplo de Análise de Gastos de TI para o Power BI: veja uma apresentação)'
 author: maggiesMSFT
 ms.reviewer: amac
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 00effa1838327a9463671cf9be2f5764be71deb4
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404688"
 ---
-# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Gastos de TI do Power BI: veja uma apresentação
+# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>IT Spend Analysis sample for Power BI: Take a tour (Exemplo de Análise de Gastos de TI para o Power BI: veja uma apresentação)
 
 O pacote de conteúdos de exemplo de Análise de Gastos de TI contém um dashboard, um relatório e um conjunto de dados que analisa os custos programados vs. os custos reais de um departamento de TI. Esta comparação ajuda-nos a perceber em que medida a empresa planeou corretamente o seu ano e permite-nos investigar as áreas com grandes desvios em relação ao plano. Este exemplo mostra um ciclo de planeamento anual da empresa e apresenta trimestralmente uma nova estimativa mais recente (LE) para ajudar a analisar as alterações dos gastos de TI ao longo do ano fiscal.
 
@@ -126,7 +126,7 @@ Selecione **Editar Relatório** no canto superior esquerdo para explorar na Vist
 * Altere o tipo de visualização de cada gráfico.
 * Afixe gráficos de interesse ao dashboard.
 
-## <a name="next-steps-connect-to-your-data"></a>Next steps: Ligar aos seus dados
+## <a name="next-steps-connect-to-your-data"></a>Próximas etapas: ligar-se aos seus dados
 Aqui pode explorar à vontade, pois pode optar por não guardar as alterações. No entanto, se as guardar, pode sempre aceder a **Obter Dados** para obter uma nova cópia deste exemplo.
 
-Esperamos que esta apresentação tenha mostrado como os dashboards, as Perguntas e Respostas e os relatórios do Power BI podem fornecer informações sobre os dados do exemplo. Agora, é a sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Para saber mais, veja [Introdução ao serviço Power BI](service-get-started.md).
+Esperamos que esta apresentação tenha mostrado como os dashboards, as Perguntas e Respostas e os relatórios do Power BI podem fornecer informações sobre os dados do exemplo. Agora, é a sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Para saber mais, veja [Introdução ao serviço Power BI](service-get-started.md).

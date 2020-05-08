@@ -9,10 +9,10 @@ ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
 ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
-ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81525405"
 ---
 # <a name="data-lineage"></a>Linhagem de dados
@@ -90,7 +90,7 @@ A vista de linhagem é uma tela interativa. Pode utilizar o rato e o touchpad pa
 
 - A vista de linhagem não está disponível no Internet Explorer. Veja [Supported browsers for Power BI](../power-bi-browsers.md) (Browsers suportados para o Power BI) para obter detalhes.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Introdução aos conjuntos de dados em áreas de trabalho (Pré-visualização)](../service-datasets-across-workspaces.md)
 * [Dataset impact analysis (Análise de impacto dos conjuntos de dados)](service-dataset-impact-analysis.md)

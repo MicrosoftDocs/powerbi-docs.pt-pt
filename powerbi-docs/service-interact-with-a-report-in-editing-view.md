@@ -10,10 +10,10 @@ ms.date: 02/26/2020
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 791df63db1ef87bd5d61d80f97e225ae63feae2c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79201522"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-the-power-bi-service"></a>Interagir com um relatório na Vista de edição de um relatório no serviço Power BI
@@ -41,7 +41,7 @@ Veja a lista de tópicos sob o cabeçalho **Relatórios** no Índice à esquerda
 É necessária uma licença do Power BI Pro para editar relatórios criados por outros utilizadores, bem como para partilhar os relatórios com os outros utilizadores.  Se não tiver uma licença do Pro, ainda pode criar relatórios, mas não poderá [partilhá-los](service-share-reports.md).
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Voltar para [Vista de leitura e Vista de edição no serviço Power BI](consumer/end-user-reading-view.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

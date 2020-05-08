@@ -1,6 +1,6 @@
 ---
-title: Azure e Power BI
-description: Azure e Power BI
+title: Azure and Power BI (Azure e Power BI)
+description: Azure and Power BI (Azure e Power BI)
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
@@ -10,13 +10,13 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 6b2b457c2df8e37b4fac3108061a325261f5574b
-ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/01/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80487770"
 ---
-# <a name="azure-and-power-bi"></a>Azure e Power BI
+# <a name="azure-and-power-bi"></a>Azure and Power BI (Azure e Power BI)
 
 Com os serviços do **Azure** e o **Power BI**, pode transformar os seus esforços de processamento de dados em análises e relatórios que fornecem informações em tempo real sobre a sua empresa. Se o processamento de dados for baseado na cloud ou no local, simples ou complexo, de origem única ou altamente dimensionado, armazenado ou em tempo real, o Azure e o Power BI têm a conectividade interna e a integração para concretizar os seus esforços de business intelligence.
 
@@ -34,7 +34,7 @@ Existe bastante informação para descobrir sobre a [Base de Dados SQL do Azure]
 
 ## <a name="transform-shape-and-merge-your-cloud-data"></a>Transformar, formatar e intercalar os dados na cloud
 
-Tem dados mais complexos e todos os tipos de origens? Não há problema. Com o **Power BI Desktop** e os serviços do Azure, as ligações podem ser acedidas no diálogo **Obter Dados** com apenas um toque. Na mesma Consulta, pode ligar-se à **Base de Dados SQL do Azure**, às origens de dados do **Azure HDInsight** e ao **Armazenamento de Blobs do Azure** (ou **Armazenamento de Tabelas do Azure**) e selecionar apenas os subconjuntos dentro de cada um dos que necessita e otimizá-los a partir desse local.
+Tem dados mais complexos e todos os tipos de origens? Sem problemas. Com o **Power BI Desktop** e os serviços do Azure, as ligações podem ser acedidas no diálogo **Obter Dados** com apenas um toque. Na mesma Consulta, pode ligar-se à **Base de Dados SQL do Azure**, às origens de dados do **Azure HDInsight** e ao **Armazenamento de Blobs do Azure** (ou **Armazenamento de Tabelas do Azure**) e selecionar apenas os subconjuntos dentro de cada um dos que necessita e otimizá-los a partir desse local.
 
 Pode criar relatórios diferentes para públicos-alvo diferentes com as mesmas ligações de dados e até a mesma Consulta. Basta criar uma nova página de relatório, refinar as visualizações para cada público-alvo e acompanhar tudo para que a sua empresa fique bem informada.
 

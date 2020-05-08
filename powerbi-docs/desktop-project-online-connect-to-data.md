@@ -1,6 +1,6 @@
 ---
-title: 'Project Online: ligar aos dados a partir do Power BI Desktop'
-description: 'Project Online: ligar aos dados a partir do Power BI Desktop'
+title: 'Project Online: connect to data through Power BI Desktop (Project Online: ligar aos dados a partir do Power BI Desktop)'
+description: 'Project Online: connect to data through Power BI Desktop (Project Online: ligar aos dados a partir do Power BI Desktop)'
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
@@ -11,10 +11,10 @@ ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 0f01a6da3bb0d829d396861814f71d33ba69f22f
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80550929"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Ligar a dados do Project Online através do Power BI Desktop

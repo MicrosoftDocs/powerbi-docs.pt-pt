@@ -11,10 +11,10 @@ ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: efa5acbe70ea4541c2f9819d5260cb662ca0adac
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637887"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introdução aos mosaicos dos dashboards para designers do Power BI
@@ -27,7 +27,7 @@ Os dashboards e os mosaicos de dashboard são uma funcionalidade do serviço Pow
 
 Para além dos mosaicos de afixação, pode criar mosaicos autónomos diretamente no dashboard com o controlo [Adicionar mosaico](service-dashboard-add-widget.md). Os mosaicos autónomos incluem: caixas de texto, imagens, vídeos, dados de transmissão em fluxo e conteúdo Web.
 
-Precisa de ajuda para compreender os blocos modulares que compõem o Power BI? Veja [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md).
+Precisa de ajuda para compreender os mosaicos modulares que compõem o Power BI? Veja [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md).
 
 > [!NOTE]
 > Se a visualização original utilizada para criar o mosaico for alterada, o mosaico não será alterado.  Por exemplo, se afixou um gráfico de linhas de um relatório e, em seguida, alterou o gráfico de linhas para um gráfico de barras, o mosaico do dashboard continua a mostrar um gráfico de linhas. Os dados são atualizados, mas o tipo de visualização não.
@@ -41,7 +41,7 @@ Existem diversas formas diferentes de adicionar (afixar) um mosaico a um dashboa
 * [Um relatório](service-dashboard-pin-tile-from-report.md)
 * [Outro dashboard](service-pin-tile-to-another-dashboard.md)
 * [um livro do Excel no OneDrive para Empresas](service-dashboard-pin-tile-from-excel.md)
-* [Quick Insights (Informações Rápidas)](service-insights.md)
+* [Insights Rápidos](service-insights.md)
 * [Um relatório paginado no local no Power BI Report Server ou SQL Server Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 Crie mosaicos autónomos para imagens, caixas de texto, vídeos, dados de transmissão em fluxo e conteúdo Web diretamente no dashboard com o controlo [Adicionar mosaico](service-dashboard-add-widget.md).
@@ -92,7 +92,7 @@ Ao selecionar um mosaico, o que ocorre a seguir depende de como o criou. Caso co
 * Suponhamos que seleciona um mosaico criado a partir de um relatório paginado no local no Power BI Report Server ou SQL Server Reporting Services. Se não tiver acesso à rede onde o servidor de relatórios está localizado, ao selecionar um mosaico criado a partir desse relatório paginado será redirecionado para uma página com a indicação de que não é possível localizar o servidor (HTTP 404). O seu dispositivo precisa de acesso de rede ao servidor de relatórios para ver o relatório.
 * Se a visualização original utilizada para criar o mosaico for alterada, o mosaico não será alterado. Por exemplo, se afixar um gráfico de linhas de um relatório e, em seguida, alterar o gráfico de linhas para um gráfico de barras, o mosaico do dashboard continuará a apresentar um gráfico de linhas. Os dados são atualizados, mas o tipo de visualização não.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 - [Criar um cartão (mosaico de número grande) para o dashboard](power-bi-visualization-card.md)
 - [Introdução aos dashboards para designers do Power BI](service-dashboards.md)  
 - [Atualização de dados no Power BI](refresh-data.md)

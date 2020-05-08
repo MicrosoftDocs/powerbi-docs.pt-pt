@@ -7,10 +7,10 @@ ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
 ms.openlocfilehash: 04a6589b4adb769caf2a7901d112db7c054a5764
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268403"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Catálogo de aprendizagem para pré-vendas de parceiros
@@ -20,7 +20,7 @@ ms.locfileid: "81268403"
 O seguinte catálogo está organizado do conhecimento básico aos domínios específicos e do mais básico ao mais avançado. Se o conteúdo existir em vários formatos, será informado, para que possa escolher o formato de formação que melhor satisfaz as suas necessidades.
 
 ## <a name="get-started"></a>Introdução<a name="get-started"></a>
-| Conteúdo  | Descrição | Formatar  | Comprimento   |
+| Conteúdo  | Descrição | Formato  | Comprimento   |
 |-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-------------|
 | [Noções Básicas do Microsoft Power Platform](https://docs.microsoft.com/learn/paths/power-plat-fundamentals/)   | Conheça as funcionalidades do produto e valor comercial do Power Platform. Crie um Power App simples, ligue dados ao CDS, crie um Dashboard do Power BI e automatize um processo com o Microsoft Flow.   | Percurso de aprendizagem online personalizado e gratuito | 2 horas e 42 minutos   |
 | [Canal do YouTube do Microsoft Power BI](https://www.youtube.com/user/mspowerbi/videos)                                                 | Canal do YouTube com conteúdos da equipa do produto do Power BI da Microsoft  | Vídeos |             |

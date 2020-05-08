@@ -8,10 +8,10 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404058"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded
@@ -77,7 +77,7 @@ As contas que se seguem têm de existir no seu inquilino.
 
 Terá de registar uma aplicação no Azure AD e conceder determinadas permissões.
 
-### <a name="register-an-application"></a>Registar uma aplicação
+### <a name="register-an-application"></a>Register an application (Registar uma aplicação)
 
 Terá de registar a sua aplicação no Azure AD para fazer chamadas à API REST. Isto inclui aceder ao portal do Azure para aplicar configuração adicional, bem como aceder à página de registo de aplicações do Power BI. Para obter mais informações, veja [Register an Azure AD app to embed Power BI content (Registar uma aplicação do Azure AD para incorporar conteúdo do Power BI)](register-app.md).
 
@@ -194,7 +194,7 @@ Deve fazer uma limpeza no Azure.
 * Remova todas as áreas de trabalho da solução implementada no Azure Embedded da Coleção de Áreas de Trabalho do Power BI.
 * Elimine as Coleções de Áreas de Trabalho existentes no Azure.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [Incorporar com o Power BI](embedding.md)  
 [Ferramenta de migração da Coleção de Áreas de Trabalho do Power BI](migrate-tool.md)  
