@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
 ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79487815"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Orientação sobre as definições para administradores de inquilinos
@@ -86,7 +86,7 @@ Recomendamos a atribuição de um ou mais grupos de segurança. É possível con
 
 ![É apresentada a definição "Partilhar conteúdo com utilizadores externos".](media/admin-tenant-settings/share-content-with-external-users.png)
 
-### <a name="publish-to-web"></a>Publicar na Web
+### <a name="publish-to-web"></a>Publicar na web
 
 A funcionalidade [publicar na Web](../service-publish-to-web.md) permite publicar relatórios públicos na Web. Caso seja utilizada de forma inadequada, existe o risco de determinadas informações confidenciais serem disponibilizadas na Web.
 
@@ -126,7 +126,7 @@ Se precisar de autorizar utilizadores externos a editar e gerir conteúdos, reco
 
 ![É apresentada a definição "Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização".](media/admin-tenant-settings/allow-external-guest-users.png)
 
-### <a name="developer-settings"></a>Definições de programador
+### <a name="developer-settings"></a>Definições do programador
 
 Existem duas definições de inquilino relacionadas com a [incorporação de conteúdo do Power BI](../developer/embedded/embedding.md). São:
 
@@ -137,11 +137,11 @@ Se não tencionar utilizar as APIs de programador para incorporar conteúdos, re
 
 ![São apresentadas as definições de programador.](media/admin-tenant-settings/developer-settings.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
 - [O que é a administração do Power BI?](../service-admin-administering-power-bi-in-your-organization.md)
 - [Administrar o Power BI no portal de administração](../service-admin-portal.md)
-- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com)

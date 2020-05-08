@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
 ms.openlocfilehash: f437b1d1fbfc1e905878fbb99875f1fc455e7b14
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79493256"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Capacidade de planeamento na análise incorporada do Power BI
@@ -62,7 +62,7 @@ O [repositório do GitHub das ferramentas de capacidade do Power BI](https://gi
 
 O repositório é open source e os utilizadores são convidados a contribuir, a adicionar ferramentas adicionais relacionadas com as capacidades Premium e Incorporadas do Power BI e a melhorar as já existentes.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 > [!div class="nextstepaction"]
 >[Capacidade e SKUs na análise incorporada do Power BI](embedded-capacity.md)

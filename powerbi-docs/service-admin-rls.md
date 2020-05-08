@@ -10,12 +10,12 @@ ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 831c6f1d2cecfa51b64c8ff77f14ead9f644bcc7
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.openlocfilehash: 70f10620932708dd178b635f966a55f8139cde65
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81439992"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841164"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Segurança ao nível da linha (RLS) com o Power BI
 
@@ -51,7 +51,7 @@ Só poderá criar ou modificar funções dentro do Power BI Desktop.
 
 ### <a name="add-members"></a>Adicionar membros
 
-Pode adicionar um membro à função ao introduzir o endereço de e-mail ou o nome do utilizador, grupo de segurança ou lista de distribuição que pretende adicionar. Não é possível adicionar Grupos criados no Power BI. Pode adicionar membros [externos à sua organização](whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners).
+Pode adicionar um membro à função ao introduzir o endereço de e-mail ou o nome do utilizador, grupo de segurança ou lista de distribuição que pretende adicionar. Não é possível adicionar Grupos criados no Power BI. Pode adicionar membros [externos à sua organização](guidance/whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners).
 
 ![Adicionar um membro](media/service-admin-rls/rls-add-member.png)
 
@@ -101,7 +101,7 @@ Se publicar o relatório do Power BI Desktop numa área de trabalho no serviço 
 
 [!INCLUDE [include-short-name](./includes/rls-faq.md)]
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Segurança ao nível da linha (RLS) com o Power BI Desktop](desktop-rls.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

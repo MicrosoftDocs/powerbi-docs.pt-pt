@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205878"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Objetos e propriedades dos elementos visuais do Power BI
@@ -34,7 +34,7 @@ Os objetos descrevem as propriedades personalizáveis associadas a um elemento v
 
 `displayName` é o nome que será apresentado no painel de propriedades.
 
-## <a name="properties"></a>Propriedades
+## <a name="properties"></a>Properties
 
 `properties` é um mapa das propriedades definidas pelo programador.
 
@@ -194,7 +194,7 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 }
 ```
 
-### <a name="properties"></a>Propriedades
+### <a name="properties"></a>Properties
 
 As propriedades em `enumerateObjectInstances` refletem as propriedades que definiu nas suas capacidades. Para obter um exemplo, vá para o final deste artigo.
 
