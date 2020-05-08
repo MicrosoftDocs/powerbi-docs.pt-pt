@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: eaf2e7fed056653f2ee44e25b493e6b5e170a8dd
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761462"
 ---
 # <a name="connect-to-data-by-using-power-bi-desktop-generic-interfaces"></a>Ligar-se a dados através de interfaces genéricas do Power BI Desktop 
@@ -68,8 +68,8 @@ A lista seguinte enumera alguns exemplos de origens de dados às quais o **Power
 
 | Conector genérico do Power BI Desktop | Origem de dados externa | Ligação para mais informações |
 | --- | --- | --- |
-| OLEDB |SAS OLE DB |[Fornecedor SAS para OLE DB](https://support.sas.com/downloads/package.htm?pid=648) |
-| OLEDB |OLE DB Sybase |[Fornecedor Sybase para OLE DB](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc35888.1550/doc/html/jon1256941734395.html) |
+| OLE DB |SAS OLE DB |[Fornecedor SAS para OLE DB](https://support.sas.com/downloads/package.htm?pid=648) |
+| OLE DB |OLE DB Sybase |[Fornecedor Sybase para OLE DB](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc35888.1550/doc/html/jon1256941734395.html) |
 
 ## <a name="data-sources-accessible-through-odata"></a>Origens de dados acessíveis através de OData
 O conector **OData** no **Power BI Desktop** permite-lhe importar dados de qualquer URL do **OData** simplesmente ao escrever ou colar o URL do **OData**. Pode adicionar múltiplas partes do URL ao escrever ou colar essas ligações nas caixas de texto apresentadas na janela **Feed OData**.
@@ -91,7 +91,7 @@ A lista seguinte enumera alguns exemplos de origens de dados às quais o **Power
 
 | Conector genérico do Power BI Desktop | Origem de dados externa | Ligação para mais informações |
 | --- | --- | --- |
-| APIs REST |Couchbase DB |[Informações de API REST Couchbase](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| REST APIs (APIs REST) |Couchbase DB |[Informações de API REST Couchbase](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 
 ## <a name="data-sources-accessible-through-r-script"></a>Origens de dados acessíveis através de Script R
 Pode utilizar **scripts R** para aceder a origens de dados e utilizar esses dados no **Power BI Desktop**.
@@ -106,12 +106,12 @@ A lista seguinte enumera alguns exemplos de origens de dados às quais o **Power
 | Script do R |Ficheiros SPSS |[Orientações de Script R do CRAN](https://cran.r-project.org/doc/manuals/R-data.html) |
 | Script do R |Ficheiros Estatísticos R |[Orientações de Script R do CRAN](https://cran.r-project.org/doc/manuals/R-data.html) |
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Existem diversos tipos de origens de dados às quais se pode ligar através do **Power BI Desktop**. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
-* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Ligar a livros do Excel no Power BI Desktop](desktop-connect-excel.md)   
 * [Introduzir dados diretamente no Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   
 

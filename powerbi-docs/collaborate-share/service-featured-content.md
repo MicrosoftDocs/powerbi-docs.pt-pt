@@ -10,10 +10,10 @@ ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79496269"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Destacar conteúdo na Base do Power BI de colegas
@@ -56,9 +56,9 @@ O procedimento para destacar um dashboard ou um relatório é semelhante.
 
 Agora, todas as pessoas com acesso a esta aplicação vão também vê-la na secção **Em destaque** na **Base**.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Como devo colaborar e partilhar os meus dashboards e relatórios?](../service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Gerir conteúdo em destaque no portal de Administração](../service-admin-portal.md#manage-featured-content)
-* Perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
+* Dúvidas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

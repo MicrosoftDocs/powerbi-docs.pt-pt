@@ -10,16 +10,16 @@ ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76895060"
 ---
-# <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Dicas e truques para formatação com cores no Power BI
+# <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Tips and tricks for color formatting in Power BI (Sugestões e truques para formatação de cor no Power BI)
 O Power BI fornece diversas maneiras de personalizar os painéis e relatórios. Este artigo detalha uma coleção de dicas que podem tornar suas visualizações do Power BI mais convincentes, interessantes e personalizadas para suas necessidades.
 
-As dicas a seguir são fornecidas. Há outra dica excelente? Excelente! Envie para nós e vermos sobre adicioná-la à lista.
+As dicas a seguir são fornecidas. Há outra dica excelente? Ótimo! Envie para nós e vermos sobre adicioná-la à lista.
 
 * Aplicar um tema ao relatório inteiro
 * Alterar a cor de um único ponto de dados
@@ -55,7 +55,7 @@ A seguinte visualização classifica as unidades vendidas por segmento de produt
 
 ![Alteração das cores dos dados para cinzento](media/service-tips-and-tricks-for-color-formatting/power-bi-data.png)
 
-Agora, imagine que quer destacar o segmento **Conveniência** para mostrar o bom desempenho deste segmento totalmente novo através de cores. Eis os passos:
+Agora, imagine que quer destacar o segmento **Conveniência** para mostrar o bom desempenho deste segmento totalmente novo através de cores. Aqui estão os passos para o fazer:
 
 Expanda o cartão **Cores dos dados** e ative o controlo de deslize para **Mostrar tudo**. Isso mostra as cores para cada elemento de dados na visualização. Agora, pode modificar qualquer um dos pontos de dados.
 
@@ -138,7 +138,7 @@ Experimente com outras opções de formatação de cor. Nesta imagem, alterámos
 ![tabela predefinida](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
 
 ## <a name="how-to-undo-in-power-bi"></a>Como anular no Power BI
-Como muitos outros serviços da Microsoft e o software, o Power BI fornece uma maneira fácil para desfazer o último comando. Por exemplo, vamos dizer que altera a cor de um ponto de dados ou uma série de pontos de dados, e não gosta de cor quando ele for mostrado na visualização. Não se lembra exatamente da cor anterior, mas sabe que deseja voltar àquela cor!
+Como muitos outros serviços e softwares da Microsoft, o Power BI fornece uma forma fácil de anular o último comando. Por exemplo, vamos dizer que altera a cor de um ponto de dados ou uma série de pontos de dados, e não gosta de cor quando ele for mostrado na visualização. Não se lembra exatamente da cor anterior, mas sabe que deseja voltar àquela cor!
 
 Para **anular** a última ação ou as últimas ações, basta utilizar o atalho Ctrl+Z.
 
@@ -146,9 +146,9 @@ Para eliminar todas as alterações feitas no cartão Formatação, selecione **
 
 ![Cartão Formatação a mostrar Reverter para predefinição na parte inferior](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
 
-## <a name="feedback"></a>Feedback
+## <a name="feedback"></a>Comentários
 Tem uma dica que gostaria de partilhar? Envie-nos e vamos ver sobre adicionar à lista.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Getting started with color formatting and axis properties](service-getting-started-with-color-formatting-and-axis-properties.md) (Introdução às propriedades de eixo e formatação de cor)
 

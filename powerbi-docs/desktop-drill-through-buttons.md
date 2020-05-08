@@ -10,10 +10,10 @@ ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: d3cb3c8093446d4417a59c5f64ab6b85a765e3c8
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79206453"
 ---
 # <a name="create-a-drill-through-button-in-power-bi-preview"></a>Criar um botão de exploração no Power BI (pré-visualização)
@@ -107,7 +107,7 @@ Neste exemplo, o botão está inativo porque os dois elementos visuais contêm u
 - A formatação de estado desativada para o botão está associada às classes de cores no tema do seu relatório. Saiba mais sobre as [classes de cores](desktop-report-themes.md#setting-structural-colors).
 - A ação de exploração funciona com todos os elementos visuais incorporados e *alguns* elementos visuais importados do AppSource. No entanto, não é garantido que funcione com *todos* os elementos visuais importados do AppSource.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações sobre funcionalidades semelhantes ou como interagir com botões, veja os artigos seguintes:
 
 * [Criar botões](desktop-buttons.md)

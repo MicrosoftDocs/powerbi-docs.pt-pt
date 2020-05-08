@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
 ms.openlocfilehash: e066ea5128709a0e16873bba5f025e96938cac54
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80113652"
 ---
 # <a name="troubleshoot-power-bi-visuals"></a>Troubleshoot Power BI visuals (Resolver problemas com os elementos visuais do Power BI)
 
-## <a name="debug"></a>Depurar
+## <a name="debug"></a>Debug
 
 **Comando Pbiviz não encontrado (ou erros semelhantes)**
 
@@ -40,6 +40,6 @@ Execute o servidor do elemento visual com o comando `pbiviz start` na linha de c
 
 Não hesite em enviar perguntas, fazer comentários ou comunicar problemas à equipa de suporte de elementos visuais do Power BI para o endereço: pbicvsupport@microsoft.com.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Para obter mais informações, veja [Perguntas frequentes sobre os elementos visuais do Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).

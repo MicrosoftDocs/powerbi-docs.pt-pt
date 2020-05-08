@@ -11,10 +11,10 @@ ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
 ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207465"
 ---
 # <a name="manage-data-sources"></a>Gerir origens de dados
@@ -29,7 +29,7 @@ A maioria das operações de gestão de origens de dados também pode ser execut
 
 1. No canto superior direito do serviço Power BI, selecione o ícone de engrenagem ![Ícone de engrenagem de Definições](media/service-gateway-data-sources/icon-gear.png) > **Gerir gateways**.
 
-    ![Gerir gateways](media/service-gateway-data-sources/manage-gateways.png)
+    ![Gerir os gateways](media/service-gateway-data-sources/manage-gateways.png)
 
 2. Selecione um gateway e, em seguida, **Adicionar origem de dados**. Em alternativa, aceda a **Gateways** > **Adicionar origem de dados**.
 
@@ -78,7 +78,7 @@ Para remover uma origem de dados, aceda à origem de dados e, em seguida, seleci
 
 ## <a name="use-the-data-source-for-scheduled-refresh-or-directquery"></a>Utilizar a origem de dados para a atualização agendada ou o DirectQuery
 
-Depois de criar a origem de dados, esta está disponível para utilização com as ligações do DirectQuery ou através da atualização agendada.
+Depois de criar a origem de dados, esta fica disponível para utilização com as ligações do DirectQuery ou através da atualização agendada.
 
 > [!NOTE]
 >Os nomes do servidor e da base de dados têm de corresponder entre o Power BI Desktop e a origem de dados no gateway de dados no local.
@@ -87,7 +87,7 @@ A ligação entre o conjunto de dados e a origem de dados no gateway é baseada 
 
 Se estiver listado no separador **Utilizadores** da origem de dados configurada no gateway e o nome do servidor e da base de dados corresponderem, verá o gateway como uma opção a utilizar com a atualização agendada.
 
-![Ligação do gateway](media/service-gateway-data-sources/gateway-connection.png)
+![Ligação do Gateway](media/service-gateway-data-sources/gateway-connection.png)
 
 > [!WARNING]
 > Se o conjunto de dados contiver múltiplas origens de dados, cada origem de dados terá de ser adicionada ao gateway. Se uma ou mais origens de dados não forem adicionadas ao gateway, não verá o gateway como disponível para a atualização agendada.
@@ -132,9 +132,9 @@ Ao adicionar uma origem de dados ao gateway, tem de fornecer credenciais para es
 
 Para obter mais informações sobre que origens de dados são suportadas no gateway de dados no local, veja [origens de dados do Power BI](power-bi-data-sources.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
-* [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)
+* [Gerir a sua origem de dados - Analysis Services](service-gateway-enterprise-manage-ssas.md)
 * [Gerir a sua origem de dados – SAP HANA](service-gateway-enterprise-manage-sap.md)
 * [Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)
 * [Gerir a sua origem de dados – Oracle](service-gateway-onprem-manage-oracle.md)

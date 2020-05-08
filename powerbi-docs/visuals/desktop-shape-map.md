@@ -10,10 +10,10 @@ ms.date: 03/18/2020
 ms.author: mihart
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79525666"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Criar visualizações do Mapa de Forma no Power BI Desktop (pré-visualização)
@@ -115,7 +115,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="australia-states"></a>Austrália: Estados
 
-| ID | abbr | iso | name | postal |
+| ID | abbr | iso | nome | postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Austrália Ocidental |WA |
 | au-vic |Vic |AU-VIC |Vitória |VIC |
@@ -128,7 +128,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="austria-states"></a>Áustria: Estados
 
-| ID | iso | name | name-en | postal |
+| ID | iso | nome | name-en | postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Viena |Viena |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -178,7 +178,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="canada-provinces"></a>Canadá: Províncias
 
-| ID | iso | name | postal |
+| ID | iso | nome | postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Territórios do Noroeste |NT |
@@ -187,7 +187,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 | ca-qc |CA-QC |Quebec |QC |
 | ca-pe |CA-PE |Ilha Príncipe Eduardo |PE |
 | ca-on |CA-ON |Ontário |ON |
-| ca-ns |CA-NS |Nova Escócia |NG |
+| ca-ns |CA-NS |Nova Escócia |NS |
 | ca-nl |CA-NL |Terra Nova e Labrador |NL |
 | ca-nb |CA-NB |Novo Brunswick |NB |
 | ca-mb |CA-MB |Manitoba |MB |
@@ -196,7 +196,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="france-regions"></a>França: Regiões
 
-| ID | name | name-en |
+| ID | nome | name-en |
 | --- | --- | --- |
 | Auvérnia-Ródano-Alpes |  |  |
 | Borgonha-Franco-Condado |  |  |
@@ -218,7 +218,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="germany-states"></a>Alemanha: Estados
 
-| ID | iso | name | name-en | postal |
+| ID | iso | nome | name-en | postal |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlim |Berlim |BE |
 | de-th |DE-TH |Turíngia |Turíngia |TH |
@@ -234,7 +234,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 | de-he |DE-HE |Hesse |Hesse |HE |
 | de-hh |DE-HH |Hamburgo |Hamburgo |HH |
 | de-hb |DE-HB |Bremen |Bremen |HB |
-| de-by |DE-BY |Bayern |Baviera |POR |
+| de-by |DE-BY |Bayern |Baviera |BY |
 | de-bw |DE-BW |Bade-Vurtemberga |Bade-Vurtemberga |BW |
 
 ### <a name="ireland-counties"></a>Irlanda: Condados
@@ -270,7 +270,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="italy-regions"></a>Itália: Regiões
 
-| ID | iso | name | name-en | postal |
+| ID | iso | nome | name-en | postal |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Véneto |Véneto |VN |
 | it-vd |IT-23 |Vale de Aosta |Vale de Aosta |VD |
@@ -295,7 +295,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="mexico-states"></a>México: Estados
 
-| ID | abreviatura | iso | name | name-en | postal |
+| ID | abreviatura | iso | nome | name-en | postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Iucatã |Iucatã |YU |
@@ -324,7 +324,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 | mx-col |Col. |MX-COL |Colima |Colima |CL |
 | mx-coa |Coah. |MX-COA |Coahuila |Coahuila |CA |
 | mx-chh |Chih. |MX-CHH |Chihuahua |Chihuahua |CH |
-| mx-chp |Chis. |MX-CHP |Chiapas |Chiapas |CP |
+| mx-chp |Chis. |MX-CHP |Chiapas |Chiapas |GE |
 | mx-cam |Camp. |MX-CAM |Campeche |Campeche |CM |
 | mx-bcs |B.C.S. |MX-BCS |Baixa Califórnia do Sul |Baixa Califórnia do Sul |BS |
 | mx-bcn |B.C. |MX-BCN |Baixa Califórnia |Baixa Califórnia |BN |
@@ -332,7 +332,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="netherlands-provinces"></a>Países Baixos: Províncias
 
-| ID | iso | name | name-en |
+| ID | iso | nome | name-en |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Holanda do Sul |Holanda do Sul |
 | nl-ze |NL-ZE |Zelândia |Zelândia |
@@ -349,7 +349,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="uk-countries"></a>Reino Unido: Países
 
-| ID | iso | name |
+| ID | iso | nome |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Gales |
 | gb-sct |GB-SCT |Escócia |
@@ -358,28 +358,28 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="usa-states"></a>EUA: Estados
 
-| ID | name | postal |
+| ID | nome | postal |
 | --- | --- | --- |
-| us-mi |Michigan |MI |
+| us-mi |Porto |EM |
 | us-ak |Alasca |AK |
 | us-hi |Havai |HI |
 | us-fl |Flórida |FL |
-| us-la |Luisiana |LA |
-| us-ar |Guarda |AR |
+| us-la |Louisiana |LA |
+| us-ar |Arkansas |AR |
 | us-sc |Carolina do Sul |SC |
 | us-ga |Setúbal |GA |
 | us-ms |Mississippi |MS |
-| us-al |Aveiro |AL |
+| us-al |Alabama |AL |
 | us-nm |Novo México |NM |
 | us-tx |Texas |TX |
-| us-tn |Faro |TN |
+| us-tn |Tennessee |TN |
 | us-nc |Carolina do Norte |NC |
-| us-ok |Oklahoma |OK |
+| us-ok |Oklahoma |0K |
 | us-az |Arizona |AZ |
 | us-mo |Missouri |MO |
 | us-va |Virgínia |VA |
-| us-ks |Kansas |KS |
-| us-ky |Castelo Branco |KY |
+| us-ks |Lisboa |KS |
+| us-ky |Kentucky |KY |
 | us-co |Colorado |CO |
 | us-md |Maryland |MD |
 | us-wv |Virgínia Ocidental |WV |
@@ -388,15 +388,15 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 | us-il |Illinois |IL |
 | us-oh |Ohio |OH |
 | us-ca |Califórnia |CA |
-| us-ut |Utah |UT |
+| us-ut |Aveiro |UT |
 | us-nv |Nevada |NV |
-| us-in |Indiana |IN |
+| us-in |Portalegre |IN |
 | us-nj |Nova Jérsia |NJ |
 | us-ri |Rhode Island |RI |
 | us-ct |Connecticut |CT |
 | us-pa |Pensilvânia |PA |
 | us-ny |Nova Iorque |NY |
-| us-ne |Nebrasca |NE |
+| us-ne |Nebraska |NE |
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
@@ -410,9 +410,9 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 | us-nd |Dacota do Norte |ND |
 | us-me |Maine |ME |
 | us-mt |Montana |MT |
-| us-wa |Washington |WA |
+| us-wa |Viseu |WA |
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Elemento visual Matriz no Power BI](desktop-matrix-visual.md)
 

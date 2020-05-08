@@ -1,6 +1,6 @@
 ---
-title: Ligar a dados no Power BI Desktop
-description: Ligar a dados no Power BI Desktop
+title: Connect to data in Power BI Desktop (Ligar a dados no Power BI Desktop)
+description: Connect to data in Power BI Desktop (Ligar a dados no Power BI Desktop)
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
@@ -11,10 +11,10 @@ ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 751a53e2bfe0c9743a71cc41aa349afa23fd013a
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76539194"
 ---
 # <a name="connect-to-data-sources-in-power-bi-desktop"></a>Ligar a fontes de dados no Power BI Desktop
@@ -49,7 +49,7 @@ Selecione **Transformar Dados** para carregar a tabela e abrir o Editor do Power
 
 ![Editor do Power Query com Definições da Consulta](media/desktop-connect-to-data/designer_gsg_editquery.png)
 
-Todas essas pontuações são texto e não números e precisamos que sejam números. Não há problema. Basta clicar com o botão direito do rato no cabeçalho da coluna e selecionar **Alterar Tipo** > **Número Inteiro** para alterá-lo. Para escolher mais de uma coluna, primeiro selecionamos uma coluna, mantemos pressionada a tecla Shift, selecionamos colunas adjacentes adicionais e clicamos com o botão direito do rato num título de coluna para alterar todas as colunas selecionadas. Prima Ctrl para selecionar colunas que não são adjacentes.
+Todas essas pontuações são texto e não números e precisamos que sejam números. Sem problemas. Basta clicar com o botão direito do rato no cabeçalho da coluna e selecionar **Alterar Tipo** > **Número Inteiro** para alterá-lo. Para escolher mais de uma coluna, primeiro selecionamos uma coluna, mantemos pressionada a tecla Shift, selecionamos colunas adjacentes adicionais e clicamos com o botão direito do rato num título de coluna para alterar todas as colunas selecionadas. Prima Ctrl para selecionar colunas que não são adjacentes.
 
 ![Alterar o tipo de dados para Número Inteiro](media/desktop-connect-to-data/designer_gsg_changedatatype.png)
 
@@ -67,8 +67,8 @@ Com o modelo de dados carregado, na vista de **Relatório** no Power BI Desktop,
 
 Claro que este modelo é simples, com uma única ligação de dados. A maioria dos relatórios do Power BI Desktop terá ligações a diferentes origens de dados, moldadas para satisfazer as suas necessidades, com relações que produzem um modelo de dados avançado.
 
-## <a name="next-steps"></a>Próximos passos
-Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as suas capacidades, veja os seguintes recursos:
+## <a name="next-steps"></a>Próximas etapas
+Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as respetivas capacidades, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
 * [Acerca da utilização do Editor de Consultas no Power BI Desktop](desktop-query-overview.md)
@@ -76,7 +76,7 @@ Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais 
 * [Formatar e combinar dados no Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Executar tarefas comuns de consulta no Power BI Desktop](desktop-common-query-tasks.md)   
 
-Pretende enviar-nos comentários? Excelente! Utilize o item de menu **Submeter uma Ideia** no Power BI Desktop ou aceda ao [Feedback da Comunidade](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). Aguardamos o seu contacto!
+Pretende enviar-nos comentários? Ótimo! Utilize o item de menu **Submeter uma Ideia** no Power BI Desktop ou aceda ao [Feedback da Comunidade](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). Aguardamos o seu contacto!
 
 ![Submeter uma ideia](media/desktop-connect-to-data/sendfeedback.png)
 

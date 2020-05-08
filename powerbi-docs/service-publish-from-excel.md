@@ -10,10 +10,10 @@ ms.date: 03/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
-ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80329621"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Publicar no Power BI a partir do Microsoft Excel
@@ -90,7 +90,7 @@ Quando estiver concluída, pode aceder ao Power BI diretamente do Excel.
 
 ![aceder ao Power BI](media/service-publish-from-excel/pbi_gotopbi.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Dados do Excel no Power BI](service-excel-workbook-files.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

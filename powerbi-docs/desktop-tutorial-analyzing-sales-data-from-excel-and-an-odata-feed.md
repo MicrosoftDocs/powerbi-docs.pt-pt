@@ -10,10 +10,10 @@ ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 0e3f742e0ad9d3b9bf81c9dd95e9193413a70d6a
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76540224"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: Analisar dados de vendas do Excel e de um feed OData

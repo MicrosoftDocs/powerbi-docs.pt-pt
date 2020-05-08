@@ -12,10 +12,10 @@ ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040162"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guia de Início Rápido: Introdução ao serviço Power BI
@@ -127,12 +127,12 @@ Para saber mais, veja [Favoritos](end-user-favorite.md)
 Para saber mais, veja [Recentes no Power BI](end-user-recent.md)
 
 ### <a name="search-and-sort-content"></a>Pesquisar e ordenar conteúdo
-Nas primeiras vezes que utilizar o serviço do Power BI, terá poucos conteúdos. No entanto, à medida que os colegas começam a partilhar conteúdos consigo e começa a transferir aplicações, poderá ficar com longas listas de conteúdos. É nesse momento que irá perceber como é útil pesquisar e ordenar.
+Nas primeiras vezes que utilizar o serviço do Power BI, terá poucos conteúdos. Mas à medida que os colegas começam a partilhar conteúdos consigo e começa a transferir aplicações, poderá acabar por ter longas listas de conteúdos. É nesse momento que irá perceber como é útil pesquisar e ordenar.
 
-A pesquisa está disponível a partir de quase todas as partes do serviço do Power BI. Basta procurar a caixa de pesquisa ou o ícone de lupa de pesquisa.    
+A pesquisa está disponível a partir de quase todas as partes do serviço Power BI. Basta procurar a caixa de pesquisa ou o ícone de lupa de pesquisa.    
 ![ícone de lupa](./media/end-user-experience/power-bi-search-icon.png)
 
-No campo Pesquisar, escreva o nome completo ou parcial de um dashboard, relatório, livro, aplicação ou proprietário. O Power BI pesquisa em todo o seu conteúdos.
+No campo Pesquisa, escreva o nome completo ou parcial de um dashboard, relatório, livro, aplicação ou proprietário. O Power BI pesquisa em todo o seu conteúdos.
 
 ![procurar um relatório](./media/end-user-experience/power-bi-search-field.png)
 
@@ -168,7 +168,7 @@ Depois de concluir este manual de início rápido, se quiser, pode eliminar o da
 
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 > [!div class="nextstepaction"]
 > [Vista de leitura no serviço Power BI](end-user-reading-view.md)
