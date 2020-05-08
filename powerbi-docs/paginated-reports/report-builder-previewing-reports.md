@@ -9,10 +9,10 @@ ms.assetid: ba6b5bdd-d8c6-4aa8-ba32-3a10b11969d4
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: afbc31e3ece8bc72ad52bb2fe7c3d871b2f68e1b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78922948"
 ---
 # <a name="previewing-reports-in-power-bi-report-builder"></a>Pré-visualização de relatórios no Report Builder do Power BI
@@ -70,7 +70,7 @@ De um modo geral, pré-visualiza um relatório como um passo no processo de atua
 ## <a name="external-report-items"></a>Itens de relatório externo  
  O seu relatório pode incluir itens tais como imagens externas que estão armazenadas em separado do relatório. Como os itens estão armazenados em separado, é possível que sejam movidos para uma localização diferente ou eliminados. Se isto acontecer, a pré-visualização do relatório poderá falhar. Pode atualizar o relatório para indicar o local atualizado do item ou, se o item tiver sido eliminado, substituí-lo por um item existente ou remover a referência ao item a partir do relatório.  
   
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)
   

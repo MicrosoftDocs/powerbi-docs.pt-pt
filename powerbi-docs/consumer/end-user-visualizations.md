@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 1aaacfae3c9af4517f6b028852e46059884dd3d5
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113862"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Interagir com elementos visuais em relatórios, dashboards e aplicações
@@ -43,7 +43,7 @@ Para muitas destas opções, o seu administrador ou o *designer* pode desativar 
 
 
 
-|Tarefa  |Num dashboard  |Num relatório  | Nas perguntas e respostas
+|Task  |Num dashboard  |Num relatório  | Nas perguntas e respostas
 |---------|---------|---------|--------|
 |[Adicionar comentários a um elemento visual ou iniciar uma conversa com os colegas sobre o elemento visual](end-user-comment.md).     |  sim       |   sim      |  não  |
 |[Abrir e explorar o relatório em que o elemento visual foi criado](end-user-tiles.md).     |    sim     |   na      |  não |
@@ -66,7 +66,7 @@ Para muitas destas opções, o seu administrador ou o *designer* pode desativar 
 | [Aplicar filtros cruzados e realces cruzados nos outros elementos visuais na página](end-user-report-filter.md).  | não      | sim  | na |
 | [Explorar um elemento visual que tem uma hierarquia](end-user-drill.md).  | não  | sim   | não |
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Regressar a [Conceitos básicos para consumidores](end-user-basic-concepts.md)    
 [Selecionar um elemento visual para abrir um relatório](end-user-report-open.md)    
 [Tipos de elementos visuais disponíveis no Power BI](end-user-visual-type.md)

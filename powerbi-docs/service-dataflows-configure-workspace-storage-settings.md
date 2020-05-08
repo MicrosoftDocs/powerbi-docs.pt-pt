@@ -10,13 +10,13 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 516d3a682b669400a015aaec101c7e79c14dbb44
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889357"
 ---
-# <a name="configure-workspace-dataflow-settings-preview"></a>Configurar definições de fluxos de dados da área de trabalho (Pré-visualização)
+# <a name="configure-workspace-dataflow-settings-preview"></a>Configure workspace dataflow settings (Preview) (Configurar as definições de fluxos de dados da área de trabalho [Pré-visualização])
 
 Com o Power BI e os fluxos de dados, pode armazenar o ficheiro de definição de fluxos de dados e os ficheiros de dados de uma área de trabalho na sua conta do Azure Data Lake Storage Gen2. Os administradores de áreas de trabalho podem configurar o Power BI para o fazer e este artigo explica os passos necessários para atingir esse objetivo. 
 
@@ -109,7 +109,7 @@ Os clientes do **Power BI Desktop** não podem aceder a fluxos de dados armazena
     ![Erro ao tentar utilizar o fluxo de dados](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Este artigo disponibilizou orientação sobre como configurar o armazenamento de área de trabalho para fluxos de dados. Para obter informações adicionais, veja os seguintes artigos:
 
@@ -122,9 +122,9 @@ Para obter mais informações sobre fluxos de dados, CDM e o Azure Data Lake Sto
 Para obter informações sobre fluxos de dados em geral, veja estes artigos:
 
 * [Criar e utilizar fluxos de dados no Power BI](service-dataflows-create-use.md)
-* [Utilizar entidades calculadas no Power BI Premium (Pré-visualização)](service-dataflows-computed-entities-premium.md)
+* [Utilizar entidades calculadas no Power BI Premium (pré-visualização)](service-dataflows-computed-entities-premium.md)
 * [Utilizar fluxos de dados com origens de dados no local (Pré-visualização)](service-dataflows-on-premises-gateways.md)
-* [Recursos para programadores para fluxos de dados do Power BI (Pré-visualização)](service-dataflows-developer-resources.md)
+* [Recursos para programadores de fluxos de dados do Power BI (Pré-visualização)](service-dataflows-developer-resources.md)
 
 Para obter mais informações sobre o armazenamento do Azure, leia estes artigos:
 

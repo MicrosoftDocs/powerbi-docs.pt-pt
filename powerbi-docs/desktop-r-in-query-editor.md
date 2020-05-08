@@ -11,10 +11,10 @@ ms.date: 01/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: a157b674cd96c10081168ac5258e5b2f6145f09d
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464970"
 ---
 # <a name="use-r-in-power-query-editor"></a>Utilizar o R no Editor do Power Query

@@ -7,16 +7,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/14/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: eee7b67fcfaed987170baa8cb5a0b3c8cba86350
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979828"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866425"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Criar e utilizar elementos visuais R no Power BI Desktop
+
+[!INCLUDE[consumer-appliesto-nnyn](../includes/consumer-appliesto-nnyn.md)]
+
 Atualmente, os elementos visuais R só podem ser criados no **Power BI Desktop** e publicados no serviço Power BI. Para obter mais informações sobre a criação de elementos visuais R, veja [Criar elementos visuais do Power BI com o R](../desktop-r-visuals.md).
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Ver elementos visuais R no serviço Power BI
@@ -65,7 +68,7 @@ Como outro exemplo, a imagem seguinte mostra a mensagem de erro apresentada quan
 
 ![Captura de ecrã a mostrar um erro de runtime](media/service-r-visuals/r-visuals-service-5.png)
 
-## <a name="licensing"></a>Licensing
+## <a name="licensing"></a>Licenciamento
 Os elementos visuais R requerem uma licença do [Power BI Pro](../service-self-service-signup-for-power-bi.md) para composição em relatórios, atualização, filtro e filtro cruzado. Para obter mais informações sobre as licenças do Power BI Pro e como diferem das licenças gratuitas, veja [Conteúdo do Power BI Pro - o que é isto?](../service-admin-purchasing-power-bi-pro.md)
 
 Os utilizadores gratuitos do Power BI só podem consumir mosaicos partilhados com os próprios nas áreas de trabalho Premium. Para obter mais informações, veja [Comprar o Power BI Pro](../service-admin-purchasing-power-bi-pro.md).
@@ -73,7 +76,7 @@ Os utilizadores gratuitos do Power BI só podem consumir mosaicos partilhados co
 A tabela seguinte descreve as capacidades dos elementos visuais R com base no licenciamento.
 
 
-|  |Criar elementos visuais R no Power BI Desktop  | Criar relatórios de serviço do PBI com elementos visuais R |Ver visuais R em relatórios  | Ver mosaicos R em dashboards |
+|  |Criar elementos visuais R no Power BI Desktop  | Criar relatórios de serviço do PBI com visuais R |Ver visuais R em relatórios  | Ver mosaicos R em dashboards |
 |---------|---------|---------|---------|--------|
 |**Convidado** (Power BI Embedded)     |  Suportado|  Não suportado      | Suportado apenas na capacidade Premium/Azure  | Suportado apenas na capacidade Premium/Azure |
 |**Inquilino não gerido** (domínio não verificado) | Suportado | Não suportado |  Não suportado |Suportado (cenário B2B) |
@@ -86,12 +89,12 @@ A tabela seguinte descreve as capacidades dos elementos visuais R com base no li
 Os elementos visuais R no serviço Power BI têm algumas limitações:
 
 * O suporte para os elementos visuais R está limitado aos pacotes identificados em [Saiba quais os pacotes R suportados](../service-r-packages-support.md). Atualmente, não existe suporte de pacotes personalizados.
-* Limitações de tamanho de dados – os dados utilizados pelo elemento visual do R para desenhar são limitados a 150.000 linhas. Se forem selecionadas mais de 150.000 linhas, apenas as primeiras 150.000 linhas serão utilizadas e uma mensagem será apresentada na imagem. Além disso, os dados de entrada têm um limite de 250 MB.
+* Limitações de tamanho de dados – os dados utilizados pelo elemento visual R para desenhar têm um limite de 150 000 linhas. Se forem selecionadas mais de 150 000 linhas, apenas as primeiras 150 000 linhas serão utilizadas e será apresentada uma mensagem na imagem. Além disso, os dados de entrada têm um limite de 250 MB.
 * Resolução – todos os elementos visuais R são apresentados a 72 DPI.
 * Dispositivo de desenho – só é suportado o desenho para o dispositivo predefinido. 
 * Limite de tempo de cálculo – se um cálculo do elemento visual R exceder 60 segundos, o script atinge o tempo limite, resultando num erro.
-* Os elementos visuais do R são atualizados após atualizações, filtragem e destaque de dados. No entanto, a imagem propriamente dita não é interativa e não suporta sugestões.
-* Os elementos visuais do R respondem ao destaque de outros elementos visuais, mas não pode clicar em elementos em elementos no visual do R para efetuar a filtragem cruzada de outros elementos.
+* Os elementos visuais R são atualizados após atualizações de dados, filtragem e realce. No entanto, a imagem propriamente dita não é interativa e não suporta sugestões.
+* Os elementos visuais R respondem ao realce de outros elementos visuais, mas não pode clicar em elementos no elemento visual R para fazer filtragem cruzada de outros elementos.
 * Os elementos visuais R não são atualmente suportados para o tipo de dados *Tempo*. Em vez disso, utilize Data/Hora.
 * Os elementos visuais R não são apresentados quando utilizar **Publicar na Web**.
 * Os elementos visuais R não suportam a mudança de nome de colunas de entrada. As colunas serão referidas pelo seu nome original durante a execução do script.

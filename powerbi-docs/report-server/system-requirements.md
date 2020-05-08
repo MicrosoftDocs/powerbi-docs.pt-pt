@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/20/2020
 ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77558558"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de software e hardware para instalar o Power BI Report Server
@@ -25,8 +25,8 @@ Este artigo descreve o hardware mínimo e os requisitos de software para instala
 | --- | --- |
 | .NET Framework |4.7<br><br>Pode instalar manualmente o .NET Framework a partir do [Microsoft .NET Framework 4.7 (Instalador Web) para Windows](https://support.microsoft.com/en-us/kb/3186500).<br/><br/> Para obter mais informações, recomendações e orientações sobre o .NET Framework 4.7, veja o [Guia de Implementação do .NET Framework para Programadores](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>O Windows 8.1 e o Windows Server 2012 R2 requerem a atualização [KB2919355](https://support.microsoft.com/kb/2919355) antes de instalar o .NET Framework 4.7. |
 | Disco Rígido |O Power BI Report Server requer um mínimo de 1 GB de espaço disponível em disco rígido.<br><br>Será necessário espaço adicional no servidor de base de dados que aloja a base de dados do servidor de relatórios. |
-| Memória |**Mínimo:** 1 GB<br/><br/> **Recomendado:** pelo menos 4 GB |
-| Velocidade do processador |**Mínima:** processador x64: 1,4 GHz<br/><br/> **Recomendado:** 2,0 GHz ou mais rápido |
+| Memória |**Mínima:** 1 GB<br/><br/> **Recomendada:** Pelo menos 4 GB |
+| Velocidade do processador |**Mínima:** Processador x64: 1,4 GHz<br/><br/> **Recomendada:** 2,0 GHz ou mais rápido |
 | Tipo de processador |Processador x64: AMD Opteron, AMD Athlon 64, Intel Xeon com suporte Intel EM64T, Intel Pentium IV com suporte EM64T |
 | Sistema operativo |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
 
@@ -64,7 +64,7 @@ O Power BI Report Server irá instalar os valores predefinidos para configurar a
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Ligações em direto do Analysis Services e relatórios do Power BI
 
-Pode utilizar uma ligação em direto para instâncias em tabela ou multidimensionais. O seu servidor do Analysis Services tem de ser a versão e edição correta para funcionar devidamente.
+Pode utilizar uma ligação em direto contra instâncias em tabela ou multidimensionais. O seu servidor do Analysis Services tem de ser a versão e edição correta para funcionar devidamente.
 
 | **Versão do servidor** | **SKU necessário** |
 | --- | --- |
@@ -72,7 +72,7 @@ Pode utilizar uma ligação em direto para instâncias em tabela ou multidimensi
 | 2014 |Business Intelligence e SKU Enterprise |
 | 2016 e posterior |SKU Standard ou superior |
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [O que é o Power BI Report Server?](get-started.md)  
 [Descrição geral para administradores](admin-handbook-overview.md)  

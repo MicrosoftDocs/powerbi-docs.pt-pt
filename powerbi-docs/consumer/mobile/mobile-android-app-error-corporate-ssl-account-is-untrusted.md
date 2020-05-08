@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: a68644c63d3d5eaeb54a71683629af01817d62a7
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114617"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Corrigir “O certificado SSL empresarial não é fidedigno” – Power BI
@@ -42,7 +42,7 @@ Aceda a **Definições** > **Sistema** > **Data e hora** para verificar.
 ## <a name="custom-authentication-server"></a>Servidor de autenticação personalizada
 Se estiver a utilizar um servidor de autenticação personalizada, o certificado SSL no servidor de autenticação empresarial pode não ser válido. Trabalhe em conjunto com o departamento de TI da sua organização para testar a configuração do servidor de autenticação empresarial. Para tal, siga as orientações [neste artigo](https://support.microsoft.com/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Transfira a aplicação Android](https://go.microsoft.com/fwlink/?LinkID=544867) da loja de aplicações Android.
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/) 
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/) 
 

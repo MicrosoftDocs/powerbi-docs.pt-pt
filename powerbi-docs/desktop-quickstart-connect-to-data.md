@@ -10,13 +10,13 @@ ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: quickstart
 ms.openlocfilehash: 5aed52ec232d3e603d69bfe93640187401279ff6
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75885225"
 ---
-# <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Quickstart: Ligar a dados no Power BI Desktop
+# <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Início Rápido: ligar a dados no Power BI Desktop
 
 Neste manual de início rápido, liga-se a dados com o Power BI Desktop, que é o primeiro passo na criação de modelos de dados e na criação de relatórios.
 
@@ -38,7 +38,7 @@ Depois de instalar o Power BI Desktop, inicie a aplicação para que seja execu
 
 ![Power BI Desktop com tela em branco](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 
-## <a name="connect-to-data"></a>Ligar-se a dados
+## <a name="connect-to-data"></a>Ligar a dados
 
 O Power BI Desktop permite ligar-se a vários tipos diferentes de dados. Estas origens incluem origens de dados básicas, como um ficheiro do Microsoft Excel. Pode ligar-se a serviços online que contêm todos os tipos de dados, como Salesforce, Microsoft Dynamics, Azure Blob Storage e muitos mais.
 
@@ -70,7 +70,7 @@ Assim que tiver carregado as tabelas, o painel **Campos** mostra-lhe os dados. P
 
 E já está! Ligou-se aos dados no Power BI Desktop, carregou esses dados e, agora, pode ver todos os campos disponíveis nessas tabelas.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Existem vários tipos de tarefas que pode fazer com o Power BI Desktop logo que tenha ligado os dados. Pode criar elementos visuais e relatórios. Observe o recurso seguinte para seguir no caminho certo:
 

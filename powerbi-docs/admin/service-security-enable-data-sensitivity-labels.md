@@ -10,10 +10,10 @@ ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76537238"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>Ativar etiquetas de confidencialidade de dados no Power BI (pré-visualização)
@@ -60,13 +60,13 @@ O Power BI utiliza etiquetas de confidencialidade do Microsoft Information Prote
 * As etiquetas de confidencialidade não foram migradas para a versão do Microsoft Information Protection suportada pelo Power BI. Saiba mais sobre como [migrar etiquetas de confidencialidade](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
 * Nenhuma etiqueta de confidencialidade do Microsoft Information Protection foi definida na organização. Além disso, para que possa utilizá-la, uma etiqueta tem de fazer parte de uma política publicada. [Saiba mais sobre etiquetas de confidencialidade](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels) ou aceda ao [centro de segurança e conformidade da Microsoft](https://sip.protection.office.com/sensitivity?flight=EnableMIPLabels) para saber como definir etiquetas e publicar políticas para a sua organização.
 
-## <a name="licensing"></a>Licensing
+## <a name="licensing"></a>Licenciamento
 
 * Para ver ou aplicar etiquetas do Microsoft Information Protection no Power BI, os utilizadores têm de ter uma licença Premium P1 ou Premium P2 do Azure Information Protection. O Microsoft Azure Information Protection pode ser adquirido como produto autónomo ou como parte de um dos conjuntos de licenciamento da Microsoft. Para obter mais informações, veja [Preços do Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/).
 * Os utilizadores que precisam de aplicar etiquetas a ativos do Power BI têm de ter uma licença do Power BI Pro.
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Este artigo descreveu como ativar etiquetas de confidencialidade de dados no Power BI. Os seguintes artigos fornecem mais detalhes sobre a proteção de dados no Power BI. 
 

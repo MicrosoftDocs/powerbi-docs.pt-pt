@@ -1,5 +1,5 @@
 ---
-title: Ligar ao Excel no Power BI Desktop
+title: Connect to Excel in Power BI Desktop (Ligar ao Excel no Power BI Desktop)
 description: Ligar e utilizar facilmente dados de livro do Excel no Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c63b84b506b872831c1a5ce00f6ef0e79f993849
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761663"
 ---
 # <a name="connect-to-excel-workbooks-in-power-bi-desktop"></a>Ligar a livros do Excel no Power BI Desktop
@@ -45,12 +45,12 @@ E já está!
 
 Está pronto para utilizar os dados importados do livro do Excel no Power BI Desktop para criar elementos visuais, relatórios ou interagir com outros dados aos quais possa querer ligar e importar, como outros livros do Excel, bases de dados ou qualquer outra origem de dados.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
-* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Ligar a ficheiros CSV no Power BI Desktop](desktop-connect-csv.md)   
 * [Introduzir dados diretamente no Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   
 

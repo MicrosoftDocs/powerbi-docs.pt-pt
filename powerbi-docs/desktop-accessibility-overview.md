@@ -10,10 +10,10 @@ ms.date: 02/21/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: a8bf446174cc16d95842022416352f538dca69ec
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609866"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Overview of accessibility in Power BI (Descrição geral da acessibilidade no Power BI)
@@ -48,7 +48,7 @@ A US Section 508 é uma norma que exige que os governos e as agências federais 
 
 A EN 301 549 é a Norma Europeia Harmonizada para os requisitos de Acessibilidade para produtos e serviços de ICT.  
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Para obter mais informações sobre a acessibilidade do Power BI, veja os recursos seguintes:
 

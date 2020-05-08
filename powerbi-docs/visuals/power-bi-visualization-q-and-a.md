@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
 ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762284"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Introdução às visualizações das Perguntas e Respostas do Power BI
@@ -45,7 +45,7 @@ O elemento visual das Perguntas e Respostas consiste em quatro componentes essen
 
 1. Abra o ficheiro na vista de relatório ![Captura de ecrã do ícone de vista de relatório.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+1. Seleção ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
 
 Se for apresentado um erro ao criar um elemento visual das Perguntas e Respostas, veja a secção de [limitações](../natural-language/q-and-a-limitations.md) para saber se a configuração de origens de dados é suportada.
@@ -146,7 +146,7 @@ Utilize o painel Ferramentas para ensinar termos que as Perguntas e Respostas n�
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 O elemento visual das Perguntas e Respostas integra-se no Office e no Bing para tentar fazer corresponder palavras comuns não reconhecidas a campos no seu conjunto de dados.  
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Existem diversas formas de integrar linguagem natural. Para obter mais informações, veja os seguintes artigos:
 

@@ -11,10 +11,10 @@ ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78893436"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Personalizar os títulos, fundos e legendas das visualizações
@@ -133,13 +133,13 @@ Para aplicar um tema ao seu relatório, selecione **Mudar tema** a partir da bar
 
 Veja a seguir uma lista de visualizações e as opções de personalização disponíveis para cada uma:
 
-| Visualização | Título | Fundo | Legenda |
+| Visualização | Title | Fundo | Legenda |
 |:--- |:--- |:--- |:--- |
 | Área | sim | sim |sim |
 | Barras | sim | sim |sim |
 | Cartão | sim | sim |n/a |
 | Cartão de Linhas múltiplas | sim | sim | n/a |
-| Coluna | sim | sim | sim |
+| Personalizada | sim | sim | sim |
 | Combinação | sim | sim | sim |
 | Anel | sim | sim | sim |
 | Mapa de manchas | sim | sim | sim |
@@ -153,14 +153,14 @@ Veja a seguir uma lista de visualizações e as opções de personalização dis
 | Circular | sim | sim | sim |
 | Perguntas e Respostas | sim | sim | n/a |
 | Dispersão | sim | sim | sim |
-| Forma | sim | sim | sim |
+| Formas | sim | sim | sim |
 | Segmentação de Dados | sim | sim | n/a |
 | Tabela | sim | sim | n/a |
 | Caixa de texto | não | sim | n/a |
 | Treemap | sim | sim | sim |
 | Cascata | sim | sim | sim |
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 - [Personalizar as propriedades dos Eixos X e Y](power-bi-visualization-customize-x-axis-and-y-axis.md)
 

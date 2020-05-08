@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/23/2020
 ms.openlocfilehash: bd7758be32d18fd3be06a7847edc7795c2b5f9e1
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114779"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Configurar credenciais para o Power BI através de programação
@@ -218,7 +218,7 @@ var credentials = "{\"credentialData\":\"\"}";
 
 ---
 
-## <a name="troubleshooting"></a>Resolução de problemas
+## <a name="troubleshooting"></a>Troubleshooting (Resolução de problemas)
 
 ### <a name="no-gateway-and-data-source-id-found-when-calling-get-data-sources"></a>Não é encontrado nenhum ID da origem de dados e gateway ao chamar a API Get Datasources
 

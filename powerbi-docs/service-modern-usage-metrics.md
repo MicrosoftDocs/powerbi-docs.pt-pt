@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d3f359ad4c968407dff143458b65954844f9a22d
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76829288"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Monitorizar as métricas de utilização na nova experiência de área de trabalho

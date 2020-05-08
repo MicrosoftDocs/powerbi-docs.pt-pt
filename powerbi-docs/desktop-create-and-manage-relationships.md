@@ -10,10 +10,10 @@ ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 6f71cf9b8325441fe3827a259daf3bcbe15765a5
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76709957"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Criar e gerir relações no Power BI Desktop
@@ -226,7 +226,7 @@ O Power BI configura estas definições porque a melhor combinação das duas ta
 |:--- | --- | ---:| ---:|
 | Azul |A |40.000 |1212012 |
 | Vermelho |B |100.000 |1212012 |
-| Verde |C |50 000 |1212012 |
+| Verde |C |50.000 |1212012 |
 | Amarelo |C |<br /> |<br /> |
 | Roxo |B |<br /> |<br /> |
 | Laranja |C |<br /> |<br /> |
@@ -251,7 +251,7 @@ Mas digamos que sabe que os dados serão alterados da próxima vez que os atuali
 | --- | --- | ---:| ---:|
 | Azul |A |40.000 |1212012 |
 | Vermelho |B |100.000 |1212012 |
-| Verde |C |50 000 |1212012 |
+| Verde |C |50.000 |1212012 |
 | Amarelo |C |<br /> |<br /> |
 | Roxo |B |<br /> |<br /> |
 | Laranja |C |<br /> |<br /> |
