@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
 ms.openlocfilehash: dd469bdbfa530a1a4728494d3c06e571600dfb5f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874332"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>Adicionar comentários a um relatório no servidor de relatórios - Power BI Report Server
@@ -44,7 +44,7 @@ Consoante as suas permissões, pode:
 * Ver todos os comentários e publicar, editar e eliminar os seus comentários.
 * Ver todos os comentários; publicar, editar e eliminar os seus próprios comentários; e eliminar os comentários de outras pessoas.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [O que é o Power BI Report Server?](get-started.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

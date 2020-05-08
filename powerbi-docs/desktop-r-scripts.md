@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 358a61c13418bd29a9e83ed7029e8b90f9a5988e
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76161557"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Executar scripts R no Power BI Desktop
@@ -65,9 +65,9 @@ Pode controlar qual a instalação R a utilizar para executar o script. Para esp
 
 Pode atualizar um script R no Power BI Desktop. Quando atualiza um script R, o Power BI Desktop executa-o novamente no respetivo ambiente.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
-Veja as seguintes informações adicionais sobre a linguagem R no Power BI.
+Veja as seguintes informações adicionais sobre o R no Power BI.
 
 * [Criar elementos visuais do Power BI através da linguagem R](desktop-r-visuals.md)
-* [Utilizar um IDE R externo com o Power BI](desktop-r-ide.md)
+* [Utilizar um IDE do R externo com o Power BI](desktop-r-ide.md)

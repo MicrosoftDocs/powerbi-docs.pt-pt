@@ -26,11 +26,11 @@
           href: embedded-capacity.md
         - name: Planeamento de capacidade
           href: embedded-capacity-planning.md
-        - name: Melhores Práticas para o Desempenho
+        - name: Melhores práticas de desempenho
           href: embedded-performance-best-practices.md
         - name: Service principal (Principal de serviço)
           href: embed-service-principal.md
-        - name: Row-level security
+        - name: Segurança ao Nível da Linha
           href: embedded-row-level-security.md
         - name: Paginated reports Row-level security (Segurança ao nível de linha em relatórios paginados)
           href: paginated-reports-row-level-security.md
@@ -42,7 +42,7 @@
           href: embedded-faq.md
         - name: Permissões do Power BI
           href: power-bi-permissions.md
-    - name: Procedimentos
+    - name: Como
       items:
         - name: Embed from an app (Incorporar a partir de uma aplicação)
           href: embed-from-apps.md
@@ -52,7 +52,7 @@
           href: export-paginated-report.md
         - name: Instalar aplicações automaticamente
           href: embed-auto-install-app.md
-        - name: Criar um inquilino do Azure Active Directory
+        - name: Create an Azure Active Directory tenant (Criar um inquilino do Azure Active Directory)
           href: create-an-azure-active-directory-tenant.md
         - name: Registar uma aplicação
           href: register-app.md
@@ -60,35 +60,35 @@
           href: get-azuread-access-token.md
         - name: Ligar um relatório através do enlace dinâmico
           href: embed-dynamic-binding.md
-        - name: Embedding Q&A (Incorporação das Perguntas e Respostas)
+        - name: Incorporar as Perguntas e Respostas
           href: qanda.md
-        - name: Resolver problemas da sua aplicação incorporada
+        - name: Resolução de problemas na sua aplicação incorporada
           href: embedded-troubleshoot.md
-        - name: Gerir capacidades no Azure
+        - name: Gerir as capacidades no Azure
           items:
-            - name: Create a capacity in Azure (Criar uma capacidade no Azure)
+            - name: Criar uma capacidade no Azure
               href: azure-pbie-create-capacity.md
             - name: Create a capacity using Multi-Geo in Azure (Criar uma capacidade com a Multi-Geo no Azure)
               href: embedded-multi-geo.md
-            - name: Scale a capacity in Azure (Dimensionar uma capacidade no Azure)
+            - name: Dimensionar uma capacidade no Azure
               href: azure-pbie-scale-capacity.md
-            - name: Pause and start a capacity in Azure (Colocar em pausa e iniciar uma capacidade no Azure)
+            - name: Colocar em pausa e iniciar uma capacidade no Azure
               href: azure-pbie-pause-start.md
-        - name: Migrar de Coleções de Áreas de Trabalho
+        - name: Migrar das Coleções de Área de Trabalho
           items:
-            - name: Como migrar de Coleções de Áreas de Trabalho do Power BI
+            - name: Como migrar a partir das Coleções de Área de Trabalho do Power BI
               href: migrate-from-powerbi-embedded.md
             - name: Ferramentas de migração
               href: migrate-tool.md
-            - name: Migration code snippets (Fragmentos de código de migração)
+            - name: Fragmentos de código de migração
               href: migrate-code-snippets.md
     - name: Referência
       items:
         - name: APIs
           items:
-            - name: Azure Resource Management REST APIs (APIs REST de Gestão de Recursos do Azure)
+            - name: APIs de REST do Azure Resource Manager
               href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
-            - name: Power BI REST APIs (APIs REST do Power BI)
+            - name: APIs REST do Power BI
               href: 'https://msdn.microsoft.com/library/mt147898.aspx'
         - name: Bibliotecas do Power BI
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
@@ -100,13 +100,13 @@
           href: 'https://powerbi.microsoft.com/en-us/developers/'
         - name: Ferramenta de configuração de incorporação
           href: 'https://aka.ms/embedsetup'
-        - name: Exemplo do JavaScript Playground
+        - name: Exemplo de Recreio do JavaScript
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Wiki de JavaScript do Power BI
+        - name: Wiki do Power BI JavaScript
           href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
         - name: Exemplos e scripts de programador
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-        - name: Power BI community (Comunidade do Power BI)
+        - name: Comunidade do Power BI
           href: 'https://go.microsoft.com/fwlink/?linkid=848280'
-        - name: Stack Overflow (Capacidade de Pilha Excedida)
+        - name: Stack Overflow
           href: 'https://go.microsoft.com/fwlink/?linkid=848281'
