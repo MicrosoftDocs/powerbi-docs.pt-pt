@@ -10,10 +10,10 @@ ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 882cddf7728a27e78056a35c14fde20f00678e33
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77527708"
 ---
 # <a name="use-the-facebook-connector-for-power-bi-desktop"></a>Utilizar o conector do Facebook para o Power BI Desktop

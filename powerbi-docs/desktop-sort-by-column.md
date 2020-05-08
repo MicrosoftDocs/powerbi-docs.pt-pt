@@ -1,5 +1,5 @@
 ---
-title: Ordenação por coluna no Power BI Desktop
+title: Sort by column in Power BI Desktop (Ordenar por coluna no Power BI Desktop)
 description: No Power BI, pode alterar o aspeto de um elemento visual ao ordená-lo por campos de dados diferentes.
 author: davidiseminger
 ms.reviewer: ''
@@ -10,13 +10,13 @@ ms.date: 01/30/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 0cbba86bd77debda9ab2162b8f9b190e1846b99c
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464703"
 ---
-# <a name="sort-by-column-in-power-bi-desktop"></a>Ordenação por coluna no Power BI Desktop
+# <a name="sort-by-column-in-power-bi-desktop"></a>Sort by column in Power BI Desktop (Ordenar por coluna no Power BI Desktop)
 No Power BI Desktop e no serviço Power BI, pode alterar o aspeto de um elemento visual ao ordená-lo por campos de dados diferentes. Ao alterar a forma como ordena um elemento visual, pode destacar as informações que pretende transmitir e certificar-se de que o elemento visual reflete essa tendência (ou ênfase).
 
 Se estiver a utilizar dados numéricos (como o volume de vendas) ou dados de texto (como nomes de estado), pode ordenar as visualizações e dar-lhes o aspeto que preferir. O Power BI oferece muita flexibilidade para fins de ordenação e menus rápidos para utilização. Para ordenar qualquer elemento visual, selecione o respetivo menu **Mais opções** (...), selecione **Ordenar por** e, em seguida, selecione o campo a partir do qual pretende ordenar.
@@ -106,7 +106,7 @@ When we go back to the menu and select **SalesQuantity** again, the visual defau
 With so many options for sorting your visuals, creating just the chart or image you want is easy.
 --->
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Poderá também estar interessado nos seguintes artigos:
 
