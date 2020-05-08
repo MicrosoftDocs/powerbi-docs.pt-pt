@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 12/19/2017
 ms.openlocfilehash: e114c208093c9f3401c43e9ea44502e65d6d84fd
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79493210"
 ---
 # <a name="custom-layouts"></a>Esquemas personalizados
@@ -61,7 +61,7 @@ enum DisplayOption {
 }
 ```
 
-- `pageSize`: utilize o tamanho da página para controlar o tamanho da área da tela (isto é, a área em branco do relatório).
+- `pageSize`: utilize o tamanho da página para controlar o tamanho da área da tela (ou seja, a área em branco do relatório).
 - `displayOptions`: os valores possíveis são: FitToWidth, FitToPage ou ActualSize. Controla como dimensionar a tela para ajustar ao iframe.
 - `pagesLayout`: controla o esquema de cada elemento visual. veja PagesLayout para obter mais detalhes.
 
@@ -170,7 +170,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-## <a name="see-also"></a>Veja também
+## <a name="see-also"></a>Ver também
 
 [Incorporar os dashboards, os relatórios e os mosaicos do Power BI](embed-sample-for-customers.md)   
 [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
