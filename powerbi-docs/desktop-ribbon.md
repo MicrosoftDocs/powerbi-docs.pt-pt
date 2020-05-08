@@ -10,10 +10,10 @@ ms.date: 03/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: cbaf3244ce8e8aa2755b6b47bf6381c191293306
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79133238"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Use the updated ribbon in Power BI Desktop (Utilizar o friso atualizado no Power BI Desktop)
@@ -71,12 +71,12 @@ Para além das alterações visíveis, um friso atualizado também nos permite e
 * Melhorar a acessibilidade
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
-* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Ligar a livros do Excel no Power BI Desktop](desktop-connect-excel.md)   
 * [Introduzir dados diretamente no Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   
 

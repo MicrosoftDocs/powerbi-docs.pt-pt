@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
 ms.openlocfilehash: 1602743230f1a369fe3da48fa37a313b9d9bbea4
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435887"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Diretrizes de elementos visuais do Power BI
@@ -158,10 +158,10 @@ Utilize a página de destino para esclarecer aos utilizadores como podem utiliza
 
 Para comodidade do utilizador, adicione campos relativos à chave de licença ou token na parte superior do painel de formatação.
 
-## <a name="faq"></a>PERGUNTAS FREQUENTES
+## <a name="faq"></a>FAQ
 
 Para obter mais informações acerca dos elementos visuais do Power BI, aceda às [Perguntas frequentes sobre os elementos visuais do Power BI com compras adicionais](power-bi-custom-visuals-faq.md#visuals-with-additional-purchases).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Saiba como pode publicar o seu elemento visual do Power BI no [Microsoft AppSource](office-store.md) para que outros o possam encontrar e utilizar.

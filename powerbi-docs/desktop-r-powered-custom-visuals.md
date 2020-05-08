@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
 ms.openlocfilehash: 020967948e3f0551de50e4485be0dde450a4f18b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378691"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Utilizar elementos visuais baseados em R no Power BI
@@ -145,9 +145,9 @@ A equipa do Power BI está a trabalhar ativamente para mitigar estes problemas 
 
    b. Se o passo anterior não funcionar, altere **Ferramentas > Opções Globais > Pacotes** no **R Studio** e ative a caixa de verificação para **Utilizar a biblioteca/proxy do Internet Explorer para HTTP** e, em seguida, repita o passo 3.b. dos passos acima.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
-Veja as seguintes informações adicionais sobre a linguagem R no Power BI.
+Veja as seguintes informações adicionais sobre o R no Power BI.
 
 * [Galeria de elementos visuais do Power BI](https://app.powerbi.com/visuals/)
 * [Executar Scripts R no Power BI Desktop](desktop-r-scripts.md)
