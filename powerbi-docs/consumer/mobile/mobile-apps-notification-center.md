@@ -1,5 +1,5 @@
 ---
-title: Receber notificações nas aplicações móveis do Power BI
+title: Get notifications in the Power BI mobile apps (Obter notificações nas aplicações móveis do Power BI)
 description: O Centro de Notificações leva informações relacionadas com a sua experiência do Power BI até si no seu dispositivo móvel.
 author: paulinbar
 ms.reviewer: ''
@@ -9,21 +9,21 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 23291659a12bb08becf0d9a4f57a41a93eadbc5e
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435588"
 ---
-# <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Receber notificações nas aplicações móveis do Power BI
+# <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Get notifications in the Power BI mobile apps (Obter notificações nas aplicações móveis do Power BI)
 Aplica-se a:
 
-| ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Telemóvel Android](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Tablet Android](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Telemóvel Android](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Tablet Android](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Telemóveis Android |Tablets Android |Dispositivos Windows 10 |
 
 >[!NOTE]
->O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+>O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saber mais](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 As notificações levam informações relacionadas com a sua experiência do Power BI até si, no serviço Power BI no seu dispositivo móvel. Quando abrir as Notificações, verá um feed sequencial de mensagens sobre [alertas que definiu](mobile-set-data-alerts-in-the-mobile-apps.md), novos dashboards que foram partilhados consigo, alterações à sua área de trabalho de grupo, informações sobre eventos e reuniões do Power BI e muito mais.
 
@@ -71,9 +71,9 @@ Pode alterar a forma como o Power BI envia notificações.
 
     ![Escolher Notificações](./media/mobile-apps-notification-center/power-bi-notifications-windows10-settings.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Alertas de dados no serviço Power BI](../../service-set-data-alerts.md)
 * [Definir alertas de dados na aplicação para iPhone (Power BI para iOS)](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Definir alertas de dados na aplicação móvel do Power BI para Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Definir alertas de dados na aplicação móvel Power BI para Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Transferir a versão mais recente das aplicações do Power BI](https://powerbi.microsoft.com/mobile/) para dispositivos móveis
 

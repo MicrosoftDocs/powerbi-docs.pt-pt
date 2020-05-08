@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
 ms.openlocfilehash: 5a3a7b91b0c97a75923876caff205ffb9abfce70
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114388"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Perguntas e Respostas no Power BI Embedded
@@ -98,7 +98,7 @@ qna.on("visualRendered", function(event) {
 
 Crie um token de incorporação a partir de um conjunto de dados para iniciar uma peça de Perguntas e Respostas. Para obter mais informações, veja [Gerar token](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Para experimentar as Perguntas e Respostas, consulte o [exemplo de incorporação do JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/).
 

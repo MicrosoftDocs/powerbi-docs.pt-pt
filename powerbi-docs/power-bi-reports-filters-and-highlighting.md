@@ -10,10 +10,10 @@ ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: f1722690ff974a9d4fac6e94243e1024bfbfc12e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207074"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Filtros e realces em relatórios do Power BI
@@ -52,7 +52,7 @@ Pode pesquisar na página, no elemento visual e nos filtros de relatório, na Vi
 Se o filtro estiver acompanhado da palavra **Tudo**, significa que todos os valores no campo são incluídos no filtro.  Por exemplo,**Chain(All)** na captura de ecrã abaixo significa que esta página de relatório inclui dados sobre todas as cadeias de lojas.  Por outro lado, o filtro ao nível de relatório **FiscalYear is 2013 or 2014** indica que o relatório inclui apenas dados correspondentes aos anos fiscais de 2013 e 2014.
 
 ## <a name="filters-in-reading-or-editing-view"></a>Filtros na Vista de leitura e de edição
-Existem dois modos de interagir com os relatórios: a [Vista de leitura](consumer/end-user-reading-view.md) e a Vista de edição. As funções de filtragem disponíveis para si dependem do modo no qual se encontra.
+Existem dois modos de interagir com os relatórios: [Vista de leitura](consumer/end-user-reading-view.md) e Vista de edição. As funções de filtragem disponíveis para si dependem do modo no qual se encontra.
 
 * Na Vista de edição, pode adicionar filtros de relatório, de página, de pormenorização e de elemento visual. Ao guardar o relatório, os filtros são guardados com aquele, mesmo que o abra numa aplicação móvel. As pessoas que veem o relatório na Vista de leitura podem interagir com os filtros que adicionou, mas não podem adicionar novos filtros.
 * Na Vista de leitura, pode interagir com qualquer filtro existente no relatório e guardar as seleções que fizer. Não pode adicionar novos filtros.
@@ -89,7 +89,7 @@ Selecione uma etiqueta de eixo ou valor num elemento visual para realçar os out
 ![Realce cruzado](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [A nova experiência de filtros nos relatórios do Power BI](power-bi-report-filter.md)
 

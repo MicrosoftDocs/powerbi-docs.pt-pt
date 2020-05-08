@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
 ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79376759"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Formas de partilhar o seu trabalho no Power BI
@@ -64,7 +64,7 @@ Suponhamos que pretende distribuir o seu dashboard para um público alargado na 
 
 Após estes instalarem uma aplicação, podem vê-la no browser ou dispositivo móvel.
 
-Para que os seus utilizadores vejam a sua aplicação, precisam de ter também uma licença do Power BI Pro, ou a aplicação precisa de ser armazenada numa capacidade do Power BI Premium. Para mais detalhes, leia [O que é o Power BI Premium?](service-premium-what-is.md).
+Para que os seus utilizadores vejam a sua aplicação, precisam de ter também uma licença do Power BI Pro, ou a aplicação precisa de ser armazenada numa capacidade do Power BI Premium. Leia [O que é o Power BI Premium?](service-premium-what-is.md) para obter detalhes.
 
 Também pode publicar aplicações para os utilizadores exteriores à sua organização. Estes podem ver e interagir com os conteúdos da aplicação, mas não podem partilhá-la com terceiros. Agora já pode criar *aplicações de modelo* e implementá-las em qualquer cliente do Power BI.
 
@@ -106,7 +106,7 @@ Aumente a colaboração orientada por dados na sua organização ao incorporar o
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Imprimir ou guardar como PDF ou outro ficheiro estático
 
-Pode imprimir ou guardar como PDF (ou outro formato de ficheiro estático) todo um dashboard, mosaico de dashboard, página de relatório ou visualização a partir do serviço do Power BI. Os relatórios só podem ser impressos a uma página de cada vez. Não pode imprimir todo o relatório de uma vez. Mais informações sobre [imprimir ou guardar como um ficheiro estático](consumer/end-user-print.md).
+Pode imprimir ou guardar como PDF (ou outro formato de ficheiro estático) todo um dashboard, mosaico de dashboard, página de relatório ou visualização a partir do serviço do Power BI. Os relatórios só podem ser impressos uma página de cada vez. Não pode imprimir todo o relatório de uma só vez. Mais informações sobre [imprimir ou guardar como um ficheiro estático](consumer/end-user-print.md).
 
 ## <a name="embed-reports-in-secure-portals-or-public-web-sites"></a>Incorporar relatórios em sites públicos ou portais seguros
 
@@ -132,12 +132,12 @@ A opção **Publicar na Web** permite-lhe publicar relatórios do Power BI para 
 As *aplicações de modelo* foram concebidas para serem distribuídas publicamente, muitas vezes no Microsoft AppSource. Cria uma aplicação e, com pouca ou nenhuma codificação, pode implementá-la para qualquer cliente do Power BI. Os seus clientes ligam-se aos seus próprios dados e criam uma instância das suas próprias contas. Saiba mais sobre as [aplicações de modelo do Power BI](service-template-apps-overview.md).
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Partilhar dashboards com colegas e outras pessoas](service-share-dashboards.md)
 * [Criar e publicar uma aplicação no Power BI](service-create-distribute-apps.md)
 * [Incorporar relatórios num site ou portal seguro](service-embed-secure.md)
 
-Tem comentários? Vá ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
+Tem comentários? Aceda ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

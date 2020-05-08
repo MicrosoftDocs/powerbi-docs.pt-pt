@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
 ms.openlocfilehash: 67daafc0938216b135b31d3190c191402e9a10de
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435381"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Ver relatórios no local e KPIs na aplicação Windows no Power BI
@@ -19,7 +19,7 @@ A aplicação Power BI para o Windows 10 oferece acesso móvel atualizado e t�
 
 ![Relatórios móveis do Reporting Services](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
-## <a name="first-things-first"></a>As coisas mais importantes primeiro
+## <a name="first-things-first"></a>Comecemos pelo mais importante
 [Crie relatórios móveis do Reporting Services](https://msdn.microsoft.com/library/mt652547.aspx) com o SQL Server 2016 Enterprise Edition Mobile Report Publisher e publique-os no [portal Web do Reporting Services](https://msdn.microsoft.com/library/mt637133.aspx). Crie KPIs diretamente no portal Web. Organize-os em pastas e marque os seus favoritos para que os possa encontrar facilmente. 
 
 Em seguida, na aplicação Power BI para o Windows 10, veja os KPS, os relatórios móveis e os relatórios do Power BI organizados em pastas e agrupados como favoritos. 
@@ -28,7 +28,7 @@ Em seguida, na aplicação Power BI para o Windows 10, veja os KPS, os relató
 > O seu dispositivo precisa de executar o Windows 10. A aplicação funciona melhor em dispositivos com, pelo menos, 1 GB de RAM e 8 GB de armazenamento interno.
 
 >[!NOTE]
->O suporte à aplicação móvel Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+>O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saber mais](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="explore-samples-without-a-sql-server-2016-reporting-services-server"></a>Explorar exemplos sem um servidor do SQL Server 2016 Reporting Services
 Mesmo que não tenha acesso a um portal Web do Reporting Services, ainda pode explorar as funcionalidades dos relatórios móveis do Reporting Services.
@@ -72,7 +72,7 @@ Os KPIs dos Reporting Services, os relatórios móveis e os relatórios do Power
 
 ![Pastas de relatórios](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-folders.png)
 
-* Toque num KPI para vê-lo no modo de foco.
+* Toque num KPI para vê-lo no modo de detalhe.
   
     ![KPI no modo de detalhe](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-kpis.png)
 * Toque num relatório móvel para abri-lo e interagir com ele na aplicação do Power BI.
@@ -105,8 +105,8 @@ Os KPIs e relatórios móveis do Reporting Services não são criados na aplica�
 * [Crie os seus relatórios móveis do Reporting Services](https://msdn.microsoft.com/library/mt652547.aspx), e publique-os num portal Web do Reporting Services.
 * Crie [KPIs num portal Web do Reporting Services](https://msdn.microsoft.com/library/mt683632.aspx)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Introdução à aplicação móvel Power BI para Windows 10](mobile-windows-10-phone-app-get-started.md)  
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)  
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

@@ -11,10 +11,10 @@ ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
 ms.openlocfilehash: f04621fdfe7e6055d84fa4d2672c874837ff5ea4
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79495280"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>O que é o Power BI Embedded no Azure?
@@ -39,7 +39,7 @@ O [Power BI Embedded](https://azure.microsoft.com/pricing/details/power-bi-embed
 
 O Power BI Embedded permite que se concentre naquilo que faz melhor: criar excelentes aplicações. Pode gerir e desenvolver com o Power BI Embedded através das ferramentas e competências que já possui.
 
-* [**O portal do Azure**](https://portal.azure.com/): Uma aplicação baseada na Web para gerir todos os serviços do Azure
+* [**O portal do Azure**](https://portal.azure.com/): uma aplicação baseada na Web para gerir todos os serviços do Azure
 * [**O Visual Studio Code**](https://code.visualstudio.com/docs): um editor de código de código aberto, transferível e gratuito para Windows, macOS e Linux que suporta extensões
 * [**O Power BI Desktop**](https://powerbi.microsoft.com/desktop/): uma ferramenta transferível e gratuita para criar relatórios interativos e avançados com análise visual
 
@@ -47,11 +47,11 @@ Através da utilização da API REST, o Power BI Embedded permite-lhe programar 
 
 ## <a name="engage-with-the-power-bi-engineering-team"></a>Interagir com a equipa de engenharia do Power BI
 
-* [Communities](https://community.powerbi.com/): Faça perguntas sobre o Power BI
-* [Power BI Ideas](https://ideas.powerbi.com): Peça e vote em funcionalidades
-* [Reddit](https://www.reddit.com/r/PowerBI/): Debata sobre o Power BI
+* [Communities](https://community.powerbi.com/): faça perguntas sobre o Power BI
+* [Power BI Ideias](https://ideas.powerbi.com): peça e vote em funcionalidades
+* [Reddit](https://www.reddit.com/r/PowerBI/): debata sobre o Power BI
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Veja a [página de preços](https://azure.microsoft.com/pricing/details/power-bi-embedded/) para obter detalhes sobre os nós de capacidade.
 

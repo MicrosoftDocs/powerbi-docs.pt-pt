@@ -10,10 +10,10 @@ ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: a82465adb5b0c7fe8be0e6e724c5eda1bfcf7ec0
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79206959"
 ---
 # <a name="work-with-data-view-in-power-bi-desktop"></a>Trabalhar com a Vista de dados no Power BI Desktop

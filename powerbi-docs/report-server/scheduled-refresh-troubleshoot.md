@@ -9,10 +9,10 @@ ms.topic: troubleshooting
 ms.date: 11/01/2017
 ms.author: maggies
 ms.openlocfilehash: dd7d6a140dd9828a188f22144e31ea89e342c370
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698699"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Resolução de problemas da atualização agendada no Power BI Report Server
@@ -50,7 +50,7 @@ As seguintes definições podem ser utilizadas para afetar a atualização agend
 
 **Definições no SSMS:**
 
-| Definição | Descrição |
+| Definições | Descrição |
 | --- | --- |
 | MaxFileSizeMb |O tamanho máximo de ficheiro para os relatórios carregados. A predefinição é 1000 MB (1 GB). O valor máximo é 2000 MB (2GB). |
 | ModelCleanupCycleMinutes |Define a frequência de verificação do modelo para expulsá-lo da memória. A predefinição é 15 minutos. |

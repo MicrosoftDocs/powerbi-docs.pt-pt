@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: aed0d1e4dec6f6efe49dd39cd5b6fc60f8977e44
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488620"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Como comprar o Power BI Premium
@@ -35,7 +35,7 @@ Pode criar um novo inquilino com um SKU P1 do Power BI Premium configurado ou po
 
 ### <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>Criar um novo inquilino com o Power BI Premium P1
 
-Se não tiver um inquilino existente e pretender criar um, pode comprar o Power BI Premium ao mesmo tempo. A seguinte ligação vai orientá-lo no processo de criação de um novo inquilino e vai permitir que compre o Power BI Premium: [a oferta Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). Quando criar o inquilino, ser-lhe-á automaticamente atribuída a função de Administrador Global do Microsoft 365 para esse mesmo inquilino.
+Se não tiver um inquilino existente e pretender criar um, pode comprar o Power BI Premium ao mesmo tempo. A seguinte ligação irá orientá-lo no processo de criação de um novo inquilino e permitir que compre o Power BI Premium: [a oferta Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). Quando criar o inquilino, ser-lhe-á automaticamente atribuída a função de Administrador Global do Microsoft 365 para esse mesmo inquilino.
 
 Após comprar capacidade, saiba como [gerir capacidades](service-admin-premium-manage.md#manage-capacity) e [atribuir áreas de trabalho](service-admin-premium-manage.md#assign-a-workspace-to-a-capacity) a uma capacidade.
 
@@ -169,7 +169,7 @@ Siga estes passos para comprar SKUs A no portal do Azure:
 
 Após comprar capacidade, saiba como [gerir capacidades](service-admin-premium-manage.md#manage-capacity) e [atribuir áreas de trabalho](service-admin-premium-manage.md#assign-a-workspace-to-a-capacity) a uma capacidade.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [Configurar e gerir capacidades no Power BI Premium](service-admin-premium-manage.md)\
 [Página de preços do Power BI](https://powerbi.microsoft.com/pricing/)\

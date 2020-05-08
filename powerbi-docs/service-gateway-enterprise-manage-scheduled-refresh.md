@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 13d8cd9838cdcb035e7dd30a1180ac77957441ea
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207419"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Gerir a origem de dados – Atualização importada/agendada
@@ -56,7 +56,7 @@ Depois de criar a origem de dados, esta fica disponível para utilização com a
 > [!NOTE]
 > Os nomes do servidor e da base de dados têm de corresponder entre o Power BI Desktop e a origem de dados no gateway de dados no local.
 
-A ligação entre o conjunto de dados e a origem de dados no gateway é baseada no nome do servidor e no nome da base de dados. Estes nomes têm de corresponder. Por exemplo, se fornecer um endereço IP ao nome do servidor, no Power BI Desktop, terá de utilizar o endereço IP para a origem de dados na configuração do gateway. Se utilizar *SERVIDOR\INSTÂNCIA* no Power BI Desktop, também terá de o utilizar na origem de dados configurada para o gateway.
+A ligação entre o conjunto de dados e a origem de dados no gateway baseia-se no nome do servidor e no nome da base de dados. Estes nomes têm de corresponder. Por exemplo, se fornecer um endereço IP ao nome do servidor, no Power BI Desktop, terá de utilizar o endereço IP para a origem de dados na configuração do gateway. Se utilizar *SERVIDOR\INSTÂNCIA* no Power BI Desktop, também terá de o utilizar na origem de dados configurada para o gateway.
 
 Se estiver listado no separador **Utilizadores** da origem de dados configurada no gateway e o nome do servidor e da base de dados corresponderem, verá o gateway como uma opção a utilizar com a atualização agendada.
 
@@ -69,7 +69,7 @@ Se estiver listado no separador **Utilizadores** da origem de dados configurada 
 
 O OAuth não é um esquema de autenticação suportado com o gateway de dados no local. Não é possível adicionar origens de dados que exigem o OAuth. Se o conjunto de dados tiver uma origem de dados que exige o OAuth, não poderá utilizar o gateway para a atualização agendada.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Resolução de problemas do gateway de dados no local](/data-integration/gateway/service-gateway-tshoot)
 * [Resolver problemas de gateways – Power BI](service-gateway-onprem-tshoot.md)

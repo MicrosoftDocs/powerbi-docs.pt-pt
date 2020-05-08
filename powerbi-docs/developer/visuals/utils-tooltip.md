@@ -9,16 +9,16 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
 ms.openlocfilehash: 67470ec405806f44fdb483e857d222ad4ff05a45
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379174"
 ---
 # <a name="tooltip-utils"></a>Utilitários de descrição
 Este artigo irá ajudá-lo a instalar, importar e utilizar utilitários de descrição. Este utilitário é útil para qualquer personalização de descrições em elementos visuais do Power BI.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 Para utilizar o pacote, deve ter o seguinte:
 * [node.js](https://nodejs.org) (recomendamos a versão LTS mais recente)
 * [npm](https://www.npmjs.com/) (a versão mínima suportada é a 3.0.0)

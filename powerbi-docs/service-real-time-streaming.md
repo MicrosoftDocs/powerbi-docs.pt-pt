@@ -10,10 +10,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: ed1100a418259845e6a2656e1c5bab6d80358df0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381083"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmissão em fluxo em tempo real no Power BI
@@ -43,7 +43,7 @@ Existem dois factos a ter em atenção no que diz respeito a mosaicos afixados a
 * Depois de um elemento visual ser afixado a um dashboard, pode utilizar a opção **Perguntas e Respostas** para fazer perguntas ao conjunto de dados push em linguagem natural. Após efetuar uma consulta **Perguntas e Respostas**, pode voltar a afixar o elemento visual resultante no dashboard; deste modo, este dashboard *também* será atualizado em tempo real.
 
 ### <a name="streaming-dataset"></a>Conjunto de dados de transmissão
-Com um **conjunto de dados de transmissão em fluxo**, os dados também são emitidos via push para o serviço Power BI, com uma diferença importante: o Power BI só armazena os dados numa cache temporária, que expira rapidamente. A cache temporária só é utilizada para apresentar elementos visuais que tenham algum sentido transitório em termos de histórico, como um gráfico de linhas com um intervalo de tempo de uma hora.
+Com um **conjunto de dados de transmissão em fluxo**, os dados também são emitidos via push para o serviço Power BI, com uma diferença importante: o Power BI só armazena os dados numa cache temporária, que expira rapidamente. A cache temporária só é utilizada para apresentar elementos visuais que tenham algum sentido transitório em termos de histórico, como um gráfico de linhas com um intervalo de tempo de uma hora.
 
 Com um **conjunto de dados de transmissão em fluxo**, *não* há qualquer base de dados subjacente, pelo que *não pode* criar elementos visuais de relatório com os dados transmitidos a partir do fluxo. Isso significa que não pode utilizar funcionalidades de relatório como a filtragem, os elementos visuais do Power BI e outras funções de relatório.
 
@@ -175,9 +175,9 @@ Os fluxos de dados do **PubNub** são, muitas vezes, volumosos e o seu formato o
 ## <a name="example-of-using-real-time-streaming-in-power-bi"></a>Exemplo de utilização da transmissão em fluxo em tempo real no Power BI
 Segue-se um exemplo rápido de como a transmissão em fluxo em tempo real funciona no Power BI. Pode acompanhar este exemplo a par e passo para constatar em primeira mão todas as vantagens da transmissão em fluxo em tempo real.
 
-Neste exemplo, utilizamos um fluxo disponível ao público do **PubNub**. Eis os passos:
+Neste exemplo, utilizamos um fluxo disponível ao público do **PubNub**. Aqui estão os passos para o fazer:
 
-1. No **serviço Power BI**, selecione um dashboard (ou crie um novo) e selecione **Adicionar mosaico** > **Dados de Transmissão em Fluxo Personalizados** e, em seguida, selecione o botão **Seguinte**.
+1. No **serviço Power BI**, selecione um dashboard (ou crie um novo) e selecione **Adicionar mosaico** > **Dados de Transmissão em Fluxo Personalizados** e, em seguida, selecione o botão  **Seguinte**.
    
    ![](media/service-real-time-streaming/real-time-streaming_1.png)
 2. Se ainda não tiver origens de dados de transmissão em fluxo, selecione a ligação **gerir dados** (logo por cima do botão **Seguinte**) e, em seguida, selecione **+ Adicionar dados de transmissão em fluxo** na ligação presente no canto superior direito da janela. Selecione **PubNub** e, depois, selecione **Seguinte**.
@@ -240,7 +240,7 @@ A atualização automática de página funciona ao nível da página de relatór
 Saiba mais sobre a atualização automática de página no artigo de [atualização automática de página](desktop-automatic-page-refresh.md).
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Seguem-se algumas ligações que poderão ser úteis quando estiver a trabalhar com a transmissão em fluxo em tempo real no Power BI:
 
 * [Descrição geral da API REST do Power BI com dados em tempo real](https://docs.microsoft.com/rest/api/power-bi/)

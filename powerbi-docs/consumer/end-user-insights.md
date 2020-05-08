@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 891a9b1a5afee26bdb2d6b363ccd2cee5f2461cb
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377290"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Ver informações de dados nos mosaicos do dashboard com o Power BI
@@ -64,6 +64,6 @@ Para voltar ao seu relatório, selecione **Sair do Modo de detalhe** no canto su
 - **Ver informações** não funciona com todos os tipos de mosaicos do dashboard. Por exemplo, não está disponível para elementos visuais do Power BI.<!--[Power BI visuals](end-user-custom-visuals.md)-->
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Saiba mais sobre os [tipos de Informações Rápidas disponíveis](end-user-insight-types.md)
 

@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 344b041b8cca3e6ed4be1f40c0e783df18315679
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378599"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Amostragem de linhas de alta densidade no Power BI
@@ -91,7 +91,7 @@ O novo algoritmo para a amostragem de linhas de alta densidade é uma melhoria i
 * A definição **Mostrar itens sem dados** não é suportada com o novo algoritmo.
 * O novo algoritmo não é suportado quando é utilizada uma ligação em direto para um modelo alojado no SQL Server Analysis Services (versão 2016 ou anterior). É suportado em modelos alojados no **Power BI** ou Azure Analysis Services.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Para obter informações sobre a amostragem de alta densidade em gráficos de dispersão, veja o seguinte artigo.
 
 * [Amostragem de Alta Densidade em gráficos de dispersão do Power BI](desktop-high-density-scatter-charts.md)

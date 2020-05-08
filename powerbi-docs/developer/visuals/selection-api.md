@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 2cca057b2a91129745fe739160ffbb3e9e25b6da
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80113698"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Adicionar interatividade ao elemento visual através das seleções de elementos visuais do Power BI
@@ -81,7 +81,7 @@ Este objeto tem métodos correspondentes para criar `selections` para diferentes
 
 Vamos rever como é que as seleções são representadas no mapeamento de vista de dados categóricos para um conjunto de dados de exemplo:
 
-| Fabricante | Tipo | Valor |
+| Manufacturer | Tipo | Value |
 | - | - | - |
 | Chrysler | Carro Nacional | 28883 |
 | Chrysler | Camião Nacional | 117131 |
@@ -161,7 +161,7 @@ O elemento visual também deverá ser capaz de segmentar os dados por `Manufactu
 
 Por exemplo, quando o utilizador seleciona `Chrysler` por `Manufacturer`, os outros elementos visuais devem mostrar os seguintes dados:
 
-| Fabricante | Tipo | Valor |
+| Manufacturer | Tipo | Value |
 | - | - | - |
 | **Chrysler** | Carro Nacional | 28883 |
 | **Chrysler** | Camião Nacional | 117131 |
@@ -170,7 +170,7 @@ Por exemplo, quando o utilizador seleciona `Chrysler` por `Manufacturer`, os out
 
 Quando o utilizador seleciona `Import Car` por `Type` (seleciona os dados por série), os outros elementos visuais devem mostrar os seguintes dados:
 
-| Fabricante | Tipo | Valor |
+| Manufacturer | Tipo | Value |
 | - | - | - |
 | Chrysler | **Carro Importado** | 0 |
 | Ford | **Carro Importado** | 0 |
@@ -372,7 +372,7 @@ button.addEventListener("click", (mouseEvent) => {
 });
 ```
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Saiba como utilizar seleções para vincular as propriedades de elementos de dados a pontos de dados](objects-properties.md#objects-selector)
 

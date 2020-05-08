@@ -10,10 +10,10 @@ ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 28be15b1f62f410c14faaa5d3e8c36060596c466
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79208132"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Preparação personalizada de dados no Power BI
@@ -102,7 +102,7 @@ Ao armazenar dados de negócio no formato padronizado do **Common Data Service**
 * Introdução aos fluxos de dados para os programadores
 
 
-## <a name="next-steps"></a>Próximos Passos
+## <a name="next-steps"></a>Passos Seguintes
 
 Este artigo forneceu uma descrição geral da preparação personalizada para macrodados no Power BI e as várias formas de utilização. Os artigos seguintes entram em mais detalhes sobre os cenários de utilização comuns dos fluxos de dados. 
 
@@ -113,7 +113,7 @@ Este artigo forneceu uma descrição geral da preparação personalizada para ma
 * [Integração dos fluxos de dados e do Azure Data Lake](service-dataflows-azure-data-lake-integration.md)
 
 Para obter mais informações sobre o Power Query e a atualização agendada, pode ler estes artigos:
-* [Descrição geral das consultas no Power BI Desktop](desktop-query-overview.md)
+* [Descrição geral de consulta no Power BI Desktop](desktop-query-overview.md)
 * [Configurar a atualização agendada](refresh-scheduled-refresh.md)
 
 Para obter mais informações sobre o Common Data Service, pode ler o seguinte artigo de descrição geral:

@@ -11,10 +11,10 @@ ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79436094"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Criar e utilizar gráficos de combinação no Power BI
@@ -43,7 +43,7 @@ Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](https:
 
 1. Abra o **Ficheiro PBIX do Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+1. Seleção ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
 
 
@@ -68,7 +68,7 @@ Veja o Will a criar um gráfico de combinação através do exemplo Vendas e Mar
     ![exemplo de tutorial de combinação](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Selecione **Mais opções** (...) no canto superior direito da visualização e, em seguida, **Ordenar por > MêsFiscal**. Para alterar a sequência de ordenação, selecione as reticências novamente e selecione **Ordenação ascendente** ou **Ordenação descendente**. Para este exemplo, vamos utilizar **Ordenação ascendente**.
 
-6. Converta o gráfico de colunas num gráfico de combinação. Estão disponíveis dois gráficos de combinação: **Coluna de linhas e empilhada** e **Coluna de linhas e em cluster**. Com o gráfico de colunas selecionado, no painel **Visualizações**, selecione **Gráfico de linhas e de colunas agrupadas**.
+6. Converta o gráfico de colunas num gráfico de combinação. Existem dois gráficos de combinação disponíveis: **Linhas e colunas empilhadas**e **Linhas e colunas agrupadas**. Com o gráfico de colunas selecionado, no painel **Visualizações**, selecione **Gráfico de linhas e de colunas agrupadas**.
 
     ![exemplo de converter gráfico de combinação](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
 7. No painel **Campos**, arraste **Sales** (Vendas) \> **Last Year Sales** (Vendas do Ano Passado) até ao grupo **Valores de Linha**.
@@ -83,13 +83,13 @@ Veja o Will a criar um gráfico de combinação através do exemplo Vendas e Mar
 Nesta tarefa, vamos comparar as vendas e a margem bruta.
 
 1. Crie um novo gráfico de linhas que acompanha a **% da Margem Bruta do ano passado** por **Mês Fiscal**. Selecione as reticências para ordenar por **Mês** e **Ascendente**.  
-Em janeiro, a percentagem de Margem Bruta foi de 35%, chegando ao máximo de 45% em abril, caindo em julho e chegando ao máximo novamente em agosto. Será que vamos ver um padrão semelhante nas vendas do ano passado e deste ano?
+Em janeiro, a % de Margem Bruta foi de 35%, alcançou o seu máximo de 45% em abril, caiu em julho e regressou ao máximo novamente em agosto. Será que vamos ver um padrão semelhante nas vendas do ano passado e deste ano?
 
    ![exemplo de gráfico de combinação de vendas](media/power-bi-visualization-combo-chart/combo1-new.png)
 2. Adicione **Vendas Deste Ano > Valor** e **Vendas do Ano Passado** ao gráfico de linhas. A escala de **% de Margem Bruta do Ano Passado** é muito inferior à escala de **Vendas**, o que dificulta a comparação.      
 
    ![exemplo de gráfico de combinação com linha plana](media/power-bi-visualization-combo-chart/flatline-new.png)
-3. Para tornar o elemento visual mais fácil de ler e interpretar, converta o gráfico de linhas num gráfico de Linhas e Colunas Empilhadas.
+3. Para tornar o elemento visual mais fácil de ler e interpretar, converta o gráfico de linhas num Gráfico de Linhas e Coluna Empilhada.
 
    ![exemplo de conversão em gráfico de combinação](media/power-bi-visualization-combo-chart/converttocombo-new.png)
 
@@ -124,7 +124,7 @@ Aqui poderá:
 
 Realçar uma coluna ou linha num gráfico de combinação destaca e filtra de forma cruzada as outras visualizações na página de relatório e vice-versa. Para alterar este comportamento padrão, utilize as [interações visuais](../service-reports-visual-interactions.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [Gráficos em anel no Power BI](power-bi-visualization-doughnut-charts.md)
 

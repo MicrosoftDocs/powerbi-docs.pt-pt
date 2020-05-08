@@ -1,5 +1,5 @@
 ---
-title: Obter um token de acesso de autenticação
+title: Get an authentication access token (Obter um token de acesso de autenticação)
 description: Instruções para enviar dados por push – obter um token de acesso de autenticação
 author: KesemSharabi
 ms.author: kesharab
@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
 ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488275"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Passo 2: Obter um token de acesso de autenticação
@@ -21,7 +21,7 @@ Este artigo é o segundo passo da série [Enviar dados por push para um conjunto
 
 No passo 1, [registou uma aplicação de cliente no Azure AD](../embedded/register-app.md). Neste passo, obtém um token de acesso de autenticação. As aplicações do Power BI estão integradas no Azure Active Directory para fornecer início de sessão seguro e autorização à sua aplicação. A sua aplicação utiliza um token para autenticar no Azure AD e obter acesso aos recursos do Power BI.
 
-## <a name="get-an-authentication-access-token"></a>Obter um token de acesso de autenticação
+## <a name="get-an-authentication-access-token"></a>Get an authentication access token (Obter um token de acesso de autenticação)
 
 Antes de começar, certifique-se de que concluiu o [passo anterior](../embedded/register-app.md) na série [Enviar dados por push para um conjunto de dados do Power BI](walkthrough-push-data.md). 
 
@@ -180,10 +180,10 @@ namespace walkthrough_push_data
 
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * O próximo artigo desta série é [Criar um conjunto de dados no Power BI](walkthrough-push-data-create-dataset.md)
-* [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
+* [Descrição Geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 * [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

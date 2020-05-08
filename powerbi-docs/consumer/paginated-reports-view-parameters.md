@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: 50de63aed17d9fab695119d5c94fa4a5d9312702
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74834592"
 ---
 # <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>Ver parâmetros para relatórios paginados no serviço Power BI
@@ -35,6 +35,6 @@ Quando visualizar um relatório que tenha parâmetros, a barra de ferramentas do
 
 5. **Valores predefinidos** – se todos os parâmetros tiverem os valores predefinidos, o relatório será executado automaticamente na primeira visualização. Alguns parâmetros deste relatório não têm valores predefinidos pelo que não irá ver o relatório até que selecione os valores.  
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 [Relatórios paginados no serviço Power BI](end-user-paginated-report.md)

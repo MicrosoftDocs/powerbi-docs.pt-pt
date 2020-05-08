@@ -10,10 +10,10 @@ ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80302488"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Visualizar os dashboards e os relatórios partilhados comigo
@@ -26,7 +26,7 @@ Quando um colega partilha conteúdo consigo, através do botão **Partilhar**, e
 
 ![Ícone Partilhar](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-Veja a Amália a explicar a lista de conteúdo **Partilhado comigo** e a demonstrar como navegar e filtrar a lista. Em seguida, siga as instruções passo-a-passo abaixo do vídeo para experimentar. Para que possa ver dashboards partilhados consigo, tem de ter uma licença do Power BI Pro. Para mais detalhes, leia [O que é o Power BI Premium?](../service-premium-what-is.md).
+Veja a Amália a explicar a lista de conteúdo **Partilhado comigo** e a demonstrar como navegar e filtrar a lista. Em seguida, siga as instruções passo-a-passo abaixo do vídeo para experimentar. Para que possa ver dashboards partilhados consigo, tem de ter uma licença do Power BI Pro. Leia [O que é o Power BI Premium?](../service-premium-what-is.md) para obter detalhes.
     
 
 > [!NOTE]

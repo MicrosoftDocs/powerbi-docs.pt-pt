@@ -10,10 +10,10 @@ ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 6e468ac429c26f3b1880501914816ac60f8b7858
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378737"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Exportar relatórios do Power BI Desktop para PDF
@@ -40,7 +40,7 @@ Uma vez que os padrões de fundo não são exportados para o PDF, deve prestar e
 
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Existem vários tipos de elementos visuais e funcionalidades interessantes no **Power BI Desktop**. Para obter mais informações, veja os seguintes recursos:
 
 * [Utilizar elementos visuais para melhorar relatórios do Power BI](desktop-visual-elements-for-reports.md)

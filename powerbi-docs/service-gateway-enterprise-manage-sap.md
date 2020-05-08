@@ -10,10 +10,10 @@ ms.date: 07/16/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 6c944b52deb72e556506d88f4358af2c816b46fc
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698170"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Gerir a sua origem de dados – SAP HANA
@@ -31,7 +31,7 @@ Para obter mais informações sobre como adicionar uma origem de dados, veja [Ad
 Após selecionar o tipo de origem de dados SAP HANA, preencha as informações **Servidor**, **Nome de utilizador** e **Palavra-passe** referentes à origem de dados.
 
 > [!NOTE]
-> Todas as consultas à origem de dados serão executadas com estas credenciais. Para saber mais sobre a forma como as credenciais são armazenadas, veja [Armazenar credenciais encriptadas na cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
+> Todas as consultas à origem de dados serão executadas com essas credenciais. Para saber mais sobre a forma como as credenciais são armazenadas, veja [Armazenar credenciais encriptadas na cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Preenchimento das definições de origem de dados](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
 
@@ -52,7 +52,7 @@ Depois de criar a origem de dados, esta fica disponível para utilização com a
 > [!NOTE]
 > Os nomes do servidor e da base de dados têm de corresponder entre o Power BI Desktop e a origem de dados no gateway de dados no local.
 
-A ligação entre o conjunto de dados e a origem de dados no gateway é baseada no nome do servidor e no nome da base de dados. Estes nomes têm de corresponder. Por exemplo, se fornecer um endereço IP ao nome do servidor, no Power BI Desktop, terá de utilizar o endereço IP para a origem de dados na configuração do gateway. Se utilizar *SERVIDOR\INSTÂNCIA* no Power BI Desktop, também terá de o utilizar na origem de dados configurada para o gateway.
+A ligação entre o conjunto de dados e a origem de dados no gateway baseia-se no nome do servidor e no nome da base de dados. Estes nomes têm de corresponder. Por exemplo, se fornecer um endereço IP ao nome do servidor, no Power BI Desktop, terá de utilizar o endereço IP para a origem de dados na configuração do gateway. Se utilizar *SERVIDOR\INSTÂNCIA* no Power BI Desktop, também terá de o utilizar na origem de dados configurada para o gateway.
 
 Este requisito aplica-se ao DirectQuery e à atualização agendada.
 
@@ -68,7 +68,7 @@ Se estiver listado no separador **Utilizadores** da origem de dados configurada 
 
 ![Apresentar os utilizadores](media/service-gateway-enterprise-manage-sap/powerbi-gateway-enterprise-schedule-refresh.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Resolução de problemas do gateway de dados no local](/data-integration/gateway/service-gateway-tshoot)
 * [Resolver problemas de gateways – Power BI](service-gateway-onprem-tshoot.md) 

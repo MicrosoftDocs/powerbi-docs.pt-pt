@@ -10,10 +10,10 @@ ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2492996c8bbc6ea7a8d359b4b1015de67bb17430
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378714"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Criar descrições com base em páginas de relatório no Power BI Desktop
@@ -118,7 +118,7 @@ Existem algumas limitações e considerações a ter em conta relativamente às 
 
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações sobre funcionalidades semelhantes ou como interagir com descrições de relatórios, veja os artigos seguintes:
 
 * [Utilizar a pormenorização no Power BI Desktop](desktop-drillthrough.md)

@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: 4b30e2fbf4ec3607b3ee155749a1ddeeb9f76cad
-ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80147360"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configurar o suporte da Multi-Geo para o Power BI Premium
 
 A Multi-Geo é uma funcionalidade do Power BI Premium que ajuda os clientes multinacionais a cumprir os requisitos regionais, específicos da indústria ou da residência dos dados organizacionais. Como cliente do Power BI Premium, pode implementar conteúdo em centros de dados em regiões diferentes da região base do inquilino do Power BI. Uma área geográfica (geografia) pode conter mais do que uma região. Por exemplo, os Estados Unidos são uma área geográfica e E.U.A. Centro-Oeste e E.U.A. Centro-Sul são regiões nos Estados Unidos. Pode optar por implementar conteúdo em qualquer uma das seguintes áreas geográficas:
 
-- Estados Unidos
-- Canadá
-- Reino Unido
-- Brasil
+- United States
+- Canada
+- United Kingdom
+- Brazil
 - Europa
 - Japão
 - Índia
@@ -96,7 +96,7 @@ Pode retirar as áreas de trabalho da capacidade Multi-Geo de uma das seguintes 
 
 - De momento, a funcionalidade de [fluxos de trabalho](service-dataflows-overview.md) não é suportada na Multi-Geo.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 - [O que é o Power BI Premium?](service-premium-what-is.md)
 - [Multi-Geo para as capacidades do Power BI Embedded](developer/embedded/embedded-multi-geo.md)

@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
 ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381474"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizações em relatórios do Power BI
@@ -67,7 +67,7 @@ No serviço Power BI, quando a visualização estiver da forma que quer, pode [a
 
 - O limite máximo de elementos visuais é 100 campos (medidas ou colunas). Se o carregamento do seu elemento visual falhar, reduza o número de campos.   
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 * [Elementos visuais do Power BI](../developer/visuals/power-bi-custom-visuals.md)

@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 66fe4a9eb109565108cd150369b2260a9d3e1d06
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877771"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Utilizar Ver Dados e Ver Registos no Power BI Desktop
@@ -86,7 +86,7 @@ Para voltar ao relatório, selecione **< Voltar ao Relatório** no canto superio
 > - Não pode utilizar **Ver Registos** quando o elemento visual utiliza uma medida calculada.
 > - Não pode utilizar **Ver Registos** quando estiver ligado a um modelo multidimensional (MD).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Existem todos os tipos de formatação de relatórios e funcionalidades de gestão de dados no **Power BI Desktop**. Consulte os seguintes recursos para alguns exemplos:
 
 * [Utilizar agrupamento e discretização no Power BI Desktop](desktop-grouping-and-binning.md)

@@ -11,10 +11,10 @@ ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273208"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Adicionar caixas de texto e formas a relatórios do Power BI
@@ -33,7 +33,7 @@ Veja o Will a utilizar o Power BI Desktop para [adicionar imagens estáticas a u
    ![Selecionar caixa de texto](media/power-bi-reports-add-text-and-shapes/pbi_textbox.png)
 3. Escreva o texto na caixa de texto e, opcionalmente, formate o tipo de letra, a cor e o alinhamento do texto. 
    
-   ![Introduzir o texto](media/power-bi-reports-add-text-and-shapes/pbi_textbox2new.png)
+   ![Introduzir texto](media/power-bi-reports-add-text-and-shapes/pbi_textbox2new.png)
 4. Para posicionar a caixa de texto, selecione a área cinzenta na parte superior e arraste. Para redimensionar a caixa de texto, selecione e arraste qualquer uma das alças de contorno. 
    
    ![Posicionar a caixa de texto](media/power-bi-reports-add-text-and-shapes/textboxsmaller.gif)
@@ -44,7 +44,7 @@ Veja o Will a utilizar o Power BI Desktop para [adicionar imagens estáticas a u
 
 6. Para fechar a caixa de texto, selecione qualquer espaço em branco na tela do relatório. 
 
-7. Selecionar o ícone afixar  ![Ícone de afixar](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) para afixar a caixa de texto a um dashboard. 
+7. Selecionar o ícone afixar  ![ícone de afixação](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) para afixar a caixa de texto a um dashboard. 
 
 ## <a name="add-a-shape-to-a-report"></a>Adicionar uma forma a um relatório
 1. Coloque o cursor em qualquer parte da tela do relatório e selecione **Formas**.
@@ -62,7 +62,7 @@ Veja o Will a utilizar o Power BI Desktop para [adicionar imagens estáticas a u
    > 
    > 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Poderá também estar interessado nos seguintes artigos:
 

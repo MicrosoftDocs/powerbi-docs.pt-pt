@@ -11,10 +11,10 @@ ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 021aeafab4deb5afb39cd3986b3fb68b62b483f0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381267"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Adicionar hiperligações (URLs) a uma tabela ou matriz
@@ -145,8 +145,8 @@ P: Posso utilizar um URL personalizado como uma hiperligação numa tabela ou nu
 R: Não. Pode utilizar um ícone de ligação. Se necessitar de texto personalizado para as hiperligações e se a sua lista de URLs for pequena, considere utilizar antes uma caixa de texto.
 
 
-## <a name="next-steps"></a>Próximos passos
-[Visualizações em relatórios do Power BI](visuals/power-bi-report-visualizations.md)
+## <a name="next-steps"></a>Próximas etapas
+[Visualizações nos relatórios do Power BI](visuals/power-bi-report-visualizations.md)
 
 [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
 

@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: e45d3e109d072984d6c01b2cbdfdd9b53e936a3b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377219"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportar relatórios do Power BI para PDF
@@ -68,5 +68,5 @@ Existem algumas considerações e limitações a ter em conta ao trabalhar com a
 * Na exportação para PDF, os tipos de letra personalizados em temas que utilizem os mesmos serão substituídos por um tipo de letra predefinido.
 * Embora procuremos proporcionar uma experiência consistente, não podemos garantir que o PDF exportado do serviço Power BI irá sempre corresponder ao PDF exportado de um ficheiro local do Power BI Desktop.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 [Imprimir um relatório](end-user-print.md)

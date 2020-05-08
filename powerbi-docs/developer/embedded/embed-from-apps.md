@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 11/27/2018
 ms.openlocfilehash: 2298350051db947c037c5e2e73f5dc963aa049bc
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114618"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Incorporar relatórios ou dashboards a partir de aplicações
@@ -39,7 +39,7 @@ No Power BI, pode criar aplicações para juntar dashboards e relatórios num ú
 
 3. Utilize o embedURL obtido no passo 2 com o SDK de JavaScript.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Reveja como incorporar áreas de trabalho para os seus clientes terceiros e a sua organização:
 

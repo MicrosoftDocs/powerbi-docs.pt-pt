@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 02/08/2020
 ms.author: painbar
 ms.openlocfilehash: 3be0ab1eb45716d0b9b7736d3e5bf5b8bfc25891
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79436002"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Ver relatórios e dashboards no modo de apresentação no Surface Hub e em dispositivos com o Windows 10
@@ -30,7 +30,7 @@ Pode também [ver dashboards e relatórios em modo de ecrã inteiro a partir do 
 > O modo de apresentação é diferente do [modo de detalhe para mosaicos](mobile-tiles-in-the-mobile-apps.md).
 
 >[!NOTE]
->O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+>O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saber mais](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="use-presentation-mode"></a>Utilizar o modo de apresentação
 Na aplicação móvel Power BI, toque no ícone **Ecrã inteiro** para entrar no modo de ecrã inteiro.
@@ -55,7 +55,7 @@ Pode desancorar a barra de ferramentas e arrastá-la para a colocar em qualquer 
 ![Relatório no modo de apresentação e a barra de ferramentas desancorada](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar-2.png)
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 * [Ver dashboards e relatórios em modo de ecrã inteiro a partir do serviço Power BI](../end-user-focus.md)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 
