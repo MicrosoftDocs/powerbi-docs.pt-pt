@@ -10,10 +10,10 @@ ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77576866"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>Ligar ao Snowflake no Serviço Power BI
@@ -66,7 +66,7 @@ Uma vez efetuado, quaisquer utilizadores adicionais devem utilizar automaticamen
 
 Se optar por não ativar o SSO, os utilizadores que atualizam o relatório vão utilizar as credenciais do utilizador que iniciou sessão, como a maioria dos outros relatórios do Power BI.
 
-### <a name="troubleshooting"></a>Resolução de problemas
+### <a name="troubleshooting"></a>Troubleshooting (Resolução de problemas)
 
 Se tiver algum problema com a integração, consulte o [guia de resolução de problemas](https://docs.snowflake.net/manuals/LIMITEDACCESS/oauth-powerbi.html#troubleshooting) do Snowflake.
 

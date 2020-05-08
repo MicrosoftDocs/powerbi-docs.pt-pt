@@ -10,10 +10,10 @@ ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: de30da9c5cf6ad2046a99fb327cdad825725a14d
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637831"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>O "novo aspeto" do serviço Power BI
@@ -40,7 +40,7 @@ Qualquer utilizador do serviço Power BI pode utilizar o novo aspeto. Basta clic
 
 ![Ativar o novo aspeto](media/service-new-look/power-bi-new-look-off.png)
 
-Se precisar de regressar ao aspeto antigo, **desative** o novo aspeto ao clicar em ![Novo aspeto ligado](media/service-new-look/power-bi-new-look-toggle-on.png). Se esta opção não for apresentada, selecione o menu de reticências no canto superior direito.
+Se precisar de regressar ao aspeto antigo, só terá de o **desativar** ![Novo aspeto ativado](media/service-new-look/power-bi-new-look-toggle-on.png). Se esta opção não for apresentada, selecione o menu de reticências no canto superior direito.
 
 ![Desativar o novo aspeto](media/service-new-look/power-bi-new-look-on.png)
 

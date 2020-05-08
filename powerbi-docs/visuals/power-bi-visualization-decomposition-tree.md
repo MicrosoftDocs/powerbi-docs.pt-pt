@@ -11,10 +11,10 @@ ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75885280"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Criar e ver os elementos visuais da árvore de decomposição no Power BI (pré-visualização)

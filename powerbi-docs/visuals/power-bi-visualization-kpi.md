@@ -11,10 +11,10 @@ ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76974993"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>Criar visualizações do indicador chave de desempenho (KPI)
@@ -99,7 +99,7 @@ Os KPIs também estão disponíveis no serviço Power BI e nos dispositivos mó
 
 Se o KPI não se parecer com o apresentado acima, poderá ser porque não ordenou por **MêsFiscal**. Os KPIs não têm uma opção de ordenação. Terá de iniciar novamente e ordenar por **MêsFiscal** *antes* de converter a visualização num KPI.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 * [Sugestões e Truques para visualizações de Mapas do Power BI](power-bi-map-tips-and-tricks.md)
 

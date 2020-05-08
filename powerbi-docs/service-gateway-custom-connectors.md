@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 51d03582ec91b926526a075a356323eb4f95a84b
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609882"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Utilizar conectores de dados personalizados com o gateway de dados no local
@@ -48,9 +48,9 @@ Quando esta opção estiver ativa, verá os seus conectores personalizados como 
 * Para que os conectores personalizados possam funcionar com o gateway de dados no local, é necessário que seja implementada uma secção "TestConnection" no código do conector personalizado. Esta secção não é necessária ao utilizar conectores personalizados com o Power BI Desktop. Por este motivo, pode ter um conector que funciona com o Power BI Desktop, mas não com o gateway. Para obter mais informações sobre como implementar uma secção TestConnection, veja [esta documentação](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support).
 * O OAuth para conectores personalizados através de gateways é atualmente suportado apenas para administradores do gateway, mas não para outros utilizadores da origem de dados.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
-* [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
+* [Gerir a sua origem de dados - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 * [Gerir a sua origem de dados – SAP HANA](service-gateway-enterprise-manage-sap.md)  
 * [Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [Gerir a sua origem de dados – Oracle](service-gateway-onprem-manage-oracle.md)  

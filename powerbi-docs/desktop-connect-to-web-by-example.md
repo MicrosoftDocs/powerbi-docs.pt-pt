@@ -10,10 +10,10 @@ ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 2c09f21565cdf9987aad2027a148823fb32e2e55
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76539008"
 ---
 # <a name="get-webpage-data-by-providing-examples"></a>Obter dados de página Web ao fornecer exemplos
@@ -59,7 +59,7 @@ Quando estiver satisfeito com os dados extraídos da página Web, selecione **OK
 
 A partir daí, pode criar os elementos visuais ou utilizar os dados da página Web quando criar os seus relatórios do Power BI Desktop.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 

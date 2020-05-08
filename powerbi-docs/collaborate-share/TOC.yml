@@ -16,7 +16,7 @@
           href: ../service-usage-metrics.md
         - name: Monitorizar a utilização em áreas de trabalho novas
           href: ../service-modern-usage-metrics.md
-    - name: Manuais de instruções
+    - name: Guias de procedimentos
       expanded: true
       items:
         - name: Colaborar no Power BI
@@ -73,7 +73,7 @@
               href: ../service-analyze-in-excel.md
             - name: Resolução de problemas de análise no Excel
               href: ../desktop-troubleshooting-analyze-in-excel.md
-            - name: 'Erro: Não conseguimos encontrar dados no seu livro do Excel'
+            - name: 'Error: We couldn''t find any data in your Excel workbook (Erro: não conseguimos encontrar dados no seu livro do Excel)'
               href: ../service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate e Power BI
               href: ../service-flow-integration.md
