@@ -3,32 +3,28 @@ title: Elementos visuais do Indicador Chave de Desempenho (KPI)
 description: Criar elementos visuais do Indicador Chave de Desempenho (KPI) no Power BI
 author: mihart
 ms.reviewer: ''
-featuredvideoid: xmja6EpqaO0
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/30/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7f865c53a1a47ad53137f0e7659917689243b914
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76974993"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865184"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>Criar visualizações do indicador chave de desempenho (KPI)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Um KPI (Indicador Chave de Desempenho) é uma indicação visual que comunica a quantidade de progresso feito em relação a uma meta mensurável. Para obter mais informações sobre os KPIs, veja [Key Performance Indicators (KPIs) in PowerPivot](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110)) (Indicadores Chave de Desempenho (KPIs) no PowerPivot).
 
-Deixe que o Will lhe mostre como criar elementos visuais de métrica única: medidores, cartões e KPIs.
-   > [!NOTE]
-   > Este vídeo utiliza uma versão mais antiga do Power BI Desktop.
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-kpi"></a>Quando usar um KPI
 
@@ -55,6 +51,9 @@ Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](https:
 1. Abra o **ficheiro PBIX do Exemplo de Análise de Revenda** na vista de relatório. ![Captura de ecrã do ícone de vista de relatório.](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
 1. Selecione **+** para adicionar uma nova página. ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
+
+> [!NOTE]
+> Para partilhar o seu relatório com outro utilizador do Power BI, é necessário que ambos tenham licenças individuais do Power BI Pro ou que o relatório seja guardado numa capacidade Premium.    
 
 ## <a name="how-to-create-a-kpi"></a>Como criar um KPI
 
@@ -99,7 +98,7 @@ Os KPIs também estão disponíveis no serviço Power BI e nos dispositivos mó
 
 Se o KPI não se parecer com o apresentado acima, poderá ser porque não ordenou por **MêsFiscal**. Os KPIs não têm uma opção de ordenação. Terá de iniciar novamente e ordenar por **MêsFiscal** *antes* de converter a visualização num KPI.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 * [Sugestões e Truques para visualizações de Mapas do Power BI](power-bi-map-tips-and-tricks.md)
 

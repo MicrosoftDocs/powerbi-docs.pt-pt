@@ -1,5 +1,5 @@
 ---
-title: Utilizar o elemento visual Matriz no Power BI
+title: Criar um elemento visual Matriz no Power BI
 description: Saiba como o elemento visual de matriz ativa esquemas graduais e realces granulares no Power BI.
 author: mihart
 ms.reviewer: ''
@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81637858"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866593"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Criar visualizações de matriz no Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -28,6 +30,8 @@ Pode criar elementos visuais de matriz em relatórios do **Power BI Desktop** 
 
 Existem muitas funcionalidades associadas à matriz e vamos analisá-las nas secções seguintes deste artigo.
 
+> [!NOTE]
+> Para partilhar o seu relatório com outro utilizador do Power BI, é necessário que ambos tenham licenças individuais do Power BI Pro ou que o relatório seja guardado numa capacidade Premium.
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>Compreender como o Power BI calcula os totais
 

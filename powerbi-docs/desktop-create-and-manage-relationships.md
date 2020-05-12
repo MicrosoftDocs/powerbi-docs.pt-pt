@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/09/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6f71cf9b8325441fe3827a259daf3bcbe15765a5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 373ad0d230b3d9d7b9d35909d086b0611637f0e2
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76709957"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866340"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Criar e gerir relações no Power BI Desktop
 Quando importa múltiplas tabelas, é provável que faça algumas análises com dados de todas essas tabelas. As relações entre essas tabelas são necessárias para calcular os resultados com precisão e apresentar as informações corretas nos seus relatórios. O Power BI Desktop facilita a criação dessas relações. Na verdade, não tem de fazer nada na maioria dos casos: a funcionalidade de deteção automática fá-lo por si. No entanto, por vezes, pode ter de criar relações ou talvez seja necessário fazer alterações a uma relação. De qualquer modo, é importante compreender as relações no Power BI Desktop e como criá-las e editá-las.
@@ -271,7 +271,7 @@ Com a filtragem cruzada de direção única, se criar um relatório que resume a
 
  ![Direção de filtragem cruzada](media/desktop-create-and-manage-relationships/candmrel_repcrossfiltersingle.png)
 
-A especificação de filtro fluirá de **CompanyProject** para **CompanyEmployee** (conforme mostrado na imagem seguinte), mas o fluxo não chegará até **CompanyEmployee**. 
+A especificação de filtro fluirá de **CompanyProject** para **ProjectHours** (conforme mostrado na imagem seguinte), mas o fluxo não chegará até **CompanyEmployee**. 
 
  ![Exemplo de filtragem cruzada](media/desktop-create-and-manage-relationships/candmrel_singledircrossfiltering.png)
 

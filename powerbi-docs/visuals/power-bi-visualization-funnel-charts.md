@@ -1,31 +1,36 @@
 ---
 title: Gráficos de funil
-description: Gráficos de funil no Power BI
+description: Gráficos de funil no Power BI
 author: mihart
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/12/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 356d738795f8bf99ba1e2f8dfc705b23f52a6d5e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b60a4c14873427bd06d2b6abce48c9d3d3008859
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762445"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865259"
 ---
 # <a name="create-and-use-funnel-charts"></a>Criar e utilizar gráficos de funil
 
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Um gráfico de funil ajuda-o a visualizar um processo linear com fases ligadas de forma sequencial. Por exemplo, um funil de vendas que controla os clientes por fases: Cliente potencial \> Cliente potencial qualificado \> Prospeto \> Contrato \> Fechar.  Num relance, a forma do funil transmite a integridade do processo que está a controlar.
+Um gráfico de funil ajuda-o a visualizar um processo linear com fases ligadas de forma sequencial. Por exemplo, um funil de vendas que controla os clientes por fases: Oportunidade Potencial \> Oportunidade Potencial Qualificada \> Potencial Interessado \> Contrato \> Fecho.  Num relance, a forma do funil transmite a integridade do processo que está a controlar.
 
 Cada fase do funil representa um ponto percentual do total. Portanto, na maioria dos casos, um gráfico de funil tem a forma de um funil – com a primeiro fase, sendo a maior e cada fase subsequente menor do que a antecessor.  Um funil em forma de pêra também é útil - pode identificar um problema no processo.  Mas, em geral, a primeira fase, a fase de "entrada", é a maior.
 
 ![funil azul de exemplo](media/power-bi-visualization-funnel-charts/funnelplain.png)
+
+> [!NOTE]
+> Para partilhar o seu relatório com outro utilizador do Power BI, é necessário que ambos tenham licenças individuais do Power BI Pro ou que o relatório seja guardado numa capacidade Premium.    
 
 ## <a name="when-to-use-a-funnel-chart"></a>Quando usar um gráfico de funil
 Os gráficos de funil são uma ótima opção:
@@ -54,13 +59,13 @@ Gráficos de funil:
 Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Oportunidade](https://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix
 ).
 
-1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**.
+1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**
    
 2. Procure a sua cópia do **ficheiro PBIX do Exemplo de Análise de Oportunidade**
 
 1. Abra o **Ficheiro PBIX do Exemplo de Análise de Oportunidade** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Seleção ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
 
 ## <a name="create-a-basic-funnel-chart"></a>Criar um gráfico de funil básico
@@ -91,7 +96,7 @@ Agra crie o seu próprio gráfico de funil que mostra o número de oportunidades
 
 6. [Guarde o relatório](../service-report-save.md).
 
-## <a name="highlighting-and-cross-filtering"></a>Realce e filtragem cruzada
+## <a name="highlighting-and-cross-filtering"></a>Destaque e filtragem cruzada
 Para obter informações sobre como utilizar o painel Filtros, veja [Adicionar um filtro a um relatório](../power-bi-report-add-filter.md).
 
 Realçar uma barra em um funil cruza os filtros de outras visualizações na página do relatório e vice-versa. Para acompanhar, adicione mais alguns elementos visuais à página do relatório que contém o gráfico de funil.
@@ -101,7 +106,7 @@ Realçar uma barra em um funil cruza os filtros de outras visualizações na pá
    ![pequeno vídeo que mostra as interações visuais](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
 2. Para definir preferências de como os elementos visuais são destacados e filtrados de forma cruzada entre si, veja [Interações visuais no Power BI](../service-reports-visual-interactions.md)
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 [Medidores no Power BI](power-bi-visualization-radial-gauge-charts.md)
 

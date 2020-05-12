@@ -1,18 +1,18 @@
 ---
 title: Limitações das Perguntas e Respostas do Power BI
 description: Limitações atuais das Perguntas e Respostas do Power BI
-author: mohaali
+author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2019
-ms.author: mohaali
-ms.openlocfilehash: 9f1beed3408d53a58a0fb725f9d98a4a95bb1b7c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 04/21/2020
+ms.author: maggies
+ms.openlocfilehash: b71fd2986fb79adf88493416ac8234f2656aefa9
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874887"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866777"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Limitações das Perguntas e Respostas do Power BI
 
@@ -27,7 +27,7 @@ A funcionalidade Perguntas e Respostas do Power BI suporta as seguintes configur
 - Modo de importação
 - Ligação em direto ao Azure Analysis Services
 - Ligação em direto ao SQL Server Analysis Services (com um gateway)
-- Conjuntos de dados do Power BI. O Power BI Desktop comunica um erro nas Perguntas e Respostas ao utilizar um conjunto de dados do Power BI. No entanto, ao publicar o relatório no serviço Power BI, o erro desaparece.
+- Conjuntos de dados do Power BI.
 
 Em cada uma destas configurações, também é suportada segurança ao nível da linha.
 
@@ -36,7 +36,7 @@ Em cada uma destas configurações, também é suportada segurança ao nível da
 A funcionalidade Perguntas e Respostas do Power BI não suporta atualmente as seguintes configurações:
 
 - Segurança ao nível do objeto com qualquer tipo de origem de dados
-- O DirectQuery com qualquer origem. Uma alternativa para proporcionar suporte neste caso é utilizar a Ligação em direto com o Azure Analysis Services, que utiliza o DirectQuery.
+- O DirectQuery com qualquer origem. Uma alternativa é utilizar a Ligação em direto com o Azure Analysis Services, que utiliza o DirectQuery.
 - Modelos compostos
 - Reporting Services 
 
@@ -61,11 +61,14 @@ A funcionalidade Ensinar Perguntas e Respostas permite-lhe corrigir dois tipos d
 
 Atualmente, não suportamos a redefinição de um termo reconhecido ou a definição de outros tipos de condições ou frases. Além disso, ao definir condições de filtragem, só pode utilizar um subconjunto limitado de linguagem, incluindo:
 
-- "País", que é "EUA"
-- "País", que não é "EUA"
-- "Ponderação" > 2000
-- "Ponderação" = 2000
-- "Ponderação" < 2000
+- País, que é EUA
+- País, que não é EUA
+- Produtos > 100
+- Produtos é maior do que 100
+- Produtos = 100
+- Produtos é 100
+- Produtos < 100
+- Produtos é menos do que 100
 
 > [!NOTE]
 > As ferramentas das Perguntas e Respostas só suportam o modo de importação. Ainda não suportam a ligação a uma origem de dados do Azure Analysis Services ou no local. Esta limitação atual será removida nas versões subsequentes do Power BI.
@@ -75,3 +78,7 @@ Atualmente, não suportamos a redefinição de um termo reconhecido ou a defini�
 - Atualmente, a utilização de medidas em condições não é suportada. Como alternativa, converta as medidas em colunas calculadas para que funcionem.
 - Não são suportadas múltiplas condições. Como alternativa, crie uma coluna calculada DAX que avalia um valor booleano de instrução com múltiplas condições e utilize esse campo.
 - Se não especificar uma condição de filtro quando a funcionalidade Perguntas e Respostas pedir um subconjunto de dados, não será possível guardar a definição, mesmo que a instrução inteira não tenha sublinhados a vermelho.
+
+## <a name="next-steps"></a>Próximos passos
+
+Existem diversas melhores práticas para melhorar o motor de linguagem natural. Para obter mais informações, veja [Melhores práticas das Perguntas e Respostas](q-and-a-best-practices.md).

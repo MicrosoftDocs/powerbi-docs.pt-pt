@@ -8,16 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/05/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a2ac2820c7beb3a82650716896ddd36b79c82e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ba344d66f967d502d9de8adef7defcae434fb3ef
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79436071"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865466"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Criar e utilizar mapas de manchas (mapas coropletos) no Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -55,15 +57,8 @@ Este tutorial utiliza o [ficheiro PBIX de exemplo de Vendas e Marketing](https:/
 
 1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
-
-## <a name="create-a-basic-filled-map"></a>Criar um mapa de manchas básico
-Neste vídeo, a Rita cria um mapa básico e converte-o num mapa de manchas.
-   > [!NOTE]
-   > Este vídeo utiliza uma versão anterior do Power BI Desktop.
-   > 
-   > 
-
-> [VÍDEO https://www.youtube.com/embed/ajTPGNpthcg ]
+> [!NOTE]
+> Para partilhar o seu relatório com outro utilizador do Power BI, é necessário que ambos tenham licenças individuais do Power BI Pro ou que o relatório seja guardado numa capacidade Premium.    
 
 ### <a name="create-a-filled-map"></a>Criar um mapa de manchas
 1. No painel Campos, selecione o campo **Geo** \> **Estado**.    

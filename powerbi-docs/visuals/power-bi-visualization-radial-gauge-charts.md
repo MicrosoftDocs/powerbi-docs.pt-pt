@@ -3,21 +3,23 @@ title: Gráficos de medidores radiais no Power BI
 description: Gráficos de medidores radiais no Power BI
 author: mihart
 ms.reviewer: ''
-featuredvideoid: xmja6Epqa
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e783b4357d4db39e09aabbb1df39e1bb5c84532e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7c6c4dbe9f17464483f5b44542ffbe04f715d4bd
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880911"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866938"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Gráficos de medidores radiais no Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -27,12 +29,8 @@ Um gráfico de medidor radial tem um arco circular e mostra um único valor que 
 
 Neste exemplo, é um revendedor de automóveis a controlar a média de vendas da equipa por mês. A agulha representa um objetivo de vendas de 140 carros. A média mínima possível de vendas é 0 e o máximo é 200.  O sombreado azul mostra que a equipa tem atualmente uma média de aproximadamente 120 vendas neste mês. Felizmente, ainda há outra semana para alcançar o objetivo.
 
-Deixe que o Will lhe mostre como criar elementos visuais de métrica única: medidores, cartões e KPIs.
-   > [!NOTE]
-   > Este vídeo utiliza uma versão mais antiga do Power BI Desktop.
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
+> [!NOTE]
+> Para partilhar o seu relatório com outro utilizador do Power BI, é necessário que ambos tenham licenças individuais do Power BI Pro ou que o relatório seja guardado numa capacidade Premium.
 
 ## <a name="when-to-use-a-radial-gauge"></a>Quando usar um medidor radial
 

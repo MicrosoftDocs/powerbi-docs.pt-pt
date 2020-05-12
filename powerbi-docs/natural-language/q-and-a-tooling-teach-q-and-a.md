@@ -1,19 +1,19 @@
 ---
 title: Ensinar Perguntas e Respostas para compreender as perguntas e os termos nas Perguntas e Respostas do Power BI
 description: Como utilizar as Perguntas e Respostas do Power BI para explorar os seus dados
-author: mohaali
+author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2019
-ms.author: mohaali
+ms.date: 04/21/2020
+ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 695ad9143aa7074e079ae8606a9ad0eb6f6c964f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e5b870201943b93bfdaec2881005785c2f3c470b
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874929"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865824"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Ensinar Perguntas e Respostas para compreender as perguntas e os termos nas Perguntas e Respostas do Power BI
 
@@ -26,7 +26,7 @@ Na secção **Ensinar Perguntas e Respostas** da configuração das Perguntas e 
 
 1. No Power BI Desktop, no friso **Modelação**, selecione **Configuração das Perguntas e Respostas** > **Ensinar Perguntas e Respostas**.
 
-    ![Sinónimo de Ensinar Perguntas e Respostas a vermelho](media/qna-tooling-teach-synonym-red.png)
+    ![Sinónimo de Ensinar Perguntas e Respostas a vermelho](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-synonym-red.png)
 
 2. Escreva uma frase com um termo que as Perguntas e Respostas não reconhecem e selecione **Submeter**.
 
@@ -36,7 +36,7 @@ Na secção **Ensinar Perguntas e Respostas** da configuração das Perguntas e 
     
 3. Em **Definir os termos que as Perguntas e Respostas não compreenderam**, forneça uma definição.
 
-    ![Pré-visualização de sinónimos de Ensinar Perguntas e Respostas](media/qna-tooling-teach-fixpreview.png)
+    ![Pré-visualização de sinónimos de Ensinar Perguntas e Respostas](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-fixpreview.png)
 
 4. Selecione **Guardar** para pré-visualizar o elemento visual atualizado.
 
@@ -61,7 +61,7 @@ As Perguntas e Respostas detetam automaticamente quando uma palavra não reconhe
 
 Preenche a caixa com o termo dos seus dados.
 
-![Pedido de sinónimo de Ensinar Perguntas e Respostas](media/qna-tooling-synonym-prompt.png)
+![Pedido de sinónimo de Ensinar Perguntas e Respostas](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 Se fornecer algo diferente de um campo do modelo de dados, poderá obter resultados indesejáveis.
 
@@ -73,17 +73,26 @@ Por vezes, poderá querer definir termos que atuem como uma condição nos dados
 
 Preenche a caixa com a condição.
 
-![Pedido de sinónimo de Ensinar Perguntas e Respostas](media/qna-tooling-adjectives.png)
+![Pedido de sinónimo de Ensinar Perguntas e Respostas](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 Algumas condições de exemplo que pode definir são:
 
-- "País", que é "EUA"
-- "País", que não é "EUA"
-- "Ponderação" > 2000
-- "Ponderação" = 2000
-- "Ponderação" < 2000
+- País, que é EUA
+- País, que não é EUA
+- Produtos > 100
+- Produtos é maior do que 100
+- Produtos = 100
+- Produtos é 100
+- Produtos < 100
+- Produtos é menos do que 100
 
-Só pode definir uma condição nas ferramentas. Para definir condições mais complexas, utilize o DAX para criar uma coluna calculada e, em seguida, a secção de ferramentas para criar uma única condição para essa coluna calculada. Não são suportadas medidas. Utilize colunas calculadas como alternativa.
+Nestes exemplos, "Produtos" pode ser um nome de coluna ou uma medida. 
+
+Também pode especificar uma agregação na própria expressão de Perguntas e Respostas. Por exemplo, se "produtos populares" forem produtos com pelo menos 100 unidades vendidas, pode definir produtos com "soma de unidades vendidas > 100" como populares.  
+
+:::image type="content" source="media/q-and-a-tooling-teach-q-and-a/power-bi-qna-popular-products.png" alt-text="Definir "produtos populares"":::
+
+Só pode definir uma condição nas ferramentas. Para definir condições mais complexas, utilize o DAX para criar uma coluna ou medida calculada e, em seguida, a secção de ferramentas para criar uma única condição para essa coluna ou medida.
 
 ## <a name="manage-terms"></a>Gerir termos
 
@@ -93,10 +102,8 @@ Depois de fornecer as definições, pode ver todas as correções feitas e edit�
 
 2. Elimine os termos que já não quer. Atualmente, não pode editar os termos. Para redefinir um termo, elimine-o e defina-o.
 
-    ![Gerir termos das Perguntas e Respostas](media/qna-manage-terms.png)
+    ![Gerir termos das Perguntas e Respostas](media/q-and-a-tooling-teach-q-and-a/qna-manage-terms.png)
 
 ## <a name="next-steps"></a>Próximos passos
 
-Existem diversas melhores práticas para melhorar o motor de linguagem natural. Para obter mais informações, veja o seguinte artigo:
-
-* [Q&A Best Practices](q-and-a-best-practices.md) (Melhores Práticas das Perguntas e Respostas)
+Existem diversas melhores práticas para melhorar o motor de linguagem natural. Para obter mais informações, veja [Melhores práticas das Perguntas e Respostas](q-and-a-best-practices.md).
