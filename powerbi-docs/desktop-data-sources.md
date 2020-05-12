@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 04/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5247b2c990c8c0cfd29da0e8a30cdc8691000106
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207258"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866823"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origens de dados no Power BI Desktop
 
@@ -139,7 +139,7 @@ A categoria **Azure** fornece as seguintes ligações de dados:
 * Interactive Query do HDInsight
 * Azure Data Explorer (Kusto)
 * Azure Cost Management
-* Azure Time Series Insights (Beta)
+
 
 A imagem a seguir mostra a janela **Obter Dados** para **Azure**.
 
@@ -191,6 +191,9 @@ A categoria **Serviços Online** fornece as seguintes ligações de dados:
 * Quick Base
 * TeamDesk (Beta)
 * Informações sobre Tendências Empresariais (Beta)
+* Projectplace para o Power BI (Beta)
+* Webtrends Analytics (Beta)
+* Zoho Creator (Beta)
 
 A imagem a seguir mostra a janela **Obter Dados** para **Serviços Online**.
 
@@ -213,6 +216,7 @@ A categoria **Outros** fornece as seguintes ligações de dados:
 * ODBC
 * OLEDB
 * BI360 - Budgeting & Financial Reporting (Beta)
+* Cognite Data Fusion (Beta)
 * FHIR
 * Information Grid (Beta)
 * Jamf Pro (Beta)
@@ -220,13 +224,15 @@ A categoria **Outros** fornece as seguintes ligações de dados:
 * Paxata
 * QubolePresto (Beta)
 * Roamler (Beta)
-* Siteimprove (Beta)
+* Siteimprove
 * SurveyMonkey (Beta)
-* Tenforce (Smart)List (Beta)
 * TIBCO(R) Data Virtualization (Beta)
 * Vena (Beta)
 * Workforce Dimensions (Beta)
 * Zucchetti HR Infinity (Beta)
+* Tenforce (Smart)List
+* Shortcuts Business Insights (Beta)
+* Vessel Insight (Beta)
 * Consulta em Branco
 
 A imagem a seguir mostra a janela **Obter Dados** para **Outros**.

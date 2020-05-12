@@ -1,10 +1,18 @@
 ---
-ms.openlocfilehash: 26f4b82301915524b65d9d2d6b39d61b54ed0321
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+title: Descrição geral do principal de serviço
+description: Descrição geral do principal de serviço
+services: powerbi
+author: KesemSharabi
+ms.author: kesharab
+ms.topic: include
+ms.date: 04/05/2020
+ms.custom: include file
+ms.openlocfilehash: 7fc4412a66602fe3a6548c3e1afb06de788da90d
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621585"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82616118"
 ---
 O principal de serviço é um método de autenticação que pode ser utilizado para permitir que uma aplicação do Azure Active Directory aceda aos conteúdos e às APIs do serviço Power BI.
 

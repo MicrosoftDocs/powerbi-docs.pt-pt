@@ -4,16 +4,16 @@ description: Aprenda a instalar, personalizar e distribuir aplicações de model
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
-ms.date: 03/15/2020
+ms.subservice: powerbi-template-apps
+ms.topic: conceptual
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 08aadc3027c5b265194e4239b150ea5d27fe2e43
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 86fe618508504faebc920c77a1f9605da59040d9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436117"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781700"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Instalar e distribuir aplicações de modelo na sua organização
 
@@ -65,7 +65,7 @@ Para instalar, personalizar e distribuir uma aplicação de modelo, precisa do s
 
 1. Clique em **Ligar**.
     
-    Esta ação abre uma caixa de diálogo ou um conjunto de caixas de diálogo onde pode alterar a origem de dados dos dados de exemplo para a sua própria origem de dados. De forma geral, isto significa redefinir os parâmetros do conjunto de dados e as credenciais da origem de dados. Veja [Limitações conhecidas](service-template-apps-tips.md#known-limitations).
+    Esta ação abre uma caixa de diálogo ou um conjunto de caixas de diálogo onde pode alterar a origem de dados dos dados de exemplo para a sua própria origem de dados. De forma geral, isto significa redefinir os parâmetros do conjunto de dados e as credenciais da origem de dados. Veja [Limitações conhecidas](service-template-apps-overview.md#known-limitations).
     
     No exemplo abaixo, a ligação a dados envolve duas caixas de diálogo.
 
@@ -95,14 +95,18 @@ Quando concluir as alterações pretendidas aos artefactos na área de trabalho,
 
 Periodicamente, os criadores de aplicações de modelo lançam novas versões melhoradas das respetivas aplicações de modelo, quer através do AppSource, por ligação direta ou ambos.
 
-Se tiver transferido originalmente a aplicação a partir do AppSource, será apresentada uma faixa de atualização no serviço Power BI quando uma nova versão da aplicação de modelo estiver disponível. Esta faixa informa-o de que está disponível uma nova versão da aplicação.
+Se transferiu originalmente a aplicação do AppSource, quando for disponibilizada uma nova versão da aplicação de modelo, será notificado de duas formas:
+* É apresentada uma faixa de atualização no serviço Power BI a informar que está disponível uma nova versão da aplicação.
+  ![Notificação de atualização da aplicação de modelo](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+* Recebe uma notificação no painel de notificações do Power BI.
 
-  ![Notificação de atualização da aplicação de modelo](media/service-template-apps-install-distribute/power-bi-new-app-version-notification.png)
+
+  ![Notificação de atualização da aplicação de modelo](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >Se tiver obtido originalmente a aplicação através de uma ligação direta em vez de a partir do AppSource, a única forma de saber quando uma nova versão está disponível é ao contactar o criador da aplicação de modelo.
 
-  Para instalar a atualização, clique em **Obter agora** na faixa de notificações ou procure novamente a aplicação no AppSource e selecione **Obter agora**. Se tiver uma ligação direta para a atualização a partir do criador da Aplicação de modelo, basta clicar na ligação.
+  Para instalar a atualização, clique em **Obter agora** na faixa de notificações ou na central de notificações ou procure novamente a aplicação no AppSource e selecione **Obter agora**. Se tiver uma ligação direta para a atualização a partir do criador da Aplicação de modelo, basta clicar na ligação.
   
   Ser-lhe-á perguntado se quer substituir a versão atual ou instalar a nova versão numa nova área de trabalho. Por predefinição, a opção "substituir"está selecionada.
 

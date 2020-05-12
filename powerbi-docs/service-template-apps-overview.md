@@ -4,16 +4,16 @@ description: Este artigo é uma descrição geral do programa de aplicações de
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.openlocfilehash: 466e7cb842244104b004c4f65f82dafe13dc9725
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066331"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781323"
 ---
 # <a name="what-are-power-bi-template-apps"></a>O que são as aplicações de modelo do Power BI?
 
@@ -103,6 +103,7 @@ Veja [Tips for authoring template apps in Power BI](service-template-apps-tips.m
 | Conjunto de dados: em várias áreas de trabalho | Não são permitidos conjuntos de dados em várias áreas de trabalho  |
 | Parâmetros de consulta | Não suportado: parâmetros do tipo "Qualquer" ou "Binário" bloqueiam a operação de atualização do conjunto de dados |
 | Elementos Visuais do Power BI | Só são suportados elementos visuais do Power BI disponíveis para o público. Não são suportados [elementos visuais do Power BI organizacionais](developer/visuals/power-bi-custom-visuals-organization.md) |
+| Clouds soberanas | As aplicações de modelos não estão disponíveis em clouds soberanas |
 
 ## <a name="support"></a>Suporte
 Para obter suporte durante o desenvolvimento, utilize [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Monitorizamos e gerimos este site de forma ativa. Os incidentes dos clientes são rapidamente reencaminhados para a equipa adequada.

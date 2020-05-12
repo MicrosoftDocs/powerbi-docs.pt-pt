@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621463"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613563"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicar elementos visuais do Power BI no Centro de Parceiros
 
@@ -101,9 +101,11 @@ Siga os passos abaixo para submeter o elemento visual do Power BI no Centro de 
 
 ## <a name="tracking-submission-status-and-usage"></a>Controlar o estado da submissão e a utilização
 
-Pode rever as [políticas de validação](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
+* Pode rever as [políticas de validação](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
 
-Após a submissão, poderá ver o estado da submissão no [dashboard da aplicação](https://sellerdashboard.microsoft.com/Application/Summary/).
+* Após a submissão, poderá ver o estado da submissão no [dashboard da aplicação](https://sellerdashboard.microsoft.com/Application/Summary/).
+
+* Para saber quando o seu elemento visual do Power BI estará disponível para transferir a partir do AppSource, consulte a [linha cronológica de publicação](power-bi-custom-visuals-certified.md#publication-timeline) de elementos visuais do Power BI.
 
 ## <a name="certify-your-visual"></a>Certificar o elemento visual
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802101"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841716"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -24,6 +24,14 @@ Para informações sobre “Novidades” relacionadas, veja:
 
 >[!NOTE]
 >O suporte à aplicação móvel Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="april-2020"></a>Abril de 2020
+
+### <a name="sharing-from-workspaces-is-now-available"></a>A partilha a partir de áreas de trabalho está agora disponível
+Adicionámos a capacidade de partilhar relatórios e dashboards a partir de áreas de trabalho. Pode agora partilhar o seu conteúdo a partir de "A minha área de trabalho" e de outras áreas de trabalho se o proprietário da área de trabalho o permitir, tal como no serviço Power BI. 
+
+### <a name="dashboards-now-support-full-screen-mode-ios-and-android"></a>Os dashboards suportam agora o modo de ecrã inteiro (iOS e Android)
+Agora, pode ver os seus dashboards em modo de ecrã inteiro, dando-lhe mais espaço para ver o conteúdo do seu dashboard. 
 
 ## <a name="march-2020"></a>Março de 2020
 
@@ -871,4 +879,4 @@ Melhorias nas aplicações móveis do Power BI, Android, iOS (iPhone e iPad) e W
 * Composição melhorada de mosaico de mapa no modo de detalhe para maximizar o espaço no ecrã.
 * Melhor experiência de utilizador ao aceder a dashboards com a segurança baseada em funções. 
 * Uma nova função permite-lhe navegar para a frente e para trás através dos mosaicos do dashboard, explorando-os diretamente no modo de detalhe sem a necessidade de voltar ao dashboard para selecionar o próximo mosaico.
-* Estabilidade adicional e melhorias de desempenho. 
+* Estabilidade adicional e melhorias de desempenho.

@@ -1,36 +1,38 @@
 ---
 title: Utilizar uma segmentação ou filtro de data relativa no Power BI
 description: Saiba como utilizar uma segmentação de dados ou um filtro para restringir intervalos de datas relativas no Power BI.
-author: mihart
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/06/2020
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f63a56ea350d089b82eb7a18470e1bcc439d1151
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006797"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866524"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Utilizar uma segmentação e filtro de data relativa no Power BI
+# <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Criar uma segmentação e filtro de data relativa no Power BI
 
-[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 Com a **segmentação de data relativa** ou o **filtro de data relativa**, pode aplicar filtros baseados no tempo a qualquer coluna de datas no seu modelo de dados. Por exemplo, pode utilizar a **segmentação de data relativa** para mostrar apenas dados de vendas ocorridas nos últimos 30 dias (ou mês, meses de calendário, etc.). Quando atualizar os dados, o período de tempo relativo aplica automaticamente a restrição de data relativa adequada.
 
-![Captura de ecrã de um relatório a mostrar uma seta a apontar para a segmentação de data relativa.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
+![Captura de ecrã a mostrar um relatório com uma seta a apontar para a segmentação de data relativa.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
 
-## <a name="use-the-relative-date-range-slicer"></a>Utilizar a segmentação de intervalo de datas relativas
+Para partilhar o seu relatório com outro utilizador do Power BI, é necessário que ambos tenham licenças individuais do Power BI Pro ou que o relatório seja guardado numa capacidade Premium.
+
+## <a name="create-the-relative-date-range-slicer"></a>Criar a segmentação de intervalo de datas relativas
 
 Pode utilizar a segmentação de data relativa tal como qualquer outra segmentação de dados. Crie um elemento visual de **segmentação de dados** para o seu relatório e, em seguida, selecione um valor de data para o valor **Campo**. Na imagem seguinte, selecionámos o campo *DataDaEncomenda*.
 
 ![Captura de ecrã a mostrar o painel Visualizações com setas a apontar para o ícone de elemento visual da segmentação de dados e para o grupo Campo.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-02.png)
 
-Selecione a segmentação de dados na sua tela e, em seguida, o menu pendente no canto superior direito do elemento visual da segmentação de dados. Se o elemento visual tiver os dados relativos à data, o menu irá apresentar a opção **Relativo**.
+Selecione a segmentação de dados na sua tela e, em seguida, o menu pendente no canto superior direito do elemento visual da segmentação de dados. Se o elemento visual tiver os dados relativos à data, o menu apresentará a opção **Relativo**.
 
 ![Captura de ecrã a mostrar o elemento visual da segmentação de dados com um realce à volta do menu pendente e uma seta a apontar para a opção Relativo.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-03.png)
 
@@ -42,7 +44,7 @@ Na primeira definição, na *segmentação de data relativa*, tem as seguintes o
 
 ![Captura de ecrã a mostrar as opções de configuração de Relativo com a primeira definição destacada.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* Last
+* Último
 
 * Seguinte
 
@@ -70,7 +72,7 @@ A terceira definição permite escolher a medida de data. Tem as seguinte opçõ
 
 * Anos (Calendário)
 
-Nessa lista, se selecionar **Meses** e introduzir *2* na definição intermédia, eis o que irá ocorrer:
+Nessa lista, se selecionar **Meses** e introduzir *2* na definição intermédia, eis o que ocorre:
 
 * se hoje for dia 20 de julho
 
@@ -80,7 +82,7 @@ Nessa lista, se selecionar **Meses** e introduzir *2* na definição intermédia
 
 Em comparação, se selecionar *Meses (Calendário)* , os elementos visuais restringidos mostram os dados de 1 de maio até 30 de junho (os últimos dois meses de calendário completos).
 
-## <a name="using-the-relative-date-range-filter"></a>Utilizar o filtro de intervalo de datas relativas
+## <a name="create-the-relative-date-range-filter"></a>Criar o filtro de intervalo de datas relativas
 
 Também pode criar um filtro de intervalo de datas relativas para a página de relatório ou todo o relatório. Para fazê-lo, arraste o campo da data para o grupo **Filtros de nível de página** ou para o grupo **Filtros de nível de relatório** no painel **Campo**:
 
@@ -100,10 +102,11 @@ As seguintes limitações e considerações aplicam-se atualmente ao filtro e **
 
 * Os modelos de dados do **Power BI** não incluem informações sobre o fuso horário. Os modelos podem armazenar horas, mas não existe nenhuma indicação do fuso horário em que estão.
 
-* A segmentação de dados e o filtro estão sempre baseados na hora UTC. Se configurar um filtro num relatório e enviá-lo para um colega num fuso horário diferente, ambos irão ver os mesmos dados. A menos que estejam no fuso horário UTC, ambos devem ter em conta a diferença horária que poderão experienciar.
+* A segmentação de dados e o filtro estão sempre baseados na hora UTC. Se configurar um filtro num relatório e o enviar para um colega num fuso horário diferente, ambos verão os mesmos dados. A menos que estejam no fuso horário UTC, ambos devem ter em conta a diferença horária que experienciam.
 
 * Pode converter dados capturados de um fuso horário local em UTC com o **Editor do Power Query**.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
-Saiba como [utilizar o agrupamento e discretização no Power BI Desktop](../desktop-grouping-and-binning.md).
+- [Utilizar uma segmentação e filtro de data relativa no Power BI](desktop-slicer-filter-date-range.md)
+- [Segmentação de Dados no Power BI](power-bi-visualization-slicers.md)

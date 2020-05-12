@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/24/2020
-ms.openlocfilehash: cbf30e3479629533faea73465362c378d4b73848
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.date: 04/28/2020
+ms.openlocfilehash: ad75cf6b85a896fbdc275748dc31c620206e08a2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82255756"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82692895"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Origens de dados suportadas para relatórios paginados do Power BI
 
@@ -25,7 +25,7 @@ Os relatórios paginados suportam nativamente a seguinte lista de origens de dad
 
 | Origem de dados | Autenticação | Notas |
 | --- | --- | --- |
-| Base de Dados SQL do Azure <br>Azure SQL Data Warehouse | Básico, início de sessão único (SSO), OAuth2 |   |
+| Base de Dados SQL do Azure <br>Azure SQL Data Warehouse | Básico, início de sessão único (SSO), OAuth2 | Pode utilizar um Gateway Empresarial com BD SQL do Azure. No entanto, não pode utilizar o SSO ou oAuth2 para autenticar nesses cenários.   |
 | Instância Gerida do SQL do Azure | Básico | através de um Ponto Final Público ou Privado (o Ponto Final Privado tem de ser encaminhado através do Gateway de Empresa)  |
 | Azure Analysis Services | SSO, OAuth2 | A firewall AAS deve ser desativada ou configurada para permitir todos os intervalos de IP.|
 | Conjunto de dados do Power BI | SSO | Conjuntos de dados do Power BI Premium e não Premium Requer permissão de leitura |

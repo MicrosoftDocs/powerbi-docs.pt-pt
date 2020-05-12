@@ -8,13 +8,13 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 04/02/2020
-ms.openlocfilehash: df59d09a1e8557842904b46eded0a83c86448224
-ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
+ms.date: 05/01/2020
+ms.openlocfilehash: 83de843ba640bc165e9a56450bc5539e8e433e78
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80647699"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82692855"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Parâmetros de URL em relatórios paginados no Power BI
 
@@ -68,7 +68,11 @@ Pode utilizar os seguintes parâmetros como parte de um URL para configurar o as
 
 ### <a name="report-commands-rdl"></a>Comandos de relatório (`rdl:`) 
 
-**Formato de exportação** – especifica o formato no qual deve ser realizada a composição e exportação do relatório. Os valores disponíveis são:
+**Formato de exportação** – especifica o formato no qual deve ser realizada a composição e exportação do relatório.
+
+Exemplo: rdl:format=PDF
+
+Os valores disponíveis são:
  
 - PPTX (PowerPoint)
 - MHTML 

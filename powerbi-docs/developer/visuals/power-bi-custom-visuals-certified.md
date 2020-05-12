@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 2dee596648c9921cefab6903167e780bfacb122e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: b759d19046ddb375646743a50025689ab9a566c0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113906"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613540"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Certificar um elemento visual do Power BI
 
@@ -82,8 +82,6 @@ Utilize a versão mais recente do [powerbi-visuals-tools](https://www.npmjs.com/
 
 Deve compilar o elemento visual do Power BI com `pbiviz package`. Se estiver a utilizar os scripts criados por si, indique um comando de construção personalizado `npm run package`.
 
-
-
 ### <a name="source-code-requirements"></a>Requisitos do código fonte
 
 Confirme que seguiu a lista de políticas de [certificação adicional dos elementos visuais do Power BI](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification). Se a submissão não seguir estas diretrizes, o e-mail de rejeição do Centro de Parceiros incluirá os números das políticas listados nesta ligação.
@@ -150,6 +148,25 @@ Assim que um elemento visual do Power BI é certificado, obtém um destaque des
     ![Elemento visual do Power BI certificado na interface do Power BI](media/power-bi-custom-visuals-certified/certified-visual-blue.png)
 
 * Pode apresentar apenas elementos visuais do Power BI certificados ao selecionar a opção de filtro *Power BI Certificado*.
+
+## <a name="publication-timeline"></a>Linha cronológica de publicação
+
+Implementar no AppSource é um processo que pode demorar algum tempo. O seu elemento visual do Power BI ficará disponível para transferir a partir do AppSource quando este processo for concluído.
+
+### <a name="when-will-users-be-able-to-download-my-visual"></a>Quando é que os utilizadores poderão transferir o meu elemento visual?
+
+* Se submeteu um elemento visual do Power BI pela primeira vez, os utilizadores poderão transferi-lo algumas horas depois de receber um e-mail do AppSource.
+
+* Se submeteu uma atualização a um elemento visual do Power BI existente, os utilizadores poderão transferi-lo dentro de um mês após a sua submissão.
+
+    >[!NOTE]
+    > O campo *versão* no AppSource será atualizado com o dia em que o seu Power BI foi aprovado pelo AppSource, mais ou menos uma semana após submeter o seu elemento visual. Os utilizadores poderão transferir o elemento visual atualizado, mas as capacidades atualizadas não entrarão em vigor. As novas capacidades do seu elemento visual serão refletidas nos relatórios do utilizador após cerca de um mês. 
+
+### <a name="when-will-my-power-bi-visual-display-a-certification-badge"></a>Quando é que o meu elemento visual do Power BI apresentará um destaque de certificação?
+
+* Se submeteu um elemento visual do Power BI pela primeira vez, o destaque de certificação dentro de um dia após receber o e-mail de aprovação do AppSource.
+
+* Se estiver a pedir certificação para um elemento visual do Power BI existente, o destaque de certificação ficará visível dentro de um mês após a sua submissão.
 
 ## <a name="next-steps"></a>Próximos passos
 

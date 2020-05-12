@@ -11,10 +11,10 @@ ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871348"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Apresentação do editor de relatórios no Power BI
@@ -60,11 +60,11 @@ Por exemplo, quando seleciona um elemento visual individual, como este gráfico 
 
 **A parte inferior do painel Visualizações** tem três separadores:
 
-![Separador Campos na visualização](media/service-the-report-editor-take-a-tour/power-bi-fields-visualization-pane.png) O separador **Campos** apresenta os campos no elemento visual. Poderá ter de se deslocar para baixo para ver todos os detalhes. Este gráfico está a utilizar LojaNúmeroNome e Vendas Deste Ano.
+![Campos na visualização](media/service-the-report-editor-take-a-tour/power-bi-fields-visualization-pane.png) **Campos** apresenta os campos no elemento visual. Poderá ter de se deslocar para baixo para ver todos os detalhes. Este gráfico está a utilizar LojaNúmeroNome e Vendas Deste Ano.
 
-![Ícone de rolo de pintura](media/service-the-report-editor-take-a-tour/power-bi-paint-roller.png) O separador **Formatar**: para apresentar o painel de formatação da visualização selecionada, selecione o ícone de rolo de pintura.
+![Ícone de rolo de pintura](media/service-the-report-editor-take-a-tour/power-bi-paint-roller.png) **Formatar**: para apresentar o painel de formatação da visualização selecionada, selecione o ícone de rolo de pintura.
 
-![Ícone de lupa](media/service-the-report-editor-take-a-tour/power-bi-magnifying-glass.png) O separador **Análise**: para apresentar o painel Análise, selecione o ícone de lupa.
+![Ícone de lupa](media/service-the-report-editor-take-a-tour/power-bi-magnifying-glass.png) **Análise**: para apresentar o painel Análise, selecione o ícone de lupa.
 
 **O painel Campos** lista todas as tabelas disponíveis no modelo de dados. Quando expandir uma tabela, verá os campos presentes na mesma. A marca de verificação amarela mostra que pelo menos um campo dessa tabela está numa visualização.
 

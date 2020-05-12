@@ -8,16 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75885280"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865574"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Criar e ver os elementos visuais da árvore de decomposição no Power BI (pré-visualização)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 O elemento visual da árvore de decomposição no Power BI permite-lhe visualizar os dados em várias dimensões. Agrega os dados automaticamente e permite uma desagregação nas dimensões pretendidas, em qualquer ordem. Também é uma visualização da inteligência artificial (IA), para que possa solicitar-lhe que encontre a próxima dimensão a desagregar com base em determinados critérios. Terá assim uma ferramenta valiosa para a exploração ad hoc e a realização de uma análise da causa principal.
@@ -29,6 +32,8 @@ Este tutorial utiliza dois exemplos:
 - Um cenário de cadeia de fornecimento que analisa a percentagem de produtos que uma empresa possui em atraso (rutura de stock).  
 - Um cenário de vendas que divide as vendas de jogos de vídeo por vários fatores, como o género e a editora dos jogos.
 
+> [!NOTE]
+> Para partilhar o seu relatório com outro utilizador do Power BI, é necessário que ambos tenham licenças individuais do Power BI Pro ou que o relatório seja guardado numa capacidade Premium.    
 
 ## <a name="get-started"></a>Introdução
 No painel Visualizações, selecione o ícone da árvore de decomposição.

@@ -10,10 +10,10 @@ ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 8e9563d10d80290a48e20cd2d6a889831d34924b
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/26/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74548577"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Ligue-se ao Office365Mon com o Power BI
@@ -34,7 +34,7 @@ Ligue-se à [aplicação de modelo Office365Mon](https://msit.powerbi.com/groups
 3. Selecione **Office365Mon** \> **Obter**.
    
    ![](media/service-connect-to-office365mon/o365mon.png)
-4. Como Método de Autenticação, selecione **oAuth2** \> **Iniciar Sessão**.
+4. Para o Método de Autenticação, selecione **oAuth2**\> **Iniciar Sessão**.
    
    Quando solicitado, insira as suas credenciais de administrador do Office365Mon e siga o processo de autenticação.
    
@@ -45,7 +45,7 @@ Ligue-se à [aplicação de modelo Office365Mon](https://msit.powerbi.com/groups
    
    ![](media/service-connect-to-office365mon/dashboard4.png)
 
-**E agora?**
+**O que se segue?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
