@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 101217023576783a32491b21ba254d54736b27db
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525405"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348212"
 ---
 # <a name="data-lineage"></a>Linhagem de dados
 Em projetos modernos de business intelligence (BI), compreender o fluxo de dados desde a origem até ao destino pode ser um desafio. A dimensão deste desafio é ainda maior se tiver desenvolvido projetos de análise avançados que abranjam múltiplas origens de dados, artefactos e dependências. Responder a perguntas como "O que acontece se alterar estes dados?" ou "Porque é que este relatório não está atualizado?" pode ser difícil. A compreensão destas questões pode exigir o trabalho de uma equipa de peritos ou uma investigação profunda. Para ajudar a responder a estas perguntas, criámos uma vista de linhagem de dados.
@@ -88,9 +88,9 @@ A vista de linhagem é uma tela interativa. Pode utilizar o rato e o touchpad pa
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-- A vista de linhagem não está disponível no Internet Explorer. Veja [Supported browsers for Power BI](../power-bi-browsers.md) (Browsers suportados para o Power BI) para obter detalhes.
+- A vista de linhagem não está disponível no Internet Explorer. Veja [Supported browsers for Power BI](../fundamentals/power-bi-browsers.md) (Browsers suportados para o Power BI) para obter detalhes.
 
 ## <a name="next-steps"></a>Próximas etapas
 
-* [Introdução aos conjuntos de dados em áreas de trabalho (Pré-visualização)](../service-datasets-across-workspaces.md)
+* [Introdução aos conjuntos de dados em áreas de trabalho (Pré-visualização)](../connect-data/service-datasets-across-workspaces.md)
 * [Dataset impact analysis (Análise de impacto dos conjuntos de dados)](service-dataset-impact-analysis.md)

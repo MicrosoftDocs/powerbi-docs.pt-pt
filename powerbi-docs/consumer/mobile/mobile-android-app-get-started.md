@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 557334ed8aecccd646fde92a6d2cfa7852aff36b
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77259789"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347223"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introdução à aplicação móvel Power BI em dispositivos Android
 A aplicação Android para Microsoft Power BI dá a experiência BI móvel para Power BI, Power BI Report Server e Reporting Services. Veja e interaja com os dashboards da sua empresa no local e na cloud em qualquer lugar, com acesso móvel em direto e tátil. Explore os dados nos dashboards e partilhe com os seus colegas em e-mails e mensagens de texto. 
@@ -46,7 +46,7 @@ Descubra as [novidades nas aplicações móveis do Power BI](../../mobile-whats-
 Se ainda não se inscreveu, vá para o [serviço do Power BI](https://powerbi.com/) para se inscrever e obter a conta e criar e armazenar dashboards e relatórios e reunir dados. Em seguida, entre no Power BI a partir do seu dispositivo Android para ver os seus dashboards em qualquer local.
 
 1. No serviço do Power BI, toque em [Inscrever-se](https://go.microsoft.com/fwlink/?LinkID=513879) para criar uma conta do Power BI.
-2. Comece a [criar os seus próprios dashboards e relatórios](../../service-get-started.md).
+2. Comece a [criar os seus próprios dashboards e relatórios](../../fundamentals/service-get-started.md).
 
 ## <a name="get-started-with-the-power-bi-app-on-your-device"></a>Introdução à aplicação Power BI no seu dispositivo
 1. No seu dispositivo Android, no ecrã inicial, abra a aplicação Power BI para Android.
@@ -94,17 +94,17 @@ O Microsoft Intune permite às organizações controlar elementos, como exigir u
 > 
 > 
 
-Saiba mais sobre como [configurar as aplicações móveis do Power BI com o Microsoft Intune](../../service-admin-mobile-intune.md). 
+Saiba mais sobre como [configurar as aplicações móveis do Power BI com o Microsoft Intune](../../admin/service-admin-mobile-intune.md). 
 
 ## <a name="next-steps"></a>Próximos passos
 Eis outras coisas que pode fazer na aplicação para dispositivo Android do Power BI com dashboards e relatórios no Power BI, e relatórios e KPIs no portal Web do Power BI Report Server ou Reporting Services.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Dashboards e relatórios do Power BI
-* Veja [as suas aplicações](../../service-create-distribute-apps.md).
+* Veja [as suas aplicações](../../collaborate-share/service-create-distribute-apps.md).
 * Veja os seus [dashboards](../../mobile-apps-view-dashboard.md).
 * Explore os [mosaicos nos dashboards](../../mobile-tiles-in-the-mobile-apps.md).
 * Abra [relatórios do Power BI](../../mobile-reports-in-the-mobile-apps.md).
-* Veja [as suas aplicações](../../service-create-distribute-apps.md).
+* Veja [as suas aplicações](../../collaborate-share/service-create-distribute-apps.md).
 * [Anote e partilhe mosaicos](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 * Partilhe [dashboards](../../mobile-share-dashboard-from-the-mobile-apps.md).
 * [Leia um código QR do Power BI](../../mobile-apps-qr-code.md) com o seu telemóvel Android para abrir um relatório ou mosaico de dashboard relacionado. 
@@ -119,5 +119,3 @@ Eis outras coisas que pode fazer na aplicação para dispositivo Android do Powe
 * [Transfira a aplicação Android](https://go.microsoft.com/fwlink/?LinkID=544867) na loja de aplicações Android.
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-
-

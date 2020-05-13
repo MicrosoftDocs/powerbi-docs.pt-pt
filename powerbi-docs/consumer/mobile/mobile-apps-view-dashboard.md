@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8a3a80ea7bb318944961a57ac6fdac695aa46253
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205533"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349454"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Ver dashboards e relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -29,8 +29,8 @@ Os dashboards são um portal para o ciclo de vida e processos de sua empresa. Um
 
 Para ver dashboards e relatórios no seu dispositivo móvel, tem de criar ou ligar-se aos mesmos através de um browser. 
 
-1. Aceda ao serviço Power BI ([https://www.powerbi.com](https://www.powerbi.com)) e [inscreva-se para obter uma conta](../../service-self-service-signup-for-power-bi.md).
-2. [Crie os seus próprios dashboards e relatórios do Power BI](../../service-get-started.md) ou ligue a [aplicações do Power BI](../../service-connect-to-services.md) existentes para obter uma variedade de serviços, como o [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md).
+1. Aceda ao serviço Power BI ([https://www.powerbi.com](https://www.powerbi.com)) e [inscreva-se para obter uma conta](../../fundamentals/service-self-service-signup-for-power-bi.md).
+2. [Crie os seus próprios dashboards e relatórios do Power BI](../../fundamentals/service-get-started.md) ou ligue a [aplicações do Power BI](../../connect-data/service-connect-to-services.md) existentes para obter uma variedade de serviços, como o [Microsoft Dynamics CRM](../../connect-data/service-connect-to-services.md).
 
 Segue-se um dashboard do Power BI no serviço Power BI:
 
@@ -45,14 +45,14 @@ Segue-se um dashboard do Power BI no serviço Power BI:
     ![Toque no dashboard](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
    * As estrelas amarelas ![Estrelas favoritas](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostram os dashboards favoritos. 
-   * A notação abaixo de cada nome de dashboard (neste caso, "MBI") ![Classificação de dados](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../service-data-classification.md).
+   * A notação abaixo de cada nome de dashboard (neste caso, "MBI") ![Classificação de dados](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../create-reports/service-data-classification.md).
    
    Por predefinição, os dashboards do Power BI parecem um pouco diferentes no seu iPhone. Todos os mosaicos são apresentados com o mesmo tamanho e são dispostos um após o outro, de cima para baixo.
    
     ![Vista vertical do dashboard](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
    
    > [!TIP]
-   > Se for o proprietário do dashboard, no serviço Power BI, pode [criar uma vista do dashboard especificamente para telemóveis](../../service-create-dashboard-mobile-phone-view.md) no modo vertical. 
+   > Se for o proprietário do dashboard, no serviço Power BI, pode [criar uma vista do dashboard especificamente para telemóveis](../../create-reports/service-create-dashboard-mobile-phone-view.md) no modo vertical. 
    > 
    > 
    
@@ -85,7 +85,7 @@ Pode utilizar o gesto de aproximar os dedos para ampliar e reduzir áreas difere
    ![Página inicial do dashboard](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * As estrelas amarelas ![Estrela favorita](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostram os dashboards favoritos. 
-   * A notação abaixo de cada nome de dashboard (neste caso, "MBI") ![Classificação de dados](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../service-data-classification.md).
+   * A notação abaixo de cada nome de dashboard (neste caso, "MBI") ![Classificação de dados](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../create-reports/service-data-classification.md).
 3. Pode partilhar um dashboard a partir da sua área de trabalho. Toque nas reticências ( **...** ) no canto inferior direito do mosaico do dashboard e toque em **Convidar Outras Pessoas**.
    
    ![Ícone de convite](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
@@ -109,13 +109,13 @@ Pode utilizar o gesto de aproximar os dedos para ampliar e reduzir áreas difere
 
     Estrelas amarelas ![Estrela favorita](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostram os dashboards favoritos. 
 
-    A notação abaixo do nome de um dashboard (neste caso, "MBI") ![Classificação de dados](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../service-data-classification.md).
+    A notação abaixo do nome de um dashboard (neste caso, "MBI") ![Classificação de dados](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../create-reports/service-data-classification.md).
 
     Os dashboards do Power BI parecem um pouco diferentes no seu telemóvel Android. Todos os mosaicos são apresentados com a mesma largura e são dispostos um após o outro, de cima para baixo.
 
     ![Vista vertical do dashboard](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-    Se for o proprietário do dashboard, no serviço Power BI, pode [criar uma vista do dashboard especificamente para telemóveis](../../service-create-dashboard-mobile-phone-view.md) no modo vertical. 
+    Se for o proprietário do dashboard, no serviço Power BI, pode [criar uma vista do dashboard especificamente para telemóveis](../../create-reports/service-create-dashboard-mobile-phone-view.md) no modo vertical. 
 
 1. Enquanto estiver no dashboard, pode tocar no botão vertical (...) **Mais opções** junto ao nome para convidar um colega, atualizar ou obter informações sobre o dashboard:
    
@@ -132,7 +132,7 @@ Pode utilizar o gesto de aproximar os dedos para ampliar e reduzir áreas difere
    ![Página inicial do dashboard](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * As estrelas amarelas ![Estrela favorita](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostra os dashboards favoritos. 
-   * A notação abaixo de cada nome de dashboard (neste caso, "MBI") ![Classificação de dados](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../service-data-classification.md).
+   * A notação abaixo de cada nome de dashboard (neste caso, "MBI") ![Classificação de dados](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../create-reports/service-data-classification.md).
 3. Enquanto estiver no dashboard, pode tocar no botão vertical (...) **Mais opções** junto ao nome para convidar um colega, atualizar ou obter informações sobre o dashboard:
    
    ![Menu de reticências](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
@@ -150,11 +150,10 @@ Se for o proprietário do dashboard, no serviço Power BI, pode *criar uma vista
 
 ![Vista de telemóvel do dashboard](./media/mobile-apps-view-dashboard/power-bi-phone-dashboard-in-progress.png)
 
-Leia mais sobre como [criar uma vista de telemóvel de um dashboard](../../service-create-dashboard-mobile-phone-view.md).
+Leia mais sobre como [criar uma vista de telemóvel de um dashboard](../../create-reports/service-create-dashboard-mobile-phone-view.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Transferir a aplicação Android](https://go.microsoft.com/fwlink/?LinkID=544867) do Google Play  
 * [Introdução à aplicação Android para o Power BI](mobile-android-app-get-started.md)  
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

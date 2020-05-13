@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e74a59d3ff4a5568352c647ec9f384ad8c3a09b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 53a4ae78fa996c1e48ed0c16e0caf15e4f687697
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81638531"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347936"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>Aceitar o “novo aspeto” da área de trabalho (pré-visualização)
 
-As áreas de trabalho têm um novo aspeto que coincide com o [novo aspeto](../service-new-look.md) do serviço Power BI. Qualquer utilizador do serviço Power BI (app.powerbi.com) o pode aceitar. Quando ativa o **Novo aspeto** na barra de cabeçalho preta, está a aceitar o novo aspeto dos relatórios e das áreas de trabalho. Todas as áreas de trabalho, clássicas e novas, podem beneficiar do novo aspeto.
+As áreas de trabalho têm um novo aspeto que coincide com o [novo aspeto](../consumer/service-new-look.md) do serviço Power BI. Qualquer utilizador do serviço Power BI (app.powerbi.com) o pode aceitar. Quando ativa o **Novo aspeto** na barra de cabeçalho preta, está a aceitar o novo aspeto dos relatórios e das áreas de trabalho. Todas as áreas de trabalho, clássicas e novas, podem beneficiar do novo aspeto.
 
-Procura informações sobre o novo aspeto do **Power BI Desktop**? Veja [Utilizar o friso atualizado no Power BI Desktop](../desktop-ribbon.md).
+Procura informações sobre o novo aspeto do **Power BI Desktop**? Veja [Utilizar o friso atualizado no Power BI Desktop](../create-reports/desktop-ribbon.md).
 
 ## <a name="features-of-the-new-look"></a>Funcionalidades do novo aspeto
 
@@ -50,7 +50,6 @@ Se precisar de regressar ao aspeto antigo, só terá de o **desativar** ![Novo a
 
 ## <a name="next-steps"></a>Próximos passos
 
-- [Utilizar o friso atualizado no Power BI Desktop](../desktop-ribbon.md)
-- [O “novo aspeto” do serviço Power BI](../service-new-look.md)
+- [Utilizar o friso atualizado no Power BI Desktop](../create-reports/desktop-ribbon.md)
+- [O “novo aspeto” do serviço Power BI](../consumer/service-new-look.md)
 - Perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
-

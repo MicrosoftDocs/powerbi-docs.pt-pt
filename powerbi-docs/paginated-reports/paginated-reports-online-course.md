@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ada695b2a568358f96010feb320226437beeb075
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81675648"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349178"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Curso online: Power BI Paginated Reports in a Day (Relatórios Paginados do Power BI num Dia)
 
@@ -100,11 +100,11 @@ Recomendamos que veja o curso online. Pode consultar a parte teórica da apresen
 Quando estiver pronto para iniciar o primeiro laboratório, abra o ficheiro **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. Este documento orienta-o para iniciar sessão no serviço Power BI, carregar um conjunto de dados e, em seguida, instalar o [Power BI Report Builder](report-builder-power-bi.md).
 
 > [!NOTE]
-> É responsável por ter a sua própria conta do Power BI. Se ainda não tiver uma, veja [Inscrever-se no Power BI como um indivíduo](../service-self-service-signup-for-power-bi.md).
+> É responsável por ter a sua própria conta do Power BI. Se ainda não tiver uma, veja [Inscrever-se no Power BI como um indivíduo](../fundamentals/service-self-service-signup-for-power-bi.md).
 >
 > Tem de iniciar sessão no Power BI para publicar um ficheiro do Power BI Desktop numa área de trabalho. A publicação resulta num conjunto de dados que é utilizado como uma origem de dados de relatório. Não precisa de uma licença do Power BI Pro ou uma subscrição do Power BI Premium para utilizar um conjunto de dados como uma origem de dados do relatório.
 >
-> No entanto, algumas tarefas do laboratório envolvem a publicação do seu próprio relatório paginado numa área de trabalho. Só pode abrir um relatório paginado quando for guardado numa área de trabalho na [capacidade dedicada](../service-premium-what-is.md#dedicated-capacities), que tem a área de trabalho dos relatórios paginados ativada. Se não tiver acesso a uma área de trabalho adequada, receberá uma ligação para ver um vídeo que demonstra a publicação do relatório.
+> No entanto, algumas tarefas do laboratório envolvem a publicação do seu próprio relatório paginado numa área de trabalho. Só pode abrir um relatório paginado quando for guardado numa área de trabalho na [capacidade dedicada](../admin/service-premium-what-is.md#dedicated-capacities), que tem a área de trabalho dos relatórios paginados ativada. Se não tiver acesso a uma área de trabalho adequada, receberá uma ligação para ver um vídeo que demonstra a publicação do relatório.
 
 ## <a name="instructor-kit"></a>Kit do professor
 

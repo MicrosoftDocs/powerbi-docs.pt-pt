@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: c766393c9a4c81c484afe6f934e1ebb8314d0fb9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 56b3a4f67f5bc6dda777ea7c94b92c65abb4f3b0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77426639"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349408"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Introdução à aplicação móvel Power BI em dispositivos iOS
 A aplicação Microsoft Power BI para iOS no iPhone e iPad proporciona a experiência BI móvel para Power BI, Power BI Report Server e Reporting Services. Veja e interaja com os dashboards da sua empresa no local e na cloud em qualquer lugar, com acesso móvel em direto e tátil. Explore os dados nos dashboards e partilhe com os seus colegas em e-mails e mensagens de texto. E mantenha-se a par com os dados sempre atualizados no seu [Apple Watch](mobile-apple-watch.md).  
@@ -22,7 +22,7 @@ A aplicação Microsoft Power BI para iOS no iPhone e iPad proporciona a experi�
 
 Crie relatórios do Power BI no Power BI Desktop e publique-os:
 
-* [Publique-os no serviço Power BI](../../service-get-started.md) e crie dashboards.
+* [Publique-os no serviço Power BI](../../fundamentals/service-get-started.md) e crie dashboards.
 * [Publique-os no local no Power BI Report Server](../../report-server/quickstart-create-powerbi-report.md).
 
 Em seguida, na aplicação móvel Power BI para iOS, interaja com os seus dashboards e relatórios, seja no local ou na cloud.
@@ -79,11 +79,9 @@ O Microsoft Intune permite às organizações controlar elementos, como exigir u
 > Se utiliza a aplicação móvel Power BI no seu dispositivo iOS e a sua organização configurou o MAM do Microsoft Intune, a atualização de dados em segundo plano está desativada. Na próxima vez que entrar na aplicação, o Power BI atualiza os dados do serviço Power BI na Web.
 > 
 
-Saiba mais sobre como [configurar as aplicações móveis do Power BI com o Microsoft Intune](../../service-admin-mobile-intune.md). 
+Saiba mais sobre como [configurar as aplicações móveis do Power BI com o Microsoft Intune](../../admin/service-admin-mobile-intune.md). 
 
 ## <a name="next-steps"></a>Próximos passos
 
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-
-
