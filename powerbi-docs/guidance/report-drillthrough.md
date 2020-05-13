@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d5599db57ef7b105575dcb7ee4b4342f374624f0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 853f6d7f5cd6696be55edeea101bc0ca51922ad3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290595"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278083"
 ---
 # <a name="use-report-page-drillthrough"></a>Use report page drillthrough (Utilizar a pormenorização de páginas de relatórios)
 
-O presente artigo destina-se a si, na qualidade de autor de relatório que cria relatórios do Power BI. Fornece sugestões e recomendações para a criação de [pormenorização de páginas de relatórios](../desktop-drillthrough.md).
+O presente artigo destina-se a si, na qualidade de autor de relatório que cria relatórios do Power BI. Fornece sugestões e recomendações para a criação de [pormenorização de páginas de relatórios](../create-reports/desktop-drillthrough.md).
 
 É recomendável que crie o seu relatório para permitir que os utilizadores do relatório possam alcançar o seguinte fluxo:
 
@@ -58,8 +58,8 @@ No momento de criação do relatório, recomendamos as seguintes práticas:
 - **Filtros de pormenorização:** configure filtros de pormenorização para poder pré-visualizar um resultado realista à medida que cria a página de pormenorização. Não se esqueça de remover estes filtros antes de publicar o relatório.
 - **Recursos adicionais:** uma página de pormenorização é semelhante a qualquer página de relatório. Pode até mesmo melhorá-la com recursos interativos adicionais, incluindo segmentações ou filtros.
 - **Espaços em branco:** evite adicionar elementos visuais que podem exibir EM BRANCO ou produzir erros quando os filtros de pormenorização são aplicados.
-- **Visibilidade de página:** pondere ocultar páginas de pormenorização. Se decidir manter uma página de pormenorização visível, certifique-se de que adiciona um botão que permita aos utilizadores limpar os filtros de pormenorização definidos anteriormente. Atribua um [marcador](../desktop-bookmarks.md) ao botão. O marcador deve ser configurado para remover todos os filtros.
-- **Botão Anterior:** Um botão [Anterior](../desktop-buttons.md) é adicionado automaticamente quando atribui um filtro de pormenorização. É boa ideia mantê-lo. Deste modo, os utilizadores do seu relatório podem voltar facilmente à página de origem.
+- **Visibilidade de página:** pondere ocultar páginas de pormenorização. Se decidir manter uma página de pormenorização visível, certifique-se de que adiciona um botão que permita aos utilizadores limpar os filtros de pormenorização definidos anteriormente. Atribua um [marcador](../create-reports/desktop-bookmarks.md) ao botão. O marcador deve ser configurado para remover todos os filtros.
+- **Botão Anterior:** Um botão [Anterior](../create-reports/desktop-buttons.md) é adicionado automaticamente quando atribui um filtro de pormenorização. É boa ideia mantê-lo. Deste modo, os utilizadores do seu relatório podem voltar facilmente à página de origem.
 - **Deteção:** ajude a promover a deteção de uma página de pormenorização ao definir texto do ícone do cabeçalho do elemento visual ou ao adicionar instruções a uma caixa de texto. Também pode criar uma sobreposição, conforme descrito nesta [publicação de blogue](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/).
 
 > [!TIP]
@@ -69,6 +69,6 @@ No momento de criação do relatório, recomendamos as seguintes práticas:
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
-- [Utilizar a pormenorização no Power BI Desktop](../desktop-drillthrough.md)
+- [Utilizar a pormenorização no Power BI Desktop](../create-reports/desktop-drillthrough.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)

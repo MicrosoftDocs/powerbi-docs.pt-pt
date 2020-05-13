@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33c07df0cd8c0e00489f344e721164ed9252fcaf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866915"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276841"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Gráficos de dispersão, de bolhas e de pontos no Power BI
 
@@ -177,13 +177,13 @@ Se não tiver esse valor nos dados, crie um campo que concatena os valores X e Y
 
 ![Captura de ecrã de um gráfico de dispersão com TempTime adicionado ao painel Detalhes.](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
-Para criar um novo campo [utilize o Editor de Consultas do Power BI Desktop para adicionar uma Coluna de Índice](../desktop-add-custom-column.md) ao conjunto de dados. Em seguida, adicione esta coluna ao painel **Detalhes** da visualização.
+Para criar um novo campo [utilize o Editor de Consultas do Power BI Desktop para adicionar uma Coluna de Índice](../create-reports/desktop-add-custom-column.md) ao conjunto de dados. Em seguida, adicione esta coluna ao painel **Detalhes** da visualização.
 
 ## <a name="next-steps"></a>Próximos passos
 
 Poderá também estar interessado nos seguintes artigos:
 
-* [Amostragem de alta densidade em gráficos de dispersão do Power BI](desktop-high-density-scatter-charts.md)
+* [Amostragem de alta densidade em gráficos de dispersão do Power BI](../create-reports/desktop-high-density-scatter-charts.md)
 * [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 * [Sugestões para ordenar e distribuir diagramas de dados em relatórios do Power BI](../guidance/report-tips-sort-distribute-data-plots.md)
 

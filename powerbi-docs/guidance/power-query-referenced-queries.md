@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290582"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278681"
 ---
 # <a name="referencing-power-query-queries"></a>Referencing Power Query queries (Referenciar consultas do Power Query)
 
@@ -42,7 +42,7 @@ A utilização da função [Table.Buffer](/powerquery-m/table-buffer) na **Consu
 
 No geral, recomendamos que faça referência às consultas para evitar a duplicação da lógica entre as consultas. No entanto, conforme descrito neste artigo, esta abordagem de conceção pode contribuir para atualizações de dados lentas e origens de dados sobrecarregadas.
 
-Recomenda-se crie em alternativa um [fluxo de dados](../service-dataflows-overview.md). A utilização de um fluxo de dados pode melhorar o tempo de atualização de dados e reduzir o impacto sobre as origens de dados.
+Recomenda-se crie em alternativa um [fluxo de dados](../transform-model/service-dataflows-overview.md). A utilização de um fluxo de dados pode melhorar o tempo de atualização de dados e reduzir o impacto sobre as origens de dados.
 
 Pode criar um fluxo de dados para encapsular a origem dos dados e as transformações. Dado que o fluxo de dados é um arquivo de dados persistente no serviço Power BI, a sua obtenção de dados é rápida. Assim, mesmo quando o referenciar de consultas resultar em vários pedidos para o fluxo de dados, os tempos de atualização de dados podem ser melhorados.
 
@@ -52,7 +52,7 @@ No exemplo, se a **Consulta1** for reformulada como uma entidade de fluxo de dad
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
-- [Preparação personalizada de dados no Power BI](../service-dataflows-overview.md)
-- [Criar e utilizar fluxos de dados no Power BI](../service-dataflows-create-use.md)
+- [Preparação personalizada de dados no Power BI](../transform-model/service-dataflows-overview.md)
+- [Criar e utilizar fluxos de dados no Power BI](../transform-model/service-dataflows-create-use.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)

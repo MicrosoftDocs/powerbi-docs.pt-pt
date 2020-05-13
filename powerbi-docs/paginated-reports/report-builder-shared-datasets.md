@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 717627e171df6a0843453a72b54ec591a7fd5a19
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78923201"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276634"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Criar um relatório paginado com base num conjunto de dados partilhado do Power BI
 
@@ -20,14 +20,14 @@ Pode utilizar um conjunto de dados que criou no Power BI Desktop como uma origem
 
 ![Power BI Desktop para o relatório paginado do Report Builder](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-O conjunto de dados não tem de estar numa área de trabalho na capacidade Premium e não tem de ser membro dessa área de trabalho. Só tem de ter [Permissão de compilação](../service-datasets-build-permissions.md) para a base de dados. Para publicar o seu relatório paginado, precisa de uma licença do Power BI Pro. Também precisa de pelo menos uma função de Contribuidor numa área de trabalho numa capacidade Premium.
+O conjunto de dados não tem de estar numa área de trabalho na capacidade Premium e não tem de ser membro dessa área de trabalho. Só tem de ter [Permissão de compilação](../connect-data/service-datasets-build-permissions.md) para a base de dados. Para publicar o seu relatório paginado, precisa de uma licença do Power BI Pro. Também precisa de pelo menos uma função de Contribuidor numa área de trabalho numa capacidade Premium.
 
 ## <a name="what-you-need"></a>O que precisa
 
 Eis uma lista do que precisa e não precisa para utilizar um conjunto de dados partilhado no Power BI Report Builder.
 
 - Power BI Report Builder. [Transferir e instalar o Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513).
-- Para aceder a um conjunto de dados do Power BI, tem de ter permissão de compilação no conjunto de dados. Leia sobre a [permissão de compilação](../service-datasets-build-permissions.md).
+- Para aceder a um conjunto de dados do Power BI, tem de ter permissão de compilação no conjunto de dados. Leia sobre a [permissão de compilação](../connect-data/service-datasets-build-permissions.md).
 - Não precisa de uma licença do Power BI Pro para criar um relatório paginado no Report Builder. 
 - Precisa de uma licença do Power BI Pro para publicar o seu relatório paginado. Também precisa de pelo menos uma função de Contribuidor numa área de trabalho numa capacidade Premium. 
 - Opcional: se quiser acompanhar este artigo, transfira o ficheiro [Exemplo de Análise de Revenda.pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) do Power BI Desktop, abra-o no Power BI Desktop e adicione uma tabela com várias colunas. No painel **Formatar**, desative a opção **Totais**. Em seguida, publique numa área de trabalho no serviço Power BI.
@@ -74,7 +74,7 @@ Seguem-se os passos para obter a consulta.
 1. Abra o relatório do Power BI (.pbix) no Power BI Desktop.
 1. Certifique-se de que tem uma tabela no seu relatório que contém todos os dados que pretende no relatório paginado. A tabela tem de cumprir estes dois requisitos:
     - Tem de ser uma tabela simples e não uma matriz ou outro elemento visual. Se não for uma tabela, converta-a agora numa tabela, siga os passos do Analisador de Desempenho que se seguem e, em seguida, converta-a novamente no elemento visual pretendido.
-    - Para os campos numéricos, tem de utilizar *medidas predefinidas*. Têm um símbolo de calculadora ao lado. Saiba mais sobre a [criação de medidas](../desktop-measures.md). 
+    - Para os campos numéricos, tem de utilizar *medidas predefinidas*. Têm um símbolo de calculadora ao lado. Saiba mais sobre a [criação de medidas](../transform-model/desktop-measures.md). 
 
         ![Ícone da medida](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 

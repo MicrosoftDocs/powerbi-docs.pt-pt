@@ -8,19 +8,19 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f1608fd2511e38758b5bf05041d625cf524fff34
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920744"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83127822"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Quando utilizar os relatórios paginados no Power BI
 
 O presente artigo destina-se a si, na qualidade de criador de relatórios para o Power BI. Fornece sugestões para ajudá-lo a escolher quando criar os [relatórios paginados do Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md).
 
 > [!NOTE]
-> Para publicar os relatórios paginados do Power BI, é necessária uma subscrição do Power BI Premium. Os relatórios vão ser compostos somente quando estiverem numa área de trabalho numa capacidade dedicada que tenha [a carga de trabalho Relatórios Paginados ativada](../service-admin-premium-workloads.md#paginated-reports).
+> Para publicar os relatórios paginados do Power BI, é necessária uma subscrição do Power BI Premium. Os relatórios vão ser compostos somente quando estiverem numa área de trabalho numa capacidade dedicada que tenha [a carga de trabalho Relatórios Paginados ativada](../admin/service-admin-premium-workloads.md#paginated-reports).
 
 Os relatórios paginados do Power BI são otimizados para **impressão**ou **geração de PDFs**. Também lhe proporcionam a capacidade de produzir esquemas altamente formatados e com um aspeto perfeito. Portanto, os relatórios paginados são ideais para relatórios operacionais, como faturas de vendas.
 
@@ -36,7 +36,7 @@ Recomendamos que pondere utilizar um relatório paginado do Power BI quando:
 
 Quando já tiver os relatórios [Report Definition Language (RDL)](/sql/reporting-services/reports/report-definition-language-ssrs) do SQL Server Reporting Services (SSRS), pode optar por voltar a criá-los como [relatórios do Power BI](../consumer/end-user-reports.md) ou migrá-los como relatórios paginados para o Power BI. Para obter mais informações, veja [Migrar os relatórios do SQL Server Reporting Services para o Power BI](migrate-ssrs-reports-to-power-bi.md).
 
-Uma vez publicados numa área de trabalho do Power BI, os relatórios paginados estão disponíveis lado a lado com os relatórios do Power BI. Posteriormente, estes podem ser facilmente distribuídos através das [aplicações do Power BI](../service-create-distribute-apps.md).
+Uma vez publicados numa área de trabalho do Power BI, os relatórios paginados estão disponíveis lado a lado com os relatórios do Power BI. Posteriormente, estes podem ser facilmente distribuídos através das [aplicações do Power BI](../collaborate-share/service-create-distribute-apps.md).
 
 Poderá ponderar voltar a criar os relatórios SSRS, em vez de os migrar. Isto aplica-se sobretudo aos relatórios que se destinam a fornecer experiências analíticas. Nesses casos, os relatórios do Power BI vão provavelmente fornecer melhores experiências para os utilizadores de relatórios.
 

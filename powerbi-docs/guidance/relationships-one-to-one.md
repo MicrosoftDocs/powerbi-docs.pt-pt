@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 92aa2c5d8da91590f5d491090761a6a6b1501061
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263812"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278267"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Documento de orientação das relações um-para-um
 
@@ -99,7 +99,7 @@ Sempre que possível, recomendamos que evite criar relações de modelo um-para-
 - Limitar a capacidade de criar hierarquias, uma vez que os níveis têm de basear-se nas colunas da _mesma tabela_
 - Produzir resultados inesperados quando não há uma correspondência completa de linhas entre as tabelas
 
-As recomendações específicas diferem consoante a relação um-para-um seja _intra ilha_ ou _inter ilha_. Para obter mais informações sobre a avaliação de relações, veja [Relações de modelos no Power BI Desktop (Avaliação de relação)](../desktop-relationships-understand.md#relationship-evaluation).
+As recomendações específicas diferem consoante a relação um-para-um seja _intra ilha_ ou _inter ilha_. Para obter mais informações sobre a avaliação de relações, veja [Relações de modelos no Power BI Desktop (Avaliação de relação)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 ### <a name="intra-island-one-to-one-relationship"></a>Relação um-para-um intra ilha
 
@@ -107,7 +107,7 @@ Quando existe uma relação um-para-um _intra ilha_, recomendamos a consolidaç�
 
 Os passos seguintes apresentam uma metodologia para consolidar e modelar os dados um-para-um relacionados:
 
-1. **Intercalar consultas**: ao [combinar as duas consultas](../desktop-shape-and-combine-data.md#combine-queries), tenha em consideração a conclusão dos dados em cada consulta. Se uma consulta tiver um conjunto de linhas completo (como uma lista principal), intercale a outra consulta na mesma. Configure a transformação de intercalação para utilizar uma _associação externa à esquerda_, que é o tipo de intercalação predefinido. Este tipo de intercalação garante que poderá manter todas as linhas da primeira consulta e complementá-las com quaisquer linhas correspondentes da segunda consulta. Expanda todas as colunas necessárias da segunda consulta para a primeira consulta.
+1. **Intercalar consultas**: ao [combinar as duas consultas](../connect-data/desktop-shape-and-combine-data.md#combine-queries), tenha em consideração a conclusão dos dados em cada consulta. Se uma consulta tiver um conjunto de linhas completo (como uma lista principal), intercale a outra consulta na mesma. Configure a transformação de intercalação para utilizar uma _associação externa à esquerda_, que é o tipo de intercalação predefinido. Este tipo de intercalação garante que poderá manter todas as linhas da primeira consulta e complementá-las com quaisquer linhas correspondentes da segunda consulta. Expanda todas as colunas necessárias da segunda consulta para a primeira consulta.
 2. **Desativar o carregamento de consultas**: [desative o carregamento](import-modeling-data-reduction.md#disable-power-query-query-load) da segunda consulta. Desta forma, o resultado não será carregado como uma tabela de modelo. Esta configuração reduz o tamanho de armazenamento do modelo de dados e ajuda a organizar o painel **Campos**.
 
     No nosso exemplo, os autores do relatório encontram agora uma única tabela chamada **Produto** no painel **Campos**. Contém todos os campos relacionados com o produto.
@@ -131,11 +131,11 @@ No nosso exemplo, os autores do relatório podem encontrar o campo **Categoria**
 
 ![O painel Campos mostra o campo Categoria numa pasta de apresentação chamada Marketing.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-Caso decida ainda definir relações um-para-um intra ilha no modelo, sempre que possível, verifique se existem linhas correspondentes nas tabelas relacionadas. Como uma relação um-para-um intra ilha é avaliada como uma [relação forte](../desktop-relationships-understand.md#strong-relationships), podem surgir problemas de integridade de dados nos elementos visuais do relatório como valores EM BRANCO (pode ver um exemplo de um agrupamento EM BRANCO no primeiro elemento visual da tabela apresentado neste artigo.)
+Caso decida ainda definir relações um-para-um intra ilha no modelo, sempre que possível, verifique se existem linhas correspondentes nas tabelas relacionadas. Como uma relação um-para-um intra ilha é avaliada como uma [relação forte](../transform-model/desktop-relationships-understand.md#strong-relationships), podem surgir problemas de integridade de dados nos elementos visuais do relatório como valores EM BRANCO (pode ver um exemplo de um agrupamento EM BRANCO no primeiro elemento visual da tabela apresentado neste artigo.)
 
 ### <a name="inter-island-one-to-one-relationship"></a>Relação um-para-um inter ilha
 
-Quando existe uma relação um-para-um _inter ilha_ entre tabelas, não existe nenhum design de modelo alternativo, exceto se pré-consolidar os dados nas origens de dados. O Power BI avaliará a relação do modelo um-para-um como uma [relação fraca](../desktop-relationships-understand.md#weak-relationships). Assim, verifique se existem linhas correspondentes nas tabelas relacionadas, uma vez que as linhas sem correspondência serão eliminadas dos resultados da consulta.
+Quando existe uma relação um-para-um _inter ilha_ entre tabelas, não existe nenhum design de modelo alternativo, exceto se pré-consolidar os dados nas origens de dados. O Power BI avaliará a relação do modelo um-para-um como uma [relação fraca](../transform-model/desktop-relationships-understand.md#weak-relationships). Assim, verifique se existem linhas correspondentes nas tabelas relacionadas, uma vez que as linhas sem correspondência serão eliminadas dos resultados da consulta.
 
 Vejamos o que acontece quando os campos de ambas as tabelas são adicionados a um elemento visual de tabela e existe uma relação fraca entre as tabelas.
 
@@ -147,7 +147,7 @@ A tabela só apresenta duas linhas. O SKU CL-02 do produto está em falta porque
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
-- [Relações de modelos no Power BI Desktop](../desktop-relationships-understand.md)
+- [Relações de modelos no Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Compreender o que é um esquema de estrela e qual a importância para o Power BI](star-schema.md)
 - [Documento de orientação da resolução de problemas de relações](relationships-troubleshoot.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

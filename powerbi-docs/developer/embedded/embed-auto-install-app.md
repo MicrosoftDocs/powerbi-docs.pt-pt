@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 0adfb72c408f96749afc8a3d7a6884e10e52fadb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 10939c23a5c25a2ff4233f6b74f9efd99d8e10fd
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114687"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148080"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Instalar automaticamente as aplicações do Power BI ao incorporar para a sua organização
 
-Para incorporar conteúdos de uma aplicação, o utilizador que o vai fazer tem de ter [acesso à mesma](../../service-create-distribute-apps.md). Se a aplicação já estiver instalada para o utilizador, a incorporação será fácil. Para obter mais informações, veja [Incorporar relatórios ou dashboards a partir de aplicações](embed-from-apps.md). Pode definir que todas as aplicações sejam [instaladas automaticamente](https://powerbi.microsoft.com/blog/automatically-install-apps/) no PowerBI.com. No entanto, esta ação é efetuada ao nível do inquilino e tem efeito em todas as aplicações.
+Para incorporar conteúdos de uma aplicação, o utilizador que o vai fazer tem de ter [acesso à mesma](../../collaborate-share/service-create-distribute-apps.md). Se a aplicação já estiver instalada para o utilizador, a incorporação será fácil. Para obter mais informações, veja [Incorporar relatórios ou dashboards a partir de aplicações](embed-from-apps.md). Pode definir que todas as aplicações sejam [instaladas automaticamente](https://powerbi.microsoft.com/blog/automatically-install-apps/) no PowerBI.com. No entanto, esta ação é efetuada ao nível do inquilino e tem efeito em todas as aplicações.
 
 ## <a name="auto-install-app-on-embedding"></a>Instalar aplicações automaticamente na incorporação
 

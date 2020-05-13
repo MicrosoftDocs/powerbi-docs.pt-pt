@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c72863407fea0cf550643e5193a8b514b2bb51bd
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82585058"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276335"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentação de Dados no Power BI
 
@@ -24,11 +24,11 @@ Suponha que pretende que os leitores de relatórios consigam observar as métric
 
 ![Animação de segmentação](media/power-bi-visualization-slicers/slicer2.gif)
 
-Este artigo explica o processo de criação e formatação de uma segmentação de dados básica, através do [Exemplo de Análise de Revenda](../sample-retail-analysis.md) gratuito. Também demonstra como pode controlar os elementos visuais que são afetados pela segmentação de dados como sincronizar com as segmentações de dados noutras páginas. Eis mais alguns artigos que explicam como fazer tipos específicos de segmentações de dados:
+Este artigo explica o processo de criação e formatação de uma segmentação de dados básica, através do [Exemplo de Análise de Revenda](../create-reports/sample-retail-analysis.md) gratuito. Também demonstra como pode controlar os elementos visuais que são afetados pela segmentação de dados como sincronizar com as segmentações de dados noutras páginas. Eis mais alguns artigos que explicam como fazer tipos específicos de segmentações de dados:
 
-- [Segmentações de intervalos numéricos](../desktop-slicer-numeric-range.md).
+- [Segmentações de intervalos numéricos](../create-reports/desktop-slicer-numeric-range.md).
 - [Segmentações de dados relativos](desktop-slicer-filter-date-range.md).
-- [Segmentações de dados redimensionáveis](../power-bi-slicer-filter-responsive.md) e reativos.
+- [Segmentações de dados redimensionáveis](../create-reports/power-bi-slicer-filter-responsive.md) e reativos.
 - [Segmentações de dados de hierarquia](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md) com vários campos.
 
 ## <a name="when-to-use-a-slicer"></a>Quando usar uma segmentação
@@ -92,7 +92,7 @@ Utilize as interações visuais para impedir que algumas visualizações da pág
 
    Agora, à medida que seleciona nomes e intervalos de datas nas segmentações de dados, o gráfico **Variação das Vendas Totais por Mês Fiscal e Gestor Distrital** não é alterado.
 
-Para obter mais informações sobre a edição de interações, veja [Alterar a forma como os elementos visuais interagem num relatório do Power BI](../service-reports-visual-interactions.md).
+Para obter mais informações sobre a edição de interações, veja [Alterar a forma como os elementos visuais interagem num relatório do Power BI](../create-reports/service-reports-visual-interactions.md).
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Sincronizar e utilizar segmentações de dados noutras páginas
 A partir da atualização de fevereiro de 2018 do Power BI, pode sincronizar uma segmentação de dados e utilizá-la em qualquer uma ou em todas as páginas de um relatório. 
@@ -134,7 +134,7 @@ No relatório atual, a página **Vendas Mensais Distritais** também tem uma seg
 ## <a name="filtering-slicers"></a>Filtrar segmentações de dados
 Pode aplicar filtros de nível visual às segmentações de dados para reduzir a lista de valores que são apresentados na segmentação. Por exemplo, pode filtrar valores em branco de uma segmentação de listas ou filtrar certas datas de uma segmentação de dados de intervalo. Quando o faz, isso só afeta *os valores que são apresentados na segmentação de dados* e não *o filtro que a segmentação de dados aplica a outros elementos visuais* quando faz uma seleção. Digamos, por exemplo, que aplica um filtro a uma segmentação de dados de intervalo para apresentar apenas certas datas. A seleção na segmentação de dados só apresentará as primeiras e últimas datas desse intervalo, mas continuaria a ver outras datas noutros elementos visuais. Assim que alterar o intervalo selecionado na segmentação de dados, verá a atualização dos outros elementos visuais. Se limpar a segmentação de dados, todas as datas serão novamente apresentadas.
 
-Veja [Tipos de filtro](../power-bi-report-filter-types.md) para obter mais informações sobre filtros de nível visual.
+Veja [Tipos de filtro](../create-reports/power-bi-report-filter-types.md) para obter mais informações sobre filtros de nível visual.
 
 ## <a name="format-slicers"></a>Formatar as segmentações de dados
 Estão disponíveis diferentes opções de formatação, dependendo do tipo de segmentação de dados. Ao utilizar a orientação **Horizontal**, o esquema **Reativo** e a cor **Item**, pode criar botões ou mosaicos em vez de itens de lista padrão e fazer com que os itens da segmentação de dados sejam redimensionados para se ajustarem aos diferentes tamanhos de ecrã e esquemas.  
@@ -169,7 +169,7 @@ Estão disponíveis diferentes opções de formatação, dependendo do tipo de s
 
     ![Opções horizontais](media/power-bi-visualization-slicers/6-buttons.png)
 
-Para obter mais informações sobre as orientações horizontais e esquemas reativos, veja [Criar uma segmentação de dados reativa que pode redimensionar no Power BI](../power-bi-slicer-filter-responsive.md).
+Para obter mais informações sobre as orientações horizontais e esquemas reativos, veja [Criar uma segmentação de dados reativa que pode redimensionar no Power BI](../create-reports/power-bi-slicer-filter-responsive.md).
 
 ### <a name="selection-controls-options-list-slicers-only"></a>Opções de controlos de seleção (apenas segmentações de dados de lista)
 1. Em **Controlos de seleção**, ative a **opção Mostrar "Selecionar tudo"** para **Ativada** para adicionar um item **Selecionar Tudo** à segmentação de dados. 
@@ -222,4 +222,3 @@ Para obter mais informações, veja os seguintes artigos:
 - [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 - [Tabelas no Power BI](power-bi-visualization-tables.md)
-

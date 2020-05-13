@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: 9c38aef858d723e548529f450e34d0480de5f8b2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cfb5e4f1f75437db6235ece0d8661bab3f008649
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435450"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148422"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>View your data offline in the Power BI mobile apps (Ver os seus dados offline nas aplicações móveis do Power BI)
 Aplica-se a:
@@ -44,7 +44,7 @@ Pode desativar a atualização em segundo plano, por exemplo, para evitar a util
 > [!NOTE]
 > Se utiliza a aplicação móvel do Power BI no seu dispositivo iOS e a sua organização configurou o MAM do Microsoft Intune, a atualização de dados em segundo plano está desativada. Da próxima vez que entrar na aplicação, o Power BI atualiza os dados do serviço Power BI na Web.
 > 
-> Saiba mais sobre como [configurar as aplicações móveis do Power BI com o Microsoft Intune](../../service-admin-mobile-intune.md). 
+> Saiba mais sobre como [configurar as aplicações móveis do Power BI com o Microsoft Intune](../../admin/service-admin-mobile-intune.md). 
 > 
 > 
 

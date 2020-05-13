@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: edb34fc5592a6b851ae2c48690a772d75049fb48
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525336"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274863"
 ---
 # <a name="dataset-impact-analysis"></a>Dataset impact analysis (Análise de impacto dos conjuntos de dados)
 
@@ -54,7 +54,7 @@ As métricas de utilização dizem respeito aos últimos 30 dias, excluindo o di
 
 ## <a name="notify-contacts"></a>Notificar contactos
 
-Se fez uma alteração a um conjunto de dados ou está a pensar fazer uma alteração, é recomendável contactar os utilizadores relevantes para os informar. Quando notifica os contactos, é enviado um e-mail para a [lista de contactos](../service-create-the-new-workspaces.md#workspace-contact-list) de todas as áreas de trabalho afetadas. O seu nome aparece no e-mail para que os contactos possam encontrá-lo e responder de volta num novo tópico de e-mail. 
+Se fez uma alteração a um conjunto de dados ou está a pensar fazer uma alteração, é recomendável contactar os utilizadores relevantes para os informar. Quando notifica os contactos, é enviado um e-mail para a [lista de contactos](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list) de todas as áreas de trabalho afetadas. O seu nome aparece no e-mail para que os contactos possam encontrá-lo e responder de volta num novo tópico de e-mail. 
 
 1. Clique em **Notificar contactos** no painel lateral de análise de impacto. A caixa de diálogo Notificar contactos será apresentada.
 
@@ -89,5 +89,6 @@ Quando efetua uma alteração a um conjunto de dados no Power BI Desktop e, em s
 
 ## <a name="next-steps"></a>Próximos passos
 
-* [Introdução aos conjuntos de dados em áreas de trabalho (Pré-visualização)](../service-datasets-across-workspaces.md)
+* [Introdução aos conjuntos de dados em áreas de trabalho (Pré-visualização)](../connect-data/service-datasets-across-workspaces.md)
 * [Linhagem de dados](service-data-lineage.md)
+

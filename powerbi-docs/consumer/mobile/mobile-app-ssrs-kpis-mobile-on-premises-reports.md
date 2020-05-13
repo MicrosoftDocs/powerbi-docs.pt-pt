@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 387f0cd4ecea59fd55af0a9eceff2272ddd8097b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75220135"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278865"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Ver KPIs e relatórios no local do servidor de relatórios nas aplicações móveis do Power BI
 
@@ -107,7 +107,7 @@ Os relatórios do Power BI, relatórios móveis do Reporting Services e KPIs sã
   > Atualmente, as opções para desagregar e agregar não estão ativadas em relatórios do Power BI num Power BI Report Server.
   
     ![Relatório do Power BI](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
-* No Power BI Desktop, os proprietários de relatórios podem [otimizar um relatório](../../desktop-create-phone-report.md) para as aplicações móveis do Power BI. No telemóvel, os relatórios otimizados têm um ícone ![Ícone de relatórios do Power BI otimizados](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) e um esquema especiais.
+* No Power BI Desktop, os proprietários de relatórios podem [otimizar um relatório](../../create-reports/desktop-create-phone-report.md) para as aplicações móveis do Power BI. No telemóvel, os relatórios otimizados têm um ícone ![Ícone de relatórios do Power BI otimizados](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) e um esquema especiais.
   
     ![Relatório do Power BI otimizado para dispositivos móveis](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-report.png)
 * Toque num KPI para vê-lo no modo de detalhe.
@@ -133,4 +133,3 @@ Pode marcar KPIs e relatórios como favoritos no portal Web e, em seguida, vê-l
 ## <a name="next-steps"></a>Próximas etapas
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)  
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

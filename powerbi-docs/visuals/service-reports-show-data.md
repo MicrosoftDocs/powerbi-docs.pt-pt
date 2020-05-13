@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758629"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276565"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Apresentar dados subjacentes de uma visualização
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 ## <a name="show-data"></a>Mostrar dados
 Uma visualização do Power BI é construída com dados dos conjuntos de dados. Se estiver interessado em conhecer os bastidores, o Power BI permite-lhe *apresentar* os dados que estão a ser utilizados para criar o elemento visual. Quando seleciona **Mostrar Dados**, o Power BI apresenta os dados por baixo da visualização (ou junto da mesma).
@@ -24,7 +26,7 @@ Uma visualização do Power BI é construída com dados dos conjuntos de dados. 
 Também pode exportar os dados que estão a ser utilizados para criar a visualização como um ficheiro .xlsx ou .csv e visualizá-los no Excel. Para obter mais informações, veja [Exportar dados de visualizações do Power BI](power-bi-visualization-export-data.md).
 
 > [!NOTE]
-> *Mostrar Dados* e *Exportar Dados* estão disponíveis no serviço Power BI e no Power BI Desktop. No entanto, o Power BI Desktop fornece uma camada adicional de detalhe; [*Mostrar Registos* apresenta as linhas atuais do conjunto de dados](../desktop-see-data-see-records.md).
+> *Mostrar Dados* e *Exportar Dados* estão disponíveis no serviço Power BI e no Power BI Desktop. No entanto, o Power BI Desktop fornece uma camada adicional de detalhe; [*Mostrar Registos* apresenta as linhas atuais do conjunto de dados](../create-reports/desktop-see-data-see-records.md).
 > 
 > 
 
@@ -75,4 +77,5 @@ Também pode concentrar-se num registo de dados numa visualização e explorar o
 [Exportar dados de visualizações do Power BI](power-bi-visualization-export-data.md)    
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
+
 

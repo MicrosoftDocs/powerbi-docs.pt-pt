@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4f0bfdbf3eb3856f872c872fbe0880ad39839e07
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 31563e5bb5b91468b8913c3204e9d27607716c77
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867605"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279210"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Utilizar uma segmentação e filtro de hora relativa no Power BI
 
@@ -24,7 +24,7 @@ Com cenários de atualização rápida emergentes, a capacidade de filtrar para 
 
 :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="Exemplo de hora relativa":::
 
-Não é preciso utilizar a funcionalidade em conjunto com a funcionalidade de [atualização automática de página](../desktop-automatic-page-refresh.md). No entanto, muitos cenários de hora relativa combinam bem com a funcionalidade de atualização automática de página.  
+Não é preciso utilizar a funcionalidade em conjunto com a funcionalidade de [atualização automática de página](../create-reports/desktop-automatic-page-refresh.md). No entanto, muitos cenários de hora relativa combinam bem com a funcionalidade de atualização automática de página.  
 
 > [!NOTE]
 > Quando aplica um filtro ou segmentação de hora relativa ao nível de página ou relatório, todos os elementos visuais nessa página ou relatório são filtrados para o mesmo intervalo de tempo, através de uma hora de *âncora* partilhada. Como os elementos visuais podem ter tempos de execução ligeiramente diferentes, esta hora de âncora partilhada garante que os elementos visuais são sincronizados na sua página ou no seu relatório. Leia mais sobre a [hora de âncora](#understanding-anchor-time) neste artigo.
@@ -107,4 +107,3 @@ As seguintes limitações e considerações aplicam-se atualmente ao filtro e se
 
 - [Utilizar uma segmentação e filtro de data relativa no Power BI](../visuals/desktop-slicer-filter-date-range.md)
 - [Segmentação de Dados no Power BI](../visuals/power-bi-visualization-slicers.md)
-

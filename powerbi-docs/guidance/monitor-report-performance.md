@@ -9,16 +9,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525543"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279026"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Monitorizar o desempenho dos relatórios no Power BI
 
-Monitorize o desempenho dos relatórios no Power BI Desktop com a [aplicação Métricas do Power BI Premium](../service-premium-metrics-app.md), saiba onde estão os estrangulamentos e saiba como pode melhorar o desempenho dos relatórios.
+Monitorize o desempenho dos relatórios no Power BI Desktop com a [aplicação Métricas do Power BI Premium](../admin/service-premium-metrics-app.md), saiba onde estão os estrangulamentos e saiba como pode melhorar o desempenho dos relatórios.
 
 A monitorização do desempenho é relevante quando:
 
@@ -39,7 +39,7 @@ Utilize o [Query Diagnostics](/power-query/QueryDiagnostics) (Diagnóstico de Co
 
 ## <a name="use-performance-analyzer"></a>Utilizar o Analisador de Desempenho
 
-Utilize o [Analisador de Desempenho](../desktop-performance-analyzer.md) no Power BI Desktop para saber o desempenho de cada um dos elementos de relatório, como elementos visuais e fórmulas DAX. É especialmente útil para determinar se é a consulta ou a composição de elementos visuais que está a contribuir para os problemas de desempenho.
+Utilize o [Analisador de Desempenho](../create-reports/desktop-performance-analyzer.md) no Power BI Desktop para saber o desempenho de cada um dos elementos de relatório, como elementos visuais e fórmulas DAX. É especialmente útil para determinar se é a consulta ou a composição de elementos visuais que está a contribuir para os problemas de desempenho.
 
 ## <a name="use-sql-server-profiler"></a>Utilizar o SQL Server Profiler
 
@@ -77,15 +77,15 @@ Um benefício de utilizar o SQL Server Profiler é a possibilidade de guardar u
 
 ## <a name="monitor-premium-metrics"></a>Monitorizar as métricas Premium
 
-Para utilizar as capacidades do Power BI Premium, utilize a **aplicação Métricas do Power BI Premium** para monitorizar o estado de funcionamento e a capacidade da sua subscrição do Power BI Premium. Para obter mais informações, veja [Aplicação Métricas do Power BI Premium](../service-premium-metrics-app.md).
+Para utilizar as capacidades do Power BI Premium, utilize a **aplicação Métricas do Power BI Premium** para monitorizar o estado de funcionamento e a capacidade da sua subscrição do Power BI Premium. Para obter mais informações, veja [Aplicação Métricas do Power BI Premium](../admin/service-premium-metrics-app.md).
 
 ## <a name="next-steps"></a>Próximos passos
 
 Para obter mais informações sobre este artigo, consulte os seguintes recursos:
 
 - [Query Diagnostics](/power-query/QueryDiagnostics) (Diagnóstico de Consultas)
-- [Analisador de Desempenho](../desktop-performance-analyzer.md)
+- [Analisador de Desempenho](../create-reports/desktop-performance-analyzer.md)
 - [Resolver problemas com o desempenho dos relatórios no Power BI](report-performance-troubleshoot.md)
-- [Aplicação Métricas do Power BI Premium](../service-premium-metrics-app.md)
+- [Aplicação Métricas do Power BI Premium](../admin/service-premium-metrics-app.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)

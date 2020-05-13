@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a874875c470cd85720570e57b7c6d7cf50dabca1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381451"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274173"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Aplicar limites de pontos de dados e estratégias por tipo de elemento visual
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
 
 Quando um elemento visual é composto no Power BI, a visualização tem de ser rápida e precisa. Isso implica algoritmos subjacentes configurados para cada tipo de elemento visual. Os elementos visuais no Power BI têm de ser suficientemente flexíveis para lidar com diferentes tamanhos de conjuntos de dados. Alguns conjuntos de dados têm apenas alguns pontos de dados, enquanto outros têm petabytes. Este artigo explica as estratégias utilizadas pelo Power BI para compor as visualizações.
 
@@ -57,7 +59,7 @@ Os limites dinâmicos são aplicados automaticamente quando o servidor tem a cap
 ## <a name="strategies-and-data-point-limits-by-visual-type"></a>Estratégias e limites de pontos de dados por tipo de elemento visual
 
 ### <a name="area-chart"></a>Gráfico de área
-Veja [Como funciona a amostragem de linhas](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+Veja [Como funciona a amostragem de linhas](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="barcolumn-chart"></a>Gráfico de barras/colunas
 - Quando em modo de categorização
@@ -97,10 +99,10 @@ O mapa de manchas pode utilizar estatísticas ou limites dinâmicos. O Power BI 
 - Últimos 3500
 
 ### <a name="line-chart"></a>Gráfico de linhas
-Veja [Como funciona a amostragem de linhas](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+Veja [Como funciona a amostragem de linhas](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="line-chart-high-density"></a>Gráfico de linhas, elevada densidade
-Veja [Amostragem de elevada densidade](../desktop-high-density-sampling.md)
+Veja [Amostragem de elevada densidade](../create-reports/desktop-high-density-sampling.md)
 
 ### <a name="map"></a>Mapa 
 - N.º máximo de pontos: 3500
@@ -109,9 +111,9 @@ Dependendo da configuração, um mapa pode ter:
 - Localização: Primeiros 3500
 - Localização, Tamanho: Primeiros 3500
 - Localização, Latitude e Longitude como agregações (Tamanho + /-): Primeiros 3500
-- Latitude, Longitude: veja [Dispersão de elevada densidade](desktop-high-density-scatter-charts.md)
+- Latitude, Longitude: veja [Dispersão de elevada densidade](../create-reports/desktop-high-density-scatter-charts.md)
 - Latitude, Longitude, Tamanho: Primeiros 3500
-- Legenda, Latitude, Longitude: veja [Dispersão de elevada densidade](desktop-high-density-scatter-charts.md)
+- Legenda, Latitude, Longitude: veja [Dispersão de elevada densidade](../create-reports/desktop-high-density-scatter-charts.md)
 - Legenda, Latitude, Longitude, Tamanho: Primeiras 233 legendas, Primeiras 15 latitudes e longitudes (pode utilizar estatísticas ou limites dinâmicos)
 - Localização, Legenda, Latitude e Longitude como agregações (Tamanho + /-): Primeiras 233 localizações, Primeiras 15 legendas (pode utilizar estatísticas ou limites dinâmicos)
 

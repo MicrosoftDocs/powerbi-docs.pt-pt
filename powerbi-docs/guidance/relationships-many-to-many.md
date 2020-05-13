@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8718c67c592bf96d50efed475c0d27b4ec80ca04
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260462"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278336"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Guia de relações muitos-para-muitos
 
@@ -161,7 +161,7 @@ O elemento visual apresenta um resultado preciso. No entanto, a utilidade do mod
 
 ### <a name="relate-many-to-many-facts-guidance"></a>Orientação para relacionar factos muitos-para-muitos
 
-Normalmente, não recomendamos relacionar duas tabelas de factos diretamente utilizando a cardinalidade muitos-para-muitos. O motivo principal é porque o modelo não irá fornecer a flexibilidade na forma como relata o filtro ou agrupamento de elementos visuais. No exemplo fornecido, só é possível filtrar ou agrupar elementos visuais pela coluna **OrderID** da tabela **Order**. Um motivo adicional está relacionado com a qualidade dos seus dados. Se os seus dados tiverem problemas de integridade, é possível que algumas linhas sejam omitidas durante a consulta devido à natureza da _fraca relação_. Para obter mais informações, veja [Relações de modelos no Power BI Desktop (Avaliação de relações)](../desktop-relationships-understand.md#relationship-evaluation).
+Normalmente, não recomendamos relacionar duas tabelas de factos diretamente utilizando a cardinalidade muitos-para-muitos. O motivo principal é porque o modelo não irá fornecer a flexibilidade na forma como relata o filtro ou agrupamento de elementos visuais. No exemplo fornecido, só é possível filtrar ou agrupar elementos visuais pela coluna **OrderID** da tabela **Order**. Um motivo adicional está relacionado com a qualidade dos seus dados. Se os seus dados tiverem problemas de integridade, é possível que algumas linhas sejam omitidas durante a consulta devido à natureza da _fraca relação_. Para obter mais informações, veja [Relações de modelos no Power BI Desktop (Avaliação de relações)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 Em vez de relacionar tabelas de factos diretamente, recomendamos que adote os princípios do design [Esquema de Estrela](star-schema.md). Pode fazê-lo ao adicionar tabelas de dimensão. As tabelas de dimensão relacionam-se então com as tabelas de factos através de relações um-para-muitos. Esta abordagem de design é robusta, pois fornece opções de relatórios flexíveis. Permite-lhe filtrar ou agrupar com qualquer uma das colunas de dimensão e resumir qualquer tabela de factos.
 
@@ -184,7 +184,7 @@ Dedicar tempo para aplicar os princípios de design do esquema de estrela result
 - Os elementos visuais do seu relatório podem _filtrar ou agrupar_ por qualquer coluna visível a partir das tabelas de tipo de dimensão
 - Os elementos visuais do seu relatório podem _resumir_ qualquer coluna visível a partir das tabelas de factos
 - Os filtros aplicados às tabelas **OrderLine**, **OrderDate** ou **Product** irão propagar para ambas as tabelas de tipos de factos
-- Todas as relações são um-para-muitos e cada relação é uma _relação forte_. Os problemas de integridade de dados não serão dissimulados. Para obter mais informações, veja [Relações de modelos no Power BI Desktop (Avaliação de relações)](../desktop-relationships-understand.md#relationship-evaluation).
+- Todas as relações são um-para-muitos e cada relação é uma _relação forte_. Os problemas de integridade de dados não serão dissimulados. Para obter mais informações, veja [Relações de modelos no Power BI Desktop (Avaliação de relações)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 ## <a name="relate-higher-grain-facts"></a>Relacionar factos de agregação superior
 
@@ -209,7 +209,7 @@ Uma relação entre as tabelas **Date** e **Target** deve ser uma relação um-p
 
 No entanto, há que ter cuidado para garantir que esses filtros de nível de mês ou data produzem um resultado significativo. Sem qualquer lógica especial de cálculo, os elementos visuais de relatórios podem relatar que as datas de destino são, literalmente, o primeiro dia de cada ano. Todos os restantes dias (e todos os meses, exceto janeiro) irão resumir a quantidade de destino como BLANK.
 
-O seguinte elemento visual de matriz mostra o que acontece quando o utilizador do relatório analisa um ano e os seus respetivos meses. O elemento visual está a resumir a coluna **TargetQuantity**. (A opção [Mostrar itens sem dados](../desktop-show-items-no-data.md) foi ativada para as linhas de matriz.)
+O seguinte elemento visual de matriz mostra o que acontece quando o utilizador do relatório analisa um ano e os seus respetivos meses. O elemento visual está a resumir a coluna **TargetQuantity**. (A opção [Mostrar itens sem dados](../create-reports/desktop-show-items-no-data.md) foi ativada para as linhas de matriz.)
 
 ![Um elemento visual de matriz revela a quantidade de destino de 2020 como 270. Quando expandido para revelar os meses de 2020, janeiro corresponde a 270 e todas as restantes quantidades de destino do nível de mês apresentam BLANK.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
@@ -295,7 +295,7 @@ Quando precisar de relacionar uma tabela de dimensão a uma tabela de factos e e
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
-- [Relações de modelos no Power BI Desktop](../desktop-relationships-understand.md)
+- [Relações de modelos no Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Compreender o que é um esquema de estrela e qual a importância para o Power BI](star-schema.md)
 - [Documento de orientação da resolução de problemas de relações](relationships-troubleshoot.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

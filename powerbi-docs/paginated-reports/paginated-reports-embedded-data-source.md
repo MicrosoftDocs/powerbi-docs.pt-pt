@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 83fadfe5f690a87563d20b9c6385b9a37193b9c9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b70db42732143d5db938ad793be8aa3997ecdd8c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921775"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276910"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Criar uma origem de dados incorporada para relatórios paginados no serviço Power BI
 
@@ -27,11 +27,11 @@ Neste artigo, vai aprender a criar e a modificar uma origem de dados incorporada
 - Oracle 
 - Teradata 
 
-Utilize a opção [Ligação do SQL Server Analysis Services](../service-premium-connect-tools.md) para as seguintes origens de dados:
+Utilize a opção [Ligação do SQL Server Analysis Services](../admin/service-premium-connect-tools.md) para as seguintes origens de dados:
 
 - Conjuntos de dados do Power BI Premium
 
-Os relatórios paginados ligam-se às origens de dados no local através de um [gateway do Power BI](../service-gateway-onprem.md). Vai configurar o gateway depois de publicar o relatório no serviço Power BI.
+Os relatórios paginados ligam-se às origens de dados no local através de um [gateway do Power BI](../connect-data/service-gateway-onprem.md). Vai configurar o gateway depois de publicar o relatório no serviço Power BI.
 
 Para obter informações mais detalhadas, veja [Dados de Relatórios no Report Builder do Power BI](report-builder-data.md).
 
@@ -93,3 +93,4 @@ Os relatórios paginados que estão ligados a conjuntos de dados do Power BI seg
 
 - [Criar uma origem de dados incorporada para um relatório paginado no serviço Power BI](paginated-reports-create-embedded-dataset.md)
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)
+

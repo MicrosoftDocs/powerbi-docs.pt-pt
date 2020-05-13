@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 45edb3695acdcc5519fb0b62cebc853ff25ce97a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80404869"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145233"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: criar um relatório paginado e carregá-lo para o serviço Power BI
 
@@ -43,7 +43,7 @@ Seguem-se os pré-requisitos para a criação do relatório paginado:
 Seguem-se os pré-requisitos para carregar o relatório paginado para o serviço Power BI:
 
 - Precisa de uma [licença do Power BI Pro](../service-admin-power-bi-pro-in-your-organization.md).
-- Precisa de uma área de trabalho no serviço numa [capacidade do Power BI Premium](../service-premium-what-is.md). Essa capacidade tem um ícone de losango ![Ícone de losango Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) junto do nome da área de trabalho.
+- Precisa de uma área de trabalho no serviço numa [capacidade do Power BI Premium](../admin/service-premium-what-is.md). Essa capacidade tem um ícone de losango ![Ícone de losango Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) junto do nome da área de trabalho.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>Criar a matriz com um assistente
   
@@ -329,4 +329,3 @@ Agora que criou o relatório paginado, chegou a hora de o carregar no serviço P
 ## <a name="next-steps"></a>Próximos passos
 
 [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)
-

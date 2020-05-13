@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866593"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279187"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Criar visualizações de matriz no Power BI
 
@@ -62,7 +62,7 @@ O estado de expansão da matriz será guardado com o relatório. Pode afixar uma
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
-> Se estiver a criar um relatório sobre um modelo multidimensional dos Analysis Services, existirão algumas considerações especiais para expandir/fechar se o modelo utilizar a funcionalidade Membro Predefinido. Para obter mais informações, veja [Trabalhar com modelos multidimensionais no Power BI](../desktop-default-member-multidimensional-models.md)
+> Se estiver a criar um relatório sobre um modelo multidimensional dos Analysis Services, existirão algumas considerações especiais para expandir/fechar se o modelo utilizar a funcionalidade Membro Predefinido. Para obter mais informações, veja [Trabalhar com modelos multidimensionais no Power BI](../connect-data/desktop-default-member-multidimensional-models.md)
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Utilizar a desagregação no elemento visual de matriz
 Com o elemento visual de matriz, pode fazer todos os tipos de atividades de desagregação interessantes que não estavam disponíveis anteriormente. Isto inclui a capacidade de desagregar com linhas, colunas e até em células e secções individuais. Vamos ver como funciona cada uma.
@@ -211,7 +211,7 @@ Se tiver uma coluna ou uma medida que contenha URLs de sites, poderá utilizar a
 
 Ative o **URL da Web** e selecione um campo para utilizar como URL da coluna. Uma vez aplicados, os valores nesse campo (coluna) tornam-se ligações ativas. Passe o rato para ver a ligação e selecione para ir para essa página. 
 
-Para obter mais informações, veja [Formatação condicional em tabelas](../desktop-conditional-table-formatting.md)
+Para obter mais informações, veja [Formatação condicional em tabelas](../create-reports/desktop-conditional-table-formatting.md)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Sombreado e cores de tipo de letra com elementos visuais de matriz
 Com o elemento visual de matriz, pode aplicar a formatação condicional (cores, sombreado e barras de dados) ao fundo das células na matriz, bem como ao texto e aos valores.
@@ -233,3 +233,5 @@ Selecione *Controlos avançados* para apresentar uma caixa de diálogo, que lhe 
 [Elemento visual do Power Apps para Power BI](power-bi-visualization-powerapp.md)
 
 [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

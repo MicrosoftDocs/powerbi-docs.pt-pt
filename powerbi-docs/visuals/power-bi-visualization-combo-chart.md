@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9c8dcfec103bb53d645cdfd347112d7443506569
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 036343df0a9af678b5a88c261a60ce603483a1cc
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867007"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277186"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Criar e utilizar gráficos de combinação no Power BI
 
@@ -121,16 +121,19 @@ Em janeiro, a percentagem de Margem Bruta foi de 35%, chegando ao máximo de 45%
 
 Aqui poderá:
 
-* [Adicionar o gráfico de combinação como um mosaico do dashboard](../service-dashboard-tiles.md).
-* [Guarde o relatório](../service-report-save.md).
+* [Adicionar o gráfico de combinação como um mosaico do dashboard](../create-reports/service-dashboard-tiles.md).
+* [Guarde o relatório](../create-reports/service-report-save.md).
 * [Tornar o relatório mais acessível para pessoas portadoras de deficiência](../desktop-accessibility.md).
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Destaque e filtragem cruzada
 
-Realçar uma coluna ou linha num gráfico de combinação destaca e filtra de forma cruzada as outras visualizações na página de relatório e vice-versa. Para alterar este comportamento padrão, utilize as [interações visuais](../service-reports-visual-interactions.md).
+Realçar uma coluna ou linha num gráfico de combinação destaca e filtra de forma cruzada as outras visualizações na página de relatório e vice-versa. Para alterar este comportamento padrão, utilize as [interações visuais](../create-reports/service-reports-visual-interactions.md).
 
 ## <a name="next-steps"></a>Próximos passos
 
 [Gráficos em anel no Power BI](power-bi-visualization-doughnut-charts.md)
 
 [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+

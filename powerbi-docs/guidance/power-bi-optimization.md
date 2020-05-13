@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d718c9c7f627d735c083a46c1483815e3744faca
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f189ea2944f86a3caabfbc51ae5b2887bc7c89bb
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378875"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278613"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Guia de otimização para o Power BI
 
@@ -26,7 +26,7 @@ Este artigo apresenta orientações que permitem aos programadores e administrad
 
 ## <a name="optimizing-the-data-model"></a>Otimizar o modelo de dados
 
-O modelo de dados suporta toda a experiência de visualização. Os modelos de dados são hospedados externa ou internamente e são referidos como _conjuntos de dados_ no Power BI. É importante compreender as opções e escolher o tipo de conjunto de dados apropriado para a sua solução. Existem três modos de conjuntos de dados: Importação, DirectQuery e Composto. Para obter mais informações, veja [Conjuntos de dados no serviço Power BI](../service-datasets-understand.md) e [Modos dos conjuntos de dados no serviço Power BI](../service-dataset-modes-understand.md).
+O modelo de dados suporta toda a experiência de visualização. Os modelos de dados são hospedados externa ou internamente e são referidos como _conjuntos de dados_ no Power BI. É importante compreender as opções e escolher o tipo de conjunto de dados apropriado para a sua solução. Existem três modos de conjuntos de dados: Importação, DirectQuery e Composto. Para obter mais informações, veja [Conjuntos de dados no serviço Power BI](../connect-data/service-datasets-understand.md) e [Modos dos conjuntos de dados no serviço Power BI](../connect-data/service-dataset-modes-understand.md).
 
 Para obter orientações específicas sobre o modo de conjunto de dados, veja:
 
@@ -40,7 +40,7 @@ As visualizações do Power BI podem ser dashboards, relatórios do Power BI o
 
 ### <a name="dashboards"></a>Dashboards
 
-É importante compreender que o Power BI mantém uma cache para os mosaicos do dashboard, exceto para os mosaicos de relatórios dinâmicos e para os mosaicos de transmissão em fluxo. Para obter mais informações, veja [Atualização dos dados no Power BI (Atualização de mosaico)](../refresh-data.md#tile-refresh). Se o conjunto de dados impuser a [segurança ao nível da linha (RLS)](../service-admin-rls.md) dinâmica, confirme que compreende as implicações no desempenho, dado que os mosaicos serão colocados em cache numa base por utilizador.
+É importante compreender que o Power BI mantém uma cache para os mosaicos do dashboard, exceto para os mosaicos de relatórios dinâmicos e para os mosaicos de transmissão em fluxo. Para obter mais informações, veja [Atualização dos dados no Power BI (Atualização de mosaico)](../connect-data/refresh-data.md#tile-refresh). Se o conjunto de dados impuser a [segurança ao nível da linha (RLS)](../admin/service-admin-rls.md) dinâmica, confirme que compreende as implicações no desempenho, dado que os mosaicos serão colocados em cache numa base por utilizador.
 
 Quando afixa mosaicos de relatório dinâmico a um dashboard, estes não são processados a partir da cache de consulta. Em vez disso, comportam-se como relatórios e tornam as consultas aos cores de back-end rápidas.
 
@@ -75,7 +75,7 @@ Certifique se de que testa os seus elementos visuais personalizados com cuidado 
 
 Os designs de relatórios paginados do Power BI podem ser otimizados ao aplicar as melhores práticas de design à obtenção de dados do relatório. Para obter mais informações, veja [Orientação para a obtenção de dados para relatórios paginados](report-paginated-data-retrieval.md).
 
-Adicionalmente, confirme que tem memória suficiente alocada à [carga de trabalho de relatórios paginados](../service-admin-premium-workloads.md#paginated-reports).
+Adicionalmente, confirme que tem memória suficiente alocada à [carga de trabalho de relatórios paginados](../admin/service-admin-premium-workloads.md#paginated-reports).
 
 ## <a name="optimizing-the-environment"></a>Otimizar o ambiente
 
@@ -83,11 +83,11 @@ Pode otimizar o ambiente do Power BI ao configurar as definições de capacidad
 
 ### <a name="capacity-settings"></a>Definições de capacidade
 
-Com as capacidades dedicadas, disponíveis com o Power BI Premium (SKUs P) ou o Power BI Embedded (SKUs A, A4 a A6), pode gerir as definições de capacidade. Para obter mais informações, veja [Gerir capacidades Premium](../service-premium-capacity-manage.md). Para obter orientação sobre como otimizar a capacidade, veja [Otimizar as capacidades Premium](../service-premium-capacity-optimize.md).
+Com as capacidades dedicadas, disponíveis com o Power BI Premium (SKUs P) ou o Power BI Embedded (SKUs A, A4 a A6), pode gerir as definições de capacidade. Para obter mais informações, veja [Gerir capacidades Premium](../admin/service-premium-capacity-manage.md). Para obter orientação sobre como otimizar a capacidade, veja [Otimizar as capacidades Premium](../admin/service-premium-capacity-optimize.md).
 
 ### <a name="gateway-sizing"></a>Dimensionamento do gateway
 
-É necessário um gateway sempre que o Power BI precise de aceder a dados que não estejam diretamente acessíveis através da Internet. Pode instalar o [gateway de dados no local](../service-gateway-onprem.md) num servidor no local ou numa Infraestrutura como Serviço (IaaS) alojada na VM.
+É necessário um gateway sempre que o Power BI precise de aceder a dados que não estejam diretamente acessíveis através da Internet. Pode instalar o [gateway de dados no local](../connect-data/service-gateway-onprem.md) num servidor no local ou numa Infraestrutura como Serviço (IaaS) alojada na VM.
 
 Para compreender as cargas de trabalho do gateway e as recomendações de dimensionamento, veja [Dimensionamento do gateway de dados no local](gateway-onprem-sizing.md).
 
@@ -96,7 +96,7 @@ Para compreender as cargas de trabalho do gateway e as recomendações de dimens
 A latência de rede pode ter um impacto no desempenho do relatório ao aumentar o tempo necessário para os pedidos chegarem ao serviço Power BI e para as respostas serem devolvidas. Os inquilinos no Power BI são atribuídos a uma região específica.
 
 > [!TIP]
-> Para determinar a localização do seu inquilino, veja [Onde está localizado o meu inquilino do Power BI?](../service-admin-where-is-my-tenant-located.md)
+> Para determinar a localização do seu inquilino, veja [Onde está localizado o meu inquilino do Power BI?](../admin/service-admin-where-is-my-tenant-located.md)
 
 Quando os utilizadores de um inquilino acedem ao serviço Power BI, os respetivos pedidos são sempre encaminhados para esta região. À medida que os pedidos chegam ao serviço Power BI, o serviço poderá enviar pedidos adicionais, por exemplo, para a origem de dados subjacente ou para um gateway de dados, que também estão sujeitos à latência de rede.
 
@@ -115,3 +115,7 @@ Para obter mais informações sobre este artigo, consulte os seguintes recursos:
 - Documento técnico: [Planear uma Implementação Empresarial do Power BI](https://go.microsoft.com/fwlink/?linkid=2057861)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)
+
+
+
+
