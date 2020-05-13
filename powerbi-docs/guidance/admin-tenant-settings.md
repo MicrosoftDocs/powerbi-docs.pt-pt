@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79487815"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279762"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Orientação sobre as definições para administradores de inquilinos
 
@@ -21,7 +21,7 @@ Este artigo é dirigido aos administradores do Power BI responsáveis pela confi
 
 Fornecemos orientações sobre definições de inquilino específicas que ajudam a melhorar a experiência do Power BI, mas que também podem expor a sua organização a riscos. Recomendamos que configure sempre o seu inquilino de modo a cumprir as políticas e os processos da sua organização.
 
-As [definições de inquilino](../service-admin-portal.md#tenant-settings) são geridas no [Portal de administração](https://app.powerbi.com/admin-portal/tenantSettings) e podem ser configuradas por um [Administrador de serviço do Power BI](../service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi). Muitas definições de inquilino podem restringir capacidades e funcionalidades para um grupo limitado de utilizadores. Assim, recomendamos que se familiarize primeiro com as definições para definir os grupos de segurança de que irá precisar. Poderá ser possível aplicar o mesmo grupo de segurança a múltiplas definições.
+As [definições de inquilino](../admin/service-admin-portal.md#tenant-settings) são geridas no [Portal de administração](https://app.powerbi.com/admin-portal/tenantSettings) e podem ser configuradas por um [Administrador de serviço do Power BI](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi). Muitas definições de inquilino podem restringir capacidades e funcionalidades para um grupo limitado de utilizadores. Assim, recomendamos que se familiarize primeiro com as definições para definir os grupos de segurança de que irá precisar. Poderá ser possível aplicar o mesmo grupo de segurança a múltiplas definições.
 
 ## <a name="improve-power-bi-experience"></a>Melhorar a experiência do Power BI
 
@@ -88,7 +88,7 @@ Recomendamos a atribuição de um ou mais grupos de segurança. É possível con
 
 ### <a name="publish-to-web"></a>Publicar na web
 
-A funcionalidade [publicar na Web](../service-publish-to-web.md) permite publicar relatórios públicos na Web. Caso seja utilizada de forma inadequada, existe o risco de determinadas informações confidenciais serem disponibilizadas na Web.
+A funcionalidade [publicar na Web](../collaborate-share/service-publish-to-web.md) permite publicar relatórios públicos na Web. Caso seja utilizada de forma inadequada, existe o risco de determinadas informações confidenciais serem disponibilizadas na Web.
 
 A definição **Publicar na Web** está ativada por predefinição para toda a organização, mas impede os utilizadores não administradores de criar códigos de incorporação. Poderá encontrá-la no grupo **Definições de exportação e partilha**.
 
@@ -109,7 +109,7 @@ A definição **Exportar dados** está ativada por predefinição para toda a or
 Recomendamos a atribuição de um ou mais grupos de segurança. É possível conceder _ou negar_ permissões a estes grupos para publicar relatórios.
 
 > [!IMPORTANT]
-> Se desativar esta definição, estará também a restringir a utilização das funcionalidades [Analisar no Excel](../service-analyze-in-excel.md) e [ligação em direto](../desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) do Power BI.
+> Se desativar esta definição, estará também a restringir a utilização das funcionalidades [Analisar no Excel](../collaborate-share/service-analyze-in-excel.md) e [ligação em direto](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) do Power BI.
 
 ![É apresentada a definição "Exportar dados".](media/admin-tenant-settings/export-data.png)
 
@@ -118,7 +118,7 @@ Recomendamos a atribuição de um ou mais grupos de segurança. É possível con
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização
 
-É possível que alguns utilizadores externos convidados possam editar ou gerir conteúdos do Power BI. Para obter mais informações, veja [Distribuir conteúdos do Power BI para utilizadores externos convidados com o Azure AD B2B](../service-admin-azure-ad-b2b.md).
+É possível que alguns utilizadores externos convidados possam editar ou gerir conteúdos do Power BI. Para obter mais informações, veja [Distribuir conteúdos do Power BI para utilizadores externos convidados com o Azure AD B2B](../admin/service-admin-azure-ad-b2b.md).
 
 A definição **Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização** está desativada por predefinição para toda a organização. Poderá encontrá-la no grupo **Definições de exportação e partilha**.
 
@@ -141,7 +141,8 @@ Se não tencionar utilizar as APIs de programador para incorporar conteúdos, re
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
-- [O que é a administração do Power BI?](../service-admin-administering-power-bi-in-your-organization.md)
-- [Administrar o Power BI no portal de administração](../service-admin-portal.md)
+- [O que é a administração do Power BI?](../admin/service-admin-administering-power-bi-in-your-organization.md)
+- [Administrar o Power BI no portal de administração](../admin/service-admin-portal.md)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com)
+
