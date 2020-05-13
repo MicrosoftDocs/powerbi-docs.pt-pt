@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3af0828afcc7c085b896fe9e1b99f3b10bfdd5f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377748"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277853"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Extend visuals with report page tooltips (Desenvolver elementos visuais com descrições de páginas de relatório)
 
-O presente artigo destina-se a si, na qualidade de autor de relatório que cria relatórios do Power BI. Fornece sugestões e recomendações para a criação de [descrições de páginas de relatório](../desktop-tooltips.md).
+O presente artigo destina-se a si, na qualidade de autor de relatório que cria relatórios do Power BI. Fornece sugestões e recomendações para a criação de [descrições de páginas de relatório](../create-reports/desktop-tooltips.md).
 
 ## <a name="suggestions"></a>Sugestões
 
@@ -29,7 +29,7 @@ As descrições de páginas de relatório podem otimizar a experiência para os 
 > [!NOTE]
 > Um elemento visual de relatório só pode revelar uma descrição de página quando os filtros de página de descrição são compatíveis com o design do elemento visual. Por exemplo, um elemento visual que agrupa por _produto_ é compatível com uma página de descrições que filtra por _produto_.
 >
-> As descrições de página não suportam interatividade. Se pretende que os utilizadores do seu relatório possam interagir, crie antes uma [página de pormenorização](../desktop-drillthrough.md).
+> As descrições de página não suportam interatividade. Se pretende que os utilizadores do seu relatório possam interagir, crie antes uma [página de pormenorização](../create-reports/desktop-drillthrough.md).
 >
 > Os elementos visuais do Power BI não suportam descrições de página.
 
@@ -65,7 +65,7 @@ Os cabeçalhos de elementos visuais podem ser configurados para revelar descriç
 
 Curiosamente, os botões, imagens, caixas de texto e formas também podem revelar uma descrição de página de cabeçalho de elemento visual.
 
-O seguinte exemplo mostra o que acontece quando o utilizador do relatório paira o cursor sobre o [ícone do cabeçalho do elemento visual](../desktop-visual-elements-for-reports.md).
+O seguinte exemplo mostra o que acontece quando o utilizador do relatório paira o cursor sobre o [ícone do cabeçalho do elemento visual](../create-reports/desktop-visual-elements-for-reports.md).
 
 ![Um utilizador do relatório pairou o cursor sobre o ícone do cabeçalho do elemento visual (ícone de ponto de interrogação). Foi apresentada uma descrição de formatação avançada.](media/report-page-tooltips/suggestion-add-help.png)
 
@@ -85,8 +85,8 @@ No momento de criação do relatório, recomendamos as seguintes práticas:
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
-- [Criar descrições com base em páginas de relatório no Power BI Desktop](../desktop-tooltips.md)
-- [Personalizar descrições no Power BI Desktop](../desktop-custom-tooltips.md)
-- [Utilizar elementos visuais para melhorar relatórios do Power BI](../desktop-visual-elements-for-reports.md)
+- [Criar descrições com base em páginas de relatório no Power BI Desktop](../create-reports/desktop-tooltips.md)
+- [Personalizar descrições no Power BI Desktop](../create-reports/desktop-custom-tooltips.md)
+- [Utilizar elementos visuais para melhorar relatórios do Power BI](../create-reports/desktop-visual-elements-for-reports.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)

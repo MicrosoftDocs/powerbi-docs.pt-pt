@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0481a09aaeac4f6c76c49d3a816ac880cdb9d60b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e82c82430b42874e512265b9dae113b86925a51d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114068"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273276"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Dashboard tiles in Power BI (Mosaicos do dashboard no Power BI)
 
@@ -69,7 +69,7 @@ Precisa de ajuda para compreender os mosaicos modulares que compõem o Power BI?
 3. Para fechar o menu de ação, selecione uma área em branco na tela.
 
 ### <a name="select-click-a-tile"></a>Selecionar (clicar) um mosaico
-Ao selecionar um mosaico, o que ocorre em seguida depende de como o mosaico foi criado e se este tem uma [ligação personalizada](../service-dashboard-edit-tile.md). Se este tiver uma ligação personalizada, a seleção do mosaico levá-lo-á a essa ligação. Caso contrário, a seleção do mosaico leva-o para o relatório, o livro do Excel Online, a relatório do SSRS que está no local ou para a pergunta das Perguntas e Respostas que foi utilizada para criar o mosaico.
+Ao selecionar um mosaico, o que ocorre em seguida depende de como o mosaico foi criado e se este tem uma [ligação personalizada](../create-reports/service-dashboard-edit-tile.md). Se este tiver uma ligação personalizada, a seleção do mosaico levá-lo-á a essa ligação. Caso contrário, a seleção do mosaico leva-o para o relatório, o livro do Excel Online, a relatório do SSRS que está no local ou para a pergunta das Perguntas e Respostas que foi utilizada para criar o mosaico.
 
 > [!NOTE]
 > A exceção são os mosaicos de vídeo criados diretamente no dashboard com a opção **Adicionar mosaico**. A seleção de um mosaico de vídeo (criado desta forma) faz com que o vídeo seja reproduzido diretamente no dashboard.   
@@ -85,6 +85,8 @@ Ao selecionar um mosaico, o que ocorre em seguida depende de como o mosaico foi 
 * Se a visualização original utilizada para criar o mosaico for alterada, o mosaico não será alterado.  Por exemplo, se o *designer* afixou um gráfico de linhas a partir de um relatório e, em seguida, alterou o gráfico de linhas para um gráfico de barras, o mosaico do dashboard continua a mostrar um gráfico de linhas. Os dados são atualizados, mas o tipo de visualização não.
 
 ## <a name="next-steps"></a>Próximas etapas
-[Atualização de dados](../refresh-data.md)
+[Atualização de dados](../connect-data/refresh-data.md)
 
 [Power BI - conceitos básicos](end-user-basic-concepts.md)
+
+

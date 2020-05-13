@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 49e4653152e8981222d3a2589781546eb25bcd0e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82781737"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273023"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Exportar os dados que foram utilizados para criar uma visualização
 
@@ -54,7 +54,7 @@ Veja o Will a exportar os dados a partir de uma das visualizações no seu relat
 
 ## <a name="export-data-from-a-report"></a>Exportar dados de um relatório
 
-Para acompanhar, abra o [Relatório de exemplo de análise de aprovisionamento](../sample-procurement.md) no serviço Power BI, na Vista de Edição. Adicione uma nova página de relatório em branco. Em seguida, siga os passos abaixo para adicionar uma agregação, uma hierarquia e um filtro de nível de visualização.
+Para acompanhar, abra o [Relatório de exemplo de análise de aprovisionamento](../create-reports/sample-procurement.md) no serviço Power BI, na Vista de Edição. Adicione uma nova página de relatório em branco. Em seguida, siga os passos abaixo para adicionar uma agregação, uma hierarquia e um filtro de nível de visualização.
 
 ### <a name="create-a-stacked-column-chart"></a>Criar um gráfico de colunas empilhadas
 
@@ -94,7 +94,7 @@ Selecione a opção de **Dados resumidos** se quiser exportar dados do que vê n
 
     - **Dados subjacentes**
 
-    Para o ajudar a compreender as agregações, veja [Agregações no Power BI](../service-aggregates.md).
+    Para o ajudar a compreender as agregações, veja [Agregações no Power BI](../create-reports/service-aggregates.md).
 
 
     > [!NOTE]
@@ -133,7 +133,7 @@ Quando seleciona **Exportar**, o Power BI exporta os dados para um ficheiro *.x
 
     - **Dados subjacentes**
 
-    Para o ajudar a compreender as agregações, veja [Agregações no Power BI](../service-aggregates.md).
+    Para o ajudar a compreender as agregações, veja [Agregações no Power BI](../create-reports/service-aggregates.md).
 
 
     > [!NOTE]
@@ -164,7 +164,7 @@ Existem várias estratégias que os administradores e designers do Power BI deve
 
 - Os administradores do Power BI podem desativar a exportação de dados para a sua organização. 
 
-- Os proprietários de conjuntos de dados podem definir a segurança ao nível da linha (RLS). A RLS irá restringir o acesso a utilizadores com permissão só de leitura. No entanto, se tiver configurado uma área de trabalho de aplicação e dado aos membros permissões de edição, as funções de RLS não serão aplicadas às mesmas. Para obter mais informações, veja [Segurança ao nível da linha](../service-admin-rls.md).
+- Os proprietários de conjuntos de dados podem definir a segurança ao nível da linha (RLS). A RLS irá restringir o acesso a utilizadores com permissão só de leitura. No entanto, se tiver configurado uma área de trabalho de aplicação e dado aos membros permissões de edição, as funções de RLS não serão aplicadas às mesmas. Para obter mais informações, veja [Segurança ao nível da linha](../admin/service-admin-rls.md).
 
 - Os designers de relatórios podem ocultar colunas para que estas não apareçam na lista **Campos**. Para obter mais informações, veja [Propriedades de conjuntos de dados](../developer/automation/api-dataset-properties.md)
 

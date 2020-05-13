@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ba344d66f967d502d9de8adef7defcae434fb3ef
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: ae73f2e32d34c3e1b37991358545997c4b4bb961
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865466"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272908"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Criar e utilizar mapas de manchas (mapas coropletos) no Power BI
 
@@ -92,12 +92,12 @@ Este tutorial utiliza o [ficheiro PBIX de exemplo de Vendas e Marketing](https:/
 7. O mapa de manchas é sombreado a verde e vermelho, com o vermelho a representar os números de sentimento inferiores e o verde a representar o sentimento superior mais positivo.  Para apresentar detalhes adicionais, arraste um campo para a zona das Descrições.  Aqui, adicionámos o **SalesFact** > **Sentiment gap**. Ao realçar o estado de Idaho (ID), constatamos que o intervalo de sentimento é baixo, com o valor 6.
    ![mapa de manchas que mostra as descrições de Idaho](media/power-bi-visualization-filled-maps-choropleths/power-bi-idaho-filled-map.png)
 
-10. [Guarde o relatório](../service-report-save.md).
+10. [Guarde o relatório](../create-reports/service-report-save.md).
 
 O Power BI oferece muito controlo sobre o aspeto do seu mapa de manchas. Experimente estes controlos de cor de dados até obter o aspeto pretendido. 
 
 ## <a name="highlighting-and-cross-filtering"></a>Realce e filtragem cruzada
-Para obter informações sobre como utilizar o painel Filtros, veja [Adicionar um filtro a um relatório](../power-bi-report-add-filter.md).
+Para obter informações sobre como utilizar o painel Filtros, veja [Adicionar um filtro a um relatório](../create-reports/power-bi-report-add-filter.md).
 
 Destacar um local num mapa de manchas faz a filtragem cruzada com outras visualizações na página do relatório e vice-versa.
 
@@ -136,3 +136,5 @@ Para obter mais ajuda com visualizações de mapas, veja [Sugestões e truques p
 [Mapa de forma](desktop-shape-map.md)
 
 [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

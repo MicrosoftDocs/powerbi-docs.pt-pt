@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 05/04/2020
-ms.openlocfilehash: 3e7e1590adbf953db4232ddffa5f26778e5670c2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a634844093f103c942b70cd81d93822ca240cf0a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82781622"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272034"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Publicar um relatório paginado no serviço Power BI
 
@@ -105,7 +105,7 @@ Tal como qualquer outro relatório do Power BI, se a origem de dados do relató
 
    ![Gerir o relatório paginado](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 
-1. Veja o artigo do serviço Power BI [O que é um gateway de dados no local](../service-gateway-onprem.md) para obter detalhes e os passos seguintes.
+1. Veja o artigo do serviço Power BI [O que é um gateway de dados no local](../connect-data/service-gateway-onprem.md) para obter detalhes e os passos seguintes.
 
 
 
@@ -114,4 +114,5 @@ Tal como qualquer outro relatório do Power BI, se a origem de dados do relató
 - [Ver um relatório paginado no serviço Power BI](../consumer/paginated-reports-view-power-bi-service.md)
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)
 - [Tutorial: Incorporar relatórios paginados do Power BI numa aplicação para os clientes](../developer/embed-paginated-reports-customers.md)
+
 

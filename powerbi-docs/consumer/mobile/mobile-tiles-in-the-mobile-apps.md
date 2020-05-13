@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e5f4fc253fbb7427de8adb21305f66769abcd428
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435910"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273092"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Explorar mosaicos nas aplicações móveis do Power BI
 Aplica-se a:
@@ -52,7 +52,7 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
    
-    As ligações podem ir para outros dashboards do Power BI ou para um URL externo. Pode [tocar na ligação](../../service-dashboard-edit-tile.md#hyperlink) para abrir a mesma dentro da aplicação do Power BI. Se for um site externo, o Power BI pede-lhe para permiti-lo.
+    As ligações podem ir para outros dashboards do Power BI ou para um URL externo. Pode [tocar na ligação](../../create-reports/service-dashboard-edit-tile.md#hyperlink) para abrir a mesma dentro da aplicação do Power BI. Se for um site externo, o Power BI pede-lhe para permiti-lo.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -77,7 +77,7 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
-    As ligações podem ir para outros dashboards do Power BI ou para um URL externo. Pode [tocar na ligação](../../service-dashboard-edit-tile.md#hyperlink) para abrir a mesma dentro da aplicação do Power BI. Se for um site externo, o Power BI pede-lhe para permiti-lo.
+    As ligações podem ir para outros dashboards do Power BI ou para um URL externo. Pode [tocar na ligação](../../create-reports/service-dashboard-edit-tile.md#hyperlink) para abrir a mesma dentro da aplicação do Power BI. Se for um site externo, o Power BI pede-lhe para permiti-lo.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -98,7 +98,7 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
    
     Toque em **Abrir Relatório** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) para [ver o relatório subjacente](mobile-reports-in-the-mobile-apps.md).
    
-    [Abra a ligação](../../service-dashboard-edit-tile.md#hyperlink), se houver uma ligação. As ligações podem levar a dashboards do Power BI ou a um URL externo.
+    [Abra a ligação](../../create-reports/service-dashboard-edit-tile.md#hyperlink), se houver uma ligação. As ligações podem levar a dashboards do Power BI ou a um URL externo.
 3. Toque em **Expandir Mosaico** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png). O mosaico abre no modo de detalhe, onde é mais fácil ver e explorar os dados do mosaico. Neste modo pode:
    
    Girar o gráfico circular para mostrar os valores do setor na parte superior do setor.  
@@ -130,4 +130,3 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
 ## <a name="next-steps"></a>Próximos passos
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

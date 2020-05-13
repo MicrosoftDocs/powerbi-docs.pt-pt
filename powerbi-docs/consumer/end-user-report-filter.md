@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: cb3947ec7aaf6d67a22eb1d7543a57e66e87f5f3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 029970885070fad34e38697aa4c81fce316b7410
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114459"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277669"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Fazer uma visita do painel Filtros
 
@@ -25,7 +25,7 @@ ms.locfileid: "79114459"
 
 Este artigo analisa o painel **Filtros** de relatórios no serviço Power BI. Utilize os filtros para descobrir novas informações nos seus dados.
 
-Existem muitas formas diferentes de filtrar dados no Power BI. Para obter mais informações sobre os filtros, veja [Filtros e realces nos relatórios do Power BI](../power-bi-reports-filters-and-highlighting.md).
+Existem muitas formas diferentes de filtrar dados no Power BI. Para obter mais informações sobre os filtros, veja [Filtros e realces nos relatórios do Power BI](../create-reports/power-bi-reports-filters-and-highlighting.md).
 
 ![Captura de ecrã a mostrar um relatório no browser com uma seta a apontar para a opção Filtros.](media/end-user-report-filter/power-bi-report.png)
 

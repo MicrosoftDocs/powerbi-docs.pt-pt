@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751626"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275967"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Incorporar conteúdos do Power BI com o principal de serviço e o segredo da aplicação
 
@@ -183,14 +183,14 @@ Uma vez incorporados os conteúdos, está pronto para [avançar para a produçã
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-* O principal de serviço só funciona com as [novas áreas de trabalho](../../service-create-the-new-workspaces.md).
+* O principal de serviço só funciona com as [novas áreas de trabalho](../../collaborate-share/service-create-the-new-workspaces.md).
 * **A Minha Área de Trabalho** não é suportada quando utilizar o principal de serviço.
 * É necessária capacidade dedicada quando avançar para a produção.
 * Não pode iniciar sessão no portal do Power BI com o principal de serviço.
 * São necessários direitos de administrador do Power BI para ativar o principal de serviço nas definições de programador no portal de administração do Power BI.
 * Não pode instalar ou gerir um gateway de dados no local com o principal de serviço.
 * As aplicações [Incorporar para a sua organização](embed-sample-for-your-organization.md) não podem utilizar o principal de serviço.
-* A gestão de [fluxos de dados](../../service-dataflows-overview.md) não é suportada.
+* A gestão de [fluxos de dados](../../transform-model/service-dataflows-overview.md) não é suportada.
 * O principal de serviço atualmente não suporta APIs de administração.
 * Quando utilizar o principal de serviço com uma origem de dados do [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview), o principal de serviço tem de ter permissões de instância do Azure Analysis Services. Não é possível utilizar um grupo de segurança que contém o principal de serviço para este efeito.
 

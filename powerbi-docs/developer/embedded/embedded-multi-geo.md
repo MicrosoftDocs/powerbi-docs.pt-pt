@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 269fe87a61df3470a8d11e4934ff1fca4bde7e86
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114664"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149239"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Suporte da Multi-Geo para o Power BI Embedded
 
 **Suporte da Multi-Geo para o Power BI Embedded** significa que os ISVs e as organizações que criam aplicações com o Power BI Embedded para incorporar análises nas suas aplicações podem agora implementar os seus dados em diferentes regiões em todo o mundo.
 
-Agora, os clientes que utilizam o **Power BI Embedded** podem configurar uma **Capacidade A** através das opções **Multi-Geo**, com base nas mesmas funcionalidades e limitações que o [Power BI Premium suporta através da Multi-Geo](../../service-admin-premium-Multi-Geo.md).
+Agora, os clientes que utilizam o **Power BI Embedded** podem configurar uma **Capacidade A** através das opções **Multi-Geo**, com base nas mesmas funcionalidades e limitações que o [Power BI Premium suporta através da Multi-Geo](../../admin/service-admin-premium-Multi-Geo.md).
 
 ## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>Criar o novo recurso da Capacidade do Power BI Embedded com a Multi-Geo
 
@@ -89,6 +89,6 @@ Saiba mais sobre as capacidades do Power BI Embedded e as opções Multi-Geo pa
 
 * [Criar uma capacidade do Power BI Embedded](azure-pbie-create-capacity.md)
 
-* [Multi-Geo nas capacidades do Power BI Premium](../../service-admin-premium-multi-geo.md)
+* [Multi-Geo nas capacidades do Power BI Premium](../../admin/service-admin-premium-multi-geo.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

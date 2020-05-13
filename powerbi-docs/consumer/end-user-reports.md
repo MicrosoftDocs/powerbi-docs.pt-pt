@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 28af5cd89e918fad7fc7064479ac95c67ca3cee3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114240"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277462"
 ---
 # <a name="reports-in-power-bi"></a>Reports in Power BI (Relatórios no Power BI)
 
@@ -76,7 +76,7 @@ Em alternativa, pode ser um *consumidor*, isto é, uma pessoa que recebe relató
 
 * Comece por uma [apresentação do serviço Power BI](end-user-basic-concepts.md) para saber onde procurar relatórios e ferramentas de relatórios.
 * Saiba como [abrir um relatório](end-user-report-open.md) e todas as [interações disponíveis para os consumidores](end-user-reading-view.md).
-* Conheça melhor os relatórios ao ver uma apresentação de um dos nossos [exemplos](../sample-tutorial-connect-to-the-samples.md).  
+* Conheça melhor os relatórios ao ver uma apresentação de um dos nossos [exemplos](../create-reports/sample-tutorial-connect-to-the-samples.md).  
 * Para ver que conjunto de dados está a ser utilizado pelo relatório e que dashboards estão a apresentar elementos visuais do relatório (*marcadores*), veja [Ver conteúdos relacionados no serviço Power BI](end-user-related.md).
 
 > [!TIP]
@@ -86,3 +86,4 @@ Em alternativa, pode ser um *consumidor*, isto é, uma pessoa que recebe relató
 
 [Abrir e ver um relatório](end-user-report-open.md)    
 [Dashboards no serviço Power BI](end-user-dashboards.md)
+

@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: dad451da460abed65a69990394522f268d7f21cd
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 971c699170103d5521763679c93d3641c094cc58
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525277"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277439"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Separar relatórios de modelos no Power BI Desktop
 
 Ao criar uma nova solução do Power BI Desktop, uma das primeiras tarefas que deve realizar é “obter dados”. A obtenção de dados pode resultar em dois resultados completamente diferentes. Pode:
 
-- Criar uma [Ligação em Direto](../desktop-report-lifecycle-datasets.md) para um modelo já publicado, que pode ser um conjunto de dados do Power BI ou um modelo do Analysis Services alojado remotamente.
+- Criar uma [Ligação em Direto](../connect-data/desktop-report-lifecycle-datasets.md) para um modelo já publicado, que pode ser um conjunto de dados do Power BI ou um modelo do Analysis Services alojado remotamente.
 - Inicie o desenvolvimento de um novo modelo, que pode ser um modelo de Importação, DirectQuery ou Composto.
 
 Este artigo aborda o segundo cenário. Proporciona orientações sobre se um relatório e um modelo devem ser combinados num único ficheiro do Power BI Desktop.
@@ -67,7 +67,7 @@ Recomendamos que contacte o proprietário de cada artefacto relacionado para os 
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
-- [Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop](../desktop-report-lifecycle-datasets.md)
+- [Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop](../connect-data/desktop-report-lifecycle-datasets.md)
 - [Ver conteúdos relacionados no serviço Power BI](../consumer/end-user-related.md)
 - [Linhagem de dados](../collaborate-share/service-data-lineage.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

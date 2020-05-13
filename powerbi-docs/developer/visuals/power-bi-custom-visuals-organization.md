@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80464576"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278819"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Elementos visuais organizacionais no Power BI
 
@@ -42,8 +42,6 @@ Para saber mais sobre como administrar, implementar e gerir os elementos visuais
 Existem várias considerações e limitações que deve ter em consideração.
 
 Administrador:
-
-* Os elementos visuais do Power BI legados (por exemplo, os elementos visuais do Power BI que não foram criados sobre as APIs da nova versão) não são suportados
 
 * Se um elemento visual do Power BI no AppSource ou num ficheiro for eliminado do repositório, todos os relatórios existentes que utilizem o elemento visual eliminado deixarão de ser compostos. A eliminação do repositório é irreversível. Para desativar temporariamente um elemento visual do Power BI no AppSource ou num ficheiro, utilize a funcionalidade “Desativar”.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31a899001b5a821a38a3de01db0357c26f2e58dc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205510"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149191"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Anotar e partilhar um mosaico, relatório ou visual nas aplicações móveis do Power BI
 Aplica-se a:
@@ -28,7 +28,7 @@ Pode anotar e partilhar um instantâneo de um mosaico, relatório ou visual a pa
 
 *Um relatório com anotações*
 
-O e-mail com o instantâneo do mosaico, relatório ou visual também inclui uma ligação para o objeto real no serviço Power BI ([https://powerbi.com](https://powerbi.com)). Os destinatários poderão clicar na ligação e aceder diretamente a esse mosaico, relatório ou elemento visual se os destinatários e o utilizador tiverem licenças do Power BI Pro ou se os conteúdos estiverem numa [capacidade Premium](../../service-premium-what-is.md) e se já tiver partilhado o item com eles. 
+O e-mail com o instantâneo do mosaico, relatório ou visual também inclui uma ligação para o objeto real no serviço Power BI ([https://powerbi.com](https://powerbi.com)). Os destinatários poderão clicar na ligação e aceder diretamente a esse mosaico, relatório ou elemento visual se os destinatários e o utilizador tiverem licenças do Power BI Pro ou se os conteúdos estiverem numa [capacidade Premium](../../admin/service-premium-what-is.md) e se já tiver partilhado o item com eles. 
 
 Também pode [partilhar um mosaico da aplicação móvel do Power BI para dispositivos Windows 10](mobile-windows-10-phone-app-get-started.md), mas não pode anotá-lo.
 
@@ -74,4 +74,3 @@ Também pode [partilhar um mosaico da aplicação móvel do Power BI para dispos
 ## <a name="next-steps"></a>Próximas etapas
 * [Partilhar um dashboard a partir das aplicações móveis do Power BI](mobile-share-dashboard-from-the-mobile-apps.md)
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

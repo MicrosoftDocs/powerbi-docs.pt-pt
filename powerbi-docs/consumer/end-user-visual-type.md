@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377196"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279440"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de elementos visuais no Power BI
 
@@ -152,7 +152,7 @@ Os designers de relatórios podem criar um Power App e incorporá-lo no relató
 ![Elementos Visuais das Perguntas e Respostas](media/end-user-visual-type/power-bi-q-and-a.png)
 
 >[!TIP]
->Tal como a [experiência das Perguntas e Respostas em dashboards](../power-bi-tutorial-q-and-a.md), o elemento visual de Perguntas e Respostas permite que faça perguntas sobre os seus dados através de linguagem natural. 
+>Tal como a [experiência das Perguntas e Respostas em dashboards](../create-reports/power-bi-tutorial-q-and-a.md), o elemento visual de Perguntas e Respostas permite que faça perguntas sobre os seus dados através de linguagem natural. 
 
 Para obter mais informações, veja [Elementos visuais das Perguntas e Respostas no Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
@@ -248,3 +248,4 @@ Ao escrever consultas em linguagem natural com as Perguntas e Respostas do Power
 ## <a name="next-steps"></a>Próximos passos
 [Interagir com elementos visuais em relatórios, dashboards e aplicações](end-user-visualizations.md)    
 [A referência correta do elemento visual de sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+

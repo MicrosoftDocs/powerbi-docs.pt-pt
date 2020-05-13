@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 6ffdc73e5e9ef9ccd416378c19da587986c80b55
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 661277337c00f160c010351ba5f827b6e0fc2f8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114344"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277623"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualizar um relatório no serviço Power BI para *consumidores*
 
@@ -99,14 +99,14 @@ Os relatórios podem ser abertos a partir de um dashboard. Na sua maioria, os [m
     ![relatório aberto na Vista de leitura](./media/end-user-report-open/power-bi-report-tabs.png)
 
 > [!NOTE]
-> Nem todos os mosaicos levam a um relatório. Se selecionar um mosaico que tenha sido [criado com Perguntas e Respostas](end-user-q-and-a.md), o ecrã de Perguntas e Respostas irá abrir. Se selecionar um mosaico que tenha sido [criado com o widget **Adicionar mosaico** do dashboard](../service-dashboard-add-widget.md), poderão ocorrer várias situações diferentes: um vídeo pode começar a ser reproduzido, um site pode ser aberto, entre outros.  
+> Nem todos os mosaicos levam a um relatório. Se selecionar um mosaico que tenha sido [criado com Perguntas e Respostas](end-user-q-and-a.md), o ecrã de Perguntas e Respostas irá abrir. Se selecionar um mosaico que tenha sido [criado com o widget **Adicionar mosaico** do dashboard](../create-reports/service-dashboard-add-widget.md), poderão ocorrer várias situações diferentes: um vídeo pode começar a ser reproduzido, um site pode ser aberto, entre outros.  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Mais formas de abrir um relatório
 À medida que vai estando mais à vontade a navegar pelo serviço Power BI, irá descobrir fluxos de trabalho que funcionam melhor para si. Algumas outras formas de aceder a relatórios:
 - No painel de navegação através de [Favoritos](end-user-favorite.md) e [Recentes](end-user-recent.md)    
 - Com a opção [Ver relacionados](end-user-related.md)    
-- Numa mensagem de e-mail quando alguém [partilha consigo](../service-share-reports.md) ou quando [define um alerta](end-user-alerts.md)    
+- Numa mensagem de e-mail quando alguém [partilha consigo](../collaborate-share/service-share-reports.md) ou quando [define um alerta](end-user-alerts.md)    
 - A partir do [Centro de notificações](end-user-notification-center.md)    
 - A partir de uma área de trabalho
 - e muito mais

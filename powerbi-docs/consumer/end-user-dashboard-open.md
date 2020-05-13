@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8f71eab47aba9621805891b10874ea9e501ed0bf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496299"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277922"
 ---
 # <a name="view-a-dashboard"></a>Visualizar um dashboard
 
@@ -49,10 +49,10 @@ Poderá encontrar dashboards em todos os contentores no painel de navegação.
 - **Recente** – se visitou recentemente um dashboard
 - **Aplicações** – a maioria das aplicações contêm dashboards e relatórios
 - **Partilhado comigo** – se um colega [partilhou um dashboard consigo](end-user-shared-with-me.md)
-- **Minha área de trabalho** – se transferiu qualquer um do [exemplos do Power BI](../sample-datasets.md)
+- **Minha área de trabalho** – se transferiu qualquer um do [exemplos do Power BI](../create-reports/sample-datasets.md)
 
 
 
 ## <a name="next-steps"></a>Próximas etapas
-* Conheça melhor os dashboards ao ver uma apresentação de um dos nossos [dashboards de exemplo](../sample-tutorial-connect-to-the-samples.md).    
+* Conheça melhor os dashboards ao ver uma apresentação de um dos nossos [dashboards de exemplo](../create-reports/sample-tutorial-connect-to-the-samples.md).    
 * Saiba mais sobre [mosaicos do dashboard](end-user-tiles.md) e o que acontece quando seleciona um.

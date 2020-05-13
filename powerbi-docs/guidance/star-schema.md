@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4172fc2ff4a1da409a1f5586e8b3579e4745fe99
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751616"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273460"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Compreender o que é um esquema de estrela e qual a importância para o Power BI
 
@@ -42,7 +42,7 @@ Considere que cada elemento visual do relatório do Power BI gera uma consulta q
 - As tabelas de dimensões suportam _filtragem_ e _agrupamento_
 - As tabelas de factos suportam _resumos_
 
-Não existe nenhuma propriedade de tabela que os modeladores definam para configurar o tipo de tabela como dimensão ou facto. Na verdade, esta situação é determinada pelas relações de modelos. Uma relação de modelo estabelece um caminho de propagação de filtro entre duas tabelas e é a propriedade **Cardinalidade** da relação que determina o tipo de tabela. Uma cardinalidade de relação comum é _um-para-muitos_ ou o inverso _muitos-para-um_. O lado "um" é sempre uma tabela de dimensão, enquanto o lado "muitos" é sempre uma tabela de factos. Para obter mais informações sobre relações, veja [Relações de modelos no Power BI Desktop](../desktop-relationships-understand.md).
+Não existe nenhuma propriedade de tabela que os modeladores definam para configurar o tipo de tabela como dimensão ou facto. Na verdade, esta situação é determinada pelas relações de modelos. Uma relação de modelo estabelece um caminho de propagação de filtro entre duas tabelas e é a propriedade **Cardinalidade** da relação que determina o tipo de tabela. Uma cardinalidade de relação comum é _um-para-muitos_ ou o inverso _muitos-para-um_. O lado "um" é sempre uma tabela de dimensão, enquanto o lado "muitos" é sempre uma tabela de factos. Para obter mais informações sobre relações, veja [Relações de modelos no Power BI Desktop](../transform-model/desktop-relationships-understand.md).
 
 ![Esquema de estrela conceitual](media/star-schema/star-schema-example2.png)
 
@@ -209,10 +209,12 @@ Esta abordagem de design muitos para muitos está bem documentada e pode ser obt
 Para obter mais informações sobre o design do esquema de estrela ou o design do modelo do Power BI, veja os seguintes artigos:
 
 - [Artigo da Wikipédia de Modelação dimensional](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [Criar e gerir relações no Power BI Desktop](../desktop-create-and-manage-relationships.md)
+- [Criar e gerir relações no Power BI Desktop](../transform-model/desktop-create-and-manage-relationships.md)
 - [Documento de orientação das relações um-para-um](relationships-one-to-one.md)
 - [Guia de relações muitos para muitos](relationships-many-to-many.md)
 - [Documento de orientação das relações bidirecionais](relationships-bidirectional-filtering.md)
 - [Documento de orientação das relações ativas vs. inativas](relationships-active-inactive.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)
+
+

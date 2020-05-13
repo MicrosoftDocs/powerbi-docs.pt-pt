@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c4d1ce3a4a15c2d79951865e03131e001260e2c9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802078"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276082"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Digitalizar um código QR do Power BI a partir do dispositivo móvel
 Aplica-se a:
@@ -24,7 +24,7 @@ Aplica-se a:
 
 Os códigos QR no Power BI podem ligar qualquer item do mundo real diretamente às informações do BI relacionadas; não é necessária navegação ou pesquisa.
 
-Suponhamos que um colega [criou um código QR no serviço do Power BI](../../service-create-qr-code-for-tile.md) para um relatório ou mosaico num dashboard, partilhou o dashboard ou relatório consigo e colocou o código QR numa localização estratégica; por exemplo, num e-mail ou item específico. 
+Suponhamos que um colega [criou um código QR no serviço do Power BI](../../create-reports/service-create-qr-code-for-tile.md) para um relatório ou mosaico num dashboard, partilhou o dashboard ou relatório consigo e colocou o código QR numa localização estratégica; por exemplo, num e-mail ou item específico. 
 
 Pode digitalizar o código QR para ter acesso imediato ao mosaico ou relatório relevante, diretamente do seu telemóvel, com o scanner da aplicação do Power BI ou qualquer outro scanner instalado no seu telemóvel. 
 
@@ -75,8 +75,7 @@ Se o seu colega não tiver partilhado o dashboard ou relatório consigo, pode pe
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Ligar-se a dados do Power BI do mundo real](mobile-apps-data-in-real-world-context.md) com as aplicações móveis
-* [Criar um código QR para um mosaico no serviço Power BI](../../service-create-qr-code-for-tile.md)
-* [Criar um código QR para um relatório no serviço Power BI](../../service-create-qr-code-for-report.md)
+* [Criar um código QR para um mosaico no serviço Power BI](../../create-reports/service-create-qr-code-for-tile.md)
+* [Criar um código QR para um relatório no serviço Power BI](../../create-reports/service-create-qr-code-for-report.md)
 * Também pode [ler um código QR com a aplicação Power BI for Mixed Reality](mobile-mixed-reality-app.md)
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

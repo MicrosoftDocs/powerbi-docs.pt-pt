@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 27d6ddd9b24e09805bd22150a22347e5cd93c8e0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 66ef36f669b5f34c19f283cf9ebc8be2b12332ec
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492842"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148659"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capacity and SKUs in Power BI embedded analytics (Capacidade e SKUs na análise incorporada do Power BI)
 
@@ -38,7 +38,7 @@ As aplicações que utilizam o Power BI Embedded permitem que os utilizadores co
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
-O [Power BI Premium](../../service-premium-what-is.md) destina-se às empresas que pretendem uma solução completa de BI que forneça uma vista única da respetiva organização, parceiros, clientes e fornecedores.
+O [Power BI Premium](../../admin/service-premium-what-is.md) destina-se às empresas que pretendem uma solução completa de BI que forneça uma vista única da respetiva organização, parceiros, clientes e fornecedores.
 
 O Power BI Premium é um produto SaaS que permite aos utilizadores consumirem conteúdos através de aplicações móveis e aplicações desenvolvidas internamente ou no portal do Power BI (serviço Power BI). Isto permite ao Power BI Premium fornecer uma solução para aplicações para o cliente externas e internas.
 
@@ -46,21 +46,21 @@ O Power BI Premium é um produto SaaS que permite aos utilizadores consumirem co
 
 Cada capacidade oferece uma seleção de SKUs e cada SKU fornece vários escalões de recursos de memória e computação. O tipo de SKU necessário depende do tipo de solução que pretende implementar.
 
-Para saber quais as cargas de trabalho suportadas para cada escalão, consulte o artigo [Configurar cargas de trabalho numa capacidade Premium](../../service-admin-premium-workloads.md)
+Para saber quais as cargas de trabalho suportadas para cada escalão, consulte o artigo [Configurar cargas de trabalho numa capacidade Premium](../../admin/service-admin-premium-workloads.md)
 
 Utilize estas ligações para planear e testar a capacidade:
 * [Planeamento de capacidade](embedded-capacity-planning.md)
-* [Abordagens de teste](../../service-premium-capacity-optimize.md#testing-approaches)
+* [Abordagens de teste](../../admin/service-premium-capacity-optimize.md#testing-approaches)
 
 ### <a name="power-bi-embedded-skus"></a>SKUs do Power BI Embedded
 
-O Power BI Embedded é enviado com um [SKU *a*](../../service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios).
+O Power BI Embedded é enviado com um [SKU *a*](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios).
 
 ### <a name="power-bi-premium-skus"></a>SKUs do Power BI Premium
 
 O Power BI premium oferece dois SKUs: o *P* e o *EM*.
-* [Conheça as diferenças entre os SKUs *P* e *EM*](../../service-premium-what-is.md#subscriptions-and-licensing)
-* [Comprar um SKU Premium](../../service-admin-premium-purchase.md)
+* [Conheça as diferenças entre os SKUs *P* e *EM*](../../admin/service-premium-what-is.md#subscriptions-and-licensing)
+* [Comprar um SKU Premium](../../admin/service-admin-premium-purchase.md)
 
 ### <a name="which-sku-should-i-use"></a>Qual é o SKU que devo utilizar?
 

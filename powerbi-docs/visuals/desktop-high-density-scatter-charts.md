@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 960ce09c1392787f2d24e84d26c2f3be9be010f8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fd35ef0dd7cf4bd20162b82a8f0470ba2ad50980
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73876839"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279141"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Amostragem de alta densidade em gráficos de dispersão do Power BI
 
@@ -84,8 +84,9 @@ A amostragem do algoritmo de alta densidade é uma melhoria importante para o Po
 
 * O algoritmo de **Amostragem de Alta Densidade** funciona apenas com ligações em direto a modelos baseados no serviço Power BI, modelos importados ou do DirectQuery.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre a amostragem de alta densidade em outros gráficos, veja o seguinte artigo.
 
-* [Amostragem de linhas de alta densidade no Power BI](../desktop-high-density-sampling.md)
+* [Amostragem de linhas de alta densidade no Power BI](../create-reports/desktop-high-density-sampling.md)
+
 

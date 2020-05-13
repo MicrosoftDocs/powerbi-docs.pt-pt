@@ -4,22 +4,24 @@ description: Descrição geral das visualizações de relatório (elementos visu
 author: mihart
 ms.author: mihart
 ms.reviewer: ''
-featuredvideoid: SYk_gWrtKvM
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 65a6ab132cccc56d96f5ac22fef5d80f59f96ca9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381474"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277554"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizações em relatórios do Power BI
 
-As visualizações (também conhecidas como elementos visuais) apresentam informações que foram descobertas nos dados. Um relatório do Power BI poderá ter uma única página com um elemento visual ou poderá ter páginas repletas de elementos visuais. No serviço Power BI, os elementos visuais podem ser [afixados de relatórios a dashboards](../service-dashboard-pin-tile-from-report.md).
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
+
+As visualizações (também conhecidas como elementos visuais) apresentam informações que foram descobertas nos dados. Um relatório do Power BI poderá ter uma única página com um elemento visual ou poderá ter páginas repletas de elementos visuais. No serviço Power BI, os elementos visuais podem ser [afixados de relatórios a dashboards](../create-reports/service-dashboard-pin-tile-from-report.md).
 
 É importante saber distinguir *estruturadores* e *consumidores* de relatórios.  Se for a pessoa que cria ou modifica o relatório, é um estruturador.  Os estruturadores têm permissões de edição para o relatório e o respetivo conjunto de dados subjacente. No Power BI Desktop, isto significa que pode abrir o conjunto de dados na Vista de dados e criar elementos visuais na Vista de relatório. No serviço Power BI, significa que pode abrir o relatório ou conjunto de dados no editor de relatórios na [Vista de edição](../consumer/end-user-reading-view.md). Se um relatório ou dashboard tiver sido [partilhado consigo](../consumer/end-user-shared-with-me.md), você será um *consumidor* do relatório. Poderá ver e interagir com o relatório e os seus elementos visuais, mas não conseguirá fazer tantas alterações como um *estruturador*.
 
@@ -28,9 +30,6 @@ Existem vários tipos de elementos visuais disponíveis diretamente no painel Vi
 ![Painel a mostrar ícones para cada tipo de visualização](media/power-bi-report-visualizations/power-bi-icons.png)
 
 Para ter ainda mais opções, visite o [site da comunidade do Microsoft AppSource](https://appsource.microsoft.com) para procurar e [transferir](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [elementos visuais do Power BI](../developer/visuals/custom-visual-develop-tutorial.md) disponibilizados pela Microsoft e pela comunidade.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
-
 
 Se for novo no Power BI, ou se precisar de relembrar alguns aspetos, utilize as ligações abaixo para saber os aspetos básicos de visualizações do Power BI.  Em alternativa, utilize o nosso Índice (no lado esquerdo deste artigo) para procurar ainda mais informações úteis.
 
@@ -60,7 +59,7 @@ Tente [alterar o tipo de visualização](power-bi-report-change-visualization-ty
 
 ## <a name="pin-the-visualization"></a>Afixar a visualização
 
-No serviço Power BI, quando a visualização estiver da forma que quer, pode [afixá-la a um dashboard](../service-dashboard-pin-tile-from-report.md) como um mosaico. Se alterar a visualização que está a ser utilizada no relatório depois de a afixar, o mosaico no dashboard não será alterado. Se era um gráfico de linhas, continuará a ser um gráfico de linhas, mesmo que o tenha alterado para um gráfico em anel no relatório.
+No serviço Power BI, quando a visualização estiver da forma que quer, pode [afixá-la a um dashboard](../create-reports/service-dashboard-pin-tile-from-report.md) como um mosaico. Se alterar a visualização que está a ser utilizada no relatório depois de a afixar, o mosaico no dashboard não será alterado. Se era um gráfico de linhas, continuará a ser um gráfico de linhas, mesmo que o tenha alterado para um gráfico em anel no relatório.
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 - Consoante a origem de dados e o número de campos (medidas ou colunas), o carregamento de um elemento visual pode ser mais demorado.  Recomendamos que limite os elementos visuais a um total de 10 a 20 campos, por motivos de legibilidade e desempenho. 

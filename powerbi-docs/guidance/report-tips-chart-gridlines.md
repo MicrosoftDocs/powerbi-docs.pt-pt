@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: c40d93cc06204ee7a935727c3b38494fdeb71256
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1a8dba63b0832886ce550cb2ed02249317e7240e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065531"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272770"
 ---
 # <a name="tips-to-control-chart-gridlines-in-power-bi-reports"></a>Sugestões para controlar as linhas de grelha do gráfico nos relatórios do Power BI
 
@@ -36,7 +36,8 @@ Em resumo, as três melhores sugestões para controlar as linhas de grelha do gr
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
-- [Sugestões para criar relatórios fantásticos](../desktop-tips-and-tricks-for-creating-reports.md)
+- [Sugestões para criar relatórios fantásticos](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - Vídeo da biDezine: [Top 3 Tips to Control Chart Gridlines in Power BI](https://www.youtube.com/watch?v=Y-igshes2LI) (As 3 Melhores Sugestões para Controlar as Linhas de Grelha do Gráfico no Power BI)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com)
+

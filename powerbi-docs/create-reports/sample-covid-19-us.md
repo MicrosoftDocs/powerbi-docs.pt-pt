@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aca7fc70bc70de553eee070ce5e1522b96c94880
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584923"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277899"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>Exemplo de controlo da COVID-19 das autoridades locais e estaduais dos EUA
 
@@ -48,7 +48,7 @@ Para incluir o gráfico interativo no site, copie e cole o seguinte código de i
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-O código de incorporação é um elemento iFrame HTML que pode inserir em qualquer página HTML. Ajuste a largura e a altura do iFrame fornecido para caber dentro do site. O relatório de exemplo é criado com as proporções 16:9, por isso, escolha um tamanho para preservar esta dimensão. Quando implementado corretamente, o gráfico aparece sem limites cinzentos extra. É útil que reveja [as sugestões e truques de dimensões do iFrame](../service-publish-to-web.md#tips-for-iframe-height-and-width) ao fazer estas alterações.
+O código de incorporação é um elemento iFrame HTML que pode inserir em qualquer página HTML. Ajuste a largura e a altura do iFrame fornecido para caber dentro do site. O relatório de exemplo é criado com as proporções 16:9, por isso, escolha um tamanho para preservar esta dimensão. Quando implementado corretamente, o gráfico aparece sem limites cinzentos extra. É útil que reveja [as sugestões e truques de dimensões do iFrame](../collaborate-share/service-publish-to-web.md#tips-for-iframe-height-and-width) ao fazer estas alterações.
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>Opção 2: Personalizar o ficheiro do Power BI de exemplo
 
@@ -93,18 +93,18 @@ Para começar, [transfira o ficheiro .pbix (aqui)](https://go.microsoft.com/fwli
 
 ### <a name="publish-your-report-to-the-power-bi-service"></a>Publicar o relatório no serviço Power BI
 
-Depois de personalizar o relatório ao seu gosto, [siga os passos aqui indicados para o publicar](../desktop-upload-desktop-files.md) no serviço Power BI.
+Depois de personalizar o relatório ao seu gosto, [siga os passos aqui indicados para o publicar](../create-reports/desktop-upload-desktop-files.md) no serviço Power BI.
 
 ### <a name="configure-scheduled-refresh"></a>Configurar a atualização agendada
 
-Para manter os dados atualizados no relatório, pode [configurar a atualização programada](../refresh-scheduled-refresh.md) depois de publicar o relatório.
+Para manter os dados atualizados no relatório, pode [configurar a atualização programada](../connect-data/refresh-scheduled-refresh.md) depois de publicar o relatório.
 
 Quando seguir os passos, escolha as seguintes opções:
 
 1. Método de Autenticação de Credenciais de Origem de Dados: Anónimo
 2. Definição do nível de privacidade para esta origem de dados: Público
 
-Para testar a definição da atualização, selecione a opção [Atualizar agora](../refresh-data.md#data-refresh), disponível no item do conjunto de dados.
+Para testar a definição da atualização, selecione a opção [Atualizar agora](../connect-data/refresh-data.md#data-refresh), disponível no item do conjunto de dados.
 
 Os dados atualizados são carregados cada vez que o agendamento é executado. Os dados subjacentes são fornecidos pela USAFacts e podem não ser atualizados com a mesma frequência com que o agendamento é atualizado. Veja o [site da USAFacts](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/) para saber quando os dados subjacentes foram atualizados pela última vez. 
 
@@ -112,7 +112,7 @@ Se quiser publicar o relatório personalizado no site, o melhor é configurar a 
 
 ### <a name="create-a-publish-to-web-embed-code"></a>Criar um código de incorporação para publicação na Web 
 
-Para incorporar o relatório personalizado no seu próprio site, siga as instruções para [criar o seu próprio código de incorporação para publicação na Web](../service-publish-to-web.md#create-embed-codes-with-publish-to-web).
+Para incorporar o relatório personalizado no seu próprio site, siga as instruções para [criar o seu próprio código de incorporação para publicação na Web](../collaborate-share/service-publish-to-web.md#create-embed-codes-with-publish-to-web).
 
 Assim que publicar o código de incorporação, utilize o iFrame na caixa de diálogo de confirmação para incorporar no site.
 
@@ -143,7 +143,7 @@ Também pode combinar os dados deste relatório com dados de outra origem. O exe
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-load-data.png" alt-text="Carregar dados da Web":::
 
-    Este artigo, [Ligar a páginas Web do Power BI Desktop](../desktop-connect-to-web.md), contém mais informações sobre o carregamento de dados a partir da Web.
+    Este artigo, [Ligar a páginas Web do Power BI Desktop](../connect-data/desktop-connect-to-web.md), contém mais informações sobre o carregamento de dados a partir da Web.
     
 Em seguida, pode utilizar o Power BI Desktop para visualizar os dados. Por fim, utilize os passos na **Opção 2:** [Publicar o relatório no serviço Power BI](#publish-your-report-to-the-power-bi-service) para publicar o relatório e criar um código de incorporação personalizado. 
 
@@ -168,4 +168,8 @@ Os dados da Johns Hopkins University estão sujeitos aos direitos de autor de 20
 
 ## <a name="next-steps"></a>Próximos passos
 
-[Obter exemplos para o Power BI](../sample-datasets.md)
+[Obter exemplos para o Power BI](../create-reports/sample-datasets.md)
+
+
+
+

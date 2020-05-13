@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a38b3aa72c37d10ce19344ebe6f3c3f286661d62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82120281"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275530"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalar e utilizar aplicações com dashboards e relatórios no Power BI
 
@@ -65,7 +65,7 @@ Também pode encontrar e instalar aplicações a partir do Microsoft AppSource. 
 
 ## <a name="get-an-app-from-the-microsoft-appsource-website"></a>Obter uma aplicação a partir do site do Microsoft AppSource 
 
-Neste exemplo, vamos abrir uma das aplicações de exemplo da Microsoft. No AppSource, irá encontrar aplicações para muitos dos serviços que utiliza para gerir o seu negócio.  Por exemplo: Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo e muitos mais. Para saber mais, veja [Aplicações para serviços que utiliza com o Power BI](../service-connect-to-services.md). 
+Neste exemplo, vamos abrir uma das aplicações de exemplo da Microsoft. No AppSource, irá encontrar aplicações para muitos dos serviços que utiliza para gerir o seu negócio.  Por exemplo: Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo e muitos mais. Para saber mais, veja [Aplicações para serviços que utiliza com o Power BI](../connect-data/service-connect-to-services.md). 
 
 1. Num browser, abra [https://appsource.microsoft.com](https://appsource.microsoft.com) e selecione **Aplicações do Power BI**.
 
@@ -142,3 +142,4 @@ De tempos a tempos, os criadores das aplicações podem lançar novas versões d
 * [Voltar para a descrição geral das aplicações](end-user-apps.md)
 * [Ver um relatório do Power BI](end-user-report-open.md)
 * [Outras formas de partilhar conteúdos consigo](end-user-shared-with-me.md)
+

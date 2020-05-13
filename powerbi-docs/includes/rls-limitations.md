@@ -4,12 +4,12 @@ ms.service: powerbi
 ms.topic: include
 ms.date: 01/31/2020
 ms.author: davidi
-ms.openlocfilehash: b67025de5e2a70876a31fd42e22c9572403288fa
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 912b0213c328c623e7881f7f30fe7d67f6d889b3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77464425"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274649"
 ---
 ## <a name="limitations"></a>Limitações
 
@@ -17,7 +17,7 @@ As limitações atuais da segurança ao nível de linha nos modelos da cloud sã
 
 * Se tiver definido anteriormente funções e regras no serviço Power BI, tem de as recriar no Power BI Desktop.
 
-* Pode definir a RLS apenas nos conjuntos de dados criados com o Power BI Desktop. Se quiser ativar a RLS para os conjuntos de dados criados com o Excel, primeiro tem de converter os seus ficheiros em ficheiros do Power BI Desktop (PBIX). [Saiba mais](../desktop-import-excel-workbooks.md).
+* Pode definir a RLS apenas nos conjuntos de dados criados com o Power BI Desktop. Se quiser ativar a RLS para os conjuntos de dados criados com o Excel, primeiro tem de converter os seus ficheiros em ficheiros do Power BI Desktop (PBIX). [Saiba mais](../connect-data/desktop-import-excel-workbooks.md).
 
 * Só são suportadas ligações de Importação e DirectQuery. As ligações em direto para o Analysis Services são processadas no modelo no local.
 
@@ -32,3 +32,4 @@ Existe um problema conhecido em que é apresentada uma mensagem de erro ao tenta
 1. A Teresa vê um erro.
 
 **Solução:** publicar novamente o ficheiro do Power BI Desktop a partir do serviço Power BI, até que o problema seja resolvido. Pode fazê-lo ao selecionar **Obter Dados** > **Ficheiros**.
+

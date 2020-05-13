@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b60a4c14873427bd06d2b6abce48c9d3d3008859
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 6eee86423fdfc1e1a9338aa4fecfd5eae0c0d111
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865259"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272862"
 ---
 # <a name="create-and-use-funnel-charts"></a>Criar e utilizar gráficos de funil
 
@@ -94,20 +94,23 @@ Agra crie o seu próprio gráfico de funil que mostra o número de oportunidades
      
      ![detalhes da barra de proposta](media/power-bi-visualization-funnel-charts/funnelhover-new.png)
 
-6. [Guarde o relatório](../service-report-save.md).
+6. [Guarde o relatório](../create-reports/service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Destaque e filtragem cruzada
-Para obter informações sobre como utilizar o painel Filtros, veja [Adicionar um filtro a um relatório](../power-bi-report-add-filter.md).
+Para obter informações sobre como utilizar o painel Filtros, veja [Adicionar um filtro a um relatório](../create-reports/power-bi-report-add-filter.md).
 
 Realçar uma barra em um funil cruza os filtros de outras visualizações na página do relatório e vice-versa. Para acompanhar, adicione mais alguns elementos visuais à página do relatório que contém o gráfico de funil.
 
 1. No funil, selecione a barra **Proposta**. Isso destaca de forma cruzada as outras visualizações na página. Utilize CTRL para selecionar vários.
    
    ![pequeno vídeo que mostra as interações visuais](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. Para definir preferências de como os elementos visuais são destacados e filtrados de forma cruzada entre si, veja [Interações visuais no Power BI](../service-reports-visual-interactions.md)
+2. Para definir preferências de como os elementos visuais são destacados e filtrados de forma cruzada entre si, veja [Interações visuais no Power BI](../create-reports/service-reports-visual-interactions.md)
 
 ## <a name="next-steps"></a>Próximos passos
 
 [Medidores no Power BI](power-bi-visualization-radial-gauge-charts.md)
 
 [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+
