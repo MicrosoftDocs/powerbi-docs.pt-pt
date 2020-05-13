@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1aa682a71fe7469f8a9c7d5415fb843400e5d312
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82613563"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148337"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicar elementos visuais do Power BI no Centro de Parceiros
 
@@ -27,7 +27,7 @@ O [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>Preparar a submissão do elemento visual do Power BI
 
-Antes de submeter um elemento visual do Power BI no AppSource, garanta que leu as [Diretrizes dos elementos visuais do Power BI](guidelines-powerbi-visuals.md) e [testou o elemento visual personalizado](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md).
+Antes de submeter um elemento visual do Power BI no AppSource, garanta que leu as [Diretrizes dos elementos visuais do Power BI](guidelines-powerbi-visuals.md) e [testou o elemento visual personalizado](./submission-testing.md).
 
 Quando estiver pronto para submeter o elemento visual do Power BI, verifique se cumpre todos os requisitos listados abaixo.
 
@@ -99,9 +99,10 @@ Siga os passos abaixo para submeter o elemento visual do Power BI no Centro de 
 
 10. Selecione **Configuração do produto** e clique em **Rever e publicar**.
 
+
 ## <a name="tracking-submission-status-and-usage"></a>Controlar o estado da submissão e a utilização
 
-* Pode rever as [políticas de validação](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
+Pode rever as [políticas de validação](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
 
 * Após a submissão, poderá ver o estado da submissão no [dashboard da aplicação](https://sellerdashboard.microsoft.com/Application/Summary/).
 

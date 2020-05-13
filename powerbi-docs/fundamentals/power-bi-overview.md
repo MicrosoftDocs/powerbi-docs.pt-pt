@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487742"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349615"
 ---
 # <a name="what-is-power-bi"></a>O que é Power BI?
 O **Power BI** é uma coleção de serviços de software, aplicações e conectores que funcionam em conjunto para transformar as origens de dados não relacionadas em informações coerentes, visualmente envolventes e interativas. Os dados podem ser uma folha de cálculo do Excel ou uma coleção de armazéns de dados híbridos no local e com base na cloud. O Power BI permite-lhe ligar-se facilmente às origens de dados, visualizar e descobrir o que é importante, bem como partilhar os seus conteúdos com qualquer pessoa.
@@ -42,9 +42,9 @@ Também pode utilizar cada elemento do Power BI em alturas diferentes, consoant
 A forma como utiliza o Power BI pode basear-se na funcionalidade ou no serviço do Power BI que é a melhor ferramenta para a sua situação. Por exemplo, pode utilizar o Power BI Desktop para criar relatórios para a sua equipa sobre estatísticas de envolvimento dos clientes e ver o progresso de fabrico e inventário num dashboard em tempo real no serviço Power BI. Cada parte do Power BI está disponível para si e é por isso que é tão flexível e convincente.
 
 Explore os documentos que dizem respeito à sua função:
-- Power BI Desktop para [*designers*](../desktop-what-is-desktop.md)
+- Power BI Desktop para [*designers*](desktop-what-is-desktop.md)
 - Power BI para [*consumidores*](../consumer/end-user-consumer.md)
-- Power BI para [*administradores*](../service-admin-administering-power-bi-in-your-organization.md)
+- Power BI para [*administradores*](../admin/service-admin-administering-power-bi-in-your-organization.md)
 - Power BI para *programadores*
     * [Análise incorporada com o Power BI](../developer/embedded/embedding.md)
     * [O que é o Power BI Embedded no Azure?](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
@@ -71,5 +71,5 @@ Saiba mais sobre o [Power BI Report Server](../report-server/get-started.md).
 
 ## <a name="next-steps"></a>Próximos passos
 - [Início Rápido: Saiba como utilizar o serviço Power BI](../service-the-new-power-bi-experience.md)   
-- [Tutorial: Introdução ao serviço Power BI](../service-get-started.md)
-- [Início Rápido: Ligar a Dados no Power BI Desktop](../desktop-quickstart-connect-to-data.md)
+- [Tutorial: Introdução ao serviço Power BI](service-get-started.md)
+- [Início Rápido: Ligar a Dados no Power BI Desktop](../connect-data/desktop-quickstart-connect-to-data.md)

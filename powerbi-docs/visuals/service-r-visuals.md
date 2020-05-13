@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: eee7b67fcfaed987170baa8cb5a0b3c8cba86350
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: a7de3dfbbd378ea96f56c1d6d37d273434f5c2f9
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866425"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349822"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Criar e utilizar elementos visuais R no Power BI Desktop
 
 [!INCLUDE[consumer-appliesto-nnyn](../includes/consumer-appliesto-nnyn.md)]
 
-Atualmente, os elementos visuais R só podem ser criados no **Power BI Desktop** e publicados no serviço Power BI. Para obter mais informações sobre a criação de elementos visuais R, veja [Criar elementos visuais do Power BI com o R](../desktop-r-visuals.md).
+Atualmente, os elementos visuais R só podem ser criados no **Power BI Desktop** e publicados no serviço Power BI. Para obter mais informações sobre a criação de elementos visuais R, veja [Criar elementos visuais do Power BI com o R](../create-reports/desktop-r-visuals.md).
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Ver elementos visuais R no serviço Power BI
 O serviço Power BI suporta a visualização e interação com elementos visuais criados com scripts R. Os elementos visuais criados com scripts R, geralmente denominados *elementos visuais R*, podem apresentar formação e análise de dados avançadas, como previsão, ao utilizar o poder avançado de análise e visualização da linguagem R.
@@ -34,7 +34,7 @@ A imagem seguinte mostra um dashboard do Power BI com uma coleção de elementos
 
 ![Captura de ecrã a mostrar a tela de relatório do serviço Power BI](media/service-r-visuals/power-bi-r-visuals.png)
 
-Os elementos visuais R são criados num [relatório do Power BI Desktop](../desktop-get-the-desktop.md), tal como o relatório mostrado na imagem seguinte.
+Os elementos visuais R são criados num [relatório do Power BI Desktop](../fundamentals/desktop-get-the-desktop.md), tal como o relatório mostrado na imagem seguinte.
 
 ![Relatório de Ambiente de trabalho com dois elementos visuais](media/service-r-visuals/power-bi-r-visual-desktop.png)
 
@@ -44,7 +44,7 @@ Assim que o relatório for criado no **Power BI Desktop**, pode publicar o relat
 
 Pode transferir este [ficheiro de exemplo do Power BI Desktop](https://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (ficheiro .pbix) que contém alguns elementos visuais R para ver como tudo funciona e experimentar.
 
-Os elementos visuais R criados no **Power BI Desktop** e publicados no serviço Power BI, na maior parte dos casos, comportam-se como qualquer outro elemento visual no serviço Power BI; pode interagir, filtrar, dividir por setores e afixar a um dashboard ou partilhá-los com outras pessoas. Para obter mais informações sobre como partilhar dashboards e elementos visuais, veja [Partilhar um dashboard com colegas e outras pessoas](../service-share-dashboards.md). Uma diferença dos outros elementos visuais é que os elementos visuais R não podem mostrar sugestões nem ser utilizados para filtrar outros elementos visuais.
+Os elementos visuais R criados no **Power BI Desktop** e publicados no serviço Power BI, na maior parte dos casos, comportam-se como qualquer outro elemento visual no serviço Power BI; pode interagir, filtrar, dividir por setores e afixar a um dashboard ou partilhá-los com outras pessoas. Para obter mais informações sobre como partilhar dashboards e elementos visuais, veja [Partilhar um dashboard com colegas e outras pessoas](../collaborate-share/service-share-dashboards.md). Uma diferença dos outros elementos visuais é que os elementos visuais R não podem mostrar sugestões nem ser utilizados para filtrar outros elementos visuais.
 
 Como pode ver na imagem seguinte, os elementos visuais R no serviço Power BI, em dashboards ou relatórios, na sua maioria, são apresentados e comportam-se como qualquer outro elemento visual e os utilizadores não precisam de considerar o script R subjacente que criou o elemento visual.
 
@@ -69,9 +69,9 @@ Como outro exemplo, a imagem seguinte mostra a mensagem de erro apresentada quan
 ![Captura de ecrã a mostrar um erro de runtime](media/service-r-visuals/r-visuals-service-5.png)
 
 ## <a name="licensing"></a>Licenciamento
-Os elementos visuais R requerem uma licença do [Power BI Pro](../service-self-service-signup-for-power-bi.md) para composição em relatórios, atualização, filtro e filtro cruzado. Para obter mais informações sobre as licenças do Power BI Pro e como diferem das licenças gratuitas, veja [Conteúdo do Power BI Pro - o que é isto?](../service-admin-purchasing-power-bi-pro.md)
+Os elementos visuais R requerem uma licença do [Power BI Pro](../fundamentals/service-self-service-signup-for-power-bi.md) para composição em relatórios, atualização, filtro e filtro cruzado. Para obter mais informações sobre as licenças do Power BI Pro e como diferem das licenças gratuitas, veja [Conteúdo do Power BI Pro - o que é isto?](../admin/service-admin-purchasing-power-bi-pro.md)
 
-Os utilizadores gratuitos do Power BI só podem consumir mosaicos partilhados com os próprios nas áreas de trabalho Premium. Para obter mais informações, veja [Comprar o Power BI Pro](../service-admin-purchasing-power-bi-pro.md).
+Os utilizadores gratuitos do Power BI só podem consumir mosaicos partilhados com os próprios nas áreas de trabalho Premium. Para obter mais informações, veja [Comprar o Power BI Pro](../admin/service-admin-purchasing-power-bi-pro.md).
 
 A tabela seguinte descreve as capacidades dos elementos visuais R com base no licenciamento.
 
@@ -88,7 +88,7 @@ A tabela seguinte descreve as capacidades dos elementos visuais R com base no li
 ## <a name="known-limitations"></a>Limitações Conhecidas
 Os elementos visuais R no serviço Power BI têm algumas limitações:
 
-* O suporte para os elementos visuais R está limitado aos pacotes identificados em [Saiba quais os pacotes R suportados](../service-r-packages-support.md). Atualmente, não existe suporte de pacotes personalizados.
+* O suporte para os elementos visuais R está limitado aos pacotes identificados em [Saiba quais os pacotes R suportados](../connect-data/service-r-packages-support.md). Atualmente, não existe suporte de pacotes personalizados.
 * Limitações de tamanho de dados – os dados utilizados pelo elemento visual R para desenhar têm um limite de 150 000 linhas. Se forem selecionadas mais de 150 000 linhas, apenas as primeiras 150 000 linhas serão utilizadas e será apresentada uma mensagem na imagem. Além disso, os dados de entrada têm um limite de 250 MB.
 * Resolução – todos os elementos visuais R são apresentados a 72 DPI.
 * Dispositivo de desenho – só é suportado o desenho para o dispositivo predefinido. 
@@ -119,7 +119,7 @@ Os pacotes R são coleções de funções R, dados e código compilado combinada
 
 O **Power BI Desktop** pode utilizar qualquer tipo de pacote R sem limitação. Pode instalar pacotes R para utilização no **Power BI Desktop** (através do [RStudio IDE](https://www.rstudio.com/), por exemplo).
 
-Os elementos visuais R no **serviço Power BI** são suportados pelos pacotes encontrados na secção **Pacotes Suportados** encontrada [neste artigo](../service-r-packages-support.md). Se não encontrar um pacote que lhe interesse na lista de pacotes suportados, pode solicitar o suporte do pacote. Veja [Pacotes R no serviço Power BI](../service-r-packages-support.md) para obter informações sobre como solicitar o suporte.
+Os elementos visuais R no **serviço Power BI** são suportados pelos pacotes encontrados na secção **Pacotes Suportados** encontrada [neste artigo](../connect-data/service-r-packages-support.md). Se não encontrar um pacote que lhe interesse na lista de pacotes suportados, pode solicitar o suporte do pacote. Veja [Pacotes R no serviço Power BI](../connect-data/service-r-packages-support.md) para obter informações sobre como solicitar o suporte.
 
 ### <a name="requirements-and-limitations-of-r-packages"></a>Requisitos e Limitações de pacotes R
 Existem alguns requisitos e limitações para pacotes R:
@@ -130,11 +130,10 @@ Existem alguns requisitos e limitações para pacotes R:
   
   * Para elementos visuais R, pode instalar qualquer pacote, incluindo pacotes R personalizados
   * Para elementos visuais R personalizados, apenas os pacotes CRAN públicos são suportados para instalação automática dos pacotes
-* Por motivos de segurança e privacidade, atualmente não suportamos pacotes R que forneçam consultas de cliente-servidor através da Web (por exemplo, RgoogleMaps) no serviço. O funcionamento em rede é bloqueado para essas tentativas. Veja [Pacotes R no serviço Power BI](../service-r-packages-support.md) para obter uma lista dos pacotes R suportados e não suportados.
+* Por motivos de segurança e privacidade, atualmente não suportamos pacotes R que forneçam consultas de cliente-servidor através da Web (por exemplo, RgoogleMaps) no serviço. O funcionamento em rede é bloqueado para essas tentativas. Veja [Pacotes R no serviço Power BI](../connect-data/service-r-packages-support.md) para obter uma lista dos pacotes R suportados e não suportados.
 * O processo de aprovação para incluir um novo pacote R tem uma árvore de dependências; algumas dependências que têm de ser instaladas no serviço não podem ser suportadas.
 
 ### <a name="supported-packages"></a>Pacotes Suportados:
 Para obter uma longa lista de pacotes R suportados (e a pequena lista de pacotes não suportados), veja o seguinte artigo:
 
-* [Pacotes R no serviço Power BI](../service-r-packages-support.md)
-
+* [Pacotes R no serviço Power BI](../connect-data/service-r-packages-support.md)
