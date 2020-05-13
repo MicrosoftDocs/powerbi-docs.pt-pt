@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 2aba7eb9ff9fbd6941c84a9f3db10758724cdb0c
-  ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+  ms.openlocfilehash: 8ca7d8b2d4582b309d06363d0c6b87383e1b2550
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "82841585"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83273345"
 landingContent:
 - title: Orientações para o Power BI
   linkLists:
@@ -25,7 +25,7 @@ landingContent:
     links:
     - text: Orientações para o Power BI
       url: overview.md
-    - text: Optimization guide for Power BI (Guia de otimização para o Power BI)
+    - text: Guia de otimização para o Power BI
       url: power-bi-optimization.md
     - text: Descrição geral dos documentos técnicos
       url: whitepapers.md
@@ -35,12 +35,12 @@ landingContent:
     links:
     - text: A importância da dobragem de consultas
       url: power-query-folding.md
-    - text: Disable Power Query background refresh (Desativar a atualização em segundo plano do Power Query)
+    - text: Desativar a atualização em segundo plano do Power Query
       url: power-query-background-refresh.md
-    - text: Referenciar consultas do Power Query
+    - text: Referencing Power Query queries (Referenciar consultas do Power Query)
       url: power-query-referenced-queries.md
     - text: Melhores práticas dos fluxos de dados
-      url: ../service-dataflows-best-practices.md
+      url: ../transform-model/service-dataflows-best-practices.md
 - title: Modelação de dados
   linkLists:
   - linkListType: concept
@@ -49,7 +49,7 @@ landingContent:
       url: star-schema.md
     - text: Técnicas de redução de dados
       url: import-modeling-data-reduction.md
-    - text: Orientação sobre data/hora automáticas
+    - text: Auto date/time guidance (Orientação sobre data/hora automáticas)
       url: auto-date-time.md
     - text: Relações um-para-um
       url: relationships-one-to-one.md
@@ -61,7 +61,7 @@ landingContent:
       url: relationships-bidirectional-filtering.md
     - text: Resolução de problemas de relações
       url: relationships-troubleshoot.md
-    - text: Orientação sobre modelos do DirectQuery
+    - text: DirectQuery model guidance (Orientação sobre modelos do DirectQuery)
       url: directquery-model-guidance.md
     - text: Guia de modelos compostos
       url: composite-model-guidance.md
@@ -81,7 +81,7 @@ landingContent:
       url: dax-variables.md
     - text: Evitar converter espaços em branco em valores
       url: dax-avoid-converting-blank.md
-    - text: Column and measure references (Referências de colunas e de medidas)
+    - text: Referências de colunas e de medidas
       url: dax-column-measure-references.md
     - text: Avoid using FILTER as a filter argument (Evitar utilizar FILTER como um argumento de filtro)
       url: dax-avoid-avoid-filter-as-filter-argument.md
@@ -123,7 +123,7 @@ landingContent:
       url: paginated-report-cascading-parameter.md
     - text: Evitar páginas em branco ao imprimir
       url: report-paginated-blank-page.md
-    - text: Migrar relatórios SSRS para o Power BI
+    - text: Migrate SSRS reports to Power BI (Migrar relatórios SSRS para o Power BI)
       url: migrate-ssrs-reports-to-power-bi.md
 - title: Administrador e implementação
   linkLists:

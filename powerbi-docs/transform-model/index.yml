@@ -12,70 +12,70 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/03/2020
-  ms.openlocfilehash: 738bc26097120b0075f3ca1ffb0787f241aec982
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: d8d30cc860146e904c788dcd374d580d5a3fcf0b
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "78924535"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83279118"
 landingContent:
 - title: Transform and shape data (Transformar e formatar dados)
   linkLists:
   - linkListType: overview
     links:
     - text: Descrição geral do Editor de Consultas
-      url: ../desktop-query-overview.md
+      url: desktop-query-overview.md
   - linkListType: tutorial
     links:
     - text: Formatar e combinar dados
-      url: ../desktop-shape-and-combine-data.md
+      url: ../connect-data/desktop-shape-and-combine-data.md
   - linkListType: concept
     links:
     - text: Tarefas de consulta comuns
-      url: ../desktop-common-query-tasks.md
+      url: desktop-common-query-tasks.md
   - linkListType: how-to-guide
     links:
     - text: Combinar ficheiros (binários)
-      url: ../desktop-combine-binaries.md
+      url: desktop-combine-binaries.md
 - title: Modelar dados
   linkLists:
   - linkListType: concept
     links:
     - text: Vista de Modelação
-      url: ../desktop-modeling-view.md
+      url: desktop-modeling-view.md
     - text: Relações Muitos para muitos
-      url: ../desktop-many-to-many-relationships.md
+      url: desktop-many-to-many-relationships.md
   - linkListType: how-to-guide
     links:
     - text: Criar e gerir relações
-      url: ../desktop-create-and-manage-relationships.md
+      url: desktop-create-and-manage-relationships.md
     - text: Aplicar a categorização de dados
-      url: ../desktop-data-categorization.md
+      url: desktop-data-categorization.md
 - title: Cálculos
   linkLists:
   - linkListType: tutorial
     links:
     - text: Aprender as noções básicas de DAX
-      url: ../desktop-quickstart-learn-dax-basics.md
+      url: desktop-quickstart-learn-dax-basics.md
     - text: Criar colunas calculadas
-      url: ../desktop-tutorial-create-calculated-columns.md
+      url: desktop-tutorial-create-calculated-columns.md
   - linkListType: concept
     links:
     - text: Tabelas calculadas
-      url: ../desktop-calculated-tables.md
+      url: desktop-calculated-tables.md
   - linkListType: how-to-guide
     links:
     - text: Utilizar medidas rápidas
-      url: ../desktop-quick-measures.md
+      url: desktop-quick-measures.md
 - title: Preparação personalizada de dados
   linkLists:
   - linkListType: overview
     links:
     - text: Preparação personalizada de dados no Power BI
-      url: ../desktop-quickstart-connect-to-data.md
+      url: ../connect-data/desktop-quickstart-connect-to-data.md
   - linkListType: concept
     links:
     - text: 'Fluxos de dados: Preparação personalizada de dados'
-      url: ../service-dataflows-overview.md
+      url: service-dataflows-overview.md
     - text: Create and use dataflows (Criar e utilizar fluxos de dados)
-      url: ../service-dataflows-create-use.md
+      url: service-dataflows-create-use.md

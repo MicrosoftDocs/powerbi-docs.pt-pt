@@ -27,9 +27,9 @@
         - name: Saiba como fazer perguntas com linguagem natural
           href: end-user-q-and-a.md
         - name: Navigate the 'new look' (Navegar pelo "novo aspeto")
-          href: ../service-new-look.md
+          href: service-new-look.md
         - name: 'O "novo visual": onde estão as ações?'
-          href: ../service-new-look-where-actions.md
+          href: service-new-look-where-actions.md
     - name: Procedimentos
       items:
         - name: Dashboards
@@ -93,7 +93,7 @@
             - name: Desagregar numa visualização
               href: end-user-drill.md
             - name: Interagir com mapas ArcGIS
-              href: ../power-bi-visualizations-arcgis.md
+              href: ../visuals/power-bi-visualizations-arcgis.md
         - name: Common tasks (Tarefas comuns)
           items:
             - name: Export data to Excel (Exportar dados para o Excel)

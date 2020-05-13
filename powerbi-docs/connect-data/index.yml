@@ -12,60 +12,60 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 02/25/2020
-  ms.openlocfilehash: a46c459c61f85b2f8cb4885f93c1893724485dff
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: b1f5d2842bb65710cda9e83dc821b7a60117f756
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "78924144"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83273874"
 landingContent:
 - title: Ligar a dados no Power BI
   linkLists:
   - linkListType: concept
     links:
     - text: Origens de dados
-      url: ../desktop-data-sources.md
+      url: desktop-data-sources.md
     - text: Vista de dados no Power BI Desktop
-      url: ../desktop-data-view.md
+      url: desktop-data-view.md
   - linkListType: tutorial
     links:
     - text: Importar dados de uma página Web
-      url: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+      url: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
 - title: Gateways
   linkLists:
   - linkListType: concept
     links:
     - text: Gateways de dados no local
-      url: ../service-gateway-onprem.md
+      url: service-gateway-onprem.md
   - linkListType: tutorial
     links:
     - text: Ligar a dados do SQL Server no local
-      url: ../service-gateway-sql-tutorial.md
+      url: service-gateway-sql-tutorial.md
   - linkListType: how-to-guide
     links:
     - text: Utilizar gateways pessoais
-      url: ../service-gateway-personal-mode.md
+      url: service-gateway-personal-mode.md
 - title: Aplicações de modelo
   linkLists:
   - linkListType: overview
     links:
     - text: O que são aplicações de modelo?
-      url: ../service-template-apps-overview.md
+      url: service-template-apps-overview.md
   - linkListType: concept
     links:
     - text: Create template apps (Criar aplicações de modelo)
-      url: ../service-template-apps-create.md
+      url: service-template-apps-create.md
     - text: Distribuir aplicações de modelo na sua organização
-      url: ../service-template-apps-install-distribute.md
+      url: service-template-apps-install-distribute.md
 - title: Atualizar dados
   linkLists:
   - linkListType: concept
     links:
     - text: Atualização de dados
-      url: ../refresh-data.md
+      url: refresh-data.md
     - text: Atualização incremental no Power BI Premium
-      url: ../service-premium-incremental-refresh.md
+      url: ../admin/service-premium-incremental-refresh.md
   - linkListType: how-to-guide
     links:
-    - text: Configure scheduled refresh (Configurar a atualização agendada)
-      url: ../refresh-scheduled-refresh.md
+    - text: Configurar a atualização agendada
+      url: refresh-scheduled-refresh.md

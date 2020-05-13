@@ -12,27 +12,27 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/30/2020
-  ms.openlocfilehash: 7c31ca6f71f4dad0d7ee6f94908cc89a17cd9799
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 4c8b301e95dddbfc80f1a4b3c4a7a464da267dfc
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80464668"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83275990"
 landingContent:
 - title: Introdução
   linkLists:
   - linkListType: get-started
     links:
     - text: Utilizar o friso atualizado
-      url: ../desktop-ribbon.md
+      url: desktop-ribbon.md
     - text: Descrição geral da acessibilidade
-      url: ../desktop-accessibility-overview.md
+      url: desktop-accessibility-overview.md
     - text: Obter dados de exemplo
-      url: ../sample-datasets.md
+      url: sample-datasets.md
   - linkListType: tutorial
     links:
     - text: Importar e abrir pacotes de exemplo
-      url: ../sample-tutorial-connect-to-the-samples.md
+      url: sample-tutorial-connect-to-the-samples.md
   - linkListType: sample
     links:
     - text: 'Exemplo COVID-19: dados dos EUA'
@@ -58,33 +58,33 @@ landingContent:
   - linkListType: concept
     links:
     - text: Temas de relatório
-      url: ../desktop-report-themes.md
+      url: desktop-report-themes.md
     - text: Caixas de texto e formas
-      url: ../power-bi-reports-add-text-and-shapes.md
+      url: power-bi-reports-add-text-and-shapes.md
   - linkListType: how-to-guide
     links:
     - text: Formatação condicional de tabelas
-      url: ../desktop-conditional-table-formatting.md
+      url: desktop-conditional-table-formatting.md
     - text: Utilizar agrupamento e discretização
-      url: ../desktop-grouping-and-binning.md
+      url: desktop-grouping-and-binning.md
     - text: Adicionar marcadores a um relatório
-      url: ../desktop-bookmarks.md
+      url: desktop-bookmarks.md
 - title: Estruturar interações de relatórios
   linkLists:
   - linkListType: concept
     links:
     - text: Vista de relatórios no Power BI Desktop
-      url: ../desktop-report-view.md
+      url: desktop-report-view.md
   - linkListType: how-to-guide
     links:
     - text: Explorar dados com as Perguntas e Respostas
-      url: ../power-bi-tutorial-q-and-a.md
+      url: power-bi-tutorial-q-and-a.md
     - text: Utilizar a pormenorização num relatório
-      url: ../desktop-drillthrough.md
+      url: desktop-drillthrough.md
     - text: Adicionar marcadores a um relatório
-      url: ../desktop-bookmarks.md
+      url: desktop-bookmarks.md
     - text: Adicionar filtros a um relatório
-      url: ../power-bi-report-filter.md
+      url: power-bi-report-filter.md
 - title: Relatórios paginados do Power BI
   linkLists:
   - linkListType: overview
@@ -110,12 +110,12 @@ landingContent:
   - linkListType: concept
     links:
     - text: Introdução aos dashboards
-      url: ../service-dashboards.md
+      url: service-dashboards.md
   - linkListType: how-to-guide
     links:
     - text: Create a dashboard (Criar um dashboard)
-      url: ../service-dashboard-create.md
+      url: service-dashboard-create.md
     - text: Afixar um mosaico a um dashboard
-      url: ../service-dashboard-pin-tile-from-report.md
+      url: service-dashboard-pin-tile-from-report.md
     - text: Adicionar imagens ou vídeos a um dashboard
-      url: ../service-dashboard-add-widget.md
+      url: service-dashboard-add-widget.md
