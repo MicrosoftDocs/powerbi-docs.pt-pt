@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4f289bf319bf29de8f8765d55bf3400048420af5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: de84dd7e9021abf1198f2dc4f910afb8bd078ac6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76829058"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279532"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Dimensionamento do gateway de dados no local
 
-Este artigo destina-se aos administradores do Power BI que precisam de instalar e gerir o [gateway de dados no local](../service-gateway-onprem.md).
+Este artigo destina-se aos administradores do Power BI que precisam de instalar e gerir o [gateway de dados no local](../connect-data/service-gateway-onprem.md).
 
 O gateway é necessário sempre que o Power BI precise de aceder a dados que não estejam diretamente acessíveis através da Internet. Pode ser instalado num servidor no local ou numa Infraestrutura como Serviço (IaaS) alojada na VM.
 
@@ -39,8 +39,8 @@ A carga de trabalho _Dados em cache_ obtém e transforma os dados de origem para
 
 A carga de trabalho _Ligação em Direto e DirectQuery_ funciona sobretudo no modo Pass Through. O serviço Power BI envia consultas e o gateway responde com os resultados das consultas. Normalmente, os resultados das consultas são de pequena dimensão.
 
-- Para obter mais informações sobre a Ligação em Direto, veja [Conjuntos de dados no serviço Power BI (Modelos alojados externamente)](../service-datasets-understand.md#external-hosted-models).
-- Para obter mais informações sobre o DirectQuery, veja [Modos de conjuntos de dados no serviço Power BI (Modo DirectQuery)](../service-dataset-modes-understand.md#directquery-mode).
+- Para obter mais informações sobre a Ligação em Direto, veja [Conjuntos de dados no serviço Power BI (Modelos alojados externamente)](../connect-data/service-datasets-understand.md#external-hosted-models).
+- Para obter mais informações sobre o DirectQuery, veja [Modos de conjuntos de dados no serviço Power BI (Modo DirectQuery)](../connect-data/service-dataset-modes-understand.md#directquery-mode).
 
 Esta carga de trabalho requer recursos da CPU para encaminhar as consultas e os resultados das consultas. Normalmente, existe muito menos procura da CPU do que aquela que é exigida pela carga de trabalho Dados em cache, especialmente quando é necessária para transformar dados para colocação em cache.
 
@@ -62,13 +62,13 @@ Determinar a dimensão correta do computador do gateway pode depender das seguin
   - O número de utilizadores do relatório em simultâneo
   - O número de elementos visuais nas páginas de relatório (cada elemento visual envia, pelo menos, uma consulta)
   - A frequência das atualizações da cache de consulta do dashboard do Power BI
-  - O número de relatórios em tempo real que utilizam a funcionalidade [Atualização automática da página](../desktop-automatic-page-refresh.md)
-  - Se os conjuntos de dados impõem a [Segurança ao nível da Linha (RLS)](../desktop-rls.md)
+  - O número de relatórios em tempo real que utilizam a funcionalidade [Atualização automática da página](../create-reports/desktop-automatic-page-refresh.md)
+  - Se os conjuntos de dados impõem a [Segurança ao nível da Linha (RLS)](../create-reports/desktop-rls.md)
 
 Normalmente, as cargas de trabalho Ligação em Direto e DirectQuery precisam de CPU suficiente, enquanto as cargas de trabalho Dados em cache precisam de mais CPU e memória. Ambas as cargas de trabalho dependem de uma boa conectividade com o serviço Power BI e das origens de dados.
 
 > [!NOTE]
-> As capacidades do Power BI impõem limites ao paralelismo de atualização do modelo e ao débito da Ligação em Direto e do DirectQuery. Não vale a pena dimensionar os gateways para fornecerem mais do que aquilo que o serviço Power BI suporta. Os limites diferem na SKU Premium (e na SKU A de tamanho equivalente). Para obter mais informações, veja [O que é o Power BI Premium? (Nós de capacidade)](../service-premium-what-is.md#capacity-nodes).
+> As capacidades do Power BI impõem limites ao paralelismo de atualização do modelo e ao débito da Ligação em Direto e do DirectQuery. Não vale a pena dimensionar os gateways para fornecerem mais do que aquilo que o serviço Power BI suporta. Os limites diferem na SKU Premium (e na SKU A de tamanho equivalente). Para obter mais informações, veja [O que é o Power BI Premium? (Nós de capacidade)](../admin/service-premium-what-is.md#capacity-nodes).
 
 ## <a name="recommendations"></a>Recomendações
 
@@ -84,9 +84,9 @@ Planeie a melhor conectividade possível entre o serviço Power BI e o gateway 
 
 - Zele por obter fiabilidade, velocidades rápidas e latências baixas consistentes
 - Elimine ou reduza os saltos do computador entre o gateway e as origens de dados
-- Remova qualquer limitação de rede imposta pela camada proxy da firewall. Para obter mais informações sobre os pontos finais do Power BI, veja [URLs do Power BI para adição à lista de permissões](../power-bi-whitelist-urls.md).
+- Remova qualquer limitação de rede imposta pela camada proxy da firewall. Para obter mais informações sobre os pontos finais do Power BI, veja [URLs do Power BI para adição à lista de permissões](../admin/power-bi-whitelist-urls.md).
 - Configure o [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) para estabelecer ligações geridas privadas ao Power BI
-- Para as origens de dados nas VMs do Azure, confirme que as VMs estão [colocalizadas no serviço Power BI](../service-admin-where-is-my-tenant-located.md)
+- Para as origens de dados nas VMs do Azure, confirme que as VMs estão [colocalizadas no serviço Power BI](../admin/service-admin-where-is-my-tenant-located.md)
 - Para as cargas de trabalho Ligação em Direto no SQL Server Analysis Services (SSAS) relacionadas com a RLS dinâmica, garanta uma boa conectividade entre o computador do gateway e o Active Directory no local
 
 ### <a name="clustering"></a>Clustering
@@ -105,17 +105,17 @@ O design dos conjuntos de dados e as suas definições podem afetar as cargas de
 Para Conjuntos de dados de importação:
 
 - Configure atualizações de dados menos frequentes
-- Configure a [atualização incremental](../service-premium-incremental-refresh.md) para minimizar a quantidade de dados a transferir
+- Configure a [atualização incremental](../admin/service-premium-incremental-refresh.md) para minimizar a quantidade de dados a transferir
 - Sempre que possível, confirme que a [dobragem de consultas](power-query-folding.md) ocorre
-- Especialmente para grandes volumes de dados ou uma necessidade de resultados de baixa latência, converta o design num modelo DirectQuery ou [Composto](../service-dataset-modes-understand.md#composite-mode)
+- Especialmente para grandes volumes de dados ou uma necessidade de resultados de baixa latência, converta o design num modelo DirectQuery ou [Composto](../connect-data/service-dataset-modes-understand.md#composite-mode)
 
 Para Conjuntos de dados DirectQuery:
 
 - Otimize as origens de dados e os designs de relatório e de modelo. Para obter mais informações, veja [Orientação do modelo DirectQuery no Power BI Desktop](directquery-model-guidance.md)
-- Crie [agregações](../desktop-aggregations.md) para colocar em cache resultados de nível mais elevado e, assim, reduzir o número de pedidos do DirectQuery
-- Restrinja os intervalos de [Atualização automática de página](../desktop-automatic-page-refresh.md) nos designs dos relatórios e nas definições das capacidades
+- Crie [agregações](../transform-model/desktop-aggregations.md) para colocar em cache resultados de nível mais elevado e, assim, reduzir o número de pedidos do DirectQuery
+- Restrinja os intervalos de [Atualização automática de página](../create-reports/desktop-automatic-page-refresh.md) nos designs dos relatórios e nas definições das capacidades
 - Principalmente quando a RLS dinâmica é imposta, restrinja a frequência de atualização da cache do dashboard
-- Especialmente para volumes de dados mais reduzidos ou para dados não voláteis, converta o design num modelo de Importação ou [Composto](../service-dataset-modes-understand.md#composite-mode)
+- Especialmente para volumes de dados mais reduzidos ou para dados não voláteis, converta o design num modelo de Importação ou [Composto](../connect-data/service-dataset-modes-understand.md#composite-mode)
 
 Para conjuntos de dados de Ligação em Direto:
 
@@ -125,10 +125,10 @@ Para conjuntos de dados de Ligação em Direto:
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
-- [Orientações para implementar um gateway de dados para o Power BI](../service-gateway-deployment-guidance.md)
+- [Orientações para implementar um gateway de dados para o Power BI](../connect-data/service-gateway-deployment-guidance.md)
 - [Configurar as definições de proxy do gateway de dados no local](/data-integration/gateway/service-gateway-proxy)
 - [Monitorizar e otimizar o desempenho dos gateways de dados no local](/data-integration/gateway/service-gateway-performance)
-- [Resolver problemas de gateways – Power BI](../service-gateway-onprem-tshoot.md)
+- [Resolver problemas de gateways – Power BI](../connect-data/service-gateway-onprem-tshoot.md)
 - [Resolução de problemas do gateway de dados no local](/data-integration/gateway/service-gateway-tshoot)
 - [A importância da dobragem de consultas](power-query-folding.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 7284532d95cce780f4022477faab9033adcd764a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492612"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279394"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Melhores práticas para o desempenho do Power BI Embedded
 
@@ -59,7 +59,7 @@ Quando incorporar vários relatórios no mesmo iframe, não gere um novo iframe 
 
 As organizações com a capacidade Power BI Premium ou a capacidade Power BI Embedded podem tirar partido da colocação em cache de consultas para acelerar os relatórios associados a um conjunto de dados.
 
-[Saiba mais sobre a colocação em cache de consultas no Power BI](../../power-bi-query-caching.md).
+[Saiba mais sobre a colocação em cache de consultas no Power BI](../../connect-data/power-bi-query-caching.md).
 
 ## <a name="preload"></a>Preload
 
@@ -99,7 +99,7 @@ Os dados em cache são compostos quando disponíveis, mas nenhum evento adiciona
 Para examinar o desempenho dos elementos do relatório, pode usar o Analisador de Desempenho no Power BI Desktop.
 O Analisador de Desempenho permitirá que veja e crie registos que medem o desempenho de cada um dos elementos do relatório.
 
-[Saiba mais sobre o Analisador de Desempenho](../../desktop-performance-analyzer.md).
+[Saiba mais sobre o Analisador de Desempenho](../../create-reports/desktop-performance-analyzer.md).
 
 > [!NOTE]
 > Lembre-se sempre de comparar o desempenho do relatório incorporado com o desempenho em powerbi.com. Tal pode ajudá-lo a compreender a origem dos seus problemas de desempenho

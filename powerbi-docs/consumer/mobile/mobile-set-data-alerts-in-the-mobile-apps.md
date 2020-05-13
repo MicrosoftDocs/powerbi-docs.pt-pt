@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 288ac6620af03c49d0a7f96e219e88d855381caf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435818"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279555"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Definir alertas de dados nas aplicações móveis do Power BI
 Aplica-se a:
@@ -29,7 +29,7 @@ Pode definir alertas em mosaicos se tiver uma licença do Power BI Pro ou se o d
 > [!WARNING]
 > As notificações de alertas com base em dados dão-lhe informações sobre os seus dados. Se o seu dispositivo for roubado, recomendamos que aceda ao serviço Power BI para desativar todas as regras de alertas baseados em dados. 
 > 
-> Saiba mais sobre [gerir os alertas de dados no serviço Power BI](../../service-set-data-alerts.md).
+> Saiba mais sobre [gerir os alertas de dados no serviço Power BI](../../create-reports/service-set-data-alerts.md).
 > 
 > 
 
@@ -58,7 +58,7 @@ Pode definir alertas em mosaicos se tiver uma licença do Power BI Pro ou se o d
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>Gerir alertas no seu iPhone ou iPad
-Pode gerir alertas individuais no seu dispositivo móvel ou [gerir todos os seus alertas no serviço Power BI](../../service-set-data-alerts.md).
+Pode gerir alertas individuais no seu dispositivo móvel ou [gerir todos os seus alertas no serviço Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. Num dashboard, toque num número ou mosaico de medidor que tenha um alerta.  
    
@@ -92,7 +92,7 @@ Pode gerir alertas individuais no seu dispositivo móvel ou [gerir todos os seus
 8. Toque em **Guardar**.
 
 ### <a name="manage-alerts-on-an-android-device"></a>Gerir alertas num dispositivo Android
-Pode gerir alertas individuais na aplicação móvel do Power BI ou [gerir todos os seus alertas no serviço Power BI](../../service-set-data-alerts.md).
+Pode gerir alertas individuais na aplicação móvel do Power BI ou [gerir todos os seus alertas no serviço Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. Num dashboard, toque num cartão ou mosaico de medidor que tenha um alerta.  
 2. Toque no ícone de sino sólido ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
@@ -131,7 +131,7 @@ Pode gerir alertas individuais na aplicação móvel do Power BI ou [gerir todos
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>Gerir alertas num dispositivo Windows
-Pode gerir alertas individuais na aplicação móvel do Power BI ou [gerir todos os seus alertas no serviço Power BI](../../service-set-data-alerts.md).
+Pode gerir alertas individuais na aplicação móvel do Power BI ou [gerir todos os seus alertas no serviço Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. Num dashboard, toque num cartão ou mosaico de medidor que tenha um alerta.  
 2. Toque no ícone do sino ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
@@ -172,7 +172,6 @@ Normalmente, as origens de dados são definidas para serem atualizadas diariamen
 * Os alertas não funcionam com mosaicos que contenham dados de transmissão.
 
 ## <a name="next-steps"></a>Próximos passos
-* [Gerir os seus alertas no serviço Power BI](../../service-set-data-alerts.md)
+* [Gerir os seus alertas no serviço Power BI](../../create-reports/service-set-data-alerts.md)
 * [Centro de Notificações Móveis do Power BI](mobile-apps-notification-center.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-
