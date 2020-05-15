@@ -72,6 +72,8 @@
               href: end-user-bookmarks.md
             - name: Add a spotlight to a report (Adicionar um destaque a um relatório)
               href: end-user-spotlight.md
+            - name: Personalize a visual (Personalizar um elemento visual)
+              href: end-user-personalize-visuals.md
             - name: Relatórios paginados no Power BI
               items:
                 - name: Relatórios paginados
