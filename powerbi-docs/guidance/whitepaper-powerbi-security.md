@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: ff8b6a139d0088b2ff2acc8f73b75431e500ba51
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279095"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407523"
 ---
 # <a name="power-bi-security-whitepaper"></a>Documento técnico de segurança do Power BI
 
@@ -200,7 +200,7 @@ As chaves de encriptação de gateways baseadas na chave de recuperação nunca 
 
 Para origens de dados baseado na cloud, a Função de Movimento de Dados encripta as chaves de encriptação com os métodos [Always Encrypted](https://msdn.microsoft.com/library/mt163865.aspx). Para saber mais, veja [Always Encrypted database feature](https://msdn.microsoft.com/library/mt163865.aspx) (Funcionalidade de base de dados Always Encrypted).
 
-#### <a name="datasets"></a>Conjuntos de dados
+#### <a name="datasets"></a>Conjuntos de Dados
 
 1. Metadados (tabelas, colunas, medidas, cálculos, cadeias de ligação, etc.)
 
@@ -263,7 +263,7 @@ O Power BI proporciona a monitorização da integridade dos dados das seguintes 
 
     &ensp;&ensp;a. Para relatórios criados com o Excel para o Office 365, nada é colocado em cache.
 
-    &ensp;&ensp;b. Para relatórios do Power BI, os dados dos elementos visuais apresentados são colocados em cache e encriptados na Base de Dados SQL do Azure.
+    &ensp;&ensp;b. Para os relatórios power BI, os dados dos visuais dos relatórios apresentados são armazenados e armazenados na Cache de Dados Visuais descrito na secção seguinte.
  
 
 4. Ficheiros do Power BI Desktop (.pbix) ou do Excel (.xlsx) originais publicados no Power BI
@@ -272,17 +272,26 @@ O Power BI proporciona a monitorização da integridade dos dados das seguintes 
 
 #### <a name="dashboards-and-dashboard-tiles"></a>Dashboards e Mosaicos de Dashboards
 
-1. Caches – normalmente, os dados necessários para os elementos visuais no dashboard são colocados em cache e armazenados encriptados na Base de Dados SQL do Azure. Outros mosaicos, como elementos visuais afixados do Excel ou do SQL Server Reporting Services (SSRS), são armazenados no Blob do Azure como imagens e também são encriptados.
+1. Caches – Os dados necessários pelos visuais no painel de instrumentos são geralmente armazenados e armazenados na Cache de Dados Visuais descrito na secção seguinte. Outros mosaicos, como elementos visuais afixados do Excel ou do SQL Server Reporting Services (SSRS), são armazenados no Blob do Azure como imagens e também são encriptados.
 
 2. Dados estáticos – que incluem artefactos como imagens de fundo e visuais Power BI que são armazenados, encriptados, no armazenamento do Azure Blob.
 
-Independentemente do método de encriptação utilizado, a Microsoft gere a encriptação de chaves em nome dos clientes num arquivo de segredos ou no Azure Key Vault.
+Independentemente do método de encriptação utilizado, a Microsoft gere a encriptação chave em nome dos clientes.
+
+#### <a name="visual-data-cache"></a>Cache de dados visuais
+
+Os dados visuais são emcache em diferentes locais, dependendo se o conjunto de dados está hospedado numa Capacidade Premium Power BI. Para conjuntos de dados que não estejam alojados numa Capacidade, os dados visuais são armazenados e armazenados encriptados numa Base de Dados Azure SQL. Para conjuntos de dados alojados numa Capacidade, os dados visuais podem ser protegidos em qualquer um dos seguintes locais:
+
+* Armazenamento de Blobs do Azure
+* Ficheiros Premium Azure
+* O nó de capacidade premium power bi
+
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>Dados Armazenados transitoriamente em Dispositivos Não Voláteis
 
 Dispositivos não voláteis são dispositivos que têm memória que persiste sem energia constante. Segue-se uma descrição dos dados armazenados transitoriamente em dispositivos não voláteis. 
 
-#### <a name="datasets"></a>Conjuntos de dados
+#### <a name="datasets"></a>Conjuntos de Dados
 
 1. Metadados (tabelas, colunas, medidas, cálculos, cadeias de ligação, etc.)
 
