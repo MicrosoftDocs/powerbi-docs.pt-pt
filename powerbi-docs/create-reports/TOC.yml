@@ -12,10 +12,10 @@
       expanded: true
       items:
         - name: 'Online course: (Curso online:) Relatórios paginados'
-          href: ../paginated-reports/paginated-reports-online-course.md
+          href: ../learning-catalog/paginated-reports-online-course.md
         - name: Criar um relatório paginado e carregar
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
-    - name: Exemplos
+    - name: Amostras
       expanded: true
       items:
         - name: Veja exemplos do Power BI
@@ -81,9 +81,9 @@
               href: ../paginated-reports/report-builder-planning-report.md
             - name: Report Builder data (Dados do Report Builder)
               href: ../paginated-reports/report-builder-data.md
-            - name: Supported data sources (Origens de dados suportadas)
+            - name: Origens de dados suportadas
               href: ../paginated-reports/paginated-reports-data-sources.md
-            - name: Design tips (Sugestões de estrutura)
+            - name: Sugestões de design
               href: ../paginated-reports/report-builder-design-tips.md
             - name: 'Tables, matrixes, lists (Tabelas, matrizes, listas)'
               href: ../paginated-reports/report-builder-tables-matrices-lists.md
@@ -107,7 +107,7 @@
               href: deployment-pipelines-process.md
             - name: Melhores práticas
               href: deployment-pipelines-best-practices.md
-    - name: Manuais de instruções
+    - name: Guias de procedimentos
       items:
         - name: Relatórios do Power BI
           items:
@@ -317,7 +317,7 @@
               href: service-insights.md
             - name: Otimizar os dados para as Informações Rápidas
               href: service-insights-optimize.md
-        - name: Accessibility (Acessibilidade)
+        - name: Acessibilidade
           items:
             - name: Estruturar relatórios acessíveis
               href: desktop-accessibility-creating-reports.md
