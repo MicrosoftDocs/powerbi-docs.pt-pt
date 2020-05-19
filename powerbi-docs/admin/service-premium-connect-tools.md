@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 7bb3dc401fedbb55f5ed81fa5e859cbfee5a1a26
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7a363af0bb8d6db9f0fd370b7c4b987b51c88221
+ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274449"
+ms.locfileid: "83382744"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Dataset connectivity with the XMLA endpoint (Preview) (Conectividade de conjuntos de dados com o ponto final de XMLA [Pré-visualização])
 
@@ -29,6 +29,9 @@ As áreas de trabalho e os conjuntos de dados do Power BI Premium ao nível de 
 O Power BI Premium utiliza o protocolo [XML for Analysis](https://docs.microsoft.com/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current) (XMLA) para comunicações entre as aplicações cliente e o motor que gere as áreas de trabalho e os conjuntos de dados do Power BI. Estas comunicações são geralmente feitas através daquilo a que chamamos pontos finais XMLA. O XMLA é o mesmo protocolo de comunicação utilizado pelo motor da Microsoft Analysis Services que, nos bastidores, executa a modelagem semântica, a governação, o ciclo de vida e a gestão de dados do Power BI.
 
 Por predefinição, a conectividade *só de leitura* através do ponto final está ativada para a **carga de trabalho dos Conjunto de dados** numa capacidade. Com permissão só de leitura, as aplicações e ferramentas de visualização de dados podem consultar dados de modelos de conjuntos de dados, metadados, eventos e esquemas. As operações de *leitura/escrita* com o ponto final podem ser ativadas para permitir gestão de conjuntos de dados, governação, modelação semântica avançada, depuração e monitorização adicionais. Com as operações de leitura/escrita ativas, os conjuntos de dados do Power BI Premium têm maior paridade com as ferramentas e os processos de modelação tabular de nível empresarial do Azure Analysis Services e do SQL Server Analysis Services.
+
+> [!NOTE]
+> Recomenda-se que utilize a experiência da área de trabalho moderna, especialmente quando se liga aos seus conjuntos de dados através do ponto final XMLA. Operações como a criação ou a eliminação de conjuntos de dados não são suportadas com áreas de trabalho clássicas. Para atualizar áreas de trabalho clássicas para a experiência moderna, veja [Atualizar áreas de trabalho clássicas no Power BI](../collaborate-share/service-upgrade-workspaces.md).
 
 ## <a name="data-modeling-and-management-tools"></a>Ferramentas de modelação e gestão de dados
 

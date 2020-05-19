@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: d9ebab8c52be8872865b0c308e8629c92603bbaa
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f9248b659bec744f7da02c4d2639f30bd646bb48
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403782"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276059"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Tutorial: Incorporar relatórios paginados do Power BI numa aplicação para os clientes (pré-visualização)
 
@@ -34,14 +34,14 @@ Para começar, precisa de:
 * Um [principal de serviço (token apenas de aplicação)](embed-service-principal.md)
 * Uma subscrição do [Microsoft Azure](https://azure.microsoft.com/)
 * Tem de ter a configuração de [inquilino do Azure Active Directory](create-an-azure-active-directory-tenant.md)
-* Pelo menos uma [capacidade](#create-a-dedicated-capacity) A4 ou P1 com [relatórios paginados](../../service-admin-premium-workloads.md#paginated-reports) ativados em carga de trabalho
+* Pelo menos uma [capacidade](#create-a-dedicated-capacity) A4 ou P1 com [relatórios paginados](../../admin/service-admin-premium-workloads.md#paginated-reports) ativados em carga de trabalho
 
 Se não tiver uma subscrição do Azure, crie uma [conta gratuita](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) antes de começar.
 
 > [!IMPORTANT]
 > * Tem de utilizar um **principal de serviço**. O utilizador mestre não é suportado.
 > * As origens de dados que exigem o início de sessão único (SSO) não são suportadas.
-> * O conjunto de dados do Power BI não é suportado como uma [origem de dados](../../service-get-data.md).
+> * O conjunto de dados do Power BI não é suportado como uma [origem de dados](../../connect-data/service-get-data.md).
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurar o ambiente do Power BI
 
@@ -49,12 +49,12 @@ Incorporar um relatório paginado requer atribuir uma área de trabalho a uma ca
 
 ### <a name="create-an-app-workspace"></a>Criar uma área de trabalho de aplicação
 
-Como está a utilizar um [principal de serviço](embed-service-principal.md) para iniciar sessão na sua aplicação, precisará de utilizar as [novas áreas de trabalho](../../service-create-the-new-workspaces.md). Como *principal de serviço*, tem também de ser administrador ou membro das áreas de trabalho de aplicação envolvidas na sua aplicação.
+Como está a utilizar um [principal de serviço](embed-service-principal.md) para iniciar sessão na sua aplicação, precisará de utilizar as [novas áreas de trabalho](../../collaborate-share/service-create-the-new-workspaces.md). Como *principal de serviço*, tem também de ser administrador ou membro das áreas de trabalho de aplicação envolvidas na sua aplicação.
 
 ### <a name="create-a-dedicated-capacity"></a>Criar uma capacidade dedicada
 
 Antes de importar ou carregar um relatório paginado para incorporar, a área de trabalho que contiver o relatório tem de ser atribuída pelo menos a uma capacidade A4 ou P1. Existem dois tipos de capacidade que pode escolher:
-* **Power BI Premium** – para incorporar um relatório paginado, é necessário ter uma capacidade de SKU *P*. Ao incorporar conteúdo do Power BI, esta solução é conhecida como *incorporação do Power BI*. Para saber mais sobre esta subscrição, veja [O que é o Power BI Premium?](../../service-premium-what-is.md)
+* **Power BI Premium** – para incorporar um relatório paginado, é necessário ter uma capacidade de SKU *P*. Ao incorporar conteúdo do Power BI, esta solução é conhecida como *incorporação do Power BI*. Para saber mais sobre esta subscrição, veja [O que é o Power BI Premium?](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded** – pode comprar uma capacidade dedicada no [portal do Microsoft Azure](https://portal.azure.com). Esta subscrição utiliza os SKUs *A*. Para incorporar relatórios paginados, precisa de, pelo menos, uma subscrição *A4*. Para obter mais informações sobre como criar uma capacidade do Power BI Embedded, veja [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (Criar capacidade do Power BI Embedded no portal do Azure).
 
 A seguinte tabela descreve os recursos e limites de cada SKU. Para determinar qual a capacidade mais adequada às suas necessidades, veja a tabela [que SKU devo comprar para o meu cenário](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose).
@@ -242,7 +242,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Criar o token de incorporação
 
-Gere um token de incorporação que pode ser utilizado a partir da API JavaScript. Para criar um token incorporado para incorporar relatórios paginados do Power BI, utilize a API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup).
+Gere um token de incorporação que pode ser utilizado a partir da API JavaScript. Para criar um token incorporado para incorporar relatórios paginados do Power BI, utilize a API [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup).
 
 Está disponível um exemplo de como criar um token de incorporação no ficheiro  *Services\EmbedService.cs* na [aplicação de exemplo](https://github.com/Microsoft/PowerBI-Developer-Samples).
 

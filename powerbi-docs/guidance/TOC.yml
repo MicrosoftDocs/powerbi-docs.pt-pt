@@ -110,7 +110,9 @@
               href: monitor-report-performance.md
             - name: Troubleshoot report performance (Resolver problemas com o desempenho dos relatórios)
               href: report-performance-troubleshoot.md
-    - name: Whitepapers (Documentos técnicos)
+            - name: Deployment pipelines best practices (Melhores práticas dos pipelines de implementação)
+              href: ../create-reports/deployment-pipelines-best-practices.md
+    - name: Documentos técnicos
       items:
         - name: Descrição geral dos documentos técnicos
           href: whitepapers.md

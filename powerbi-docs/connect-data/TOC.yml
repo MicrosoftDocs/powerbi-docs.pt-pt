@@ -208,6 +208,8 @@
               href: refresh-data.md
             - name: Configurar a atualização agendada
               href: refresh-scheduled-refresh.md
+            - name: Refresh center (Centro de atualizações)
+              href: refresh-center.md
             - name: Configurar a atualização incremental
               href: ../admin/service-premium-incremental-refresh.md
             - name: Atualizar um conjunto de dados a partir de um ficheiro do Power BI Desktop local
@@ -266,6 +268,8 @@
               href: service-connect-to-microsoft-sustainability-calculator.md
             - name: Office365Mon
               href: service-connect-to-office365mon.md
+            - name: Métricas de Capacidade do Power BI Premium
+              href: service-connect-to-pbi-premium-capacity-metrics.md
             - name: Project Online
               href: service-connect-to-project-online.md
             - name: QuickBooks Online

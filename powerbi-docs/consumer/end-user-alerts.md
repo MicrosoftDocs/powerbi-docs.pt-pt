@@ -7,25 +7,28 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 02/18/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4cad37b9d4a7bf9e74a29312786a02b26fce5463
+ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496523"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83382767"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Tutorial: Definir os alertas nos dashboards do Power BI
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Defina alertas para receber notificações quando os dados nos seus dashboards forem alterados para cima ou para abaixo dos limites que definiu. Os alertas funcionam nos medidores, KPIs e cartões. Esta funcionalidade ainda está em desenvolvimento, por isso veja [abaixo a secção Sugestões e resolução de problemas](#tips-and-troubleshooting).
+Defina alertas para receber notificações quando os dados nos seus dashboards forem alterados para cima ou para abaixo dos limites que definiu. Os alertas só podem ser definidos nos mosaicos afixados a partir de elementos visuais de relatório e apenas em medidores, KPIs e cartões. 
 
-![mosaico, cartão, kpi](media/end-user-alerts/card-gauge-kpi.png)
+*Os consumidores* podem adicionar alertas aos mosaicos nos dashboards que criaram em **A minha área de trabalho**. *Os consumidores* também podem adicionar alertas aos mosaicos nos dashboards que foram partilhados com eles numa [Capacidade premium](end-user-license.md). Se tiver uma licença do Power BI Pro, também pode definir alertas em mosaicos em qualquer outra área de trabalho.
+Esta funcionalidade ainda está em desenvolvimento, por isso veja [abaixo a secção Sugestões e resolução de problemas](#tips-and-troubleshooting).
+
+![mosaico, cartão, KPI](media/end-user-alerts/card-gauge-kpi.png)
 
 Só o utilizador pode ver os alertas que definir, mesmo que partilhe o dashboard. Os alertas de dados são totalmente sincronizados entre plataformas; defina e veja alertas de dados [nas aplicações móveis do Power BI](mobile/mobile-set-data-alerts-in-the-mobile-apps.md) e no serviço Power BI. 
 
@@ -44,12 +47,12 @@ Este tutorial abrange o seguinte.
 
 Se não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
 
-Este exemplo utiliza mosaico de cartão do dashboard da aplicação de exemplo Vendas e Marketing. Esta aplicação está disponível no [Microsoft AppSource](https://appsource.microsoft.com). Para saber como obter a aplicação, veja [Instalar e utilizar aplicações com o Power BI](end-user-app-view.md).
+Este exemplo utiliza mosaico de cartão do dashboard da aplicação de exemplo Vendas e Marketing. Esta aplicação está disponível no [Microsoft AppSource](https://appsource.microsoft.com). Para saber como obter a aplicação, veja [Instalar e utilizar a aplicação de Vendas e Marketing](end-user-app-marketing.md).
 
 1. A partir do medidor do dashboard, KPI ou mosaico do cartão, selecione as reticências.
    
    ![mosaico de cartão](media/end-user-alerts/power-bi-cards.png)
-2. Selecione o ícone de campainha ![ícone de alerta](media/end-user-alerts/power-bi-bell-icon.png) ou **Gerir alertas** para adicionar um ou mais alertas a **Total stores**.
+2. Selecione o ícone de campainha ![ícone de alerta](media/end-user-alerts/power-bi-bell-icon.png) ou **Gerir alertas** para adicionar um ou mais alertas a **% Units market share**.
 
    ![mosaico de cartão com reticências selecionadas](media/end-user-alerts/power-bi-ellipses.png)
 
@@ -111,10 +114,10 @@ Existem várias formas de gerir os alteras: No próprio mosaico do dashboard, no
 
 ## <a name="tips-and-troubleshooting"></a>Sugestões e resolução de problemas 
 
-* Os alertas só podem ser definidos em medidores, KPIs e cartões.
 * Se não conseguir definir um alerta para um medidor, KPI ou cartão, contacte o administrador do sistema para obter ajuda. Às vezes, os alertas são desativados ou não estão disponíveis no seu dashboard ou para determinados tipos de mosaicos do dashboard.
 * Os alertas só funcionam em dados que são atualizados. Não funcionam em dados estáticos. Os exemplos fornecidos pela Microsoft são, em grande parte, estáticos. 
-* Os *consumidores* não criam os seus próprios dashboards, os *designers* criam dashboards e partilham-nos com os consumidores. A capacidade de receber e ver conteúdos partilhados exige uma licença Power BI Pro ou Premium. Para obter mais informações, leia [Qual é a minha licença?](end-user-license.md) 
+* A capacidade de receber e ver conteúdos partilhados exige uma licença Power BI Pro ou Premium. Para obter mais informações, leia [Qual é a minha licença?](end-user-license.md).
+* Os alertas podem ser definidos em elementos visuais criados a partir de fluxos de conjuntos de dados que são afixados de um relatório a um dashboard. Os alertas não podem ser definidos em fluxos de mosaicos criados diretamente no dashboard com **Adicionar mosaico** > **Dados de transmissão em fluxo personalizados**.
 
 
 ## <a name="clean-up-resources"></a>Limpar recursos

@@ -1,20 +1,23 @@
 ---
 title: Utilizar o elemento visual das Perguntas e Respostas do Power BI
 description: Como configurar o elemento visual das Perguntas e Respostas do Power BI
-author: mihart
+author: rien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e94b27945f277c352773e7f9eaa3979fa8bc7451
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762284"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148352"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Introdução às visualizações das Perguntas e Respostas do Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -45,10 +48,12 @@ O elemento visual das Perguntas e Respostas consiste em quatro componentes essen
 
 1. Abra o ficheiro na vista de relatório ![Captura de ecrã do ícone de vista de relatório.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Seleção ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
+Se for apresentado um erro ao criar um elemento visual das Perguntas e Respostas, veja a secção de [limitações](../natural-language/q-and-a-limitations.md) para saber se a configuração de origens de dados é suportada.    
 
-Se for apresentado um erro ao criar um elemento visual das Perguntas e Respostas, veja a secção de [limitações](../natural-language/q-and-a-limitations.md) para saber se a configuração de origens de dados é suportada.
+> [!NOTE]
+> Para partilhar o seu relatório com outro utilizador do Power BI, é necessário que ambos tenham licenças individuais do Power BI Pro ou que o relatório seja guardado numa capacidade Premium. Veja [partilhar relatórios](../collaborate-share/service-share-reports.md).
 
 ## <a name="create-a-qa-visual-using-a-suggested-question"></a>Criar um elemento visual das Perguntas e Respostas com uma pergunta sugerida
 Neste exercício, vamos selecionar uma das perguntas sugeridas para criar o nosso elemento visual das Perguntas e Respostas. 
@@ -146,7 +151,7 @@ Utilize o painel Ferramentas para ensinar termos que as Perguntas e Respostas n�
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 O elemento visual das Perguntas e Respostas integra-se no Office e no Bing para tentar fazer corresponder palavras comuns não reconhecidas a campos no seu conjunto de dados.  
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 Existem diversas formas de integrar linguagem natural. Para obter mais informações, veja os seguintes artigos:
 

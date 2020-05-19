@@ -7,14 +7,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7210e2f2f6fa3581744a5400bcdeb795d8883120
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381428"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276818"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualização no Power BI
 ## <a name="power-bi-visualizations"></a>Visualizações do Power BI
@@ -25,7 +25,7 @@ E consulte o [Microsoft AppSource](https://appsource.microsoft.com/marketplace/a
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Lista das visualizações disponíveis no Power BI
 Todas estas visualizações podem ser adicionadas aos relatórios do Power BI, especificadas nas Perguntas e Respostas e afixadas a dashboards.
 
-### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos de área: Básica (em camadas) e Empilhada
+### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos das áreas: Básica (em camadas) e Empilhada
 ![gráficos das áreas](media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
 
 >[!TIP]
@@ -41,7 +41,7 @@ Para obter mais informações, veja [Gráfico de Área Básico](power-bi-visuali
 >[!TIP]
 >Os gráficos de barras são o padrão para observar um valor específico em diferentes categorias.
 
-### <a name="cards-multi-row"></a>Cartões: múltiplas linhas
+### <a name="cards-multi-row"></a>Cartões: várias linhas
 ![cartão de várias linhas](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
 ### <a name="cards-single-number"></a>Cartões: número único
@@ -110,12 +110,12 @@ Para obter mais informações, veja [KPIs no Power BI](power-bi-visualization-kp
 
 Para obter mais informações, veja [Sugestões e truques para elementos visuais de mapas](power-bi-map-tips-and-tricks.md).
 
-### <a name="maps-arcgis-maps"></a>Mapas: mapas ArcGIS
+### <a name="maps-arcgis-maps"></a>Mapas: Mapas ArcGIS
 ![mapa ArcGIS](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 Para obter mais informações, veja [Mapas ArcGIS no Power BI](power-bi-visualization-arcgis.md).
 
-### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas preenchidos (Coropletos)
+### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas preenchidos (Coropleto)
 ![mapa de manchas](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -123,7 +123,7 @@ Para obter mais informações, veja [Mapas ArcGIS no Power BI](power-bi-visualiz
 
 Para obter mais informações, veja [Mapas de Manchas no Power BI](power-bi-visualization-filled-maps-choropleths.md).
 
-### <a name="maps-shape-maps"></a>Mapas: mapas de forma
+### <a name="maps-shape-maps"></a>Mapas: mapas de formas
 ![mapa com a forma do Texas](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]
@@ -157,7 +157,7 @@ Para obter mais informações, veja [Adicionar um elemento visual do Power Apps
 ![Elementos Visuais das Perguntas e Respostas](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
 
 >[!TIP]
->Tal como a [experiência das Perguntas e Respostas em dashboards](../power-bi-tutorial-q-and-a.md), o elemento visual de Perguntas e Respostas permite que faça perguntas sobre os seus dados através de linguagem natural. 
+>Tal como a [experiência das Perguntas e Respostas em dashboards](../create-reports/power-bi-tutorial-q-and-a.md), o elemento visual de Perguntas e Respostas permite que faça perguntas sobre os seus dados através de linguagem natural. 
 
 Para obter mais informações, veja [Elementos visuais das Perguntas e Respostas no Power BI](power-bi-visualization-q-and-a.md).
 
@@ -191,17 +191,17 @@ Para obter mais informações, veja [Gráficos de Dispersão no Power BI](power-
 >[!TIP]
 >Demasiados pontos de dados num elemento visual podem abrandá-lo, por isso é utilizado um algoritmo de amostragem sofisticado para garantir a precisão da visualização.
 
-Para obter mais informações, veja [High Density Scatter charts in Power BI](desktop-high-density-scatter-charts.md) (Gráficos de Dispersão de Alta Densidade no Power BI).
+Para obter mais informações, veja [High Density Scatter charts in Power BI](../create-reports/desktop-high-density-scatter-charts.md) (Gráficos de Dispersão de Alta Densidade no Power BI).
 
-### <a name="slicers"></a>Segmentação de dados
-![slicer](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
+### <a name="slicers"></a>Segmentações
+![segmentação de dados](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
 Para obter mais informações, veja [Segmentação de Dados no Power BI](power-bi-visualization-slicers.md).
 
 ### <a name="standalone-images"></a>Imagens autónomas
 ![elemento visual de imagem autónoma](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
-Para saber mais, veja [Adicionar um widget de imagem a um dashboard](../service-dashboard-add-widget.md).
+Para saber mais, veja [Adicionar um widget de imagem a um dashboard](../create-reports/service-dashboard-add-widget.md).
 
 ### <a name="tables"></a>Tabelas
 ![elemento visual da tabela](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
@@ -212,7 +212,7 @@ Para saber mais, veja [Adicionar um widget de imagem a um dashboard](../service-
 Para obter mais informações, veja [Trabalhar com tabelas no Power BI](power-bi-visualization-tables.md).
 
 ### <a name="treemaps"></a>Treemaps
-![mapa de árvore](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![treemap](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 Para obter mais informações, veja [Treemaps no Power BI](power-bi-visualization-treemaps.md).
 
@@ -232,8 +232,11 @@ Ao escrever consultas em linguagem natural com as Perguntas e Respostas do Power
 
 "***vendas por estado como um mapa de árvore***"
 
+Se o seu dashboard não tiver um campo de Perguntas e Respostas, pode ter sido desativado pelo seu administrador de inquilinos. 
+
 ![Caixa de perguntas das Perguntas e Respostas a mostrar o tipo de visualização especificado](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 [Visualizações nos relatórios do Power BI](power-bi-report-visualizations.md)    
 [A referência correta do elemento visual de sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+

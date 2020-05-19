@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 413e30c04ac02e6b957f03494bf6a488edeacac0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e7c59ddd15a85eeabe0edae6d6a9649f56092ab7
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75885315"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141429"
 ---
 # <a name="create-key-influencers-visualizations"></a>Criar visualizações de influenciadores principais
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -401,7 +403,7 @@ A visualização avalia todos os fatores explicativos em conjunto. Um fator pode
 - O fator Quartos poderá perder a importância que tinha antes de considerarmos o tamanho da casa. 
 
 
-
+Para partilhar o seu relatório com outro utilizador do Power BI, é necessário que ambos tenham licenças individuais do Power BI Pro ou que o relatório seja guardado numa capacidade Premium. Veja [partilhar relatórios](../collaborate-share/service-share-reports.md).
 
 ## <a name="next-steps"></a>Próximos passos
 - [Gráficos de combinação no Power BI](power-bi-visualization-combo-chart.md)

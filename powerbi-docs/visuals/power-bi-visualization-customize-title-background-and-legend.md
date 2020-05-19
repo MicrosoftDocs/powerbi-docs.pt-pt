@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5a55fca07e4a0e5f9c027bcd17c3fba66a09958e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78893436"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277140"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Personalizar os títulos, fundos e legendas das visualizações
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 
 Neste tutorial, vai aprender várias formas de personalizar as visualizações. Existem muitas opções para personalizar as visualizações. A melhor forma de saber mais sobre todas elas é explorar o painel **Formatação** (selecione o ícone de rolo de pintura). Para começar, este artigo mostra-lhe como pode personalizar um título, uma legenda, um fundo de visualização e adicionar um tema.
 
@@ -30,12 +33,15 @@ Não pode personalizar todas as visualizações. Veja a [lista completa](#visual
 
 - Relatório de Exemplo de Análise de Revenda
 
+> [!NOTE]
+> Para partilhar o seu relatório com outro utilizador do Power BI, é necessário que ambos tenham licenças individuais do Power BI Pro ou que o relatório seja guardado numa capacidade Premium. Veja [partilhar relatórios](../collaborate-share/service-share-reports.md).
+
 ## <a name="customize-visualization-titles-in-reports"></a>Personalizar títulos de visualização em relatórios
 
-Inicie sessão no Power BI Desktop e abra o relatório [Exemplo de Análise de Revenda](../sample-datasets.md).
+Inicie sessão no Power BI Desktop e abra o relatório [Exemplo de Análise de Revenda](../create-reports/sample-datasets.md).
 
 > [!NOTE]
-> Ao afixar uma visualização num dashboard, ela se torna um mosaico do dashboard. Também pode personalizar os próprios mosaicos com [novos títulos e subtítulos, hiperligações e redimensionar os mesmos](../service-dashboard-edit-tile.md).
+> Ao afixar uma visualização num dashboard, ela se torna um mosaico do dashboard. Também pode personalizar os próprios mosaicos com [novos títulos e subtítulos, hiperligações e redimensionar os mesmos](../create-reports/service-dashboard-edit-tile.md).
 
 1. Aceda à página **Novas Lojas** do relatório **Exemplo de Análise de Revenda**.
 
@@ -133,13 +139,13 @@ Para aplicar um tema ao seu relatório, selecione **Mudar tema** a partir da bar
 
 Veja a seguir uma lista de visualizações e as opções de personalização disponíveis para cada uma:
 
-| Visualização | Title | Fundo | Legenda |
+| Visualização | Título | Fundo | Legenda |
 |:--- |:--- |:--- |:--- |
 | Área | sim | sim |sim |
 | Barras | sim | sim |sim |
 | Cartão | sim | sim |n/a |
 | Cartão de Linhas múltiplas | sim | sim | n/a |
-| Personalizada | sim | sim | sim |
+| Coluna | sim | sim | sim |
 | Combinação | sim | sim | sim |
 | Anel | sim | sim | sim |
 | Mapa de manchas | sim | sim | sim |
@@ -153,17 +159,19 @@ Veja a seguir uma lista de visualizações e as opções de personalização dis
 | Circular | sim | sim | sim |
 | Perguntas e Respostas | sim | sim | n/a |
 | Dispersão | sim | sim | sim |
-| Formas | sim | sim | sim |
+| Forma | sim | sim | sim |
 | Segmentação de Dados | sim | sim | n/a |
 | Tabela | sim | sim | n/a |
 | Caixa de texto | não | sim | n/a |
 | Treemap | sim | sim | sim |
 | Cascata | sim | sim | sim |
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 - [Personalizar as propriedades dos Eixos X e Y](power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 - [Getting started with color formatting and axis properties](service-getting-started-with-color-formatting-and-axis-properties.md) (Introdução às propriedades de eixo e formatação de cor)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
+
+
