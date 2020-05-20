@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0b0bf61672d383900dad50e5fe7404f7f4a7f0bc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 96a780d7d7b100acb283623107d4ec841666bb8f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348925"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561668"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introdução aos mosaicos dos dashboards para designers do Power BI
 
@@ -23,7 +23,7 @@ Um mosaico é um instantâneo dos seus dados, afixado ao dashboard. Um mosaico p
 
 ![Dashboard do Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-Os dashboards e os mosaicos de dashboard são uma funcionalidade do serviço Power BI e não do Power BI Desktop. Não pode criar dashboards em dispositivos móveis, mas pode [ver e partilhá-los]../consumer/mobile/mobile-apps-view-dashboard.md) lá.
+Os dashboards e os mosaicos de dashboard são uma funcionalidade do serviço Power BI e não do Power BI Desktop. Não pode criar dashboards em dispositivos móveis, mas pode [ver e partilhá-los](../consumer/mobile/mobile-apps-view-dashboard.md) lá.
 
 Para além dos mosaicos de afixação, pode criar mosaicos autónomos diretamente no dashboard com o controlo [Adicionar mosaico](service-dashboard-add-widget.md). Os mosaicos autónomos incluem: caixas de texto, imagens, vídeos, dados de transmissão em fluxo e conteúdo Web.
 
@@ -98,6 +98,6 @@ Ao selecionar um mosaico, o que ocorre a seguir depende de como o criou. Caso co
 - [Atualização de dados no Power BI](../connect-data/refresh-data.md)
 - [Conceitos básicos para designers no serviço Power BI](../fundamentals/service-basic-concepts.md)
 - [Integrar mosaicos do Power BI em documentos do Office](https://powerbi.microsoft.com/blog/integrating-power-bi-tiles-into-office-documents/)
-- [Afixar itens do Reporting Services nos dashboards do Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
+- [Afixar itens do Reporting Services nos dashboards do Power BI](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).

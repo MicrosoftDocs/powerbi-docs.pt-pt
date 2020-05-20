@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079675"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561507"
 ---
 # <a name="dataset-properties"></a>Dataset properties (Propriedades do conjunto de dados)
 
@@ -46,8 +46,8 @@ isHidden     | Booleano        | Se for verdadeiro, a tabela será ocultada das 
 NOME  |Tipo  |Descrição  |Só de Leitura  |Necessário
 ---------|---------|---------|---------|---------
 nome     |  Cadeia        | Nome definido pelo utilizador da coluna.        |  Falso       | True       
-dataType     |  Cadeia       |  [Tipos de dados EDM](https://msdn.microsoft.com/library/ee382832.aspx) suportados e restrições. Veja [Data type restrictions](#data-type-restrictions) (Restrições de tipos de dados).      |  Falso       | True        
-formatString     | Cadeia        | Uma cadeia que descreve como o valor deveria ser formatado ao ser apresentado. Para saber mais sobre a formatação de cadeias, veja [FORMAT_STRING Contents](https://msdn.microsoft.com/library/ms146084.aspx) (Conteúdos FORMAT_STRING).      | Falso        | Falso        
+dataType     |  Cadeia       |  [Tipos de dados EDM](/dotnet/framework/data/adonet/entity-data-model-primitive-data-types) suportados e restrições. Veja [Data type restrictions](#data-type-restrictions) (Restrições de tipos de dados).      |  Falso       | True        
+formatString     | Cadeia        | Uma cadeia que descreve como o valor deveria ser formatado ao ser apresentado. Para saber mais sobre a formatação de cadeias, veja [FORMAT_STRING Contents](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents) (Conteúdos FORMAT_STRING).      | Falso        | Falso        
 sortByColumn    | Cadeia        |   Nome de cadeia de uma coluna na mesma tabela a utilizar para ordenar a coluna atual.     | Falso        | Falso       
 dataCategory     | Cadeia        |  Valor de cadeia a utilizar para a categoria de dados que descreve os dados nesta coluna. Alguns valores comuns incluem: Endereço, Cidade, Continente, País, Imagem, URL da Imagem, Latitude, Longitude, Organização, Lugar, Código Postal, Distrito, URL da Web       |  Falso       | Falso        
 isHidden    |  Booleano       |  Propriedade que indica se a coluna foi ocultada da vista. A predefinição é falso.       | Falso        | Falso        
@@ -59,7 +59,7 @@ NOME  |Tipo  |Descrição  |Só de Leitura  |Necessário
 ---------|---------|---------|---------|---------
 nome     | Cadeia        |  Nome definido pelo utilizador da medida.       |  Falso       | True        
 expression     | Cadeia        | Uma expressão DAX válida.        | Falso        |  True       
-formatString     | Cadeia        |  Uma cadeia que descreve como o valor deveria ser formatado ao ser apresentado. Para saber mais sobre a formatação de cadeias, veja [FORMAT_STRING Contents](https://msdn.microsoft.com/library/ms146084.aspx) (Conteúdos FORMAT_STRING).       | Falso        | Falso        
+formatString     | Cadeia        |  Uma cadeia que descreve como o valor deveria ser formatado ao ser apresentado. Para saber mais sobre a formatação de cadeias, veja [FORMAT_STRING Contents](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents) (Conteúdos FORMAT_STRING).       | Falso        | Falso        
 isHidden     | Cadeia        |  Se for verdadeiro, a tabela será ocultada das ferramentas de cliente.       |  Falso       | Falso       
 
 ## <a name="relationship"></a>Relação

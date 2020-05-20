@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e03a453b95a797b281f789e8aed40b3879b54e02
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277163"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563867"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Criar e utilizar gráficos de área básicos
 
@@ -82,11 +82,8 @@ Para obter mais informações, veja [Interações visuais nos relatórios](../cr
 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas   
-* [Tornar o relatório mais acessível para pessoas portadoras de deficiência](../desktop-accessibility.md)
+* [Tornar o relatório mais acessível para pessoas portadoras de deficiência](../create-reports/desktop-accessibility-overview.md)
 * Os gráficos de área básicos não são eficazes para comparar os valores devido à oclusão nas áreas em camadas. O Power BI utiliza transparência para indicar a sobreposição das áreas. No entanto, só funciona corretamente com duas ou três áreas diferentes. Quando precisar comparar tendências para mais de três medidas, tente usar os gráficos de linhas. Quando precisar de comparar volume para mais de três medidas, tente usar os gráficos de linhas.
 
 ## <a name="next-step"></a>Passo seguinte
 [Relatórios no Power BI](power-bi-visualization-card.md)  
-
-
-

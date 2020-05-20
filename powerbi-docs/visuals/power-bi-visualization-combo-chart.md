@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 036343df0a9af678b5a88c261a60ce603483a1cc
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 34d539af94f2bcbe03a2c9d6b870887e371a1a6e
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277186"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563904"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Criar e utilizar gráficos de combinação no Power BI
 
@@ -123,7 +123,7 @@ Aqui poderá:
 
 * [Adicionar o gráfico de combinação como um mosaico do dashboard](../create-reports/service-dashboard-tiles.md).
 * [Guarde o relatório](../create-reports/service-report-save.md).
-* [Tornar o relatório mais acessível para pessoas portadoras de deficiência](../desktop-accessibility.md).
+* [Tornar o relatório mais acessível para pessoas portadoras de deficiência](../create-reports/desktop-accessibility-overview.md).
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Destaque e filtragem cruzada
 
@@ -134,6 +134,3 @@ Realçar uma coluna ou linha num gráfico de combinação destaca e filtra de fo
 [Gráficos em anel no Power BI](power-bi-visualization-doughnut-charts.md)
 
 [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-
-

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e303d85083624bb67e73729024875d0f6f44fc42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d8872499bb54e23aabe642f88a541b85948d6656
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377157"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561995"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Conceitos básicos para os consumidores do serviço Power BI
 
@@ -116,7 +116,7 @@ Eis algumas das visualizações que poderá encontrar no Power BI: cascata, fri
 
    ![Uma captura de ecrã de oito elementos visuais de exemplo.](media/end-user-basic-concepts/power-bi-visuals.png)
 
-Veja a [lista completa de visualizações incluídas no Power BI](../power-bi-visualization-types-for-reports-and-q-and-a.md).
+Veja a [lista completa de visualizações incluídas no Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 A comunidade também disponibiliza visualizações, que são denominadas *elementos visuais do Power BI*. Se receber um relatório com um elemento visual que não reconhece, é provável que se trate de um elemento visual personalizado. Se precisar de ajuda para interpretar o elemento visual personalizado, procure o nome do *criador* do relatório ou dashboard e contacte-o.
 

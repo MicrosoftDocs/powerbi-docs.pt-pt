@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cf937ea36727ec036e3799cb0ac48dfbb5740325
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dfd44b7130c1c7e4e1d2d7a9c9f15208cb0d9b0c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292921"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563293"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Acerca de utilizar o DirectQuery no Power BI
 
@@ -371,7 +371,7 @@ Navegar para a pasta principal dessa pasta apresenta a pasta que contém *Analys
 
 Dentro dessa pasta, encontra-se uma pasta *\\Data*. Esta contém o ficheiro de rastreio *FlightRecorderCurrent.trc* da sessão atual do Power BI. A pasta de área de trabalho correspondente é eliminada quando a sessão do Power BI Desktop associada é terminada.
 
-Os ficheiros de rastreio podem ser lidos com a ferramenta *SQL Server Profiler*. Obtenha-a como parte da transferência gratuita do [SQL Server Management Studio](https://msdn.microsoft.com/library/mt238290.aspx).
+Os ficheiros de rastreio podem ser lidos com a ferramenta *SQL Server Profiler*. Obtenha-a como parte da transferência gratuita do [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms).
 
 Depois de transferir e instalar o SQL Server Management Studio, execute o SQL Server Profiler.
 
