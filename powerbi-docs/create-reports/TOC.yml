@@ -15,7 +15,7 @@
           href: ../learning-catalog/paginated-reports-online-course.md
         - name: Criar um relatório paginado e carregar
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
-    - name: Amostras
+    - name: Exemplos
       expanded: true
       items:
         - name: Veja exemplos do Power BI
@@ -81,9 +81,9 @@
               href: ../paginated-reports/report-builder-planning-report.md
             - name: Report Builder data (Dados do Report Builder)
               href: ../paginated-reports/report-builder-data.md
-            - name: Origens de dados suportadas
+            - name: Supported data sources (Origens de dados suportadas)
               href: ../paginated-reports/paginated-reports-data-sources.md
-            - name: Sugestões de design
+            - name: Design tips (Sugestões de estrutura)
               href: ../paginated-reports/report-builder-design-tips.md
             - name: 'Tables, matrixes, lists (Tabelas, matrizes, listas)'
               href: ../paginated-reports/report-builder-tables-matrices-lists.md
@@ -107,7 +107,7 @@
               href: deployment-pipelines-process.md
             - name: Melhores práticas
               href: deployment-pipelines-best-practices.md
-    - name: Guias de procedimentos
+    - name: Manuais de instruções
       items:
         - name: Relatórios do Power BI
           items:
@@ -257,7 +257,7 @@
               href: ../visuals/power-bi-visualization-card.md
             - name: Gráficos de combinação
               href: ../visuals/power-bi-visualization-combo-chart.md
-            - name: Elementos visuais de árvore de decomposição (pré-visualização)
+            - name: Decomposition tree visuals (Elementos visuais de árvore de decomposição)
               href: ../visuals/power-bi-visualization-decomposition-tree.md
             - name: Gráficos em anel
               href: ../visuals/power-bi-visualization-doughnut-charts.md
@@ -317,7 +317,7 @@
               href: service-insights.md
             - name: Otimizar os dados para as Informações Rápidas
               href: service-insights-optimize.md
-        - name: Acessibilidade
+        - name: Accessibility (Acessibilidade)
           items:
             - name: Estruturar relatórios acessíveis
               href: desktop-accessibility-creating-reports.md

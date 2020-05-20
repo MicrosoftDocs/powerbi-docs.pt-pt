@@ -112,13 +112,15 @@
               href: report-performance-troubleshoot.md
             - name: Deployment pipelines best practices (Melhores práticas dos pipelines de implementação)
               href: ../create-reports/deployment-pipelines-best-practices.md
-    - name: Documentos técnicos
+    - name: Whitepapers (Documentos técnicos)
       items:
         - name: Descrição geral dos documentos técnicos
           href: whitepapers.md
         - name: Documento técnico de segurança do Power BI
           href: whitepaper-powerbi-security.md
-        - name: Implementação do Power BI Premium
+        - name: Power BI enterprise deployment whitepaper (Documento técnico sobre a implementação empresarial do Power BI)
+          href: whitepaper-powerbi-enterprise-deployment.md
+        - name: Power BI Premium deployment (Implementação do Power BI Premium)
           href: whitepaper-powerbi-premium-deployment.md
         - name: Distribute Power BI externally using Azure Active Directory B2B (Distribuir o Power BI externamente através do Azure Active Directory B2B)
           href: whitepaper-azure-b2b-power-bi.md
