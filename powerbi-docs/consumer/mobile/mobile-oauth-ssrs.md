@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40bbf09e684b4fd3f86564c9b469c6ff248954a6
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114955"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565724"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Utilizar OAuth para ligar ao Power BI Report Server e SSRS
 
@@ -60,7 +60,7 @@ A configuração do Reporting Services é muito simples. Temos de nos certificar
 
 O SPN é um identificador exclusivo para um serviço que utiliza a autenticação Kerberos. Terá de confirmar que tem um SPN HTTP adequado para o servidor de relatórios.
 
-Para obter informações sobre como configurar o Nome do Principal do Serviço (SPN) adequado para o servidor de relatórios, veja [Register a Service Principal Name (SPN) for a Report Server (Registar um Nome do Principal do Serviço (SPN) para um Servidor de Relatórios)](https://msdn.microsoft.com/library/cc281382.aspx).
+Para obter informações sobre como configurar o Nome do Principal do Serviço (SPN) adequado para o servidor de relatórios, veja [Register a Service Principal Name (SPN) for a Report Server (Registar um Nome do Principal do Serviço (SPN) para um Servidor de Relatórios)](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server).
 
 ### <a name="enabling-negotiate-authentication"></a>Ativar a autenticação de negociação
 
@@ -74,7 +74,7 @@ Para permitir que um servidor de relatórios utilize a autenticação Kerberos, 
 </AuthenticationTypes>
 ```
 
-Para obter mais informações, veja [Modify a Reporting Services Configuration File (Modificar um Ficheiro de Configuração do Reporting Services)](https://msdn.microsoft.com/library/bb630448.aspx) e [Configure Windows Authentication on a Report Server (Configurar a Autenticação do Windows num Servidor de Relatórios)](https://msdn.microsoft.com/library/cc281253.aspx).
+Para obter mais informações, veja [Modify a Reporting Services Configuration File (Modificar um Ficheiro de Configuração do Reporting Services)](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config) e [Configure Windows Authentication on a Report Server (Configurar a Autenticação do Windows num Servidor de Relatórios)](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Configuração do Active Directory Federation Services (ADFS)
 
@@ -248,9 +248,9 @@ Se o início de sessão for bem-sucedido ao utilizar o Fiddler, poderá ocorrer 
 
 ## <a name="next-steps"></a>Próximas etapas
 
-[Registar um Nome do Principal do Serviço (SPN) para um Servidor de Relatórios](https://msdn.microsoft.com/library/cc281382.aspx)  
-[Modificar um Ficheiro de Configuração do Reporting Services](https://msdn.microsoft.com/library/bb630448.aspx)  
-[Configurar a Autenticação do Windows num Servidor de Relatórios](https://msdn.microsoft.com/library/cc281253.aspx)  
+[Registar um Nome do Principal do Serviço (SPN) para um Servidor de Relatórios](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)  
+[Modificar um Ficheiro de Configuração do Reporting Services](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)  
+[Configurar a Autenticação do Windows num Servidor de Relatórios](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)  
 [Active Directory Federation Services](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Proxy de Aplicação Web no Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [Publicar Aplicações com a Pré-autenticação do AD FS](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  

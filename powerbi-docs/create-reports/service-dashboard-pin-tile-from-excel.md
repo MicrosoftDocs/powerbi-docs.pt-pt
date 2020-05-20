@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3f3b5f8967890a3bb0cda3464b8d122d40938f62
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 283b43ef60d88df64b66812956e79bdcce1f16e9
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322016"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565793"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Pin a tile to a Power BI dashboard from Excel (Afixar um mosaico a um dashboard do Power BI a partir do Excel)
 Para poder afixar um mosaico a partir do livro do Excel, primeiro terá de ligar esse livro ao serviço Power BI (app.powerbi.com). Ligar um livro coloca, essencialmente, uma versão só de leitura ligada desse livro no serviço Power BI e permite-lhe afixar intervalos a dashboards. Pode até afixar uma folha de cálculo inteira a um dashboard.  
@@ -80,7 +80,7 @@ Selecionar um mosaico do livro abre o livro ligado no Power BI. Como o ficheiro 
  ![vídeo](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
-Funcionalidades não suportadas: o Power BI utiliza os Serviços do Excel para obter os mosaicos do livro. Por isso, como algumas das funcionalidades do Excel não são suportadas na API REST dos Serviços do Excel, não serão vistas nos mosaicos no Power BI. Por exemplo: gráficos Sparkline, formatação condicional de conjunto de ícones e segmentação de dados de tempo. Para obter uma lista completa das funcionalidades não suportadas, veja [Funcionalidades Não Suportadas na API REST dos Serviços do Excel](https://msdn.microsoft.com/library/office/ff394477.aspx)
+Funcionalidades não suportadas: o Power BI utiliza os Serviços do Excel para obter os mosaicos do livro. Por isso, como algumas das funcionalidades do Excel não são suportadas na API REST dos Serviços do Excel, não serão vistas nos mosaicos no Power BI. Por exemplo: gráficos Sparkline, formatação condicional de conjunto de ícones e segmentação de dados de tempo. Para obter uma lista completa das funcionalidades não suportadas, veja [Funcionalidades Não Suportadas na API REST dos Serviços do Excel](/sharepoint/dev/general-development/unsupported-features-in-excel-services-rest-api)
 
 ## <a name="next-steps"></a>Próximas etapas
 [Partilhar um dashboard que contém ligações para um livro do Excel](../collaborate-share/service-share-dashboard-that-links-to-excel-onedrive.md)

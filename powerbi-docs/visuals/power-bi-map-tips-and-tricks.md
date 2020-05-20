@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89b81286819e5f286a26efeb6b36d6336446132c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8a7b5785712aeac318b3d8a2bbd14ab7170a435f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277830"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565908"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Truques e sugestões para visualizações de mapa do Power BI
 
@@ -55,7 +55,7 @@ No Power BI Desktop, pode assegurar que os campos são geocodificados corretamen
 **2. Utilize mais do que uma coluna de localização.**     
  Às vezes, até mesmo definir as categorias de dados de mapeamento não é suficiente para o Bing adivinhar corretamente a intenção. Algumas designações são ambíguas porque a localização existe em vários países ou regiões. Por exemplo, existe ***Southampton*** em Inglaterra, na Pennsylvania e em Nova Iorque.
 
-O Power BI utiliza o [serviço de modelo de URL não estruturado](https://msdn.microsoft.com/library/ff701714.aspx) do Bing para obter as coordenadas de latitude e longitude, com base num conjunto de valores da morada para qualquer país. Se os dados não tiverem dados de localização suficientes, adicione essas colunas e categorize-as adequadamente.
+O Power BI utiliza o [serviço de modelo de URL não estruturado](/bingmaps/rest-services/locations/find-a-location-by-address) do Bing para obter as coordenadas de latitude e longitude, com base num conjunto de valores da morada para qualquer país. Se os dados não tiverem dados de localização suficientes, adicione essas colunas e categorize-as adequadamente.
 
  Por exemplo, se tiver apenas uma coluna de Cidade, o Bing pode ter dificuldade em geocodificar. Adicione colunas geográficas adicionais para tornar a localização inequívoca.  Por vezes, basta apenas adicionar mais uma coluna de localização ao conjunto de dados - neste caso, estado/província. E não se esqueça de a categorizar corretamente, veja o n.º 1 acima.
 
@@ -97,5 +97,3 @@ Ao explorar as geohierarquias, é importante saber como funciona cada botão de 
 [Visualizações do Power BI](power-bi-report-visualizations.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
-
-

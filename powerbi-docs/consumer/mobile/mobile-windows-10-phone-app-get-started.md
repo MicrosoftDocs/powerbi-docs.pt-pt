@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: cfbffaa06f3cfc393ba3381adbfc1a7613c2f0c1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 04b5bfbc08295974efcb7d583036d96274754bad
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349362"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565701"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introdução à aplicação móvel do Power BI para Windows 10
 A aplicação móvel Power BI para Windows 10 traz o Power BI para o seu tablet ou telemóvel. Obtém acesso móvel atualizado e tátil às suas informações empresariais. Veja e interaja com os seus dashboards de empresa de qualquer lugar, diretamente no [ecrã de Início do Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -118,8 +118,8 @@ Eis outras coisas que pode fazer na aplicação do Power BI para dispositivos Wi
 
 ### <a name="reporting-services-mobile-reports-and-kpis"></a>Relatórios móveis e KPIs do Reporting Services
 * [Veja KPIs e relatórios móveis do Reporting Services](mobile-app-windows-10-ssrs-kpis-mobile-reports.md) na aplicação Power BI para dispositivos Windows 10.
-* Crie [KPIs no portal Web do Reporting Services](https://msdn.microsoft.com/library/mt683632.aspx).
-* [Crie os seus próprios relatórios móveis com o Editor de Relatórios Móveis do SQL Server](https://msdn.microsoft.com/library/mt652547.aspx) e publique-os no portal Web do Reporting Services.
+* Crie [KPIs no portal Web do Reporting Services](/sql/reporting-services/working-with-kpis-in-reporting-services).
+* [Crie os seus próprios relatórios móveis com o Editor de Relatórios Móveis do SQL Server](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher) e publique-os no portal Web do Reporting Services.
 
 ## <a name="next-steps"></a>Próximos passos
 * [Transferir a aplicação Power BI](https://go.microsoft.com/fwlink/?LinkID=526478) a partir da Windows Store  

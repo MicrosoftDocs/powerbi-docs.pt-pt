@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: 557334ed8aecccd646fde92a6d2cfa7852aff36b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 105cef5b9df49d076491057d73f6929d46216a8b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347223"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564866"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introdução à aplicação móvel Power BI em dispositivos Android
 A aplicação Android para Microsoft Power BI dá a experiência BI móvel para Power BI, Power BI Report Server e Reporting Services. Veja e interaja com os dashboards da sua empresa no local e na cloud em qualquer lugar, com acesso móvel em direto e tátil. Explore os dados nos dashboards e partilhe com os seus colegas em e-mails e mensagens de texto. 
@@ -27,7 +27,7 @@ Crie relatórios do Power BI no Power BI Desktop e publique-os:
 
 Em seguida, na aplicação Power BI para Android, interaja com os seus dashboards e relatórios, seja no local ou na cloud.
 
-Descubra as [novidades nas aplicações móveis do Power BI](../../mobile-whats-new-in-the-mobile-apps.md).
+Descubra as [novidades nas aplicações móveis do Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -40,7 +40,7 @@ O Power BI pode ser executado em vários dispositivos Android com o sistema ope
 **Iniciar quando abrir a aplicação**    
 Mesmo sem se inscrever ou sem se ligar, depois de abrir a aplicação é possível percorrer as páginas de entrada para obter uma visão geral rápida daquilo que pode fazer com a aplicação Power BI no dispositivo Android. Toque em **Ignorar** para ver e explorar os exemplos e obter experiência prática com a aplicação. Pode [voltar aos exemplos](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples) sempre que quiser na página inicial dos relatórios.
 
-Descubra as [novidades nas aplicações móveis do Power BI](../../mobile-whats-new-in-the-mobile-apps.md).
+Descubra as [novidades nas aplicações móveis do Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Inscrever-se no serviço Power BI na Web
 Se ainda não se inscreveu, vá para o [serviço do Power BI](https://powerbi.com/) para se inscrever e obter a conta e criar e armazenar dashboards e relatórios e reunir dados. Em seguida, entre no Power BI a partir do seu dispositivo Android para ver os seus dashboards em qualquer local.
@@ -101,14 +101,14 @@ Eis outras coisas que pode fazer na aplicação para dispositivo Android do Powe
 
 ### <a name="power-bi-dashboards-and-reports"></a>Dashboards e relatórios do Power BI
 * Veja [as suas aplicações](../../collaborate-share/service-create-distribute-apps.md).
-* Veja os seus [dashboards](../../mobile-apps-view-dashboard.md).
-* Explore os [mosaicos nos dashboards](../../mobile-tiles-in-the-mobile-apps.md).
-* Abra [relatórios do Power BI](../../mobile-reports-in-the-mobile-apps.md).
+* Veja os seus [dashboards](mobile-apps-view-dashboard.md).
+* Explore os [mosaicos nos dashboards](mobile-tiles-in-the-mobile-apps.md).
+* Abra [relatórios do Power BI](mobile-reports-in-the-mobile-apps.md).
 * Veja [as suas aplicações](../../collaborate-share/service-create-distribute-apps.md).
 * [Anote e partilhe mosaicos](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
-* Partilhe [dashboards](../../mobile-share-dashboard-from-the-mobile-apps.md).
-* [Leia um código QR do Power BI](../../mobile-apps-qr-code.md) com o seu telemóvel Android para abrir um relatório ou mosaico de dashboard relacionado. 
-* Veja as [notificações sobre atualizações à sua conta do Power BI](../../mobile-apps-notification-center.md), como os dashboards que os colegas partilham consigo.
+* Partilhe [dashboards](mobile-share-dashboard-from-the-mobile-apps.md).
+* [Leia um código QR do Power BI](mobile-apps-qr-code.md) com o seu telemóvel Android para abrir um relatório ou mosaico de dashboard relacionado. 
+* Veja as [notificações sobre atualizações à sua conta do Power BI](mobile-apps-notification-center.md), como os dashboards que os colegas partilham consigo.
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Relatórios e KPIs nos portais Web do Power BI Report Server e Reporting Services
 * [Veja relatórios e KPIs no portal Web](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) na aplicação móvel do Power BI para dispositivos Android.

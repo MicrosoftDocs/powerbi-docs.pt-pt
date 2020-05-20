@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a22bba65b44446e7027627a24ebcf316f8f073d4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 39d30cc7949565872fd638f289756be6541eee0d
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348396"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564992"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
 
@@ -89,7 +89,7 @@ Estão disponíveis os seguintes recursos para o ajudar a começar:
 
 ## <a name="what-browsers-does-power-bi-support"></a>Que browsers são suportados pelo Power BI?
 
-Veja uma lista completa de [browsers suportados para o Power BI](../service-browser-support.md).
+Veja uma lista completa de [browsers suportados para o Power BI](../fundamentals/power-bi-browsers.md).
 
 ## <a name="what-regions-and-languages-does-power-bi-support"></a>Que regiões e idiomas são suportados pelo Power BI?
 

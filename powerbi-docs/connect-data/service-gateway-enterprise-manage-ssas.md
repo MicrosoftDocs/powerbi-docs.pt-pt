@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: deb72b1b66d4cbc87c2e317bb1fe1428c079cfea
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c71f26949f19ed1beb29a162c18dc36ed689c21
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83308952"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565352"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gerir a sua origem de dados – Analysis Services
 
@@ -54,9 +54,9 @@ Opcionalmente, pode configurar o nível de privacidade da sua origem de dados. E
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qb5EEjkHoLg" frameborder="0" allowfullscreen></iframe>
 
-Sempre que um utilizador interage com um relatório ligado ao Analysis Services, o nome do utilizador efetivo é transmitido ao gateway e, em seguida, para o seu servidor no local do Analysis Services. O endereço de e-mail que utiliza para iniciar sessão no Power BI é transmitido ao Analysis Services como sendo o utilizador efetivo. É transmitido na propriedade de ligação [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth). 
+Sempre que um utilizador interage com um relatório ligado ao Analysis Services, o nome do utilizador efetivo é transmitido ao gateway e, em seguida, para o seu servidor no local do Analysis Services. O endereço de e-mail que utiliza para iniciar sessão no Power BI é transmitido ao Analysis Services como sendo o utilizador efetivo. É transmitido na propriedade de ligação [EffectiveUserName](/analysis-services/instances/connection-string-properties-analysis-services#bkmk_auth). 
 
-O endereço de e-mail tem de corresponder a um nome principal de utilizador (UPN) definido dentro do domínio do Active Directory local. O UPN é uma propriedade de uma conta do Active Directory. A conta do Windows tem de estar presente numa função do Analysis Services. Se não for encontrada nenhuma correspondência no Active Directory, o início de sessão não será bem-sucedido. Para saber mais sobre o Active Directory e a nomenclatura de utilizador, veja [User naming attributes](https://msdn.microsoft.com/library/ms677605.aspx) (Atributos de nomenclatura de utilizador).
+O endereço de e-mail tem de corresponder a um nome principal de utilizador (UPN) definido dentro do domínio do Active Directory local. O UPN é uma propriedade de uma conta do Active Directory. A conta do Windows tem de estar presente numa função do Analysis Services. Se não for encontrada nenhuma correspondência no Active Directory, o início de sessão não será bem-sucedido. Para saber mais sobre o Active Directory e a nomenclatura de utilizador, veja [User naming attributes](/windows/win32/ad/naming-properties) (Atributos de nomenclatura de utilizador).
 
 Também pode [mapear o seu nome de início de sessão do Power BI com um UPN de diretório local](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources).
 
@@ -203,7 +203,7 @@ A capacidade de o utilizador consultar e ver dados de modelo é determinada pelo
 - As funções às quais a respetiva conta de utilizador do Windows pertence como membro.
 - Segurança dinâmica ao nível da linha (se estiver configurada).
 
-A implementação de segurança baseada em funções e a segurança ao nível da linha dinâmica em modelos ultrapassa o âmbito deste artigo. Para saber mais, veja [Roles (SSAS tabular)](https://msdn.microsoft.com/library/hh213165.aspx) (Funções [Tabela do SSAS]) e [Security roles (Analysis Services - Multidimensional data)](https://msdn.microsoft.com/library/ms174840.aspx) (Funções de segurança [Analysis Services – Dados multidimensionais]) no MSDN. Para compreender mais detalhadamente a segurança do modelo de tabela, transfira e leia o documento técnico [Securing the tabular BI semantic model](https://msdn.microsoft.com/library/jj127437.aspx) (Proteger o modelo semântico tabular do BI).
+A implementação de segurança baseada em funções e a segurança ao nível da linha dinâmica em modelos ultrapassa o âmbito deste artigo. Para saber mais, veja [Roles (SSAS tabular)](/analysis-services/tabular-models/roles-ssas-tabular) (Funções [Tabela do SSAS]) e [Security roles (Analysis Services - Multidimensional data)](/analysis-services/multidimensional-models/olap-logical/security-roles-analysis-services-multidimensional-data) (Funções de segurança [Analysis Services – Dados multidimensionais]) no MSDN. Para compreender mais detalhadamente a segurança do modelo de tabela, transfira e leia o documento técnico [Securing the tabular BI semantic model](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (Proteger o modelo semântico tabular do BI).
 
 ## <a name="what-about-azure-ad"></a>E quanto ao Azure AD?
 

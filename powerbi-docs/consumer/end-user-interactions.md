@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: fb7bf439cdf2f7ebd6058aba6b147f800b9cf258
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 45f3aa4ccf92237085db0c7517c291fe8d0f0428
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79113046"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564912"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Forma como os elementos visuais efetuam a filtragem cruzada entre si num relatório do Power BI
 
@@ -55,7 +55,7 @@ Vamos definir estes termos ao analisar as páginas de relatório abaixo. O gráf
     ![Página de relatório depois de o segmento Moderação do gráfico em anel ser selecionado](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>Próximos passos
-[Como utilizar filtros de relatório](../power-bi-how-to-report-filter.md)    
+[Como utilizar filtros de relatório](../consumer/end-user-report-filter.md)
 
 
-[Sobre a filtragem e o realce](end-user-report-filter.md). 
+[Sobre a filtragem e o realce](end-user-report-filter.md).

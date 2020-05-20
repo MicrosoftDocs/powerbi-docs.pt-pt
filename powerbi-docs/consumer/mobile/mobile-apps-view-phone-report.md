@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 380057c2c65db3ea659adc39d692d8955201483b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273529"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565129"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Ver relatórios do Power BI otimizados para o seu telemóvel
 
@@ -60,7 +60,7 @@ Os relatórios no telemóvel também disponibilizam um modo de detalhe: obtém u
 
 * No relatório de telemóvel, toque nas reticências ( **...** ) no canto superior direito de um visual > **Expandir para o modo de detalhe**.
   
-    ![Expandir para o modo de foco](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Expandir para o modo de foco](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
 O que for feito no modo de detalhe é aplicado à tela de relatório e vice-versa. Por exemplo, se realçar um valor num elemento visual e depois regressar ao relatório completo, o relatório será filtrado com o valor que realçou no elemento visual.
 
@@ -72,7 +72,7 @@ Algumas ações só são possíveis no modo de detalhe, devido às limitações 
   
     Para limpar toda a exploração de um visual, toque nas reticências ( **...** ) > **Reverter**.
   
-    ![Reverter](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![Reverter](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
     A reversão está disponível ao nível do relatório, ao limpar a exploração de todos os elementos visuais, ou ao nível do elemento visual, ao limpar a exploração do elemento visual selecionado.   
 
@@ -86,14 +86,14 @@ Existem alguns tipos de desagregação:
 2. Será apresentada uma descrição e, se estiver definida uma hierarquia, o rodapé da descrição irá apresentar setas para desagregar e agregar.
 3. Toque na seta para baixo para desagregar.
 
-    ![Tocar para desagregar](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![Tocar para desagregar](media/mobile-apps-view-phone-report/report-drill-down.png)
     
 4. Toque na seta para cima para agregar.
 
 ### <a name="drill-to-next-level"></a>Explorar o nível seguinte
 1. Num relatório num telemóvel, toque nas reticências ( **...** ) no canto superior direito > **Expandir para o modo de detalhe**.
    
-    ![Expandir para o modo de foco](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Expandir para o modo de foco](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     Neste exemplo, as barras mostram os valores de estados.
 2. Toque no ícone Explorar ![Ícone Explorar](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) no canto inferior esquerdo.
@@ -111,7 +111,7 @@ Existem alguns tipos de desagregação:
     ![Ainda expandido ao nível inferior](./media/mobile-apps-view-phone-report/power-bi-back-to-phone-report-expanded-levels.png)
 5. Para regressar ao nível original, toque nas reticências ( **...** ) novamente > **Reverter**.
    
-    ![Reverter](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![Reverter](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
 ## <a name="drill-through-from-a-value"></a>Pormenorizar a partir de um valor
 A pormenorização liga valores numa página de relatório a outras páginas de relatório. Ao pormenorizar de um ponto de dados para outra página de relatório, os valores do ponto de dados são utilizados para filtrar a página pormenorizada ou o contexto será o dos dados selecionados.
@@ -121,11 +121,11 @@ Os autores do relatório podem [definir a pormenorização](https://docs.microso
 2. Será apresentada uma descrição e, se estiver definida a pormenorização, o rodapé da descrição irá apresentar uma seta para pormenorizar.
 3. Toque na seta para pormenorizar.
 
-    ![Tocar para pormenorizar](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![Tocar para pormenorizar](media/mobile-apps-view-phone-report/report-drill-through1.png)
 
 4. Escolha a página do relatório a pormenorizar.
 
-    ![Selecionar a página do relatório](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![Selecionar a página do relatório](media/mobile-apps-view-phone-report/report-drill-through2.png)
 
 5. Utilize o botão Anterior no cabeçalho da aplicação para voltar à página na qual começou.
 
@@ -133,5 +133,5 @@ Os autores do relatório podem [definir a pormenorização](https://docs.microso
 ## <a name="next-steps"></a>Próximos passos
 * [Criar relatórios otimizados para as aplicações móveis do Power BI](../../create-reports/desktop-create-phone-report.md)
 * [Criar uma vista de telemóvel de um dashboard no Power BI](../../create-reports/service-create-dashboard-mobile-phone-view.md)
-* [Criar visuais responsivos otimizados para qualquer tamanho](../../visuals/desktop-create-responsive-visuals.md)
+* [Criar visuais responsivos otimizados para qualquer tamanho](../../visuals/power-bi-report-visualizations.md)
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
