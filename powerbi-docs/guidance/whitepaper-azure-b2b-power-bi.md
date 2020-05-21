@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 7ab103c5d7b568e7315f67193da4d8da25b77a6c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82843647"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565443"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure Active Directory B2B
 
@@ -306,7 +306,7 @@ A integração do Power BI com o Azure AD B2B dá ao Contoso uma forma perfeita 
 
     Posteriormente, os utilizadores podem chegar à aplicação de Contoso clicando no link no e-mail ou marcando o link. A Contoso também pode facilitar aos utilizadores convidados adicionando este link a qualquer portal extranet existente que os utilizadores convidados já utilizam.
 
-4. Passos seguintes
+4. Próximos passos
 
     Utilizando uma aplicação Power BI e Azure AD B2B, a Contoso conseguiu rapidamente criar um Portal BI para os seus fornecedores de forma sem código. Esta distribuição muito simplificada de análises padronizadas a todos os fornecedores que dela necessitassem.
 
@@ -415,7 +415,7 @@ Agora, quando este utilizador abre a app que foi partilhada com eles, eles só v
 
 Outro tópico interessante é ver como a segurança dinâmica de nível de linha (RLS) funciona com O Azure AD B2B.
 
-Em suma, a segurança de nível dinâmico funciona filtrando dados no modelo com base no nome de utilizador da pessoa que liga ao Power BI. Em vez de adicionar várias funções para grupos de utilizadores, define os utilizadores no modelo. Não descreveremos o padrão em detalhe aqui. Kasper de Jong oferece uma escrita detalhada sobre todos os sabores de segurança de nível de linha na folha de batota de [segurança Power BI Desktop Dynamic](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/), e neste livro [branco.](https://msdn.microsoft.com/library/jj127437.aspx)
+Em suma, a segurança de nível dinâmico funciona filtrando dados no modelo com base no nome de utilizador da pessoa que liga ao Power BI. Em vez de adicionar várias funções para grupos de utilizadores, define os utilizadores no modelo. Não descreveremos o padrão em detalhe aqui. Kasper de Jong oferece uma escrita detalhada sobre todos os sabores de segurança de nível de linha na folha de batota de [segurança Power BI Desktop Dynamic](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/), e neste livro [branco.](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)
 
 Vejamos um pequeno exemplo - Contoso tem um relatório simples sobre vendas por grupos:
 
@@ -504,7 +504,7 @@ Para os utilizadores convidados habilitados através do Permitir que os utilizad
 
 - A publicação direta do Power BI Desktop para o serviço Power BI
 - Os utilizadores convidados não podem utilizar o Power BI Desktop para ligar a conjuntos de dados de serviço no serviço Power BI
-- Espaços de trabalho clássicos ligados ao Office 365 Groups: O utilizador convidado não pode criar ou ser Administradores destes espaços de trabalho. No entanto, pode ser membro.
+- Espaços de trabalho clássicos ligados aos Grupos Microsoft 365: O utilizador convidado não pode criar ou ser Administradores destes espaços de trabalho. No entanto, pode ser membro.
 - O envio de convites ad-hoc não é suportado para listas de acesso de áreas de trabalho
 - O Power BI Publisher para Excel não é suportado para utilizadores convidados
 - Os utilizadores convidados não podem instalar o Power BI Gateway e ligá-lo à sua organização
@@ -616,7 +616,7 @@ Se você vai convidar muitos utilizadores convidados, recomendamos que você del
 
 **A Contoso pode forçar a autenticação de vários fatores para os utilizadores convidados se os seus parceiros não tiverem a autenticação multifactor?**
 
-Sim. Para mais informações, consulte [acesso condicional para utilizadores de colaboração B2B.](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)
+Yes. Para mais informações, consulte [acesso condicional para utilizadores de colaboração B2B.](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)
 
 **Como funciona a colaboração b2B quando o parceiro convidado está a usar a federação para adicionar a sua própria autenticação no local?**
 

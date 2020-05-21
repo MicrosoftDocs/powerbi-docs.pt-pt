@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/28/2019
+ms.date: 05/19/2020
 ms.author: maggies
-ms.openlocfilehash: 8b103902f7a151dcbfee9fa6ff54830129a65c14
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 98b5323efa8b6c6c0e1d6f1dbab640fe5f4cae4c
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279072"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693965"
 ---
 # <a name="whitepapers-for-power-bi"></a>Documentos técnicos do Power BI
 
 Os documentos técnicos permitem explorar os tópicos do Power BI num nível mais aprofundado. Aqui, encontra-se uma lista de documentos técnicos disponíveis para Power BI.
 
-| Documento técnico | Descrição | Date |
+| Documento técnico | Descrição | Data |
 | --- | --- | --- |
-| [Planear uma Implementação Empresarial do Power BI](https://go.microsoft.com/fwlink/?linkid=2057861) |Este documento técnico descreve as considerações para uma implementação organizacional do Power BI segura e com bom desempenho. | Julho de 2018 |
+| [Planear uma Implementação Empresarial do Power BI](https://aka.ms/PBIEnterpriseDeploymentWP) |Este livro branco técnico atualizado descreve considerações e boas práticas para uma implementação organizacional de power bi de desempenho e segurança. | Maio de 2020 |
 | [Power BI e Fluxos de Dados](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Este documento técnico descreve os fluxos de dados em detalhes técnicos e descreve as capacidades e as iniciativas subjacentes às funcionalidades dos fluxos de dados. | Novembro de 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Descreve o Power BI Premium, tanto a sua situação aquando do lançamento como a evolução futura. | Outubro de 2017 |
 | [Planeamento e Implementação do Power BI Premium](whitepaper-powerbi-premium-deployment.md)| Este documento fornece orientações e melhores práticas para planear e implementar a capacidade de Premium para cargas de trabalho bem definidas.| Março de 2019 |
@@ -38,4 +38,4 @@ Os documentos técnicos permitem explorar os tópicos do Power BI num nível mai
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
-Mais perguntas? [Tente perguntar à Comunidade Power BI](https://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
