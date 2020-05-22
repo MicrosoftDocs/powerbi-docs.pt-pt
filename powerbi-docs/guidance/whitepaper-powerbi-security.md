@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: a80870963cf045730fff18413884d9871354b169
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565283"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792917"
 ---
 # <a name="power-bi-security-whitepaper"></a>Documento técnico de segurança do Power BI
 
@@ -91,11 +91,11 @@ Os metadados sobre a subscrição do Power BI de um utilizador, como dashboards,
 
 ## <a name="tenant-creation"></a>Criação do Inquilino
 
-Um inquilino é uma instância dedicada do serviço Azure AD que uma organização recebe e detém quando se inscreve num serviço na cloud da Microsoft, como o Azure, o Microsoft Intune, o Power BI ou o Office 365. Cada inquilino do Azure AD é distinto e separado dos outros inquilinos do Azure AD.
+Um inquilino é uma instância dedicada do serviço Azure AD que uma organização recebe e possui quando se inscreve para um serviço de nuvem microsoft como O Azure, Microsoft Intune, Power BI ou Microsoft 365. Cada inquilino do Azure AD é distinto e separado dos outros inquilinos do Azure AD.
 
 Um inquilino aloja os utilizadores duma empresa e respetivas informações: palavras-passe, dados de perfil de utilizador, permissões, etc. Também contém grupos, aplicações e outras informações relativas a uma organização e à sua segurança. Para mais informações, consulte [O que é um inquilino da AD Azure.](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)
 
-Um inquilino do Power BI é criado no datacenter considerado mais próximo do país (ou da região) e são fornecidas informações de estado para o inquilino no Azure Active Directory, que foi fornecido quando o serviço do Office 365 ou Power BI foi inicialmente aprovisionado. O inquilino do Power BI não é atualmente movido dessa localização do datacenter.
+Um inquilino power BI é criado no datacenter considerado mais próximo do país (ou região) e informações estatais fornecidas para o inquilino em Azure Ative Directory, que foi fornecido quando o serviço Microsoft 365 ou Power BI foi inicialmente fornecido. O inquilino do Power BI não é atualmente movido dessa localização do datacenter.
 
 ### <a name="multiple-geographies-multi-geo"></a>Múltiplas Localizações Geográficas (Multi-Geo)
 
@@ -129,7 +129,7 @@ Para obter mais informações sobre o local onde os seus dados são armazenados 
 
 ## <a name="user-authentication"></a>Autenticação do Utilizador
 
-A autenticação de utilizadores no serviço Power BI consiste numa série de pedidos, respostas e redirecionamentos entre o browser do utilizador e o serviço Power BI ou os serviços do Azure utilizados pelo Power BI. Essa sequência descreve o processo de autenticação de utilizadores no Power BI. Para obter mais informações sobre as opções para os modelos de autenticação de utilizadores de uma organização (modelos de início de sessão), veja [Choosing a sign-in model for Office 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/) (Escolher um modelo de início de sessão para o Office 365).
+A autenticação de utilizadores no serviço Power BI consiste numa série de pedidos, respostas e redirecionamentos entre o browser do utilizador e o serviço Power BI ou os serviços do Azure utilizados pelo Power BI. Essa sequência descreve o processo de autenticação de utilizadores no Power BI. Para obter mais informações sobre opções para os modelos de autenticação de utilizador de uma organização (modelos de sessão), consulte A Escolha de um modelo de sessão para o [Microsoft 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/).
 
 ### <a name="authentication-sequence"></a>Sequência de Autenticação
 
@@ -245,9 +245,9 @@ O Power BI proporciona a monitorização da integridade dos dados das seguintes 
 
 1. Metadados (definição do relatório)
 
-   a. Os relatórios podem ser do Excel, para relatórios do Office 365, ou do Power BI. O seguinte aplica-se aos metadados com base no tipo de relatório:
+   a. Os relatórios podem ser Excel para relatórios Microsoft 365 ou Relatórios Power BI. O seguinte aplica-se aos metadados com base no tipo de relatório:
         
-    &ensp;&ensp;a. Os metadados do Excel Report são armazenados encriptados no SQL Azure. Os metadados também estão armazenados no Office 365.
+    &ensp;&ensp;a. Os metadados do Excel Report são armazenados encriptados no SQL Azure. Os metadados também estão armazenados no Microsoft 365.
 
     &ensp;&ensp;b. Os relatórios power BI são armazenados encriptados na base de dados Azure SQL.
 
@@ -255,13 +255,13 @@ O Power BI proporciona a monitorização da integridade dos dados das seguintes 
 
    Os dados estáticos incluem artefactos como imagens de fundo e visuais power BI.
 
-    &ensp;&ensp;a. Para relatórios criados com o Excel para o Office 365, nada é armazenado.
+    &ensp;&ensp;a. Para os relatórios criados com o Excel para o Microsoft 365, nada está armazenado.
 
     &ensp;&ensp;b. Para relatórios do Power BI, os dados estáticos são armazenados e encriptados no armazenamento de Blobs do Azure.
 
 3. Caches
 
-    &ensp;&ensp;a. Para relatórios criados com o Excel para o Office 365, nada é colocado em cache.
+    &ensp;&ensp;a. Para os relatórios criados com o Excel para o Microsoft 365, nada está em cache.
 
     &ensp;&ensp;b. Para os relatórios power BI, os dados dos visuais dos relatórios apresentados são armazenados e armazenados na Cache de Dados Visuais descrito na secção seguinte.
  
@@ -453,13 +453,13 @@ Seguem-se perguntas e respostas comuns relacionadas com a segurança do Power BI
 
 **Existem outros elementos visuais do Power BI que enviam informações para fora da rede do cliente?**
 
-* Yes. Os elementos visuais do Mapas Bing e da ESRI transmitem dados para fora do serviço Power BI, caso utilizem esses serviços.
+* Sim. Os elementos visuais do Mapas Bing e da ESRI transmitem dados para fora do serviço Power BI, caso utilizem esses serviços.
 
 **Para aplicações de modelo, a Microsoft realiza alguma avaliação de segurança ou privacidade da aplicação Modelo antes de publicar itens na Galeria?**
 * Não. A editora de aplicações é responsável pelo conteúdo, enquanto o cliente é responsável por rever e determinar se confia na editora de aplicações Do Modelo. 
 
 **Existem aplicações de modelo que podem enviar informações fora da rede de clientes?**
-* Yes. É da responsabilidade do cliente rever a política de privacidade da editora e determinar se deve instalar a aplicação Modelo no Tenant. Além disso, a editora é responsável por notificar o comportamento e as capacidades da aplicação.
+* Sim. É da responsabilidade do cliente rever a política de privacidade da editora e determinar se deve instalar a aplicação Modelo no Tenant. Além disso, a editora é responsável por notificar o comportamento e as capacidades da aplicação.
 
 **E a soberania dos dados? Podemos fornecer inquilinos em centros de dados localizados em geografias específicas, para garantir que os dados não saem das fronteiras do país?**
 
