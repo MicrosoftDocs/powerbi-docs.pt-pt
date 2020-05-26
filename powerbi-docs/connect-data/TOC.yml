@@ -174,7 +174,7 @@
           items:
             - name: Utilizar conjuntos de dados em áreas de trabalho
               href: service-datasets-across-workspaces.md
-            - name: Partilhar conjunto de dados (Pré-visualização)
+            - name: Share datasets (Partilhar conjuntos de dados)
               href: service-datasets-share.md
             - name: Permissão de criação para conjuntos de dados partilhados
               href: service-datasets-build-permissions.md

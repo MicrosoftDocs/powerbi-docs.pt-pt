@@ -43,7 +43,7 @@
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Collaborate in a classic workspace (Colaborar numa área de trabalho clássica)
               href: service-collaborate-power-bi-workspace.md
-            - name: Manage your group in Power BI and Office 365 (Gerir o seu grupo no Power BI e no Office 365)
+            - name: Gerir o seu grupo no Power BI e no Microsoft 365
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
         - name: Publicar e partilhar o seu trabalho
           items:
@@ -71,6 +71,8 @@
           items:
             - name: Analisar no Excel
               href: service-analyze-in-excel.md
+            - name: Tabelas em destaque do Power BI no Excel
+              href: service-excel-featured-tables.md
             - name: Resolução de problemas de análise no Excel
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Erro: Não conseguimos encontrar dados no seu livro do Excel'
