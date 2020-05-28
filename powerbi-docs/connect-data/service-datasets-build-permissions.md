@@ -1,22 +1,22 @@
 ---
-title: Permissão de compilação para conjuntos de dados partilhados (pré-visualização)
+title: Permissão de criação para conjuntos de dados partilhados
 description: Saiba como pode controlar o acesso aos dados com a permissão de Compilação.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af2e4c865609846d8fcfc792eee4f483afef2160
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 84f6a9d152151c6d6f44bcbad9e0a4d54fc0c293
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285354"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792995"
 ---
-# <a name="build-permission-for-shared-datasets-preview"></a>Permissão de compilação para conjuntos de dados partilhados (pré-visualização)
+# <a name="build-permission-for-shared-datasets"></a>Permissão de criação para conjuntos de dados partilhados
 
 Ao criar um relatório no Power BI Desktop, os dados nesse relatório são armazenados num *modelo de dados*. Ao publicar os seus relatórios no serviço Power BI, está também a publicar os dados como um *conjunto de dados*. Pode conceder a outras pessoas *permissão de compilação* para esse relatório, para que possam descobrir e reutilizar o conjunto de dados que partilhou. Este artigo explica como pode controlar o acesso aos dados com a permissão de compilação.
 
@@ -105,7 +105,7 @@ Se o seu conjunto de dados estiver a ser utilizado por um relatório fora da ár
 
 Pode remover a Permissão de compilação. Se o fizer, as pessoas a quem revogar permissões ainda irão poder ver o relatório, mas já não irão poder editá-lo ou exportar dados subjacentes. Os utilizadores com permissão só de leitura continuarão a poder exportar dados resumidos. 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
-- [Use datasets across workspaces (Preview)](service-datasets-across-workspaces.md) (Utilizar conjuntos de dados em várias áreas de trabalho [Pré-visualização])
-- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- [Utilizar conjuntos de dados em áreas de trabalho](service-datasets-across-workspaces.md)
+- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
