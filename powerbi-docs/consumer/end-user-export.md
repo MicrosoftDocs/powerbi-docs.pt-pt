@@ -5,17 +5,17 @@ author: mihart
 ms.reviewer: cmfinlan
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 6f653bd14f71d0d8409dbb8c3653515198cc6c40
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2f46d2f5f496d4a8b281d3d8b48a0398ba11feeb
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279463"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813721"
 ---
 # <a name="export-data-from-a-visual"></a>Exportar dados de um visual
 

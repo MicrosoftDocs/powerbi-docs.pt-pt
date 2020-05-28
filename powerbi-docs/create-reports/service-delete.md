@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3fdb969888d023ca9683c2460086f2fb8157c3c3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a48d83223ab02d2f9f043dde2facebd6ad73c27a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83304559"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565678"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Eliminar praticamente qualquer coisa no serviço Power BI
 Este artigo mostra como eliminar um dashboard, relatório, livro, conjunto de dados, aplicação, visualização e área de trabalho no serviço Power BI.
@@ -82,7 +82,7 @@ Se o conjunto de dados fizer parte de um ou mais [pacotes de conteúdo organizac
 
 ## <a name="delete-a-workspace"></a>Eliminar uma área de trabalho
 > [!WARNING]
-> Quando criar uma área de trabalho, está a criar um grupo do Office 365. E quando eliminar uma área de trabalho, está a eliminar o respetivo grupo do Office 365. Significa que o seu grupo também será eliminado de outros produtos do O365, como o SharePoint e o Microsoft Teams.
+> Ao criar uma área de trabalho, estará também a criar um grupo do Microsoft 365. Quando eliminar uma área de trabalho, eliminará o respetivo grupo do Microsoft 365. Isto significa que o seu grupo também será eliminado de outros produtos do Microsoft 365, como o SharePoint e o Microsoft Teams.
 >
 >
 

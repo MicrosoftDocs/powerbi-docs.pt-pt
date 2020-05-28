@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4995671fe5a3a4af0e74ce97d3227f73f005dc3f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 62d0282af47b0d57a0b9ac307b422191b440b45c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348534"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564096"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Ligar a ficheiros armazenados no OneDrive para a sua área de trabalho do Power BI
 Depois de [criar uma área de trabalho no Power BI](../collaborate-share/service-create-distribute-apps.md), pode armazenar os seus ficheiros do Excel, CSV e Power BI Desktop no OneDrive para Empresas para a sua área de trabalho do Power BI. Pode continuar a atualizar os ficheiros que armazena no OneDrive. Essas atualizações são automaticamente refletidas nos relatórios e dashboards do Power BI com base nos ficheiros. 
 
 > [!NOTE]
-> A nova experiência de área de trabalho muda a relação entre as áreas de trabalho do Power BI e os grupos do Office 365. Não cria automaticamente um grupo do Office 365 sempre que cria uma das novas áreas de trabalho. Leia mais sobre como [criar as novas áreas de trabalho](../collaborate-share/service-create-the-new-workspaces.md)
+> A nova experiência de área de trabalho muda a relação entre as áreas de trabalho do Power BI e os grupos do Microsoft 365. Não cria automaticamente um grupo do Microsoft 365 sempre que cria uma das novas áreas de trabalho. Leia mais sobre como [criar as novas áreas de trabalho](../collaborate-share/service-create-the-new-workspaces.md)
 
 A adição de ficheiros à área de trabalho é um processo de dois passos: 
 
@@ -34,10 +34,10 @@ A adição de ficheiros à área de trabalho é um processo de dois passos:
 1. No serviço Power BI, selecione a seta junto a Áreas de trabalho > selecione as reticências ( **…** ) junto ao nome da sua área de trabalho. 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
-2. Selecione **Ficheiros** para abrir o OneDrive para Empresas para a sua área de trabalho no Office 365.
+2. Selecione **Ficheiros** para abrir o OneDrive para Empresas para a sua área de trabalho no Microsoft 365.
    
    > [!NOTE]
-   > Se não vir **Ficheiros** no menu da área de trabalho, selecione **Membros** para abrir o OneDrive para Empresas para a sua área de trabalho. Aí, selecione **Ficheiros**. O Office 365 configura uma localização de armazenamento do OneDrive para os ficheiros de área de trabalho de grupo da sua aplicação. Este processo pode demorar algum tempo. 
+   > Se não vir **Ficheiros** no menu da área de trabalho, selecione **Membros** para abrir o OneDrive para Empresas para a sua área de trabalho. Aí, selecione **Ficheiros**. O Microsoft 365 configura uma localização de armazenamento do OneDrive para os ficheiros de área de trabalho de grupo da sua aplicação. Este processo pode demorar algum tempo.
    > 
    > 
 3. Aqui, pode carregar os seus ficheiros para o OneDrive para Empresas para a sua área de trabalho. Selecione **Carregar**e navegue até aos ficheiros.
@@ -75,9 +75,9 @@ Agora que os seus ficheiros estão no OneDrive para Empresas para a sua área de
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 * [Criar aplicações e áreas de trabalho no Power BI](../collaborate-share/service-create-distribute-apps.md)
 * [Importar dados de livros do Excel](service-get-data-from-files.md)
 * [Ligar a livros inteiros do Excel](service-excel-workbook-files.md)
-* Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
+* Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 * Comentários? Visite [Ideias para o Power BI](https://ideas.powerbi.com/forums/265200-power-bi)

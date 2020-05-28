@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 05/19/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5fb1b96f46761bf0c724abb8e36de8bb93634fdc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f84fcc4b32468ab8ffddbb593ae97ea8fb20442a
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347660"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693621"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origens de dados no Power BI Desktop
 
@@ -99,6 +99,7 @@ A categoria **Base de dados** fornece as seguintes ligações de dados:
 * InterSystems IRIS (Beta)
 * Jethro (Beta)
 * Kyligence
+* Bases de dados Linkar PICK Style/MultiValue (Beta)
 * MarkLogic
 
 > [!NOTE]
@@ -139,6 +140,7 @@ A categoria **Azure** fornece as seguintes ligações de dados:
 * Interactive Query do HDInsight
 * Azure Data Explorer (Kusto)
 * Azure Cost Management
+* Azure Time Series Insights (Beta)
 
 
 A imagem a seguir mostra a janela **Obter Dados** para **Azure**.
@@ -187,12 +189,13 @@ A categoria **Serviços Online** fornece as seguintes ligações de dados:
 * Industrial App Store
 * Intune Data Warehouse (Beta)
 * Segurança do Microsoft Graph (Beta)
+* Projectplace para o Power BI (Beta)
 * Product Insights (Beta)
 * Quick Base
 * TeamDesk (Beta)
-* Informações sobre Tendências Empresariais (Beta)
-* Projectplace para o Power BI (Beta)
 * Webtrends Analytics (Beta)
+* Witivio (Beta)
+* Informações sobre Tendências Empresariais (Beta)
 * Zoho Creator (Beta)
 
 A imagem a seguir mostra a janela **Obter Dados** para **Serviços Online**.
@@ -215,7 +218,7 @@ A categoria **Outros** fornece as seguintes ligações de dados:
 * Script de Python
 * ODBC
 * OLEDB
-* BI360 - Budgeting & Financial Reporting (Beta)
+* Solver
 * Cognite Data Fusion (Beta)
 * FHIR
 * Information Grid (Beta)
@@ -224,15 +227,14 @@ A categoria **Outros** fornece as seguintes ligações de dados:
 * Paxata
 * QubolePresto (Beta)
 * Roamler (Beta)
+* Shortcuts Business Insights (Beta)
 * Siteimprove
 * SurveyMonkey (Beta)
+* Tenforce (Smart)List
 * TIBCO(R) Data Virtualization (Beta)
 * Vena (Beta)
 * Workforce Dimensions (Beta)
 * Zucchetti HR Infinity (Beta)
-* Tenforce (Smart)List
-* Shortcuts Business Insights (Beta)
-* Vessel Insight (Beta)
 * Consulta em Branco
 
 A imagem a seguir mostra a janela **Obter Dados** para **Outros**.

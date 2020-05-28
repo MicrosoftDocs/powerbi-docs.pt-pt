@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a143a9b158d8a00fc129953a601f9e4c8f19875f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 69084048b46c77452bf94f04fd79a97c4f09af5b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279716"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566000"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Auto date/time guidance in Power BI Desktop (Orientação de data/hora Automáticas no Power BI Desktop)
 
@@ -34,7 +34,10 @@ A seguinte lista com marcas descreve as considerações e as possíveis limitaç
     É por isso que é importante que os filtros ou agrupamentos ocorram na coluna **Anual**. Ao desagregar com a hierarquia, o ano será filtrado, exceto se o nível **Anual** for intencionalmente removido. Se não existir um filtro ou grupo por ano, um agrupamento por mês, por exemplo, resumirá os valores em todos os anos para esse mês.
 - **Filtragem de data de tabela única:** dado que cada coluna de datas produz a sua própria tabela de data/hora automática (oculta), não é possível aplicar um filtro de tempo a uma das tabelas e que este seja propagado a várias tabelas de modelos. A filtragem desta forma é um requisito de modelação comum ao efetuar relatórios sobre vários assuntos (tabelas de tipo de facto), como vendas e orçamento de vendas. Ao utilizar a funcionalidade de data/hora automática, o autor do relatório precisará de aplicar filtros a cada coluna de data diferente.
 - **Tamanho do modelo:** para cada coluna de data que gerar uma tabela de data/hora automática oculta, resultará no aumento do tamanho de modelo e também no prolongamento do tempo de atualização.
-- **Outras ferramentas de relatórios:** Não é possível trabalhar com tabelas de data/hora automáticas ao utilizar a funcionalidade [Analisar no Excel](../collaborate-share/service-analyze-in-excel.md) nem ligar-se a um modelo que utilize criadores de relatórios que não fazem parte do Power BI.
+- **Outras ferramentas de relatórios:** não é possível trabalhar com tabelas de data/hora automáticas ao:
+  - Utilizar a funcionalidade [Analisar no Excel](../collaborate-share/service-analyze-in-excel.md).
+  - Utilizar estruturadores de consultas do Analysis Services em relatórios paginados do Power BI.
+  - Ligar ao modelo com estruturadores de relatórios não pertencentes ao Power BI.
 
 ## <a name="recommendations"></a>Recomendações
 

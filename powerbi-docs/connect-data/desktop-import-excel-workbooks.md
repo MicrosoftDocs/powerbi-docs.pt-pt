@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a9880eea0511b942c3c7310a059caf5cd9415e1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 68dce4919dcc15cfcdd6a7c6776d569e43f9666b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292070"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561748"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Importar livros do Excel para o Power BI Desktop
 Com o Power BI Desktop, pode importar facilmente livros do Excel que contêm consultas do Power Query, modelos do Power Pivot e folhas de cálculo do Power View para o Power BI Desktop. O Power BI Desktop cria automaticamente relatórios e visualizações com base no livro do Excel. Depois de importados, pode continuar a melhorar e otimizar os relatórios com o Power BI Desktop, através das funcionalidades existentes e novas funcionalidades lançadas em cada atualização mensal do Power BI Desktop.
@@ -30,7 +30,7 @@ Com o Power BI Desktop, pode importar facilmente livros do Excel que contêm con
    Embora não exista atualmente nenhuma limitação para o tamanho ou número de objetos no livro, o Power BI Desktop demora mais tempo a analisar e importar livros maiores.
 
    > [!NOTE]
-   > Para carregar ou importar ficheiros do Excel a partir de pastas partilhadas do OneDrive para Empresas ou de pastas de um grupo do Office 365, utilize o URL do ficheiro do Excel e introduza-o na origem de dados Web no Power BI Desktop. Tem de seguir alguns passos para formatar corretamente o URL do OneDrive para Empresas. Para obter mais informações e a série correta de passos, veja [Utilizar ligações do OneDrive para Empresas no Power BI Desktop](desktop-use-onedrive-business-links.md).
+   > Para carregar ou importar ficheiros do Excel a partir de pastas partilhadas do OneDrive para Empresas ou de pastas de um grupo do Microsoft 365, utilize o URL do ficheiro do Excel e introduza-o na origem de dados Web no Power BI Desktop. Tem de seguir alguns passos para formatar corretamente o URL do OneDrive para Empresas. Para obter mais informações e a série correta de passos, veja [Utilizar ligações do OneDrive para Empresas no Power BI Desktop](desktop-use-onedrive-business-links.md).
    > 
    > 
 

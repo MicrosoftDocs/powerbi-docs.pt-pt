@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: c424572cf222e4b2f65354e7b9a0959b60a56fca
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7034bd544ee9c14dd5f32df9335faefd4221e4ac
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143935"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693907"
 ---
 # <a name="embed-reports-in-microsoft-teams-with-the-power-bi-tab"></a>Incorporar relatórios no Microsoft Teams com o separador Power BI
 
@@ -28,11 +28,12 @@ Para que o **separador Power BI para Microsoft Teams** funcione, certifique-se d
 - Os seus utilizadores têm uma licença do Power BI Pro ou que o relatório está incluído numa [capacidade Premium do Power BI (EM ou P SKU)](../admin/service-premium-what-is.md) com uma licença do Power BI.
 - O Microsoft Teams tem o separador Power BI.
 - Os utilizadores têm de iniciar sessão no serviço Power BI para ativar a respetiva licença do Power BI para consumir o relatório.
-- Os utilizadores têm de ter permissão para ver o relatório.
+- Para adicionar um relatório no Microsoft Teams com o separador Power BI, tem de ter, pelo menos, uma função de Visualizador na área de trabalho que aloja o relatório. Veja [Funções nas novas áreas de trabalho](service-new-workspaces.md#roles-in-the-new-workspaces) para obter informações sobre as diferentes funções.
+- Para verem o relatório no separador Power BI no Microsoft Teams, os utilizadores têm de ter permissão para ver o relatório.
 
 Além disso, para que as **pré-visualizações de ligações** funcionem, certifique-se de que:
 - Os utilizadores cumprem os requisitos para utilizar o separador Power BI para Microsoft Teams.
-- Os utilizadores iniciaram sessão no serviço de Bot do Power BI. 
+- Os utilizadores iniciaram sessão no serviço Power BI. 
 
 
 ## <a name="embed-your-report"></a>Incorporar o seu relatório
@@ -90,12 +91,12 @@ Siga estes passos para obter uma pré-visualização da ligação para conteúdo
 
 ## <a name="grant-access-to-reports"></a>Conceder acesso a relatórios
 
-Incorporar um relatório no Microsoft Teams ou enviar uma ligação para um item não dá automaticamente permissão aos utilizadores para verem o relatório. Tem de [permitir que os utilizadores vejam o relatório no Power BI](service-share-dashboards.md). Pode utilizar um Grupo do Office 365 para a sua Equipa para facilitar o processo. 
+Incorporar um relatório no Microsoft Teams ou enviar uma ligação para um item não dá automaticamente permissão aos utilizadores para verem o relatório. Tem de [permitir que os utilizadores vejam o relatório no Power BI](service-share-dashboards.md). Para facilitar o processo, pode utilizar um Grupo do Microsoft 365 para a sua Equipa.
 
 > [!IMPORTANT]
 > Certifique-se de que revê quem pode ver o relatório no serviço Power BI e conceda acesso aos que não estão listados.
 
-Uma forma de garantir que todas as pessoas da sua equipa têm acesso aos relatórios é colocá-los numa única área de trabalho no Power BI e dar ao Grupo do Office 365 da sua equipa acesso à área de trabalho.
+Uma forma de garantir que todas as pessoas da sua equipa têm acesso aos relatórios é ao colocá-los numa única área de trabalho no Power BI e dar ao Grupo do Microsoft 365 da sua equipa acesso à área de trabalho.
 
 ## <a name="link-previews"></a>Pré-visualizações de ligações 
 
@@ -123,7 +124,7 @@ Quando adiciona um separador de relatório do Power BI ao Teams, o Teams cria au
 - O Power BI não suporta os mesmos idiomas localizados que o Microsoft Teams. Como tal, poderá não ver uma devida localização no relatório incorporado.
 - Os dashboards do Power BI não podem ser incorporados no separador Power BI para Microsoft Teams.
 - Os utilizadores sem licença do Power BI ou permissão para o relatório verão uma mensagem a indicar "Conteúdo não disponível".
-- Poderá ter problemas se estiver a utilizar o Internet Explorer 10. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+- Poderá ter problemas se estiver a utilizar o Internet Explorer 10. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - Os [filtros de URL](service-url-filters.md) não são suportados com o separador Power BI para Microsoft Teams.
 - Nas clouds nacionais, o novo separador Power BI não está disponível. Poderá estar disponível uma versão mais antiga que não suporta a nova experiência de área de trabalho ou relatórios em aplicações Power BI. 
 - Depois de guardar o separador, não pode alterar o nome do separador através das definições do separador. Utilize a opção de alteração de nome para o alterar.

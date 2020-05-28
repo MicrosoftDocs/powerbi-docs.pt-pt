@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: 60232b81633542d28b4cd52baf171557e95074c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 046ebacc69642c1e7f399f0a44d7c5a32e411cb1
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143604"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693867"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>Incorporar uma peça Web de relatórios no SharePoint Online
 
@@ -79,7 +79,7 @@ Incorporar um relatório no SharePoint Online não dá automaticamente permissã
 > [!IMPORTANT]
 > Certifique-se de que revê quem pode ver o relatório no serviço Power BI e conceda acesso aos que não estão listados.
 
-Há duas formas de fornecer acesso a relatórios no Power BI. A primeira forma, se estiver a utilizar um Grupo do Office 365 para criar o seu site de equipa do SharePoint Online, é listar o utilizador como membro da **área de trabalho no serviço Power BI** e da **página do SharePoint**. Para obter mais informações, veja como [gerir uma área de trabalho](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Há duas formas de fornecer acesso a relatórios no Power BI. A primeira forma, se estiver a utilizar um Grupo do Microsoft 365 para criar o seu site de equipa do SharePoint Online, é listar o utilizador como membro da **área de trabalho no serviço Power BI** e da **página do SharePoint**. Para obter mais informações, veja como [gerir uma área de trabalho](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 A segunda forma é incorporar um relatório numa aplicação e partilhá-lo diretamente com os utilizadores:  
 
@@ -157,7 +157,7 @@ Os utilizadores que visualizam um relatório no SharePoint precisam de uma **lic
 
 * O Power BI não suporta os mesmos idiomas localizados que o SharePoint Online. Como tal, poderá não ver uma devida localização no relatório incorporado.
 
-* Poderá encontrar problemas se estiver a utilizar o Internet Explorer 10. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+* Poderá encontrar problemas se estiver a utilizar o Internet Explorer 10. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 
 * A peça Web do Power BI não está disponível para [clouds nacionais](https://powerbi.microsoft.com/clouds/).
 
