@@ -1,6 +1,6 @@
 ---
 title: Visuals in Power BI (Elementos visuais no Power BI)
-description: Custom visualizations in Power BI (Visualizações personalizadas no Power BI)
+description: Visualizações personalizadas no Power BI
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 01/03/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 22c367dbc6160928541570bf2de37c51edcbfc14
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e9dc53eb3f49a1ef62e4e3539ac7eb6d92b317af
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80550869"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561645"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI (Elementos visuais no Power BI)
 
@@ -41,7 +41,7 @@ Os membros da comunidade e a Microsoft contribuíram com elementos visuais do Po
 
 ### <a name="what-is-appsource"></a>O que é o AppSource?
 
-O [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) é o local onde se encontram as aplicações, os suplementos e as extensões para o seu software da Microsoft. O AppSource liga milhões de utilizadores de produtos como o Office 365, Azure, Dynamics 365, Cortana e Power BI a soluções que os ajudam a trabalhar com mais eficácia e mais informações.
+O [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) é o local onde se encontram as aplicações, os suplementos e as extensões para o seu software da Microsoft. O AppSource liga milhões de utilizadores de produtos como o Microsoft 365, Azure, Dynamics 365, Cortana e Power BI a soluções que os ajudam a trabalhar com mais eficácia e mais informações do que nunca.
 
 ### <a name="certified-power-bi-visuals"></a>Elementos visuais do Power BI certificados
 
@@ -72,7 +72,7 @@ Se for programador Web e estiver interessado em criar o seu próprio elemento vi
 > [!WARNING]
 > Um elemento visual do Power BI pode conter código com riscos de privacidade ou segurança. Certifique-se de que confia no autor e na origem do elemento visual do Power BI antes de o importar para o seu relatório.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 * Se for programador, comece com o tutorial [Desenvolver um elemento visual do Power BI](custom-visual-develop-tutorial.md).
 

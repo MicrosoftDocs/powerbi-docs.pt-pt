@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 08b9585195e805548546e832915e07f0e02265f5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348281"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693585"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar uma aplicação no Power BI
 
@@ -64,7 +64,7 @@ Quando os dashboards e relatórios na sua área de trabalho estiverem prontos, p
 5. Em **Permissões**, decida quem vai ter acesso à aplicação e o que essas pessoas podem fazer com a mesma. 
 
     - Em [áreas de trabalho clássicas](service-create-workspaces.md): todas as pessoas na sua organização, pessoas específicas ou grupos de segurança do Azure Active Directory (AAD).
-    - Na [nova experiência de áreas de trabalho](service-create-the-new-workspaces.md): pessoas específicas, grupos de segurança e listas de distribuição do AAD e Grupos do Office 365. Todos os utilizadores da área de trabalho recebem automaticamente acesso à aplicação da mesma.
+    - Na [nova experiência de áreas de trabalho](service-create-the-new-workspaces.md): pessoas específicas, grupos de segurança e listas de distribuição do AAD e Grupos do Microsoft 365. Todos os utilizadores da área de trabalho recebem automaticamente acesso à aplicação da mesma.
     - Pode permitir que os utilizadores da aplicação se liguem aos conjuntos de dados subjacentes da aplicação através da permissão Compilação. Verão estes conjuntos de dados quando estiverem a procurar conjuntos de dados partilhados. Leia mais sobre [permitir que os utilizadores se liguem aos conjuntos de dados da aplicação](#allow-users-to-connect-to-datasets) neste artigo.
     - Os utilizadores com permissão de compilação também podem ter permissão para copiar relatórios desta aplicação para outra área de trabalho. Leia mais sobre [permitir que os utilizadores copiem relatórios na aplicação](#allow-users-to-copy-reports), neste artigo.
     

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0c9f9c0f24ad40fadb7d0bd61cd6a6ce7d318e74
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 178ad340a9a3ccd9d6427dc6bad03b6d8d08ce90
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297843"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694062"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Utilizar a pormenorização de relatório cruzado no Power BI
 
@@ -31,7 +31,7 @@ A ação de pormenorização abre a *página de destino* no *relatório de desti
 Este artigo mostra como configurar e utilizar a pormenorização de relatório cruzado para relatórios do Power BI.
 
 > [!NOTE]
-> Não pode utilizar a pormenorização de relatório cruzado com relatórios [Partilhados comigo](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report) partilhados individualmente em **A Minha Área de Trabalho**. Para utilizar a pormenorização de relatório cruzado, tem de aceder aos relatórios na área de trabalho a partir da qual foram partilhados.
+> Não pode utilizar a pormenorização de relatório cruzado com relatórios [Partilhados comigo](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report) partilhados individualmente. Para utilizar a pormenorização de relatório cruzado, tem de aceder aos relatórios nas áreas de trabalho das quais é membro.
 
 ## <a name="enable-cross-report-drillthrough"></a>Ativar a pormenorização entre relatórios
 
@@ -100,7 +100,7 @@ Para a pormenorização de relatórios cruzados, o Power BI transmite o context
 
 Se quiser regressar ao relatório de origem após a ação de pormenorização dos relatórios cruzados, utilize o botão **Voltar** do browser. 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 Poderá também estar interessado nos seguintes artigos:
 

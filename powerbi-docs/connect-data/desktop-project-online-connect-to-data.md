@@ -1,6 +1,6 @@
 ---
-title: 'Project Online: connect to data through Power BI Desktop (Project Online: ligar aos dados a partir do Power BI Desktop)'
-description: 'Project Online: connect to data through Power BI Desktop (Project Online: ligar aos dados a partir do Power BI Desktop)'
+title: 'Project Online: ligar aos dados a partir do Power BI Desktop'
+description: 'Project Online: ligar aos dados a partir do Power BI Desktop'
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f01a6da3bb0d829d396861814f71d33ba69f22f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4244253faa3160b515a02b598988072117d982ed
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83291932"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563058"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Ligar a dados do Project Online através do Power BI Desktop
 Pode ligar aos dados no Project Online a partir do Power BI Desktop.
@@ -35,7 +35,7 @@ Pode ligar aos dados no Project Online a partir do Power BI Desktop.
 
     `https://contoso.sharepoint.com/sites/pwa/default.aspx`
 
-5. O Power BI Desktop pedirá para se autenticar com a sua conta do Office 365. Selecione Conta organizacional e, em seguida, introduza as suas credenciais.
+5. O Power BI Desktop pedirá para se autenticar com a sua conta escolar ou profissional. Selecione Conta organizacional e, em seguida, introduza as suas credenciais.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
 

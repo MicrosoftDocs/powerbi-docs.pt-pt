@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 18267f06bd43166cb1958d3aff73913a31189953
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ce0f22c17ed718d3e2ad4e4fa9d9514edd315583
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80550750"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407440"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI visual project structure (Estrutura de projeto de elementos visuais do Power BI)
 
@@ -113,7 +113,7 @@ Este ficheiro contém a [configuração TSLint](https://palantir.github.io/tslin
 Os comentários na legenda do código seguinte, no ficheiro `pbiviz.json`, descrevem as entradas de metadados.
 
 > [!NOTE]
-> * A partir da versão 3.x.x da ferramenta **pbiviz**, `externalJS` não é suportado.
+> * A partir da versão 3.X.X da ferramenta **pbiviz**, o `externalJS` não é suportado.
 > * Para suporte de localização, [adicione a localização do Power BI ao elemento visual](./localization.md).
 
 ```json
@@ -170,7 +170,7 @@ Os comentários na legenda do código seguinte, no ficheiro `pbiviz.json`, descr
 }
 ```
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 * Para compreender as interações entre um elemento visual, um utilizador e o Power BI, veja o [Conceito do elemento visual do Power BI](./power-bi-visuals-concept.md).
 
