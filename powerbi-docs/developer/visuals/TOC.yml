@@ -52,6 +52,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: Publicar elementos visuais do Power BI no AppSource
           href: office-store.md
+        - name: Create R-powered visuals (Criar elementos visuais baseados em R)
+          href: create-r-based-power-bi-desktop.md
         - name: Test your Power BI visual (Testar o seu elemento visual do Power BI)
           href: submission-testing.md
         - name: Utilizar elementos visuais baseados em R no Power BI
