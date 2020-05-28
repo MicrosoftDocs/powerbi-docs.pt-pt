@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/21/2018
-ms.openlocfilehash: 907e65635424b709ec2c0850e4d0d759f4ba6dd3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/14/2020
+ms.openlocfilehash: 8d2efebcfd2d4bc4289f0c8136ef060507fe0a86
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73874092"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438275"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configure o servidor de relatórios para alojar livros do Excel com o Office Online Server (OOS)
 
@@ -179,9 +179,10 @@ Depois de introduzir o URL de deteção e selecionar **Aplicar**, selecionar um 
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 
-* Terá apenas a capacidade de leitura nos livros.
+- Terá apenas a capacidade de leitura nos livros.
+- A atualização agendada não é suportada para livros do Excel no Power BI Report Server.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 [Descrição geral para administradores](admin-handbook-overview.md)  
 [Instalar o Power BI Report Server](install-report-server.md)  

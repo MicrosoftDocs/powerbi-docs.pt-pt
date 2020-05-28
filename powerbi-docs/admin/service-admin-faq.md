@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 459eaf6ba8b4f6e09b2df5f55956dc77adee9667
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ce18b3cb077e0fee2eea4d0d31327329f405a51a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344401"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563752"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrar o Power BI – perguntas mais frequentes (FAQ)
 
@@ -81,7 +81,7 @@ Há três cenários que podem aplicar-se aos utilizadores na sua organização:
 
 ### <a name="how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant"></a>Como posso impedir que os utilizadores se associem ao inquilino existente do Microsoft 365?
 
-Existem passos que pode seguir, como administrador global do Microsoft 365, para impedir os utilizadores de se associarem ao inquilino existente do Microsoft 365. Se bloquear esta ação, as tentativas dos utilizadores para se inscreverem falharão e aparecerá uma mensagem a instruí-los para contactar o administrador da organização. Não terá de repetir este processo se já tiver desativado a distribuição de licenças automática (por exemplo, Office 365 para Educação para Estudantes, para Corpo Docente e para Docentes).
+Como administrador global, existem passos que pode seguir para impedir os utilizadores de se associarem ao inquilino existente do Microsoft 365. Se bloquear esta ação, as tentativas dos utilizadores para se inscreverem falharão e aparecerá uma mensagem a instruí-los para contactar o administrador da organização. Não terá de repetir este processo se já tiver desativado a distribuição de licenças automática (por exemplo, Office 365 para Educação para Estudantes, para Corpo Docente e para Docentes).
 
 Utilize o seguinte script do PowerShell para impedir que os utilizadores novos se associem a um inquilino gerido. ([Saiba mais acerca do PowerShell][1].)
 
@@ -184,7 +184,7 @@ Quando um utilizador self-service se inscreve num serviço cloud que utiliza o A
 Se não realizar nenhuma ação, o serviço criará um inquilino para cada domínio e subdomínio de e-mail do utilizador. Se pretender que todos os utilizadores estejam no mesmo inquilino, independentemente das respetivas extensões de endereço de e-mail: Crie um inquilino de destino com antecedência ou utilize um inquilino existente. Em seguida, adicione todos os domínios e subdomínios existentes que pretende que sejam consolidados nesse inquilino. Todos os utilizadores com endereços de e-mail que terminem nesses domínios e subdomínios são automaticamente associados ao inquilino de destino quando se inscreverem.
 
 > [!IMPORTANT]
-> Depois de criar utilizadores, não existe nenhum mecanismo automatizado suportado para os mover entre inquilinos. Para saber mais sobre como adicionar domínios a um único inquilino do Microsoft 365, veja [Adicionar os utilizadores e o domínio ao Office 365](/office365/admin/setup/add-domain/).
+> Depois de criar utilizadores, não existe nenhum mecanismo automatizado suportado para os mover entre inquilinos. Para saber mais sobre como adicionar domínios a um único inquilino do Microsoft 365, veja [Adicionar os utilizadores e o domínio ao Microsoft 365](/office365/admin/setup/add-domain/).
 
 ### <a name="how-do-i-remove-power-bi-for-users-that-already-signed-up"></a>Como posso remover o Power BI para os utilizadores já inscritos?
 
@@ -259,9 +259,9 @@ A Microsoft criou o Power BI com base no Microsoft 365 que, por sua vez, se base
 [O que é o Power BI Premium?](service-premium-what-is.md)  
 [Como comprar o Power BI Premium](service-admin-premium-purchase.md)  
 [Documento técnico do Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
-[Gerir o seu grupo no Power BI e no Office 365](../collaborate-share/service-manage-app-workspace-in-power-bi-and-office-365.md)  
-[Gestão de contas de utilizador do Office 365](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
-[Gestão de grupos do Office 365](/office365/admin/email/create-edit-or-delete-a-security-group/)  
+[Gerir o seu grupo no Power BI e no Microsoft 365](../collaborate-share/service-manage-app-workspace-in-power-bi-and-office-365.md)  
+[Gestão de conta escolar ou profissional](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
+[Gestão de grupos do Microsoft 365](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

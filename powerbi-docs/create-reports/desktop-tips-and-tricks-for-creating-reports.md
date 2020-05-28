@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: f66e564091c30e11604d0ab3fe58ba1f93addb28
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e7e7c0f8df0f41d673920cf4af596ca33d46519c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349109"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564581"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugestões e truques para criar relatórios no Power BI Desktop
 Para aproveitar ao máximo os seus dados, por vezes precisa de uma ajuda extra. Reunimos algumas dicas e truques que pode usar ao criar relatórios no Microsoft Power BI Desktop *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento do Power Pivot ativado e o Power Query instalado e ativado. 
@@ -92,7 +92,7 @@ Inicie o processo ao utilizar a opção "Referência" na consulta que contém o 
 >[!NOTE]
 >É bastante útil pensar sobre a ordem de classificação antes de criar qualquer elemento visual. 
 
-O passo seguinte do processo é definir uma relação entre as consultas "Registos" e "Detalhes" na coluna de registos. No Power BI Desktop, clique em **Gerir Relações** na faixa de opções. Crie uma relação em que Registos está na tabela esquerda e Detalhes na tabela direita e selecione o campo que está a utilizar para o histograma. 
+O passo seguinte do processo é definir uma relação entre as consultas "Registos" e "Detalhes" na coluna de registos. No Power BI Desktop, clique em **Gerir Relações** na faixa de opções. Crie uma relação onde os Grupos estão na tabela esquerda e os Detalhes na tabela direita e selecione o campo que está a utilizar para o histograma. 
 
 O último passo é criar o histograma. Arraste o campo Registo da tabela "Registos". Remova o campo predefinido do gráfico de colunas resultante. Agora, na tabela "Detalhes", arraste o campo de histograma para o mesmo elemento visual. No painel do campo, altere a agregação predefinida para Contar. O resultado é o histograma. Se criar outro elemento visual como um treemap a partir da tabela Detalhes, selecione um ponto de dados no treemap para ver o histograma realçado e mostrá-lo para o ponto de dados selecionado em relação à tendência de todo o conjunto de dados.
 
@@ -112,7 +112,7 @@ Vejamos um exemplo:
 
 Se carregarmos conjuntos de dados a partir de pedidos de suporte ao cliente ativos e outro conjunto de dados de itens de trabalho com os seguintes esquemas:
 
-> CustomerInicdents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName } 
+> CustomerIncidents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName } 
 > 
 > 
 
@@ -158,7 +158,7 @@ DAX é a linguagem de fórmula de cálculo no Power BI Desktop. Está otimizado 
 
 [Aprender as Noções Básicas do DAX no Power BI Desktop](../transform-model/desktop-quickstart-learn-dax-basics.md)
 
-[Referência do DAX (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
+[Referência do DAX (Data Analysis Expressions)](/dax/)
 
 [Central de Recursos do DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 

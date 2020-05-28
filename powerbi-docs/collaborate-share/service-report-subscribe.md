@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/10/2020
+ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9ee04211c44fb342e4baf904bcfa73bab489a1ba
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f057395361840b7b16fa8a7cde5a6d2513196845
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273644"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438229"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Subscrever relatórios e dashboards no serviço Power BI para si e para outras pessoas
 
@@ -105,12 +105,13 @@ Os administradores do Power BI podem utilizar os registos de auditoria do Power 
 
 ### <a name="general"></a>Geral
 
-- Em ocasiões raras, as subscrições de e-mail poderão demorar mais de 15 minutos a serem entregues aos destinatários. Se for o caso, recomendamos que execute a atualização de dados e a subscrição de e-mail separadamente para assegurar uma entrega atempada. Se o problema persistir, contacte o suporte do Power BI.
-- Para evitar que os e-mails da subscrição vão para a pasta de spam, adicione o alias de e-mail do Power BI ([no-reply-powerbi@microsoft.com](mailto:no-reply-powerbi@microsoft.com)) aos contactos. Se estiver a utilizar o Microsoft Outlook, clique com o botão direito do rato no alias e selecione **Adicionar aos contactos do Outlook**.
+- Tal como outros produtos de BI, o período que definiu para a sua subscrição começa quando é iniciado o processamento da mesma.  Quando o processamento de relatório é concluído, a subscrição é colocada em fila e é enviada para os destinatários de e-mail.  Esforçamo-nos por processar e entregar as subscrições o mais rapidamente possível. No entanto, quando a procura for mais elevada, por vezes poderá observar um atraso maior devido ao número de subscrições que o Power BI consegue enviar de cada vez. A maioria dos clientes poderá observar um atraso não superior a 15 minutos no processamento e envio dos relatórios. Em determinadas alturas e para inquilinos com uma utilização especialmente elevada, poderá demorar até 30 minutos.  Nunca esperamos que os eventuais atrasos na entrega ultrapassem os 60 minutos, a partir do momento em que a subscrição é agendada.  Se observar um atraso assim tão grande, primeiro certifique-se de que o endereço `no-reply-powerbi@microsoft.com` se encontra na lista de permissões do seu fornecedor de e-mail.  Se assim for, contacte o suporte do Power BI para obter assistência.
 - Atualmente, as subscrições por e-mail para relatórios e dashboards que utilizem conjuntos de dados com ligações em tempo real só são suportadas ao subscrever utilizadores que não o próprio, exceto para relatórios paginados. Pode subscrever outras pessoas num relatório paginado, com o seu contexto de segurança. Saiba mais sobre como [subscrever os relatórios paginados](../consumer/paginated-reports-subscriptions.md).
 - O Power BI interrompe automaticamente a atualização nos conjuntos de dados associados a dashboards e relatórios que não tenham sido acedidos durante mais de dois meses. No entanto, se adicionar uma subscrição a um dashboard ou relatório, este não será interrompido, mesmo se não for acedido.
 - Se não estiver a receber os e-mails de subscrição, certifique-se de que o Nome Principal de Utilizador (UPN) pode receber e-mails.
 - Se o dashboard ou relatório estiver em capacidade Premium, pode utilizar aliases de e-mail de grupo para subscrições, em vez de subscrever colegas individualmente através dos endereços de e-mail. Os aliases são baseados no Active Directory atual.
+- Se os seus conteúdos não se encontrarem numa capacidade Premium, apenas os utilizadores do Power BI Pro poderão receber subscrições por e-mail. 
+- Atualmente, as subscrições não suportam a utilização de marcadores.
 
 ### <a name="dashboards"></a>Dashboards
 
@@ -118,7 +119,7 @@ Os administradores do Power BI podem utilizar os registos de auditoria do Power 
 - Em ocasiões raras, as subscrições de e-mail poderão demorar mais de 15 minutos a serem entregues aos destinatários. Se for o caso, recomendamos que execute a atualização de dados e a subscrição de e-mail separadamente para assegurar uma entrega atempada. Se o problema persistir, contacte o suporte do Power BI.
 - Para subscrições de e-mail do dashboard, se um mosaico tiver segurança ao nível da linha (RLS) aplicada, o mesmo não será apresentado.
 - Para subscrições de dashboards, determinados tipos de mosaicos ainda não são suportados. Estes incluem: transmissão em fluxo de mosaicos, mosaicos de vídeos e mosaicos de conteúdo Web personalizados.
-- Se partilhar um dashboard com um colega fora do seu inquilino, também não poderá criar uma subscrição para esse colega, *a não ser que* o dashboard esteja numa aplicação ou área de trabalho Premium. Por isso, se for aaron@contoso.com, poderá partilhar com anyone@fabrikam.com, mas ainda não poderá subscrever anyone@fabrikam.com e o mesmo não poderá subscrever o conteúdo partilhado.
+- Se partilhar um dashboard com um colega fora do seu inquilino, também não poderá criar uma subscrição para esse colega, *a não ser que* o dashboard esteja numa aplicação ou área de trabalho Premium. Por isso, se for `aaron@contoso.com`, poderá partilhar com `anyone@fabrikam.com`, mas ainda não poderá subscrever `anyone@fabrikam.com` e o mesmo não poderá subscrever o conteúdo partilhado.
 
 ### <a name="reports"></a>Relatórios
 

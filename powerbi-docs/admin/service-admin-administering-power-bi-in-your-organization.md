@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9e9ed930cc557250a9e1702d6010536ed069cd7b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: afa8513267be4ec2de18a9adda7995c88f4f2aa8
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129525"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438045"
 ---
 # <a name="what-is-power-bi-administration"></a>O que é a administração do Power BI?
 
@@ -36,17 +36,17 @@ Existem várias funções relacionadas com a administração do Power BI, abord
 
 | **Tipo de administrator** | **Âmbito administrativo** | **Âmbito do Power BI** |
 | --- | --- | --- |
-| Administrador Global do Office 365 | Office 365 | Pode gerir todos os aspetos de um inquilino do Power BI e outros serviços. |
-| Administrador de Faturação do Office 365 | Office 365 | Pode adquirir licenças do Power BI através de subscrições do Office 365. |
+| Administrador Global | Microsoft 365 | Pode gerir todos os aspetos de um inquilino do Power BI e outros serviços. |
+| Administrador de Faturação | Microsoft 365 | Pode adquirir licenças do Power BI através de subscrições do Office 365. |
 | Administrador do Serviço Power BI | Inquilino do Power BI | Tem controlo total sobre um inquilino do Power BI e as funcionalidades administrativas (exceto para licenciamento). |
 | Administrador de Capacidade do Power BI Premium | Uma capacidade Premium única | Tem controlo total sobre uma capacidade Premium e as funcionalidades administrativas. |
 | Administrador de Capacidade do Power BI Embedded | Uma capacidade Embedded única | Tem controlo total sobre uma capacidade Embedded e as funcionalidades administrativas. |
 
-Os administradores Globais no Office 365 ou no Azure Active Directory têm direitos de administrador no Power BI. Um Administrador Global do Office 365 pode atribuir outros utilizadores para a função de Administrador de Serviço Power BI, o que concede direitos administrativos através apenas para funcionalidades do Power BI.
+Os administradores Globais no Microsoft 365 ou no Azure Active Directory têm direitos de administrador no Power BI. Um Administrador Global do Microsoft 365 pode atribuir a função de Administrador de Serviço do Power BI a outros utilizadores, o que concede direitos administrativos apenas nas funcionalidades do Power BI.
 
 Os Administradores de Serviço Power BI têm acesso ao portal de administração do Power BI, que inclui várias definições ao nível do inquilino relativamente a funcionalidades, segurança e monitorização. Os Administradores de Serviço têm acesso total a todos os recursos de um inquilino do Power BI. Na maioria dos casos, os Administradores de Serviço identificam problemas e, em seguida, acompanham os proprietários dos recursos para tomar medidas corretivas.
 
-A função de Administrador de Serviço do Power BI não concede a capacidade de atribuir licenças a utilizadores ou visualizar registos de auditoria no Office 365. Por conseguinte, a tarefa de administrar o Power BI não pode de momento ser realizada pelos utilizadores que sejam apenas os membros da função de Administrador de Serviço do Power BI.
+A função Administrador de Serviço do Power BI não concede a capacidade de atribuir licenças a utilizadores ou ver registos de auditoria no Microsoft 365. Por conseguinte, a tarefa de administrar o Power BI não pode de momento ser realizada pelos utilizadores que sejam apenas os membros da função de Administrador de Serviço do Power BI.
 
 ## <a name="administrative-tasks"></a>Tarefas administrativas
 

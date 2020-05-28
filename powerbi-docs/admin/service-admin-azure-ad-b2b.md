@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 09b2f8afd78eda244a6862459a85558efa0fa1c2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 25b136bfa15b00333400b80781d968d0b40d9779
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129217"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564501"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure AD B2B
 
@@ -130,7 +130,7 @@ Para ajudar os utilizadores convidados a iniciar sessão no Power BI, forneça-l
 * Algumas experiências não estão disponíveis para os [utilizadores convidados que podem editar e gerir conteúdos na organização](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization). Para atualizar ou publicar relatórios, precisam de utilizar a IU da Web do serviço Power BI, incluindo Obter Dados para carregar ficheiros do Power BI Desktop.  As seguintes experiências não são suportadas:
     * A publicação direta do Power BI Desktop para o serviço Power BI
     * Os utilizadores convidados não podem utilizar o Power BI Desktop para ligar a conjuntos de dados de serviço no serviço Power BI
-    * Áreas de trabalho clássicas associadas a Grupos do Office 365:
+    * Áreas de trabalho clássicas associadas a Grupos do Microsoft 365:
         * O utilizador convidado não pode criar ou ter a função de Administrador destas áreas de trabalho
         * Os utilizadores convidados podem ser membros
     * O envio de convites ad hoc não é suportado para listas de acesso de áreas de trabalho

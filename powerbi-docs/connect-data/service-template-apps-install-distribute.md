@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 05/04/2020
+ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: 762d88789bb68777886a126589802b9e8d854879
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347453"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693000"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Instalar e distribuir aplicações de modelo na sua organização
 
@@ -59,11 +59,19 @@ Para instalar, personalizar e distribuir uma aplicação de modelo, precisa do s
 
 ## <a name="connect-to-data"></a>Ligar-se a dados
 
-1. Selecione **Ir para a aplicação**. A janela **Comece já com a sua nova aplicação**  é apresentada.
+1. Selecione **Ir para a aplicação**.
 
-   ![Comece já com a sua aplicação](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+1. Na janela **Comece já com a sua nova aplicação** , selecione **Explorar**.
 
-1. Clique em **Ligar**.
+   ![Ecrã inicial da aplicação de modelo](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+
+   A aplicação é aberta e apresenta dados de exemplo.
+
+1. Selecione a ligação **Ligar os dados** na faixa na parte superior da página.
+
+   ![Ligação Ligar os seus dados da aplicação GitHub](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
+
+
     
     Esta ação abre uma caixa de diálogo ou um conjunto de caixas de diálogo onde pode alterar a origem de dados dos dados de exemplo para a sua própria origem de dados. De forma geral, isto significa redefinir os parâmetros do conjunto de dados e as credenciais da origem de dados. Veja [Limitações conhecidas](service-template-apps-overview.md#known-limitations).
     
@@ -71,19 +79,20 @@ Para instalar, personalizar e distribuir uma aplicação de modelo, precisa do s
 
    ![Ligar a caixas de diálogo de dados](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
-    Quando terminar o preenchimento das caixas de diálogo de ligação, o processo de ligação é iniciado. Uma faixa informa-o de que está a ver dados de exemplo.
+    Quando terminar o preenchimento das caixas de diálogo de ligação, o processo de ligação é iniciado. Uma faixa informa-o de que os dados estão a ser atualizados e de que entretanto está a ver dados de exemplo.
 
     ![Ver dados de exemplo](media/service-template-apps-install-distribute/power-bi-template-app-viewing-sample-data.png)
 
-    Aguarde até que a ligação e a atualização dos dados sejam concluídas. Para saber quando este processo foi concluído, veja o indicador de progresso na linha (novo aspeto) ou no separador (aspeto antigo) do conjunto de dados.
-
-   Quando a ligação e a atualização dos dados forem concluídas, atualize o seu browser. A faixa informa-o agora de que é necessário atualizar a aplicação para aplicar as alterações efetuadas à aplicação e para partilhá-la.
-
-    ![Personalizar e partilhar a aplicação](media/service-template-apps-install-distribute/power-bi-template-app-customize-share.png)
+   Os dados de relatório serão atualizados automaticamente uma vez por dia, a não ser que desative esta funcionalidade durante o processo de início de sessão. Também pode [configurar uma agenda de atualização personalizada](./refresh-scheduled-refresh.md) para manter os dados do relatório atualizados da forma que preferir.
 
 ## <a name="customize-and-share-the-app"></a>Personalizar e partilhar a aplicação
 
-Depois de atualizar o browser após a ligação aos dados e a atualização dos mesmos serem concluídas, verá a área de trabalho que está associada à aplicação. Nesta altura, pode editar qualquer um dos artefactos, tal como faria em qualquer outra área de trabalho. No entanto, lembre-se de que as alterações que fizer serão substituídas quando atualizar a aplicação com uma nova versão, a menos que guarde os itens alterados com nomes diferentes. [Veja detalhes sobre a substituição](#overwrite-behavior).
+Depois de concluir a ligação e atualização dos dados, pode personalizar qualquer um dos relatórios e dashboards que a aplicação inclui, além de partilhar a aplicação com os seus colegas. No entanto, lembre-se de que as alterações que fizer serão substituídas quando atualizar a aplicação com uma nova versão, a menos que guarde os itens alterados com nomes diferentes. [Veja detalhes sobre a substituição](#overwrite-behavior).
+
+Para personalizar e partilhar a sua aplicação, selecione o ícone de lápis no canto superior direito da página.
+
+![Editar aplicação](media/service-template-apps-install-distribute/power-bi-template-app-edit-app.png)
+
 
 Para obter mais informações sobre a edição de artefactos na área de trabalho, veja
 * [Apresentação do editor de relatórios no Power BI](../create-reports/service-the-report-editor-take-a-tour.md)
@@ -132,4 +141,4 @@ Se transferiu originalmente a aplicação do AppSource, quando for disponibiliza
 
 ## <a name="next-steps"></a>Próximos passos
 
-[Criar áreas de trabalho com os seus colegas no Power BI](../collaborate-share/service-create-workspaces.md)
+[Criar áreas de trabalho com os seus colegas no Power BI](../collaborate-share/service-create-the-new-workspaces.md)

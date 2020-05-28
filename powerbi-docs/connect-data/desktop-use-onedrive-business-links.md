@@ -1,6 +1,6 @@
 ---
-title: Use OneDrive for Business links in Power BI Desktop (Utilizar ligações do OneDrive para Empresas no Power BI Desktop)
-description: Use OneDrive for Business links in Power BI Desktop (Utilizar ligações do OneDrive para Empresas no Power BI Desktop)
+title: Utilizar ligações do OneDrive for Business no Power BI Desktop
+description: Utilizar ligações do OneDrive for Business no Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 706703985242284725fb4fc2d42bf46e54c605c7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e5effe6f397dd53fe6347708774118e9c491abc1
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285814"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564156"
 ---
-# <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Use OneDrive for Business links in Power BI Desktop (Utilizar ligações do OneDrive para Empresas no Power BI Desktop)
+# <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Utilizar ligações do OneDrive for Business no Power BI Desktop
 Muitas pessoas têm livros do Excel armazenados no OneDrive para Empresas que seriam adequados para utilização com o Power BI Desktop. No Power BI Desktop, pode utilizar ligações online para ficheiros do Excel armazenados no OneDrive para Empresas para criar relatórios e elementos visuais. Pode utilizar uma conta de grupo do OneDrive para Empresas ou a sua conta individual do OneDrive para Empresas.
 
 Obter uma ligação online do OneDrive para Empresas requer passos específicos. As seguintes secções explicam esses passos, que lhe permitem partilhar a ligação para o ficheiro em grupos, em diferentes computadores e com os seus colegas.
@@ -44,7 +44,7 @@ No Power BI Desktop, pode utilizar a ligação que copiou para a área de transf
 3. Remova a cadeia *?web=1* no fim da ligação para que o Power BI Desktop consiga navegar até ao seu ficheiro e, em seguida, selecione **OK**.
    
     ![](media/desktop-use-onedrive-business-links/power-bi-web-link-confirmation.png) 
-4. Se o Power BI Desktop lhe pedir credenciais, selecione **Windows** (para sites do SharePoint no local) ou **Conta Organizacional** (para sites do Office 365 ou OneDrive para Empresas).
+4. Se o Power BI Desktop lhe pedir credenciais, selecione **Windows** (para sites do SharePoint no local) ou **Conta Organizacional** (para sites do Microsoft 365 ou OneDrive para Empresas).
    
    ![](media/desktop-use-onedrive-business-links/odb-links_06.png)
 

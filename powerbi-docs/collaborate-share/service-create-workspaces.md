@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d70b291b4ff2b157c15967d602cfbee8e12965a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1d37225e1de1ffdf0617a84c3b0514d32494c563
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144294"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693945"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Criar áreas de trabalho clássicas no Power BI
 
@@ -22,30 +22,30 @@ No Power BI, pode criar *áreas de trabalho*, ou seja, locais onde pode colabora
 
 **Sabia que?** O Power BI oferece uma nova experiência de áreas de trabalho, que é agora a predefinição. Para obter detalhes sobre as novas áreas de trabalho, leia [Organize work in the new workspaces](service-new-workspaces.md) (Organizar o seu trabalho nas novas áreas de trabalho). Pronto para migrar a sua área de trabalho clássica? Veja [Atualizar as áreas de trabalho clássicas para as novas áreas de trabalho no Power BI](service-upgrade-workspaces.md) para obter detalhes.
 
-Ao criar uma área de trabalho clássica, está também a criar um grupo subjacente associado ao Office 365. Todas as tarefas de administração da área de trabalho são efetuadas no Office 365. Pode adicionar colegas a estas áreas de trabalho como membros ou administradores. Na área de trabalho, todos podem colaborar nos dashboards, relatórios e outros artigos que planeiam publicar para um público mais vasto. Todas as pessoas que adicionar à área de trabalho precisam de ter uma licença do Power BI Pro. 
+Ao criar uma área de trabalho clássica, está também a criar um grupo subjacente associado ao Microsoft 365. Todas as tarefas de administração da área de trabalho são realizadas no Microsoft 365. Pode adicionar colegas a estas áreas de trabalho como membros ou administradores. Na área de trabalho, todos podem colaborar nos dashboards, relatórios e outros artigos que planeiam publicar para um público mais vasto. Todas as pessoas que adicionar à área de trabalho precisam de ter uma licença do Power BI Pro.
 
 ## <a name="video-apps-and-workspaces"></a>Vídeo: Aplicações e áreas de trabalho
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-a-classic-workspace-based-on-an-office-365-group"></a>Criar uma área de trabalho clássica baseada num grupo do Office 365
+## <a name="create-a-classic-workspace-based-on-a-microsoft-365-group"></a>Criar uma área de trabalho clássica baseada num grupo do Microsoft 365
 
-Quando cria uma área de trabalho, esta é criada com base num grupo do Office 365.
+Quando cria uma área de trabalho, esta é criada com base num grupo do Microsoft 365.
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
 
-Ao criá-la pela primeira vez, poderá ter de aguardar aproximadamente uma hora para a área de trabalho ser propagada para o Office 365. 
+Ao criá-la pela primeira vez, poderá ter de aguardar aproximadamente uma hora para a área de trabalho ser propagada para o Microsoft 365.
 
-### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Adicionar uma imagem à área de trabalho do Office 365 (opcional)
+### <a name="add-an-image-to-your-microsoft-365-workspace-optional"></a>Adicionar uma imagem à área de trabalho do Microsoft 365 (opcional)
 Por predefinição, o Power BI cria um círculo ligeiramente colorido para a aplicação, com as iniciais da aplicação. Mas talvez o queira personalizar com uma imagem. Para adicionar uma imagem, precisa de uma licença do Exchange Online.
 
 1. Selecione **Áreas de trabalho**, selecione **Mais opções** (…) junto ao nome da área de trabalho e, em seguida, **Membros**. 
    
      ![Selecionar Membros da Área de Trabalho](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
-    A conta do Office 365 Outlook para a área de trabalho é aberta numa nova janela do browser.
+    A conta do Outlook do Microsoft 365 para a área de trabalho é aberta numa nova janela do browser.
 2. Selecione o lápis **Editar**.
    
-     ![Ícone de lápis do Office 365](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
+     ![Ícone de lápis do Microsoft 365](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
 3. Selecione a imagem da câmera e localize a imagem que quer utilizar.
    
      ![Selecionar a imagem da câmera](media/service-create-workspaces/power-bi-workspace-old-camera.png)
@@ -54,7 +54,7 @@ Por predefinição, o Power BI cria um círculo ligeiramente colorido para a apl
 
 4. Selecione **OK** e, em seguida, **Guardar**.
    
-    A imagem substitui o círculo colorido na janela do Office 365 Outlook. 
+    A imagem substitui o círculo colorido na janela do Outlook do Microsoft 365.
    
      ![Imagem personalizada](media/service-create-workspaces/power-bi-workspace-old-new-image.png)
    
