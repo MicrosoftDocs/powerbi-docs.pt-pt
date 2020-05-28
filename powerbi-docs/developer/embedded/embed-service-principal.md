@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275967"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121196"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Incorporar conteúdos do Power BI com o principal de serviço e o segredo da aplicação
 
@@ -188,7 +188,6 @@ Uma vez incorporados os conteúdos, está pronto para [avançar para a produçã
 * É necessária capacidade dedicada quando avançar para a produção.
 * Não pode iniciar sessão no portal do Power BI com o principal de serviço.
 * São necessários direitos de administrador do Power BI para ativar o principal de serviço nas definições de programador no portal de administração do Power BI.
-* Não pode instalar ou gerir um gateway de dados no local com o principal de serviço.
 * As aplicações [Incorporar para a sua organização](embed-sample-for-your-organization.md) não podem utilizar o principal de serviço.
 * A gestão de [fluxos de dados](../../transform-model/service-dataflows-overview.md) não é suportada.
 * O principal de serviço atualmente não suporta APIs de administração.
