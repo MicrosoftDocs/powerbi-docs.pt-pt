@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584985"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565632"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Relatórios paginados no Power BI: PERGUNTAS FREQUENTES 
 
@@ -41,7 +41,7 @@ O administrador de capacidade pode ativar ou desativar a carga de trabalho dos r
 
 ### <a name="how-can-i-monitor-usage-of-paginated-reports-in-my-tenant"></a>Como posso monitorizar a utilização dos relatórios paginados no meu inquilino?
 
-Os registos de auditoria do Office 365 detalham a utilização deste tipo de relatório nos eventos seguintes: 
+Os registos de auditoria detalham a utilização deste tipo de relatório nos eventos seguintes:
 
 - Visualizar Relatório do Power BI
 - Eliminar relatório do Power BI
@@ -152,7 +152,7 @@ Sim, suportamos a capacidade de executar código nos seus relatórios, tal como 
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Posso utilizar o Power BI incorporado para incorporar os meus relatórios paginados numa aplicação que estou a alojar?
 
-A incorporação SaaS, incluindo o suporte para a Incorporação Segura, já está disponível. Relativamente à incorporação de PaaS, veja o tutorial [Embed Power BI paginated reports into an application for your customers](../developer/embed-paginated-reports-customers.md) (Incorporar relatórios paginados do Power BI numa aplicação para os seus clientes).
+A incorporação SaaS, incluindo o suporte para a Incorporação Segura, já está disponível. Relativamente à incorporação de PaaS, veja o tutorial [Embed Power BI paginated reports into an application for your customers](../developer/embedded/embed-paginated-reports-customers.md) (Incorporar relatórios paginados do Power BI numa aplicação para os seus clientes).
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Posso pormenorizar de um relatório do Power BI para um relatório paginado?
 

@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
-ms.openlocfilehash: 0a0964f82c80017b53feb668cca8399b18a72cfc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8d7642dfbac40b3a31190bc02835a4132ee12e11
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268518"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564075"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>Catálogo de aprendizagem para Consultores de Aplicações Funcionais
 
@@ -82,7 +82,7 @@ Para consultores funcionais, a nossa investigação de análise de tarefas mostr
 | [Better Together: 5 Benefits Excel Users Will Get From Using Power BI](https://info.microsoft.com/excel-powerbi-better-together-ondemand.html) (Melhor em Conjunto: Cinco Vantagens que os Utilizadores do Excel Terão com a Utilização do Power BI)  | O Excel é um dos programas mais populares do mundo. Há milhões de pessoas e empresas que utilizam o Excel para tudo, desde uma simples introdução de dados e contabilidade até estatísticas e análises de dados mais avançadas. No entanto, muitas pessoas não se apercebem que podem aumentar drasticamente a funcionalidade do Excel (assim como poupar tempo e aumentar a eficiência) quando o emparelham com outro programa da Microsoft: Power BI. Vamos explorar cinco razões diferentes pelas quais o utilizador e a sua empresa podem beneficiar da utilização conjunta do Excel e do Power BI. No final, deverá ter todo o conhecimento necessário para iniciar a capacidade da sua organização de analisar, interpretar e capitalizar os seus dados. | Webinar |   |
 | [Beyond the Spreadsheet](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_02OnDemandRegistration-ForminBody.html) (Para além da Folha de cálculo)  | Convocamos todos os utilizadores e analistas de Excel: trabalhem de forma mais inteligente, ofereçam mais valor e concentrem-se no que é importante. Saiba como fazer relatórios apelativos que as pessoas querem utilizar, partilhar dados visualmente de uma forma que os colegas possam compreender sem qualquer explicação e tornar os conhecimentos acessíveis a todos os que precisam de compreender a informação, onde quer que estejam. Veja o Microsoft Power BI em ação nesta sessão online.  | Webinar |   |
 | [Elaborar as informações corretas com o Power BI e o Visio](https://info.microsoft.com/ww-ondemand-powerbi-and-visio.html) | Junte-se a nós este webinar para saber como combinar dashboards do Power BI e diagramas do Microsoft Visio para criar informações visuais cativantes. O Visio e o Power BI são altamente visuais e complementam-se naturalmente. O Visio permite-lhe criar diagramas ilustrativos, tais como fluxos de trabalho interligados e esquemas do mundo real. O Power BI ajuda-o a criar dashboards intuitivos com gráficos e mapas para medir os indicadores chave de desempenho e controlar os objetivos.| Webinar |   |
-| [Power BI, Excel and Office 365: Optimize Your Enterprise Data](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website) (Power BI, Excel e Office 365: Otimizar os Dados Empresariais)  | Nesta sessão de demonstração, fique a saber como utilizar a força única do Microsoft Excel no Power BI para melhorar as suas análises e informações empresariais.  | Webinar |   |
+| [Power BI, Excel, and Microsoft 365: Optimize Your Enterprise Data](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website) (Power BI, Excel e Office 365: Otimizar os Dados Empresariais)  | Nesta sessão de demonstração, fique a saber como utilizar a força única do Microsoft Excel no Power BI para melhorar as suas análises e informações empresariais.  | Webinar |   |
 | [Utilizar o Power BI com Finanças e Operações do Dynamics 365](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations-OnDemand.html)   | Inscreva-se neste webinar para saber como as soluções de relatórios do Power BI podem ser integradas e geridas no Dynamics 365 Finance and Operations através do Azure Data Lake. Descubra como fornecer rapidamente informações acionáveis sem interrupção de serviço e partilhar soluções de análise para a empresa através do Power BI.  | Webinar |   |
 ## <a name="security"></a>Segurança<a name="security"></a>
 | Conteúdo   | Descrição  | Formatar   | Comprimento   |

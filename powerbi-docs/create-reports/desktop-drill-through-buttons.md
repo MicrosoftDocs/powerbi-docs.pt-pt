@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 05/19/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d3cb3c8093446d4417a59c5f64ab6b85a765e3c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 562e011bf280930fdcaf19cc87edc97b2bec131b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301523"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694048"
 ---
-# <a name="create-a-drill-through-button-in-power-bi-preview"></a>Criar um botão de exploração no Power BI (pré-visualização)
+# <a name="create-a-drill-through-button-in-power-bi"></a>Criar um botão de exploração no Power BI
 
-Quando cria um botão no Power BI, pode selecionar a ação **Explorar (Pré-visualização)** . Este tipo de ação cria um botão que explora uma página em destaque para obter detalhes filtrados para um contexto específico.
+Quando cria um botão no Power BI, pode selecionar a ação **Explorar**. Este tipo de ação cria um botão que explora uma página em destaque para obter detalhes filtrados para um contexto específico.
 
 Um botão de exploração pode ser útil se quiser aumentar a capacidade de deteção de cenários de exploração importantes nos seus relatórios.
 
@@ -107,7 +107,7 @@ Neste exemplo, o botão está inativo porque os dois elementos visuais contêm u
 - A formatação de estado desativada para o botão está associada às classes de cores no tema do seu relatório. Saiba mais sobre as [classes de cores](desktop-report-themes.md#setting-structural-colors).
 - A ação de exploração funciona com todos os elementos visuais incorporados e *alguns* elementos visuais importados do AppSource. No entanto, não é garantido que funcione com *todos* os elementos visuais importados do AppSource.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre funcionalidades semelhantes ou como interagir com botões, veja os artigos seguintes:
 
 * [Criar botões](desktop-buttons.md)
