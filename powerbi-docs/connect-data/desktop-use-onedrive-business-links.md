@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5effe6f397dd53fe6347708774118e9c491abc1
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 71acc85ecd74b2606d00c4e3b63b6f7532c9487c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564156"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120004"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Utilizar ligações do OneDrive for Business no Power BI Desktop
 Muitas pessoas têm livros do Excel armazenados no OneDrive para Empresas que seriam adequados para utilização com o Power BI Desktop. No Power BI Desktop, pode utilizar ligações online para ficheiros do Excel armazenados no OneDrive para Empresas para criar relatórios e elementos visuais. Pode utilizar uma conta de grupo do OneDrive para Empresas ou a sua conta individual do OneDrive para Empresas.
@@ -26,11 +26,10 @@ Obter uma ligação online do OneDrive para Empresas requer passos específicos.
    
    > [!NOTE]
    > A sua interface de browser pode não ter um aspeto exatamente igual à imagem seguinte. Existem diversas formas de selecionar **Abrir no Excel** para ficheiros na sua interface de browser do OneDrive para Empresas. Pode utilizar qualquer opção que lhe permita abrir o ficheiro no Excel.
-   > 
-   > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. No Excel, selecione **Ficheiro** > **Informações** e, em seguida, selecione **Copiar caminho** acima de **Proteger o Livro**.
+
+2. No Excel, selecione **Ficheiro** > **Informações** e, em seguida, selecione o botão **Copiar caminho**, conforme mostrado na imagem seguinte.
    
    ![](media/desktop-use-onedrive-business-links/onedrive-copy-path.png)
 

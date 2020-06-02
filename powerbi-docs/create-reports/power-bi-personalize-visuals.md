@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2020
+ms.date: 05/21/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: ab232d4e5b6d17e7f20ed8a41875ca47693eb285
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: 27f71da8a8396de30254c1a02307aa48281db5a8
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407598"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793610"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Permitir que os utilizadores personalizem elementos visuais num relatório
 
@@ -85,13 +85,13 @@ Deslize a opção **Personalizar elemento visual** para a posição  >  **Ativad
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Deslizar a opção Personalizar elemento visual para a posição ativado ou desativado":::
 
 
-## <a name="limitations-and-known-issues"></a>Problemas e limitações conhecidos
+## <a name="limitations-and-known-issues"></a>Limitações e problemas conhecidos
 
 Atualmente, a funcionalidade tem algumas limitações que devem ser tidas em conta.
 
 - Esta funcionalidade não é suportada em cenários de incorporação, incluindo publicar na Web.
 - As explorações de utilizadores não persistem automaticamente. Tem de guardar a sua vista como um marcador pessoal para capturar as alterações.
-- Não pode alterar elementos visuais enquanto está nas aplicações móveis do Power BI. No entanto, todas as alterações a elementos visuais que guardar num marcador pessoal enquanto está no serviço Power BI serão respeitadas nas aplicações móveis.
+- Esta funcionalidade é suportada nas aplicações móveis do Power BI para tablets iOS e Android e na aplicação Windows do Power BI; não é suportada nas aplicações móveis do Power BI para telemóveis. No entanto, qualquer alteração a um elemento visual que guardar num marcador pessoal enquanto está no serviço Power BI vai ser respeitada em todas as aplicações móveis do Power BI.
 
 Também existem problemas conhecidos que estamos a resolver:
 
@@ -99,10 +99,10 @@ Também existem problemas conhecidos que estamos a resolver:
 - Não pode alterar uma hierarquia de data para uma data ou vice-versa. 
 - Com os marcadores pessoais, poderá obter resultados ligeiramente diferentes consoante a sequência que selecionar. É possível que haja discrepâncias, porque não capturamos o estado completo do relatório, apenas as modificações efetuadas. Para contornar esta situação, selecione **Repor para predefinição** e, em seguida, selecione o marcador que pretende ver. 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 [Personalizar os elementos visuais nos seus relatórios](../consumer/end-user-personalize-visuals.md).     
 
 Experimente a nova experiência de personalização de elementos visuais. Envie-nos os seus comentários sobre esta funcionalidade e indique-nos como a podemos continuar a melhorar no [site Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi). 
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
+Mais perguntas? [Tente a Comunidade do Power BI](https://community.powerbi.com/)

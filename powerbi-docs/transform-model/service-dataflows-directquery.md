@@ -1,28 +1,28 @@
 ---
-title: Utilizar o DirectQuery com fluxos de dados no Power BI (pré-visualização)
+title: Use DirectQuery with dataflows in Power BI (preview) (Utilizar o DirectQuery com fluxos de dados no Power BI [pré-visualização])
 description: Saiba como utilizar o DirectQuery com fluxos de dados no Power BI
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/19/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9de8c9611b24eaa627b3ddf044f13d36d7b9a3d4
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 469b8b13f77c56f9371ae8c1c81dcb94278c62e0
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83694579"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794002"
 ---
-# <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>Utilizar o DirectQuery com fluxos de dados no Power BI (pré-visualização)
+# <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>Use DirectQuery with dataflows in Power BI (preview) (Utilizar o DirectQuery com fluxos de dados no Power BI [pré-visualização])
 
 Pode utilizar o DirectQuery para ligar diretamente a fluxos de dados e, assim, ligar diretamente ao seu fluxo de dados sem ter de importar os respetivos dados. 
 
 Utilizar o DirectQuery com fluxos de dados permite as seguintes melhorias aos seus processos do Power BI e fluxos de dados:
 
-* **Evitar as agendas de atualização em separado** – o DirectQuery liga diretamente a um fluxo de dados, não sendo necessário criar um conjunto de dados. Como tal, utilizar o DirectQuery com os seus fluxos de dados significa que já não precisa de separar as agendas de atualização para o fluxo de dados e o conjunto de dados para garantir que os seus dados estão sincronizados.
+* **Evitar as agendas de atualização em separado** – o DirectQuery liga diretamente a um fluxo de dados, não sendo necessário criar um conjunto de dados importado. Como tal, utilizar o DirectQuery com os seus fluxos de dados significa que já não precisa de separar as agendas de atualização para o fluxo de dados e o conjunto de dados para garantir que os seus dados estão sincronizados.
 
 * **Filtrar dados** – o DirectQuery é útil para trabalhar numa vista filtrada dos dados dentro de um fluxo de dados. Se quiser filtrar os dados e trabalhar com um subconjunto de dados mais pequeno no seu fluxo de dados, pode utilizar o DirectQuery (e o motor de computação) para filtrar os dados do fluxo de dados e trabalhar com o subconjunto filtrado de que precisa.
 
@@ -38,7 +38,7 @@ Também existem pré-requisitos para utilizar o DirectQuery com fluxos de dados:
 
 ## <a name="enable-directquery-for-dataflows"></a>Ativar o DirectQuery para fluxos de dados
 
-Para garantir que o seu fluxo de dados está disponível para acesso ao DirectQuery, o motor de computação avançado tem de estar no respetivo estado otimizado. Para ativar o DirectQuery para fluxos de dados, defina a nova opção **Definições do motor do computação avançado** para **Otimizado**. A seguinte imagem mostra a definição devidamente selecionada.
+Para garantir que o seu fluxo de dados está disponível para acesso ao DirectQuery, o motor de computação avançado tem de estar no respetivo estado otimizado. Para ativar o DirectQuery para fluxos de dados, defina a nova opção **Definições do motor de computação avançado** para **Ativado**. A seguinte imagem mostra a definição devidamente selecionada.
 
 ![Ativar o motor de computação avançado para os fluxos de dados](media/service-dataflows-directquery/dataflows-directquery-01.png)
 
@@ -50,10 +50,18 @@ Após aplicar essa definição, atualize o fluxo de dados para que a otimizaçã
 Existem algumas limitações conhecidas com o DirectQuery e os fluxos de dados, explicadas na lista seguinte.
 
 * O DirectQuery para fluxos de dados não funciona com a funcionalidade de **pré-visualização de metadados melhorados** ativada. Esta exclusão deverá ser removida num lançamento mensal futuro do Power BI Desktop.
+
 * Durante o período de pré-visualização desta funcionalidade, alguns clientes poderão ter problemas de desempenho ou com tempos limite ao utilizar o DirectQuery com fluxos de dados. Estes problemas estão a ser ativamente resolvidos durante este período de pré-visualização.
 
+* Atualmente, os modelos compostos/mistos com origens de dados de importação e do DirectQuery não são suportados.
 
-## <a name="next-steps"></a>Próximos passos
+* Os fluxos de dados grandes podem deparar-se com problemas de limite de tempo durante as visualizações. Prevê-se que esta limitação seja removida no âmbito da disponibilidade geral da funcionalidade. Entretanto, os fluxos de dados grandes que se deparem com problemas de limite de tempo devem utilizar o Modo de importação.
+
+* Nas definições da origem de dados, o conector de fluxos de dados mostrará credenciais inválidas se estiver a utilizar o DirectQuery. Esta situação não afeta o comportamento e o conjunto de dados irá funcionar corretamente. Este problema deixará de existir à medida que nos aproximarmos da disponibilidade geral.
+
+
+
+## <a name="next-steps"></a>Passos seguintes
 
 Os artigos seguintes são úteis para obter mais informações e cenários quando utilizar fluxos de dados:
 

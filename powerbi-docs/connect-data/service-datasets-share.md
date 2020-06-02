@@ -1,22 +1,22 @@
 ---
-title: Partilhar um conjunto de dados (pré-visualização)
+title: Partilhar um conjunto de dados
 description: Enquanto proprietário de conjuntos de dados, pode criar e partilhar os seus conjuntos de dados, para que outras pessoas possam utilizá-los. Saiba como os pode partilhar.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 4082647338adcca8518cc4d9c3a3b88cc3e04f4f
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565466"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794098"
 ---
-# <a name="share-a-dataset-preview"></a>Partilhar um conjunto de dados (pré-visualização)
+# <a name="share-a-dataset"></a>Partilhar um conjunto de dados
 
 Enquanto criador de *modelos de dados* no Power BI Desktop, está a criar *conjuntos de dados* que pode distribuir no serviço Power BI. Em seguida, outros criadores de relatórios podem utilizar os seus conjuntos de dados como base para os seus próprios relatórios. Neste artigo, ficará a saber como partilhar os conjuntos de dados. Para saber como conceder e remover acesso aos conjuntos de dados partilhados, leia sobre a [Permissão de compilação](service-datasets-build-permissions.md).
 
@@ -26,7 +26,7 @@ Enquanto criador de *modelos de dados* no Power BI Desktop, está a criar *con
 
     A melhor prática é guardar o ficheiro .pbix num grupo do Microsoft 365.
 
-1. Publique o ficheiro .pbix numa [nova experiência de área de trabalho](../collaborate-share/service-create-the-new-workspaces.md) no serviço Power BI.
+1. Publique o ficheiro .pbix numa [nova experiência de área de trabalho](../collaborate-share/service-create-the-new-workspaces.md) no serviço Power BI.
     
     Assim, outros membros desta área de trabalho poderão criar relatórios noutras áreas de trabalho, com base neste conjunto de dados.
 
@@ -51,7 +51,7 @@ Quando tiver um conjunto de dados partilhado na sua área de trabalho, poderá t
  
     ![Caixa de diálogo Conteúdo relacionado](media/service-datasets-build-permissions/power-bi-dataset-related-workspaces.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
-- [Use datasets across workspaces (Preview)](service-datasets-across-workspaces.md) (Utilizar conjuntos de dados em várias áreas de trabalho [Pré-visualização])
-- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- [Utilizar conjuntos de dados em áreas de trabalho](service-datasets-across-workspaces.md)
+- Tem dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

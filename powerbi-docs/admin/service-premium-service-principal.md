@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/12/2020
+ms.date: 05/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1a6cf5cad4fe4b76d44dcfaecd81324003687b10
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: aa8b457dfd33cff40dbd651f0e07811e361e52d9
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407892"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120960"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Automatizar as tarefas de conjuntos de dados e áreas de trabalho Premium com principais de serviço
 
@@ -29,7 +29,7 @@ No **Power BI Premium**, os principais de serviço também podem ser utilizados 
 - Azure Logic Apps
 - Aplicações cliente personalizadas
 
-Os principais de serviço só podem ser utilizados com o ponto final XMLA em [Áreas de trabalho novas](../collaborate-share/service-new-workspaces.md). Não são suportadas áreas de trabalho clássicas. Um principal de serviço só tem as permissões necessárias para realizar tarefas nas áreas de trabalho atribuídas. As permissões são atribuídas através do acesso à área de trabalho, de modo semelhante às contas UPN.
+Apenas as [Novas áreas de trabalho](../collaborate-share/service-new-workspaces.md) suportam ligações de ponto final XMLA com principais de serviço. Não são suportadas áreas de trabalho clássicas. Um principal de serviço só tem as permissões necessárias para realizar tarefas nas áreas de trabalho atribuídas. As permissões são atribuídas através do acesso à área de trabalho, de modo semelhante às contas UPN.
 
 Para executar operações de escrita, a **Carga de trabalho dos conjuntos de dados** tem de ter o [ponto final XMLA ativado para leitura/escrita](service-premium-connect-tools.md#enable-xmla-read-write). Os conjuntos de dados publicados a partir do Power BI Desktop devem ter a funcionalidade [Formato de metadados melhorado](../connect-data/desktop-enhanced-dataset-metadata.md) ativada.
 
@@ -91,7 +91,7 @@ $PWord = ConvertTo-SecureString -String $AppSecret -AsPlainText -Force
 
 $Credential = New-Object -TypeName "System.Management.Automation.PSCredential" -ArgumentList $AppId, $PWord
 
-Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -Database "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
+Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -DatabaseName "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
 ```
 
 ### <a name="amo-and-adomd"></a>AMO e ADOMD

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/27/2020
+ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 605d35d55f3191b230d9c4a8d118e2c238283ff2
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564478"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733600"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -356,6 +356,16 @@ Os utilizadores na organização podem utilizar a visualização dos ArcGIS Maps
 ### <a name="use-global-search-for-power-bi-preview"></a>Utilizar a pesquisa global para o Power BI (Pré-visualização)
 
 Os utilizadores na organização podem utilizar as funcionalidades de pesquisa externa que dependem do Azure Search.
+
+## <a name="featured-tables-settings"></a>Definições das tabelas em destaque
+
+Em **Definições do inquilino**, a definição do inquilino **Permitir ligações a tabelas em destaque** permite que os administradores do Power BI controlem que pessoas na organização podem utilizar tabelas em destaque na Galeria de Tipos de Dados do Excel. 
+
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Todas as ligações a tabelas em destaque":::
+
+As ligações a tabelas em destaque também estão desativadas se a definição do inquilino **Exportar dados** estiver definida como **Desativado**.
+
+Leia mais sobre as [tabelas em destaque do Power BI no Excel](../collaborate-share/service-excel-featured-tables.md).
 
 ## <a name="power-bi-visuals-settings"></a>Definições de elementos visuais do Power BI
 

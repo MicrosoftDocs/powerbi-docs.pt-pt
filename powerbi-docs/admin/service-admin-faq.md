@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ce18b3cb077e0fee2eea4d0d31327329f405a51a
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 25b5665aa531c347d43a197b53938aec569b9d2d
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563752"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812180"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrar o Power BI – perguntas mais frequentes (FAQ)
 
@@ -27,8 +27,8 @@ Este artigo aborda perguntas mais frequentes relativas à administração do Pow
 * [Utilizar o PowerShell](#using-powershell)
 * [Como é que os utilizadores se inscrevem no Power BI?](#how-do-users-sign-up-for-power-bi)
 * [Como é que os utilizadores individuais na minha organização se inscrevem?](#how-do-individual-users-in-my-organization-sign-up)
-* [Como posso impedir que os utilizadores se associem ao inquilino existente do Office 365?](#how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant)
-* [Como posso permitir que os utilizadores se associem ao inquilino existente do Office 365?](#how-can-i-allow-users-to-join-my-existing-microsoft-365-tenant)
+* [Como posso impedir que os utilizadores se associem à minha organização existente?](#how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant)
+* [Como posso permitir que os utilizadores se associem à minha organização existente?](#how-can-i-allow-users-to-join-my-existing-microsoft-365-tenant)
 * [Como posso verificar se tenho o bloqueio ativado no meu inquilino?](#how-do-i-check-if-i-have-the-block-on-in-the-tenant)
 * [Como posso impedir que os utilizadores existentes comecem a utilizar o Power BI?](#how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi)
 * [Como posso permitir que os utilizadores se inscrevam no Power BI?](#how-can-i-allow-my-existing-users-to-sign-up-for-power-bi)

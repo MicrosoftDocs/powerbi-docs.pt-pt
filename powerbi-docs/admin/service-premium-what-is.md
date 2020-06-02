@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/15/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 290174f7848e4518a4b1489d0a90136e86d245da
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 7c9f198ac15311948e1789173851a6c85debc856
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438252"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812456"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
@@ -50,7 +50,7 @@ O Azure Power BI Embedded está fora do âmbito deste artigo, mas é descrito na
 
 ### <a name="purchasing"></a>Compras
 
-As subscrições do Power BI Premium são compradas por administradores no centro de administração do Microsoft 365. Apenas os Administradores de Faturação ou Administradores Globais do Office 365 podem comprar SKUs. Quando forem comprados, o inquilino recebe um número correspondente de núcleos virtuais para atribuir a capacidades, conhecido como *agrupamento de núcleos virtuais*. Por exemplo, a compra de um SKU P3 fornece ao inquilino 32 núcleos virtuais. Para saber mais, veja [Como comprar o Power BI Premium](service-admin-premium-purchase.md).
+As subscrições do Power BI Premium são compradas por administradores no centro de administração do Microsoft 365. Especificamente, apenas os Administradores de Faturação ou Administradores Globais podem comprar SKUs. Quando forem comprados, o inquilino recebe um número correspondente de núcleos virtuais para atribuir a capacidades, conhecido como *agrupamento de núcleos virtuais*. Por exemplo, a compra de um SKU P3 fornece ao inquilino 32 núcleos virtuais. Para saber mais, veja [Como comprar o Power BI Premium](service-admin-premium-purchase.md).
 
 ## <a name="dedicated-capacities"></a>Capacidades dedicadas
 
@@ -127,13 +127,13 @@ Notas de secção:
 
 ### <a name="regional-support"></a>Suporte regional
 
-Ao criar uma nova capacidade, os administradores do serviço Power BI e os administradores globais do Office 365 podem especificar uma região na qual residirão as áreas de trabalho atribuídas à capacidade. Isto é conhecido como **Multi-Geo**. Com a Multi-Geo, as organizações podem cumprir requisitos de residência dos dados ao implementar conteúdos para datacenters numa região específica, mesmo que seja diferente da região na qual a Subscrição do Office 365 reside. Para saber mais, veja [Suporte da Multi-Geo para o Power BI Premium](service-admin-premium-multi-geo.md).
+Ao criar uma nova capacidade, os administradores do serviço Power BI e os Administradores globais podem especificar uma região na qual residirão as áreas de trabalho atribuídas à capacidade. Isto é conhecido como **Multi-Geo**. Com a Multi-Geo, as organizações podem cumprir requisitos de residência dos dados ao implementar conteúdos para datacenters numa região específica, mesmo que seja diferente da região na qual a Subscrição do Office 365 reside. Para saber mais, veja [Suporte da Multi-Geo para o Power BI Premium](service-admin-premium-multi-geo.md).
 
 ### <a name="capacity-management"></a>Gestão de capacidades
 
 Gerir capacidades Premium envolve criar ou eliminar capacidades, atribuir administradores, atribuir áreas de trabalho, configurar cargas de trabalho, monitorizar e fazer ajustes para otimizar o desempenho da capacidade. 
 
-Os administradores do serviço Power BI e os administradores globais do Office 365 podem criar capacidades Premium a partir de núcleos virtuais disponíveis ou modificar as capacidades Premium existentes. Quando uma capacidade é criada, a região geográfica e o tamanho da capacidade são especificados e é atribuído pelo menos um administrador de capacidade. 
+Os administradores do serviço Power BI e os administradores globais podem criar capacidades Premium a partir de núcleos virtuais disponíveis ou modificar as capacidades Premium existentes. Quando uma capacidade é criada, a região geográfica e o tamanho da capacidade são especificados e é atribuído pelo menos um administrador de capacidade. 
 
 Quando as capacidades são criadas, a maior parte das tarefas administrativas é concluída no [Portal de Administração](service-admin-portal.md).
 

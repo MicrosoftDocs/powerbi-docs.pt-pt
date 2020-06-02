@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 5330b4c42794f0fa3110cef57f6d62ead0381e52
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 08a05a266dd505dd991d90738b81a2e7d413f090
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561794"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119873"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>Definir as informações de contacto dos relatórios e dos dashboards no serviço Power BI
 Este artigo ensina a definir as informações de contacto num dashboard ou relatório no serviço Power BI.
@@ -24,11 +24,11 @@ Este artigo ensina a definir as informações de contacto num dashboard ou relat
 
 Pode adicionar vários utilizadores ou grupos ao contacto de um item. Estes podem ser:
 * Uma pessoa
-* Um Grupo do Microsoft 365
+* Um grupo do Microsoft 365
 * Um grupo de segurança com e-mail
 * Uma lista de distribuição
 
-Por predefinição, a pessoa que cria um novo relatório ou dashboard é a pessoa de contacto. Se definir um valor, a predefinição será substituída. Obviamente, pode remover todas as pessoas ou grupos da lista de contactos. Ao fazê-lo em áreas de trabalho clássicas, será mostrado o Grupo do Microsoft 365 da área de trabalho. Nas áreas de trabalho da nova experiência, será utilizada a [lista de contactos da área de trabalho](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list). Se a lista de contactos da área de trabalho não estiver defina, serão mostrados os administradores da área de trabalho.
+Por predefinição, a pessoa que cria um novo relatório ou dashboard é a pessoa de contacto. Se definir um valor, a predefinição será substituída. Obviamente, pode remover todas as pessoas ou grupos da lista de contactos. Ao fazê-lo em áreas de trabalho clássicas, será mostrado o grupo do Microsoft 365 da área de trabalho. Nas áreas de trabalho da nova experiência, será utilizada a [lista de contactos da área de trabalho](../collaborate-share/service-create-the-new-workspaces.md#create-a-contact-list). Se a lista de contactos da área de trabalho não estiver defina, serão mostrados os administradores da área de trabalho.
 
 As informações de contacto são mostradas às pessoas que veem o item. 
 
@@ -63,6 +63,6 @@ As informações da lista de contactos também são utilizadas noutros locais. P
 * A lista de contactos ao nível do item não é emitida por push para as aplicações quando são publicadas. A nova experiência de navegação de aplicações disponibiliza um URL de suporte que pode configurar para ajudar a gerir os comentários de um grande número de utilizadores de aplicações.
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
+Mais perguntas? [Tente a Comunidade do Power BI](https://community.powerbi.com/)

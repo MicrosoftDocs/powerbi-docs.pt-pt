@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: ebdd84dd4de054df08ac79dc2d28f7862cbb284b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 8426b9461b55ae6c29d5adc71f8073ec48731855
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564901"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794068"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário para o serviço Power BI
 O serviço Power BI pode introduzir terminologia que é confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar a terminologia, pode até mesmo guardá-la nos marcadores. Outro recurso excelente para saber mais sobre os blocos de construção que formam o serviço Power BI é [Conceitos Básicos](end-user-basic-concepts.md). Conceitos básicos proporciona uma perspetiva geral de alto nível das *partes* do Power BI e de como estão ligadas.
@@ -22,9 +22,7 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
 
 ## <a name="a"></a>A
 
-**conta** Existem diferentes tipos de contas do Power BI, também denominadas de *licenças* ou *subscrições*.  As contas são: por utilizador ou organizacionais. As contas por utilizador estão disponíveis como *gratuitas* ou *Pro*.  Um utilizador *gratuito* do Power BI está a utilizar o Power BI Desktop autónomo ou está a utilizar o serviço Power BI autónomo ou a utilizar o serviço Power BI dentro de uma subscrição organizacional Premium. A conta *Pro* por utilizador do Power BI é uma subscrição mensal paga que permite a colaboração e a partilha de conteúdos com outros utilizadores *Pro*. 
-
-A subscrição organizacional *Premium* (também denominada de *capacidade Premium*) adiciona uma camada de funcionalidades às licenças por utilizador. Por exemplo, os titulares de uma conta por utilizador *gratuita* numa organização que possui uma subscrição *Premium* podem fazer muito mais com o Power BI do que os utilizadores *gratuitos* sem uma licença *Premium*. Por exemplo, os utilizadores *gratuitos* em contas organizacionais *Premium* podem colaborar com os colegas e visualizar os conteúdos alojados na capacidade do Power BI Premium. 
+**conta** Utilize a sua conta escolar ou profissional para iniciar sessão no Power BI. Os administradores gerem as contas escolares ou profissionais no Azure Active Directory. O seu nível de acesso é determinado pela licença do Power BI associada a essa conta e pelo tipo de capacidade em que o conteúdo é armazenado. Veja **licença** e **Premium** abaixo. 
 
 **admin portal (portal de administração)** A localização onde os administradores do Power BI gerem utilizadores, recursos e definições para o Power BI na sua organização. (Nota: o Microsoft 365, o Azure e o PowerApps utilizam o centro de administração.)
 
@@ -171,7 +169,11 @@ Os controlos na margem esquerda do serviço Power BI.
 
 Primeira instância: painel de navegação. Menções subsequentes ou com pouco espaço: painel nav
 
-**licença** Ver *conta*.
+**licença** O seu nível de acesso é determinado pela licença do Power BI associada à sua conta e pelo tipo de capacidade em que o conteúdo é armazenado. Por exemplo, na capacidade partilhada, um utilizador com uma licença do Power BI Pro pode colaborar apenas com utilizadores aos quais também foi atribuída uma licença Pro. Na capacidade partilhada, uma licença gratuita permite o acesso apenas à área de trabalho pessoal do utilizador. No entanto, quando o conteúdo está na capacidade Premium, os utilizadores com uma licença Pro podem partilhá-lo com utilizadores que têm uma licença gratuita atribuída. 
+
+Uma licença é atribuída a um utilizador e pode ser gratuita ou Pro. Consoante a forma como a licença tenha sido adquirida, pode ser paga ou não paga. As contas são: por utilizador ou organizacionais. As contas por utilizador estão disponíveis como *gratuitas* ou *Pro*.  Um utilizador *gratuito* do Power BI está a utilizar o Power BI Desktop autónomo ou está a utilizar o serviço Power BI autónomo ou a utilizar o serviço Power BI dentro de uma subscrição organizacional Premium. A conta *Pro* por utilizador do Power BI é uma subscrição mensal paga que permite a colaboração e a partilha de conteúdos com outros utilizadores *Pro*. 
+
+A subscrição organizacional *Premium* (também denominada de *capacidade Premium*) adiciona uma camada de funcionalidades às licenças por utilizador. Por exemplo, os titulares de uma conta por utilizador *gratuita* numa organização que possui uma subscrição *Premium* podem fazer muito mais com o Power BI do que os utilizadores *gratuitos* sem uma licença *Premium*. Por exemplo, os utilizadores *gratuitos* em contas organizacionais *Premium* podem colaborar com os colegas e visualizar os conteúdos alojados na capacidade do Power BI Premium. 
 
 **página de lista** ou **lista de conteúdo** Uma das páginas de secção dos elementos no painel de navegação. Por exemplo, Favoritos, Recentes, A minha área de trabalho, etc.
 

@@ -4,26 +4,39 @@ description: Os relatórios paginados, que são há muito o formato de relatóri
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+featuredvideoid: jXTiYJKw1Rs
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/14/2020
-ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 05/19/2020
+ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565512"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733422"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>O que são relatórios paginados no Power BI Premium?
 
-Os relatórios paginados, que são há muito o formato de relatório padrão no SQL Server Reporting Services, estão agora disponíveis no serviço Power BI. Estes relatórios podem ser impressos ou partilhados. Os relatórios são designados "paginados" porque são formatados para se ajustarem a uma página. Os relatórios paginados apresentam todos os dados numa tabela, mesmo que a tabela ocupe múltiplas páginas. Às vezes são chamados “imagem perfeita”, uma vez que pode controlar o esquema de página do relatório com exatidão. Os relatórios paginados baseiam-se na tecnologia de relatório RDL do SQL Server Reporting Services. O Report Builder é a ferramenta autónoma para a criação de relatórios paginados. 
+Os *relatórios paginados* são concebidos para serem impressos ou partilhados. Designam-se *paginados* porque são formatados para se ajustarem a uma página. Os relatórios paginados apresentam todos os dados numa tabela, mesmo que a tabela ocupe múltiplas páginas. Também são chamados *imagem perfeita*, uma vez que pode controlar o esquema de página do relatório com exatidão. O Power BI Report Builder é a ferramenta autónoma para a criação de relatórios paginados. Os relatórios paginados baseiam-se na tecnologia de relatório RDL, há muito o formato de relatório padrão do SQL Server Reporting Services. 
 
-Os relatórios paginados podem ter muitas páginas. Por exemplo, este relatório tem 563 páginas. Cada página está disposta com exatidão, com uma página por fatura e cabeçalhos e rodapés repetidos.
+Frequentemente, os relatórios paginados têm muitas páginas. Por exemplo, este relatório tem 563 páginas. Cada página está disposta com exatidão, com uma página por fatura e cabeçalhos e rodapés repetidos.
 
 ![Paginado](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 Pode visualizar o relatório no Report Builder e, em seguida, publicá-lo no serviço Power BI, `https://app.powerbi.com`. Precisa de uma licença do Power BI Pro para publicar um relatório no serviço. Pode publicar e partilhar relatórios paginados em A Minha Área de Trabalho ou em áreas de trabalho, desde que a área de trabalho esteja numa capacidade do Power BI Premium. Além disso, os relatórios paginados têm de ser ativados por um administrador do Power BI na secção [Capacidades Premium](../admin/service-admin-premium-workloads.md#paginated-reports) do portal de administração do Power BI. 
+
+## <a name="compare-power-bi-reports-and-paginated-reports"></a>Comparar relatórios do Power BI e relatórios paginados
+
+Uma grande vantagem dos relatórios paginados é a capacidade de imprimir todos os dados numa tabela, seja qual for a sua extensão. Imagine que coloca uma tabela num relatório do Power BI. Algumas das linhas da tabela são apresentadas na página e pode utilizar uma barra de deslocamento para ver o resto. Se imprimir essa página ou a exportar para PDF, as únicas linhas impressas serão as apresentadas na página. 
+
+Agora suponhamos que coloca a mesma tabela num relatório paginado. Quando o imprime ou exporta para PDF, o relatório paginado tem o número de páginas necessário para imprimir todas as linhas da tabela. 
+
+No vídeo seguinte, Peter Myers, Profissional Mais Valioso da Microsoft – Plataforma de Dados, e Chris Finlan, Gestor de Programa Principal, demonstram a impressão de uma tabela semelhante nos dois formatos de relatório. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jXTiYJKw1Rs?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT" frameborder="0" allowfullscreen></iframe>
+
+Este vídeo faz parte de um curso baseado em vídeo composto por oito módulos, [Power BI Paginated Reports in a Day (Relatórios Paginados do Power BI num Dia)](../learning-catalog/paginated-reports-online-course.md). Enquanto autor de relatórios, o curso tem como objetivo fornecer-lhe os conhecimentos técnicos necessários para criar, publicar e distribuir relatórios paginados do Power BI.
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Criar relatórios no Report Builder do Power BI
 
