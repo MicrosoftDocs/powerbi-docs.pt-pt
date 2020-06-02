@@ -1,22 +1,22 @@
 ---
-title: Controlar a utilização de conjuntos de dados em áreas de trabalho (Pré-visualização) – Power BI
+title: Controlar a utilização de conjuntos de dados em áreas de trabalho – Power BI
 description: Aprenda a restringir o fluxo de informações no inquilino do Power BI.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d1ad29bebc148d9f30e8d22240dd149787251a0a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4599b5aa8961c5a6526f5de6a07815355e6e41db
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285446"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793560"
 ---
-# <a name="control-the-use-of-datasets-across-workspaces-preview"></a>Controlar a utilização de conjuntos de dados em áreas de trabalho (Pré-visualização)
+# <a name="control-the-use-of-datasets-across-workspaces"></a>Controlar a utilização de conjuntos de dados em áreas de trabalho
 
 A utilização de conjuntos de dados em áreas de trabalho é uma excelente forma de fomentar a cultura e a democratização de dados numa organização. Ainda assim, se for um administrador do Power BI, poderá querer restringir o fluxo de informações no seu inquilino do Power BI. Com a definição de inquilinos **Utilizar conjuntos de dados em áreas de trabalho**, poderá restringir total ou parcialmente a reutilização de conjuntos de dados por grupos de segurança.
 
@@ -36,7 +36,7 @@ Enquanto administrador de inquilinos, pode fornecer um URL para a ligação **Sa
 
 ![Ligação Saiba mais da certificação de conjuntos de dados](media/service-datasets-certify-promote/power-bi-dataset-learn-more-certification.png)
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
-- [Use datasets across workspaces (Preview)](service-datasets-across-workspaces.md) (Utilizar conjuntos de dados em várias áreas de trabalho [Pré-visualização])
-- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- [Utilizar conjuntos de dados em áreas de trabalho](service-datasets-across-workspaces.md)
+- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

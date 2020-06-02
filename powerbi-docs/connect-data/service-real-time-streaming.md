@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b0ee72fdfdf504537073b0de22e5c386ca2572ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8e991a8696ac35ed0a7d4b448bb4dd83d9a19c42
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83327950"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793448"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmissão em fluxo em tempo real no Power BI
 Com a transmissão em fluxo em tempo real do Power BI, pode transmitir dados em fluxo e atualizar dashboards em tempo real. Também é possível criar qualquer elemento visual ou dashboard passível de geração no Power BI de modo a apresentar e atualizar elementos visuais e dados em tempo real. Os dispositivos e as origens de dados de transmissão em fluxo podem ser sensores de fábrica, origens de redes sociais, métricas de utilização de serviços, entre outros itens a partir dos quais é possível recolher ou transmitir dados temporários.
@@ -52,7 +52,7 @@ A única forma de visualizar um conjunto de dados de transmissão em fluxo consi
 Na prática, os conjuntos de dados de transmissão em fluxo e os elementos visuais de transmissão em fluxo que lhes estão associados são mais úteis em situações nas quais é fundamental minimizar a latência entre o momento em que os dados são emitidos via push e a visualização dos mesmos. Além disso, as melhores práticas recomendam que os dados sejam emitidos via push num formato que possa ser visualizado tal como está, sem agregações adicionais. Exemplos de dados prontos tal como estão incluem temperaturas e médias pré-calculadas.
 
 ### <a name="pubnub-streaming-dataset"></a>Conjunto de dados de transmissão em fluxo PubNub
-Com um conjunto de dados de transmissão em fluxo **PubNub**, o cliente Web do Power BI utiliza o SDK de PubNub para ler um fluxo de dados PubNub existente e não são armazenados quaisquer dados pelo serviço Power BI. Uma vez que esta chamada é feita diretamente do cliente Web, teria de adicionar à lista de permissões o tráfego para o PubNub se apenas permite o tráfego de saída da sua rede que se encontra na lista de permissões. Veja as instruções do artigo de suporte sobre [a colocação em listas de permissões do tráfego de saída para o PubNub](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-).
+Com um conjunto de dados de transmissão em fluxo **PubNub**, o cliente Web do Power BI utiliza o SDK de PubNub para ler um fluxo de dados PubNub existente e não são armazenados quaisquer dados pelo serviço Power BI. Uma vez que esta chamada é feita diretamente do cliente Web, teria de adicionar à lista o tráfego para o PubNub como permitido, se apenas permitir o tráfego de saída da rede que se encontra na lista de permissões. Veja as instruções do artigo de suporte sobre [a colocação em listas de permissões do tráfego de saída para o PubNub](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-).
 
 À semelhança do **conjunto de dados de transmissão em fluxo**, com o **conjunto de dados de transmissão em fluxo PubNub** não há qualquer base de dados subjacente no Power BI, pelo que não pode criar elementos visuais de relatório com base nos dados transmitidos em fluxo, da mesma forma que não pode tirar partido das funcionalidades de relatório, como a filtragem, os elementos visuais do Power BI, entre outras. Como tal, o **conjunto de dados de transmissão em fluxo PubNub** também só pode ser visualizado quando se adiciona um mosaico ao dashboard e se configura um fluxo de dados PubNub como origem.
 
@@ -215,7 +215,7 @@ Os conjuntos de dados de transmissão em fluxo são concebidos de modo a apresen
 No caso dos conjuntos de dados push, partindo do princípio que tem um carimbo de data/hora no esquema, pode tentar criar um elemento visual de relatório com o último filtro N.
 
 #### <a name="can-i-connect-to-push-or-streaming-datasets-in-power-bi-desktop"></a>Posso ligar a conjuntos de dados push ou de transmissão em fluxo no Power BI Desktop?
-Infelizmente, esta funcionalidade não está disponível neste momento.
+Os conjuntos de dados push e híbridos podem ser ligados em direto no Power BI Desktop, mas outros conjuntos de dados de transmissão em fluxo não podem ser ligados no Power BI Desktop.
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>Tendo em conta a pergunta anterior, como posso modelar conjuntos de dados em tempo real?
 Não é possível modelar conjuntos de dados de transmissão em fluxo, uma vez que os dados não estão armazenados permanentemente. Para um conjunto de dados push, pode utilizar as APIs REST de conjuntos de dados/tabelas de atualização para adicionar medidas e relações. 

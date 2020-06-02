@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 39d30cc7949565872fd638f289756be6541eee0d
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 530b1dd757f8fe0bfdb120601ae8ea28d95ed835
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564992"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793703"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
 
@@ -27,14 +27,14 @@ ms.locfileid: "83564992"
 
 O serviço Power BI é um serviço de análise de negócios, com base na cloud, que permite que qualquer pessoa visualize e analise dados com maior velocidade, eficiência e compreensão. Este liga os utilizadores a uma ampla variedade de dados com base na cloud e no local por meio de dashboards fáceis de usar, relatórios interativos e visualizações atraentes para dar vida aos dados. Saiba mais sobre o [Power BI](../fundamentals/power-bi-overview.md).
 
-## <a name="what-is-the-microsoft-power-bi-service-for-consumers"></a>O que é o serviço Microsoft Power BI para *consumidores*?
+## <a name="what-is-a-power-bi-consumers"></a>O que é um *consumidor* do Power BI?
 
 A forma como interage com o Power BI irá depender da sua função. Um utilizador final ou *consumidor* é a pessoa que recebe conteúdos (dashboards, relatórios e aplicações) de colegas. Um consumidor trabalha na versão online ou móvel do Power BI, denominado serviço Power BI, onde pode rever e interagir com esses conteúdos para tomar decisões empresariais.  Leia mais sobre o [Power BI para consumidores](index.yml).
 
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Qual é a diferença entre o Power BI Pro e o Power BI Premium?
 
-O Power BI Pro é uma licença de utilizador individual que permite o acesso a todos os conteúdos e funcionalidades no serviço Power BI. Pode até mesmo partilhar conteúdos e colaborar com outros utilizadores do Pro. Apenas os utilizadores Pro podem publicar conteúdos em áreas de trabalho, partilhar dashboards e subscrever dashboards e relatórios. Este tipo de licença é normalmente atribuída a *estruturadores* de relatórios, programadores e administradores do Power BI. 
+O Power BI Pro é uma licença de utilizador individual que permite o acesso a todos os conteúdos e funcionalidades no serviço Power BI. Pode até mesmo partilhar conteúdos e colaborar com outros utilizadores do Pro. Apenas os utilizadores Pro podem publicar conteúdos em áreas de trabalho, partilhar dashboards e subscrever dashboards e relatórios. 
 
 O Power BI Premium oferece uma capacidade dedicada para um desempenho mais consistente. Também suporta maiores volumes de dados no Power BI. Para utilizadores individuais, o Premium também permite uma distribuição alargada de conteúdos por utilizadores Pro e os destinatários podem ver os conteúdos sem necessitarem de licenças Pro. Tal significa que os *consumidores* podem colaborar com colegas e ver e interagir com dashboards, relatórios e aplicações que foram partilhadas com eles. 
 
@@ -60,7 +60,7 @@ O Power BI não suporta endereços de e-mail fornecidos por serviços de e-mail
 
 ## <a name="does-power-bi-support-mobile-devices"></a>O Power BI suporta dispositivos móveis?
 
-Sim. O Power BI tem aplicações nativas para telemóveis e tablets Android, dispositivos iOS e dispositivos Windows 10. Transfira uma das [aplicações móveis do Power BI](https://powerbi.microsoft.com/mobile) a partir da respetiva loja:  
+Yes. O Power BI tem aplicações nativas para telemóveis e tablets Android, dispositivos iOS e dispositivos Windows 10. Transfira uma das [aplicações móveis do Power BI](https://powerbi.microsoft.com/mobile) a partir da respetiva loja:  
 
 * [Apple App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
 * [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
@@ -109,7 +109,7 @@ Como muitos outros serviços e softwares da Microsoft, o Power BI fornece uma fo
 
 * Para **anular** a sua última ação, ou ações, prima CTRL+Z.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 * [O que é um consumidor do Power BI?](end-user-consumer.md)
 * [Como é que um consumidor pode utilizar o Power BI?](end-user-reading-view.md)

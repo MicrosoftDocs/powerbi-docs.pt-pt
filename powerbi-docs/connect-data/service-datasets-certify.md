@@ -1,22 +1,22 @@
 ---
-title: Certificar conjuntos de dados (Pré-visualização) – Power BI
+title: Certificar conjuntos de dados – Power BI
 description: Aprenda a orientar os utilizadores empresariais na obtenção de conjuntos de dados fiáveis e de alta qualidade.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bdce9ec797d00b34f657ed66df6b7a5ce373334d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a6d03521cd3962dcf9549d99076d8606b1142976
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285009"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792946"
 ---
-# <a name="certify-datasets-preview"></a>Certificar conjuntos de dados (Pré-visualização)
+# <a name="certify-datasets---power-bi"></a>Certificar conjuntos de dados – Power BI
 
 A sua organização pode certificar conjuntos de dados que sejam a origem de dados autoritativa de informações críticas. Estes conjuntos de dados estão em destaque quando os designers de relatórios começam a criar um relatório e a procurar dados fiáveis. A certificação pode ser um processo altamente seletivo, em que apenas os conjuntos de dados mais valiosos são certificados. Os administradores de inquilinos do Power BI têm uma nova definição para poderem controlar rigorosamente quem pode certificar conjuntos de dados. Assim, os administradores podem garantir que a certificação de conjuntos de dados resulta em conjuntos de dados verdadeiramente fiáveis e autoritativos para serem utilizados na organização.
 

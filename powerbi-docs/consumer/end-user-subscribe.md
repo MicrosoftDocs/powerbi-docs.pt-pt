@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/24/2020
+ms.date: 05/11/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e5d87e3b41d6048b214fca45fc99df35f997d3c1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dfb307a53ac4fd75188965618a08bb4bdee5689b
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347309"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794180"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Subscrever um relatório ou dashboard no serviço Power BI 
 
@@ -61,7 +61,7 @@ Quer esteja a subscrever um dashboard ou um relatório, o processo é semelhante
 
     f. Agende a data de início e de fim ao introduzir as mesmas nos campos de data. Por predefinição, a data de início da sua subscrição será a data em que a criou e a data de fim será um ano após a criação. Pode alterá-la para qualquer data no futuro (até ao ano 9999) em qualquer altura antes de a subscrição terminar. Quando uma subscrição atinge a data de fim, esta é interrompida até que a volte a ativar.  Receberá notificações antes da data de fim agendada a perguntar se quer prolongar a subscrição.     
 
-    exemplo,  Para rever a sua subscrição e testá-la, selecione **Executar agora**.  Esta opção faz com que o e-mail seja imediatamente enviado para si. 
+    exemplo, Para rever a sua subscrição e testá-la, selecione **Executar agora**.  Esta opção faz com que o e-mail seja imediatamente enviado para si. 
 
 3. Se tudo estiver correto, selecione **Guardar e fechar** para guardar a subscrição. Receberá um e-mail e um instantâneo do dashboard ou do relatório dentro do período que definiu. Todas as subscrições cuja frequência estiver definida para **Depois da atualização de dados** só enviarão um e-mail após a primeira atualização agendada para o dia em questão.
    
@@ -93,7 +93,7 @@ Uma subscrição terminará se a licença Pro expirar, o dashboard ou o relatór
 * Para as subscrições de dashboard em específico, certos tipos de mosaicos não são ainda suportados.  Estes incluem: transmissão em fluxo de mosaicos, mosaicos de vídeos e mosaicos de conteúdo Web personalizados.     
 * As subscrições podem falhar em dashboards ou relatórios com imagens extremamente grandes devido aos limites de tamanho por e-mail.    
 * O Power BI interrompe automaticamente a atualização nos conjuntos de dados associados a dashboards e relatórios que não tenham sido acedidos durante mais de dois meses.  No entanto, se adicionar uma subscrição a um dashboard ou relatório, este não será interrompido, mesmo se não for acedido.
-* Em ocasiões raras, as subscrições de e-mail poderão demorar mais de 15 minutos a serem entregues aos destinatários.  Se for o caso, recomendamos que execute a atualização de dados e a subscrição de e-mail separadamente para assegurar uma entrega atempada.  Se o problema persistir, contacte o suporte do Power BI.
+* Não se esqueça de que, tal como outros produtos BI, o período que definiu para a subscrição começa quando é iniciado o processamento da mesma.  Quando o processamento do relatório estiver concluído, a subscrição é colocada em fila e é enviada para os destinatários de e-mail.  Embora nos esforcemos por processar e disponibilizar todas as subscrições o mais rapidamente possível, por vezes existem picos de procura em que pode ocorrer um atraso mais longo devido ao número de subscrições que podem ser enviadas de uma só vez.  Para a maioria dos clientes, não deve ocorrer um atraso superior a 15 minutos para processar e enviar os relatórios, embora por vezes possa demorar até 30 minutos para determinados inquilinos com uma utilização significativa.  Não esperamos que os eventuais atrasos na entrega ultrapassem os 60 minutos, a partir do momento em que a subscrição é agendada.  Se um cliente verificar um tal atraso, deverá primeiro garantir que o endereço no-reply-powerbi@microsoft.com está na lista de permissões do fornecedor de e-mail.  Se assim for, o cliente deverá contactar o suporte do Power BI para obter assistência.
 
 ## <a name="next-steps"></a>Próximos passos
 

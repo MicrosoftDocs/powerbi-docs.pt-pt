@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: kfollis
-ms.openlocfilehash: 690f69f584b4b185929ad465cf4ddd75e26c1011
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3ec6e3f060b495efd6b961a7a16d8e1cf68f44c9
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131598"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120628"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Opções de suporte para o Power BI Pro e Power BI Premium
 
@@ -24,7 +24,7 @@ Este artigo descreve as opções de suporte que estão disponíveis para os clie
 | **Suporte da comunidade**: fóruns na Web para os utilizadores obterem suporte, orientações e melhores práticas de outros utilizadores, com respostas fornecidas por uma comunidade global de especialistas do Power BI e colaboradores da Microsoft. | X |   |   | Nenhum, o contacto é feito com base no melhor esforço. | [Comunidade do Power BI](https://community.powerbi.com) |
 | **Suporte para utilizadores finais do Power BI Pro**: suporte técnico básico para os utilizadores finais que criam e consomem conteúdos no Power BI. | X |   |   | Um dia útil. | [Site do Suporte do Power BI](https://support.powerbi.com)  |
 | **Suporte para administradores do Power BI Premium**: suporte técnico para administradores que implementam e operam capacidades do Power BI Premium. | X |   |   | Um dia útil ou uma hora, dependendo da gravidade do caso.\* | [Site do Suporte do Power BI](https://support.powerbi.com)<br>OR<br>[Centro de administração do Microsoft 365](https://portal.office.com/adminportal)<br>OR<br> Telefone |
-| **Suporte para administradores do Power BI**: suporte técnico e de faturação para os administradores de implementações do Power BI nas respetivas organizações.  Para utilizar esta opção, tem de ser um Administrador da Empresa do Azure Active Directory, um Administrador Global do Office 365, um Administrador de Serviço do Office 365 ou um Administrador de Serviço do Power BI. | X | X |   | Um dia útil ou uma hora, dependendo da gravidade do caso.\* | [Centro de administração do Microsoft 365](https://portal.office.com/adminportal)<br>OR<br> Telefone |
+| **Suporte para administradores do Power BI**: suporte técnico e de faturação para os administradores de implementações do Power BI nas respetivas organizações.  Para utilizar esta opção, tem de ser Administrador da Empresa, Administrador Global, Administrador do Serviço ou Administrador do Serviço do Power BI. | X | X |   | Um dia útil ou uma hora, dependendo da gravidade do caso.\* | [Centro de administração do Microsoft 365](https://portal.office.com/adminportal)<br>OR<br> Telefone |
 | **Suporte Premier da Microsoft**: Uma abordagem de nível empresarial ao suporte, com gestão de contas, a opção de suporte no local e serviços proativos como a formação e a otimização do desempenho de modelos de dados. | X | X | X | Varia consoante a oferta e a gravidade do caso.\* | Gestor Técnico de Conta <br>OR<br> [Centro de administração do Microsoft 365](https://portal.office.com/adminportal) |
 | | | | | | |
 

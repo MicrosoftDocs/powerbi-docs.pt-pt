@@ -1,5 +1,5 @@
 ---
-title: 'Pacotes de conteúdos organizacionais: acesso e cópia'
+title: 'Pacotes de conteúdos organizacionais: aceder e copiar'
 description: Leia sobre a criação de cópias e resolução de problemas de acesso aos pacotes de conteúdos organizacionais no Power BI
 author: maggiesMSFT
 ms.reviewer: lukaszp, kayu
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 905e461c69a898b41b45e48405c3aaaa6e09cfec
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 606f45cee844812b68bbbe774665b6a4c09cd09b
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141938"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733445"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Pacotes de conteúdos organizacionais: copiar, atualizar e obter acesso
 
@@ -45,16 +45,16 @@ Tem agora uma cópia que pode alterar. Ninguém estará autorizado a visualizar 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>Ajuda!  Já não consigo aceder ao pacote de conteúdos
 Isto pode ocorrer por diversos motivos:
 
-* **Alterações de associação:** os pacotes de conteúdos são publicados em grupos de distribuição de e-mail, grupos de segurança e nos [grupos do Power BI baseados no Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).  Se for removido do grupo, deixará de ter acesso ao pacote de conteúdos.
-* **Alterações de distribuição:** o criador do pacote de conteúdos altera a distribuição. Por exemplo, se o pacote de conteúdos foi publicado originalmente para toda a organização, mas o criador o publicou novamente para um público menor, poderá já não estar incluído.
-* **Alterações às configurações de segurança:** se o dashboard e os relatórios ligarem a origens de dados SSAS locais e forem feitas alterações às configurações de segurança, as suas permissões para esse servidor poderão ser revogadas.
+* **Alterações de associação**:  os pacotes de conteúdos são publicados em grupos de distribuição de e-mail, grupos de segurança e [grupos do Power BI baseados no Microsoft 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).  Se for removido do grupo, deixará de ter acesso ao pacote de conteúdos.
+* **Alterações de distribuição**: o criador do pacote de conteúdos altera a distribuição. Por exemplo, se o pacote de conteúdos foi publicado originalmente para toda a organização, mas o criador o publicou novamente para um público menor, poderá já não estar incluído.
+* **Alterações às configurações de segurança**: se o dashboard e os relatórios forem ligados a origens de dados SSAS no local e forem feitas alterações às configurações de segurança, as suas permissões para esse servidor poderão ser revogadas.
 
 ## <a name="how-are-organizational-content-packs-refreshed"></a>Como são atualizados os pacotes de conteúdos organizacionais?
 Quando o pacote de conteúdos é criado, as configurações de atualização são herdadas com o conjunto de dados.  Quando cria uma cópia do pacote de conteúdos, a nova versão mantém a ligação ao conjunto de dados original e ao agendamento de atualização.
 
 Veja [Gerir, atualizar e eliminar pacotes de conteúdos organizacionais](service-organizational-content-pack-manage-update-delete.md).
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 * [Introdução aos pacotes de conteúdos organizacionais](service-organizational-content-pack-introduction.md)
 * [Criar um grupo no Power BI](service-create-distribute-apps.md)
 * Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

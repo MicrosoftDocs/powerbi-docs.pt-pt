@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 50d0cb1d31a6ec20db69c1b06aaf64f3eed727a2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9bc8f7c100acc3805fbe6ab949e3584cb5fd26e1
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83310010"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121049"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 
@@ -107,10 +107,12 @@ Se tiver criado os conjuntos de dados e os relatórios com base num ficheiro do 
 
 Ao contrário de uma atualização do conjunto de dados, durante a qual o Power BI importa dados de uma origem de dados para um conjunto de dados, a atualização do OneDrive sincroniza os conjuntos de dados e relatórios com os respetivos ficheiros de origem. Por predefinição, o Power BI verifica de hora a hora se um conjunto de dados ligado a um ficheiro no OneDrive ou SharePoint Online necessita de sincronização.
 
-> [!IMPORTANT]
-> Tenha cuidado com a forma como lida com a gestão de ficheiros no OneDrive. Quando define um ficheiro do OneDrive como a origem de dados, o Power BI referencia o ID de item do ficheiro quando executa a atualização, o que pode provocar problemas em alguns cenários. Considere o cenário no qual tem um ficheiro mestre _A_ e uma cópia de produção desse ficheiro _B_, e configura a atualização do OneDrive para o ficheiro B. Se depois _copiar_ o ficheiro A em vez do ficheiro B, a operação de cópia eliminará o antigo ficheiro B e criará um novo ficheiro B com um ID de item diferente, o que interrompe a atualização do OneDrive. Em vez disso, deve carregar e substituir o ficheiro B, o que mantém o mesmo ID de item.
+O Power BI executa a atualização com base num ID de item no OneDrive, por isso, seja atencioso ao considerar as atualizações vs. substituição. Quando define um ficheiro do OneDrive como a origem de dados, o Power BI referencia o ID de item do ficheiro quando executa a atualização. Considere o cenário seguinte: tem um ficheiro principal _A_ e uma cópia de produção desse ficheiro _B_. Configura a atualização do OneDrive para o ficheiro B. Em seguida, se _copiar_ o ficheiro A em vez do ficheiro B, a operação de cópia eliminará o antigo ficheiro B e criará um novo ficheiro B com um ID de item diferente, o que interrompe a atualização do OneDrive. Para evitar esta situação, pode em vez disso carregar e substituir o ficheiro B, que mantém o mesmo ID de item.
 
-Pode mover o ficheiro para outra localização (ao arrastar e soltar, por exemplo) e a atualização irá continuar a funcionar porque o PBI ainda conhece o fileID. No entanto, se copiar esse ficheiro para outra localização, serão criados uma nova instância do ficheiro e um novo fileID. Como tal, a sua referência de ficheiro do Power BI já não será válida e a atualização irá falhar.
+Pode mover o ficheiro para outra localização (ao arrastar e soltar, por exemplo). A atualização continuará a funcionar porque o Power BI ainda conhece o ID do ficheiro. No entanto, se copiar esse ficheiro para outra localização, serão criados uma nova instância do ficheiro e um novo fileID. Como tal, a sua referência de ficheiro do Power BI já não será válida e a atualização irá falhar.
+
+> [!NOTE]
+> O Power BI pode demorar até 10 minutos a atualizar um conjunto de dados, mesmo depois de a sincronização ter terminado no computador local e depois de ter utilizado *Atualizar agora* no serviço Power BI.
 
 Para rever os últimos ciclos de sincronização, consulte o separador OneDrive no histórico de atualizações. A seguinte captura de ecrã mostra um ciclo de sincronização concluído para um conjunto de dados de exemplo.
 

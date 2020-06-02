@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7fc915c9c21460670bf86f308b756196886983a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d70262908df5568066533d1b638c7a1495a3f30b
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83132043"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733238"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Proteção de dados no Power BI (pré-visualização)
 
@@ -23,7 +23,7 @@ As empresas modernas têm regulamentos e requisitos empresariais rigorosos sobre
 
 Com a Proteção de dados para o Power BI, pode fazer o seguinte:
 
-* Utilizar as etiquetas de confidencialidade da Microsoft para classificar e etiquetar conteúdos no serviço Power BI (dashboards, relatórios, conjuntos de dados e fluxos de dados), ao utilizar a mesma taxonomia utilizada para classificar e proteger ficheiros no Office 365. 
+* Utilizar as etiquetas de confidencialidade da Microsoft para classificar e etiquetar conteúdos no serviço Power BI (dashboards, relatórios, conjuntos de dados e fluxos de dados), ao utilizar a mesma taxonomia utilizada para classificar e proteger ficheiros no Microsoft 365.
 
 * Impor definições de proteção, como encriptação ou marcas d'água, ao exportar dados do serviço Power BI para ficheiros ao aplicar a etiqueta de confidencialidade e proteção de conteúdos (Excel, PowerPoint e PDF). 
 
@@ -35,7 +35,7 @@ Com a Proteção de dados para o Power BI, pode fazer o seguinte:
 
 As etiquetas de confidencialidade são criadas e geridas no [Centro de segurança do Microsoft 365](https://security.microsoft.com/) ou no [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com/).
 
-Para aceder às etiquetas de confidencialidade em qualquer um destes centros, navegue até **Classificação > Etiquetas de confidencialidade**. Estas etiquetas de confidencialidade podem ser utilizadas por múltiplos serviços da Microsoft, como o Azure Information Protection, aplicações do Office e serviços do Office 365.
+Para aceder às etiquetas de confidencialidade em qualquer um destes centros, navegue para **Classificação** > **Etiquetas de confidencialidade**. Estas etiquetas de confidencialidade podem ser utilizadas por múltiplos serviços da Microsoft, como o Azure Information Protection, aplicações do Office e serviços do Microsoft 365.
 
 > [!IMPORTANT]
 > Os clientes do Azure Information Protection terão de migrar as etiquetas para um dos serviços listados anteriormente, para que as etiquetas de confidencialidade sejam utilizadas no Power BI. Além disso, as etiquetas de confidencialidade só são suportadas em clouds públicas e não são suportadas para inquilinos em clouds, como clouds soberanas.

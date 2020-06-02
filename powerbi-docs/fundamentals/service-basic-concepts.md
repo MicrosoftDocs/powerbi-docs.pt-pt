@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0620ca7373f247cf5475f43ddaceb69ded60bc59
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: bcd5713b2ee7f053448718bc5dd93c24b0d53de6
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83358444"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813882"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceitos básicos para designers no serviço Power BI
 
@@ -29,7 +29,7 @@ Para este artigo, caso ainda não tenha os seus próprios relatórios, experimen
 Quando abrir o serviço Power BI num browser, começa no seu ecrã principal. Eis os elementos que poderá ver:
 
 1. Painel de navegação
-2. Iniciador da aplicações do Office 365
+2. Iniciador de aplicações do Microsoft 365
 3. botão Início do Power BI
 4. Botões de ícone, incluindo as definições, a ajuda e o feedback
 5. Caixa de pesquisa
@@ -106,7 +106,7 @@ Vamos então passar para o próximo tópico – relatórios.
 * [Conjuntos de dados de exemplo do Power BI](../create-reports/sample-datasets.md)
 
 ## <a name="reports"></a>Relatórios
-Um relatório do Power BI é composto por uma ou mais páginas de visualizações, tais como mapas, gráficos de linhas e treemap. As visualizações também são denominadas **_elementos visuais_** . Todas as visualizações num relatório vêm de um único conjunto de dados. Pode criar relatórios do zero no Power BI, importá-los com dashboards que os seus colegas partilham consigo ou o Power BI pode criá-los quando se liga a conjuntos de dados do Excel, do Power BI Desktop, das bases de dados e das aplicações SaaS.  Por exemplo, quando se liga a um livro do Excel que contém folhas do Power View, o Power BI cria um relatório baseado nessas folhas. E quando se liga a uma aplicação SaaS, o Power BI importa um relatório previamente criado.
+Um relatório do Power BI é composto por uma ou mais páginas de visualizações, tais como mapas, gráficos de linhas e treemap. As visualizações também são denominadas **_elementos visuais_**. Todas as visualizações num relatório vêm de um único conjunto de dados. Pode criar relatórios do zero no Power BI, importá-los com dashboards que os seus colegas partilham consigo ou o Power BI pode criá-los quando se liga a conjuntos de dados do Excel, do Power BI Desktop, das bases de dados e das aplicações SaaS.  Por exemplo, quando se liga a um livro do Excel que contém folhas do Power View, o Power BI cria um relatório baseado nessas folhas. E quando se liga a uma aplicação SaaS, o Power BI importa um relatório previamente criado.
 
 Existem duas formas de ver e interagir com os relatórios: a *Vista de leitura* e a *Vista de edição*. Quando abre um relatório, este abre-se na vista de Leitura. Se tiver permissões de edição, verá **Editar relatório** no canto superior esquerdo e poderá ver o relatório na Vista de edição.  Se um relatório estiver numa área de trabalho, toda a gente com uma função *administrador*, *membro* ou *contribuidor* pode editá-lo. Eles têm acesso a todas as funcionalidades de exploração, desenho, criação e partilha da Vista de edição em relação a esse relatório. As pessoas com quem partilharem o relatório podem explorar e interagir com o relatório através da Vista de leitura.   
 
@@ -228,8 +228,8 @@ Repare no ícone “C” após o título do dashboard. Este dashboard tem uma [e
 
 ![Ícone das etiquetas de classificação de dados](media/service-basic-concepts/power-bi-title.png)
 
-### <a name="6-office-365-app-launcher"></a>6. **Iniciador de aplicações do Office 365**
-Com o iniciador de aplicações, todas as aplicações do Office 365 estão facilmente disponíveis com um clique. Aqui pode iniciar rapidamente o e-mail, os documentos, o calendário, entre outros.
+### <a name="6-microsoft-365-app-launcher"></a>6. **Iniciador de aplicações do Microsoft 365**
+Com o iniciador de aplicações, todas as aplicações do Microsoft 365 estão facilmente disponíveis com um clique. Aqui pode iniciar rapidamente o e-mail, os documentos, o calendário, entre outros.
 
 ![Iniciador de aplicações do Office](media/service-basic-concepts/power-bi-waffle.png)
 

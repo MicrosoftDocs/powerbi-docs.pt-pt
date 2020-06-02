@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/09/2020
+ms.date: 05/21/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 83f040fd021a3d3e1cd6ce344c84051c7ff58bb0
-ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
+ms.openlocfilehash: 9599d9b96b98feed4a8751c6bd028ca8b3f77ed3
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83383163"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793572"
 ---
 # <a name="personalize-visuals-in-a-report"></a>Personalizar os elementos visuais num relatório
 
@@ -117,7 +117,7 @@ Atualmente, a funcionalidade tem algumas limitações que devem ser tidas em con
 
 - A opção **Personalizar este elemento visual** pode ser desativada para um relatório inteiro ou para um determinado elemento visual. Se não tiver opção de personalizar um elemento visual, consulte o administrador do inquilino ou o proprietário do relatório. Para apresentar informações de contacto do proprietário do relatório, selecione o nome do relatório na barra de menus do Power BI.
 - As explorações de utilizadores não persistem automaticamente. Tem de guardar a sua vista como um marcador pessoal para capturar as alterações.
-- Não pode alterar elementos visuais enquanto está nas aplicações móveis do Power BI. No entanto, todas as alterações a elementos visuais que guardar num marcador pessoal enquanto está no serviço Power BI serão respeitadas nas aplicações móveis.
+- Esta funcionalidade é suportada nas aplicações móveis do Power BI para tablets iOS e Android e na aplicação Windows do Power BI; não é suportada nas aplicações móveis do Power BI para telemóveis. No entanto, qualquer alteração a um elemento visual que guardar num marcador pessoal enquanto está no serviço Power BI será respeitada em todas as aplicações móveis do Power BI.
 
 Também existem problemas conhecidos que estamos a resolver:
 

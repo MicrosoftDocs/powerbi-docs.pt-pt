@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 05/26/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4b80d329c89299cbe87fb29aa340733f0031192a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6e3d44c9871332842ed0e3f3d9b9fb5fc64a5a65
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348997"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121109"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Criar perguntas em destaque para as Perguntas e Respostas do Power BI
 Se possui um conjunto de dados, pode adicionar as suas próprias perguntas em destaque para esse conjunto de dados. As Perguntas e Respostas do Power BI mostrarão essas perguntas a colegas que consumem relatórios baseados nesse conjunto de dados.  As perguntas em destaque fornecem aos seus colegas algumas ideias sobre os tipos de perguntas que eles podem fazer sobre o conjunto de dados. As perguntas em destaque adicionadas são decididas por si; pode adicionar perguntas populares, perguntas que mostram resultados interessantes ou perguntas que podem ser difíceis de formular.
@@ -40,7 +40,7 @@ Este artigo usa o [exemplo de Vendas de Análise de Revenda](sample-datasets.md)
 6. Navegue de volta para o dashboard do Power BI, para o Exemplo de Análise de Revenda, e coloque o cursor na caixa de perguntas das Perguntas e Respostas.   
    ![Caixa Perguntas e Respostas com uma pergunta em destaque](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question-to-start.png)
 7. A nova pergunta em destaque, **Vendas por território como mapa**, é a primeira na lista. Selecione-a.  
-8. A resposta é apresentada como uma visualização de mapa preenchido.  
+8. O Power BI cria a resposta e apresenta-a como uma visualização de mapa preenchido.  
    ![Pergunta em destaque das Perguntas e Respostas respondida: visualização de mapas](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question.png)
 
 ## <a name="next-steps"></a>Próximos passos

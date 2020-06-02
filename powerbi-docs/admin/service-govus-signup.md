@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 3f001c91c89b18b43c953669272b4d5be37dd154
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2701765ce9d9a059016265049ddecf444a0640ea
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135537"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792951"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Inscrever a organização do Governo Norte-Americano no serviço Power BI
 
-Existe uma versão do serviço Power BI como parte dos [Planos do Office 365 para o Governo Norte-Americano](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans?rtc=1). Este artigo foi concebido para os clientes do Governo Norte-Americano e o processo de inscrição descrito aqui é diferente da versão comercial do serviço Power BI.
+Existe uma versão do serviço Power BI como parte dos [Planos do Microsoft 365 para o Governo Norte-Americano](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans?rtc=1). Este artigo foi concebido para os clientes do Governo Norte-Americano e o processo de inscrição descrito aqui é diferente da versão comercial do serviço Power BI.
 
 Para obter mais informações sobre o serviço Power BI para o Governo Norte-Americano, veja [Power BI para clientes do Governo Norte-Americano – Descrição geral](service-govus-overview.md).
 
@@ -29,19 +29,19 @@ Para obter mais informações sobre o serviço Power BI para o Governo Norte-Am
 
 ## <a name="select-the-right-sign-up-process-for-your-us-government-organization"></a>Selecionar o processo de inscrição correto para a organização do Governo Norte-Americano
 
-A sua organização do Governo Norte-Americano pode ser nova na Cloud da Comunidade Governamental ou pode já possuir uma subscrição. As secções seguintes detalham os passos de inscrição com base no seu nível de conhecimento dos Planos do Office 365 para o Governo Norte-Americano e do Power BI. Estes passos são diferentes dependendo da sua inscrição atual.
+A sua organização do Governo Norte-Americano pode ser nova na Cloud da Comunidade Governamental ou pode já possuir uma subscrição. As secções seguintes detalham os passos de inscrição com base no seu nível de conhecimento dos Planos do Microsoft 365 para o Governo Norte-Americano e do Power BI. Estes passos são diferentes dependendo da sua inscrição atual.
 
 Após inscrever-se no Power BI para o Governo Norte-Americano, trabalhe com a sua equipa de conta para iniciar o [processo de *adição à lista de permissões*](#additional-signup-information) descrito neste artigo. Este passo é necessário para ativar totalmente a sua organização na Cloud da Comunidade Governamental.
 
-## <a name="sign-up-for-a-new-office-365-government-plan"></a>Inscreva-se num novo Plano do Office 365 para o Governo Norte-Americano
+## <a name="sign-up-for-a-new-microsoft-365-government-plan"></a>Inscrever-se num novo Plano do Microsoft 365 para o Governo Norte-Americano
 
-Se a sua organização for nova na Cloud da Comunidade Governamental, siga estes passos para obter um Plano do Office 365 para o Governo Norte-Americano:
+Se a sua organização for nova na cloud da comunidade governamental, siga estes passos para obter um Plano do Microsoft 365 para o Governo Norte-Americano:
 
 > [!NOTE]
 > Estes passos devem ser realizados pelo administrador global.
 >
 
-1. Aceda a [Planos do Office 365 para o Governo Norte-Americano](https://products.office.com/government/office-365-web-services-for-government).
+1. Aceda aos [Planos do Microsoft 365 para o Governo Norte-Americano](https://products.office.com/government/office-365-web-services-for-government).
 2. Selecione **Começar a utilizar uma avaliação gratuita**.
 3. Preencha este formulário para nos informar sobre a sua organização. Utilize o menu pendente para selecionar o tipo de organização.
 
@@ -49,11 +49,11 @@ Se a sua organização for nova na Cloud da Comunidade Governamental, siga estes
 
 4. Submeta o formulário para iniciar o processo de inclusão. O seu parceiro ou representante da Microsoft poderá ajudá-lo, em caso de dúvidas.
 
-Após o processo estar concluído, siga os passos dos clientes existentes do Office 365 para o Governo Norte-Americano para adicionar uma subscrição do Power BI.
+Após o processo estar concluído, siga os passos dos clientes existentes do Microsoft 365 para o Governo Norte-Americano para adicionar uma subscrição do Power BI.
 
-## <a name="add-power-bi-to-an-office-365-government-plan"></a>Adicionar o Power BI a um Plano do Office 365 para o Governo Norte-Americano
+## <a name="add-power-bi-to-a-microsoft-365-government-plan"></a>Adicionar o Power BI a um Plano do Microsoft 365 para o Governo Norte-Americano
 
-Se a sua organização já possuir um plano do Office 365 para o Governo Norte-Americano, siga estes passos para adicionar uma subscrição do Power BI:
+Se a sua organização já possuir um plano do Microsoft 365 para o Governo Norte-Americano, siga estes passos para adicionar uma subscrição do Power BI:
 
 > [!NOTE]
 > Estes passos devem ser realizados pelo administrador global.

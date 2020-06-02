@@ -1,21 +1,21 @@
 ---
-title: Power BI permissions (Permissões do Power BI)
-description: Power BI permissions (Permissões do Power BI)
+title: Permissões do Power BI
+description: Permissões do Power BI
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/01/2018
-ms.openlocfilehash: 51c43a19613381d39e0397864e55baed2022663c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/19/2020
+ms.openlocfilehash: 7d33a8ee54595870850accc52f4aabb82d195b62
+ms.sourcegitcommit: 4a975334d5b94144f4570a6435574d4484b77af2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79491370"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83838520"
 ---
-# <a name="power-bi-permissions"></a>Power BI permissions (Permissões do Power BI)
+# <a name="power-bi-permissions"></a>Permissões do Power BI
 
 ## <a name="permission-scopes"></a>Âmbitos de permissão
 
@@ -23,20 +23,22 @@ As permissões do Power BI fornecem a uma aplicação a capacidade de executar d
 
 | Nome a Apresentar | Descrição | Valor do Âmbito |
 | --- | --- | --- |
-| Ver Todos os Conjuntos de Dados |A aplicação pode ver todos os conjuntos de dados do utilizador com sessão iniciada e os conjuntos de dados a que o utilizador tem acesso. |Dataset.Read.All |
-| Ler e Escrever Todos os Conjuntos de Dados |A aplicação pode ver e escrever em todos os conjuntos de dados do utilizador com sessão iniciada e os conjuntos de dados a que o utilizador tem acesso. |Dataset.ReadWrite.All |
+| Ver todos os Conjuntos de Dados |A aplicação pode ver todos os conjuntos de dados do utilizador com sessão iniciada e os conjuntos de dados a que o utilizador tem acesso. |Dataset.Read.All |
+| Ler e Escrever todos os Conjuntos de Dados |A aplicação pode ver e escrever em todos os conjuntos de dados do utilizador com sessão iniciada e os conjuntos de dados a que o utilizador tem acesso. |Dataset.ReadWrite.All |
 | Adicionar dados ao conjunto de dados de um utilizador |Dá acesso a uma aplicação para adicionar ou eliminar linhas de conjuntos de dados de um utilizador. Esta permissão não concede o acesso da aplicação aos dados do utilizador. |Data.Alter_Any |
-| Create content |A aplicação pode criar conteúdos e conjuntos de dados automaticamente para um utilizador. |Content.Create |
+| Criar conteúdos |A aplicação pode criar conteúdos e conjuntos de dados automaticamente para um utilizador. |Content.Create |
 | Ver Grupos de Utilizadores |A aplicação pode ver todos os grupos a que o utilizador com sessão iniciada pertence. |Group.Read |
 | Ver todos os Grupos |A aplicação pode ver todos os grupos a que o utilizador com sessão iniciada pertence. |Group.Read.All |
-| Ler e escrever todos os Grupos |A aplicação pode ver e escrever em todos os grupos do utilizador com a sessão iniciada e todos os grupos a que o utilizador tenha acesso. |Group.ReadWrite.All |
+| Ler e escrever todos os Grupos |A aplicação pode ver e escrever em todos os grupos do utilizador com sessão iniciada e todos os grupos a que o utilizador tenha acesso. |Group.ReadWrite.All |
 | Ver todos os Dashboards |A aplicação pode ver todos os dashboards do utilizador com sessão iniciada e os dashboards a que o utilizador com sessão iniciada tem acesso. |Dashboard.Read.All |
-| Ver todos os Relatórios |A aplicação pode ver todos os relatórios para o utilizador com a sessão iniciada e os relatórios a que o utilizador tem acesso. A aplicação também pode ver os dados nos relatórios, bem como a sua estrutura. |Report.Read.All |
-| Ler e escrever todos os Relatórios |A aplicação pode ver e escrever para todos os relatórios para o utilizador com a sessão iniciada e quaisquer relatórios a que o utilizador tenha acesso. Isto não fornece direitos para criar um novo relatório. |Report.ReadWrite.All |
-| Ler e escrever em todas as Capacidades |A aplicação pode ver e escrever em todas as capacidades do utilizador com a sessão iniciada e todas as capacidades a que o utilizador tenha acesso. Isto não concede direitos para criar uma nova capacidade. |Capacities.ReadWrite.All |
+| Ler e escrever todos os dashboards | A aplicação pode ver e editar todos os dashboards do utilizador com sessão iniciada e os dashboards a que o utilizador com sessão iniciada tem acesso. | Dashboard.ReadWrite.All |
+| Ver todos os Relatórios |A aplicação pode ver todos os relatórios do utilizador com sessão iniciada e os relatórios a que o utilizador tem acesso. A aplicação também pode ver os dados nos relatórios, bem como a sua estrutura. |Report.Read.All |
+| Ler e escrever todos os Relatórios |A aplicação pode ver e escrever em todos os relatórios do utilizador com sessão iniciada e quaisquer relatórios a que o utilizador tenha acesso. Isto não fornece direitos para criar um novo relatório. |Report.ReadWrite.All |
+| Ler e escrever em todas as Capacidades |A aplicação pode ver e escrever em todas as capacidades do utilizador com sessão iniciada e todas as capacidades a que o utilizador tenha acesso. Isto não concede direitos para criar uma nova capacidade. |Capacities.ReadWrite.All |
 | Ler todas as Capacidades |A aplicação pode ver e escrever em todas as capacidades para o utilizador com a sessão iniciada e todas as capacidades a que o utilizador tenha acesso. Isto não concede direitos para criar uma nova capacidade. |Capacities.Read.All |
-| Ler e escrever em todos os conteúdos no inquilino |A aplicação pode ver e escrever em todos os artefactos, tais como grupos, relatórios, dashboards e conjuntos de dados no Power BI. Isto desde que o utilizador com sessão iniciada seja um administrador de serviços do Power BI. |Tenant.ReadWrite.All |
-| Ver todos os conteúdos no inquilino |A aplicação pode ver todos os artefactos, tais como grupos, relatórios, dashboards e conjuntos de dados no Power BI. Isto desde que o utilizador com sessão iniciada seja um administrador de serviços do Power BI. |Tenant.Read.All |
+| Ler e escrever em todos os conteúdos no inquilino |A aplicação pode ver e escrever em todos os artefactos, tais como grupos, relatórios, dashboards e conjuntos de dados no Power BI. Desde que o utilizador com sessão iniciada seja um Administrador de serviço do Power BI. |Tenant.ReadWrite.All |
+| Ver todos os conteúdos no inquilino |Se o utilizador com sessão iniciada for um Administrador de serviço do Power BI, a aplicação poderá ver e escrever em todos os artefactos no Power BI, incluindo grupos, relatórios, dashboards e conjuntos de dados. |Tenant.Read.All |
+| Ler e escrever todas as áreas de trabalho | A aplicação pode ver e editar todas as áreas de trabalho a que o utilizador com sessão iniciada tem acesso. | Workspace.ReadWrite.All |
 
 Uma aplicação pode pedir permissões quando tentar iniciar sessão pela primeira vez na página de um utilizador ao transmitir as permissões pedidas no parâmetro de âmbito da chamada. Se as permissões forem concedidas, será devolvido um token de acesso à aplicação, que pode ser utilizado nas chamadas de API futuras. O acesso pode ser utilizado apenas por uma aplicação específica.
 
@@ -53,4 +55,4 @@ Embora possa chamar a API para autenticar com um nome de utilizador e palavra-pa
 * **Token de Autorização** – Utilizado para autenticar chamadas de API em nome de outro utilizador. O âmbito será uma aplicação específica. Os tokens têm um tempo de vida definido e quando expiram têm de ser atualizados.
 * **Atualizar Token** – Quando os tokens expiram, existe um processo para atualizá-los.
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/).

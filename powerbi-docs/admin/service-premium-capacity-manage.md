@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 2e32a61891cee2fb5e2a80167d5283962dc164bb
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fdb3db1db1fe82743658f6a6073386701e7fe961
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83134851"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121001"
 ---
 # <a name="managing-premium-capacities"></a>Gerir as capacidades Premium
 
@@ -23,7 +23,7 @@ A gestão do Power BI Premium envolve a criação, a gestão e a monitorização
 
 ## <a name="creating-and-managing-capacities"></a>Criar e gerir capacidades
 
-A página **Definições de Capacidade** do portal de Administração do Power BI apresenta o número de núcleos virtuais comprados e capacidades Premium disponíveis. A página permite que os administradores globais do Office 365 ou os administradores de serviço do Power BI criem capacidades Premium a partir de núcleos virtuais disponíveis ou modifiquem as capacidades Premium existentes.
+A página **Definições de Capacidade** do portal de Administração do Power BI apresenta o número de núcleos virtuais comprados e capacidades Premium disponíveis. A página permite que os Administradores globais ou os administradores do serviço do Power BI criem capacidades Premium a partir de núcleos virtuais disponíveis ou modifiquem as capacidades Premium existentes.
 
 Quando cria uma capacidade Premium, os administradores têm de definir:
 
@@ -47,7 +47,7 @@ O tamanho da capacidade é selecionado a partir de uma lista disponível de opç
 
 Uma capacidade Premium pode ser atribuída a uma região que não seja a região base do inquilino do Power BI, conhecida como multi-geo. A multi-geo fornece controlo administrativo sobre quais datacenters em regiões geográficas definidas em que o seu conteúdo de Power BI reside. A lógica para uma implementação multi-geo é normalmente para conformidade corporativa ou governamental, em vez de desempenho e dimensionamento. O carregamento de relatórios e dashboards ainda envolve pedidos de metadados à região base. Para saber mais, veja [Suporte da Multi-Geo para o Power BI Premium](service-admin-premium-multi-geo.md).
 
-Os administradores de serviço do Power BI e os Administradores Globais do Office 365 podem modificar as capacidades Premium. Especificamente, podem:
+Os administradores do serviço do Power BI e os Administradores Globais podem modificar as capacidades Premium. Especificamente, podem:
 
 - Alterar o tamanho da capacidade para aumentar ou reduzir a dimensão dos recursos.
 - Adicionar ou remover Administradores de Capacidade.
@@ -67,7 +67,7 @@ A eliminação de uma capacidade Premium é possível e não resultará na elimi
 
 As áreas de trabalho podem ser atribuídas a uma capacidade Premium no Portal de administração do Power BI ou, para uma área de trabalho, no painel **Área de trabalho**.
 
-Os Administradores de Capacidade, bem como os Administradores Globais do Office 365 ou os administradores de serviço do Power BI, podem atribuir áreas de trabalho em massa no portal de Administração do Power BI. A atribuição em massa pode aplicar-se a:
+Os Administradores de Capacidade, bem como os Administradores Globais ou os administradores do serviço do Power BI, podem atribuir áreas de trabalho em massa no Portal de administração do Power BI. A atribuição em massa pode aplicar-se a:
 
 - **Áreas de trabalho por utilizadores** – Todas as áreas de trabalho pertencentes a esses utilizadores, incluindo áreas de trabalho pessoais, são atribuídas à capacidade Premium. Tal incluirá a reatribuição de áreas de trabalho quando já estiverem atribuídas a uma capacidade Premium diferente. Além disso, os utilizadores também recebem permissões de atribuição de áreas de trabalho.
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 4e1fd6a3f6db4ec58fc5eafa1033175edebd82fa
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141782"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733514"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>Tutorial: Criar e publicar um pacote de conteúdos organizacionais do Power BI
 
@@ -47,7 +47,7 @@ Quer acompanhar? No [serviço Power BI](https://powerbi.com), aceda a **A Minha 
 
     1. Selecione **Grupos Específicos**.
 
-    1. Introduza os endereços de e-mail completos de pessoas, [grupos do Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), grupos de distribuição ou grupos de segurança. Por exemplo: salesmgrs@contoso.com; sales@contoso.com
+    1. Introduza os endereços de e-mail completos das pessoas, dos [grupos do Microsoft 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), dos grupos de distribuição ou dos grupos de segurança. Por exemplo: salesmgrs@contoso.com; sales@contoso.com
 
         Neste tutorial, experimente utilizar o endereço de e-mail do seu grupo.
 

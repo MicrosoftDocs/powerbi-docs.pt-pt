@@ -1,22 +1,22 @@
 ---
-title: Introdução aos conjuntos de dados em áreas de trabalho (Pré-visualização)
+title: Introdução aos conjuntos de dados em áreas de trabalho
 description: Saiba como partilhar um conjunto de dados com vários utilizadores na organização. Em seguida, estes poderão compilar relatórios com base no seu conjunto de dados nas suas próprias áreas de trabalho.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fe0478a7fa570b4d88f4493c4b27fec083041ae
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0458498b5677f20bac3a2e50f884d820ef1c3648
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285469"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793617"
 ---
-# <a name="intro-to-datasets-across-workspaces-preview"></a>Introdução aos conjuntos de dados em áreas de trabalho (Pré-visualização)
+# <a name="intro-to-datasets-across-workspaces"></a>Introdução aos conjuntos de dados em áreas de trabalho
 
 O business intelligence é uma atividade de colaboração. É importante estabelecer conjuntos de dados padronizados para servirem como as únicas versões dos dados. Assim sendo, a deteção e reutilização destes conjuntos de dados padronizados é vital. Quando os modeladores de dados da sua organização criam e partilham conjuntos de dados otimizados, os criadores de relatórios podem utilizá-los como ponto de partida para compilarem relatórios precisos. Assim, a sua organização tem dados consistentes para a tomada de decisões e uma boa cultura de dados.
 
@@ -33,9 +33,9 @@ A compilação de relatórios baseados em conjuntos de dados em diferentes área
 - No Power BI Desktop, pode publicar relatórios do Live Connect em diferentes áreas de trabalho, desde que os seus conjuntos de dados estejam em novas experiências de área de trabalho.
 - Ao copiar relatórios em diferentes áreas de trabalho, a área de trabalho de destino tem de ser uma nova experiência de área de trabalho.
 
-## <a name="discover-datasets-preview"></a>Detetar conjuntos de dados (Pré-visualização)
+## <a name="discover-datasets"></a>Detetar conjuntos de dados
 
-Ao compilar um relatório com base num conjunto de dados existente, o primeiro passo é ligar ao conjunto de dados no serviço Power BI ou Power BI Desktop. Saiba mais sobre a [deteção de conjuntos de dados de diferentes áreas de trabalho (Pré-visualização)](service-datasets-discover-across-workspaces.md)
+Ao compilar um relatório com base num conjunto de dados existente, o primeiro passo é ligar ao conjunto de dados no serviço Power BI ou Power BI Desktop. Saiba mais sobre a [deteção de conjuntos de dados de diferentes áreas de trabalho](service-datasets-discover-across-workspaces.md)
 
 ## <a name="copy-a-report"></a>Copiar um relatório
 

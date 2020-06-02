@@ -1,22 +1,22 @@
 ---
-title: Copiar relatórios de outras aplicações ou áreas de trabalho (Pré-visualização) – Power BI
+title: Copiar relatórios de outras aplicações ou áreas de trabalho – Power BI
 description: Saiba como criar uma cópia de um relatório e como a guardar na sua área de trabalho.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d70f029568dca578bb76350a42b5146ecc335759
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83312632"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793089"
 ---
-# <a name="copy-reports-from-other-workspaces-preview"></a>Copiar relatórios de outras áreas de trabalho (Pré-visualização)
+# <a name="copy-reports-from-other-workspaces"></a>Copiar relatórios de outras áreas de trabalho
 
 Quando encontrar um relatório do seu agrado numa área de trabalho ou numa aplicação, poderá fazer uma cópia do mesmo e guardá-lo numa área de trabalho diferente. Em seguida, poderá modificar a sua cópia do relatório ao adicionar ou eliminar elementos visuais e outros elementos. Não tem de se preocupar com a criação do modelo de dados. Já terá sido criado automaticamente. Além disso, é muito mais fácil modificar um relatório existente do que começar do zero. No entanto, quando criar uma aplicação a partir da área de trabalho, nem sempre pode publicar a cópia do relatório na aplicação. Veja [Considerações e limitações no artigo "Utilizar conjuntos de dados em várias áreas de trabalho"](service-datasets-across-workspaces.md#considerations-and-limitations) para obter detalhes.
 
@@ -86,7 +86,7 @@ Quando tem um relatório numa área de trabalho baseada num conjunto de dados no
 
 1. A caixa de diálogo **Conteúdos relacionados** apresenta todos os itens relacionados. Nesta lista, o conjunto de dados tem um aspeto semelhante a qualquer outro. Não é possível perceber que reside numa área de trabalho diferente. Este problema é conhecido.
  
-    ![Caixa de diálogo Conteúdos relacionados](media/service-datasets-copy-reports/power-bi-dataset-related.png)
+    ![Caixa de diálogo Conteúdo relacionado](media/service-datasets-copy-reports/power-bi-dataset-related.png)
 
 ## <a name="delete-a-report-and-its-shared-dataset"></a>Eliminar um relatório e o respetivo conjunto de dados partilhado
 
@@ -104,7 +104,7 @@ Pode decidir que não quer mais o relatório e o respetivo conjunto de dados par
     > Eliminar o conjunto de dados partilhado nesta área de trabalho não elimina o conjunto de dados. Elimina apenas a referência ao mesmo.
 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
-- [Use datasets across workspaces (Preview)](service-datasets-across-workspaces.md) (Utilizar conjuntos de dados em várias áreas de trabalho [Pré-visualização])
-- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- [Utilizar conjuntos de dados em áreas de trabalho](service-datasets-across-workspaces.md)
+- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -1,22 +1,22 @@
 ---
-title: Criar relatórios baseados em conjuntos de dados de diferentes áreas de trabalho (Pré-visualização) – Power BI
-description: Aprenda a partilhar um conjunto de dados com utilizadores na organização. Em seguida, estes poderão criar relatórios com base no seu conjunto de dados nas suas próprias áreas de trabalho.
+title: Criar relatórios baseados em conjuntos de dados de diferentes áreas de trabalho – Power BI
+description: Saiba como partilhar um conjunto de dados com vários utilizadores na organização. Em seguida, estes poderão compilar relatórios com base no seu conjunto de dados nas suas próprias áreas de trabalho.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af8cab7403a0ee34505ff395248aec188fd54666
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0e7574f9f1d3b4d6c818115af1f2cb4dcd7b8374
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284733"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793039"
 ---
-# <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>Criar relatórios baseados em conjuntos de dados de diferentes áreas de trabalho (Pré-visualização)
+# <a name="create-reports-based-on-datasets-from-different-workspaces"></a>Criar relatórios baseados em conjuntos de dados de diferentes áreas de trabalho
 
 Aprenda a criar relatórios nas suas próprias áreas de trabalho, com base em conjuntos de dados noutras áreas de trabalho. Pode criar um relatório com base num conjunto de dados existente a partir do Power BI Desktop ou do serviço Power BI, em A Minha Área de Trabalho ou numa [nova experiência de área de trabalho](../collaborate-share/service-create-the-new-workspaces.md).
 
@@ -61,5 +61,5 @@ Há dois tipos de conjuntos de dados recomendados. Os proprietários de conjunto
 
 ## <a name="next-steps"></a>Próximos passos
 
-- [Use datasets across workspaces (Preview)](service-datasets-across-workspaces.md) (Utilizar conjuntos de dados em várias áreas de trabalho [Pré-visualização])
+- [Utilizar conjuntos de dados em áreas de trabalho](service-datasets-across-workspaces.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

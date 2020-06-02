@@ -1,37 +1,32 @@
 ---
-title: Use the updated ribbon in Power BI Desktop (preview) (Utilizar o friso atualizado no Power BI Desktop [pré-visualização])
+title: Use the updated ribbon in Power BI Desktop (Utilizar o friso atualizado no Power BI Desktop)
 description: Navegue facilmente por menus e comandos com o novo friso do Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/20/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c406782d8e27cf57a60504c2cf05a5079e3580ce
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6df5c0310fca47dfd590671766c47349ebb47f7f
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349201"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793980"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Use the updated ribbon in Power BI Desktop (Utilizar o friso atualizado no Power BI Desktop)
 
-A partir da atualização de março de 2020, o Power BI Desktop vai reformular o friso para alinhar o aspeto e a experiência da melhor forma com outros produtos da Microsoft, como o Microsoft Office. O friso atualizado aparece nas atualizações mensais de novembro de 2019 como uma funcionalidade de pré-visualização e, a partir da atualização de março de 2020, o novo friso será a experiência predefinida.
+O Power BI Desktop reformulou o friso para alinhar o aspeto e a experiência da melhor forma com outros produtos da Microsoft, como o Microsoft Office.
 
 ![Novo friso do Power BI Desktop](media/desktop-ribbon/desktop-ribbon-02.png)
 
 ## <a name="how-to-enable-the-updated-ribbon"></a>Como ativar o friso atualizado
 
-A partir da atualização de março de 2020, o friso atualizado estará ativo por predefinição. Para as versões do Power BI Desktop anteriores a esta atualização (a partir da atualização de novembro de 2019), o friso atualizado no Power BI é uma funcionalidade de pré-visualização que tem de ser ativada. Para a ativar nessas atualizações anteriores, selecione **Ficheiro > Opções e definições > Opções** e, em seguida, selecione **Funcionalidades de pré-visualização** na coluna esquerda. No painel direito, existe uma seleção para o **Friso atualizado**. Marque a caixa ao lado de **Friso atualizado** para ativar a funcionalidade de pré-visualização. Terá de reiniciar o Power BI Desktop para que a alteração da funcionalidade de pré-visualização produza efeito.
+O friso atualizado estará geralmente disponível a partir do lançamento de maio de 2020 do Power BI Desktop. A partir da atualização de março de 2020, o friso atualizado estará ativo por predefinição. 
 
-![Opção Friso atualizado do Power BI Desktop](media/desktop-ribbon/desktop-ribbon-01.png)
-
-> [!NOTE]
-> Para as versões do Power BI Desktop a partir de março de 2020, não é necessário ativar o friso atualizado, porque o novo friso será a experiência predefinida a partir de março de 2020.
-
-## <a name="features-of-the-new-ribbon"></a>Funcionalidades do novo friso
+## <a name="features-of-the-updated-ribbon"></a>Caraterísticas do friso atualizado
 
 Os benefícios da atualização do nosso friso destinam-se a fazer com que a experiência no Power BI Desktop, bem como noutros produtos da Microsoft, seja simples e familiar. 
 
@@ -71,11 +66,11 @@ Para além das alterações visíveis, um friso atualizado também nos permite e
 * Melhorar a acessibilidade
 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
 * [Origens de Dados no Power BI Desktop](../connect-data/desktop-data-sources.md)
-* [Moldar e Combinar Dados com o Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
+* [Formatar e Combinar Dados com o Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
 * [Ligar a livros do Excel no Power BI Desktop](../connect-data/desktop-connect-excel.md)   
 * [Introduzir dados diretamente no Power BI Desktop](../connect-data/desktop-enter-data-directly-into-desktop.md)   

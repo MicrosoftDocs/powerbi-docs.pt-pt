@@ -1,20 +1,20 @@
 ---
-title: Publish from Power BI Desktop (Publicar a partir do Power BI Desktop)
-description: Publish from Power BI Desktop (Publicar a partir do Power BI Desktop)
+title: Publicar a partir do Power BI Desktop
+description: Publicar a partir do Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 05/20/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a67c36b2594696e1c576693cc5808eb0227c1c7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4a363ce72002003981f1bcbe46e0f5367f89860f
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83333493"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733484"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Publicar conjuntos de dados e relatórios a partir do Power BI Desktop
 Quando publica um ficheiro do Power BI Desktop no serviço Power BI, os dados no modelo são publicados na sua área de trabalho do Power BI. O mesmo acontece com quaisquer relatórios que tenha criado na vista **Relatório**. Verá um novo conjunto de dados com o mesmo nome e todos os relatórios no navegador da Área de Trabalho.
@@ -49,5 +49,9 @@ Este processo é muito simples, mas existem alguns aspetos que deve saber:
 * Se mudar o nome ou eliminar uma coluna ou medida, quaisquer visualizações já existentes no Power BI com esse campo podem ficar corrompidas. 
 * O Power BI ignora as alterações de formato de colunas existentes. Por exemplo, se alterar o formato de uma coluna de 0,25% para 25%.
 * Digamos que tem uma agenda de atualização configurada para o seu conjunto de dados existente no Power BI. Quando adicionar novas origens de dados ao seu ficheiro e depois voltar a publicar, terá de iniciar sessão nessas origens antes da próxima atualização agendada.
-* Quando publica novamente um conjunto de dados a partir do Power BI Desktop e tem uma agenda de atualização definida, é iniciada uma atualização do conjunto de dados assim que volta a publicar. 
+* Quando publica novamente um conjunto de dados a partir do Power BI Desktop e tem uma agenda de atualização definida, é iniciada uma atualização do conjunto de dados assim que volta a publicar.
+* Quando faz uma alteração a um conjunto de dados e, em seguida, o publica novamente, uma mensagem mostra quantas áreas de trabalho, relatórios e dashboards são potencialmente afetados pela alteração e pede para confirmar se quer substituir o conjunto de dados publicado atualmente pelo modificado. A mensagem também fornece uma ligação para a análise completa de impacto dos conjuntos de dados no serviço Power BI, onde pode ver mais informações e efetuar ações para mitigar os riscos da alteração.
 
+   ![Aviso sobre o impacto de voltar a publicar um conjunto de dados](media/desktop-upload-desktop-files/pbid-dataset-impact-analysis-desktop-warning.png)
+
+   [Saiba mais sobre a Análise de impacto dos conjuntos de dados](../collaborate-share/service-dataset-impact-analysis.md).

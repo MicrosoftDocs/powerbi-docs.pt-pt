@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1cd90c4348c33726cdf171f4948b617498c63a1f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3fcf15d7179c86b2c6859fe3c5704ac2cf1b9ce5
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348051"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733077"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Partilhar um dashboard do Power BI associado a um ficheiro do Excel no OneDrive
 No Power BI, pode [ligar a livros do Excel no OneDrive para Empresas](../connect-data/service-excel-workbook-files.md) e afixar mosaicos a um dashboard desse livro. Quando partilha esse dashboard ou cria um pacote de conteúdos que o inclui:
@@ -49,11 +49,11 @@ Quando [publica um pacote de conteúdos](service-organizational-content-pack-cre
 5. Selecione **Publicar**.
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Partilhar um dashboard a partir de uma área de trabalho do Power BI
-a partilha de um dashboard a partir de uma área de trabalho do Power BI é semelhante à partilha de um dashboard a partir da sua própria área de trabalho, exceto os ficheiros estarem localizados num site da área de trabalho do Office 365, em vez do seu OneDrive para Empresas privado. Modifique as permissões do livro do Excel antes de partilhar o dashboard com pessoas fora da área de trabalho.
+A partilha de um dashboard a partir de uma área de trabalho do Power BI é semelhante à partilha de um dashboard a partir da sua própria área de trabalho, exceto os ficheiros estarem localizados num site da área de trabalho do Microsoft 365, em vez de estarem no OneDrive para Empresas privado. Modifique as permissões do livro do Excel antes de partilhar o dashboard com pessoas fora da área de trabalho.
 
 ![Partilhar a partir do OneDrive](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_onedriveshare.png)
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 * [Afixar um mosaico a um dashboard do Power BI a partir do Excel](../create-reports/service-dashboard-pin-tile-from-excel.md)
 * [Conceitos básicos para designers no serviço Power BI](../fundamentals/service-basic-concepts.md)
 * Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

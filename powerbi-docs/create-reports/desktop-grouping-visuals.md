@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a3a7d7b0afa4a1eb3d6af81d3e6ba1315e291c4b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 25a0f5abe07b82c2397ab2800802eba6f624a27c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324730"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119950"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>Agrupar elementos visuais nos relatórios do Power BI Desktop
 Com o **agrupamento** no **Power BI Desktop**, pode agrupar elementos visuais no seu relatório, como botões, caixas de texto, formas, imagens e quaisquer elementos visuais que criar, tal como agrupa itens no PowerPoint. Agrupar elementos visuais num relatório permite que trate o grupo como um único objeto, movendo, redimensionando e trabalhando com camadas no seu relatório de forma mais fácil, rápida e intuitiva.
@@ -33,6 +33,8 @@ Os grupos são apresentados no painel de **Seleção**. Pode ter qualquer númer
 ![aninhar grupos](media/desktop-grouping-visuals/grouping-visuals-03.png)
 
 No painel **Seleção**, também pode arrastar e largar elementos visuais individuais para os incluir num grupo, removê-los de um grupo, aninhar um grupo ou remover um grupo ou elemento visual individual de um aninhamento. Basta arrastar o elemento visual que pretende ajustar e colocá-lo onde quiser. A disposição em camadas de elementos visuais, em caso de sobreposição, é determinada pela sua ordem na lista *Ordem de disposição em camadas*.
+
+Mudar o nome de um grupo é fácil: basta fazer duplo clique no nome do grupo no painel **Seleção** e, em seguida, escrever o novo nome do grupo.
 
 ![arrastar e largar grupos](media/desktop-grouping-visuals/grouping-visuals-04.png)
 
@@ -65,7 +67,7 @@ Também pode aplicar uma cor de fundo a um grupo com a secção **Formatação**
 Depois de aplicar uma cor de fundo, clicar no espaço entre elementos visuais no grupo seleciona o grupo (em contraste com o clicar no espaço em branco entre os elementos visuais num grupo, o que não seleciona o grupo). 
 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre agrupamentos, veja o seguinte vídeo:
 
 * [Agrupamentos no Power BI Desktop – vídeo](https://youtu.be/sf4n7VXoQHY?t=10)

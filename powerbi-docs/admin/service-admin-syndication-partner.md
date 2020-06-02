@@ -1,6 +1,6 @@
 ---
-title: Unable to add Power BI to O365 partner (Não é possível adicionar o Power BI ao parceiro do Office 365)
-description: Não é possível adicionar o Power BI a um parceiro de distribuição do Office 365. O modelo de distribuição é um modelo de compra utilizado pelo Office 365.
+title: Não é possível adicionar o Power BI ao parceiro do O365
+description: Não é possível adicionar o Power BI a um parceiro de distribuição do Microsoft 365. O modelo de distribuição é um modelo de compra utilizado pelo Microsoft 365.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 5907f23bb5bf1bcdc5a4ca3412e5331a09d145c9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2c590875b4dee81f7ca54434d6e5895be885be97
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344946"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812341"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Não é possível adicionar o Power BI a uma subscrição de parceiro do Office 365
 
-O Office 365 permite que as empresas o revendam acompanhado e integrado com as suas próprias soluções, fornecendo aos clientes finais um único ponto de contacto para compra, faturação e suporte.
+O Microsoft 365 permite que as empresas o revendam acompanhado e integrado com as suas próprias soluções, ao proporcionar aos clientes finais um único ponto de contacto para compra, faturação e suporte.
 
 Se estiver interessado em adquirir o Power BI, juntamente com a sua subscrição do Office 365, recomendamos que contacte o seu parceiro. Se o seu parceiro não oferecer atualmente o Power BI, poderá optar por opções diferentes.
 
@@ -52,13 +52,13 @@ Pode inscrever-se numa avaliação gratuita do Power BI. Se não comprar o Powe
 
 ### <a name="enable-ad-hoc-subscriptions"></a>Ativar as subscrições ad-hoc
 
-Por predefinição, as inscrições individuais (também conhecidas como subscrições ad-hoc) estão desativadas. Neste caso, pode ver a seguinte mensagem quando tentar inscrever-se: *O departamento de TI desativou a inscrição no Microsoft Power BI*.
+Por predefinição, as inscrições individuais (também conhecidas como subscrições ad-hoc) estão desativadas. Neste caso, é apresentada a seguinte mensagem quando se tenta inscrever: *O departamento de TI desativou a inscrição para o Microsoft Power BI*.
 
 ![Imagem Lamentamos](media/service-admin-syndication-partner/sorry.png)
 
 Para ativar as subscrições ad-hoc, contacte o seu parceiro e peça-lhe que as ative. Se for um administrador do inquilino e souber utilizar os comandos do Azure Active Directory PowerShell, poderá ativar as subscrições ad-hoc. [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2/) (Azure Active Directory PowerShell para Graph)
 
-1. Inicie sessão no Azure Active Directory com as suas credenciais do Office 365. A primeira linha do script abaixo pede-lhe as suas credenciais. Na segunda linha, é ligado ao Azure Active Directory.
+1. Inicie sessão no Azure Active Directory com as suas credenciais do Microsoft 365. A primeira linha do script abaixo pede-lhe as suas credenciais. Na segunda linha, será ligado ao Azure Active Directory.
 
     ```powershell
     $msolcred = get-credential
@@ -79,7 +79,7 @@ Para ativar as subscrições ad-hoc, contacte o seu parceiro e peça-lhe que as 
     Set-MsolCompanySettings -AllowAdHocSubscriptions $true
     ```
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 [Licenciamento do Power BI na sua organização](service-admin-licensing-organization.md)
 

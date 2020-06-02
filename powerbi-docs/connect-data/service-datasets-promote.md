@@ -1,27 +1,27 @@
 ---
-title: Promover o seu conjunto de dados (pré-visualização) – Power BI
+title: Promover o seu conjunto de dados – Power BI
 description: Aprenda a promover o seu conjunto de dados, para orientar os utilizadores empresariais na obtenção de conjuntos de dados fiáveis e de alta qualidade.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 379249ac50f61df07c4adaffe53e0df29a311086
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3e17b31aa75e1778e92408787a248db810d4d08d
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284756"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792986"
 ---
-# <a name="promote-your-dataset-preview"></a>Promover o seu conjunto de dados (Pré-visualização)
+# <a name="promote-your-dataset---power-bi"></a>Promover o conjunto de dados – Power BI
 
 Agora, os criadores de relatórios do Power BI podem ter acesso a muitos conjuntos de dados diferentes, pelo que as empresas têm de os orientar na obtenção de conjuntos de dados fiáveis e de alta qualidade. O Power BI fornece duas formas de *recomendar* conjuntos de dados:
 
 - **Promoção**: Enquanto proprietário de um conjunto de dados, pode promover os seus próprios conjuntos de dados quando estiverem prontos para serem disponibilizados para o público. Qualquer membro da área de trabalho com permissões de Escrita pode promover um conjunto de dados. Não existem restrições sobre quem pode promover um conjunto de dados. A promoção apoia a divulgação colaborativa dos conjuntos de dados nas organizações. Este artigo aborda a promoção do seu conjunto de dados.
-- **Certificação**: pode pedir a certificação de um conjunto de dados promovido. Um determinado grupo de utilizadores definido na definição de administração de inquilinos **Certificação de Conjunto de Dados** decide quais são os conjuntos de dados a certificar. Veja [Certify datasets (Preview)](service-datasets-certify.md) (Certificar conjuntos de dados [Pré-visualização]) para obter mais informações.
+- **Certificação**: pode pedir a certificação de um conjunto de dados promovido. Um determinado grupo de utilizadores definido na definição de administração de inquilinos **Certificação de Conjunto de Dados** decide quais são os conjuntos de dados a certificar. Veja [Certificar conjuntos de dados](service-datasets-certify.md) para obter mais informações.
 
 ## <a name="promote-a-dataset"></a>Promover um conjunto de dados
 

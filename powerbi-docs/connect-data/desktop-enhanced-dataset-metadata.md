@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/31/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 87b4be55b1b811f63dbb7fe271bc3c3fa4af2755
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 42e3f36689e62b196f5d8cb82bd4dd5ee118bf8b
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347430"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793388"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Using enhanced dataset metadata (preview) (Utilizar metadados de conjuntos de dados otimizados [pré-visualização])
 
@@ -42,6 +42,23 @@ Assim que a funcionalidade de pré-visualização é ativada, o Power BI Desktop
 > [!IMPORTANT]
 > A ativação da funcionalidade **metadados de conjuntos de dados otimizados** resulta numa atualização irreversível dos relatórios. Todos os relatórios do Power BI carregados ou criados no Power BI Desktop, uma vez ativados os **metadados de conjuntos de dados otimizados**, são irreversivelmente convertidos para o formato de metadados de conjuntos de dados otimizados.
 
+## <a name="report-backup-files"></a>Ficheiros de cópia de segurança de relatórios
+
+A atualização de um relatório para utilizar a funcionalidade **metadados de conjuntos de dados otimizados** é irreversível. No entanto, durante a atualização, é criado um ficheiro de cópia de segurança do relatório para guardar uma versão do relatório no formato original (pré-atualização). O ficheiro de cópia de segurança é removido após 30 dias. 
+
+Para localizar o ficheiro de relatório de cópia de segurança, faça o seguinte:
+
+1. Navegue para a seguinte localização: ```C:\Users\<user>\AppData\Local\Microsoft\Power BI Desktop\TempSaves\Backup```. Se utilizar a versão da Microsoft Store do Power BI Desktop, utilize a seguinte localização: ```C:\Users\<user>\Microsoft\Power BI Desktop Store App\TempSaves\Backups``` 
+
+2. Localize uma cópia do relatório nesse local com o nome e o carimbo data/hora do ficheiro original.
+
+3. Copie o ficheiro para uma localização à sua escolha, para o preservar.
+
+4. Confirme que a funcionalidade de pré-visualização **formato de metadados otimizados** está desativada no Power BI Desktop caso opte por abrir ou utilizar o ficheiro original. 
+
+O ficheiro de cópia de segurança é criado quando o relatório é atualizado, pelo que quaisquer alterações realizadas após a atualização não são incluídas. Os novos relatórios criados quando a funcionalidade **formato de metadados otimizados** está ativada não têm nenhum ficheiro de cópia de segurança.
+
+
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
 Na versão anterior, aplicam-se as seguintes limitações quando a funcionalidade de pré-visualização está ativa.
@@ -49,6 +66,7 @@ Na versão anterior, aplicam-se as seguintes limitações quando a funcionalidad
 ### <a name="unsupported-features-and-connectors"></a>Funcionalidades e conectores não suportados
 Após abrir um ficheiro PBIX ou PBIT existente que não foi atualizado, a atualização irá falhar se o conjunto de dados tiver qualquer um dos seguintes conectores ou funcionalidades. Se esta falha ocorrer, em princípio, não haverá impacto imediato na experiência de utilizador e o Power BI Desktop irá continuar a utilizar o formato de metadados anterior.
 
+* Todos os conectores personalizados
 * Scripts de Python
 * Conectores personalizados
 * Azure DevOps Server
@@ -66,7 +84,16 @@ Após abrir um ficheiro PBIX ou PBIT existente que não foi atualizado, a atuali
 * Expressões M com determinadas combinações de carateres como "\\n" em nomes de colunas
 * Ao utilizar conjuntos de dados com a funcionalidade **metadados de conjuntos de dados otimizados** ativa, as origens de dados de Início de Sessão Único (SSO) não podem ser configuradas no serviço Power BI
 
+Os relatórios que utilizarem esta lista de conectores não serão atualizados para o novo formato. Os relatórios que já foram atualizados, ou que foram criados posteriormente para permitir esta nova funcionalidade, não suportarão a adição das funcionalidades ou dos conectores não suportados listados. 
+
+As consultas com origens de dados dinâmicas não são suportadas. Os relatórios com origens de dados dinâmicas não serão atualizados para o novo formato e os relatórios que já foram atualizados ou foram recentemente criados com a funcionalidade ativada não suportarão a adição de origens de dados dinâmicas. Uma consulta terá uma origem de dados dinâmica se a origem mudar consoante um parâmetro, uma entrada de função ou uma função volátil. 
+
+As consultas com erros nos passos ou ramos a montante não são suportadas. 
+
 Além disso, os ficheiros PBIX e PBIT que já foram atualizados com êxito para utilizar **metadados de conjuntos de dados otimizados** *não podem* utilizar os conectores ou funcionalidades anteriormente referidos na versão atual.
+
+
+
 
 ### <a name="lineage-view"></a>Vista de linhagem
 Os conjuntos de dados que utilizam o novo formato de metadados não apresentam atualmente ligações para fluxos de dados na vista de linhagem do serviço Power BI.

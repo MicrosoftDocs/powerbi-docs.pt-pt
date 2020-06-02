@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/09/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dfd44b7130c1c7e4e1d2d7a9c9f15208cb0d9b0c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 05df39b58334b33046fde0f95b9f1ca596c1eec1
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563293"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120558"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Acerca de utilizar o DirectQuery no Power BI
 
@@ -184,7 +184,7 @@ Cada interação do utilizador no relatório poderá resultar na atualização d
 
 Da mesma forma, editar um relatório novo exige o envio de consultas para cada passo do caminho, para produzir o elemento visual final.
 
-Ocorre alguma colocação em cache de resultados. A atualização de um elemento visual é instantânea, caso já tenham sido obtidos recentemente os mesmos resultados. Se a segurança ao nível da linha não estiver definida, essas caches não serão partilhadas com os utilizadores.
+Ocorre alguma colocação em cache de resultados. A atualização de um elemento visual é instantânea, caso já tenham sido obtidos recentemente os mesmos resultados. Se a segurança ao nível da linha estiver definida, essas caches não serão partilhadas com os utilizadores.
 
 #### <a name="dashboard-refresh"></a>Atualização do Dashboard
 
@@ -359,13 +359,13 @@ Para algumas origens do DirectQuery, este registo inclui todas as consultas envi
 
 O ficheiro de rastreio está disponível na pasta *AppData* do utilizador atual:
 
-*\<Utilizador>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces*
+*\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces*
 
 Para aceder a esta pasta, no Power BI Desktop, selecione **Ficheiro** > **Opções e definições** > **Opções** e, em seguida, selecione **Diagnósticos**. É apresentada a seguinte caixa de diálogo:
 
 ![Uma ligação para abrir a pasta de rastreios](media/desktop-directquery-about/directquery-about_06.png)
 
-Ao selecionar **Abrir pasta de informação de falha de sistema/rastreios**, em **Opções de Diagnóstico**, é aberta a seguinte pasta: *\<Utilizador>\AppData\Local\Microsoft\Power BI Desktop\Traces*.
+Ao selecionar **Abrir pasta de informação de falha de sistema/rastreios**, em **Opções de Diagnóstico**, é aberta a seguinte pasta: *\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces*.
 
 Navegar para a pasta principal dessa pasta apresenta a pasta que contém *AnalysisServicesWorkspaces*, que irá conter uma pasta de área de trabalho para cada instância aberta do Power BI Desktop. Estas pastas incluem no nome um sufixo de número inteiro, como *AnalysisServicesWorkspace2058279583*.
 
@@ -381,7 +381,7 @@ Para abrir o ficheiro de rastreio, siga os passos abaixo:
 
 1. No SQL Server Profiler, selecione **Ficheiro** > **Abrir** > **Ficheiro de rastreio**.
 
-1. Introduza o caminho para o ficheiro de rastreio da sessão do Power BI atualmente iniciada, tal como: *C:\Utilizadores\<utilizador>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data*.
+1. Introduza o caminho para o ficheiro de rastreio da sessão do Power BI atualmente iniciada, tal como: *C:\Utilizadores\<user>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data*.
 
 1. Abra o ficheiro *FlightRecorderCurrent.trc*.
 

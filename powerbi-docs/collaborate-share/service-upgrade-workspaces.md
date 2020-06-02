@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7a1922dabc267249dc4ae419f295d2c05e30d5fd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: faa4c567af6cf27ea852f17a2ba3a11e4f651dc3
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83146168"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733537"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Atualizar as áreas de trabalho clássicas para as novas áreas de trabalho no Power BI
 
-Este artigo explica como atualizar ou *migrar* uma área de trabalho clássica para a nova experiência de área de trabalho. Pode atualizar qualquer área de trabalho clássica. As novas áreas de trabalho têm funções de área de trabalho mais granulares, para que possa gerir melhor o acesso ao conteúdo. Tem também maior flexibilidade para gerir as áreas de trabalho atualizadas, uma vez que estão ligadas mais livremente ao grupo original do Office 365. Saiba mais sobre a [nova experiência de área de trabalho](service-new-workspaces.md). 
+Este artigo explica como atualizar ou *migrar* uma área de trabalho clássica para a nova experiência de área de trabalho. Pode atualizar qualquer área de trabalho clássica. As novas áreas de trabalho têm funções de área de trabalho mais granulares, para que possa gerir melhor o acesso ao conteúdo. Tem também maior flexibilidade para gerir as áreas de trabalho atualizadas, uma vez que estão ligadas mais livremente ao grupo original do Microsoft 365. Saiba mais sobre a [nova experiência de área de trabalho](service-new-workspaces.md).
 
 >[!NOTE]
 >A atualização da área de trabalho está disponível como uma Pré-visualização Pública. 
@@ -36,7 +36,7 @@ Deve fazer várias coisas *depois* de atualizar. É melhor planeá-las *antes* d
 
 ## <a name="upgrade-a-classic-workspace"></a>Atualizar uma área de trabalho clássica
 
-Qualquer administrador da área de trabalho pode atualizar a área de trabalho. Nas áreas de trabalho clássicas, para ser um administrador da área de trabalho, deve ser Proprietário do grupo do Office 365 subjacente. Para atualizar uma área de trabalho, siga estes passos.
+Qualquer administrador da área de trabalho pode atualizar a área de trabalho. Nas áreas de trabalho clássicas, para ser administrador da área de trabalho, deve ser Proprietário do grupo do Microsoft 365 subjacente. Para atualizar uma área de trabalho, siga estes passos.
 
 1. Na lista de conteúdos da área de trabalho, selecione **Mais opções** ( **...** ) > **Editar esta área de trabalho**.
 
@@ -64,7 +64,7 @@ Os utilizadores que estejam a utilizar ativamente a área de trabalho deverão a
 
 - Os URLs e IDs da área de trabalho, o conteúdo e a aplicação publicada a partir da área de trabalho não são alterados. O conteúdo dos pacotes de conteúdos instalados na área de trabalho é tratado separadamente. Veja [Pacotes de conteúdos durante a atualização](#content-packs-during-upgrade) neste artigo para obter detalhes.
 - Os pacotes de conteúdos não estão disponíveis na nova experiência de área de trabalho. Leia as seções relativas aos [pacotes de conteúdos publicados](#published-content-packs) ou aos [pacotes de conteúdos instalados](#installed-content-packs) para saber como são tratados durante a atualização. É recomendável eliminar os pacotes de conteúdos instalados ou publicados na área de trabalho antes da atualização.
-- O grupo do Office 365 da área de trabalho clássica não é afetado pela atualização da área de trabalho no Power BI. As Equipas, os sites do SharePoint, as caixas de correio ou outros recursos geridos pelo Office 365 não são alterados. Permanecem inalterados depois de atualizar a área de trabalho do Power BI. O grupo do Office 365 continua a existir como antes.
+- O grupo do Microsoft 365 da área de trabalho clássica não é afetado pela atualização da área de trabalho no Power BI. As Equipas, os sites do SharePoint, as caixas de correio ou outros recursos geridos pelo Microsoft 365 não são alterados. Permanecem inalterados depois de atualizar a área de trabalho do Power BI. O grupo do Microsoft 365 continua a existir como antes.
 - Há alterações na forma como a área de trabalho é protegida após a atualização. Veja a seção [permissões da área de trabalho após a atualização](#permissions-after-upgrade) para obter detalhes.
 - É fornecida uma opção para **reverter para uma área de trabalho clássica**, caso precise. No entanto, este procedimento não restaura totalmente alguns aspetos da área de trabalho presentes antes da atualização. Se começar a utilizar as funcionalidades que funcionam apenas na nova experiência de área de trabalho, não poderá retroceder. A opção para reverter está disponível durante 30 dias após a atualização.
 
@@ -74,26 +74,26 @@ Selecione **Acesso** na barra de menus na parte superior da lista de conteúdos 
 
 ![Acesso na barra de menus](media/service-upgrade-workspaces/power-bi-workspace-access-menu-bar.png)
 
-Cada Proprietário do grupo do Office 365 é adicionado individualmente à função de Administrador da área de trabalho atualizada. O próprio grupo do Office 365 é adicionado a uma função da área de trabalho. A função à qual é adicionado está dependente de a área de trabalho clássica ser *apenas de leitura* ou de *leitura/gravação*:
+Cada Proprietário do grupo do Microsoft 365 é adicionado individualmente à função de Administrador da área de trabalho atualizada. O próprio grupo do Microsoft 365 é adicionado a uma função da área de trabalho. A função à qual é adicionado está dependente de a área de trabalho clássica ser *apenas de leitura* ou de *leitura/gravação*:
 
-- Quando a área de trabalho é definida como **Os membros podem editar o conteúdo do Power BI**, após a atualização, o grupo do Office 365 é adicionado à lista de acesso da área de trabalho com a função **Membro**.
-- Quando a área de trabalho é definida como **Os membros podem apenas ler o conteúdo do Power BI**, após a atualização, o grupo do Office 365 é adicionado à lista de acesso da área de trabalho com a função **Visualizador**.
+- Quando a área de trabalho é definida como **Os membros podem editar o conteúdo do Power BI**, após a atualização, o grupo do Microsoft 365 é adicionado à lista de acesso da área de trabalho com a função **Membro**.
+- Quando a área de trabalho é definida como **Os membros apenas podem ler o conteúdo do Power BI**, após a atualização, o grupo do Microsoft 365 é adicionado à lista de acesso da área de trabalho com a função **Visualizador**.
 
-Como o grupo do Office 365 recebe uma função na área de trabalho, qualquer utilizador adicionado ao grupo do Office 365 após a atualização tem essa função na área de trabalho. No entanto, se adicionar novos Proprietários ao grupo do Office 365 após a atualização, estes não possuirão a função de Administrador para a área de trabalho.
+Como o grupo do Microsoft 365 recebe uma função na área de trabalho, qualquer utilizador adicionado ao grupo do Microsoft 365 após a atualização tem essa função na área de trabalho. No entanto, se adicionar novos Proprietários ao grupo do Microsoft 365 após a atualização, estes não terão a função de Administrador para a área de trabalho.
 
 
 ### <a name="differences-in-roles-before-and-after-upgrade"></a>Diferenças nas funções antes e depois da atualização
 
-As funções da área de trabalho são diferentes nas áreas de trabalho clássica e nova. A nova experiência de área de trabalho permite-lhe fornecer funções da área de trabalho a grupos do Office 365, grupos de segurança ou listas de distribuição.
+As funções da área de trabalho são diferentes nas áreas de trabalho clássica e nova. A nova experiência de área de trabalho permite-lhe conceder funções da área de trabalho a grupos do Microsoft 365, grupos de segurança ou listas de distribuição.
 
 - Os **membros** podem partilhar itens individuais e conceder acesso a toda a área de trabalho através das funções Membro, Contribuidor ou Visualizador
 - Os **visualizadores** apenas podem visualizar o conteúdo, não podem exportar os dados subjacentes nem analisá-los no Excel para quaisquer conjuntos de dados da área de trabalho, a menos que tenham a permissão de Compilação.
 
 Todos os utilizadores com acesso aos itens na área de trabalho através da permissão de aplicação e da partilha continuam a ter acesso a esses itens. Qualquer pessoa com acesso à área de trabalho também tem acesso à aplicação publicada a partir da área de trabalho. Estes utilizadores não estão listados na lista de acesso da aplicação.
 
-É recomendável avaliar se a nova função de Contribuidor deve ser utilizada. Após a atualização, pode alterar o grupo do Office 365 para que tenha a função de Contribuidor no painel Acesso.
+É recomendável avaliar se a nova função de Contribuidor deve ser utilizada. Após a atualização, pode alterar o grupo do Microsoft 365 para que tenha a função de Contribuidor no painel Acesso.
 
-Após a atualização, pode considerar criar um grupo de segurança ou do Office 365 ou uma lista de distribuição para os administradores da área de trabalho, ao invés de gerir o acesso através de atribuições de funções a utilizadores individuais.
+Após a atualização, pode considerar criar um grupo de segurança ou do Microsoft 365 ou uma lista de distribuição para os administradores da área de trabalho, em vez de gerir o acesso através de atribuições de funções a utilizadores individuais.
 
 Leia mais sobre as [funções nas novas áreas de trabalho](service-new-workspaces.md#roles-in-the-new-workspaces).
 
@@ -105,7 +105,7 @@ Se a área de trabalho estiver na capacidade partilhada, os utilizadores na fun�
 
 ## <a name="other-new-workspace-features"></a>Outras novas funcionalidades da área de trabalho
 
-A nova experiência de área de trabalho possui funcionalidades que as áreas de trabalho clássicas não têm. Uma diferença é a capacidade de definir uma lista de contactos diferente dos administradores ou proprietários da área de trabalho. Uma semelhança é que esta ainda está ligada à biblioteca de documentos do SharePoint do grupo do Office 365. 
+A nova experiência de área de trabalho possui funcionalidades que as áreas de trabalho clássicas não têm. Uma diferença é a capacidade de definir uma lista de contactos diferente dos administradores ou proprietários da área de trabalho. Uma semelhança é que esta ainda está ligada à biblioteca de documentos do SharePoint do grupo do Microsoft 365.
 
 ### <a name="modify-the-contact-list"></a>Modificar a lista de contactos
 
@@ -113,13 +113,13 @@ A nova experiência de área de trabalho possui funcionalidades que as áreas de
 
     ![Definições de área de trabalho](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
 
-2. Em **Avançado**, a **Lista de contactos** da área de trabalho está configurada para ser o grupo do Office 365 a partir do qual a área de trabalho foi atualizada. Pode adicionar mais utilizadores ou grupos à lista de contactos ou alterná-los para administradores da área de trabalho.
+2. Em **Avançado**, a **Lista de contactos** da área de trabalho está configurada para ser o grupo do Microsoft 365 a partir do qual a área de trabalho foi atualizada. Pode adicionar mais utilizadores ou grupos à lista de contactos ou alterná-los para administradores da área de trabalho.
 
     ![Lista de contactos](media/service-upgrade-workspaces/power-bi-contact-list-workspace.png)
 
 ### <a name="the-workspace-onedrive"></a>Área de trabalho do OneDrive 
 
-Após a atualização, a área de trabalho do **OneDrive** é ligada à biblioteca de documentos do SharePoint do grupo do Office 365. Esta biblioteca de documentos é apresentada como a opção **OneDrive** na experiência **Obter Dados > Ficheiros**. Tenha em mente que nem todos os utilizadores da área de trabalho terão permissão para aceder a essa biblioteca de documentos se não estiverem no grupo do Office 365.
+Após a atualização, a área de trabalho do **OneDrive** é ligada à biblioteca de documentos do SharePoint do grupo do Microsoft 365. Esta biblioteca de documentos é apresentada como a opção **OneDrive** na experiência **Obter Dados > Ficheiros**. Tenha em mente que nem todos os utilizadores da área de trabalho terão permissão para aceder a essa biblioteca de documentos se não estiverem no grupo do Microsoft 365.
 
 ## <a name="content-packs-during-upgrade"></a>Pacotes de conteúdos durante a atualização
 
@@ -142,9 +142,9 @@ No entanto, há alterações importantes:
 
 ## <a name="go-back-to-a-classic-workspace"></a>Reverter para uma área de trabalho clássica
 
-Como parte da experiência de atualização, tem a opção de reverter para uma área de trabalho clássica até 30 dias após a atualização. Esta capacidade restaura a associação do conteúdo da área de trabalho ao grupo original do Office 365. Está disponível caso a sua organização se depare com problemas graves com a utilização da nova experiência de área de trabalho. No entanto, há limitações. Leia [Considerações para mudar para a área de trabalho clássica](#considerations-for-switching-back-to-classic) neste artigo primeiro.
+Como parte da experiência de atualização, tem a opção de reverter para uma área de trabalho clássica até 30 dias após a atualização. Esta capacidade restaura a associação do conteúdo da área de trabalho ao grupo original do Microsoft 365. Está disponível caso a sua organização se depare com problemas graves com a utilização da nova experiência de área de trabalho. No entanto, há limitações. Leia [Considerações para mudar para a área de trabalho clássica](#considerations-for-switching-back-to-classic) neste artigo primeiro.
 
-Para reverter, precisa de ser um Proprietário do grupo do Office 365 ao qual a área de trabalho foi associada antes de ser atualizada. Siga estes passos.
+Para reverter, precisa de ser Proprietário do grupo do Microsoft 365 ao qual a área de trabalho foi associada antes de ser atualizada. Siga estes passos.
 
 1. Na lista conteúdos da área de trabalho, selecione **Mais opções** ( **...** ) > **Definições da área de trabalho**.
 
@@ -166,7 +166,7 @@ Para reverter, precisa de ser um Proprietário do grupo do Office 365 ao qual a
 
 Não pode mudar se alguma das instruções seguintes referentes à área de trabalho for verdadeira:
 
-- O grupo do Office 365 foi eliminado.
+- O grupo Microsoft 365 foi eliminado.
 - Já passaram mais de 30 dias desde a atualização.
 - Os conjuntos de dados na área trabalho são utilizados pelos relatórios ou pelos dashboards noutras áreas de trabalho. Como funciona? Digamos que publicou um pacote de conteúdos a partir da área de trabalho antes da atualização e alguém instalou o pacote de conteúdos noutra área de trabalho. Imediatamente após a atualização, os conjuntos de dados são utilizados pelos relatórios e dashboards nesse pacote de conteúdos.
 - A área de trabalho faz parte de um pipeline de gestão do ciclo de vida da aplicação.
@@ -176,17 +176,17 @@ Não pode mudar se alguma das instruções seguintes referentes à área de trab
 
 Ao mudar para a área de trabalho clássica, não está a restaurar uma cópia exata da área de trabalho original. Decorrem as seguintes alterações:
 
-- As permissões para a área de trabalho são definidas pelo grupo do Office 365 ao qual a área de trabalho atualizada foi originalmente ligada.
-  - Todos os administradores do grupo do Office 365 tornam-se administradores da área de trabalho clássica.
-  - Todos os membros do grupo do Office 365 tornam-se membros da área de trabalho clássica. Se a área de trabalho clássica tiver sido definida como **Os membros apenas podem ler o conteúdo do Power BI**, esta definição será restaurada.
-  - Todos os utilizadores ou grupos de utilizadores adicionados à área de trabalho após a conclusão da atualização (fora do grupo do Office 365) perdem o acesso à área de trabalho. Adicione-os ao grupo do Office 365 para lhes conceder acesso. Note que os grupos do Office 365 não permitem aninhar grupos de segurança ou de distribuição na associação.
+- As permissões para a área de trabalho são definidas pelo grupo do Microsoft 365 ao qual a área de trabalho atualizada foi originalmente ligada.
+  - Todos os administradores do grupo do Microsoft 365 tornam-se administradores da área de trabalho clássica.
+  - Todos os membros do grupo do Microsoft 365 tornam-se membros da área de trabalho clássica. Se a área de trabalho clássica tiver sido definida como **Os membros apenas podem ler o conteúdo do Power BI**, esta definição será restaurada.
+  - Todos os utilizadores ou grupos de utilizadores adicionados à área de trabalho após a conclusão da atualização (fora do grupo do Microsoft 365) perdem o acesso à área de trabalho. Adicione-os ao grupo do Microsoft 365 para lhes conceder acesso. Note que os grupos do Microsoft 365 não permitem aninhar grupos de segurança ou de distribuição na associação.
   - Os utilizadores que receberam acesso à aplicação na área de trabalho continuam a ter acesso à aplicação.
   - Os utilizadores que receberam acesso aos itens na área de trabalho através da partilha continuam a ter acesso a estes.
 - Os pacotes de conteúdos publicados a partir da área de trabalho clássica antes da atualização não são restaurados.
 - Os pacotes de conteúdos instalados na área de trabalho clássica antes da atualização não são restaurados.
 - As subscrições criadas por utilizadores na área de trabalho após a atualização são removidas. As subscrições existentes antes da atualização continuam a funcionar conforme o esperado.
 - Os alertas de dados não são preservados, são removidos.
-- Se tiver mudado o nome da área de trabalho após a atualização, o nome da área de trabalho será restaurado para corresponder ao nome do grupo do Office 365.
+- Se tiver mudado o nome da área de trabalho após a atualização, o nome da área de trabalho será restaurado para corresponder ao nome do grupo do Microsoft 365.
 - As operações em curso, como as atualizações, não são afetadas pela atualização da área de trabalho.
 
 
@@ -195,9 +195,9 @@ Ao mudar para a área de trabalho clássica, não está a restaurar uma cópia e
 Algumas organizações querem mover muitas ou todas as áreas de trabalho para a experiência da nova área de trabalho. As ferramentas de atualização da área de trabalho concentram-se em permitir que os administradores das áreas de trabalho possam atualizar. Para as organizações que querem gerir tal processo, podem seguir os seguintes passos.
 
 1. A lista de áreas de trabalho no portal de administração do Power BI e a API correspondente fornecem uma lista de todas as áreas de trabalho no Power BI. As áreas de trabalho clássicas são mostradas como tipo Grupo na lista.
-2. Trabalhe com os proprietários individuais do grupo do Office 365 ou com o seu Administrador do Office 365, para que atualizem as áreas de trabalho. Se quiser atualizar a área de trabalho, precisará de se tornar num Proprietário do grupo.
+2. Trabalhe com os proprietários individuais do grupo ou com o Administrador do Microsoft 365, para que atualizem as áreas de trabalho. Se quiser atualizar a área de trabalho, precisará de se tornar num Proprietário do grupo.
 
-A funcionalidade de atualização da área de trabalho não fornece ferramentas para uma atualização em massa ou programática. Além disso, os novos grupos do Office 365 criados na sua organização continuarão a aparecer no Power BI. 
+A funcionalidade de atualização da área de trabalho não fornece ferramentas para uma atualização em massa ou programática. Além disso, os novos grupos do Microsoft 365 criados na sua organização continuarão a aparecer no Power BI.
    
    
 ## <a name="known-issues"></a>Problemas conhecidos

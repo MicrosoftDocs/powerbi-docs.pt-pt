@@ -9,25 +9,25 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ad60e65406ee69bed4e544486c955765203ddc5c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a2c4925e03a0e356ca44556fa7e545459c487dac
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348005"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733399"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introdução aos pacotes de conteúdos organizacionais no Power BI
 > [!NOTE]
 > Não pode criar nem instalar pacotes de conteúdos organizacionais nas novas experiências de áreas de trabalho. Agora é uma boa altura para atualizar os seus pacotes de conteúdos para aplicações, se ainda não tiver começado. Saiba [mais sobre a nova experiência de área de trabalho](service-create-the-new-workspaces.md).
 > 
 
-Distribui regularmente relatórios por e-mail à sua equipa? Em alternativa, experimente fazer isto: empacote os seus dashboards, relatórios, livros do Excel e conjuntos de dados e publique-os para a sua equipa como um *pacote de conteúdos organizacional*. A sua equipa pode encontrar facilmente os pacotes de conteúdos que criar &#151; estão todos no AppSource. Como fazem parte do Power BI, tiram partido de todas as funcionalidades do Power BI, incluindo a exploração interativa de dados, novos elementos visuais, Perguntas e Respostas, integração com outras origens de dados, atualização de dados e muito mais.
+Distribui regularmente relatórios por e-mail à sua equipa? Em alternativa, experimente fazer isto: empacote os dashboards, os relatórios, os livros do Excel e os conjuntos de dados e publique-os para a sua equipa como um *pacote de conteúdos organizacionais*. A sua equipa pode encontrar facilmente os pacotes de conteúdos que criar &#151; estão todos no AppSource. Como fazem parte do Power BI, tiram partido de todas as funcionalidades do Power BI, incluindo a exploração interativa de dados, novos elementos visuais, Perguntas e Respostas, integração com outras origens de dados, atualização de dados e muito mais.
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
 Criar pacotes de conteúdos é diferente de partilhar dashboards ou colaborar nos mesmos numa área de trabalho. Leia [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir qual a opção mais adequada à sua situação. 
 
-No AppSource, pode pesquisar ou procurar pacotes de conteúdos publicados em toda a organização, nos grupos de distribuição ou de segurança e nos [grupos do Office 365 aos quais pertence](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9). Se não é membro de um grupo específico, não verá os pacotes de conteúdos partilhados com esse grupo. Todos os membros do grupo têm o mesmo acesso só de leitura aos dados, relatórios, livros e dashboards do pacote de conteúdos (a menos que se trate de uma origem de dados do SQL Server Analysis Services (SSAS); nesse caso, os privilégios são herdados com a origem de dados).
+No AppSource, pode pesquisar ou procurar pacotes de conteúdos publicados em toda a organização, nos grupos de distribuição ou de segurança e nos [grupos do Microsoft 365 aos quais pertence](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9). Se não é membro de um grupo específico, não verá os pacotes de conteúdos partilhados com esse grupo. Todos os membros do grupo têm o mesmo acesso só de leitura aos dados, relatórios, livros e dashboards do pacote de conteúdos (a menos que se trate de uma origem de dados do SQL Server Analysis Services (SSAS); nesse caso, os privilégios são herdados com a origem de dados).
 
 Os dashboards, relatórios e livros do Excel são só de leitura, mas pode copiar e utilizar os dashboards e relatórios como um ponto de partida para criar a sua versão personalizada do pacote de conteúdos.
 
@@ -71,7 +71,7 @@ O ciclo de vida é parecido com este:
 ## <a name="data-security"></a>Segurança de dados
 Todos os membros do grupo de distribuição têm as mesmas permissões para os dados que o criador do pacote de conteúdos. A única exceção são os conjuntos de dados de tabela no local do SQL Server Analysis Services (SSAS). Como os relatórios e dashboards estão a ligar em direto ao modelo SSAS no local, as credenciais de cada membro individual do grupo de distribuição são utilizadas para determinar os dados aos quais pode aceder.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 * [Criar e publicar um pacote de conteúdos organizacional](service-organizational-content-pack-create-and-publish.md)
 * [Create and distribute an app in Power BI](service-create-distribute-apps.md) (Criar e distribuir uma aplicação no Power BI) 
 * [Conceitos básicos para designers no serviço Power BI](../fundamentals/service-basic-concepts.md)
