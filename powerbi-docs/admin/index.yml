@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Documentação empresarial e de administrador do Power BI
-summary: A documentação empresarial e de administrador do Power BI fornece informações de peritos e respostas para satisfazer as suas necessidades, independentemente de como utilizar o Power BI.
+summary: A documentação do Power BI fornece informações de peritos e respostas para satisfazer as suas necessidades, independentemente de como utilizar o Power BI.
 metadata:
   title: Documentação empresarial e de administrador do Power BI
-  description: A documentação empresarial e de administrador do Power BI fornece informações de peritos e respostas para satisfazer as suas necessidades, independentemente de como utilizar o Power BI.
+  description: A documentação do Power BI fornece informações de peritos e respostas para satisfazer as suas necessidades, independentemente de como utilizar o Power BI.
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-service
@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/17/2020
-  ms.openlocfilehash: 2256fbfed7410aea069638a773b83156096ab855
-  ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+  ms.openlocfilehash: 583a42a230b869f2692cc35202dbd496a4f2b602
+  ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 05/16/2020
-  ms.locfileid: "83437992"
+  ms.lasthandoff: 06/02/2020
+  ms.locfileid: "84272477"
 landingContent:
 - title: Power BI para administradores e empresas
   linkLists:
@@ -45,7 +45,7 @@ landingContent:
       url: service-admin-purchasing-power-bi-pro.md
     - text: Sign up with a Microsoft 365 Trial (Inscrever-se com uma Avaliação Gratuita do Microsoft 365)
       url: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-    - text: Adicionar o Power BI com um parceiro do Office 365
+    - text: Add Power BI with a Microsoft 365 partner (Adicionar o Power BI com um parceiro Microsoft 365)
       url: service-admin-syndication-partner.md
 - title: Manage your organization (Gerir a sua organização)
   linkLists:
