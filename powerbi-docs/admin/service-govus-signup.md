@@ -8,13 +8,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 2701765ce9d9a059016265049ddecf444a0640ea
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f494533c8b79dce250f3f25c706896d542f01f26
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83792951"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159565"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Inscrever a organização do Governo Norte-Americano no serviço Power BI
 
