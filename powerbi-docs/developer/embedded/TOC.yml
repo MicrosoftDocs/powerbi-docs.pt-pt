@@ -28,8 +28,6 @@
           href: embedded-capacity-planning.md
         - name: Melhores Práticas para o Desempenho
           href: embedded-performance-best-practices.md
-        - name: Service principal (Principal de serviço)
-          href: embed-service-principal.md
         - name: Row-level security
           href: embedded-row-level-security.md
         - name: Paginated reports Row-level security (Segurança ao nível de linha em relatórios paginados)
@@ -44,6 +42,10 @@
           href: power-bi-permissions.md
     - name: Procedimentos
       items:
+        - name: Embed using service principal with a certificate (Incorporar através de um principal de serviço com um certificado)
+          href: embed-service-principal-certificate.md
+        - name: Embed using service principal with app secret (Incorporar através de um principal de serviço com um segredo de aplicação)
+          href: embed-service-principal.md
         - name: Embed from an app (Incorporar a partir de uma aplicação)
           href: embed-from-apps.md
         - name: Exportar relatório para ficheiro

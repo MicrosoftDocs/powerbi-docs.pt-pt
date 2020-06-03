@@ -20,6 +20,8 @@
           href: custom-visual-develop-tutorial-format-options.md
         - name: Add unit tests for visual project (Adicionar testes de unidades nos projetos de elementos visuais)
           href: unit-tests-introduction.md
+        - name: Build a funnel plot from R script to R visual (Criar um gráfico de funil ao transformar um script do R num visual do R)
+          href: funnel-plot-from-r.md
     - name: Conceitos
       items:
         - name: Power BI visual project structure (Estrutura de projeto de elementos visuais do Power BI)
