@@ -81,7 +81,7 @@ Para suportar a gestão das capacidades com a Multi-Geo através da API, fizemos
 
 * A Multi-Geo não resulta num melhor desempenho em geral. O carregamento de relatórios e dashboards ainda envolve pedidos de metadados à região base.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 Saiba mais sobre as capacidades do Power BI Embedded e as opções Multi-Geo para todas as capacidades ao consultar as ligações abaixo.
 

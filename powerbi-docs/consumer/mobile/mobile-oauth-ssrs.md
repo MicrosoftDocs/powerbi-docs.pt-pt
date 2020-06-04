@@ -7,28 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
-ms.openlocfilehash: 40bbf09e684b4fd3f86564c9b469c6ff248954a6
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 06/01/2020
+ms.openlocfilehash: 3ca896512103aa285170eadc8435003257e57ac3
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565724"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316092"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Utilizar OAuth para ligar ao Power BI Report Server e SSRS
 
 Pode utilizar o OAuth para se ligar ao Power BI Report Server e aos Reporting Services para apresentar relatórios móveis ou KPIs. Saiba como configurar o ambiente para suportar a autenticação OAuth com a aplicação móvel do Power BI, para se ligar ao Power BI Report Server e ao SQL Server Reporting Services 2016 ou posterior.
 
-Veja o Adam a ligar-se do Power BI Mobile ao SSRS com o OAuth:
-
-
-<iframe width="560" height="350" src="https://www.youtube.com/embed/okzPAI2uUek" frameborder="0" allowfullscreen></iframe>
-
-
 > [!NOTE]
 > A visualização de relatórios do Power BI alojados no Power BI Report Server com a utilização de WAP para autenticação é agora suportada para aplicações iOS e Android.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 O Windows Server 2016 é necessário para os servidores do Proxy de Aplicações Web (WAP) e dos Serviços de Federação do Active Directory (AD FS). Não precisa de ter um domínio de nível funcional do Windows 2016.
 
@@ -232,11 +226,11 @@ Quando selecionar **Ligar**, será direcionado para a página de início de sess
 
 Depois de selecionar **Iniciar sessão**, verá os elementos do servidor do Reporting Services.
 
-## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
+## <a name="multi-factor-authentication"></a>Autenticação multifator
 
 Pode ativar a autenticação multifator para ativar segurança adicional no seu ambiente. Para obter mais informações, veja [Configure AD FS 2016 and Azure MFA (Configurar o AD FS 2016 e o MFA do Azure)](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
 
-## <a name="troubleshooting"></a>Troubleshooting (Resolução de problemas)
+## <a name="troubleshooting"></a>Resolução de problemas
 
 ### <a name="you-receive-the-error-failed-to-login-to-ssrs-server"></a>Vê o erro "Falha ao iniciar sessão no servidor SSRS"
 
@@ -246,7 +240,7 @@ Pode configurar o [Fiddler](https://www.telerik.com/fiddler) para atuar como um 
 
 Se o início de sessão for bem-sucedido ao utilizar o Fiddler, poderá ocorrer um problema de certificado com a aplicação WAP ou o servidor ADFS. 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 [Registar um Nome do Principal do Serviço (SPN) para um Servidor de Relatórios](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)  
 [Modificar um Ficheiro de Configuração do Reporting Services](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)  

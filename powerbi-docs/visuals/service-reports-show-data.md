@@ -73,7 +73,7 @@ Também pode concentrar-se num registo de dados numa visualização e explorar o
 - Não pode utilizar Ver Registos quando o elemento visual utiliza uma medida calculada.
 - Não pode utilizar Ver Registos quando estiver ligado a um modelo multidimensional (MD).  
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 [Exportar dados de visualizações do Power BI](power-bi-visualization-export-data.md)    
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

@@ -26,7 +26,7 @@ Quando um colega partilha conteúdo consigo, através do botão **Partilhar**, e
 
 ![Ícone Partilhar](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-Veja a Amália a explicar a lista de conteúdo **Partilhado comigo** e a demonstrar como navegar e filtrar a lista. Em seguida, siga as instruções passo-a-passo abaixo do vídeo para experimentar. Para que possa ver dashboards partilhados consigo, tem de ter uma licença do Power BI Pro. Leia [O que é o Power BI Premium?](../admin/service-premium-what-is.md) para obter detalhes.
+Veja a Amália a explicar a lista de conteúdo **Partilhado comigo** e a demonstrar como navegar e filtrar a lista. Em seguida, siga as instruções passo-a-passo abaixo do vídeo para experimentar. Para que possa ver dashboards partilhados consigo, tem de ter uma licença do Power BI Pro. Para mais detalhes, leia [O que é o Power BI Premium?](../admin/service-premium-what-is.md).
     
 
 > [!NOTE]

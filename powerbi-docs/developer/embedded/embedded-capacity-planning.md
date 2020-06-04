@@ -62,7 +62,7 @@ O [repositório do GitHub das ferramentas de capacidade do Power BI](https://gi
 
 O repositório é open source e os utilizadores são convidados a contribuir, a adicionar ferramentas adicionais relacionadas com as capacidades Premium e Incorporadas do Power BI e a melhorar as já existentes.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 > [!div class="nextstepaction"]
 >[Capacidade e SKUs na análise incorporada do Power BI](embedded-capacity.md)

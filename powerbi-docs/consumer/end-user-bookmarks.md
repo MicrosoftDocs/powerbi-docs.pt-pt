@@ -50,7 +50,7 @@ Selecione um marcador para mudar para essa vista de relatório.
 Quando criar um marcador, os elementos seguintes são guardados com o marcador:
 
 * Página atual
-* Vistas
+* Filtros
 * Segmentação de Dados, incluindo o tipo de segmentação de dados (por exemplo, lista pendente ou lista) e o estado da segmentação de dados
 * Estado da seleção do elemento visual (por exemplo, os filtros de realce cruzado)
 * Sequência de ordenação

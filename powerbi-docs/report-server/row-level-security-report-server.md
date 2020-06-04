@@ -97,7 +97,7 @@ Os autores de relatórios só terão acesso aos dados dos mesmos no Power BI Rep
 
  
 
-## <a name="faq"></a>FAQ 
+## <a name="faq"></a>PERGUNTAS FREQUENTES 
 
 ### <a name="can-i-create-these-roles-for-analysis-services-data-sources"></a>Posso criar estas funções para origens de dados do Analysis Services? 
 
@@ -105,7 +105,7 @@ Se tiver importado os dados para o Power BI Desktop, pode fazê-lo. Se estiver a
 
 ### <a name="can-i-use-rls-to-limit-the-columns-or-measures-accessible-by-my-users"></a>Posso utilizar a RLS para limitar as colunas ou medidas acessíveis pelos meus utilizadores? 
 
-N.º Se um utilizador tiver acesso a uma linha de dados específica, pode ver todas as colunas de dados dessa linha. 
+Não. Se um utilizador tiver acesso a uma linha de dados específica, pode ver todas as colunas de dados dessa linha. 
 
 ### <a name="does-rls-let-me-hide-detailed-data-but-give-access-to-data-summarized-in-visuals"></a>A RLS permite-me ocultar dados detalhados, mas dar acesso a dados resumidos nos elementos visuais? 
 
@@ -116,7 +116,7 @@ Não. Pode proteger linhas individuais de dados, mas os utilizadores poderão se
 Sim. Se já tiver funções existentes definidas e membros atribuídos no Power BI Report Server, pode criar funções adicionais e publicar novamente o seu relatório sem afetar as suas atribuições atuais. 
  
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 [O que é o Power BI Report Server?](get-started.md) 
 [Manual do administrador](admin-handbook-overview.md)  

@@ -25,7 +25,7 @@ Neste artigo, irá conhecer uma funcionalidade da nova versão do SQL Server 201
 - Para guardar o seu relatório paginado no serviço Power BI, precisa de uma [conta do Power BI Pro](../fundamentals/service-self-service-signup-for-power-bi.md) e de acesso de escrita a uma área de trabalho numa [capacidade do Power BI Premium](../admin/service-premium-what-is.md).
 - Para guardar o seu relatório paginado num servidor de relatórios, precisa de permissões para [editar o ficheiro RsReportServer.config](#upload-the-paginated-report-to-a-report-server).
 
-## <a name="get-started"></a>Get started (Introdução)
+## <a name="get-started"></a>Introdução
 
 Após a transferência e instalação do Report Builder, deverá seguir o mesmo fluxo de trabalho utilizado para adicionar um conjunto de dados e uma origem de dados incorporados ao seu relatório. No procedimento seguinte, em **Origens de Dados**, é apresentada uma nova opção: **Introduzir Dados**.  Só tem de configurar esta origem de dados uma vez por relatório. Após a configuração, pode criar múltiplas tabelas a partir dos dados introduzidos como conjuntos de dados separados que utilizam a mesma origem de dados.
 
@@ -95,7 +95,7 @@ Após a edição do ficheiro, a lista de fornecedores de dados no ficheiro de co
 
 Agora está tudo pronto e já pode publicar relatórios que utilizem esta nova funcionalidade no seu servidor de relatórios.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)
 - [O que é o Power BI Report Server?](../report-server/get-started.md)

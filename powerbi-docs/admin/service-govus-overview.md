@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: f4f0bc5de0480748344fa029c774c4d262facc08
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: 8be103d01b5f46c510a1e3658d5a5e29d566a5ff
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159703"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336550"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes do Governo Norte-Americano
 Este artigo é para clientes do Governo dos EUA que estão a implementar o Power BI como parte de um plano do Microsoft 365 para o Governo Norte-Americano. Os planos governamentais destinam-se às necessidades únicas das organizações que devem cumprir as normas de conformidade e segurança dos EUA. O serviço Power BI concebido para clientes do Governo Norte-Americano difere da versão comercial do serviço Power BI. Estas capacidades e diferenças das funcionalidades são descritas nas secções seguintes.
@@ -83,12 +83,12 @@ Para cumprir os requisitos dos clientes da cloud governamental, existem algumas 
 |  |Utilizar grupos do Active Directory para partilha e controlo de acesso|Disponível|Disponível|Disponível|
 |  |Auditoria através do centro de administração de Segurança e Conformidade do Office 365|Disponível|Disponível|Disponível|
 |  |Partilha de utilizadores externos|Disponível|Disponível|Disponível|
-|  |Métricas de utilização para relatórios e dashboards|Não disponível|Não disponível|Não disponível|
+|  |Métricas de utilização para relatórios e dashboards|Disponível|Disponível|Disponível|
 |  |Azure B2B entre GCC e cloud comercial|Não disponível|Não disponível|Não disponível|
 |Criação de relatórios|Criar e ver dashboards e relatórios|Disponível|Disponível|Disponível|
 |  |Atualização de dados agendada|Disponível|Disponível|Disponível|
 |  |Dashboards de equipa atualizáveis|Disponível|Disponível|Disponível|
-|  |Relatórios paginados|Disponível|Previsto|Previsto|
+|  |Relatórios paginados|Disponível|Disponível|Disponível|
 |  |Aplicações de modelo|Não disponível|Não disponível|Não disponível|
 |Ligar-se a dados|Importar dados e relatórios do Excel|Disponível|Disponível|Disponível|
 |  |Importar dados de ficheiros CSV|Disponível|Disponível|Disponível|

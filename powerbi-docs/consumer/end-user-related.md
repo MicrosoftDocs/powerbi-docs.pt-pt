@@ -74,6 +74,6 @@ A partir daqui, pode efetuar ações diretamente sobre os conteúdos relacionado
 * Para abrir o Conteúdo relacionado de um relatório, precisa de estar na [Vista de leitura](end-user-reading-view.md).
 * A funcionalidade Conteúdos relacionados não funciona em transmissão de conjuntos de dados.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 * [Introdução ao serviço Power BI](../fundamentals/service-get-started.md)
 * Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

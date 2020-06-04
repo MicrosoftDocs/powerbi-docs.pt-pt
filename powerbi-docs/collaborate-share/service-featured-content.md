@@ -56,8 +56,8 @@ O procedimento para destacar um dashboard ou um relatório é semelhante.
 
 Agora, todas as pessoas com acesso a esta aplicação vão também vê-la na secção **Em destaque** na **Base**.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 * [Como devo colaborar e partilhar os meus dashboards e relatórios?](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Gerir conteúdo em destaque no portal de Administração](../admin/service-admin-portal.md#manage-featured-content)
-* Dúvidas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
+* Perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

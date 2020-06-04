@@ -56,7 +56,7 @@ Depois de criar os seus relatórios, pode guardá-los numa *área de trabalho* n
 
 Os fluxos de dados ajudam as organizações a uniformizar os dados de diferentes origens e a prepará-los para a modelação. Os analistas podem criar facilmente fluxos de dados, com ferramentas de gestão personalizada conhecidas. Os analistas utilizam fluxos de dados para ingerir, transformar, integrar e enriquecer grandes volumes de dados ao definir ligações de origem de dados, lógica ETL, agendas de atualização e muito mais. Leia mais sobre a [preparação personalizada de dados com fluxos de dados](../transform-model/service-dataflows-overview.md).
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
 

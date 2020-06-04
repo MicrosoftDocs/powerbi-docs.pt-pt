@@ -1,5 +1,5 @@
 ---
-title: Partilhar um dashboard ou relatório a partir de aplicações móveis do Power BI
+title: Partilhar um dashboard ou relatório a partir das aplicações móveis do Power BI
 description: Convide outros utilizadores para ver os seus dashboards e relatórios ao partilhar ligações a partir das aplicações móveis do Power BI. Saiba como.
 author: paulinbar
 ms.reviewer: ''
@@ -15,15 +15,15 @@ ms.contentlocale: pt-PT
 ms.lasthandoff: 05/13/2020
 ms.locfileid: "83349339"
 ---
-# <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Partilhar um dashboard ou relatório a partir de aplicações móveis do Power BI
+# <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Partilhar um dashboard ou relatório a partir das aplicações móveis do Power BI
 Aplica-se a:
 
-| ![iPhone](./media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![Telemóvel Android](./media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Tablet Android](./media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![Telemóvel Android](./media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Tablet Android](./media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Telemóveis Android |Tablets Android |Dispositivos Windows 10 |
 
 >[!NOTE]
->O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saber mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+>O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Com uma [licença do Power BI Pro](../../fundamentals/service-features-license-type.md), pode convidar outros utilizadores para ver os seus dashboards e relatórios ao partilhar ligações das aplicações móveis do Power BI. Pode partilhar com qualquer utilizador, dentro ou fora da organização, com ou sem uma conta de e-mail empresarial. Os utilizadores também precisam de ter uma licença do Power BI Pro, ou os conteúdos precisam de estar numa [capacidade Premium](../../admin/service-premium-what-is.md).
 
@@ -99,7 +99,7 @@ Só pode anular a partilha se for o proprietário.
    
    Leia mais [notas sobre a partilha com colegas](../../collaborate-share/service-share-dashboards.md).
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 * [Anotar e partilhar um instantâneo de um mosaico, relatório ou visual nas aplicações móveis](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [Partilhar um dashboard ou relatório no Power BI](../../collaborate-share/service-share-dashboards.md)
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
