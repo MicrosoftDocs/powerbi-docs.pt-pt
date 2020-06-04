@@ -6,25 +6,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 06/03/2020
 ms.author: maggies
-ms.openlocfilehash: f0bf8edc3c954bf5c79d76c1a3bdba1a08ae40ae
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 529be27d10a5ac1a352473be14e6e7184493bdf9
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121082"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336803"
 ---
 # <a name="whitepapers-for-power-bi"></a>Documentos técnicos do Power BI
 
 Os documentos técnicos permitem explorar os tópicos do Power BI num nível mais aprofundado. Aqui, encontra-se uma lista de documentos técnicos disponíveis para Power BI.
 
-| Documento técnico | Descrição | Data |
+| Documento técnico | Description | Date |
 | --- | --- | --- |
-| [Planear uma Implementação Empresarial do Power BI](https://aka.ms/PBIEnterpriseDeploymentWP) |Este livro branco técnico atualizado descreve considerações e boas práticas para uma implementação organizacional de power bi de desempenho e segurança. | Maio de 2020 |
+| [Planear uma Implementação Empresarial do Power BI](https://aka.ms/PBIEnterpriseDeploymentWP) |Este livro técnico de papel branco atualizado descreve considerações e boas práticas para uma implementação de Power BI organizacional bem-- a sério e segura. | junho de 2020 |
 | [Power BI e Fluxos de Dados](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Este documento técnico descreve os fluxos de dados em detalhes técnicos e descreve as capacidades e as iniciativas subjacentes às funcionalidades dos fluxos de dados. | Novembro de 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Descreve o Power BI Premium, tanto a sua situação aquando do lançamento como a evolução futura. | Outubro de 2017 |
-| [Planeamento e Implementação do Power BI Premium](whitepaper-powerbi-premium-deployment.md)| O conteúdo deste livro branco foi incorporado na orientação geral. Consulte o link para orientação e boas práticas para planear e implantar capacidade Premium para cargas de trabalho bem definidas.| Março de 2019 |
+| [Planeamento e Implementação do Power BI Premium](whitepaper-powerbi-premium-deployment.md)| O conteúdo deste papel branco foi incorporado na orientação geral. Consulte o link para orientação e boas práticas para o planeamento e implantação da capacidade Premium para cargas de trabalho bem definidas.| Março de 2019 |
 | [Orientações de planeamento de capacidade do Power BI Report Server](../report-server/capacity-planning.md) |Este documento destina-se a oferecer orientação sobre o planeamento da capacidade do Power BI Report Server ao partilhar resultados de numerosas execuções do teste de carga das várias cargas de trabalho em relação a um servidor de relatório. | Março de 2018 |
 | [Segurança](../admin/service-admin-power-bi-security.md) |Fornece uma explicação detalhada da segurança no Power BI. | Março de 2019 |
 | [Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure Active Directory B2B](../guidance/whitepaper-azure-b2b-power-bi.md)|Este documento descreve como distribuir conteúdos a utilizadores fora da organização através da integração do Azure Active Directory Business-to-Business (AAD B2B).| Março de 2019 |
