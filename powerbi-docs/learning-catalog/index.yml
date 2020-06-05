@@ -9,14 +9,14 @@ metadata:
   author: loreleishannonmsft
   ms.author: v-lshann
   ms.date: 04/08/2020
-  ms.openlocfilehash: 9f03f812eb20454f655a876438312ba50b521a29
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: c53b6e74933557937f4a9449925199d6325f78e3
+  ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "81439302"
+  ms.lasthandoff: 06/04/2020
+  ms.locfileid: "84427810"
 landingContent:
-- title: Business decision makers (Decisores empresariais)
+- title: Decisores empresariais
   linkLists:
   - linkListType: overview
     links:
@@ -28,7 +28,7 @@ landingContent:
     links:
     - text: Catálogo de Aprendizagem para Consumidores
       url: learning-catalog-consumer.md#
-- title: Report creators (Criadores de relatórios)
+- title: Criadores de relatórios
   linkLists:
   - linkListType: overview
     links:
@@ -44,7 +44,7 @@ landingContent:
       url: learning-catalog-report-creator.md#visualization
     - text: Integração
       url: learning-catalog-report-creator.md#integration
-- title: Data analysts (Analistas de dados)
+- title: Analistas de dados
   linkLists:
   - linkListType: overview
     links:
@@ -60,6 +60,8 @@ landingContent:
       url: learning-catalog-data-analyst.md#dashboards
     - text: Visualizações
       url: learning-catalog-data-analyst.md#visualizations
+    - text: DAX
+      url: learning-catalog-data-analyst.md#dax
     - text: Governação e implementação
       url: learning-catalog-data-analyst.md#governance-deployment
     - text: Integração
@@ -86,8 +88,6 @@ landingContent:
       url: learning-catalog-developer.md#get-started
     - text: Incorporada
       url: learning-catalog-developer.md#embedded
-    - text: DAX
-      url: learning-catalog-developer.md#dax
     - text: Desenvolvimento
       url: learning-catalog-developer.md#development
 - title: Funções de pré-vendas dos parceiros
@@ -96,7 +96,7 @@ landingContent:
     links:
     - text: Catálogo de Aprendizagem para Pré-Vendas de Parceiros
       url: learning-catalog-presales.md#
-- title: Functional consultants (Consultores funcionais)
+- title: Consultores funcionais
   linkLists:
   - linkListType: overview
     links:
@@ -118,7 +118,7 @@ landingContent:
       url: learning-catalog-functional-consultant.md#security
     - text: Visualizações
       url: learning-catalog-functional-consultant.md#visualizations
-- title: Solution architects (Arquitetos de soluções)
+- title: Arquitetos de soluções
   linkLists:
   - linkListType: overview
     links:
