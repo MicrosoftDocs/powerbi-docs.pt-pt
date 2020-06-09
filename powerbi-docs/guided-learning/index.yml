@@ -6,12 +6,12 @@ metadata:
   ms.service: powerbi
   ms.author: davidiseminger
   ms.date: 09/20/2019
-  ms.openlocfilehash: bd094c8a4568c7fb05ca49996fb0c8f409c668d3
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: e358b7b78b4c87b500e6d749bee39fcdc9b2fd02
+  ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "74178335"
+  ms.lasthandoff: 06/08/2020
+  ms.locfileid: "84532609"
 title: Aprendizagem Orientada do Microsoft Power BI
 summary: Comece o seu percurso de aprendizagem com esta coleção sequenciada de cursos e compreenda as funcionalidades extensas e poderosas do Microsoft Power BI.
 landingContent:
@@ -83,7 +83,7 @@ landingContent:
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/3-create-calculated-columns
     - text: Otimizar modelos de dados – 8 min
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/4-optimize-data-models
-    - text: Criar medidas calculadas – 15 min
+    - text: Create measures - 15 min (Criar medidas – 15 min)
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/4b-create-calculated-measures
     - text: Criar tabelas calculadas – 4 min
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/5-create-calculated-tables
