@@ -8,21 +8,23 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/17/2020
 ms.author: mihart
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 9c13f29b29742e62cb08c973e5444a7879e6222a
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: bab0eba6e2ae3d0ec8ede57f9875385dbb26a60a
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812226"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159864"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Inscrever-se no Power BI com uma nova Versão de Avaliação do Microsoft 365
 
-Este artigo descreve uma forma alternativa de se inscrever no Power BI se ainda não tiver uma conta escolar ou profissional.
+Este artigo descreve uma forma alternativa de se inscrever no serviço Power BI se ainda não tiver uma conta de e-mail escolar ou profissional.
 
 Se tiver problemas durante a inscrição no Power BI com o endereço de e-mail, confirme primeiro que é um [endereço de e-mail que pode ser utilizado com o Power BI](../fundamentals/service-self-service-signup-for-power-bi.md#supported-email-addresses). Se não conseguir, inscreva-se numa versão de avaliação do Microsoft 365 e crie uma conta profissional. Em seguida, utilize essa nova conta profissional para se inscrever no serviço Power BI. Poderá utilizar o Power BI mesmo depois de a versão de avaliação do Microsoft 365 expirar.
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Inscreva-se para uma versão de avaliação do Office no Microsoft 365
+
 Inscreva-se numa avaliação do Microsoft 365 [no site do Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans). Se ainda não tiver uma conta, a Microsoft irá ajudá-lo a seguir os passos necessários para criar uma. Dado que as contas de e-mail comerciais (como o Hotmail e Gmail) não funcionam com o Microsoft 365, irá criar uma conta nova que funcione.  Essa conta de e-mail terá um aspeto semelhante a *zalan@onmicrosoft.com* .
 
 ![Selecione Experimentar gratuitamente](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)

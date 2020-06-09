@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ca3e954f64665798c439fba47c3135e93fe51ac0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9bbd5cbafa7f6c17fd9b9a02b93a27cc5859ee4a
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83305617"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272776"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Publicar no Power BI a partir do Microsoft Excel
 Com o Microsoft Excel 2016 e versões posteriores, pode publicar livros do Excel diretamente na área de trabalho do [Power BI](https://powerbi.microsoft.com), na qual pode criar relatórios e dashboards altamente interativos com base nos dados do livro. Em seguida, pode partilhar ideias com outras pessoas na organização.
@@ -39,7 +39,7 @@ Se selecionar **Exportar**, poderá exportar dados de tabelas e o modelo de dado
 O Excel suporta a publicação de ficheiros do Excel locais. Não têm de ser guardados no OneDrive para Empresas ou no SharePoint Online.
 
 > [!IMPORTANT]
-> Só poderá publicar ficheiros locais se estiver a utilizar o Excel 2016 (ou posterior) com uma subscrição do Office 365. As instalações autónomas do Excel 2016 podem Publicar no Power BI, mas apenas quando o livro tiver sido guardado no OneDrive para Empresa ou no SharePoint Online.
+> Só pode publicar ficheiros locais se estiver a utilizar o Excel 2016 (ou posterior) com uma subscrição do Microsoft 365. As instalações autónomas do Excel 2016 podem Publicar no Power BI, mas apenas quando o livro tiver sido guardado no OneDrive para Empresa ou no SharePoint Online.
 > 
 
 Ao selecionar **Publicar**, pode selecionar a área de trabalho na qual quer publicar. Se o seu ficheiro do Excel residir no OneDrive para Empresas, só poderá publicar em *A minha Área de Trabalho*. Se o seu ficheiro do Excel residir numa unidade local, pode publicar em *A minha Área de Trabalho* ou numa área de trabalho partilhada à qual tenha acesso.

@@ -7,19 +7,48 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/08/2020
-ms.openlocfilehash: abe0b97a4c4f593f8bb22be8b72c12295d0f656c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/31/2020
+ms.openlocfilehash: 0391f0f2e4340b01c1f1ad7a3bce860487daabc9
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006463"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272661"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registo de alterações do Power BI Report Server
 
 Este registo de alterações destina-se ao Power BI Report Server e lista novos itens, juntamente com correções de erros para cada compilação lançada.
 
 Para obter informações detalhadas sobre as novas funcionalidades, veja [Novidades no Power BI Report Server](whats-new.md). 
+
+
+## <a name="may-2020"></a>Maio de 2020
+- **Power BI Report Server**
+    - *Versão: 1.8.7450.37410 (Compilação 15.0.1103.227), Lançamento: 27 de maio de 2020*
+         - Funcionalidades
+            -  Suporte adicional para o catálogo personalizável do tamanho do conjunto de ligações. Para obter mais detalhes, consulte a [definição MaxCatalogConnectionPoolSizePerProcess](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service).
+            -  Comportamento melhorado ao visualizar um relatório durante uma operação de atualização.
+        - Atualizações de segurança
+        - Correções de erros
+            - Correção de dois problemas relacionados com plicas em nomes de pastas e relatórios.
+            - Correção de um problema relacionado com a barra de deslocação horizontal em alguns browsers na funcionalidade Ver Registos.
+            - Correção de um problema em que a atualização agendada com um relatório aberto ao mesmo tempo pode originar erros de esquema no modelo subjacente.
+            - Correção de um problema em que o texto alternativo para exportação PDF não estava corretamente codificado para carateres de múltiplos bytes.
+            - Correção de um problema em que as aplicações personalizadas recebiam um erro TrustedHeader ao executar a operação LoadReport.
+            - Correção de um problema em que a sobrecarga da atualização agendada podia levar a falhas na atualização.
+            - Correção de um problema em que os relatórios eram guardados na localização errada se o nome do relatório correspondesse ao nome da pasta.
+            - Correção de problemas de tabulação no Mapa do Documento.
+            - Correção de um problema com subscrições condicionadas por dados que falhavam ao utilizar consultas DAX.
+            - Correção de um problema no Acesso por URL que fazia com que a função FindString não localizasse correspondências.
+            - Correção de um problema que danificava as origens de dados incorporadas quando os relatórios era movidos.
+            - Correção de um problema que fazia com que a atualização agendada falhasse para algumas origens de dados.
+            - Foi adicionada validação ao agendamento de relatórios para reduzir a probabilidade de pedidos inválidos.
+
+
+- **Power BI Desktop (otimizado para o Power BI Report Server)**
+    - *Versão: 2.81.5831.941 (maio de 2020). Lançamento: 27 de maio de 2020* (nova compilação e nova versão)
+        - Contém as alterações necessárias para a ligação com o Power BI Report Server (maio de 2020)        
+
 
 
 ## <a name="january-2020"></a>Janeiro de 2020

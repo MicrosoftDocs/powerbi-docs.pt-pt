@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 605d35d55f3191b230d9c4a8d118e2c238283ff2
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 460ab380798975065eb90bf904b2b5bacd1edd2c
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733600"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315977"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -85,7 +85,7 @@ Com estas informações, pode obter informações reais relativamente à forma c
 
 ## <a name="control-usage-metrics"></a>Controlar métricas de utilização
 
-Os relatórios de métricas de utilização são uma funcionalidade que o administrador do Power BI ou do Microsoft 365 pode ativar ou desativar. Os administradores têm controlo granular sobre quais utilizadores têm acesso às métricas de utilização. As métricas estão **Ativadas** por predefinição para todos os utilizadores na organização.
+Os relatórios de métrica de utilização são uma funcionalidade que o administrador do Power BI ou global pode ativar ou desativar. Os administradores têm controlo granular sobre quais utilizadores têm acesso às métricas de utilização. As métricas estão **Ativadas** por predefinição para todos os utilizadores na organização.
 
 Os administradores também podem determinar se os criadores de conteúdo podem ver dados por utilizador nas métricas de utilização. 
 
@@ -132,6 +132,9 @@ Para utilizar os registos de auditoria, verifique se a definição [**Criar regi
 ## <a name="tenant-settings"></a>Definições do inquilino
 
 O separador **Definições de inquilino** permite um controlo refinado sobre as funcionalidades que são disponibilizadas à sua organização. Se tiver problemas com dados confidenciais, algumas das nossas funcionalidades poderão não ser adequadas para a sua organização ou poderá querer apenas uma determinada funcionalidade disponível para um grupo específico.
+
+> [!NOTE]
+> As definições do inquilino que controlam a disponibilidade das funcionalidades na interface do utilizador do Power BI podem ajudar a estabelecer políticas de governação, mas não são uma medida de segurança. Por exemplo, a definição **Exportar dados** não restringe as permissões de um utilizador do Power BI num conjunto de dados. Os utilizadores do Power BI com acesso de leitura a um conjunto de dados têm permissão para consultar este conjunto de dados e poderão conseguir fazer persistir os resultados sem utilizar a funcionalidade **Exportar dados** na interface do utilizador do Power BI.
 
 A seguinte imagem apresenta várias definições no separador **Definições de inquilino**.
 

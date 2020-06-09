@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/26/2019
+ms.date: 06/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7c9ba490a2cc30d42fee4f2317dbf5d4026ab59a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1ff21d0508889fecda5022edb0e48714c8be3ed6
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83299706"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337102"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Automatic page refresh in Power BI Desktop (preview) (Atualização automática de páginas no Power BI Desktop [pré-visualização])
 
@@ -25,7 +25,7 @@ A funcionalidade de atualização automática de página (APR) no Power BI perm
 
 ## <a name="using-automatic-page-refresh"></a>Utilizar a atualização automática de página
 
-Para esta versão de pré-visualização, deve ativar a funcionalidade de atualização automática de página no Power BI Desktop. Aceda a **Ficheiro > Opções e definições** e, em seguida, selecione **Opções** e **Funcionalidades de pré-visualização** no painel esquerdo. Ative a funcionalidade ao selecionar a caixa de verificação ao lado de *Atualização automática de página*. A atualização automática de página só está disponível para as origens de dados do DirectQuery.
+Para esta versão de pré-visualização, deve ativar a funcionalidade de atualização automática de página no Power BI Desktop. Aceda a **Ficheiro > Opções e definições** e, em seguida, selecione **Opções** e **Funcionalidades de pré-visualização** no painel esquerdo. Ative a funcionalidade ao selecionar a caixa de verificação ao lado de *Atualização automática de página*. A atualização automática de página *só* está disponível para as origens de dados do DirectQuery.
 
 Para utilizar a atualização automática de página, selecione a página de relatório para a qual deseja ativar a atualização. No painel **Visualizações**, selecione o ícone **Formatação** (um rolo de tinta) e localize **Atualização de página** próximo da parte inferior do painel. 
 
@@ -121,15 +121,15 @@ Veja a seguir alguns detalhes dos dois cenários de área de trabalho:
 
  1. *Funcionalidade ativada/desativada*: se o administrador de capacidade tiver decidido desativar a funcionalidade, não conseguirá configurar nenhum tipo de atualização de página no relatório publicado.
 
- 2. *Intervalo mínimo de atualização*: ao ativar a funcionalidade, o administrador de capacidade deve definir um intervalo de atualização mínimo. Se o intervalo for inferior ao mínimo, o serviço Power BI definirá o intervalo para respeitar o intervalo mínimo definido pelo administrador de capacidade.
+ 2. *Intervalo mínimo de atualização*: ao ativar a funcionalidade, o administrador de capacidade deve definir um intervalo de atualização mínimo. Se o intervalo for inferior ao mínimo, o serviço Power BI *substituirá* o intervalo para respeitar o intervalo mínimo definido pelo administrador de capacidade. Essa substituição é designada como *Definição manual do administrador de capacidade* na tabela seguinte. 
 
-A tabela abaixo descreve com mais detalhes onde esta funcionalidade está disponível e os limites para cada tipo de capacidade e [modo de armazenamento](../connect-data/service-dataset-modes-understand.md)
+A tabela abaixo descreve com mais detalhes onde esta funcionalidade está disponível e os limites para cada tipo de capacidade e [modo de armazenamento](../connect-data/service-dataset-modes-understand.md):
 
 | Modo de Armazenamento | Capacidade Dedicada | Capacidade Partilhada |
 | --- | --- | --- |
 | Direct Query | **Suportada** – Sim. <br>**Intervalo de atualização mínimo** – 1 segundo <br>**Definição manual do administrador de capacidade** – Sim. | **Suportada** – Sim. <br>**Intervalo de atualização mínimo** – 30 minutos <br>**Definição manual do administrador de capacidade** – Não. |
 | Importar | **Suportada** – Não. <br>**Intervalo de atualização mínimo** – N/D. <br>**Definição manual do administrador de capacidade** – N/D. | **Suportada** – Não. <br>**Intervalo de atualização mínimo** – N/D. <br>**Definição manual do administrador de capacidade** – N/D. |
-| Modo Misto (DQ + outros) | **Suportada** – Sim. <br>**Intervalo de atualização mínimo** – 1 segundo <br>**Definição manual do administrador de capacidade** – Sim. | **Suportada** – Sim. <br>**Intervalo de atualização mínimo** – 30 minutos <br>**Definição manual do administrador de capacidade** – Não. |
+| Modo Misto (DirectQuery + outras origens de dados) | **Suportada** – Sim. <br>**Intervalo de atualização mínimo** – 1 segundo <br>**Definição manual do administrador de capacidade** – Sim. | **Suportada** – Sim. <br>**Intervalo de atualização mínimo** – 30 minutos <br>**Definição manual do administrador de capacidade** – Não. |
 | Live Connect AS | **Suportada** – Não. <br>**Intervalo de atualização mínimo** – N/D. <br>**Definição manual do administrador de capacidade** – N/D. | **Suportada** – Não. <br>**Intervalo de atualização mínimo** – N/D. <br>**Definição manual do administrador de capacidade** – N/D. |
 | Live Connect PBI | **Suportada** – Não. <br>**Intervalo de atualização mínimo** – N/D. <br>**Definição manual do administrador de capacidade** – N/D. | **Suportada** – Não. <br>**Intervalo de atualização mínimo** – N/D. <br>**Definição manual do administrador de capacidade** – N/D. |
 
@@ -186,7 +186,7 @@ Esta secção proporciona perguntas e respostas comuns para os seguintes casos
     * As alterações à definição de atualização automática de página feitas na IU do administrador de capacidade demoram até cinco minutos a serem propagadas para os relatórios.
     * Para além de ativar a atualização automática de página para a capacidade, também deve ativá-la para as páginas de um relatório em que pretenda vê-la.
 
-3. O meu relatório está a funcionar no modo misto (DQ + Importação). Nem todos os elementos visuais estão a ser atualizados.
+3. O meu relatório está a operar em modo misto (modo misto significa que o relatório tem uma ligação do DirectQuery e uma origem de dados importada). Nem todos os elementos visuais estão a ser atualizados.
 
     * Se os elementos visuais fizerem referência a tabelas de Importação, esta situação será normal. A atualização automática de página não é suportada para a Importação.
     * Veja a pergunta 1 nesta secção.
@@ -211,6 +211,7 @@ Esta secção proporciona perguntas e respostas comuns para os seguintes casos
 Para obter mais informações, veja os seguintes artigos:
 
 * [Utilizar o DirectQuery no Power BI](../connect-data/desktop-directquery-about.md)
+* [Utilizar modelos compostos no Power BI Desktop](../transform-model/desktop-composite-models.md)
 * [Utilizar o Analisador de Desempenho para examinar o desempenho do elemento de relatório](desktop-performance-analyzer.md)
 * [Implementar e Gerir Capacidades do Power BI Premium](../guidance/whitepaper-powerbi-premium-deployment.md)
 * [Origens de Dados no Power BI Desktop](../connect-data/desktop-data-sources.md)

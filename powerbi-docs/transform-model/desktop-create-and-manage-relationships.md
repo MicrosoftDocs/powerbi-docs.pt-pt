@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 373ad0d230b3d9d7b9d35909d086b0611637f0e2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a0000d2e0da3613bb74e8d3d0aed2dd7fa3e3dcc
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83326041"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160278"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Criar e gerir relações no Power BI Desktop
 Quando importa múltiplas tabelas, é provável que faça algumas análises com dados de todas essas tabelas. As relações entre essas tabelas são necessárias para calcular os resultados com precisão e apresentar as informações corretas nos seus relatórios. O Power BI Desktop facilita a criação dessas relações. Na verdade, não tem de fazer nada na maioria dos casos: a funcionalidade de deteção automática fá-lo por si. No entanto, por vezes, pode ter de criar relações ou talvez seja necessário fazer alterações a uma relação. De qualquer modo, é importante compreender as relações no Power BI Desktop e como criá-las e editá-las.
@@ -59,7 +59,7 @@ Quando cria ou edita uma relação, pode configurar opções adicionais. Por pre
 ### <a name="cardinality"></a>Cardinalidade
 A opção **Cardinalidade** pode ter uma das seguintes definições:
 
-**Muitos-para-um (\*:1)** : Uma relação muitos-para-um é o tipo de relação predefinido mais comum. Significa que a coluna numa tabela pode ter mais de uma instância de um valor, enquanto que a outra tabela relacionada, geralmente conhecida como tabela de referência, tem apenas uma instância de um valor.
+**Muitos-para-um (\*:1)** : Uma relação muitos-para-um é o tipo de relação predefinido mais comum. Significa que a coluna numa determinada tabela pode ter mais do que uma instância de um valor, enquanto a outra tabela relacionada, geralmente conhecida como tabela de referência, tem apenas uma instância de um valor.
 
 **Um-para-um (1:1)** : Numa relação um-para-um, a coluna numa tabela tem apenas uma instância de um valor específico e a outra tabela relacionada tem apenas uma instância de um valor específico.
 

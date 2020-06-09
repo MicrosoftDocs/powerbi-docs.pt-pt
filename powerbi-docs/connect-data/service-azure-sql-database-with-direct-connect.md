@@ -1,6 +1,6 @@
 ---
-title: Azure SQL Database with DirectQuery (Base de Dados SQL do Azure com DirectQuery)
-description: Azure SQL Database with DirectQuery (Base de Dados SQL do Azure com DirectQuery)
+title: Base de Dados SQL do Azure com DirectQuery
+description: Base de Dados SQL do Azure com DirectQuery
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
@@ -10,20 +10,23 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: aa1ae57d928633ce61ab66a8e0e905118c3a7877
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: aa4f07e32d66e7f9bdb2da7d210b2cc8c178b172
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302167"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316046"
 ---
-# <a name="azure-sql-database-with-directquery"></a>Azure SQL Database with DirectQuery (Base de Dados SQL do Azure com DirectQuery)
+# <a name="azure-sql-database-with-directquery"></a>Base de Dados SQL do Azure com DirectQuery
 
 Obtenha informações sobre como pode ligar diretamente à Base de Dados SQL do Azure e criar relatórios que utilizam dados dinâmicos. Pode manter os seus dados na origem e não no Power BI.
 
 Com o DirectQuery, as consultas são enviadas de volta para a Base de Dados SQL do Azure à medida que explora os dados na vista de relatório. Esta experiência é sugerida para utilizadores familiarizados com as bases de dados e as entidades às quais se ligam.
 
-**Observações:**
+> [!Important]
+> Esta descrição pressupõe que a base de dados SQL do Azure não está numa VNET ou tem um ponto final de ligação privada ativado.
+
+**Notas:**
 
 * Especifique o nome de servidor completamente qualificado ao ligar (veja abaixo para obter mais detalhes).
 * Verifique se as regras de firewall da base de dados estão configuradas como "[Permitir acesso aos serviços do Azure](https://docs.microsoft.com/azure/sql-database/sql-database-networkaccess-overview#allow-azure-services)".
@@ -32,7 +35,7 @@ Com o DirectQuery, as consultas são enviadas de volta para a Base de Dados SQL 
 * As Perguntas e Respostas não estão disponíveis para conjuntos de dados do DirectQuery.
 * As alterações de esquema não são selecionadas automaticamente.
 
-Estas restrições e notas podem mudar, à medida que continuamos a melhorar as experiências. Os passos para ligar são detalhados abaixo.
+Estas restrições e notas podem mudar à medida que continuamos a melhorar as experiências. Os passos para ligar são detalhados abaixo.
 
 > [!Important]
 > Temos melhorado a nossa conectividade com a Base de Dados SQL do Azure.  Para obter a melhor experiência para se ligar à origem de dados da Base de Dados SQL do Azure, utilize o Power BI Desktop.  Assim que criar o seu modelo e relatório, pode publicá-lo no serviço Power BI.  O conector direto da Base de Dados SQL do Azure no serviço Power BI foi preterido.
@@ -51,7 +54,7 @@ Pode encontrar o nome de servidor completamente qualificado e o nome da base de 
 
 [!INCLUDE [direct-query-sso](../includes/direct-query-sso.md)]
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 * [Utilização do DirectQuery no Power BI Desktop](desktop-use-directquery.md)  
 * [O que é o Power BI?](../fundamentals/power-bi-overview.md)  

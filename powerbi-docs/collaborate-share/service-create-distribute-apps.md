@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: a26a93851d3914527bbb61275d763f95f21d7603
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693585"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336826"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar uma aplicação no Power BI
 
@@ -209,6 +209,7 @@ Elementos a ter em conta sobre a publicação de aplicações:
 * Relativamente à nova experiência de área de trabalho, se o utilizador adicionado à lista de acesso à aplicação já tiver acesso à aplicação através da área de trabalho, não será apresentado na lista de acesso da aplicação.  
 * Ao utilizar o novo aspeto do serviço Power BI, o URL do site de suporte é apresentado no cartão de informação do item. Leia mais sobre o ["novo aspeto" do Power BI](../consumer/service-new-look.md).
 * As aplicações têm a opção de permitir que os utilizadores partilhem a aplicação e os conjuntos de dados subjacentes da aplicação ao utilizar a permissão de partilha. Para novas aplicações, esta opção está desativada por predefinição. Recomendamos que desative esta opção para as suas aplicações existentes e atualize a permissão nos conjuntos de dados subjacentes. A opção foi ativada para aplicações existentes porque as aplicações foram concebidas inicialmente para substituir pacotes de conteúdos que tinham este comportamento.
+* As aplicações podem ter um máximo de 200 dashboards. 
 
 ## <a name="next-steps"></a>Próximos passos
 * [Criar uma área de trabalho](service-create-workspaces.md)

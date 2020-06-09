@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 06/02/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2792c5b35d68dd38554209fe8fe065710c339381
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83291426"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336849"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Executar scripts de Python no Power BI Desktop
 
@@ -104,7 +104,7 @@ Para executar o seu Script de Python no Power BI Desktop:
 
    ![Navegador a mostrar dados para carregar e utilizar](media/desktop-python-scripts/python-scripts-5.png) 
 
-### <a name="troubleshooting"></a>Troubleshooting (Resolução de problemas)
+### <a name="troubleshooting"></a>Resolução de problemas
 
 Se o Python não estiver instalado ou identificado, será apresentado um aviso. Também poderá ser apresentado um aviso caso tenha múltiplas instalações no computador local. Veja novamente as secções anteriores sobre como instalar e ativar os scripts de Python.
 
@@ -122,7 +122,11 @@ Como solução possível, pode iniciar o Power BI Desktop a partir do seu pedido
 
 Pode atualizar um script de Python no Power BI Desktop. Para atualizar, aceda ao friso **Home Page** e selecione **Atualizar**. Quando atualizar um script de Python, o Power BI Desktop executará o script de Python novamente.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="known-limitations"></a>Limitações Conhecidas
+
+Atualmente, não é possível utilizar scripts do Python em relatórios criados com a funcionalidade **Metadados Melhorados (Pré-visualização)** ativada. Os relatórios existentes continuarão a funcionar. Para obter mais informações, consulte [Utilizar metadados de conjuntos de dados otimizados (pré-visualização)](desktop-enhanced-dataset-metadata.md). 
+
+## <a name="next-steps"></a>Próximos passos
 
 Veja as seguintes informações adicionais sobre o Python no Power BI.
 

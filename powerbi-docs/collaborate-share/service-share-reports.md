@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 636aaf59a3a949b5b3571012d12cecc234e9763b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e91698413df11a2f593128a616948935b65c0c4e
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347959"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272914"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>Filtrar e partilhar um relatório do Power BI
 A *Partilha* é uma boa forma de dar a algumas pessoas acesso aos seus dashboards e relatórios. E se pretender partilhar uma versão filtrada de um relatório? Pode querer que o relatório mostre apenas os dados de um vendedor, cidade ou ano específico. Este artigo explica como filtrar um relatório e como partilhar a versão filtrada desse relatório. Pode também partilhar um relatório filtrado ao [adicionar parâmetros de consulta ao URL do relatório](service-url-filters.md). Em ambos os casos, o relatório estará filtrado quando os destinatários o abrirem. Estes últimos podem limpar as seleções de filtro no relatório.
@@ -77,9 +77,13 @@ Guarde o relatório.
 
 7. Ao partilhar esta ligação, os destinatários verão o relatório filtrado. 
 
+## <a name="limitations-and-considerations"></a>Limitações e considerações
+Aspetos a ter em conta sobre a partilha de relatórios:
 
-## <a name="next-steps"></a>Próximas etapas
+* Quando partilha um conjunto de dados ao gerir permissões, partilhar relatórios ou dashboards, ou publicar uma aplicação, concede acesso a todo o conjunto de dados, a menos que a [segurança ao nível da linha (RLS)](../admin/service-admin-rls.md) limite o acesso. Os autores de relatórios podem utilizar funcionalidades que personalizam as experiências de utilizador ao ver ou interagir com relatórios como, por exemplo, ocultar colunas, limitar as ações em elementos visuais, etc. Estas experiências de utilizador personalizadas não restringem os dados a que os utilizadores podem aceder no conjunto de dados. Utilize a [segurança ao nível da linha (RLS)](../admin/service-admin-rls.md) no conjunto de dados para que as credenciais de cada pessoa determinem a que dados a mesma pode aceder.
+
+## <a name="next-steps"></a>Próximos passos
 * [Formas de partilhar o seu trabalho no Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Partilhar um dashboard](service-share-dashboards.md)
 * Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).
-* Tem comentários? Aceda ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
+* Tem comentários? Vá ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.

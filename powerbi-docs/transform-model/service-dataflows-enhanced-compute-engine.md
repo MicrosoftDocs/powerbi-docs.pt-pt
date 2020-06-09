@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e126451bf016bf4e9dcce7b7a4df51db9ed20386
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ec0d12ddf91b04654b90c5a3e7cdfda24bc04604
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320521"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315908"
 ---
 # <a name="the-enhanced-compute-engine"></a>O motor de computação melhorado
 
@@ -31,6 +31,9 @@ As seguintes secções descrevem como ativar o motor de computação melhorado e
 O motor de computação melhorado é ativado na página **Definições de Capacidade** no serviço Power BI, na secção de **fluxos de dados**. Por predefinição, o motor de computação melhorado está **Desativado**. Para o ativar, desloque o botão de alternar para **Ativado**, conforme apresentado na seguinte imagem, e guarde as definições. 
 
 ![Ativar o motor de computação melhorado](media/service-dataflows-enhanced-compute-engine/enhanced-compute-engine-01.png)
+
+> [!IMPORTANT]
+> O motor de computação melhorado funciona apenas para as capacidades A3 e superiores do Power BI.
 
 Depois de ativar o motor de computação melhorado, regresse à secção de fluxos de dados e deverá observar uma melhoria no desempenho em qualquer entidade calculada que execute operações complexas, como as operações *associações* ou *agrupar por* para fluxos de dados criados com base em entidades associadas existentes na mesma capacidade. 
 

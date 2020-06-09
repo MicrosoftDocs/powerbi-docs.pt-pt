@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 12/12/2019
-ms.openlocfilehash: 7eef6c7522bc364bc4b66c9567189dd7aec72239
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 06/02/2020
+ms.openlocfilehash: 75b880876a08a78d822fc1203de40a7bb8311afe
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349845"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337079"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Incorporar conteúdo do Power BI numa aplicação para os seus clientes
 
@@ -46,7 +46,7 @@ No entanto, se optar por configurar o ambiente manualmente, pode continuar abaix
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Registar uma aplicação no Azure Active Directory (Azure AD)
 
-[Registe a sua aplicação](register-app.md) com o Azure Active Directory para permitir que a aplicação aceda às [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/). O registo da aplicação permite-lhe estabelecer uma identidade para a sua aplicação e especificar permissões para recursos REST do Power BI. A utilização de uma conta principal ou do [principal de serviço](embed-service-principal.md) determina a forma como começa a registar uma aplicação.
+[Registe a sua aplicação](register-app.md) com o Azure Active Directory para permitir que a aplicação aceda às [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/). O registo da aplicação permite-lhe estabelecer uma identidade para a sua aplicação e especificar [permissões para recursos REST do Power BI](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). A utilização de uma conta principal ou do [principal de serviço](embed-service-principal.md) determina a forma como começa a registar uma aplicação.
 
 O método que escolher afetará o tipo de aplicação que registará no Azure.
 
@@ -135,7 +135,7 @@ Para obter o **applicationId**, siga estes passos:
 
 Este atributo é necessário para ambos os AuthenticationTypes (conta principal e [principal de serviço](embed-service-principal.md)).
 
-Preencha as informações do **workspaceId** com o GUID da área de trabalho (grupo) do Power BI. Pode obter estas informações a partir do URL (quando tiver sessão iniciada no serviço Power BI) ou através do PowerShell.
+Preencha as informações do **workspaceId** com o GUID da área de trabalho (grupo) do Power BI. Pode obter estas informações no URL (quando tiver sessão iniciada no serviço Power BI) ou com o PowerShell.
 
 URL <br>
 
@@ -153,7 +153,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test"
 
 Este atributo é necessário para ambos os AuthenticationTypes (conta principal e [principal de serviço](embed-service-principal.md)).
 
-Preencha as informações do **reportId** com o GUID de relatório do Power BI. Pode obter estas informações a partir do URL (quando tiver sessão iniciada no serviço Power BI) ou através do PowerShell.
+Preencha as informações do **reportId** com o GUID de relatório do Power BI. Pode obter estas informações no URL (quando tiver sessão iniciada no serviço Power BI) ou com o PowerShell.
 
 URL<br>
 
@@ -206,7 +206,7 @@ Para obter o **ApplicationSecret**, siga estes passos:
 
 Este atributo só é necessário para o AuthenticationType [principal de serviço](embed-service-principal.md).
 
-Preencha as informações do **inquilino** com o seu ID do inquilino do Azure. Pode obter estas informações a partir do [centro de administração do Azure AD](/onedrive/find-your-office-365-tenant-id) quando tiver sessão iniciada no serviço Power BI ou através do PowerShell.
+Preencha as informações do **inquilino** com o seu ID de inquilino do Azure. Pode obter estas informações no [Centro de administração do Azure Active Directory](/onedrive/find-your-office-365-tenant-id) quando tiver sessão iniciada no serviço Power BI ou através do PowerShell.
 
 ### <a name="run-the-application"></a>Executar a aplicação
 

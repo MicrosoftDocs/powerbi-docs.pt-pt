@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b024ff52585a4b9b46b60e3230a059b3d07d7b24
+ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279762"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273905"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Orientação sobre as definições para administradores de inquilinos
 
@@ -44,7 +44,7 @@ Estes URLs serão disponibilizados como ligações no menu de ajuda do Power BI.
 ![É apresentada a definição Publicar informações para "Obter Ajuda".](media/admin-tenant-settings/publish-get-help-information.png)
 
 ## <a name="manage-risk"></a>Faça a gestão do risco.
-
+As definições para gerir riscos podem ajudá-lo a estabelecer políticas de governação no seu inquilino do Power BI. No entanto, tenha em atenção que as definições de governação não são uma medida de segurança. Por exemplo, desativar a definição **Exportar dados** remove a funcionalidade da interface de utilizador do Power BI e, desta forma, ajuda os utilizadores do Power BI a trabalhar em conformidade com as políticas de governação da sua organização, mas não impede determinados utilizadores de exportarem dados com outras opções. Do ponto de vista da segurança, um utilizador do Power BI com acesso de leitura a um conjunto de dados tem permissão para consultar esse conjunto de dados e pode fazer persistir os resultados, independentemente das funcionalidades disponíveis na interface de utilizador do Power BI.
 ### <a name="receive-email-notification-service-outages-or-incidents"></a>Receber notificações por e-mail sobre incidentes ou indisponibilidade de serviço
 
 Pode ser notificado por e-mail se o seu inquilino for afetado por um incidente ou indisponibilidade de serviço. Deste modo, pode responder a incidentes de forma proativa.
@@ -86,7 +86,7 @@ Recomendamos a atribuição de um ou mais grupos de segurança. É possível con
 
 ![É apresentada a definição "Partilhar conteúdo com utilizadores externos".](media/admin-tenant-settings/share-content-with-external-users.png)
 
-### <a name="publish-to-web"></a>Publicar na web
+### <a name="publish-to-web"></a>Publicar na Web
 
 A funcionalidade [publicar na Web](../collaborate-share/service-publish-to-web.md) permite publicar relatórios públicos na Web. Caso seja utilizada de forma inadequada, existe o risco de determinadas informações confidenciais serem disponibilizadas na Web.
 
@@ -126,7 +126,7 @@ Se precisar de autorizar utilizadores externos a editar e gerir conteúdos, reco
 
 ![É apresentada a definição "Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização".](media/admin-tenant-settings/allow-external-guest-users.png)
 
-### <a name="developer-settings"></a>Definições do programador
+### <a name="developer-settings"></a>Definições de programador
 
 Existem duas definições de inquilino relacionadas com a [incorporação de conteúdo do Power BI](../developer/embedded/embedding.md). São:
 
@@ -137,12 +137,12 @@ Se não tencionar utilizar as APIs de programador para incorporar conteúdos, re
 
 ![São apresentadas as definições de programador.](media/admin-tenant-settings/developer-settings.png)
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
 - [O que é a administração do Power BI?](../admin/service-admin-administering-power-bi-in-your-organization.md)
 - [Administrar o Power BI no portal de administração](../admin/service-admin-portal.md)
-- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com)
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4082647338adcca8518cc4d9c3a3b88cc3e04f4f
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: b6e45113662117d5c6c793211644c4895f666a40
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794098"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273351"
 ---
 # <a name="share-a-dataset"></a>Partilhar um conjunto de dados
 
@@ -28,7 +28,7 @@ Enquanto criador de *modelos de dados* no Power BI Desktop, está a criar *con
 
 1. Publique o ficheiro .pbix numa [nova experiência de área de trabalho](../collaborate-share/service-create-the-new-workspaces.md) no serviço Power BI.
     
-    Assim, outros membros desta área de trabalho poderão criar relatórios noutras áreas de trabalho, com base neste conjunto de dados.
+    Assim, outros membros desta área de trabalho poderão criar relatórios noutras áreas de trabalho, com base neste conjunto de dados. Utilize a opção Gerir Permissões no conjunto de dados na lista de conteúdos da área de trabalho para dar acesso ao conjunto de dados a utilizadores adicionais. 
 
 1. Também pode [publicar uma aplicação](../collaborate-share/service-create-distribute-apps.md) a partir desta área de trabalho. Quando o fizer, irá especificar quem tem permissões e o que estas pessoas podem fazer na página **Permissões**.
 
@@ -51,7 +51,12 @@ Quando tiver um conjunto de dados partilhado na sua área de trabalho, poderá t
  
     ![Caixa de diálogo Conteúdo relacionado](media/service-datasets-build-permissions/power-bi-dataset-related-workspaces.png)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="limitations-and-considerations"></a>Limitações e considerações
+Elementos a ter em conta sobre a partilha de conjuntos de dados:
+
+* Quando partilha um conjunto de dados através das permissões de gestão, ao partilhar relatórios ou dashboards ou ao publicar uma aplicação, está a conceder acesso a todo o conjunto de dados, a menos que a [segurança ao nível de linha (RLS)](../admin/service-admin-rls.md) limite o seu acesso. Os autores de relatórios podem utilizar capacidades que personalizem as experiências de utilizadores ao ver ou interagir com relatórios, por exemplo ao ocultar colunas, limitar as ações em elementos visuais, entre outros. Estas experiências de utilizador personalizadas não restringem aquilo a que os utilizadores de dados podem aceder no conjunto de dados. Utilize a [segurança ao nível de linha (RLS)](../admin/service-admin-rls.md) no conjunto de dados para que as credenciais de cada pessoa determinem a que dados esta pode aceder.
+
+## <a name="next-steps"></a>Próximos passos
 
 - [Utilizar conjuntos de dados em áreas de trabalho](service-datasets-across-workspaces.md)
-- Tem dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -1,6 +1,6 @@
 ---
-title: Licenciamento do Power BI na sua organização
-description: Descrição geral dos diferentes tipos de licença disponíveis no Power BI e como os administradores compram e gerem o licenciamento na organização deles.
+title: Licenciamento do Power BI para os utilizadores na sua organização
+description: Descrição geral dos diferentes tipos de licença do utilizador disponíveis no Power BI e como os administradores compram e gerem o licenciamento para os utilizadores na respetiva organização.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,15 +8,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/14/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a0ce3eab2992c59c5b887db1f0838f88db7ad2da
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 5bac52e98830c97262945e1434880f9c178a0932
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563494"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160002"
 ---
-# <a name="power-bi-licensing-in-your-organization"></a>Licenciamento do Power BI na sua organização
+# <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Licenciamento do serviço Power BI para os utilizadores na sua organização
 
 Aquilo que um utilizador pode fazer no serviço Power BI depende do tipo de licença por utilizador que o mesmo possui. O nível de acesso fornecido pela respetiva licença varia consoante a área de trabalho a que está a aceder esteja ou não atribuída a uma capacidade Premium do Power BI. Todos os utilizadores do serviço Power BI têm de ter uma licença.
 
@@ -65,7 +66,7 @@ A tabela abaixo resume as capacidades básicas de cada tipo de licença. Para ob
 
 ## <a name="subscription-types"></a>Tipos de subscrição
 
-Todas as subscrições de licenças comerciais baseadas em utilizadores da Microsoft se baseiam em identidades do Azure Active Directory. Para utilizar o serviço Power BI com licenças comerciais, tem de iniciar sessão com uma identidade que o Azure Ative Directory suporte. Pode adicionar o Power BI a qualquer subscrição da Microsoft que utilize o Azure Active Directory para os serviços de identidade. Algumas subscrições, como o Office 365 E5, incluem uma licença do Power BI Pro, pelo que não é necessária uma inscrição separada do Power BI.
+Todas as subscrições de licenças comerciais baseadas em utilizadores da Microsoft se baseiam em identidades do Azure Active Directory, Para utilizar o serviço Power BI com licenças comerciais, tem de iniciar sessão com uma identidade que o Azure Ative Directory suporte. Pode adicionar o Power BI a qualquer subscrição da Microsoft que utilize o Azure Active Directory para os serviços de identidade. Algumas subscrições, como o Office 365 E5, incluem uma licença do Power BI Pro, pelo que não é necessária uma inscrição separada do Power BI.
 
 Existem dois tipos de subscrições do Power BI para organizações: Standard e Premium.
 

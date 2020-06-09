@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: f9248b659bec744f7da02c4d2639f30bd646bb48
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 78487f52df9f62e85e80f02d9653c9ac2f5b52c7
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276059"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337125"
 ---
-# <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Tutorial: Incorporar relatórios paginados do Power BI numa aplicação para os clientes (pré-visualização)
+# <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Tutorial: Incorporar relatórios paginados do Power BI numa aplicação para os clientes
 
 Com o **Power BI Embedded no Azure** ou a **incorporação do Power BI no Office**, pode incorporar relatórios paginados numa aplicação através do esquema Dados Pertencem à Aplicação. No esquema **Dados Pertencem à Aplicação** existe uma aplicação que utiliza o Power BI como plataforma de análise incorporada. Enquanto **ISV** ou **programador**, pode criar conteúdos do Power BI para apresentar relatórios paginados numa aplicação totalmente integrada e interativa, sem precisar que os utilizadores tenham uma licença do Power BI. Este tutorial demonstra como integrar um relatório paginado numa aplicação com o .NET SDK do Power BI, com a API JavaScript do Power BI.
 
@@ -40,7 +40,7 @@ Se não tiver uma subscrição do Azure, crie uma [conta gratuita](https://azure
 
 > [!IMPORTANT]
 > * Tem de utilizar um **principal de serviço**. O utilizador mestre não é suportado.
-> * As origens de dados que exigem o início de sessão único (SSO) não são suportadas.
+> * As origens de dados que exigem o início de sessão único (SSO) não são suportadas. Para obter uma lista de conjuntos de dados suportados e os respetivos métodos de autenticação, consulte [Origens de dados suportadas para relatórios paginados do Power BI](../../paginated-reports/paginated-reports-data-sources.md). 
 > * O conjunto de dados do Power BI não é suportado como uma [origem de dados](../../connect-data/service-get-data.md).
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurar o ambiente do Power BI

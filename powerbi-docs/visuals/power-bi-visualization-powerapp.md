@@ -7,15 +7,15 @@ ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 03/29/2020
+ms.date: 06/01/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04e2092b3651fd3339706582001f37fc855ddbad
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: aead027780ad1e7887b172cba328c0c4e97675b5
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841969"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273443"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Tutorial: Incorporar um elemento visual do Power Apps num relatório Power BI
 
@@ -104,6 +104,8 @@ Tenha em atenção que a contagem de oportunidades na aplicação corresponde à
 ## <a name="clean-up-resources"></a>Limpar recursos
 Se não quiser continuar a utilizar o Exemplo de Análise de Oportunidade, pode eliminar o dashboard, o relatório e o conjunto de dados.
 
+## <a name="limitations-and-considerations"></a>Limitações e considerações
+Para obter informações de resolução de problemas, veja [Elemento visual do Power Apps para o Power BI](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visualbranch=pr-en-us-2943#limitations-of-the-power-apps-visual).
 
 ## <a name="next-steps"></a>Próximos passos
 [Q&A visual](power-bi-visualization-types-for-reports-and-q-and-a.md)   (Elemento visual Perguntas e Respostas)  

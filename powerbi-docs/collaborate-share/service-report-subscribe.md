@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f057395361840b7b16fa8a7cde5a6d2513196845
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: c43b0710c15fcc77a08aa789a92d840d2425f5ab
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438229"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315954"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Subscrever relatórios e dashboards no serviço Power BI para si e para outras pessoas
 
@@ -71,6 +71,10 @@ A subscrição de relatórios paginados é ligeiramente diferente. Veja [Subscre
 1. (Opcional) Selecione se quer incluir uma ligação de regresso ao conteúdo no Power BI e se quer conceder aos utilizadores acesso aos conteúdos aos quais os subscreveu.  Se optar por incluir uma ligação, para a melhor experiência, certifique-se de que todos os utilizadores têm acesso ao relatório.
 2. Selecione **Guardar e fechar**. Os utilizadores subscritos receberão um e-mail e um instantâneo do dashboard ou da página de relatório com a frequência e na hora que selecionou. Pode criar até 24 subscrições por relatório ou dashboard e pode indicar frequências, horas e destinatários exclusivos para cada subscrição. Todas as subscrições definidas para **Depois da Atualização de Dados** para o dashboard ou relatório só enviarão um e-mail após a primeira atualização agendada.
 
+    > [!NOTE]
+    > Se editar a subscrição depois de guardar e fechar, a seleção para conceder aos utilizadores acesso ao conteúdo que está a subscrever está ativada, independentemente das suas seleções anteriores.
+    >
+
     > [!TIP]
     > Quer enviar o e-mail de uma subscrição diretamente ou a pedido a qualquer momento? Selecione **Executar Agora** para as subscrições do dashboard ou relatório que pretende enviar. Verá uma notificação a informar que será enviado um e-mail para todos os utilizadores dessa subscrição específica. Realizar esta ação não conta para o seu limite de 24 execuções de subscrições agendadas por dia e por relatório ou dashboard. Esta ação NÃO irá acionar uma atualização de dados no conjunto de dados subjacente.
     >
@@ -112,6 +116,7 @@ Os administradores do Power BI podem utilizar os registos de auditoria do Power 
 - Se o dashboard ou relatório estiver em capacidade Premium, pode utilizar aliases de e-mail de grupo para subscrições, em vez de subscrever colegas individualmente através dos endereços de e-mail. Os aliases são baseados no Active Directory atual.
 - Se os seus conteúdos não se encontrarem numa capacidade Premium, apenas os utilizadores do Power BI Pro poderão receber subscrições por e-mail. 
 - Atualmente, as subscrições não suportam a utilização de marcadores.
+- A opção para permitir o acesso ao relatório/dashboard é sempre apresentada como ativada ao editar uma subscrição existente.  Se desselecionar esta opção e guardar a subscrição, esse estado será guardado. No entanto, a opção será marcada por predefinição se editar novamente o relatório.
 
 ### <a name="dashboards"></a>Dashboards
 

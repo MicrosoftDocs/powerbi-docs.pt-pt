@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: c71467a279ed3a2304d6af82f7493dac97425c4f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 68ead14063c290c8ec9db5cb24814b93e493ea6b
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348097"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272960"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Formas de partilhar o seu trabalho no Power BI
 
@@ -64,7 +64,7 @@ Suponhamos que pretende distribuir o seu dashboard para um público alargado na 
 
 Após estes instalarem uma aplicação, podem vê-la no browser ou dispositivo móvel.
 
-Para que os seus utilizadores vejam a sua aplicação, precisam de ter também uma licença do Power BI Pro, ou a aplicação precisa de ser armazenada numa capacidade do Power BI Premium. Leia [O que é o Power BI Premium?](../admin/service-premium-what-is.md) para obter detalhes.
+Para que os seus utilizadores vejam a sua aplicação, precisam de ter também uma licença do Power BI Pro, ou a aplicação precisa de ser armazenada numa capacidade do Power BI Premium. Para mais detalhes, leia [O que é o Power BI Premium?](../admin/service-premium-what-is.md).
 
 Também pode publicar aplicações para os utilizadores exteriores à sua organização. Estes podem ver e interagir com os conteúdos da aplicação, mas não podem partilhá-la com terceiros. Agora já pode criar *aplicações de modelo* e implementá-las em qualquer cliente do Power BI.
 
@@ -82,7 +82,7 @@ Suponhamos que finalizou um dashboard e um relatório em A Minha Área de Trabal
 
 ![Partilhar um relatório](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
-Precisa de uma licença do Power BI Pro para partilhar os conteúdos, assim como as pessoas com quem os partilhar. Em alternativa, os conteúdos precisam de estar numa área de trabalho numa [capacidade Premium](../admin/service-premium-what-is.md). Ao partilhar um dashboard ou relatório, os destinatários podem ver e interagir com o mesmo, mas não o podem editar. Podem ver os mesmos dados que vê no dashboard e nos relatórios, a menos que seja aplicada RLS (Segurança em nível de linha) ao conjunto de dados subjacente. Os funcionários com quem o partilhar também o podem partilhar com os respetivos colegas, se assim o permitir. 
+Precisa de uma licença do Power BI Pro para partilhar os conteúdos, assim como as pessoas com quem os partilhar. Em alternativa, os conteúdos precisam de estar numa área de trabalho numa [capacidade Premium](../admin/service-premium-what-is.md). Ao partilhar um dashboard ou relatório, os destinatários podem ver e interagir com o mesmo, mas não o podem editar. Veem os mesmos dados que o utilizador no dashboard ou no relatório e obtêm acesso a todos os dados no conjunto de dados subjacente, a menos que seja aplicada a [segurança ao nível da linha (RLS)](../admin/service-admin-rls.md). Os funcionários com quem o partilhar também o podem partilhar com os respetivos colegas, se assim o permitir. 
 
 Pode também partilhar com pessoas fora da sua organização. Estas também podem ver e interagir com o dashboard ou relatório, mas não o podem partilhar. 
 
@@ -106,7 +106,7 @@ Aumente a colaboração orientada por dados na sua organização ao incorporar o
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Imprimir ou guardar como PDF ou outro ficheiro estático
 
-Pode imprimir ou guardar como PDF (ou outro formato de ficheiro estático) todo um dashboard, mosaico de dashboard, página de relatório ou visualização a partir do serviço do Power BI. Os relatórios só podem ser impressos uma página de cada vez. Não pode imprimir todo o relatório de uma só vez. Mais informações sobre [imprimir ou guardar como um ficheiro estático](../consumer/end-user-print.md).
+Pode imprimir ou guardar como PDF (ou outro formato de ficheiro estático) todo um dashboard, mosaico de dashboard, página de relatório ou visualização a partir do serviço do Power BI. Os relatórios só podem ser impressos a uma página de cada vez. Não pode imprimir todo o relatório de uma vez. Mais informações sobre [imprimir ou guardar como um ficheiro estático](../consumer/end-user-print.md).
 
 ## <a name="embed-reports-in-secure-portals-or-public-web-sites"></a>Incorporar relatórios em sites públicos ou portais seguros
 
@@ -132,12 +132,12 @@ A opção **Publicar na Web** permite-lhe publicar relatórios do Power BI para 
 As *aplicações de modelo* foram concebidas para serem distribuídas publicamente, muitas vezes no Microsoft AppSource. Cria uma aplicação e, com pouca ou nenhuma codificação, pode implementá-la para qualquer cliente do Power BI. Os seus clientes ligam-se aos seus próprios dados e criam uma instância das suas próprias contas. Saiba mais sobre as [aplicações de modelo do Power BI](../connect-data/service-template-apps-overview.md).
 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 * [Partilhar dashboards com colegas e outras pessoas](service-share-dashboards.md)
 * [Criar e publicar uma aplicação no Power BI](service-create-distribute-apps.md)
 * [Incorporar relatórios num site ou portal seguro](service-embed-secure.md)
 
-Tem comentários? Aceda ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
+Tem comentários? Vá ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

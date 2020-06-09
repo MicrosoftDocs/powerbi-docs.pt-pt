@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: e47cb22ba4c30c8090e2e9552e1994a5c545b47b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e8c45145695d61bcd7173e2202db98ec306c4b4d
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80404014"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336872"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Registar uma aplicação do Azure AD para utilizar com o Power BI
 
@@ -54,7 +54,7 @@ Veja aqui como registar a sua aplicação com a Ferramenta de Registo de Aplica�
 
 5. Se selecionou **Aplicação Web do lado do servidor** para o tipo de aplicação, então continue a introduzir um valor para o **URL da Home Page** e **URL de Redirecionamento**. O **URL de Redirecionamento** funciona com qualquer URL válido e deve corresponder à aplicação que criou. Se selecionou **Nativa**, então avance para o passo 6.
 
-6. Selecione as APIs Power BI de que a sua aplicação precisa. Para obter mais informações sobre as permissões de acesso do Power BI, veja [Permissões do Power BI](power-bi-permissions.md). Em seguida, selecione **Registar**.
+6. Selecione as APIs Power BI de que a sua aplicação precisa. Para obter mais informações sobre as permissões de acesso do Power BI, consulte [Permissões e consentimento no ponto final da plataforma de identidades da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). Em seguida, selecione **Registar**.
 
     ![Escolher APIs para registar](media/register-app/register-app-new-app-registration-apis-register.png)
 
@@ -194,7 +194,7 @@ Precisa de ter sessão iniciada com uma conta *mestra*, utilizada para incorpora
    }
    ```
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 Agora que registou a aplicação no Azure AD, tem de autenticar os utilizadores na sua aplicação. Dê uma vista de olhos em [Autenticar utilizadores e obter um token de acesso do Azure AD para a sua aplicação do Power BI](get-azuread-access-token.md) para aprender mais.
 

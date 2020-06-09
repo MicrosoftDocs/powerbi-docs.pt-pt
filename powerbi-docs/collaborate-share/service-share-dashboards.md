@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d094e3411bd5b8bef9b4a8f488412d903723a703
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: cf971de1a60636def852080a523c227f08b4f888
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733560"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272937"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Partilhar dashboards e relatórios do Power BI com colegas e outras pessoas
 A *Partilha* é uma boa forma de dar a algumas pessoas acesso aos seus dashboards e relatórios. O Power BI também disponibiliza [várias outras formas de colaborar e distribuir dashboards e relatórios](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -26,7 +26,7 @@ Para partilhar, seja conteúdo dentro ou fora da organização, precisa de uma [
 
 Pode partilhar dashboards e relatórios a partir de maioria dos locais no serviço Power BI: as áreas de trabalho Favoritos, Recentes, A Minha Área de Trabalho e Partilhado Comigo, se o proprietário permitir. Também pode partilhar a partir de outras áreas de trabalho se tiver a [função de Administrador, Membro ou Contribuidor](service-new-workspaces.md#roles-in-the-new-workspaces) nas mesmas. 
 
-Ao partilhar dashboards ou relatórios, as pessoas com quem os partilhar poderão ver e interagir com os mesmos, mas não os poderão editar. As pessoas verão os mesmos dados que vê no dashboard ou no relatório, a menos que seja aplicada a [RLS (Segurança em nível de linha)](../admin/service-admin-rls.md). Os colegas com quem partilhar também os podem partilhar com os colegas deles, se assim o permitir. As pessoas fora da organização podem ver e interagir com os dashboards ou relatórios, mas não os podem partilhar. 
+Ao partilhar dashboards ou relatórios, as pessoas com quem os partilhar poderão ver e interagir com os mesmos, mas não os poderão editar. Veem os mesmos dados que o utilizador no dashboard e relatórios e obtêm acesso a todo o conjunto de dados subjacente, a menos que seja aplicada a segurança ao nível da linha (RLS) ao conjunto de dados subjacente.  Os colegas com quem partilhar também os podem partilhar com os colegas deles, se assim o permitir. As pessoas fora da organização podem ver e interagir com os dashboards ou relatórios, mas não os podem partilhar. 
 
 Não pode *partilhar* dashboards diretamente do Power BI Desktop. Irá [publicar relatórios do Power BI Desktop](../create-reports/desktop-upload-desktop-files.md) para o serviço Power BI. No entanto, pode [partilhar um dashboard a partir das aplicações móveis do Power BI](../consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md).  
 
@@ -123,7 +123,7 @@ Apenas o proprietário do dashboard ou do relatório pode ativar ou desativar a 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Elementos a ter em conta sobre a partilha de dashboards e relatórios:
 
-* Em geral, o utilizador e os seus colegas veem os mesmos dados no dashboard ou no relatório. Portanto, se tiver permissões para ver mais dados do que os seus colegas, estes poderão ver todos os seus dados no dashboard ou no relatório. No entanto, se a [RLS (segurança ao nível de linha)](../admin/service-admin-rls.md) for aplicada ao conjunto de dados subjacente a um dashboard ou a um relatório, as credenciais de cada pessoa vão determinar a que dados podem aceder.
+* Quando partilha um dashboard com colegas, está a partilhar o conjunto de dados subjacente também. Os seus colegas têm acesso a todo o conjunto de dados, a menos que a [segurança ao nível da linha (RLS)](../admin/service-admin-rls.md) lhes limite o acesso. Os autores de relatórios podem utilizar capacidades que personalizem as experiências de utilizadores ao visualizar ou interagir com relatórios, por exemplo ao ocultar colunas, limitar as ações em elementos visuais, entre outros. Estas experiências de utilizador personalizadas não restringem aquilo a que os utilizadores de dados podem aceder no conjunto de dados. Utilize a [segurança ao nível da linha (RLS)](../admin/service-admin-rls.md) no conjunto de dados para que as credenciais de cada pessoa determinem a que dados esta pode aceder.
 * Todas as pessoas com quem partilhar o dashboard podem vê-lo e interagir com os relatórios relacionados na [Vista de leitura](../consumer/end-user-reading-view.md#reading-view). Em geral, não podem criar relatórios ou guardar alterações a relatórios existentes. No entanto, se selecionar a opção **Permitir que os utilizadores criem novos conteúdos com conjuntos de dados subjacentes**, os utilizadores poderão criar os seus próprios relatórios noutras áreas de trabalho com base no conjunto de dados deste dashboard ou relatório.
 * Embora ninguém possa ver ou transferir o conjunto de dados, é possível aceder ao conjunto de dados diretamente através da funcionalidade Analisar no Excel. Um administrador pode restringir a capacidade de utilização da funcionalidade Analisar no Excel para todos os utilizadores num grupo. No entanto, a restrição destina-se a todos os utilizadores desse grupo e para cada área de trabalho a que o grupo pertence.
 * Todas as pessoas podem [atualizar os dados](../connect-data/refresh-data.md) manualmente.

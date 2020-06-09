@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 7e93e8a08b6dd662f3ada089c5ee8745bb24b3e2
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865574"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337056"
 ---
-# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Criar e ver os elementos visuais da árvore de decomposição no Power BI (pré-visualização)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Criar e ver os elementos visuais da árvore de decomposição no Power BI
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
@@ -32,6 +32,9 @@ Este tutorial utiliza dois exemplos:
 - Um cenário de cadeia de fornecimento que analisa a percentagem de produtos que uma empresa possui em atraso (rutura de stock).  
 - Um cenário de vendas que divide as vendas de jogos de vídeo por vários fatores, como o género e a editora dos jogos.
 
+Pode encontrar o ficheiro .pbix no cenário de cadeia de fornecimento aqui: [Supply Chain Sample.pbix](
+https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Reports/Supply%20Chain%20Sample.pbix) (Exemplo de Cadeia de Fornecimento.pbix).
+
 > [!NOTE]
 > Para partilhar o seu relatório com outro utilizador do Power BI, é necessário que ambos tenham licenças individuais do Power BI Pro ou que o relatório seja guardado numa capacidade Premium.    
 
@@ -39,17 +42,21 @@ Este tutorial utiliza dois exemplos:
 No painel Visualizações, selecione o ícone da árvore de decomposição.
 ![Marca d'água da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-watermark.png)
 
-A visualização requer dois tipos de entrada.
+A visualização requer dois tipos de entrada:
 
-**Analisar** – a métrica que quer analisar. Tem de ser uma medida ou uma agregação.  
-**Explicar Por** – uma ou mais dimensões que quer desagregar.
+ - **Analisar** – a métrica que quer analisar. Tem de ser uma medida ou uma agregação.  
+ - **Explicar Por** – uma ou mais dimensões que quer desagregar.
 
-Depois de arrastar a medida para o conjunto de campo, as atualizações dos elementos visuais mostram a medida agregada. No exemplo abaixo, estamos a visualizar a % média dos produtos em atraso (5,07%) ![Nó raiz da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-root.png)
+Depois de arrastar a medida para o conjunto de campo, as atualizações dos elementos visuais mostram a medida agregada. No exemplo abaixo, podemos visualizar a percentagem média de produtos em atraso (5,07%).
+
+![Nó de raiz da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-root.png)
 
 O próximo passo é importar uma ou mais dimensões que quer desagregar. Adicione estes campos ao registo **Explicar por**. Observe que um sinal de adição aparece ao lado do nó raiz. Ao selecionar o sinal +, pode escolher qual o campo que quer desagregar (pode desagregar os campos pela ordem que preferir).
+
 ![Menu da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
 Ao selecionar os resultados **Desvio da previsão** na árvore, pode expandir e desagregar a medida mediante os valores na coluna. Este processo pode ser repetido ao escolher outro nó para desagregar.
+
 ![Expansão da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-expansion.png)
 
 Ao selecionar um nó do último nível, filtrará os dados de forma cruzada. A seleção de um nó de um nível anterior altera o caminho.
@@ -72,10 +79,12 @@ Pode utilizar as “Divisões de IA” para saber que dados deve observar. Estas
 
 A análise pode funcionar de duas formas, independentemente das suas preferências. O comportamento predefinido é o seguinte:
 
-**Valor Alto**: considera todos os campos disponíveis e determina qual vai desagregar para obter o valor mais alto da medida que está a ser analisada.  
-**Valor Baixo**: considera todos os campos disponíveis e determina qual vai desagregar para obter o valor mais baixo da medida que está a ser analisada.  
+ - **Valor Alto**: considera todos os campos disponíveis e determina qual vai desagregar para obter o valor mais alto da medida que está a ser analisada.  
+ - **Valor Baixo**: considera todos os campos disponíveis e determina qual vai desagregar para obter o valor mais baixo da medida que está a ser analisada.  
 
-Ao selecionar o **Valor Alto** no exemplo das encomendas em atraso, acontece o seguinte: ![Divisão de IA da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
+Ao selecionar o **Valor Alto** no exemplo das encomendas em atraso, acontece o seguinte:
+
+![Divisão de IA da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
 
 É apresentada uma lâmpada ao lado de **Tipo de Produto** a indicar que foi uma “Divisão de IA”. A árvore também fornece uma linha pontilhada que recomenda o nó **Monitorização do Paciente**, uma vez que tal produz o valor mais alto das encomendas em atraso (9,2%). 
 
@@ -83,7 +92,9 @@ Coloque o rato sobre a lâmpada para ver uma descrição. Neste exemplo, a descr
 
 Pode configurar o elemento visual para encontrar divisões de AI **Relativas** ao invés de **Absolutas**. 
 
-O modo Relativo procura valores altos que se destacam (em comparação com o resto dos dados na coluna). Para ilustrar isso, vamos ver um exemplo: ![Divisão absoluta da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
+O modo Relativo procura valores altos que se destacam (em comparação com o resto dos dados na coluna). Para ilustrar isso, vamos ver um exemplo:
+
+![Divisão absoluta da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
 
 Na captura de ecrã acima, podemos ver as vendas de jogos de vídeo na América do Norte. Primeiro, dividimos a árvore por **Nome da Editora** e, em seguida, desagregamos para Nintendo. A seleção de **Valor Alto** resulta na expansão de **Plataforma > Nintendo**. Como a Nintendo (a editora) apenas cria jogos para consolas da sua marca, há apenas um valor presente e, portanto, esse é naturalmente o valor mais alto.
 
@@ -111,9 +122,13 @@ Se preferir não utilizar as divisões de IA na árvore, poderá desativá-las n
 
 ## <a name="tree-interactions-with-ai-splits"></a>Interações da árvore com as divisões de IA
 
-Pode ter vários níveis de IA subsequentes. Também pode misturar diferentes tipos de níveis de IA (do Valor Alto ao Valor Baixo e de volta ao Valor Alto): ![Vários caminhos de IA da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-multi-ai-path.png)
+Pode ter vários níveis de IA subsequentes. Também pode misturar diferentes tipos de níveis de IA (do Valor Alto ao Valor Baixo e de volta ao Valor Alto):
 
-Se selecionar um nó diferente na árvore, as Divisões de IA serão recalculadas do zero. No exemplo abaixo, alterámos o nó selecionado no nível **Desvio da Previsão**. Os níveis subsequentes são alterados para produzir os Valores Alto e Baixo das ![Interações de IA da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-ai-interactions.png)
+![Vários caminhos de IA da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-multi-ai-path.png)
+
+Se selecionar um nó diferente na árvore, as Divisões de IA serão recalculadas do zero. No exemplo abaixo, alterámos o nó selecionado no nível **Desvio da Previsão**. Os níveis subsequentes são alterados para suspender os valores Alto e Baixo corretos.
+
+![Interações de IA da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-ai-interactions.png)
 
 Os níveis de IA também são recalculados quando filtra de forma cruzada a árvore de decomposição por outro elemento visual. No exemplo a seguir, podemos ver que a % das nossas encomendas em atraso é mais alta nas Instalações N.º 0477.
 
@@ -144,15 +159,11 @@ A árvore de decomposição não é suportada nos seguintes cenários:
 
 As divisões de IA não são suportadas nos seguintes cenários:  
 -   Azure Analysis Services
--   Direct Query
 -   Power BI Report Server
 -   Publicar na Web
 -   Medidas complexas e medidas de esquemas de extensão em “Analisar”
 
-Outras limitações de pré-visualização:
-- Power BI Mobile  
-- Afixar no dashboard
-- Mostrar a funcionalidade Dados
+Outras limitações:
 - Suporte nas Perguntas e Respostas
 
 ## <a name="next-steps"></a>Próximos passos

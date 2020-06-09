@@ -1,5 +1,5 @@
 ---
-title: Obter uma subscrição do Power BI para a sua organização
+title: Obter uma subscrição do serviço Power BI para a sua organização
 description: Como se inscrever numa subscrição do serviço Power BI como administrador e comprar licenças em massa.
 author: kfollis
 ms.reviewer: ''
@@ -8,17 +8,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/13/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bb8abab7d3f8430037b31e2797d62ce8d7b03e1
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 39ecda08527e0805b1ce26ebd9a1c83ceb57187b
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438162"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160048"
 ---
-# <a name="get-a-power-bi-subscription-for-your-organization"></a>Obter uma subscrição do Power BI para a sua organização
+# <a name="get-a-power-bi-service-subscription-for-your-organization"></a>Obter uma subscrição do serviço Power BI para a sua organização
 
-Os administradores podem inscrever-se no Power BI através da página **Comprar serviços** no centro de administração do Microsoft 365. Quando um administrador se inscreve no Power BI, pode atribuir licenças aos utilizadores que devem ter acesso.
+Os administradores podem inscrever-se no serviço Power BI na página **Comprar serviços** do centro de administração do Microsoft 365. Quando um administrador se inscreve no Power BI, pode atribuir licenças aos utilizadores que devem ter acesso.
 
 Os utilizadores na sua organização podem inscrever-se no Power BI através do site do Power BI. Quando um utilizador na sua organização se inscreve no Power BI, é atribuída automaticamente uma licença do Power BI a esse utilizador. Se quiser desativar a capacidade de gestão personalizada, siga os passos em [Ativar ou desativar a compra e inscrição de gestão personalizada](service-admin-disable-self-service.md).
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: eb9a10c715a03adc9149ca8793ff248a23b9914d
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 2257e38183d87ef7fd4fdd12546c2a191a7acf74
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121029"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159887"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Atualização incremental no Power BI
 
@@ -230,7 +230,7 @@ O exemplo seguinte abrange a totalidade dos 120 meses no intervalo histórico pa
 
 ## <a name="metadata-only-deployment"></a>Implementação apenas de metadados
 
-Ao publicar uma nova versão de um ficheiro PBIX do Power BI Desktop para uma área de trabalho no serviço Power BI, se já existir um conjunto de dados com o mesmo nome, ser-lhe-á pedido que substitua o conjunto de dados existente.
+Ao publicar uma nova versão de um ficheiro PBIX do Power BI Desktop numa área de trabalho no Power BI Premium, se já existir um conjunto de dados com o mesmo nome, ser-lhe-á pedido que substitua o conjunto de dados existente.
 
 ![Pedido de substituição do conjunto de dados](media/service-premium-incremental-refresh/replace-dataset-prompt.png)
 

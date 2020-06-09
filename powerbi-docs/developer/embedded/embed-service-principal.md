@@ -1,6 +1,6 @@
 ---
-title: Principal de serviço com o Power BI
-description: Saiba como registar uma aplicação no Azure Active Directory com o principal de serviço e um segredo da aplicação para utilizar ao incorporar conteúdos do Power BI.
+title: Incorporar conteúdos do Power BI com o principal de serviço e um segredo da aplicação
+description: Saiba como autenticar-se para obter análises incorporadas com um principal de serviço da aplicação do Azure Active Directory e um segredo da aplicação.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,19 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/30/2020
-ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.date: 05/12/2020
+ms.openlocfilehash: da7db691628b0fbcfd42d6a35f99b18b4cfdcc88
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121196"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315879"
 ---
-# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Incorporar conteúdos do Power BI com o principal de serviço e o segredo da aplicação
+# <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Incorporar conteúdos do Power BI com o principal de serviço e um segredo da aplicação
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 Este artigo descreve a autenticação do principal de serviço com o *ID da Aplicação* e o *Segredo da aplicação*.
+
+>[!NOTE]
+>Recomendamos que proteja os seus serviços de back-end com certificados, em vez de chaves secretas.
+>* [Saiba mais sobre como obter tokens de acesso do Azure AD com chaves secretas ou certificados](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion).
+>* [Incorporar conteúdos do Power BI com o principal de serviço e um certificado](embed-service-principal-certificate.md).
 
 ## <a name="method"></a>Método
 
@@ -54,30 +59,12 @@ Crie uma aplicação do AAD através de um destes métodos:
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Criar uma aplicação do AAD no portal do Microsoft Azure
 
-1. Inicie sessão no [Microsoft Azure](https://portal.azure.com/#allservices).
-
-2. Procure **Registos de aplicações** e clique na ligação **Registos de aplicações**.
-
-    ![registo de aplicações do Azure](media/embed-service-principal/azure-app-registration.png)
-
-3. Clique em **Novo registo**.
-
-    ![novo registo](media/embed-service-principal/new-registration.png)
-
-4. Preencha as informações necessárias:
-    * **Nome** – introduza um nome para a aplicação
-    * **Tipos de conta suportados** – selecione a conta do Azure AD necessária
-    * (Opcional) **URI de Redirecionamento** – introduza um URI, se necessário
-
-5. Clique em **Registar**.
-
-6. Após o registo, o *ID da Aplicação* está disponível no separador **Descrição geral**. Copie e guarde o *ID da Aplicação* para utilizar mais tarde.
-
-    ![ID da aplicação](media/embed-service-principal/application-id.png)
+[!INCLUDE[service create app](../../includes/service-principal-create-app.md)]
 
 7. Clique no separador **Certificados e segredos**.
 
      ![ID da aplicação](media/embed-service-principal/certificates-and-secrets.png)
+
 
 8. Clique em **Novo segredo do cliente**
 
@@ -157,7 +144,7 @@ Adicione o grupo de segurança que criou no AAD à secção específica de grupo
 
 ![Portal de administração](media/embed-service-principal/admin-portal.png)
 
-## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>Passo 4 – Adicionar o principal de serviço como um administrador à área de trabalho
+## <a name="step-4---add-the-service-principal-to-your-workspace"></a>Passo 4 – Adicionar o principal de serviço à área de trabalho
 
 Para permitir que a aplicação do AAD aceda a artefactos como relatórios, dashboards e conjuntos de dados no serviço Power BI, adicione a entidade do principal de serviço como membro ou administrador à área de trabalho.
 
@@ -181,20 +168,21 @@ Pode incorporar os conteúdos numa aplicação de exemplo ou na sua própria apl
 
 Uma vez incorporados os conteúdos, está pronto para [avançar para a produção](embed-sample-for-customers.md#move-to-production).
 
-## <a name="considerations-and-limitations"></a>Considerações e limitações
-
-* O principal de serviço só funciona com as [novas áreas de trabalho](../../collaborate-share/service-create-the-new-workspaces.md).
-* **A Minha Área de Trabalho** não é suportada quando utilizar o principal de serviço.
-* É necessária capacidade dedicada quando avançar para a produção.
-* Não pode iniciar sessão no portal do Power BI com o principal de serviço.
-* São necessários direitos de administrador do Power BI para ativar o principal de serviço nas definições de programador no portal de administração do Power BI.
-* As aplicações [Incorporar para a sua organização](embed-sample-for-your-organization.md) não podem utilizar o principal de serviço.
-* A gestão de [fluxos de dados](../../transform-model/service-dataflows-overview.md) não é suportada.
-* O principal de serviço atualmente não suporta APIs de administração.
-* Quando utilizar o principal de serviço com uma origem de dados do [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview), o principal de serviço tem de ter permissões de instância do Azure Analysis Services. Não é possível utilizar um grupo de segurança que contém o principal de serviço para este efeito.
+[!INCLUDE[service principal limitations](../../includes/service-principal-limitations.md)]
 
 ## <a name="next-steps"></a>Próximos passos
 
-* [Power BI Embedded para clientes](embed-sample-for-customers.md)
+>[!div class="nextstepaction"]
+>[Registar uma aplicação](register-app.md)
 
-* [Segurança ao nível da linha com o gateway de dados no local com o principal de serviço](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+> [!div class="nextstepaction"]
+>[Power BI Embedded para clientes](embed-sample-for-customers.md)
+
+>[!div class="nextstepaction"]
+>[Objetos do principal de serviço e aplicação no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
+>[!div class="nextstepaction"]
+>[Segurança ao nível da linha com o gateway de dados no local com o principal de serviço](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+>[!div class="nextstepaction"]
+>[Incorporar conteúdos do Power BI com o principal de serviço e um certificado](embed-service-principal-certificate.md)

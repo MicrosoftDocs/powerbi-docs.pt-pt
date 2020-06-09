@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.custom: seodec18
+ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 7c9f198ac15311948e1789173851a6c85debc856
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 1c72507759a69dc03f3d8b1510aef0e3ad369dd2
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812456"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272753"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
@@ -36,7 +36,7 @@ Este artigo apresenta as principais funcionalidades do Power BI Premium. Sempre 
 
 ## <a name="subscriptions-and-licensing"></a>Subscrições e licenciamento
 
-O Power BI Premium é uma subscrição do Office 365 ao nível do inquilino disponível em duas famílias de SKUs (Stock Keeping Unit):
+O Power BI Premium é uma subscrição do Microsoft 365 ao nível do inquilino, disponível em duas famílias de SKUs (Stock Keeping Unit):
 
 - Os SKUs **P** (P1-P5) das funcionalidades empresariais e de incorporação necessitam de fidelização mensal ou anual, são faturados mensalmente e incluem uma licença para instalar o Power BI Report Server no local.
 
@@ -127,7 +127,7 @@ Notas de secção:
 
 ### <a name="regional-support"></a>Suporte regional
 
-Ao criar uma nova capacidade, os administradores do serviço Power BI e os Administradores globais podem especificar uma região na qual residirão as áreas de trabalho atribuídas à capacidade. Isto é conhecido como **Multi-Geo**. Com a Multi-Geo, as organizações podem cumprir requisitos de residência dos dados ao implementar conteúdos para datacenters numa região específica, mesmo que seja diferente da região na qual a Subscrição do Office 365 reside. Para saber mais, veja [Suporte da Multi-Geo para o Power BI Premium](service-admin-premium-multi-geo.md).
+Ao criar uma nova capacidade, os administradores do serviço Power BI e os Administradores globais podem especificar uma região na qual residirão as áreas de trabalho atribuídas à capacidade. Isto é conhecido como **Multi-Geo**. Com a Multi-Geo, as organizações podem cumprir requisitos de residência dos dados ao implementar conteúdos para datacenters numa região específica, mesmo que seja diferente da região na qual a Subscrição do Microsoft 365 reside. Para saber mais, veja [Suporte da Multi-Geo para o Power BI Premium](service-admin-premium-multi-geo.md).
 
 ### <a name="capacity-management"></a>Gestão de capacidades
 

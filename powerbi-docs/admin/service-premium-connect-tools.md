@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 7a363af0bb8d6db9f0fd370b7c4b987b51c88221
-ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
+ms.openlocfilehash: 74ea78bf9f5e845eb86a38bad54ebde5e99ffbb0
+ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83382744"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84219570"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Dataset connectivity with the XMLA endpoint (Preview) (Conectividade de conjuntos de dados com o ponto final de XMLA [Pré-visualização])
 
@@ -98,11 +98,14 @@ As aplicações que se ligam à área de trabalho utilizam o URL como se se trat
 
 Os utilizadores com UPNs no mesmo inquilino (não B2B) podem substituir o nome do inquilino por `myorg`. Por exemplo,  `powerbi://api.powerbi.com/v1.0/myorg/Sales Workspace`.
 
+Os utilizadores B2B têm de especificar o UPN da respetiva organização no nome do inquilino. Por exemplo,  `powerbi://api.powerbi.com/v1.0/fabrikam.com/Sales Workspace`.
+
 ### <a name="to-get-the-workspace-connection-url"></a>Para obter o URL de ligação da área de trabalho
 
 Em **Definições** > **Premium** > **Ligação da Área de Trabalho** da área de trabalho, clique em **Copiar**.
 
 ![Cadeia de ligação de área de trabalho](media/service-premium-connect-tools/xmla-endpoint-workspace-connection.png)
+
 
 ## <a name="connection-requirements"></a>Requisitos de ligação
 

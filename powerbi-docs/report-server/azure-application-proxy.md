@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/06/2020
+ms.date: 05/27/2020
 ms.author: maggies
-ms.openlocfilehash: 548e66685c7b460829e171d097d18640cd5b0f57
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3bd792c585f42add6652205a6e4a99fe116ad20f
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922603"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159841"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Configurar o Power BI Report Server com o Proxy de Aplicações do Azure
 
@@ -166,7 +166,10 @@ Configurámos o URL externo como `https://pbirsazureapp-umacontoso2410.msappprox
 
 ![Grupo de conectores predefinido](media/azure-application-proxy/report-server-application-proxy-1.png)
 
-Não fizemos alterações na secção **Definições Adicionais**. Está configurada para funcionar com as opções predefinidas:
+Não fizemos alterações na secção **Definições Adicionais**. Está configurada para funcionar com as opções predefinidas.
+
+> [!IMPORTANT]
+> Ao configurar o proxy da aplicação, tenha em atenção que a propriedade **Tempo Limite da Aplicação de Back-end** está definida como **Predefinição** (85 segundos). Se tiver relatórios cuja execução demora mais de 85 segundos, defina esta propriedade como **Longo** (180 segundos), que é o valor de tempo limite mais elevado possível. Quando configurados com a propriedade definida como **Longo**, todos os relatórios têm de ser concluídos dentro de 180 segundos, caso contrário excedem o limite de tempo e resultam num erro.
 
 ![Definições adicionais](media/azure-application-proxy/report-server-application-proxy-1.png)
 

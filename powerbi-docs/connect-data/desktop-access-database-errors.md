@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1816fb7926ed378cdb70ce2e0ade08893828ce4c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1d0dcc80c358fa4c6f0768d515c399a3f381bfe7
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301339"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273374"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Resolver problemas de importação de ficheiros .xls do Access e do Excel no Power BI Desktop
 
@@ -30,7 +30,7 @@ Se a mensagem de erro do Power BI Desktop indica que o Motor de Base de Dados d
 
 ## <a name="situation-2-the-access-database-engine-bit-version-32-bit-or-64-bit-is-different-from-your-power-bi-desktop-bit-version"></a>Situação 2: a versão de bits do Motor de Base de Dados do Access (32 ou 64 bits) é diferente da versão de bits do Power BI Desktop
 
-Esta situação geralmente ocorre quando a versão instalada do Microsoft Office é de 32 bits e a versão do Power BI Desktop instalada é de 64 bits. O contrário também pode acontecer e a incompatibilidade da versão de bits ocorrerá em ambos os casos. Se estiver a utilizar uma subscrição do Office 365, veja [Situação 3](#situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription) para um problema e resolução diferentes. Qualquer uma das seguintes soluções pode solucionar este erro de inconsistência de versão de bits:
+Esta situação geralmente ocorre quando a versão instalada do Microsoft Office é de 32 bits e a versão do Power BI Desktop instalada é de 64 bits. O contrário também pode acontecer e a incompatibilidade da versão de bits ocorrerá em ambos os casos. Se estiver a utilizar uma subscrição do Microsoft 365, consulte a [Situação 3](#situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription) para um problema e resolução diferentes. Qualquer uma das seguintes soluções pode solucionar este erro de inconsistência de versão de bits:
 
 ### <a name="solution-1"></a>Solução 1
 
@@ -79,9 +79,9 @@ Para instalar as duas versões de bits do Motor de Base de Dados do Access, siga
    
        c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
 
-## <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>Situação 3: Problemas ao utilizar ficheiros .XLS ou do Access com uma subscrição do Office 365
+## <a name="situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription"></a>Situação 3: problemas ao utilizar ficheiros .XLS ou do Access com uma subscrição do Microsoft 365
 
-Se estiver a utilizar uma subscrição do Office 365, seja o **Office 2013** ou o **Office 2016**, o fornecedor do Motor de Base de Dados do Access é registado numa localização de registo virtual que *só* está acessível para os processos do Microsoft Office. Como resultado, o Motor de Aplicação Híbrida (que é responsável por executar o Excel não Office 365 e o Power BI Desktop e não é um processo do Office), não pode utilizar o fornecedor do Motor de Base de Dados do Access.
+Se estiver a utilizar uma subscrição do Microsoft 365, seja o **Office 2013** ou o **Office 2016**, o fornecedor do Motor de Base de Dados do Access é registado numa localização de registo virtual que *só* está acessível para os processos do Microsoft Office. Como resultado, o Motor de Aplicação Híbrida (que é responsável por executar o Excel não Office 365 e o Power BI Desktop e não é um processo do Office), não pode utilizar o fornecedor do Motor de Base de Dados do Access.
 
 Para solucionar esta situação, [transfira e instale o Motor de Base de Dados do Access redistribuível](https://www.microsoft.com/download/details.aspx?id=13255) correspondente à versão de bits da sua instalação do Power BI Desktop. Para obter mais informações sobre as versões de bits, veja as secções anteriores neste artigo.
 
