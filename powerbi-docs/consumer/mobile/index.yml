@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 02/11/2020
-  ms.openlocfilehash: 96881ecb03132579643517679aaab3c87b7a977f
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 2d15b3e6bf3ab2c097353ecf7647c244db8cdcdc
+  ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "78923914"
+  ms.lasthandoff: 06/11/2020
+  ms.locfileid: "84681888"
 landingContent:
 - title: Sobre as aplicações móveis do Power BI
   linkLists:
@@ -55,8 +55,8 @@ landingContent:
       url: mobile-apps-offline-data.md
     - text: Partilhar um dashboard ou relatório
       url: mobile-share-dashboard-from-the-mobile-apps.md
-    - text: Definir alertas de dados
-      url: mobile-set-data-alerts-in-the-mobile-apps.md
+    - text: Otimizar relatórios para aplicações móveis
+      url: ../../create-reports/desktop-create-phone-report.md
 - title: Relatórios no local
   linkLists:
   - linkListType: how-to-guide
