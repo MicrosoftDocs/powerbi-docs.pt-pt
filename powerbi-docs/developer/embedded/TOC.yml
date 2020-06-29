@@ -18,6 +18,8 @@
           href: embed-sample-for-your-organization.md
         - name: Embed paginated reports for customers (Incorporar relatórios paginados para clientes)
           href: embed-paginated-reports-customers.md
+        - name: Embed paginated reports for your organization (Incorporar relatórios paginados para a sua organização)
+          href: embed-paginated-reports-organization.md
         - name: Embed content for national clouds (Incorporar conteúdos para clouds nacionais)
           href: embed-sample-for-customers-national-clouds.md
     - name: Conceitos

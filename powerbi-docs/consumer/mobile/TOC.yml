@@ -1,4 +1,4 @@
-- name: Aplicativos móveis do Power BI
+- name: Aplicações móveis do Power BI
   href: index.yml
   expanded: true
   items:
@@ -11,7 +11,7 @@
           href: mobile-whats-new-in-the-mobile-apps.md
         - name: Conhecer a home page
           href: mobile-apps-home-page.md
-    - name: Guias de Início Rápido
+    - name: Inícios rápidos
       expanded: true
       items:
         - name: Explorar dashboards e relatórios
@@ -30,7 +30,7 @@
           href: mobile-apps-offline-data.md
         - name: Aplicação Power BI for Mixed Reality (Pré-visualização)
           href: mobile-mixed-reality-app.md
-    - name: Como
+    - name: Procedimentos
       items:
         - name: Todas as aplicações móveis
           items:
@@ -40,19 +40,19 @@
               href: mobile-reports-in-the-mobile-apps.md
             - name: Interact with tiles in the mobile apps (Interagir com mosaicos nas aplicações móveis)
               href: mobile-tiles-in-the-mobile-apps.md
-            - name: Share a dashboard from the Power BI mobile apps (Partilhar um dashboard a partir das aplicações móveis do Power BI)
+            - name: Partilhar um dashboard das aplicações móveis do Power BI
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Favorites in the mobile apps (Favoritos nas aplicações móveis)
               href: mobile-apps-favorites.md
-            - name: Set data alerts in the Power BI mobile apps (Definir alertas de dados nas aplicações móveis do Power BI)
+            - name: Definir alertas de dados nas aplicações móveis do Power BI
               href: mobile-set-data-alerts-in-the-mobile-apps.md
-            - name: Get notifications in the Power BI mobile apps (Obter notificações nas aplicações móveis do Power BI)
+            - name: Receber notificações nas aplicações móveis do Power BI
               href: mobile-apps-notification-center.md
             - name: Create a deep link that goes to a specific location (Criar uma ligação avançada que direciona para uma determinada localização)
               href: mobile-apps-deep-link-specific-location.md
             - name: Filter a report by location in the Power BI mobile apps (Filtrar um relatório pela localização nas aplicações móveis do Power BI)
               href: mobile-apps-geographic-filtering.md
-            - name: Using OAuth to connect to Reporting Services (Utilizar o OAuth para ligar ao Reporting Services)
+            - name: Utilizar o OAuth para ligar ao Reporting Services
               href: mobile-oauth-ssrs.md
         - name: iOS e Android
           items:
@@ -84,7 +84,9 @@
               href: mobile-apps-iOS-siri-Shortcuts.md
             - name: iOS device search integration (Integração da pesquisa de dispositivos iOS)
               href: mobile-apps-iOS-search-integration.md
-            - name: Power BI Apple Watch app (Aplicação Power BI no Apple Watch)
+            - name: Dark mode (Modo escuro)
+              href: mobile-apps-dark-mode.md
+            - name: Aplicação Power BI Apple Watch
               href: mobile-apple-watch.md
         - name: Dispositivos Android
           items:
@@ -106,7 +108,7 @@
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
             - name: View on-premises reports and KPIs (Ver KPIs e relatórios no local)
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: Ver o Power BI no Surface Hub
+            - name: "Modo de apresentação no Surface Hub e dispositivos com o Windows\_10"
               href: mobile-windows-10-app-presentation-mode.md
             - name: Início de Sessão Único na aplicação Windows
               href: mobile-windows-10-app-single-sign-on-sso.md

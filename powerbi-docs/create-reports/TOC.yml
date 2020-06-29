@@ -47,6 +47,8 @@
       items:
         - name: Relatórios do Power BI
           items:
+            - name: Power BI modern ribbon (Friso moderno do Power BI)
+              href: desktop-ribbon.md
             - name: Trabalhar com a Vista de relatório
               href: desktop-report-view.md
             - name: Tipos de filtros nos relatórios

@@ -28,6 +28,8 @@
               href: star-schema.md
             - name: Reduce data model size (Reduzir o tamanho do modelo de dados)
               href: import-modeling-data-reduction.md
+            - name: Create date tables (Criar tabelas de data)
+              href: model-date-tables.md
             - name: Auto date/time guidance (Orientação sobre data/hora automáticas)
               href: auto-date-time.md
             - name: Relações um-para-um
@@ -44,6 +46,8 @@
               href: directquery-model-guidance.md
             - name: Guia de modelos compostos
               href: composite-model-guidance.md
+            - name: 'Row-level security (RLS) guidance (Orientação de segurança ao nível da linha [RLS])'
+              href: rls-guidance.md
         - name: DAX
           items:
             - name: função DIVIDIR vs. operador dividir (/)

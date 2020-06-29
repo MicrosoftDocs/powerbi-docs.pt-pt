@@ -74,6 +74,8 @@
               href: end-user-spotlight.md
             - name: Personalize a visual (Personalizar um elemento visual)
               href: end-user-personalize-visuals.md
+            - name: Analyze fluctuations in visuals (Analisar flutuações em elementos visuais)
+              href: end-user-analyze-visuals.md
             - name: Relatórios paginados no Power BI
               items:
                 - name: Relatórios paginados
@@ -92,6 +94,8 @@
               href: end-user-visual-type.md
             - name: Mostrar os dados que foram utilizados para criar a visualização
               href: end-user-show-data.md
+            - name: Copy a visual and paste it elsewhere (Copiar um elemento visual e colá-lo noutro local)
+              href: end-user-copy-paste.md
             - name: Desagregar numa visualização
               href: end-user-drill.md
             - name: Interagir com mapas ArcGIS

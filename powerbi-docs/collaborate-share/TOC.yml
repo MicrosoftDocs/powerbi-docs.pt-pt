@@ -49,8 +49,12 @@
           items:
             - name: Partilhar dashboards e relatórios
               href: service-share-dashboards.md
+            - name: Request access to a report or dashboard (Pedir acesso a um relatório ou dashboard)
+              href: service-request-access.md
             - name: Filtrar e partilhar um relatório
               href: service-share-reports.md
+            - name: Troubleshoot sharing reports or dashboards (Resolução de problemas de partilha de relatórios ou dashboards)
+              href: service-troubleshoot-sharing.md
             - name: Filtrar um relatório usando parâmetros no URL
               href: service-url-filters.md
             - name: Subscrever-se e subscrever outros

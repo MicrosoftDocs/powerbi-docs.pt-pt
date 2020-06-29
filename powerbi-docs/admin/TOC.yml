@@ -24,7 +24,7 @@
               href: service-govus-overview.md
             - name: Enroll a US Government organization (Inscrever uma organização de Administração Pública dos EUA)
               href: service-govus-signup.md
-        - name: Power BI in regional clouds (Power BI nas clouds regionais)
+        - name: Power BI nas clouds nacionais
           items:
             - name: Migrar para Regiões Geográficas na Alemanha
               href: service-admin-migrate-data-germany.md
@@ -116,6 +116,8 @@
               href: service-premium-connect-tools.md
             - name: Automatização com principais de serviço
               href: service-premium-service-principal.md
+            - name: Troubleshoot XMLA endpoint connectivity (Resolver problemas de conectividade de pontos finais XMLA)
+              href: troubleshoot-xmla-endpoint.md
     - name: Referência
       items:
         - name: 'PowerShell, REST APIs, and .NET SDK (PowerShell, APIs REST e SDK .NET)'
