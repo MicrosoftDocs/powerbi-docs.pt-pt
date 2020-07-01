@@ -1,17 +1,17 @@
 ---
 title: Catálogo de aprendizagem para Administradores
 description: Encontre todas as opções de formação para o Power BI
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: b5a3abd76cd8dd09c89ac62831b3389091ae3bd3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.author: margoc
+ms.openlocfilehash: 80dbc5f0a16760a9612a9c885466157dc97cbb9b
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268541"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532793"
 ---
 # <a name="administrators-learning-catalog"></a>Catálogo de aprendizagem para Administradores
 

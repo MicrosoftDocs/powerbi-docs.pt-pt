@@ -1,17 +1,17 @@
 ---
 title: Catálogo de aprendizagem para analistas de dados
 description: Encontre todas as opções de formação para o Power BI
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: 97ecff0abf13ff72d7794b06085be077efbe9027
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.author: margoc
+ms.openlocfilehash: 4664966098089d564e82207eb7aac923bc626b77
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565770"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532195"
 ---
 # <a name="data-analyst-learning-catalog"></a>Catálogo de aprendizagem para Analistas de Dados
 
@@ -55,6 +55,11 @@ O seguinte catálogo está organizado do conhecimento básico aos domínios espe
 | [Make Your Power BI Data Visual: Core Chart Types and How to Use Them](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-OnDemandRegistration.html) (Transformar os Dados do Power BI em Elementos Visuais: Tipos de Gráfico Principais e Como Utilizá-los)  | O tipo de gráfico é um dos blocos modulares mais importantes da análise visual. Com a utilização correta dos gráficos, criamos os padrões e a clareza adequados e fornecemos as respostas certas para os nossos utilizadores.  | Webinar |             |
 | [Visualizar conjuntos de dados públicos ou privados com o novo conector do Power BI e da data.world](https://info.microsoft.com/data-world-connector-powerbi-ondemand.html)  | Em colaboração com a data.world, a Microsoft lançou um novo conector de dados que lhe permite importar conjuntos de dados da data.world para o Power BI Desktop. Juntamente com a data.world, estamos entusiasmados por ajudar os fãs de dados a recolher, gerir, explorar, visualizar e partilhar informações com outras pessoas mais facilmente.  | Webinar |             |
 | [Get actionable insights using real-world visualizations in your Power BI dashboard](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/8-10-18-Webinar-Get-actionable-insights-using-real-world/td-p/480242) (Obter informações acionáveis com visualizações práticas no dashboard do Power BI) | Junte-se a Charles Sterling e a Shakun Grover durante a análise que vão fazer das visualizações práticas no dashboard do Power BI.  O Microsoft Visio oferece a tela perfeita para contextualizar visualmente os dados e representar os fluxos do processo. Através do novo elemento visual do Visio para o Power BI, pode facilmente dar vida às funcionalidades avançadas de visualização do Visio nos dashboards do Power BI para fomentar as informações e a ação.                              | Webinar | 34 minutos e 19 segundos |
+## <a name="dax"></a>DAX<a name="dax"></a>
+| Conteúdo | Descrição | Formatar  | Comprimento      |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
+| [Practical DAX for Power BI by Phil Seamark](https://www.youtube.com/watch?v=1fGfqzS37qs) (DAX prática para o Power BI por Phil Seamark)  | Para acompanhar o novo livro, Phil Seamark vai analisar algumas das melhores práticas para a DAX prática no Power BI   | Vídeo do YouTube | 59 minutos e 41 segundos |
+| [Creative DAX solutions by Philip Seamark](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) (Soluções Criativas da DAX por Philip Seamark) | Sabia que a linguagem DAX é muito mais capaz do que apenas executar uma função SUM numa coluna ou contar linhas numa tabela? A DAX está por cima de uma das bases de dados existentes mais rápidas. Junte-se a Charles Sterling e Philip Seamark enquanto exploram alguns cenários invulgares e criativos que talvez tenha considerado pouco viáveis. | Webinar       | 58 minutos e 12 segundos |
 ## <a name="governance-and-deployment"></a>Governação e Implementação<a name="governance-deployment"></a>
 | Conteúdo  | Descrição   | Formatar  | Comprimento |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------|

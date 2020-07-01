@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6e3d44c9871332842ed0e3f3d9b9fb5fc64a5a65
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 65ed1806491f281bcc4d8adc365e5d286b6204ec
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121109"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218844"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Criar perguntas em destaque para as Perguntas e Respostas do Power BI
 Se possui um conjunto de dados, pode adicionar as suas próprias perguntas em destaque para esse conjunto de dados. As Perguntas e Respostas do Power BI mostrarão essas perguntas a colegas que consumem relatórios baseados nesse conjunto de dados.  As perguntas em destaque fornecem aos seus colegas algumas ideias sobre os tipos de perguntas que eles podem fazer sobre o conjunto de dados. As perguntas em destaque adicionadas são decididas por si; pode adicionar perguntas populares, perguntas que mostram resultados interessantes ou perguntas que podem ser difíceis de formular.
