@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2e46b50abce6a28c2872c31a2c8f4a7931f4dd20
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7a3444aca5f74dd54ba292548ac5fa1d848f5172
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347568"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85224001"
 ---
 # <a name="connect-to-webpages-from-power-bi-desktop"></a>Ligar a páginas Web a partir do Power BI Desktop
 
