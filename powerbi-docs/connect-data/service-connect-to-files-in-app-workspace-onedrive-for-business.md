@@ -4,16 +4,16 @@ description: Saiba como armazenar e ligar aos seus ficheiros do Excel, CSV e Pow
 author: maggiesMSFT
 ms.reviewer: lukasz
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 62d0282af47b0d57a0b9ac307b422191b440b45c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: fdbb571a30f530ddeba37a7eaf490718b6c8116d
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564096"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230358"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Ligar a ficheiros armazenados no OneDrive para a sua área de trabalho do Power BI
 Depois de [criar uma área de trabalho no Power BI](../collaborate-share/service-create-distribute-apps.md), pode armazenar os seus ficheiros do Excel, CSV e Power BI Desktop no OneDrive para Empresas para a sua área de trabalho do Power BI. Pode continuar a atualizar os ficheiros que armazena no OneDrive. Essas atualizações são automaticamente refletidas nos relatórios e dashboards do Power BI com base nos ficheiros. 

@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: ''
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/14/2020
-ms.openlocfilehash: 3816cfe4e1b61b9445e16d7c322c5ba19aa2bc3d
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: 5ed7f3a05be1e600fc67e5162b496309ce315f94
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407938"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230953"
 ---
 # <a name="set-report-views-for-paginated-reports-in-the-power-bi-service"></a>Definir vistas de relatórios para relatórios paginados no serviço Power BI
 

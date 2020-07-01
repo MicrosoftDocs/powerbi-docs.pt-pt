@@ -4,16 +4,16 @@ description: Xero para Power BI
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: adb2f66b043b09ecb584870cf96f4c491960d59b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8ac9081e1cf7d6ec4ca53863c8111e56ae3ad68e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348442"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231720"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Ligar-se ao Xero com o Power BI
 O Xero é um software de contabilidade online fácil de utilizar e especificamente concebido para as pequenas empresas. Crie visualizações apelativas com base nos dados financeiros do Xero com esta aplicação de modelo do Power BI. O dashboard predefinido inclui muitas métricas para pequenas empresas, como fundo de maneio, receita versus despesa, tendência de perda de lucro, dias de vencimento e retorno sobre o investimento.
