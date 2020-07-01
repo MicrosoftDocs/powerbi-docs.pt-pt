@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f92ce45cd739072dcb7056eb0be6696b4cab32e4
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 7597d135bc05783d0d43bb481e24fc197abd9d4b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813530"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85222408"
 ---
 # <a name="use-buttons-in-power-bi"></a>Utilizar botões no Power BI
 A utilização de **botões** no Power BI permite-lhe criar relatórios que têm um comportamento semelhante às aplicações e, deste modo, poderá criar um ambiente apelativo onde os utilizadores podem pairar o rato, clicar e ter uma maior interação com os conteúdos do Power BI. Pode adicionar botões a relatórios no **Power BI Desktop** e no **serviço Power BI**. Quando partilha os seus relatórios no serviço Power BI, estes fornecem uma experiência semelhante a uma aplicação aos seus utilizadores.

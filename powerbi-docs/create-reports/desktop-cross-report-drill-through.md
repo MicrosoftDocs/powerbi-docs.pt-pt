@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 178ad340a9a3ccd9d6427dc6bad03b6d8d08ce90
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 7589858749585cb506d4f313557abcb889b506c9
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83694062"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85221731"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Utilizar a pormenorização de relatório cruzado no Power BI
 
