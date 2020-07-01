@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9f017a4e93e76d91949b3cc3e12ef0c652664a91
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7ba75bf5bce05f7a2614dc27d5ff8245ec1a31ef
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281444"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239165"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>Configurar a pormenorização em relatórios do Power BI
 Com a *pormenorização* em relatórios do Power BI, pode criar uma página no relatório centrada numa entidade específica, por exemplo, um fornecedor, um cliente ou um fabricante. Quando os leitores do relatório utilizam a pormenorização, clicam com o botão direito do rato num ponto de dados noutras páginas do relatório. Em seguida, podem pormenorizar a página em destaque para obter detalhes filtrados em função desse contexto. Também pode [criar um botão que pormenoriza](desktop-drill-through-buttons.md) para obter detalhes quando os leitores clicam no mesmo.

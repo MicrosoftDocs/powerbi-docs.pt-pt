@@ -4,16 +4,16 @@ description: Aprenda a instalar automaticamente as aplicações do Power BI ao i
 ms.subservice: powerbi-developer
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 10939c23a5c25a2ff4233f6b74f9efd99d8e10fd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 646a09545a06dfa65bd73a666fa2419d82e4da33
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148080"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236915"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Instalar automaticamente as aplicações do Power BI ao incorporar para a sua organização
 

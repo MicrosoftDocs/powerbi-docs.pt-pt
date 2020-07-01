@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: e2014f359d4085ab0dcb85135f7436c9e403eaab
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 93679c3abcebfee31e1fc5dc20b463a6ef3df549
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114508"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239202"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Explorar os dados BI na aplicação móvel do Power no Apple Watch
 Com a aplicação Power BI Apple Watch, é possível ver as KPIs e mosaicos de cartão a partir de dashboards do Power BI, diretamente no relógio. KPIs e mosaicos de cartão são mais adequados para fornecer uma medida de pulsação no ecrã pequeno. Pode atualizar um dashboard a partir do seu iPhone ou do próprio Watch.

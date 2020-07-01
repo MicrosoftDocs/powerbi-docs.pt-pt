@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2ccf0d7566cb1ffd2b3b12295c0667885bf30ef0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b8fddd6b88effac3375840dd6034ca93cec52f12
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349592"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238323"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Transferir um relatório do serviço Power BI para o Power BI Desktop (Pré-visualização)
 No Power BI Desktop, pode publicar um relatório (um ficheiro *.pbix*) do seu computador local no serviço Power BI. Os relatórios do Power BI também podem ir noutra direção: Pode transferir um relatório do serviço Power BI para o Power BI Desktop. A extensão de um relatório do Power BI, em ambos os casos, é .pbix.

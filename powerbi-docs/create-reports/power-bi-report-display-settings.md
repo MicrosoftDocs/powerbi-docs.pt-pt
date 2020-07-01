@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 601e23fae6579344afa83799b04fbcba3f81a6b4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c08d4959b8e3958651282ac0fd52e6ed80a6b345
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344578"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237258"
 ---
 # <a name="apply-page-display-settings-in-a-power-bi-report"></a>Aplicar definições de apresentação de página num relatório do Power BI
 Compreendemos que é essencial manter o esquema do seu relatório perfeito. Por vezes, isso representa um desafio, uma vez que você e os seus colegas poderão ver esses relatórios em ecrãs de diferentes proporções e tamanhos. 
