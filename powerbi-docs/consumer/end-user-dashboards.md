@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 06/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b0e52ebf4f529c7da75e79becf30c74d6e2c0248
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 64fa13f3e95f43813c657eb9be195fb03e57a06b
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496325"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354921"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboards para consumidores do serviço Power BI
 
@@ -32,7 +32,6 @@ As visualizações apresentadas no dashboard são denominadas *mosaicos* e são 
 > Os dashboards podem ser [visualizados e partilhados em dispositivos móveis](mobile/mobile-apps-view-dashboard.md).
 >
 > É necessário o Power BI Pro para visualizar um dashboard que tenha sido partilhado consigo.
-> 
 
 As visualizações num dashboard são provenientes de relatórios e cada relatório baseia-se num conjunto de dados. Na verdade, uma forma de pensar num dashboard é como uma entrada para os relatórios e conjuntos de dados subjacentes. Selecionar uma visualização leva-o ao relatório (e ao conjunto de dados) que utilizou para a criar.
 

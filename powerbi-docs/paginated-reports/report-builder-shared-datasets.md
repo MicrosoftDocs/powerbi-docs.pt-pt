@@ -4,15 +4,15 @@ description: Crie um relatório paginado no Power BI Report Builder com base num
 ms.date: 02/12/2020
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a13f346feeddc8196cb35e06acf027baeaa7a151
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276634"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239788"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Criar um relatório paginado com base num conjunto de dados partilhado do Power BI
 
@@ -26,7 +26,7 @@ O conjunto de dados não tem de estar numa área de trabalho na capacidade Premi
 
 Eis uma lista do que precisa e não precisa para utilizar um conjunto de dados partilhado no Power BI Report Builder.
 
-- Power BI Report Builder. [Transferir e instalar o Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513).
+- Power BI Report Builder. [Transferir e instalar o Power BI Report Builder](https://aka.ms/pbireportbuilder).
 - Para aceder a um conjunto de dados do Power BI, tem de ter permissão de compilação no conjunto de dados. Leia sobre a [permissão de compilação](../connect-data/service-datasets-build-permissions.md).
 - Não precisa de uma licença do Power BI Pro para criar um relatório paginado no Report Builder. 
 - Precisa de uma licença do Power BI Pro para publicar o seu relatório paginado. Também precisa de pelo menos uma função de Contribuidor numa área de trabalho numa capacidade Premium. 

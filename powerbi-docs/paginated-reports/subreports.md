@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9ced88289b2170d503a8394d5b83175659178e85
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272816"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239575"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Sub-relatórios nos relatórios paginados do Power BI
 
@@ -23,7 +23,7 @@ Um *sub-relatório* é um item de relatório paginado que apresenta outro relat�
   
  Nesta ilustração, as informações de contacto apresentadas no relatório principal Encomenda de Vendas vêm de um sub-relatório de Contactos.  
   
-Os ficheiros de definição de relatório paginado (.rdl) são criados no Power BI Report Builder. Pode carregar sub-relatórios armazenados no SQL Server Reporting Services para uma área de trabalho Premium no serviço Power BI. Os relatórios principais e os sub-relatórios têm de ser publicados na mesma área de trabalho. Instale o [Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513).
+Os ficheiros de definição de relatório paginado (.rdl) são criados no Power BI Report Builder. Pode carregar sub-relatórios armazenados no SQL Server Reporting Services para uma área de trabalho Premium no serviço Power BI. Os relatórios principais e os sub-relatórios têm de ser publicados na mesma área de trabalho. Instale o [Power BI Report Builder](https://aka.ms/pbireportbuilder).
   
 ## <a name="work-with-report-builder-and-the-power-bi-service"></a>Trabalhar com o Report Builder e o serviço Power BI
 

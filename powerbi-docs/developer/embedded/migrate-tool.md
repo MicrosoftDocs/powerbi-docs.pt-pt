@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 5df9ddd44bdc8952dab14809ce3facd74e5d3753
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 60e80311ff12da2bc79b7f844c81c7b5c8f4c3ac
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564159"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354875"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded migration tool (Ferramenta de migração Power BI Embedded)
 
@@ -151,7 +151,7 @@ Pode clicar com o botão direito do rato num grupo e escolher mudar o nome do gr
 
 No separador **Transferir**, verá a lista de relatórios e os metadados associados. Pode ver qual é o estado de exportação, juntamente com o estado de exportação anterior.
 
-![](media/migrate-tool/migrate-tool-download-tab.png)
+![transferir](media/migrate-tool/migrate-tool-download-tab.png)
 
 Tem duas opções.
 
