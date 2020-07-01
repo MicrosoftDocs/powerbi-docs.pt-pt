@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8347ddffd19b62eff7e665332993c301c9034e07
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 926334f5708914b30277ac0c855937dfb6b79bfb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813976"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85233925"
 ---
 # <a name="design-filters-in-power-bi-reports"></a>Conceber filtros nos relatórios do Power BI
 
