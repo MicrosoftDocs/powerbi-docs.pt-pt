@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1ce2445e0b2d92551a5554f32dc3b9e2a751e7b6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 88172ea1c27c1a547d57311f261450ee63fcd12e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79113520"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236335"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Optar ativamente por participar na pré-visualização de funcionalidades do serviço Power BI
 
