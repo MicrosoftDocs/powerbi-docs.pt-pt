@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/14/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 722516004a454f970b7a88e2bf4c48d1d0176b6b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 91ca05a144166abbc903d42ba30a5c70b839987d
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237349"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782814"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Criar e utilizar elementos visuais R no Power BI Desktop
 
@@ -104,15 +104,19 @@ Os elementos visuais R no serviço Power BI têm algumas limitações:
   
   * Adicione a seguinte linha ao início do script R:
     
-        powerbi_rEnableShowText =  1
+```powerbi_rEnableShowText =  1```
+
 * Os tipos de letra chinês, japonês e coreano requerem todos os passos adicionais seguintes para funcionar corretamente no serviço Power BI:
   
   * Primeiro, instale o pacote R *showtext* e todas as respetivas dependências. Pode fazê-lo ao executar o seguinte script:
     
-        *install.packages("showtext")*
+```install.packages("showtext")```
+
   * Em seguida, adicione a seguinte linha ao início do script R:
     
-        powerbi_rEnableShowTextForCJKLanguages =  1
+```R script
+powerbi_rEnableShowTextForCJKLanguages =  1
+```
 
 ## <a name="overview-of-r-packages"></a>Descrição geral de pacotes R
 Os pacotes R são coleções de funções R, dados e código compilado combinadas num formato bem definido. Quando a linguagem R estiver instalada, esta inclui um conjunto de pacotes padrão e estão disponíveis outros pacotes para transferência e instalação. Depois de instalados, os pacotes R têm de ser carregados para a sessão para serem utilizados. A origem principal dos pacotes R gratuitos é a CRAN, [Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html).

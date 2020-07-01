@@ -3,16 +3,16 @@ title: Resolução de problemas dos pipelines de implementação
 description: Resolver problemas dos pipelines de implementação no Power BI
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: overview
+ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: fda846a19b5c6081c59f08f2bf9f94eddbc9852c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e41a13fac3e0ffea5171d2927cc0f3b9debbeef1
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148558"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485881"
 ---
 # <a name="deployment-pipelines-troubleshooting-preview"></a>Resolução de problemas dos pipelines de implementação (pré-visualização)
 
