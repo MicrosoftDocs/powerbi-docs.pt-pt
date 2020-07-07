@@ -38,7 +38,7 @@
             - name: Dataset impact analysis (Análise de impacto dos conjuntos de dados)
               href: service-dataset-impact-analysis.md
             - name: Aplicar etiquetas de confidencialidade dos dados
-              href: ../collaborate-share/service-security-apply-data-sensitivity-labels.md
+              href: ../admin/service-security-apply-data-sensitivity-labels.md
             - name: Ligar aos ficheiros no OneDrive do seu grupo
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Collaborate in a classic workspace (Colaborar numa área de trabalho clássica)
