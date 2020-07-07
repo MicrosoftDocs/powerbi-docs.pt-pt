@@ -5,15 +5,14 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 002df4e6c3eec7095258647a0015042efb98257f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 54091175b49a0465a56a689190965429715a4754
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292507"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485559"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>Resolver problemas de criação de modelos do DirectQuery no Power BI Desktop
 
@@ -42,13 +41,13 @@ Em algumas origens do DirectQuery, este registo inclui todas as consultas enviad
 - Teradata
 - SAP HANA
 
-O ficheiro de rastreio está disponível na pasta **AppData** do utilizador atual: _\\\<Utilizador>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
+Pode encontrar o ficheiro de rastreio na pasta **AppData** do utilizador atual: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
 
 Eis uma forma fácil de chegar a esta pasta: no Power BI Desktop, selecione _Ficheiro > Opções e definições > Opções_ e, em seguida, selecione a página **Diagnósticos**. É apresentada a janela da caixa de diálogo abaixo:
 
 ![A janela do Power BI Desktop está aberta e a página Diagnóstico Global está selecionada. A secção Opções de Diagnóstico tem duas propriedades: Ative o rastreio e ignore a cache de geocodificação. A opção Ativar rastreio está ativada. A secção Recolha de Informação de Falha de Sistema tem um botão Ativar Agora e um link para abrir a pasta de falha de sistema/rastreios.](media/desktop-directquery-troubleshoot/desktop-directquery-troubleshoot-desktop-file-options-diagnostics.png)
 
-Quando selecionar a ligação **Abrir pasta de falha de sistema/rastreios**, em Recolha de Informação de Falha de Sistema, é aberta a seguinte pasta: _\\\<Utilizador>\AppData\Local\Microsoft\Power BI Desktop\Traces_
+Ao selecionar a ligação **Abrir pasta de informação de falha de sistema/rastreios**, em Recolha de Informação de Falha de Sistema, é aberta a seguinte pasta: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces_
 
 Navegar para a pasta principal dessa pasta mostra a pasta que contém _AnalysisServicesWorkspaces_, a qual vai conter uma subpasta de área de trabalho para cada instância aberta do Power BI Desktop. Estas subpastas incluem no nome um sufixo de número inteiro, como _AnalysisServicesWorkspace2058279583_.
 
@@ -63,7 +62,7 @@ Depois de transferir e instalar o SQL Server Management Studio, execute o SQL Se
 Para abrir o ficheiro de rastreio, siga os passos abaixo:
 
 1. No SQL Server Profiler, selecione _Ficheiro > Abrir > Ficheiro de rastreio_
-2. Introduza o caminho para o ficheiro de rastreio da sessão do Power BI atualmente iniciada, tal como: _\\\<Utilizador>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data_
+2. Introduza o caminho para o ficheiro de rastreio para a sessão do Power BI atualmente aberta, tal como: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data_
 3. Abra _FlightRecorderCurrent.trc_
 
 São apresentados todos os eventos da sessão atual. É mostrado um exemplo anotado abaixo, que destaca grupos de eventos. Cada grupo tem:

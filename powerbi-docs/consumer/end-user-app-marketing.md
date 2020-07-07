@@ -1,20 +1,19 @@
 ---
 title: Instalar e utilizar a aplicação Sales and Marketing no serviço Power BI
-description: No Power BI, as aplicações juntam dashboards e relatórios num único local. Instale a aplicação Sales and Marketing a partir do AppSource.
+description: No Power BI, as aplicações juntam dashboards e relatórios num único local. Instale a aplicação Sales and Marketing a partir do marketplace de aplicações do Power BI.
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 02/19/2020
+ms.topic: how-to
+ms.date: 06/09/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 65584772a60be1a784828226fbac48458ded7be8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: df22baeae8acb09ac9b7f071c16ec8697203f8fa
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496879"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236571"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Instalar e utilizar a aplicação de exemplo Sales and Marketing no serviço Power BI
 
@@ -23,43 +22,42 @@ ms.locfileid: "77496879"
 Agora que já possui [noções básicas sobre como obter conteúdos do Power BI](end-user-app-view.md), vamos obter a aplicação Sales and Marketing a partir do Microsoft AppSource (appsource.com). 
 
 
-## <a name="microsoft-appsource-appsourcecom"></a>Microsoft AppSource (appsource.com)
-Eis a ligação para a aplicação: [aplicação Sales and Marketing](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview). Selecionar esta ligação abrirá a página de transferência desta aplicação no Microsoft AppSource. 
+## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>Obter a aplicação no marketplace de aplicações do Power BI
 
-1. Poderá ser-lhe pedido para iniciar sessão antes de poder transferir a aplicação. Inicie sessão com o mesmo endereço de e-mail que utiliza para o Power BI. 
+1. [Inicie sessão no serviço Power BI](./end-user-sign-in.md) se ainda não o fez. 
 
-    ![Ecrã de início de sessão do AppSource  ](./media/end-user-app-marketing/power-bi-sign-in.png)
+1. Quando estiver no Power BI, selecione **Aplicações > Obter aplicações**. 
 
-2. Selecione **Obter agora**. 
+    ![Obter aplicações  ](./media/end-user-app-marketing/power-bi-get-apps.png)
 
-    ![Site do AppSource com aplicações do Power BI selecionadas  ](./media/end-user-app-marketing/power-bi-get-now.png)
+1. O marketplace de aplicações do Power BI é apresentado. Localize a aplicação Sales and Marketing. Se não a vir, tente escrever “Sales” na caixa de pesquisa.
 
+    ![Marketplace de aplicações do Power BI  ](./media/end-user-app-marketing/power-bi-apps-marketplace.png)
 
-3. Se for a primeira vez que inicia sessão no AppSource, terá de aceitar os termos de utilização. 
+1. Clique no mosaico da aplicação. Será aberta a oferta de aplicações no AppSource. Clique em **OBTER AGORA**.
 
-    ![Ecrã dos termos de utilização do AppSource  ](./media/end-user-app-marketing/power-bi-term.png)
+   ![Oferta de aplicações no AppSource](./media/end-user-app-marketing/power-bi-apps-app-offering.png)
 
+1. Confirme que pretende instalar esta aplicação.
 
-4. O serviço Power BI será aberto. Confirme que pretende instalar esta aplicação.
+   ![Instalar esta aplicação?](./media/end-user-app-marketing/power-bi-app-install.png)
 
-    ![Instalar esta aplicação?  ](./media/end-user-apps/power-bi-app-install.png)
+5. Assim que a aplicação for instalada, o serviço Power BI apresentará uma mensagem de êxito. Selecione **Ir para a aplicação** para abrir a aplicação. Será apresentado o dashboard da aplicação ou o relatório da aplicação, em função da forma como o estruturador criou a aplicação.
 
-5. Ser-lhe-á apresentada uma mensagem de êxito pelo serviço Power BI assim que a aplicação for instalada. Selecione **Ir para a aplicação** para abrir a aplicação. Será apresentado o dashboard da aplicação ou o relatório da aplicação, em função da forma como o estruturador criou a aplicação.
-
-    ![Aplicação instalado com êxito ](./media/end-user-apps/power-bi-app-ready.png)
+    ![Aplicação instalado com êxito ](./media/end-user-app-marketing/power-bi-app-ready.png)
 
     Também pode abrir a aplicação diretamente a partir da lista de conteúdos da aplicação ao selecionar **Aplicações** e **Vendas e Marketing**.
 
-    ![Aplicações no Power BI](./media/end-user-apps/power-bi-apps.png)
+    ![Aplicações no Power BI](./media/end-user-app-marketing/power-bi-apps-sales-marketing.png)
 
 
 6. Escolha se quer explorar ou personalizar e partilhar a sua nova aplicação. Uma vez que selecionámos uma aplicação de exemplo da Microsoft, vamos começar por explorar. 
 
-    ![Explorar com dados de exemplo](./media/end-user-apps/power-bi-explore.png)
+    ![Explorar com dados de exemplo](./media/end-user-app-marketing/power-bi-explore.png)
 
 7.  A sua nova aplicação é aberta com um dashboard. No entanto, o *designer* da aplicação poderia tê-la configurado para abrir um relatório.  
 
-    ![Explorar com dados de exemplo](./media/end-user-apps/power-bi-new-app.png)
+    ![Explorar com dados de exemplo](./media/end-user-app-marketing/power-bi-new-app.png)
 
 
 

@@ -8,12 +8,11 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: de84dd7e9021abf1198f2dc4f910afb8bd078ac6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279532"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485950"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Dimensionamento do gateway de dados no local
 
@@ -84,7 +83,7 @@ Planeie a melhor conectividade possível entre o serviço Power BI e o gateway 
 
 - Zele por obter fiabilidade, velocidades rápidas e latências baixas consistentes
 - Elimine ou reduza os saltos do computador entre o gateway e as origens de dados
-- Remova qualquer limitação de rede imposta pela camada proxy da firewall. Para obter mais informações sobre os pontos finais do Power BI, veja [URLs do Power BI para adição à lista de permissões](../admin/power-bi-whitelist-urls.md).
+- Remova qualquer limitação de rede imposta pela camada proxy da firewall. Para obter mais informações sobre os pontos finais do Power BI, veja [Adicionar URLs do Power BI à lista de permissões](../admin/power-bi-whitelist-urls.md).
 - Configure o [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) para estabelecer ligações geridas privadas ao Power BI
 - Para as origens de dados nas VMs do Azure, confirme que as VMs estão [colocalizadas no serviço Power BI](../admin/service-admin-where-is-my-tenant-located.md)
 - Para as cargas de trabalho Ligação em Direto no SQL Server Analysis Services (SSAS) relacionadas com a RLS dinâmica, garanta uma boa conectividade entre o computador do gateway e o Active Directory no local

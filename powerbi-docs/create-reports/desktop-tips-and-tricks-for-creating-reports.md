@@ -6,15 +6,14 @@ ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: e7e7c0f8df0f41d673920cf4af596ca33d46519c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
-ms.translationtype: HT
+ms.openlocfilehash: ae9a3695c8db084d9c65871314edfef34cde1cb6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564581"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238473"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugestões e truques para criar relatórios no Power BI Desktop
 Para aproveitar ao máximo os seus dados, por vezes precisa de uma ajuda extra. Reunimos algumas dicas e truques que pode usar ao criar relatórios no Microsoft Power BI Desktop *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento do Power Pivot ativado e o Power Query instalado e ativado. 
@@ -99,11 +98,11 @@ O último passo é criar o histograma. Arraste o campo Registo da tabela "Regist
 ## <a name="histograms"></a>Histogramas
 No Power BI Desktop, pode utilizar um campo calculado para definir um Histograma. Identifique a tabela e coluna nas quais quer criar um histograma. Na área de cálculo, escreva a seguinte fórmula:
 
-> Frequency:=COUNTROWS(\<Nome da Coluna\>)
+> Frequência:=COUNTROWS(\<Column Name\>)
 > 
 > 
 
-Guarde as alterações e volte ao relatório. Adicione o \<Nome da Coluna\> e a Frequência a uma tabela e converta-os num gráfico de barras. Certifique-se de que o \<Nome da Coluna\> está no eixo x e que o campo calculado Frequência está no eixo y.
+Guarde as alterações e volte ao relatório. Adicione o \<Column Name\> e a Frequência a uma tabela e converta-os num gráfico de barras. Verifique se o \<Column Name\> está no eixo x e o campo calculado Frequência está no eixo y.
 
 ## <a name="tips-and-tricks-for-creating-relationships-in-power-bi-desktop"></a>Sugestões e truques para criar relações no Power BI Desktop
 Geralmente, ao carregar conjuntos de dados detalhados de várias origens, problemas como valores nulos, valores em branco ou valores duplicados impedem que crie relações. 

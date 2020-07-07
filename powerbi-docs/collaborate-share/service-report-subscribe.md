@@ -6,16 +6,15 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c43b0710c15fcc77a08aa789a92d840d2425f5ab
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
-ms.translationtype: HT
+ms.openlocfilehash: d7e1365ce1328e529d056a80b46230b97febc446
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315954"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485674"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Subscrever relatórios e dashboards no serviço Power BI para si e para outras pessoas
 
@@ -109,7 +108,7 @@ Os administradores do Power BI podem utilizar os registos de auditoria do Power 
 
 ### <a name="general"></a>Geral
 
-- Tal como outros produtos de BI, o período que definiu para a sua subscrição começa quando é iniciado o processamento da mesma.  Quando o processamento de relatório é concluído, a subscrição é colocada em fila e é enviada para os destinatários de e-mail.  Esforçamo-nos por processar e entregar as subscrições o mais rapidamente possível. No entanto, quando a procura for mais elevada, por vezes poderá observar um atraso maior devido ao número de subscrições que o Power BI consegue enviar de cada vez. A maioria dos clientes poderá observar um atraso não superior a 15 minutos no processamento e envio dos relatórios. Em determinadas alturas e para inquilinos com uma utilização especialmente elevada, poderá demorar até 30 minutos.  Nunca esperamos que os eventuais atrasos na entrega ultrapassem os 60 minutos, a partir do momento em que a subscrição é agendada.  Se observar um atraso assim tão grande, primeiro certifique-se de que o endereço `no-reply-powerbi@microsoft.com` se encontra na lista de permissões do seu fornecedor de e-mail.  Se assim for, contacte o suporte do Power BI para obter assistência.
+- Tal como outros produtos de BI, o período que definiu para a sua subscrição começa quando é iniciado o processamento da mesma.  Quando o processamento de relatório é concluído, a subscrição é colocada em fila e é enviada para os destinatários de e-mail.  Esforçamo-nos por processar e entregar as subscrições o mais rapidamente possível. No entanto, quando a procura for mais elevada, por vezes poderá observar um atraso maior devido ao número de subscrições que o Power BI consegue enviar de cada vez. A maioria dos clientes poderá observar um atraso não superior a 15 minutos no processamento e envio dos relatórios. Em determinadas alturas e para inquilinos com uma utilização especialmente elevada, poderá demorar até 30 minutos.  Não esperamos que os eventuais atrasos na entrega ultrapassem os 60 minutos, a partir do momento em que a subscrição é agendada.  Se observar um atraso assim tão grande, primeiro verifique se o endereço `no-reply-powerbi@microsoft.com` se encontra na lista de remetentes seguros do seu fornecedor de e-mail.  Se o e-mail não estiver bloqueado, contacte o suporte do Power BI para obter assistência.
 - Atualmente, as subscrições por e-mail para relatórios e dashboards que utilizem conjuntos de dados com ligações em tempo real só são suportadas ao subscrever utilizadores que não o próprio, exceto para relatórios paginados. Pode subscrever outras pessoas num relatório paginado, com o seu contexto de segurança. Saiba mais sobre como [subscrever os relatórios paginados](../consumer/paginated-reports-subscriptions.md).
 - O Power BI interrompe automaticamente a atualização nos conjuntos de dados associados a dashboards e relatórios que não tenham sido acedidos durante mais de dois meses. No entanto, se adicionar uma subscrição a um dashboard ou relatório, este não será interrompido, mesmo se não for acedido.
 - Se não estiver a receber os e-mails de subscrição, certifique-se de que o Nome Principal de Utilizador (UPN) pode receber e-mails.
@@ -134,6 +133,7 @@ Os administradores do Power BI podem utilizar os registos de auditoria do Power 
 - As subscrições de e-mail não suportam a maioria dos [elementos visuais personalizados](../developer/power-bi-custom-visuals.md). A única exceção são os elementos visuais personalizados que foram [certificados](../developer/power-bi-custom-visuals-certified.md).
 - Neste momento, as subscrições de e-mail não suportam elementos visuais personalizados baseados em R.
 - As subscrições por e-mail são enviadas com as estatísticas de filtro e segmentação de dados predefinidas do relatório. Quaisquer alterações às predefinições efetuadas depois da subscrição não irão aparecer no e-mail. Os Relatórios paginados suportam esta funcionalidade e permitem-lhe definir os valores de parâmetros específicos por subscrição.
+- Imagine que tem um relatório com uma ligação em direto ao Analysis Services e tem a subscrição definida para executar após a atualização de dados. Será executada da primeira vez que o serviço Power BI detetar uma alteração no modelo no local quando consultar a instância do Analysis Services.  O Power BI verifica hora a hora a existência de uma alteração no modelo de dados do Analysis Services para determinar quando deve enviar a subscrição.
 
 ## <a name="next-steps"></a>Próximos passos
 

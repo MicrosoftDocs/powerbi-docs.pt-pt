@@ -9,12 +9,11 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: f64fcd86d54c20e1318d38c2a73e9bca2174558a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: c4fe9f20e2b6b978479cfdad0651a96d6d322056
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302673"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485651"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>FAQ do gateway de dados no local – Power BI
 
@@ -48,7 +47,7 @@ ms.locfileid: "83302673"
 
 ## <a name="analysis-services-in-power-bi"></a>Analysis Services no Power BI
 
-**Pergunta:** Posso utilizar msdmpump.dll para criar mapeamentos personalizados de nome de utilizador em vigor para o Analysis Services? 
+**Pergunta:** Posso utilizar msmdpump.dll para criar mapeamentos personalizados de nome de utilizador em vigor para o Analysis Services? 
 
 **Resposta:** Não. Neste momento, esta utilização não é suportada.
 

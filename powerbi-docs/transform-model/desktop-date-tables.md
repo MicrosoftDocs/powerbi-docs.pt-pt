@@ -9,12 +9,11 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6456d6126245ac6416dd7f50e705a0c731d98623
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 178a2f2037a52b1b08e1006123c30eff1af18af6
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325834"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393755"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Definir e utilizar tabelas de datas no Power BI Desktop
 
@@ -72,9 +71,12 @@ Quando especificar a sua **tabela de datas**, tem de garantir que o tipo de dado
 3. Especifique o tipo de dados da coluna. 
 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
-Poderá também estar interessado nos seguintes artigos:
+Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
 * [Data/Hora Automáticas no Power BI Desktop](desktop-auto-date-time.md)
+* [Criar tabelas de data no Power BI Desktop](../guidance/model-date-tables.md)
 * [Tipos de dados no Power BI Desktop](../connect-data/desktop-data-types.md)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)

@@ -5,16 +5,15 @@ author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/27/2020
+ms.topic: how-to
+ms.date: 06/16/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 9bc8f7c100acc3805fbe6ab949e3584cb5fd26e1
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
-ms.translationtype: HT
+ms.openlocfilehash: ddb5e4d1476025965e6227e9ae443441f2060fcd
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121049"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219741"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 
@@ -112,7 +111,7 @@ O Power BI executa a atualização com base num ID de item no OneDrive, por iss
 Pode mover o ficheiro para outra localização (ao arrastar e soltar, por exemplo). A atualização continuará a funcionar porque o Power BI ainda conhece o ID do ficheiro. No entanto, se copiar esse ficheiro para outra localização, serão criados uma nova instância do ficheiro e um novo fileID. Como tal, a sua referência de ficheiro do Power BI já não será válida e a atualização irá falhar.
 
 > [!NOTE]
-> O Power BI pode demorar até 10 minutos a atualizar um conjunto de dados, mesmo depois de a sincronização ter terminado no computador local e depois de ter utilizado *Atualizar agora* no serviço Power BI.
+> O Power BI pode demorar até 60 minutos a atualizar um conjunto de dados, mesmo depois de a sincronização ter terminado no computador local e depois de ter utilizado *Atualizar agora* no serviço Power BI.
 
 Para rever os últimos ciclos de sincronização, consulte o separador OneDrive no histórico de atualizações. A seguinte captura de ecrã mostra um ciclo de sincronização concluído para um conjunto de dados de exemplo.
 
@@ -202,14 +201,15 @@ Ao contrário de um gateway de dados empresarial, não precisa de adicionar defi
 
 ![Configurar credenciais da origem de dados para gateway](media/refresh-data/configure-data-source-credentials-gateway.png)
 
-> [!NOTE]
-> O gateway de dados pessoal não suporta conjuntos de dados no modo DirectQuery/LiveConnect. A página de definições do conjunto de dados poderá pedir-lhe que o instale. No entanto, se tiver apenas um gateway pessoal, não poderá configurar uma ligação de gateway. Certifique-se de que tem um gateway de dados empresarial para suportar estes tipos de conjuntos de dados.
 
 ### <a name="accessing-cloud-data-sources"></a>Aceder a origens de dados na cloud
 
 Os conjuntos de dados que utilizem origens de dados na cloud, como a DB SQL do Azure, não necessitam de um gateway de dados se o Power BI puder estabelecer uma ligação de rede direta à origem. Da mesma forma, pode gerir a configuração destas origens de dados com a secção **Credenciais da origem de dados** nas definições do conjunto de dados. Como mostra a seguinte captura de ecrã, não precisa de configurar uma ligação de gateway.
 
 ![Configurar credenciais da origem de dados sem um gateway](media/refresh-data/configure-data-source-credentials.png)
+
+> [!NOTE]
+> Cada utilizador só pode ter um conjunto de credenciais por origem de dados, em todos os conjuntos de dados que possuam, independentemente das áreas de trabalho onde residem os conjuntos de dados. 
 
 ### <a name="accessing-on-premises-and-cloud-sources-in-the-same-source-query"></a>Aceder a origens no local e na cloud na mesma consulta de origem
 

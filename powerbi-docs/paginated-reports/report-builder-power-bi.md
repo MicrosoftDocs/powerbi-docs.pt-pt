@@ -1,7 +1,7 @@
 ---
 title: Power BI Report Builder
 description: O Report Builder do Power BI é uma ferramenta para criar relatórios paginados.
-ms.date: 11/27/2019
+ms.date: 06/29/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,16 +9,17 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: a0c22be90b609e25a6403e33cb646b35e9467c07
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621533"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782755"
 ---
 # <a name="power-bi-report-builder"></a>Power BI Report Builder
 
- O Report Builder do Power BI é uma ferramenta para criar relatórios paginados.  Quando criar um relatório paginado, irá criar uma definição do relatório que especifica os dados a obter, o local de obtenção e a forma como estes são apresentados. Quando executar o relatório, o processador do relatório irá utilizar a definição do relatório que especificou, obter os dados e combiná-los com o esquema de relatório para gerar o relatório. Pré-visualize o seu relatório no Report Builder. Em seguida, publique o seu relatório no serviço Power BI.
+ O Power BI Report Builder é uma ferramenta para a criação de relatórios paginados que pode publicar no serviço Power BI.  Quando criar um relatório paginado, irá criar uma definição do relatório que especifica os dados a obter, o local de obtenção e a forma como estes são apresentados. Quando executar o relatório, o processador do relatório irá utilizar a definição do relatório que especificou, obter os dados e combiná-los com o esquema de relatório para gerar o relatório. Pré-visualize o seu relatório no Report Builder. Em seguida, publique o seu relatório no serviço Power BI.
+ 
+Pronto para começar a criação? [Instale o Power BI Report Builder](https://aka.ms/pbireportbuilder) a partir do Centro de Transferências da Microsoft.
 
 Prefere aprender com vídeos? Veja a série de vídeos de relatórios paginados do Power BI no YouTube, pelo Gestor de Programas Principal do Power BI, Chris Finlan.
 
@@ -58,7 +59,7 @@ O relatório paginado que se segue inclui uma matriz com grupos de linhas e colu
   
 -   **Configure subscrições.** Após a publicação do relatório no serviço Power BI, poderá configurar o seu relatório para ser executado a uma hora específica e enviado como uma subscrição de e-mail.  
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)
 - Veja a [série de vídeos de relatórios paginados do Power BI](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) no YouTube, pelo Gestor de Programas Principal do Power BI, Chris Finlan

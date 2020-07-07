@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/10/2020
+ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: beb744e1293db077111df8212c0861154aa86242
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279187"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354714"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Criar visualizações de matriz no Power BI
 
@@ -49,17 +48,17 @@ Quando observar os totais e os subtotais, lembre-se de que esses valores são ba
 ## <a name="expanding-and-collapsing-row-headers"></a>Expandir e fechar os cabeçalhos de linha
 Existem duas formas de expandir os cabeçalhos de linha. A primeira é através do menu de clique com o botão direito do rato. Verá opções para expandir o cabeçalho de linha específico selecionado, todo o nível ou tudo até ao último nível da hierarquia. Também tem opções semelhantes para fechar os cabeçalhos de linha.
 
-![](media/desktop-matrix-visual/power-bi-expand1.png)
+![menu a mostrar Expandir e Seleção](media/desktop-matrix-visual/power-bi-expand1.png)
 
 Pode também adicionar botões +/- aos cabeçalhos de linha através do painel de formatação no cartão **Cabeçalhos de linha**. Por predefinição, os ícones corresponderão à formatação do cabeçalho de linha, mas pode personalizar as cores e os tamanhos dos ícones em separado, se assim o pretender.
 
 Uma vez ativados, os ícones funcionam de forma semelhante aos ícones da Tabela Dinâmica no Excel.
 
-![](media/desktop-matrix-visual/power-bi-expand2.png)
+![matriz a mostrar os ícones ativados](media/desktop-matrix-visual/power-bi-expand2.png)
 
 O estado de expansão da matriz será guardado com o relatório. Pode afixar uma matriz a um dashboard expandido ou fechado. Quando o mosaico desse dashboard é selecionado e o relatório é apresentado, pode ainda alterar o estado de expansão no relatório. 
 
-![](media/desktop-matrix-visual/power-bi-expand3.png)
+![matriz a mostrar o estado de expansão](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
 > Se estiver a criar um relatório sobre um modelo multidimensional dos Analysis Services, existirão algumas considerações especiais para expandir/fechar se o modelo utilizar a funcionalidade Membro Predefinido. Para obter mais informações, veja [Trabalhar com modelos multidimensionais no Power BI](../connect-data/desktop-default-member-multidimensional-models.md)

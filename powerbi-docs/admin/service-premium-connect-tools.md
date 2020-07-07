@@ -6,16 +6,15 @@ ms.author: owend
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
-ms.date: 03/26/2020
+ms.topic: how-to
+ms.date: 06/04/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 74ea78bf9f5e845eb86a38bad54ebde5e99ffbb0
-ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
-ms.translationtype: HT
+ms.openlocfilehash: b327730db126ad3f83e0a680d8dc29f384e606fe
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "84219570"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227416"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Dataset connectivity with the XMLA endpoint (Preview) (Conectividade de conjuntos de dados com o ponto final de XMLA [Pré-visualização])
 
@@ -169,7 +168,7 @@ Os metadados especificados através do ponto final XMLA podem criar ligações a
 
 ### <a name="service-principals"></a>Principais de serviço
 
-Durante a pré-visualização pública, a ligação com o ponto final XMLA através de um [principal de serviço](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals) para cenários de automatização ainda não é suportada.
+Pode utilizar os principais de serviço do Azure para executar operações ao nível dos recursos e serviços sem supervisão. Para saber mais, veja [Automatizar as tarefas de conjuntos de dados e áreas de trabalho Premium com principais de serviço](service-premium-service-principal.md).
 
 ## <a name="deploy-model-projects-from-visual-studio-ssdt"></a>Implementar projetos de modelos do Visual Studio (SSDT)
 

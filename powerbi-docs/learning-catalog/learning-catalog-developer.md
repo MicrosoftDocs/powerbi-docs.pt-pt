@@ -1,17 +1,16 @@
 ---
 title: Catálogo de aprendizagem para Programadores
 description: Encontre todas as opções de formação para o Power BI
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: 6262b7ba0f3d01db6f9f5ff24f411de6ec4f35cb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.author: margoc
+ms.openlocfilehash: edc2e40c219a8bbe1d57a5cfda774e7f9f87856d
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268610"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532632"
 ---
 # <a name="developer-learning-catalog"></a>Catálogo de aprendizagem para Programadores
 
@@ -27,17 +26,13 @@ O seguinte catálogo está organizado do conhecimento básico aos domínios espe
 ## <a name="embedded"></a>Embedded<a name="embedded"></a>
 | Conteúdo | Descrição | Formatar  | Comprimento      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
+|[Online course: Programador do Power BI num Dia](developer-online-course.md)|Enquanto programador de aplicações, este curso baseado em vídeo tem como objetivo proporcionar-lhe os conhecimentos técnicos necessários para incorporar conteúdo do Power BI. Recomendamos que veja os vídeos na sequência indicada. Comece pelo vídeo 1 e termine com o vídeo 20.|Lista de reprodução do YouTube e kit de estudo autónomo|3 horas e 20 minutos|
 | [Best Practices for Managing Power BI Embedded Analytics for Multi-Tenant Deployments](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html) (Melhores Práticas para Gerir a Análise Incorporada do Power BI para Implementações em Múltiplos Inquilinos) | O Power BI Embedded é um serviço poderoso que lhe permite etiquetar o Power BI como permitido nas suas próprias aplicações. Veja este webinar para saber como gerir as implementações do Power BI Embedded.   | Webinar       |                |
 | [Saiba mais sobre o Power BI Embedded em 20 minutos](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | Este webinar está a ser apresentado para dar uma introdução ao Power BI Embedded. No final deste webinar, os utilizadores deverão ser capazes de compreender o que é o Power BI Embedded, os passos seguintes para começar a utilizar o produto e onde obter ajuda/recursos. | Webinar       |                |
 | [Developing with Power BI Embedding by Ted Pattison – The April 2018 Update](https://www.youtube.com/watch?v=swnGlrRy588) (Programar com a Incorporação no Power BI por Ted Pattison – a atualização de abril de 2018)  | Neste webinar orientado para programadores, Ted Pattison discutirá melhorias recentes à plataforma de incorporação do Power BI e como podem ser aproveitadas por ISVs e programadores empresariais. | Vídeo do YouTube | 59 minutos e 49 segundos  |
 | [Power BI Incorporando Versão 2 – The Full Story](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Embedding-Version-2-The-Full-Story/td-p/229527) (Incorporação com o Power BI Versão 2 – A História Completa)    | Este webinar foi apresentado em 10 de agosto de 2017 pelo MVP Ted Pattison do Power BI da Formação de Caminho Crítico. Este webinar abrange como desenvolver com as novas funcionalidades da incorporação do Power BI disponíveis através do Power BI Premium.  | Webinar       | 1 hora, 7 minutos e 23 segundos |
 | [Tutorial: Incorporar conteúdos do Power BI numa aplicação para os seus clientes](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers#step-1-setup-your-embedded-analytics-development-environment) | Com o Power BI Embedded no Azure ou a incorporação do Power BI no Office, pode incorporar relatórios, dashboards ou mosaicos numa aplicação através do esquema Dados Pertencem à Aplicação.  | Documentation |                |
 | [Saiba mais sobre o Power BI Embedded em 20 minutos](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | Este webinar está a ser apresentado para dar uma introdução ao Power BI Embedded. No final deste webinar, os utilizadores deverão ser capazes de compreender o que é o Power BI Embedded, os passos seguintes para começar a utilizar o produto e onde obter ajuda/recursos. | Webinar       |                |
-## <a name="dax"></a>DAX<a name="dax"></a>
-| Conteúdo | Descrição | Formatar  | Comprimento      |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
-| [Practical DAX for Power BI by Phil Seamark](https://www.youtube.com/watch?v=1fGfqzS37qs) (DAX prática para o Power BI por Phil Seamark)  | Para acompanhar o novo livro, Phil Seamark vai analisar algumas das melhores práticas para a DAX prática no Power BI   | Vídeo do YouTube | 59 minutos e 41 segundos |
-| [Creative DAX solutions by Philip Seamark](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) (Soluções Criativas da DAX por Philip Seamark) | Sabia que a linguagem DAX é muito mais capaz do que apenas executar uma função SUM numa coluna ou contar linhas numa tabela? A DAX está por cima de uma das bases de dados existentes mais rápidas. Junte-se a Charles Sterling e Philip Seamark enquanto exploram alguns cenários invulgares e criativos que talvez tenha considerado pouco viáveis. | Webinar       | 58 minutos e 12 segundos |
 ## <a name="development"></a>Desenvolvimento<a name="development"></a>
 | Conteúdo | Descrição | Formatar  | Comprimento      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|

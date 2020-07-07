@@ -8,14 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: 8d3068453ea2d166b0b55fbba45d8452431de319
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: a929374e3d974606d27defed4a7faa99e5450c87
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79491738"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427872"
 ---
-# <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Implementar segurança ao nível de linhas nos relatórios paginados incorporados (pré-visualização)
+# <a name="implementing-row-level-security-in-embedded-paginated-reports"></a>Implementar segurança ao nível de linhas nos relatórios paginados incorporados
 
 Quando incorporar um relatório paginado, pode controlar quais os dados que são apresentados. Isso permite adaptar as informações apresentadas por utilizador. Por exemplo, se tiver um relatório paginado do Power BI que inclua resultados de vendas globais, pode incorporar o mesmo para que estejam disponíveis apenas os resultados de vendas de uma determinada região.
 
@@ -28,7 +27,7 @@ Esta funcionalidade fornece uma forma segura de mostrar um subconjunto dos dados
 
 Ao aplicar a segurança ao nível de linha a um relatório paginado do Power BI, tem de atribuir um [parâmetro](../../paginated-reports/report-builder-parameters.md) ao atributo **UserID**. Este parâmetro irá restringir os dados solicitados do conjunto de dados antes de o relatório ser incorporado.
 
-Após atribuir o parâmetro ao **UserID**, utilize a API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) para obter o token de incorporação.
+Após atribuir o parâmetro ao **UserID**, utilize a API [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) para obter o token de incorporação.
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>Utilizar UserID como filtro ao nível de relatório ou consulta
 
@@ -78,7 +77,7 @@ Pode utilizar **UserId** como *filtro* ou numa *consulta* para a origem de dados
 
 ## <a name="passing-the-configured-parameter-using-the-embed-token"></a>Transmitir o parâmetro configurado com o token de incorporação
 
-Ao incorporar um relatório paginado para os seus clientes, a API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) é utilizada para obter o token de incorporação. Este token também pode ser utilizado para filtrar alguns dos dados que são solicitados do relatório paginado.
+Ao incorporar um relatório paginado para os seus clientes, a API [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) é utilizada para obter o token de incorporação. Este token também pode ser utilizado para filtrar alguns dos dados que são solicitados do relatório paginado.
 
 Para expor apenas alguns dos dados, atribua o campo `username` com as informações que pretende apresentar. Por exemplo, num relatório paginado que tem um parâmetro de cor, se introduzir *green* no campo `username`, o token de incorporação irá restringir os dados incorporados para mostrar apenas os dados que têm o valor *green* na coluna de cor.
 

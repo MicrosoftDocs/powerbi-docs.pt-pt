@@ -1,22 +1,21 @@
 ---
-title: Ligar às Informações de IA no Power BI Desktop (pré-visualização)
+title: Ligar às Informações de IA no Power BI Desktop
 description: Ligar e utilizar facilmente dados de Informações de IA no Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
-ms.date: 11/12/2019
+ms.topic: how-to
+ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fec1a1a632244ef0c1923e2d68f76a7364d3c7b8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 7f067e87bf155b45be1d4c34f27d41649b6247df
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83311735"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237983"
 ---
-# <a name="use-ai-insights-in-power-bi-desktop-preview"></a>Use AI Insights in Power BI Desktop (preview) (Utilizar as informações de IA no Power BI Desktop [pré-visualização])
+# <a name="use-ai-insights-in-power-bi-desktop"></a>Utilizar as Informações de IA no Power BI Desktop
 
 No Power BI, pode utilizar Informações de IA para obter acesso a uma coleção de modelos de machine learning previamente preparados que aumentam os esforços de preparação de dados. As Informações de IA são acedidas no **Editor do Power Query** e as funcionalidades e funções são acedidas através dos separadores **Base** e **Adicionar Coluna** do **Editor do Power Query**. 
 
@@ -26,7 +25,10 @@ Este artigo descreve as funções da Análise de Texto e as funções de Visão,
 
 ## <a name="how-to-enable-ai-insights"></a>Como ativar as Informações de IA
 
-As informações de IA no Power BI são uma funcionalidade de pré-visualização e devem ser ativadas. Para a ativar, selecione **Ficheiro > Opções e definições > Opções** e, em seguida, **Funcionalidades de pré-visualização** na coluna esquerda. No painel direto, poderá encontrar a seleção **Browser de funções das Informações de IA**. Marque a caixa junto a **Browser de funções das Informações de IA** para ativar a funcionalidade de pré-visualização. Terá de reiniciar o Power BI Desktop para que a alteração da funcionalidade de pré-visualização produza efeito.
+As informações de IA foram disponibilizadas de forma geral na versão de junho de 2020 do Power BI Desktop. Para versões anteriores do Power BI Desktop, as informações de IA no Power BI devem ser ativadas ao selecionar **Ficheiro > Opções e definições > Opções** e, em seguida, **Funcionalidades de pré-visualização** na coluna esquerda. No painel direto, poderá encontrar a seleção **Browser de funções das Informações de IA**. Marque a caixa junto a **Browser de funções das Informações de IA** para ativar a funcionalidade de pré-visualização. Terá de reiniciar o Power BI Desktop para que a alteração da funcionalidade de pré-visualização produza efeito.
+
+> [!NOTE]
+> As informações de IA estão disponíveis de forma geral para todas as versões do Power BI Desktop a partir da versão de junho de 2020 e, para essas versões, não é preciso ativá-las como uma funcionalidade de pré-visualização.
 
 ![Opção Informações de IA do Power BI Desktop](media/desktop-ai-insights/ai-insights-01.png)
 

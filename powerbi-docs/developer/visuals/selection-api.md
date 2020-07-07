@@ -7,14 +7,13 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 2cca057b2a91129745fe739160ffbb3e9e25b6da
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 57f443ec11d918966c25b9d59a1656bb02983fbb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80113698"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238054"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Adicionar interatividade ao elemento visual através das seleções de elementos visuais do Power BI
 
@@ -81,7 +80,7 @@ Este objeto tem métodos correspondentes para criar `selections` para diferentes
 
 Vamos rever como é que as seleções são representadas no mapeamento de vista de dados categóricos para um conjunto de dados de exemplo:
 
-| Manufacturer | Tipo | Value |
+| Fabricante | Tipo | Valor |
 | - | - | - |
 | Chrysler | Carro Nacional | 28883 |
 | Chrysler | Camião Nacional | 117131 |
@@ -161,7 +160,7 @@ O elemento visual também deverá ser capaz de segmentar os dados por `Manufactu
 
 Por exemplo, quando o utilizador seleciona `Chrysler` por `Manufacturer`, os outros elementos visuais devem mostrar os seguintes dados:
 
-| Manufacturer | Tipo | Value |
+| Fabricante | Tipo | Valor |
 | - | - | - |
 | **Chrysler** | Carro Nacional | 28883 |
 | **Chrysler** | Camião Nacional | 117131 |
@@ -170,7 +169,7 @@ Por exemplo, quando o utilizador seleciona `Chrysler` por `Manufacturer`, os out
 
 Quando o utilizador seleciona `Import Car` por `Type` (seleciona os dados por série), os outros elementos visuais devem mostrar os seguintes dados:
 
-| Manufacturer | Tipo | Value |
+| Fabricante | Tipo | Valor |
 | - | - | - |
 | Chrysler | **Carro Importado** | 0 |
 | Ford | **Carro Importado** | 0 |
@@ -372,7 +371,7 @@ button.addEventListener("click", (mouseEvent) => {
 });
 ```
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 * [Saiba como utilizar seleções para vincular as propriedades de elementos de dados a pontos de dados](objects-properties.md#objects-selector)
 

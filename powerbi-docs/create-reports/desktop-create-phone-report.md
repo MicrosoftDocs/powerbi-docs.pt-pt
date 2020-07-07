@@ -1,112 +1,123 @@
 ---
 title: Otimizar relatórios para as aplicações móveis do Power BI
 description: Saiba como otimizar páginas de relatórios para as aplicações móveis do Power BI ao criar uma versão vertical do relatório especificamente para telemóveis e tablets.
-author: maggiesMSFT
+author: paulinbar
 ms.reviewer: ''
+ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
-ms.date: 11/18/2019
-ms.author: maggies
+ms.topic: how-to
+ms.date: 06/15/2020
+ms.author: painbar
 LocalizationGroup: Create reports
-ms.openlocfilehash: cab4accfa11a4c92c1672314e2157659ef68f21a
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
-ms.translationtype: HT
+ms.openlocfilehash: b9161813c291a3feb8c01e4201972337f8e96fcb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564752"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85221754"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Otimizar relatórios do Power BI para a aplicação móvel
-Pode melhorar a experiência de visualização dos seus relatórios nas aplicações móveis ao criar um esquema vertical. No Power BI Desktop e no serviço Power BI, reorganiza e redimensiona os elementos visuais de relatórios para uma experiência ideal no modo vertical.  
+Os utilizadores da aplicação móvel podem ver qualquer página de relatório do Power BI na orientação horizontal. No entanto, os autores do relatório podem criar uma vista adicional, otimizada para os dispositivos móveis, que é apresentada na orientação vertical. Esta opção de design, disponível no Power BI Desktop e no serviço Power BI, permite aos autores selecionarem e reorganizem apenas os elementos visuais que fazem sentido para os utilizadores de dispositivos móveis em movimento.
 
-Em vez disso, procura informações sobre como ver relatórios num dispositivo móvel? Experimente este início rápido, [Explorar dashboards e relatórios nas aplicações móveis do Power BI](../consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).
+![Relatório otimizado para dispositivos móveis](media/desktop-create-phone-report/desktop-mobile-optimized-report.png).
 
-![Relatório otimizado num telemóvel](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
+O Power BI proporciona uma série de funcionalidades que o ajudam a criar versões otimizadas para dispositivos móveis dos relatórios:
+* Uma vista de esquema para dispositivos móveis, onde pode criar o relatório otimizado para dispositivos móveis ao arrastar e largar elementos visuais numa tela de emulador do telemóvel.
+* Elementos visuais e segmentações que podem ser otimizados para utilização nos ecrãs pequenos dos telemóveis.
 
-Pode criar [elementos visuais reativos](#optimize-a-visual-for-any-size) e [segmentações de dados reativas](#enhance-slicers-to-work-well-in-phone-reports) que sejam redimensionados em qualquer plataforma. Se adicionar filtros ao relatório, estes aparecem automaticamente no relatório otimizado.
+Estas capacidades tornam possível conceber e criar relatórios atraentes e interativos otimizados para dispositivos móveis.
 
-## <a name="lay-out-a-portrait-version-of-a-report-page"></a>Mostrar uma versão vertical de uma página de relatório
+## <a name="create-a-mobile-optimized-portrait-version-of-a-report-page"></a>Criar uma versão vertical de uma página de relatório otimizada para dispositivos móveis
 
-Depois de criar um relatório, pode otimizá-lo para telemóveis e tablets.
+O primeiro passo consiste em conceber e criar o relatório na vista Web normal. Após criar o relatório, poderá otimizá-lo para telemóveis e tablets.
 
-1. Na vista **Relatório** do Power BI Desktop, no separador **Ver**, selecione **Esquema de Telemóvel**.  
-   
-    ![Ícone de Esquema de Telemóvel](media/desktop-create-phone-report/desktop-create-phone-report-3.png)
-   
-    No serviço Power BI, selecione **Editar relatório** > **Esquema Móvel**.
+Para criar uma vista otimizada para dispositivos móveis, abra a vista de esquema para dispositivos móveis:
+   * No Power BI Desktop, selecione o friso **Vista** e escolha **Esquema para dispositivos móveis**.
+   * No serviço Power BI, escolha **Mais opções (...) > Editar relatório > Esquema para dispositivos móveis**.
 
-    Vai ver uma tela em branco com a forma de um telefone. Todos os elementos visuais na página de relatório original estão listados no painel **Visualizações** à direita.
+   Verá uma tela deslocável em forma de telefone e um painel **Visualizações**, que lista todos os elementos visuais que estão na página do relatório original.
 
-1. Para adicionar um elemento visual ao esquema de telemóvel, arraste-o do painel **Visualizações** para a tela do telemóvel.
-   
-    Os relatórios de telemóvel utilizam um esquema de grelha. À medida que arrasta os elementos visuais para a tela do telemóvel, estes ajustam-se a essa grelha.
-   
-    ![Arrastar e largar um elemento visual](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
-   
-    Pode adicionar alguns ou todos os elementos visuais do relatório principal à página de relatório de telemóvel. Só pode adicionar cada elemento visual uma vez e não tem de incluir todos os elementos visuais.
+   ![Vista de esquema para dispositivos móveis](media/desktop-create-phone-report/desktop-mobile-layout.png).
 
-1. Pode redimensionar os elementos visuais na grelha, tal como faria para mosaicos em dashboards e dashboards móveis.
-   
-   A grelha de relatório de telemóvel é dimensionada nos telemóveis de tamanhos diferentes, pelo que o relatório é apresentado corretamente em ecrãs pequenos e grandes.
-   
-   ![Redimensionar um elemento visual](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
+* Cada elemento visual no painel **Visualizações** é apresentado com o nome para uma identificação fácil.
+* Cada elemento visual também tem um indicador de visibilidade. O indicador de visibilidade de um elemento visual muda dependendo do estado de visibilidade do elemento visual no estado atual da vista do relatório Web. O indicador de visibilidade é útil ao trabalhar com marcadores.
 
-## <a name="optimize-a-visual-for-any-size"></a>Otimizar um elemento visual para qualquer tamanho
-Pode definir os visuais no seu dashboard ou reportar como *reativo*. Os elementos visuais são dinamicamente alterados para apresentarem a quantidade máxima de dados e informações, independentemente do tamanho do ecrã. 
+## <a name="add-visuals-to-the-mobile-layout-canvas"></a>Adicionar elementos visuais à tela de esquema para dispositivos móveis
+Para adicionar um elemento visual ao esquema para dispositivos móveis, arraste-o do painel **Visualizações** para a tela do telemóvel. Quando arrasta um elemento visual para a tela, este é ajustado para a grelha. Em alternativa, pode fazer duplo clique no elemento visual no painel Visualizações para o adicionar à tela.
 
-À medida que o elemento visual muda de tamanho, o Power BI dá prioridade à vista de dados. Por exemplo, pode remover o preenchimento e mover a legenda para a parte superior do elemento visual automaticamente, para que o elemento visual permaneça informativo mesmo enquanto fica mais pequeno.
+Pode adicionar alguns ou todos os elementos visuais da página de relatório Web à página de relatório otimizada para dispositivos móveis. Só pode adicionar cada elemento visual uma vez e não precisa de incluir todos os elementos visuais.
 
-![Redimensionamento de elemento visual reativo](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
+>[!NOTE]
+> Pode arrastar e largar elementos visuais ocultos na tela. Serão adicionados, mas não apresentados, exceto se o estado de visibilidade for alterado na vista do relatório Web atual.
 
-Escolha se quer ativar a capacidade de resposta de cada elemento visual. Leia mais sobre como [otimizar elementos visuais](../visuals/power-bi-report-visualizations.md).
+Os elementos visuais podem ser colocados em camadas uns sobre os outros para criar relatórios interativos com marcadores ou para criar relatórios atraentes ao aplicar elementos visuais em camadas sobre as imagens.
 
-## <a name="considerations-when-creating-phone-report-layouts"></a>Considerações ao criar esquemas de relatório de telemóvel
-* Para relatórios com múltiplas páginas, pode otimizar todas as páginas ou apenas algumas. 
-* Se tiver definido uma cor de fundo para uma página de relatório, o relatório de telemóvel terá a mesma cor de fundo.
-* Não pode modificar as definições de formatação apenas para o telemóvel. A formatação é consistente entre esquemas principais e de telemóvel. Por exemplo, os tamanhos dos tipos de letra serão idênticos.
-* Para alterar um elemento visual, como alterar a formatação, o conjunto de dados, os filtros ou qualquer outro atributo, volte ao modo de criação de relatórios normal.
-* O Power BI fornece títulos e nomes de página predefinidos para relatórios de telemóvel na aplicação móvel. Se tiver criado elementos visuais de texto para títulos e nomes de página no relatório, considere não os adicionar aos seus relatórios de telemóvel.     
+Após colocar um elemento visual na tela, poderá redimensioná-lo ao arrastar as alças que aparecem à volta da extremidade do elemento visual quando o seleciona. Para manter a proporção do elemento visual durante o redimensionamento, prima a tecla **Shift** enquanto arrasta as alças de redimensionamento.
 
-## <a name="remove-a-visual-from-the-phone-layout"></a>Remover um elemento visual do esquema de telemóvel
-* Para remover um elemento visual, selecione o **X** no canto superior direito do elemento visual na tela do telemóvel ou selecione-o e prima **Delete**.
-  
-   A remoção deste elemento visual só o remove da tela do esquema de telemóvel. O elemento visual e o relatório original não são afetados.
-  
-   ![Remover um elemento visual](media/desktop-create-phone-report/desktop-create-phone-report-7.gif)
+A imagem abaixo ilustra o arrastar e largar de elementos visuais do painel **Visualizações** para a tela, bem como o redimensionamento e a sobreposição de alguns deles.
 
-## <a name="enhance-slicers-to-work-well-in-phone-reports"></a>Melhorar as segmentações de dados para um correto funcionamento nos relatórios de telemóvel
-As segmentações de dados disponibilizam uma filtragem na tela dos dados de relatório. Quando conceber segmentações de dados no modo de criação de relatórios normal, pode modificar algumas definições de segmentação de dados para torná-las mais utilizáveis nos relatórios de telemóvel:
+   ![Arrastar e largar, redimensionar e sobrepor elementos visuais](media/desktop-create-phone-report/desktop-mobile-layout-overlay-resize.gif)
 
-* Decida se os leitores de relatórios podem selecionar apenas um ou múltiplos itens.
-* Coloque uma caixa à volta da segmentação de dados para facilitar a análise do relatório.
-* Torne a segmentação vertical, horizontal ou *reativa*. 
+A grelha de relatório de telemóvel é dimensionada nos telemóveis de tamanhos diferentes, pelo que o relatório é apresentado corretamente em ecrãs pequenos e grandes.
 
-Se tornar a segmentação reativa, ao alterar o seu tamanho e forma esta mostrará mais ou menos opções. Pode aumentá-la ou diminui-la na vertical ou na horizontal. Se a diminuir muito, esta transforma-se num ícone de filtro na página do relatório. 
+## <a name="remove-visuals-from-the-mobile-layout-canvas"></a>Remover elementos visuais da tela do esquema para dispositivos móveis
+Para remover um elemento visual do esquema para dispositivos móveis, clique no **X** no canto superior direito do elemento visual na tela do telemóvel ou selecione o elemento visual e prima **Eliminar**.
 
-![Segmentação de dados reativa no Power BI](media/desktop-create-phone-report/desktop-create-phone-report-8.png)
+Pode remover todas as visualizações da tela ao clicar na borracha no painel **Visualização**.
 
+A remoção dos elementos visuais da tela do esquema para dispositivos móveis remove-os apenas da tela. Os elementos visuais ainda aparecem no painel de visualização, e o relatório original permanece inalterado.
+
+## <a name="configure-visuals-and-slicers-for-use-in-mobile-optimized-reports"></a>Configurar os elementos visuais e as segmentações de dados para utilização nos relatórios otimizados para dispositivos móveis
+
+### <a name="visuals"></a>Visuais
+
+Por predefinição, muitos elementos visuais, particularmente elementos visuais do tipo gráfico, são reativos,  o que significa que são dinamicamente alterados para apresentarem a quantidade máxima de dados e informações, independentemente do tamanho do ecrã.
+
+À medida que o elemento visual muda de tamanho, o Power BI dá prioridade aos dados. Por exemplo, pode remover o preenchimento e mover a legenda para a parte superior do elemento visual automaticamente, para que o elemento visual permaneça informativo mesmo enquanto fica mais pequeno.
+
+![Redimensionamento de elemento visual reativo](media/desktop-create-phone-report/desktop-mobile-layout-responsive-visual.gif)
+ 
+Se por algum motivo quiser desativar a capacidade de resposta, poderá fazê-lo na secção **Geral** das definições de formato do elemento visual.
+
+### <a name="slicers"></a>Segmentações
+
+As segmentações de dados disponibilizam uma filtragem na tela dos dados de relatório. Quando conceber segmentações de dados no modo de criação de relatórios normal, pode modificar algumas definições de segmentação de dados para torná-las mais utilizáveis nos relatórios otimizados para dispositivos móveis:
+* Pode decidir se permite que os leitores de relatórios selecionem apenas um item ou vários itens.
+* Pode tornar as segmentações de dados verticais, horizontais ou reativas (as segmentações de dados reativas devem ser horizontais).
+
+Se tornar a segmentação reativa, ao alterar o seu tamanho e forma esta mostrará mais ou menos opções. Pode aumentá-la ou diminui-la na vertical ou na horizontal. Se a diminuir muito, esta transforma-se num ícone de filtro na página do relatório.
+
+![Segmentação de dados reativa no Power BI](media/desktop-create-phone-report/desktop-create-phone-report-8.gif)
+ 
 Leia mais sobre a [criação de segmentações de dados reativas](power-bi-slicer-filter-responsive.md).
 
-## <a name="publish-a-phone-report"></a>Publicar um relatório de telemóvel
-Para publicar a versão para telemóvel de um relatório, pode [publicar o relatório principal do Power BI Desktop para o serviço Power BI](desktop-upload-desktop-files.md) e a versão para telemóvel publica em simultâneo.
-  
-Leia mais sobre [partilhas e permissões no Power BI](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md).
+## <a name="publish-a-mobile-optimized-report"></a>Publicar um relatório otimizado para dispositivos móveis
+Para publicar uma versão de um relatório otimizada para dispositivos móveis, [publique o relatório principal do Power BI Desktop para o serviço Power BI](desktop-upload-desktop-files.md). Publica assim a versão otimizada para dispositivos móveis ao mesmo tempo.
 
-## <a name="view-optimized-and-unoptimized-reports-on-a-phone-or-tablet"></a>Ver relatórios otimizados e não otimizados num telemóvel ou tablet
-Em aplicações móveis em telemóveis, o Power BI deteta automaticamente os relatórios otimizados e não otimizados. Se existir um relatório otimizado para telemóvel, a aplicação de telemóvel do Power BI abre automaticamente o relatório no modo de relatório de telemóvel.
+## <a name="viewing-optimized-and-unoptimized-reports-on-a-phone-or-tablet"></a>Ver relatórios otimizados e não otimizados num telemóvel ou tablet
 
-Se não existir um relatório otimizado para telemóvel, o relatório é aberto na vista horizontal não otimizada.  
+Nas aplicações móveis do Power BI, os relatórios otimizados para dispositivos móveis são indicados por um ícone especial.
 
-Quando estiver num relatório de telemóvel, a alteração da orientação do telemóvel para horizontal abre o relatório na vista não otimizada com o esquema de relatório original, quer o relatório esteja ou não otimizado.
+![Ícone de relatório otimizado para dispositivos móveis](media/desktop-create-phone-report/desktop-create-phone-report-optimized-icon.png)
 
-Se otimizar apenas algumas páginas, os leitores verão uma mensagem na vista vertical a indicar que o relatório se encontra disponível na vista horizontal.
+Nos telemóveis, a aplicação deteta automaticamente se o relatório está ou não otimizado para dispositivos móveis.
+* Se existir um relatório otimizado para dispositivos móveis, a aplicação abre automaticamente o relatório no modo otimizado para dispositivos móveis.
+* Se não existir um relatório otimizado para dispositivo móvel, o relatório será aberto na vista horizontal não otimizada.
+
+Manter um telemóvel numa orientação horizontal abre o relatório na vista não otimizada com o esquema do relatório original, independentemente de o relatório estar ou não otimizado.
+
+Se otimizar apenas algumas páginas, quando os leitores acederem a uma página não otimizada, ser-lhes-á pedido que mudem para a vista horizontal. Virar o telemóvel ou o tablet de lado permitirá que vejam a página no modo horizontal. [Leia mais sobre como interagir com relatórios do Power BI otimizados para o modo vertical](../consumer/mobile/mobile-apps-view-phone-report.md).
 
 ![Página de telemóvel não otimizada](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
-Os leitores de relatórios podem colocar os telemóveis ou tablets de lado para ver a página no modo horizontal. Leia mais sobre como [interagir com relatórios do Power BI otimizados para o modo vertical](../consumer/mobile/mobile-apps-view-phone-report.md).
+## <a name="considerations-when-creating-mobile-optimized-layouts"></a>Considerações ao criar esquemas otimizados para dispositivos móveis
+* Para relatórios com várias páginas, pode otimizar todas as páginas ou apenas algumas.
+* Se tiver definido uma cor de fundo para uma página de relatório, o relatório otimizado para dispositivos móveis terá a mesma cor de fundo.
+* Não pode modificar as definições de formato apenas para o relatório otimizado para dispositivos móveis. A formatação é consistente entre os esquemas principal e de dispositivo móvel. Por exemplo, os tamanhos dos tipos de letra serão idênticos.
+* Para alterar um elemento visual, como alterar a formatação, o conjunto de dados, os filtros ou qualquer outro atributo, volte ao modo de criação de relatórios Web.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 * [Criar uma vista de telemóvel de um dashboard no Power BI](service-create-dashboard-mobile-phone-view.md).
 * [Ver relatórios do Power BI otimizados para o seu telemóvel](../consumer/mobile/mobile-apps-view-phone-report.md).
-* [Criar elementos visuais reativos otimizados para qualquer tamanho](../visuals/power-bi-report-visualizations.md).
+* [Documentação do Power BI sobre criação de relatórios e dashboards](https://docs.microsoft.com/power-bi/create-reports/).
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/).

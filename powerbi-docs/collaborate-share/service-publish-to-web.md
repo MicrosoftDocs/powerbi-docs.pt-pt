@@ -6,15 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 136376da9d00e5f40397f0d4152e83d17a171168
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
-ms.translationtype: HT
+ms.openlocfilehash: 5e7fe8a7c71927a1e89bd4e86209c580ae1f3b29
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272983"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225671"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -118,11 +117,11 @@ Depois de criar um código de incorporação **Publicar na Web**, poderá gerir 
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Atualizações a relatórios e atualização de dados
 
-Depois de criar e partilhar o seu código de incorporação da funcionalidade **Publicar na Web**, o relatório será atualizado com as alterações que fizer e a ligação do código de incorporação ficará imediatamente ativa. Qualquer pessoa que abra a ligação poderá vê-lo. No entanto, após esta ação inicial, as atualizações aos relatórios ou elementos visuais poderão demorar aproximadamente duas a três horas antes de ficarem visíveis para os utilizadores. Para obter mais informações, consulte a secção [**Como funciona**](#howitworks), mais à frente neste artigo. 
+Depois de criar e partilhar o seu código de incorporação da funcionalidade **Publicar na Web**, o relatório será atualizado com as alterações que fizer e a ligação do código de incorporação ficará imediatamente ativa. Qualquer pessoa que abra a ligação poderá vê-lo. Após a criação inicial, as atualizações aos relatórios ou aos elementos visuais podem demorar até duas horas até que os utilizadores as vejam. Os dados são colocados em cache durante uma hora a partir do momento em que são obtidos. Não recomendamos a utilização de Publicar na Web para obter dados que têm de ser atualizados com frequência. Para obter mais informações, consulte a secção [**Como funciona**](#howitworks), mais à frente neste artigo. 
 
 ### <a name="data-refresh"></a>Atualização de dados
 
-As atualizações de dados são refletidas automaticamente no relatório ou visual incorporado. Poderá demorar aproximadamente uma hora para que os dados atualizados fiquem visíveis nos códigos de incorporação. Para desativar as atualizações automáticas, selecione **não atualizar** no agendamento do conjunto de dados que o relatório utiliza.  
+As atualizações de dados são refletidas automaticamente no relatório ou visual incorporado. Pode demorar até duas horas para que os dados atualizados sejam visíveis nos códigos de incorporação. Para desativar as atualizações automáticas, selecione **não atualizar** no agendamento do conjunto de dados que o relatório utiliza.  
 
 ## <a name="power-bi-visuals"></a>Elementos Visuais do Power BI
 
@@ -159,7 +158,7 @@ Tem de ser utilizador do Microsoft Power BI para utilizar a funcionalidade **Pub
 
 Quando cria um código de incorporação através da funcionalidade **Publicar na Web**, o relatório fica visível para os utilizadores na Internet. Encontra-se disponível publicamente, pelo que é expectável que os utilizadores partilhem facilmente o relatório através das redes sociais. Quando os utilizadores virem o relatório, quer ao abrir o URL público direto ou ao vê-lo incorporado numa página Web ou blogue, o Power BI regista a definição do relatório e os resultados das consultas necessários para ver o relatório. Esta colocação em cache garante que milhares de utilizadores podem ver o relatório em simultâneo, sem afetar o desempenho.
 
-A cache é duradoura. Se atualizar a definição do relatório (por exemplo, se alterar o Modo de visualização) ou atualizar os dados do relatório, poderá demorar aproximadamente uma hora até que as alterações se reflitam na versão do relatório vista pelos utilizadores. Uma vez que cada elemento e valor de dados é colocado em cache independentemente, quando uma atualização de dados ocorre, uma mistura de valores atuais e anteriores pode ser mostrada a um utilizador. Por conseguinte, recomendamos que teste o seu trabalho antecipadamente e crie o código de incorporação **Publicar na Web** apenas quando estiver satisfeito com as definições. Se os seus dados se atualizarem, minimize o número de atualizações e execute as atualizações durante horas de inatividade.
+Os dados são colocados em cache durante uma hora a partir do momento em que são obtidos. Se atualizar a definição do relatório (por exemplo, se alterar o Modo de visualização) ou atualizar os dados do relatório, poderá demorar até duas horas para que as alterações se reflitam na versão do relatório vista pelos utilizadores. Uma vez que cada elemento e valor de dados é colocado em cache independentemente, quando uma atualização de dados ocorre, uma mistura de valores atuais e anteriores pode ser mostrada a um utilizador. Por conseguinte, recomendamos que teste o seu trabalho antecipadamente e crie o código de incorporação **Publicar na Web** apenas quando estiver satisfeito com as definições. Se os seus dados se atualizarem, minimize o número de atualizações e execute as atualizações durante horas de inatividade. Não recomendamos a utilização de Publicar na Web para obter dados que têm de ser atualizados com frequência.
 
 ## <a name="find-your-power-bi-administrator"></a>Encontrar o seu administrador do Power BI
 

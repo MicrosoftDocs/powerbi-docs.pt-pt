@@ -1,17 +1,16 @@
 ---
 title: Catálogo de aprendizagem para criadores de relatórios
 description: Encontre todas as opções de formação para o Power BI
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: f318aa59f33a9993b31787fcb3e0036286616608
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.author: margoc
+ms.openlocfilehash: ed36d045047215babb092eb074156c950af9d16f
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268817"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532287"
 ---
 # <a name="report-creator-learning-catalog"></a>Catálogo de aprendizagem para Criadores de Relatórios
 
@@ -39,6 +38,7 @@ O seguinte catálogo está organizado do conhecimento básico aos domínios espe
 ## <a name="report-design"></a>Estrutura do Relatório<a name="report-design"></a>
 | Conteúdo | Descrição  | Formatar | Comprimento   |
 |-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|----------------|
+|[Online course: Relatórios Paginados do Power BI num Dia](paginated-reports-online-course.md)|Enquanto autor de relatórios, este curso baseado em vídeo tem como objetivo proporcionar-lhe os conhecimentos técnicos necessários para criar, publicar e distribuir relatórios paginados do Power BI. Recomendamos que veja os vídeos na sequência indicada. Comece pelo vídeo 1 e termine com o vídeo 24.|Lista de reprodução do YouTube e kit de estudo autónomo|4 horas e 20 minutos|
 | [Data Storytelling with Power BI by Tristan Malherbe](https://www.youtube.com/watch?v=egk0suekwHo) (Contar Histórias com os dados e o Power BI por Tristan Malherbe)  | Data Storytelling with Power BI by Tristan Malherbe (Contar Histórias com os dados e o Power BI por Tristan Malherbe)  | Vídeo do YouTube | 59 minutos e 54 segundos    |
 | [Power Tricks, Tips and Tools from the owners of PowerBI.Tips](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-Tricks-Tips-and-Tools-from-the-owners-of-PowerBI-Tips/td-p/382848) (Truques, Sugestões e Ferramentas do Power dos proprietários do PowerBI.Tips) | Truques, Sugestões e Ferramentas do Power dos proprietários do PowerBI. Nesta reunião de grupo de utilizadores muito especial, os proprietários do Power BI.Tips e os MVPs (Most Valuable Professionals) do Power BI, Seth Bauer e Mike Carlo, irão partilhar consigo o respetivo conjunto vasto de Truques, Sugestões e Ferramentas do Power que publicaram em http://PowerBI.Tips ao longo dos últimos 18 meses. As demonstrações incluem o gerador de temas, para além da adição de tipos de dados no editor de consultas e a sua mais recente oferta de esquemas do Power BI (para além de uma apresentação do último esquema "Cool Blue").  | Webinar       | 1 hora, 7 minutos e 4 segundos |
 | [Webinar (11/9/18): New tools and new templates, including a walkthrough of what’s changed in the Color](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/9-11-18-Webinar-New-tools-and-new-templates-including-a/td-p/480220) (Novas ferramentas e modelos, incluindo uma análise às alterações feitas na Cor) | Junte-se a Charles Sterling e aos criadores do PowerBI.Tips e aos MVPs da Microsoft, Seth Bauer e Mike Carlo, que vão partilhar consigo o respetivo conjunto em constante crescimento de Truques, Sugestões e Ferramentas do Power que publicaram em https://PowerBI.Tips ao longo dos últimos 6 meses. As demonstrações incluirão o gerador de temas mais recente, dicas e truques e os esquemas do Power BI mais recentes.  | Webinar       | 53 minutos e 34 segundos    |

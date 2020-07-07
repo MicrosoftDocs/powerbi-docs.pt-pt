@@ -7,15 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/15/2020
+ms.date: 06/13/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 1c72507759a69dc03f3d8b1510aef0e3ad369dd2
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
-ms.translationtype: HT
+ms.openlocfilehash: 83383b93d9f61c30c22afa30a5d092aa62ce3a10
+ms.sourcegitcommit: 94fc44928bff09d874793964b5d7443db40934cd
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272753"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84754174"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
@@ -85,12 +84,10 @@ Os recursos e limites de cada SKU Premium (e SKU A dimensionado de forma equival
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
-| P4 | 64 | 32 | 200 | 32 | 240 | 48 |
-| P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
-> [!NOTE]
-> Pode ser preferível utilizar um único SKU maior (por exemplo, um SKU P2) em vez de combinar SKUs mais pequenos (por exemplo, dois SKUs P1). Por exemplo, pode utilizar modelos maiores e obter um melhor paralelismo com o P2.
+>[!NOTE]
+>Pode ser preferível utilizar um único SKU maior (por exemplo, um SKU P2) em vez de combinar SKUs mais pequenos (por exemplo, dois SKUs P1). Por exemplo, pode utilizar modelos maiores e obter um melhor paralelismo com o P2.
 
 ### <a name="capacity-workloads"></a>Cargas de trabalho de capacidade
 
@@ -179,17 +176,17 @@ Dependendo do SKU, o Power BI Premium suporta carregar ficheiros do modelo do Po
 
 ### <a name="size-considerations"></a>Considerações sobre o tamanho
 
-Os conjuntos de dados de grandes dimensões podem exigir bastantes recursos. Deve ter, pelo menos, um SKU P1 para os conjuntos de dados superiores a 1 GB. Embora a publicação de conjuntos de dados de grandes dimensões em áreas de trabalho suportadas por SKUs A até ao A3 possa funcionar, não poderá atualizá-los.
+Os conjuntos de dados de grandes dimensões podem exigir bastantes recursos. Deve ter, pelo menos, um SKU P1 ou A4 para os conjuntos de dados superiores a 1 GB. Embora a publicação de conjuntos de dados de grandes dimensões em áreas de trabalho suportadas por SKUs A até ao A3 possa funcionar, não poderá atualizá-los.
 
 A tabela seguinte mostra os SKUs recomendados para o carregamento do ficheiro .pbix ou a publicação no serviço Power BI:
 
    |SKU  |Tamanho do ficheiro .pbix   |
    |---------|---------|
-   |P1    | < 3 GB        |
-   |P2    | < 6 GB        |
-   |P3, P4 e P5    | até 10 GB   |
+   |P1/A4    | < 3 GB        |
+   |P2/A5    | < 6 GB        |
+   |P3/A6, P4, P5    | até 10 GB   |
 
-O SKU A4 do Power BI Embedded é igual ao SKU P1, A5 = P2 e A6 = P3. A publicação de conjuntos de dados em SKUs A e EM poderá devolver erros que não são específicos ao erro de limitação do tamanho dos modelos na capacidade partilhada. É provável que os erros de atualização dos conjuntos de dados em SKUs A e EM indiquem limites de tempo excedidos como a causa.
+O SKU A4 do Power BI Embedded é igual ao SKU P1, A5 = P2 e A6 = P3.
 
 Se ativar [modelos grandes](service-premium-large-models.md) num conjunto de dados, as limitações de tamanho do ficheiro .pbix continuarão a ser aplicáveis à publicação ou à transferência de ficheiros. No entanto, com a atualização incremental e os modelos grandes combinados, os conjuntos de dados podem crescer para lá desses limites. Com modelos grandes, o tamanho do conjunto de dados é limitado apenas pelo tamanho da capacidade do Power BI Premium.
 
@@ -211,7 +208,7 @@ Para saber mais, veja [Atualização incremental no Power BI Premium](service-pr
 
 ## <a name="paginated-reports"></a>Relatórios paginados
 
-Os relatórios paginados, suportados por SKUs P1-P3 e A4-A6, são baseados em tecnologia de linguagem RDL (Report Definition Language) no SQL Server Reporting Services. Embora seja baseado na tecnologia RDL, não é o mesmo que o Power BI Report Server, que é uma plataforma de relatórios transferível que pode instalar no local, também incluída no Power BI Premium. Os relatórios paginados são formatados para se ajustarem a uma página que pode ser impressa ou partilhada. Os dados são apresentados numa tabela, mesmo que a tabela ocupe múltiplas páginas. Ao utilizar a aplicação gratuita [**Power BI Report Builder**](https://go.microsoft.com/fwlink/?linkid=2086513) para ambiente de trabalho do Windows, os utilizadores criam relatórios paginados e publicam-nos no serviço.
+Os relatórios paginados, suportados por SKUs P1-P3 e A4-A6, são baseados em tecnologia de linguagem RDL (Report Definition Language) no SQL Server Reporting Services. Embora seja baseado na tecnologia RDL, não é o mesmo que o Power BI Report Server, que é uma plataforma de relatórios transferível que pode instalar no local, também incluída no Power BI Premium. Os relatórios paginados são formatados para se ajustarem a uma página que pode ser impressa ou partilhada. Os dados são apresentados numa tabela, mesmo que a tabela ocupe múltiplas páginas. Ao utilizar a aplicação gratuita [**Power BI Report Builder**](https://aka.ms/pbireportbuilder) para ambiente de trabalho do Windows, os utilizadores criam relatórios paginados e publicam-nos no serviço.
 
 No Power BI Premium, os relatórios paginados são uma carga de trabalho que tem de ser ativada para uma capacidade com o Portal de Administração. Os administradores de capacidade podem ativar e, em seguida, especificar a quantidade de memória como uma percentagem dos recursos de memória gerais da capacidade. Ao contrário de outros tipos de cargas de trabalho, o Premium executa relatórios paginados num espaço contido dentro da capacidade. A memória máxima especificada para este espaço é utilizada, independentemente de a carga de trabalho estar ou não ativa. A predefinição é 20%. 
 

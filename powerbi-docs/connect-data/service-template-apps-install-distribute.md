@@ -5,15 +5,14 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
-ms.translationtype: HT
+ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693000"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235689"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Instalar e distribuir aplicações de modelo na sua organização
 
@@ -38,15 +37,19 @@ Para instalar, personalizar e distribuir uma aplicação de modelo, precisa do s
 
     ![Obter aplicações](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-1. Na janela do AppSource que é apresentada, selecione **Aplicações**. Navegue ou procure a aplicação pretendida e, em seguida, selecione **Obter agora**.
+1. No marketplace de aplicações do Power BI apresentado, selecione **Aplicações de modelo**. Serão apresentadas todas as aplicações de modelo disponíveis no AppSource. Procure a aplicação de modelo que quer ou obtenha uma seleção filtrada através da caixa de pesquisa. Escrever parte do nome da aplicação de modelo ou de uma categoria, como finanças, análise, marketing, etc., facilitará a procura do item.
 
     ![Procurar no AppSource](media/service-template-apps-install-distribute/power-bi-appsource.png)
+
+1. Quando encontrar a aplicação de modelo que procura, clique nela. Será apresentada a oferta de aplicações de modelo. Clique em **OBTER AGORA**.
+
+   ![Oferta de aplicações de modelo](media/service-template-apps-install-distribute/power-bi-template-app-offer.png)
 
 1. Na caixa de diálogo apresentada, selecione **Instalar**.
 
     ![Instalar a aplicação](media/service-template-apps-install-distribute/power-install-dialog.png)
     
-    A aplicação é instalada com uma área de trabalho associada. **Se optar por personalizar a aplicação, irá fazê-lo nesta área de trabalho associada**.
+    A aplicação é instalada, juntamente com uma área de trabalho com o mesmo nome com todos os artefactos necessários para [personalização](#customize-and-share-the-app) adicional.
 
     > [!NOTE]
     > Se utilizar uma ligação de instalação para uma aplicação que não esteja listada no AppSource, uma caixa de diálogo de validação irá pedir-lhe para confirmar a sua escolha.

@@ -6,19 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/19/2020
+ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a84ebd1374cab596023f55024eb9368a69daab0d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
-ms.translationtype: HT
+ms.openlocfilehash: 10db78c01ea074e2b3fab71715a3df92ae207f8e
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236014"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782483"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Alterar a forma como um gráfico é ordenado num relatório do Power BI
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 
 > [!IMPORTANT]
@@ -26,7 +25,7 @@ ms.locfileid: "85236014"
 
 No serviço Power BI, pode alterar o aspeto de um elemento visual ao ordená-lo por campos de dados diferentes. Ao alterar a forma como ordena um elemento visual, pode destacar as informações que pretende transmitir. Se estiver a utilizar dados numéricos (como o volume de vendas) ou dados de texto (como nomes de estado), pode ordenar as visualizações conforme quiser. O Power BI oferece bastante flexibilidade para ordenação e menus rápidos para utilização. 
 
-Os elementos visuais num dashboard não podem ser ordenados. No entanto, pode ordenar a maioria das visualizações num relatório do Power BI 
+Não pode ordenar os elementos visuais num dashboard. No entanto, num relatório do Power BI, pode ordenar a maioria das visualizações com um e, por vezes, dois campos de cada vez. Para determinados tipos de elementos visuais, a ordenação não está disponível: treemaps, medidores, mapas, etc. 
 
 ## <a name="get-started"></a>Introdução
 
@@ -51,6 +50,19 @@ Se for necessário, alterne entre uma sequência de ordenação ascendente e des
 
 > [!NOTE]
 > Nem todos os elementos visuais podem ser ordenados. Por exemplo, os seguintes elementos visuais não podem ser ordenados: treemap, mapa, mapa de manchas, dispersão, medidor, cartão, cascata.
+
+## <a name="sorting-by-multiple-columns"></a>Ordenar por várias colunas
+Os dados nesta tabela estão ordenados por **Número de clientes**.  Sabemos disso por causa da pequena seta por baixo da palavra *Número*. A seta está a apontar para baixo, o que significa que a coluna está a ser ordenada por ordem *descendente*.
+
+![captura de ecrã a mostrar a primeira coluna a ser utilizada na ordenação](media/end-user-change-sort/power-bi-sort-first.png)
+
+
+Para adicionar mais colunas à ordenação, prima Shift + clique no cabeçalho da coluna que gostaria de adicionar a seguir na ordenação. Por exemplo, se clicar em **Número de clientes** e, em seguida, premir Shift + clicar em **Receita total**, a tabela será ordenada primeiro por clientes e depois por receita. O contorno vermelho mostra as áreas onde a ordenação mudou.
+
+![captura de ecrã a mostrar a segunda coluna a ser utilizada na ordenação](media/end-user-change-sort/power-bi-sort-second.png)
+
+Se premir Shift + clicar uma segunda vez na mesma coluna, mudará a direção de ordenação dessa coluna. Além disso, se premir Shift + clicar numa coluna que adicionou anteriormente à ordenação, deslocará essa coluna para a parte de trás da ordenação.
+
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Guardar as alterações feitas à sequência de ordenação
 Os relatórios do Power BI mantêm os filtros, as segmentações, a ordenação e outras alterações que fizer, mesmo que esteja a trabalhar na [Vista de leitura](end-user-reading-view.md). Por isso, se sair de um relatório e regressar mais tarde, as alterações de ordenação serão guardadas.  Se quiser reverter as alterações para as definições do *designer* de relatórios, selecione **Repor para predefinição** na barra de menus superior. 

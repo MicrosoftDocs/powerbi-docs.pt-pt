@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: 56ace35adf6a005c4370bf692d8851dc015688c0
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83128540"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782343"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>FAQ sobre elevada disponibilidade, ativação pós-falha e recuperação após desastre do Power BI
 
@@ -38,7 +37,7 @@ Todos os componentes do serviço Power BI sincronizam regularmente as respetivas
 
 As instâncias de cópia de segurança residem na mesma área geográfica que selecionou quando inscreveu a sua organização no Power BI, exceto nas áreas indicadas no [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location). Uma área geográfica pode conter várias regiões e a Microsoft pode replicar dados para qualquer região de uma determinada área geográfica, para resiliência de dados. A Microsoft não irá replicar ou mover dados de clientes para fora da área geográfica. Para obter um mapeamento das áreas geográficas oferecidas pelo Power BI e das regiões dentro delas, veja o [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
 
-## <a name="how-does-microsoft-decide-to-failover"></a>Como é que a Microsoft determinam quando realizar uma ativação pós-falha?
+## <a name="how-does-microsoft-decide-to-fail-over"></a>Como é que a Microsoft determina quando realizar uma ativação pós-falha?
 
 Há dois sistemas diferentes que indicam quando poderá ser necessária uma ativação pós-falha:
 
@@ -57,6 +56,9 @@ O Power BI demora aproximadamente 15 minutos a ficar novamente operacional depoi
 
 Uma vez realizada uma ativação pós-falha, o Power BI utiliza a georreplicação do Armazenamento do Azure para realizar a ativação pós-falha. Tais replicações têm geralmente um ponto de retorno de 15 minutos. No entanto, o [Armazenamento do Azure não garante este intervalo de tempo](https://docs.microsoft.com/azure/storage/common/storage-redundancy) com um SLA e, portanto, o Power BI também não consegue garantir um intervalo de tempo. 
 
+## <a name="what-happens-to-workspaces-and-reports-if-my-premium-capacity-becomes-unavailable"></a>O que acontecerá às áreas de trabalho e aos relatórios se a minha capacidade Premium ficar indisponível? 
+
+Se uma capacidade Premium ficar indisponível, as áreas de trabalho e os relatórios permanecerão acessíveis e visíveis para todos os utilizadores licenciados do Power BI Pro que anteriormente tinham acesso às mesmas.
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>Quando é que a minha instância do Power BI regressa à região original?
 

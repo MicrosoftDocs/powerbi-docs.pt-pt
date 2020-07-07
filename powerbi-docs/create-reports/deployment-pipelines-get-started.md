@@ -3,16 +3,15 @@ title: Começar a utilizar os pipelines de implementação
 description: Saiba como utilizar os pipelines de implementação no Power BI
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: 8dc0dc97e2b4bca7154ea0f13273ee2dbaee1b61
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 6e9ed3217a7ee589eaf1469ba179ef8c8bc474e9
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272839"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354737"
 ---
 # <a name="get-started-with-deployment-pipelines-preview"></a>Começar a utilizar os pipelines de implementação (pré-visualização)
 
@@ -84,7 +83,7 @@ Uma vez concluída a implementação, atualize o conjunto de dados. Para obter m
 
 Selecione a fase a partir da qual quer implementar e clique no botão de implementação. O processo de implementação cria uma área de trabalho duplicada na fase de destino. Esta área de trabalho inclui todo o conteúdo existente na fase atual.
 
-[![](media/deployment-pipelines-get-started/deploy.png "Deploy all content")](media/deployment-pipelines-get-started/deploy.png#lightbox)
+[![implementar](media/deployment-pipelines-get-started/deploy.png "Implementar todo o conteúdo")](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>Implementação seletiva
 
@@ -92,7 +91,7 @@ Para implementar apenas itens específicos, clique na ligação **Mostrar mais**
 
 Uma vez que os dashboards, os relatórios e os conjuntos de dados estão relacionados e têm dependências, pode utilizar o botão Selecionar relacionados para selecionar todos os itens relacionados. Por exemplo, se quiser implementar um relatório na fase seguinte, clicar no botão Selecionar relacionados marcará o conjunto de dados a que o relatório está associado para que ambos sejam implementados em simultâneo e o relatório não falhe.
 
-[![](media/deployment-pipelines-get-started/selective-deploy.png "Selective deployment")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
+[![implementação seletiva](media/deployment-pipelines-get-started/selective-deploy.png "Implementação seletiva")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
 
 >[!NOTE]
 > * Não poderá implementar um relatório ou dashboard na fase seguinte se os itens dependentes não existirem na fase na qual está a implementar.
@@ -104,7 +103,7 @@ Pode optar por implementar numa fase anterior, por exemplo, num cenário em que 
 
 A implementação numa fase anterior só funcionará se a fase anterior não tiver conteúdo. Ao implementar na fase anterior, não pode selecionar itens específicos. Todo o conteúdo na fase será implementado.
 
-[![](media/deployment-pipelines-get-started/deploy-back.png "Backwards deployment")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
+[![implementação retroativa](media/deployment-pipelines-get-started/deploy-back.png "Implementação retroativa")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
 ## <a name="step-4---create-dataset-rules"></a>Passo 4 – Criar regras de conjuntos de dados
 
@@ -125,11 +124,11 @@ As regras de conjuntos de dados são definidas em origens de dados e parâmetros
 
 2. No painel Definições de implementação, selecione o conjunto de dados para o qual quer criar uma regra.
 
-    [![](media/deployment-pipelines-get-started/dataset-rules.png "Select a dataset")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
+    [![regras do conjunto de dados](media/deployment-pipelines-get-started/dataset-rules.png "Selecionar um conjunto de dados")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
 3. Selecione o tipo de regra que quer criar, expanda a lista e clique em **Adicionar regra**.
 
-     [![](media/deployment-pipelines-get-started/add-rule.png "Add a rule")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
+     [![adicionar regra](media/deployment-pipelines-get-started/add-rule.png "Adicionar uma regra")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
 ### <a name="dataset-rule-types"></a>Tipos de regras de conjuntos de dados
 
@@ -154,15 +153,14 @@ Existem dois tipos de regras que pode criar:
 * Se a origem de dados ou os parâmetros definidos numa regra forem alterados ou removidos do conjunto de dados de origem, a regra não será válida e a implementação falhará.
 
 * As regras de origens de dados só podem ser definidas para as seguintes origens de dados:
-    * Analysis Services
-    * Azure SQL Server
     * Azure Analysis Services
+    * SQL Server Analysis Services (SSAS)
+    * Azure SQL Server
+    * Servidor SQL
     * Feed OData
     * Oracle
-    * SapHana
+    * SapHana (apenas suportado no modo de importação e não no modo de consulta direta)
     * SharePoint
-    * Servidor SQL
-    * SQL Server Analysis Services (SSAS)
     * Teradata
 
     Para outras origens de dados, recomendamos a [utilização de parâmetros para configurar a origem de dados](deployment-pipelines-best-practices.md#use-parameters-in-your-model).
@@ -181,7 +179,7 @@ A hora de implementação é útil para saber quando uma fase foi atualizada pel
 
 Quando duas fases sequenciais têm conteúdo, o conteúdo é comparado com base nos metadados dos itens de conteúdo. Esta comparação não inclui dados de comparação nem a hora de atualização entre as fases.
 
- [![](media/deployment-pipelines-get-started/deployment-flow.png "Comparing stages")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
+ [![fluxo de implementação](media/deployment-pipelines-get-started/deployment-flow.png "Comparar fases")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
 
 Para permitir uma rápida perceção visual das diferenças entre duas fases sequenciais, é apresentado um indicador de comparação entre ambas. O indicador de comparação tem dois estados:
 
@@ -202,7 +200,7 @@ Quando duas fases sequenciais não são idênticas, é apresentada uma ligação
     >[!NOTE]
     >A implementação não afetará os itens *em falta*.
 
- [![](media/deployment-pipelines-get-started/compare.png "Compare view")](media/deployment-pipelines-get-started/compare.png#lightbox)
+ [![comparar](media/deployment-pipelines-get-started/compare.png "Vista de comparação")](media/deployment-pipelines-get-started/compare.png#lightbox)
 
 ## <a name="overriding-content"></a>Conteúdo substituído
 

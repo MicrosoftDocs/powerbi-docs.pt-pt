@@ -5,16 +5,15 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 67c83f2cc0eb81e90f447961ed178a04e97e050e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: ba59a08ee1b50e44af71312a25d77fb67c8fca2d
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292093"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485444"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Resolver problemas ao abrir o Power BI Desktop
 
@@ -36,7 +35,7 @@ Poderá desinstalar o Gateway de dados no local do Power BI se não precisar ma
 
 Por outro lado, pode iniciar o Power BI Desktop como administrador, o que também permite que seja aberto com êxito. Ainda é recomendável que instale a versão mais recente do Gateway de dados no local do Power BI, conforme descrito anteriormente.
 
-O Power BI Desktop foi projetado como uma arquitetura com multiprocessos e vários desses processos comunicam através de pipes nomeados do Windows. Poderão existir outros processos que interferem com esses pipes nomeados. A razão mais comum para essa interferência é a segurança, incluindo situações em que o software antivírus ou as firewalls podem bloquear os pipes ou redirecionar o tráfego para uma porta específica. Abrir o Power BI Desktop com privilégios de administrador pode resolver esse problema. Se não conseguir abrir com privilégios de administrador, peça ao administrador para determinar quais as regras de segurança que estão a impedir que os pipes nomeados comuniquem corretamente. Em seguida, coloque o Power BI Desktop e os subprocessos na lista de permissões.
+O Power BI Desktop foi projetado como uma arquitetura com multiprocessos e vários desses processos comunicam através de pipes nomeados do Windows. Poderão existir outros processos que interferem com esses pipes nomeados. A razão mais comum para essa interferência é a segurança, incluindo situações em que o software antivírus ou as firewalls podem bloquear os pipes ou redirecionar o tráfego para uma porta específica. Abrir o Power BI Desktop com privilégios de administrador pode resolver esse problema. Se não conseguir abrir com privilégios de administrador, peça ao administrador para determinar quais as regras de segurança que estão a impedir que os pipes nomeados comuniquem corretamente. Em seguida, adicione o Power BI Desktop e os subprocessos à lista de permissões.
 
 ## <a name="resolve-issues-when-connecting-to-sql-server"></a>Resolver problemas ao ligar ao SQL Server
 

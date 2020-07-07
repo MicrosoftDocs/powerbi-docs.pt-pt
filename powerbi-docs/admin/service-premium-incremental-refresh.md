@@ -5,16 +5,15 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
-ms.date: 05/26/2020
+ms.topic: how-to
+ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 2257e38183d87ef7fd4fdd12546c2a191a7acf74
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
-ms.translationtype: HT
+ms.openlocfilehash: a9045c5c088926b24bb9f71e2adf558da6ffa597
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159887"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227437"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Atualização incremental no Power BI
 
@@ -114,7 +113,7 @@ A primeira atualização no serviço Power BI poderá demorar mais tempo a impor
 
 #### <a name="current-date"></a>Data atual
 
-A *data atual* é baseada na data do sistema na altura da atualização. Se a atualização agendada estiver ativada para o conjunto de dados no serviço Power BI, o fuso horário especificado será tido em conta ao determinar a data atual. Tanto as atualizações manuais como as agendadas verificam o fuso horário, caso o mesmo esteja disponível. Por exemplo, uma atualização que ocorra às 20h na Hora do Pacífico (EUA e Canadá) com o fuso horário especificado irá determinar a data atual com base na Hora do Pacífico e não na hora GMT (que seria no dia seguinte).
+A *data atual* é baseada na data do sistema na altura da atualização. Se a atualização agendada estiver ativada para o conjunto de dados no serviço Power BI, o fuso horário especificado será tido em conta ao determinar a data atual. Tanto as atualizações manuais como as agendadas através do serviço Power BI verificam o fuso horário, caso o mesmo esteja disponível. Por exemplo, uma atualização que ocorra às 20h na Hora do Pacífico (EUA e Canadá) com o fuso horário especificado irá determinar a data atual com base na Hora do Pacífico e não na hora GMT (que seria no dia seguinte). As operações de atualização não invocadas através do serviço Power BI, como o [comando de atualização TMSL](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current), não consideram o fuso horário de atualização agendado
 
 ![Fuso horário](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -186,7 +185,7 @@ Os seguintes parâmetros podem ser inseridos no comando de atualização TMSL pa
 
 - **applyRefreshPolicy** – se uma tabela tiver uma política de atualização incremental definida, applyRefreshPolicy determinará se a política é aplicada ou não. Se a política não for aplicada, uma operação completa de processamento deixará as definições de partição inalteradas e todas as partições da tabela serão totalmente atualizadas. O valor predefinido é verdadeiro.
 
-- **effectiveDate** – se estiver a ser aplicada uma política de atualização incremental, esta terá de saber a data atual para determinar os intervalos da janela temporal para o intervalo histórico e o intervalo incremental. O parâmetro effectiveDate permite-lhe substituir a data atual. Este parâmetro é útil para testes, demonstrações e cenários empresariais onde os dados são atualizados de forma incremental até uma data no passado ou no futuro (por exemplo, orçamentos no futuro). O valor predefinido é a [data atual](#current-date).
+- **effectiveDate** – se estiver a ser aplicada uma política de atualização incremental, esta terá de saber a data atual para determinar os intervalos da janela temporal para o intervalo histórico e o intervalo incremental. O parâmetro effectiveDate permite-lhe substituir a data atual. Este parâmetro é útil para testes, demonstrações e cenários empresariais onde os dados são atualizados de forma incremental até uma data no passado ou no futuro (por exemplo, orçamentos no futuro). O valor predefinido é a data atual.
 
 ```json
 { 
@@ -205,6 +204,8 @@ Os seguintes parâmetros podem ser inseridos no comando de atualização TMSL pa
   }
 }
 ```
+
+Para saber mais sobre o comportamento de atualização incremental predefinido com a TMSL, veja [Comando de atualização](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current).
 
 ### <a name="custom-queries-for-detect-data-changes"></a>Consultas personalizadas para detetar alterações de dados
 

@@ -6,16 +6,15 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: ''
 ms.date: 01/31/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 89c33de2ef7319c6dcbeace0df79786128e16cd9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 9036967c826dee83847c3bc3d4a903bbe749b2ce
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83334321"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238635"
 ---
 # <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>Restringir o acesso aos dados com segurança ao nível da linha (RLS) para o Power BI Desktop
 
@@ -34,8 +33,11 @@ Pode agora configurar a RLS para os modelos de dados importados para o Power BI 
 
 [!INCLUDE [include-short-name](../includes/rls-faq.md)]
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
-[Segurança ao nível da linha (RLS) com o serviço Power BI](../admin/service-admin-rls.md)  
+Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/).
+- [Segurança ao nível da linha (RLS) com o Power BI](../admin/service-admin-rls.md)
+- [Orientação de segurança ao nível da linha (RLS) com o Power BI Desktop](../guidance/rls-guidance.md)
+- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)

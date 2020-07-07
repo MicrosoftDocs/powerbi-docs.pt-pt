@@ -6,14 +6,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/24/2020
 ms.author: painbar
-ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
-ms.translationtype: HT
+ms.openlocfilehash: 9655783decee99bc90071cdfbd66a8b58d8272f4
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565306"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782583"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -24,6 +23,20 @@ Para informações sobre “Novidades” relacionadas, veja:
 
 >[!NOTE]
 >O suporte à aplicação móvel Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="june-2020"></a>Junho de 2020
+### <a name="show-your-bookmarks-in-slideshows-windows"></a>Mostrar os marcadores em apresentações de diapositivos (Windows)
+Agora, pode incluir marcadores de relatório e marcadores pessoais nas apresentações de diapositivos, automaticamente como parte da apresentação, para realçar informações específicas nos dados.
+[Dê uma vista de olhos!](mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
+
+## <a name="may-2020"></a>Maio de 2020
+### <a name="weve-added-dark-mode-to-power-bi-mobile-ios"></a>Adicionámos o modo escuro ao Power BI Mobile (iOS)
+Experimente o novo modo escuro na aplicação Power BI Mobile para o iOS13. No modo escuro, verá o texto claro num fundo escuro, o que reduz o brilho do ecrã e facilita a visualização do conteúdo. Pode alternar entre temas nas definições de aspeto da aplicação. [Saiba mais](mobile-apps-dark-mode.md)
+
+![Modo escuro nas aplicações móveis do Power BI](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode.png)
+
+### <a name="apply-bookmarks-in-presentation-mode-windows"></a>Aplicar marcadores no modo de apresentação (Windows)
+Agora, ao apresentar um relatório no modo de apresentação, pode aplicar marcadores pessoais e de relatório para reportar páginas e contar a história dos dados. [Dê uma vista de olhos!](mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
 
 ## <a name="april-2020"></a>Abril de 2020
 

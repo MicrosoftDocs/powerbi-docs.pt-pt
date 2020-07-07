@@ -5,17 +5,16 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: edc06d7a46589c999e4bf18613c0c75f6d5bf983
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
-ms.translationtype: HT
+ms.openlocfilehash: c3a625dcdd58f881c9314e821753f66098e073f5
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120611"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354438"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Criar as novas áreas de trabalho no Power BI
 
@@ -144,6 +143,20 @@ Qualquer pessoa com função de administrador numa área de trabalho pode conced
 Se quiser distribuir conteúdos oficiais para um grande público na sua organização, poderá publicar uma *aplicação* a partir da sua área de trabalho.  Quando os conteúdos estiverem prontos, selecione os dashboards e os relatórios que pretende publicar e, em seguida, publique-os como uma aplicação. Pode criar uma aplicação a partir de cada área de trabalho.
 
 Leia sobre como [publicar uma aplicação a partir das novas áreas de trabalho](service-create-distribute-apps.md).
+
+## <a name="security-settings"></a>Definições de segurança
+
+A definição **Permitir que os contribuidores atualizem a aplicação desta área de trabalho** permite que os Administradores da área de trabalho deleguem aos utilizadores na função Contribuidor a capacidade de atualizar a aplicação para a área de trabalho. Por predefinição, apenas os Administradores e Membros da área de trabalho podem publicar e atualizar a aplicação para a área de trabalho. 
+
+Quando estiver ativada, os Contribuidores podem:
+* Atualizar os metadados da aplicação, como nome, ícone, descrição, site de suporte e cor
+* Adicionar ou remover itens incluídos na aplicação, como adicionar relatórios ou conjuntos de dados
+* Alterar a navegação da aplicação ou o item predefinido em que a aplicação é aberta
+
+No entanto, os Contribuidores não podem:
+* Publicar a aplicação pela primeira vez
+* Alterar quem tem permissão para a aplicação
+
 
 ## <a name="next-steps"></a>Próximos passos
 * Leia mais no artigo [Organizar o trabalho na nova experiência de áreas de trabalho no Power BI](service-new-workspaces.md)

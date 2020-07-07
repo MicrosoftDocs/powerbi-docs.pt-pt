@@ -6,13 +6,12 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: c4a823b0b41def6c10cd8f932bb97e91eb977ecb
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.date: 06/25/2020
+ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148608"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782579"
 ---
 # <a name="understand-the-deployment-process-preview"></a>Compreender o processo de implementação (pré-visualização)
 
@@ -60,7 +59,7 @@ Na fase de destino, as [propriedades de itens que não são copiadas](deployment
 
 Os dados no conjunto de dados de destino são mantidos sempre que possível. Se não houver alterações num conjunto de dados, os dados serão mantidos como eram antes da implementação.
 
-Com pequenas alterações, como a adição de uma tabela ou medidas calculadas, o Power BI mantém os dados originais e a atualização é otimizada para atualizar apenas o que é necessário. Para alterações de esquema interruptivas ou alterações na ligação da origem de dados, é necessária uma atualização completa.
+Com pequenas alterações, como a adição de uma tabela ou medidas, o Power BI mantém os dados originais e a atualização é otimizada para atualizar apenas o que é necessário. Para alterações de esquema interruptivas ou alterações na ligação da origem de dados, é necessária uma atualização completa.
 
 ### <a name="requirements-for-deploying-to-a-stage-with-an-existing-workspace"></a>Requisitos de implementação numa fase com uma área de trabalho existente
 
@@ -152,11 +151,11 @@ As [aplicações do Power BI](../consumer/end-user-apps.md) são a forma recome
 
 Crie uma aplicação para cada fase do pipeline de implementação, para que possa testar cada atualização da aplicação do ponto de vista do utilizador final. Um pipeline de implementação permite-lhe gerir este processo facilmente. Utilize o botão de publicação ou visualização no cartão da área de trabalho para publicar ou ver a aplicação numa fase específica do pipeline.
 
-[![](media/deployment-pipelines-process/publish.png "Publish app")](media/deployment-pipelines-process/publish.png#lightbox)
+[![publicar aplicação](media/deployment-pipelines-process/publish.png "Publicar aplicação")](media/deployment-pipelines-process/publish.png#lightbox)
 
 Na fase de produção, o botão de ação principal no canto inferior esquerdo abre a página Atualizar aplicação no Power BI, para que quaisquer atualizações de conteúdo fiquem disponíveis para os utilizadores da aplicação.
 
-[![](media/deployment-pipelines-process/update-app.png "Update app")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![atualizar aplicação](media/deployment-pipelines-process/update-app.png "Atualizar aplicação")](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
 >O processo de implementação não inclui a atualização do conteúdo ou das definições da aplicação. Para aplicar alterações ao conteúdo ou às definições, tem de atualizar manualmente a aplicação na fase dos pipelines necessária.
@@ -236,13 +235,23 @@ Esta secção lista a maioria das limitações nos pipelines de implementação.
 
 * Os itens do Power BI, como relatórios e dashboards com [etiquetas de confidencialidade](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi), não podem ser implementados.
 
-* Os conjuntos de dados configurados com a [atualização incremental](../admin/service-premium-incremental-refresh.md) não podem ser implementados.
+* O número máximo de itens do Power BI que podem ser implementados numa única implementação é de 300.
 
 * Para obter uma lista das limitações da área de trabalho, veja [Limitações de atribuição da área de trabalho](deployment-pipelines-get-started.md#workspace-assignment-limitations).
 
-* Para obter uma lista das limitações das regras de conjuntos de dados, veja [Limitações das regras de conjuntos de dados](deployment-pipelines-get-started.md#dataset-rule-limitations).
-
 * Para obter uma lista de itens não suportados, veja [Itens não suportados](#unsupported-items).
+
+### <a name="dataset-limitations"></a>Limitações dos conjuntos de dados
+
+* Os conjuntos de dados configurados com a [atualização incremental](../admin/service-premium-incremental-refresh.md) não podem ser implementados.
+
+* Os conjuntos de dados que utilizam conectividade de dados em tempo real não podem ser implementados.
+
+* Durante a implementação, se o conjunto de dados de destino estiver a utilizar uma [ligação em direto](../connect-data/desktop-report-lifecycle-datasets.md), o conjunto de dados de origem também terá de utilizar este modo de ligação.
+
+* Após a implementação, não será suportada a transferência de um conjunto de dados (a partir da fase na qual foi implementado).
+
+* Para obter uma lista das limitações das regras de conjuntos de dados, veja [Limitações das regras de conjuntos de dados](deployment-pipelines-get-started.md#dataset-rule-limitations).
 
 ## <a name="next-steps"></a>Próximos passos
 

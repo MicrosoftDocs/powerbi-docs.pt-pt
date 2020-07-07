@@ -10,12 +10,11 @@ ms.date: 04/07/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: f494533c8b79dce250f3f25c706896d542f01f26
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
-ms.translationtype: HT
+ms.openlocfilehash: 885490554acfec10503ba8ce7bc1db6937ec8fce
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159565"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485467"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Inscrever a organização do Governo Norte-Americano no serviço Power BI
 
@@ -32,7 +31,7 @@ Para obter mais informações sobre o serviço Power BI para o Governo Norte-Am
 
 A sua organização do Governo Norte-Americano pode ser nova na Cloud da Comunidade Governamental ou pode já possuir uma subscrição. As secções seguintes detalham os passos de inscrição com base no seu nível de conhecimento dos Planos do Microsoft 365 para o Governo Norte-Americano e do Power BI. Estes passos são diferentes dependendo da sua inscrição atual.
 
-Após inscrever-se no Power BI para o Governo Norte-Americano, trabalhe com a sua equipa de conta para iniciar o [processo de *adição à lista de permissões*](#additional-signup-information) descrito neste artigo. Este passo é necessário para ativar totalmente a sua organização na Cloud da Comunidade Governamental.
+Depois de se inscrever no Power BI para o governo dos EUA, trabalhe com a sua equipa de conta para iniciar o [processo de adição à lista de permissões](#additional-signup-information) descrito neste artigo. Este passo é necessário para ativar totalmente a sua organização na Cloud da Comunidade Governamental.
 
 ## <a name="sign-up-for-a-new-microsoft-365-government-plan"></a>Inscrever-se num novo Plano do Microsoft 365 para o Governo Norte-Americano
 
@@ -69,9 +68,9 @@ Se a sua organização já possuir um plano do Microsoft 365 para o Governo Nor
 
 ## <a name="additional-signup-information"></a>Informações de inscrição adicionais
 
-Para poder utilizar os serviços Power BI para o Governo Norte-Americano, deve trabalhar com a sua equipa da conta Microsoft para iniciar a *lista de permissões* da sua organização. Adicionar à lista de permissões é um processo utilizado pela equipa de engenharia do Power BI para mover os clientes do ambiente da cloud comercial para o ambiente da Cloud da Comunidade Governamental. Este passo garante que as funcionalidades disponíveis na cloud do Governo Norte-Americano funcionam conforme esperado. 
+Para poder utilizar os serviços do Power BI para o governo dos EUA, deve trabalhar com a equipa da conta Microsoft para adicionar a sua organização à lista de permissões. O processo de adição à lista de permissões é utilizado pela equipa de engenharia do Power BI para mover os clientes do ambiente da cloud comercial para o ambiente da Nuvem da Comunidade Governamental. Este passo garante que as funcionalidades disponíveis na cloud do Governo Norte-Americano funcionam conforme esperado. 
 
-Para iniciar o processo de adicionar à lista de permissões, contacte a sua equipa da conta Microsoft para obter assistência. Apenas os administradores podem pedir a adição à lista de permissões. O processo demora cerca de três semanas. Durante este período, a equipa de engenharia do Power BI faz as alterações adequadas para garantir que o inquilino funciona corretamente na cloud do Governo Norte-Americano.
+Para iniciar o processo de adição à lista de permissões, contacte a equipa da conta Microsoft para obter assistência. Apenas os administradores podem pedir a adição à lista de permissões. O processo demora cerca de três semanas. Durante este período, a equipa de engenharia do Power BI faz as alterações adequadas para garantir que o inquilino funciona corretamente na cloud do Governo Norte-Americano.
 
 
 ## <a name="next-steps"></a>Próximos passos

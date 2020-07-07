@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/21/2020
+ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 42e3f36689e62b196f5d8cb82bd4dd5ee118bf8b
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
-ms.translationtype: HT
+ms.openlocfilehash: 0a09311c5fdb1a8b2e008996d993015f33ee9b5f
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793388"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739259"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Using enhanced dataset metadata (preview) (Utilizar metadados de conjuntos de dados otimizados [pré-visualização])
 
@@ -64,11 +63,13 @@ O ficheiro de cópia de segurança é criado quando o relatório é atualizado, 
 Na versão anterior, aplicam-se as seguintes limitações quando a funcionalidade de pré-visualização está ativa.
 
 ### <a name="unsupported-features-and-connectors"></a>Funcionalidades e conectores não suportados
+
+Aplicam-se as seguintes limitações:
+
 Após abrir um ficheiro PBIX ou PBIT existente que não foi atualizado, a atualização irá falhar se o conjunto de dados tiver qualquer um dos seguintes conectores ou funcionalidades. Se esta falha ocorrer, em princípio, não haverá impacto imediato na experiência de utilizador e o Power BI Desktop irá continuar a utilizar o formato de metadados anterior.
 
-* Todos os conectores personalizados
+* Todos os conectores personalizados (limitação da versão de maio de 2020)
 * Scripts de Python
-* Conectores personalizados
 * Azure DevOps Server
 * Conector BI
 * Denodo
@@ -84,16 +85,15 @@ Após abrir um ficheiro PBIX ou PBIT existente que não foi atualizado, a atuali
 * Expressões M com determinadas combinações de carateres como "\\n" em nomes de colunas
 * Ao utilizar conjuntos de dados com a funcionalidade **metadados de conjuntos de dados otimizados** ativa, as origens de dados de Início de Sessão Único (SSO) não podem ser configuradas no serviço Power BI
 
-Os relatórios que utilizarem esta lista de conectores não serão atualizados para o novo formato. Os relatórios que já foram atualizados, ou que foram criados posteriormente para permitir esta nova funcionalidade, não suportarão a adição das funcionalidades ou dos conectores não suportados listados. 
+Se estiver a utilizar a versão de **junho de 2020** do Power BI Desktop (ou posterior), todos os conectores personalizados e incorporados *serão* suportados para o Power BI Desktop e o serviço Power BI. Durante o processo de publicação, quando utilizar a versão de junho de 2020 ou posterior, se o gateway encontrar problemas, o conjunto de dados será publicado com êxito, mas os utilizadores terão de publicar novamente o relatório para atualizar os dados. A caixa de diálogo **Definições da origem de dados** é o único indicador da ocorrência de problemas no processo de publicação.
+
+Os relatórios que utilizarem conectores não suportados não serão atualizados para o novo formato. Os relatórios que já foram atualizados, ou que foram criados posteriormente para permitir esta nova funcionalidade, não suportarão a adição das funcionalidades ou dos conectores não suportados listados. 
 
 As consultas com origens de dados dinâmicas não são suportadas. Os relatórios com origens de dados dinâmicas não serão atualizados para o novo formato e os relatórios que já foram atualizados ou foram recentemente criados com a funcionalidade ativada não suportarão a adição de origens de dados dinâmicas. Uma consulta terá uma origem de dados dinâmica se a origem mudar consoante um parâmetro, uma entrada de função ou uma função volátil. 
 
 As consultas com erros nos passos ou ramos a montante não são suportadas. 
 
-Além disso, os ficheiros PBIX e PBIT que já foram atualizados com êxito para utilizar **metadados de conjuntos de dados otimizados** *não podem* utilizar os conectores ou funcionalidades anteriormente referidos na versão atual.
-
-
-
+Além disso, os ficheiros PBIX e PBIT que já foram atualizados com êxito para utilizar **metadados de conjuntos de dados otimizados** *não podem* utilizar as funcionalidades acima (ou quaisquer conectores não suportados).
 
 ### <a name="lineage-view"></a>Vista de linhagem
 Os conjuntos de dados que utilizam o novo formato de metadados não apresentam atualmente ligações para fluxos de dados na vista de linhagem do serviço Power BI.

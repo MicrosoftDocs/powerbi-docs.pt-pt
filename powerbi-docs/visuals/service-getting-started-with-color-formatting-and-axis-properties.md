@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 06/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276588"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354599"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Introdução ao painel de formatação
 
@@ -28,11 +27,11 @@ Para começar, abra um relatório no Power BI Desktop ou no serviço Power BI. A
 
 Quando estiver a editar um relatório e tiver uma visualização selecionada, é apresentado o painel **Visualizações**. Utilize este painel para alterar as visualizações. Diretamente abaixo do painel **Visualizações** estão três ícones: o ícone **Campos** (uma pilha de barras), **Formatar** (um rolo de pintura) e **Análise** (uma lupa). Na imagem abaixo, o ícone **Campos** está selecionado, indicado por uma barra amarela sob o ícone.
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
+![Painel Visualização com o ícone Campos selecionado](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
 
 Quando selecionar **Formatar**, a área abaixo do ícone apresenta as personalizações disponíveis para a visualização atualmente selecionada.  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
+![Painel Visualização com o ícone Formatar selecionado](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
 
 Pode personalizar muitos elementos de cada visualização. As opções disponíveis dependem do elemento visual selecionado. Algumas destas opções são:
 
@@ -119,7 +118,7 @@ Mesmo após aplicar um Estilo, pode continuar a formatar as propriedades, inclui
 ## <a name="changing-axis-properties"></a>Alterar as propriedades dos eixos
 
 Geralmente é útil modificar o eixo X ou Y. Semelhante ao trabalho com cores, pode modificar um eixo ao selecionar o ícone de seta para baixo à esquerda do eixo que deseja alterar, como mostrado na imagem a seguir.  
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
+![Painel Formatar com uma seta para o cartão do eixo Y](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
 
 No exemplo abaixo, formatamos o eixo Y ao:
 - mover as etiquetas para o lado direito da visualização

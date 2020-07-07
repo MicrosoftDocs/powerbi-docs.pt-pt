@@ -6,16 +6,15 @@ ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 63c18ae6452b36a72ab72eb6fdf0ce14a73011e9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114117"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782548"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Navegação para consumidores do Power BI: pesquisa global
 
@@ -39,11 +38,11 @@ Enquanto tiver pouca experiência no serviço Power BI, disporá apenas de pouc
 
 ## <a name="sorting-content-lists"></a>Ordenar listas de conteúdos
 
-Se tiver poucos conteúdos, poderá não ser necessário ordenar.  Mas quando tiver longas listas de dashboards e relatórios, a ordenação vai ajudá-lo a encontrar o que precisa. Por exemplo, esta lista de conteúdo **Partilhado comigo** tem 63 itens. 
+Se tiver poucos conteúdos, poderá não ser necessário ordenar.  Mas quando tiver longas listas de dashboards e relatórios, a ordenação vai ajudá-lo a encontrar o que precisa. Por exemplo, esta lista de conteúdo **Partilhado comigo** tem 257 itens. 
 
-![Lista de conteúdo partilhado comigo](./media/end-user-search-sort/power-bi-long-lists.png)
+![Lista de conteúdo partilhado comigo](./media/end-user-search-sort/power-bi-all-shared.png)
 
-Neste momento, esta lista de conteúdo está ordenada por data, da mais recente à mais antiga. Para alterar os critérios de ordenação, selecione a seta à direita de **Data (Mais recente)** .
+Neste momento, esta lista de conteúdo está ordenada alfabeticamente pelo nome, de A a Z. Para alterar os critérios de ordenação, selecione a seta à direita de **Nome (A-Z)** .
 
 ![Menu pendente de ordenação](./media/end-user-search-sort/power-bi-sort-date.png)
 
@@ -58,7 +57,9 @@ Nem todas as colunas podem ser ordenadas. Paire o cursor sobre os cabeçalhos de
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 * Para conjuntos de dados, a opção **Ordenar por** não está disponível por proprietário.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 [Ordenar os elementos visuais em relatórios](end-user-change-sort.md)
+
+[Ordenar dados em elementos visuais](end-user-change-sort.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

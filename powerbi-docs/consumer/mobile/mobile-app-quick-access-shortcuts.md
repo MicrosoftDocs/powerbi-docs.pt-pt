@@ -4,15 +4,14 @@ description: Saiba como aceder rapidamente a conteúdos vistos com frequência d
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: painbar
-ms.openlocfilehash: 1aa2e80e7624fb50878c70e464aac7edd943e0a8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: ec4763118360ea02362e3f49fe9776224e9c087a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802784"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229395"
 ---
 # <a name="use-android-app-shortcuts-in-the-power-bi-android-app"></a>Utilizar atalhos da aplicação no Android na aplicação Power BI para Android
 
@@ -33,7 +32,7 @@ A aplicação móvel Power BI para Android oferece duas formas simples de aceder
 
 Pode criar atalhos para qualquer relatório ou dashboard.
 
-1. No menu de ações, clique em **Mais opções...** e selecione **Adicionar atalho**.
+1. Num relatório, no menu Ações, clique em **Mais opções...** e selecione **Adicionar atalho**. Num dashboard, toque em **Adicionar atalho** no menu Ações.
 
    ![Menu de ação Adicionar atalho](media/mobile-app-quick-access-shortcuts/mobile-add-shortcut-action-menu.png)
 
@@ -44,7 +43,6 @@ Pode criar atalhos para qualquer relatório ou dashboard.
    Estas duas experiências são ilustradas abaixo.
 
    ![Faixa Adicionar atalho](media/mobile-app-quick-access-shortcuts/mobile-add-shortcut-banner.png)
-
 
  1. Será aberta uma caixa de diálogo **Adicionar atalho** com o nome do seu item. Pode editar o nome se quiser. Quando tiver terminado, toque em **ADICIONAR**.
 
@@ -60,7 +58,7 @@ Pode criar atalhos para qualquer relatório ou dashboard.
 
 ## <a name="edit-the-shortcut-name"></a>Editar o nome do atalho
 
-Para editar o nome de um atalho, no menu de ações, selecione **Mais opções...** e, em seguida, selecione **Editar nome do atalho**
+Num relatório, para editar o nome de um atalho, no menu Ações, toque em **Mais opções...** e, em seguida, selecione **Editar nome do atalho**. Num dashboard, toque em **Adicionar atalho**. Será apresentada a caixa de diálogo **Editar nome do atalho**.
 
  ![Editar nome do atalho](media/mobile-app-quick-access-shortcuts/mobile-edit-shortcut.png)
 

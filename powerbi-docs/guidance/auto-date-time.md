@@ -9,12 +9,11 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 69084048b46c77452bf94f04fd79a97c4f09af5b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
-ms.translationtype: HT
+ms.openlocfilehash: b95eafbe797dcc28c54aa9781b0422820ccf1f4b
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83566000"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393617"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Auto date/time guidance in Power BI Desktop (Orientação de data/hora Automáticas no Power BI Desktop)
 
@@ -26,7 +25,7 @@ A opção _Data/hora automática_ fornece análise de tempo conveniente, rápida
 
 A seguinte lista com marcas descreve as considerações e as possíveis limitações relacionadas à opção _Data/hora automática_.
 
-- **Aplica-se a todas ou a nenhuma:** Quando a opção _Data/hora automática_ está ativada, é aplicada a todas as colunas de data (exceto colunas calculadas) em tabelas de importação que não fazem parte do lado &quot;muitos&quot; de uma relação. Não pode ser seletivamente ativada ou desativada numa base coluna a coluna.
+- **Aplica-se a todas ou a nenhuma:** quando a opção _Data/hora automática_ está ativada, será aplicada a todas as colunas de data nas tabelas de Importação que não estão na parte &quot;muitas&quot; da relação. Não pode ser seletivamente ativada ou desativada numa base coluna a coluna.
 - **Apenas períodos de calendário:** as colunas anual e trimestral estão relacionadas com os períodos de calendário, o que significa que o ano começa a 1 de janeiro e termina a 31 de dezembro. Não é possível personalizar a data de início (ou conclusão) do ano.
 - **Personalização:** não é possível personalizar os valores utilizados para descrever os períodos de tempo. Além disso, também não é possível adicionar colunas adicionais para descrever outros períodos de tempo, por exemplo, semanas.
 - **Filtragem por ano:** os valores das colunas **Trimestral**, **Mensal**e **Diário** não incluem o valor anual. Por exemplo, a coluna **Mensal** contém apenas os nomes dos meses (ou seja, janeiro, fevereiro, etc.). Os valores não são totalmente autodescritivos e, em alguns designs de relatório, podem não comunicar o contexto do filtro anual.
@@ -51,6 +50,7 @@ Se a opção _Data/hora automática_ não for relevante para os seus projetos, r
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
+- [Criar tabelas de data no Power BI Desktop](model-date-tables.md)
 - [Data/Hora Automáticas no Power BI Desktop](../transform-model/desktop-auto-date-time.md)
 - [Definir e utilizar tabelas de datas no Power BI Desktop](../transform-model/desktop-date-tables.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -5,17 +5,16 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6622bff6123ac6985a5275ec72be3a78b13908e6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 94a65a826cce3cdb0821e8127e45a1f983ad7d89
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274650"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227885"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Segurança ao nível da linha (RLS) com o Power BI
 
@@ -101,8 +100,11 @@ Se publicar o relatório do Power BI Desktop numa área de trabalho no serviço 
 
 [!INCLUDE [include-short-name](../includes/rls-faq.md)]
 
-## <a name="next-steps"></a>Próximas etapas
-[Segurança ao nível da linha (RLS) com o Power BI Desktop](../create-reports/desktop-rls.md)  
+## <a name="next-steps"></a>Próximos passos
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
+- [Restringir o acesso aos dados com segurança ao nível da linha (RLS) para o Power BI Desktop](../create-reports/desktop-rls.md)
+- [Orientação de segurança ao nível da linha (RLS) com o Power BI Desktop](../guidance/rls-guidance.md)
+- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)

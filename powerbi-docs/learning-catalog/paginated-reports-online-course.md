@@ -1,6 +1,6 @@
 ---
-title: Power BI Paginated Reports in a Day (Curso Os Relatórios Paginados do Power BI num Dia)
-description: Enquanto autor de relatórios, este curso online tem como objetivo fornecer-lhe os conhecimentos técnicos necessários para criar, publicar e distribuir relatórios paginados do Power BI.
+title: Curso Relatórios Paginados do Power BI num Dia
+description: Enquanto autor de relatórios, este curso baseado em vídeo tem como objetivo proporcionar-lhe os conhecimentos técnicos necessários para criar, publicar e distribuir relatórios paginados do Power BI.
 author: peter-myers
 ms.reviewer: maggies
 featuredvideoid: DN1t5p9aui0
@@ -9,14 +9,13 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3b6c3f79b6695c670b942253ddd2c2b158dc3acc
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
-ms.translationtype: HT
+ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693228"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427481"
 ---
-# <a name="power-bi-paginated-reports-in-a-day-course"></a>Power BI Paginated Reports in a Day (Curso Os Relatórios Paginados do Power BI num Dia)
+# <a name="power-bi-paginated-reports-in-a-day-course"></a>Curso Relatórios Paginados do Power BI num Dia
 
 Enquanto autor de relatórios, o curso de vídeo **Power BI Paginated Reports in a Day** (Os Relatórios Paginados do Power BI num Dia) tem como objetivo fornecer-lhe os conhecimentos técnicos necessários para criar, publicar e distribuir relatórios paginados do Power BI. Inclui quase 4 horas e 20 minutos de conteúdos visualizáveis, disponíveis a pedido, e é gratuito. Existe também um [kit de estudo autónomo](#self-study-kit), que pode transferir e utilizar para concluir oito laboratórios práticos.
 
@@ -93,11 +92,11 @@ Uma vez extraída, terá a pasta **PowerBIPRIAD** e dentro dela encontrará as s
 - **MySolution**: esta pasta armazena os seus ficheiros de solução. As instruções do laboratório irão direcioná-lo quando o utilizar.
 - **Apresentação**: esta pasta contém o ficheiro de apresentação do curso, que está disponível como um documento PDF.
 
-### <a name="getting-started-with-the-kit"></a>Começar com o kit
+### <a name="get-started-with-the-kit"></a>Introdução ao kit
 
 Recomendamos que veja o curso online primeiro. Pode consultar a parte teórica da apresentação ao abrir o ficheiro **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf**. A apresentação inclui oito diapositivos do laboratório, que indicam quando está na altura de pôr a teoria em prática. Também inclui muitas ligações de recursos para ajudá-lo a encontrar conteúdos relacionados.
 
-Quando estiver pronto para iniciar o primeiro laboratório, abra o ficheiro **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. Este documento orienta-o para iniciar sessão no serviço Power BI, carregar um conjunto de dados e, em seguida, instalar o [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md).
+Quando estiver pronto para iniciar o primeiro laboratório, abra o ficheiro **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. Este documento orienta-o para iniciar sessão no serviço Power BI, carregar um conjunto de dados e, em seguida, instalar o [Power BI Report Builder](https://aka.ms/pbireportbuilder).
 
 > [!NOTE]
 > É responsável por ter a sua própria conta do Power BI. Se ainda não tiver uma, veja [Inscrever-se no Power BI como um indivíduo](../fundamentals/service-self-service-signup-for-power-bi.md).

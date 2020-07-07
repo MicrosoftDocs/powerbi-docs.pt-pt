@@ -7,13 +7,12 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/31/2020
-ms.openlocfilehash: 0391f0f2e4340b01c1f1ad7a3bce860487daabc9
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
-ms.translationtype: HT
+ms.date: 06/30/2020
+ms.openlocfilehash: 0339dd4a8fa7b429db01715060bfd146db115e46
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272661"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782727"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registo de alterações do Power BI Report Server
 
@@ -21,9 +20,15 @@ Este registo de alterações destina-se ao Power BI Report Server e lista novos 
 
 Para obter informações detalhadas sobre as novas funcionalidades, veja [Novidades no Power BI Report Server](whats-new.md). 
 
-
 ## <a name="may-2020"></a>Maio de 2020
 - **Power BI Report Server**
+    - *Versão: 1.8.7485.35104 (Compilação 15.0.1103.234), Lançamento: 30 de junho de 2020*
+        - Correções de erros
+            - Foi corrigido um problema nos cenários de escalamento horizontal em que os relatórios não refletiam as edições imediatamente no servidor após o carregamento.
+    - *Versão: 1.8.7468.41510 (Compilação 15.0.1103.232), Lançamento: 15 de junho de 2020*
+        - Correções de erros
+            - Foi corrigido um problema em que os relatórios não refletiam as edições imediatamente no servidor após o carregamento.
+            - Foi corrigido um problema em que a atualização falhava quando era utilizada a correspondência difusa para intercalar as consultas.
     - *Versão: 1.8.7450.37410 (Compilação 15.0.1103.227), Lançamento: 27 de maio de 2020*
          - Funcionalidades
             -  Suporte adicional para o catálogo personalizável do tamanho do conjunto de ligações. Para obter mais detalhes, consulte a [definição MaxCatalogConnectionPoolSizePerProcess](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service).

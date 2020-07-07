@@ -5,17 +5,16 @@ author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/19/2020
 ms.author: mihart
-ms.custom: licensing support
+ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: baa556b1db10827b5979331ddcc22fa1e111a661
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
-ms.translationtype: HT
+ms.openlocfilehash: ed50045aca966face5d758c9036508bdfef81d5e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84160163"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236543"
 ---
 # <a name="apps-in-power-bi"></a>Aplicações no Power BI
 
@@ -43,15 +42,17 @@ Com as aplicações, sempre que o autor da aplicação lançar atualizações, o
 
 <!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>Obter uma nova aplicação
-Pode obter aplicações de várias formas diferentes. Algumas dessas formas estão listadas abaixo.  No entanto, para receber instruções detalhadas de forma a obter e explorar uma aplicação, veja [Abrir e interagir com uma aplicação](end-user-app-view.md).
+A melhor forma de obter uma nova aplicação é no [marketplace de aplicações do Power BI](https://app.powerbi.com/groups/me/getapps/apps).
 
-- O estruturador de aplicações pode instalar a aplicação automaticamente na sua conta do Power BI e, na próxima vez que abrir o serviço Power BI, verá a nova aplicação na sua lista de conteúdos **Aplicações**. 
-- O estruturador de aplicações pode enviar-lhe uma ligação direta para uma aplicação. Ao selecionar a ligação, abre a aplicação no serviço Power BI.
-- Quanto ao Power BI no seu dispositivo móvel, só pode instalar uma aplicação a partir de uma ligação direta. Não pode fazê-lo a partir do AppSource. Se o autor instalar a aplicação automaticamente, irá vê-la na sua lista de aplicações.
-- Pode procurar aplicações no [AppSource](https://appsource.microsoft.com). O AppSource contém aplicações publicadas por designers de relatórios dentro e fora da sua empresa. Por exemplo, pode encontrar uma aplicação no AppSource para um serviço que já utiliza, como o Google Analytics, o GitHub ou o Microsoft Dynamics. Também irá encontrar exemplos de aplicações que pode utilizar para saber mais sobre o Power BI.  
+![Marketplace de aplicações do Power BI](./media/end-user-apps/power-bi-app-marketplace.png)
 
+Existem outras formas de obter aplicações. Algumas destas formas estão listadas abaixo. No entanto, para receber instruções detalhadas de forma a obter e explorar uma aplicação, veja [Abrir e interagir com uma aplicação](end-user-app-view.md).
 
-## <a name="next-step"></a>Passo seguinte
+* O estruturador de aplicações pode instalar a aplicação automaticamente na sua conta do Power BI e, na próxima vez que abrir o serviço Power BI, verá a nova aplicação na sua lista de conteúdos **Aplicações**. 
+* O estruturador de aplicações pode enviar-lhe uma ligação direta para uma aplicação. Ao selecionar a ligação, abre a aplicação no serviço Power BI.
+* Quanto ao Power BI no seu dispositivo móvel, só pode instalar uma aplicação a partir de uma ligação direta. Não pode fazê-lo a partir do AppSource. Se o autor instalar a aplicação automaticamente, irá vê-la na sua lista de aplicações. 
+
+## <a name="next-steps"></a>Próximos passos
 * [Abrir e interagir com uma aplicação](end-user-app-view.md)
 * [Outras formas de partilhar conteúdos](end-user-shared-with-me.md)
 

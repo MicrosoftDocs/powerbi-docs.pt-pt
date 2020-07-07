@@ -6,18 +6,21 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
-ms.date: 02/23/2020
-ms.openlocfilehash: bd7758be32d18fd3be06a7847edc7795c2b5f9e1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.topic: how-to
+ms.date: 06/23/2020
+ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114779"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85355013"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Configurar credenciais para o Power BI através de programação
 
-Siga estes passos para configurar credenciais para o Power BI através de programação.
+Siga os passos neste artigo para configurar as credenciais do Power BI através de programação.
+
+>[!NOTE]
+>* O utilizador chamador tem de ser um proprietário do conjunto de dados ou um administrador do gateway. Também pode utilizar um [principal de serviço](../embedded/embed-service-principal-certificate.md). Por exemplo, o principal de serviço pode ser o proprietário do conjunto de dados.
+>* As origens de dados da cloud e as credenciais correspondentes são geridas ao nível do utilizador.
 
 ## <a name="update-credentials-flow-for-data-sources"></a>Atualizar o fluxo de credenciais das origens de dados
 
@@ -218,7 +221,7 @@ var credentials = "{\"credentialData\":\"\"}";
 
 ---
 
-## <a name="troubleshooting"></a>Troubleshooting (Resolução de problemas)
+## <a name="troubleshooting"></a>Resolução de problemas
 
 ### <a name="no-gateway-and-data-source-id-found-when-calling-get-data-sources"></a>Não é encontrado nenhum ID da origem de dados e gateway ao chamar a API Get Datasources
 

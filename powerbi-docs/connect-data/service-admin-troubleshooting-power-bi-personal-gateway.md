@@ -5,16 +5,15 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: da21acf2c37136b70bdb7ab70060422655ac879c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 108a50017a55a2ac87bb8db2adf4f92bd5dca58f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323879"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231075"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Resolver problemas do gateway do Power BI (modo pessoal)
 
@@ -47,7 +46,7 @@ Não consegue instalar o **gateway (modo pessoal) como um serviço, embora seja 
 ## <a name="schedule-refresh"></a>Agendar atualização
 **Erro: As credenciais armazenadas na cloud estão ausentes.**
 
-Pode ser apresentada esta mensagem de erro nas definições do \<conjunto de dados\> se tiver uma atualização agendada e tiver desinstalado e reinstalado o gateway (modo pessoal). Ao desinstalar um gateway (modo pessoal), as credenciais de origem de dados de um conjunto de dados que foi configurado para atualização são removidas do serviço Power BI.
+Poderá ser apresentada esta mensagem de erro nas definições do \<dataset\> se tiver uma atualização agendada e tiver desinstalado e reinstalado o gateway (modo pessoal). Ao desinstalar um gateway (modo pessoal), as credenciais de origem de dados de um conjunto de dados que foi configurado para atualização são removidas do serviço Power BI.
 
 **Solução:** No Power BI, aceda às configurações de atualização de um conjunto de dados. Em **Gerir Origens de Dados**, para qualquer origem de dados com um erro, selecione **Editar credenciais**. Em seguida, inicie sessão na origem de dados novamente.
 

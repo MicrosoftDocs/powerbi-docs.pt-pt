@@ -5,16 +5,15 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d1aca2499ecf2be3e38fe36bd00f5ff5b2c17cc7
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
-ms.translationtype: HT
+ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793771"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238613"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Utilizar a Tabela de elementos visuais e a Tabela de ponto de dados no Power BI Desktop
 No **Power BI Desktop**, pode explorar os detalhes de uma visualização e ver representações textuais dos dados subjacentes ou registos dos dados individuais do elemento visual selecionado. Estas funcionalidades são, por vezes, referidas como *clicável*, *exploração* ou *exploração de detalhes*.
@@ -82,7 +81,7 @@ Para voltar ao relatório, selecione **< Voltar ao Relatório** no canto superio
 > [!NOTE]
 >A **Tabela de ponto de dados** tem as seguintes limitações:
 > - Não pode alterar os dados na vista **Tabela de ponto de dados** e guardá-los novamente no relatório.
-> - Não pode utilizar a**Tabela de ponto de dados** quando o elemento visual utiliza uma medida calculada.
+> - Não pode utilizar a **Tabela de ponto de dados** quando o elemento visual utiliza uma medida calculada num grupo de medidas (multidimensional).
 > - Não pode utilizar a **Tabela de ponto de dados** quando estiver ligado a um modelo multidimensional (MD).
 
 ## <a name="next-steps"></a>Próximos passos

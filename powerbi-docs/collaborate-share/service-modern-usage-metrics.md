@@ -10,12 +10,11 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 894aa17e0a6a2be52446be0a67452d96d45c9a5b
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
-ms.translationtype: HT
+ms.openlocfilehash: ee5536f2c4026ceb019c5f89b6045afd44b35529
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84316069"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299624"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Monitorizar as métricas de utilização na nova experiência de área de trabalho
 
@@ -257,6 +256,7 @@ Para além das diferenças indicadas acima entre os relatórios de métricas de 
 - A máscara de utilizador não está a funcionar conforme esperado ao utilizar grupos aninhados. Se a sua organização tiver desativado os Dados por utilizador em métricas de utilização para criadores de conteúdo nas definições do inquilino do portal de administração do Power BI, apenas os membros no nível superior serão mascarados. Os membros dos subgrupos ainda são visíveis.
 - A inicialização do conjunto de dados Relatório de Métricas de Utilização pode demorar alguns minutos, o que resulta na apresentação de um relatório de métricas de utilização em branco dado que a interface de utilizador do Power BI não espera até que a atualização termine. Verifique o histórico de atualizações nas definições do conjunto de dados Relatório de Métricas de Utilização para confirmar se a operação de atualização ocorreu com êxito.
 - A inicialização do conjunto de dados Relatório de Métricas de Utilização poderá falhar se o tempo limite for excedido durante a atualização. Veja a secção Resolução de problemas abaixo para resolver este problema.
+- A partilha está desativada no relatório das métricas de utilização. Para atribuir às pessoas acesso de leitura ao relatório, primeiro é preciso dar-lhes acesso à área de trabalho.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

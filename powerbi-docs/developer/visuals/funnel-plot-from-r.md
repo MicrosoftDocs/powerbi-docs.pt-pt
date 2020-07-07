@@ -8,12 +8,11 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 42304e60740c215b1300e66f074807aea10ec6f9
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
-ms.translationtype: HT
+ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84317058"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354484"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Tutorial: Build a funnel plot from R script to R visual (Criar um gráfico de funil ao transformar um script do R num visual do R)
 Este artigo descreve como criar um gráfico de funil com o script do R no elemento visual do R, passo a passo.
@@ -89,13 +88,13 @@ O elemento visual ainda não é simples de utilizar porque o utilizador tem de s
 
    Terá de atualizar as secções `dataRoles` e `dataViewMappings`, que definem nomes, tipos, descrições e máximo de colunas para cada campo de entrada.
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
+   ![antes e depois](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
    
    Para obter mais informações, veja [capacidades](./capabilities.md).
 
 1. Edite o ficheiro *script.r* para suportar `Population`, `Number` e `Tooltips` como dataframes de entrada em vez de `dataset` ou transfira o ficheiro [script.r](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/script.r).
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
+   ![script](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
 
    > [!TIP]
    > Para seguir as alterações no script do R, procure os blocos de comentários: 
@@ -125,7 +124,7 @@ O elemento visual ainda não é simples de utilizar porque o utilizador tem de s
 
    transfira o ficheiro [capabilities.json](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/capabilities.json), veja [propriedades de objetos](./objects-properties.md) para obter mais informações
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
+   ![capacidades](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
 
 1. Edite o ficheiro *src/settings.ts* para espelhar o ficheiro [this settings.ts](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/src/settings.ts). Este ficheiro foi escrito em TypeScript.  
 
@@ -133,7 +132,7 @@ O elemento visual ainda não é simples de utilizar porque o utilizador tem de s
    - Declarar a nova interface para reter o valor de propriedade
    - Definir uma propriedade de membro e os valores predefinidos
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
+   ![definições](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
 
 1. Edite o ficheiro *script.r* para espelhar o ficheiro [this script.r](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script.r). Isto acrescenta suporte para os parâmetros na IU ao adicionar chamadas `if.exists` por parâmetro de utilizador.
 
@@ -150,7 +149,7 @@ O elemento visual ainda não é simples de utilizar porque o utilizador tem de s
    > #RVIZ_IN_PBI_GUIDE:END:Removed to enable user parameters
    > ```
 
-   ![](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
+   ![script antes e depois](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
 
    Pode decidir não expor os parâmetros à IU, como fizemos.  
 

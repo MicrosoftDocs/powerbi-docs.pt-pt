@@ -3,37 +3,33 @@ title: Partilhar dashboards e relatórios do Power BI com colegas e outras pess
 description: Como partilhar dashboards e relatórios do Power BI com colegas dentro e fora da organização e o que precisa de saber sobre a partilha.
 author: maggiesMSFT
 ms.reviewer: lukaszp
-featuredvideoid: 0tUwn8DHo3s
+ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 11/26/2019
+ms.topic: how-to
+ms.date: 06/26/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cf971de1a60636def852080a523c227f08b4f888
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
-ms.translationtype: HT
+ms.openlocfilehash: d09ebee0cc22c7037db437e1c7a46a3d19ff36fd
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272937"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485598"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Partilhar dashboards e relatórios do Power BI com colegas e outras pessoas
-A *Partilha* é uma boa forma de dar a algumas pessoas acesso aos seus dashboards e relatórios. O Power BI também disponibiliza [várias outras formas de colaborar e distribuir dashboards e relatórios](service-how-to-collaborate-distribute-dashboards-reports.md).
-
-![Ícone de partilha numa lista de dashboards](media/service-share-dashboards/power-bi-share-new-look.png)
-
-Para partilhar, seja conteúdo dentro ou fora da organização, precisa de uma [licença do Power BI Pro](../fundamentals/service-features-license-type.md). Os destinatários também precisam de licenças do Power BI Pro, a menos que os conteúdos estejam numa [capacidade Premium](../admin/service-premium-what-is.md). 
-
-Pode partilhar dashboards e relatórios a partir de maioria dos locais no serviço Power BI: as áreas de trabalho Favoritos, Recentes, A Minha Área de Trabalho e Partilhado Comigo, se o proprietário permitir. Também pode partilhar a partir de outras áreas de trabalho se tiver a [função de Administrador, Membro ou Contribuidor](service-new-workspaces.md#roles-in-the-new-workspaces) nas mesmas. 
+*Partilhar* é a forma mais fácil de dar às pessoas acesso aos dashboards e aos relatórios no serviço Power BI. Pode partilhar com pessoas dentro e fora da sua organização.
 
 Ao partilhar dashboards ou relatórios, as pessoas com quem os partilhar poderão ver e interagir com os mesmos, mas não os poderão editar. Veem os mesmos dados que o utilizador no dashboard e relatórios e obtêm acesso a todo o conjunto de dados subjacente, a menos que seja aplicada a segurança ao nível da linha (RLS) ao conjunto de dados subjacente.  Os colegas com quem partilhar também os podem partilhar com os colegas deles, se assim o permitir. As pessoas fora da organização podem ver e interagir com os dashboards ou relatórios, mas não os podem partilhar. 
 
+![Ícone de partilha numa lista de dashboards](media/service-share-dashboards/power-bi-share-new-look.png)
+
+Pode partilhar dashboards e relatórios a partir de vários locais no serviço Power BI: Favoritos, Recentes, A Minha Área de Trabalho. Também pode partilhar a partir de outras áreas de trabalho se tiver a [função de Administrador, Membro ou Contribuidor](service-new-workspaces.md#roles-in-the-new-workspaces) nas mesmas. Além disso, pode partilhar dashboards e relatórios em Partilhado comigo, se o proprietário o permitir. 
+
+O serviço Power BI também disponibiliza outras formas de colaborar e distribuir dashboards e relatórios. Leia [Formas de colaborar e partilhar no Power BI](service-how-to-collaborate-distribute-dashboards-reports.md) para ver qual a mais adequada para as suas circunstâncias. 
+
+Para partilhar, seja conteúdo dentro ou fora da organização, precisa de uma [licença do Power BI Pro](../fundamentals/service-features-license-type.md). Os destinatários também precisam de licenças do Power BI Pro, a menos que os conteúdos estejam numa [capacidade Premium](../admin/service-premium-what-is.md). 
+
 Não pode *partilhar* dashboards diretamente do Power BI Desktop. Irá [publicar relatórios do Power BI Desktop](../create-reports/desktop-upload-desktop-files.md) para o serviço Power BI. No entanto, pode [partilhar um dashboard a partir das aplicações móveis do Power BI](../consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md).  
-
-## <a name="video-share-a-dashboard"></a>Vídeo: Partilhar um dashboard
-Veja a Margarida a partilhar o dashboard com colegas dentro e fora da empresa. Em seguida, siga as instruções passo-a-passo abaixo do vídeo para experimentar.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0tUwn8DHo3s?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="share-a-dashboard-or-report"></a>Partilhar um dashboard ou relatório
 
@@ -98,6 +94,14 @@ Se enviar uma ligação de uma aplicação móvel do Power BI para pessoas exter
 
 O seu administrador do Power BI pode permitir que os utilizadores externos convidados editem e façam a gestão de conteúdos na sua organização. Nesse caso, os utilizadores externos não terão uma experiência limitada ao consumo. Desse modo, poderão editar e gerir conteúdos na sua organização. Saiba mais sobre como [distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure AD B2B](../admin/service-admin-azure-ad-b2b.md).
 
+## <a name="share-with-more-than-100-separate-users"></a>Partilhar com mais de 100 utilizadores separados
+
+No máximo, pode partilhar com até 100 utilizadores ou grupos numa única ação de partilha. No entanto, pode dar acesso a um item a mais de 500 utilizadores. Eis algumas sugestões:
+
+- Partilhe múltiplas vezes ao especificar os utilizadores individualmente.
+- Partilhe com um grupo que contenha todos os utilizadores. 
+- Crie o relatório ou dashboard numa área de trabalho e, em seguida, crie uma aplicação a partir da área de trabalho. Pode partilhar a aplicação com muito mais pessoas. Saiba mais sobre como [publicar aplicações no Power BI](service-create-distribute-apps.md).
+
 ## <a name="stop-or-change-sharing"></a>Parar ou alterar a partilha
 Apenas o proprietário do dashboard ou do relatório pode ativar ou desativar a possibilidade de voltar a partilhar.
 
@@ -132,50 +136,10 @@ Elementos a ter em conta sobre a partilha de dashboards e relatórios:
 * Se os seus colegas já tiverem acesso a um dashboard ou a um relatório específico, pode enviar uma ligação direta ao copiar o URL quando estiver no dashboard ou relatório. Por exemplo: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`.
 * De igual modo, se os seus colegas já tiverem acesso a um dashboard específico, pode [enviar uma ligação direta para o relatório subjacente](service-share-reports.md). 
 
-### <a name="share-with-more-than-100-separate-users"></a>Partilhar com mais de 100 utilizadores separados
-
-No máximo, pode partilhar com até 100 utilizadores ou grupos numa única ação de partilha. No entanto, pode dar acesso a um item a mais de 500 utilizadores. Eis algumas sugestões:
-
-- Partilhe múltiplas vezes ao especificar os utilizadores individualmente.
-- Partilhe com um grupo que contenha todos os utilizadores. 
-- Crie o relatório ou dashboard numa área de trabalho e, em seguida, crie uma aplicação a partir da área de trabalho. Pode partilhar a aplicação com muito mais pessoas. Saiba mais sobre como [publicar aplicações no Power BI](service-create-distribute-apps.md).
-
-## <a name="troubleshoot-sharing"></a>Resolução de problemas da partilha
-
-### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>Os destinatários do meu dashboard vêm um ícone de cadeado num mosaico ou a mensagem "Permissão necessária"
-
-As pessoas com quem partilha vêm um ícone de cadeado num dashboard ou a mensagem "Permissão necessária" quanto tentam ver um relatório.
-
-![Mosaico bloqueado do Power BI](media/service-share-dashboards/power-bi-locked_tile_small.png)
-
-Se for o caso, terá de lhes conceder permissão para o conjunto de dados subjacente.
-
-1. Aceda ao separador **Conjuntos de dados** na sua lista de conteúdos.
-
-1. Selecione as reticências ( **...** ) junto ao conjunto de dados e, em seguida, selecione **Gerir permissões**.
-
-    ![Gerir permissões](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
-
-1. Selecione **Adicionar utilizador**.
-
-    ![Selecione Adicionar utilizador](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
-
-1. Introduza os endereços de e-mail completos de pessoas, grupos de distribuição ou grupos de segurança. Não pode partilhar com listas de distribuição dinâmicas.
-
-    ![Adicionar endereços de e-mail](media/service-share-dashboards/power-bi-add-user-dataset.png)
-
-
-1. Selecione **Adicionar**.
-
-### <a name="i-cant-share-a-dashboard-or-report"></a>Não consigo partilhar um dashboard nem um relatório
-
-Para partilhar um dashboard ou relatório, precisa de permissão para voltar a partilhar os conteúdos subjacentes, ou seja, relatórios e conjuntos de dados relacionados. Se lhe for apresentada uma mensagem a informar que não pode partilhar, peça ao autor do relatório que lhe conceda permissão para voltar a partilhar esses relatórios e conjuntos de dados.
-
-![Mensagem "Não é possível partilhar"](media/service-share-dashboards/power-bi-sharing-unable-to-share.png)
-
-
 ## <a name="next-steps"></a>Próximos passos
 
-* [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md)
-* [Partilhar um relatório do Power BI filtrado](service-share-reports.md)
-* Perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
+- [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md)
+- [Resolver problemas de partilha de dashboards e relatórios](service-troubleshoot-sharing.md)
+- [Pedir ou conceder acesso a dashboards ou relatórios partilhados](service-request-access.md)
+- [Partilhar um relatório do Power BI filtrado](service-share-reports.md)
+- Perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

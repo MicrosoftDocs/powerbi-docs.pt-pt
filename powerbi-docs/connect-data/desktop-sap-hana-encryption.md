@@ -6,16 +6,15 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 364736ae8f4cf800c9c63282feb07f8e081aeb42
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 83e1725b7ce7d38a00d0564702977c3a8eef7c1d
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83289218"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85222870"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>Enable encryption for SAP HANA (Ativar encriptação para o SAP HANA)
 
@@ -38,9 +37,9 @@ Certifique-se de que o seu servidor HANA está configurado para utilizar o OpenS
 
 Crie um pedido de assinatura do certificado X509 para o servidor HANA.
 
-1. Através do SSH, ligue-se como administrador de \<sid\> ao computador Linux que está executar o servidor HANA.
+1. Através do SSH, ligue-se como \<sid\>administrador ao computador Linux que está executar o servidor HANA.
 
-1. Aceda ao diretório raiz _/__usr/sap/\<sid\>/home_.
+1. Aceda ao diretório Raiz _/__usr/sap/\<sid\>/home_.
 
 1. Se ainda não existir, crie um diretório oculto com o nome _.__ssl_.
 
@@ -104,7 +103,7 @@ Teste a ligação no Power BI Desktop ou no serviço Power BI.
 
         ![Certificado de validação do servidor – serviço](media/desktop-sap-hana-encryption/validate-server-certificate-service.png)
 
-    - serviço Power BI
+    - Serviço Power BI
 
         ![Certificado de validação do servidor – desktop](media/desktop-sap-hana-encryption/validate-server-certificate-desktop.png)
 

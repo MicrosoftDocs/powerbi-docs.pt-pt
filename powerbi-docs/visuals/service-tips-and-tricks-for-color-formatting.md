@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/29/2020
+ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c2800ab9d57732448db9e4fe647a0601a20a816c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276611"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354622"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Dicas e truques para formatação com cores no Power BI
 
@@ -62,11 +61,11 @@ Agora, imagine que quer destacar o segmento **Conveniência** para mostrar o bom
 
 Expanda o cartão **Cores dos dados** e ative o controlo de deslize para **Mostrar tudo**. Isso mostra as cores para cada elemento de dados na visualização. Agora, pode modificar qualquer um dos pontos de dados.
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
+![Painel Formatar com Mostrar tudo definido como Ativado](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
 
 Defina **Conveniência** para cor de laranja. 
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
+![gráfico de colunas com uma coluna laranja](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
 
 Uma vez selecionado, o ponto de dados **Conveniência** fica com uma tonalidade cor de laranja e vai certamente destacar-se.
 
@@ -96,7 +95,7 @@ No painel **Cores predefinidas**, utilize os menus pendentes para identificar os
 
 Também pode formatar a cor do elemento visual através de um campo que não faça parte do elemento visual. Na imagem seguinte, é utilizado o campo **% de Quota de Mercado Desde o Ano Passado Até à Data**. 
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
+![gráfico de colunas com múltiplos tons de azul](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
 
 
 Como pode ver, embora tenhamos vendido mais unidades nos pontos de dados **Productivity** e **Extreme** (as colunas são maiores), **Moderation** possui um valor de **%Market Share SPLY YTD** maior (a coluna tem mais saturação de cor).
@@ -106,7 +105,7 @@ Também pode alterar a forma como os valores mapeiam essas cores. Na imagem a se
 
 Nesta primeira imagem, veja como as barras no gráfico refletem o gradiente mostrado na barra; o valor mais alto é verde, o mais baixo é laranja e cada barra é colorida com um tom do espectro entre verde e laranja.
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
+![gráfico de colunas a mostrar um gradiente de cores de verde a laranja](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
 
 Agora, vejamos o que acontece se fornecermos valores numéricos nas caixas de valor **Mínimo** e **Máximo**. Selecione **Personalizado** nas caixas de lista pendente para **Mínimo** e **Máximo** e defina **Mínimo** como 3500 e **Máximo** como 6000.
 

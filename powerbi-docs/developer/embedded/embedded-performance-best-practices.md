@@ -8,19 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: ba0a85958fad500bd27f4697a7f46961ca430f49
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279394"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299578"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Melhores práticas para o desempenho do Power BI Embedded
 
 Este artigo fornece recomendações para uma composição mais rápida de relatórios, dashboards e mosaicos na sua aplicação.
 
 > [!Note]
-> Lembre-se de que o tempo de carregamento depende principalmente dos elementos relevantes para o relatório e os próprios dados, incluindo elementos visuais, o tamanho dos dados e a complexidade das consultas e medidas calculadas. Para obter mais informações, veja o [Guia de otimização do Power BI](../../guidance/power-bi-optimization.md).
+> Lembre-se de que o tempo de carregamento depende principalmente dos elementos relevantes para o relatório e os próprios dados, incluindo elementos visuais, o tamanho dos dados e a complexidade das consultas e das medidas. Para obter mais informações, veja o [Guia de otimização do Power BI](../../guidance/power-bi-optimization.md).
 
 ## <a name="update-tools-and-sdk-packages"></a>Ferramentas de atualização e pacotes SDK
 
@@ -36,7 +35,7 @@ O método `powerbi.embed(element, config)` recebe um elemento e um parâmetro co
 
 ### <a name="embed-url"></a>URL de Incorporação
 
-Evite gerar o seu próprio URL de incorporação. Em vez disso, certifique-se de que obtém o URL de Incorporação ao chamar a API [Obter relatórios](/rest/api/power-bi/reports/getreportsingroup), [Obter dashboards](/rest/api/power-bi/dashboards/getdashboardsingroup) ou [Obter mosaicos](/rest/api/power-bi/dashboards/gettilesingroup). Adicionámos um novo parâmetro ao URL, chamado **_config_** , que serve para melhorar o desempenho.
+Evite gerar o seu próprio URL de incorporação. Em vez disso, certifique-se de que obtém o URL de Incorporação ao chamar a API [Obter relatórios](/rest/api/power-bi/reports/getreportsingroup), [Obter dashboards](/rest/api/power-bi/dashboards/getdashboardsingroup) ou [Obter mosaicos](/rest/api/power-bi/dashboards/gettilesingroup). Adicionámos um novo parâmetro ao URL, chamado **_config_**, que serve para melhorar o desempenho.
 
 ### <a name="permissions"></a>Permissões
 
@@ -53,7 +52,7 @@ Se incorporar relatórios com os mesmos filtros, marcadores e segmentações de 
 Quando incorporar vários relatórios no mesmo iframe, não gere um novo iframe para cada relatório. Em vez disso, utilize `powerbi.embed(element, config)` com uma configuração diferente para incorporar o novo relatório.
 
 > [!NOTE]
-> Alternar entre relatórios para um cenário de "A aplicação é proprietária dos dados" pode não ser muito eficaz devido à necessidade de gerar um novo token de incorporação.
+> Alternar entre relatórios ao incorporar para os clientes (também conhecido como cenário “os dados pertencem à aplicação”) requer a utilização de um token de incorporação com permissões para todos os relatórios e conjuntos de dados. Para obter mais informações, veja [Gerar a API de tokens](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken).
 
 ## <a name="query-caching"></a>Colocação de consultas em cache
 
@@ -63,7 +62,7 @@ As organizações com a capacidade Power BI Premium ou a capacidade Power BI Emb
 
 ## <a name="preload"></a>Preload
 
-Utilize `powerbi.preload()` para melhorar o desempenho para o utilizador final. `powerbi.preload()` transfere ficheiros CSS, JavaScript e outros artefactos, que são utilizados posteriormente para incorporar um relatório.
+Utilize `powerbi.preload()` para melhorar o desempenho para o utilizador final. O método `powerbi.preload()` transfere ficheiros CSS, JavaScript e outros artefactos, que são utilizados posteriormente para incorporar um relatório.
 
 Chame `powerbi.preload()` se não pretender incorporar o relatório de imediato. Por exemplo, se o conteúdo incorporado do Power BI não aparecer na home page, utilize `powerbi.preload()` para transferir e colocar em cache os artefactos utilizados para incorporar o conteúdo.
 

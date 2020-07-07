@@ -7,15 +7,14 @@ ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: dfb307a53ac4fd75188965618a08bb4bdee5689b
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
-ms.translationtype: HT
+ms.openlocfilehash: e82dde5022bf0ad28d37e0ed9a8ac9553fbbd75d
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794180"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485904"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Subscrever um relatório ou dashboard no serviço Power BI 
 
@@ -93,7 +92,7 @@ Uma subscrição terminará se a licença Pro expirar, o dashboard ou o relatór
 * Para as subscrições de dashboard em específico, certos tipos de mosaicos não são ainda suportados.  Estes incluem: transmissão em fluxo de mosaicos, mosaicos de vídeos e mosaicos de conteúdo Web personalizados.     
 * As subscrições podem falhar em dashboards ou relatórios com imagens extremamente grandes devido aos limites de tamanho por e-mail.    
 * O Power BI interrompe automaticamente a atualização nos conjuntos de dados associados a dashboards e relatórios que não tenham sido acedidos durante mais de dois meses.  No entanto, se adicionar uma subscrição a um dashboard ou relatório, este não será interrompido, mesmo se não for acedido.
-* Não se esqueça de que, tal como outros produtos BI, o período que definiu para a subscrição começa quando é iniciado o processamento da mesma.  Quando o processamento do relatório estiver concluído, a subscrição é colocada em fila e é enviada para os destinatários de e-mail.  Embora nos esforcemos por processar e disponibilizar todas as subscrições o mais rapidamente possível, por vezes existem picos de procura em que pode ocorrer um atraso mais longo devido ao número de subscrições que podem ser enviadas de uma só vez.  Para a maioria dos clientes, não deve ocorrer um atraso superior a 15 minutos para processar e enviar os relatórios, embora por vezes possa demorar até 30 minutos para determinados inquilinos com uma utilização significativa.  Não esperamos que os eventuais atrasos na entrega ultrapassem os 60 minutos, a partir do momento em que a subscrição é agendada.  Se um cliente verificar um tal atraso, deverá primeiro garantir que o endereço no-reply-powerbi@microsoft.com está na lista de permissões do fornecedor de e-mail.  Se assim for, o cliente deverá contactar o suporte do Power BI para obter assistência.
+* Não se esqueça de que, tal como outros produtos BI, o período que definiu para a subscrição começa quando é iniciado o processamento da mesma.  Quando o processamento do relatório estiver concluído, a subscrição é colocada em fila e é enviada para os destinatários de e-mail.  Embora nos esforcemos por processar e disponibilizar todas as subscrições o mais rapidamente possível, por vezes existem picos de procura em que pode ocorrer um atraso mais longo devido ao número de subscrições que podem ser enviadas de uma só vez.  Para a maioria dos clientes, não deve ocorrer um atraso superior a 15 minutos para processar e enviar os relatórios, embora por vezes possa demorar até 30 minutos para determinados inquilinos com uma utilização significativa.  Não esperamos que os eventuais atrasos na entrega ultrapassem os 60 minutos, a partir do momento em que a subscrição é agendada.  Se um cliente sofrer um atraso dessa duração, deverá primeiro garantir que o endereço no-reply-powerbi@microsoft.com está na lista de remetentes seguros e não está bloqueado pelo fornecedor de e-mail.  Se o e-mail não estiver bloqueado, o cliente deverá contactar o suporte do Power BI para obter assistência.
 
 ## <a name="next-steps"></a>Próximos passos
 

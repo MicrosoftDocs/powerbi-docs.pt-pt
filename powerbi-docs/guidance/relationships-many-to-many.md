@@ -8,12 +8,11 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 8718c67c592bf96d50efed475c0d27b4ec80ca04
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 971c2351fe5032ba91fa6c0f964bd844ef479b05
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278336"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532425"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Guia de relações muitos-para-muitos
 
@@ -61,7 +60,7 @@ Os detalhes da linha para as quatro tabelas estão descritos na seguinte lista c
 - A tabela **AccountCustomer** tem três linhas:
   - **AccountID** 1 está associada a **CustomerID** 91
   - **AccountID** 1 está associada a **CustomerID** 92
-  - **AccountID** 3 está associada a **CustomerID** 92
+  - **AccountID** 2 está associado ao **CustomerID** 92
 - A tabela **Transaction** tem três linhas:
   - **Date** 1 de janeiro de 2019, **AccountID** 1, **Amount** 100
   - **Date** 2 de fevereiro de 2019, **AccountID** 2, **Amount** 200

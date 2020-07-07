@@ -5,27 +5,28 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/24/2020
 ms.author: mihart
+ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 605b3fbc49d9a9dbf60b6963a89487ca15284b29
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279440"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393847"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de elementos visuais no Power BI
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-Encontrará elementos visuais em relatórios, dashboards e Perguntas e Respostas. Alguns destes tipos de elementos visuais estão incorporados no Power BI e alguns são *elementos visuais do Power BI*. Os elementos visuais personalizados são criados fora do Power BI e permitem que os *designers* de relatórios os adicionem a dashboards e relatórios do Power BI. 
+Os elementos visuais (também conhecidos como *gráficos* e *visualizações*) são representações de imagens dos dados. Alguns exemplos comuns são gráficos de colunas, mapas, gráficos de dispersão e medidores radiais. Encontrará elementos visuais em relatórios, dashboards e Perguntas e Respostas.
 
-Este artigo é uma descrição geral dos elementos visuais que estão incorporados no serviço Power BI.  Estes são os elementos visuais que encontrará com mais frequência. Para obter informações detalhadas sobre um destes elementos visuais, veja [Documentação sobre tipos de elementos visuais para *designers* de relatórios do Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
+Os elementos visuais descritos nesta página são os que estão empacotados no Power BI. Estes são os tipos de elementos visuais que encontrará com mais frequência. Esta página dá-lhe uma descrição geral rápida destes elementos visuais pré-empacotados. Para obter informações detalhadas sobre algum destes elementos visuais, veja [Documentação sobre os tipos de elementos visuais para *designers* de relatórios do Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
-> [!NOTE]
-> Para saber mais sobre elementos visuais do Power BI, procure-os na secção **Power BI visuals** (Elementos visuais do Power BI) do [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Para cada elemento visual, encontrará uma descrição, informações do criador e capturas de ecrã ou um vídeo. 
+Os elementos visuais que não são incluídos automaticamente no Power BI são referidos como *elementos visuais personalizados*. Os elementos visuais personalizados podem ser importados para o Power BI a partir de sites externos, como o Microsoft AppSource, ou de origens internas, como a sua loja organizacional. A importação de elementos visuais personalizados requer permissões de edição do relatório. Para saber mais sobre estes elementos visuais adicionais, visite [Elementos visuais no Power BI](../developer/visuals/power-bi-custom-visuals.md).
+
+
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Lista de elementos visuais disponíveis no Power BI
 Todos estes elementos visuais podem ser encontrados em dashboards e relatórios do Power BI, e podem ser [especificados em Perguntas e Respostas](end-user-q-and-a.md). Para saber como interagir com elementos visuais, veja [Interagir com elementos visuais em relatórios, dashboards e aplicações](end-user-visualizations.md).
@@ -64,6 +65,12 @@ Os gráficos de combinação são uma ótima opção:
 - para ilustrar a correlação entre duas medidas num só elemento visual
 - para verificar se uma medida está em conformidade com o destino definido pela outra medida
 - para conservar o espaço da tela
+
+
+### <a name="decomposition-tree"></a>Árvore de decomposição
+![árvore de decomposição](media/end-user-visual-type/power-bi-decomposition.png)
+
+O elemento visual da árvore de decomposição permite-lhe visualizar os dados em várias dimensões. Agrega os dados automaticamente e permite uma desagregação nas dimensões pretendidas, em qualquer ordem. Também é uma visualização da inteligência artificial (IA), para que possa solicitar-lhe que encontre a próxima dimensão a desagregar com base em determinados critérios. Terá assim uma ferramenta valiosa para a exploração ad hoc e a realização de uma análise da causa principal.
 
 ### <a name="doughnut-charts"></a>Gráficos em anel
 ![gráfico em anel](media/end-user-visual-type/donut-small.png)
@@ -210,7 +217,7 @@ As tabelas são uma excelente opção:
 - para apresentar dados num formato tabular
 - para apresentar dados numéricos por categorias
 
-### <a name="treemaps"></a>Treemaps
+### <a name="tree-maps"></a>Treemaps
 ![gráfico treemap](media/end-user-visual-type/pbi-nancy-viz-tree.png)
 
 Os treemaps são gráficos de retângulos coloridos, em que o tamanho representa um valor.  Podem ser hierárquicos, com retângulos aninhados nos retângulos principais. O espaço dentro de cada retângulo é alocado com base no valor que está a ser medido. Além disso, os retângulos são organizados por tamanho da parte superior esquerda (maior) para a parte inferior direita (menor).
@@ -241,7 +248,7 @@ Os gráficos de cascata são uma ótima opção:
 Ao escrever consultas em linguagem natural com as Perguntas e Respostas do Power BI, pode especificar o tipo de elemento visual na consulta.  Por exemplo:
 
 
-"***vendas por estado como um mapa de árvore***"
+“***vendas por estado como um treemap***”
 
 ![sessão de perguntas e respostas](media/end-user-visual-type/qa-treemap.png)
 

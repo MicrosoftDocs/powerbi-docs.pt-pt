@@ -7,15 +7,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4274136df063258b6879057636f11ec437873ae6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 24f69255ae12400c23cd9ca506e5b103e14e7ffb
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276358"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354898"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Gráficos de medidores radiais no Power BI
 
@@ -70,7 +69,7 @@ Este tutorial utiliza o [ficheiro do Excel do Exemplo Financeiro](https://downlo
 
 1. No painel **Campos**, selecione **Vendas Brutas**.
 
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
+   ![tabela financeira expandida e campo Vendas Brutas selecionado](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
 1. Altere a agregação para **Média**.
 

@@ -6,16 +6,15 @@ ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7e3a9d6db1b7f51f02f3dbc94da1d6b35eac3222
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: 1e0fdf11eab5ea264e78363984ff49bbc95660d8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348902"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354323"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Afixar um mosaico a um dashboard do Power BI a partir de um relatório
 
@@ -57,6 +56,11 @@ Agora, crie o seu próprio dashboard através de um dos relatórios de exemplo d
 Também é possível afixar uma página de relatório inteira num dashboard, o que torna mais fácil afixar mais de uma visualização de cada vez. Quando afixa uma página inteira, os mosaicos são *dinâmicos*. Isto significa que pode interagir com os mesmos no dashboard. As alterações feitas a qualquer uma das visualizações no editor de relatórios, como adicionar um filtro ou alterar os campos utilizados no gráfico, também são refletidas no mosaico do dashboard.  
 
 Para obter mais informações, veja [Afixar uma página de relatório inteira](service-dashboard-pin-live-tile-from-report.md).
+
+> [!NOTE]
+> Algumas opções de formatação não são aplicadas aos elementos visuais quando estão afixados a um dashboard. As definições de limite, sombra e fundo serão ignoradas no mosaico afixado. Nos elementos visuais do cartão, o texto utilizado para o valor é sempre mostrado em dashboards com a família do tipo de letra “DIN”. 
+> 
+>
 
 ## <a name="next-steps"></a>Próximos passos
 - [Dashboards para consumidores do serviço Power BI](../consumer/end-user-dashboards.md)

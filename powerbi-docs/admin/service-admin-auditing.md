@@ -5,17 +5,16 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: f479bb865a11de57587a0302738411327327ed33
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
-ms.translationtype: HT
+ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272684"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782415"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Controlar as atividades dos utilizadores no Power BI
 
@@ -244,8 +243,9 @@ As seguintes operações estão disponíveis tanto no registo de auditoria como 
 | Acesso à pasta do Power BI adicionado                      | AddFolderAccess                             | Não é atualmente utilizado                       |
 | Membros do grupo do Power BI adicionados                      | AddGroupMembers                             |                                          |
 | Conta de armazenamento do fluxo de dados anexada ao inquilino pelo administrador | AdminAttachedDataflowStorageAccountToTenant | Não é atualmente utilizado                       |
-| Conjunto de dados analisado do Power BI                         | AnalyzedByExternalApplication               |                                          |
-| Relatório do Power BI analisado                          | AnalyzeInExcel                              | Gerado quando os utilizadores interagem com o serviço. Transferir o ficheiro `*.odc` não cria um evento de auditoria                                         |
+| Conjunto de dados analisado do Power BI                         | AnalyzedByExternalApplication               | Gerado quando os utilizadores interagem com o serviço                                         |
+| Relatório do Power BI analisado                          | AnalyzeInExcel                              |                                          |
+| Atribuída uma área de trabalho a um pipeline de implementação                          | AssignWorkspaceToPipeline                              |                                          |
 | Conta de armazenamento do fluxo de dados anexada                 | AttachedDataflowStorageAccount              |                                          |
 | Conjunto de dados do Power BI vinculado ao gateway                | BindToGateway                               |                                          |
 | Atualização do fluxo de dados cancelada                        | CancelDataflowRefresh                       |                                          |
@@ -254,7 +254,9 @@ As seguintes operações estão disponíveis tanto no registo de auditoria como 
 | Ligações de dados do Power BI alteradas              | SetAllConnections                           |                                          |
 | Administradores do gateway do Power BI alterados                   | ChangeGatewayAdministrators                 |                                          |
 | Utilizadores da origem de dados do gateway do Power BI alterados        | ChangeGatewayDatasourceUsers                |                                          |
+| Elemento visual personalizado organizacional criado                          | InsertOrganizationalGalleryItem                                |                                          |
 | Pacote de conteúdos organizacional do Power BI criado      | CreateOrgApp                                |                                          |
+| Pipeline de implementação criado      | CreateAlmPipeline                                |                                          |
 | Aplicação do Power BI criada                              | CreateApp                                   |                                          |
 | Dashboard do Power BI criado                        | CreateDashboard                             |                                          |
 | Fluxo de dados do Power BI criado                         | CreateDataflow                              |                                          |
@@ -264,9 +266,13 @@ As seguintes operações estão disponíveis tanto no registo de auditoria como 
 | Gateway do Power BI criado                          | CreateGateway                               |                                          |
 | Grupo do Power BI criado                            | CreateGroup                                 |                                          |
 | Relatório do Power BI criado                           | CreateReport <sup>1</sup>                                |                                          |
+| O elemento visual personalizado pediu um token de acesso do Azure Active Directory                           | GenerateCustomVisualAADAccessToken                                |                                          |
+| O elemento visual personalizado pediu um token de acesso do Office Web Apps                           | GenerateCustomVisualWACAccessToken                                |                                          |
 | Fluxo de dados migrado para a conta de armazenamento externa     | DataflowMigratedToExternalStorageAccount    | Não é atualmente utilizado                       |
 | Permissões do fluxo de dados adicionadas                        | DataflowPermissionsAdded                    | Não é atualmente utilizado                       |
 | Permissões do fluxo de dados removidas                      | DataflowPermissionsRemoved                  | Não é atualmente utilizado                       |
+| Elemento visual personalizado organizacional eliminado     | DeleteOrganizationalGalleryItem                                |                                          |
+| Pipeline de implementação eliminado      | DeleteAlmPipeline                                |                                          |
 | Pacote de conteúdos organizacional do Power BI criado      | DeleteOrgApp                                |                                          |
 | Comentário do Power BI eliminado                          | DeleteComment                               |                                          |
 | Dashboard do Power BI eliminado                        | DeleteDashboard                             | Não é atualmente utilizado                       |
@@ -278,6 +284,7 @@ As seguintes operações estão disponíveis tanto no registo de auditoria como 
 | Gateway do Power BI eliminado                          | DeleteGateway                               |                                          |
 | Grupo do Power BI eliminado                            | DeleteGroup                                 |                                          |
 | Relatório do Power BI eliminado                           | DeleteReport                                |                                          |
+| Implementado numa fase de pipeline                           | DeployAlmPipeline                                |                                          |
 | Origens de dados do conjunto de dados do Power BI detetadas          | GetDatasources                              |                                          |
 | Relatório do Power BI transferido                        | DownloadReport                              |                                          |
 | Propriedades do fluxo de dados editadas                        | EditDataflowProperties                      |                                          |
@@ -302,6 +309,7 @@ As seguintes operações estão disponíveis tanto no registo de auditoria como 
 | Relatório do Power BI publicado na Web                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | Tabelas em destaque publicadas ou atualizadas | UpdateFeaturedTables <sup>3</sup>   | |
 | Segredo do fluxo de dados do Power BI recebido do Key Vault  | ReceiveDataflowSecretFromKeyVault           |                                          |
+| Removida uma área de trabalho de um pipeline de implementação         | UnassignWorkspaceFromPipeline                 |                                          |
 | Origem de dados removida do gateway do Power BI         | RemoveDatasourceFromGateway                 |                                          |
 | Membros do grupo do Power BI removidos                    | DeleteGroupMembers                          |                                          |
 | Área de trabalho removida de uma capacidade                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -321,9 +329,12 @@ As seguintes operações estão disponíveis tanto no registo de auditoria como 
 | Controlou um fluxo de dados do Power BI                     | TookOverDataflow                             |                                          |
 | Aplicação do Power BI não publicada                          | UnpublishApp                                |                                          |
 | Atualizar definições de governação do recurso da capacidade      | UpdateCapacityResourceGovernanceSettings    | Não está atualmente no centro de administração do Microsoft 365 |
+| Elemento visual personalizado organizacional atualizado                     | UpdateOrganizationalGalleryItem                   |                                          |
 | Administrador de capacidade atualizado                            | UpdateCapacityAdmins                        |                                          |
 | Nome a apresentar da capacidade atualizado                     | UpdateCapacityDisplayName                   |                                          |
 | Permissões de atribuição de armazenamento do fluxo de dados atualizadas   | UpdatedDataflowStorageAssignmentPermissions |                                          |
+| Acesso ao pipeline de implementação atualizado   | UpdateAlmPipelineAccess |                                          |
+| Configuração do pipeline de implementação atualizada   | SetConfigurationAlmPipeline |                                          |
 | Definições do Power BI da organização atualizadas          | UpdatedAdminFeatureSwitch                   |                                          |
 | Aplicação do Power BI atualizada                              | UpdateApp                                   |                                          |
 | Fluxo de dados do Power BI atualizado                         | UpdateDataflow                              |                                          |

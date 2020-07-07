@@ -5,15 +5,14 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: bad6b507e970319003a8d338ecf29a2afc948e9c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: ee2ce1161f5afbdc39520a0102d3289f00792207
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435565"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240209"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Criar e ver favoritos nas aplicações móveis do Power BI
 Aplica-se a:
@@ -52,27 +51,23 @@ Pode marcar KPIs e relatórios como favoritos num portal Web do Power BI Report 
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-ios-and-windows-10-mobile-apps"></a>Tornar um dashboard ou um relatório favorito nas aplicações móveis para iOS e Windows 10
 Pode tornar um dashboard ou um relatório favorito do Power BI na lista de dashboards ou relatórios ou no próprio dashboard ou relatório.
 
-* Na lista de dashboards ou relatórios na aplicação móvel, toque na estrela vazia junto ao nome do dashboard ![ícone Não Favorito](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). A estrela fica amarela ![ícone Favorito](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png).
+* Na lista de dashboards ou relatórios na aplicação móvel, toque na estrela vazia junto ao nome do dashboard ![ícone Não Favorito](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). A estrela fica preta ![ícone Favorito](./././media/mobile-apps-favorites/power-bi-mobile-favorite-selected-black.png).
   
     ![Favoritos do dashboard](./media/mobile-apps-favorites/power-bi-mobile-make-dashboard-favorite.png)
-* Se estiver num dashboard, toque na estrela vazia ![ícone Não Favorito](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png) no friso. Se estiver num relatório, a estrela está em **Mais opções** (...).  A estrela fica a preto ![ícone Favorito](./././media/mobile-apps-favorites/power-bi-mobile-favorite-selected-black.png).
+* Se estiver num dashboard ou relatório, toque em **Mais opções** (...) no cabeçalho e, em seguida, toque na estrela vazia ![ícone Não Favorito](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png) no menu apresentado. A estrela fica preta ![ícone Favorito](./././media/mobile-apps-favorites/power-bi-mobile-favorite-selected-black.png).
   
     ![ícone Favoritos Selecionados](./media/mobile-apps-favorites/power-bi-mobile-favorite-selected.png)
 
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>Tornar um dashboard ou um relatório favorito nas aplicações móveis para Android
 Pode tornar um dashboard ou um relatório favorito na lista de dashboards ou relatórios ou no próprio dashboard ou relatório.
 
-* Na lista de dashboards ou relatórios na aplicação móvel, toque no botão vertical **Mais opções** (...) junto ao nome e, em seguida, toque na estrela dos Favoritos do separador de informações que é apresentado.
+* Na lista de dashboards ou relatórios na aplicação móvel, toque na estrela junto ao nome do relatório ou do dashboard para colocar o item como favorito ou anular favorito.
   
     ![Menu Favoritos do Android](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 
-* Quando estiver num dashboard, toque na estrela vazia no friso ![ícone Não Favorito](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). A estrela fica a cinzento-escuro ![ícone Favorito](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).
+* Quando estiver num dashboard ou relatório, toque em **Mais opções (...)** e, em seguida, selecione **Favorito**.
   
     ![Estrela de Favoritos do Android](./media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
-
-* Se estiver num relatório, percorra para baixo para revelar o friso, toque em **Mais opções** (...) e, em seguida, desloque para baixo até encontrar a estrela vazia ![ícone Não Favorito](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png) e toque na mesma. A estrela fica a cinzento-escuro ![ícone Favorito](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).
-  
-    ![Estrela de Favoritos do Android](./media/mobile-apps-favorites/power-bi-android-favorite-in-report.png)
 
 ## <a name="make-favorite-power-bi-report-server-and-reporting-services-reports-and-kpis"></a>Tornar KPIs e relatórios do Power BI Report Server e Reporting Services favoritos
 Pode ver os seus KPIs e relatórios favoritos do Power BI Report Server e Reporting Services nas aplicações móveis do Power BI, mas não os pode tornar favoritos nas aplicações móveis. Pode [marcá-los como favoritos no portal Web](../../report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites). 

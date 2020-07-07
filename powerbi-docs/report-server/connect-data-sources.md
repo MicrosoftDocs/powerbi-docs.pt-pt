@@ -6,14 +6,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 06/26/2020
 ms.author: maggies
-ms.openlocfilehash: 7cb5772e6ccdc1e4036d70f65a3a28210a4f6df1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 531c0ab2bb797e1ad5aaa4d974e51963f7c3e2ad
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260721"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485398"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Origens de dados de relatórios paginados no Power BI Report Server
 Os relatórios paginados do Reporting Services no Power BI Report Server suportam as mesmas origens de dados que são suportadas no SQL Server Reporting Services. Veja a lista de [Origens de dados suportadas pelo Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
@@ -25,7 +24,7 @@ Para ligar às origens de dados do Oracle, o Power BI Report Server utiliza o O
 Por predefinição, o servidor de relatórios utiliza a cultura da IU do primeiro cliente para carregar o ODP.NET.  Como resultado, todas as ligações subsequentes ao Oracle a partir do servidor de relatórios estarão nessa cultura inicial da IU até ao reinício do serviço.  Esta abordagem pode causar problemas na composição de relatórios devido a incompatibilidades na formatação da cultura da IU.
 
 Para proporcionar uma melhor experiência no Power BI Report Server, introduzimos uma definição de configuração chamada UseInstalledUICulture. Quando a definição UseInstalledUICulture está definida como verdadeira, o servidor de relatórios carrega sempre o ODP.NET na Cultura da IU do servidor em vez da cultura do primeiro cliente.
-Esta definição está disponível no Power BI Report Server a partir da Versão do Serviço de fevereiro
+Esta definição está disponível no Power BI Report Server a partir da Versão do Serviço de março de 2020.
 
 Para ativar a funcionalidade, modifique o ficheiro rsreportserver.config de entrada de extensão ORACLE, conforme indicado abaixo.
 ```xml
@@ -36,7 +35,7 @@ Para ativar a funcionalidade, modifique o ficheiro rsreportserver.config de entr
 </Extension>
 ```
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 Agora que estabeleceu ligação à sua origem de dados, [crie um relatório paginado](quickstart-create-paginated-report.md).  
 
 

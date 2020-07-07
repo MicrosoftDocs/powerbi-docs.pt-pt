@@ -8,36 +8,38 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: fa8759d7edb519240140263bcd01bfdddd9c7d86
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: 3cf415cbd14da28d523a042fdf4099fe464a4a8b
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141057"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739190"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Registo de alterações da API de elementos visuais do Power BI
 Esta página contém um resumo rápido das versões da API. As versões aqui listadas são consideradas estáveis e não serão alteradas.
 
-## <a name="api-v26"></a>API v2.6
+## <a name="api-v320"></a>API v3.2.0
+  * Suporta **[supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)**
+
+## <a name="api-v260"></a>API v2.6.0
   * Adiciona **isInFocus** à opção de atualização e o método **switchFocusModeState** ao sistema anfitrião do elemento visual
   * Suporta a personalização de **subtotais**
 
-## <a name="api-v25"></a>API v2.5
+## <a name="api-v250"></a>API v2.5.0
   * Suporta o **[Painel de Análise](./analytics-pane.md)**
   * Suporta os métodos `SelectionIdBuilder` **withMatrixNode** e **withTable**
   * Já não suporta a interface `DataRepetitionSelector`, substituída pela interface `data.CustomVisualOpaqueIdentity`
 
-## <a name="api-v23"></a>API v2.3
+## <a name="api-v230"></a>API v2.3.0
   * **[API da Página de Destino](./landing-page.md)**
   * **[API de Armazenamento Local](./local-storage.md)**
   * **[API de filtro da cadeia de identificação (filtro de várias colunas)](./filter-api.md#the-tuple-filter-api-multi-column-filter)**
   * **[API de Eventos de Composição](./event-service.md#render-events-in-power-bi-visuals)**
 
-## <a name="api-v22"></a>API v2.2
+## <a name="api-v220"></a>API v2.2.0
   * Suporta o **[restauro do Filtro JSON a partir de DataView](./filter-api.md#restore-the-json-filter-from-the-data-view)**
   * **[API de ContextMenu](./context-menu.md)**
 
-## <a name="api-v21"></a>API v2.1
+## <a name="api-v210"></a>API v2.1.0
   * Melhorias de desempenho:
     * Tempos de carregamento mais rápidos
     * Quantidade de memória menor
@@ -58,32 +60,32 @@ Esta página contém um resumo rápido das versões da API. As versões aqui lis
    ```
 * A propriedade `proto` já não armazena metadados\dados ocultos em dataView. Os elementos visuais que acedem a propriedades através de `proto` podem falhar com esta atualização.
 
-## <a name="api-v113"></a>API v1.13
+## <a name="api-v1130"></a>API v1.13.0
 * Suporta a **[Segmentação de Dados de Sincronização](./enable-sync-slicers.md)** ; tenha em atenção que apenas funciona para segmentações de campos individuais devido ao estado do código atual do PBI. [Saiba mais](/power-bi/desktop-slicers).
 * Acessibilidade: [suporte de alto contraste](./high-contrast-support.md) 
 * Acessibilidade: permitir o sinalizador Foco de Teclado
 
-## <a name="api-v112"></a>API v1.12
+## <a name="api-v1120"></a>API v1.12.0
 * Suporta Temas
 * Suporta **[fetchMoreData](./fetch-more-data.md)** ; tenha em atenção que a **API Obter Mais Dados** excede o limite restritivo de 30 mil pontos de dados
 * **[API de Descrições de Telas](./add-tooltips.md#add-report-page-tooltips)**
 
-## <a name="api-v111"></a>API v1.11
+## <a name="api-v1110"></a>API v1.11.0
 * **[API de FilterManager](./filter-api.md)**
 * Suporta **[Marcadores](./bookmarks-support.md)** 
 
-## <a name="api-v110"></a>API v1.10
+## <a name="api-v1100"></a>API v1.10.0
 * Adiciona `ILocalizationManager`
 * **API de Autenticação**
 
-## <a name="api-v19"></a>API v1.9
+## <a name="api-v190"></a>API v1.9.0
 * **[API de launchUrl](./launch-url.md)**
 
-## <a name="api-v18"></a>API v1.8
+## <a name="api-v180"></a>API v1.8.0
 * Suporta o novo tipo de **fillRule** (gradiente) no esquema de capacidades
 * Suporta a propriedade **regra** no esquema de capacidades das propriedades de objetos
 
-## <a name="api-v17"></a>API v1.7
+## <a name="api-v170"></a>API v1.7.0
 * Suporta **[RESJSON](./localization.md#resource-file)**
 
 ## <a name="api-v162"></a>API v1.6.2

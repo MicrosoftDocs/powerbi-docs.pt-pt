@@ -8,12 +8,11 @@ ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 56e0c3c6dde3a745448092ad118275ed847506fa
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
-ms.translationtype: HT
+ms.openlocfilehash: 706e4221c131f1743ff00bb9a7b6c0812394cbb8
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230235"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782425"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Ligue-se ao GitHub com o Power BI
 Este artigo irá orientá-lo durante a extração de dados da sua conta do GitHub através de uma aplicação de modelo do Power BI. A aplicação de modelo gera uma área de trabalho com um dashboard, um conjunto de relatórios e um conjunto de dados para que possa explorar os seus dados do GitHub. A aplicação GitHub para o Power BI mostra-lhe informações sobre o seu repositório do GitHub, com dados sobre contribuições, problemas, pedidos Pull e utilizadores ativos.
@@ -100,7 +99,7 @@ Os dados a seguir estão disponíveis no GitHub no Power BI:
 | --- | --- |
 | Contributions |A tabela de contribuições apresenta o total de adições, exclusões e confirmações criadas pelo colaborador agregadas por semana. Os 100 principais colaboradores são incluídos. |
 | Problemas |Lista todos os problemas do repositório selecionado e contém cálculos como os tempos total e médio para encerramento de um problema, Total de problemas em aberto e Total de problemas encerrados. Esta tabela estará vazia quando não houver nenhum problema no repositório. |
-| Solicitações pull |Esta tabela contém todas as Solicitações Pull para o repositório e quem realizou o pedido. Também contém cálculos de quantos pedidos Pull abertos, fechados e totais existem, quanto tempo demorou para efetuar o Pull dos pedidos e quanto tempo levou cada pedido Pull em média. Esta tabela estará vazia quando não houver nenhum problema no repositório. |
+| Solicitações pull |Esta tabela contém todas as Solicitações Pull para o repositório e quem realizou o pedido. Também contém cálculos de quantos pedidos Pull abertos, fechados e totais existem, quanto tempo demorou para efetuar o Pull dos pedidos e quanto tempo levou cada pedido Pull em média. Esta tabela estará vazia quando não houver nenhum pedido pull no repositório. |
 | Utilizadores |Esta tabela fornece uma lista de colaboradores ou utilizadores do GitHub que fizeram contribuições, arquivaram problemas ou resolveram pedidos Pull para o repositório selecionado. |
 | Etapas |Contém todas as Etapas para o repositório selecionado. |
 | DateTable |Esta tabela contém datas do presente e de anos no passado, que permitem analisar os seus dados do GitHub por data. |
