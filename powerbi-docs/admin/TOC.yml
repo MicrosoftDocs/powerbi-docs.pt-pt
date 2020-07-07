@@ -76,13 +76,15 @@
           href: desktop-admin-sign-in-form.md
         - name: Proteção de dados
           items:
-            - name: Descrição geral da proteção de dados
-              href: service-security-data-protection-overview.md
-            - name: Ativar etiquetas de confidencialidade de dados
+            - name: Etiquetas de confidencialidade no Power BI
+              href: service-security-sensitivity-label-overview.md
+            - name: Enable sensitivity labeling (Ativar etiquetas de confidencialidade)
               href: service-security-enable-data-sensitivity-labels.md
+            - name: How to apply sensitivity labels (Como aplicar etiquetas de confidencialidade)
+              href: service-security-apply-data-sensitivity-labels.md
             - name: Utilizar o Microsoft Cloud App Security com o Power BI
               href: service-security-using-microsoft-cloud-app-security-controls.md
-            - name: Data protection metrics report (Relatório de métricas de proteção de dados)
+            - name: Protection metrics report (Relatório de métricas de proteção)
               href: service-security-data-protection-metrics-report.md
         - name: Row-level security
           href: service-admin-rls.md
