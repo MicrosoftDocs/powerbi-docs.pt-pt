@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 546f712c87e67240fd15ee2563252d8f322212c7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221006"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034503"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportar relatório do Power BI para ficheiro (pré-visualização)
 
@@ -73,7 +73,7 @@ Para exportar com RLS, tem de ter as seguintes permissões:
 
 ### <a name="data-protection"></a>Proteção de dados
 
-Os formatos .pdf e .pptx suportam [etiquetas de confidencialidade](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi). Se exportar um relatório com uma etiqueta de confidencialidade para .pdf ou .pptx, o ficheiro exportado apresentará o relatório com a etiqueta de confidencialidade.
+Os formatos .pdf e .pptx suportam [etiquetas de confidencialidade](../../admin/service-security-sensitivity-label-overview.md). Se exportar um relatório com uma etiqueta de confidencialidade para .pdf ou .pptx, o ficheiro exportado apresentará o relatório com a etiqueta de confidencialidade.
 
 Um relatório com uma etiqueta de confidencialidade não pode ser exportado para um .pdf ou um .pptx através de um [principal de serviço](embed-service-principal.md).
 

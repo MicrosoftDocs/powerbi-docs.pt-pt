@@ -7,11 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782579"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034296"
 ---
 # <a name="understand-the-deployment-process-preview"></a>Compreender o processo de implementação (pré-visualização)
 
@@ -233,7 +234,7 @@ Esta secção lista a maioria das limitações nos pipelines de implementação.
 
 * A área de trabalho tem de residir numa  [capacidade premium](../admin/service-premium-what-is.md).
 
-* Os itens do Power BI, como relatórios e dashboards com [etiquetas de confidencialidade](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi), não podem ser implementados.
+* Os itens do Power BI, como relatórios e dashboards com [etiquetas de confidencialidade](../admin/service-security-sensitivity-label-overview.md), não podem ser implementados.
 
 * O número máximo de itens do Power BI que podem ser implementados numa única implementação é de 300.
 
