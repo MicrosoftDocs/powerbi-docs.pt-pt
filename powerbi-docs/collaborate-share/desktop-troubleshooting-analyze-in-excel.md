@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: e1162ecfb9eee7d1a0bfaf5a7ef25244ec8935c0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3c36a2725748e2c701c65f1737c39f4d56128962
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226828"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034388"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Resolução de Problemas de Analyze Excel
 
@@ -45,22 +45,22 @@ As bibliotecas do Excel têm de corresponder à sua versão do Windows em termos
 
 Para transferir as bibliotecas mais recentes do Excel, visite o Power BI e selecione a **seta para baixo**, no canto superior direito do serviço Power BI, e selecione as **atualizações de Analyse in Excel**.
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
+![Captura de ecrã a mostrar a opção de seta para baixo do menu, no canto superior direito, para selecionar Analisar nas atualizações do Excel.](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
 
 Na caixa de diálogo apresentada, selecione **Transferir (pré-visualização)** .
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
+![Captura de ecrã a mostrar a opção Analisar na caixa de diálogo das atualizações do Excel para selecionar o botão Transferir ou pré-visualizar.](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
 
 ## <a name="determining-whether-you-need-to-update-your-excel-libraries"></a>Determinar se é preciso atualizar as suas bibliotecas do Excel
 Pode transferir a versão mais recente das bibliotecas de fornecedor de Excel OLE DB a partir das ligações na secção anterior. Depois de transferir a biblioteca de fornecedor de OLE DB adequada e iniciar a instalação, são executadas verificações contra a sua versão atual instalada.
 
 Se as bibliotecas de fornecedor de Excel OLE DB estiverem atualizadas, será apresentada uma caixa de diálogo semelhante à seguinte:
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
+![Captura de ecrã a mostrar a caixa de diálogo a pedir para atualizar, se estiver disponível uma versão mais recente da biblioteca de cliente do fornecedor O L E D B do Excel.](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
 
 Em alternativa, se a nova versão que está a instalar for mais recente que a versão no seu computador, é apresentada a caixa de diálogo seguinte:
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
+![Captura de ecrã a mostrar a caixa de diálogo para confirmar uma atualização durante a instalação das bibliotecas de cliente do fornecedor O L E D B do Excel.](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
 
 Se vir a caixa de diálogo a pedir-lhe para atualizar, deve continuar com a instalação para obter a versão mais recente do fornecedor de OLE DB instalado no seu computador.
 

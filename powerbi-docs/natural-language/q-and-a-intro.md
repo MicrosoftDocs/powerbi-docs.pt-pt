@@ -5,20 +5,20 @@ author: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 07/01/2020
 ms.author: mohaali
-ms.openlocfilehash: 139c9cb31ecbb6853228c0d362b61d5a74debac5
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 295fc7732729fc464676257ab63dcadfa967771b
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867789"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939669"
 ---
 # <a name="intro-to-power-bi-qa"></a>Introdução às Perguntas e Respostas do Power BI
 
 Por vezes, a forma mais rápida de obter uma resposta dos seus dados é pesquisá-los através de uma linguagem natural. A funcionalidade Perguntas e Respostas no Power BI permite-lhe explorar os seus dados com as suas próprias palavras através de uma linguagem natural. As Perguntas e Respostas são interativas e até divertidas. Muitas vezes, uma pergunta leva a outras, uma vez que as visualizações revelam caminhos interessantes a seguir. A pergunta é apenas o início. Viaje pelos seus dados ao refinar ou ampliar a sua pergunta, descobrir novas informações, concentrar-se em detalhes ou reduzir uma vista para a expandir. A experiência é interativa e rápida, baseada num armazenamento na memória. 
 
-A funcionalidade Perguntas e Respostas do Power BI é gratuita e está disponível para todos os utilizadores. No Power BI Desktop, os estruturadores de relatórios podem utilizar as Perguntas e Respostas para explorar dados e criar visualizações. No serviço Power BI, todos podem explorar os respetivos dados com as Perguntas e Respostas. Se tiver permissão para editar um dashboard ou um relatório, também poderá afixar os seus resultados das Perguntas e Respostas.
+A funcionalidade Perguntas e Respostas do Power BI é gratuita e está disponível para todos os utilizadores. No Power BI Desktop, os estruturadores de relatórios podem utilizar as Perguntas e Respostas para explorar dados e criar visualizações. No serviço Power BI, todos podem explorar os respetivos dados com as Perguntas e Respostas. As nossas aplicações móveis também suportam as Perguntas e Respostas, através do assistente virtual de Perguntas e Respostas no iOS e do elemento visual Perguntas e Respostas em dispositivos Android. Se tiver permissão para editar um dashboard ou um relatório, também poderá afixar os seus resultados das Perguntas e Respostas.
 
 ## <a name="how-to-use-qa"></a>Como utilizar as Perguntas e Respostas
 
@@ -97,7 +97,7 @@ Por predefinição, a funcionalidade Perguntas e Respostas está disponível na 
 
 ![Dashboard das Perguntas e Respostas](media/qna-dashboard.png)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 Pode integrar uma linguagem natural nos seus relatórios de diversas formas. Para obter mais informações, veja estes artigos:
 

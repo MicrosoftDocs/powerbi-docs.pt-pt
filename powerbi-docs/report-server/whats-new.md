@@ -7,12 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/27/2020
-ms.openlocfilehash: 9cb9939f665dabc910c0605f4c1864f7d80988c3
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.date: 07/06/2020
+ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739236"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034043"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Power BI Report Server
 
@@ -27,9 +28,11 @@ Para obter informações sobre “Novidades” do Power BI relacionadas, veja:
 
 ## <a name="may-2020"></a>Maio de 2020
 
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Desktop otimizado para o Power BI Report Server
+
 Entre os destaques desta atualização estão a segmentação de dados hierárquica e os elementos visuais de árvore de decomposição, além dos diagnósticos de consultas. Segue-se uma lista completa das funcionalidades novas e atualizadas. Para obter detalhes, consulte a [publicação de blogue de maio de 2020 do Power BI Report Server](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/). 
 
-### <a name="reporting"></a>Relatórios
+#### <a name="reporting"></a>Relatórios
 
 - Segmentação de dados hierárquica
 - Novos tipos de ação para botões:
@@ -50,7 +53,7 @@ Entre os destaques desta atualização estão a segmentação de dados hierárqu
     - Nova experiência de painel de filtros
     - Pesquisa do painel de filtros
     
-### <a name="modeling"></a>Modelação
+#### <a name="modeling"></a>Modelação
 
 - Novas funções do DAX:
 
@@ -60,18 +63,24 @@ Entre os destaques desta atualização estão a segmentação de dados hierárqu
 
 - Separadores DAX padrão
 
-### <a name="visualizations"></a>Visualizações
+#### <a name="visualizations"></a>Visualizações
 
 - Novos ícones de visualização
 - Sombra para elementos visuais
 
-### <a name="data-preparation"></a>Preparação de Dados
+#### <a name="data-preparation"></a>Preparação de Dados
 
 - Diagnóstico de consultas
 
-### <a name="other"></a>Outros
+#### <a name="other"></a>Outros
 
 - Utilizar credenciais de sistema predefinidas para proxy Web
+
+### <a name="power-bi-report-server"></a>Power BI Report Server
+
+#### <a name="power-bi-visuals-api"></a>API de elementos visuais do Power BI
+
+A versão da API enviada com este lançamento é a 3.2.
 
 ## <a name="january-2020"></a>Janeiro de 2020
 

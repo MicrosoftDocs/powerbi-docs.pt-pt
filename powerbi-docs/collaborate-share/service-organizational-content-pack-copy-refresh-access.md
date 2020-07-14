@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 74063dc581cce3d63395be5f99e0232a9e7a69a2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f89459b9d1e930fe429467b566d0813030fb43ab
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225911"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034526"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Pacotes de conteúdos organizacionais: copiar, atualizar e obter acesso
 
@@ -31,7 +31,7 @@ Crie a sua cópia do pacote de conteúdos, que não é visível para outras pess
 
 1. Selecione **Mais opções** (…) junto ao dashboard do pacote de conteúdos > Fazer uma cópia.
 
-    ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
+    ![Captura de ecrã a mostrar a caixa de diálogo Mais opções.](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. Selecione **Guardar**.  
 
 Tem agora uma cópia que pode alterar. Ninguém estará autorizado a visualizar as alterações que fizer.

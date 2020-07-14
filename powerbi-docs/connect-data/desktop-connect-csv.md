@@ -1,5 +1,5 @@
 ---
-title: Connect to CSV files in Power BI Desktop (Ligar a ficheiros CSV no Power BI Desktop)
+title: Ligar a ficheiros CSV no Power BI Desktop
 description: Ligar-se e utilizar facilmente dados de ficheiros CSV no Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
@@ -10,35 +10,35 @@ ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 06e5ec77a084755379d81be93c9455e8bd7af304
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6d7d22ba9aad24ed9f1ac60314d18d16f22d7994
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224627"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86033813"
 ---
-# <a name="connect-to-csv-files-in-power-bi-desktop"></a>Connect to CSV files in Power BI Desktop (Ligar a ficheiros CSV no Power BI Desktop)
+# <a name="connect-to-csv-files-in-power-bi-desktop"></a>Ligar a ficheiros CSV no Power BI Desktop
 Ligar-se a um ficheiro de valores separados por vírgulas (*CSV*) do Power BI Desktop é muito parecido com ligar a um livro do Excel. Ambas as ações são simples e este artigo mostra-lhe os passos para ligar-se a ficheiros CSV aos quais tenha acesso.
 
 Para começar, a partir do Power BI Desktop, selecione **Obter Dados > CSV** do friso **Base**.
 
-![](media/desktop-connect-csv/connect-to-csv_1.png)
+![Captura de ecrã a mostrar o menu Obter Dados.](media/desktop-connect-csv/connect-to-csv_1.png)
 
 Selecione o seu ficheiro CSV na caixa de diálogo **Abrir** que for apresentada.
 
-![](media/desktop-connect-csv/connect-to-csv_2.png)
+![Captura de ecrã a mostrar a caixa de diálogo Abrir.](media/desktop-connect-csv/connect-to-csv_2.png)
 
 Quando selecionar **Abrir**, o Power BI Desktop acede ao ficheiro e determina certos atributos de ficheiro, como a origem do ficheiro, o tipo de delimitador e quantas linhas devem ser utilizadas para detetar os tipos de dados no ficheiro.
 
 Estes atributos e opções são apresentados nas seleções de menus pendentes na parte superior da caixa de diálogo **Importação CSV**, mostrada abaixo. Pode alterar manualmente qualquer uma destas definições detetadas ao selecionar outra opção a partir dos seletores pendentes.
 
-![](media/desktop-connect-csv/connect-to-csv_3.png)
+![Captura de ecrã a mostrar a janela da caixa de diálogo de importação de CSV.](media/desktop-connect-csv/connect-to-csv_3.png)
 
 Quando estiver satisfeito com as seleções, pode selecionar **Carregar** para importar o ficheiro para o Power BI Desktop, ou pode selecionar **Editar** para abrir o **Editor de Consultas** e formatar ou transformar os dados antes de os importar.
 
 Após carregar os dados para o Power BI Desktop, verá a tabela e respetivas colunas (que são apresentadas como Campos no Power BI Desktop) no painel **Campos**, no lado direito da vista de Relatório no Power BI Desktop.
 
-![](media/desktop-connect-csv/connect-to-csv_4.png)
+![Captura de ecrã da janela Power BI Desktop, a mostrar o painel Campos.](media/desktop-connect-csv/connect-to-csv_4.png)
 
 É tudo o que precisa de fazer. Agora, os dados do seu ficheiro CSV estão no Power BI Desktop.
 
@@ -48,11 +48,11 @@ Pode utilizar esses dados no Power BI Desktop para criar visuais, relatórios ou
 > Quando importa um ficheiro CSV, o Power BI Desktop gera um campo *colunas=x* (em que *x* representa o número de colunas no ficheiro CSV durante a importação inicial) como um passo no Editor do Power Query. Se adicionar mais colunas posteriormente e a origem de dados estiver definida para ser atualizada, as colunas para além da contagem de *x* colunas iniciais não serão atualizadas. 
 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
-* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Ligar a livros do Excel no Power BI Desktop](desktop-connect-excel.md)   
 * [Introduzir dados diretamente no Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   

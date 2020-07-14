@@ -9,19 +9,19 @@ ms.topic: reference
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c6c3ccdc547a8e9fb4e2d471365c9da67f7cf58a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 19189529637fe5511ebd6f736c17b8a10a1d2ef9
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83130321"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86033790"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Níveis de privacidade do Power BI Desktop
 No **Power BI Desktop**, os níveis de privacidade especificam um nível de isolamento que define o grau em que uma origem de dados será isolada de outras origens de dados. Apesar de o nível de isolamento restrito bloquear a troca de informações entre as origens de dados, poderá reduzir a funcionalidade e causar um impacto no desempenho.
 
 A definição **Níveis de Privacidade**, encontrada em **Ficheiro > Opções e definições > Opções** e **Ficheiro Atual > Privacidade** determina se o Power BI Desktop utiliza as configurações de Nível de Privacidade ao combinar dados. Esta caixa de diálogo inclui uma ligação para a documentação do Power BI Desktop sobre os Níveis de Privacidade (este artigo).
 
-![](media/desktop-privacy-levels/desktop_privacylevels1.png)
+![Captura de ecrã a mostrar a caixa de diálogo Opções.](media/desktop-privacy-levels/desktop_privacylevels1.png)
 
 ## <a name="configure-a-privacy-level"></a>Configurar um nível de privacidade
 Nas definições do nível de privacidade, pode especificar um nível de isolamento que define o grau em que uma origem de dados deve ser isolada de outras origens de dados.
@@ -37,7 +37,7 @@ A caixa de diálogo das definições de **Privacidade** de cada origem de dados 
 
 Para configurar o nível de privacidade da origem de dados, selecione a origem de dados e selecione **Editar**. É apresentada a caixa de diálogo **Definições da Origem de Dados**, na qual pode selecionar o nível de privacidade adequado no menu suspenso na parte inferior da caixa de diálogo, conforme mostrado na imagem seguinte.
 
-![](media/desktop-privacy-levels/desktop_privacylevels2.png)
+![Captura de ecrã a mostrar a caixa de diálogo Definições da Origem de Dados.](media/desktop-privacy-levels/desktop_privacylevels2.png)
 
 > [!CAUTION]
 > Deve configurar uma origem de dados que contenha dados altamente confidenciais como **Privada**.

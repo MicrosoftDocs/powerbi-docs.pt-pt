@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e499f6894890c379b76bfe0a11428715add30dfb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5e76cdfc2fd8ad4a90290ecaa559d502d5f847e6
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224899"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034434"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Ligar aos dados do Azure Consumption Insights no Power BI Desktop
 
@@ -42,25 +42,25 @@ Para utilizar o conector do **Azure Consumption Insights** no **Power BI Desktop
 
 1. Selecione **Ligar**.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
+   ![Captura de ecrã a mostrar a caixa de diálogo do Microsoft Azure Consumption Insights. Selecione Ligar.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
    Na caixa de diálogo apresentada, introduza o seu **Número de Inscrição do Azure**.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
+   ![Captura de ecrã a mostrar a caixa de diálogo para introduzir o Número de Inscrição do Azure.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
    * Pode obter o seu número de inscrição no [Azure Enterprise Portal](https://ea.azure.com), na localização indicada na seguinte imagem:
 
-  ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
+  ![Captura de ecrã a mostrar o ecrã do Azure Enterprise Portal para obter um número de inscrição.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
 
    Esta versão do conector só suporta inscrições de empresas provenientes de https://ea.azure.com. Não são atualmente suportadas inscrições oriundas da China.
 
    Em seguida, forneça a sua *Chave de acesso* para ligar.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
+   ![Captura de ecrã a mostrar a caixa de diálogo para introduzir a Chave de acesso para ligar ao Microsoft Azure Consumption Insights.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
 
    * Pode encontrar a sua Chave de acesso para a inscrição no [Azure Enterprise Portal](https://ea.azure.com).
 
-  ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
+  ![Captura de ecrã do Azure Enterprise Portal, a mostrar as Chaves de Acesso de Inscrição.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 Depois de indicar a *Chave de acesso* e selecionar **Ligar**, é apresentada a janela **Navegador**, que mostra nove tabelas disponíveis:
 
@@ -78,7 +78,7 @@ Depois de indicar a *Chave de acesso* e selecionar **Ligar**, é apresentada a j
 
 Pode selecionar a caixa de verificação ao lado de qualquer uma das tabelas para ver uma pré-visualização. Pode selecionar uma ou mais tabelas ao marcar a caixa junto do respetivo nome; em seguida, selecione **Carregar**.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
+![Captura de ecrã a mostrar a caixa de diálogo Navegador onde estão todas as tabelas disponíveis.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > As tabelas *Resumo* e *Folha de Preços* só estão disponíveis para a Chave de API do nível de inscrição. Além disso, os dados nestas tabelas contêm, por predefinição, os dados do mês atual em termos de *Utilização* e *Folha de Preços*. As tabelas *Resumo* e *Mercado* não estão limitadas ao mês atual.
@@ -87,11 +87,11 @@ Pode selecionar a caixa de verificação ao lado de qualquer uma das tabelas par
 
 Quando selecionar **Carregar**, os dados serão carregados no **Power BI Desktop**.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
+![Captura de ecrã a mostrar a caixa de diálogo que aparece quando os dados são carregados.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
 Após o carregamento dos dados selecionados, as tabelas e os campos que selecionou podem ser vistos no painel **Campos**.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
+![Captura de ecrã a mostrar o painel de campos após carregar uma tabela a partir da janela Navegador.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
 
 ## <a name="using-azure-consumption-insights"></a>Utilizar o conector Informações sobre Consumo do Azure
 Para utilizar o conector do **Azure Consumption Insights**, tem de aceder às funcionalidades empresariais no portal do Azure.
@@ -116,7 +116,7 @@ Na **Barra de fórmulas**, escreva:
 
 A seguinte imagem mostra uma coleção de exemplos que aparece.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
+![Captura de ecrã a mostrar uma coleção de exemplos.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 Quando estiver a trabalhar com relatórios e a criar consultas, pode:
 
@@ -148,7 +148,7 @@ No **Editor de Consultas**, selecione **Editor Avançado** na secção **Consult
     in     
         data
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
+![Captura de ecrã a mostrar uma caixa de diálogo para Criar uma consulta no Editor Avançado.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
 
 Terá de substituir o valor de *enrollmentNumber* pelo seu número de inscrição. Pode obter o seu número no [Portal do Azure Enterprise](https://ea.azure.com). O parâmetro *numberOfMonth* corresponde ao número de meses de dados que pretende andar para trás, a partir da data atual. Utilize zero (0) para o mês atual.
 
@@ -160,7 +160,7 @@ Em seguida, terá de mover todas as medidas ou colunas personalizadas que criou 
 1. Abra o Bloco de Notas (ou outro editor de texto).
 2. Selecione a medida que quer mover, copie o texto do campo *Fórmula* e coloque-o no Bloco de Notas.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
+   ![Captura de ecrã a mostrar o campo Fórmula de colunas e medidas.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. Mude o nome *Query1* para o nome da tabela de detalhes original.
 4. Para criar novas medidas de tabela e colunas personalizadas, clique com o botão direito do rato na sua tabela e selecione **Nova Medida**. Em seguida, corte e cole as suas medidas e colunas armazenadas até concluir todas.
 
@@ -169,7 +169,7 @@ Muitos dashboards têm tabelas adicionais que são utilizadas para pesquisa ou f
 
 - No separador **Modelação** do **Power BI Desktop**, selecione **Gerir Relações** para abrir uma janela que permite gerir as relações no modelo. Volte a ligar as suas tabelas, conforme for necessário.
 
-    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
+    ![Captura de ecrã a mostrar a caixa de diálogo Criar relação. Selecione Gerir Relações.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
 ### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>Step 5: Verificar os elementos visuais e ajustar a formatação dos campos, conforme necessário
 Agora, a maioria dos seus elementos visuais, tabelas e desagregações originais deverá estar a funcionar conforme esperado. No entanto, poderão ser necessárias algumas pequenas alterações para formatar o aspeto em maior detalhe. Dedique algum tempo a ver cada um dos dashboards e elementos visuais para garantir que o aspeto é aquele que pretende.

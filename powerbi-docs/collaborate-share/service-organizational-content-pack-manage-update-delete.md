@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3857478e972caef0a53c1de82f6dcc96650a7386
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d741a489c5655e5a08f49f7197389a67c5d016ed
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225683"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034411"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Gerir, atualizar e excluir pacotes de conteúdos organizacional
 > [!NOTE]
@@ -40,12 +40,12 @@ Ao fazer ou guardar uma alteração no dashboard incluído num pacote de conteú
 
 1. Selecione **Ver Pacotes de Conteúdos** na mensagem.
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
-2. Ou selecione o ícone de engrenagem no canto superior direito ![](media/service-organizational-content-pack-manage-update-delete/cog.png) e selecione **Ver Pacote de Conteúdos**.
+   ![Captura de ecrã a mostrar uma caixa de diálogo com mensagem para selecionar Ver Pacotes de Conteúdos.](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
+2. Captura de ecrã a mostrar o ícone de engrenagem no canto superior direito ![Ícone de engrenagem Captura de ecrã.](media/service-organizational-content-pack-manage-update-delete/cog.png) e selecione **Ver Pacote de Conteúdos**.
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
+   ![Captura de ecrã a mostrar o ícone de engrenagem no canto superior direito.](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
    
-   Veja o ícone de aviso ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png).  Desta forma, sabe que modificou o pacote de conteúdos de alguma forma e já não coincide com o que foi publicado.
+   Veja o ícone de aviso ![Captura de ecrã a mostrar o ícone de aviso.](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png).  Desta forma, sabe que modificou o pacote de conteúdos de alguma forma e já não coincide com o que foi publicado.
 3. Selecione **Editar**.  
 4. Faça as alterações necessárias na janela **Atualizar Pacote de Conteúdos** e selecione **Atualizar**. Será apresentada uma mensagem de **Êxito**.
    
@@ -55,7 +55,7 @@ Ao fazer ou guardar uma alteração no dashboard incluído num pacote de conteú
 ## <a name="update-the-audience-expand-or-restrict-access"></a>Atualizar o público: expandir ou restringir o acesso
 Outra modificação para criadores de pacotes de conteúdos está a expandir e a restringir o acesso ao pacote de conteúdos.  Talvez tenha publicado um pacote de conteúdos para um público amplo e decidido restringir o acesso a um grupo mais pequeno.  
 
-1. Selecione o ícone de engrenagem ![](media/service-organizational-content-pack-manage-update-delete/cog.png) e selecione **Ver Pacotes de Conteúdos**.
+1. Selecione o ícone de engrenagem ![Captura de ecrã a mostrar o ícone de engrenagem.](media/service-organizational-content-pack-manage-update-delete/cog.png) e selecione **Ver Pacotes de Conteúdos**.
 2. Selecione **Editar**. 
 3. Faça as alterações necessárias na janela **Atualizar Pacote de Conteúdos** e selecione **Atualizar**. Por exemplo, elimine o grupo de distribuição original no campo **Grupos Específicos** e substitua-o por um grupo de distribuição diferente (com menos membros).
    
@@ -77,7 +77,7 @@ Só pode eliminar um pacote de conteúdos do AppSource se o tiver criado. Se tiv
 > 
 > 
 
-1. Para eliminar um pacote de conteúdos do AppSource, aceda à área de trabalho onde criou o pacote de conteúdos, selecione o ícone de engrenagem ![](media/service-organizational-content-pack-manage-update-delete/cog.png) e selecione **Ver Pacotes de Conteúdos**.
+1. Para eliminar um pacote de conteúdos do AppSource, aceda à área de trabalho onde criou o pacote de conteúdos, selecione o ícone de engrenagem ![Captura de ecrã a mostrar o ícone de engrenagem.](media/service-organizational-content-pack-manage-update-delete/cog.png) e selecione **Ver Pacotes de Conteúdos**.
 2. Selecione **Eliminar \> Eliminar**. 
    
    * Para os membros do grupo que não personalizaram o pacote de conteúdos, o dashboard e os relatórios associados a esse pacote de conteúdos serão removidos automaticamente. Deixarão de estar disponíveis, e o pacote de conteúdos não aparecerá no painel de navegação.

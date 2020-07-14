@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 75b880876a08a78d822fc1203de40a7bb8311afe
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
+ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337079"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "86092245"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Incorporar conteúdo do Power BI numa aplicação para os seus clientes
 
@@ -428,9 +428,12 @@ A seguinte tabela descreve os recursos e limites de cada SKU. Para determinar qu
 
 ### <a name="development-testing"></a>Testes de desenvolvimento
 
-A utilização de tokens de incorporação com a licença Pro destina-se a testes de desenvolvimento. O número de tokens de incorporação que um principal de serviço ou uma conta principal do Power BI pode gerar é limitado. Uma capacidade dedicada necessita de incorporação num ambiente de produção. Não existe um limite de tokens de incorporação que pode gerar com uma capacidade dedicada. Aceda a [Funcionalidades Disponíveis](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) para verificar o valor de utilização que indica a utilização atual incorporada em valores percentuais. O valor de utilização baseia-se na conta principal.
+Pode utilizar tokens de avaliação incorporados com uma licença Pro para fins de teste de desenvolvimento. Utilize uma capacidade dedicada para incorporar num ambiente de produção.
 
-Para obter mais informações, veja [Embedded analytics capacity planning whitepaper (Documento técnico de planeamento da capacidade de análise incorporada)](https://aka.ms/pbiewhitepaper).
+O número de tokens de avaliação incorporados que um serviço de Power BI ou conta principal pode gerar é limitado. Utilize a API [Funcionalidades Disponíveis](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) para verificar a sua percentagem de utilização atual incorporada. O valor de utilização é apresentado por principal do serviço ou conta principal.
+
+Se ficar sem tokens incorporados durante as avaliações, tem de adquirir uma [capacidade](embedded-capacity.md) do Power BI Incorporada ou Premium. Não existe um número limite de tokens de incorporação que pode gerar com uma capacidade dedicada.
+
 
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Atribuir uma área de trabalho a uma capacidade dedicada
 

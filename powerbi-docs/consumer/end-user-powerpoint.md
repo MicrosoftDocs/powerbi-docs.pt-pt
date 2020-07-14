@@ -7,18 +7,19 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/12/2020
+ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: d1120b15974d0e747dc60cf2c56dff1135c9d29c
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 85dc7e9807e11114c4fb6abb988d10c583b9e56c
+ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782522"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "85837045"
 ---
 # <a name="export-reports-to-powerpoint"></a>Exportar relatórios para o PowerPoint
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 
 Com o serviço Power BI (app.powerbi.com), pode publicar o seu relatório no Microsoft PowerPoint e criar facilmente um conjunto de diapositivos com base no seu relatório do Power BI. Quando exporta para o PowerPoint, acontece o seguinte:
@@ -39,7 +40,7 @@ No **serviço Power BI**, selecione um relatório para apresentá-lo na tela. Ta
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Quando o relatório que pretende exportar para o PowerPoint for apresentado na tela, selecione **Exportar** > **PowerPoint** na barra de menus.
+Quando o relatório que pretende exportar para o PowerPoint for apresentado na tela, selecione **Ficheiro** > **Exportar para o PowerPoint** a partir da barra de menus.
 
 ![Selecione Exportar na barra de menus](media/end-user-powerpoint/power-bi-export.png)
 
@@ -85,6 +86,10 @@ A partir daí, pode fazer o que quiser com o conjunto do PowerPoint ou com as im
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 Existem algumas considerações e limitações a ter em conta ao trabalhar com a funcionalidade **Exportar para o PowerPoint**.
  
+
+* Se não vir a opção **Exportar**, certifique-se de que ativou "Novo aspeto" e de que está a ver um relatório (e não um dashboard).
+
+    ![Captura de ecrã a mostrar o botão de alternar Novo aspeto](media/end-user-powerpoint/power-bi-new-look.png)
 
 * Os [filtros de URL](../collaborate-share/service-url-filters.md) não são atualmente respeitados quando escolhe **Valores Atuais** na exportação.
 

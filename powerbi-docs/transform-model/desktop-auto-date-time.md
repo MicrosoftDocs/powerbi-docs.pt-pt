@@ -8,11 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ae8121af4e3c16e7e8dd047284034fc95d0403fd
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 0c62e423bdf357a5eee4ef5b03daa7ec145310e7
+ms.sourcegitcommit: 20cfd157af587b3910a2b6deec9518dca4105d71
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393824"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85943059"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Aplicar data/hora automáticas no Power BI Desktop
 
@@ -60,7 +61,7 @@ Quando existe uma tabela de data/hora automáticas para uma coluna de data (e es
 
 A hierarquia de data/hora automáticas gerada pode ser utilizada para configurar um elemento visual exatamente da mesma forma que as hierarquias regulares podem ser utilizadas. Os elementos visuais podem ser configurados com a hierarquia completa **Hierarquia de Data** ou níveis específicos da hierarquia.
 
-Existe, no entanto, uma funcionalidade adicional que não é suportada por hierarquias regulares. Quando a hierarquia de data/hora automática (ou um nível da hierarquia) é adicionada a um elemento visual, os autores do relatório podem alternar entre utilizar a hierarquia ou a coluna de data. Esta abordagem faz sentido para alguns elementos visuais, quando tudo o que precisam é a coluna de data, dispensando a hierarquia e os respetivos níveis. Começam por configurar o campo do elemento visual (clique com o botão direito do rato no campo do elemento visual ou clique na seta para baixo) e, em seguida, utilizam o menu de contexto para alternar entre a coluna de data ou a hierarquia de data.
+Existe, no entanto, uma funcionalidade adicional que não é suportada por hierarquias regulares. Quando a hierarquia de data/hora automática (ou um nível da hierarquia) é adicionada a um elemento visual, os autores de relatórios podem alternar entre utilizar a hierarquia ou a coluna de data. Esta abordagem faz sentido para alguns elementos visuais, quando tudo o que precisam é a coluna de data, dispensando a hierarquia e os respetivos níveis. Começam por configurar o campo do elemento visual (clique com o botão direito do rato no campo do elemento visual ou clique na seta para baixo) e, em seguida, utilizam o menu de contexto para alternar entre a coluna de data ou a hierarquia de data.
 
 ![Exemplo de uma configuração de campo de elemento visual para a hierarquia OrderDate. O menu de contexto aberto apresenta duas opções, o que permite alternar entre a utilização da coluna OrderDate ou a Hierarquia de Data.](media/desktop-auto-date-time/auto-date-time-configure-visuals-fields.png)
 
