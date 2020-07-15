@@ -2,19 +2,19 @@
 title: Utilizar o modo Em Destaque para realçar
 description: O modo Em Destaque no serviço Power BI realça os dados e as informações importantes.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 03/04/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: a1770974915b046d11e89a08f4bc5a618d309a88
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6e668416ad8c7023ddd7a81d90008f5ea8dca1e5
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236969"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264150"
 ---
 # <a name="add-spotlights-to-power-bi-reports"></a>Adicionar destaques a relatórios do Power BI
 

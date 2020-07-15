@@ -2,7 +2,7 @@
 title: Modo de detalhe e modo de ecrã inteiro – como ampliar para ver mais detalhes
 description: Documentação para apresentar um dashboard, um mosaico do dashboard, um relatório ou um elemento visual de relatório do Power BI no modo de detalhe ou no modo de ecrã inteiro
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e399eb8229cc02d0c8abf589849c2d43577dafb7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d474313dd624407fbeecc595a3dad2b416752855
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235292"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216125"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Apresentar conteúdo mais detalhadamente: modo de detalhe e modo de ecrã inteiro
 

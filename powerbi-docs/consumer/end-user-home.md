@@ -2,19 +2,19 @@
 title: Localizar conteúdos na Home Page do serviço Power BI
 description: Na tela Home Page, localize e abra relatórios, dashboards e aplicações.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 83c834b05846c22577b7987d341c295a1e763b59
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7738fef88a82b84c1391af4b3e784b305478ccb2
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79113296"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263922"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Localizar os seus dashboards, relatórios e aplicações
 

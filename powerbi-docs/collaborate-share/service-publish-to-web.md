@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/25/2020
+ms.date: 07/08/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5e7fe8a7c71927a1e89bd4e86209c580ae1f3b29
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 26c27c8cd33929c7bb83a8ef5b1faed0fb12e502
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225671"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216563"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -28,10 +29,6 @@ Com a opção **Publicar na Web** do Power BI, pode incorporar facilmente conte�
 ## <a name="create-embed-codes-with-publish-to-web"></a>Criar códigos incorporados com a funcionalidade Publicar na Web
 
 A funcionalidade **Publicar na Web** está disponível para relatórios editáveis na sua área de trabalho pessoal ou de grupo.  Não está disponível para relatórios partilhados consigo ou cuja segurança de dados dependa da segurança ao nível da linha. Consulte a secção [**Limitações**](#limitations) para obter uma lista completa dos casos em que a funcionalidade **Publicar na Web** não é suportada. Consulte o **Aviso** indicado anteriormente neste artigo antes de utilizar a funcionalidade **Publicar na Web**.
-
-O seguinte vídeo mostra como funciona esta funcionalidade. Depois, experimente por si mesmo ao seguir os passos descritos abaixo.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UF9QtqE7s4Y" frameborder="0" allowfullscreen></iframe>
 
 Os passos seguintes descrevem como utilizar a funcionalidade **Publicar na Web**.
 

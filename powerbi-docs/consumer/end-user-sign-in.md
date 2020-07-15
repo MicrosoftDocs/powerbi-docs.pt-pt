@@ -2,7 +2,7 @@
 title: Iniciar e terminar sessão
 description: Saiba como pode iniciar e terminar sessão no serviço Power BI na Web.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 Ms.custom: css_fy20Q4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fffffff689d7b7a5180b2302c5f6ea278ad69b98
-ms.sourcegitcommit: 3e7e3cb2c2e398cffe8733d99e3ac832ee056dc9
+ms.openlocfilehash: 14db7c1c7e9553f2ed96cc20cd691da057a2e696
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "84973436"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264197"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Iniciar sessão no serviço Power BI
 
