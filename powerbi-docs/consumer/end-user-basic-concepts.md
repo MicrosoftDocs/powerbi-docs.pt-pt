@@ -2,7 +2,7 @@
 title: O serviço Power BI – conceitos básicos para consumidores
 description: As áreas de trabalho, dashboards, relatórios, conjuntos de dados, livros e aplicações do serviço Power BI.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.custom: seodec18
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d8872499bb54e23aabe642f88a541b85948d6656
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: edbadb8d5e366e4f62e14f4df3922d80cdbb35cb
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561995"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162233"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Conceitos básicos para os consumidores do serviço Power BI
 
