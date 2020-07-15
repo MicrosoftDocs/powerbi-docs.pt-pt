@@ -9,11 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: a2e7445db843788293a20fbbebdffd2952dfeb6a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e1925c57869a58f111b77c6a50a1289224440ecb
+ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226189"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "86301005"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Incorporar um relatório num site ou portal seguro
 
@@ -121,8 +122,6 @@ Pode adicionar quantos botões quiser para criar uma experiência personalizada 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
 * Os relatórios paginados em cenários de incorporação segura são suportados, bem como os relatórios paginados com parâmetros URL. Saiba mais sobre como [transmitir parâmetros de relatório num URL para um relatório paginado](../paginated-reports/report-builder-url-pass-parameters.md).
-
-* Não suporta utilizadores convidados externos com a capacidade empresa-empresa (B2B) do Azure.
 
 * A incorporação segura funciona para os relatórios publicados no serviço Power BI.
 

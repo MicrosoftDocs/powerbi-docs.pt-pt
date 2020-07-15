@@ -33,6 +33,10 @@
               href: service-self-service-signup-for-power-bi.md
             - name: Recursos por tipo de licença
               href: service-features-license-type.md
+            - name: Get help purchasing Power BI Pro (Obter ajuda para comprar o Power BI Pro)
+              href: service-self-service-purchase-help.md
+            - name: Get help signing up for Power BI (Obter ajuda para se inscrever no Power BI)
+              href: service-self-service-sign-up-help.md
     - name: Manuais de instruções
       items:
         - name: Obter o Power BI Desktop
