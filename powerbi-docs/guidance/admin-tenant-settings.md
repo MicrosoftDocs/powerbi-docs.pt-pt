@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b024ff52585a4b9b46b60e3230a059b3d07d7b24
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 7dd6c812116d9ba196b157bd12d6362c19ac64ec
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273905"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216719"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Orientação sobre as definições para administradores de inquilinos
 
@@ -41,7 +41,7 @@ Estes URLs serão disponibilizados como ligações no menu de ajuda do Power BI.
 > [!NOTE]
 > Se fornecer o URL dos **Pedidos de licenciamento**, os utilizadores individuais não terão de se inscrever na versão de avaliação gratuita de 60 dias do Power BI Pro. Em vez disso, serão direcionados para o seu site interno e ser-lhes-ão fornecidas informações sobre como adquirir uma licença (Gratuita ou Pro).
 
-![É apresentada a definição Publicar informações para "Obter Ajuda".](media/admin-tenant-settings/publish-get-help-information.png)
+![Captura de ecrã a mostrar o Power B I Desktop, com as definições de Ajuda e Suporte.](media/admin-tenant-settings/publish-get-help-information.png)
 
 ## <a name="manage-risk"></a>Faça a gestão do risco.
 As definições para gerir riscos podem ajudá-lo a estabelecer políticas de governação no seu inquilino do Power BI. No entanto, tenha em atenção que as definições de governação não são uma medida de segurança. Por exemplo, desativar a definição **Exportar dados** remove a funcionalidade da interface de utilizador do Power BI e, desta forma, ajuda os utilizadores do Power BI a trabalhar em conformidade com as políticas de governação da sua organização, mas não impede determinados utilizadores de exportarem dados com outras opções. Do ponto de vista da segurança, um utilizador do Power BI com acesso de leitura a um conjunto de dados tem permissão para consultar esse conjunto de dados e pode fazer persistir os resultados, independentemente das funcionalidades disponíveis na interface de utilizador do Power BI.
@@ -51,7 +51,7 @@ Pode ser notificado por e-mail se o seu inquilino for afetado por um incidente o
 
 Recomendamos a ativação da definição **Receber notificações por e-mail incidentes ou indisponibilidade de serviço**. Poderá encontrá-la no grupo **Definições de ajuda e suporte**. Atribua um ou mais grupos de segurança _com capacidade de correio_.
 
-![É apresentada a definição "Receber notificações por e-mail sobre incidentes ou indisponibilidade de serviço".](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
+![Captura de ecrã a mostrar o Power B I Desktop, com a definição "Receber notificações por e-mail sobre incidentes ou indisponibilidade de serviço".](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
 
 ### <a name="information-protection"></a>Proteção de informação
 
@@ -74,7 +74,7 @@ Recomendamos a atribuição de um ou mais grupos de segurança. É possível con
 
 Certifique-se de que inclui instruções na sua documentação para informar os utilizadores (que não têm direitos de criação de áreas de trabalho) sobre como podem pedir uma nova área de trabalho.
 
-![É apresentada a definição "Criar áreas de trabalho".](media/admin-tenant-settings/create-workspaces.png)
+![Captura de ecrã a mostrar o Power B I Desktop, com a definição "Criar áreas de trabalho".](media/admin-tenant-settings/create-workspaces.png)
 
 ### <a name="share-content-with-external-users"></a>Partilhar conteúdo com utilizadores externos
 
@@ -84,7 +84,7 @@ A definição **Partilhar conteúdo com utilizadores externos** está ativada po
 
 Recomendamos a atribuição de um ou mais grupos de segurança. É possível conceder _ou negar_ permissões a estes grupos para partilhar conteúdos com utilizadores externos.
 
-![É apresentada a definição "Partilhar conteúdo com utilizadores externos".](media/admin-tenant-settings/share-content-with-external-users.png)
+![Captura de ecrã a mostrar o Power B I Desktop, com a definição "Partilhar conteúdo com utilizadores externos".](media/admin-tenant-settings/share-content-with-external-users.png)
 
 ### <a name="publish-to-web"></a>Publicar na Web
 
@@ -96,7 +96,7 @@ Caso esteja ativado, recomendamos a atribuição de um ou mais grupos de seguran
 
 Além disso, existe uma opção que lhe permite escolher como funcionam os seus códigos de incorporação. Por predefinição, está definida como **Permitir apenas códigos existentes**. Isto significa que será pedido aos utilizadores que contactem um administrador do Power BI para criar um código de incorporação.
 
-![É apresentada a definição "Publicar na Web".](media/admin-tenant-settings/publish-to-web.png)
+![Captura de ecrã a mostrar o Power B I Desktop, com a definição "Publicar na Web".](media/admin-tenant-settings/publish-to-web.png)
 
 Também recomendamos que reveja regularmente a definição [publicar códigos de incorporação na Web](https://app.powerbi.com/admin-portal/embedCodes). Se os códigos resultarem na publicação de informações privadas ou confidenciais, remova-os.
 
@@ -111,7 +111,7 @@ Recomendamos a atribuição de um ou mais grupos de segurança. É possível con
 > [!IMPORTANT]
 > Se desativar esta definição, estará também a restringir a utilização das funcionalidades [Analisar no Excel](../collaborate-share/service-analyze-in-excel.md) e [ligação em direto](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) do Power BI.
 
-![É apresentada a definição "Exportar dados".](media/admin-tenant-settings/export-data.png)
+![Captura de ecrã a mostrar o Power B I Desktop, com a definição "Exportar dados".](media/admin-tenant-settings/export-data.png)
 
 > [!NOTE]
 > Se os utilizadores permitirem que outros utilizadores exportem dados, poderá adicionar uma camada de proteção ao aplicar a [proteção de dados](../admin/service-security-data-protection-overview.md). Se a opção for configurada, os utilizadores não autorizados serão impedidos de exportar conteúdos através de etiquetas de confidencialidade.
@@ -124,7 +124,7 @@ A definição **Permitir aos utilizadores externos convidados editarem e gerirem
 
 Se precisar de autorizar utilizadores externos a editar e gerir conteúdos, recomendamos a atribuição de um ou mais grupos de segurança. É possível conceder _ou negar_ permissões a estes grupos para publicar relatórios.
 
-![É apresentada a definição "Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização".](media/admin-tenant-settings/allow-external-guest-users.png)
+![Captura de ecrã a mostrar o Power B I Desktop, com a definição "Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização".](media/admin-tenant-settings/allow-external-guest-users.png)
 
 ### <a name="developer-settings"></a>Definições de programador
 
@@ -135,7 +135,7 @@ Existem duas definições de inquilino relacionadas com a [incorporação de con
 
 Se não tencionar utilizar as APIs de programador para incorporar conteúdos, recomendamos que as desative. Em alternativa, configure os grupos de segurança específicos responsáveis por essa incorporação.
 
-![São apresentadas as definições de programador.](media/admin-tenant-settings/developer-settings.png)
+![Captura de ecrã a mostrar o Power B I Desktop com as definições para programadores.](media/admin-tenant-settings/developer-settings.png)
 
 ## <a name="next-steps"></a>Próximos passos
 
@@ -145,4 +145,3 @@ Para obter mais informações relacionadas com este artigo, consulte os seguinte
 - [Administrar o Power BI no portal de administração](../admin/service-admin-portal.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com)
-

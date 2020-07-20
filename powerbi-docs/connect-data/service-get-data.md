@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 021b5f0856ef4ff3730102efda88fd089a36dfcf
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: bd3ab4a1c6f702ad866211339a3d3a386c4981fa
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320084"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264423"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Origens de dados para o serviço Power BI
 Os dados são o coração do Power BI. Vamos supor que está a explorar os dados. Pode fazê-lo ao criar gráficos e dashboards, ou ao fazer perguntas com as **Perguntas e Respostas**. As visualizações e respostas que vê estão a extrair os dados subjacentes de um conjunto de dados. Mas de onde vem esse conjunto de dados? Vem de uma origem de dados.
@@ -23,14 +23,14 @@ Neste artigo, vamos abordar os tipos de origens de dados aos quais se pode ligar
 
 Pode obter dados a partir de qualquer uma das origens de dados no Power BI ao selecionar **Obter Dados** no canto inferior esquerdo da página.
 
-![](media/service-get-data/pbi-getdata-navigation-link.png) 
+![Captura de ecrã a mostrar o botão Obter Dados no canto inferior esquerdo do ecrã de serviço do Power B I.](media/service-get-data/pbi-getdata-navigation-link.png) 
 
 Depois de selecionar **Obter Dados**, pode escolher os dados aos quais pretende aceder.
 
-![](media/service-get-data/pbi-getdata-startscreen.png)
+![Captura de ecrã a mostrar as opções de Obter Dados, com as opções para escolher os dados a que pretende aceder.](media/service-get-data/pbi-getdata-startscreen.png)
 
 ## <a name="discover-content"></a>Detetar o conteúdo
-![](media/service-get-data/pbi-getdata-discovercontent.png)
+![Captura de ecrã a mostrar a secção de conteúdos Descobrir com os logótipos dos parceiros.](media/service-get-data/pbi-getdata-discovercontent.png)
 
 A secção **Detetar o conteúdo** contém todos os dados e relatórios de que precisa já preparados. No Power BI, há dois tipos de pacotes de conteúdos: Organizacional e Serviços. 
 
@@ -43,7 +43,7 @@ A secção **Detetar o conteúdo** contém todos os dados e relatórios de que p
 A secção **Criar novo conteúdo** contém opções para criar e importar você mesmo os conteúdos. No Power BI, existem duas formas de criar ou importar os seus próprios conteúdos: Ficheiros e Bases de Dados. 
 
 ### <a name="files"></a>Ficheiros
-![](media/service-get-data/pbi_getdata_files.png)
+![Ícone do Excel, do Power BI Desktop e do CSV](media/service-get-data/pbi_getdata_files.png)
 
 **Excel** ( *.xlsx*, *.xlsm*) – no Excel, um livro pode incluir diferentes tipos de dados. Por exemplo, pode incluir dados introduzidos por si em folhas de cálculo. Também pode incluir dados que tenha consultado e carregado a partir de origens de dados externas através do Power Query. O Power Query está disponível através da funcionalidade **Obter e Transformar** no Excel 2016 ou Power Pivot. Pode importar dados de tabelas nas folhas de cálculo ou importar dados de um modelo de dados. Para saber mais, veja [Obter dados de ficheiros para o Power BI](service-get-data-from-files.md).
 
@@ -56,7 +56,7 @@ Para outros tipos de ficheiro, como as tabelas XML ( *.xml*) ou ficheiros de tex
 O local onde armazena os ficheiros também faz uma diferença significativa. O OneDrive para Empresas fornece maior nível de flexibilidade e integração com o Power BI. Não há problema em manter os ficheiros na sua unidade local. No entanto, se precisar de atualizar os dados, existem alguns passos adicionais. Para obter mais informações, veja as seguintes ligações de artigos.
 
 ### <a name="databases"></a>Bases de Dados
-![](media/service-get-data/pbi_getdata_databases.png)
+![Captura de ecrã a mostrar as bases de dados, com as bases de dados nos logótipos da cloud.](media/service-get-data/pbi_getdata_databases.png)
 
 **Bases de Dados na Cloud** – a partir do serviço Power BI, pode ligar em tempo real a:
 

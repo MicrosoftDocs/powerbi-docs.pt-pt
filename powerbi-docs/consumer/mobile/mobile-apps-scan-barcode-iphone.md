@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 88b5c6c377588003a02f571c29ef8baef5540ae3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9265cc94aceb53b1b088f2393ca607c83f94b978
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220224"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264808"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Ler um código de barras com o seu dispositivo a partir da aplicação móvel Power BI
 Leia códigos de barras físicos para aceder diretamente a informações filtradas do Power BI na aplicação móvel do Power BI.
@@ -27,14 +27,14 @@ Aplica-se a:
 
 Suponhamos que um colega [marcou um campo de código de barras num relatório do Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md) e partilhou o relatório consigo. 
 
-![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+![Captura de ecrã a mostrar a leitura de um código de barras de um produto, com o leitor sobre o código de barras de uma bebida colorida.](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
 
 Quando ler um código de barras de um produto com o leitor da aplicação Power BI no seu dispositivo, irá ver o relatório (ou lista de relatórios) com esse código de barras. Pode abrir o relatório filtrado nesse código de barras.
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Ler um código de barras com o leitor do Power BI
 1. Na barra de navegação, toque em **Mais opções** (...) e, em seguida, toque em **Leitor**.
 
-    ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
+    ![Captura de ecrã a mostrar Mais opções no painel de navegação e a seleção do leitor.](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
 
 2. Se a câmara não estiver ativada, tem de aprovar a utilização da câmara pela aplicação do Power BI. Esta aprovação só é feita uma vez. 
 4. Aponte o leitor para um código de barras num produto. Irá ver uma lista de relatórios associados a esse código de barras.
@@ -43,8 +43,8 @@ Quando ler um código de barras de um produto com o leitor da aplicação Power 
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>Filtrar por outros códigos de barras num relatório
 Ao ver um relatório filtrado por um código de barras no seu dispositivo, poderá filtrar esse mesmo relatório por um código de barras diferente.
 
-* Se o código de barras tiver um filtro ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png), o filtro estará ativo e o relatório estará já filtrado por um código de barras. 
-* Se o ícone não tiver um filtro ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png), o filtro não estará ativo e o relatório não estará filtrado por um código de barras. 
+* Se o ícone de código de barras tiver um filtro ![Ícone filtrado](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png), o filtro estará ativo e o relatório estará já filtrado por um código de barras. 
+* Se o ícone não tiver um filtro ![Ícone não filtrado](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png), o filtro não estará ativo e o relatório não estará filtrado por um código de barras. 
 
 Seja qual for o caso, toque no ícone para abrir um pequeno menu com um leitor a pairar.
 

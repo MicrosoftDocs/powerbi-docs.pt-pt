@@ -6,13 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/24/2020
+ms.date: 07/08/2020
 ms.author: painbar
-ms.openlocfilehash: 9655783decee99bc90071cdfbd66a8b58d8272f4
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 2a8186f24e7a82604ab941e25c2a5aa471efe614
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782583"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86386004"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -23,6 +24,13 @@ Para informações sobre “Novidades” relacionadas, veja:
 
 >[!NOTE]
 >O suporte à aplicação móvel Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="july-2020"></a>Julho de 2020
+### <a name="the-power-bi-mobile-app-for-windows-now-supports-organizational-branding"></a>A aplicação móvel Power BI para Windows suporta agora a imagem corporativa organizacional
+Agora, todas as alterações que o administrador fizer ao aspeto e funcionalidade do Power BI para corresponder ao tema da imagem corporativa da sua organização também serão refletidas na aplicação móvel Power BI. Tais alterações podem incluir um novo esquema de cores para a barra de navegação superior, o logótipo da sua organização e uma imagem da faixa.  
+
+### <a name="disable-single-sign-on-via-remote-configuration-ios-and-android"></a>Desativar o início de sessão único através de uma configuração remota (iOS e Android)
+Os administradores de TI podem agora desativar remotamente o início de sessão único na aplicação móvel Power BI, aumentando a segurança e conformidade de permissões em dispositivos de múltiplos utilizadores. [Saiba mais!](mobile-app-configuration.md#disable-single-sign-on-ios-and-android)
 
 ## <a name="june-2020"></a>Junho de 2020
 ### <a name="show-your-bookmarks-in-slideshows-windows"></a>Mostrar os marcadores em apresentações de diapositivos (Windows)
@@ -859,15 +867,15 @@ Leia a [mensagem de blogue do Power BI Mobile publicada em meados de outubro](ht
 * Os gráficos de linhas com um eixo Y baseado em percentagem agora calculam o intervalo de elementos visuais de acordo com os dados reais. O gráfico agora é iniciado a partir do ponto de dados mais baixo no gráfico, em vez de um valor predefinido.
 * Os gráficos de linhas, colunas e barras agora podem ter etiquetas de dados. 
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_mobilelinechart.png)
+    ![Captura de ecrã a mostrar um gráfico de linha, com a percentagem de VTB por mês com etiquetas de dados. ](media/mobile-whats-new-in-the-mobile-apps/pbi_mobilelinechart.png)
 
 #### <a name="iphone"></a>iPhone
 * Mantenha-se atualizado com os mais recentes dashboards dos seus grupos - receba notificações no seu iPhone sempre que um membro da equipa adicionar um dashboard a um dos grupos.
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
+    ![Captura de ecrã a mostrar um dashboard com uma notificação num iPhone.](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
 * Agora, pode ver dashboards horizontalmente, apenas rodando o telemóvel. Leia mais sobre o [modo horizontal na aplicação iPhone](https://powerbi.microsoft.com/blog/enjoy-the-landscape-with-the-power-bi-iphone-app/).
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
+    ![Captura de ecrã a mostrar um dashboard, com o modo horizontal no iPhone.](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
 
 ### <a name="september-2015"></a>Setembro de 2015
 Melhorias nas aplicações móveis do Power BI, Android, iOS (iPhone e iPad) e Windows. Leia a [mensagem de blogue do Power BI Mobile publicada em meados de setembro](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-september-updates-are-here/).

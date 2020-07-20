@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5a363a951e9c8f6cc04f825c64dce811d0a954e8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7ce25bb448d698f8c1ce4b77e8823e96220a1792
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219327"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264470"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Criar um código QR para um mosaico no Power BI a utilizar nas aplicações móveis
 Os códigos QR no Power BI podem ligar qualquer coisa do mundo real diretamente às informações do BI relacionadas &#151; não é necessária navegação ou pesquisa.
@@ -26,13 +26,13 @@ Os colegas com quem partilhou o dashboard podem [digitalizar o código QR para a
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Criar um código QR para um mosaico
 1. Abra um dashboard no serviço Power BI.
-2. Selecione **Mais opções** (...) no canto superior direito do mosaico e, em seguida, **Modo de detalhe** ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg).
+2. Selecione **Mais opções** (...) no canto superior direito do mosaico e selecione **Modo de detalhe** ![ícone de ecrã inteiro](media/service-create-qr-code-for-tile/fullscreen-icon.jpg).
 3. Selecione **Mais opções** (...) no canto superior direito e, em seguida, **Gerar código QR**. 
    
-    ![](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
+    ![Captura de ecrã a mostrar um mosaico, com uma seta a apontar para as reticências para Gerar Código QR.](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
 4. Será apresentada uma caixa de diálogo com o código QR. 
    
-    ![](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
+    ![Captura de ecrã a mostrar uma caixa de diálogo a indicar que o código QR está pronto para ser transferido ou guardado.](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
 5. Aqui, pode digitalizar o código QR ou transferir e guardá-lo para: 
    
    * Adicioná-lo a um e-mail ou a outro documento ou 

@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: fdbb571a30f530ddeba37a7eaf490718b6c8116d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0016c5af8d8e9e154abf3c9e94dc6330a73d358d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230358"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216250"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Ligar a ficheiros armazenados no OneDrive para a sua área de trabalho do Power BI
 Depois de [criar uma área de trabalho no Power BI](../collaborate-share/service-create-distribute-apps.md), pode armazenar os seus ficheiros do Excel, CSV e Power BI Desktop no OneDrive para Empresas para a sua área de trabalho do Power BI. Pode continuar a atualizar os ficheiros que armazena no OneDrive. Essas atualizações são automaticamente refletidas nos relatórios e dashboards do Power BI com base nos ficheiros. 
@@ -33,7 +33,7 @@ A adição de ficheiros à área de trabalho é um processo de dois passos:
 ## <a name="1-upload-files-to-the-onedrive-for-business-for-your-workspace"></a>1 Carregar ficheiros para o OneDrive para Empresas para a sua área de trabalho
 1. No serviço Power BI, selecione a seta junto a Áreas de trabalho > selecione as reticências ( **…** ) junto ao nome da sua área de trabalho. 
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
+   ![Captura de ecrã a mostrar a área de trabalho do Power B I, com o nome da área de trabalho selecionada.](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
 2. Selecione **Ficheiros** para abrir o OneDrive para Empresas para a sua área de trabalho no Microsoft 365.
    
    > [!NOTE]
@@ -42,7 +42,7 @@ A adição de ficheiros à área de trabalho é um processo de dois passos:
    > 
 3. Aqui, pode carregar os seus ficheiros para o OneDrive para Empresas para a sua área de trabalho. Selecione **Carregar**e navegue até aos ficheiros.
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
+   ![Captura de ecrã a mostrar o OneDrive para Empresas, a demonstrar como navegar para carregar um ficheiro.](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
 
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 Importar ficheiros do Excel como conjuntos de dados ou como livros do Excel Online
 Agora que os seus ficheiros estão no OneDrive para Empresas para a sua área de trabalho, tem uma opção. Pode: 
@@ -54,26 +54,26 @@ Agora que os seus ficheiros estão no OneDrive para Empresas para a sua área de
 1. No Power BI, mude para a área de trabalho, de modo a que o nome da área de trabalho apareça no canto superior esquerdo. 
 2. Selecione **Obter Dados** na parte inferior do painel de navegação. 
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
+   ![Captura de ecrã a mostrar o botão Obter Dados no painel de navegação.](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
 3. Na caixa **Ficheiros** , selecione **Obter**.
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
+   ![Captura de ecrã a mostrar a caixa de diálogo Ficheiros com o botão Obter.](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
 4. Selecione **OneDrive** - *O Nome da sua Área de Trabalho*.
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
+    ![Captura de ecrã a mostrar três mosaicos para selecionar a sua área de trabalho, com as opções Arquivo Local, OneDrive e SharePoint.](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
 5. Selecione o ficheiro desejado > **Ligar**.
    
     Neste momento, deve decidir se deseja [importar os dados do livro do Excel](service-get-data-from-files.md) ou [ligar-se a livros completos do Excel](service-excel-workbook-files.md).
 6. Selecione **Importar** ou **Ligar**.
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)
+    ![Captura de ecrã a mostrar a caixa de diálogo do OneDrive para Empresas, com a opção Importar do Excel ou Ligar ao Excel.](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)
 7. Se selecionar **Importar**, o livro aparece no separador **Conjuntos de dados**. 
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-import.png)
+    ![Captura de ecrã a mostrar as Áreas de trabalho no Power B I com o separador Conjuntos de dados.](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-import.png)
    
     Se selecionar **Ligar**, o livro está no separador **Livros**.
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
+    ![Captura de ecrã a mostrar as Áreas de trabalho no Power B I com o separador Livros.](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
 ## <a name="next-steps"></a>Próximos passos
 * [Criar aplicações e áreas de trabalho no Power BI](../collaborate-share/service-create-distribute-apps.md)

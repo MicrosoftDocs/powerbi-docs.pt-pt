@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 17c19fbdf1c5057d287f50531f2b679a19e3a30e
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: ca0a33f42c1b2fd466df9af59bb649ae73d7d594
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939461"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161382"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure AD B2B
 
@@ -62,7 +62,7 @@ Siga estes passos para enviar um convite no portal do Azure.
 
 1. Introduza um **endereço de e-mail** e uma **mensagem pessoal**.
 
-    ![Captura de ecrã da caixa de diálogo Novo Utilizador Convidado do Portal do Azure AD.](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
+    ![Captura de ecrã a mostrar a caixa de diálogo Novo Utilizador Convidado, com os campos de e-mail e mensagem destacados.](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
 
 1. Selecione **Convidar**.
 
@@ -70,17 +70,17 @@ Para convidar mais do que um utilizador, utilize o PowerShell ou crie um convite
 
 O utilizador convidado tem de selecionar **Começar** no convite por e-mail que receber. Ao fazê-lo, o utilizador convidado é adicionado à organização.
 
-![Captura de ecrã do Convite por e-mail ao utilizador convidado.](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
+![Captura de ecrã a mostrar o e-mail de convite do Utilizador Convidado, com Começar destacado.](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
 
 ### <a name="ad-hoc-invites"></a>Convites ad hoc
 
 Para convidar um utilizador externo em qualquer altura, adicione-o ao dashboard ou relatório através da funcionalidade de partilha ou à aplicação através da página de acesso. Eis um exemplo do que deve fazer ao convidar um utilizador externo para utilizar uma aplicação.
 
-![Captura de ecrã do Utilizador externo adicionado à lista de acesso de aplicações no Power BI.](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
+![Captura de ecrã a mostrar o utilizador externo adicionado à lista de acesso da aplicação no Power B I.](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
 O utilizador convidado recebe um e-mail a indicar que partilhou a aplicação com ele.
 
-![Captura de ecrã do E-mail a indicar a partilha da aplicação com o utilizador convidado](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
+![Captura de ecrã a mostrar o e-mail que o utilizador convidado recebe quando a aplicação foi partilhada.](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
 
 O utilizador convidado terá de iniciar sessão com o respetivo endereço de e-mail da organização. Ser-lhe-á pedido que aceite o convite após iniciar sessão. Após iniciar sessão, a aplicação é aberta para o utilizador convidado. Para voltar à aplicação, o utilizador convidado deve adicionar a ligação aos marcadores ou guardar o e-mail.
 
@@ -100,13 +100,13 @@ Atribuir a área de trabalho à [capacidade do Power BI Premium](service-premium
 
 Atribuir uma licença do Power BI Pro da sua organização a um utilizador convidado permite que esse utilizador convidado veja os conteúdos partilhados com ele. Para obter mais informações sobre atribuir licenças, veja [Atribuir licenças a utilizadores na página Licenças](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page). Antes de atribuir licenças Pro a utilizadores convidados, consulte o [site de Termos do Produto](https://www.microsoft.com/licensing/terms) de forma a assegurar que se encontra em conformidade com os termos do seu contrato de licenciamento com a Microsoft.
 
-![Diagrama da experiência do utilizador convidado com licença Assign Pro do seu inquilino.](media/service-admin-azure-ad-b2b/license-approach-2.png)
+![Diagrama da experiência do utilizador convidado com a licença Assign Pro do seu inquilino.](media/service-admin-azure-ad-b2b/license-approach-2.png)
 
 ### <a name="guest-user-brings-their-own-power-bi-pro-license"></a>O utilizador convidado traz a sua própria licença do Power BI Pro
 
 O utilizador convidado pode já ter uma licença do Power BI Pro atribuída através da organização dele.
 
-![Diagrama da experiência de utilizador convidado quando ele traz a sua própria licença.](media/service-admin-azure-ad-b2b/license-approach-3.png)
+![Diagrama da experiência de utilizador convidado quando traz a sua própria licença.](media/service-admin-azure-ad-b2b/license-approach-3.png)
 
 ## <a name="guest-users-who-can-edit-and-manage-content"></a>Utilizadores convidados que podem editar e gerir conteúdo
 
@@ -118,7 +118,7 @@ Para ajudar os utilizadores convidados a iniciar sessão no Power BI, forneça-l
 
 2. Procure o valor junto a **URL de Inquilino**. Partilhe o URL de inquilino com os utilizadores convidados permitidos.
 
-    ![Captura de ecrã da caixa de diálogo Sobre o Power BI com o URL de inquilino do utilizador convidado destacado.](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
+    ![Captura de ecrã a mostrar a caixa de diálogo Sobre o Power B I, com o U R L de Inquilino do utilizador convidado destacado.](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
 
 ## <a name="considerations-and-limitations"></a>Considerações e Limitações
 

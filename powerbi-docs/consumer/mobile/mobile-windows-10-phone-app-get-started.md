@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c40ba6827e788a51402b3aa22497b5ddde1bcdc2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9ebc5857248b2d8c764262e2f27559c1960e1884
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240418"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263314"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introdução à aplicação móvel do Power BI para Windows 10
 A aplicação móvel Power BI para Windows 10 traz o Power BI para o seu tablet ou telemóvel. Obtém acesso móvel atualizado e tátil às suas informações empresariais. Veja e interaja com os seus dashboards de empresa de qualquer lugar, diretamente no [ecrã de Início do Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -67,12 +67,12 @@ Pode ver e interagir com os exemplos no dashboard do Power BI. No entanto, há c
 
 ### <a name="reporting-services-mobile-report-samples"></a>Exemplos de relatórios móveis do Reporting Services
 1. Toque no botão de navegação global ![botão de navegação global](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) no canto superior esquerdo.
-2. Toque no ícone das **Definições**![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), clique com o botão direito do rato, ou mantenha premido **Ligar ao servidor** e, em seguida, toque em **Ver exemplos**.
+2. Toque no ícone das **Definições**![Ícone Definições](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), clique com o botão direito do rato ou mantenha premido **Ligar ao servidor** e, em seguida, toque em **Ver exemplos**.
    
-   ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
+   ![Captura de ecrã a mostrar o ecrã das Definições, com uma seta a apontar para o ícone de definições para ligar a um servidor.](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
 3. Abra a pasta Relatórios de Revenda ou Relatórios de Vendas para explorar os respetivos KPIs e relatórios móveis.
    
-   ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-ssrs-sample-kpis.png)
+   ![Captura de ecrã a mostrar um relatório com o KPI e os relatórios móveis.](media/mobile-windows-10-phone-app-get-started/power-bi-win10-ssrs-sample-kpis.png)
 
 ## <a name="search-for-dashboards-reports-and-apps"></a>Procurar dashboards, relatórios e aplicações
 Encontre os seus dashboards, relatórios e aplicações rapidamente ao escrever na caixa de pesquisa, sempre na parte superior da aplicação.

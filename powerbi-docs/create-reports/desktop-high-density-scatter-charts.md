@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4166c734dd89acdc50967aee90b6a268546a383a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: c744b7b9b0ec15258214c9c7e27332eb4a49ead4
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83338553"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86262915"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Amostragem de alta densidade em gráficos de dispersão do Power BI
 A partir da versão de setembro de 2017 do **Power BI Desktop** e das atualizações ao **serviço Power BI**, há um novo algoritmo de amostragem disponível destinado a melhorar a forma como os gráficos de dispersão representam dados de alta densidade.
 
 Por exemplo, poderá criar um gráfico de dispersão a partir da atividade de vendas da sua organização, cada loja com dezenas de milhares de pontos de dados por ano. Um gráfico de dispersão dessas informações apresentaria uma amostra dos dados (selecione uma representação expressiva desses dados, para ilustrar a variação das vendas ao longo do tempo) dos dados disponíveis e crie um gráfico de dispersão que representa os dados subjacentes. Trata-se de uma prática corrente nos gráficos de dispersão com dados de alta densidade. O Power BI melhorou a respetiva capacidade de amostragem de dados de alta densidade, cujos detalhes são descritos neste artigo.
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
+![Captura de ecrã a mostrar um gráfico de dispersão com a alta densidade de dados de amostragem.](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
 
 > [!NOTE]
 > O algoritmo de **Amostragem de Alta Densidade** descrito neste artigo está disponível em gráficos de dispersão, tanto no **Power BI Desktop** como no **serviço Power BI**.
@@ -59,17 +59,17 @@ Existem circunstâncias em que a **Amostragem de Alta Densidade** não pode ser 
 
 * Se clicar com o botão direito do rato num valor em **Detalhes** e o definir para **Mostrar itens sem dados** no menu, o gráfico de dispersão irá reverter para o algoritmo original.
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
+  ![Captura de ecrã a mostrar o menu de Visualização, com o painel Detalhes e Mostrar itens sem seleção de dados.](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
 * Os valores existentes no eixo **Reproduzir** irá resultar no gráfico de dispersão a reverter para o algoritmo original.
 * Se os eixos X e Y faltarem num gráfico de dispersão, o gráfico é revertido para o algoritmo original.
 * Utilizar uma **Linha de rácio** no painel **Análise** resulta no gráfico a reverter para o algoritmo original.
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
+  ![Captura de ecrã a mostrar o menu de Visualização, com uma seta a apontar para o painel Análise e linha de Rácio.](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Como ativar a amostragem de alta densidade de um gráfico de dispersão
 Para ativar a **Amostragem de Alta Densidade**, selecione um gráfico de dispersão, aceda ao painel **Formatação**, expanda o cartão **Geral** e, na parte inferior do cartão, mude o controlo de deslize **Amostragem de Alta Densidade** para **Ativado**.
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
+![Captura de ecrã a mostrar o menu de Visualização, com uma seta a apontar para o painel de Formatação, cartão Geral e controlo de deslize da Amostragem de Alta Densidade.](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
 
 > [!NOTE]
 > Depois do controlo de deslize estar ativado, o Power BI tentará utilizar o algoritmo **Amostragem de Alta Densidade** sempre que possível. Quando não for possível utilizar o algoritmo (por exemplo, poderá colocar um valor no eixo *Reproduzir*), o controlo de deslize permanece na posição **Ativado**, apesar de o gráfico estar revertido para o algoritmo padrão. Se, em seguida, remover um valor do eixo *Reproduzir* (ou as condições forem alteradas para permitir a utilização do algoritmo de amostragem de alta densidade), o gráfico irá utilizar automaticamente a amostragem de alta densidade para esse gráfico, uma vez que a funcionalidade está ativa.
@@ -84,7 +84,7 @@ A amostragem do algoritmo de alta densidade é uma melhoria importante para o Po
 
 * O algoritmo de **Amostragem de Alta Densidade** funciona apenas com ligações em direto a modelos baseados no serviço Power BI, modelos importados ou do DirectQuery.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 Para obter mais informações sobre a amostragem de alta densidade, consulte os seguintes artigos:
 

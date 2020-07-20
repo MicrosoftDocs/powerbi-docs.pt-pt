@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4d01c7c8b57dda6667ffcd744a7d914ff936b09
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bc1c9987205e86ee9a123bf8ba9afd567c59ff52
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231047"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264713"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Otimizar um dashboard para telemóveis – Power BI 
 Quando vê dashboards no modo vertical num telemóvel, pode reparar que os mosaicos do dashboard estão dispostos um a seguir ao outro, todos com o mesmo tamanho. No serviço Power BI, pode criar uma vista personalizada de um dashboard, especificamente para o modo vertical em telemóveis. Mesmo que crie uma vista de telemóvel, quando vira o telemóvel de lado, vê o dashboard tal como está disposto no serviço.
@@ -26,36 +26,36 @@ Procura informações sobre como ver dashboards num dispositivo móvel? Em alter
 > 
 > 
 
-## <a name="create-a-phone-view-of-a-dashboard"></a>Create a phone view of a dashboard (Criar uma vista de telefone de um dashboard)
+## <a name="create-a-phone-view-of-a-dashboard"></a>Criar uma visualização de telefone de um dashboard
 1. No serviço Power BI, abra um dashboard.
 2. Selecione a seta junto a **Vista Web** no canto superior direito > selecione **Vista do telefone**.
 
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-dashboard.png)
+    ![Captura de ecrã a mostrar o menu pendente da vista Web, com uma seta a apontar para a vista de Telemóvel.](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-dashboard.png)
 
     Se não for o proprietário do dashboard, não verá esta opção.
 
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-canvas.png)
+    ![Captura de ecrã a mostrar o dashboard de um telemóvel, com a opção Editar Vista para desafixar, redimensionar e reorganizar os mosaicos para que caibam na vista de telemóvel.](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-canvas.png)
 
     A vista de edição do dashboard do telefone abre. Aqui, pode remover, redimensionar e reorganizar os mosaicos para se ajustarem à vista do telefone. A versão Web do dashboard não é alterada.
 
 
 1. Selecione um mosaico para arrastar, redimensionar ou remover o mesmo. Irá reparar que os outros mosaicos saem do caminho à medida que arrasta um mosaico.
    
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-unpin-tile-phone-dashboard.png)
+    ![Captura de ecrã a mostrar mosaicos de telemóvel, com uma seleção de mosaicos para arrastar, redimensionar ou desafixar.](media/service-create-dashboard-mobile-phone-view/power-bi-unpin-tile-phone-dashboard.png)
    
     Os mosaicos removidos vão para o painel Mosaicos removidos, onde permanecem, a menos que os adicione novamente.
    
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-post-edit.png)
+    ![Captura de ecrã a mostrar o dashboard de um telemóvel, com mosaicos no painel de mosaicos desafixados.](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-post-edit.png)
 2. Se mudar de ideias, selecione **Repor mosaicos** para voltar a colocá-los no tamanho e na ordem em que se encontravam antes.
    
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-reset-tiles.png)
+    ![Captura de ecrã a mostrar o painel de Mosaicos desafixados, com uma seta a apontar para Repor mosaicos.](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-reset-tiles.png)
    
     Basta abrir a vista de Edição do Telefone no serviço Power BI para alterar ligeiramente o tamanho e a forma dos mosaicos num telemóvel. Por isso, para voltar a colocar o dashboard no estado exato em que estava antes de o abrir na vista de Edição do Telefone, selecione **Repor mosaicos**.
 3. Quando estiver satisfeito com o esquema do dashboard do telefone, selecione a seta junto a **Vista do telefone** no canto superior direito > selecione **Vista Web**.
    
     O Power BI guarda automaticamente o esquema do telefone.
 
-## <a name="next-steps"></a>Próximas etapas
-* [Criar relatórios otimizados para aplicações de telemóvel do Power BI](desktop-create-phone-report.md)
+## <a name="next-steps"></a>Próximos passos
+* [Criar relatórios otimizados para as aplicações móveis do Power BI](desktop-create-phone-report.md)
 * [Criar elementos visuais reativos otimizados para qualquer tamanho](../visuals/power-bi-report-visualizations.md)
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

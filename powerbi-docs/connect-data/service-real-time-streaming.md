@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 2679e9fa21b193fa4c19384c2bd7d22660cf657a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0472baffa765f1a1e7d39e365e40a1f596472a16
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235801"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264383"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmissão em fluxo em tempo real no Power BI
 Com a transmissão em fluxo em tempo real do Power BI, pode transmitir dados em fluxo e atualizar dashboards em tempo real. Também é possível criar qualquer elemento visual ou dashboard passível de geração no Power BI de modo a apresentar e atualizar elementos visuais e dados em tempo real. Os dispositivos e as origens de dados de transmissão em fluxo podem ser sensores de fábrica, origens de redes sociais, métricas de utilização de serviços, entre outros itens a partir dos quais é possível recolher ou transmitir dados temporários.
 
-![Captura de ecrã a mostrar os resultados dos sensores ambientais em tempo real.](media/service-real-time-streaming/real-time-streaming-10.png)
+![Captura de ecrã a mostrar o dashboard Sensores ambientais, com os resultados dos dados em tempo real.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 Este artigo mostra como configurar o conjunto de dados de transmissão em fluxo em tempo real no Power BI. No entanto, antes de abordarmos essa questão, convém compreender os tipos de conjunto de dados em tempo real concebidos para serem apresentados em mosaicos (e dashboards), bem como as diferenças que os distinguem entre si.
 
@@ -61,7 +61,7 @@ Os mosaicos baseados num **conjunto de dados de transmissão em fluxo PubNub** e
 ### <a name="streaming-dataset-matrix"></a>Matriz de conjuntos de dados de transmissão em fluxo
 A tabela que se segue (ou matriz, se preferir) descreve os três tipos de conjunto de dados para a transmissão em fluxo em tempo real e lista as capacidades e limitações de cada um deles.
 
-![](media/service-real-time-streaming/real-time-streaming_11.png)
+![Captura de ecrã a mostrar uma tabela, com a matriz de conjuntos de dados de transmissão em fluxo.](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
 > Veja [este artigo](../developer/automation/api-rest-api-limitations.md) para obter informações sobre as limitações de **Push** no que se refere à quantidade de dados que podem ser emitidos via push.
@@ -92,11 +92,11 @@ Todos os pedidos relativos às APIs REST estão protegidos através do **OAuth d
 ### <a name="using-the-streaming-dataset-ui-to-push-data"></a>Utilizar a IU do Conjunto de Dados de Transmissão em Fluxo para emitir dados via push
 No serviço Power BI, pode criar um conjunto de dados ao selecionar a abordagem **API** conforme mostrado na imagem seguinte.
 
-![](media/service-real-time-streaming/real-time-streaming_0b.png)
+![Captura de ecrã a mostrar as opções Novo conjunto de dados de transmissão, com a seleção da API.](media/service-real-time-streaming/real-time-streaming_0b.png)
 
 Quando cria o novo conjunto de dados de transmissão em fluxo, pode optar por ativar a **Análise de histórico de dados** conforme mostrado abaixo, o que gera um impacto significativo.
 
-![](media/service-real-time-streaming/real-time-streaming_0c.png)
+![Captura de ecrã a mostrar Novo conjunto de dados de transmissão, com a opção Análise de histórico de dados ativada.](media/service-real-time-streaming/real-time-streaming_0c.png)
 
 Quando a **Análise de histórico de dados** está desativada (e está desativada por predefinição), cria um **conjunto de dados de transmissão em fluxo** conforme descrito anteriormente neste artigo. Quando a **Análise de histórico de dados** está *ativada*, o conjunto de dados criado torna-se simultaneamente um **conjunto de dados de transmissão em fluxo** e um **conjunto de dados push**. Isto equivale a utilizar as APIs REST do Power BI para criar um conjunto de dados com o respetivo sinalizador *defaultMode* definido como *pushStreaming*, conforme descrito anteriormente neste artigo.
 
@@ -125,19 +125,19 @@ Para começar a utilizar a transmissão em fluxo em tempo real, precisa de escol
 
 Em qualquer uma das opções, terá de configurar **Dados de transmissão em fluxo** no Power BI. Para tal, no seu dashboard (um dashboard existente ou um novo) selecione **Adicionar um mosaico** e, em seguida, selecione **Dados de transmissão em fluxo personalizados**.
 
-![](media/service-real-time-streaming/real-time-streaming_1.png)
+![Captura de ecrã a mostrar o dashboard, com a seleção Dados de transmissão em fluxo personalizados na secção Adicionar mosaico.](media/service-real-time-streaming/real-time-streaming_1.png)
 
 Se ainda não tiver dados de transmissão em fluxo configurados, não se preocupe. Pode selecionar **gerir dados** para começar.
 
-![](media/service-real-time-streaming/real-time-streaming_2.png)
+![Captura de ecrã a mostrar o dashboard, com a ligação Gerir dados em Adicionar um mosaico de dados de transmissão em fluxo personalizado.](media/service-real-time-streaming/real-time-streaming_2.png)
 
 Nesta página, pode introduzir o ponto final do seu conjunto de dados de transmissão em fluxo se já tiver um criado (na caixa de texto). No caso de ainda não ter um conjunto de dados de transmissão em fluxo, selecione o ícone de adição ( **+** ) no canto superior direito para ver as opções disponíveis para a criação de um conjunto de dados de transmissão em fluxo.
 
-![](media/service-real-time-streaming/real-time-streaming_3.png)
+![Captura de ecrã a mostrar o dashboard, a demonstrar como introduzir o ponto final do conjunto de dados em transmissão em fluxo, com uma seta a apontar para o ícone de adição.](media/service-real-time-streaming/real-time-streaming_3.png)
 
 Quando clicar no ícone **+** , ser-lhe-ão apresentadas duas opções:
 
-![](media/service-real-time-streaming/real-time-streaming_4a.png)
+![Captura de ecrã a mostrar as opções Novo conjunto de dados de transmissão, com as opções da API e do PubNub.](media/service-real-time-streaming/real-time-streaming_4a.png)
 
 A secção seguinte descreve estas opções, além de explicar em detalhe como se cria um **mosaico** de transmissão em fluxo ou um **conjunto de dados** a partir da origem de dados de transmissão em fluxo, que poderá utilizar mais tarde para criar relatórios.
 
@@ -152,7 +152,7 @@ As secções que se seguem analisam cada uma destas opções caso a caso.
 ### <a name="using-the-power-bi-rest-api"></a>Utilizar a API REST do POWER BI
 **API REST do Power BI** - Os recentes melhoramentos na API REST do Power BI visam simplificar a transmissão em fluxo em tempo real para os programadores. Quando seleciona **API** na janela **Novo conjunto de dados de transmissão**, são-lhe apresentadas entradas a preencher que permitem a ligação e utilização do seu ponto final por parte do Power BI:
 
-![](media/service-real-time-streaming/real-time-streaming_5.png)
+![Captura de ecrã a mostrar a caixa de diálogo Novo conjunto de dados de transmissão, com as entradas da API REST do Power BI para a ligação.](media/service-real-time-streaming/real-time-streaming_5.png)
 
 Se quiser que o Power BI armazene os dados enviados através deste fluxo de dados, ative a *Análise de histórico de dados* e isso permitir-lhe-á criar relatórios e análises centrados no fluxo de dados recolhido. Também pode [saber mais sobre a API](https://docs.microsoft.com/rest/api/power-bi/).
 
@@ -163,7 +163,7 @@ Quando efetuar pedidos *POST*, deve certificar-se de que o corpo do pedido corre
 ### <a name="using-pubnub"></a>Utilizar o PubNub
 A integração da transmissão em fluxo **PubNub** com o Power BI permite-lhe utilizar (ou criar novos) fluxos de dados **PubNub** de baixa latência e utilizá-los no Power BI. Quando seleciona **PubNub** e, depois, seleciona **Seguinte**, é-lhe apresentada a seguinte janela:
 
-![](media/service-real-time-streaming/real-time-streaming_7.png)
+![Captura de ecrã a mostrar a caixa de diálogo Novo conjunto de dados de transmissão, com as entradas do PubNub para a ligação.](media/service-real-time-streaming/real-time-streaming_7.png)
 
 > [!WARNING]
 > Os canais de PubNub podem ser protegidos com uma chave de autenticação do Gestor de Acesso de PubNub (PAM). Esta chave será partilhada com todos os utilizadores que têm acesso ao dashboard. Pode [saber mais sobre o controlo de acesso do PubNub](https://www.pubnub.com/docs/web-javascript/pam-security).
@@ -179,7 +179,7 @@ Neste exemplo, utilizamos um fluxo disponível ao público do **PubNub**. Eis os
 
 1. No **serviço Power BI**, selecione um dashboard (ou crie um novo) e selecione **Adicionar mosaico** > **Dados de Transmissão em Fluxo Personalizados** e, em seguida, selecione o botão **Seguinte**.
    
-   ![](media/service-real-time-streaming/real-time-streaming_1.png)
+   ![Captura de ecrã a mostrar o dashboard, com a opção Adicionar mosaico e a seleção Dados de transmissão em fluxo personalizados.](media/service-real-time-streaming/real-time-streaming_1.png)
 2. Se ainda não tiver origens de dados de transmissão em fluxo, selecione a ligação **gerir dados** (logo por cima do botão **Seguinte**) e, em seguida, selecione **+ Adicionar dados de transmissão em fluxo** na ligação presente no canto superior direito da janela. Selecione **PubNub** e, depois, selecione **Seguinte**.
 3. Crie um nome para o conjunto de dados, em seguida, cole os seguintes valores na janela apresentada e, depois, selecione **Seguinte**:
    
@@ -190,13 +190,13 @@ Neste exemplo, utilizamos um fluxo disponível ao público do **PubNub**. Eis os
    
        pubnub-sensor-network
    
-   ![](media/service-real-time-streaming/real-time-streaming_8.png)
+   ![Captura de ecrã a mostrar a caixa de diálogo Novo conjunto de dados de transmissão, a demonstrar como criar um Nome do conjunto de Dados e entradas nos campos Subchave e Nome do canal.](media/service-real-time-streaming/real-time-streaming_8.png)
 4. Na janela seguinte, basta selecionar as predefinições (que estão automaticamente povoadas) e, em seguida, selecione **Criar**.
    
-   ![](media/service-real-time-streaming/real-time-streaming_9.png)
+   ![Captura de ecrã a mostrar a caixa de diálogo Novo conjunto de dados de transmissão, com as predefinições para os campos Nome do conjunto de dados e Valores da transmissão.](media/service-real-time-streaming/real-time-streaming_9.png)
 5. Na área de trabalho do Power BI, crie um novo dashboard e, em seguida, adicione um mosaico (veja acima para obter os passos, se necessário). Desta vez, quando criar um mosaico e selecionar **Dados de Transmissão em Fluxo Personalizados**, terá um conjunto de dados de transmissão em fluxo pronto a utilizar. Aproveite para o experimentar. Se adicionar campos *numéricos* a gráficos de linhas e, em seguida, adicionar outros mosaicos, poderá obter um dashboard em tempo real semelhante ao seguinte:
    
-   ![Captura de ecrã a mostrar os resultados dos sensores ambientais em tempo real.](media/service-real-time-streaming/real-time-streaming-10.png)
+   ![Captura de ecrã a mostrar o dashboard Sensores ambientais, com os resultados em tempo real.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 Experimente e explore o conjunto de dados de exemplo. Em seguida, dedique-se a criar os seus próprios conjuntos de dados e a transmitir dados dinâmicos em fluxo para o Power BI.
 
@@ -228,7 +228,7 @@ Segue-se uma lista de verificação que pode utilizar para resolver o problema:
 
 1. Reinicie a tarefa do Azure Stream Analytics (as tarefas criadas antes da disponibilização de GA de transmissão em fluxo terão de ser reiniciadas)
 2. Experimente voltar a autorizar a ligação do Power BI no Azure Stream Analytics
-3. Qual foi a área de trabalho que especificou na saída de Azure Stream Analytics? Está consultar essa (mesma) área de trabalho no serviço Power BI?
+3. Qual foi a área de trabalho que especificou na saída de Azure Stream Analytics? Está a consultar essa (mesma) área de trabalho no serviço Power BI?
 4. A saída da consulta do Azure Stream Analytics está a apontar explicitamente para a saída do Power BI? (através da palavra-chave INTO)
 5. A tarefa do Azure Stream Analytics tem dados que estejam a ser transmitidos em fluxo? O conjunto de dados só será criado se estiverem a ser transmitidos dados.
 6. Consegue consultar os registos do Azure Stream Analytics para verificar se foram emitidos avisos ou erros?

@@ -6,15 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/19/2020
+ms.date: 07/01/2020
 ms.author: mihart
 ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: ed50045aca966face5d758c9036508bdfef81d5e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 22e044f11b62d3375eabd97545070caaa0bbcfd7
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236543"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162012"
 ---
 # <a name="apps-in-power-bi"></a>Aplicações no Power BI
 
@@ -27,10 +28,10 @@ Uma *aplicação* é um tipo de conteúdo do Power BI que combina dashboards e r
 
 As suas aplicações estão organizadas na lista de conteúdos **Aplicações**. Basta selecionar **Aplicações** para que as suas aplicações sejam apresentadas. Paire o rato sobre uma aplicação para ver a data da última atualização e o proprietário. 
 
-![Aplicações no Power BI](./media/end-user-apps/power-bi-apps.png)
+![Aplicações no Power BI](./media/end-user-apps/power-bi-apps-red.png)
 
 
-A utilização da funcionalidade de aplicações exige uma licença do Power BI Pro ou que a aplicação seja armazenada na capacidade Premium. Para saber mais sobre licenças e capacidade Premium, veja [Licenças para consumidores](end-user-license.md).
+A utilização da funcionalidade de aplicações exige uma licença do Power BI Pro ou que a aplicação seja armazenada na capacidade Premium e partilhada consigo. Para saber mais sobre licenças e capacidade Premium, veja [Licenças para consumidores](end-user-license.md).
 
 ## <a name="app-designers-and-app-consumers"></a>*Designers* e *consumidores* de aplicações
 Consoante o seu cargo, pode ser uma pessoa que cria aplicações (*designer*) para sua utilização ou para partilhar com colegas. Também pode ser uma pessoa que recebe e transfere aplicações (*consumidor*) criadas por outras pessoas. Este artigo é direcionado para *consumidores* de aplicações.
@@ -42,7 +43,14 @@ Com as aplicações, sempre que o autor da aplicação lançar atualizações, o
 
 <!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>Obter uma nova aplicação
-A melhor forma de obter uma nova aplicação é no [marketplace de aplicações do Power BI](https://app.powerbi.com/groups/me/getapps/apps).
+Existem várias formas diferentes de obter uma nova aplicação. Pode procurar, localizar e instalar aplicações, e os criadores de aplicações podem partilhar aplicações consigo. 
+
+### <a name="find-and-install-apps-from-the-power-bi-apps-marketplace"></a>Encontrar e instalar aplicações a partir do marketplace de aplicações do Power BI
+Uma forma de encontrar aplicações consiste em selecionar **Obter aplicação** a partir do ecrã Aplicações do Power BI. 
+
+![Captura de ecrã a mostrar o ecrã Aplicações com o ícone Obter aplicações](./media/end-user-apps/power-bi-get-apps-icon.png)
+
+Navegue na lista de aplicações no marketplace de aplicações do Power BI até encontrar uma para instalar. Escolha a partir de **Aplicações organizacionais**, que estão disponíveis apenas para pessoas na sua empresa, ou **Aplicações de modelo**, que são publicadas pela Microsoft e pela comunidade para qualquer utilizador do Power BI instalar. 
 
 ![Marketplace de aplicações do Power BI](./media/end-user-apps/power-bi-app-marketplace.png)
 
@@ -50,7 +58,7 @@ Existem outras formas de obter aplicações. Algumas destas formas estão listad
 
 * O estruturador de aplicações pode instalar a aplicação automaticamente na sua conta do Power BI e, na próxima vez que abrir o serviço Power BI, verá a nova aplicação na sua lista de conteúdos **Aplicações**. 
 * O estruturador de aplicações pode enviar-lhe uma ligação direta para uma aplicação. Ao selecionar a ligação, abre a aplicação no serviço Power BI.
-* Quanto ao Power BI no seu dispositivo móvel, só pode instalar uma aplicação a partir de uma ligação direta. Não pode fazê-lo a partir do AppSource. Se o autor instalar a aplicação automaticamente, irá vê-la na sua lista de aplicações. 
+* No Power BI no seu dispositivo móvel, só pode instalar uma aplicação a partir de uma ligação direta e não a partir do marketplace de aplicações. Se o autor instalar a aplicação automaticamente, irá vê-la na sua lista de aplicações. 
 
 ## <a name="next-steps"></a>Próximos passos
 * [Abrir e interagir com uma aplicação](end-user-app-view.md)

@@ -10,11 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ee5536f2c4026ceb019c5f89b6045afd44b35529
-ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
+ms.openlocfilehash: 380fe94a123c26d7502ce68bc21372f791a3508f
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "85299624"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162049"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Monitorizar as métricas de utilização na nova experiência de área de trabalho
 
@@ -81,7 +82,7 @@ O relatório de métricas de utilização melhorado inclui as seguintes páginas
 | Comunicar utilização | Visualizadores únicos | Um visualizador é alguém que abriu o relatório, pelo menos, uma vez durante o período de tempo (com base na conta de utilizador do AAD). |
 | Comunicar utilização | Tendência das visualizações | A tendência das visualizações reflete as alterações nas contagens das visualizações ao longo do tempo. Compara a primeira metade do período de tempo selecionado com a segunda metade. |
 | Comunicar utilização | Segmentação de datas | Pode alterar o período de tempo na página Utilização do relatório, por exemplo, para calcular as tendências semana a semana ou quinzenalmente. No canto inferior esquerdo da página Utilização do relatório, pode determinar a data mais antiga e a mais recente para as quais os dados de utilização estão disponíveis no relatório selecionado. |
-| Comunicar utilização | Posição | Com base na contagem das visualizações, a classificação mostra a popularidade de um relatório em comparação com todos os outros relatórios na organização.   |
+| Comunicar utilização | Posição | Com base na contagem das visualizações, a classificação mostra a popularidade de um relatório em comparação com todos os outros relatórios na organização. Uma classificação de 1 significaria que o relatório é o mais visto entre todos os relatórios da organização.   |
 | Comunicar utilização | Visualizações do relatório por dia | Número total de visualizações por dia. |
 | Comunicar utilização | Visualizadores do relatório por dia | Número total de utilizadores diferentes que visualizaram o relatório (com base na conta de utilizador do AAD). |
 | Comunicar utilização | Método de distribuição | A forma como os utilizadores obtiveram acesso ao relatório, por exemplo, são membros de uma área de trabalho, através da partilha de um relatório com eles ou através da instalação de uma aplicação. |
@@ -257,6 +258,8 @@ Para além das diferenças indicadas acima entre os relatórios de métricas de 
 - A inicialização do conjunto de dados Relatório de Métricas de Utilização pode demorar alguns minutos, o que resulta na apresentação de um relatório de métricas de utilização em branco dado que a interface de utilizador do Power BI não espera até que a atualização termine. Verifique o histórico de atualizações nas definições do conjunto de dados Relatório de Métricas de Utilização para confirmar se a operação de atualização ocorreu com êxito.
 - A inicialização do conjunto de dados Relatório de Métricas de Utilização poderá falhar se o tempo limite for excedido durante a atualização. Veja a secção Resolução de problemas abaixo para resolver este problema.
 - A partilha está desativada no relatório das métricas de utilização. Para atribuir às pessoas acesso de leitura ao relatório, primeiro é preciso dar-lhes acesso à área de trabalho.
+- Em alguns cenários, poderá reparar que estão a faltar os dados de desempenho. Isso pode ocorrer se o utilizador abrir um relatório e interagir com o mesmo antes de esse relatório ter sido completamente carregado ou se tiver ocorrido um erro durante o seu carregamento.
+- Os dados de desempenho dependem do envio de dados do cliente/dispositivo para o Power BI. Dependendo da latência de rede, bloqueadores de anúncios, firewalls e regras de rede definidas pela sua organização, os dados de desempenho podem nunca chegar ao Power BI. Portanto, os dados de desempenho só podem apresentar uma amostra e não podem incluir ou mostrar todos os utilizadores. 
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -308,7 +311,7 @@ A Plataforma indica a tecnologia que um visualizador utilizou para abrir um rela
 
 **P:** Como funciona a classificação de relatórios?
 
-**R:** Com base na contagem das visualizações, a classificação mostra a popularidade de um relatório em comparação com todos os outros relatórios na organização.
+**R:** Com base na contagem das visualizações, a classificação mostra a popularidade de um relatório em comparação com todos os outros relatórios na organização. Uma classificação de 1 significaria que o relatório é o mais visto entre todos os relatórios da organização.
 
 **P:** O que são “Utilizadores Sem Nome”?
 
