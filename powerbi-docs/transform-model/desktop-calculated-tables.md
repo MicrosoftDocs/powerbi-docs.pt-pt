@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 3f23f18002ce12c3b6706469f36bde077e117941
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8c22b040a1767d616ce1f4d0e4e7fa26e55bfe19
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237866"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214289"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>Criar tabelas calculadas no Power BI Desktop
 Na maioria das vezes, cria tabelas ao importar dados para o seu modelo a partir de uma origem de dados externa. No entanto, as *tabelas calculadas* permitem-lhe adicionar novas tabelas com base nos dados que já carregou no modelo. Em vez de consultar e carregar valores nas colunas da sua nova tabela a partir de uma origem de dados, crie uma fórmula [DAX (Data Analysis Expressions)](/dax/index) que define os valores da tabela.
@@ -31,11 +31,11 @@ Por exemplo, imagine que é um gestor do pessoal que tem uma tabela **Northwest 
 
 **Northwest Employees**
 
- ![](media/desktop-calculated-tables/calctables_nwempl.png)
+ ![Captura de ecrã a mostrar o Power B I Desktop com dados tabulares dos colaboradores da Northwest.](media/desktop-calculated-tables/calctables_nwempl.png)
 
 **Southwest Employees**
 
- ![](media/desktop-calculated-tables/calctables_swempl.png)
+ ![Captura de ecrã a mostrar o Power BI Desktop com dados tabulares dos colaboradores da Southwest.](media/desktop-calculated-tables/calctables_swempl.png)
 
 Na Vista de Relatório ou Vista de Dados do Power BI Desktop, no grupo **Cálculos** do separador **Modelação**, selecione **Nova Tabela**. É um pouco mais fácil fazer isso na Vista de Dados, porque pode ver imediatamente a sua nova tabela calculada.
 

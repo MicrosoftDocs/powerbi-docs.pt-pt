@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6b130016bf4514b817edbf8c91cfb24d2063e6f1
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279647"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215444"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: Evitar converter espaços em branco em valores
 
@@ -47,7 +47,7 @@ Além disso, a existência de muitos agrupamentos tende a sobrecarregar os utili
 
 Vejamos o que acontece quando a medida **Profit Margin** é adicionada a um elemento visual de tabela, agrupado por cliente.
 
-![Um elemento visual de tabela tem três colunas: Customer, Sales e Profit Margin. A tabela apresenta cerca de 10 linhas de dados, mas a barra de deslocamento vertical indica que existem muito mais linhas que poderiam ser apresentadas. A coluna Sales não apresenta qualquer valor. A coluna Profit Margin apresenta apenas zero.](media/dax-avoid-converting-blank/table-visual-poor.png)
+![Captura de ecrã a mostrar o Power B I Desktop com um elemento visual de tabela de dados com uma linha por cliente. Os valores de vendas EM BRANCO e os valores de Profit Margin são 0%. ](media/dax-avoid-converting-blank/table-visual-poor.png)
 
 O elemento visual de tabela apresenta um número enorme de linhas. (Na verdade, existem 18 484 clientes no modelo e a tabela tenta apresentá-los a todos.) Repare que os clientes visíveis não obtiveram qualquer venda. No entanto, como a medida **Profit Margin** devolve sempre um valor, os mesmos são apresentados.
 
@@ -63,7 +63,7 @@ DIVIDE([Profit], [Sales])
 
 Agora, o elemento visual da tabela apresenta apenas os clientes que realizaram vendas no contexto do filtro atual. A medida melhorada proporciona uma experiência mais eficiente e prática para os utilizadores do seu relatório.
 
-![O mesmo elemento visual de tabela apresenta agora quatro linhas de dados. Cada linha corresponde a um cliente com um valor de vendas e os valores da medida Profit Margin são diferentes de zero.](media/dax-avoid-converting-blank/table-visual-good.png)
+![Captura de ecrã a mostrar o Power B I Desktop com um elemento visual de tabela de dados com conteúdos filtrados.](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
 > Quando for necessário, pode configurar um elemento visual para apresentar todos os agrupamentos (que devolvem valores ou resultados EM BRANCO) no contexto de filtro ao ativar a opção [Mostrar Itens Sem Dados](../create-reports/desktop-show-items-no-data.md).
@@ -80,4 +80,3 @@ Para obter mais informações sobre este artigo, consulte os seguintes recursos:
 
 - [Referência do DAX (Data Analysis Expressions)](/dax/)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

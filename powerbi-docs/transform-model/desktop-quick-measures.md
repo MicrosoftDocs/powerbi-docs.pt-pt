@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2bb48ad44c1f1d440fb5741fc55cc4a83f315dc8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 129b4a22e17b5eab03018efae113ff47133e9dda
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237155"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214170"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>Utilizar medidas rápidas para realizar cálculos comuns
 Pode utilizar *medidas rápidas* para realizar rápida e facilmente cálculos comuns e avançados. Uma medida rápida executa um conjunto de comandos de Expressões de Análise de Dados (DAX) em segundo plano e, em seguida, apresenta os resultados para os utilizar no seu relatório. Não precisa de escrever a expressão DAX, porque isto é feito automaticamente com base na entrada que forneceu numa caixa de diálogo. Existem muitas categorias de cálculos disponíveis e formas de modificar cada cálculo para se ajustarem às suas necessidades. Talvez o melhor de tudo é que pode ver o DAX que é executado pela medida rápida e impulsionar ou expandir os seus próprios conhecimentos de DAX.
@@ -50,10 +50,10 @@ Os cinco tipos de cálculos de medidas rápidas, com os seus cálculos, são:
 * **Análise de tempo**
   * Total do ano até à data
   * Total do trimestre até à data
-  * Total do mês até à data
+  * Total acumulado do mês
   * Alteração ano a ano
   * Alteração trimestre a trimestre
-  * Alteração ao longo dos meses
+  * Alteração mês a mês
   * Média móvel
 * **Totais**
   * Total corrente
@@ -90,7 +90,7 @@ Na janela **Medidas rápidas**, em **Cálculo**, selecione **Média por categori
 
 Arraste **Preço Unitário Médio** do painel **Campos** para o campo **Valor base**. Saia de **Categoria** no campo **Categoria** e selecione **OK**. 
 
-![](media/desktop-quick-measures/quick-measures_06.png)
+![Captura de ecrã a mostrar o Power B I Desktop com a opção Filtros no painel Campos.](media/desktop-quick-measures/quick-measures_06.png)
 
 Quando seleciona **OK**, acontecem várias coisas interessantes.
 
@@ -134,5 +134,5 @@ Existem algumas limitações e considerações a ter em conta.
 Pode utilizar as suas próprias tabelas de dados personalizadas com medidas rápidas da análise de tempo. Se estiver a utilizar um modelo em tabela externo, certifique-se de que, quando o modelo foi criado, a coluna da data principal na tabela foi marcada como uma tabela de datas, conforme descrito em [Especificar Marcar como Tabela de Datas para utilizar com análise de tempo](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular). Se estiver a importar a sua própria tabela de datas, certifique-se de que marca a mesma como uma tabela de datas, conforme descrito em [Configurar e utilizar tabelas de datas no Power BI Desktop](desktop-date-tables.md).
 
 ### <a name="additional-information-and-examples"></a>Informações adicionais e exemplos
-Tem uma ideia para uma medida rápida que ainda não tenha sido dada? Ótimo! Consulte a página [Ideias do Power BI](https://go.microsoft.com/fwlink/?linkid=842906) e envie a suas ideias e fórmulas DAX para medidas rápidas que gostaria de ver no Power BI Desktop. Iremos considerar adicioná-las à lista de medidas rápidas numa versão futura.
+Tem uma ideia para uma medida rápida que ainda não tenha sido dada? Excelente! Consulte a página [Ideias do Power BI](https://go.microsoft.com/fwlink/?linkid=842906) e envie a suas ideias e fórmulas DAX para medidas rápidas que gostaria de ver no Power BI Desktop. Iremos considerar adicioná-las à lista de medidas rápidas numa versão futura.
 

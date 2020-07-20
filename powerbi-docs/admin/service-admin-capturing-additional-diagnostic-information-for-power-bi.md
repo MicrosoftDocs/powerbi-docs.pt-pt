@@ -10,12 +10,12 @@ ms.date: 09/17/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 670373afb5cb890c87a24a129cd43fde7bd5d892
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 49e0b85cb42b008f8d5e3e38296172e24b868fa8
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83128866"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161221"
 ---
 # <a name="capture-additional-diagnostic-information-for-power-bi"></a>Recolher informações de diagnóstico adicionais para o Power BI
 
@@ -25,11 +25,11 @@ Este artigo fornece instruções para recolher manualmente informações de diag
 
 1. Prima **F12** para abrir as ferramentas de programador do Microsoft Edge.
 
-   ![Captura de ecrã do separador Elementos das ferramentas de Programador do Microsoft Edge.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
+   ![Captura de ecrã a mostrar o separador Elementos das ferramentas de Programador do Microsoft Edge.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
 
 1. Selecione o separador **Network** (Rede). Este irá listar o tráfego já capturado.
 
-   ![Captura de ecrã do separador Rede das ferramentas de Programador do Microsoft Edge.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
+   ![Captura de ecrã a mostrar o separador Rede das ferramentas de Programador do Microsoft Edge.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
 
     Pode:
 
@@ -39,11 +39,11 @@ Este artigo fornece instruções para recolher manualmente informações de diag
 
 1. Para parar a criação de perfis da sessão, pode selecionar o quadrado vermelho no separador **Rede** da área de ferramentas de programador.
 
-   ![Captura de ecrã do separador Rede das ferramentas de programador do Microsoft Edge com uma chamada do botão Parar.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
+   ![Captura de ecrã a mostrar o separador Rede das ferramentas de Programador do Microsoft Edge, com um o ícone Parar destacado.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
 
 1. Selecione o ícone de disquete para exportar os dados como um ficheiro de HTTP Archive (HAR).
 
-   ![Captura de ecrã do separador Rede das ferramentas de programador do Microsoft Edge com uma chamada do ícone da disquete.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
+   ![Captura de ecrã a mostrar o separador Rede das ferramentas de Programador do Microsoft Edge, com o ícone de disquete destacado.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
 
 1. Escreva um nome de ficheiro e guarde o ficheiro HAR.
 
