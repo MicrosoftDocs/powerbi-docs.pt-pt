@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3c76fed8f5533ad339904c4f8251a7404270a0ae
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279026"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216610"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Monitorizar o desempenho dos relatórios no Power BI
 
@@ -35,7 +35,7 @@ Utilize o [Query Diagnostics](/power-query/QueryDiagnostics) (Diagnóstico de Co
 > [!NOTE]
 > O Diagnóstico de Consultas é atualmente uma funcionalidade de pré-visualização e, por isso, deve ativá-lo em _Opções e Definições_. Uma vez ativado, os comandos encontram-se disponíveis na janela Editor do Power Query, no separador do friso **Ferramentas**.
 
-![A imagem mostra o separador do friso Ferramentas do Editor do Power Query. O friso apresenta o comando Passo de Diagnóstico, o comando Iniciar Diagnóstico e o comando Parar Diagnóstico.](media/monitor-report-performance/power-query-diagnotics.png)
+![Captura de ecrã a mostrar o friso das Ferramentas do Editor do Power Query, com os comandos Passo de Diagnóstico, Iniciar Diagnóstico e Parar Diagnóstico.](media/monitor-report-performance/power-query-diagnotics.png)
 
 ## <a name="use-performance-analyzer"></a>Utilizar o Analisador de Desempenho
 

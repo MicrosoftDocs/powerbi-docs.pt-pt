@@ -10,11 +10,12 @@ ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 726c265198c7489ac1de055d0fc00b1988109d11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 807ba59066508d063dba2e2f921eff19cf018bc5
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223328"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214591"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Ligar a dados do Project Online através do Power BI Desktop
 Pode ligar aos dados no Project Online a partir do Power BI Desktop.
@@ -36,7 +37,7 @@ Pode ligar aos dados no Project Online a partir do Power BI Desktop.
 
 5. O Power BI Desktop pedirá para se autenticar com a sua conta escolar ou profissional. Selecione Conta organizacional e, em seguida, introduza as suas credenciais.
    
-   ![](media/desktop-project-online-connect-to-data/image.png)
+   ![Captura de ecrã a mostrar o Power B I Desktop com o pedido de credenciais para ligar.](media/desktop-project-online-connect-to-data/image.png)
 
 A conta que utiliza para se ligar ao feed OData tem de ter pelo menos acesso ao Visualizador de Portefólio para o site do Project Web App. 
 

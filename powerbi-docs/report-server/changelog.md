@@ -7,18 +7,19 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 06/30/2020
-ms.openlocfilehash: 0339dd4a8fa7b429db01715060bfd146db115e46
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.date: 07/08/2020
+ms.openlocfilehash: 8b777cba35f32dcf2d6561b73c350d047d473223
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782727"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162281"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registo de alterações do Power BI Report Server
 
 Este registo de alterações destina-se ao Power BI Report Server e lista novos itens, juntamente com correções de erros para cada compilação lançada.
 
-Para obter informações detalhadas sobre as novas funcionalidades, veja [Novidades no Power BI Report Server](whats-new.md). 
+Veja as [Novidades no Power BI Report Server](whats-new.md) para obter mais informações sobre as novas funcionalidades. 
 
 ## <a name="may-2020"></a>Maio de 2020
 - **Power BI Report Server**

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4f9b69e863b71fda0cece06df7065740bd55463e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 620e71ffa08a02dc0d0080b310fb0252388e1b10
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228892"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161198"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Encontrar utilizadores do Power BI que iniciaram sessão
 
@@ -23,7 +23,7 @@ Se for administrador de inquilinos e quiser ver quem iniciou sessão no Power BI
 > [!NOTE]
 > O relatório de **Inícios de sessão** fornece informações úteis, mas não identifica o tipo de licença que cada utilizador tem. Utilize o centro de administração do Microsoft 365 para ver as licenças.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Qualquer utilizador (incluindo não administradores) pode ver um relatório dos seus inícios de sessão, mas tem de cumprir os requisitos seguintes para ver um relatório de todos os utilizadores.
 
@@ -51,7 +51,7 @@ Para ver a atividade de início de sessão, siga estes passos.
 
 Pode [transferir um relatório de início de sessão](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report) num de dois formatos: um ficheiro .CSV ou um ficheiro .JSON.
 
-![Captura de ecrã a mostrar o botão Transferir.](media/service-admin-access-usage/download-sign-in-data-csv.png)
+![Captura de ecrã a mostrar a exportação de dados com a opção Transferir realçada.](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
 Na parte superior do relatório **Inícios de sessão**, selecione **Transferir** e, em seguida, selecione uma das seguintes opções:
 
@@ -63,7 +63,7 @@ Na parte superior do relatório **Inícios de sessão**, selecione **Transferir*
 
 Os dados relacionados com os inícios de sessão estão disponíveis durante um máximo de 30 dias. Para obter mais informações, veja [Políticas de retenção de relatórios do Azure Active Directory](/azure/active-directory/reports-monitoring/reference-reports-data-retention).
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 [Utilizar a auditoria na sua organização](service-admin-auditing.md)
 

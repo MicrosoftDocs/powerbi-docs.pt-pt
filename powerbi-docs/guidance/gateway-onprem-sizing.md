@@ -8,11 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: e1a24d8d15881bf8a1948d91758c7592f75ea7ac
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485950"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214199"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Dimensionamento do gateway de dados no local
 
@@ -32,7 +33,7 @@ A carga de trabalho _Dados em cache_ obtém e transforma os dados de origem para
 1. **Obtenção e transformação dos dados**: os dados são obtidos e, quando necessário, transformados. Sempre que possível, o motor de aplicação híbrida do Power Query emite via push os passos de transformação para a origem de dados – este procedimento é conhecido como _[dobragem de consultas](power-query-folding.md)_ . Quando tal não for possível, as transformações devem ser realizadas pelo gateway. Neste caso, o gateway consumirá mais recursos da memória e da CPU.
 1. **Transferência**: os dados são transferidos para o serviço Power BI. É importante ter uma ligação à Internet fiável e rápida, especialmente para grandes volumes de dados
 
-![Diagrama que apresenta o gateway de dados no local a ligar às origens de dados no local: base de dados relacional, livro do Excel e ficheiros CSV. O gateway obtém e transforma os dados.](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
+![Diagrama a mostrar os Dados em Cache com a ligação do gateway de dados no local às origens no local.](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
 
 ### <a name="live-connection-and-directquery-workloads"></a>Cargas de trabalho Ligação em Direto e DirectQuery
 
@@ -45,7 +46,7 @@ Esta carga de trabalho requer recursos da CPU para encaminhar as consultas e os 
 
 É importante a conectividade consistente, rápida e fiável para garantir que os utilizadores do relatório têm experiências reativas.
 
-![Diagrama que apresenta o gateway de dados a ligar às origens de dados no local: base de dados em tabela e relacional dos Analysis Services. O gateway funciona sobretudo no modo Pass Through.](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
+![Diagrama a mostrar a Ligação em Direto e o DirectQuery, com a ligação do gateway de dados no local às origens no local.](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
 
 ## <a name="sizing-considerations"></a>Considerações sobre o dimensionamento
 

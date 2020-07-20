@@ -1,18 +1,18 @@
 ---
 title: Criar um relatório paginado com um conjunto de dados partilhado do Power BI – Power BI Report Builder
 description: Crie um relatório paginado no Power BI Report Builder com base num conjunto de dados partilhado do Power BI.
-ms.date: 02/12/2020
+ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: a13f346feeddc8196cb35e06acf027baeaa7a151
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d3955b8dde22863e7b0224d335b162846e0741d2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239788"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216880"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Criar um relatório paginado com base num conjunto de dados partilhado do Power BI
 
@@ -104,6 +104,9 @@ Seguem-se os passos para obter a consulta.
     ![Estruturador de Consulta do Report Builder](media/report-builder-shared-datasets/power-bi-report-builder-query-designer.png)
 
 1. Na caixa superior, cole a consulta que copiou do Power BI Desktop.
+
+    > [!NOTE]
+    > Se a sua consulta incluir a função TOPN, elimine-a da sua consulta.
 
 1. Selecione **Executar Consulta** (o ponto de exclamação vermelho, !) para garantir que a sua consulta funciona. 
 

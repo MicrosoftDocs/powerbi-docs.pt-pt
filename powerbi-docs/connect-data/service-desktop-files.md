@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b649b3694eab5a573f814efd707155154d54b18
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c34244669b538a5c3138536adbfd022eb00e646d
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236694"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263042"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Obter dados de ficheiros do Power BI Desktop
-![](media/service-desktop-files/pbid_file_icon.png)
+![Ícone de ficheiro do Power BI Desktop](media/service-desktop-files/pbid_file_icon.png)
 
 O **Power BI Desktop** torna a business intelligence e relatórios mais fáceis. Quer esteja a ligar a várias origens de dados, a consultar e transformar dados, a modelar os seus dados e a criar relatórios poderosos e dinâmicos, o **Power BI Desktop** torna as tarefas de business intelligente intuitivas e rápidas. Se não estiver familiarizado com o **Power BI Desktop**, consulte [Introdução ao Power BI Desktop](../fundamentals/desktop-getting-started.md).
 
@@ -38,13 +38,13 @@ Assim que tiver dados no **Power BI Desktop** e criar alguns relatórios, está 
 
 1. No Power BI, no painel do navegador, clique em **Obter Dados**.
    
-   ![](media/service-desktop-files/pbid_get_data_button.png)
+   ![Captura de ecrã a mostrar a opção Obter Dados, com o botão no painel de navegação.](media/service-desktop-files/pbid_get_data_button.png)
 2. Em **Ficheiros**, clique em **Obter**.
    
-   ![](media/service-desktop-files/pbid_files_get.png)
+   ![Captura de ecrã a mostrar a caixa de diálogo Ficheiros, com o botão Obter.](media/service-desktop-files/pbid_files_get.png)
 3. Encontre o ficheiro. Os ficheiros do Power BI Desktop têm a extensão .PBIX.
    
-   ![](media/service-desktop-files/pbid_find_your_file.png)
+   ![Captura de ecrã a mostrar quatro mosaicos para encontrar o seu ficheiro, com os mosaicos Ficheiro Local, OneDrive Empresas, OneDrive Pessoal e SharePoint.](media/service-desktop-files/pbid_find_your_file.png)
 
 ## <a name="publish-a-file-from-power-bi-desktop-to-your-power-bi-site"></a>Publicar um ficheiro do Power BI Desktop para o site do Power BI
 Utilizar a funcionalidade Publicar a partir do Power BI Desktop é semelhante a utilizar Obter Dados no Power BI, em termos de importar inicialmente os dados do ficheiro a partir de uma unidade local ou ligar ao mesmo no OneDrive. No entanto, existem diferenças: se fizer o carregamento a partir de uma unidade local, deverá atualizar esses dados frequentemente para garantir que as cópias online e locais dos dados estão atualizadas entre si. 
@@ -53,12 +53,12 @@ Segue-se o procedimento mais rápido, mas pode ver [Publicar através do Power B
 
 1. No Power BI Desktop, clique em **Ficheiro** > **Publicar** > **Publicar no Power BI** ou clique em **Publicar** no friso.
    
-   ![](media/service-desktop-files/pbid_publish.png)
+   ![Captura de ecrã a mostrar a opção Publicar no friso, que apresenta como Publicar a partir do Power B I Desktop.](media/service-desktop-files/pbid_publish.png)
 2. Inicie sessão no Power BI. Apenas tem de fazer isto da primeira vez.
    
    Quando terminar, receberá uma ligação para abrir o relatório no site do Power BI.
    
-   ![](media/service-desktop-files/pbid_publishing.png)
+   ![Captura de ecrã a mostrar a caixa de diálogo de confirmação Iniciar sessão, a indicar que iniciou sessão com êxito através de uma ligação para abrir o seu relatório.](media/service-desktop-files/pbid_publishing.png)
 
 ## <a name="next-steps"></a>Próximos passos
 **Explorar os dados** – Depois de obter dados e relatórios do ficheiro no Power BI, chegou a hora de explorá-los. Se o ficheiro já contiver relatórios, estes aparecerão no painel do navegador em **Relatórios**. Se o ficheiro tinha apenas dados, pode criar novos relatórios; basta clicar com o botão direito do rato no novo conjunto de dados e clicar em **Explorar**.

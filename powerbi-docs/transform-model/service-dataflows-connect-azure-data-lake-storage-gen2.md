@@ -9,11 +9,12 @@ ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d6301b4eea49ab4ae5714446e051290cb254c324
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 92244304bcffc3544ca8616fd0b16226361d58c8
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354760"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385958"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Ligar o Azure Data Lake Storage Gen2 para armazenar fluxos de dados
 
@@ -45,6 +46,7 @@ Antes de configurar o Power BI com uma conta do Data Lake Storage Gen2, tem de c
 2. A conta de armazenamento tem de ser criada no mesmo inquilino do AAD que o seu inquilino do Power BI.
 3. A conta de armazenamento tem de ser criada na mesma região que o seu inquilino do Power BI. Para determinar a localização do seu inquilino do Power BI, veja [onde está localizado o meu inquilino do Power BI](../admin/service-admin-where-is-my-tenant-located.md).
 4. A conta de armazenamento tem de ter a funcionalidade *Espaço de Nomes Hierárquico*  ativada.
+5. Se a conta de armazenamento não foi criada pelo utilizador atual, certifique-se de que foram atribuídas ao utilizador atual permissões de [Proprietário de Dados de Blob de Armazenamento](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) e de [proprietário](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner). (Uma vez que o proprietário não detém permissões de nível de dados, o proprietário de Dados de Blob é necessário.)
 
 As secções que se seguem explicam os passos necessários para configurar a sua conta do Azure Data Lake Storage Gen2 ao pormenor.
 

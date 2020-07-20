@@ -10,11 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782415"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161727"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Controlar as atividades dos utilizadores no Power BI
 
@@ -144,7 +145,7 @@ Restrinja os resultados só para atividades do Power BI. Para tal, siga estes p
 
 2. Selecione **Atividades do Power BI**.
 
-   ![Captura de ecrã da Pesquisa de registo de auditoria com atividades do Power BI em destaque.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
+   ![Captura de ecrã a mostrar a Pesquisa de registo de auditoria, com atividades do Power B I em destaque.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
 3. Selecione em qualquer lugar fora da caixa de seleção para fechar.
 
@@ -156,13 +157,13 @@ Pode procurar os registos por intervalo de datas com o campo **Data de início**
 
 Receberá um erro se o intervalo de datas selecionadas for superior a 90 dias. Se estiver a utilizar o intervalo de datas máximo de 90 dias, selecione a hora atual para a **Data de início**. Caso contrário, vai receber uma mensagem de erro a informar que a data de início é anterior à data de fim. Se tiver ativado a auditoria para os últimos 90 dias, não poderá iniciar o intervalo de datas antes da data de auditoria ser ativada.
 
-![Captura de ecrã da Pesquisa de registo de auditoria com as opções Data de Início e Data de Fim em destaque.](media/service-admin-auditing/search-audit-log-by-date.png)
+![Captura de ecrã a mostrar a Pesquisa de registo de auditoria, com as opções Data de Início e Data de Fim em destaque.](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ### <a name="search-the-audit-logs-by-users"></a>Procurar os registos de auditoria por utilizador
 
 Pode procurar entradas de registo de auditoria relativas a atividades efetuadas por utilizadores específicos. Introduza um ou mais nomes de utilizador no campo **Utilizadores**. O nome do utilizador tem o aspeto de um endereço de e-mail. É a conta com a qual os utilizadores iniciam sessão no Power BI. Deixe esta caixa em branco para apresentar as entradas de todos os utilizadores (e as contas de serviço) na sua organização.
 
-![Procurar por utilizadores](media/service-admin-auditing/search-audit-log-by-user.png)
+![Captura de ecrã a mostrar a Pesquisa de registo de auditoria, com os Utilizadores em destaque.](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ### <a name="view-search-results"></a>Ver resultados da pesquisa
 
@@ -197,7 +198,7 @@ Para exportar o registo de auditoria do Power BI para um ficheiro CSV, siga est
 
 1. Selecione **Guardar resultados carregados** ou **Transferir todos os resultados**.
 
-    ![Captura de ecrã da opção Exportar resultados.](media/service-admin-auditing/export-auditing-results.png)
+    ![Captura de ecrã a mostrar a opção Exportar resultados, com a opção Transferir todos os resultados em destaque.](media/service-admin-auditing/export-auditing-results.png)
 
 ### <a name="use-powershell-to-search-audit-logs"></a>Utilize o PowerShell para pesquisar registos de auditoria
 

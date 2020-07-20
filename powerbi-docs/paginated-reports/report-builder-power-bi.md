@@ -1,7 +1,7 @@
 ---
 title: Power BI Report Builder
 description: O Report Builder do Power BI é uma ferramenta para criar relatórios paginados.
-ms.date: 06/29/2020
+ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,11 +9,12 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: a0c22be90b609e25a6403e33cb646b35e9467c07
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: f74fb596fb2a080922d0e62a4492ef6c8ccd4e0d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782755"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216730"
 ---
 # <a name="power-bi-report-builder"></a>Power BI Report Builder
 
@@ -21,9 +22,7 @@ ms.locfileid: "85782755"
  
 Pronto para começar a criação? [Instale o Power BI Report Builder](https://aka.ms/pbireportbuilder) a partir do Centro de Transferências da Microsoft.
 
-Prefere aprender com vídeos? Veja a série de vídeos de relatórios paginados do Power BI no YouTube, pelo Gestor de Programas Principal do Power BI, Chris Finlan.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/78TZeiEhveY?list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ" frameborder="0" allowfullscreen></iframe>
+Prefere aprender com vídeos? Consulte o [Curso em vídeo: Relatórios Paginados do Power BI num Dia](../learning-catalog/paginated-reports-online-course.md).
 
 O relatório paginado que se segue inclui uma matriz com grupos de linhas e colunas, gráficos sparkline, indicadores, um gráfico circular de resumo na célula do canto e um mapa com dois conjuntos de dados geográficos representados por cor e pelo tamanho de círculo.  
 
@@ -62,4 +61,4 @@ O relatório paginado que se segue inclui uma matriz com grupos de linhas e colu
 ## <a name="next-steps"></a>Próximos passos
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)
-- Veja a [série de vídeos de relatórios paginados do Power BI](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) no YouTube, pelo Gestor de Programas Principal do Power BI, Chris Finlan
+- [Curso em vídeo: Relatórios Paginados do Power BI num Dia](../learning-catalog/paginated-reports-online-course.md)

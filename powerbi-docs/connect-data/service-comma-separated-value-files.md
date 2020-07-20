@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4827049ee8eff86b2ce71ee9befd3d01760c0840
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 20c289648dc6e9b9784335c0d92f6725328dfffc
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230469"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216330"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>Obter dados de ficheiros CSV (Valores Separados por Vírgula)
-![](media/service-comma-separated-value-files/csv_icon.png)
+![Ícone de CSV](media/service-comma-separated-value-files/csv_icon.png)
 
 Os ficheiros de valores separados por vírgula, geralmente conhecidos como .CSV, são ficheiros de texto simples com linhas de dados em que cada valor é separado por uma vírgula. Esses tipos de ficheiros podem conter grandes quantidades de dados num tamanho do ficheiro relativamente pequeno, tornando-os uma origem de dados ideal para o Power BI. É possível transferir um ficheiro .CSV de exemplo [aqui](https://go.microsoft.com/fwlink/?LinkID=619356).
 
@@ -41,13 +41,13 @@ Caso tenha um .CSV, é altura de o inserir no seu site do Power BI como um conju
 
 1. No Power BI, no painel do navegador, clique em **Obter Dados**.
    
-   ![](media/service-comma-separated-value-files/csv_get_data_button.png)
+   ![Captura de ecrã a mostrar a opção Obter Dados no Power B I Desktop, com o botão no painel do navegador.](media/service-comma-separated-value-files/csv_get_data_button.png)
 2. Em **Ficheiros**, clique em **Obter**.
    
-   ![](media/service-comma-separated-value-files/csv_files_get.png)
+   ![Captura de ecrã a mostrar a caixa de diálogo Ficheiro com o botão Obter.](media/service-comma-separated-value-files/csv_files_get.png)
 3. Encontre o ficheiro.
    
-   ![](media/service-comma-separated-value-files/csv_find_your_file.png)
+   ![Captura de ecrã a mostrar quatro mosaicos para encontrar o seu ficheiro, com uma seleção de Ficheiro Local, OneDrive Empresas, OneDrive Pessoal e SharePoint.](media/service-comma-separated-value-files/csv_find_your_file.png)
 
 ## <a name="next-steps"></a>Próximos passos
 **Explore os dados** – depois de obter dados do seu ficheiro no Power BI, é altura de explorá-los. Basta clicar com o botão direito do mouse no novo conjunto de dados e clicar em **Explorar**.

@@ -7,14 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 07/09/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 1ff7332bc71935cd6b679fa546dc2f1d37551436
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782548"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215750"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Navegação para consumidores do Power BI: pesquisa global
 
@@ -28,7 +29,7 @@ Enquanto tiver pouca experiência no serviço Power BI, disporá apenas de pouc
 ## <a name="searching-for-content"></a>Pesquisar conteúdos
  A pesquisa está disponível a partir de quase todas as partes do serviço Power BI. Basta procurar a caixa de pesquisa ou o ícone de pesquisa ![ícone de lupa](./media/end-user-search-sort/power-bi-search-icon.png).
 
- No campo Pesquisa, escreva o nome completo ou parcial de um dashboard, relatório, livro, aplicação ou proprietário. O Power BI pesquisa em todo o seu conteúdos. 
+ No campo Pesquisa, escreva o nome completo ou parcial de um dashboard, relatório, livro, área de trabalho, aplicação ou proprietário. O Power BI pesquisa em todo o seu conteúdos. 
 
  ![procurar um relatório](./media/end-user-search-sort/power-bi-search-field.png) 
 

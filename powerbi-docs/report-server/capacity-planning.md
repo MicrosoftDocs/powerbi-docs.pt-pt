@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/02/2020
 ms.author: maggies
-ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f82a3a9e1cf207a006319e6ac7e662baaf5d9d1f
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80647657"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216571"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Orientações de planeamento de capacidade do Power BI Report Server
 Power BI Report Server é uma solução personalizada de relatórios empresariais que os clientes podem implementar no seu local, por trás da firewall. Combina a capacidade de relatórios interativos do Power BI Desktop com a plataforma de servidor no local do SQL Server Reporting Services. Com uma utilização intensa e crescente de análises e relatórios nas empresas, a orçamentação das licenças de software e da infraestrutura de hardware necessárias para dimensionar uma base de utilizadores da empresa pode ser um desafio. Este documento destina-se a oferecer orientação sobre o planeamento da capacidade do Power BI Report Server ao partilhar resultados de numerosas execuções do teste de carga das várias cargas de trabalho em relação a um servidor de relatório. Apesar de os relatórios, as consultas e os padrões de utilização das organizações variarem bastante, os resultados apresentados neste documento, juntamente com os testes reais utilizados e uma descrição detalhada de como foram executados, servem como um ponto de referência para todas as pessoas no processo de planeamento antecipado do Power BI Report Server.
@@ -41,10 +41,10 @@ A implementação do Power BI Report Server consistiu nas seguintes máquinas vi
 
 * Controlador de Domínio do Active Directory: foi necessário pelo SQL Server Database Engine, SQL Server Analysis Services e Power BI Report Server para autenticar em segurança todos os pedidos.
 * O motor de base de dados do SQL Server e SQL Server Analysis Services: foi onde armazenamos todas as bases de dados dos relatórios a consumir depois de serem compostos.
-* Servidor de Relatório do Power BI
+* Power BI Report Server
 * Base de dados do Power BI Report Server. A base de dados do servidor de relatórios está alojada numa máquina diferente do Power BI Report Server, para que não seja necessário competir com o SQL Server Database Engine por memória, CPU, rede e recursos de disco.
 
-![](media/capacity-planning/report-server-topology.png)
+![Diagrama a mostrar a relação entre o Power B I Report Server, o Active Directory e as bases de dados associadas.](media/capacity-planning/report-server-topology.png)
 
 Consulte o Apêndice 1.1 Topologia do Power BI Report Server e Apêndice 1.2 Configuração da Máquina Virtual do Servidor do Power BI Report para saber qual a configuração de cada máquina virtual utilizada na topologia.
 
@@ -62,7 +62,7 @@ Todos os testes foram escritos para efetuar uma operação de ponto a ponto (tai
 > A ferramenta não é suportada oficialmente pela Microsoft, mas a equipa de produto contribui para o projeto e responde a perguntas feitas por outros contribuidores.
 
 ### <a name="workloads"></a>Cargas de trabalho
-Existem 2 perfis de carga de trabalho utilizados nos testes: Relatório Pesada do Power BI e Relatório Paginado Pesado. A tabela abaixo descreve a distribuição de pedidos executados em relação ao Report Server.
+Existem dois perfis de carga de trabalho utilizados nos testes: Heavy do Relatório do Power BI e Heavy do Relatório Paginado. A tabela abaixo descreve a distribuição de pedidos executados em relação ao Report Server.
 
 | Atividade | Relatório Pesado do Power BI, Frequência de ocorrência | Relatório Paginado Pesado, Frequência da ocorrência |
 | --- | --- | --- |
@@ -74,7 +74,7 @@ Existem 2 perfis de carga de trabalho utilizados nos testes: Relatório Pesada d
 ### <a name="user-load"></a>Carregamento do utilizador
 Para cada execução de teste, os testes foram executados com base numa frequência especificada numa de duas cargas de trabalho. Os testes começaram com 20 pedidos simultâneos de utilizador do servidor do relatório. Em seguida, o carregamento de utilizador aumentou gradualmente até a fiabilidade diminuir abaixo dos 99% do valor de destino.
 
-## <a name="results"></a>Resultados
+## <a name="results"></a>Results
 ### <a name="concurrent-user-capacity"></a>Capacidade simultânea de utilizador
 Tal como mencionado anteriormente, os testes começaram com 20 utilizadores em simultâneo com pedidos ao servidor de relatório. Em seguida, o número de utilizadores em simultâneo foi aumentando gradualmente até 1% de todos os pedidos falharem. Os resultados na seguinte tabela indicam o número de pedidos de utilizador em simultâneo que o servidor seria capaz de lidar num pico de carga com uma taxa de falha de menos de 1%.
 

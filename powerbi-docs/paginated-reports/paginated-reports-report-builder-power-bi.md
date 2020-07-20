@@ -9,11 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 05/19/2020
-ms.openlocfilehash: 7483b6878a7f7c2e01be7869827f8de66499cc5f
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 0f07c27cf9c69c07ae7b05c0cbf2573605647252
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393793"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264826"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>O que são relatórios paginados no Power BI Premium?
 
@@ -23,7 +24,7 @@ Frequentemente, os relatórios paginados têm muitas páginas. Por exemplo, este
 
 ![Paginado](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-Pode visualizar o relatório no Report Builder e, em seguida, publicá-lo no serviço Power BI, `https://app.powerbi.com`. Precisa de uma licença do Power BI Pro para publicar um relatório no serviço. Pode publicar e partilhar relatórios paginados em A Minha Área de Trabalho ou em áreas de trabalho, desde que a área de trabalho esteja numa capacidade do Power BI Premium. Além disso, os relatórios paginados têm de ser ativados por um administrador do Power BI na secção [Capacidades Premium](../admin/service-admin-premium-workloads.md#paginated-reports) do portal de administração do Power BI. 
+Pode pré-visualizar o relatório no Report Builder e, em seguida, publicá-lo no serviço Power BI, app.powerbi.com. Precisa de uma licença do Power BI Pro para publicar um relatório no serviço. Pode publicar e partilhar relatórios paginados em A Minha Área de Trabalho ou em áreas de trabalho, desde que a área de trabalho esteja numa capacidade do Power BI Premium. Além disso, os relatórios paginados têm de ser ativados por um administrador do Power BI na secção [Capacidades Premium](../admin/service-admin-premium-workloads.md#paginated-reports) do portal de administração do Power BI. 
 
 ## <a name="compare-power-bi-reports-and-paginated-reports"></a>Comparar relatórios do Power BI e relatórios paginados
 

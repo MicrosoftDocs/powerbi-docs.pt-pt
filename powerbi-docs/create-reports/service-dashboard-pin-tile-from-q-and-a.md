@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d74c6583197441d63cb6c7c40ba44a5b21885b28
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 76c76cf5ae41c369e3810f3a52ee43816184d8e1
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219189"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263046"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Afixar um mosaico a um dashboard a partir das Perguntas e Respostas
 ## <a name="how-to-pin-a-tile-from-qa"></a>Como afixar um mosaico a partir das Perguntas e Respostas
@@ -32,7 +32,7 @@ Para acompanhar, abra o [dashboard do exemplo de Análise de Revenda](sample-ret
    ![escrever uma pergunta](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
 
    a caixa de pergunta dá-lhe sugestões.
-4. Para adicionar o gráfico ao dashboard como um mosaico, selecione o pino ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) no lado direito superior da tela. Se o dashboard foi partilhado consigo, não poderá afixar visualizações.
+4. Para adicionar o gráfico ao seu dashboard como mosaico, selecione o ícone de alfinete ![Ícone de afixar](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) no canto superior direito da tela. Se o dashboard foi partilhado consigo, não poderá afixar visualizações.
 
 5. Afixe o mosaico num dashboard existente ou num novo dashboard.
 

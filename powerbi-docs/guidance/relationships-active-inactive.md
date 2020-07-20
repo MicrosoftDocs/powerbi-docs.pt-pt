@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3e3e44647ca7c85c09a3e7f4b3c309947559f5d3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e8ba3203728a72b26d188e96eb1fa66f62f89a55
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273230"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215131"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>Documento de orientação das relações ativas vs. inativas
 
@@ -29,7 +29,7 @@ Considere um exemplo de um modelo de Importação concebido para analisar o dese
 
 Veja a seguir um diagrama de modelo parcial das duas tabelas.
 
-![Um diagrama de modelo contém duas tabelas: Voo e Aeroporto. O design da relação é descrito no seguinte parágrafo.](media/relationships-active-inactive/flight-model-1.png)
+![Diagrama a mostrar um modelo com duas tabelas: Voo e Aeroporto. O design da relação é descrito no seguinte parágrafo.](media/relationships-active-inactive/flight-model-1.png)
 
 Existem duas relações de modelo entre as tabelas **Voo** e **Aeroporto**. Na tabela **Voo**, as colunas **AeroportoPartida** e **AeroportoChegada** estão relacionadas com a coluna **Aeroporto** da tabela **Aeroporto**. No design de esquema de estrela, a tabela **Aeroporto** é descrita como uma [dimensão de desempenho de funções](star-schema.md#role-playing-dimensions). Neste modelo, as duas funções são _aeroporto de partida_ e _aeroporto de chegada_.
 
@@ -39,13 +39,13 @@ Este modelo de design impõe sérias limitações à forma como os dados podem s
 
 Veja a seguir o design de modelo melhorado.
 
-![O diagrama de modelo contém agora quatro tabelas: Data, Voo, Aeroporto de Partida e Aeroporto de Chegada. O design da relação é descrito no seguinte parágrafo.](media/relationships-active-inactive/flight-model-2.png)
+![Diagrama a mostrar um modelo com quatro tabelas: Data, Voo, Aeroporto de Partida e Aeroporto de Chegada.](media/relationships-active-inactive/flight-model-2.png)
 
 O modelo tem agora duas tabelas de aeroporto: **Aeroporto de Partida** e **Aeroporto de Chegada**. As relações de modelo entre estas tabelas e a tabela **Voo** estão ativas. Tenha também em atenção que os nomes das colunas nas tabelas **Aeroporto de Partida** e **Aeroporto de Chegada** têm a palavra _Partida_ ou _Chegada_ como sufixo.
 
 O design de modelo melhorado suporta a criação do design de relatório seguinte.
 
-![A página de relatório tem duas segmentações de dados e um elemento visual de tabela. As segmentações de dados são Mês e Aeroporto de Partida. O elemento visual da tabela lista os Aeroportos de Chegada e várias estatísticas.](media/relationships-active-inactive/flight-report-design.png)
+![Diagrama a mostrar uma página de relatório com duas segmentações de dados e um elemento visual de tabela. As segmentações de dados são Mês e Aeroporto de Partida.](media/relationships-active-inactive/flight-report-design.png)
 
 A página do relatório filtra por Melbourne como o aeroporto de partida e o elemento visual da tabela agrupa por aeroportos de chegada.
 
@@ -86,7 +86,7 @@ Vamos agora considerar diferentes requisitos de modelo e relatório:
 
 Veja a seguir um diagrama de modelo parcial das duas tabelas.
 
-![Um diagrama de modelo contém duas tabelas: Vendas e Data. A tabela Vendas inclui seis medidas. O design da relação é descrito no seguinte parágrafo.](media/relationships-active-inactive/sales-model.png)
+![Diagrama a mostrar um modelo com duas tabelas: Vendas e Data. A tabela Vendas inclui seis medidas.](media/relationships-active-inactive/sales-model.png)
 
 Existem duas relações de modelo entre as tabelas **Vendas** e **Data**. Na tabela **Vendas**, as colunas **DataDaEncomenda** e **DataDeEnvio** estão relacionadas com a coluna **Data** da tabela **Data**. Neste modelo, as duas funções da tabela **Data** são a _data da encomenda_ e a _data de envio_. É a relação com a coluna **DataDaEncomenda** que está ativa.
 
@@ -110,7 +110,7 @@ CALCULATE(
 
 Este design de modelo suporta a criação do design de relatório seguinte.
 
-![A página de relatório tem uma segmentação de dados e um elemento visual de tabela. A segmentação de dados é Trimestral e o elemento visual da tabela lista as estatísticas das vendas mensais.](media/relationships-active-inactive/sales-report-design.png)
+![Diagrama a mostrar uma página de relatório com uma segmentação de dados e um elemento visual de tabela. A segmentação de dados é Trimestral e o elemento visual da tabela lista as estatísticas das vendas mensais.](media/relationships-active-inactive/sales-report-design.png)
 
 A página de relatório filtra pelo quarto trimestre de 2019. O elemento visual da tabela agrupa por mês e apresenta várias estatísticas de vendas. As medidas **Encomendas** e **Encomendas Enviadas** criam resultados diferentes. Cada uma utiliza a mesma lógica de resumo (contabiliza as linhas da tabela **Vendas**), mas uma propagação de filtro da tabela **Data** diferente.
 

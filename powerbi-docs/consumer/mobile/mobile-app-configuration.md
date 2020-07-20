@@ -5,14 +5,14 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 04/05/2020
+ms.date: 07/14/2020
 ms.author: painbar
-ms.openlocfilehash: 62d95c09761a22f514bb55b5eadd82a6214fdbeb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9b6efd07aad3d2058e49f81ae21095b618123ee
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235120"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385935"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Configurar remotamente a aplicação Power BI com a ferramenta de gestão de dispositivos móveis (MDM)
 
@@ -22,6 +22,7 @@ A aplicação Power BI Mobile suporta os seguintes cenários de configuração:
 
 * Configuração do Servidor de Relatórios (iOS e Android)
 * Definições de proteção de dados (iOS e Android)
+* Desativar o início de sessão único (iOS e Android)
 * Definições de interação (iOS e Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Configuração do servidor de relatórios (iOS e Android)
@@ -45,6 +46,19 @@ A aplicação móvel Power BI para iOS e Android permite que os administradores
 
 >[!NOTE]
 >As definições de proteção de dados serão aplicadas apenas em dispositivos Android que suportam a autenticação biométrica.
+
+## <a name="disable-single-sign-on-ios-and-android"></a>Desativar o início de sessão único (iOS e Android)
+
+Por predefinição, a aplicação móvel Power BI proporciona uma experiência de início de sessão único conveniente para um único utilizador, minimizando o número de vezes que o utilizador tem de fornecer um nome de utilizador e uma palavra-passe. Este comportamento de início de sessão único baseia-se no pressuposto de que o dispositivo é o dispositivo pessoal do utilizador e que existe apenas um utilizador que utiliza o dispositivo e as aplicações no mesmo.
+
+Os administradores podem ativar a definição **DisableSingleSignOn** no ficheiro de configuração da aplicação para configurar remotamente a aplicação, para desativar o início de sessão único e pedir explicitamente a palavra-passe do utilizador ao iniciar sessão.
+
+Esta é uma definição apenas de administração que é configurada através da configuração remota. O utilizador final não pode alterar esta definição.
+
+| Chave | Tipo | Descrição |
+|---|---|---|
+| com.microsoft.powerbi.mobile.DisableSingleSignOn | Booleano | O valor predefinido é Falso.<br><br>Depois de um utilizador terminar sessão, a aplicação não reutilizará as credenciais existentes, mas pedirá ao próximo utilizador que forneça uma palavra-passe para autenticar e ligar ao serviço Power BI.
+ |
 
 ## <a name="interaction-settings-ios-and-android"></a>Definições de interação (iOS e Android)
 
@@ -71,7 +85,7 @@ Em seguida, encontrará os passos de que necessita para criar uma política de c
 
 O portal do Intune permite que os administradores implementem estas definições facilmente na aplicação Power BI através de políticas de configuração da aplicação. No entanto, é suportado qualquer fornecedor de MDM. Se não utilizar o Intune, terá de consultar a documentação relativa à MDM para saber como implementar estas definições.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 * Obtenha a aplicação móvel do Power BI na [App Store](https://apps.apple.com/app/microsoft-power-bi/id929738808) e no [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409)
 * Siga o [@MSPowerBI no Twitter](https://twitter.com/MSPowerBI)

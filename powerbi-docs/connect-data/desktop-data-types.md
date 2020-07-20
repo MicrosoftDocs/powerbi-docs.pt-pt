@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 06033a65acd090f0297a53bfbf0f0a004b68649a
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 40f85c40abd543e4f90a1f571ce648bfc4af7d9e
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561576"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216467"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de dados no Power BI Desktop
 Este artigo descreve os tipos de dados suportados no Power BI Desktop e no Data Analysis Expressions (DAX). 
@@ -28,11 +28,11 @@ No Power BI Desktop, pode determinar e especificar o tipo de dados de uma coluna
 
 **Tipos de dados no Editor de Consultas**
 
-![](media/desktop-data-types/pbiddatatypesinqueryeditort.png)
+![Captura de ecrã a mostrar o friso Tipo de Dados no Editor de Consultas.](media/desktop-data-types/pbiddatatypesinqueryeditort.png)
 
 **Tipos de dados na Vista de Dados ou de Relatório**
 
-![](media/desktop-data-types/pbiddatatypesindatareportview.png)
+![Captura de ecrã a mostrar o friso Tipo de Dados na Vista de Dados.](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
 O menu Tipo de Dados no Editor de Consultas tem dois tipos de dados atualmente não presentes na Vista de Dados ou de Relatório: **Data/Hora/Fuso Horário** e **Duração**. Quando uma coluna com estes tipos de dados é carregada para o modelo e apresentada na vista de Dados ou de Relatório, uma coluna com um tipo de dado de Data/Hora/Fuso Horário é convertida num valor de Data/Hora, enquanto que uma coluna com um tipo de dados de Duração é convertida num Número Decimal.
 

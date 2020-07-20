@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a7e7319bf8f5ccf517596d708dea4c1f4a41590
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 6a21288a8f2946bd1e1a874d0810dd9241b1ffe2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83564455"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216771"
 ---
 # <a name="what-is-power-bi"></a>O que é Power BI?
 O **Power BI** é uma coleção de serviços de software, aplicações e conectores que funcionam em conjunto para transformar as origens de dados não relacionadas em informações coerentes, visualmente envolventes e interativas. Os dados podem ser uma folha de cálculo do Excel ou uma coleção de armazéns de dados híbridos no local e com base na cloud. O Power BI permite-lhe ligar-se facilmente às origens de dados, visualizar e descobrir o que é importante, bem como partilhar os seus conteúdos com qualquer pessoa.
@@ -24,7 +24,7 @@ O Power BI consiste:
 - Num serviço SaaS (*Software como Serviço*) online chamado **serviço Power BI**. 
 - Nas **aplicações móveis** do Power BI para dispositivos Windows, iOS e Android.
 
-![Power BI Desktop, serviço, móvel](media/power-bi-overview/power-bi-overview-blocks.png)
+![Diagrama a mostrar a integração do Power B I Desktop, do Serviço Power B I e do Power B I Mobile.](media/power-bi-overview/power-bi-overview-blocks.png)
 
 Estes três elementos(&mdash;o Power BI Desktop, o serviço Power BI e as aplicações móveis do Power BI&mdash;) foram concebidos para permitir que crie, partilhe e consuma informações empresariais de forma a satisfazer ao máximo as suas necessidades pessoais ou profissionais.
 
@@ -63,7 +63,7 @@ E se não estiver preparado para passar para a cloud e precisar de manter os seu
 
 Pode criar, implementar e gerir relatórios paginados e móveis do Power BI no local com um conjunto de ferramentas e serviços prontos a utilizar fornecidos pelo Power BI Report Server.
 
-![diagrama de relatórios no local](media/power-bi-overview/power-bi-report-server2.png)
+![Diagrama a mostrar a integração do Power B I Desktop, do Serviço Power B I e do Power B I Mobile.](media/power-bi-overview/power-bi-report-server2.png)
 
 O Power BI Report Server é uma solução que o utilizador implementa por trás da firewall e que, em seguida, disponibiliza os seus relatórios aos utilizadores corretos de várias formas, sejam elas através da visualização num browser, num dispositivo móvel ou como uma mensagem de e-mail. E, porque o Power BI Report Server é compatível com o Power BI na cloud, pode passar para a cloud quando estiver preparado. 
 

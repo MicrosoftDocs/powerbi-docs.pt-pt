@@ -9,11 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9fa3ee1c1e0f757eb3b464785c8cb3fe3ab6e78
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238613"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264727"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Utilizar a Tabela de elementos visuais e a Tabela de ponto de dados no Power BI Desktop
 No **Power BI Desktop**, pode explorar os detalhes de uma visualização e ver representações textuais dos dados subjacentes ou registos dos dados individuais do elemento visual selecionado. Estas funcionalidades são, por vezes, referidas como *clicável*, *exploração* ou *exploração de detalhes*.
@@ -73,7 +74,7 @@ Também pode clicar com o botão direito do rato num elemento de dados e selecio
 
 Quando selecionar **Tabela de ponto de dados** para um elemento de dados, a tela do Power BI Desktop apresenta todos os dados associados ao elemento selecionado. 
 
-![](media/desktop-see-data-see-records/visual-table-09.png)
+![Captura de ecrã a mostrar uma tela com todos os dados associados ao elemento selecionado quando seleciona a Tabela de ponto de dados.](media/desktop-see-data-see-records/visual-table-09.png)
 
 Para voltar ao relatório, selecione **< Voltar ao Relatório** no canto superior esquerdo da tela.
 

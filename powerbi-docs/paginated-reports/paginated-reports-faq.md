@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/29/2020
-ms.openlocfilehash: f18f8b56db8635d407417949bc35adb61fb4a2c5
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.date: 07/08/2020
+ms.openlocfilehash: acde398c1d8954b815c86cce77a6be0cfcf1553f
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427566"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216659"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Relatórios paginados no Power BI: PERGUNTAS FREQUENTES 
 
@@ -162,7 +162,7 @@ Sim, esta ação pode ser conseguida utilizando parâmetros de URL com os seus r
 
 Sim, os relatórios paginados são suportados para serem implantados com aplicações das áreas de trabalho v1 e v2. 
 
-### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>As outras funcionalidades específicas do relatório do Power BI, como afixar mosaicos de relatório em dashboards, funcionarão com os relatórios paginados?
+### <a name="will-other-report-specific-features-in-power-bi-like-pinning-report-tiles-to-dashboards-work-with-paginated-reports"></a>As outras funcionalidades específicas do relatório do Power BI, como afixar mosaicos de relatório em dashboards, vão funcionar com os relatórios paginados?
 
 Planeamos que os relatórios suportem os mesmos cenários principais no serviço tanto quanto possível.  O ideal é que, embora a ferramenta de criação dos relatórios seja diferente, da perspetiva do consumidor seja apenas outro relatório na lista no portal. Não se importam como foram criados, desde que façam o que é preciso.  Um bom exemplo desta funcionalidade de paridade é o suporte planeado dos comentários. Embora a própria funcionalidade possa funcionar de forma ligeiramente diferente em cada tipo de relatório, poderá utilizar os comentários em ambos.
 

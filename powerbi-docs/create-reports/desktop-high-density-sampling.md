@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 344b041b8cca3e6ed4be1f40c0e783df18315679
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a41af59873aa8e0504e7ee808a2e87dba1af1121
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324638"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86262871"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Amostragem de linhas de alta densidade no Power BI
 A partir da versão de junho de 2017 do **Power BI Desktop** e das atualizações ao **serviço Power BI**, há um novo algoritmo de amostragem disponível destinado a melhorar os elementos visuais que fornecem uma amostra dos dados de alta densidade. Por exemplo, pode criar um gráfico de linhas a partir dos resultados de vendas das suas lojas de revenda, em que cada loja tem mais de 10 mil recibos de vendas por ano. Um gráfico de linhas dessas informações de vendas forneceria uma amostra dos dados (selecione uma representação expressiva desses dados, para ilustrar como as vendas variam ao longo do tempo) de cada loja e criaria um gráfico de linhas com várias séries que, desse modo, representa os dados subjacentes. Trata-se de uma prática corrente na visualização de dados de elevada densidade. O Power BI Desktop melhorou a respetiva capacidade de amostragem de dados de alta densidade, cujos detalhes são descritos neste artigo.
 
-![](media/desktop-high-density-sampling/high-density-sampling_01.png)
+![Captura de ecrã a mostrar gráficos de linhas com os dados de amostragem de alta densidade.](media/desktop-high-density-sampling/high-density-sampling_01.png)
 
 > [!NOTE]
 > O algoritmo de **Amostragem de Alta Densidade** descrito neste artigo está disponível tanto no **Power BI Desktop** como no **serviço Power BI**.
@@ -77,7 +77,7 @@ Esta situação é frequente com as descrições. Os valores alto e baixo para u
 ## <a name="how-to-turn-on-high-density-line-sampling"></a>Como ativar a amostragem de linhas de alta densidade
 Por predefinição, o novo algoritmo está **ativado**. Para alterar esta definição, aceda ao painel **Formatação**, na secção **Geral** e, ao longo da parte inferior, encontrará um controlo de deslize de alternar chamado **Amostragem de Alta Densidade**. Para o desativar, deslize para a posição **Desativado**.
 
-![](media/desktop-high-density-sampling/high-density-sampling_02.png)
+![Captura de ecrã a mostrar uma amostragem de linhas de alta densidade, com setas a apontar para o painel Formatação, Geral e Amostragem de Alta Densidade.](media/desktop-high-density-sampling/high-density-sampling_02.png)
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 O novo algoritmo para a amostragem de linhas de alta densidade é uma melhoria importante para o Power BI, mas existem algumas considerações que precisa de ter em conta quando trabalhar com dados e valores de alta densidade.
@@ -91,7 +91,7 @@ O novo algoritmo para a amostragem de linhas de alta densidade é uma melhoria i
 * A definição **Mostrar itens sem dados** não é suportada com o novo algoritmo.
 * O novo algoritmo não é suportado quando é utilizada uma ligação em direto para um modelo alojado no SQL Server Analysis Services (versão 2016 ou anterior). É suportado em modelos alojados no **Power BI** ou Azure Analysis Services.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 Para obter informações sobre a amostragem de alta densidade em gráficos de dispersão, veja o seguinte artigo.
 
 * [Amostragem de Alta Densidade em gráficos de dispersão do Power BI](desktop-high-density-scatter-charts.md)

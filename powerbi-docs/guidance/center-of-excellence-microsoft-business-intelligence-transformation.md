@@ -8,18 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 18dc88404b84e786bfee0a15ac169a6e0c1496e4
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 8e1e590f871e1840209e72eb611bde7b21610c6e
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940169"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162373"
 ---
 # <a name="microsofts-bi-transformation"></a>Microsoft's BI transformation (Transformação de BI da Microsoft)
 
 Este artigo destina-se a profissionais e gestores de TI. Ficará a saber mais sobre a nossa estratégia e visão de BI, o que nos permite tirar partido dos nossos dados como um ativo constantemente. Também ficará a saber como gerimos uma cultura de dados de tomada de decisões empresariais com êxito no Power BI.
 
-Antes de mais, algum contexto: hoje em dia, a explosão de dados está a afetar os clientes e as empresas a uma velocidade incrível. Ter êxito neste ambiente intensivo em termos de dados requer que os analistas e executivos convertam quantidades enormes de dados em informações sucintas. As inovações nas ferramentas de BI da Microsoft revolucionaram a forma como a própria Microsoft explora os seus dados e obtém as informações necessárias para criar impacto na empresa.
+Antes de mais, algum contexto: hoje em dia, a explosão de dados está a afetar os clientes e as empresas a uma velocidade incrível. Ter êxito neste ambiente intensivo em termos de dados requer que os analistas e executivos convertam quantidades enormes de dados em informações sucintas. As inovações nas ferramentas de BI da Microsoft mudaram a forma como a própria Microsoft explora os seus dados e obtém as informações necessárias para criar impacto na empresa.
 
 Então, como pode a sua organização revolucionar também a forma como trabalha com dados? Vamos ajudá-lo a perceber ao partilhar a história do nosso percurso de transformação de BI.
 

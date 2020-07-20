@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: f69d55e6c4f0916ac2c0c5083e062b248c4c36de
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b877ec917953bb6ec456a0042035e498c591e1ed
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239422"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86213998"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Como localizar a chave de produto do servidor de relatórios
 Saiba como pode encontrar a chave de produto do Microsoft Power BI Report Server para instalar o servidor num ambiente de produção.
@@ -41,9 +41,9 @@ Se tem um contrato do SQL Server Enterprise SA, pode obter a sua chave de produt
 > 
 > 
 
-![](media/find-product-key/vlsc-download.png "Volume Licensing Service Center")
-
-## <a name="next-steps"></a>Próximas etapas
+![Captura de ecrã a mostrar o SQL Server Enterprise, com o separador Transferências e Chaves com informações de integração do Power B I Report](media/find-product-key/vlsc-download.png "Volume Licensing Service Center").
+ 
+## <a name="next-steps"></a>Próximos passos
 [Instalar o Power BI Report Server](install-report-server.md)  
 [Instalar o Power BI Desktop otimizado para o Power BI Report Server](install-powerbi-desktop.md)  
 [Transferir o Report Builder](https://www.microsoft.com/download/details.aspx?id=53613)  
