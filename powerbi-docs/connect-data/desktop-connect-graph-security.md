@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c691446d7cc9a976e38cab5aefc385c988cb1552
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9f434d27a11d171509645594a6f7f67e62c16faa
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347775"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409312"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Ligar-se à API de Segurança do Microsoft Graph no Power BI Desktop
 
@@ -32,6 +32,7 @@ Para obter autorização necessita do ID e nome da aplicação do conector, que 
 |----------|-------|
 | **Nome da aplicação** | `MicrosoftGraphSecurityPowerBIConnector` |
 | **ID da Aplicação** | `cab163b7-247d-4cb9-be32-39b6056d4189` |
+| **URI de Redirecionamento** | `https://oauth.powerbi.com/views/oauthredirect.html` |
 |||
 
 Para conceder autorização para o conector, o seu administrador de inquilinos do Azure AD pode utilizar qualquer um dos seguintes métodos:
@@ -87,7 +88,7 @@ Eis a janela de resultados para as entidades da Segurança do Microsoft Graph pa
 
 Agora, está pronto para utilizar os dados importados do conector da Segurança do Microsoft Graph no Power BI Desktop. Pode criar gráficos ou relatórios. Em alternativa, pode interagir com outros dados que importa de livros do Excel, de bases de dados ou de outras origens de dados.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 * Consulte exemplos e modelos do Power BI que utilizam este conector no [Microsoft Graph Security GitHub Power BI sample repo](https://aka.ms/graphsecuritypowerbiconnectorsamples) (Repositório de Exemplos da Segurança do Microsoft Graph do Power BI no GitHub).
 
 * Para cenários de utilizador e informações adicionais veja esta [mensagem de blogue sobre o Conector de Segurança do Microsoft Graph do Power BI](https://aka.ms/graphsecuritypowerbiconnectorblogpost).
