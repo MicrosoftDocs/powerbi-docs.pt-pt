@@ -156,8 +156,6 @@
           items:
             - name: Obter dados de ficheiros
               href: service-get-data-from-files.md
-            - name: De um livro do Excel a um relatório incrível
-              href: service-from-excel-to-stunning-report.md
             - name: Obter dados de ficheiros de livros do Excel
               href: service-excel-workbook-files.md
             - name: Obter dados de ficheiros do Power BI Desktop
