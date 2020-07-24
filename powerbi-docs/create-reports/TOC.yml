@@ -11,11 +11,15 @@
     - name: Tutoriais
       expanded: true
       items:
+        - name: 'Power BI Desktop: From Excel to report (do Excel para o relatório)'
+          href: desktop-excel-stunning-report.md
+        - name: 'Power BI service: (Serviço Power BI: ) From Excel to report (do Excel para o relatório)'
+          href: service-from-excel-to-stunning-report.md
         - name: 'Online course: (Curso online:) Relatórios paginados'
           href: ../learning-catalog/paginated-reports-online-course.md
         - name: Criar um relatório paginado e carregar
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
-    - name: Exemplos
+    - name: Amostras
       expanded: true
       items:
         - name: Veja exemplos do Power BI
@@ -87,7 +91,7 @@
               href: ../paginated-reports/report-builder-data.md
             - name: Supported data sources (Origens de dados suportadas)
               href: ../paginated-reports/paginated-reports-data-sources.md
-            - name: Design tips (Sugestões de estrutura)
+            - name: Sugestões de design
               href: ../paginated-reports/report-builder-design-tips.md
             - name: 'Tables, matrixes, lists (Tabelas, matrizes, listas)'
               href: ../paginated-reports/report-builder-tables-matrices-lists.md
@@ -111,7 +115,7 @@
               href: deployment-pipelines-process.md
             - name: Melhores práticas
               href: deployment-pipelines-best-practices.md
-    - name: Manuais de instruções
+    - name: Guias de procedimentos
       items:
         - name: Relatórios do Power BI
           items:
