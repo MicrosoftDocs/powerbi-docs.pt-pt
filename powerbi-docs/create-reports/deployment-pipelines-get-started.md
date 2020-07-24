@@ -7,11 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: 6e9ed3217a7ee589eaf1469ba179ef8c8bc474e9
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 8ce11c0ac6a5098c49f4d8aba0b0a09f28be975b
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354737"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557262"
 ---
 # <a name="get-started-with-deployment-pipelines-preview"></a>Começar a utilizar os pipelines de implementação (pré-visualização)
 
@@ -30,7 +31,7 @@ Se as seguintes condições forem satisfeitas, conseguirá aceder à funcionalid
 >[!NOTE]
 > Também poderá ver o botão dos pipelines de implementação se tiver criado anteriormente um pipeline ou se tiver sido partilhado consigo um pipeline.
 
-![página de destino dos pipelines de implementação](media/deployment-pipelines-get-started/creating-pipeline.png)
+![Captura de ecrã da página de destino dos pipelines de implementação.](media/deployment-pipelines-get-started/creating-pipeline.png)
 
 ## <a name="step-1---create-a-deployment-pipeline"></a>Passo 1 – Criar um pipeline de implementação
 
@@ -83,7 +84,7 @@ Uma vez concluída a implementação, atualize o conjunto de dados. Para obter m
 
 Selecione a fase a partir da qual quer implementar e clique no botão de implementação. O processo de implementação cria uma área de trabalho duplicada na fase de destino. Esta área de trabalho inclui todo o conteúdo existente na fase atual.
 
-[![implementar](media/deployment-pipelines-get-started/deploy.png "Implementar todo o conteúdo")](media/deployment-pipelines-get-started/deploy.png#lightbox)
+[![Captura de ecrã a mostrar o botão de implementação para as fases de desenvolvimento e teste num pipeline de implementação.](media/deployment-pipelines-get-started/deploy.png)](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>Implementação seletiva
 
@@ -91,7 +92,7 @@ Para implementar apenas itens específicos, clique na ligação **Mostrar mais**
 
 Uma vez que os dashboards, os relatórios e os conjuntos de dados estão relacionados e têm dependências, pode utilizar o botão Selecionar relacionados para selecionar todos os itens relacionados. Por exemplo, se quiser implementar um relatório na fase seguinte, clicar no botão Selecionar relacionados marcará o conjunto de dados a que o relatório está associado para que ambos sejam implementados em simultâneo e o relatório não falhe.
 
-[![implementação seletiva](media/deployment-pipelines-get-started/selective-deploy.png "Implementação seletiva")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
+[![Captura de ecrã a mostrar a opção de implementação seletiva nos pipelines de implementação, disponível após a seleção da opção Mostrar mais.](media/deployment-pipelines-get-started/selective-deploy.png)](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
 
 >[!NOTE]
 > * Não poderá implementar um relatório ou dashboard na fase seguinte se os itens dependentes não existirem na fase na qual está a implementar.
@@ -103,7 +104,7 @@ Pode optar por implementar numa fase anterior, por exemplo, num cenário em que 
 
 A implementação numa fase anterior só funcionará se a fase anterior não tiver conteúdo. Ao implementar na fase anterior, não pode selecionar itens específicos. Todo o conteúdo na fase será implementado.
 
-[![implementação retroativa](media/deployment-pipelines-get-started/deploy-back.png "Implementação retroativa")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
+[![Captura de ecrã a mostrar o botão Implementar na fase anterior, disponível nos menus da fase de produção ou de teste.](media/deployment-pipelines-get-started/deploy-back.png)](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
 ## <a name="step-4---create-dataset-rules"></a>Passo 4 – Criar regras de conjuntos de dados
 
@@ -120,15 +121,15 @@ As regras de conjuntos de dados são definidas em origens de dados e parâmetros
 
 1. Na fase do pipeline para a qual quer criar uma regra de conjunto de dados, clique em **Definições de implementação**.
 
-    ![definições de implementação](media/deployment-pipelines-get-started/deployment-settings.png)
+    ![Captura de ecrã do botão Definições de implementação, localizado no canto superior direito de cada fase do pipeline de implementação.](media/deployment-pipelines-get-started/deployment-settings.png)
 
 2. No painel Definições de implementação, selecione o conjunto de dados para o qual quer criar uma regra.
 
-    [![regras do conjunto de dados](media/deployment-pipelines-get-started/dataset-rules.png "Selecionar um conjunto de dados")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
+    [![Captura de ecrã a mostrar a seleção de um conjunto de dados para criar uma regra de conjunto de dados.](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
 3. Selecione o tipo de regra que quer criar, expanda a lista e clique em **Adicionar regra**.
 
-     [![adicionar regra](media/deployment-pipelines-get-started/add-rule.png "Adicionar uma regra")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
+     [![Captura de ecrã a mostrar a seleção de uma regra de origem de dados e o clique na opção Adicionar regra.](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
 ### <a name="dataset-rule-types"></a>Tipos de regras de conjuntos de dados
 
@@ -151,6 +152,8 @@ Existem dois tipos de regras que pode criar:
 * Quando um item é removido ou eliminado, as regras também são eliminadas. Estas regras não podem ser restauradas.
 
 * Se a origem de dados ou os parâmetros definidos numa regra forem alterados ou removidos do conjunto de dados de origem, a regra não será válida e a implementação falhará.
+
+* As regras dos parâmetros não podem ser definidas para parâmetros que sejam do tipo *Qualquer* ou *Binário*. Para obter mais informações, veja [Restrições dos parâmetros de atualização dos conjuntos de dados](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparameters).
 
 * As regras de origens de dados só podem ser definidas para as seguintes origens de dados:
     * Azure Analysis Services
@@ -179,7 +182,7 @@ A hora de implementação é útil para saber quando uma fase foi atualizada pel
 
 Quando duas fases sequenciais têm conteúdo, o conteúdo é comparado com base nos metadados dos itens de conteúdo. Esta comparação não inclui dados de comparação nem a hora de atualização entre as fases.
 
- [![fluxo de implementação](media/deployment-pipelines-get-started/deployment-flow.png "Comparar fases")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
+ [![Captura de ecrã a mostrar um pipeline de implementação com os indicadores de comparação.](media/deployment-pipelines-get-started/deployment-flow.png)](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
 
 Para permitir uma rápida perceção visual das diferenças entre duas fases sequenciais, é apresentado um indicador de comparação entre ambas. O indicador de comparação tem dois estados:
 
@@ -200,13 +203,13 @@ Quando duas fases sequenciais não são idênticas, é apresentada uma ligação
     >[!NOTE]
     >A implementação não afetará os itens *em falta*.
 
- [![comparar](media/deployment-pipelines-get-started/compare.png "Vista de comparação")](media/deployment-pipelines-get-started/compare.png#lightbox)
+ [![Captura de ecrã a mostrar a opção de comparação que expande a vista de comparação e permite comparar itens entre as fases dos pipeline de implementação.](media/deployment-pipelines-get-started/compare.png)](media/deployment-pipelines-get-started/compare.png#lightbox)
 
 ## <a name="overriding-content"></a>Conteúdo substituído
 
 Quando implementar depois de fazer alterações ao conteúdo na fase de origem, o conteúdo alterado na fase de destino será substituído. Depois de clicar em *Implementar*, receberá um aviso com o número de itens que serão substituídos.
 
-![aviso de conteúdo substituído](media/deployment-pipelines-get-started/replaced-content.png)
+![Captura de ecrã do aviso de conteúdo substituído, apresentado quando uma implementação está prestes a fazer alterações nos itens na fase na qual está a implementar.](media/deployment-pipelines-get-started/replaced-content.png)
 
 Pode saber mais sobre [os itens que são copiados para a fase seguinte](deployment-pipelines-process.md#deployed-items) e [os itens que não são copiados](deployment-pipelines-process.md#unsupported-items) em [Compreender o processo de implementação](deployment-pipelines-process.md).
 

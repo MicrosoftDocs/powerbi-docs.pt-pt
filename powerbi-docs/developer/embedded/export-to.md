@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 03/24/2020
-ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.date: 07/13/2020
+ms.openlocfilehash: 04dae0a59391ba48c7a8b6858c98ed11490ca946
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034503"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557110"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportar relatório do Power BI para ficheiro (pré-visualização)
 
@@ -117,9 +117,10 @@ Uma tarefa que exceda o número de pedidos simultâneos não termina. Por exempl
 
 Ao criar uma tarefa de exportação, existem três passos a seguir:
 
-1. Enviar um pedido de exportação.
-2. Consulta.
-3. Obter o ficheiro.
+1. [Enviar um pedido de exportação](#step-1---sending-an-export-request).
+2. [Consulta](#step-2---polling).
+3. [Obter o ficheiro](#step-3---getting-the-file).
+4. [Utilizar o fluxo de ficheiros](#step-4---using-the-file-stream).
 
 Esta secção mostra exemplos de cada passo.
 
@@ -231,6 +232,10 @@ public class ExportedFile
     public string FileSuffix;
 }
 ```
+
+### <a name="step-4---using-the-file-stream"></a>Passo 4 – Utilizar o fluxo de ficheiros
+
+Quando tiver o fluxo de ficheiros, pode processá-lo da forma que melhor se adequa às suas necessidades. Por exemplo, pode enviar um e-mail ou utilizá-lo para transferir os relatórios exportados.
 
 ### <a name="end-to-end-example"></a>Exemplo ponto a ponto
 

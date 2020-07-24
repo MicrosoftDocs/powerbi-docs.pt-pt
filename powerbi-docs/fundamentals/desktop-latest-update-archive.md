@@ -6,14 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a8b2934c47d3bc85b1710927fefb814f027c035
-ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
+ms.openlocfilehash: f0eef1441eb0bb87b6e7b85e791c47174c752bc7
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84685266"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409427"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Atualizações mensais anteriores do Power BI Desktop
 
@@ -31,6 +32,94 @@ As ligações ao lado de cada atualização significam o seguinte:
 Também pode ver o vídeo de **Atualizações Mais Recentes** no início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
 
 As secções seguintes descrevem as atualizações dos meses anteriores ao **Power BI Desktop**.
+
+
+## <a name="june-2020-update-2825858301"></a>Atualização de junho de 2020 (2.82.5858.301)
+
+O nosso Power BI Desktop de junho pareceu um novo começo repleto de novas capacidades, funcionalidades em disponibilidade geral e muitas oportunidades para entrar no mundo de dados e interagir. 
+
+Obtenha a versão mais recente do Power BI Desktop a partir do [Centro de Transferências](https://www.microsoft.com/download/details.aspx?id=58494). Se tiver o Windows 10, também poderá obter o Power BI Desktop através da [Microsoft Store](https://aka.ms/pbidesktopstore). Independentemente do modo como instalar o Power BI Desktop, as versões mensais são as mesmas embora a numeração das versões possa diferir. Para obter mais informações sobre como transferir e instalar o Power BI Desktop, veja [Obter o Power BI Desktop](desktop-get-the-desktop.md). 
+
+> [!IMPORTANT]
+> A partir da versão de setembro de 2019, o Power BI Desktop é lançado apenas como um único ficheiro .exe que contém todos os idiomas suportados. A versão. msi já não será lançada.
+
+
+As ligações que se encontram ao lado de cada funcionalidade na lista de atualizações do Power BI Desktop são interpretadas da seguinte forma:
+
+* \[blogue\]: a maior parte das funcionalidades são explicadas numa secção da publicação do blogue de atualização mensal.
+* \[vídeo\]: algumas funcionalidades têm um excerto de vídeo que fala sobre a funcionalidade, reproduzido num novo separador do browser.
+* \[artigo\]: algumas funcionalidades têm um artigo que proporciona mais detalhes.
+* As funcionalidades restantes são facilmente compreensíveis e não precisam de um artigo ou vídeo.
+
+Também pode ver o [vídeo da atualização mensal do Power BI Desktop](#power-bi-desktop-monthly-update-video) na sua totalidade.
+
+As atualizações seguintes são novas no Power BI Desktop este mês:
+
+
+### <a name="reporting"></a>Relatórios
+* Melhoramentos à criação de esquemas para dispositivos móveis [[vídeo]](https://youtu.be/WUo8TnHNHYM?t=15) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_mobile) 
+* A atualização automática da página está agora em disponibilidade geral [[vídeo]](https://youtu.be/WUo8TnHNHYM?t=266) [[artigo]](../create-reports/desktop-automatic-page-refresh.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_APR) 
+* A segmentação de dados hierárquica está agora em disponibilidade geral [[vídeo]](https://youtu.be/WUo8TnHNHYM?t=819) [[artigo]](../create-reports/desktop-drill-through-buttons.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Hierarchical_slicer) 
+* O friso moderno está agora em disponibilidade geral [[vídeo]](https://youtu.be/WUo8TnHNHYM?t=1057) [[artigo]](../create-reports/desktop-ribbon.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_ribbon) 
+* O RLS é agora suportado para Tabelas em Destaque na galeria de Tipos de Dados do Excel [[vídeo]](https://youtu.be/WUo8TnHNHYM?t=1075) [[artigo]](../collaborate-share/service-excel-featured-tables.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_RLS) 
+
+
+
+### <a name="analytics"></a>Análise
+* As informações de IA estão agora em disponibilidade geral [[vídeo]](https://youtu.be/WUo8TnHNHYM?t=1106) [[artigo]](../transform-model/desktop-ai-insights.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_AI) 
+
+
+### <a name="visuals"></a>Visuais
+* Opções de formatação de pontos de gráficos de linhas [[vídeo]](https://youtu.be/WUo8TnHNHYM?t=1262) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Line_chart)
+* Muitos elementos visuais novos de vários fornecedores [[vídeo]](https://youtu.be/WUo8TnHNHYM?t=1342) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Radar)
+
+### <a name="template-apps"></a>Aplicações de modelo
+* Análise de RH ágil [[vídeo]](https://youtu.be/WUo8TnHNHYM?t=1482) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Agile_HR_Analytics)
+* Relatório de Dados de Utilizadores da Uber [[vídeo]](https://youtu.be/WUo8TnHNHYM?t=1507) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Uber_User_Data)
+
+
+### <a name="modeling"></a>Modelação
+* Vista do modelo ativada para ligação em direto (pré-visualização) [[vídeo]](https://youtu.be/WUo8TnHNHYM?t=1527) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Model_view_enabled)
+* Atualizações à Vista do modelo [[vídeo]](https://youtu.be/WUo8TnHNHYM?t=1624) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Updates_to_Model)
+
+
+### <a name="data-connectivity"></a>Conectividade de dados
+* Conector Palantir Foundry [[vídeo]](https://youtu.be/WUo8TnHNHYM?t=1700) [[artigo]](../connect-data/desktop-data-sources.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Palantir) 
+
+
+### <a name="other-features"></a>Outras funcionalidades
+* Novas formações do Power BI [[vídeo]](https://youtu.be/WUo8TnHNHYM?t=1722) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_pbi_training) 
+
+
+Para obter informações detalhadas sobre cada uma destas novas funcionalidades, veja [Publicação de blogue do resumo das funcionalidades do Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/).
+
+Veja quais são as [novidades do serviço Power BI](service-whats-new.md) e as [novidades nas aplicações móveis do Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
+> [!NOTE]
+> Veja as [origens de dados disponíveis para o Power BI Desktop](../connect-data/desktop-data-sources.md). A nossa lista está sempre a crescer, por isso consulte-a regularmente.
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>Vídeo da atualização mensal do Power BI Desktop
+O vídeo seguinte descreve cada uma destas atualizações. Também pode ver este vídeo a partir da publicação de blogue:
+
+> [!VIDEO https://www.youtube.com/embed/WUo8TnHNHYM]
+
+
+Também pode transferir as versões anteriores do Power BI Desktop se a sua organização o exigir. Recomendamos sempre que utilize a versão mais recente do Power BI Desktop, em vez de uma versão anterior. Todas as versões anteriores têm as seguintes limitações:
+
+* As versões anteriores do Power BI Desktop não estão a ser servidas – deve sempre utilizar a versão mais recente para obter as funcionalidades e as atualizações mais recentes.
+* Pode não ser possível abrir ficheiros que criou ou guardou em versões mais recentes do Power BI Desktop com versões anteriores do Power BI Desktop. 
+* Se receber um aviso quando carregar um relatório guardado numa versão mais recente do Power BI Desktop e guardar esse relatório na versão anterior, perderá todas as informações relacionadas com as novas funcionalidades.
+* Apenas arquivamos as versões em inglês do Power BI Desktop.
+
+Selecione as seguintes ligações para transferir esta versão anterior: 
+
+* [Versão de junho de 2020 do Power BI Desktop – 32 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-06.exe)
+* [Versão de junho de 2020 do Power BI Desktop – 64 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-06_x64.exe)
+
+
+
+
 
 
 
@@ -944,7 +1033,7 @@ As ligações ao lado de cada atualização significam o seguinte:
 * A maior parte das funcionalidades são explicadas na mensagem de **[blogue]** da atualização mensal.
 * Por último, algumas funcionalidades são facilmente compreensíveis e não precisam de um artigo ou vídeo.
 
-Também pode ver o vídeo de **Atualizações Mais Recentes** no início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
+Também pode ver o vídeo de **Atualizações Mais Recentes** do início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
 
 As atualizações seguintes são novas no **Power BI Desktop** este mês:
 
@@ -1797,7 +1886,7 @@ As ligações ao lado de cada atualização significam o seguinte:
 -   A maior parte das funcionalidades são explicadas na mensagem de **[blogue]** da atualização mensal.
 -   Por último, algumas funcionalidades são facilmente compreensíveis e não precisam de um artigo ou vídeo.
 
-Também pode ver o vídeo de **Atualizações Mais Recentes** no início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
+Também pode ver o vídeo de **Atualizações Mais Recentes** do início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
 
 Foram introduzidas as seguintes novas atualizações no **Power BI Desktop** em dezembro:
 
@@ -1911,7 +2000,7 @@ As ligações ao lado de cada atualização significam o seguinte:
 -   A maior parte das funcionalidades são explicadas na mensagem de **[blogue]** da atualização mensal.
 -   Por último, algumas funcionalidades são facilmente compreensíveis e não precisam de um artigo ou vídeo.
 
-Também pode ver o vídeo de **Atualizações Mais Recentes** no início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
+Também pode ver o vídeo de **Atualizações Mais Recentes** do início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
 
 As atualizações seguintes são novas no **Power BI Desktop** este mês:
 
@@ -1987,7 +2076,7 @@ As atualizações seguintes são novas no **Power BI Desktop** em setembro:
 
 Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/moTQJlnClJw" frameborder="0" allowfullscreen></iframe>
 
@@ -2032,7 +2121,7 @@ As atualizações seguintes eram novas no **Power BI Desktop** em agosto:
 
 Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ND8U0yXroaQ" frameborder="0" allowfullscreen></iframe>
 
@@ -2082,7 +2171,7 @@ As atualizações seguintes eram novas no **Power BI Desktop** em julho:
 
 Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4X96ow7FnSY" frameborder="0" allowfullscreen></iframe>
 
@@ -2510,7 +2599,7 @@ As atualizações seguintes eram novas no Power BI Desktop em setembro:
 
 Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pcUr6E8g_KI" frameborder="0" allowfullscreen></iframe>
 
@@ -2571,7 +2660,7 @@ As atualizações seguintes são novas no Power BI Desktop este mês:
 
 Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0VvG7Eqoke8" frameborder="0" allowfullscreen></iframe>
 

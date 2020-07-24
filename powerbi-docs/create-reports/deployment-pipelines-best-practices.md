@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: e76d820e804a19db148e0db4c2702e002ee2c017
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4dd5698f91177733e150577490775eefb7e2f2ef
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275921"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557193"
 ---
 # <a name="deployment-pipelines-best-practices-preview"></a>Melhores práticas dos pipelines de implementação (pré-visualização)
 
@@ -140,7 +140,7 @@ Verifique se estes três fatores são abordados no ambiente de teste:
 
 Ao testar, pode utilizar a mesma capacidade da fase de produção. No entanto, pode tornar a produção instável durante os testes da carga. Para evitar uma produção instável, utilize outra capacidade semelhante nos recursos para a capacidade de produção, para fins de teste. Para evitar custos adicionais, pode utilizar as [capacidades do Azure](../developer/embedded/azure-pbie-create-capacity.md) para pagar apenas pelo tempo de teste.
 
-![diagrama das melhores práticas dos pipelines de implementação](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
+![Um diagrama a mostrar um pipeline de implementação com um ambiente de teste a simular o ambiente de produção.](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
 
 ### <a name="use-dataset-rules-with-a-real-life-data-source"></a>Utilizar as regras de conjuntos de dados com uma origem de dados real
 

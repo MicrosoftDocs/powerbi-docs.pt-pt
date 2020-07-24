@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 002a50fd2e8e55d5ec06d7f15420ae8299861b37
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034296"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557216"
 ---
 # <a name="understand-the-deployment-process-preview"></a>Compreender o processo de implementação (pré-visualização)
 
@@ -152,11 +152,11 @@ As [aplicações do Power BI](../consumer/end-user-apps.md) são a forma recome
 
 Crie uma aplicação para cada fase do pipeline de implementação, para que possa testar cada atualização da aplicação do ponto de vista do utilizador final. Um pipeline de implementação permite-lhe gerir este processo facilmente. Utilize o botão de publicação ou visualização no cartão da área de trabalho para publicar ou ver a aplicação numa fase específica do pipeline.
 
-[![publicar aplicação](media/deployment-pipelines-process/publish.png "Publicar aplicação")](media/deployment-pipelines-process/publish.png#lightbox)
+[![Captura de ecrã a realçar o botão da aplicação de publicação, no canto inferior direito da fase de produção.](media/deployment-pipelines-process/publish.png)](media/deployment-pipelines-process/publish.png#lightbox)
 
 Na fase de produção, o botão de ação principal no canto inferior esquerdo abre a página Atualizar aplicação no Power BI, para que quaisquer atualizações de conteúdo fiquem disponíveis para os utilizadores da aplicação.
 
-[![atualizar aplicação](media/deployment-pipelines-process/update-app.png "Atualizar aplicação")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![Captura de ecrã a realçar o botão da aplicação de atualização, no canto inferior direito da fase de produção.](media/deployment-pipelines-process/update-app.png)](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
 >O processo de implementação não inclui a atualização do conteúdo ou das definições da aplicação. Para aplicar alterações ao conteúdo ou às definições, tem de atualizar manualmente a aplicação na fase dos pipelines necessária.

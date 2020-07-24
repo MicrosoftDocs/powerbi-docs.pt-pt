@@ -7,12 +7,12 @@ ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: e41a13fac3e0ffea5171d2927cc0f3b9debbeef1
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: b911af4c7137aac9352c16985aac3a79a7eec87e
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485881"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557170"
 ---
 # <a name="deployment-pipelines-troubleshooting-preview"></a>Resolução de problemas dos pipelines de implementação (pré-visualização)
 
@@ -110,7 +110,7 @@ Se a implementação tiver sido anteriormente bem-sucedida e de repente falhar c
 
 Faltam valores nas regras do conjunto de dados. Este erro poderá ocorrer se o conjunto de dados tiver sido alterado.
 
-![regra quebrada](media/deployment-pipelines-troubleshooting/broken-rule.png)
+![Uma captura de ecrã do erro de regras inválidas apresentado quando uma implementação falha devido a ligações quebradas.](media/deployment-pipelines-troubleshooting/broken-rule.png)
 
 Quando uma implementação anteriormente bem-sucedida falhar devido a ligações quebradas, é apresentado um aviso. Pode clicar em **Configurar regras** para navegar para o painel de definições de implementação, onde o conjunto de dados com falha está marcado. Quando clica no conjunto de dados, as regras quebradas estão marcadas.
 

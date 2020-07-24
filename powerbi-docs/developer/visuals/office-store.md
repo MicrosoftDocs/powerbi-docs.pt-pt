@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/08/2020
-ms.openlocfilehash: 037fbdf3c1e4c01bac91e6089f9fa1c7dd1635d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 07/14/2020
+ms.openlocfilehash: 94cd4fd652fc1b06a73e1ea319a65e1aa5b46c7e
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238983"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437221"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicar elementos visuais do Power BI no Centro de Parceiros
 
@@ -23,7 +23,7 @@ Depois de criar o elemento visual do Power BI, poderá querer publicá-lo no Ap
 
 O [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) é o local onde pode encontrar aplicações SaaS e suplementos para os produtos e os serviços Microsoft.
 
-![Loja do Office](media/office-store/appsource-01.png)
+![Captura de ecrã dos elementos visuais do Power BI no AppSource.](media/office-store/appsource-01.png)
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>Preparar a submissão do elemento visual do Power BI
 
@@ -61,7 +61,7 @@ Anexe o **ficheiro pbiviz** e o **ficheiro pbix do relatório de exemplo** ao e-
 
 ## <a name="submitting-to-appsource"></a>Submeter no AppSource
 
-Para submeter o elemento visual do Power BI no AppSource, precisa de obter um pacote de aplicação da equipa do Power BI e, em seguida, submetê-lo no Centro de Parceiros. 
+Para submeter o elemento visual do Power BI no AppSource, precisa de obter um pacote de aplicação da equipa do Power BI e, em seguida, submetê-lo no Centro de Parceiros.
 
 ### <a name="getting-the-app-package"></a>Obter o pacote de aplicação
 
@@ -73,6 +73,11 @@ A equipa do Power BI terá de verificar os ficheiros quanto a novas submissões
 
 Para submeter o elemento visual do Power BI no Centro de Parceiros, precisa de estar registado no Centro de Parceiros. Se ainda não estiver registado, [abra uma conta de programador no Centro de Parceiros](https://docs.microsoft.com/office/dev/store/open-a-developer-account).
 
+>[!NOTE]
+>Os **editores individuais** podem utilizar um destes métodos para submeter um elemento visual do Power BI:
+>* Se tiver uma conta do Dashboard de Vendedor antiga, pode continuar a utilizar as credenciais desta conta para iniciar sessão no Centro de Parceiros.
+>* Se não tiver uma conta do Dashboard de Vendedor antiga e não estiver registado no Centro de Parceiros, terá de [Criar uma conta de programador no Centro de Parceiros](https://docs.microsoft.com/office/dev/store/open-a-developer-account) com o e-mail de trabalho.
+
 Siga os passos abaixo para submeter o elemento visual do Power BI no Centro de Parceiros. Para obter mais informações acerca do processo de submissão, veja [Submit your Office solution to AppSource via Partner Center](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource) (Submeter a solução do Office no AppSource através do Centro de Parceiros).
 
 1. Inicie sessão no **Centro de Parceiros**.
@@ -83,7 +88,7 @@ Siga os passos abaixo para submeter o elemento visual do Power BI no Centro de 
 
 4. Selecione **Criar um novo** e, no menu pendente, selecione **Elemento visual do Power BI**.
 
-    ![Loja do Office](media/office-store/power-bi-visual.png)
+    ![Captura de ecrã da criação de um novo elemento visual do Power BI no separador Loja Office no Centro de Parceiros.](media/office-store/power-bi-visual.png)
 
 5. Na janela **Criar um novo elemento visual do Power BI**, introduza um nome para o elemento visual do Power BI e selecione **Criar**.
 

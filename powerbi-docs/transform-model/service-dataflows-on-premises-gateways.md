@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 01/08/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b4146cef6ae34c7c6e5eb9713242c3a2cb0257ee
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9a3e393fa02d0bccc3e966c467b41883e72ae05e
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237759"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459652"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>Utilizar fluxos de dados com origens de dados no local
 
@@ -69,9 +69,10 @@ Existem algumas limitações conhecidas sobre a utilização de Gateways de Empr
 * Alterar o gateway tem impacto sobre todo o fluxo de dados.
 * Se forem necessários vários gateways, a prática recomendada será criar vários fluxos de dados (um para cada gateway) e utilizar as capacidades de referência de entidade ou de computação para unificar os dados.
 * Os fluxos de dados são apenas suportados através de gateways de empresa. Os gateways pessoais não estarão disponíveis para seleção nas listas pendentes nem nos ecrãs de definições.
+* As origens de dados no local configuradas com a opção [Utilizar SSO através do Kerberos para consultas do DirectQuery e Importar](../connect-data/service-gateway-sso-kerberos.md#run-a-power-bi-report) não são suportadas nos fluxos de dados.
 
 
-## <a name="next-steps"></a>Passos Seguintes
+## <a name="next-steps"></a>Próximos Passos
 
 Este artigo fornece informações sobre a utilização da origem de dados no local para fluxos de dados e sobre como utilizar e configurar gateways para aceder a esses dados. Os seguintes artigos também podem ser úteis
 
@@ -81,7 +82,7 @@ Este artigo fornece informações sobre a utilização da origem de dados no loc
 * [Recursos para programadores para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
 
 Para obter mais informações sobre o Power Query e a atualização agendada, pode ler estes artigos:
-* [Descrição geral de consulta no Power BI Desktop](desktop-query-overview.md)
+* [Descrição geral das consultas no Power BI Desktop](desktop-query-overview.md)
 * [Configurar a atualização agendada](../connect-data/refresh-scheduled-refresh.md)
 
 Para obter mais informações sobre o Common Data Service, pode ler o seguinte artigo de descrição geral:

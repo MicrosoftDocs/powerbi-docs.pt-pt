@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d5010097eff980bff59bea049684e381ed948514
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 48f094def0576d6e90a71117cc37ac975304e07f
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237842"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557285"
 ---
 # <a name="create-key-influencers-visualizations"></a>Criar visualizações de influenciadores principais
 
@@ -275,6 +275,7 @@ O elemento visual dos influenciadores principais tem algumas limitações:
 - A ligação em direto com o Azure Analysis Services e o SQL Server Analysis Services não é suportada
 - A publicação na Web não é suportada
 - É necessário o .NET Framework 4.6 ou posterior
+- A incorporação do SharePoint Online não é suportada
 
 ![Pergunta numérica](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
 

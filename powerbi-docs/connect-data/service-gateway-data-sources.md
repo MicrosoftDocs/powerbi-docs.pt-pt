@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 02/21/2020
+ms.date: 07/16/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e1b127bae83338264ac450438956e03a5ec24cb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7fecec5ed41f0de9227cf30ed3ba4f39b23f21e9
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236637"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459560"
 ---
 # <a name="manage-data-sources"></a>Gerir origens de dados
 
@@ -102,6 +102,9 @@ Depois de adicionar uma origem de dados a um gateway, pode dar aos utilizadores 
 
 Também pode conceder aos utilizadores e grupos de segurança acesso administrativo ao gateway.
 
+> [!NOTE]
+> Os utilizadores com acesso à origem de dados podem associar conjuntos de dados à origem de dados e ligar-se, com base nas opções de segurança (credenciais armazenadas ou SSO) selecionadas enquanto criam uma origem de dados.
+
 ### <a name="add-users-to-a-data-source"></a>Adicionar utilizadores a uma origem de dados
 
 1. No canto superior direito do serviço Power BI, selecione o ícone de engrenagem ![Ícone de engrenagem de Definições](media/service-gateway-data-sources/icon-gear.png) > **Gerir gateways**.
@@ -132,9 +135,9 @@ Ao adicionar uma origem de dados ao gateway, tem de fornecer credenciais para es
 
 Para obter mais informações sobre que origens de dados são suportadas no gateway de dados no local, veja [origens de dados do Power BI](power-bi-data-sources.md).
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
-* [Gerir a sua origem de dados - Analysis Services](service-gateway-enterprise-manage-ssas.md)
+* [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)
 * [Gerir a sua origem de dados – SAP HANA](service-gateway-enterprise-manage-sap.md)
 * [Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)
 * [Gerir a sua origem de dados – Oracle](service-gateway-onprem-manage-oracle.md)

@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 05/01/2020
-ms.openlocfilehash: d7e11b40c3a0257e090812ff15f31916cea509f9
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: fd92e64ac04a31446214bd6f1661d9ba5c1358d9
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84336780"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557123"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Parâmetros de URL em relatórios paginados no Power BI
 
@@ -81,7 +81,15 @@ Os valores disponíveis são:
 - WORDOPENXML (WORD) 
 - CSV 
 - PDF 
+- ACCESSIBLEPDF (PDF)
 - XML 
+
+**Vista de Relatório** – especifica o tipo de vista utilizado para apresentar o relatório.
+
+-   rdl:reportView
+
+    - “interativo” (predefinição): carregue o relatório no modo interativo.
+    - “pageView”: carregue o relatório no modo de vista de página.
 
 **Estado do painel de parâmetros** – especifica se o painel de parâmetros está fechado ou aberto quando o relatório é carregado ou se está oculto.
 
@@ -93,7 +101,7 @@ Os valores disponíveis são:
 
 **Informações do dispositivo** – pode especificar parâmetros de saída adicionais para os seguintes formatos de exportação. 
 
-PDF:
+PDF/ACCESSIBLEPDF:
 
 - rdl:AccessiblePDF=true/false
 - rdl:Columns=integer

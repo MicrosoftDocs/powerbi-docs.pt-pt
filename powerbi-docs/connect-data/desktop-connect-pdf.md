@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/08/2019
+ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e68d860800f2265923189e470bc633589e612c11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 785ad7b7d10a164f8257f8aacab177116c0b553b
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224156"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459629"
 ---
 # <a name="connect-to-pdf-files-in-power-bi-desktop"></a>Ligar a ficheiros PDF no Power BI Desktop
 No Power BI Desktop, pode ligar a um **ficheiro PDF** e utilizar os dados incluídos do ficheiro tal como faria com outra origem de dados no Power BI Desktop.
@@ -40,12 +40,16 @@ A partir da versão de novembro de 2018 do **Power BI Desktop**, pode especific
 
 `Pdf.Tables(File.Contents("c:\sample.pdf"), [StartPage=10, EndPage=11])`
 
+## <a name="limitations-and-considerations"></a>Limitações e considerações
 
-## <a name="next-steps"></a>Próximas etapas
+Ao trabalhar com o conector PDF em conjuntos de dados numa capacidade Premium, a ligação não será feita corretamente. Para permitir que o conector PDF funcione num conjunto de dados numa capacidade Premium, configure esse conjunto de dados para utilizar um gateway e confirme que a ligação a esse conjunto de dados passa pelo gateway.  
+
+
+## <a name="next-steps"></a>Próximos passos
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
-* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Ligar a livros do Excel no Power BI Desktop](desktop-connect-excel.md)   
 * [Introduzir dados diretamente no Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   

@@ -7,12 +7,12 @@ ms.author: kesharab
 ms.topic: include
 ms.date: 06/06/2020
 ms.custom: include file
-ms.openlocfilehash: 8e50a529bfd398a4075ebf049ee4aec1bcf48b4d
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: 569d7dfe251183962a14de1c42d85ee2e58950af
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315848"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86401683"
 ---
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
@@ -25,3 +25,4 @@ ms.locfileid: "84315848"
 * A gestão de [fluxos de dados](../transform-model/service-dataflows-overview.md) não é suportada.
 * O principal de serviço atualmente não suporta APIs de administração.
 * Quando utilizar o principal de serviço com uma origem de dados do [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview), o principal de serviço tem de ter permissões de instância do Azure Analysis Services. Não é possível utilizar um grupo de segurança que contém o principal de serviço para este efeito.
+* Atualmente, o principal do serviço não consegue aceder a origens de dados no gateway. Ou seja, não pode adicionar o principal do serviço como os utilizadores da origem de dados no gateway.

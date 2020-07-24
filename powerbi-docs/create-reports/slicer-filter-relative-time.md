@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 04/22/2020
+ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 056d69a866b0b56e83557e77462e03e3e00a2c8d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f1a792c7ad25600f04ca9834b1e5019d4e27efb4
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218545"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409519"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Utilizar uma segmentação e filtro de hora relativa no Power BI
 
@@ -22,18 +22,12 @@ ms.locfileid: "85218545"
 
 Com cenários de atualização rápida emergentes, a capacidade de filtrar para um período de tempo mais pequeno pode ser útil. Com a segmentação de hora relativa ou o filtro de hora relativa, pode aplicar filtros baseados na hora a qualquer coluna de data ou hora no seu modelo de dados. Por exemplo, pode utilizar a segmentação de dados de hora relativa para mostrar apenas visualizações de vídeo no último minuto ou hora. 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="Exemplo de hora relativa":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="Captura de ecrã do exemplo de hora relativa.":::
 
 Não é preciso utilizar a funcionalidade em conjunto com a funcionalidade de [atualização automática de página](../create-reports/desktop-automatic-page-refresh.md). No entanto, muitos cenários de hora relativa combinam bem com a funcionalidade de atualização automática de página.  
 
 > [!NOTE]
 > Quando aplica um filtro ou segmentação de hora relativa ao nível de página ou relatório, todos os elementos visuais nessa página ou relatório são filtrados para o mesmo intervalo de tempo, através de uma hora de *âncora* partilhada. Como os elementos visuais podem ter tempos de execução ligeiramente diferentes, esta hora de âncora partilhada garante que os elementos visuais são sincronizados na sua página ou no seu relatório. Leia mais sobre a [hora de âncora](#understanding-anchor-time) neste artigo.
-
-## <a name="turn-on-relative-time-preview"></a>Ativar a pré-visualização de hora relativa
-
-O filtro de hora relativa encontra-se em pré-visualização, pelo que tem de ativar o interruptor da funcionalidade. Aceda a **Ficheiro** > **Opções e Definições** > **Opções**. Em **Definições globais** > **Funcionalidades de pré-visualização**, certifique-se de que **Filtro de hora relativa** está selecionado.
-
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-preview.png" alt-text="Definir a opção de pré-visualização de tempo relativo":::
 
 ## <a name="create-a-relative-time-slicer-or-filter"></a>Criar uma segmentação ou filtro de hora relativa
 
@@ -45,7 +39,7 @@ Após ativar a funcionalidade, pode arrastar e largar o campo de data ou hora pa
 
 2. Selecione o tipo de visualização **Segmentação de Dados**.
 
-    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="Criar uma segmentação de tempo":::
+    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="Captura de ecrã da criação de uma segmentação de hora.":::
 
 ### <a name="create-a-filter"></a>Criar um filtro
  
@@ -55,27 +49,27 @@ Após ativar a funcionalidade, pode arrastar e largar o campo de data ou hora pa
 
 Em seguida, altere o tipo de filtro para **Hora Relativa**.
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="Alteração da hora relativa":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="Captura de ecrã da alteração para a hora relativa.":::
  
 Eis o aspeto uma segmentação:
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="Hora relativa numa segmentação":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="Captura de ecrã da hora relativa numa segmentação.":::
 
 Eis o aspeto num cartão de filtros: 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="Hora relativa num filtro":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="Captura de ecrã da hora relativa num filtro.":::
  
-Com este novo tipo de filtro, tem a opção de filtrar com base em **Último**, **Próximo** ou **Este período de tempo**: 
+Com este novo tipo de filtro, pode filtrar com base em **Último**, **Próximo** ou **Este período de tempo**: 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="Escolher Último, Seguinte ou Este período de tempo":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="Captura de ecrã da escolha de Último, Próximo ou Este período de tempo.":::
  
 Especifique o período de tempo com um número inteiro e uma unidade temporal: **Minutos** ou **Horas**.
  
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="Escolher minutos ou horas":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="Captura de ecrã da escolha de minutos ou horas.":::
 
 Se precisar de poupar espaço na tela, também pode criar o filtro de hora relativa como cartão de filtro no painel Filtros.
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="Definir a hora relativa num filtro":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="Captura de ecrã da definição da hora relativa num filtro.":::
  
 ## <a name="understanding-anchor-time"></a>Compreender a hora de âncora
 
@@ -101,7 +95,7 @@ As seguintes limitações e considerações aplicam-se atualmente ao filtro e se
     - Não é suportado na API Embed.
     - Não é suportado para Publicar na Web.
 
-- **Colocação de Consultas em Cache**: Utilizamos a cache de cliente. Suponhamos que especifica "último 1 minuto" e, em seguida, "últimos 5 minutos", voltando depois para "último 1 minuto". Neste ponto, vê os mesmos resultados que na primeira execução, a menos que atualize a página ou a página seja atualizada automaticamente.
+- **Colocação de Consultas em Cache**: Utilizamos a cache do cliente. Imagine que especifica “último minuto” e, em seguida, “últimos 5 minutos” e, depois, novamente “último minuto”. Neste ponto, vê os mesmos resultados que na primeira execução, a menos que atualize a página ou a página seja atualizada automaticamente.
 
 ## <a name="next-steps"></a>Próximos passos
 
