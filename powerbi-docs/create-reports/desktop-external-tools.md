@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 07/24/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4d752a49587e611c3f42de3f40c68437f36fe3a9
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: c1d483b6a29d2463af05cd224ac6b03dd149eb33
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86411898"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252895"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Utilizar ferramentas externas no Power BI Desktop (pré-visualização)
 
@@ -23,6 +23,13 @@ A partir do lançamento de julho de 2020 do Power BI Desktop, pode utilizar fer
 O friso **Ferramentas Externas** no Power BI Desktop contém botões para ferramentas externas instaladas no computador e registadas no Power BI Desktop. As ferramentas externas lançadas no Power BI Desktop estão automaticamente ligadas ao motor do Analysis Services, que funciona como parte do Power BI Desktop e proporcionam uma experiência perfeita aos utilizadores.
 
 ![Friso das ferramentas externas no Power BI Desktop](media/desktop-external-tools/desktop-external-tools-01.png)
+
+Estas ferramentas externas em destaque incluem as seguintes, com ligações à sua localização de instalação. Cada ferramenta externa é suportada pelos respetivos autores:
+
+* [Tabular Editor](https://tabulareditor.com/)
+* [DAX Studio](https://daxstudio.org)
+* [ALM Toolkit](http://alm-toolkit.com)
+
 
 As seguintes secções descrevem as operações suportadas pelas ferramentas externas, uma lista de ferramentas em destaque incluídas no Power BI Desktop e instruções sobre como registar ferramentas adicionais.
 
@@ -43,7 +50,7 @@ Todos os metadados do conjunto de dados [Modelo de Objeto em Tabela](https://doc
 
 ## <a name="featured-external-tools"></a>Ferramentas externas em destaque
 
-As seguintes ferramentas open-source da comunidade funcionam com o Power BI Desktop. O respetivo instalador de cada ferramenta regista-a no Power BI Desktop após a instalação:
+As seguintes ferramentas open-source da comunidade funcionam com o Power BI Desktop. São suportadas pelos respetivos autores. O respetivo instalador de cada ferramenta regista-a no Power BI Desktop após a instalação:
 
 * Tabular Editor
 * DAX Studio
@@ -122,6 +129,18 @@ Em ambientes de 64 bits, coloque os ficheiros na seguinte pasta:
 * **Programas (x86)\Common Files\Microsoft Shared\Power BI Desktop\External Tools**
 
 Os ficheiros nessa localização especificada com a extensão **.pbitool.json** são carregados pelo Power BI Desktop no arranque.
+
+## <a name="disabling-external-tools-using-the-registry"></a>Desativar ferramentas externas através do registo
+
+As Ferramentas Externas podem ser desativadas através das **Políticas de Grupo** ou ao editar o registo, que é semelhante ao processo de desativação dos  **Elementos Visuais Personalizados**.
+
+    Registry key: ```Software\Policies\Microsoft\Power BI Desktop\```
+
+    Registry value: ```EnableExternalTools```
+
+Um valor de 1 (decimal) ativa a utilização de ferramentas externas do Power BI no Power BI, que é o valor predefinido.
+
+Um valor de 0 (decimal) desativa a utilização de ferramentas externas no Power BI.
 
 
 ## <a name="next-steps"></a>Próximos passos

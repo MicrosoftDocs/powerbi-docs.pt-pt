@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6a1fd2ee46edd2447e7cf5096307f9d4947168a6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fd31c3b97eef80b0e4457fe6e61c1a8bf101db7b
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236726"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252665"
 ---
 # <a name="share-a-dataset"></a>Partilhar um conjunto de dados
 
@@ -54,7 +54,7 @@ Quando tiver um conjunto de dados partilhado na sua área de trabalho, poderá t
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Elementos a ter em conta sobre a partilha de conjuntos de dados:
 
-* Quando partilha um conjunto de dados através das permissões de gestão, ao partilhar relatórios ou dashboards ou ao publicar uma aplicação, está a conceder acesso a todo o conjunto de dados, a menos que a [segurança ao nível de linha (RLS)](../admin/service-admin-rls.md) limite o seu acesso. Os autores de relatórios podem utilizar capacidades que personalizem as experiências de utilizadores ao ver ou interagir com relatórios, por exemplo ao ocultar colunas, limitar as ações em elementos visuais, entre outros. Estas experiências de utilizador personalizadas não restringem aquilo a que os utilizadores de dados podem aceder no conjunto de dados. Utilize a [segurança ao nível de linha (RLS)](../admin/service-admin-rls.md) no conjunto de dados para que as credenciais de cada pessoa determinem a que dados esta pode aceder.
+* Quando partilha um conjunto de dados ao gerir permissões, partilhar relatórios ou dashboards, ou publicar uma aplicação, concede acesso a todo o conjunto de dados, a menos que a [segurança ao nível da linha (RLS)](../admin/service-admin-rls.md) limite o acesso. Os autores de relatórios podem utilizar capacidades que personalizem as experiências de utilizadores ao ver ou interagir com relatórios, por exemplo ao ocultar colunas, limitar as ações em elementos visuais, entre outros. Estas experiências de utilizador personalizadas não restringem aquilo a que os utilizadores de dados podem aceder no conjunto de dados. Utilize a [segurança ao nível de linha (RLS)](../admin/service-admin-rls.md) no conjunto de dados para que as credenciais de cada pessoa determinem a que dados esta pode aceder.
 
 ## <a name="next-steps"></a>Próximos passos
 

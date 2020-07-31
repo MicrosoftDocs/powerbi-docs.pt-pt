@@ -1,5 +1,5 @@
 ---
-title: Ligar a uma base de dados Oracle
+title: Ligar a uma base de dados Oracle com o Power BI Desktop
 description: Passos e transferências necessários para ligar o Oracle ao Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
@@ -9,19 +9,19 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e74ff0bf54b263df65af7e7497eb57f3e5c2adb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2c59cb593a236785346721cb5c3ac90c702c93ed
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224329"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252067"
 ---
-# <a name="connect-to-an-oracle-database"></a>Ligar a uma base de dados Oracle
-Para se ligar a uma base de dados do Oracle com o Power BI Desktop, tem de ser instalado o software cliente Oracle correto no computador que está a executar o Power BI Desktop. O software cliente Oracle que utiliza depende da versão do Power BI Desktop que tem instalada: a versão de 32 bits ou a versão de 64 bits.
+# <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>Ligar a uma base de dados Oracle com o Power BI Desktop
+Para se ligar a uma base de dados do Oracle com o Power BI Desktop, tem de ser instalado o software cliente Oracle correto no computador que está a executar o Power BI Desktop. O software cliente Oracle que utiliza depende da versão do Power BI Desktop que tem instalada: a versão de 32 bits ou a versão de 64 bits. Também depende da sua versão do servidor Oracle.
 
 Versões do Oracle suportadas: 
-- Oracle 9 e posterior
-- Software de cliente Oracle 8.1.7 e posterior
+- Oracle Server 9 e posterior
+- Software Oracle Data Access Client (ODAC) 11.2 e posterior
 
 > [!NOTE]
 > Se estiver a configurar uma base de dados Oracle para o Power BI Desktop, o Gateway de Dados no Local ou o Power BI Report Server, veja as informações no artigo [Oracle Connection Type](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) (Tipo de Ligação Oracle). 
@@ -32,12 +32,14 @@ Para determinar qual é a versão do Power BI Desktop que está instalada, selec
 
 ![Versão do Power BI Desktop](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
-## <a name="installing-the-oracle-client"></a>Instalar o cliente Oracle
+## <a name="install-the-oracle-client"></a>Instalar o cliente Oracle
 - Para a versão de 32 bits do Power BI Desktop, [transfira e instale o cliente Oracle de 32 bits](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html).
 
 - Para a versão de 64 bits do Power BI Desktop, [transfira e instale o cliente Oracle de 64 bits](https://www.oracle.com/database/technologies/odac-downloads.html).
 
 > [!NOTE]
+> Selecione uma versão do Oracle Data Access Client (ODAC) que seja compatível com o Oracle Server. Por exemplo, o ODAC 12.X nem sempre suporta a versão 9 do Oracle Server.
+> Selecione o instalador do Windows do Cliente Oracle.
 > Durante a configuração do cliente Oracle, certifique-se de que ativa a opção *Configurar ODP.NET e/ou Fornecedores Oracle para ASP.NET ao nível do computador* ao selecionar a caixa de verificação correspondente no assistente de configuração. Algumas versões do assistente do cliente Oracle selecionam a caixa de verificação por predefinição, outras não. Certifique-se de que a caixa de verificação está selecionada, para que o Power BI possa ligar-se à sua base de dados Oracle.
 
 ## <a name="connect-to-an-oracle-database"></a>Ligar a uma base de dados Oracle
@@ -53,9 +55,7 @@ Depois de instalar o controlador cliente Oracle adequado, pode estabelecer liga�
 
    ![Introduzir o nome do servidor Oracle](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 
-   > [!TIP]
-   > Se estiver com problemas de ligação neste passo, experimente utilizar o seguinte formato no campo **Server**: *(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=host_name)(PORT=port_num))(CONNECT_DATA=(SERVICE_NAME=service_name)))*
-   
+      
 3. Se pretender importar dados com recurso a uma consulta de base de dados nativa, coloque a sua consulta na caixa **Instrução SQL**, que aparece quando expande a secção **Opções avançadas** da caixa de diálogo **Base de dados Oracle**.
    
    ![Expandir opções avançadas](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
@@ -64,6 +64,18 @@ Depois de instalar o controlador cliente Oracle adequado, pode estabelecer liga�
 
 
 ## <a name="troubleshooting"></a>Resolução de problemas
+
+Poderá deparar-se com vários erros do Oracle quando a sintaxe de nomenclatura estiver incorreta ou não estiver configurada corretamente:
+
+* ORA-12154: TNS: não foi possível resolver o identificador de ligação especificado.
+* ORA-12514: TNS: o serviço de escuta não conhece atualmente o serviço pedido no descritor de ligação.
+* ORA-12541: TNS: nenhum serviço de escuta.
+* ORA-12170: TNS: tempo limite da ligação excedido.
+* ORA-12504: TNS: o serviço de escuta não foi atribuído a SERVICE_NAME em CONNECT_DATA.
+
+Estes erros podem ocorrer se o cliente Oracle não estiver instalado ou se não estiver configurado corretamente. Se estiver instalado, certifique-se de que o ficheiro tnsnames.ora está configurado corretamente e está a utilizar o net_service_name adequado. Também terá de certificar-se de que o net_service_name é o mesmo entre o computador que está a utilizar o Power BI Desktop e o computador que está a executar o gateway. Para obter mais informações, veja [Instalar o cliente Oracle](#install-the-oracle-client).
+
+Também poderá ocorrer um problema de compatibilidade entre a versão do servidor Oracle e a versão Oracle Data Access Client. Normalmente, pretende que estas versões correspondam, uma vez que algumas combinações são incompatíveis. Por exemplo, o ODAC 12.X não suporta a versão 9 do Oracle Server.
 
 Se transferiu o Power BI Desktop a partir da Microsoft Store, é possível que não consiga ligar a bases de dados Oracle devido a um problema no controlador da Oracle. Caso se depare com este problema, será devolvida a mensagem de erro: *A referência do objeto não foi definida*. Para resolver o problema, siga um dos seguintes passos:
 

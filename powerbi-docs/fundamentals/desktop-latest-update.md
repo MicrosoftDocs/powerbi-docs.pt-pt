@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7108ed95e28819bf90eacab86caf90dd13fa645c
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: f8d9ef38e56e22fb84175ebe5ec97eee2d123023
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409335"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252711"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Quais são as Novidades no Power BI Desktop?
 
@@ -25,8 +25,7 @@ As nossas atualizações do Power BI Desktop de julho são uma celebração de 
 Obtenha a versão mais recente do Power BI Desktop a partir do [Centro de Transferências](https://www.microsoft.com/download/details.aspx?id=58494). Se tiver o Windows 10, também poderá obter o Power BI Desktop através da [Microsoft Store](https://aka.ms/pbidesktopstore). Independentemente do modo como instalar o Power BI Desktop, as versões mensais são as mesmas embora a numeração das versões possa diferir. Para obter mais informações sobre como transferir e instalar o Power BI Desktop, veja [Obter o Power BI Desktop](desktop-get-the-desktop.md). 
 
 > [!IMPORTANT]
-> A partir da versão de setembro de 2019, o Power BI Desktop é lançado apenas como um único ficheiro .exe que contém todos os idiomas suportados. A versão. msi já não será lançada.
-
+> O Power BI Desktop é atualizado e lançado mensalmente e incorpora feedback dos clientes e novas funcionalidades. Apenas é suportada a versão mais recente do Power BI Desktop. Aos clientes que contactarem o suporte do Power BI Desktop, será pedido que atualizem para a versão mais recente. Pode obter a versão mais recente do Power BI Desktop na [Windows Store](https://aka.ms/pbidesktopstore). Também pode obtê-la como um único ficheiro executável, com todos os idiomas suportados, que pode [transferir](https://www.microsoft.com/download/details.aspx?id=58494) e instalar no seu computador.
 
 As ligações que se encontram ao lado de cada funcionalidade na lista de atualizações do Power BI Desktop são interpretadas da seguinte forma:
 

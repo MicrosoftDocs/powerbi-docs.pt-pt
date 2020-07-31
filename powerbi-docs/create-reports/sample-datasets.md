@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 305da7339159500a8e6de410bb4bf7f0b06d10e0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a268247d13fdfe71e17e5c0a6fafeeb635b96984
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349638"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953059"
 ---
 # <a name="get-samples-for-power-bi"></a>Veja exemplos do Power BI
 Diga que não está familiarizado com o Power BI e pretende experimentar, mas não tem quaisquer dados.  Ou talvez queira ver relatórios que ilustram algumas das capacidades do Power BI. Nós tratamos disso.
@@ -25,7 +25,7 @@ O Power BI oferece diferentes tipos de exemplos, para diferentes fins:
 - Uma **[aplicação de exemplo](#sample-app-from-appsource)** , que transfere do AppSource, também no serviço Power BI. As aplicações incluem dashboards, relatórios e conjuntos de dados. Pode modificá-las e distribuí-los pelos seus colegas.
 - **[Oito exemplos originais incorporados](#eight-original-samples)** no serviço Power BI como *pacotes de conteúdos*, com dashboards, relatórios e conjuntos de dados. Instale-os diretamente no serviço Power BI. Os exemplos incorporados também estão disponíveis como relatórios do Power BI (.pbix) e livros do Excel (.xlsx).
 - Versões do **[livro do Excel](#download-sample-excel-files)** dos exemplos incorporados que contêm o modelo de dados e as folhas do Power View. Pode explorar ou editar o modelo de dados no Excel, utilizar o livro do Excel como origem de dados para um relatório do Power BI. Também pode carregar o livro como um ficheiro do Excel e apresentar os elementos visuais e as Tabelas Dinâmicas do Excel nos relatórios do Power BI. 
-- Também um **[livro de exemplo de Dados financeiros](sample-financial-download.md)** , uma tabela plana simples num ficheiro do Excel disponível para transferência. Contém dados anónimos com produtos fictícios, com vendas divididas por segmentos e países. Serve de origem de dados básica útil para um relatório do Power BI.
+- Também um **[livro de exemplo de Dados financeiros](sample-financial-download.md)** , uma tabela plana simples num ficheiro do Excel disponível para transferência. Contém dados anónimos com produtos fictícios, com vendas divididas por segmentos e países/regiões. Serve de origem de dados básica útil para um relatório do Power BI.
 
 A nossa documentação online utiliza estes mesmos recursos de exemplo nos tutoriais e nas demonstrações para que consiga acompanhá-los na prática.
 

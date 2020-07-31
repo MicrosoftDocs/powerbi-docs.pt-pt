@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/28/2020
-ms.openlocfilehash: 865b60800b68aed410f10964148afdf2791b1ae1
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.date: 07/27/2020
+ms.openlocfilehash: 4f4650d47e420313075509301e940bf7092d4d5a
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83279164"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252849"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Origens de dados suportadas para relatórios paginados do Power BI
 
@@ -29,7 +29,7 @@ Os relatórios paginados suportam nativamente a seguinte lista de origens de dad
 | Instância Gerida do SQL do Azure | Básico | através de um Ponto Final Público ou Privado (o Ponto Final Privado tem de ser encaminhado através do Gateway de Empresa)  |
 | Azure Analysis Services | SSO, OAuth2 | A firewall AAS deve ser desativada ou configurada para permitir todos os intervalos de IP.|
 | Conjunto de dados do Power BI | SSO | Conjuntos de dados do Power BI Premium e não Premium Requer permissão de leitura |
-| Conjunto de dados do Power BI Premium (XMLA) | SSO |   |
+| Conjunto de dados do Power BI Premium (XMLA) | SSO | Os conjuntos de dados do Power BI não são suportados como origens de dados para relatórios paginados incorporados.  |
 | Introduzir Dados | N/D | Os dados são incorporados no relatório. |
 
 Exceto no caso da Base de Dados SQL do Azure, todas as origens de dados estão prontas a utilizar depois de carregar o relatório para o serviço Power BI. A predefinição das origens de dados é a utilização do início de sessão único (SSO), quando aplicável. No caso do Azure Analysis Services, pode alterar o tipo de autenticação para OAuth2. No entanto, uma vez alterado o tipo de autenticação de uma determinada origem de dados para OAuth2, não é possível voltar a utilizar o SSO.  Além disso, esta alteração aplica-se a todos os relatórios que utilizam essa origem de dados em todas as áreas de trabalho de um determinado inquilino.  A segurança ao nível da linha em relatórios paginados não funcionará a não ser que os utilizadores escolham o SSO como o tipo de autenticação.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 07/16/2020
+ms.date: 07/28/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 5d6e3af615a73f8e4a3db42406bf94e33f16a2a3
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 8a815f69d4f74ec925c3ac0cc8a84c2a13d80346
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459675"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87363968"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Troubleshoot XMLA endpoint connectivity (Resolver problemas de conectividade de pontos finais XMLA)
 
@@ -135,6 +135,10 @@ As definições de representação que pode definir para as origens de dados do 
 Ao acionar uma atualização agendada ou um pedido de atualização no Power BI, normalmente todo o conjunto de dados é atualizado. Em muitos casos, é mais eficiente para realizar atualizações de forma mais seletiva. Pode executar tarefas de processamento detalhadas no SQL Server Management Studio (SSMS), conforme apresentado abaixo, ou com ferramentas ou scripts de terceiros.
 
 :::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Tabelas de processos no SSMS":::
+
+### <a name="overrides-in-refresh-tmsl-command"></a>Substituições no comando TMSL Atualizar
+
+As substituições no [comando Atualizar (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl) permitem aos utilizadores escolher uma definição diferente de consulta de partição ou definição da origem de dados para a operação de atualização. Neste momento, **as substituições não são suportadas** no Power BI Premium. É devolvido o seguinte erro: "O enlace fora de linha não é permitido no Power BI Premium. Para obter mais informações, veja 'Suporte de leitura/escrita XMLA' na documentação do produto".
 
 ## <a name="see-also"></a>Veja também
 

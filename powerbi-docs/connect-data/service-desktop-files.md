@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c34244669b538a5c3138536adbfd022eb00e646d
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 3022c43f4c1af3098b24148ccb0bdadf6e0da521
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263042"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87363991"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Obter dados de ficheiros do Power BI Desktop
 ![Ícone de ficheiro do Power BI Desktop](media/service-desktop-files/pbid_file_icon.png)
@@ -30,7 +30,7 @@ Assim que tiver dados no **Power BI Desktop** e criar alguns relatórios, está 
 
 **OneDrive - Pessoal** – Caso os ficheiros sejam guardados na sua própria conta do OneDrive, vai aproveitar vários dos mesmos benefícios que teria com o OneDrive para Empresas. A maior diferença é que, na primeira ligação ao ficheiro (ao utilizar Obter Dados > Ficheiros > OneDrive – Pessoal), tem de iniciar sessão no OneDrive com a sua conta Microsoft, a qual é normalmente diferente da utilizada para iniciar sessão no Power BI. Ao iniciar sessão no OneDrive com a sua conta Microsoft, certifique-se de que seleciona a opção Manter sessão iniciada. Dessa forma, o Power BI poderá ligar ao ficheiro em intervalos aproximados de uma hora e garantir que o conjunto de dados no Power BI está sincronizado.
 
-**SharePoint – Sites de Equipa** – Guardar os seus ficheiros do Power BI Desktop no SharePoint – Sites de Equipa é muito semelhante a guardá-los no OneDrive para Empresas. A maior diferença neste caso é como liga ao ficheiro do Power BI. Pode especificar um URL ou ligar à pasta raiz.
+**SharePoint – Sites de Equipa** – Guardar os seus ficheiros do Power BI Desktop no SharePoint – Sites de Equipa é muito semelhante a guardá-los no OneDrive para Empresas. A maior diferença neste caso é como liga ao ficheiro do Power BI. Pode especificar um URL ou ligar à pasta raiz. Também pode <a href="https://support.microsoft.com/office/sync-sharepoint-and-teams-files-with-the-onedrive-sync-app-6de9ede8-5b6e-4503-80b2-6190f3354a88">configurar uma pasta Síncrona</a> que aponta para a pasta do SharePoint. Os ficheiros nessa pasta serão sincronizados com a cópia principal no SharePoint.
 
 ## <a name="import-or-connect-to-a-power-bi-desktop-file-from-power-bi"></a>Importar ou ligar a um ficheiro do Power BI Desktop através do Power BI
 >[!IMPORTANT]

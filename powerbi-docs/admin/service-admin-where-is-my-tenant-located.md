@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a797547562a8968591ca6551f85a56e0da98d680
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: ee123bed8940b52a66f3b0f860671a87210c261f
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793272"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952691"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Onde está localizado o meu inquilino do Power BI?
 
@@ -34,7 +34,7 @@ Para localizar a região na qual está o seu inquilino, siga estes passos.
 
 ## <a name="how-the-data-region-is-selected"></a>Como é selecionada a região de dados
 
-A região de dados baseia-se no país que selecionar ao criar o inquilino. A seleção aplica-se à inscrição no Microsoft 365 eno Power BI, uma vez que esta informação é partilhada. Se se tratar de um novo inquilino, selecione o país adequado na lista quando realizar a inscrição.
+A região de dados baseia-se no país/região que selecionar ao criar o inquilino. A seleção aplica-se à inscrição no Microsoft 365 eno Power BI, uma vez que esta informação é partilhada. Caso se trate de um novo inquilino, selecione o país/região adequado na lista quando realizar a inscrição.
 
 ![Seleção do país](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 
@@ -44,4 +44,3 @@ O Power BI escolha a região de dados mais próxima da sua seleção, que deter
 > Não pode alterar a seleção depois de criar o inquilino.
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
-
