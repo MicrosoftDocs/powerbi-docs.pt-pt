@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c34c4ff3dbeabafbdae9c286e03443abed52af2f
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: a731feb822fcda8fd6478094f8393faa34b6b2bf
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263760"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537349"
 ---
 # <a name="personalize-visuals-in-a-report"></a>Personalizar os elementos visuais num relatório
 

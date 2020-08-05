@@ -11,12 +11,12 @@ ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: 099cd750328bed0b23524d6119c4d7ce91548a23
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 13bbf23c075fb1f58c2af71ae0a082d4e539d023
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252044"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537694"
 ---
 # <a name="power-bi-planned-maintenance"></a>Manutenção planeada do Power BI
 
@@ -35,7 +35,7 @@ Se a sua organização for afetada, disponibilizaremos um aviso prévio. Os admi
 
 * Os utilizadores devem atualizar as janelas abertas do browser.
 * Os utilizadores da aplicação Power BI Mobile terão de verificar se estão a utilizar a versão mais recente e, depois, terminar sessão e voltar a iniciar sessão na aplicação. Veja a loja de aplicações do telemóvel ou a nossa página [Power BI Mobile](https://powerbi.microsoft.com/mobile/).
-* Os clientes que estavam ativamente a editar ou publicar relatórios que utilizam elementos visuais organizacionais, localmente ou a partir de localizações do OneDrive e do SharePoint, terão de reimportar o elemento visual através da loja de elementos visuais da organização ou transferir um PBIX atualizado antes de serem republicados. Para obter mais informações sobre os elementos visuais organizacionais, veja [Elementos visuais da organização](service-admin-portal.md#organization-visuals).
+* Os clientes que estavam ativamente a editar ou publicar relatórios que utilizam elementos visuais organizacionais, localmente ou a partir de localizações do OneDrive e do SharePoint, terão de reimportar o elemento visual através da loja de elementos visuais da organização ou transferir um PBIX atualizado antes de serem republicados. Para obter mais informações sobre os elementos visuais organizacionais, veja [Elementos visuais da organização](organizational-visuals.md).
 * Se os livros do Excel que utilizam a funcionalidade Analisar no Excel não forem atualizados, poderá ter de atualizar a cadeia de ligação ou transferir novamente a ligação ODC desse conjunto de dados. Para obter mais informações, veja [Analisar no Excel](../collaborate-share/service-analyze-in-excel.md#connect-to-power-bi-data).
 * As ligações ao Power BI incorporadas no conteúdo podem não conseguir ligar-se enquanto a manutenção estiver a ser realizada. Por exemplo, uma ligação incorporada no SharePoint ou Teams pode resultar num erro do utilizador. Para resolver este problema, tem de regenerar a ligação incorporada no Power BI e, em seguida, atualizar as localizações onde são utilizadas. Para obter mais informações sobre as ligações incorporadas, veja [Incorporar uma peça Web de relatórios no SharePoint Online](../collaborate-share/service-embed-report-spo.md) e [Colaborar com o Microsoft Teams Power BI](../collaborate-share/service-collaborate-microsoft-teams.md).
 

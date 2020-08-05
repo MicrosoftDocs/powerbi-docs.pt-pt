@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 90cd12bc7d8d7261e25edd32c5afa7cf144e8202
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ec521c256209c258604e13483a9f3159b24626ae
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252515"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537510"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -43,8 +43,8 @@ Existem nove separadores no portal. O resto deste artigo disponibiliza informaç
 * [Definições de inquilino](#tenant-settings)
 * [Definições de capacidade](#capacity-settings)
 * [Códigos de incorporação](#embed-codes)
-* [Elemento visuais da organização](#organizational-visuals)
-* [Armazenamento do fluxo de dados (pré-visualização)](#dataflowStorage)
+* [Elemento visuais da organização](organizational-visuals.md#organizational-visuals)
+* [Armazenamento do fluxo de dados (pré-visualização)](#dataflow-storage-preview)
 * [Áreas de trabalho](#workspaces)
 * [Imagem corporativa personalizada](#custom-branding)
 
@@ -386,55 +386,6 @@ A definição **Partilhar no Teams** está na secção **Definições do inquili
 
 Leia mais sobre [partilhar conteúdos do Power BI no Teams](../collaborate-share/service-share-report-teams.md).
 
-
-## <a name="power-bi-visuals-settings"></a>Definições de elementos visuais do Power BI
-
-### <a name="add-and-use-power-bi-visuals"></a>Adicionar e utilizar elementos visuais do Power BI
-
-Os utilizadores na organização podem partilhar e interagir com elementos visuais do Power BI. [Saiba mais](../developer/visuals/power-bi-custom-visuals.md)
-
-> [!NOTE]
-> Esta definição pode ser aplicada a toda a organização ou pode ser limitada a grupos específicos.
-
-O Power BI Desktop (a partir do lançamento de março de 2019) suporta a utilização da **Política de Grupo** para desativar a utilização de elementos visuais do Power BI nos computadores implementados numa organização.
-
-<table>
-<tr><th>Atributo</th><th>Valor</th>
-</tr>
-<td>chave</td>
-    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
-<tr>
-<td>valueName</td>
-<td>EnableCustomVisuals</td>
-</tr>
-</table>
-
-Um valor de 1 (decimal) ativa a utilização de elementos visuais do Power BI no Power BI (esta é a predefinição).
-
-Um valor de 0 (decimal) desativa a utilização de elementos visuais do Power BI no Power BI.
-
-### <a name="allow-only-certified-visuals"></a>Permitir apenas elementos visuais certificados
-
-Os utilizadores na organização que receberam permissões para adicionar e utilizar elementos visuais do Power BI, representado pela definição "Adicionar e utilizar elementos visuais do Power BI", só poderão utilizar [elementos visuais do Power BI certificados](https://go.microsoft.com/fwlink/?linkid=2002010) (os elementos visuais não certificados serão bloqueados e apresentarão uma mensagem de erro quando utilizados). 
-
-
-O Power BI Desktop (a partir do lançamento de março de 2019) suporta a utilização da **Política de Grupo** para desativar a utilização de elementos visuais do Power BI não certificados nos computadores implementados numa organização.
-
-<table>
-<tr><th>Atributo</th><th>Valor</th>
-</tr>
-<td>chave</td>
-    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
-<tr>
-<td>valueName</td>
-<td>EnableUncertifiedVisuals</td>
-</tr>
-</table>
-
-Um valor de 1 (decimal) ativa a utilização de elementos visuais do Power BI não certificados no Power BI (esta é a predefinição).
-
-Um valor de 0 (decimal) desativa a utilização de elementos visuais do Power BI não certificados no Power BI (esta opção só ativa a utilização de [elementos visuais do Power BI certificados](https://go.microsoft.com/fwlink/?linkid=2002010)).
-
 ## <a name="r-visuals-settings"></a>Definições de elementos visuais R
 
 ### <a name="interact-with-and-share-r-visuals"></a>Interagir e partilhar visuais R
@@ -540,67 +491,7 @@ Enquanto administrador, pode ver os códigos de incorporação gerados para o se
 
 ![Códigos de incorporação no portal de administração do Power BI](media/service-admin-portal/embed-codes.png)
 
- ## <a name=""></a><a name="organizational-visuals">Elemento visuais da organização</a> 
-
-O separador **Elementos visuais da organização** permite-lhe implementar e gerir os elementos visuais do Power BI na sua organização. Com os elementos visuais organizacionais, pode facilmente implementar elementos visuais proprietários na sua organização, os quais os autores dos relatórios podem posteriormente detetar e importar para os seus relatórios do Power BI Desktop. [Saiba mais](../developer/visuals/power-bi-custom-visuals-organization.md)
-
-> [!WARNING]
-> Um elemento visual personalizado pode conter código com riscos de privacidade ou de segurança. Garanta que confia no autor e na origem do elemento visual personalizado antes de implementar no repositório da organização.
-
-A página seguinte mostra todos os elementos visuais do Power BI que estão atualmente implementados no repositório da organização.
-
-![Elemento visual de administração da organização](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
-
-### <a name="add-a-new-custom-visual"></a>Adicionar um novo elemento visual personalizado
-
-Para adicionar um novo elemento visual personalizado à lista, siga estes passos. 
-
-1. No painel direito, selecione **Adicionar um elemento visual personalizado**.
-
-    ![Formulário sobre elementos visuais do Power BI](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
-
-1. Preencha o formulário **Adicionar elemento visual personalizado**:
-
-    * **Escolher um ficheiro .pbiviz** (obrigatório): selecione um ficheiro de elemento visual personalizado para carregar. Apenas são suportados os elementos visuais do Power BI com a versão da API (leia aqui o que significa).
-
-    Antes de carregar um elemento visual personalizado, deverá verificar a segurança e privacidade desse elemento visual para garantir que este cumpre os padrões da sua organização.
-
-    * **Atribuir um nome ao elemento visual personalizado** (obrigatório): atribua um título curto ao elemento visual para que os utilizadores do Power BI Desktop compreendam facilmente o que faz
-
-    * **Ícone**: O ficheiro de ícones que é mostrado na IU do Power BI Desktop.
-
-    * **Descrição**: uma breve descrição do elemento visual para proporcionar mais contexto e informação ao utilizador
-
-1. Selecione **Adicionar** para iniciar o pedido de carregamento. Se tiver êxito, poderá ver o novo item na lista. Se falhar, receberá uma mensagem de erro apropriada
-
-### <a name="delete-a-custom-visual-from-the-list"></a>Eliminar um elemento visual personalizado da lista
-
-Selecione o ícone de caixote do lixo para eliminar permanentemente um elemento visual no repositório.
-
-> [!IMPORTANT]
-> A eliminação é irreversível. Depois de eliminado, o elemento visual deixa imediatamente de ser composto nos relatórios existentes. Mesmo que carregue o mesmo elemento visual novamente, este não substitui o anterior que foi eliminado. No entanto, os utilizadores podem importar novamente o novo elemento visual e substituir a instância presente nos seus relatórios.
-
-### <a name="disable-a-custom-visual-in-the-list"></a>Desativar um elemento visual personalizado na lista
-
-Para desativar o elemento visual na loja organizacional, selecione o ícone de engrenagem. Na secção **Acesso**, desative o elemento visual personalizado.
-
-Depois de desativar o elemento visual, este não será composto nos relatórios existentes e será apresentada a mensagem de erro abaixo.
-
-*Este elemento visual personalizado já não está disponível. Contacte o seu administrador para obter detalhes.*
-
-No entanto, os elementos visuais que são marcadores continuam a funcionar.
-
-Após qualquer atualização ou alteração de administrador, os utilizadores do Power BI Desktop devem reiniciar a aplicação ou atualizar o browser no serviço Power BI para ver as atualizações.
-
-### <a name="update-a-visual"></a>Atualizar um elemento visual
-
-Para atualizar o elemento visual na loja organizacional, selecione o ícone de engrenagem. Procure e carregue uma nova versão do elemento visual.
-
-Confirme que o ID de Elemento Visual permanece inalterado. O novo ficheiro substituirá o ficheiro anterior em todos os relatórios da organização. Contudo, se houver a possibilidade de a nova versão do elemento visual interromper qualquer utilização ou estrutura de dados da versão anterior do elemento visual, não substitua a versão anterior. Em vez disso, deve criar uma nova lista para a nova versão do elemento visual. Por exemplo, adicione um novo número de versão (versão X.X) ao título do novo elemento visual listado. Desta forma, torna-se claro que é o mesmo elemento visual apenas com um número de versão atualizado, assim, os relatórios existentes não vão interromper a sua funcionalidade. Novamente, verifique se o ID de Elemento Visual permanece inalterado. Da próxima vez que os utilizadores entrarem no repositório da organização a partir do Power BI Desktop, poderão importar a nova versão, que pedirá a substituição da versão atual que têm no relatório.
-
-Para obter mais informações, veja [Perguntas frequentes sobre os elementos visuais do Power BI organizacionais](../developer/visuals/power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)
-
-## <a name=""></a><a name="dataflowStorage">Armazenamento do fluxo de dados (pré-visualização)</a>
+## <a name="dataflow-storage-preview"></a>Armazenamento do fluxo de dados (pré-visualização)
 
 Por predefinição, os dados utilizados com o Power BI são armazenados no armazenamento interno fornecido pelo Power BI. Com a integração dos fluxos de dados e do Azure Data Lake Storage Gen2 (ADLS Gen2), pode armazenar os seus fluxos de dados na conta do Azure Data Lake Storage Gen2 da sua organização. Para obter mais informações, veja [Fluxos de dados e integração do Azure Data Lake (Pré-visualização)](../transform-model/service-dataflows-azure-data-lake-integration.md).
 

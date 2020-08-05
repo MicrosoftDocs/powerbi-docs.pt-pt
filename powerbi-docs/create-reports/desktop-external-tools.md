@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2020
+ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c1d483b6a29d2463af05cd224ac6b03dd149eb33
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 69929ff48428ebf73044c296eabc419f8e442b3b
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252895"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411963"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Utilizar ferramentas externas no Power BI Desktop (pré-visualização)
 
@@ -42,8 +42,6 @@ As ferramentas externas podem ligar-se ao conjunto de dados do Power BI Desktop
 * As [Perspetivas](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular) para definir vistas dos metadados dos conjuntos de dados específicas do domínio empresarial em destaque
 
 A gestão de traduções de metadados através de ferramentas externas pode ser possível, mas não é suportada atualmente nesta versão de pré-visualização. Se a região do utilizador atual for uma região com tradução, a edição de objetos na lista de campos não funcionará corretamente com a versão atual do Power BI Desktop. 
-
-Há um problema conhecido quando cria relatórios em modelos que têm grupos de cálculo definidos. Se o grupo de cálculo definir uma formatação dinâmica dependendo do cálculo/medida selecionado, essa formatação só estará atualmente disponível nos elementos visuais da tabela, matriz e cartão.
 
 Todos os metadados do conjunto de dados [Modelo de Objeto em Tabela](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) podem ser acedidos apenas para fins de leitura, mas os objetos não abrangidos pela lista descrita no artigo [Modelo de Objeto em Tabela](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) ainda não são suportados para edição na instância do Analysis Services do Power BI Desktop.
 
@@ -134,9 +132,9 @@ Os ficheiros nessa localização especificada com a extensão **.pbitool.json** 
 
 As Ferramentas Externas podem ser desativadas através das **Políticas de Grupo** ou ao editar o registo, que é semelhante ao processo de desativação dos  **Elementos Visuais Personalizados**.
 
-    Registry key: ```Software\Policies\Microsoft\Power BI Desktop\```
+    Registry key: *Software\Policies\Microsoft\Power BI Desktop\*
 
-    Registry value: ```EnableExternalTools```
+    Registry value: *EnableExternalTools*
 
 Um valor de 1 (decimal) ativa a utilização de ferramentas externas do Power BI no Power BI, que é o valor predefinido.
 

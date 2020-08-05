@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/04/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6e668416ad8c7023ddd7a81d90008f5ea8dca1e5
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: d684ab319a61c932f851e76322af758a4188c5e0
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264150"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87536015"
 ---
 # <a name="add-spotlights-to-power-bi-reports"></a>Adicionar destaques a relatórios do Power BI
 
