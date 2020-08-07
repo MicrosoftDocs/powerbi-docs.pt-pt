@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f352cbbd7c42aa54ae876e73c0ed821eccda59c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ade84d1523d79e4e233604905627e8e862278fa1
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700714"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537418"
 ---
 # <a name="dax-use-variables-to-improve-your-formulas"></a>DAX: utilizar variáveis para melhorar fórmulas
 
@@ -113,5 +113,8 @@ RETURN
 
 Para obter mais informações sobre este artigo, consulte os seguintes recursos:
 
+- [Referência do DAX (Data Analysis Expressions)](/dax/)
 - Função [VAR](/dax/var-dax) (DAX)
+- Percurso de aprendizagem: [Utilizar a DAX no Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com)

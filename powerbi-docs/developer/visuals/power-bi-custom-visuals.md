@@ -1,6 +1,6 @@
 ---
 title: Visuals in Power BI (Elementos visuais no Power BI)
-description: Visualizações personalizadas no Power BI
+description: Este artigo descreve os elementos visuais personalizados do Power BI
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 01/03/2019
+ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e9dc53eb3f49a1ef62e4e3539ac7eb6d92b317af
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e56b03eeccc3140709fb458d4e42a9065a4da5d4
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561645"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538016"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI (Elementos visuais no Power BI)
 
 O Power BI inclui muitos elementos visuais do Power BI prontos a utilizar. Estes elementos visuais estão disponíveis no painel Visualização do [Power BI Desktop](https://powerbi.microsoft.com/desktop/) e [serviço Power BI](https://app.powerbi.com) e podem ser utilizados para criar e editar conteúdos do Power BI.
 
-![visualizações](media/power-bi-custom-visuals/power-bi-visualizations.png)
+![Captura de ecrã do painel de visualização do Power BI tal como aparece no Power BI Desktop e no serviço Power BI.](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
 Estão disponíveis muitos mais elementos visuais do Power BI no Microsoft [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) ou através do Power BI. Estes elementos visuais são criados pela Microsoft e por parceiros da Microsoft e são testados e validados pela equipa de validação do AppSource.
 
@@ -38,6 +38,11 @@ Para restaurar os elementos visuais predefinidos do Power BI no painel Visualiza
 ## <a name="appsource-power-bi-visuals"></a>Elementos visuais do Power BI no AppSource
 
 Os membros da comunidade e a Microsoft contribuíram com elementos visuais do Power BI para o benefício do público geral e publicaram-nos no [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Pode transferir estes elementos visuais e adicioná-los aos seus relatórios do Power BI. A Microsoft testou e aprovou estes elementos visuais do Power BI ao nível da funcionalidade e da qualidade.
+
+>[!NOTE]
+>* Ao utilizar elementos visuais criados com o nosso SDK, poderá importar ou enviar dados a terceiros ou a outros serviços localizados fora da instância da cloud nacional, do limite de conformidade ou da área geográfica do inquilino do Power BI.
+>* Os elementos visuais certificados do Power BI são elementos visuais presentes no AppSource que foram testados para verificar se não acedem a serviços ou recursos externos.
+>* Depois de serem importados elementos visuais do Power BI a partir do AppSource, estes podem ser atualizados automaticamente sem aviso adicional.
 
 ### <a name="what-is-appsource"></a>O que é o AppSource?
 
@@ -74,10 +79,17 @@ Se for programador Web e estiver interessado em criar o seu próprio elemento vi
 
 ## <a name="next-steps"></a>Próximos passos
 
-* Se for programador, comece com o tutorial [Desenvolver um elemento visual do Power BI](custom-visual-develop-tutorial.md).
+>[!div class="nextstepaction"]
+>[Desenvolver um elemento visual do Power BI](custom-visual-develop-tutorial.md)
 
-* Saiba como um [projeto de elementos visuais do Power BI é estruturado](visual-project-structure.md).
+>[!div class="nextstepaction"]
+>[Estrutura de projeto de elementos visuais do Power BI](visual-project-structure.md)
 
-* Explore [diretrizes de elementos visuais do Power BI](guidelines-powerbi-visuals.md).
+>[!div class="nextstepaction"]
+>[Diretrizes de elementos visuais do Power BI](guidelines-powerbi-visuals.md)
 
-Mais perguntas? Visite a página [Perguntas frequentes sobre os elementos visuais do Power BI](power-bi-custom-visuals-faq.md) ou a [Comunidade do Power BI](https://community.powerbi.com/).
+>[!div class="nextstepaction"]
+>[Perguntas mais frequentes](power-bi-custom-visuals-faq.md)
+
+>[!div class="nextstepaction"]
+>[Comunidade do Power BI](https://community.powerbi.com/)

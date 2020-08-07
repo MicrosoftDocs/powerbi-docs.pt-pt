@@ -10,11 +10,12 @@ ms.topic: how-to
 ms.date: 06/26/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d09ebee0cc22c7037db437e1c7a46a3d19ff36fd
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 68d6a399a5ecccf07aaa71f74b18fd4ddd6082f5
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485598"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768519"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Partilhar dashboards e relatórios do Power BI com colegas e outras pessoas
 *Partilhar* é a forma mais fácil de dar às pessoas acesso aos dashboards e aos relatórios no serviço Power BI. Pode partilhar com pessoas dentro e fora da sua organização.
@@ -33,7 +34,7 @@ Não pode *partilhar* dashboards diretamente do Power BI Desktop. Irá [publicar
 
 ## <a name="share-a-dashboard-or-report"></a>Partilhar um dashboard ou relatório
 
-1. Numa lista de dashboards ou relatórios, ou num dashboard ou relatório aberto, selecione **Partilhar** ![ícone Partilhar](media/service-share-dashboards/power-bi-share-icon.png).
+1. Numa lista de dashboards ou relatórios, ou num dashboard ou relatório abertos, selecione **Partilhar**:::image type="icon" source="../media/power-bi-share-icon.png" border="false":::.
 
 2. Na caixa superior, introduza os endereços de e-mail completos de pessoas, grupos de distribuição ou grupos de segurança. Não pode partilhar com listas de distribuição dinâmicas. 
    
@@ -66,7 +67,7 @@ Não pode *partilhar* dashboards diretamente do Power BI Desktop. Irá [publicar
 ## <a name="see-who-has-access-to-a-dashboard-or-report"></a>Ver quem tem acesso a um dashboard ou relatório
 Por vezes, é necessário ver as pessoas com quem partilhou e as pessoas com quem estas os partilharam.
 
-1. Na lista de dashboards e relatórios, ou no próprio dashboard ou relatório, selecione **Partilhar** ![ícone Partilhar](media/service-share-dashboards/power-bi-share-icon.png). 
+1. Na lista de dashboards e relatórios, ou no próprio dashboard ou relatório, selecione **Partilhar**:::image type="icon" source="../media/power-bi-share-icon.png" border="false":::. 
 2. Na caixa de diálogo **Partilhar dashboard** ou **Partilhar relatório**, selecione **Acesso**.
    
     ![Caixa de diálogo Partilhar dashboard, separador Acesso](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -109,7 +110,7 @@ Apenas o proprietário do dashboard ou do relatório pode ativar ou desativar a 
 * Antes de enviar o convite, desselecione a caixa de verificação **Permitir que os destinatários partilhem o dashboard (ou relatório)** , na parte inferior.
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>Se já partilhou o dashboard ou o relatório
-1. Na lista de dashboards e relatórios, ou no próprio dashboard ou relatório, selecione **Partilhar** ![ícone Partilhar](media/service-share-dashboards/power-bi-share-icon.png). 
+1. Na lista de dashboards e relatórios, ou no próprio dashboard ou relatório, selecione **Partilhar**:::image type="icon" source="../media/power-bi-share-icon.png" border="false":::. 
 2. Na caixa de diálogo **Partilhar dashboard** ou **Partilhar relatório**, selecione **Acesso**.
    
     ![Caixa de diálogo Partilhar dashboard, separador Acesso](media/service-share-dashboards/power-bi-share-dialog-access.png)

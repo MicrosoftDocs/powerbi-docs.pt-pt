@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 07/23/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: f901dcad1743383b85db3935ede8fddf8a4ed492
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ccf8b5fa8f1c4d18a25767ff11f035304b339de0
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87251791"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478136"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>Tutorial: De um livro do Excel a um relatório no serviço Power BI ao Microsoft Teams
 O seu gestor quer ver um relatório sobre as vendas e os lucros mais recentes até ao final do dia. No entanto, os dados mais recentes estão em vários sistemas e ficheiros de terceiros no seu portátil. Anteriormente, demorava várias horas a criar elementos visuais e a formatar um relatório e, por isso, começa a sentir algum nervosismo.
@@ -204,8 +204,6 @@ Também pode partilhar relatórios e dashboards diretamente com colegas no Micro
 
 ## <a name="next-steps"></a>Próximos passos
 
-* [Introdução ao serviço Power BI](../fundamentals/service-get-started.md)
-* [Introdução ao Power BI Desktop](../fundamentals/desktop-getting-started.md)
-* [Conceitos básicos para designers no serviço Power BI](../fundamentals/service-basic-concepts.md)
+* Agora que criou um relatório básico no serviço Power BI, que tal criar um relatório no Power BI Desktop? Experimente o tutorial, [De um livro do Excel a um relatório incrível no Power BI Desktop](desktop-excel-stunning-report.md).
 
 Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ff79017bd77dd63ce1aa50b9c5361bf82a060820
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ec45d971855aefe35161f2b10fecd483f0345a46
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236408"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768809"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportar relatórios do Power BI para PDF
 
@@ -55,7 +55,7 @@ Existem algumas considerações e limitações a ter em conta ao trabalhar com a
 * Os elementos visuais Python e R não são atualmente suportados. No PDF, estes elementos visuais estão em branco e apresentam uma mensagem de erro. 
 * Os elementos visuais do Power BI que tiverem sido certificados são suportados. Para obter mais informações sobre os elementos visuais do Power BI certificados, incluindo como certificar um elemento visual do Power BI, veja [Certificar um elemento visual do Power BI](../developer/visuals/power-bi-custom-visuals-certified.md). Não são suportados elementos visuais do Power BI que não tenham sido certificados. No PDF, são apresentados com uma mensagem de erro.
 * O elemento visual ESRI não é suportado
-* Os relatórios com mais de 30 páginas não podem ser exportados atualmente.
+* Atualmente, os relatórios com mais de 50 páginas não podem ser exportados.
 * O processo de exportar o relatório para PDF pode demorar alguns minutos a ser concluído, por isso pedimos que seja paciente. Os fatores que podem afetar o tempo necessário incluem a estrutura do relatório e a carga atual no serviço Power BI.
 * Se o item de menu **Exportar para PDF** não estiver disponível no serviço Power BI, é provável que o seu administrador de inquilinos tenha desativado a funcionalidade. Contacte o seu administrador de inquilinos para obter informações.
 * As imagens de fundo serão recortadas de acordo com a área delimitadora do gráfico. Recomendamos que remova as imagens de fundo antes de exportar para PDF.

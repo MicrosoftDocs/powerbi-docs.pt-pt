@@ -9,17 +9,17 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 17a0879dac416a98d214ed11861947cb2c311487
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 01e5b470e0beb189d64da18785a17e771bcaf59b
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254214"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478044"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Colaborar no Microsoft Teams com o Power BI
 
-Tem várias opções para partilhar e colaborar nos conteúdos interativos do Power BI nos canais e chats do Microsoft Teams. 
+À medida que o teletrabalho se torna a norma, cada vez mais organizações dependem do Microsoft Teams para manter os colaboradores ligados. O Power BI oferece várias opções para partilhar e colaborar nos conteúdos interativos do Power BI nos canais e chats do Microsoft Teams. 
 
 - Com o separador **Power BI** do Microsoft Teams, pode [incorporar relatórios interativos em canais e chats do Microsoft Teams](service-embed-report-microsoft-teams.md). O separador **Power BI** ajuda os seus colegas a encontrar os dados da sua equipa e debater sobre os mesmos nos canais da equipa. 
 - Crie uma [pré-visualização da ligação](service-teams-link-preview.md) quando cola uma ligação para os seus relatórios, dashboards e aplicações na caixa de mensagens do Microsoft Teams. A pré-visualização da ligação mostra informações sobre a ligação. 
@@ -34,17 +34,6 @@ Em geral, para que o Power BI funcione no Microsoft Teams, certifique-se de que 
 - Os seus utilizadores têm uma licença do Power BI Pro ou que o relatório está incluído numa [capacidade Premium do Power BI (EM ou P SKU)](../admin/service-premium-what-is.md) com uma licença do Power BI.
 - Os utilizadores têm de iniciar sessão no serviço Power BI para ativar a respetiva licença do Power BI.
 - Os utilizadores cumprem os requisitos para utilizar o separador **Power BI** no Microsoft Teams.
-
-Para utilizar o separador **Power BI** no Microsoft Teams, certifique-se de que estes elementos estão presentes:
-
-- O Microsoft Teams tem o separador **Power BI**.
-- Para adicionar um relatório no Microsoft Teams com o separador **Power BI**, tem de ter pelo menos uma função de Visualizador na área de trabalho que aloja o relatório. Para obter informações sobre as diferentes funções, veja [Funções nas novas áreas de trabalho](service-new-workspaces.md#roles-in-the-new-workspaces).
-- Para verem o relatório no separador **Power BI** do Microsoft Teams, os utilizadores têm de ter permissão para ver o relatório.
-- Os utilizadores têm de ser utilizadores do Microsoft Teams com acesso a canais e chats.
-
-Para utilizar a funcionalidade **Partilhar no Teams** no Power BI, certifique-se de que esta definição está ativada:
-
-- Os administradores do Power BI não desativaram a definição do inquilino **Partilhar no Teams** no portal de administração do Power BI. Esta definição permite que as organizações ocultem os botões **Partilhar no Teams**. Para obter mais detalhes, veja o artigo do [portal de administração do Power BI](../admin/service-admin-portal.md#share-to-teams-tenant-setting).
 
 ## <a name="grant-access-to-reports"></a>Conceder acesso a relatórios
 

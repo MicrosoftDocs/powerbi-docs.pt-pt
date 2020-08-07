@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 6abcb77e3eb534e8b5d20c1d5567c117cbb97ffe
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5120b1ec0ce1acbe746dabe2b11b5653a34a4603
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76161438"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537602"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX: Avoid using FILTER as a filter argument (Evitar utilizar FILTER como um argumento de filtro)
 
@@ -103,4 +103,6 @@ Para obter mais informações sobre este artigo, consulte os seguintes recursos:
 
 - [Referência do DAX (Data Analysis Expressions)](/dax/)
 - [Funções de filtro (DAX)](/dax/filter-function-dax)
+- Percurso de aprendizagem: [Use DAX in Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/) (Utilizar a DAX no Power BI Desktop)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com)

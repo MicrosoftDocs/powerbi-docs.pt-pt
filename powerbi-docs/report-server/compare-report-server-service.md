@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 07/27/2020
-ms.openlocfilehash: c91642a08642a52b333ccba14078068eaa9ba616
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/28/2020
+ms.openlocfilehash: 44cfbeb85f30e2d84dc2c693ab4837606eb899eb
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252872"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87412055"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparar o Power BI Report Server e o serviço Power BI
 
@@ -48,6 +48,7 @@ O Power BI Report Server e o serviço Power BI têm muitas semelhanças e alguma
 | Subscrições de e-mail para relatórios paginados | Sim | Sim | [Subscrever relatórios paginados no serviço Power BI para si e para outras pessoas](../consumer/paginated-reports-subscriptions.md)<br><br>[Email delivery in Reporting Services](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal) (Entrega de e-mail no Reporting Services)  |
 | Alertas de dados | Não | Sim | [Alertas de dados](../create-reports/service-set-data-alerts.md) no serviço Power BI
 | Segurança ao nível da linha (RLS) | Sim | Sim | Disponível no DirectQuery (origem de dados) e no Modo de importação <br><br>Segurança ao nível da linha no [serviço Power BI](../admin/service-admin-rls.md) <br><br>service-report-subscribe [Power BI Report Server](row-level-security-report-server.md) |
+| Relações Muitos para muitos | Não | Sim | [Aplicar relações muitos-para-muitos](../transform-model/desktop-many-to-many-relationships.md) no Power BI Desktop |
 | Pormenorização de relatórios cruzados | Não | Sim | [Utilizar a pormenorização de relatórios cruzados](../create-reports/desktop-cross-report-drill-through.md) |
 | Modo de ecrã inteiro | Não | Sim | [Modo de ecrã inteiro](../consumer/end-user-focus.md) no serviço Power BI |
 | Colaboração avançada do Microsoft 365 | Não | Sim | [Colaborar numa área de trabalho](../collaborate-share/service-collaborate-power-bi-workspace.md) com o Microsoft 365 |

@@ -10,14 +10,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7c8c1744c8ecbbf170ae073d2e302fe55faea55b
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 9aad77f162a49697466899afce44284c7f063746
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953036"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478159"
 ---
-# <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Monitorizar as métricas de utilização na nova experiência de área de trabalho
+# <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Monitorizar as métricas de utilização na nova experiência de área de trabalho (pré-visualização)
 
 Saber como o seu conteúdo está a ser utilizado ajuda-o a demonstrar o impacto e a atribuir prioridades aos esforços. A métrica de utilização pode mostrar que um dos seus relatórios é utilizado diariamente por um vasto segmento da organização e mostrar que um dashboard que criou não está a ser visualizado. Este tipo de comentários são valiosos para ajudá-lo nos seus esforços de trabalho.
 
@@ -81,7 +81,7 @@ O relatório de métricas de utilização melhorado inclui as seguintes páginas
 
 | **Página** | **Métrica** | **Descrição** |
 | --- | --- | --- |
-| Comunicar utilização | Visualizações do relatório | Sempre que alguém abre um relatório, é registada uma visualização do relatório. Tenha em atenção que a definição de visualização é diferente da dos relatórios de métricas de utilização anteriores. Alterar as páginas do relatório já não é considerado uma visualização adicional. |
+| Comunicar utilização | Visualizações do relatório | Sempre que alguém abre um relatório, é registada uma visualização do relatório. Tenha em atenção que a definição de visualização é diferente da dos relatórios de métricas de utilização anteriores. Alterar as páginas do relatório já não é considerado uma visualização adicional. Atividades como partilhar e afixar já não são consideradas nas métricas de utilização.|
 | Comunicar utilização | Visualizadores únicos | Um visualizador é alguém que abriu o relatório, pelo menos, uma vez durante o período de tempo (com base na conta de utilizador do AAD). |
 | Comunicar utilização | Tendência das visualizações | A tendência das visualizações reflete as alterações nas contagens das visualizações ao longo do tempo. Compara a primeira metade do período de tempo selecionado com a segunda metade. |
 | Comunicar utilização | Segmentação de datas | Pode alterar o período de tempo na página Utilização do relatório, por exemplo, para calcular as tendências semana a semana ou quinzenalmente. No canto inferior esquerdo da página Utilização do relatório, pode determinar a data mais antiga e a mais recente para as quais os dados de utilização estão disponíveis no relatório selecionado. |

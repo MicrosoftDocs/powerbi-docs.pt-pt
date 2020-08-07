@@ -9,19 +9,28 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 68459deb29c59af3b9e2b185d54cf4e523d555d8
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252573"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478021"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>Incorporar conteúdos do Power BI no Microsoft Teams
 
 Pode facilmente incorporar relatórios interativos do Power BI em canais e chats do Microsoft Teams. 
 
-Veja [Colaborar no Microsoft Teams com o Power BI](service-embed-report-microsoft-teams.md) para obter informações sobre como o Power BI e o Teams funcionam em conjunto, incluindo requisitos que precisa de cumprir.
+## <a name="requirements"></a>Requirements
+
+Para utilizar o separador **Power BI** no Microsoft Teams, certifique-se de que estes elementos estão presentes:
+
+- O Microsoft Teams tem o separador **Power BI**.
+- Para adicionar um relatório no Microsoft Teams com o separador **Power BI**, tem de ter pelo menos uma função de Visualizador na área de trabalho que aloja o relatório. Para obter informações sobre as diferentes funções, veja [Funções nas novas áreas de trabalho](service-new-workspaces.md#roles-in-the-new-workspaces).
+- Para verem o relatório no separador **Power BI** do Microsoft Teams, os utilizadores têm de ter permissão para ver o relatório.
+- Os utilizadores têm de ser utilizadores do Microsoft Teams com acesso a canais e chats.
+
+Veja [Colaborar no Microsoft Teams com o Power BI](service-embed-report-microsoft-teams.md) para obter informações sobre como o Power BI e o Teams funcionam em conjunto, incluindo outros requisitos.
 
 ## <a name="embed-a-report-in-teams"></a>Incorporar um relatório no Teams
 
