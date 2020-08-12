@@ -8,11 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 3cf415cbd14da28d523a042fdf4099fe464a4a8b
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: 95d2cec8cf731c403e204beeb6c013c2cfe0ce1d
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739190"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878581"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Registo de alterações da API de elementos visuais do Power BI
 Esta página contém um resumo rápido das versões da API. As versões aqui listadas são consideradas estáveis e não serão alteradas.
@@ -90,7 +91,7 @@ Esta página contém um resumo rápido das versões da API. As versões aqui lis
 
 ## <a name="api-v162"></a>API v1.6.2
 * Suporta o **[Modo de edição](./advanced-edit-mode.md)** dos elementos visuais para entrar no modo de edição dos elementos visuais
-* Suporta **[Elementos visuais interativos (html) do Power BI baseados em R](https://microsoft.github.io/PowerBI-visuals/tutorials/building-r-powered-custom-visual/creating-r-visuals.md)** , com base em html
+* Suporta **[Elementos visuais interativos (html) do Power BI baseados em R](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** , com base em html
 
 ## <a name="api-v150"></a>API v1.5.0
 * Suporta **[Permitir interações](./visuals-interactions.md)** para a interatividade dos elementos visuais
@@ -104,7 +105,7 @@ Esta página contém um resumo rápido das versões da API. As versões aqui lis
 ## <a name="api-v120"></a>API v1.2.0
 * Adiciona **colorPalette** para gerir as cores utilizadas no elemento visual.
 * Suporta **Seleção múltipla** – o selectionManager pode aceitar uma matriz de `SelectionId`.
-* Suporta **[elementos visuais R](https://microsoft.github.io/PowerBI-visuals/tutorials/building-r-powered-custom-visual/creating-r-visuals.md)** com scripts R
+* Suporta **[elementos visuais R](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** com scripts R
 
 ## <a name="api-v110"></a>API v1.1.0
 * Suporta a depuração de elementos visuais no iFrame

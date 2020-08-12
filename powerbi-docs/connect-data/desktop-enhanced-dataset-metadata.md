@@ -9,17 +9,18 @@ ms.topic: conceptual
 ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a09311c5fdb1a8b2e008996d993015f33ee9b5f
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: b1204b28ae5239bf4080472129b0862862446e5d
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739259"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878456"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Using enhanced dataset metadata (preview) (Utilizar metadados de conjuntos de dados otimizados [pré-visualização])
 
 Quando o Power BI Desktop cria relatórios, também cria conjuntos de dados nos ficheiros PBIX e PBIT correspondentes. Anteriormente, os metadados eram armazenados num formato específico do Power BI Desktop. Utilizavam expressões M com codificação base 64 e origens de dados, e eram efetuados pressupostos sobre a forma como os metadados eram armazenados.
 
-Com o lançamento da funcionalidade **metadados de conjuntos de dados otimizados**, muitas destas limitações desapareceram. Com a funcionalidade **metadados de conjuntos de dados otimizados** ativada, os metadados criados pelo Power BI Desktop utilizam um formato semelhante ao utilizado para modelos em tabela do Analysis Services, com base no [Modelo de Objeto em Tabela](https://docs.microsoft.com/bi-reference/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo).
+Com o lançamento da funcionalidade **metadados de conjuntos de dados otimizados**, muitas destas limitações desapareceram. Com a funcionalidade **metadados de conjuntos de dados otimizados** ativada, os metadados criados pelo Power BI Desktop utilizam um formato semelhante ao utilizado para modelos em tabela do Analysis Services, com base no [Modelo de Objeto em Tabela](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo).
 
 
 A funcionalidade **metadados de conjuntos de dados otimizados** é estratégica e fundamental, uma vez que as futuras funcionalidades do Power BI serão criadas com base nos respetivos metadados. Algumas funcionalidades adicionais que tiram partido dos metadados de conjuntos de dados otimizados incluem a [leitura/escrita de XMLA](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite) para gestão de conjuntos de dados do Power BI e a migração de cargas de trabalho do Analysis Services para o Power BI que tira partido de funcionalidades de próxima geração.

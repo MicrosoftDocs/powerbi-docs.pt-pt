@@ -8,11 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354484"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878691"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Tutorial: Build a funnel plot from R script to R visual (Criar um gráfico de funil ao transformar um script do R num visual do R)
 Este artigo descreve como criar um gráfico de funil com o script do R no elemento visual do R, passo a passo.
@@ -74,7 +75,7 @@ Em seguida, edite o script de forma a espelhar [este script](https://github.com/
 1. Volte a empacotar o elemento visual com o comando `pbiviz package` e tente importá-lo para o Power BI.
 
 > [!NOTE]
-> Veja [PBIX](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3-RCustomVisual/funnelPlot_RCustomVisual.pbix) e o [código-fonte](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/) para transferir.
+> Veja [PBIX](https://github.com/microsoft/PowerBI-visuals/blob/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) e o [código-fonte](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/) para transferir.
 
 ## <a name="make-r-based-visual-improvements"></a>Fazer melhorias aos elementos visuais baseados em R
 
@@ -273,7 +274,7 @@ Uma vez que o elemento visual resultante é baseado em PNG, não é reativo à p
 
 * Cada elemento visual do R aplica o operador `unique` à sua tabela de entrada. Para evitar a remoção de linhas idênticas, considere adicionar um campo de entrada extra com um ID exclusivo e ignore-o no código do R.   
 
-* Se tiver uma conta do Power BI, utilize o serviço Power BI para desenvolver um elemento visual [no momento](/PowerBI-visuals/docs/step-by-step-lab/creating-a-custom-visual/#testing-the-custom-visual) em vez de o reempacotar com o comando `pbiviz package`.
+* Se tiver uma conta do Power BI, utilize o serviço Power BI para desenvolver um elemento visual [no momento](/power-bi/developer/visuals/custom-visual-develop-tutorial/) em vez de o reempacotar com o comando `pbiviz package`.
 
 ### <a name="html-widgets-gallery"></a>Galeria de widgets HTML
 Explore elementos visuais na [galeria de widgets HTML](http://gallery.htmlwidgets.org/) para utilizar no seu próximo elemento visual. Para facilitar, criámos um [repositório de projetos de elementos visuais](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) com mais de 20 elementos visuais HTML interativos à escolha!

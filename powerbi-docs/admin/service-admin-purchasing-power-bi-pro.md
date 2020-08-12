@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 72e2744fc325f5e5b36f3abcf4a6d3d71767fbd4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 899055ea26d1f36592c426ba402aa363b65bfa15
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227641"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878347"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Comprar e atribuir licenças de utilizador do Power BI Pro
 
@@ -29,7 +29,7 @@ O Power BI Pro é uma licença de utilizador individual que permite que os uti
 Este artigo explica como comprar licenças de utilizador do Power BI Pro no centro de administração do Microsoft 365. Após comprar as licenças, pode atribuí-las aos utilizadores no centro de administração do Microsoft 365 ou no portal do Azure.
 
 > [!NOTE]
-> A partir de 14 de janeiro de 2020, as capacidades de gestão de licenças, subscrição e aquisição self-service para os produtos do Power Platform (Power BI, Power Apps e Power Automate) estão disponíveis para clientes da cloud comercial. Para obter mais informações, veja [Self-service purchase FAQ](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq) (FAQ da compra personalizada). Para ativar ou desativar as capacidades da compra personalizada, veja [Enable or disable self-service sign-up and purchasing](/service-admin-disable-self-service.md) (Ativar ou desativar a compra e a inscrição personalizadas).
+> A partir de 14 de janeiro de 2020, as capacidades de gestão de licenças, subscrição e aquisição self-service para os produtos do Power Platform (Power BI, Power Apps e Power Automate) estão disponíveis para clientes da cloud comercial. Para obter mais informações, veja [Self-service purchase FAQ](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq) (FAQ da compra personalizada). Para ativar ou desativar as capacidades da compra personalizada, veja [Enable or disable self-service sign-up and purchasing](/power-bi/admin/service-admin-disable-self-service) (Ativar ou desativar a compra e a inscrição personalizadas).
 
 ### <a name="prerequisites"></a>Pré-requisitos
 

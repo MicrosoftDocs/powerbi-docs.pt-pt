@@ -1,21 +1,21 @@
 ---
-title: Ver dashboards e relatórios nas aplicações móveis do Power BI
-description: Crie ou ligue-se a dashboards e relatórios no serviço Power BI. Em seguida, visualize-os nas aplicações móveis do Power BI.
+title: Ver dashboards nas aplicações móveis do Power BI
+description: Crie ou ligue a dashboards no serviço Power BI. Em seguida, visualize-os nas aplicações móveis do Power BI.
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 08/10/2020
 ms.author: painbar
-ms.openlocfilehash: 5911d1ded5c2ccf780454c60b7a5867223801a49
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: db889c945a7ea6f674bcc95e8ccf2c2075d56094
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220408"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091702"
 ---
-# <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Ver dashboards e relatórios nas aplicações móveis do Power BI
+# <a name="view-dashboards-in-the-power-bi-mobile-apps"></a>Ver dashboards nas aplicações móveis do Power BI
 Aplica-se a:
 
 | ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Telemóvel Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Tablet Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 

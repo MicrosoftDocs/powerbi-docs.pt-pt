@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: aed8317c36cdd118b03bff2db93788f493ac9ad2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380531"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878600"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Adicionar suporte de marcadores para elementos visuais do Power BI
 
@@ -49,9 +49,9 @@ O elemento visual deve restaurar valores de filtros para apresentar o estado cor
 
 Se o elemento visual interagir com outros elementos visuais ao utilizar [Seleção](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md), pode adicionar marcadores de uma de duas formas:
 
-* Se o elemento visual ainda não tiver utilizado [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md), pode utilizar o método `FilterManager.restoreSelectionIds`.
+* Se o elemento visual ainda não tiver utilizado [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts), pode utilizar o método `FilterManager.restoreSelectionIds`.
 
-* Se o elemento visual já utilizar [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) para gerir seleções, deve utilizar o método `applySelectionFromFilter` na instância do `InteractivityService`.
+* Se o elemento visual já utilizar [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts) para gerir seleções, deve utilizar o método `applySelectionFromFilter` na instância do `InteractivityService`.
 
 #### <a name="use-iselectionmanagerregisteronselectcallback"></a>Utilizar ISelectionManager.registerOnSelectCallback
 
