@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 08/10/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7dd6c812116d9ba196b157bd12d6362c19ac64ec
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: eeb879fc70effa166d08c9a342f77ad614779751
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216719"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049305"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Orientação sobre as definições para administradores de inquilinos
 
@@ -39,9 +39,13 @@ Se o fizer, recomendamos que ative a definição **Publicar informações para "
 Estes URLs serão disponibilizados como ligações no menu de ajuda do Power BI.
 
 > [!NOTE]
-> Se fornecer o URL dos **Pedidos de licenciamento**, os utilizadores individuais não terão de se inscrever na versão de avaliação gratuita de 60 dias do Power BI Pro. Em vez disso, serão direcionados para o seu site interno e ser-lhes-ão fornecidas informações sobre como adquirir uma licença (Gratuita ou Pro).
+> Ao disponibilizar o URL de **Pedidos de licenciamento**, impede que utilizadores individuais comprem uma licença do Power BI Pro. Em vez disso, serão direcionados para o seu site interno e ser-lhes-ão fornecidas informações sobre como adquirir uma licença. A definição **Permitir que os utilizadores experimentem o Power BI Pro** está ativada por predefinição e separa as experiências de compra e avaliação. Para saber mais sobre a forma como estas definições funcionam em conjunto, veja [Permitir que os utilizadores experimentem o Power BI Pro](../admin/service-admin-portal.md#allow-users-to-try-power-bi-pro).
+>
+>
 
 ![Captura de ecrã a mostrar o Power B I Desktop, com as definições de Ajuda e Suporte.](media/admin-tenant-settings/publish-get-help-information.png)
+
+Para obter mais informações, veja [Definições de ajuda e suporte](../admin/service-admin-portal.md#help-and-support-settings).
 
 ## <a name="manage-risk"></a>Faça a gestão do risco.
 As definições para gerir riscos podem ajudá-lo a estabelecer políticas de governação no seu inquilino do Power BI. No entanto, tenha em atenção que as definições de governação não são uma medida de segurança. Por exemplo, desativar a definição **Exportar dados** remove a funcionalidade da interface de utilizador do Power BI e, desta forma, ajuda os utilizadores do Power BI a trabalhar em conformidade com as políticas de governação da sua organização, mas não impede determinados utilizadores de exportarem dados com outras opções. Do ponto de vista da segurança, um utilizador do Power BI com acesso de leitura a um conjunto de dados tem permissão para consultar esse conjunto de dados e pode fazer persistir os resultados, independentemente das funcionalidades disponíveis na interface de utilizador do Power BI.

@@ -1,39 +1,39 @@
 ---
 title: Portal de administração do Power BI
-description: O portal de administração permite a gestão de inquilinos do Power BI na sua organização. Inclui itens, como métricas de utilização, acesso ao centro de administração do Microsoft 365 e definições.
+description: O portal de administração permite-lhe configurar definições ao nível da organização para o Power BI. Pode ver métricas de utilização, áreas de trabalho, elementos visuais da organização e conteúdo em destaque, configurar definições de inquilino e trabalhar com a capacidade.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 05/12/2020
+ms.date: 08/10/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: ec521c256209c258604e13483a9f3159b24626ae
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 19b4d64039333a18405ac57d98773e9e23857a18
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537510"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049820"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
-O portal de administração permite-lhe gerir o *inquilino* do Power BI da sua organização. O portal inclui itens, como métricas de utilização, acesso ao centro de administração do Microsoft 365 e definições.
+O portal de administração permite-lhe gerir as definições do Power BI para a sua organização. O portal inclui itens como métricas de utilização, acesso ao centro de administração do Microsoft 365 e definições de inquilino.
 
-O portal de administração completo está acessível a todos os utilizadores que sejam administradores globais ou a quem tenha sido atribuída a função de administrador de serviço do Power BI. Se não estiver numa destas funções, verá apenas as **Definições de capacidade** no portal. Para obter mais informações sobre a função de administrador do serviço Power BI, veja [Noções básicas sobre a função de administrador do Power BI](service-admin-role.md).
+O portal de administração completo está acessível para administradores globais e utilizadores com a função Administrador de serviço do Power BI. Se não estiver numa destas funções, verá apenas as **Definições de capacidade** no portal. Para obter mais informações sobre a função de administrador do serviço Power BI, veja [Noções básicas sobre a função de administrador do Power BI](service-admin-role.md).
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Como aceder ao portal de administração
 
-A conta tem de estar marcada como **Administrador Global**, no Microsoft 365 ou no Azure Active Directory (Azure AD), ou ter sido atribuída a função de administrador de serviço do Power BI, para obter acesso ao portal de administração do Power BI. Para obter mais informações sobre a função de administrador do serviço Power BI, veja [Noções básicas sobre a função de administrador do Power BI](service-admin-role.md). Para aceder ao portal de administração do Power BI, efetue o seguinte procedimento.
+Tem de ser um administrador global ou um administrador de serviço do Power BI para aceder ao portal de administração do Power BI. Para obter mais informações sobre a função de administrador do serviço Power BI, veja [Noções básicas sobre a função de administrador do Power BI](service-admin-role.md). Para aceder ao portal de administração do Power BI, siga estes passos:
 
-1. Selecione a engrenagem de definições na parte superior direita do serviço Power BI.
+1. Inicie sessão no [Power BI](https://app.powerbi.com) com as credenciais da sua conta de administrador.
 
-1. Selecione **Portal de administração**.
+1. No cabeçalho da página, selecione **Definições** > **Portal de administração**.
 
     ![Definições do portal de administração](media/service-admin-portal/powerbi-admin-settings.png)
 
-Existem nove separadores no portal. O resto deste artigo disponibiliza informações sobre cada um destes separadores.
+O Portal de administração tem várias secções. O resto deste artigo disponibiliza informações sobre cada um dessas secções.
 
 ![Navegação no portal de administração](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -43,19 +43,21 @@ Existem nove separadores no portal. O resto deste artigo disponibiliza informaç
 * [Definições de inquilino](#tenant-settings)
 * [Definições de capacidade](#capacity-settings)
 * [Códigos de incorporação](#embed-codes)
-* [Elemento visuais da organização](organizational-visuals.md#organizational-visuals)
-* [Armazenamento do fluxo de dados (pré-visualização)](#dataflow-storage-preview)
+* [Elementos visuais da organização](organizational-visuals.md#organizational-visuals)
+* [Ligações do Azure (pré-visualização)](#azure-connections-preview)
 * [Áreas de trabalho](#workspaces)
 * [Imagem corporativa personalizada](#custom-branding)
+* [Métricas de proteção](#protection-metrics)
+* [Conteúdo em destaque](#featured-content)
 
 ## <a name="usage-metrics"></a>Métricas de utilização
 
-As **Métricas de utilização** permitem-lhe monitorizar a utilização do Power BI da sua organização. Permite também ver quais os utilizadores e os grupos mais ativos no Power BI para a sua organização. 
+As **Métricas de utilização** permitem-lhe monitorizar a utilização do Power BI da sua organização. Também mostram quais os utilizadores e os grupos da sua organização mais ativos no Power BI.
 
 > [!NOTE]
 > Quando aceder ao dashboard pela primeira vez ou depois de voltar após um período longo em que não visualizou o dashboard, provavelmente verá um ecrã de carregamento enquanto carregamos o dashboard.
 
-Após o carregamento do dashboard, verá duas secções de mosaicos. A primeira secção inclui os dados de utilização dos utilizadores individuais e a segunda secção tem informações semelhantes dos grupos na sua organização.
+Após o carregamento do dashboard, verá duas secções de mosaicos. A primeira secção inclui os dados de utilização dos utilizadores individuais e a segunda secção tem informações semelhantes dos grupos.
 
 Segue-se uma análise detalhada do que pode ver em cada mosaico:
 
@@ -63,11 +65,13 @@ Segue-se uma análise detalhada do que pode ver em cada mosaico:
   
     ![Contagem distinta de dashboards, relatórios e conjuntos de dados](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* O dashboard mais consumido pelo número de utilizadores que podem aceder ao mesmo. Por exemplo, se tiver um dashboard partilhado com três utilizadores e também o tiver adicionado a um pacote de conteúdos com dois utilizadores diferentes ligados, a contagem será 6 (1 + 3 + 2).
+
+* O dashboard mais consumido pelo número de utilizadores que podem aceder ao mesmo. Por exemplo: Tem um dashboard que partilhou com três utilizadores. Também adicionou o dashboard a um pacote de conteúdos ao qual dois utilizadores diferentes se ligaram. A contagem do dashboard seria 6 (1 + 3 + 2).
   
     ![Dashboards mais consumidos](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
-* Os utilizadores de conteúdo mais populares ligados ao mesmo. Isto será qualquer item a que os utilizadores possam aceder através do processo Obter Dados, como pacotes de conteúdos SaaS, pacotes de conteúdos Organizacionais, ficheiros ou bases de dados.
+* Os utilizadores de conteúdo mais populares ligados ao mesmo. O conteúdo será qualquer item a que os utilizadores possam aceder através do processo Obter Dados, como pacotes de conteúdos SaaS, pacotes de conteúdos Organizacionais, ficheiros ou bases de dados.
+
   
     ![Pacotes mais consumidos](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
 
@@ -79,9 +83,9 @@ Segue-se uma análise detalhada do que pode ver em cada mosaico:
   
     ![Principais utilizadores – relatórios](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-A segunda secção apresenta o mesmo tipo de informação, mas com base em grupos. Tal permite-lhe ver quais os grupos mais ativos na sua organização e o tipo de conteúdo que estão a consumir.
+A segunda secção apresenta o mesmo tipo de informação, mas com base em grupos. Esta secção permite-lhe ver quais os grupos mais ativos na sua organização e o tipo de conteúdo que estão a consumir.
 
-Com estas informações, pode obter informações reais relativamente à forma como as pessoas estão a utilizar o Power BI na sua organização e reconhecer os utilizadores e grupos que são muito ativos na sua organização.
+Com estes dados, pode obter informações reais sobre como as pessoas estão a utilizar o Power BI na sua organização.
 
 ## <a name="control-usage-metrics"></a>Controlar métricas de utilização
 
@@ -93,7 +97,7 @@ Veja [Monitorizar as métricas de utilização para dashboards e relatórios do 
 
 ### <a name="usage-metrics-for-content-creators"></a>Métricas de utilização para criadores de conteúdo
 
-1. No portal de administração, selecione **Definições de inquilino** > **Métricas de utilização para criadores de conteúdo**.
+1. No Portal de administração, selecione **Definições de inquilino** > **Definições de auditoria e utilização** > **Métricas de utilização para criadores de conteúdo**.
 
     ![Definições de inquilino no portal de administração para métricas de utilização](media/service-admin-portal/power-bi-admin-usage-metrics.png)
 
@@ -101,10 +105,9 @@ Veja [Monitorizar as métricas de utilização para dashboards e relatórios do 
 
     ![Métrica de utilização ativada](../collaborate-share/media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>Dados por utilizador em métricas de utilização para criadores de conteúdo
 
-### <a name="per-user-data-in-usage-metrics"></a>Dados por utilizador nas métricas de utilização
-
-Por predefinição, os dados por utilizador estão ativados para métricas de utilização e as informações da conta do consumidor de conteúdos estão incluídas no relatório de métricas. Se não quiser incluir estas informações para alguns ou para todos os utilizadores, desative a funcionalidade para grupos de segurança específicos ou para toda a organização. As informações da conta são apresentadas no relatório como *Sem nome*.
+Por predefinição, os dados por utilizador estão ativados para métricas de utilização e as informações da conta estão incluídas no relatório de métricas. Se não quiser incluir informações da conta para alguns ou para todos os utilizadores, desative a funcionalidade para grupos de segurança específicos ou para toda a organização. As informações da conta são apresentadas no relatório como *Sem nome*.
 
 ![Dados de utilização por utilizador](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
 
@@ -112,38 +115,38 @@ Por predefinição, os dados por utilizador estão ativados para métricas de ut
 
 Ao desativar as métricas de utilização para toda a respetiva organização, os administradores também podem escolher uma ou ambas as opções para:
 
-- **Eliminar todo o conteúdo das métricas de utilização existente** para eliminar todos os relatórios e mosaicos de dashboard existentes que foram criados com os conjuntos de dados e relatórios de métricas de utilização. Esta opção remove todo o acesso a dados da métrica de utilização por parte de todos os utilizadores na organização que possam estar a utilizá-lo. 
+- **Eliminar todo o conteúdo das métricas de utilização existente** para eliminar todos os relatórios e mosaicos de dashboard existentes que foram criados com os conjuntos de dados e relatórios de métricas de utilização. Esta opção remove todo o acesso a dados da métrica de utilização por parte de todos os utilizadores na organização que possam estar a utilizá-lo.
 - **Eliminar todos os dados por utilizador existentes no conteúdo de métricas de utilização atual**; esta opção remove todo o acesso a dados das métricas de utilização por parte de todos os utilizadores na organização que possam estar a utilizá-los. 
 
 Tenha cuidado, uma vez que eliminar o conteúdo das métricas de utilização por utilizador existente é irreversível.
 
 ## <a name="users"></a>Utilizadores
 
-Os utilizadores, grupos e administradores do Power BI são geridos no centro de administração do Microsoft 365. O separador **Utilizadores** disponibiliza uma ligação para o centro de administração do seu inquilino.
+Os utilizadores, grupos e administradores do Power BI são geridos no centro de administração do Microsoft 365. O separador **Utilizadores** disponibiliza uma ligação para o centro de administração.
 
 ![Aceda ao centro de administração do Microsoft 365](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>Registos de auditoria
 
-Os registos de auditoria do Power BI são geridos no centro de Segurança e Conformidade do Office 365. O separador **Registos de auditoria** proporciona uma ligação para o centro de Segurança e Conformidade do seu inquilino. [Saiba mais](service-admin-auditing.md)
+Os registos de auditoria do Power BI são geridos no centro de Segurança e Conformidade do Office 365. O separador **Registos de auditoria** proporciona uma ligação para o centro de Segurança e Conformidade. Para saber mais, veja [Controlar as atividades dos utilizadores no Power BI](service-admin-auditing.md).
 
 Para utilizar os registos de auditoria, verifique se a definição [**Criar registos de auditoria para auditoria de atividade interna e de conformidade**](#create-audit-logs-for-internal-activity-auditing-and-compliance) está ativada.
 
 ## <a name="tenant-settings"></a>Definições do inquilino
 
-O separador **Definições de inquilino** permite um controlo refinado sobre as funcionalidades que são disponibilizadas à sua organização. Se tiver problemas com dados confidenciais, algumas das nossas funcionalidades poderão não ser adequadas para a sua organização ou poderá querer apenas uma determinada funcionalidade disponível para um grupo específico.
+As **Definições de inquilino** permitem um controlo refinado sobre as funcionalidades que são disponibilizadas à sua organização. Se tiver problemas com dados confidenciais, algumas das nossas funcionalidades poderão não ser adequadas para a sua organização ou poderá querer apenas uma determinada funcionalidade disponível para um grupo específico.
 
 > [!NOTE]
-> As definições do inquilino que controlam a disponibilidade das funcionalidades na interface do utilizador do Power BI podem ajudar a estabelecer políticas de governação, mas não são uma medida de segurança. Por exemplo, a definição **Exportar dados** não restringe as permissões de um utilizador do Power BI num conjunto de dados. Os utilizadores do Power BI com acesso de leitura a um conjunto de dados têm permissão para consultar este conjunto de dados e poderão conseguir fazer persistir os resultados sem utilizar a funcionalidade **Exportar dados** na interface do utilizador do Power BI.
+> As definições de inquilino que controlam a disponibilidade das funcionalidades na interface do utilizador do Power BI podem ajudar a estabelecer políticas de governação, mas não são uma medida de segurança. Por exemplo, a definição **Exportar dados** não restringe as permissões de um utilizador do Power BI num conjunto de dados. Os utilizadores do Power BI com acesso de leitura a um conjunto de dados têm permissão para consultar este conjunto de dados e poderão conseguir fazer persistir os resultados sem utilizar a funcionalidade **Exportar dados** na interface do utilizador do Power BI.
 
 A seguinte imagem apresenta várias definições no separador **Definições de inquilino**.
 
 ![Definições do inquilino](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
-> Pode demorar até 10 minutos para a alteração à definição ter efeito para todos os utilizadores no inquilino.
+> Pode demorar até 15 minutos para a alteração à definição ter efeito para todos os utilizadores na sua organização.
 
-As definições podem ter três estados:
+As definições podem ter um de três estados:
 
 * **Desativado para toda a organização**: Ninguém na sua organização pode utilizar esta funcionalidade.
 
@@ -153,13 +156,13 @@ As definições podem ter três estados:
 
     ![Definição Ativado para todos](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Ativado para um subconjunto da organização**: Um subconjunto específico de utilizadores ou grupos na sua organização pode utilizar esta funcionalidade.
+* **Ativado para um subconjunto da organização**: Em vez de ativar a funcionalidade para toda a organização, pode aplicar a definição a **Grupos de segurança específicos** na sua organização que têm permissão para utilizar esta funcionalidade.
 
-    Pode ativar a funcionalidade para toda a organização, exceto para um grupo específico de utilizadores.
+    Também pode ativar uma funcionalidade para toda a organização, **Exceto grupos de segurança específicos**.
 
     ![Definição Ativado para um subconjunto](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-    Pode também ativar a funcionalidade apenas para um grupo específico de utilizadores ou desativá-la para um grupo de utilizadores. Utilizar esta abordagem assegura que determinados utilizadores não tenham acesso à funcionalidade mesmo que estejam no grupo permitido.
+    Pode também combinar definições para ativar a funcionalidade apenas para um grupo específico de utilizadores ou desativá-la para um grupo de utilizadores. Utilizar esta abordagem assegura que determinados utilizadores não tenham acesso à funcionalidade mesmo que estejam no grupo permitido. Aplica-se a definição mais restritiva para um utilizador.
 
     ![Definição Ativado com exceções](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
@@ -169,23 +172,47 @@ As próximas secções fornecem uma descrição geral dos diferentes tipos de de
 
 ### <a name="publish-get-help-information"></a>Publicar informações para "Obter Ajuda"
 
-Os utilizadores na organização podem aceder aos recursos de ajuda e suporte internos a partir do menu de ajuda do Power BI. Especificamente, estes parâmetros alteram o comportamento dos itens de menu de ajuda Saber mais, Comunidade e Obter ajuda.
+Os administradores podem especificar URLs internos para substituir o destino de ligações no menu de ajuda do Power BI e para atualizações de licença. Se forem definidos URLs personalizados, os utilizadores da organização acedem a recursos de ajuda e suporte internos em vez de acederem aos destinos predefinidos. Os seguintes destinos de recursos podem ser personalizados:
 
-Além disso, ao especificar um URL para pedidos de licenciamento, pode personalizar o URL de destino do botão **Atualizar conta**. Os utilizadores sem uma licença do Power BI Pro veem este botão na caixa de diálogo **Atualizar para o Power BI Pro**, bem como na página **Gerir armazenamento pessoal**. Além disso, o Power BI já não apresenta o botão **Experimentar o Pro gratuitamente** nesta caixa de diálogo ou página de armazenamento. Isto garante que o Power BI orienta os seus utilizadores de forma fiável pelos processos definidos na sua organização através da sua solução de gestão de licenças.
+* **Learn**. Por predefinição, esta ligação do menu de ajuda tem como destino uma [lista de todos os nossos módulos e percursos de aprendizagem do Power BI](https://docs.microsoft.com/learn/browse/?products=power-bi). Para direcionar esta ligação para os recursos de preparação internos, defina um URL personalizado para a **Documentação de preparação**.
 
-![Definição Ativado com exceções](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
+* **Comunidade**. Para direcionar os utilizadores para um fórum interno a partir do menu de ajuda em vez da [Comunidade do Power BI](https://community.powerbi.com/), defina um URL personalizado para um **Fórum de debate**.
+
+* **Atualizações de licenciamento**. Os utilizadores com uma licença do Power BI (gratuito) podem ter a oportunidade de atualizar a respetiva conta para o Power BI Pro ao utilizar o serviço. Se especificar um URL interno para **Pedidos de licenciamento**, redireciona os utilizadores para um fluxo de pedido e compra interno e impede que estes façam uma compra de gestão personalizada. Se quiser impedir os utilizadores de comprarem licenças, mas não de iniciarem uma avaliação do Power BI Pro, veja [Permitir que os utilizadores experimentem o Power BI Pro](#allow-users-to-try-power-bi-pro) para separar as experiências de compra e avaliação.
+
+* **Obter ajuda**. Para direcionar os utilizadores para o suporte técnico interno a partir do menu de ajuda em vez do [Suporte do Power BI](https://powerbi.microsoft.com/support/), defina um URL personalizado para o **Suporte Técnico**.
+
+![Publicar informações para obter ajuda](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Receber notificações por e-mail sobre incidentes ou indisponibilidades do serviço
 
 Os grupos de segurança com capacidade de correio receberão notificações de e-mail se este inquilino for afetado por um incidente ou uma indisponibilidade do serviço. Saiba mais sobre as [Notificações de interrupção do serviço](service-interruption-notifications.md).
 
+### <a name="allow-users-to-try-power-bi-pro"></a>Permitir que os utilizadores experimentem o Power BI Pro
+
+A definição para **Permitir que os utilizadores experimentem o Power BI Pro** está ativada por predefinição e dá-lhe mais controlo sobre a forma como os utilizadores adquirem licenças do Power BI Pro. Nos cenários em que bloqueou a compra de gestão personalizada, esta definição permite que os utilizadores iniciem uma avaliação do Power BI Pro. A experiência do utilizador final depende da forma como combina as definições de licença. A tabela abaixo mostra como diferentes combinações de definições afetam a experiência de atualização do Power BI (gratuito) para o Power BI Pro:
+
+| Definição Compra de gestão personalizada | Definição Permitir que os utilizadores experimentem o Power BI Pro | Experiência de utilizador final |
+| ------ | ------ | ----- |
+| Ativado | Desativado | O utilizador pode comprar uma licença do Pro, mas não pode iniciar uma avaliação |
+| Ativado | Ativado | O utilizador pode iniciar uma avaliação gratuita do Pro e atualizar para uma licença paga |
+| Desativado | Desativado | O utilizador vê uma mensagem para contactar o administrador de TI para pedir uma licença |
+| Desativado | Ativado | O utilizador pode iniciar uma avaliação do Pro, mas tem de contactar o administrador de TI para obter uma licença paga |
+
+> [!NOTE]
+> Pode adicionar um URL interno para pedidos de licenciamento nas [Definições de ajuda e suporte](#help-and-support-settings). Se definir o URL, este substitui a experiência de compra predefinida. Os utilizadores que podem comprar uma licença nos cenários descritos na tabela acima são redirecionados para o URL interno.
+
+![IU da definição Permitir que os utilizadores experimentem o Power BI Pro](media/service-admin-portal/allow-pro-trial.png)
+
+Para saber mais, veja [Ativar ou desativar a compra e inscrição de gestão personalizada](service-admin-disable-self-service.md)
+
 ## <a name="workspace-settings"></a>Definições de área de trabalho
 
-Em **Definições do inquilino**, o portal de administração possui duas secções para controlar áreas de trabalho:
+Em **Definições de inquilino**, o portal de administração possui três secções para controlar áreas de trabalho:
 
-- Criar as novas experiências de área de trabalho.
-- Utilizar conjuntos de dados em áreas de trabalho.
-- Impedir a criação de áreas de trabalho clássicas.
+- [Criar as novas experiências de área de trabalho](#create-the-new-workspaces).
+- [Utilizar conjuntos de dados em áreas de trabalho](#use-datasets-across-workspaces).
+- [Impedir a criação de áreas de trabalho clássicas](#block-classic-workspace-creation).
 
 ### <a name="create-the-new-workspaces"></a>Criar as novas áreas de trabalho
 
@@ -337,7 +364,7 @@ Após permitir conteúdo em destaque, também pode geri-lo no Portal de administ
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Publicar pacotes de conteúdo e aplicações em toda a organização
 
-Os administradores podem utilizar esta definição para decidir que utilizadores podem publicar pacotes de conteúdo e aplicações em toda a organização, ao invés de apenas grupos específicos. Saiba mais sobre como [publicar aplicações](../collaborate-share/service-create-distribute-apps.md).
+Os administradores podem utilizar esta definição para decidir que utilizadores podem publicar pacotes de conteúdo e aplicações em toda a organização, ao invés de grupos específicos. Saiba mais sobre como [publicar aplicações](../collaborate-share/service-create-distribute-apps.md).
 
 A imagem seguinte mostra a opção **A minha organização inteira** durante a criação de um pacote de conteúdos.
 
@@ -433,7 +460,7 @@ Os utilizadores na organização podem incorporar dashboards e relatórios do Po
 
 ### <a name="allow-service-principals-to-use-power-bi-apis"></a>Permitir que os principais de serviço utilizem as APIs do Power BI
 
-As aplicações Web registadas no Azure Active Directory (Azure AD) utilizarão um principal de serviço atribuído para aceder às APIs do Power BI que não tenham um utilizador com sessão iniciada. Para que uma aplicação possa utilizar a autenticação do principal de serviço, esta tem de ser incluída num grupo de segurança permitido. [Saiba mais](../developer/embedded/embed-service-principal.md)
+As aplicações Web registadas no Azure Active Directory (Azure AD) utilizarão um principal de serviço atribuído para aceder às APIs do Power BI que não tenham um utilizador com sessão iniciada. Para que uma aplicação possa utilizar a autenticação do principal de serviço, o respetivo principal de serviço tem de ser incluído num grupo de segurança permitido. [Saiba mais](../developer/embedded/embed-service-principal.md)
 
 > [!NOTE]
 > Os principais de serviço herdam as permissões de todas as definições do inquilino do Power BI do respetivo grupo de segurança. Para restringir as permissões, crie um grupo de segurança dedicado para os principais de serviço e adicione-o à lista "Exceto grupos de segurança específicos" para as definições do Power BI relevantes ativadas.
@@ -491,26 +518,48 @@ Enquanto administrador, pode ver os códigos de incorporação gerados para o se
 
 ![Códigos de incorporação no portal de administração do Power BI](media/service-admin-portal/embed-codes.png)
 
-## <a name="dataflow-storage-preview"></a>Armazenamento do fluxo de dados (pré-visualização)
+## <a name="organizational-visuals"></a>Elementos visuais da organização
+
+Todas as definições de administrador de elementos visuais do Power BI, incluindo as definições de inquilino dos elementos visuais do Power BI, são descritas em [Gerir as definições de administrador de elementos visuais do Power BI](organizational-visuals.md).
+
+## <a name="azure-connections-preview"></a>Ligações do Azure (pré-visualização)
+
+### <a name="tenant-level-storage-preview"></a>Armazenamento ao nível do inquilino (pré-visualização)
 
 Por predefinição, os dados utilizados com o Power BI são armazenados no armazenamento interno fornecido pelo Power BI. Com a integração dos fluxos de dados e do Azure Data Lake Storage Gen2 (ADLS Gen2), pode armazenar os seus fluxos de dados na conta do Azure Data Lake Storage Gen2 da sua organização. Para obter mais informações, veja [Fluxos de dados e integração do Azure Data Lake (Pré-visualização)](../transform-model/service-dataflows-azure-data-lake-integration.md).
 
+### <a name="workspace-level-storage-permissions-preview"></a>Permissões de armazenamento ao nível da área de trabalho (pré-visualização)
+
+Por predefinição, os administradores de áreas de trabalho não podem ligar a sua própria conta de armazenamento. Com esta funcionalidade de pré-visualização, pode ativar uma definição que permite que os administradores de áreas de trabalho liguem a sua própria conta de armazenamento.
+
 ## <a name="workspaces"></a>Áreas de trabalho
 
-Enquanto administrador, pode ver as áreas de trabalho existentes no seu inquilino. Pode ordenar e filtrar a lista de áreas de trabalho e ver os detalhes de cada área de trabalho. As colunas da tabela correspondem às propriedades devolvidas pela [API Rest do administrador do Power BI](/rest/api/power-bi/admin) das áreas de trabalho. As áreas de trabalho pessoais são do tipo **GrupoPessoal**, as áreas de trabalho clássicas são do tipo **Grupo** e as novas experiências de área de trabalho são do tipo **Área de Trabalho**. Para obter mais informações, veja [Organizar o trabalho nas novas áreas de trabalho](../collaborate-share/service-new-workspaces.md).
+Enquanto administrador, pode ver as áreas de trabalho existentes no seu inquilino no separador **Áreas de trabalho**. Neste separador, pode realizar estas ações:
 
-Os administradores também podem gerir e recuperar áreas de trabalho, através do portal de administração ou dos cmdlets do PowerShell. 
+- Atualizar a lista de áreas de trabalho e os respetivos detalhes.
+- Exportar os dados sobre as áreas de trabalho para um ficheiro .csv. 
+- Ver detalhes acerca de uma área de trabalho, incluindo o respetivo ID, utilizadores e respetivas funções, dashboards, relatórios e conjuntos de dados.
+- Editar a lista de pessoas que têm acesso. Tal significa que pode eliminar a área de trabalho. Pode adicionar-se a si próprio a uma área de trabalho como administrador e, em seguida, abrir e eliminar a área de trabalho.
+- Editar os campos Nome e Descrição.
 
 ![Lista de áreas de trabalho](media/service-admin-portal/workspaces-list.png)
+
+Os administradores também podem controlar a capacidade dos utilizadores de criar áreas de trabalho na nova experiência e áreas de trabalho clássicas. Veja a secção [Definições da área de trabalho](#workspace-settings) neste artigo para obter mais detalhes. 
+
+As colunas da tabela no separador **Áreas de trabalho** correspondem às propriedades devolvidas pela [API Rest do administrador do Power BI](/rest/api/power-bi/admin) das áreas de trabalho. As áreas de trabalho pessoais são do tipo **GrupoPessoal**, as áreas de trabalho clássicas são do tipo **Grupo** e as novas experiências de área de trabalho são do tipo **Área de Trabalho**. Para obter mais informações, veja [Organizar o trabalho nas novas áreas de trabalho](../collaborate-share/service-new-workspaces.md).
 
 No separador **Áreas de trabalho**, vê o *estado* de cada área de trabalho. A tabela abaixo fornece mais detalhes sobre o significado desses estados.
 
 |Estado  |Descrição  |
 |---------|---------|
-| Ativo | Uma área de trabalho normal. Não indica nada sobre a utilização ou os respetivos conteúdos; apenas indica que a própria área de trabalho é "normal". |
-| Isolado | Uma área de trabalho sem utilizador administrador. |
-| Eliminado | Uma área de trabalho eliminada. Mantemos, durante 90 dias, metadados suficientes para restaurar a área de trabalho, se desejado. |
-| A remover | Uma área de trabalho prestes a ser eliminada, mas que ainda não foi. Os utilizadores podem eliminar as suas próprias áreas de trabalho, colocando-as em A remover e, por fim, em Eliminado. |
+| **Ativo** | Uma área de trabalho normal. Não indica nada sobre a utilização ou os respetivos conteúdos; apenas indica que a própria área de trabalho é "normal". |
+| **Isolado** | Uma área de trabalho sem utilizador administrador. |
+| **Eliminado** | Uma área de trabalho eliminada. Mantemos, durante 90 dias, metadados suficientes para restaurar a área de trabalho, se desejado. |
+| **A remover** | Uma área de trabalho prestes a ser eliminada, mas que ainda não foi. Os utilizadores podem eliminar as suas próprias áreas de trabalho, colocando-as em A remover e, por fim, em Eliminado. |
+
+Os administradores também podem gerir e recuperar áreas de trabalho, através do portal de administração ou dos cmdlets do PowerShell. 
+
+![Lista de áreas de trabalho](media/service-admin-portal/workspaces-list.png)
 
 ## <a name="custom-branding"></a>Imagem corporativa personalizada
 
@@ -527,7 +576,9 @@ Como administrador, pode personalizar o aspeto do Power BI para toda a sua organ
 
 Para obter mais informações, veja [Custom branding for your organization](https://aka.ms/orgBranding) (Imagem corporativa personalizada para a sua organização).
 
-![Lista de áreas de trabalho](media/service-admin-portal/workspaces-list.png)
+## <a name="protection-metrics"></a>Métricas de proteção
+
+Depois de ativar a proteção das informações para o Power BI, as métricas de proteção de dados são apresentadas no portal de administração. O relatório mostra como as etiquetas de confidencialidade ajudam a proteger o seu conteúdo.
 
 ## <a name="manage-featured-content"></a>Gerir conteúdo em destaque
 

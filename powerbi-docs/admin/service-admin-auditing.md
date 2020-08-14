@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: e8e81c297841e32d1f4d966de23b5d752b654c20
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161727"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091624"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Controlar as atividades dos utilizadores no Power BI
 
@@ -318,6 +318,9 @@ As seguintes operações estão disponíveis tanto no registo de auditoria como 
 | Atualização do fluxo de dados do Power BI pedida               | RequestDataflowRefresh                      | Não é atualmente utilizado                       |
 | Atualização do conjunto de dados do Power BI pedida                | RefreshDataset                              |                                          |
 | Áreas de trabalho do Power BI obtidas                     | GetWorkspaces                               |                                          |
+| Etiqueta de Confidencialidade Aplicada                         | SensitivityLabelApplied                     |                                          |
+| Etiqueta de Confidencialidade Alterada                         | SensitivityLabelChanged                     |                                          |
+| Etiqueta de Confidencialidade Removida                         | SensitivityLabelRemoved                     |                                          |
 | Definir o local de armazenamento do fluxo de dados para uma área de trabalho     | SetDataflowStorageLocationForWorkspace      |                                          |
 | Configurar atualização agendada no fluxo de dados do Power BI        | SetScheduledRefreshOnDataflow               |                                          |
 | Atualização agendada do conjunto de dados do Power BI configurada         | SetScheduledRefresh                         |                                          |

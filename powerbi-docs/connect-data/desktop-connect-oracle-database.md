@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/05/2020
+ms.date: 08/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2c59cb593a236785346721cb5c3ac90c702c93ed
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: f778b4f0c6572084598eb07df0e89b7a30aed7b1
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252067"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091601"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>Ligar a uma base de dados Oracle com o Power BI Desktop
 Para se ligar a uma base de dados do Oracle com o Power BI Desktop, tem de ser instalado o software cliente Oracle correto no computador que está a executar o Power BI Desktop. O software cliente Oracle que utiliza depende da versão do Power BI Desktop que tem instalada: a versão de 32 bits ou a versão de 64 bits. Também depende da sua versão do servidor Oracle.
@@ -50,16 +50,20 @@ Depois de instalar o controlador cliente Oracle adequado, pode estabelecer liga�
 2. Na janela **Obter Dados** que é apresentada, selecione **Mais** (se for necessário), selecione **Base de dados** > **Base de dados Oracle** e, em seguida, selecione **Ligar**.
    
    ![Ligar à base de dados Oracle](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. Na caixa de diálogo **Base de dados Oracle** que é apresentada, indique o nome do **Servidor** e selecione **OK**. Se for necessário um SID, especifique-o com o formato: *ServerName/SID*, em que *SID* é o nome exclusivo da base de dados. Se o formato *ServerName/SID* não funcionar, utilize *ServerName/ServiceName*, em que *ServiceName* é o alias que utiliza para ligar.
+3. Na caixa de diálogo **Base de dados Oracle** que é apresentada, indique o nome do **Servidor** e selecione **OK**. Se for necessário um SID, especifique-o com o formato: *ServerName/SID*, em que *SID* é o nome exclusivo da base de dados. Se o formato *ServerName/SID* não funcionar, utilize *ServerName/ServiceName*, em que *ServiceName* é o alias que utiliza para ligar.
 
 
    ![Introduzir o nome do servidor Oracle](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 
+   > [!NOTE]
+   > Se estiver a utilizar uma base de dados local ou ligações de base de dados autónomas, poderá ser necessário colocar o nome do servidor entre aspas para evitar erros de ligação. 
       
-3. Se pretender importar dados com recurso a uma consulta de base de dados nativa, coloque a sua consulta na caixa **Instrução SQL**, que aparece quando expande a secção **Opções avançadas** da caixa de diálogo **Base de dados Oracle**.
+4. Se pretender importar dados com recurso a uma consulta de base de dados nativa, coloque a sua consulta na caixa **Instrução SQL**, que aparece quando expande a secção **Opções avançadas** da caixa de diálogo **Base de dados Oracle**.
    
    ![Expandir opções avançadas](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
-4. Depois de introduzir as informações da base de dados Oracle na caixa de diálogo **Base de dados Oracle** (incluindo informações opcionais, tais como um SID ou uma consulta de base de dados nativa), selecione **OK** para ligar.
+
+
+5. Depois de introduzir as informações da base de dados Oracle na caixa de diálogo **Base de dados Oracle** (incluindo informações opcionais, tais como um SID ou uma consulta de base de dados nativa), selecione **OK** para ligar.
 5. Se a base de dados Oracle requerer credenciais de utilizador de base de dados, introduza essas credenciais na caixa de diálogo quando lhe for pedido.
 
 

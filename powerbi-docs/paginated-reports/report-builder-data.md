@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
-ms.date: 06/06/2019
-ms.openlocfilehash: fea4e4927b009e30bc040593f9237cc49ff73956
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 08/04/2020
+ms.openlocfilehash: fe6ca733a5498c0e576ec30e6992ffbf26d54319
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921453"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837595"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Dados de relatórios no Report Builder do Power BI
 
@@ -27,7 +27,10 @@ Saiba como [Criar uma origem de dados incorporada para relatórios paginados no 
   
 - **Ligação de dados.** Também conhecida como uma *origem de dados*. Uma ligação de dados inclui um nome e propriedades de ligação que dependem do tipo de ligação. Por predefinição, uma ligação de dados não inclui credenciais. Uma ligação de dados não especifica os dados a recuperar a partir da origem de dados externa. Para tal, especifique uma consulta ao criar um conjunto de dados.  
   
-- **Cadeia de ligação.** Uma cadeia de ligação é uma versão da cadeia de carateres das propriedades de ligação que são necessárias para ligar a uma origem de dados. As propriedades de ligação variam com base no tipo de ligação de dados.  
+- **Cadeia de ligação.** Uma cadeia de ligação é uma versão da cadeia de carateres das propriedades de ligação que são necessárias para ligar a uma origem de dados. As propriedades de ligação variam com base no tipo de ligação de dados. 
+
+    > [!NOTE]
+    > As cadeias de ligação de origem de dados não podem basear-se em expressões.
   
 - **Origem de dados incorporada.** Também conhecida como uma *origem de dados específica do relatório*. Uma origem de dados que é definida num relatório e utilizada apenas por esse relatório.  
   
@@ -57,7 +60,7 @@ Saiba como [Criar uma origem de dados incorporada para relatórios paginados no 
   
 - As origens de dados e os conjuntos de dados são criados num relatório e publicados no serviço Power BI. Depois de serem publicados, pode configurar as credenciais diretamente no serviço Power BI ou no Gateway da Empresa. 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)  
 - [Orientação para a obtenção de dados para relatórios paginados](../guidance/report-paginated-data-retrieval.md)

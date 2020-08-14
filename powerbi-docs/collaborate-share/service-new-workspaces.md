@@ -6,20 +6,22 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/26/2020
+ms.date: 08/07/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 77de9608978379cee83236b0c362bd2d7d57d5c6
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 56dd9e07e7c0647e7f92cc5d701b260483e2fbdf
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120399"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049282"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho nas novas áreas de trabalho no Power BI
 
-As *áreas de trabalho* são locais onde pode colaborar com colegas para criar coleções de dashboards, relatórios, conjuntos de dados e relatórios paginados. A nova experiência de área de trabalho ajuda a gerir melhor o acesso ao conteúdo. Este artigo descreve as novas áreas de trabalho e como diferem das áreas de trabalho clássicas.  Tal como acontece com as áreas de trabalho clássicas, ainda as utilizar para criar e distribuir aplicações. Pronto para criar uma nova área de trabalho? Leia [Criar uma nova experiência de área de trabalho](service-create-the-new-workspaces.md).
+As *áreas de trabalho* são locais onde pode colaborar com colegas para criar coleções de dashboards, relatórios, conjuntos de dados e relatórios paginados. A nova experiência de área de trabalho ajuda a gerir melhor o acesso ao conteúdo. Este artigo descreve as novas áreas de trabalho e como diferem das áreas de trabalho clássicas.  Tal como acontece com as áreas de trabalho clássicas, ainda as utilizar para criar e distribuir aplicações. 
+
+Pronto para criar uma nova área de trabalho? Leia [Criar uma nova experiência de área de trabalho](service-create-the-new-workspaces.md).
 
 :::image type="content" source="media/service-new-workspaces/power-bi-workspace-opportunity.png" alt-text="Nova experiência de área de trabalho do Power BI":::
 
@@ -86,8 +88,10 @@ Se uma das novas áreas de trabalho estiver numa capacidade partilhada, todas as
 
 Quando a nova área de trabalho está numa capacidade do Power BI Premium, os utilizadores com a função de Visualizador podem aceder à área de trabalho, mesmo que não tenham uma licença do Power BI Pro. No entanto, se atribuir a estes utilizadores uma função superior, como Administrador, Membro ou Contribuidor, ser-lhes-á pedido para iniciar uma avaliação Pro quando tentarem aceder à área de trabalho. Se quiser que os utilizadores sem licenças Pro utilizem a função de Visualizador, confirme que estes também não possuem outras funções na área de trabalho, quer individualmente quer através de um grupo de utilizadores.
 
+As regras de licenciamento existentes são impostas com maior rigor à publicação de relatórios na nova experiência de área de trabalho. Se tentar publicar a partir do Power BI Desktop ou de outras ferramentas cliente sem uma licença Pro, será apresentado o erro “Apenas utilizadores com licenças do Power BI Pro podem publicar nesta área de trabalho”.
+
 > [!NOTE]
-> As regras de licenciamento existentes são impostas com maior rigor à publicação de relatórios na nova experiência de área de trabalho. Se tentar publicar a partir do Power BI Desktop ou de outras ferramentas cliente sem uma licença Pro, será apresentado o erro “Apenas utilizadores com licenças do Power BI Pro podem publicar nesta área de trabalho”.
+> O Power BI para o Governo Norte-Americano não está disponível com as licenças Gratuitas. Para obter detalhes de licenciamento, veja [Power BI para clientes do Governo Norte-Americano](../admin/service-govus-overview.md).
 
 ### <a name="guest-users"></a>Utilizadores convidados
 
@@ -95,7 +99,9 @@ Por predefinição, os [Utilizadores convidados do Azure AD B2B](../admin/serv
 
 ### <a name="administering-new-workspace-experience-workspaces"></a>Administrar áreas de trabalho da nova experiência
 
-A administração de áreas de trabalho da nova experiência é efetuada no portal de administração do Power BI. Os administradores do Power BI decidem quem na organização pode criar áreas de trabalho e distribuir aplicações. Os administradores podem ver o estado de todas as áreas de trabalho na sua organização. Também podem gerir e recuperar áreas de trabalho. Leia mais sobre como [administrar as novas áreas de trabalho](../admin/service-admin-portal.md#create-the-new-workspaces) no artigo sobre o Portal de administração.
+A administração de áreas de trabalho da nova experiência é efetuada no portal de administração do Power BI. Os administradores do Power BI decidem quem na organização pode criar áreas de trabalho e distribuir aplicações. Leia sobre como [gerir a capacidade de os utilizadores criarem áreas de trabalho](../admin/service-admin-portal.md#create-the-new-workspaces) no artigo "Portal de administração". 
+
+Os administradores também podem ver o estado de todas as áreas de trabalho na sua organização. Podem gerir, recuperar e até mesmo eliminar áreas de trabalho. Leia sobre como [gerir as áreas de trabalho](../admin/service-admin-portal.md#workspaces) no artigo "Portal de administração".
 
 ### <a name="auditing"></a>Auditoria
 

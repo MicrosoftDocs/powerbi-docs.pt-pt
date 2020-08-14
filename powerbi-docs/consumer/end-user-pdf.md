@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ec45d971855aefe35161f2b10fecd483f0345a46
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768809"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837503"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportar relatórios do Power BI para PDF
 
@@ -52,6 +52,7 @@ E é tudo. Pode transferir o ficheiro e abri-lo com qualquer visualizador de PDF
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Existem algumas considerações e limitações a ter em conta ao trabalhar com a funcionalidade **Exportar para PDF**.
 
+* O PDF incluirá os dados e as visualizações visíveis na sua tela do Power BI. Se o elemento visual incluir barras de deslocamento, o PDF irá incluí-lo no seu estado predefinido sem deslocamento.  
 * Os elementos visuais Python e R não são atualmente suportados. No PDF, estes elementos visuais estão em branco e apresentam uma mensagem de erro. 
 * Os elementos visuais do Power BI que tiverem sido certificados são suportados. Para obter mais informações sobre os elementos visuais do Power BI certificados, incluindo como certificar um elemento visual do Power BI, veja [Certificar um elemento visual do Power BI](../developer/visuals/power-bi-custom-visuals-certified.md). Não são suportados elementos visuais do Power BI que não tenham sido certificados. No PDF, são apresentados com uma mensagem de erro.
 * O elemento visual ESRI não é suportado

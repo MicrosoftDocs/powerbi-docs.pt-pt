@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/18/2019
+ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 3b4d7eb41e04a173f763dd09caf5fa94bfc444d4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: caccfdede32e91aa6265db0d38e26e96f8a7852c
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232646"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878628"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Machine Learning automatizada no Power BI
 
@@ -141,6 +141,10 @@ Para aplicar o modelo de ML, deve especificar o nome da entidade à qual deve se
 A aplicação do modelo de ML cria duas novas entidades de fluxo de dados que contêm as predições e explicações individualizadas para cada linha classificada na entidade de saída. Por exemplo, se aplicar o modelo _PurchaseIntent_ à entidade _OnlineShoppers_, a saída gerará as entidades **OnlineShoppers enriched PurchaseIntent** e **OnlineShoppers enriched PurchaseIntent explanations**. Para cada linha na entidade melhorada, as **Explicações** estão divididas em várias linhas na entidade de explicações melhoradas com base na funcionalidade de entrada. Um **ExplanationIndex** ajuda a mapear as linhas da entidade de explicações melhoradas para a linha na entidade melhorada.
 
 ![Editor de consultas](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
+
+Também pode aplicar qualquer modelo de AutoML do Power BI a entidades em qualquer fluxo de dados na mesma área de trabalho através das Informações de IA no browser de funções do PQO. Desta forma, pode utilizar modelos criados por outras pessoas na mesma área de trabalho sem precisar de ser proprietário do fluxo de dados que contém o modelo. O Power Query deteta todos os modelos de ML do Power BI na área de trabalho e expõe-nos como funções dinâmicas do Power Query. Pode invocar essas funções ao aceder às mesmas a partir do friso no Editor do Power Query ou ao invocar diretamente a função M.Atualmente, esta funcionalidade só é suportada para fluxos de dados do Power BI e para o Power Query Online no serviço Power BI. Tenha em atenção que isto é muito diferente de aplicar modelos de ML num fluxo de dados com o assistente de AutoML. Não há nenhuma entidade de explicações criada através deste método e, a menos que seja o proprietário do fluxo de dados, não pode aceder aos relatórios de preparação do modelo nem voltar a preparar o modelo. Se o modelo de origem for editado (através da adição ou remoção de campos de entrada) ou se o modelo ou o fluxo de dados de origem for eliminado, este fluxo de dados dependente deixa de funcionar.
+
+![Aplicar um modelo com o browser de Funções do PQO](media/service-machine-learning-automated/automated-machine-learning-power-bi-20.png)
 
 Depois de aplicar o modelo, o AutoML mantém sempre as predições atualizadas sempre que o fluxo de dados é atualizado.
 
@@ -276,7 +280,7 @@ Quando um Modelo de regressão é aplicado, adiciona três colunas de saída à 
 
 A coluna **RegressionResult** contém o valor previsto para o registo com base nos campos de entrada. A coluna **RegressionExplanation** contém uma explicação com a influência específica que os recursos de entrada tiveram na coluna **RegressionResult**.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Este artigo forneceu uma descrição geral do Machine Learning Automatizado para os fluxos de dados no serviço Power BI. Os seguintes artigos também podem ser úteis.
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 08/07/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: dea1198519f59a81c49e2f7a95a903c37bd4fb11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c171369cad8a311f91bd4b8542577cbd0c8e4657
+ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236610"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87988704"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Utilizar conectores de dados personalizados com o gateway de dados no local
 
@@ -47,10 +47,11 @@ Quando esta opção estiver ativa, verá os seus conectores personalizados como 
 * Certifique-se de que a pasta que cria está acessível ao serviço de gateway em segundo plano. Normalmente, as pastas que se encontram na pasta Windows ou nas pastas de sistema do utilizador não estarão acessíveis. Se a pasta não estiver acessível, a aplicação de gateway de dados no local apresenta uma mensagem. Esta instrução não se aplica ao gateway de dados no local (modo pessoal).
 * Para que os conectores personalizados possam funcionar com o gateway de dados no local, é necessário que seja implementada uma secção "TestConnection" no código do conector personalizado. Esta secção não é necessária ao utilizar conectores personalizados com o Power BI Desktop. Por este motivo, pode ter um conector que funciona com o Power BI Desktop, mas não com o gateway. Para obter mais informações sobre como implementar uma secção TestConnection, veja [esta documentação](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support).
 * O OAuth para conectores personalizados através de gateways é atualmente suportado apenas para administradores do gateway, mas não para outros utilizadores da origem de dados.
+* Se o seu conector personalizado estiver numa unidade de rede, inclua o caminho completamente qualificado na aplicação do gateway de dados no local.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
-* [Gerir a sua origem de dados - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
+* [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 * [Gerir a sua origem de dados – SAP HANA](service-gateway-enterprise-manage-sap.md)  
 * [Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [Gerir a sua origem de dados – Oracle](service-gateway-onprem-manage-oracle.md)  
