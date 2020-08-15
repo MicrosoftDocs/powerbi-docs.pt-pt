@@ -89,7 +89,7 @@
               href: ../paginated-reports/report-builder-planning-report.md
             - name: Report Builder data (Dados do Report Builder)
               href: ../paginated-reports/report-builder-data.md
-            - name: Supported data sources (Origens de dados suportadas)
+            - name: Origens de dados suportadas
               href: ../paginated-reports/paginated-reports-data-sources.md
             - name: Sugestões de design
               href: ../paginated-reports/report-builder-design-tips.md
@@ -119,7 +119,7 @@
       items:
         - name: Relatórios do Power BI
           items:
-            - name: Ativar a atualização automática de páginas (pré-visualização)
+            - name: Ativar a atualização automática de páginas
               href: desktop-automatic-page-refresh.md
             - name: Examinar os elementos de relatório com o Analisador de Desempenho
               href: desktop-performance-analyzer.md
@@ -325,7 +325,7 @@
               href: service-insights.md
             - name: Otimizar os dados para as Informações Rápidas
               href: service-insights-optimize.md
-        - name: Accessibility (Acessibilidade)
+        - name: Acessibilidade
           items:
             - name: Estruturar relatórios acessíveis
               href: desktop-accessibility-creating-reports.md
