@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 0169eba3e27b4014f9dbf20f88a10575caf903fe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7ea6601514d77f9f7e2e416b358194e871f6445b
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227265"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204312"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Modelos grandes no Power BI Premium (pré-visualização)
 
@@ -114,7 +114,6 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 Tenha em conta as seguintes restrições ao utilizar modelos grandes:
 
-- **Encriptação Bring Your Own Key (BYOK)** : os conjuntos de dados compatíveis com Ficheiros Premium não são encriptados por [BYOK](service-encryption-byok.md).
 - **Suporte multigeográfico**: os conjuntos de dados ativados para os Ficheiros Premium irão falhar em capacidades nas quais o [multi-geo](service-admin-premium-multi-geo.md) esteja também ativado.
 
 - **Transferir o Power BI Desktop**: se um conjunto de dados for armazenado em Ficheiros Premium, a [transferência como um ficheiro .pbix](../create-reports/service-export-to-pbix.md) irá falhar.
@@ -131,7 +130,7 @@ A lista seguinte indica as regiões onde os modelos grandes do Power BI estão 
 |Região do Azure  |Abreviatura da região do Azure  |
 |---------|---------|
 |Leste da Austrália     | australiaeast        |
-|Austrália Sudeste     | australiasoutheast        |
+|Sudeste da Austrália     | australiasoutheast        |
 |E.U.A. Central     | centralus        |
 |Ásia Leste     | eastasia        |
 |E.U.A. Leste     | eastus        |
@@ -143,7 +142,7 @@ A lista seguinte indica as regiões onde os modelos grandes do Power BI estão 
 |E.U.A. Centro-Norte     | northcentralus        |
 |Europa do Norte     | northeurope        |
 |E.U.A. Centro-Sul     | southcentralus        |
-|Ásia Sudeste     | southeastasia        |
+|Sudeste Asiático     | southeastasia        |
 |Sul do Reino Unido     | uksouth        |
 |Oeste do Reino Unido     | ukwest        |
 |Europa Ocidental     | westeurope        |
@@ -152,12 +151,12 @@ A lista seguinte indica as regiões onde os modelos grandes do Power BI estão 
 
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 As seguintes ligações disponibilizam informações que podem ser úteis para trabalhar com modelos grandes:
 
 * [Armazenamento de Ficheiros Premium do Azure](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
-* [Configurar o Suporte Multi-Geo para o Power BI Premium](service-admin-premium-multi-geo.md)
+* [Configurar o suporte da Multi-Geo para o Power BI Premium](service-admin-premium-multi-geo.md)
 * [Chaves de encriptação por BYOK (Bring Your Own Key) para o Power BI](service-encryption-byok.md)
 * [Como funcionam as capacidades](service-premium-what-is.md#how-capacities-function)
 * [Atualização incremental](service-premium-incremental-refresh.md).

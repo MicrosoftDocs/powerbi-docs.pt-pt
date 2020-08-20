@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 02/20/2020
+ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 944d115b0592954d92460ca26ae5b59311abc42e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a6513bdf7451db7068fe2540d32546df4d42ae8e
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227488"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204577"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Chaves de encriptação por BYOK (Bring Your Own Key) para o Power BI
 
@@ -32,7 +32,7 @@ Para utilizar o BYOK, tem de carregar os dados para o serviço Power BI a partir
 - Livros do Excel (a menos que os dados sejam importados primeiro para o Power BI Desktop)
 - [Conjuntos de dados push](/rest/api/power-bi/pushdatasets)
 - [Conjuntos de dados de transmissão em fluxo](../connect-data/service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
-- [Modelos grandes](service-premium-large-models.md)
+
 
 O BYOK aplica-se apenas a conjuntos de dados. Os conjuntos de dados push, ficheiros do Excel e ficheiros CSV que os utilizadores podem carregar para o serviço não são encriptados com a sua chave. Para identificar os artefactos armazenados nas suas áreas de trabalho, utilize o seguinte comando do PowerShell:
 
@@ -191,7 +191,7 @@ O Power BI fornece cmdlets adicionais para ajudá-lo a gerir o BYOK no seu inqui
 
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 * [Módulo do cmdlet do Power BI PowerShell](https://docs.microsoft.com/powershell/power-bi/overview) 
 
