@@ -71,6 +71,8 @@
               items:
                 - name: Q&A introduction (Introdução às Perguntas e Respostas)
                   href: ../natural-language/q-and-a-intro.md
+                - name: Origem de dados das Perguntas e Respostas
+                  href: ../natural-language/q-and-a-data-sources.md
                 - name: Q&A tooling introduction (Introdução às ferramentas das Perguntas e Respostas)
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Q&A tooling advanced (Ferramentas avançadas das Perguntas e Respostas)
