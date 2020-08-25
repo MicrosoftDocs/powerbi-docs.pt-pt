@@ -7,12 +7,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
-ms.openlocfilehash: 6178c9f157578110a09abf3fcbebccba54339f13
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 47ab35113bbf6564cbc824b48891cd9f58370c8a
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866080"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578166"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Introdução às ferramentas das Perguntas e Respostas para preparar as Perguntas e Respostas do Power BI (pré-visualização)
 
@@ -42,6 +42,24 @@ As ferramentas das Perguntas e Respostas só estão disponíveis no Power BI Des
 
     ![Introdução às Perguntas e Respostas](media/q-and-a-tooling-intro/qna-tooling-dialog.png)
 
+### <a name="field-synonyms"></a>Sinónimos de Campos
+
+Selecione **Sinónimos de Campos** para ver todas as tabelas e colunas pertencentes ao modelo. Esta vista permite-lhe adicionar nomes alternativos para corresponder as colunas, de forma a ajudar os utilizadores. Pode também escolher se uma coluna ou tabela deve ser ocultada das Perguntas e Respostas.
+
+![Página inicial de sinónimos de campos das Perguntas e Respostas](media/q-and-a-tooling-intro/qna-tooling-field-synonyms-home.png)
+
+Clique numa das tabelas para expandir e verá uma caixa de diálogo semelhante à apresentada abaixo.
+
+![Sinónimos de campos das Perguntas e Respostas expandidos](media/q-and-a-tooling-intro/qna-tooling-field-synonyms-expanded.png)
+
+A caixa de diálogo vai apresentar todas as colunas e tabelas, bem como os respetivos termos/sinónimos que os utilizadores podem usar ao fazer perguntas ao conjunto de dados. Pode ver rapidamente todos os termos num só local e adicionar ou remover termos de múltiplas colunas. 
+
+- Adicionar termos: se tiver um campo chamado Vendas, pode decidir adicionar um termo chamado Receita, para que um utilizador possa utilizar esta palavra em vez de ter de utilizar a palavra Vendas. Clique no sinal de adição para adicionar rapidamente um novo termo
+
+- Incluir nas Perguntas e Respostas: esta opção permite que uma coluna ou tabela seja omitida das Perguntas e Respostas, o que significa que não será apresentada nem pode ser apresentado um resultado com esta coluna. Uma circunstância em que pode decidir não incluir uma coluna é quando lida com datas. Se houver diversos campos de data, ou chaves externas, pode decidir remover todos menos um dos campos de data, para que a coluna de data correta seja escolhida quando um utilizador fizer uma pergunta relacionada com datas.
+
+- Termos Sugeridos: as Perguntas e Respostas também recomendarão termos sugeridos obtidos do nosso motor de sugestões para ajudar a adicionar rapidamente termos/sinónimos. Se não forem adicionadas sugestões, ainda funcionarão, mas darão ao utilizador uma linha pontilhada laranja, que indica que as Perguntas e Respostas acreditam ter uma resposta mas não têm a certeza. Se o sinónimo sugerido estiver correto, clique no ícone + para que possa ser utilizado com sinónimo. Se a sugestão estiver incorreta, clique no X, o que irá remover o termo e garantir que não será utilizado como termo/sinónimo e não funcionará nas Perguntas e Respostas. As sugestões recorrem a tecnologias de Dicionário do Office e também provêm de mudanças de nome dentro de um relatório
+
 ### <a name="review-questions"></a>Rever as perguntas
 
 Selecione **Rever perguntas** para ver uma lista de conjuntos de dados que estão a ser utilizados no serviço Power BI para o seu inquilino. A página **Rever perguntas** mostra também o proprietário do conjunto de dados, a área de trabalho e a data da última atualização. A partir daí, pode selecionar um conjunto de dados e ver que perguntas os utilizadores têm feito. Os dados também mostram palavras que não foram reconhecidas. Todos os dados mostrados aqui dizem respeito aos últimos 28 dias.
@@ -62,7 +80,7 @@ Tudo o que tiver guardado da secção Ensinar Perguntas e Respostas aparece aqui
 
 ### <a name="suggest-questions"></a>Sugerir perguntas
 
-O elemento visual de Perguntas e Respostas sugere várias perguntas para começar, sem ser necessária configuração. Estas perguntas são geradas automaticamente com base no seu modelo de dados. Em **Sugerir perguntas**, pode substituir as perguntas geradas automaticamente pelas suas perguntas. 
+O elemento visual de Perguntas e Respostas sugere várias perguntas para começar, sem ser necessária configuração. Estas perguntas são geradas automaticamente com base no seu modelo de dados. Em **Sugerir perguntas**, pode substituir as perguntas geradas automaticamente pelas suas perguntas.
 
 Para começar, escreva a pergunta que pretende adicionar na caixa de texto. Na secção de pré-visualização, verá o resultado no elemento visual de Perguntas e Respostas. 
 
@@ -74,30 +92,12 @@ Selecione o botão **Adicionar** para adicionar esta pergunta a **As suas pergun
  
 Certifique-se de que seleciona **Guardar** para mostrar a sua lista de perguntas sugeridas no elemento visual de Perguntas e Respostas. 
 
+> [!NOTE]
+> As perguntas sugeridas aparecerão para todas as instâncias do elemento visual de Perguntas e Respostas. Não é possível criar um conjunto separado de sugestões para cada elemento visual de Perguntas e Respostas.
+> 
+> 
 
 ## <a name="other-qa-settings"></a>Outras definições das Perguntas e Respostas
-
-### <a name="bulk-synonyms"></a>Sinónimos em massa
-
-O separador **Modelação** do Power BI Desktop tem mais opções para melhorar a experiência das Perguntas e Respostas. 
-
-1. No Power BI Desktop, selecione a Vista de modelação.
-
-2. Selecione um campo ou uma tabela para mostrar o painel **Propriedades**.  Este painel é apresentado do lado direito da tela e lista diversas ações das Perguntas e Respostas. Uma das opções é **Sinónimos**. Na caixa **Sinónimos**, pode rapidamente definir alternativas da tabela ou do campo que selecionar. Pode também definir sinónimos na secção **Ensinar Perguntas e Respostas** da caixa de diálogo de Ferramentas, mas costuma ser mais rápido definir aqui sinónimos para muitos campos numa tabela.
-
-    ![Sinónimos no painel Modelação das Perguntas e Respostas](media/q-and-a-tooling-intro/qna-modelling-pane-synonyms.png)
-
-3. Para definir múltiplos sinónimos para um só campo, utilize vírgulas para indicar o sinónimo seguinte.
-
-### <a name="hide-from-qa"></a>Ocultar das Perguntas e Respostas
-
-Pode também ocultar campos e tabelas, para que não apareçam nos resultados das Perguntas e Respostas. 
-
-1. No Power BI Desktop, selecione a Vista de modelação.
-
-2. Selecione um campo ou uma tabela para mostrar o painel **Propriedades** e coloque **Está oculto** **Ativado**.
-
-    As Perguntas e Respostas respeitam essa definição e garantem que esse campo não é reconhecido pelas Perguntas e Respostas. Por exemplo, talvez queira ocultar campos de ID e chaves de referência para evitar campos duplicados desnecessários que tenham o mesmo nome. Mesmo que oculte o campo, pode ainda utilizar o mesmo no Power BI Desktop em elementos visuais fora das Perguntas e Respostas.
 
 ### <a name="set-a-row-label"></a>Definir uma etiqueta de linha
 
@@ -113,6 +113,6 @@ Uma etiqueta de linha permite-lhe definir qual a coluna (ou o *campo*) que melho
 
 No Power BI, pode preparar totalmente e melhorar o motor de linguagem natural dentro das Perguntas e Respostas, incluindo mudar a pontuação e a ponderação dos resultados em linguagem natural subjacentes. Para saber como, veja [Editar o esquema linguístico e adicionar expressões nas Perguntas e Respostas](q-and-a-tooling-advanced.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Existem diversas melhores práticas para melhorar o motor de linguagem natural. Para obter mais informações, veja [Melhores práticas das Perguntas e Respostas](q-and-a-best-practices.md).

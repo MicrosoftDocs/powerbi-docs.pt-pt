@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1204b28ae5239bf4080472129b0862862446e5d
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 389de5d34b00afbe70a1489dfc61e760530590a9
+ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878456"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88512891"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Using enhanced dataset metadata (preview) (Utilizar metadados de conjuntos de dados otimizados [pré-visualização])
 
@@ -40,7 +40,7 @@ Ser-lhe-á pedido que reinicie o Power BI Desktop.
 Assim que a funcionalidade de pré-visualização é ativada, o Power BI Desktop tenta atualizar os ficheiros PBIX e PBIT que utilizam o formato de metadados anterior. 
 
 > [!IMPORTANT]
-> A ativação da funcionalidade **metadados de conjuntos de dados otimizados** resulta numa atualização irreversível dos relatórios. Todos os relatórios do Power BI carregados ou criados no Power BI Desktop, uma vez ativados os **metadados de conjuntos de dados otimizados**, são irreversivelmente convertidos para o formato de metadados de conjuntos de dados otimizados.
+> A ativação da funcionalidade **metadados de conjuntos de dados otimizados** resulta numa atualização irreversível dos relatórios. Todos os relatórios do Power BI carregados ou criados no Power BI Desktop, uma vez ativados os **metadados de conjuntos de dados otimizados**, são irreversivelmente convertidos no formato de metadados de conjuntos de dados otimizados.
 
 ## <a name="report-backup-files"></a>Ficheiros de cópia de segurança de relatórios
 

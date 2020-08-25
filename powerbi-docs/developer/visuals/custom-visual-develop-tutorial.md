@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: d82f09fa4c545129bbd1032041dcfab6f4f67901
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: ebb0107b158e505a8095b4c8f6b6b32731e7e98d
+ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739351"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88512937"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Tutorial: Desenvolver um elemento visual do Power BI
 
@@ -130,7 +130,7 @@ Agora, precisa de instalar o pacote **pbiviz**.
 4. Feche os browsers que tenha aberto.
 
 > [!NOTE]
-> Se o certificado não for reconhecido, pode ter de reiniciar o computador.
+> Se o certificado não for reconhecido, pode ter de reiniciar o computador. Alguns browsers, como o Firefox, exigem que confie no certificado autoassinado. Para tal, navegue para a página do servidor webpack (https://localhost:8080/webpack-dev-server) e aceite o risco.
 
 ## <a name="creating-a-custom-visual"></a>Criar um elemento visual personalizado
 
@@ -647,7 +647,7 @@ No próximo tutorial, vai aprender a adicionar opções de formatação ao eleme
 
 Para obter sugestões sobre como depurar elementos visuais personalizados, consulte o [guia de depuração](./visuals-how-to-debug.md#how-to-debug-power-bi-visuals).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 > [!div class="nextstepaction"]
 > [Adicionar opções de formatação](custom-visual-develop-tutorial-format-options.md)

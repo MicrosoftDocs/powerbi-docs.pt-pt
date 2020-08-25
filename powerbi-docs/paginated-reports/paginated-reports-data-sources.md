@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: 4f4650d47e420313075509301e940bf7092d4d5a
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: d82026ddb3ae12d95aed94fc6f96f45b4861ec48
+ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252849"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88168426"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Origens de dados suportadas para relatórios paginados do Power BI
 
@@ -27,7 +27,7 @@ Os relatórios paginados suportam nativamente a seguinte lista de origens de dad
 | --- | --- | --- |
 | Base de Dados SQL do Azure <br>Azure SQL Data Warehouse | Básico, início de sessão único (SSO), OAuth2 | Pode utilizar um Gateway Empresarial com BD SQL do Azure. No entanto, não pode utilizar o SSO ou oAuth2 para autenticar nesses cenários.   |
 | Instância Gerida do SQL do Azure | Básico | através de um Ponto Final Público ou Privado (o Ponto Final Privado tem de ser encaminhado através do Gateway de Empresa)  |
-| Azure Analysis Services | SSO, OAuth2 | A firewall AAS deve ser desativada ou configurada para permitir todos os intervalos de IP.|
+| Azure Analysis Services | SSO, OAuth2 | A firewall AAS deve ser desativada ou configurada para permitir todos os intervalos de IP na região BlackForest. Isto aplica-se apenas à região BlackForest. |
 | Conjunto de dados do Power BI | SSO | Conjuntos de dados do Power BI Premium e não Premium Requer permissão de leitura |
 | Conjunto de dados do Power BI Premium (XMLA) | SSO | Os conjuntos de dados do Power BI não são suportados como origens de dados para relatórios paginados incorporados.  |
 | Introduzir Dados | N/D | Os dados são incorporados no relatório. |

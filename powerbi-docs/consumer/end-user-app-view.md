@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/08/2020
+ms.date: 08/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: bfda795e02ef53188c5125bc2f0674e859ebd450
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: d7ad3722b609d76383a7a404ef94655ec9ef8711
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878807"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578074"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalar e utilizar aplicações com dashboards e relatórios no Power BI
 
@@ -35,7 +35,7 @@ Com o Power BI Mobile, só pode instalar uma aplicação através de uma ligaç�
 
 ## <a name="apps-and-licenses"></a>Aplicações e licenças
 Nem todos os utilizadores do Power BI podem ver e interagir com aplicações. 
-- Se tiver uma licença gratuita, pode abrir aplicações que foram partilhadas consigo e que estão armazenadas numa área de trabalho com capacidade Premium.
+- Se tiver uma licença gratuita, pode abrir aplicações que estão armazenadas na capacidade Premium e que tenham sido partilhadas consigo.  
 - Se tiver uma licença Pro, pode abrir aplicações que tenham sido partilhadas consigo.
 
 ## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>Obter a aplicação a partir do marketplace de aplicações do Power BI
@@ -47,7 +47,7 @@ Pode encontrar e instalar aplicações a partir do marketplace de aplicações d
 
 1. [Inicie sessão no serviço Power BI](./end-user-sign-in.md), se ainda não o fez. 
 
-1. Quando estiver no Power BI, selecione **Aplicações > Obter aplicações**. 
+1. Quando o serviço Power BI estiver aberto, selecione **Aplicações > Obter aplicações**. 
 
     ![Obter aplicações  ](./media/end-user-app-view/power-bi-get-apps.png)
 
@@ -65,11 +65,14 @@ Pode encontrar e instalar aplicações a partir do marketplace de aplicações d
    A caixa de pesquisa é sensível ao separador que tem aberto; apenas serão devolvidas as aplicações do tipo selecionado. Se o separador **Todas as aplicações** estiver aberto, serão devolvidas as aplicações organizacionais e de modelo. Esta situação pode ser confusa quando uma aplicação organizacional e uma aplicação de modelo têm o mesmo nome. Lembre-se de que os mosaicos da aplicação de modelo têm um ícone de saco de compras no canto superior direito.
 
 Quando encontrar a aplicação que pretende, selecione **Obter agora** para instalar a mesma.
+
+   ![captura de ecrã que mostra o botão Obter agora](./media/end-user-app-view/power-bi-get-it.png)
+
 * Se estiver a instalar uma aplicação organizacional, esta será imediatamente adicionada à lista de aplicações.
 * Se estiver a instalar uma aplicação de modelo, será direcionado para a oferta de aplicações de modelo no AppSource. Veja [um exemplo](end-user-app-marketing.md) de como transferir e instalar uma aplicação de modelo de exemplo do marketplace de aplicações do Power BI. A aplicação foi instalada juntamente com uma área de trabalho com o mesmo nome.
 
    > [!NOTE]
-   > Se estiver a utilizar uma licença de utilizador gratuita, poderá transferir aplicações, mas não poderá vê-las a menos que faça a atualização para uma conta do Power BI Pro ou que a aplicação esteja armazenada numa capacidade Premium partilhada. Para obter mais informações, veja [licenças para consumidores](end-user-license.md).
+   > Se estiver a utilizar uma licença de utilizador gratuita, poderá transferir aplicações, mas não poderá vê-las a menos que faça a atualização para uma conta do Power BI Pro ou que a aplicação esteja armazenada numa capacidade Premium partilhada. Para obter mais informações, veja [licenças para utilizadores empresariais](end-user-license.md).
 
 ## <a name="install-an-app-from-a-direct-link"></a>Instalar uma aplicação de uma ligação direta
 Também pode instalar uma aplicação organizacional a partir de uma ligação direta no e-mail do designer da aplicação.  
@@ -112,9 +115,9 @@ A aplicação é aberta. Todas as aplicações têm esquemas, elementos visuais,
 1. O painel de navegação da aplicação.  Abaixo do nome da aplicação, está apresentada a lista de páginas de relatório. Selecione o nome de uma página de relatório para abri-la. De momento, temos a página *Taxa de devolução* aberta. 
 1. Selecione a seta para expandir o painel **Filtros**.
 
-Também pode explorar a área de trabalho associada. [Saiba mais sobre as áreas de trabalho](end-user-workspaces.md)
+Também pode explorar a área de trabalho associada. [Saiba mais sobre as áreas de trabalho](end-user-workspaces.md) Selecione **Power BI** (número 2) para voltar ao **Início** e escolha **Áreas de trabalho**. 
 
-![Captura de ecrã a mostrar a área de trabalho da aplicação Vendas e Marketing com um relatório e um conjunto de dados. ](./media/end-user-app-view/power-bi-new-workspace.png)
+![Captura de ecrã a mostrar a área de trabalho da aplicação Vendas e Marketing com um relatório e um conjunto de dados. ](./media/end-user-app-view/power-bi-new-workspaces.png)
 
 ## <a name="update-an-app"></a>Atualizar uma aplicação 
 
@@ -136,8 +139,8 @@ De tempos a tempos, os estruturadores das aplicações podem lançar novas vers�
 
         ![Substituir a versão antiga da aplicação](./media/end-user-app-view/power-bi-already-installed.png) 
 
-    > [!NOTE] 
-    > Se instalar uma nova versão, todas as alterações feitas aos relatórios e dashboards serão substituídas. Para manter os seus relatórios e dashboards atualizados, pode guardá-los com um nome ou localização diferente antes da instalação. 
+     > [!NOTE] 
+     > Se instalar uma nova versão, todas as alterações feitas aos relatórios e dashboards serão substituídas. Para manter os seus relatórios e dashboards atualizados, pode guardá-los com um nome ou localização diferente antes da instalação. 
 
     4. Depois de instalar a versão atualizada, selecione **Atualizar aplicação** para concluir o processo de atualização. 
 

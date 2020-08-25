@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1213d02926db3b1d356e7fefffb44bcc41b8ab96
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 829de249b71076ccd1ed2a60348170e93b68e507
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227695"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204433"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho numa capacidade Premium
 
@@ -59,8 +59,10 @@ A carga de trabalho dos conjuntos de dados está ativada por predefinição e n�
 | **Contagem Máxima do Conjunto de Linhas de Resultados** | O número máximo de linhas devolvido numa consulta DAX. O valor predefinido é -1 (sem limite) e o intervalo de valores permitido é entre 100000 e 2147483647. |
 | **Limite de Memória de Consulta (%)** | A percentagem máxima de memória disponível na carga de trabalho que pode ser utilizada para executar uma consulta MDX ou DAX. O valor predefinido é 0, o que resulta na aplicação do limite de memória da consulta automática específico da SKU. |
 | **Tempo Limite de Consulta (segundos)** | O limite máximo de tempo de uma consulta. A predefinição é 3600 segundos (1 hora). O valor 0 especifica que as consultas não irão exceder o limite de tempo. |
-| **Atualização automática de página (pré-visualização)** | Ative e desative esta definição para as áreas de trabalho premium terem relatórios com atualização automática de página. |
+| **Atualização automática de página** | Ative e desative esta definição para as áreas de trabalho premium terem relatórios com atualização automática de página com base em intervalos fixos. |
 | **Intervalo de atualização mínimo** | Se a atualização automática de página estiver ativada, deverá definir o intervalo mínimo permitido para o intervalo de atualização da página. O valor predefinido são cinco minutos e o mínimo permitido é um segundo. |
+| **Alterar medida de deteção** | Ative e desative esta definição para as áreas de trabalho premium terem relatórios com atualização automática de página com base na deteção de alterações. |
+| **Intervalo mínimo de execução** | Se a opção Alterar medida de deteção estiver ativada, o intervalo mínimo de execução permitido para a pesquisa de dados é alterado. O valor predefinido são cinco segundos e o mínimo permitido é um segundo. |
 |  |  |  |
 
 #### <a name="max-intermediate-row-set-count"></a>Contagem Máxima do Conjunto de Linhas Intermediárias

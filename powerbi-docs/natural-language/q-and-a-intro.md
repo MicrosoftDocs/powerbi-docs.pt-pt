@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/01/2020
 ms.author: mohaali
-ms.openlocfilehash: 295fc7732729fc464676257ab63dcadfa967771b
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: de16ddbbaca69aea5283c7ab61c462493a6da1d0
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939669"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578111"
 ---
 # <a name="intro-to-power-bi-qa"></a>Introdução às Perguntas e Respostas do Power BI
 
@@ -43,22 +43,20 @@ Ao escrever a sua pergunta, a funcionalidade Perguntas e Respostas do Power BI a
 
 ![Preenchimento com frases nas Perguntas e Respostas](media/qna-suggestion-phrase-completion.png)
 
-### <a name="redblue-underlines"></a>Sublinhados a vermelho/azul
+### <a name="redblueorange-underlines"></a>Sublinhados Vermelho/Azul/Laranja
 
 A funcionalidade Perguntas e Respostas apresenta as palavras com sublinhados para ajudar a ver que palavras o sistema compreendeu ou não reconheceu. Um sublinhado azul sólido indica que o sistema fez corresponder com êxito a palavra a um campo ou valor no modelo de dados. O exemplo abaixo mostra que a funcionalidade Perguntas e Respostas reconheceu as palavras *eu sales* (vendas da UE).
 
 ![Sublinhado a azul nas Perguntas e Respostas](media/qna-blue-underline.png)
 
-Muitas vezes, ao escrever uma palavra nas Perguntas e Respostas, a mesma é marcada com um sublinhado a vermelho. Um sublinhado a vermelho pode indicar um de dois possíveis problemas. O primeiro tipo de problema é categorizado como *confiança baixa*. Se escrever uma palavra vaga ou ambígua, o campo será sublinhado a vermelho. Um exemplo poderá ser a palavra "sales" (vendas). Múltiplos campos podem conter a palavra "vendas", pelo que o sistema utiliza um sublinhado a vermelho para pedir que escolha o campo pretendido. Outro exemplo de baixa confiança poderá ser se escrever a palavra "área", mas a coluna correspondente for "região". A funcionalidade Perguntas e Respostas do Power BI reconhece palavras que significam a mesma coisa, graças à integração com o Bing e o Office. A funcionalidade Perguntas e Respostas sublinha a palavra a vermelho para que saiba que não é uma correspondência direta.
+ Um sublinhado laranja indica que a palavra ou as palavras são categorizadas como *de baixa confiança*. Se escrever uma palavra vaga ou ambígua, o campo será sublinhado a laranja. Um exemplo poderá ser a palavra "sales" (vendas). Múltiplos campos podem conter a palavra "Sales" (vendas), pelo que o sistema utiliza um sublinhado a laranja para pedir que escolha o campo pretendido. Outro exemplo de baixa confiança poderá ser se escrever a palavra "área", mas a coluna correspondente for "região". As Perguntas e Respostas do Power BI reconhecem palavras com o mesmo significado, graças à integração do Bing e Office. Também interpretam mudanças de nome num relatório como potenciais sugestões. A funcionalidade Perguntas e Respostas sublinha a palavra a laranja para que saiba que não é uma correspondência direta.
 
-![A funcionalidade Perguntas e Respostas a sublinhar "sales" (vendas)](media/qna-red-underline-sales.png)
-
-O segundo tipo de problema é quando a funcionalidade Perguntas e Respostas não reconhece a palavra. Poderá deparar-se com este problema ao utilizar um termo específico de domínio que não é mencionado nos dados ou se os campos de dados tiverem um nome atribuído incorretamente. Um exemplo poderá ser utilizar a palavra "costs" (custos), embora a mesma não exista nos dados. A palavra existe no dicionário, mas a funcionalidade Perguntas e Respostas marca este termo com um sublinhado a vermelho.
+Um sublinhado a vermelho significa que as Perguntas e Respostas não reconhecem a palavra. Poderá deparar-se com este problema ao utilizar um termo específico de domínio que não é mencionado nos dados ou se os campos de dados tiverem um nome atribuído incorretamente. Um exemplo poderá ser utilizar a palavra "costs" (custos), embora a palavra não exista nos dados. A palavra está no dicionário em inglês, mas as Perguntas e Respostas marcam este termo com um sublinhado vermelho para indicar que não encontraram este termo relativamente aos dados.
 
 ![A funcionalidade Perguntas e Respostas a sublinhar "sales" (vendas)](media/qna-red-underline-costs.png)
 
 > [!NOTE]
-> Pode personalizar as cores de sublinhado a azul/vermelho no painel **Formatação visual** das Perguntas e Respostas. Além disso, o artigo sobre [ferramentas das Perguntas e Respostas](q-and-a-tooling-teach-q-and-a.md) explica a funcionalidade *Ensinar Perguntas e Respostas*, que pode utilizar para definir os termos que a funcionalidade Perguntas e Respostas não reconheceu.
+> Pode personalizar as cores de sublinhado a azul/vermelho/laranja no painel **Formatação visual** das Perguntas e Respostas. Além disso, o artigo sobre [ferramentas das Perguntas e Respostas](q-and-a-tooling-teach-q-and-a.md) explica a funcionalidade *Ensinar Perguntas e Respostas*, que pode utilizar para definir os termos que a funcionalidade Perguntas e Respostas não reconheceu.
 
 ### <a name="visualization-results"></a>Resultados da visualização
 

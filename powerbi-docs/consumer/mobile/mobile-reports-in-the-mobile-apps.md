@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 5ca205bf2e82269140926ac69ccdead43b0cddd8
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091647"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204972"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -53,6 +53,9 @@ Para aceder a um relatório a partir de um dashboard, toque em **Mais opções**
   
   Nem todos os mosaicos podem ser abertos como relatórios. Por exemplo, os mosaicos criados quando faz uma pergunta na caixa de Perguntas e Respostas não abrem os relatórios ao tocar nos mesmos.
   
+## <a name="zoom-in-on-your-data"></a>Ampliar os seus dados   
+Utilize o gesto de aproximar os dedos para ampliar os relatórios e examiná-los em maior detalhe. Afaste os dedos para reduzir novamente. O gesto de aproximar os dedos para ampliar é suportado em telemóveis e tablets Android e iOS.
+
 ## <a name="interact-with-reports"></a>Interagir com relatórios
 Após abrir um relatório na aplicação, poderá começar a trabalhar com o mesmo. Pode realizar várias ações com o seu relatório e os respetivos dados. No rodapé do relatório, encontrará ações que pode realizar no relatório. Ao tocar sem soltar nos dados apresentados no relatório, também pode dividir e repartir os mesmos.
 
@@ -162,7 +165,7 @@ A aplicação móvel do Power BI tem uma série de definições que lhe permitem
 Veja as [definições de interação de aplicações](./mobile-app-interaction-settings.md) para obter informações sobre como alterar estas definições.
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * [Ver e interagir com relatórios do Power BI otimizados para o seu telemóvel](mobile-apps-view-phone-report.md)
 * [Criar uma versão de um relatório otimizada para telemóveis](../../create-reports/desktop-create-phone-report.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

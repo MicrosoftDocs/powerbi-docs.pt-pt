@@ -1,24 +1,24 @@
 ---
 title: Utilizar a funcionalidade Analisar para explicar as flutuações nos elementos visuais do relatório
-description: Obter facilmente informações sobre aumentos ou diminuições no Power BI Desktop
+description: Obter facilmente informações sobre aumentos ou diminuições no serviço Power BI
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/23/2019
+ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 36f370adc68c6b6f8fc15261bfa107411043c65d
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: fe44b183b77cb1e58c89cfd229f3f76d3b06ce39
+ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162304"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88168490"
 ---
-# <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals-preview"></a>Utilizar a funcionalidade Analisar para explicar as flutuações nos elementos visuais do relatório (pré-visualização)
+# <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>Utilizar a funcionalidade Analisar para explicar as flutuações nos elementos visuais do relatório
 
-[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 Nos elementos visuais do relatório, pode ver muitas vezes um grande aumento dos valores e, em seguida, uma queda acentuada dos mesmos e questionar-se acerca dessas flutuações. Com a funcionalidade **Analisar** do **serviço Power BI**, pode descobrir a causa das flutuações com apenas alguns cliques.
 
@@ -26,7 +26,7 @@ Por exemplo, considere o seguinte elemento visual que mostra *Total de unidades*
 
 ![Elemento visual com aumentos e diminuições](media/end-user-analyze-visuals/power-bi-line-chart.png)
 
-Pode pedir ao serviço Power BI para explicar os aumentos, as diminuições ou a distribuição invulgar nos elementos visuais e, assim, obter análises rápidas, automatizadas e informativas sobre os dados. Basta clicar com o botão direito do rato num ponto de dados e selecionar **Analisar > Explicar a diminuição** (ou o aumento, se a barra anterior era mais baixa) ou **Analisar > Localizar onde a distribuição é diferente** . As informações são apresentadas numa janela fácil de utilizar.
+Pode pedir ao serviço Power BI para explicar os aumentos, as diminuições ou a distribuição invulgar nos elementos visuais e, assim, obter análises rápidas, automatizadas e informativas sobre os dados. Clique com o botão direito do rato num ponto de dados e selecione **Analisar > Explicar a diminuição** (ou o aumento, se a barra anterior era mais baixa) ou **Analisar > Localizar onde esta distribuição é diferente**. As informações são apresentadas numa janela fácil de utilizar.
 
 ![Informações apresentadas no elemento visual](media/end-user-analyze-visuals/power-bi-decrease.png)
 
@@ -37,7 +37,7 @@ A funcionalidade Analisar é contextual e baseia-se no ponto de dados imediatame
 
 ### <a name="which-factors-and-categories-are-chosen"></a>Quais os fatores e as categorias escolhidos
 
-Depois de examinar colunas diferentes, o Power BI seleciona e apresenta as que mostram a maior alteração na contribuição relativa. Os valores que tiveram a alteração mais significativa na contribuição são indicados na descrição. Além disso, os valores que tiveram os maiores aumentos e diminuições reais também são indicados.
+Depois de examinar colunas diferentes, o Power BI seleciona e apresenta os fatores que mostram a maior alteração na contribuição relativa. Os valores que tiveram a alteração mais significativa na contribuição são indicados na descrição. Além disso, os valores que tiveram os maiores aumentos e diminuições reais também são indicados.
 
 Para ver todas as informações geradas pelo Power BI, utilize a barra de deslocação. A ordem é classificada com o contribuidor mais significativo a ser apresentado primeiro. 
 
@@ -71,15 +71,19 @@ Para cada informação devolvida, existem quatro elementos visuais que podem ser
 
 ### <a name="the-scatter-plot"></a>Dispersão
 
+![Captura de ecrã pequena que mostra o ícone de gráfico de dispersão selecionado](media/end-user-analyze-visuals/power-bi-scatter-icon.png)
+
 O elemento visual do gráfico de dispersão mostra o valor da medida no primeiro período (no eixo x) em comparação com o valor da medida no segundo período (no eixo y), para cada valor da coluna (*Estado* neste caso). Os pontos de dados estarão na região verde se o valor aumentar e na região vermelha se diminuir. 
 
 A linha pontilhada mostra a melhor opção. Os pontos de dados acima desta linha aumentaram mais do que a tendência geral e o contrário ocorreu com os pontos de dados abaixo da mesma.  
 
 ![Dispersão com linha ponteada](media/end-user-analyze-visuals/power-bi-scatter.png)
 
-Tenha em atenção que os itens de dados cujos valores estavam em branco em qualquer um dos períodos não serão apresentados no gráfico de dispersão.
+Os itens de dados cujos valores estavam em branco em qualquer um dos períodos não serão apresentados no gráfico de dispersão.
 
 ### <a name="the-100-stacked-column-chart"></a>Gráfico de colunas 100% empilhadas
+
+![Captura de ecrã pequena que mostra o ícone de gráfico de colunas selecionado](media/end-user-analyze-visuals/power-bi-column-icon.png)
 
 O elemento visual do gráfico de colunas 100% empilhadas mostra o valor da contribuição para o total (100%), para o ponto de dados selecionado e o anterior, o que permite uma comparação lado a lado da contribuição para cada ponto de dados. Neste exemplo, as descrições mostram a contribuição real do valor selecionado do Texas. Como a lista de estados é longa, as descrições ajudam-no a ver os detalhes. Ao utilizar as descrições, vemos que o Texas contribuiu com cerca da mesma percentagem para o total de unidades (31% e 32%), mas o número real de total de unidades diminuiu de 89 para 71. Nota: o eixo Y é uma percentagem, não um total, e cada banda de coluna é uma percentagem, não um valor. 
 
@@ -87,13 +91,17 @@ O elemento visual do gráfico de colunas 100% empilhadas mostra o valor da contr
 
 ### <a name="the-ribbon-chart"></a>Gráfico do friso
 
-O elemento visual do gráfico do friso mostra o valor da medida antes e depois. É particularmente útil para mostrar as alterações nas contribuições quando a *ordenação* dos contribuidores mudou (por exemplo, *LA* cai do lugar de contribuidor número dois para o número onze).  E, embora *TX* seja representado por um friso amplo na parte superior, o que significa que é o contribuidor mais significativo antes e depois, a queda mostra que o valor da contribuição caiu tanto durante o período selecionado como depois.
+![Captura de ecrã pequena que mostra o ícone de gráfico de friso selecionado](media/end-user-analyze-visuals/power-bi-ribbon-icon.png)
+
+O elemento visual do gráfico do friso mostra o valor da medida antes e depois. É particularmente útil para mostrar as alterações nas contribuições quando a *ordenação* dos contribuidores mudou (por exemplo, *LA* cai do lugar de contribuidor número dois para o número onze).  Embora *TX* seja representado por um friso amplo na parte superior, o que significa que é o contribuidor mais significativo antes e depois, a queda mostra que o valor da contribuição caiu tanto durante o período selecionado como depois.
 
 ![gráfico do friso](media/end-user-analyze-visuals/power-bi-ribbon-tooltip.png)
 
 ### <a name="the-waterfall-chart"></a>Gráfico de cascata
 
-O quarto elemento visual é um gráfico de cascata que mostra os aumentos ou as diminuições reais entre os períodos. Este elemento visual mostra claramente um contribuidor significativo para a diminuição de junho de 2014 – neste caso, **Estado**. E os detalhes da influência de **Estado** no total de unidades é que os declínios no Louisiana, Texas e Colorado desempenharam o papel mais significativo.      
+![Captura de ecrã pequena que mostra o ícone de gráfico de cascata selecionado](media/end-user-analyze-visuals/power-bi-waterfall-icon.png)
+
+O quarto elemento visual é um gráfico de cascata que mostra os aumentos ou as diminuições reais entre os períodos. Este elemento visual mostra claramente um contribuidor significativo para a diminuição de junho de 2014 – neste caso, **Estado**. O aspeto particular da influência de **Estado** no total de unidades é que os declínios no Louisiana, Texas e Colorado desempenharam o papel mais significativo.      
 
 ![gráfico de cascata](media/end-user-analyze-visuals/power-bi-insight.png)
 
@@ -120,6 +128,6 @@ A lista seguinte é o conjunto de cenários atualmente não suportados para **An
 
 ## <a name="next-steps"></a>Próximos passos
 [Gráficos de cascata](../visuals/power-bi-visualization-waterfall-charts.md)    
-[Gráficos de dispersão](../visuals/power-bi-visualization-scatter.md)
-[Gráficos de colunas](../visuals/power-bi-report-visualizations.md)
-[Gráficos de friso](../visuals/desktop-ribbon-charts.md)
+[Gráficos de dispersão](../visuals/power-bi-visualization-scatter.md)    
+[Gráficos de colunas](../visuals/power-bi-report-visualizations.md)    
+[Ribbon charts (Gráficos de friso)](../visuals/desktop-ribbon-charts.md)
