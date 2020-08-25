@@ -118,6 +118,24 @@
               href: report-performance-troubleshoot.md
             - name: Deployment pipelines best practices (Melhores práticas dos pipelines de implementação)
               href: ../create-reports/deployment-pipelines-best-practices.md
+    - name: "Migrar para o Power\_BI"
+      items:
+        - name: Descrição geral da migração
+          href: powerbi-migration-overview.md
+        - name: Preparar a migração
+          href: powerbi-migration-pre-migration-steps.md
+        - name: Verificar os requisitos
+          href: powerbi-migration-requirements.md
+        - name: Implementação de planos
+          href: powerbi-migration-planning.md
+        - name: Proceder à prova de conceito
+          href: powerbi-migration-proof-of-concept.md
+        - name: Criar conteúdos
+          href: powerbi-migration-create-validate-content.md
+        - name: "Implementar no Power\_BI"
+          href: powerbi-migration-deploy-support-monitor.md
+        - name: "Aprenda com as migrações do Power\_BI dos clientes"
+          href: powerbi-migration-learn-from-customers.md
     - name: 'Center of Excellence (COE) (Centro de Excelência [COE])'
       items:
         - name: Microsoft's BI transformation (Transformação de BI da Microsoft)
