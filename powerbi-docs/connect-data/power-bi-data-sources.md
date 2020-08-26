@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/05/2020
+ms.date: 08/21/2020
 ms.author: davidi
-ms.openlocfilehash: 6afc5dd36127390dd359d76fc8970d5ef6f7b590
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: ae4d51d9a40044ae939f5cb2b0b15442697df5fd
+ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837572"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88764957"
 ---
 # <a name="power-bi-data-sources"></a>Origens de dados do Power BI
 
@@ -35,7 +35,7 @@ A seguinte tabela apresenta as origens de dados suportadas pelo Power BI para o
 | Armazenamento de Blobs do Azure | Sim | Sim | Não | Sim | Não |
 | Azure Cosmos DB | Sim | Sim | Não | Não | Não |
 | Azure Cost Management | Sim | Sim | Não | Não | Não |
-| Azure Data Explorer (kusto) | Sim | Sim | Sim | Não | Não |
+| Azure Data Explorer (kusto) | Sim | Sim | Sim | Sim | Não |
 | Azure Data Lake Storage Gen1 | Sim | Sim | Não | Não | Não |
 | Azure Data Lake Storage Gen2 | Sim | Sim | Não | Sim | Não |
 | Azure DevOps | Sim | Sim | Não | Não | Não |

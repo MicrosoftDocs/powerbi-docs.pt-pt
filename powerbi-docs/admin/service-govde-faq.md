@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f42ee7a0b3b1aaf562e3ab087ad9c07501707afc
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: f7130b1565c85d8e18188c89c22dda3eda193018
+ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878382"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702634"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Perguntas frequentes do Power BI para clientes Germany Cloud
 O **serviço Power BI** têm uma versão disponível para clientes da União Europeia/Acordo de Comércio Livre da Europa (UE/EFTA), normalmente conhecida como Microsoft Cloud Deutschland (MCD). A versão do **serviço Power BI** falada neste artigo é específica para clientes da UE/EFTA, sendo separada e diferente da versão comercial do **serviço Power BI** ou serviços Power BI fornecidos a clientes da administração pública.
@@ -53,6 +53,8 @@ As seguintes perguntas e respostas fornecem informações importantes sobre o Se
    * Publicar na Web
    * Mapas ArcGIS da Esri
    * Power BI Embedded (licenciamento ISV medido separado, será oferecido futuramente através do [Microsoft Azure Alemanha](https://azure.microsoft.com/overview/clouds/germany/))
+   * Registo de atividades
+
 7. **Onde posso encontrar informações específicas de configuração do serviço Power BI para Germany Cloud para utilização e integração nas minhas aplicações?**
    
    Atualizámos os nossos [Exemplos do programador de Incorporação SaaS](https://github.com/Microsoft/PowerBI-Developer-Samples) com informações de configuração específicas do Germany Cloud e outras Clouds do Power BI. Veja a pasta **Cloud Configs** nos exemplos de pontos finais de configuração específicos da cloud. A tabela seguinte lista diversos pontos finais de configuração para o serviço Power BI do Germany Cloud (e Cloud Pública para referência cruzada).
