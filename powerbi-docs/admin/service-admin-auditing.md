@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e8e81c297841e32d1f4d966de23b5d752b654c20
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 7b5a96f4b592789c04ebaca5418e470d546ff788
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091624"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88802980"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Controlar as atividades dos utilizadores no Power BI
 
@@ -32,6 +32,10 @@ Saber quem está a realizar ações em que item no inquilino Power BI pode ser f
 
 
 ## <a name="use-the-activity-log"></a>Utilizar o registo de atividades
+
+> [!NOTE]
+> O registo de atividades não é suportado para o Microsoft Cloud Deutschland. Saiba mais sobre as limitações de serviço da cloud da Alemanha em [Perguntas Mais Frequentes sobre o Power BI para clientes da cloud da Alemanha](service-govde-faq.md).
+
 
 Enquanto administrador do serviço Power BI, pode analisar a utilização de todos os recursos do Power BI ao nível do inquilino ao utilizar relatórios personalizados com base no registo de atividades do Power BI. Pode transferir as atividades ao utilizar a API REST ou o cmdlet do PowerShell. Também pode filtrar os dados de atividade por intervalo de datas, utilizador e tipo de atividade.
 
@@ -73,6 +77,8 @@ completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 > Poderá demorar até 24 horas para que todos os eventos sejam apresentados, embora os dados completos sejam normalmente disponibilizados muito mais rapidamente.
 >
 >
+Para saber mais sobre como utilizar a API REST do Power BI, incluindo exemplos de como obter eventos de atividade de auditoria, veja [Administrador – Obter Eventos de Atividade](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents) na documentação de referência da API REST do Power BI.
+
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Cmdlet Get-PowerBIActivityEvent
 
 Transfira eventos de atividade ao utilizar os cmdlets do Power BI Management para PowerShell. O cmdlet **Get-PowerBIActivityEvent** processa automaticamente o token de continuação. O cmdlet **Get-PowerBIActivityEvent** utiliza um parâmetro StartDateTime e um parâmetro EndDateTime com as mesmas restrições que a API REST **ActivityEvents**. Por outras palavras, a data de início e a data de fim têm de fazer referência ao mesmo valor de data, porque só é possível obter os dados de atividade para um dia de cada vez.
@@ -113,7 +119,7 @@ Pode filtrar os dados de auditoria por intervalo de datas, utilizador, dashboard
 
 Tem de cumprir estes requisitos para aceder aos registos de auditoria:
 
-- Para aceder ao registo de auditoria, tem de ser administrador global ou ter a função Registos de Auditoria ou Ver Apenas Registos de Auditoria no Exchange Online. Por predefinição, os grupos de funções de Gestão de Conformidade e Gestão da Organização têm estas funções atribuídas na página **Permissões** do centro de administração do Exchange.
+- Para aceder ao registo de auditoria, tem de ser administrador global ou ter a função Registos de Auditoria ou Ver Apenas Registos de Auditoria no Exchange Online. Por predefinição, os grupos de funções de Gestão de Conformidade e Gestão da Organização têm estas funções atribuídas na página **Permissões** do centro de administração do Exchange. Para obter mais informações sobre as funções que podem ver registos de auditoria, veja [Requisitos para pesquisar o registo de auditoria](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log).
 
     Para dar acesso a contas de utilizadores não administradores ao registo de auditoria, adicione esses utilizadores como membros de um daqueles grupos de funções. Se quiser fazê-lo de outra forma, pode criar um grupo de funções personalizado no centro de administração do Exchange, atribuir a função Registos de Auditoria ou Ver Apenas Registos de Auditoria ao mesmo e, depois, adicionar a conta do utilizador não administrador ao grupo novo. Para obter mais informações, veja [Manage role groups in Exchange Online](/Exchange/permissions-exo/role-groups) (Gerir grupos de funções no Exchange Online).
 

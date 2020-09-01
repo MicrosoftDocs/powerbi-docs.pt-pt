@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 070dfd4048c494f9a1865603be4e692231f771f5
-ms.sourcegitcommit: 9b193dc155a306738a23b6bf20bcc424b8c64afd
+ms.openlocfilehash: f282db76417fb99f07d39bb9f684515dd1d312c0
+ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "88247146"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88764980"
 ---
 # <a name="automatic-page-refresh-in-power-bi"></a>Atualização automática de páginas no Power BI
 
@@ -68,7 +68,7 @@ Ao selecionar **Deteção de alteração** como o tipo de atualização, verá u
 
 ![Cartão de deteção de alteração](media/desktop-automatic-page-refresh/automatic-page-refresh-03.png)
 
-Ao abrir a janela, é apresentada a opção **Tipo de medida**, onde pode selecionar uma medida existente ou criar uma nova de raiz. Ao selecionar uma existente, basta selecionar a medida desejada na lista de campos ou arrastar e largar a mesma para a secção **Escolher uma medida existente**. Ao criar uma nova medida, pode **Escolher um cálculo** para a medida entre contagem, contagem distinta, mínimo, máximo e soma. Por exemplo, pode utilizar a contagem distinta para contar IDs de clientes e atualizar apenas quando um novo cliente for adicionado à lista. Quando tiver uma medida selecionada, tem de definir a frequência com que o Power BI irá **Procurar alterações**. Este é o intervalo segundo o qual o Power BI irá calcular a medida e pesquisar alterações. Depois de clicar em Aplicar, uma nova medida com o ícone de deteção de alteração aparecerá na lista de campos.
+Depois de abrir a janela, é apresentada a opção **Tipo de medida**, onde pode selecionar uma medida existente ou criar uma nova de raiz. Ao selecionar uma existente, basta selecionar a medida desejada na lista de campos ou arrastar e largar a mesma para a secção **Escolher uma medida existente**. Ao criar uma nova medida, pode **Escolher um cálculo** para a medida entre contagem, contagem distinta, mínimo, máximo e soma. Por exemplo, pode utilizar a contagem distinta para contar IDs de clientes e atualizar apenas quando um novo cliente for adicionado à lista. Quando tiver uma medida selecionada, tem de definir a frequência com que o Power BI irá **Procurar alterações**. Este é o intervalo segundo o qual o Power BI irá calcular a medida e pesquisar alterações. Depois de clicar em Aplicar, uma nova medida com o ícone de deteção de alteração aparecerá na lista de campos.
 
 ![Janela de deteção de alteração](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 

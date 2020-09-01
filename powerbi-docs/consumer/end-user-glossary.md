@@ -1,25 +1,26 @@
 ---
-title: Glossário para consumidores do Power BI
-description: O Power BI introduz muitos termos novos e novos empregos para termos familiares. Utilize o nosso glossário para ficar à vontade com a terminologia do Power BI.
+title: Glossário para utilizadores empresariais do Power BI
+description: O Power BI introduz muitos termos novos e novos empregos para termos familiares. Utilize o nosso glossário para se familiarizar com a terminologia do serviço Power BI.
 services: power-bi
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 07/08/2020
+ms.topic: reference
+ms.date: 08/24/2020
+ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: f5ed2252836ecda364ca53904c2cccbae9f9b7e6
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: cd562d8fe689c2ae82ee1cacfc9e02393a5992f9
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215621"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88803049"
 ---
-# <a name="glossary-for-power-bi-service"></a>Glossário para o serviço Power BI    
+# <a name="glossary-for-business-users-of-the-power-bi-service"></a>Glossário para utilizadores empresariais do serviço Power BI    
 O serviço Power BI pode introduzir terminologia que é confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar a terminologia, pode até mesmo guardá-la nos marcadores. Outro recurso excelente para saber mais sobre os blocos de construção que formam o serviço Power BI é [Conceitos Básicos](end-user-basic-concepts.md). Conceitos básicos proporciona uma perspetiva geral de alto nível das *partes* do Power BI e de como estão ligadas.
 
-Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contacte-nos para adicioná-la (pode utilizar o botão de comentários de documentação na parte inferior deste artigo).
+Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contacte-nos para adicionar a palavra (pode utilizar o botão de feedback da documentação na parte inferior deste artigo).
 
 ## <a name="a"></a>A
 

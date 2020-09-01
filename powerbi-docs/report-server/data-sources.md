@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 00c00ca7bbd7ad3f901c98f44a2900f332e3616a
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: 9dface817b9ec5421ba9ea93abb8037e3e70029d
+ms.sourcegitcommit: 4130e5e6947b809df628370cc80c00194243468d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837618"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88857805"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origens de dados de relatórios do Power BI no Power BI Report Server
 Os relatórios do Power BI podem estabelecer ligação a diversas origens de dados. Consoante a forma como os dados são utilizados, estão disponíveis diferentes origens de dados. Pode importar ou consultar dados diretamente através do DirectQuery ou de uma ligação em direto ao SQL Server Analysis Services. Algumas origens de dados são suportadas no Power BI Desktop otimizado para o Power BI Report Server, mas não são otimizadas para os relatórios do Power BI publicados no Power BI Report Server. Veja a lista seguinte para saber quais as origens de dados suportadas em ambos os locais.
@@ -209,6 +209,8 @@ O Power BI Report Server não suporta autenticação com base em OAuth para o Di
 
 ## <a name="next-steps"></a>Passos seguintes
 
-[Origens de dados para relatórios do Power BI[(../connect-data/power-bi-data-sources.md) no serviço Power BI Agora que estabeleceu ligação à origem de dados, [crie um relatório do Power BI](quickstart-create-powerbi-report.md) com os dados dessa origem de dados.
+[Origens de dados dos relatórios do Power BI](../connect-data/power-bi-data-sources.md) no serviço Power BI
+
+Agora que estabeleceu ligação à origem de dados, [crie um relatório do Power BI](quickstart-create-powerbi-report.md) com os dados dessa origem de dados.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

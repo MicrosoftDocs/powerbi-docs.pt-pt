@@ -10,12 +10,12 @@ ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 3d50b8678abd54d2a4543b5a2d187f32b491b063
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 75b05449de47f39fc95fd7cf42f9325b7a5d0ee9
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427133"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638779"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes do Governo Norte-Americano
 
@@ -86,7 +86,7 @@ Para cumprir os requisitos dos clientes da cloud governamental, existem algumas 
 |  |Auditoria através do centro de administração de Segurança e Conformidade do Office 365|Disponível|Disponível|Disponível|
 |  |Partilha de utilizadores externos|Disponível|Disponível|Disponível|
 |  |Métricas de utilização para relatórios e dashboards|Disponível|Disponível|Disponível|
-|  |Azure B2B entre GCC e cloud comercial|Disponível|Disponível|Disponível|
+|  |Colaboração B2B do Azure entre o GCC e a cloud comercial<sup>1</sup>|Disponível|Não disponível|Não disponível|
 |Criação de relatórios|Criar e ver dashboards e relatórios|Disponível|Disponível|Disponível|
 |  |Atualização de dados agendada|Disponível|Disponível|Disponível|
 |  |Dashboards de equipa atualizáveis|Disponível|Disponível|Disponível|
@@ -108,6 +108,8 @@ Para cumprir os requisitos dos clientes da cloud governamental, existem algumas 
 |  |Machine Learning Automatizado|Não disponível|Não disponível|Não disponível|
 |  |Serviços Cognitivos do Azure|Não disponível|Não disponível|Não disponível|
 |  |Azure Machine Learning|Não disponível|Não disponível|Não disponível|
+
+<sup>1</sup> Embora a Colaboração B2B esteja disponível para GCC, o utilizador externo deverá receber uma licença nesse ambiente. As licenças da cloud comercial não são válidas no GCC. Para obter mais informações sobre as limitações conhecidas com a Colaboração B2B para administração pública dos EUA, [Compare o Azure Government e o Azure global](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2).
 
 ## <a name="next-steps"></a>Próximos passos
 

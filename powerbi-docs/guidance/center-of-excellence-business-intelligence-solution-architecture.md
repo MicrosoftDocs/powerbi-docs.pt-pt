@@ -6,24 +6,31 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 81dda3c2bc3558ba68a16ee3f3070e748f76f15b
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: fe55c789f5af644a802bc5c5f648315744a074be
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940348"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638675"
 ---
 # <a name="bi-solution-architecture-in-the-center-of-excellence"></a>Arquitetura da solução de BI no Centro de Excelência
 
 Este artigo destina-se a profissionais e gestores de TI. Irá saber mais sobre a arquitetura da solução de BI no COE, bem como as diferentes tecnologias utilizadas. As tecnologias incluem o Azure, Power BI e Excel. Pode tirar partido de todas essas tecnologias para criar uma plataforma de BI na cloud dimensionável e baseada em dados.
 
-Conceber uma plataforma de BI robusta é um pouco como construir uma ponte que liga dados de origem transformados e melhorados aos consumidores de dados. A conceção de uma estrutura tão complexa requer uma mentalidade de engenheiro, embora possa ser uma das arquiteturas de TI mais criativas e gratificantes que pode conceber.
+Conceber uma plataforma de BI robusta é um pouco como construir uma ponte que liga dados de origem transformados e melhorados aos consumidores de dados. A conceção de uma estrutura tão complexa requer uma mentalidade de engenheiro, embora possa ser uma das arquiteturas de TI mais criativas e gratificantes que pode conceber. Numa grande organização, uma arquitetura da solução de BI pode consistir em:
+
+- Origens de dados
+- Ingestão de dados
+- Macrodados/preparação de dados
+- Armazém de dados
+- Modelos semânticos de BI
+- Relatórios
+
+:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-business-intelligence-platform.png" alt-text="Diagrama a mostrar o diagrama da arquitetura da plataforma de BI, desde origens de dados à ingestão de dados, macrodados, arquivo, armazém de dados, modelos semânticos de BI, relatórios e aprendizagem automática.":::
 
 A plataforma tem de suportar exigências específicas. Mais especificamente, tem de ter a capacidade de dimensionamento e desempenho necessária para cumprir as expectativas dos serviços empresariais e dos consumidores de dados. Além disso, tem de ser totalmente segura. Tem de ser suficientemente resiliente para se adaptar à mudança, pois é certo que, eventualmente, será necessário colocar online novos dados e áreas de assunto.
-
-:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-business-intelligence-platform.png" alt-text="Uma imagem que mostra um diagrama da arquitetura da plataforma de BI, desde as origens de dados à ingestão de dados, macrodados, arquivo, armazenamento de dados, relatórios e machine learning.":::
 
 ## <a name="frameworks"></a>Estruturas
 
@@ -40,7 +47,7 @@ Os modelos de dados permitem-lhe controlar a estrutura e o acesso aos dados. Par
 Uma plataforma de BI pode fornecer três tipos de modelos:
 
 - Modelos empresariais
-- Modelos de BI
+- Modelos semânticos de BI
 - Modelos de Machine Learning (ML)
 
 ### <a name="enterprise-models"></a>Modelos empresariais
@@ -51,17 +58,15 @@ Os modelos empresariais oferecem uma origem de dados de relatórios de BI única
 
 Numa plataforma de BI na cloud, os modelos empresariais podem ser implementados num [conjunto do Synapse SQL no Azure Synapse](/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is#synapse-sql-pool-in-azure-synapse). Assim, o conjunto do Synapse SQL torna-se uma versão única dos dados que a organização pode utilizar para obter informações rápidas e robustas.
 
-### <a name="bi-models"></a>Modelos de BI
+### <a name="bi-semantic-models"></a>Modelos semânticos de BI
 
-Os **modelos de BI** representam uma camada semântica dos modelos empresariais. São compilados e mantidos por programadores e utilizadores empresariais de BI. Os programadores de BI criam modelos de BI que obtêm dados a partir de modelos empresariais. Os utilizadores empresariais podem criar modelos independentes em pequena escala ou expandir os modelos de BI com origens departamentais ou externas. Por norma, os modelos de BI focam-se numa única área de assunto e são, muitas vezes, amplamente partilhados.
+Os **modelos semânticos de BI** representam uma camada semântica dos modelos empresariais. São compilados e mantidos por programadores e utilizadores empresariais de BI. Os programadores de BI criam modelos semânticos de BI que obtêm dados a partir de modelos empresariais. Os utilizadores empresariais podem criar modelos independentes em pequena escala ou expandir os modelos semânticos de BI com origens departamentais ou externas. Por norma, os modelos semânticos de BI focam-se numa única área de assunto e são, muitas vezes, amplamente partilhados.
 
-Além de serem ativadas por dados, as capacidades empresariais utilizam modelos de BI que descrevem conceitos, relações, regras e padrões. Assim, representam estruturas simples e intuitivas que definem relações de dados e englobam regras de negócio como cálculos. Também podem aplicar permissões de dados detalhadas e garantir que as pessoas certas têm acesso aos dados certos. Além disso, aceleram o desempenho das consultas e fornecem análises interativas extremamente responsivas, mesmo com terabytes de dados. Tal como os modelos empresariais, os modelos de BI utilizam convenções de nomenclatura para garantir a consistência.
+Além de serem ativadas por dados, as capacidades empresariais utilizam modelos semânticos de BI que descrevem conceitos, relações, regras e padrões. Assim, representam estruturas simples e intuitivas que definem relações de dados e englobam regras de negócio como cálculos. Também podem aplicar permissões de dados detalhadas e garantir que as pessoas certas têm acesso aos dados certos. Além disso, aceleram o desempenho das consultas e fornecem análises interativas extremamente responsivas, mesmo com terabytes de dados. Tal como os modelos empresariais, os modelos semânticos de BI utilizam convenções de nomenclatura para garantir a consistência.
 
-Numa plataforma da cloud, os programadores de BI podem implementar modelos de BI no [Azure Analysis Services](/azure/analysis-services/) ou em [capacidades do Power BI Premium](../admin/service-premium-what-is.md#dedicated-capacities). Se a utiliza como camada de relatórios e análise, recomendamos a respetiva implementação no Power BI. Estes produtos suportam vários modos de armazenamento e permitem que as tabelas dos modelos de dados coloquem os respetivos dados em cache ou utilizem o [DirectQuery](directquery-model-guidance.md), que é uma tecnologia que envia consultas para a origem de dados adjacente. O DirectQuery é um modo de armazenamento ideal quando as tabelas dos modelos representam grandes volumes de dados ou quando é necessidade fornecer resultados quase em tempo real. É possível combinar ambos os modos de armazenamento: Os [modelos compostos](composite-model-guidance.md) combinam tabelas que utilizam vários modos de armazenamento num único modelo.
+Numa plataforma de BI da cloud, os programadores de BI podem implementar modelos semânticos de BI no [Azure Analysis Services](/azure/analysis-services/) ou em [capacidades do Power BI Premium](../admin/service-premium-what-is.md#dedicated-capacities). Se a utiliza como camada de relatórios e análise, recomendamos a respetiva implementação no Power BI. Estes produtos suportam vários modos de armazenamento e permitem que as tabelas dos modelos de dados coloquem os respetivos dados em cache ou utilizem o [DirectQuery](directquery-model-guidance.md), que é uma tecnologia que envia consultas para a origem de dados adjacente. O DirectQuery é um modo de armazenamento ideal quando as tabelas dos modelos representam grandes volumes de dados ou quando é necessidade fornecer resultados quase em tempo real. É possível combinar ambos os modos de armazenamento: Os [modelos compostos](composite-model-guidance.md) combinam tabelas que utilizam vários modos de armazenamento num único modelo.
 
-No caso dos modelos com muitas consultas, é possível utilizar o [Balanceador de Carga do Azure](/azure/load-balancer/load-balancer-overview) para distribuir uniformemente a carga das consultas em réplicas de modelos. Isto também lhe permite dimensionar aplicações e criar modelos de BI de elevada disponibilidade.
-
-<!-- For more information on BI models, see [BI modeling and processing in the COE](https://TODO/).-->
+No caso dos modelos com muitas consultas, é possível utilizar o [Balanceador de Carga do Azure](/azure/load-balancer/load-balancer-overview) para distribuir uniformemente a carga das consultas em réplicas de modelos. Tal também lhe permite dimensionar aplicações e criar modelos semânticos de BI de elevada disponibilidade.
 
 ### <a name="machine-learning-models"></a>Modelos de Machine Learning
 
@@ -134,7 +139,7 @@ Em seguida, os dados refinados são armazenados numa base de dados relacional pa
 
 Na camada dos relatórios, os serviços empresariais consomem dados do armazém de dados. Além disso, acedem diretamente a dados no data lake para a realização de análises ad hoc ou de tarefas de ciência de dados.
 
-São aplicadas permissões detalhadas em todas as camadas: no data lake, nos modelos empresariais e nos modelos de BI. As permissões garantem que os consumidores de dados só podem ver os dados aos quais têm direitos de acesso.
+São aplicadas permissões detalhadas em todas as camadas: no data lake, nos modelos empresariais e nos modelos semânticos de BI. As permissões garantem que os consumidores de dados só podem ver os dados aos quais têm direitos de acesso.
 
 Na Microsoft, utilizamos relatórios e dashboards do Power BI e [relatórios paginados do Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md). Parte da análise ad hoc e de relatórios é realizada no Excel, especialmente no caso dos relatórios financeiros.
 
@@ -142,11 +147,11 @@ Publicamos dicionários de dados, que fornecem informações de referência sobr
 
 Normalmente, os padrões de consumo de dados diferem com base na função:
 
-- Os **analistas de dados** ligam-se diretamente aos principais modelos de BI. Quando os modelos de BI contêm todos os dados e lógicas necessárias, utilizam ligações em direto para criar relatórios e dashboards do Power BI. Quando necessitam de expandir os modelos com dados departamentais, criam [modelos compostos](composite-model-guidance.md) do Power BI. Se forem necessários relatórios com folhas de cálculo, utilizam o Excel para produzir relatórios com base em modelos de BI ou em modelos de departamentos de BI.
-- Os **programadores de BI** e os criadores de relatórios operacionais ligam-se diretamente a modelos empresariais. Utilizam o Power BI Desktop para criar relatórios de análise de ligações em direto. Também podem criar relatórios operacionais como relatórios paginados do Power BI ao criarem consultas nativas do SQL para acederem a dados dos modelos empresariais do Azure Synapse Analytics através do T-SQL ou modelos do Power BI através do DAX ou MDX.
+- Os **analistas de dados** ligam-se diretamente aos principais modelos semânticos de BI. Quando os modelos semânticos de BI contêm todos os dados e todas as lógicas necessários, utilizam ligações em direto para criar relatórios e dashboards do Power BI. Quando necessitam de expandir os modelos com dados departamentais, criam [modelos compostos](composite-model-guidance.md) do Power BI. Se forem necessários relatórios com folhas de cálculo, utilizam o Excel para produzir relatórios com base em modelos semânticos de BI ou em modelos semânticos de departamentos de BI.
+- Os **programadores de BI** e os criadores de relatórios operacionais ligam-se diretamente a modelos empresariais. Utilizam o Power BI Desktop para criar relatórios de análise de ligações em direto. Também podem criar relatórios operacionais como relatórios paginados do Power BI ao criarem consultas nativas do SQL para acederem a dados dos modelos empresariais do Azure Synapse Analytics através do T-SQL ou modelos semânticos do Power BI através do DAX ou MDX.
 - Os **cientistas de dados** ligam-se diretamente aos dados no data lake. Utilizam os blocos de notas do Python e do Azure Databricks para desenvolver modelos de ML, que tendem a ser experimentais e requerem competências especiais para fins de produção.
 
-:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse-consumption.png" alt-text="Uma imagem que mostra a utilização do Azure Synapse Analytics com o Power BI e o Azure Machine Learning.":::
+:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse-consumption.png" alt-text="Uma imagem a mostrar a utilização do Azure Synapse Analytics com o Power BI, o Excel e o Azure Machine Learning.":::
 
 ## <a name="next-steps"></a>Próximos passos
 
@@ -155,3 +160,9 @@ Para obter mais informações sobre este artigo, consulte os seguintes recursos:
 - [BI Empresarial no Azure com o Azure Synapse Analytics](/azure/architecture/reference-architectures/data/enterprise-bi-synapse)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)
+
+### <a name="professional-services"></a>Serviços profissionais
+
+Os parceiros certificados do Power BI estão disponíveis para ajudar a sua organização a ser bem-sucedida na preparação de um COE. Estes podem proporcionar-lhe uma preparação económica ou uma auditoria dos dados. Para envolver um parceiro do Power BI, visite o [portal de parceiros do Power BI](https://powerbi.microsoft.com/partners/).
+
+Também pode interagir com parceiros de consultoria experientes. Estes podem ajudar a [analisar](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL), [avaliar](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL) ou [implementar](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1) o Power BI.

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d2d28d8ea3f7e2e7217124483f90ecc28d44314f
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 0cc691e8987bf45f6c3028a5006955db1da72b0b
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161704"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638802"
 ---
 # <a name="use-an-alternate-email-address"></a>Utilizar um endereço de e-mail alternativo
 
@@ -23,7 +23,7 @@ Quando se inscreve no Power BI, deve fornecer um endereço de e-mail. Por prede
 Em alguns casos, pode querer que estes e-mails sejam entregues num endereço de e-mail alternativo em vez de serem entregues no e-mail que forneceu durante a inscrição. Este artigo explica como especificar um endereço alternativo no Microsoft 365 e no PowerShell. O artigo também explica como o Microsoft Azure Active Directory (Microsoft Azure AD) resolve um endereço de e-mail.
 
 > [!NOTE]
-> Especificar um endereço alternativo não afeta o endereço de e-mail que o Power BI utiliza para atualizações de serviço, newsletters e outras comunicações promocionais. Estas comunicações são sempre enviadas para o endereço de e-mail que utilizou quando se inscreveu no Power BI.
+> Especificar um endereço alternativo não afeta o endereço de e-mail que o Power BI utiliza para subscrições de e-mails, atualizações de serviço, newsletters e outras comunicações promocionais. Estas comunicações são sempre enviadas para o endereço de e-mail que utilizou quando se inscreveu no Power BI.
 
 ## <a name="use-microsoft-365"></a>Utilizar o Microsoft 365
 
