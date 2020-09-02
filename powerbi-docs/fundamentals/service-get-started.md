@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/08/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 7b9f69607d2fef823ba67d5af035e1e2064a9a72
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: d40bda8ef6469e5dc826d36db3cc21cfe72f0da6
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162396"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092389"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>Tutorial: Introdução ao serviço de criação no Power BI
 Este tutorial é uma introdução a algumas das funcionalidades do *serviço Power BI*. Aqui, irá aprender a ligar-se aos dados, a criar um relatório e um dashboard, e a fazer perguntas sobre os seus dados. As várias funcionalidades do serviço Power BI permitem-lhe fazer muito mais. Este tutorial é só o começo. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos que leia [O que é o Power BI?](power-bi-overview.md).
@@ -226,5 +226,5 @@ Agora que concluiu o tutorial, pode eliminar o conjunto de dados, o relatório e
 
 Explore as coleções de conteúdos do Microsoft Learn para o Power BI:
 
-- [Learn Power BI](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/r52to235xrjxk) (Aprender a utilizar o Power BI)
+- [Learn Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link) (Aprender a utilizar o Power BI)
 - [Become a Power BI data analyst](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/djwu3eywpk4nm) (Tornar-se um analista de dados do Power BI)

@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/21/2020
 ms.author: maggies
-ms.openlocfilehash: b71fd2986fb79adf88493416ac8234f2656aefa9
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: eebb40d81e9b59b545b30ce55dbf4a362b826455
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866777"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937591"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Limitações das Perguntas e Respostas do Power BI
 
@@ -75,10 +75,9 @@ Atualmente, não suportamos a redefinição de um termo reconhecido ou a defini�
 
 ### <a name="statements-not-supported"></a>Instruções não suportadas
 
-- Atualmente, a utilização de medidas em condições não é suportada. Como alternativa, converta as medidas em colunas calculadas para que funcionem.
 - Não são suportadas múltiplas condições. Como alternativa, crie uma coluna calculada DAX que avalia um valor booleano de instrução com múltiplas condições e utilize esse campo.
 - Se não especificar uma condição de filtro quando a funcionalidade Perguntas e Respostas pedir um subconjunto de dados, não será possível guardar a definição, mesmo que a instrução inteira não tenha sublinhados a vermelho.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Existem diversas melhores práticas para melhorar o motor de linguagem natural. Para obter mais informações, veja [Melhores práticas das Perguntas e Respostas](q-and-a-best-practices.md).

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 669f05c03bd7a42d5b44f6ca2fa1b4d58680f71b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3e7bb33eae8be4a0eaa7eb4d92ca165c74b14ed5
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237748"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937384"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>Use DirectQuery with dataflows in Power BI (preview) (Utilizar o DirectQuery com fluxos de dados no Power BI [pré-visualização])
 
@@ -48,8 +48,6 @@ Após aplicar essa definição, atualize o fluxo de dados para que a otimizaçã
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
 Existem algumas limitações conhecidas com o DirectQuery e os fluxos de dados, explicadas na lista seguinte.
-
-* O DirectQuery para fluxos de dados não funciona com a funcionalidade de **pré-visualização de metadados melhorados** ativada. Esta exclusão deverá ser removida num lançamento mensal futuro do Power BI Desktop.
 
 * Durante o período de pré-visualização desta funcionalidade, alguns clientes poderão ter problemas de desempenho ou com tempos limite ao utilizar o DirectQuery com fluxos de dados. Estes problemas estão a ser ativamente resolvidos durante este período de pré-visualização.
 
