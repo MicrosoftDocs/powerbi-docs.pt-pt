@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: 002a50fd2e8e55d5ec06d7f15420ae8299861b37
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: 69ad9fc76250e09c2cea5a8d5dc0d3b2c13f72bf
+ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557216"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "89220889"
 ---
 # <a name="understand-the-deployment-process-preview"></a>Compreender o processo de implementação (pré-visualização)
 
@@ -154,7 +154,7 @@ Crie uma aplicação para cada fase do pipeline de implementação, para que pos
 
 [![Captura de ecrã a realçar o botão da aplicação de publicação, no canto inferior direito da fase de produção.](media/deployment-pipelines-process/publish.png)](media/deployment-pipelines-process/publish.png#lightbox)
 
-Na fase de produção, o botão de ação principal no canto inferior esquerdo abre a página Atualizar aplicação no Power BI, para que quaisquer atualizações de conteúdo fiquem disponíveis para os utilizadores da aplicação.
+Na fase de produção, o botão de ação principal no canto inferior direito abre a página Atualizar aplicação no Power BI, para que quaisquer atualizações de conteúdo fiquem disponíveis para os utilizadores da aplicação.
 
 [![Captura de ecrã a realçar o botão da aplicação de atualização, no canto inferior direito da fase de produção.](media/deployment-pipelines-process/update-app.png)](media/deployment-pipelines-process/update-app.png#lightbox)
 

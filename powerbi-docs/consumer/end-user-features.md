@@ -5,17 +5,17 @@ author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: how-to
-ms.date: 04/17/2020
+ms.topic: reference
+ms.date: 09/01/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: b6beb2115f664de12382933c8200b07b510bd083
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 75ee1ad31bc2f99964a8f79ea29efb499c2cc81e
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215891"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286780"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Lista de funcionalidades do Power BI para *consumidores* e outros utilizadores com licenças gratuitas
 
@@ -49,7 +49,7 @@ Cada utilizador do serviço Power BI tem uma licença gratuita ou uma licença 
 
 - **Licença gratuita** – normalmente atribuída a *consumidores* numa organização (ver primeira imagem, abaixo). Também atribuída a qualquer pessoa que se inscreva no serviço Power BI a título pessoal e queira experimentar o [serviço Power BI no modo autónomo](../fundamentals/service-self-service-signup-for-power-bi.md) (ver segunda imagem, abaixo). 
 
-    ![ecrã a mostrar o Utilizador gratuito](media/end-user-features/power-bi-free-organization.png)
+    ![ecrã a mostrar o utilizador Premium](media/end-user-features/power-bi-free-organization.png)
 
     Para utilizadores gratuitos, ser membro de uma organização que tem a capacidade Premium é o que lhe dá superpoderes. Desde que os seus colegas com a versão Pro utilizem áreas de trabalho de capacidade Premium para partilhar conteúdos, os utilizadores gratuitos podem ver e partilhar com esses colegas com a versão Pro.  **Desta forma, o utilizador gratuito torna-se um *consumidor* do Power BI, com a capacidade de receber e partilhar conteúdos para tomar decisões empresariais.** 
  
@@ -129,7 +129,7 @@ A segunda coluna representa um *consumidor*.  Um consumidor:
 | Ver marcadores criados por outras pessoas e adicionar os seus próprios marcadores  | ![x cor de laranja](media/end-user-features/orange-x.png)|![ponto verde](media/end-user-license/power-bi-green-dot.png)  |
 | Ver e responder a comentários de outras pessoas: adicionar novos comentários  | ![x cor de laranja](media/end-user-features/orange-x.png)|![ponto verde](media/end-user-license/power-bi-green-dot.png)  |
 |Alterar as dimensões de apresentação   | ![myw verde](media/end-user-features/green-mwo.png) | ![ponto verde](media/end-user-license/power-bi-green-dot.png)  | 
-| Guardar uma cópia |![x cor de laranja](media/end-user-features/orange-x.png) |![ponto verde](media/end-user-license/power-bi-green-dot.png)*  
+| Guardar uma cópia |![x cor de laranja](media/end-user-features/orange-x.png) |![x cor de laranja](media/end-user-features/orange-x.png)  
 |Copiar elemento visual como imagem* |
 | Realçar e filtrar de forma cruzada elementos visuais do relatório   |![myw verde](media/end-user-features/green-mwo.png) |![ponto verde](media/end-user-license/power-bi-green-dot.png)  |
 |  Pormenorização   |![myw verde](media/end-user-features/green-mwo.png)  |![ponto verde](media/end-user-license/power-bi-green-dot.png)  |

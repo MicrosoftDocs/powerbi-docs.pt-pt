@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4321ed284a6db7b4ed021c51d9fa1abe6752b75a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3778b1fcd4841902588df89ce785e65bec2bd3dc
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348626"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092366"
 ---
 # <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>Tutorial: Analisar dados de páginas Web com o Power BI Desktop
 
@@ -169,7 +169,7 @@ Pode alterar o aspeto de uma visualização ao selecioná-la e, em seguida, sele
 
 1. Com a visualização selecionada, selecione o ícone **Formatar** e, em seguida, selecione **Cores de dados** para expandir as opções de cores de dados.
 
-   ![Formatar cores de dados](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
+   ![Ícone Formatar e seleção das cores de dados](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
 
 1. Defina **Mostrar Tudo** como **Ligado** e, em seguida, selecione o menu pendente junto a **Alemanha Ocidental** e escolha uma cor amarela.
 
@@ -179,7 +179,7 @@ Pode alterar o aspeto de uma visualização ao selecioná-la e, em seguida, sele
 
 1. Altere a **Cor do tipo de letra** para vermelho, **Tamanho do texto**  para **12**e **Família do tipo de letra** para **Segoe (Negrito)** .
 
-   ![Formatar cores de dados](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
+   ![Cor, tamanho e família do tipo de letra](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
 
 A sua visualização de mapa passa a ter este aspeto:
 
@@ -201,7 +201,7 @@ O Power BI Desktop fornece uma experiência perfeita de ponta a ponta, desde a 
 
 ## <a name="see-also"></a>Veja também
 
-* [Ler outros tutoriais do Power BI Desktop](/power-bi/guided-learning/)
+* [Microsoft Learn para Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Ver vídeos do Power BI Desktop](../fundamentals/desktop-videos.md)
 * [Visitar o Fórum do Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Ler o Blogue do Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)

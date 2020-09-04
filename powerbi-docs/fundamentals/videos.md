@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/03/2020
 ms.author: davidi
-ms.openlocfilehash: 409c8f685b0616177645c7145680d3f795fd0fac
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6bb0039c873dccec318fa9d16c7cf0c96e44b34e
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83360951"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092228"
 ---
 # <a name="power-bi-videos"></a>Power BI videos (Vídeos do Power BI)
 Temos um canal do YouTube para o Power BI! Pode visitar o [nosso canal](https://www.youtube.com/user/mspowerbi/videos) e, se for novo no Power BI, um bom lugar para começar é a [Lista de reprodução Analisar e Visualizar dados com o Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
@@ -42,7 +42,7 @@ Seguem-se alguns vídeos das listas de reprodução para o ajudar a começar.
 ## <a name="more-videos"></a>Mais vídeos
 Consulte a seguinte coleção de origens e conteúdo para mais vídeos.
 
-* [Aprendizagem Orientada para o Power BI](https://powerbi.microsoft.com/guided-learning/) - uma tour de apresentação sequencial do Power BI, em peças de tamanho de bytes
+* [[Microsoft Learn para o Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 
 ## <a name="next-steps"></a>Próximas etapas
 [O que é o Power BI?](power-bi-overview.md)

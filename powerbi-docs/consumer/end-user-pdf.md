@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e1df6634492bbaa690e7efe601455fbae8b6094b
-ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
+ms.openlocfilehash: 72e7550666960948ff3a3155a328613c95fcf43f
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88702680"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040207"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportar relatórios do Power BI para PDF
 
@@ -35,6 +35,8 @@ No serviço Power BI, selecione um relatório para apresentá-lo na tela. També
     Será apresentado um pop-up onde terá a opção de selecionar **Valores atuais** ou **Valores predefinidos**. A opção **Valores atuais** exporta o relatório no estado atual, que inclui as alterações ativas que efetuou na segmentação de dados e nos valores de filtro. A maioria dos utilizadores seleciona esta opção. Em alternativa, selecionar **Valores predefinidos** exporta o relatório no respetivo estado original, tal como o *criador* o partilhou, e não reflete nenhuma alteração que tenha feito a esse estado original.
     
     Além disso, existe uma caixa de verificação para selecionar se quer exportar os separadores ocultos de um relatório. Selecione esta caixa de verificação se quiser exportar apenas os separadores do relatório que estiverem visíveis no seu browser. Se preferir incluir todos os separadores ocultos na sua exportação, pode deixar esta caixa de verificação desselecionada. Se a caixa de verificação aparecer a cinzento, significa que não existem separadores ocultos no relatório. Depois de fazer as suas seleções, selecione **Exportar** para continuar.
+    
+    Também pode optar por exportar apenas a página atual que está a ser apresentada num relatório ao selecionar a opção “Exportar apenas a página atual”.  Por predefinição, esta opção está desmarcada e todas as páginas serão exportadas do relatório.
     
     É apresentada uma barra de progresso no canto superior direito. A exportação poderá demorar alguns minutos. Pode continuar a trabalhar no Power BI enquanto o relatório estiver a ser exportado.
 

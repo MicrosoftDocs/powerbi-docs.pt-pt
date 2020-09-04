@@ -7,12 +7,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
-ms.openlocfilehash: 47ab35113bbf6564cbc824b48891cd9f58370c8a
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: aaa31851f338832a8c4f4fffb38f12414c859610
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578166"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937476"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Introdução às ferramentas das Perguntas e Respostas para preparar as Perguntas e Respostas do Power BI (pré-visualização)
 
@@ -80,6 +80,11 @@ Tudo o que tiver guardado da secção Ensinar Perguntas e Respostas aparece aqui
 
 ### <a name="suggest-questions"></a>Sugerir perguntas
 
+> [!NOTE]
+> As perguntas sugeridas aparecerão para todas as instâncias do elemento visual de Perguntas e Respostas. Não é possível criar um conjunto de sugestões separado para cada elemento visual de Perguntas e Respostas.
+> 
+> 
+
 O elemento visual de Perguntas e Respostas sugere várias perguntas para começar, sem ser necessária configuração. Estas perguntas são geradas automaticamente com base no seu modelo de dados. Em **Sugerir perguntas**, pode substituir as perguntas geradas automaticamente pelas suas perguntas.
 
 Para começar, escreva a pergunta que pretende adicionar na caixa de texto. Na secção de pré-visualização, verá o resultado no elemento visual de Perguntas e Respostas. 
@@ -91,11 +96,6 @@ Selecione o botão **Adicionar** para adicionar esta pergunta a **As suas pergun
 :::image type="content" source="media/q-and-a-tooling-intro/power-bi-qna-save-suggest-questions.png" alt-text="Guardar perguntas sugeridas":::
  
 Certifique-se de que seleciona **Guardar** para mostrar a sua lista de perguntas sugeridas no elemento visual de Perguntas e Respostas. 
-
-> [!NOTE]
-> As perguntas sugeridas aparecerão para todas as instâncias do elemento visual de Perguntas e Respostas. Não é possível criar um conjunto separado de sugestões para cada elemento visual de Perguntas e Respostas.
-> 
-> 
 
 ## <a name="other-qa-settings"></a>Outras definições das Perguntas e Respostas
 

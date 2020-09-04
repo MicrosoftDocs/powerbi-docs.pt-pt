@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/18/2020
+ms.date: 08/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7a1fabd1c61219d7f195253a4384accfd2521d24
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 44aeb5030008d17a9998e8357f23d47524f11512
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236001"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040230"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Resumos de atualizações do Power BI
 
@@ -60,6 +60,8 @@ A vista Agenda é muito útil para determinar se os eventos de atualizações ag
 ![Vista Agenda](media/refresh-summaries/refresh-summaries-02.jpg)
 
 A coluna *Tempo de atualização reservado (minutos)* é um cálculo da média de até 60 registos de cada conjunto de dados associado. O valor numérico para cada intervalo de tempo de 30 minutos é a soma de minutos calculados de todas as atualizações agendadas para começarem no intervalo de tempo **e** quaisquer atualizações agendadas definidas para começarem no intervalo de tempo *anterior*, mas cuja duração média se sobrepõe ao intervalo de tempo selecionado.
+
+A coluna *Tempo de atualização disponível (minutos)* é um cálculo dos minutos disponíveis para atualização em cada intervalo de tempo, menos qualquer atualização que já esteja agendada para esse intervalo de tempo. Por exemplo, se a subscrição P2 disponibilizar 12 atualizações em execução em simultâneo, terá 12 intervalos de 30 minutos, portanto, 12 atualizações x 30 minutos cada = 360 minutos disponíveis para atualização nesse intervalo de tempo. Se tiver uma atualização agendada nesse intervalo que demore 20 minutos, o *Tempo de atualização disponível (minutos)* nesse intervalo será de 340 minutos (total de 360 minutos disponíveis, menos 20 minutos já agendados = 340 minutos ainda disponíveis). 
 
 Pode selecionar um intervalo de tempo e, em seguida, selecionar o botão de **detalhes** associado para ver quais são os eventos de atualizações agendadas que contribuem para o tempo de atualização reservado, os proprietários e quanto tempo demoram a ser concluídos.
 

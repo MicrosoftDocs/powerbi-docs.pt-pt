@@ -6,15 +6,15 @@ ms.reviewer: maggie.tsang
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 08/25/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc5cba8953a527e87768815759a14dd8f2cf7ee1
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 6e1850e281c58bd89597af2bbd9ade0a769071ae
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537855"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040253"
 ---
 # <a name="copy-a-visual-as-an-image-to-your-clipboard"></a>Copiar um elemento visual como uma imagem na área de transferência
 
@@ -35,15 +35,15 @@ Quando copiar uma imagem estática de um elemento visual, obterá uma cópia do 
 
 2. No canto superior direito do elemento visual, selecione **Mais ações (...)** e escolha **Copiar elemento visual como imagem**. 
 
-    ![ícone Copiar elemento visual como imagem apresentado](media/end-user-copy-paste/power-bi-copy-dashboard.png)
+    ![Opção Copiar elemento visual como imagem apresentada no menu pendente](media/end-user-copy-paste/power-bi-copy-dashboard.png)
 
 3. Quando a caixa de diálogo **O elemento visual está pronto para a cópia**, selecione **Copiar para a área de transferência**.
 
     ![caixa de diálogo com a opção Copiar para a área de transferência](media//end-user-copy-paste/power-bi-copied.png)
 
-4. Depois de o elemento visual ter sido copiado, cole-o noutra aplicação com **Ctrl + V** ou clique com o botão direito do rato > Colar. Na captura de ecrã abaixo, colamos o elemento visual no Microsoft Word. 
+4. Depois de o elemento visual ter sido copiado, cole-o noutra aplicação com **Ctrl + V** ou **clique com o botão direito do rato em** > **Colar**. Na captura de ecrã abaixo, colamos o elemento visual no Microsoft Word. 
 
-    ![elemento visual colado no Outlook](media//end-user-copy-paste/power-bi-paste-word.png)
+    ![elemento visual colado no Microsoft Word](media//end-user-copy-paste/power-bi-paste-word.png)
 
 ### <a name="copy-from-a-report-visual"></a>Copiar a partir de um elemento visual de relatório 
 
@@ -58,7 +58,7 @@ Quando copiar uma imagem estática de um elemento visual, obterá uma cópia do 
     ![caixa de diálogo com a opção Copiar para a área de transferência](media//end-user-copy-paste/power-bi-copied.png)
 
 
-4. Depois de o elemento visual ter sido copiado, cole-o noutra aplicação com **Ctrl + V** ou clique com o botão direito do rato > Colar. Na captura de ecrã abaixo, colamos o elemento visual num e-mail.
+4. Depois de o elemento visual ter sido copiado, cole-o noutra aplicação com **Ctrl + V** ou **clique com o botão direito do rato em** > **Colar**. Na captura de ecrã abaixo, colamos o elemento visual num e-mail.
 
     ![elemento visual colado no Outlook](media//end-user-copy-paste/power-bi-copy-email.png)
 
@@ -79,10 +79,10 @@ Quando copiar uma imagem estática de um elemento visual, obterá uma cópia do 
 
 P: Porque é que o ícone Copiar está desativado num elemento visual?    
 R: Atualmente, suportamos elementos visuais nativos do Power BI e elementos visuais personalizados certificados. Existe um suporte limitado para certos elementos visuais, incluindo: 
-- Elementos visuais ESRI e outros elementos visuais de Mapa 
+- Elementos visuais ESRI e outros elementos visuais de mapa 
 - Elementos visuais do Python 
 - Visuais R 
-- PowerApps    
+- Elementos visuais do PowerApps   
 
 R: A capacidade de copiar um elemento visual pode ser desligada pelo departamento de TI ou pelo administrador do Power BI.
 
@@ -94,6 +94,8 @@ R: Existem limitações para elementos visuais personalizados e elementos visuai
 
 ## <a name="next-steps"></a>Próximos passos
 Mais sobre [Visualizações nos relatórios do Power BI](end-user-visual-type.md)
+
+Se tiver permissões de edição para um relatório, poderá [copiar e colar elementos visuais no mesmo relatório](../visuals/power-bi-visualization-copy-paste.md). 
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

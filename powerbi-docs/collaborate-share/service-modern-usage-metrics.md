@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9aad77f162a49697466899afce44284c7f063746
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: ee51ea2bbca794730d35d1f21bc999adda3dcc98
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478159"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937545"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Monitorizar as métricas de utilização na nova experiência de área de trabalho (pré-visualização)
 
@@ -184,6 +184,10 @@ Quando cria uma cópia do relatório de utilização previamente criado só de l
 1. O novo relatório é guardado no separador Relatórios na área de trabalho atual e é adicionado à lista de conteúdo Recente.
 
     ![O novo relatório no separador Relatórios](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-new-report.png)
+    
+> [!NOTE]
+> Quando guarda uma cópia do relatório de métricas de utilização, a mesma é tratada como um relatório do Power BI normal. Estará acessível a todos os utilizadores com permissões de visualização na área de trabalho, incluindo utilizadores na função de Visualizador.
+
 
 ### <a name="create-a-new-usage-report-in-power-bi-desktop"></a>Criar um novo relatório de utilização no Power BI Desktop
 
@@ -242,7 +246,14 @@ Quando se liga aos dados de utilização no Excel, pode criar Tabelas Dinâmicas
 
 ## <a name="usage-metrics-in-national-clouds"></a>Métricas de utilização em clouds nacionais
 
-O Power BI está disponível em clouds nacionais separadas. Estas clouds oferecem os mesmos níveis de segurança, privacidade, conformidade e transparência que a versão global do Power BI, combinado com um modelo exclusivo para regulamentações locais sobre a entrega do serviço, residência dos dados, acesso e controlo. Devido a este modelo exclusivo para regulamentações locais, as métricas de utilização não estão disponíveis em clouds nacionais. Para obter mais informações, veja as [clouds nacionais](https://powerbi.microsoft.com/clouds/).
+O Power BI está disponível em clouds nacionais separadas. Estas clouds oferecem os mesmos níveis de segurança, privacidade, conformidade e transparência que a versão global do Power BI, combinado com um modelo exclusivo para regulamentações locais sobre a entrega do serviço, residência dos dados, acesso e controlo. As métricas de utilização modernas estão atualmente disponíveis nas seguintes clouds nacionais: 
+
+- Cloud da Comunidade de Administração Pública dos E.U.A.
+- Cloud da Comunidade Governamental dos EUA Elevada
+- Departamento de Defesa dos EUA
+- China
+
+Para obter mais informações, veja as [clouds nacionais](https://powerbi.microsoft.com/clouds/).
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 

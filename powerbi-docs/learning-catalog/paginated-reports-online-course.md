@@ -9,11 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 533dba01bb975d774741643771415aaafa8f155c
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427481"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092297"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Curso Relatórios Paginados do Power BI num Dia
 
@@ -82,28 +83,29 @@ Este [curso com 24 vídeos](https://www.youtube.com/playlist?list=PL1N57mwBHtN1i
 
 Pode transferir e configurar um kit de estudo autónomo, que consiste no conteúdo de apresentação e oito laboratórios práticos:
 
-1. Utilize [esta ligação](https://aka.ms/priad-student) para transferir o kit de estudo autónomo (.zip) localmente para o seu PC.
-1. Abra as propriedades do ficheiro e selecione "desbloquear" (o Windows pode sinalizar o ficheiro como potencialmente não confiável).
-1. Extraia os conteúdos do ficheiro para uma pasta no seu sistema de ficheiros. Recomendamos que crie uma pasta que será fácil de encontrar ao atribuir o nome **Formação**, por exemplo. Os documentos do laboratório referem-se a esta localização como **&lt;CourseFolder&gt;** .
+1. Utilize [esta ligação](https://aka.ms/priad-student) para transferir o kit de estudo autónomo (.zip) localmente para o PC (Windows 7 ou posterior).
+1. Abra as propriedades do ficheiro zip e selecione “desbloquear” (o Windows pode sinalizar o ficheiro como potencialmente não fidedigno).
+1. Crie uma pasta de curso raiz. Recomendamos que atribua um nome como “C:\Formação”. Memorize esta localização, pois vai precisar de aceder aos ficheiros do curso ao longo dos laboratórios. Todos os documentos do laboratório referem esta localização como **&lt;CourseFolder&gt;** .
+1. Extraia os conteúdos do ficheiro **PowerBIPRIAD-Student.zip** para a pasta do curso raiz.
+1. Na pasta **&lt;CourseFolder&gt;\PowerBIPRIAD**, abra o ficheiro **ReadMe.txt** e veja as instruções de configuração.
 
-Uma vez extraída, terá a pasta **PowerBIPRIAD** e dentro dela encontrará as seguintes pastas:
-
-- **Lab01A** (e todas as outras pastas do laboratório): as pastas do laboratório contêm recursos de laboratório e documentação de laboratório, que pode incluir ficheiros de solução e ativos.
-- **MySolution**: esta pasta armazena os seus ficheiros de solução. As instruções do laboratório irão direcioná-lo quando o utilizar.
-- **Apresentação**: esta pasta contém o ficheiro de apresentação do curso, que está disponível como um documento PDF.
-
-### <a name="get-started-with-the-kit"></a>Introdução ao kit
-
-Recomendamos que veja o curso online primeiro. Pode consultar a parte teórica da apresentação ao abrir o ficheiro **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf**. A apresentação inclui oito diapositivos do laboratório, que indicam quando está na altura de pôr a teoria em prática. Também inclui muitas ligações de recursos para ajudá-lo a encontrar conteúdos relacionados.
-
-Quando estiver pronto para iniciar o primeiro laboratório, abra o ficheiro **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. Este documento orienta-o para iniciar sessão no serviço Power BI, carregar um conjunto de dados e, em seguida, instalar o [Power BI Report Builder](https://aka.ms/pbireportbuilder).
+> [!TIP]
+> O ficheiro **ReadMe.txt**, os documentos do laboratório e o ficheiro de apresentação (PDF) estão disponíveis em inglês, bem como nos oito idiomas seguintes:
+> - Alemão (de-DE)
+> - Espanhol (es-ES)
+> - Francês (fr-FR)
+> - Italiano (it-IT)
+> - Japonês (ja-JA)
+> - Coreano (ko-KR)
+> - Português do Brasil (pt-BR)
+> - Chinês, carateres simplificados (zh-CN)
 
 > [!NOTE]
 > É responsável por ter a sua própria conta do Power BI. Se ainda não tiver uma, veja [Inscrever-se no Power BI como um indivíduo](../fundamentals/service-self-service-signup-for-power-bi.md).
 >
 > Tem de iniciar sessão no Power BI para publicar um ficheiro do Power BI Desktop numa área de trabalho. A publicação resulta num conjunto de dados que é utilizado como uma origem de dados de relatório. Não precisa de uma licença do Power BI Pro ou uma subscrição do Power BI Premium para utilizar um conjunto de dados como uma origem de dados do relatório.
 >
-> Algumas tarefas do laboratório envolvem a publicação do seu próprio relatório paginado numa área de trabalho. Só pode abrir um relatório paginado se este tiver sido guardado numa área de trabalho na [capacidade dedicada](../admin/service-premium-what-is.md#dedicated-capacities), que tem a carga de trabalho de relatórios paginados ativada. Se não tiver acesso a uma área de trabalho adequada, receberá uma ligação para ver um vídeo que demonstra a publicação do relatório.
+> Algumas tarefas do laboratório envolvem a publicação do seu próprio relatório paginado numa área de trabalho. Só pode abrir um relatório paginado se este tiver sido guardado numa área de trabalho na [capacidade dedicada](../admin/service-premium-what-is.md#dedicated-capacities), que tem a carga de trabalho de relatórios paginados ativada. Se não tiver acesso a uma área de trabalho adequada, o laboratório disponibilizará uma ligação para ver um vídeo que demonstra a publicação do relatório.
 
 ## <a name="instructor-kit"></a>Kit do professor
 

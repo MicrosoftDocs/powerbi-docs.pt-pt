@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2cffd2b9913773e7f29d1afa960209ddeddd3583
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 1153b20e77958bbecce9284add3ae7eab21cd47d
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160424"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040323"
 ---
 # <a name="export-reports-to-powerpoint"></a>Exportar relatórios para o PowerPoint
 
@@ -49,6 +49,8 @@ Será apresentado um pop-up onde terá a opção de selecionar **Valores atuais*
 ![Selecione o que Exportar](media/end-user-powerpoint/power-bi-current-values.png)
  
 Além disso, existe uma caixa de verificação para selecionar se quer exportar os separadores ocultos de um relatório. Selecione esta caixa de verificação se quiser exportar apenas os separadores do relatório que estiverem visíveis no seu browser. Se preferir incluir todos os separadores ocultos na exportação, mantenha esta caixa de verificação desselecionada. Se a caixa de verificação aparecer a cinzento, significa que não existem separadores ocultos no relatório. Um exemplo de separador oculto seria um separador de descrição. As [descrições personalizadas](../create-reports/desktop-tooltips.md) são criadas por *designers* de relatórios e não são apresentadas como separadores de relatório no serviço Power BI para *consumidores*. 
+
+Também pode optar por exportar apenas a página atual que está a ser apresentada num relatório ao selecionar a opção “Exportar apenas a página atual”.  Por predefinição, esta opção está desmarcada e todas as páginas serão exportadas do relatório.
 
 Depois de fazer as suas seleções, selecione **Exportar** para continuar. Verá uma faixa de notificação no canto superior direito da janela de browser do serviço Power BI a informar que o relatório está a ser exportado para o PowerPoint. 
 

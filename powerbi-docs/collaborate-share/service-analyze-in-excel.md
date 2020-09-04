@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 1e1e9afcbcae300e12580fb5f54bdb53e7822c03
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 1605e6108b990c95a995eadd9a6b3d03260001f5
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952774"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937499"
 ---
 # <a name="analyze-in-excel"></a>Analisar no Excel
 Com a opção **Analisar no Excel**, pode mover conjuntos de dados do Power BI para o Excel e, em seguida, visualizar e interagir com os mesmos com Tabelas Dinâmicas, gráficos, segmentações de dados, bem como outras funcionalidades do Excel. Para utilizar **Analisar no Excel**, deve primeiro transferir a funcionalidade do Power BI, instalá-la e, em seguida, selecionar um ou mais conjuntos de dados para utilizar no Excel. 
@@ -44,7 +44,7 @@ Depois de ter iniciado sessão e o serviço Power BI em execução no browser, 
 
 Em alternativa, pode navegar no serviço Power BI para um conjunto de dados que queira analisar e selecionar o item **Mais opções** para um conjunto de dados, relatório ou outro item do Power BI. No menu apresentado, selecione a opção **Analisar no Excel**, conforme mostrado na seguinte imagem.
 
-![Analisar no Excel](media/service-analyze-in-excel/analyze-excel-01.png)
+![Analisar no Excel no conjunto de dados](media/service-analyze-in-excel/analyze-excel-01.png)
 
 De qualquer forma, o Power BI deteta se tem a opção Analisar no Excel instalada e, se não tiver, é-lhe pedido que a transfira. 
 
@@ -56,7 +56,7 @@ Quando seleciona a transferência, o Power BI deteta a versão do Excel que ins
 
 Quando a transferência estiver concluída, execute o instalador (.msi) para instalar Analisar no Excel. O nome do processo de instalação é diferente de Analisar no Excel; o nome será **Fornecedor OLE DB do Microsoft Analysis Services**, conforme mostrado na imagem seguinte, ou algo semelhante.
 
-![Atualizações a serem instaladas](media/service-analyze-in-excel/analyze-excel-05.png)
+![Atualizações a instalar o fornecedor OLE DB do Analysis Services](media/service-analyze-in-excel/analyze-excel-05.png)
 
 Depois de concluída, estará pronto para selecionar um relatório no serviço Power BI (ou outro elemento de dados do Power BI, como um conjunto de dados) e pata o analisar no Excel.
 
@@ -80,6 +80,9 @@ No serviço Power BI, navegue para o conjunto de dados ou relatório que pretend
     ![Transferir o ficheiro do Excel](media/service-analyze-in-excel/analyze-in-excel-download-xlsx.png)
 
     O nome do ficheiro corresponde ao conjunto de dados (ou relatório ou outra origem de dados) a partir do qual foi derivado. Se o relatório tiver o nome *Relatório Trimestral*, o ficheiro transferido será **Relatório Trimestral.xlsx**.
+
+    >[!Note]
+    >Agora, a opção Analisar no Excel transfere um ficheiro Excel em vez de um ficheiro ODC, o que possibilita a proteção dos dados exportados do Power BI. O ficheiro Excel transferido herda a etiqueta de confidencialidade do conjunto de dados escolhido para Analisar no Excel.
 
 3. Abra o ficheiro do Excel.
 

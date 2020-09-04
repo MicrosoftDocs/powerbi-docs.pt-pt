@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/02/2020
+ms.date: 08/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4083304a13b75df900e25204b54f62368be43e70
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: b31ddb3e3881f9002affcae9106b9e14bf85a964
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939510"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092320"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Utilizar o DirectQuery no Power BI Desktop
 Com o *Power BI Desktop*, ao ligar à origem de dados, pode sempre importar uma cópia dos dados para o Power BI Desktop. Para algumas origens de dados, está disponível uma abordagem alternativa: ligar-se diretamente à origem de dados com o DirectQuery.
@@ -50,6 +50,8 @@ Atualmente, existem algumas limitações na utilização do DirectQuery:
 - Se a consulta do **Editor de Consultas** for excessivamente complexa, ocorre um erro. Para corrigir esse erro, deve eliminar o passo que apresenta problemas no **Editor de Consultas** ou *Importar* os dados, em vez de utilizar o DirectQuery. Para origens multidimensionais, como o SAP Business Warehouse, não existe nenhum **Editor de Consultas**.
 
 - Não estão disponíveis funcionalidades de análise de tempo no DirectQuery. Por exemplo, o tratamento especial de colunas de data (tais como ano, trimestre, mês ou dia) não é suportado no modo DirectQuery.
+
+- As tabelas e as colunas calculadas que fazem referência a uma tabela do DirectQuery de uma origem de dados com autenticação de Início de Sessão Único (SSO) não são suportadas no Serviço Power BI.
 
 - As limitações são colocadas em expressões DAX permitidas em medidas para garantir que as consultas enviadas para a origem de dados subjacente têm um desempenho aceitável.
 

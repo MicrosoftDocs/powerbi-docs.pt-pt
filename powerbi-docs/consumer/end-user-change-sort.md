@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 08/25/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c70229a37a697fedba54cde1899073f20710f542
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 6147bc0ee725eb7adc7e1edb637a22bb7dc66558
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161773"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040347"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Alterar a forma como um gráfico é ordenado num relatório do Power BI
 
@@ -24,24 +24,24 @@ ms.locfileid: "86161773"
 > [!IMPORTANT]
 > **Este artigo destina-se aos utilizadores do Power BI que não tenham permissões de edição no relatório ou no conjunto de dados e que apenas trabalhem na versão online do Power BI (o serviço Power BI). Se for um *designer*, *administrador* ou *proprietário* de relatórios, este artigo poderá não ter toda a informação de que necessita. Em alternativa, leia [Ordenação por coluna no Power BI Desktop](../create-reports/desktop-sort-by-column.md)** .
 
-No serviço Power BI, pode alterar o aspeto de um elemento visual ao ordená-lo por campos de dados diferentes. Ao alterar a forma como ordena um elemento visual, pode destacar as informações que pretende transmitir. Se estiver a utilizar dados numéricos (como o volume de vendas) ou dados de texto (como nomes de estado), pode ordenar as visualizações conforme quiser. O Power BI oferece bastante flexibilidade para ordenação e menus rápidos para utilização. 
+No serviço Power BI, pode alterar o aspeto de um elemento visual ao ordená-lo por campos de dados diferentes. Ao alterar a forma como ordena um elemento visual, pode destacar as informações que pretende transmitir. Se estiver a utilizar dados numéricos (como o volume de vendas) ou dados de texto (como nomes de estado), poderá ordenar os elementos visuais conforme quiser. O Power BI oferece bastante flexibilidade para ordenação e menus rápidos para utilização. 
 
-Não pode ordenar os elementos visuais num dashboard. No entanto, num relatório do Power BI, pode ordenar a maioria das visualizações com um e, por vezes, dois campos de cada vez. Para determinados tipos de elementos visuais, a ordenação não está disponível: treemaps, medidores, mapas, etc. 
+Não pode ordenar os elementos visuais num dashboard. No entanto, num relatório do Power BI, pode ordenar a maioria dos elementos visuais com um e, por vezes, dois campos de cada vez. Para determinados tipos de elementos visuais, a ordenação não está disponível: treemaps, medidores, mapas, etc. 
 
 ## <a name="get-started"></a>Introdução
 
-Para começar, abra um relatório que tenha sido partilhado consigo. Selecione um elemento visual (que pode ser ordenado) e selecione **Mais ações** (...).  Existem três opções de ordenação: **Ordenação descendente**, **Ordenação ascendente** e **Ordenar por**. 
+Para começar, abra um relatório que tenha sido criado por si ou partilhado consigo. Selecione um elemento visual (que pode ser ordenado) e selecione **Mais ações** (...).  Existem três opções de ordenação: **Ordenação descendente**, **Ordenação ascendente** e **Ordenar por**. 
     
 
-![gráfico de barras ordenado alfabeticamente pelo eixo X](media/end-user-change-sort/power-bi-more-actions.png)
+![gráfico de barras ordenado alfabeticamente pelo eixo Y](media/end-user-change-sort/power-bi-actions.png)
 
 ### <a name="sort-alphabetically-or-numerically"></a>Ordenar alfabética ou numericamente
 
-Os elementos visuais podem ser ordenados alfabeticamente pelos nomes textuais das categorias ou pelos valores numéricos de cada categoria. Por exemplo, este gráfico está ordenado alfabeticamente pela categoria de eixo X **Store name**.
+Os elementos visuais podem ser ordenados alfabeticamente pelos respetivos nomes das categorias ou pelos valores numéricos de cada categoria. Por exemplo, este gráfico está ordenado alfabeticamente pela categoria de eixo X **Store name**.
 
 ![gráfico de barras ordenado alfabeticamente pelo eixo X](media/end-user-change-sort/powerbi-sort-category.png)
 
-É fácil alterar a ordenação de uma categoria (nome de arquivo) para um valor (vendas por metro quadrado). Selecione **Mais ações** (...) e selecione **Ordenar por**. Selecione um valor numérico utilizado no elemento visual.  Neste exemplo, selecionámos **Sales Per Sq Ft**.
+Para alterar a ordenação de uma categoria (nome de arquivo) para um valor (vendas por metro quadrado), selecione **Mais ações** (...) e escolha **Ordenar por**. Selecione um valor numérico utilizado no elemento visual.  Neste exemplo, selecionámos **Sales Per Sq Ft**.
 
 ![Captura de ecrã a mostrar a seleção da opção Ordenar por e, em seguida, um valor](media/end-user-change-sort/power-bi-sort-value.png)
 
@@ -55,14 +55,14 @@ Se for necessário, alterne entre uma sequência de ordenação ascendente e des
 ## <a name="sorting-by-multiple-columns"></a>Ordenar por várias colunas
 Os dados nesta tabela estão ordenados por **Número de clientes**.  Sabemos disso por causa da pequena seta por baixo da palavra *Número*. A seta está a apontar para baixo, o que significa que a coluna está a ser ordenada por ordem *descendente*.
 
-![captura de ecrã a mostrar a primeira coluna a ser utilizada na ordenação](media/end-user-change-sort/power-bi-sort-first.png)
+![captura de ecrã a mostrar a primeira coluna a ser utilizada na ordenação](media/end-user-change-sort/power-bi-sort-column.png)
 
 
 Para adicionar mais colunas à ordenação, prima Shift + clique no cabeçalho da coluna que gostaria de adicionar a seguir na ordenação. Por exemplo, se clicar em **Número de clientes** e, em seguida, premir Shift + clicar em **Receita total**, a tabela será ordenada primeiro por clientes e depois por receita. O contorno vermelho mostra as áreas onde a ordenação mudou.
 
 ![captura de ecrã a mostrar a segunda coluna a ser utilizada na ordenação](media/end-user-change-sort/power-bi-sort-second.png)
 
-Se premir Shift + clicar uma segunda vez na mesma coluna, mudará a direção de ordenação dessa coluna. Além disso, se premir Shift + clicar numa coluna que adicionou anteriormente à ordenação, deslocará essa coluna para a parte de trás da ordenação.
+Se premir Shift + clicar uma segunda vez na mesma coluna, mudará a direção de ordenação (ascendente, descendente) dessa coluna. Além disso, se premir Shift + clicar numa coluna que adicionou anteriormente à ordenação, deslocará essa coluna para a parte de trás da ordenação.
 
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Guardar as alterações feitas à sequência de ordenação
@@ -80,7 +80,7 @@ Por vezes, quer ordenar o elemento visual através de um campo diferente (que n�
 
 Apenas a pessoa que criou o relatório pode fazer estas alterações por si. As informações de contacto do *designer* podem ser encontradas ao selecionar o nome do relatório na barra de cabeçalho.
 
-![Lista pendente a mostrar informações de contacto](media/end-user-change-sort/power-bi-contact.png)
+![Lista pendente a mostrar informações de contacto](media/end-user-change-sort/power-bi-header.png)
 
 Se for um *designer* e tiver permissões de edição no conteúdo, leia [Ordenação por coluna no Power BI Desktop](../create-reports/desktop-sort-by-column.md) para saber como atualizar o conjunto de dados e ativar este tipo de ordenação.
 

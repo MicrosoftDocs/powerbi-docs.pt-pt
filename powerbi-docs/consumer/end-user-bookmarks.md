@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 08/26/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: f8bd09bd55694bbd7c6a991d502dde45dad5f2e4
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: f865815c76df179c87c1487e1243c37108375167
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162072"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937720"
 ---
 # <a name="what-are-bookmarks"></a>O que são marcadores?
 
@@ -29,18 +29,24 @@ Os marcadores podem ser utilizados de várias formas. Suponhamos que descobre in
 
 Também pode criar uma coleção de marcadores, dispô-los pela ordem que quiser e, posteriormente, seguir cada marcador numa apresentação para realçar uma série de informações que contam uma história.  
 
-![Mostrar o Painel de Marcadores ao selecioná-lo no friso.](media/end-user-bookmarks/power-bi-select-bookmark.png)
+![Mostrar o Painel de Marcadores ao selecioná-lo no friso.](media/end-user-bookmarks/power-bi-bookmark-icon.png)
 
 ## <a name="open-bookmarks"></a>Abrir marcadores
-Para abrir o painel Marcadores, selecione **Marcadores** > **Mostrar mais marcadores** na barra de menus. Para regressar à vista publicada original do relatório, selecione **Repor para predefinição**.
+Para abrir o painel Marcadores, selecione **Marcadores** > **Mostrar mais marcadores** na barra de menus. 
+
+![captura de ecrã da tela de relatórios com o painel Marcadores aberto.](media/end-user-bookmarks/power-bi-show-bookmarks.png)
+
+Para regressar à vista publicada original do relatório, selecione o ícone de **reposição**.
+
+![captura de ecrã com o ícone de reposição selecionado](media/end-user-bookmarks/power-bi-revert.png)
 
 ### <a name="report-bookmarks"></a>Marcadores de relatório
-Se o *designer* de relatórios tiver incluído marcadores de relatório, irá encontrá-los no título **Marcadores de relatório**. Esta página de relatórios tem dois marcadores, B1 e B2. 
+Se o *designer* de relatórios tiver incluído marcadores de relatório, irá encontrá-los no título **Marcadores de relatório**. Esta página de relatório tem quatro marcadores: B1, B2, VanArsdel Ano Até à Data e Todos Ano Até à Data. O marcador **Todos Ano Até à Data** está atualmente selecionado.
 
 > [!NOTE]
 > Irá precisar do Power BI Pro ou Premium para ver relatórios partilhados. 
 
-![Mostrar Marcadores de relatório.](media/end-user-bookmarks/power-bi-report.png)
+![Mostrar Marcadores de relatório.](media/end-user-bookmarks/power-bi-bookmark-list.png)
 
 Selecione um marcador para mudar para essa vista de relatório. 
 
@@ -48,7 +54,7 @@ Selecione um marcador para mudar para essa vista de relatório.
 
 ### <a name="personal-bookmarks"></a>Marcadores pessoais
 
-Quando criar um marcador, os elementos seguintes são guardados com o marcador:
+Se conseguir ver um relatório, significa que também pode adicionar marcadores pessoais.  Quando criar um marcador, os elementos seguintes são guardados com o marcador:
 
 * Página atual
 * Filtros
@@ -59,15 +65,21 @@ Quando criar um marcador, os elementos seguintes são guardados com o marcador:
 * Visibilidade (de um objeto, através do painel **Seleção**)
 * Os modos de detalhe ou **Em Destaque** de qualquer objeto visível
 
-Configure uma página de relatório conforme quiser que apareça no marcador. Depois da página de relatório e dos elementos visuais serem dispostos como pretende, selecione **Adicionar** no painel **Marcadores** para adicionar um marcador. Neste exemplo, adicionámos alguns filtros para a região e a data. 
+Configure uma página de relatório conforme quiser que apareça no marcador. Neste exemplo:
 
-![Adicionar Marcadores pessoais.](media/end-user-bookmarks/power-bi-bookmark-personal.png)
+1. Alterámos o filtro Data existente no painel **Filtros**,
+1. alterámos o filtro Regiões existente no painel **Filtros** e
+1.  selecionámos pontos de dados no elemento visual do gráfico em anel para filtrar e realçar de forma cruzada a tela do relatório. 
+
+Depois da página de relatório e dos elementos visuais serem dispostos como pretende, selecione **Adicionar** no painel **Marcadores** para adicionar um marcador. 
+
+![Adicionar Marcadores pessoais.](media/end-user-bookmarks/power-bi-personal.png)
 
 O **Power BI** cria um marcador pessoal e atribui-lhe um nome genérico ou um nome que introduzir. Pode *mudar o nome*, *eliminar* ou *atualizar* o seu marcador ao selecionar as reticências junto ao nome do mesmo e, em seguida, ao selecionar uma ação no menu apresentado.
 
-Depois de ter um marcador, pode visualizar o mesmo ao selecioná-lo simplesmente no painel **Marcadores**. 
+Depois de ter um marcador, selecione-o para o visualizar no painel **Marcadores**. 
 
-![Adicionar Marcadores pessoais.](media/end-user-bookmarks/power-bi-bookmark-west.png)
+![Visualize um marcador específico ao selecioná-lo.](media/end-user-bookmarks/power-bi-selected.png)
 
 
 <!--
@@ -91,7 +103,7 @@ Quando estiver no modo **Visualização**, existem alguns aspetos a ter em consi
 - A barra de título do marcador tem setas que lhe permitem mover para o marcador anterior ou seguinte.
 - Pode sair do modo **Visualização** ao selecionar **Sair** no painel **Marcadores** ou ao selecionar o **X** localizado na barra de título do marcador.
 
-![Apresentação de diapositivos de marcadores](media/end-user-bookmarks/power-bi-slideshow.png)
+![Apresentação de diapositivos de marcadores](media/end-user-bookmarks/power-bi-view-bookmarks.png)
 
 Quando estiver no **Visualização**, pode fechar o painel **Marcadores** (ao clicar no X nesse painel) para dar mais espaço à sua apresentação. No modo **Visualização**, todos os elementos visuais são interativos e estão disponíveis para realce cruzado, tal como acontece quando interage com eles. 
 

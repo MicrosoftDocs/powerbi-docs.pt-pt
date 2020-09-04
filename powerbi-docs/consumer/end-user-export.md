@@ -7,15 +7,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/20/2020
+ms.date: 08/28/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: eebe5bcf2a4e75d9ff6ed526fbd8f9d362ff26ee
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: a4b7b866d56852cb4e49cbe09150dcdb694b64c3
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537832"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89287009"
 ---
 # <a name="export-data-from-a-visual"></a>Exportar dados de um visual
 
@@ -23,7 +23,9 @@ ms.locfileid: "87537832"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Se quiser ver os dados que são utilizados para criar um elemento visual, [poderá apresentar os dados no Power BI](end-user-show-data.md) ou exportar esses dados para o Excel. A opção para exportar os dados requer um certo tipo de licença ou permissões de edição para o conteúdo. Se não conseguir exportar, contacte o administrador do Power BI. A exportação de dados requer uma licença Power BI Pro: uma licença Pro por utilizador ou uma licença Pro por utilizador numa organização que detenha uma licença de capacidade Premium. Normalmente, este tipo de licença é utilizado por *estruturadores* de relatórios, não por *consumidores*. Para saber mais, veja [Qual é a minha licença?](end-user-license.md).
+Se quiser ver os dados que são utilizados para criar um elemento visual, [poderá apresentar os dados no Power BI](end-user-show-data.md) ou exportar esses dados para o Excel. A opção para exportar os dados requer um certo tipo de licença ou permissões de edição para o conteúdo. Se não conseguir exportar, contacte o administrador do Power BI ou o suporte técnico de TI. 
+
+A exportação de dados requer uma licença do Power BI Pro ou que o dashboard ou relatório seja partilhado consigo através da capacidade Premium. Para saber mais, veja [Qual é a minha licença?](end-user-license.md).
 
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>A partir de um elemento visual num dashboard do Power BI
@@ -35,15 +37,15 @@ Se quiser ver os dados que são utilizados para criar um elemento visual, [poder
 
 2. Paire o cursor sobre um elemento visual para ver **Mais opções** (...) e clique para apresentar o menu de ação.
 
-    ![Menu que aparece quando seleciona as reticências](media/end-user-export/power-bi-options-menu.png)
+    ![Menu que aparece quando seleciona as reticências](media/end-user-export/power-bi-option-menu.png)
 
 3. Selecione **Exportar para .csv**.
 
 4. O que acontece a seguir depende do browser que estiver a utilizar. Poderá ser-lhe solicitado que guarde o ficheiro ou pode ver uma ligação para o ficheiro exportado na parte inferior do browser. 
 
-    ![O Chrome a mostrar a ligação do ficheiro exportado](media/end-user-export/power-bi-dashboard-exports.png)
+    ![O Chrome a mostrar a ligação do ficheiro exportado](media/end-user-export/power-bi-dashboards-export.png)
 
-5. Abra o ficheiro no Excel. 
+5. Abra um ficheiro no Excel. 
 
     > [!NOTE]
     > Se não tiver permissões para os dados, não poderá exportar ou abrir no Excel.  
@@ -56,18 +58,18 @@ Pode exportar dados de um elemento visual num um relatório com o formato .csv o
 
 1. Num dashboard, selecione um mosaico para abrir o relatório subjacente.  Neste exemplo, estamos a selecionar o mesmo elemento visual de acima, *Total de Unidades Ano Até à Data % Var*. 
 
-    ![Mosaico do dashboard realçado](media/end-user-export/power-bi-export-reports.png)
+    ![Mosaico do dashboard realçado](media/end-user-export/power-bi-export-tile.png)
 
     Dado que este mosaico foi criado no relatório *Exemplo de Vendas e Marketing*, é este relatório que é aberto. O relatório é aberto na página que contém o elemento visual do mosaico selecionado. 
 
 2. Selecione o elemento visual no relatório. Repare no painel **Filtros** à direita. Este elemento visual tem filtros aplicados. Para saber mais sobre os filtros, veja [Utilizar filtros num relatório](end-user-report-filter.md).
 
-    ![Painel Filtro selecionado](media/end-user-export/power-bi-export-filter.png)
+    ![Painel Filtro selecionado](media/end-user-export/power-bi-export-filter-pane.png)
 
 
 3. Selecione **Mais opções (...)** no canto superior direito da visualização. Escolha **Exportar dados**.
 
-    ![Exportar dados selecionados na lista pendente](media/end-user-export/power-bi-export-report.png)
+    ![Exportar dados selecionados na lista pendente](media/end-user-export/power-bi-export-reports.png)
 
 4. Verá as opções para exportar Dados resumidos ou Dados subjacentes. Se estiver a utilizar a aplicação *Exemplo de Vendas e marketing*, os **Dados subjacentes** estarão desativados. Mas pode encontrar relatórios onde ambas as opções estejam ativadas. Eis uma explicação da diferença.
 
@@ -80,16 +82,16 @@ Pode exportar dados de um elemento visual num um relatório com o formato .csv o
 
 5. O que acontece a seguir depende do browser que estiver a utilizar. Poderá ser-lhe solicitado que guarde o ficheiro ou pode ver uma ligação para o ficheiro exportado na parte inferior do browser. 
 
-    ![Ficheiro exportado apresentado no Microsoft Edge](media/end-user-export/power-bi-export-edge-browser.png)
+    ![Ficheiro exportado apresentado no Microsoft Edge](media/end-user-export/power-bi-export-edge-screen.png)
 
     > [!NOTE]
     > Se não tiver permissões para os dados, não poderá exportar ou abrir no Excel.  
 
 
-6. Abra o ficheiro no Excel. Compare a quantidade de dados exportados com os dados que exportámos a partir do mesmo elemento visual no dashboard. A diferença é que esta exportação inclui **Dados subjacentes**. 
+6. Abra um ficheiro no Excel. Compare a quantidade de dados exportados com os dados que exportámos a partir do mesmo elemento visual no dashboard. A diferença é que esta exportação inclui **Dados subjacentes**. 
 
     ![Exemplo de Excel](media/end-user-export/power-bi-underlying.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 [Apresentar os dados utilizados para criar um elemento visual](end-user-show-data.md)
