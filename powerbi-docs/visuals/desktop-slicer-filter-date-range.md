@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5d50f6dc1f1671ae8eb6695d9d39443367dfc20e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ef6fef8535e0fb6013e363a23f4736368a66720c
+ms.sourcegitcommit: d91c060913fcb526f9a01dc48e218485daf55b4e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233460"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89562450"
 ---
 # <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Criar uma segmentação e filtro de data relativa no Power BI
 
@@ -108,5 +108,5 @@ As seguintes limitações e considerações aplicam-se atualmente ao filtro e **
 
 ## <a name="next-steps"></a>Próximos passos
 
-- [Utilizar uma segmentação e filtro de data relativa no Power BI](desktop-slicer-filter-date-range.md)
+- [Utilizar uma segmentação e filtro de hora relativa no Power BI](../create-reports/slicer-filter-relative-time.md)
 - [Segmentação de Dados no Power BI](power-bi-visualization-slicers.md)
