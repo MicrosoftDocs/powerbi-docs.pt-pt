@@ -1,6 +1,6 @@
 ---
-title: Utilizar o SAP HANA no Power BI Desktop
-description: Utilizar o SAP HANA no Power BI Desktop
+title: Utilizar o SAP HANA no Power BI
+description: Utilizar o SAP HANA no Power BI
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
@@ -10,14 +10,14 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3d78ded05d199676708c0000cab043226a47b166
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 69019abf60f2633bcb764b11c0ac3310911fab62
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222799"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401939"
 ---
-# <a name="connect-to-sap-hana-databases-in-power-bi-desktop"></a>Ligar às bases de dados SAP HANA no Power BI Desktop
+# <a name="connect-to-sap-hana-databases-in-power-bi"></a>Ligar às bases de dados do SAP HANA no Power BI
 
 Com o Power BI Desktop, agora pode aceder a bases de dados do *SAP HANA*. Para utilizar o SAP HANA, tem de ter o controlador ODBC do SAP HANA instalado no computador de cliente local para que a ligação de dados do SAP HANA ao Power BI Desktop funcione corretamente. Pode transferir as ferramentas de Cliente SAP HANA nas [Ferramentas de Desenvolvimento SAP](https://tools.hana.ondemand.com/#hanatools), que contêm o controlador ODBC necessário. Em alternativa, pode obtê-las no [Centro de Transferências de Software SAP](https://support.sap.com/en/my-support/software-downloads.html). No portal de Software, procure os *SAP HANA CLIENT* para computadores Windows. Visto que o Centro de Transferências de Software SAP muda a sua estrutura com frequência, não estão disponíveis orientações mais específicas para navegar no site.
 
@@ -61,12 +61,13 @@ Também há algumas limitações com a utilização do SAP HANA, conforme aprese
 * SMALLDECIMAL não é suportado.
 * VARBINARY não é suportado.
 * As Datas Válidas estão entre 30/12/1899 e 31/12/9999.
+* A atualização do SAP HANA com o SSO não é atualmente suportada para atualizações de livros do Excel. Para atualizar os dados no Power BI, pode utilizar um relatório do Power BI com o SSO SAP HANA.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Para obter mais informações sobre o DirectQuery e o SAP HANA, veja os seguintes recursos:
 
 * [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)
 * [Utilizar o DirectQuery no Power BI](desktop-directquery-about.md)
-* [Origens de dados do Power BI](power-bi-data-sources.md)
-* [Enable encryption for SAP HANA](desktop-sap-hana-encryption.md) (Ativar encriptação para o SAP HANA)
+* [Origens de dados do Power BI](power-bi-data-sources.md)
+* [Enable encryption for SAP HANA (Ativar encriptação para o SAP HANA)](desktop-sap-hana-encryption.md)

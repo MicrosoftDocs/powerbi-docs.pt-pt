@@ -5,15 +5,15 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 07/24/2020
+ms.date: 09/04/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 6a2fa7aca043c553c9174db81ff575853e526e06
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: b4b73b71a944fbb34d53be05cacc39c18e4226de
+ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87260237"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89512797"
 ---
 |Funcionalidade   | Administrador  | Membro  | Contribuidor  | Visualizador |
 |---|---|---|---|---|
@@ -36,7 +36,7 @@ ms.locfileid: "87260237"
 | Ver e interagir com um item.<sup>5</sup> |  ![Marca de verificação Sim](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificação Sim](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Marca de verificação Sim](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Marca de verificação Sim](media/power-bi-workspace-roles-table/green-checkmark.png)  |
 | Ler dados armazenados nos fluxos de dados da área de trabalho | ![Marca de verificação Sim](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificação Sim](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificação Sim](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Marca de verificação Sim](media/power-bi-workspace-roles-table/green-checkmark.png) |
 
-<sup>1</sup> Os Contribuidores poderão atualizar os metadados da aplicação, mas não poderão publicar uma nova aplicação ou alterar quem tem permissão para a aplicação, se o [Administrador da área de trabalho delegar esta permissão aos Contribuidores](../collaborate-share/service-create-the-new-workspaces.md#security-settings).
+<sup>1</sup> Os contribuidores podem [atualizar a aplicação associada à área de trabalho](../collaborate-share/service-create-the-new-workspaces.md#allow-contributors-to-update-the-app), se o Administrador da área de trabalho lhes delegar esta permissão. No entanto, não podem publicar uma nova aplicação nem alterar quem tem permissão para a mesma.
 
 <sup>2</sup> Os Contribuidores e Visualizadores também poderão partilhar itens numa área de trabalho se tiverem Permissões para voltar a partilhar.
 
