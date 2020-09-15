@@ -12,27 +12,27 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 03/31/2020
-  ms.openlocfilehash: d293b27b65e3997b895d3fd10d69292db661bc3b
-  ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+  ms.date: 09/09/2020
+  ms.openlocfilehash: f1334267e0b1698c8105115e821d8eccb69c1b00
+  ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 07/28/2020
-  ms.locfileid: "87364037"
+  ms.lasthandoff: 09/10/2020
+  ms.locfileid: "90008612"
 highlightedContent:
   items:
-  - title: Criar um relatório COVID-19 com dados dos EUA
-    itemType: sample
-    url: create-reports/sample-covid-19-us.md
   - title: Introdução ao Power BI Desktop
     itemType: get-started
     url: fundamentals/desktop-getting-started.md
-  - title: Inscreva-se no serviço do Power BI
-    itemType: how-to-guide
-    url: fundamentals/service-self-service-signup-for-power-bi.md
-  - title: Formas de colaborar e partilhar
+  - title: Colaborar com o Power BI no Microsoft Teams
     itemType: concept
-    url: collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md
+    url: collaborate-share/service-collaborate-microsoft-teams.md
+  - title: Incorporar conteúdos do Power BI numa aplicação
+    itemType: tutorial
+    url: developer/embedded/embed-sample-for-customers.md
+  - title: Power BI no Microsoft Learn
+    itemType: learn
+    url: https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link
 conceptualContent:
   items:
   - title: 'Power BI: Introdução'
@@ -40,12 +40,12 @@ conceptualContent:
     - url: fundamentals/power-bi-overview.md
       itemType: overview
       text: O que é Power BI?
-    - url: fundamentals/desktop-what-is-desktop.md
-      itemType: overview
-      text: O que é o Power BI Desktop?
     - url: fundamentals/power-bi-overview.md
       itemType: overview
       text: O que é o serviço Power BI?
+    - url: fundamentals/service-self-service-signup-for-power-bi.md
+      itemType: overview
+      text: Inscreva-se no serviço do Power BI
     footerLink:
       url: fundamentals/index.yml
       text: Ver mais
@@ -71,9 +71,9 @@ conceptualContent:
     - url: admin/service-admin-licensing-organization.md
       itemType: concept
       text: Licenciamento na sua organização
-    - url: admin/service-admin-portal.md
+    - url: admin/service-premium-what-is.md
       itemType: concept
-      text: O portal de administração
+      text: O que é o Power BI Premium?
     footerLink:
       url: admin/index.yml
       text: Ver mais
@@ -107,9 +107,9 @@ conceptualContent:
       text: Ver mais
   - title: Transform and shape data (Transformar e formatar dados)
     links:
-    - url: transform-model/desktop-analytics-pane.md
-      itemType: how-to-guide
-      text: Utilizar o painel Análise
+    - url: transform-model/desktop-query-overview.md
+      itemType: overview
+      text: Query Editor overview (Descrição geral do Editor de Consultas)
     - url: transform-model/desktop-common-query-tasks.md
       itemType: concept
       text: Tarefas de consulta comuns
@@ -135,9 +135,9 @@ conceptualContent:
       text: Ver mais
   - title: Criar relatórios e dashboards
     links:
-    - url: create-reports/desktop-report-themes.md
-      itemType: concept
-      text: Temas de relatório
+    - url: create-reports/sample-covid-19-us.md
+      itemType: sample
+      text: Criar relatório COVID-19 com dados dos EUA
     - url: paginated-reports/paginated-reports-report-builder-power-bi.md
       itemType: concept
       text: O que são relatórios paginados?
