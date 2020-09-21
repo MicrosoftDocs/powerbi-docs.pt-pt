@@ -7,15 +7,15 @@ featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/09/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d474313dd624407fbeecc595a3dad2b416752855
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 7ab2500a393751c3013c1f3427173b57b3b5cf07
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216125"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642716"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Apresentar conteúdo mais detalhadamente: modo de detalhe e modo de ecrã inteiro
 
@@ -25,7 +25,7 @@ ms.locfileid: "86216125"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
-O modo de detalhe e o modo de ecrã inteiro são duas formas diferentes de ver mais detalhes nos elementos visuais, relatórios e dashboards.  A principal diferença é que esse ecrã inteiro remove todos os painéis que envolvem o conteúdo enquanto o modo de detalhe permite ainda interagir com os elementos visuais. Vamos ver mais atentamente as semelhanças e as diferenças.  
+O modo de detalhe e o modo de ecrã inteiro são duas formas diferentes de ver mais detalhes nos elementos visuais, relatórios e dashboards.  A principal diferença entre os dois é que esse ecrã inteiro remove todos os painéis que envolvem o conteúdo enquanto o modo de detalhe permite ainda interagir com os elementos visuais. Vamos ver mais atentamente as semelhanças e as diferenças.  
 
 |Conteúdo    | Modo de detalhe  |Modo de ecrã inteiro  |
 |---------|---------|----------------------|
@@ -35,7 +35,11 @@ O modo de detalhe e o modo de ecrã inteiro são duas formas diferentes de ver m
 |Mosaico do dashboard | sim    | Não é possível |
 |Windows 10 mobile | Não é possível | Sim |
 
-## <a name="what-is-full-screen-mode"></a>O que é o modo de ecrã inteiro?
+Neste exemplo abaixo, começámos com um relatório (1), abrimos um dos elementos visuais no modo de detalhe (2) e, em seguida, abrimos esse mesmo elemento visual em modo de ecrã inteiro (3). 
+
+![Captura de ecrã a mostrar três vistas de relatórios](media/end-user-focus/power-bi-reports.png)
+
+## <a name="when-to-use-full-screen-mode"></a>Quando utilizar o modo de ecrã inteiro
 
 ![dashboard no modo de ecrã inteiro, antes e depois](media/end-user-focus/power-bi-dashboards-focus.png)
 
@@ -50,13 +54,13 @@ Alguns usos do modo de ecrã inteiro:
 * ver num ecrã pequeno
 * rever no modo bloqueado: pode tocar no ecrã ou passar o cursor sobre os mosaicos sem abrir o relatório ou dashboard subjacente
 
-## <a name="what-is-focus-mode"></a>O que é o modo de detalhe?
+## <a name="when-to-use-focus-mode"></a>Quando devemos utilizar o modo de detalhe?
 
 O ***Modo de detalhe*** permite-lhe expandir (destacar) um elemento visual ou um mosaico para ver mais detalhes.  Talvez tenha um dashboard ou relatório que esteja algo cheio e queira ampliar apenas um elemento visual.  Esta é uma utilização perfeita do modo de detalhe.  
 
 ![modo de detalhe em mosaico de dashboard, antes e depois](media/end-user-focus/power-bi-compare-dash.png)
 
-No modo de detalhe, um *consumidor* do Power BI pode interagir com quaisquer filtros que tenham sido aplicados quando o elemento visual foi criado.  No serviço Power BI, pode utilizar o modo de detalhe num mosaico do dashboard ou num elemento visual do relatório.
+No modo de detalhe, um *utilizador comercial* do Power BI pode interagir com quaisquer filtros que tenham sido aplicados quando o elemento visual foi criado.  No serviço Power BI, pode utilizar o modo de detalhe num mosaico do dashboard ou num elemento visual do relatório.
 
 ## <a name="working-in-full-screen-mode"></a>Trabalhar no modo de ecrã inteiro
 
@@ -72,29 +76,20 @@ O modo de ecrã inteiro está disponível para dashboards, páginas de relatóri
 - Para ver um elemento visual em modo de ecrã inteiro, abra-o primeiro em modo de detalhe e, em seguida, selecione **Ver** > **Ecrã inteiro**.  
 
 
-O conteúdo selecionado ocupa o ecrã inteiro.    Assim que estiver no modo de ecrã inteiro, mover o rato ou cursor apresenta um menu contextual. Como o ecrã inteiro está disponível para uma grande variedade de conteúdos, as opções do menu contextual são todas um pouco diferentes, mas bastante explícitas.  Basta pairar o cursor sobre um ícone para obter uma definição.
+O conteúdo selecionado ocupa o ecrã inteiro. Quando estiver em modo de ecrã inteiro, navegue através das barras do menu na parte superior e inferior (relatórios) ou através do menu que é apresentado quando move o cursor (dashboards e elementos visuais). Uma vez que o ecrã inteiro está disponível para uma seleção de conteúdos tão vasta, as opções de navegação variam.   
 
-Menu para dashboards    
-![Menu para dashboards](media/end-user-focus/power-bi-full-screen-dash.png)    
 
-Menu para páginas de relatórios e elementos visuais de relatórios    
-![Menu para relatórios](media/end-user-focus/power-bi-report-full-screen.png)    
-
-  * ![Ícone Voltar](media/end-user-focus/power-bi-back-icon.png)    
-  Utilize o botão **Voltar** para navegar para a página anterior no seu browser. Se a página anterior era uma página do Power BI, esta também será apresentada no modo de ecrã inteiro.  O modo de ecrã inteiro continuará ativo até sair.
-
-  * ![Ícone Imprimir](media/end-user-focus/power-bi-print-icon.png)    
-  Utilize este botão para imprimir o dashboard ou a página de relatório no modo de ecrã inteiro.
+  * Selecione o botão **Anterior**, **Voltar** ou **Voltar ao relatório** para navegar para a página anterior no seu browser. Se a página anterior era uma página do Power BI, esta também será apresentada no modo de ecrã inteiro.  O modo de ecrã inteiro continuará ativo até sair.
 
   * ![Ícone Ajustar ao ecrã](media/end-user-focus/power-bi-fit-to-screen-icon.png)    
     Utilize o botão **Ajustar ao ecrã** para mostrar o seu dashboard no maior tamanho possível sem incluir barras de deslocamento.  
 
-    ![Ajustar ao ecrã](media/end-user-focus/power-bi-fit-screen.png)
+    ![Captura de ecrã a mostrar a forma como a opção Ajustar ao ecrã aparece](media/end-user-focus/power-bi-fit-screen.png)
 
   * ![Ícone Ajustar à largura](media/end-user-focus/power-bi-fit-width.png)       
     Há alturas em que não se quer ter barras de deslocamento, mas procura-se fazer com que o dashboard preencha toda a largura do espaço disponível. Selecione o botão **Ajustar à largura**.    
 
-    ![Ícone Ajustar ao ecrã](media/end-user-focus/power-bi-fit-to-width-new.png)
+    ![Captura de ecrã a mostrar como a opção Ajustar à largura altera a aparência da tela. ](media/end-user-focus/power-bi-fit-to-width-new.png)
 
   * ![Ícone de navegação de relatórios](media/end-user-focus/power-bi-report-nav2.png)       
     Nos relatórios no modo de ecrã inteiro, utilize estas setas para se deslocar entre as páginas do relatório.    
@@ -109,38 +104,36 @@ O modo de detalhe está disponível para dashboards, mosaicos e elementos visuai
 
 - Para abrir um mosaico de dashboard em modo de detalhe, paire o cursor sobre um mosaico do dashboard ou sobre um elemento visual do relatório, selecione **Mais opções** (…) e selecione **Abrir no modo de detalhe**.
 
-    ![menu de reticências do mosaico](media/end-user-focus/power-bi-dashboard-focus.png)... 
+    ![menu de reticências do mosaico](media/end-user-focus/power-bi-focus-dashboard.png).. 
 
-- Para abrir um elemento visual de relatório em modo de detalhe, paire o cursor sobre o elemento visual e selecione o ícone de **modo de detalhe** ![ícone de modo de detalhe](media/end-user-focus/pbi_popout.jpg).  
+- Para abrir um elemento visual de relatório em modo de detalhe, paire o cursor sobre o elemento visual e selecione o ícone de **modo de detalhe**![ícone de modo de detalhe](media/end-user-focus/pbi_popout.jpg).  
 
-   ![ícone de detalhe a ser apresentado num mosaico](media/end-user-focus/power-bi-hover-focus-icon.png)
-
-
-
-O elemento visual é aberto e ocupa toda a tela. Repare que continuará a poder utilizar o painel **Filtros** para interagir com o elemento visual. O painel **Filtros** e o painel de navegação podem ser reduzidos.
-
-   ![mosaico a ocupar a tela do relatório](media/end-user-focus/power-bi-focus-filter.png)
+   ![ícone de detalhe a ser apresentado num mosaico](media/end-user-focus/power-bi-hover-focus.png)
 
 
-   ![mosaico a ocupar a tela de relatório e ambos os menus reduzidos](media/end-user-focus/power-bi-menu-collapse.png)  
 
-Explore mais ao [modificar os filtros](end-user-report-filter.md) e ao procurar novidades interessantes nos seus dados.  
+O elemento visual é aberto e ocupa toda a tela. Repare que continuará a poder utilizar o painel **Filtros** para interagir com o elemento visual. O painel **Filtros** pode ser fechado.
 
-Explore os dados em busca de novas informações e respostas a perguntas. Enquanto *consumidor*, não pode adicionar novos filtros, alterar os campos utilizados nos elementos visuais nem criar novos elementos visuais.  No entanto, pode interagir com os filtros existentes. 
+   ![mosaico a ocupar a tela do relatório](media/end-user-focus/power-bi-filter.png)
+
+
+   ![mosaico a ocupar a tela de relatório e ambos os menus reduzidos](media/end-user-focus/power-bi-filter-collapse.png)  
+
+Explore mais ao [modificar os filtros](end-user-report-filter.md) e ao procurar novidades interessantes nos seus dados. Enquanto *utilizador comercial*, não pode adicionar novos filtros, alterar os campos utilizados nos elementos visuais nem criar novos elementos visuais.  No entanto, pode interagir com os filtros existentes. 
 
 No caso de mosaicos de dashboard, as suas alterações não podem ser guardadas. No caso de elementos visuais de relatórios, todas as alterações feitas nos filtros existentes são guardadas quando sair do Power BI. Se não quiser que o Power BI se lembre das suas modificações, selecione **Repor para predefinição**. ![botão reverter para predefinição](media/end-user-focus/power-bi-resets.png)  
 
-Saia do modo de detalhe e regresse ao dashboard ao selecionar **Sair do modo de detalhe** ou **Voltar ao relatório** (no canto superior esquerdo do elemento visual).
+Saia do modo de detalhe e regresse ao dashboard ou relatório ao selecionar **Sair do modo de detalhe** ou **Voltar ao relatório** (no canto superior esquerdo do elemento visual).
 
-![sair do modo de detalhe](media/end-user-focus/power-bi-exit.png)    
+![Botão sair do modo de detalhe](media/end-user-focus/power-bi-exit.png)    
 
-![sair do modo de detalhe](media/end-user-focus/power-bi-back-to-report.png)  
+![Ícone Voltar ao relatório](media/end-user-focus/power-bi-back-to-report.png)  
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 
 * Ao utilizar o modo de detalhe com um elemento visual num relatório, poderá ver e interagir com todos os filtros: ao nível do Elemento Visual, da Página, da Pormenorização e do Relatório.    
 * Ao utilizar o modo de detalhe com um elemento visual num dashboard, poderá ver e interagir apenas com o filtro ao nível do Elemento Visual.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 [Definições de vista dos relatórios](end-user-report-view.md)

@@ -5,14 +5,14 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/21/2020
+ms.date: 09/09/2020
 ms.author: maggies
-ms.openlocfilehash: eebb40d81e9b59b545b30ce55dbf4a362b826455
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 7b02e1b1fb49eb1c43b12d204250eabec8eafe91
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937591"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642349"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Limitações das Perguntas e Respostas do Power BI
 
@@ -31,12 +31,17 @@ A funcionalidade Perguntas e Respostas do Power BI suporta as seguintes configur
 
 Em cada uma destas configurações, também é suportada segurança ao nível da linha.
 
+**Suporte do DirectQuery para a funcionalidade Perguntas e Respostas** (pré-visualização)
+
+A funcionalidade Perguntas e Respostas agora suporta origens do DirectQuery do SQL, incluindo o SQL Server 2019, a Base de Dados SQL do Azure e o Azure Synapse Analytics. Pode utilizar a funcionalidade Perguntas e Respostas para efetuar perguntas sobre linguagem natural nestas origens de dados. Existe uma pequena alteração no comportamento da funcionalidade Perguntas e Respostas quando está no modo DirectQuery: Após escrever a sua pergunta, seleciona o botão **Submeter**. Esta alteração evita a sobrecarga da origem do DirectQuery com consultas desnecessárias à medida que escreve.
+
+Outras origens do DirectQuery não são suportadas na funcionalidade Perguntas e Respostas. Não bloqueamos a funcionalidade Perguntas e Respostas se tiver outras origens do DirectQuery no seu conjunto de dados, mas algumas perguntas poderão não ser respondidas corretamente ou devolver erros.
+
 ### <a name="data-sources-not-supported"></a>Origens de dados não suportadas
 
 A funcionalidade Perguntas e Respostas do Power BI não suporta atualmente as seguintes configurações:
 
 - Segurança ao nível do objeto com qualquer tipo de origem de dados
-- O DirectQuery com qualquer origem. Uma alternativa é utilizar a Ligação em direto com o Azure Analysis Services, que utiliza o DirectQuery.
 - Modelos compostos
 - Reporting Services 
 

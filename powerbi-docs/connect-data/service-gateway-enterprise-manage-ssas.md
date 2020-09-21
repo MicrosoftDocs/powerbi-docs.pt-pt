@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2921ea9ff0e5e1fa6bc12c0ecd5dd047b703a937
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c97a303a5b3241f49e82aac41d9ed7984c3a5af1
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237623"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642305"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gerir a sua origem de dados – Analysis Services
 
@@ -36,7 +36,7 @@ Para obter informações sobre como adicionar uma origem de dados, veja [Adicion
 Preencha as informações sobre a origem de dados, que incluem o **Servidor** e a **Base de Dados**. As informações que introduzir em **Nome de Utilizador** e **Palavra-passe** serão utilizadas pelo gateway para ligar à instância do Analysis Services.
 
 > [!NOTE]
-> A conta do Windows inserida deve ter permissões de Administrador do Servidor para a instância à qual está a ligar. Se a palavra-passe desta conta estiver configurada para expirar, os utilizadores poderão receber um erro de ligação se a palavra-passe não estiver atualizada para a origem de dados. Para saber mais sobre a forma como as credenciais são armazenadas, veja [Armazenar credenciais encriptadas na cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
+> A conta Windows que introduzir tem de ser membro da função de Administrador do Servidor na instância do Analysis Services. Se a palavra-passe desta conta estiver configurada para expirar, os utilizadores poderão receber um erro de ligação se a palavra-passe não estiver atualizada para a origem de dados. Para saber mais sobre a forma como as credenciais são armazenadas, veja [Armazenar credenciais encriptadas na cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Preenchimento das definições de origem de dados](media/service-gateway-enterprise-manage-ssas/datasourcesettings3-ssas.png)
 

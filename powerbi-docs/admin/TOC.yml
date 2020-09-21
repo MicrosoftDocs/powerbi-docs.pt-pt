@@ -80,7 +80,9 @@
           href: desktop-admin-sign-in-form.md
         - name: Proteção de dados
           items:
-            - name: Etiquetas de confidencialidade no Power BI
+            - name: Proteção de dados no Power BI
+              href: service-security-data-protection-overview.md
+            - name: Descrição geral das etiquetas de confidencialidade
               href: service-security-sensitivity-label-overview.md
             - name: Enable sensitivity labeling (Ativar etiquetas de confidencialidade)
               href: service-security-enable-data-sensitivity-labels.md

@@ -10,12 +10,12 @@ ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e819902328f49ab06a65869066ab2b2dabce6610
-ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
+ms.openlocfilehash: f6527b326c2c779dda5a6d4b1c1276c84d3ec320
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89490462"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642801"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -253,21 +253,9 @@ Quando estiver ativada, os Grupos do Office 365 criados recentemente não serão
 
 ### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>Permitir que utilizadores convidados do Azure Active Directory acedam ao Power BI
 
-Ao ativar esta definição, permite que os utilizadores do Azure AD B2B (Azure Active Directory Business-to-Business) acedam ao Power BI. Ao desativar esta definição, os utilizadores convidados veem um erro ao tentar aceder ao Power BI. Ao desativar esta definição para toda a organização, também impede os utilizadores de convidarem membros para a sua organização e de atribuírem permissões a utilizadores convidados individuais. Utilize a opção de grupos de segurança específicos para controlar que utilizadores convidados podem aceder ao Power BI.
+Ao ativar esta definição, permite que os utilizadores do Azure AD B2B (Azure Active Directory Business-to-Business) acedam ao Power BI. Ao desativar esta definição, os utilizadores convidados veem um erro ao tentar aceder ao Power BI. Quando desativa esta definição para toda a organização, também está a impedir que os utilizadores convidem pessoas para a sua organização. Utilize a opção de grupos de segurança específicos para controlar que utilizadores convidados podem aceder ao Power BI.
 
 ![Permitir que os utilizadores convidados do Azure Active Directory acedam ao Power BI](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
-
-### <a name="allow-giving-permissions-to-existing-azure-active-directory-guest-users"></a>Permitir a atribuição de permissões a utilizadores convidados existentes do Azure Active Directory
-
-Quando ativada, os utilizadores na sua organização podem conceder permissões a utilizadores convidados individuais através de permissões ou partilhar experiências no Power BI. Quando desativada para um utilizador, o mesmo não pode atribuir permissões nem convidar utilizadores para o Power BI.
-
-![Permitir a atribuição de permissões a utilizadores convidados existentes do Azure Active Directory](media/service-admin-portal/powerbi-admin-allow-grant-access-to-aad-b2b-guests.png)
-
-
-> [!IMPORTANT]
->  Esta definição não impede a atribuição de permissões a utilizadores convidados em todos os casos. A definição só impede a atribuição de acesso a utilizadores convidados individuais. Ainda é possível conceder acesso aos utilizadores convidados através de um grupo de utilizadores, como um grupo de segurança, Grupos do Office 365 ou listas de distribuição. 
-
-Quando um utilizador que não pode atribuir permissões a utilizadores convidados o tentar fazer, verá uma mensagem de erro na IU. Ao alterar permissões num item, os utilizadores que não podem atribuir permissões a convidados têm de remover os utilizadores convidados da lista de acesso antes de poderem conceder ou alterar permissões para o item. 
 
 ### <a name="invite-external-users-to-your-organization"></a>Convidar utilizadores externos para a sua organização 
 
@@ -279,8 +267,6 @@ A definição **Convidar utilizadores externos para a sua organização** ajuda 
 > Esta definição chamava-se anteriormente "Partilhar conteúdos com utilizadores externos". O novo nome reflete com mais precisão o que a definição faz.
 
 Para convidar utilizadores externos para a sua organização, um utilizador também precisa da função Emitente de Convites do Azure Active Directory. Esta definição só controla a capacidade de convidar através do Power BI. 
-
-Quando a definição **Permitir a atribuição de permissões a utilizadores convidados existentes do Azure Active Directory** está desativada para um utilizador, também não é possível convidar utilizadores externos para a sua organização através do Power BI.
 
 ### <a name="publish-to-web"></a>Publicar na Web
 

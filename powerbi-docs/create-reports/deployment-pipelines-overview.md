@@ -6,19 +6,19 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: 5522d84cab235270a2eb368be02cfa0fb4e5eaa9
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.date: 09/09/2020
+ms.openlocfilehash: 3994a5cdad4d80c87d4153ffe57af685d7a21d36
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557147"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008589"
 ---
 # <a name="introduction-to-deployment-pipelines-preview"></a>Introdução aos pipelines de implementação (pré-visualização)
 
 No mundo de hoje, a análise é uma parte vital da tomada de decisão em quase todas as organizações. A utilização crescente do Power BI como ferramenta de análise requer a utilização de mais dados, que seja apelativo e fácil de utilizar. Acima de tudo, o Power BI precisa de estar sempre disponível e ser fiável. Para satisfazer estes requisitos, os criadores do BI devem colaborar de forma eficaz.
 
-Os pipelines de implementação são uma ferramenta eficiente e reutilizável que permite aos criadores do BI numa empresa com capacidade Premium gerirem o ciclo de vida dos conteúdos organizacionais. Gestão essa que permite desenvolver e testar conteúdos do Power BI, como relatórios, dashboards e conjuntos de dados, antes de serem consumidos pelos utilizadores finais.
+A ferramenta de pipelines de implementação permite aos criadores do BI gerir o ciclo de vida dos conteúdos organizacionais. A ferramenta é eficiente e reutilizável para os criadores numa empresa com capacidade Premium. A ferramenta permite aos criadores desenvolver e testar conteúdos do Power BI, antes de os conteúdos serem consumidos pelos utilizadores. Os tipos de conteúdo incluem relatórios, dashboards e conjuntos de dados.
 
 A ferramenta foi concebida como um pipeline com três fases:
 
@@ -28,7 +28,7 @@ A ferramenta foi concebida como um pipeline com três fases:
 
 * **<a name="test"></a>Teste**
 
-    Depois de carregar o conteúdo e de todas as alterações serem feitas na fase de desenvolvimento, o conteúdo pode ser movido para esta fase para testes. Veja a seguir três exemplos do que pode ser feito no ambiente de teste:
+    Está pronto para entrar na fase de teste, após ter feito todas as alterações aos seus conteúdos. Basta carregar os conteúdos modificados para que possam ser movidos para esta fase de teste. Eis três exemplos daquilo que pode ser feito no ambiente de teste:
 
     * Partilhar conteúdo com técnicos de teste e revisores
 

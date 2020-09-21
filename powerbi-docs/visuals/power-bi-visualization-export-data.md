@@ -11,11 +11,12 @@ ms.topic: how-to
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f4d1bb58093ed3c78330370d5a44a3f98ee4aae7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1593cecf448b193ce2186be041da771bb8d6a09c
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238956"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008934"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Exportar os dados que foram utilizados para criar uma visualização
 
@@ -267,7 +268,9 @@ Estas limitações e considerações aplicam-se ao Power BI Desktop e ao servi�
   
   1. Aceda à pasta local onde o ficheiro está armazenado e selecione o *.csv*.
 
-- Ao exportar para *.csv*, determinados carateres terão um **'** à esquerda.
+- Ao exportar para *.cvs*, determinados carateres terão um **'** à esquerda para impedir a execução do script quando for aberto no Excel. Isto acontece quando:
+  - A coluna é definida como tipo "Texto" no modelo de dados, **_e_**
+  - O primeiro caráter do texto é um dos seguintes: **=, @, +, -**
 
 - Os administradores do Power BI têm a capacidade de desativar a exportação de dados.
 

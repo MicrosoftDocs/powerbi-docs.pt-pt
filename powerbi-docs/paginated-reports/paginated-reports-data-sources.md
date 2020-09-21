@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: fda04d3241db68f1ca8da66d999bfca6cef9e8cf
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: cdce9ead296a25aad95ab504d6da38f06f681b72
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937453"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008635"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Origens de dados suportadas para relatórios paginados do Power BI
 
@@ -29,7 +29,7 @@ Os relatórios paginados suportam nativamente a seguinte lista de origens de dad
 | Instância Gerida do SQL do Azure | Básico | através de um Ponto Final Público ou Privado (o Ponto Final Privado tem de ser encaminhado através do Gateway de Empresa)  |
 | Azure Analysis Services | SSO, OAuth2 | A firewall AAS deve ser desativada ou configurada para permitir todos os intervalos de IP na região BlackForest. Isto aplica-se apenas à região BlackForest.  O SSO de um inquilino externo não é suportado. |
 | Conjunto de dados do Power BI | SSO | Conjuntos de dados do Power BI Premium e não Premium Requer permissão de leitura |
-| Conjunto de dados do Power BI Premium (XMLA) | SSO | Os conjuntos de dados do Power BI não são suportados como origens de dados para relatórios paginados incorporados.  |
+| Conjunto de dados do Power BI Premium (XMLA) | SSO | As bases de dados do Power BI não são suportadas como uma origem de dados para relatórios paginados incorporados em cenários de "os dados pertencem à aplicação".  Para garantir uma conectividade adequada no Power BI Report Builder, certifique-se de que a opção "Não utilizar credenciais" está selecionada ao definir a sua origem de dados.   |
 | Introduzir Dados | N/D | Os dados são incorporados no relatório. |
 
 Exceto no caso da Base de Dados SQL do Azure, todas as origens de dados estão prontas a utilizar depois de carregar o relatório para o serviço Power BI. A predefinição das origens de dados é a utilização do início de sessão único (SSO), quando aplicável. No caso do Azure Analysis Services, pode alterar o tipo de autenticação para OAuth2. No entanto, uma vez alterado o tipo de autenticação de uma determinada origem de dados para OAuth2, não é possível voltar a utilizar o SSO.  Além disso, esta alteração aplica-se a todos os relatórios que utilizam essa origem de dados em todas as áreas de trabalho de um determinado inquilino.  A segurança ao nível da linha em relatórios paginados não funcionará a não ser que os utilizadores escolham o SSO como o tipo de autenticação.

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/05/2020
+ms.date: 09/09/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: ef6fef8535e0fb6013e363a23f4736368a66720c
-ms.sourcegitcommit: d91c060913fcb526f9a01dc48e218485daf55b4e
+ms.openlocfilehash: 26e638e106f7bd11544d1d80dae543f06783bda7
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89562450"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008888"
 ---
 # <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Criar uma segmentação e filtro de data relativa no Power BI
 
@@ -45,9 +45,7 @@ Na primeira definição, na *segmentação de data relativa*, tem as seguintes o
 ![Captura de ecrã a mostrar as opções de configuração de Relativo com a primeira definição destacada.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
 * Último
-
 * Seguinte
-
 * Este
 
 A segunda definição (intermédia) na *segmentação de data relativa* permite introduzir um número para definir o intervalo de datas relativas.
@@ -59,26 +57,19 @@ A terceira definição permite escolher a medida de data. Tem as seguinte opçõ
 ![Captura de ecrã a mostrar as opções de configuração de Relativos com a terceira definição destacada.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
 * Dias
-
 * Semanas
-
 * Semanas (Calendário)
-
 * Meses
-
 * Meses (Calendário)
-
 * Anos
-
 * Anos (Calendário)
 
 Nessa lista, se selecionar **Meses** e introduzir *2* na definição intermédia, eis o que ocorre:
 
-* se hoje for dia 20 de julho
+* Se hoje for 20 de julho:
 
-* os dados incluídos nos elementos visuais restringidos pela segmentação irão incluir os dados dos dois meses anteriores
-
-* a partir do dia 21 de maio até dia 20 de julho (hoje)
+    - os dados incluídos nos elementos visuais restringidos pela segmentação irão incluir os dados dos dois meses anteriores.
+    - A partir do dia 21 de maio até dia 20 de julho (hoje).
 
 Em comparação, se selecionar *Meses (Calendário)* , os elementos visuais restringidos mostram os dados de 1 de maio até 30 de junho (os últimos dois meses de calendário completos).
 
@@ -100,10 +91,9 @@ Após selecionar **Filtragem de data relativa**, verá três secções para alte
 
 As seguintes limitações e considerações aplicam-se atualmente ao filtro e **segmentação de intervalo de datas relativas**.
 
+* O tipo de dados para o campo na segmentação de dados tem de ser uma data e não a predefinição de texto. Caso contrário, as opções relativas não aparecem na segmentação de dados.
 * Os modelos de dados do **Power BI** não incluem informações sobre o fuso horário. Os modelos podem armazenar horas, mas não existe nenhuma indicação do fuso horário em que estão.
-
 * A segmentação de dados e o filtro estão sempre baseados na hora UTC. Se configurar um filtro num relatório e o enviar para um colega num fuso horário diferente, ambos verão os mesmos dados. A menos que estejam no fuso horário UTC, ambos devem ter em conta a diferença horária que experienciam.
-
 * Pode converter dados capturados de um fuso horário local em UTC com o **Editor do Power Query**.
 
 ## <a name="next-steps"></a>Próximos passos
