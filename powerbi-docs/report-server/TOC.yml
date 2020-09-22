@@ -5,7 +5,7 @@
     - name: Descrição geral
       expanded: true
       items:
-        - name: O que é o Power BI Report Server?
+        - name: "O que é o Power\_BI Report Server?"
           href: get-started.md
         - name: Comparar o Power BI Report Server e o serviço
           href: compare-report-server-service.md
@@ -21,7 +21,7 @@
           href: whats-new.md
         - name: Descrição geral para administradores
           href: admin-handbook-overview.md
-        - name: Change log (Registo de alterações)
+        - name: Change log
           href: changelog.md
         - name: Linha cronológica de suporte
           href: support-timeline.md
@@ -40,9 +40,9 @@
             - name: Origens de dados de relatórios paginados
               href: connect-data-sources.md
             - name: Subscrições
-              href: 'https://go.microsoft.com/fwlink/?linkid=851310'
+              href: /sql/reporting-services/working-with-subscriptions-web-portal
             - name: Utilizar a aplicação móvel
-              href: 'https://go.microsoft.com/fwlink/?linkid=848711'
+              href: ../consumer/mobile/mobile-apps-for-mobile-devices.md
             - name: Troubleshoot scheduled refresh (Resolução de problemas da atualização agendada)
               href: scheduled-refresh-troubleshoot.md
         - name: Servidor de relatórios para programadores
@@ -50,12 +50,12 @@
             - name: Servidor de relatórios para programadores
               href: developer-handbook-overview.md
             - name: Controlo do Report Viewer
-              href: 'https://go.microsoft.com/fwlink/?linkid=848724'
+              href: /sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started
             - name: Develop extensions (Desenvolver extensões)
-              href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+              href: /sql/reporting-services/extensions/reporting-services-extension-library
             - name: Incorporar relatórios
               href: quickstart-embed.md
-    - name: Como
+    - name: Procedimento
       items:
         - name: Install Power BI Desktop (Instalar o Power BI Desktop)
           href: install-powerbi-desktop.md
@@ -74,12 +74,12 @@
             - name: Enter data directly in a paginated report (Introduzir dados diretamente num relatório paginado)
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: Trabalhar com KPIs
-              href: 'https://go.microsoft.com/fwlink/?linkid=849021'
+              href: /sql/reporting-services/working-with-kpis-in-reporting-services
             - name: Aceder a conjuntos de dados partilhados como feeds do OData
               href: access-dataset-odata.md
             - name: Change data source connection strings with PowerShell (Alterar cadeias de ligação de origem de dados com o PowerShell)
               href: connect-data-source-apis.md
-            - name: Configure scheduled refresh (Configurar a atualização agendada)
+            - name: Configurar a atualização agendada
               href: configure-scheduled-refresh.md
             - name: Add comments to a report (Adicionar comentários a um relatório)
               href: add-comments.md
@@ -93,7 +93,7 @@
               href: upgrade.md
             - name: Migrate a report server (Migrar um servidor de relatórios)
               href: migrate-report-server.md
-            - name: Configure Kerberos to use Power BI reports (Configurar o Kerberos para utilizar relatórios do Power BI)
+            - name: Configure o Kerberos para usar relatórios do Power BI
               href: configure-kerberos-powerbi-reports.md
             - name: Configure mobile app access remotely (Configurar o acesso por aplicação móvel remotamente)
               href: configure-powerbi-mobile-apps-remote.md
@@ -102,7 +102,7 @@
             - name: Configure a report server with Azure Application Proxy (Configurar um servidor de relatórios com o Proxy de Aplicações do Azure)
               href: azure-application-proxy.md
             - name: Remote mobile access with Azure AD (Acesso móvel remoto com o Azure AD)
-              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
+              href: /azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi
             - name: Host Excel workbooks (Alojar livros do Excel)
               href: excel-oos.md
     - name: Referência
@@ -110,13 +110,13 @@
         - name: API REST
           href: rest-api.md
         - name: WMI
-          href: 'https://go.microsoft.com/fwlink/?linkid=848719'
+          href: /sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs
         - name: SOAP APIs (APIs do SOAP)
-          href: 'https://go.microsoft.com/fwlink/?linkid=848721'
+          href: /sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework
         - name: URL Access (Acesso por URL)
-          href: 'https://go.microsoft.com/fwlink/?linkid=848722'
+          href: /sql/reporting-services/url-access-ssrs
         - name: Extensões
-          href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+          href: /sql/reporting-services/extensions/reporting-services-extension-library
     - name: Recursos
       items:
         - name: Capacity planning whitepaper (Documentos técnico sobre planeamento de capacidade)

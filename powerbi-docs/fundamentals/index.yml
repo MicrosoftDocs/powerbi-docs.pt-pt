@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/05/2020
-  ms.openlocfilehash: cbe4b08f84dcd4246bceb83933366d1086d27bd0
-  ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+  ms.openlocfilehash: 9d2304816263c151959f6aa00f6aaac91784f85c
+  ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 05/13/2020
-  ms.locfileid: "83348787"
+  ms.lasthandoff: 09/22/2020
+  ms.locfileid: "90861366"
 landingContent:
 - title: O que é Power BI?
   linkLists:
@@ -44,9 +44,9 @@ landingContent:
   - linkListType: learn
     links:
     - text: Criar e utilizar relatórios de análise
-      url: https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/
+      url: /learn/paths/create-use-analytics-reports-power-bi/
     - text: Obter dados com o Power BI Desktop
-      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/?tutorial-step=1
+      url: /learn/modules/get-data-power-bi/?tutorial-step=1
 - title: Licensing
   linkLists:
   - linkListType: concept
