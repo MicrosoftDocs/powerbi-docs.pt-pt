@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 27d74a4333add1feebc3522ce34d0a2bacaa69f7
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 0c1c113f100c3ae1db0902c90833c44788fa7ec6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89512062"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857709"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Controlar as atividades dos utilizadores no Power BI
 
@@ -77,7 +77,7 @@ completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 > Poderá demorar até 24 horas para que todos os eventos sejam apresentados, embora os dados completos sejam normalmente disponibilizados muito mais rapidamente.
 >
 >
-Para saber mais sobre como utilizar a API REST do Power BI, incluindo exemplos de como obter eventos de atividade de auditoria, veja [Administrador – Obter Eventos de Atividade](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents) na documentação de referência da API REST do Power BI.
+Para saber mais sobre como utilizar a API REST do Power BI, incluindo exemplos de como obter eventos de atividade de auditoria, veja [Administrador – Obter Eventos de Atividade](/rest/api/power-bi/admin/getactivityevents) na documentação de referência da API REST do Power BI.
 
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Cmdlet Get-PowerBIActivityEvent
 
@@ -122,7 +122,7 @@ Pode filtrar os dados de auditoria por intervalo de datas, utilizador, dashboard
 
 Tem de cumprir estes requisitos para aceder aos registos de auditoria:
 
-- Para aceder ao registo de auditoria, tem de ser administrador global ou ter a função Registos de Auditoria ou Ver Apenas Registos de Auditoria no Exchange Online. Por predefinição, os grupos de funções de Gestão de Conformidade e Gestão da Organização têm estas funções atribuídas na página **Permissões** do centro de administração do Exchange. Para obter mais informações sobre as funções que podem ver registos de auditoria, veja [Requisitos para pesquisar o registo de auditoria](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log).
+- Para aceder ao registo de auditoria, tem de ser administrador global ou ter a função Registos de Auditoria ou Ver Apenas Registos de Auditoria no Exchange Online. Por predefinição, os grupos de funções de Gestão de Conformidade e Gestão da Organização têm estas funções atribuídas na página **Permissões** do centro de administração do Exchange. Para obter mais informações sobre as funções que podem ver registos de auditoria, veja [Requisitos para pesquisar o registo de auditoria](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log).
 
     Para dar acesso a contas de utilizadores não administradores ao registo de auditoria, adicione esses utilizadores como membros de um daqueles grupos de funções. Se quiser fazê-lo de outra forma, pode criar um grupo de funções personalizado no centro de administração do Exchange, atribuir a função Registos de Auditoria ou Ver Apenas Registos de Auditoria ao mesmo e, depois, adicionar a conta do utilizador não administrador ao grupo novo. Para obter mais informações, veja [Manage role groups in Exchange Online](/Exchange/permissions-exo/role-groups) (Gerir grupos de funções no Exchange Online).
 

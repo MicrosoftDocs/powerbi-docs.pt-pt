@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97bccec3ec0e92ebfcc6b9251cf5c17f176fbed1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5efe83cfa43c6fcb156501774bbaeae79381ab85
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240138"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857732"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Aplicar limites de pontos de dados e estratégias por tipo de elemento visual
 
@@ -41,7 +41,7 @@ Para cada estratégia, existem predefinições com base na forma e no tipo de da
 ## <a name="statistics"></a>Estatísticas
 Certos modelos podem fornecer estatísticas sobre o número de valores de determinadas colunas. Quando essas informações existem, é possível tirar partido delas para proporcionar um melhor equilíbrio entre as várias hierarquias, se um elemento visual não substituir explicitamente o número de valores de uma estratégia.
 
-Para obter mais informações, veja o artigo [Novidades do Analysis Services](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)
+Para obter mais informações, veja o artigo [Novidades do Analysis Services](/sql/analysis-services/what-s-new-in-analysis-services)
 
 ## <a name="dynamic-limits"></a>Limites dinâmicos
 Para além das estratégias mencionadas acima, os elementos visuais com duas hierarquias de colunas de agrupamento (eixo e legenda ou categoria e série) utilizam uma estratégia adicional chamada *limites dinâmicos*.  Os limites dinâmicos foram concebidos para equilibrar melhor os pontos de dados. 
@@ -50,7 +50,7 @@ Os limites dinâmicos oferecem uma melhor seleção de pontos para dados dispers
 
 Os limites dinâmicos são aplicados automaticamente quando o servidor tem a capacidade para tal, conforme indicado abaixo:
 
-* No Power BI Desktop com a versão 2016 ou superior do SSAS no Local para [tirar partido das capacidades de SuperDax do servidor](https://blogs.msdn.microsoft.com/analysisservices/2015/09/02/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3/)
+* No Power BI Desktop com a versão 2016 ou superior do SSAS no Local para [tirar partido das capacidades de SuperDax do servidor](/archive/blogs/analysisservices/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3)
 
 * No serviço Power BI e de Ambiente de Trabalho ao utilizar um modelo importado, a Consulta Direta, a ligação em direto ao serviço ou a ligação em direto a AS PaaS. 
 
@@ -132,7 +132,7 @@ Sem estratégia de redução
 - Valores: virtualização com utilização de Janela de 200 linhas de cada vez
 
 ### <a name="scatter-chart-high-density"></a>Gráfico de dispersão (elevada densidade)
-Veja [Dispersão de elevada densidade](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)
+Veja [Dispersão de elevada densidade](./desktop-high-density-scatter-charts.md)
 
 ### <a name="pie"></a>Circular
 - N.º máximo de pontos: 3500

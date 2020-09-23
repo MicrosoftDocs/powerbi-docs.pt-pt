@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 59f340e6325cf846d1b0453a94a1015b50a987c4
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402008"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965001"
 ---
 # <a name="deploy-to-power-bi"></a>Implementar no Power BI
 
@@ -100,7 +100,7 @@ As principais atividades durante uma implementação na área de trabalho de pro
 - **Definições dos relatórios e dashboards:** atualize e verifique as definições de cada relatório e dashboard. Definições mais importantes:
   - Descrição
   - Pessoa ou grupo contacto
-  - [Etiqueta de confidencialidade](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+  - [Etiqueta de confidencialidade](../admin/service-security-apply-data-sensitivity-labels.md)
   - [Conteúdo em destaque](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)
 - **Subscrições:** se necessário, configure as subscrições de relatórios.
 
@@ -136,7 +136,7 @@ No futuro, os relatórios migrados para o Power BI terão de ser desativados na
 
 ## <a name="monitor-the-solution"></a>Monitorizar a solução
 
-Pode utilizar os eventos do [registo de atividades do Power BI](../admin/service-admin-auditing.md) para entender os padrões de utilização da nova solução (ou do [registo de execução](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view?view=sql-server-ver15) do conteúdo implementado no Power BI Report Server). A análise do registo de atividades pode ajudar a determinar se a utilização real difere das expetativas. Também pode confirmar que a solução tem um suporte adequado.
+Pode utilizar os eventos do [registo de atividades do Power BI](../admin/service-admin-auditing.md) para entender os padrões de utilização da nova solução (ou do [registo de execução](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view) do conteúdo implementado no Power BI Report Server). A análise do registo de atividades pode ajudar a determinar se a utilização real difere das expetativas. Também pode confirmar que a solução tem um suporte adequado.
 
 Veja a seguir algumas perguntas que podem ser respondidas ao examinar o registo de atividades:
 

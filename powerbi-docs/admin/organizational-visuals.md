@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.openlocfilehash: 4b112c3522a35f86f74481a79f3fff919a0e9e33
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: ef981c63aaa1cdececbe03f187d25ee09073f61f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87544841"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857755"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>Manage Power BI visuals admin settings (Gerir as definições de administrador de elementos visuais do Power BI)
 
@@ -64,7 +64,7 @@ Siga as instruções abaixo para permitir aos utilizadores da sua organização 
 
 ![elementos visuais do AppSource ou de um ficheiro](media/organizational-visuals/tenant-settings.png)
 
-As alterações da IU às definições do inquilino aplicam-se apenas ao serviço Power BI. Para permitir aos utilizadores da sua organização carregar ficheiros .pbiviz e adicionar elementos visuais do AppSource ao respetivo painel de visualização no Power BI Desktop, utilize a [Política de Grupo do Azure AD](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy).
+As alterações da IU às definições do inquilino aplicam-se apenas ao serviço Power BI. Para permitir aos utilizadores da sua organização carregar ficheiros .pbiviz e adicionar elementos visuais do AppSource ao respetivo painel de visualização no Power BI Desktop, utilize a [Política de Grupo do Azure AD](/azure/active-directory-domain-services/manage-group-policy).
 
 |Chave  |Nome do valor  |Valor  |
 |---------|---------|---------|
@@ -83,7 +83,7 @@ Quando esta definição estiver ativada, apenas os [elementos visuais do Power B
 
 ![elementos visuais certificados](media/organizational-visuals/certified-visuals.png)
 
-As alterações da IU às definições do inquilino aplicam-se apenas ao serviço Power BI. Para gerir a definição do inquilino dos elementos visuais certificados no Power BI Desktop, utilize a [Política de Grupo do Azure Active Directory](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy).
+As alterações da IU às definições do inquilino aplicam-se apenas ao serviço Power BI. Para gerir a definição do inquilino dos elementos visuais certificados no Power BI Desktop, utilize a [Política de Grupo do Azure Active Directory](/azure/active-directory-domain-services/manage-group-policy).
 
 |Chave  |Nome do valor  |Valor  |
 |---------|---------|---------|
