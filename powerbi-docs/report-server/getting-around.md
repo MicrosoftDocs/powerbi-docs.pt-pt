@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 35cbfd905db3d6d8464add0fe0e67060c41c9d0a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a42ffc2610021ec1f9b77fb5e950253ff8196e61
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239409"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858790"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Gerir conteúdo no portal Web 
 O portal Web do Power BI Report Server é uma localização no local para ver, armazenar e gerir relatórios móveis paginados do Power BI e KPIs.
@@ -63,10 +63,9 @@ O Power BI Report Server disponibiliza um controlo detalhado dos itens que armaz
     ![Selecionar uma propriedade](media/getting-around/report-server-web-portal-manage-properties.png)
 3. Selecione **Aplicar**.
 
-Leia mais sobre [Trabalhar com subscrições no portal Web](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal).
+Leia mais sobre [Trabalhar com subscrições no portal Web](/sql/reporting-services/working-with-subscriptions-web-portal).
 
 ## <a name="next-steps"></a>Próximas etapas
 [O que é o Power BI Report Server?](get-started.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

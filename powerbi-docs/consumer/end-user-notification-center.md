@@ -7,15 +7,15 @@ featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6c500c7bf0548d115bc658cab868b8f415bbda90
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: dda0b61f1b74624f13003f57ffb29d99165f126c
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537970"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763915"
 ---
 # <a name="view-power-bi-notifications"></a>Ver notificações do Power BI
 
@@ -35,13 +35,13 @@ Veja a Margarida a analisar, gerir e responder a notificações. Em seguida, sig
 ## <a name="view-your-notifications"></a>Ver as suas notificações
 1. Quando iniciar sessão no Power BI, quaisquer novas notificações enviadas para si enquanto esteve offline são adicionadas ao feed. Se tiver novas notificações, o Power BI apresenta uma bolha amarela com o número de novos itens.
    
-   ![novo ícone Notificações](./media/end-user-notification-center/power-bi-new-notification.png)
+   ![novo ícone Notificações](./media/end-user-notification-center/power-bi-new-notifications.png)
 2. Na barra de menus do Power BI, selecione o ícone **Notificações**.
    
-   ![barra de menus superior com o ícone Notificações selecionado](./media/end-user-notification-center/power-bi-notifications-icon.png)
+   ![barra de menus superior com o ícone Notificações selecionado](./media/end-user-notification-center/power-bi-notification-icon.png)
 3. As notificações são apresentadas com as mais recentes na parte superior e as mensagens não lidas realçadas. As notificações são mantidas durante 90 dias, a menos que as elimine ou atinja o limite máximo de 100.
    
-   ![Centro de Notificações](./media/end-user-notification-center/power-bi-notification-center.png)
+   ![Centro de Notificações](./media/end-user-notification-center/power-bi-notifications-center.png)
 4. Para dispensar uma notificação, selecione o ícone X.
 
 ## <a name="next-steps"></a>Próximas etapas

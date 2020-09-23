@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ac5eb41aa248eeebf2cbfb6d53e327e2a3e83fdd
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 0717ad71d3065043a3bff8305c051cdce40e7329
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537625"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965075"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: Evitar converter espaços em branco em valores
 
@@ -79,6 +79,6 @@ Esta abordagem de design é eficiente e permite que o Power BI apresente relató
 Para obter mais informações sobre este artigo, consulte os seguintes recursos:
 
 - [Referência do DAX (Data Analysis Expressions)](/dax/)
-- Percurso de aprendizagem: [Utilizar a DAX no Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- Percurso de aprendizagem: [Utilizar a DAX no Power BI Desktop](/learn/paths/dax-power-bi/)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com)

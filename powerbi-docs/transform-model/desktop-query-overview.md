@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/11/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0d09fd8c931a92828d11b5813e57e0691c848dc0
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: abd12abf852a220399847bee7903ea83cff1386b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214143"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853615"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Descrição geral de consulta no Power BI Desktop
 Com o Power BI Desktop, pode ligar-se ao mundo dos dados, criar relatórios apelativos e fundamentais e partilhar os seus trabalhos com outras pessoas, que poderão basear-se no seu trabalho e expandir os seus esforços de business intelligence.
@@ -81,7 +81,7 @@ O separador **Transformar** fornece acesso às tarefas de transformação de dad
 
 ![Captura de ecrã a mostrar o Power BI Desktop, com o separador Home Page.](media/desktop-query-overview/queryoverview_transformribbon.png)
 
-Para obter mais informações sobre como transformar dados, incluindo exemplos, veja [Tutorial: Formatar e combinar dados no Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data).
+Para obter mais informações sobre como transformar dados, incluindo exemplos, veja [Tutorial: Formatar e combinar dados no Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md).
 
 O separador **Adicionar Coluna** fornece tarefas adicionais associadas à adição de uma coluna, formatação de dados da coluna e adição de colunas personalizadas. A seguinte imagem mostra o separador **Adicionar Coluna**.  
 
@@ -145,4 +145,4 @@ Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais 
 * [Origens de dados no Power BI Desktop](../connect-data/desktop-data-sources.md)
 * [Ligar a dados no Power BI Desktop](../connect-data/desktop-connect-to-data.md)
 * [Tutorial: Formatar e combinar dados com o Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
-* [Executar tarefas comuns de consulta no Power BI Desktop](desktop-common-query-tasks.md)   
+* [Executar tarefas comuns de consulta no Power BI Desktop](desktop-common-query-tasks.md)

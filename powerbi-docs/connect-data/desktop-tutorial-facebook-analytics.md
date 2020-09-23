@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 2add0d99ac9b8aab7ad60f51a89df5910b9ce8af
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 02ffd0881344c8f2bef45301c25e363981d64646
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83286159"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965350"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>Tutorial: Analisar dados do Facebook com o Power BI Desktop
 
@@ -114,7 +114,7 @@ Depois de aplicar as transformações de dados, os **Passos Aplicados** deverão
    ![Passos Aplicados](media/desktop-tutorial-facebook-analytics/applied-steps.png)
    
    >[!TIP]
-   >Os **Passos Aplicados** são fórmulas escritas na [linguagem de fórmulas do Power Query M](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language). Para ver e editar as fórmulas, selecione **Editor Avançado** no grupo **Consulta** do separador **Home Page** do friso. 
+   >Os **Passos Aplicados** são fórmulas escritas na [linguagem de fórmulas do Power Query M](/powerquery-m/quick-tour-of-the-power-query-m-formula-language). Para ver e editar as fórmulas, selecione **Editor Avançado** no grupo **Consulta** do separador **Home Page** do friso. 
 
 ### <a name="import-the-transformed-data"></a>Importar os dados transformados
 
@@ -251,7 +251,6 @@ Como pode ver, é fácil personalizar visualizações no relatório para apresen
 O Power BI Desktop fornece uma experiência perfeita de ponta a ponta, desde a obtenção de dados por meio de uma ampla variedade de origens de dados e a modelação desses dados para atender às suas necessidades de análise para a visualização de tais dados de maneiras avançadas e interativas. Quando o seu relatório estiver pronto, pode [carregá-lo para o serviço Power BI](../create-reports/desktop-upload-desktop-files.md) e criar dashboards com base no mesmo para partilhar com outros utilizadores do Power BI.
 
 ## <a name="next-steps"></a>Próximos passos
-* [Ler outros tutoriais do Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521937)
-* [Ver vídeos do Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Microsoft Learn para Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Visitar o Fórum do Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Ler o Blogue do Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)

@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 276770b677d85e0e125e7dd87bb0a800248d71c2
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 825b336a96b998c04b019195ad3f3beea96d0a19
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161479"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857295"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Licenciamento do serviço Power BI para os utilizadores na sua organização
 
@@ -27,7 +27,7 @@ Este artigo aborda a compra de serviços e o licenciamento por utilizador numa p
 
 ## <a name="who-can-purchase-and-assign-licenses"></a>Quem pode comprar e atribuir licenças?
 
-Deve ser-lhe atribuída uma função de administrador para comprar ou atribuir licenças para a sua organização. As funções de administrador são atribuídas através do centro de administração do Azure Active Directory ou o centro de administração do Microsoft 365. A seguinte tabela mostra qual a função necessária para realizar tarefas relacionadas com a compra e o licenciamento. Para obter mais informações sobre as funções de administrador no Azure Active Directory, veja [Ver e atribuir funções de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal). Para saber mais sobre as funções de administrador no Microsoft 365, incluindo as melhores práticas, veja [About admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide) (Acerca das funções de administrador).
+Deve ser-lhe atribuída uma função de administrador para comprar ou atribuir licenças para a sua organização. As funções de administrador são atribuídas através do centro de administração do Azure Active Directory ou o centro de administração do Microsoft 365. A seguinte tabela mostra qual a função necessária para realizar tarefas relacionadas com a compra e o licenciamento. Para obter mais informações sobre as funções de administrador no Azure Active Directory, veja [Ver e atribuir funções de administrador no Azure Active Directory](/azure/active-directory/users-groups-roles/directory-manage-roles-portal). Para saber mais sobre as funções de administrador no Microsoft 365, incluindo as melhores práticas, veja [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide) (Acerca das funções de administrador).
 
 | Quem pode comprar serviços e licenças? | Quem pode gerir licenças de utilizador? |
 | --------------- | --------------- |

@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: af58a79c5c81e8f04e5d0ba714703c202f9c8000
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 6eb123ec9a9549c54e311682fdccce451d8552a9
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161359"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857272"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Ver e gerir licenças de utilizador do Power BI
 
@@ -37,11 +37,11 @@ As subscrições do Power BI ativas estão listadas juntamente com quaisquer ou
 
   ![Captura de ecrã a mostrar a subscrição do Power B I com uma subscrição gratuita.](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
-Este tipo de subscrição é criado quando os utilizadores beneficiam da inscrição de gestão personalizada. Para saber mais, veja [Power BI na sua organização](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
+Este tipo de subscrição é criado quando os utilizadores beneficiam da inscrição de gestão personalizada. Para saber mais, veja [Power BI na sua organização](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
 
 ## <a name="manage-user-licenses-in-microsoft-365"></a>Gerir licenças de utilizador no Microsoft 365
 
-Para utilizar o centro de administração do Microsoft 365 para gerir as licenças de utilizador, veja [Subscrição para empresas e documentação de faturação](https://docs.microsoft.com/microsoft-365/commerce/?view=o365-worldwide).
+Para utilizar o centro de administração do Microsoft 365 para gerir as licenças de utilizador, veja [Subscrição para empresas e documentação de faturação](/microsoft-365/commerce/?view=o365-worldwide).
 
 ## <a name="manage-user-licenses-in-azure-portal"></a>Gerir licenças de utilizador no portal do Azure
 

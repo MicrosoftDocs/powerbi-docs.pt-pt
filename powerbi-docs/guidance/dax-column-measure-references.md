@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a98ee3ff33d21dd599ddfb11166a6870ad30e6e5
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: d3a7c39d659dacb8a44728518e239cd481ba951d
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537579"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965230"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX: Referências de colunas e de medidas
 
@@ -67,6 +67,6 @@ Eis o porquê:
 Para obter mais informações sobre este artigo, consulte os seguintes recursos:
 
 - [Referência do DAX (Data Analysis Expressions)](/dax/)
-- Percurso de aprendizagem: [Utilizar a DAX no Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- Percurso de aprendizagem: [Utilizar a DAX no Power BI Desktop](/learn/paths/dax-power-bi/)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com)

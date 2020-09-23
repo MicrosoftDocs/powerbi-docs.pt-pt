@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b4d1b969e82ef4f6a911f7adc79bf0d9308e7560
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a3659a2d39faad1d975a5e3c989cb40e800deb76
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240125"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853500"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Ligar a origens de dados de fluxos de dados do Power BI
 
@@ -186,4 +186,4 @@ Para obter mais informações sobre o Power Query e a atualização agendada, po
 * [Configurar a atualização agendada](../connect-data/refresh-scheduled-refresh.md)
 
 Para obter mais informações sobre o Common Data Service, pode ler o seguinte artigo de descrição geral:
-* [Common Data Service – descrição geral](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Common Data Service – descrição geral](/powerapps/common-data-model/overview)

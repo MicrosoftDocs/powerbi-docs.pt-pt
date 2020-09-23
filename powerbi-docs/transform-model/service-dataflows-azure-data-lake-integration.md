@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9271bc6d3ee102ed7d1b52dec2100a5cba88e568
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d5ee81b9aa594e6a101d85e4f90c14c7e653edf6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239808"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853303"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Dataflows and Azure Data Lake integration (Preview) (Integração do Azure Data Lake e fluxos de dados [Pré-visualização])
 
@@ -45,7 +45,7 @@ O ficheiro de metadados ou model.json na imagem anterior estabelece os indicador
 
 ## <a name="power-bi-organizes-cdm-folders-in-the-data-lake"></a>O Power BI organiza as pastas de CDM no data lake
 
-Com os fluxos de dados do Power BI e respetiva integração com o ADLS Gen2, o Power BI pode produzir dados num data lake. Enquanto produtor de dados, o Power BI tem de criar uma pasta de CDM para cada fluxo de dados que contém o ficheiro model.json e respetivos ficheiros de dados associados. O Power BI armazena os dados de forma isolada relativamente a outros produtores de dados no data lake através da utilização de *sistemas de ficheiros*. Pode ler mais sobre o sistema de ficheiros e o espaço de nomes hierárquico do Azure Data Lake Storage Gen2 no [artigo que os descreve](https://docs.microsoft.com/azure/storage/data-lake-storage/namespace).
+Com os fluxos de dados do Power BI e respetiva integração com o ADLS Gen2, o Power BI pode produzir dados num data lake. Enquanto produtor de dados, o Power BI tem de criar uma pasta de CDM para cada fluxo de dados que contém o ficheiro model.json e respetivos ficheiros de dados associados. O Power BI armazena os dados de forma isolada relativamente a outros produtores de dados no data lake através da utilização de *sistemas de ficheiros*. Pode ler mais sobre o sistema de ficheiros e o espaço de nomes hierárquico do Azure Data Lake Storage Gen2 no [artigo que os descreve](/azure/storage/data-lake-storage/namespace).
 
 O Power BI utiliza subpastas para desambiguação e para proporcionar uma melhor organização dos dados quando estes são apresentados no **serviço Power BI**. A nomenclatura e a estrutura das pastas representam áreas de trabalho (Pastas) e fluxos de dados (Pastas de CDM). O diagrama seguinte mostra como um data lake partilhado pelo Power BI e por outros produtores de dados pode ser estruturado. Cada serviço, neste caso o Dynamics 365, o Dynamics for Finance and Operations e o Power BI, cria e mantém o seu próprio sistema de ficheiros. Consoante a experiência em cada serviço, são criadas subpastas para organizar melhor as pastas de CDM dentro do sistema de ficheiros. 
 
@@ -61,12 +61,12 @@ Para criar e gerir as pastas de CDM dentro do sistema de ficheiros do Power BI, 
 
 A partilha de pastas de CDM com os consumidores de dados, como utilizadores ou serviços que precisam de ler os dados, é simplificada com os tokens de Portador de OAuth do Active Directory e as ACLs POSIX. Tal permite aos administradores monitorizar quem acedeu à pasta de CDM. A única ação necessária passa por conceder acesso a um objeto do Active Directory à sua escolha (por exemplo, um grupo de utilizadores ou serviço) à pasta de CDM. Recomendamos que todos os acessos à pasta de CDM, para qualquer identidade que não seja o produtor de dados, sejam concedidos como só de leitura. Se o fizer, protege a integridade dos dados gerados pelo produtor.
 
-Para adicionar pastas de CDM ao Power BI, o utilizador que adiciona a Pasta de CDM deve ter ACLs de Acesso de *Leitura* tanto na pasta de CDM propriamente dita como em todos os ficheiros ou pastas aí contidos. Além disso, deve ter ACLs de Acesso de *Execução* tanto na pasta de CDM propriamente dita como em todas as pastas aí contidas. Recomendamos que reveja os artigos [Listas de controlo de acesso em ficheiros e no diretório](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) e [Melhores práticas para a utilização do Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices) para obter mais informações.
+Para adicionar pastas de CDM ao Power BI, o utilizador que adiciona a Pasta de CDM deve ter ACLs de Acesso de *Leitura* tanto na pasta de CDM propriamente dita como em todos os ficheiros ou pastas aí contidos. Além disso, deve ter ACLs de Acesso de *Execução* tanto na pasta de CDM propriamente dita como em todas as pastas aí contidas. Recomendamos que reveja os artigos [Listas de controlo de acesso em ficheiros e no diretório](/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) e [Melhores práticas para a utilização do Azure Data Lake Storage Gen2](/azure/storage/blobs/data-lake-storage-best-practices) para obter mais informações.
 
 
 ### <a name="alternative-forms-of-authorization"></a>Formas alternativas de autorização
 
-As pessoas ou serviços externos ao Power BI também podem tirar partido de formas alternativas de autorização. Estas alternativas concedem aos titulares que detêm o acesso chave a *todos* os recursos na conta, acesso total a todos os recursos no lake, não podendo o acesso ser delimitado aos sistemas de ficheiros ou às Pastas de CDM. Essas alternativas podem ser simples formas de conceder acesso; porém, limitam a capacidade de partilhar recursos específicos no data lake e não fornecem aos utilizadores uma auditoria de quem acedeu o armazenamento. O artigo [Controlo de acesso no Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control
+As pessoas ou serviços externos ao Power BI também podem tirar partido de formas alternativas de autorização. Estas alternativas concedem aos titulares que detêm o acesso chave a *todos* os recursos na conta, acesso total a todos os recursos no lake, não podendo o acesso ser delimitado aos sistemas de ficheiros ou às Pastas de CDM. Essas alternativas podem ser simples formas de conceder acesso; porém, limitam a capacidade de partilhar recursos específicos no data lake e não fornecem aos utilizadores uma auditoria de quem acedeu o armazenamento. O artigo [Controlo de acesso no Azure Data Lake Storage Gen2](/azure/storage/blobs/data-lake-storage-access-control
 ) fornece detalhes completos sobre os esquemas de autorização disponíveis.
 
 
@@ -88,12 +88,12 @@ Para obter informações sobre fluxos de dados em geral, veja estes artigos:
 * [Recursos para programadores para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
 
 Para obter mais informações sobre o armazenamento do Azure, leia estes artigos:
-* [Guia de segurança de Armazenamento do Azure](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Guia de segurança de Armazenamento do Azure](/azure/storage/common/storage-security-guide)
 * [Introdução aos exemplos do github dos Serviços de Dados do Azure](https://aka.ms/cdmadstutorial)
 
 Para obter mais informações sobre o Common Data Service, pode ler o seguinte artigo de descrição geral:
-* [Common Data Service – descrição geral](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [Pastas de CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [Definição do ficheiro de modelo do CDM](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Common Data Service – descrição geral](/powerapps/common-data-model/overview)
+* [Pastas de CDM](/common-data-model/data-lake)
+* [Definição do ficheiro de modelo do CDM](/common-data-model/model-json)
 
 Pode sempre experimentar [colocar perguntas à Comunidade do Power BI](https://community.powerbi.com/).
