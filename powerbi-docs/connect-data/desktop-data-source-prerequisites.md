@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 498636d61f61764cfaef29db32454f55f1328243
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 373249061f39c40ec3a78ba9541575721bd60022
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83293611"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859641"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Pré-requisitos de origem de dados do Power BI
 Para cada fornecedor de dados, o Power BI suporta uma versão específica do fornecedor em objetos. Para obter mais informações sobre as origens de dados disponíveis no Power BI, veja [Origens de dados](desktop-data-sources.md). A tabela seguinte descreve estes requisitos.
@@ -22,9 +22,9 @@ Para cada fornecedor de dados, o Power BI suporta uma versão específica do for
 | Origem de dados | Fornecedor | Versão mínima do fornecedor | Versão mínima da origem de dados | Objetos de origem dos dados suportados | Ligação para transferência |
 | --- | --- | --- | --- | --- | --- |
 | SQL Server |ADO.net (incorporado no .Net Framework) |.NET Framework 3.5 (apenas) |SQL Server 2005+ |Tabelas/Vistas, Funções escalares, Funções de tabela |Incluído no .NET Framework 3.5 ou superior |
-| Access |Motor da Base de Dados do Microsoft Access (ACE) |ACE 2010 SP1 |Sem restrição |Tabelas/Vistas |[Ligação para transferência](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
-| Excel (apenas ficheiros .xls) (ver nota 1) |Motor da Base de Dados do Microsoft Access (ACE) |ACE 2010 SP1 |Sem restrição |Tabelas, Folhas |[Ligação para transferência](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
-| Oracle (ver nota 2) |ODP.NET |ODAC 11.2 Versão 5 (11.2.0.3.20) |9.x + |Tabelas/Vistas |[Ligação para transferência](https://go.microsoft.com/fwlink/?linkid=272376&clcid=0x409) |
+| Access |Motor da Base de Dados do Microsoft Access (ACE) |ACE 2010 SP1 |Sem restrição |Tabelas/Vistas |[Ligação para transferência](./desktop-access-database-errors.md) |
+| Excel (apenas ficheiros .xls) (ver nota 1) |Motor da Base de Dados do Microsoft Access (ACE) |ACE 2010 SP1 |Sem restrição |Tabelas, Folhas |[Ligação para transferência](./desktop-access-database-errors.md) |
+| Oracle (ver nota 2) |ODP.NET |ODAC 11.2 Versão 5 (11.2.0.3.20) |9.x + |Tabelas/Vistas |[Ligação para transferência](./desktop-connect-oracle-database.md) |
 | | System.Data.OracleClient (incorporado no .NET Framework) |.NET Framework 3.5 |9.x + |Tabelas/Vistas |Incluído no .NET Framework 3.5 ou superior |
 | IBM DB2 |Cliente ADO.Net do IBM (parte do pacote de controlador do servidor de dados do IBM) |10.1 |9.1+ |Tabelas/Vistas |[Ligação para transferência](https://go.microsoft.com/fwlink/?linkid=274911&clcid=0x409) |
 | MySQL |Conector/Net |6.6.5 |5.1 |Tabelas/Vistas, Funções escalares |[Ligação para transferência](https://go.microsoft.com/fwlink/?linkid=278885&clcid=0x409) |
@@ -38,5 +38,4 @@ Para cada fornecedor de dados, o Power BI suporta uma versão específica do for
 >[!NOTE]
 >Os fornecedores de Oracle também requerem o software de cliente Oracle (versão 8.1.7 ou superior).
 > 
-> 
-
+>

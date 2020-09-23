@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 264eb0c9079e1f54d53aeb41a1ef73016c2bf1b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73874293"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859280"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Suporte de browser para o Power BI Report Server
 Saiba que versões de browser são suportadas para gerir e visualizar o Power BI Report Server e os controlos do Visualizador de Relatórios.
@@ -91,12 +91,12 @@ Your browser does not support scripts or has been configured to not allow script
  Se optar por visualizar o relatório sem suporte de scripts, o relatório será composto em HTML sem capacidades de visualizador de relatórios, como a barra de ferramentas de relatórios e o mapa de documentos.
 
 > [!NOTE]
-> A barra de ferramentas de relatórios faz parte do componente do visualizador de HTML. Por predefinição, a barra de ferramentas aparece na parte superior de todos os relatórios que são apresentados numa janela de browser. O visualizador de relatórios fornece funcionalidades como a capacidade de procurar informações no relatório, navegar para uma página específica e ajustar o tamanho da página para fins de visualização. Para obter mais informações sobre a barra de ferramentas de relatórios no Visualizador HTML, consulte [HTML Viewer and the Report Toolbar (Visualizador HTML e a Barra de Ferramentas de Relatórios - em inglês)](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar).
+> A barra de ferramentas de relatórios faz parte do componente do visualizador de HTML. Por predefinição, a barra de ferramentas aparece na parte superior de todos os relatórios que são apresentados numa janela de browser. O visualizador de relatórios fornece funcionalidades como a capacidade de procurar informações no relatório, navegar para uma página específica e ajustar o tamanho da página para fins de visualização. Para obter mais informações sobre a barra de ferramentas de relatórios no Visualizador HTML, consulte [HTML Viewer and the Report Toolbar (Visualizador HTML e a Barra de Ferramentas de Relatórios - em inglês)](/sql/reporting-services/html-viewer-and-the-report-toolbar).
 > 
 > 
 
 ## <a name="browser-support-for-report-viewer-web-server-controls-in-visual-studio"></a>Suporte de browser para controlos de servidor Web do Visualizador de Relatórios no Visual Studio
-O controlo do servidor Web do Visualizador de Relatórios é utilizado para integrar o funcionamento de relatórios numa aplicação Web ASP.NET. Para obter mais informações sobre como obter o Controlo do Visualizador de Relatórios, consulte [Integrating Reporting Services Using Report Viewer Controls - Get Started (Integração do Reporting Services Através dos Controlos do Visualizador de Relatórios: introdução - em inglês)](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started).
+O controlo do servidor Web do Visualizador de Relatórios é utilizado para integrar o funcionamento de relatórios numa aplicação Web ASP.NET. Para obter mais informações sobre como obter o Controlo do Visualizador de Relatórios, consulte [Integrating Reporting Services Using Report Viewer Controls - Get Started (Integração do Reporting Services Através dos Controlos do Visualizador de Relatórios: introdução - em inglês)](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started).
 
 Utilize um browser que tenha o suporte para scripts ativado. Se o browser não puder executar scripts, o utilizador não poderá ver o relatório.
 
@@ -114,7 +114,6 @@ Utilize um browser que tenha o suporte para scripts ativado. Se o browser não p
 [Descrição geral para administradores](admin-handbook-overview.md)  
 [Instalar o Power BI Report Server](install-report-server.md)  
 [Transferir o Report Builder](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Transferir o SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Transferir o SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

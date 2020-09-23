@@ -8,19 +8,19 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: eb8d7d59e52414620aa888230af59ef98da9e5af
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 2db7cce57408fa988c9a32057d6f1f880bc55126
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937637"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861964"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Ligar ao Power BI Premium Capacity Metrics
 A monitorização das suas capacidades é essencial para tomar decisões informadas sobre a melhor forma de utilizar os seus recursos de capacidades Premium. A aplicação Power BI Premium Capacity Metrics fornece as informações mais detalhadas sobre o desempenho das suas capacidades.
 
 ![Relatório da aplicação Power BI Premium Capacity Metrics](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-report.png)
 
-Este artigo descreve como instalar a aplicação e como ligar às origens de dados. Para obter mais informações sobre os conteúdos do relatório e como utilizá-los, veja [Monitorizar as capacidades Premium com a aplicação](../service-admin-premium-monitor-capacity.md) e a [publicação de blogue sobre a aplicação Premium Capacity Metrics](https://powerbi.microsoft.com/blog/premium-capacity-metrics-app-new-health-center-with-kpis-to-explore-relevant-metrics-and-steps-to-mitigate-issues/).
+Este artigo descreve como instalar a aplicação e como ligar às origens de dados. Para obter mais informações sobre os conteúdos do relatório e como utilizá-los, veja [Monitorizar as capacidades Premium com a aplicação](../admin/service-admin-premium-monitor-capacity.md) e a [publicação de blogue sobre a aplicação Premium Capacity Metrics](https://powerbi.microsoft.com/blog/premium-capacity-metrics-app-new-health-center-with-kpis-to-explore-relevant-metrics-and-steps-to-mitigate-issues/).
 
 Depois de ter instalado a aplicação e ligado às origens de dados, pode personalizar o relatório de acordo com as suas necessidades. Em seguida, pode distribuí-la pelos colegas na sua organização.
 

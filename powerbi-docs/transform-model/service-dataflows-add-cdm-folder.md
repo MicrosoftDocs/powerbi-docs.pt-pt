@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 05dcae0a2277ee84e6c8bfbdb51532252c50c896
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23c15b49bfd6b069181b5d860637e00315376059
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238901"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861711"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Adicionar uma pasta de CDM ao Power BI como um fluxo de dados (Pré-visualização)
 
@@ -26,7 +26,7 @@ Existem alguns requisitos para a criação de fluxos de dados a partir de pastas
 
 * Um administrador tem de ligar a conta de armazenamento ADLS Gen2 no Power BI para a poder utilizar. Veja [Ligar o Azure Data Lake Storage Gen2 para armazenar fluxo de dados](service-dataflows-connect-azure-data-lake-storage-gen2.md) para saber como ligar uma conta ADLS Gen2 ao Power BI.
 * A criação de fluxos de dados a partir de pastas de CDM *apenas* está disponível na [nova experiência de área de trabalho](../collaborate-share/service-create-the-new-workspaces.md). 
-* Adicionar uma pasta de CDM ao Power BI requer que o utilizador que adicionar a pasta tenha [autorização para a pasta de CDM e os respetivos ficheiros](https://go.microsoft.com/fwlink/?linkid=2029121).
+* Adicionar uma pasta de CDM ao Power BI requer que o utilizador que adicionar a pasta tenha [autorização para a pasta de CDM e os respetivos ficheiros](./service-dataflows-azure-data-lake-integration.md).
 * Devem ser-lhe concedidas permissões de leitura e de execução em todos os ficheiros e pastas na pasta de CDM, para os adicionar ao Power BI.
 
 As secções seguintes descrevem como criar um fluxo de dados a partir de uma pasta de CDM.
@@ -86,7 +86,7 @@ Os clientes do **Power BI Desktop** não podem aceder a fluxos de dados armaze
 
   ![Erro ao tentar utilizar o fluxo de dados](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
-Para resolver este problema, devem ser concedidas permissões de leitor ao Nuno à Pasta de CDM e aos respetivos ficheiros. Pode saber mais sobre como conceder acesso à pasta de CDM [neste artigo](https://go.microsoft.com/fwlink/?linkid=2029121).
+Para resolver este problema, devem ser concedidas permissões de leitor ao Nuno à Pasta de CDM e aos respetivos ficheiros. Pode saber mais sobre como conceder acesso à pasta de CDM [neste artigo](./service-dataflows-azure-data-lake-integration.md).
 
 
 ## <a name="next-steps"></a>Próximos Passos
@@ -107,13 +107,13 @@ Para obter informações sobre fluxos de dados em geral, veja estes artigos:
 * [Recursos para programadores para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
 
 Para obter mais informações sobre o armazenamento do Azure, leia estes artigos:
-* [Guia de segurança de Armazenamento do Azure](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Guia de segurança de Armazenamento do Azure](/azure/storage/common/storage-security-guide)
 * [Configurar a atualização agendada](../connect-data/refresh-scheduled-refresh.md)
 * [Introdução aos exemplos do github dos Serviços de Dados do Azure](https://aka.ms/cdmadstutorial)
 
 Para obter mais informações sobre o Common Data Service, pode ler o seguinte artigo de descrição geral:
-* [Common Data Service – descrição geral](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [Pastas de CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [Definição do ficheiro de modelo do CDM](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Common Data Service – descrição geral](/powerapps/common-data-model/overview)
+* [Pastas de CDM](/common-data-model/data-lake)
+* [Definição do ficheiro de modelo do CDM](/common-data-model/model-json)
 
 Pode sempre experimentar [colocar perguntas à Comunidade do Power BI](https://community.powerbi.com/).

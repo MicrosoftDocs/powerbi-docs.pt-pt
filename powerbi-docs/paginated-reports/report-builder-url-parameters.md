@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: f81cf6625f02f71b1ccf8bcd2c442ded3329083d
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: fc54d60be34cd9d40cf1ea715aa84f2f1ef6f9de
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642383"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859411"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Parâmetros de URL em relatórios paginados no Power BI
 
@@ -170,7 +170,7 @@ XML:
 - rdl:Encoding=string
 - rdl:Schema=true/false
 
-**Abrir a hiperligação na mesma janela do browser** Pode acrescentar "rdl:targetSameWindow=true" ao URL da hiperligação no seu relatório para que o Power BI abra esta hiperligação na mesma janela do browser. Para obter informações sobre como adicionar hiperligações a um relatório, veja [Add a hyperlink to a URL](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs) (Adicionar uma hiperligação a um URL) na documentação do SQL Server Reporting Services.
+**Abrir a hiperligação na mesma janela do browser** Pode acrescentar "rdl:targetSameWindow=true" ao URL da hiperligação no seu relatório para que o Power BI abra esta hiperligação na mesma janela do browser. Para obter informações sobre como adicionar hiperligações a um relatório, veja [Add a hyperlink to a URL](/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs) (Adicionar uma hiperligação a um URL) na documentação do SQL Server Reporting Services.
 
 ## <a name="next-steps"></a>Próximos passos
 

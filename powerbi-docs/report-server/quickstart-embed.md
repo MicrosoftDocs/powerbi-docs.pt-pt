@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 4f6382b78a02750c76987de4fa911eb8c7d33b50
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 9e639c4a22cc4e01c04374289026a7006f33143b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87412009"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861872"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Incorporar um relatório do Power BI Report Server com um iFrame no SharePoint Server
 
@@ -24,7 +24,7 @@ Neste artigo, irá aprender a incorporar um relatório do Power BI Report Serve
 ## <a name="prerequisites"></a>Pré-requisitos
 * [Power BI Report Server](https://powerbi.microsoft.com/report-server/) instalado e configurado.
 * [Power BI Desktop otimizado para o Power BI Report Server](install-powerbi-desktop.md) instalado.
-* Um [ambiente do SharePoint 2013, 2016 ou 2019](https://docs.microsoft.com/sharepoint/install/install) instalado e configurado.
+* Um [ambiente do SharePoint 2013, 2016 ou 2019](/sharepoint/install/install) instalado e configurado.
 * O Internet Explorer 11 só será suportado se o modo de documento estiver definido como modo IE11 (Edge) ou quando estiver a utilizar o SharePoint Online. Pode utilizar outros browsers suportados com o SharePoint no local e o SharePoint Online.
 
 ## <a name="create-the-power-bi-report-url"></a>Criar URL de relatório do Power BI
@@ -101,4 +101,4 @@ Quando tiver o seu URL, pode criar um iFrame numa página do SharePoint para alo
 - [Criar um relatório do Power BI para o Power BI Report Server](quickstart-create-powerbi-report.md).  
 - [Criar um relatório paginado para o Power BI Report Server](quickstart-create-paginated-report.md).  
 
-Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/). 
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).
