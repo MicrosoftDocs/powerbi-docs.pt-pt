@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c8d4671d55e09ca6e60599bbc0ac9802258f63ba
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 09e51c46a11c41008f77d3a7597807b35b57d297
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252734"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860791"
 ---
 # <a name="what-is-power-bi-desktop"></a>O que é o Power BI Desktop?
 
@@ -66,7 +66,7 @@ Para se ligar aos dados:
 
 ## <a name="transform-and-clean-data-create-a-model"></a>Transformar e limpar dados, criar um modelo
 
-No Power BI Desktop, pode limpar e transformar os dados com o [Editor do Power Query](https://docs.microsoft.com/power-bi/desktop-query-overview) incorporado. Com o Editor do Power Query, pode efetuar alterações aos seus dados, tais como alterar um tipo de dados, remover colunas ou combinar dados de várias origens. É um pouco como a escultura: pode começar com um bloco grande de barro (ou dados) e, em seguida, ir retirando pedaços ou adicionar outros conforme seja preciso, até que a forma dos dados seja aquela que quer. 
+No Power BI Desktop, pode limpar e transformar os dados com o [Editor do Power Query](../transform-model/desktop-query-overview.md) incorporado. Com o Editor do Power Query, pode efetuar alterações aos seus dados, tais como alterar um tipo de dados, remover colunas ou combinar dados de várias origens. É um pouco como a escultura: pode começar com um bloco grande de barro (ou dados) e, em seguida, ir retirando pedaços ou adicionar outros conforme seja preciso, até que a forma dos dados seja aquela que quer. 
 
 Para iniciar o Editor do Power Query:
 
@@ -134,4 +134,3 @@ Para começar a utilizar o Power BI Desktop, primeiro precisa de transferir e in
 
 * [Obter o Power BI Desktop a partir da Loja Windows](https://aka.ms/pbidesktopstore)
 * [Transferir o Power BI Desktop a partir da Web](https://www.microsoft.com/download/details.aspx?id=58494)
-

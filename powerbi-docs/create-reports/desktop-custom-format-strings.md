@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f095eb351797c228bb5f6e9b70c741ca078e7f67
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2864e82d5ddc1eb4a70976375cd4da8e57db7e58
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221674"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859917"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Utilizar cadeias de formato personalizado no Power BI Desktop
 
@@ -68,7 +68,7 @@ A tabela a seguir mostra os **símbolos de Hora** suportados:
 | _ss_ | 00-59 (segundo do minuto, com um zero à esquerda) |
 
 
-Pode ver um [exemplo](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example) de como formatar as cadeias de valores personalizadas.
+Pode ver um [exemplo](/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example) de como formatar as cadeias de valores personalizadas.
 
 Uma expressão de formato definida pelo utilizador para números pode ter de uma a três secções separadas por ponto e vírgula. Se incluir o ponto e vírgula sem nada entre as secções, a seção ausente não será apresentada (será &quot;&quot;). Se o ponto e vírgula não for especificado, a secção utilizará o formato positivo.
 
@@ -151,7 +151,7 @@ A tabela a seguir identifica os carateres que pode utilizar para criar **formato
 ## <a name="next-steps"></a>Próximos passos
 Poderá também estar interessado nos seguintes artigos:
 
-* [VBA format strings](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example) (Cadeias de formato VBA)
+* [VBA format strings](/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example) (Cadeias de formato VBA)
 * [Medidas no Power BI Desktop](../transform-model/desktop-measures.md)
 * [Tipos de dados no Power BI Desktop](../connect-data/desktop-data-types.md)
 * [Formatação condicional em tabelas](desktop-conditional-table-formatting.md)

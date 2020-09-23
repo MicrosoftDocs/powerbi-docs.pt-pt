@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9a0b9eb90e3c39cf1f07842f5ea1da88b7cd06ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2bb23da89489966cd3d96bb2c4daaa6302a96326
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322407"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859733"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Preparação personalizada de dados no Power BI
 
@@ -24,7 +24,7 @@ ms.locfileid: "83322407"
 
 O Power BI introduz os **fluxos de dados** para ajudar as organizações a uniformizar os dados de diferentes origens e a prepará-los para a modelação. Os analistas podem criar facilmente fluxos de dados, com ferramentas de gestão personalizada conhecidas. Os fluxos de dados servem para ingerir, transformar, integrar e enriquecer grandes volumes de dados ao definir ligações de origem de dados, lógica ETL, agendas de atualização e muito mais. Além disso, o novo motor de cálculo orientado por modelos, que faz parte dos fluxos de dados, torna o processo de preparação de dados mais gerível, mais determinista e menos pesado, tanto para os analistas de dados como para os criadores de relatórios. Da mesma forma como as folhas de cálculo gerem os recálculos para todas as fórmulas afetadas, os fluxos de dados gerem as alterações para uma entidade ou um elemento de dados por si, ao automatizar as atualizações e aliviá-lo do que costumavam ser verificações lógicas cansativas e demoradas até para uma atualização básica de dados. Com os fluxos de dados, as tarefas que antes exigiam a supervisão dos cientistas de dados (e muitas horas ou dias para serem concluídas) agora podem ser processadas com alguns cliques pelos analistas e pelos criadores de relatórios. 
 
-Os dados são armazenados como entidades no [**Common Data Model**](https://docs.microsoft.com/powerapps/common-data-model/overview) do Azure Data Lake Storage Gen2. Os fluxos de dados são criados e geridos em áreas de trabalho com o serviço Power BI.  
+Os dados são armazenados como entidades no [**Common Data Model**](/powerapps/common-data-model/overview) do Azure Data Lake Storage Gen2. Os fluxos de dados são criados e geridos em áreas de trabalho com o serviço Power BI.  
  
 Os **fluxos de dados** foram concebidos para utilizar o **Common Data Service**, uma coleção extensível, modular e normalizada de esquemas de dados publicados pela Microsoft que foram concebidos para tornar mais fácil a criação, a utilização e a análise dos dados. Com este modelo, pode ir desde as origens de dados aos dashboards do Power BI sem praticamente nenhum problema.
 
@@ -117,4 +117,4 @@ Para obter mais informações sobre o Power Query e a atualização agendada, po
 * [Configurar a atualização agendada](../connect-data/refresh-scheduled-refresh.md)
 
 Para obter mais informações sobre o Common Data Service, pode ler o seguinte artigo de descrição geral:
-* [Common Data Service – descrição geral](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Common Data Service – descrição geral](/powerapps/common-data-model/overview)

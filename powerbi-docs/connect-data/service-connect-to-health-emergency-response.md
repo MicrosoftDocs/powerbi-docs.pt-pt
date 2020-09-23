@@ -8,27 +8,27 @@ ms.topic: how-to
 ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e10f2144e987f8fdc7ea9dbfd18d4581889ae8bf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4455a8da0af7ff928b81baf83245e66cdee578ea
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230143"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854236"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Ligar ao Hospital Emergency Response Decision Support Dashboard (Dashboard de Suporte de Decisões de Resposta de Emergência Hospitalar)
 A aplicação de modelo Hospital Emergency Response Decision Support Dashboard (Dashboard de Suporte de Decisões de Resposta de Emergência Hospitalar) é o componente de relatórios da [solução Microsoft Power Platform para resposta de emergência hospitalar](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/). O dashboard mostra dados agregados de gestores de emergências em todo o sistema de saúde para os ajudar a tomar decisões oportunas e corretas.
 
 ![Relatório da aplicação Hospital Emergency Response Decision Support Dashboard (Dashboard de Suporte de Decisões de Resposta de Emergência Hospitalar)](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-report.png)
 
-Este artigo indica como instalar a aplicação e como ligar às origens de dados. Para saber como utilizar o relatório que verá com esta aplicação, veja a [documentação do Hospital Emergency Response Decision Support Dashboard (Dashboard de Suporte de Decisões de Resposta de Emergência Hospitalar)](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard).
+Este artigo indica como instalar a aplicação e como ligar às origens de dados. Para saber como utilizar o relatório que verá com esta aplicação, veja a [documentação do Hospital Emergency Response Decision Support Dashboard (Dashboard de Suporte de Decisões de Resposta de Emergência Hospitalar)](/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard).
 
 Depois de ter instalado a aplicação de modelo e ligado às origens de dados, pode personalizar o relatório de acordo com as suas necessidades. Em seguida, pode distribuí-la como uma aplicação aos colegas na sua organização.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Antes de instalar esta aplicação de modelo, tem de instalar e configurar a [solução Power Platform para Hospital Emergency Response (Resposta de Emergência Hospitalar)](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure). A instalação desta solução cria as referências de origem de dados necessárias para preencher a aplicação com dados.
+Antes de instalar esta aplicação de modelo, tem de instalar e configurar a [solução Power Platform para Hospital Emergency Response (Resposta de Emergência Hospitalar)](/powerapps/sample-apps/emergency-response/deploy-configure). A instalação desta solução cria as referências de origem de dados necessárias para preencher a aplicação com dados.
 
-Ao instalar a solução Power Platform para Hospital Emergency Response (Resposta de Emergência Hospitalar), anote o [URL da instância de ambiente do Common Data Service](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Precisará do mesmo para ligar a aplicação de modelo aos dados.
+Ao instalar a solução Power Platform para Hospital Emergency Response (Resposta de Emergência Hospitalar), anote o [URL da instância de ambiente do Common Data Service](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Precisará do mesmo para ligar a aplicação de modelo aos dados.
 
 ## <a name="install-the-app"></a>Instalar a aplicação
 
@@ -66,7 +66,7 @@ Ao instalar a solução Power Platform para Hospital Emergency Response (Respost
 
 1. Na caixa de diálogo:
    1. No campo do nome da organização, introduza o nome da sua organização, por exemplo, "Contoso Health Systems". Este campo é opcional. Este nome é apresentado no canto superior esquerdo do dashboard.
-   1. No campo CDS_base_solution, introduza o [URL da instância de ambiente do Common Data Service](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Por exemplo: https://[myenv].crm.dynamics.com. Quando terminar, clique em **Seguinte**.
+   1. No campo CDS_base_solution, introduza o [URL da instância de ambiente do Common Data Service](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Por exemplo: https://[myenv].crm.dynamics.com. Quando terminar, clique em **Seguinte**.
 
    ![Caixa de diálogo URL da aplicação Hospital Emergency Response Decision Support Dashboard (Dashboard de Suporte de Decisões de Resposta de Emergência Hospitalar)](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-url-dialog.png)
 
@@ -99,8 +99,8 @@ Quando a atualização de dados for concluída, [configure uma agenda de atualiz
 Para obter detalhes, veja [Personalizar e partilhar a aplicação](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Certifique-se de que revê as [isenções de responsabilidade do relatório](../create-reports/sample-covid-19-us.md#disclaimers) antes de publicar ou distribuir a aplicação.
 
 ## <a name="next-steps"></a>Próximos passos
-* [Compreender o relatório Hospital Emergency Response (Resposta de Emergência Hospitalar)](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
-* [Configurar e saber mais sobre o modelo de exemplo Crisis Communication (Comunicação de Crise) no Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [Compreender o relatório Hospital Emergency Response (Resposta de Emergência Hospitalar)](/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
+* [Configurar e saber mais sobre o modelo de exemplo Crisis Communication (Comunicação de Crise) no Power Apps](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 * [O que são as aplicações de modelo do Power BI?](../connect-data/service-template-apps-overview.md)
 * [Instalar e distribuir aplicações de modelo na sua organização](../connect-data/service-template-apps-install-distribute.md)

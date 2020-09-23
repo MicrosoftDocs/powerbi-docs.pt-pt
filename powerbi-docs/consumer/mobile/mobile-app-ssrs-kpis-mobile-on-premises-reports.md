@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 2327349928b481e51217b360587470f7f44b78d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2f6d02d6128a2896a19d87f30f46f26f101385f6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233262"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860998"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Ver KPIs e relatórios no local do servidor de relatórios nas aplicações móveis do Power BI
 
@@ -32,8 +32,8 @@ Aplica-se a:
 **As aplicações móveis são o local onde pode ver os seus conteúdos do Power BI, não onde estes são criados.**
 
 * O utilizador e outros criadores e relatórios na sua organização [criam relatórios do Power BI no Power BI Desktop e, em seguida, publicam-nos no portal Web do Power BI Report Server](../../report-server/quickstart-create-powerbi-report.md). 
-* Pode criar [KPIs diretamente no portal Web](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services), organizá-los em pastas e marcar os seus favoritos para que os possa encontrar facilmente. 
-* [Crie relatórios móveis do Reporting Services](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher) com o SQL Server 2016 Enterprise Edition Mobile Report Publisher e publique-os no [portal Web do Reporting Services](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode).  
+* Pode criar [KPIs diretamente no portal Web](/sql/reporting-services/working-with-kpis-in-reporting-services), organizá-los em pastas e marcar os seus favoritos para que os possa encontrar facilmente. 
+* [Crie relatórios móveis do Reporting Services](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher) com o SQL Server 2016 Enterprise Edition Mobile Report Publisher e publique-os no [portal Web do Reporting Services](/sql/reporting-services/web-portal-ssrs-native-mode).  
 
 Depois, nas aplicações móveis do Power BI, ligue até cinco servidores de relatórios para ver KPIs e relatórios do Power BI, organizados em pastas ou reunidos como favoritos. 
 

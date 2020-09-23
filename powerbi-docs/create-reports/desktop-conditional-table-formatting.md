@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2ae57fb5a3d2ff38a29e0c1e3c24af23582af43a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1273030bc1fd8664e854eb2b59939cf271b017fa
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222259"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860032"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>Utilizar a formatação condicional em tabelas 
 
@@ -181,9 +181,9 @@ Existem algumas considerações a ter em mente ao trabalhar com formatação con
 
 - A formatação condicional aplica-se apenas aos valores dos elementos visuais Tabela ou Matriz e não se aplica a subtotais, totais gerais ou à linha **Total**. 
 - As tabelas que não tenham um agrupamento são apresentadas como uma única linha que não suporta a formatação condicional.
-- Pode aplicar a formatação de gradação com valores máximos/mínimos automáticos ou a formatação baseada em regras se os seus dados tiverem valores *NaN*. NaN significa "Não é um número" e, geralmente, é causado por um erro de divisão por zero. Pode utilizar a [função DIVIDE() DAX ](https://docs.microsoft.com/dax/divide-function-dax) para evitar estes erros.
+- Pode aplicar a formatação de gradação com valores máximos/mínimos automáticos ou a formatação baseada em regras se os seus dados tiverem valores *NaN*. NaN significa "Não é um número" e, geralmente, é causado por um erro de divisão por zero. Pode utilizar a [função DIVIDE() DAX ](/dax/divide-function-dax) para evitar estes erros.
 - A formatação condicional precisa de uma agregação ou de uma medida para ser aplicada ao valor. É por isso que é apresentado "Primeiro" ou "Último" no exemplo de **Cor por valor**. Se estiver a criar o seu relatório num cubo multidimensional do Analysis Service, não poderá utilizar um atributo para a formatação condicional, a menos que o proprietário do cubo tenha criado uma medida que fornece o valor.
 
 ## <a name="next-steps"></a>Próximos passos
 
-Para obter mais informações sobre a formatação de cores, veja [Dicas e truques para formatação com cores no Power BI](../visuals/service-tips-and-tricks-for-color-formatting.md).  
+Para obter mais informações sobre a formatação de cores, veja [Dicas e truques para formatação com cores no Power BI](../visuals/service-tips-and-tricks-for-color-formatting.md).

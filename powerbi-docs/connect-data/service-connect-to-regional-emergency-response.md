@@ -8,29 +8,29 @@ ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a6cb38d17a84ab41acda96f0564b12188c719254
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229666"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860745"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>Ligar ao Regional Emergency Response Dashboard (Dashboard de Respostas a Emergências Regionais)
-O Regional Emergency Response Dashboard (Dashboard de Respostas a Emergências Regionais) é o componente de comunicação da [solução de Resposta a Emergências Regionais da Microsoft Power Platform](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview). Os administradores da organização regional podem ver o dashboard no seu inquilino do Power BI, o que lhes permite ver rapidamente dados e métricas importantes que os ajudarão a tomar decisões eficientes.
+O Regional Emergency Response Dashboard (Dashboard de Respostas a Emergências Regionais) é o componente de comunicação da [solução de Resposta a Emergências Regionais da Microsoft Power Platform](/powerapps/sample-apps/regional-emergency-response/overview). Os administradores da organização regional podem ver o dashboard no seu inquilino do Power BI, o que lhes permite ver rapidamente dados e métricas importantes que os ajudarão a tomar decisões eficientes.
 
 ![Relatório da aplicação Regional Emergency Response Dashboard (Dashboard de Respostas a Emergências Regionais)](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-report.png)
 
 Este artigo diz-lhe como instalar a aplicação de Resposta a Emergências Regionais através da aplicação do modelo Regional Emergency Response Dashboard (Dashboard de Respostas a Emergências Regionais) e como se ligar às origens de dados.
 
-Para obter informações detalhadas sobre o que é apresentado no dashboard, veja [Obter informações](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights).
+Para obter informações detalhadas sobre o que é apresentado no dashboard, veja [Obter informações](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights).
 
 Depois de ter instalado a aplicação de modelo e ligado às origens de dados, pode personalizar o relatório de acordo com as suas necessidades. Em seguida, pode distribuí-la como uma aplicação aos colegas na sua organização.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Antes de instalar esta aplicação de modelo, tem de instalar e configurar a [solução Regional Emergency Response (Respostas a Emergências Regionais)](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy). A instalação desta solução cria as referências de origem de dados necessárias para preencher a aplicação com dados.
+Antes de instalar esta aplicação de modelo, tem de instalar e configurar a [solução Regional Emergency Response (Respostas a Emergências Regionais)](/powerapps/sample-apps/regional-emergency-response/deploy). A instalação desta solução cria as referências de origem de dados necessárias para preencher a aplicação com dados.
 
-Ao instalar a solução Regional Emergency Response (Respostas a Emergências Regionais), anote o [URL da instância de ambiente do Common Data Service](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard). Precisará do mesmo para ligar a aplicação de modelo aos dados.
+Ao instalar a solução Regional Emergency Response (Respostas a Emergências Regionais), anote o [URL da instância de ambiente do Common Data Service](/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard). Precisará do mesmo para ligar a aplicação de modelo aos dados.
 
 ## <a name="install-the-app"></a>Instalar a aplicação
 
@@ -62,7 +62,7 @@ Ao instalar a solução Regional Emergency Response (Respostas a Emergências Re
 
    ![Ligar à ligação de dados da aplicação Regional Emergency Response Dashboard (Dashboard de Respostas a Emergências Regionais)](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-connect-data.png)
 
-1. Na caixa de diálogo que é apresentada, introduza o [URL da instância de ambiente do Common Data Service](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Por exemplo: https://[myenv].crm.dynamics.com. Quando terminar, clique em **Seguinte**.
+1. Na caixa de diálogo que é apresentada, introduza o [URL da instância de ambiente do Common Data Service](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Por exemplo: https://[myenv].crm.dynamics.com. Quando terminar, clique em **Seguinte**.
 
    ![Caixa de diálogo do URL da aplicação Regional Emergency Response Dashboard (Dashboard de Respostas a Emergências Regionais)](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-url-dialog.png)
 
@@ -92,11 +92,11 @@ Quando a atualização de dados for concluída, [configure uma agenda de atualiz
 
 ## <a name="customize-and-share"></a>Personalizar e partilhar
 
-Para obter detalhes, veja [Personalizar e partilhar a aplicação](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Certifique-se de que revê as [isenções de responsabilidade do relatório](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer) antes de publicar ou distribuir a aplicação.
+Para obter detalhes, veja [Personalizar e partilhar a aplicação](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Certifique-se de que revê as [isenções de responsabilidade do relatório](/powerapps/sample-apps/regional-emergency-response/overview#disclaimer) antes de publicar ou distribuir a aplicação.
 
 ## <a name="next-steps"></a>Próximos passos
-* [Compreender o Regional Emergency Response Dashboard (Dashboard de Respostas a Emergências Regionais)](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
-* [Configurar e saber mais sobre o modelo de exemplo Crisis Communication (Comunicação de Crise) no Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [Compreender o Regional Emergency Response Dashboard (Dashboard de Respostas a Emergências Regionais)](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
+* [Configurar e saber mais sobre o modelo de exemplo Crisis Communication (Comunicação de Crise) no Power Apps](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 * [O que são as aplicações de modelo do Power BI?](../connect-data/service-template-apps-overview.md)
 * [Instalar e distribuir aplicações de modelo na sua organização](../connect-data/service-template-apps-install-distribute.md)

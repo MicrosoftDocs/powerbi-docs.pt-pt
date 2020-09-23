@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 05/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 24f507a2457793590b6b123c0f4c9cb68dea4102
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: a888d9010a418aa51534b94350cc3f6d82385772
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161750"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860975"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>O serviço Power BI para consumidores
 
@@ -62,6 +62,5 @@ Isso não significa que não possa guardar as suas alterações, pois pode faz\�
 ## <a name="next-steps"></a>Próximos passos
 
 [Ver uma apresentação do serviço Power BI para consumidores](end-user-reading-view.md)    
-[Formação sobre o serviço Power BI para consumidores](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/)    
-[Terminologia e conceitos para os *consumidores* do Power BI ](end-user-basic-concepts.md)    
-
+[Formação sobre o serviço Power BI para consumidores](/learn/paths/consume-data-with-power-bi/)    
+[Terminologia e conceitos para os *consumidores* do Power BI ](end-user-basic-concepts.md)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 09/04/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b0f63d200a94cb7e6524602203864281efe51c0
-ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
+ms.openlocfilehash: e4f2db2c5b0220215c9c71cc62349c2255cf046d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89490359"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854627"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Automatizar as tarefas de conjuntos de dados e áreas de trabalho Premium com principais de serviço
 
@@ -40,14 +40,14 @@ Para executar operações de escrita, a **Carga de trabalho dos conjuntos de dad
 
 Os principais de serviço são criados como um registo de aplicações no portal do Azure ou através do PowerShell. Ao criar o seu principal de serviço, certifique-se de que copia e guarda separadamente o nome da aplicação, o ID da Aplicação (cliente), o ID do Diretório (inquilino) e o segredo do cliente. Para obter instruções sobre como criar um principal de serviço, veja:
 
-[Criar um principal de serviço – portal do Azure](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)   
-[Criar principal de serviço - PowerShell](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
+[Criar um principal de serviço – portal do Azure](/azure/active-directory/develop/howto-create-service-principal-portal)   
+[Criar principal de serviço - PowerShell](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
 
 ## <a name="create-an-azure-ad-security-group"></a>Criar um grupo de segurança do Azure AD
 
 Por predefinição, os principais de serviço têm acesso a todas as configurações de inquilino para os quais são ativados. Dependendo das suas definições de administração, o acesso pode incluir grupos de segurança específicos ou toda a organização.
 
-Para restringir o acesso do principal de serviço a configurações específicas de inquilino, pode permitir o acesso apenas a grupos de segurança específicos. Em alternativa, pode criar um grupo de segurança dedicado para os principais de serviço e excluí-lo das configurações de inquilino pretendidas. Para obter instruções sobre como criar um grupo de segurança e adicionar um principal de serviço, veja [Criar um grupo básico e adicionar membros com o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+Para restringir o acesso do principal de serviço a configurações específicas de inquilino, pode permitir o acesso apenas a grupos de segurança específicos. Em alternativa, pode criar um grupo de segurança dedicado para os principais de serviço e excluí-lo das configurações de inquilino pretendidas. Para obter instruções sobre como criar um grupo de segurança e adicionar um principal de serviço, veja [Criar um grupo básico e adicionar membros com o Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 
 ## <a name="enable-service-principals"></a>Ativar os principais de serviço
 
@@ -59,7 +59,7 @@ No Power BI, em **Portal de administração** > **Definições de inquilino**, e
 
 ## <a name="workspace-access"></a>Acesso de áreas de trabalho
 
-Para que o seu principal de serviço tenha as permissões necessárias para executar operações em conjuntos de dados e áreas de trabalho Premium, tem de adicionar o principal de serviço como Membro ou Administrador da área de trabalho. Neste artigo, descrevemos como utilizar o acesso à área de trabalho no serviço Power BI, mas também pode utilizar uma API REST. Para tal, veja [Add Group User REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) (Adicionar API REST Utilizador de Grupo).
+Para que o seu principal de serviço tenha as permissões necessárias para executar operações em conjuntos de dados e áreas de trabalho Premium, tem de adicionar o principal de serviço como Membro ou Administrador da área de trabalho. Neste artigo, descrevemos como utilizar o acesso à área de trabalho no serviço Power BI, mas também pode utilizar uma API REST. Para tal, veja [Add Group User REST API](/rest/api/power-bi/groups/addgroupuser) (Adicionar API REST Utilizador de Grupo).
 
 1. No serviço Power BI, para uma área de trabalho, selecione **Mais** > **Acesso de áreas de trabalho**.
 
@@ -96,7 +96,7 @@ Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -
 
 ### <a name="amo-and-adomd"></a>AMO e ADOMD
 
-Ao ligar-se a aplicações Web e aplicações cliente, os pacotes instaláveis das [bibliotecas cliente AMO e ADOMD](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) (versão 15.1.42.26 [junho de 2020] e superior) do NuGet suportam principais de serviço em cadeias de ligação através da seguinte sintaxe: `app:AppID` e palavra-passe ou `cert:thumbprint`.
+Ao ligar-se a aplicações Web e aplicações cliente, os pacotes instaláveis das [bibliotecas cliente AMO e ADOMD](/azure/analysis-services/analysis-services-data-providers) (versão 15.1.42.26 [junho de 2020] e superior) do NuGet suportam principais de serviço em cadeias de ligação através da seguinte sintaxe: `app:AppID` e palavra-passe ou `cert:thumbprint`.
 
 No seguinte exemplo, `appID` e `password` são utilizados para executar uma operação de atualização da base de dados modelo:
 
@@ -115,6 +115,6 @@ db.Model.SaveChanges();
 ## <a name="next-steps"></a>Próximos passos
 
 [Conectividade dos conjuntos de dados com o ponto final XMLA](service-premium-connect-tools.md)  
-[Automatização do Azure](https://docs.microsoft.com/azure/automation)  
-[Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/)  
-[APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)
+[Automatização do Azure](/azure/automation)  
+[Azure Logic Apps](/azure/logic-apps/)  
+[APIs REST do Power BI](/rest/api/power-bi/)

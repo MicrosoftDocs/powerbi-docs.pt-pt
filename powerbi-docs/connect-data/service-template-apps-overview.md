@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 6033ba7442e7993edbbc68aa36922a2efddd1f83
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf51270a39f2f07518aaa6d83902519e08f7ab45
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235651"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860584"
 ---
 # <a name="what-are-power-bi-template-apps"></a>O que são as aplicações de modelo do Power BI?
 
@@ -49,7 +49,7 @@ O processo geral para desenvolver e submeter uma aplicação de modelo inclui v�
 
 Para criar a aplicação de modelo, necessita de permissões para esse efeito. Veja as Definições de aplicação de modelo do portal de administração do Power BI para obter detalhes. 
 
-Para publicar uma aplicação de modelo no serviço Power BI e no AppSource, tem de cumprir os requisitos para [se tornar num publicador do Centro de Parceiros](https://docs.microsoft.com/azure/marketplace/become-publisher).
+Para publicar uma aplicação de modelo no serviço Power BI e no AppSource, tem de cumprir os requisitos para [se tornar num publicador do Centro de Parceiros](/azure/marketplace/become-publisher).
  
 ## <a name="high-level-steps"></a>Passos gerais
 
@@ -67,7 +67,7 @@ Eis os passos gerais.
 
 6. Promova a aplicação de teste na pré-produção para submeter a aplicação para validação no AppSource e para testá-la fora do seu próprio inquilino. 
 
-7. Submeta o conteúdo ao [Centro de parceiros](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) para publicação. 
+7. Submeta o conteúdo ao [Centro de parceiros](/azure/marketplace/partner-center-portal/create-power-bi-app-offer) para publicação. 
 
 8. Altere o estado da sua oferta para "Em direto" no AppSource e mude a sua aplicação para produção no Power BI.
 
@@ -77,9 +77,9 @@ Eis os passos gerais.
 
 Para criar a aplicação de modelo, necessita de permissões para esse efeito. Veja as [Definições de aplicação de modelo do portal de administração](../admin/service-admin-portal.md#template-apps-settings) do Power BI para obter detalhes.
 
-Para publicar uma aplicação de modelo no serviço Power BI e no AppSource, tem de cumprir os requisitos para [se tornar num publicador do Centro de Parceiros](https://docs.microsoft.com/azure/marketplace/become-publisher).
+Para publicar uma aplicação de modelo no serviço Power BI e no AppSource, tem de cumprir os requisitos para [se tornar num publicador do Centro de Parceiros](/azure/marketplace/become-publisher).
  > [!NOTE] 
- > As submissões de aplicações de modelo são geridas no [Centro de Parceiros](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer). Utilize a mesma conta de registo do Centro de Programadores da Microsoft para iniciar sessão. Deve ter apenas uma conta Microsoft para as ofertas de AppSource. As contas não devem ser específicas de ofertas ou serviços individuais.
+ > As submissões de aplicações de modelo são geridas no [Centro de Parceiros](/azure/marketplace/partner-center-portal/create-power-bi-app-offer). Utilize a mesma conta de registo do Centro de Programadores da Microsoft para iniciar sessão. Deve ter apenas uma conta Microsoft para as ofertas de AppSource. As contas não devem ser específicas de ofertas ou serviços individuais.
 
 ## <a name="tips"></a>Sugestões 
 

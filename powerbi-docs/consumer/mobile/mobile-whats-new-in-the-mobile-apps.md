@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 84ceb5cd856986f2ff068395bac8bcac10baad96
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c8daa87bca6fb5ed47899f804c0710f58b559ff1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204890"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860239"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -23,7 +23,7 @@ Para informações sobre “Novidades” relacionadas, veja:
 * [Novidades do serviço Power BI](../../fundamentals/service-whats-new.md)
 
 >[!NOTE]
->O suporte à aplicação móvel Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+>O suporte à aplicação móvel Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="august-2020"></a>Agosto de 2020
 ### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>Melhorámos a forma como navega para os conteúdos (iOS e Android)
@@ -153,19 +153,19 @@ Agora, a aplicação móvel Power BI suporta marcadores criados no Power BI. Ao 
 
 ### <a name="android-support-for-remote-configuration-of-report-server-access-settings"></a>Suporte do Android para a configuração remota das definições de acesso ao Servidor de Relatórios
 
-Adicionámos suporte do Android para a configuração remota das definições de acesso ao Servidor de Relatórios das aplicações móveis do Power BI. Os administradores de TI podem agora utilizar a ferramenta MDM das respetivas organizações para configurar essas definições em dispositivos iOS e Android. Veja [Configurar o acesso da aplicação móvel do Power BI ao Servidor de Relatórios remotamente](https://docs.microsoft.com/power-bi/report-server/configure-powerbi-mobile-apps-remote) para obter detalhes.
+Adicionámos suporte do Android para a configuração remota das definições de acesso ao Servidor de Relatórios das aplicações móveis do Power BI. Os administradores de TI podem agora utilizar a ferramenta MDM das respetivas organizações para configurar essas definições em dispositivos iOS e Android. Veja [Configurar o acesso da aplicação móvel do Power BI ao Servidor de Relatórios remotamente](../../report-server/configure-powerbi-mobile-apps-remote.md) para obter detalhes.
 
 ### <a name="cross-report-drillthrough"></a>Pormenorização de relatório cruzado
 
 Este mês, adicionámos suporte para a pormenorização entre relatórios. Agora, pode tocar num ponto de dados para pormenorizar e aceder a outros relatórios e páginas de relatórios. Ao pormenorizar para uma página de destino, os conteúdos nessa página são filtrados com base nas definições de pormenorização.
 
 > [!NOTE]
-> A pormenorização entre relatórios apenas estará disponível se tiver sido ativada durante a criação do relatório. [Saiba mais sobre a pormenorização entre relatórios](https://docs.microsoft.com/power-bi/desktop-cross-report-drill-through).
+> A pormenorização entre relatórios apenas estará disponível se tiver sido ativada durante a criação do relatório. [Saiba mais sobre a pormenorização entre relatórios](../../create-reports/desktop-cross-report-drill-through.md).
 
 
 ### <a name="data-sensitivity-labels"></a>Etiquetas de confidencialidade dos dados
 
-Agora, pode ver as etiquetas de confidencialidade que os proprietários de conteúdos definiram em relatórios, dashboards, conjuntos de dados e fluxos de dados para classificar a confidencialidade dos respetivos dados. As etiquetas de confidencialidade determinam como os conteúdos podem ser partilhados com outros utilizadores. [Saiba mais sobre as etiquetas de confidencialidade de dados no Power BI](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview).
+Agora, pode ver as etiquetas de confidencialidade que os proprietários de conteúdos definiram em relatórios, dashboards, conjuntos de dados e fluxos de dados para classificar a confidencialidade dos respetivos dados. As etiquetas de confidencialidade determinam como os conteúdos podem ser partilhados com outros utilizadores. [Saiba mais sobre as etiquetas de confidencialidade de dados no Power BI](../../admin/service-security-data-protection-overview.md).
 
 ### <a name="support-for-custom-app-navigation-windows"></a>Suporte para navegação de aplicações personalizadas (Windows)
 
@@ -190,7 +190,7 @@ Saiba mais sobre o [Novo aspeto do Power BI Mobile](https://powerbi.microsoft.
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Acesso protegido com o Proxy da Aplicação do Azure Active Directory (AD) (iOS e Android)
 
-Estabelecemos parceria com a equipa do Azure Active Directory para integrar aplicações móveis do Power BI com o Proxy da Aplicação do Azure Active Directory (Azure AD). Com esta configuração, pode ligar-se ao Servidor de Relatórios alojado dentro dos limites da empresa a partir da aplicação Power BI Mobile, sem ter de fazer uma complexa configuração no local. Leia mais sobre a [integração do Power BI Mobile e do Proxy de Aplicações do Azure AD](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Saiba [como configurar o Proxy de Aplicações do Azure AD e o Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
+Estabelecemos parceria com a equipa do Azure Active Directory para integrar aplicações móveis do Power BI com o Proxy da Aplicação do Azure Active Directory (Azure AD). Com esta configuração, pode ligar-se ao Servidor de Relatórios alojado dentro dos limites da empresa a partir da aplicação Power BI Mobile, sem ter de fazer uma complexa configuração no local. Leia mais sobre a [integração do Power BI Mobile e do Proxy de Aplicações do Azure AD](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Saiba [como configurar o Proxy de Aplicações do Azure AD e o Power BI](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
 
 ## <a name="july-2019"></a>Julho de 2019
 
@@ -228,11 +228,11 @@ A funcionalidade de toque único está agora disponível para o público e será
 
 ### <a name="enhanced-conditional-access-protection-ios-android"></a>Proteção de acesso condicional melhorada (iOS e Android)
 
-Integrámos no Azure AD uma [nova funcionalidade de acesso condicional à aplicação baseado na proteção](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access) para aumentar a segurança, limitando o acesso ao Power BI antes de a política da aplicação ser aplicada.
+Integrámos no Azure AD uma [nova funcionalidade de acesso condicional à aplicação baseado na proteção](/azure/active-directory/conditional-access/app-protection-based-conditional-access) para aumentar a segurança, limitando o acesso ao Power BI antes de a política da aplicação ser aplicada.
 
 ### <a name="device-protection-ios"></a>Proteção de dispositivos (iOS)
 
-Os utilizadores podem utilizar a proteção incorporada do dispositivo para proteger o Power BI, ao pedir o Face ID, Touch ID ou código de acesso para aceder à aplicação. Esta funcionalidade tanto pode ser controlada pelo utilizador nas definições da aplicação, como por administradores através do Intune e de quaisquer outras ferramentas MDM. [Saiba mais](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access).
+Os utilizadores podem utilizar a proteção incorporada do dispositivo para proteger o Power BI, ao pedir o Face ID, Touch ID ou código de acesso para aceder à aplicação. Esta funcionalidade tanto pode ser controlada pelo utilizador nas definições da aplicação, como por administradores através do Intune e de quaisquer outras ferramentas MDM. [Saiba mais](./mobile-native-secure-access.md).
 
 ### <a name="one-page-report-slideshow-windows"></a>Apresentação de diapositivos de relatórios de uma página (Windows)
 
@@ -274,7 +274,7 @@ Alterámos a interação em relatórios para que seja necessário apenas um toqu
 ![Interação de toque único](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> Os utilizadores existentes terão de ativar esta funcionalidade nas definições da aplicação. Para obter mais informações, veja o artigo [Como configurar a interação de toque único em relatórios](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap).
+> Os utilizadores existentes terão de ativar esta funcionalidade nas definições da aplicação. Para obter mais informações, veja o artigo [Como configurar a interação de toque único em relatórios](./mobile-app-interaction-settings.md).
 
 ## <a name="january---february-2019"></a>Janeiro – fevereiro de 2019
  
@@ -304,11 +304,11 @@ Modo de apresentação avançado para dispositivos Surface Hub e Windows 10.  D
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>Esquema de relatório vertical em tablets (iOS e Android)
 
-Agora, utilizamos o esquema de relatório de telemóvel, quando existe, para apresentar relatórios no tablet no modo vertical. Saiba mais sobre [como criar o esquema de telemóvel no serviço Power BI ou no Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-phone-report/).
+Agora, utilizamos o esquema de relatório de telemóvel, quando existe, para apresentar relatórios no tablet no modo vertical. Saiba mais sobre [como criar o esquema de telemóvel no serviço Power BI ou no Power BI Desktop](/power-bi/desktop-create-phone-report/).
 
 ### <a name="supporting-report-query-string"></a>Suporte para a cadeia de consulta do relatório 
 
-A ligação do relatório que inclui a cadeia de consulta agora será aberta na aplicação móvel e será previamente filtrada com base nas condições definidas na cadeia de consulta. Saiba mais sobre [como criar o URL do relatório com a cadeia de consulta](https://docs.microsoft.com/power-bi/service-url-filters/).  
+A ligação do relatório que inclui a cadeia de consulta agora será aberta na aplicação móvel e será previamente filtrada com base nas condições definidas na cadeia de consulta. Saiba mais sobre [como criar o URL do relatório com a cadeia de consulta](/power-bi/service-url-filters/).  
 
 ### <a name="shared-credentials-now-in-android"></a>Credenciais partilhadas (agora no Android)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 02/20/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: cea54821c7a2a31d8ee362559e29a3f79fa40b6c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 598b41362cb510f8e5bbc60c7ca263c57fa0403e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231545"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859802"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Configurar o SSO baseado no Kerberos a partir do serviço Power BI para as origens de dados no local
 
@@ -59,7 +59,7 @@ Em primeiro lugar, determine se já foi criado um SPN para a conta de domínio u
 
 4. Se o separador **Delegação** for apresentado na caixa de diálogo **Propriedades**, significa que já foi criado um SPN e pode avançar para [Escolher o tipo de delegação restrita de Kerberos a utilizar](#decide-on-the-type-of-kerberos-constrained-delegation-to-use).
 
-5. Se não existir um separador **Delegação**, na caixa de diálogo **Propriedades**, pode criar manualmente um SPN nessa conta para o ativar. Utilize a [ferramenta setspn](https://technet.microsoft.com/library/cc731241.aspx) fornecida com o Windows (precisa de direitos de administrador de domínio para criar o SPN).
+5. Se não existir um separador **Delegação**, na caixa de diálogo **Propriedades**, pode criar manualmente um SPN nessa conta para o ativar. Utilize a [ferramenta setspn](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc731241(v=ws.11)) fornecida com o Windows (precisa de direitos de administrador de domínio para criar o SPN).
 
    Por exemplo, suponha que a conta do serviço de gateway é **Contoso\GatewaySvc** e que o serviço de gateway está a ser executado no computador com o nome **MyGatewayMachine**. Para definir o SPN para a conta do serviço de gateway, execute o seguinte comando:
 

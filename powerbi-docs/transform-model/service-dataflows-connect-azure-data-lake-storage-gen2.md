@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 92244304bcffc3544ca8616fd0b16226361d58c8
-ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.openlocfilehash: ee24e4aaa54fdbc60c631dc319caf6b1465aed28
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86385958"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859825"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Ligar o Azure Data Lake Storage Gen2 para armazenar fluxos de dados
 
@@ -46,13 +46,13 @@ Antes de configurar o Power BI com uma conta do Data Lake Storage Gen2, tem de c
 2. A conta de armazenamento tem de ser criada no mesmo inquilino do AAD que o seu inquilino do Power BI.
 3. A conta de armazenamento tem de ser criada na mesma região que o seu inquilino do Power BI. Para determinar a localização do seu inquilino do Power BI, veja [onde está localizado o meu inquilino do Power BI](../admin/service-admin-where-is-my-tenant-located.md).
 4. A conta de armazenamento tem de ter a funcionalidade *Espaço de Nomes Hierárquico*  ativada.
-5. Se a conta de armazenamento não foi criada pelo utilizador atual, certifique-se de que foram atribuídas ao utilizador atual permissões de [Proprietário de Dados de Blob de Armazenamento](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) e de [proprietário](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner). (Uma vez que o proprietário não detém permissões de nível de dados, o proprietário de Dados de Blob é necessário.)
+5. Se a conta de armazenamento não foi criada pelo utilizador atual, certifique-se de que foram atribuídas ao utilizador atual permissões de [Proprietário de Dados de Blob de Armazenamento](/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) e de [proprietário](/azure/role-based-access-control/built-in-roles#owner). (Uma vez que o proprietário não detém permissões de nível de dados, o proprietário de Dados de Blob é necessário.)
 
 As secções que se seguem explicam os passos necessários para configurar a sua conta do Azure Data Lake Storage Gen2 ao pormenor.
 
 ### <a name="create-the-storage-account"></a>Criar a conta de armazenamento
 
-Siga os passos descritos no artigo [Criar a conta de armazenamento do Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account).
+Siga os passos descritos no artigo [Criar a conta de armazenamento do Azure Data Lake Storage Gen2](/azure/storage/blobs/data-lake-storage-quickstart-create-account).
 
 1. Certifique-se de que seleciona a mesma localização do seu inquilino do Power BI e defina o armazenamento como **StorageV2 (fins gerais v2)**
 2. Certifique-se de que ativa a funcionalidade Espaço de nomes hierárquico
@@ -62,7 +62,7 @@ Siga os passos descritos no artigo [Criar a conta de armazenamento do Azure Data
 
 Em seguida, tem de conceder as funções de leitor e acesso a dados ao serviço Power BI na sua conta de armazenamento criada. Ambas são funções incorporadas, pelo que os passos não colocam dificuldades. 
 
-Siga os passos em [Atribuir uma função RBAC incorporada](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role).
+Siga os passos em [Atribuir uma função RBAC incorporada](/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role).
 
 Na janela **Adicionar atribuição de função**, selecione a função **Leitor e Acesso a Dados**. Em seguida, utilize a pesquisa para localizar a aplicação **Serviço Power BI**.
 Repita os mesmos passos para a função **Proprietário de Dados de Blob de Armazenamento** e atribua a função às aplicações **Serviço Power BI** e **Power BI Premium**.
@@ -155,11 +155,11 @@ Para obter informações sobre fluxos de dados em geral, veja estes artigos:
 * [Recursos para programadores para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
 
 Para obter mais informações sobre o armazenamento do Azure, leia estes artigos:
-* [Guia de segurança de Armazenamento do Azure](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Guia de segurança de Armazenamento do Azure](/azure/storage/common/storage-security-guide)
 
 Para obter mais informações sobre o Common Data Service, pode ler o seguinte artigo de descrição geral:
-* [Common Data Service – descrição geral](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [Pastas de CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [Definição do ficheiro de modelo do CDM](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Common Data Service – descrição geral](/powerapps/common-data-model/overview)
+* [Pastas de CDM](/common-data-model/data-lake)
+* [Definição do ficheiro de modelo do CDM](/common-data-model/model-json)
 
 Pode sempre experimentar [colocar perguntas à Comunidade do Power BI](https://community.powerbi.com/).

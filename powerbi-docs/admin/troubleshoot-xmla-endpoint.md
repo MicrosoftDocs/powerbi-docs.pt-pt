@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 07/28/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a815f69d4f74ec925c3ac0cc8a84c2a13d80346
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: bd2b8c4af1fc36fabc863aa1c67ed5af40265de2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87363968"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854087"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Troubleshoot XMLA endpoint connectivity (Resolver problemas de conectividade de pontos finais XMLA)
 
@@ -138,11 +138,11 @@ Ao acionar uma atualização agendada ou um pedido de atualização no Power BI
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Substituições no comando TMSL Atualizar
 
-As substituições no [comando Atualizar (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl) permitem aos utilizadores escolher uma definição diferente de consulta de partição ou definição da origem de dados para a operação de atualização. Neste momento, **as substituições não são suportadas** no Power BI Premium. É devolvido o seguinte erro: "O enlace fora de linha não é permitido no Power BI Premium. Para obter mais informações, veja 'Suporte de leitura/escrita XMLA' na documentação do produto".
+As substituições no [comando Atualizar (TMSL)](/analysis-services/tmsl/refresh-command-tmsl) permitem aos utilizadores escolher uma definição diferente de consulta de partição ou definição da origem de dados para a operação de atualização. Neste momento, **as substituições não são suportadas** no Power BI Premium. É devolvido o seguinte erro: "O enlace fora de linha não é permitido no Power BI Premium. Para obter mais informações, veja 'Suporte de leitura/escrita XMLA' na documentação do produto".
 
 ## <a name="see-also"></a>Veja também
 
 [Conectividade dos conjuntos de dados com o ponto final XMLA](service-premium-connect-tools.md)   
 [Automatizar as tarefas de conjuntos de dados e áreas de trabalho Premium com principais de serviço](service-premium-service-principal.md)   
 [Resolver Problemas da Função Analisar no Excel](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[Implementação da solução de modelo tabular](https://docs.microsoft.com/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)
+[Implementação da solução de modelo tabular](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)

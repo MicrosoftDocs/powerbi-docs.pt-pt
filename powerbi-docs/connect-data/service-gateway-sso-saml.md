@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 772a9c0d171c2391a137f2e8a97f262f59df5cfe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 38aee727245cd7a33aefe1ee64a8a5be8b062cd7
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231367"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859779"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Utilizar o formato SAML (Security Assertion Markup Language) para SSO do Power BI em origens de dados no local
 
@@ -26,7 +26,7 @@ Atualmente, suportamos a plataforma SAP HANA com SAML. Para obter mais informaç
 
 Suportamos origens de dados adicionais com o [Kerberos](service-gateway-sso-kerberos.md) (incluindo SAP HANA).
 
-Para o SAP HANA, é recomendado ativar a encriptação antes de estabelecer uma ligação SSO do SAML. Para ativar a encriptação, configure o servidor HANA para aceitar ligações encriptadas e configurar o gateway para utilizar a encriptação para comunicar com o servidor HANA. Como o controlador ODBC do HANA não encripta asserções do SAML por predefinição, a asserção do SAML assinada é enviada do gateway para o servidor HANA *com luz verde* e está vulnerável à interceção e reutilização por terceiros. Para obter instruções sobre como ativar a encriptação para o HANA com a biblioteca OpenSSL, veja [Enable encryption for SAP HANA](/power-bi/desktop-sap-hana-encryption) (Ativar encriptação para o SAP HANA).
+Para o SAP HANA, é recomendado ativar a encriptação antes de estabelecer uma ligação SSO do SAML. Para ativar a encriptação, configure o servidor HANA para aceitar ligações encriptadas e configurar o gateway para utilizar a encriptação para comunicar com o servidor HANA. Como o controlador ODBC do HANA não encripta asserções do SAML por predefinição, a asserção do SAML assinada é enviada do gateway para o servidor HANA *com luz verde* e está vulnerável à interceção e reutilização por terceiros. Para obter instruções sobre como ativar a encriptação para o HANA com a biblioteca OpenSSL, veja [Enable encryption for SAP HANA](./desktop-sap-hana-encryption.md) (Ativar encriptação para o SAP HANA).
 
 ## <a name="configuring-the-gateway-and-data-source"></a>Configurar o gateway e a origem de dados
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 03b361c56bd545036a8d706ae01e2bfa2ec30222
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: bce23ecdc99f6428ecefc28580e3ae0ec05fac6a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921246"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859710"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Paginação nos relatórios paginados do Power BI
 
@@ -34,7 +34,7 @@ ms.locfileid: "78921246"
   
  Por predefinição, o tamanho da página é de 8,5 x 11 polegadas, mas pode alterar este tamanho no painel **Report Properties** (Propriedades do Relatório) ou na caixa de diálogo **Page Setup** (Configuração da Página), ou alterar as propriedades PageHeight (Altura da página) e PageWidth (Largura da página) no painel **Properties** (Propriedades). O tamanho da página não aumenta nem diminui para abranger os conteúdos do corpo do relatório. Se quiser que o relatório seja apresentado numa única página, todos os conteúdos dentro do corpo do relatório têm de ficar ajustados na página física. Se não ficarem ajustadas e utilizar o formato de quebras de página manuais, o relatório precisará de páginas adicionais. Se o corpo do relatório aumentar além da margem direita da página física, é inserida uma quebra de página na horizontal. Se o corpo do relatório aumentar além da margem inferior da página física, é inserida uma quebra de página na vertical.  
   
- Se quiser substituir o tamanho da página física definido no relatório, pode especificar o tamanho da página física através das definições de Informações do Dispositivo do compositor específico que está a utilizar para exportar o relatório. Para obter a lista completa, veja [Device Information Settings for Rendering Extensions](https://docs.microsoft.com/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services?view=sql-server-2017) (Definições de Informações do Dispositivo para a Composição de Extensões) na documentação do SQL Server Reporting Services.  
+ Se quiser substituir o tamanho da página física definido no relatório, pode especificar o tamanho da página física através das definições de Informações do Dispositivo do compositor específico que está a utilizar para exportar o relatório. Para obter a lista completa, veja [Device Information Settings for Rendering Extensions](/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services) (Definições de Informações do Dispositivo para a Composição de Extensões) na documentação do SQL Server Reporting Services.  
   
 ### <a name="margins"></a>Margens
 
@@ -77,13 +77,13 @@ ms.locfileid: "78921246"
   
  Pode utilizar constantes e expressões simples ou complexas para definir o valor das propriedades Disabled (Desativado) e ResetPageNumber (Repor Número da Página). No entanto, não pode utilizar a expressão com a propriedade BreakLocation (Localização da Quebra). Para obter mais informações sobre como escrever e utilizar expressões, veja [Expressões no Report Builder do Power BI](report-builder-expressions.md).  
   
- No seu relatório, pode escrever expressões que fazem referência aos nomes de página ou números de página atuais com a coleção **Globals**. Para obter mais informações, veja [Built-in Globals and Users References](https://docs.microsoft.com/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder?view=sql-server-2017) (Globals Incorporados e Referências de Utilizadores) na documentação do Report Builder e do SQL Server Reporting Services.
+ No seu relatório, pode escrever expressões que fazem referência aos nomes de página ou números de página atuais com a coleção **Globals**. Para obter mais informações, veja [Built-in Globals and Users References](/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder) (Globals Incorporados e Referências de Utilizadores) na documentação do Report Builder e do SQL Server Reporting Services.
   
 ### <a name="naming-excel-worksheet-tabs"></a>Atribuição de nomes aos separadores das folhas de cálculo do Excel
 
  Estas propriedades são úteis quando exporta relatórios para livros do Excel. Utilize a propriedade InitialPage (Página Inicial) para especificar um nome predefinido para o nome do separador da folha de cálculo quando exportar o relatório e utilize quebras de página e a propriedade PageName (Nome da Página) para fornecer nomes diferentes para cada folha de cálculo. Cada nova página de relatório, definida por uma quebra de página, é exportada para uma folha de cálculo diferente que tem o nome do valor da propriedade PageName (Nome da página). Se PageName estiver em branco, mas o relatório tiver um nome de página inicial, todas as folhas de cálculo no livro do Excel utilizam o mesmo nome, ou seja, o nome da página inicial.  
   
- Para obter mais informações sobre como estas propriedades funcionam quando os relatórios são exportados para o Excel, veja [Exporting to Microsoft Excel](https://docs.microsoft.com/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs) (Exportar para o Microsoft Excel) na documentação do Report Builder e do SQL Server Reporting Services.  
+ Para obter mais informações sobre como estas propriedades funcionam quando os relatórios são exportados para o Excel, veja [Exporting to Microsoft Excel](/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs) (Exportar para o Microsoft Excel) na documentação do Report Builder e do SQL Server Reporting Services.  
   
 ## <a name="next-steps"></a>Próximas etapas
 

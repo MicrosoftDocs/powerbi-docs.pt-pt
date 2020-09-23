@@ -9,12 +9,12 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: a1d62ad9cd8475e217a0ae051919792970dbb34d
-ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
+ms.openlocfilehash: 4b2b29effb1d9b4b2d8e743990dd3dd0d27470f8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "84219583"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859848"
 ---
 # <a name="what-is-power-bi-report-server"></a>O que é o Power BI Report Server?
 
@@ -38,9 +38,9 @@ O ponto de entrada do Power BI Report Server é um portal Web seguro que pode v
 
 ![Portal Web do Power BI Report Server](media/get-started/web-portal.png)
 
-Consoante as suas permissões, pode gerir o conteúdo no portal Web. Pode agendar o processamento de relatórios, aceder a relatórios a pedido e subscrever os relatórios publicados. Também pode aplicar a sua [imagem corporativa](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal) personalizada ao seu portal Web. 
+Consoante as suas permissões, pode gerir o conteúdo no portal Web. Pode agendar o processamento de relatórios, aceder a relatórios a pedido e subscrever os relatórios publicados. Também pode aplicar a sua [imagem corporativa](/sql/reporting-services/branding-the-web-portal) personalizada ao seu portal Web. 
 
-Mais sobre o [Portal Web do Power BI Report Server](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode).
+Mais sobre o [Portal Web do Power BI Report Server](/sql/reporting-services/web-portal-ssrs-native-mode).
 
 ## <a name="power-bi-reports"></a>Relatórios do Power BI
 Pode criar relatórios do Power BI (.pbix) com a versão do Power BI Desktop otimizada para o servidor de relatórios. Em seguida, pode publicar e vê-los no portal Web no seu próprio ambiente.
@@ -56,17 +56,17 @@ Os relatórios paginados (.rdl) são relatórios num estilo de documento com vis
 
 ![Relatórios paginados no Power BI Report Server](media/get-started/paginated-reports.png)
 
-Pode criar relatórios paginados através do [Report Builder](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) ou do Report Designer no [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt).
+Pode criar relatórios paginados através do [Report Builder](/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) ou do Report Designer no [SQL Server Data Tools (SSDT)](/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt).
 
 ## <a name="reporting-services-mobile-reports"></a>Relatórios móveis do Reporting Services
 Os relatórios móveis ligam-se aos dados no local e têm um esquema responsivo que se adapta aos diferentes dispositivos e formas de os segurar. São criados com o SQL Server Mobile Report Publisher.
 
-Mais sobre os [Relatórios móveis do Reporting Services](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher). 
+Mais sobre os [Relatórios móveis do Reporting Services](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher). 
 
 ## <a name="report-server-programming-features"></a>Funcionalidades de programação do Report Server
 Tire partido das funcionalidades de programação do Power BI Report Server para expandir e personalizar os seus relatórios, com APIs para integrar ou expandir dados e processamento de relatórios em aplicações personalizadas.
 
-Mais [documentação para programadores do Report Server](https://docs.microsoft.com/sql/reporting-services/reporting-services-developer-documentation).
+Mais [documentação para programadores do Report Server](/sql/reporting-services/reporting-services-developer-documentation).
 
 ## <a name="next-steps"></a>Próximos passos
 [Instalar o Power BI Report Server](install-report-server.md)  

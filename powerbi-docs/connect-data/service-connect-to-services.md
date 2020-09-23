@@ -8,18 +8,18 @@ ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fa4c8102eeb41fb754604eb646c11f44891413c9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 037a4c28f7b70cdd6bc546014a0b9218e89a7e3d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236254"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860722"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Ligar aos serviços que utiliza com o Power BI
 Com o Power BI, pode ligar-se a diversos serviços que utiliza para gerir a sua empresa, como o Salesforce, Microsoft Dynamics e Google Analytics. O Power BI começa por utilizar as suas credenciais para se ligar ao serviço. Em seguida, cria uma *área de trabalho* do Power BI com um dashboard e um conjunto de relatórios do Power BI que mostram os dados automaticamente e fornecem informações visuais sobre a sua empresa.
 
 >[!IMPORTANT]
->Os pacotes de conteúdos do serviço estão a ser substituídos por [Aplicações de modelo](https://docs.microsoft.com/power-bi/service-template-apps-overview). A partir de 25 de setembro de 2019, vários pacotes de conteúdos foram preteridos. Qualquer pacote de conteúdos preterido que tenha instalado permanecerá na sua conta, mas não será fornecida nenhuma documentação ou suporte para o mesmo nem será possível instalá-lo novamente.
+>Os pacotes de conteúdos do serviço estão a ser substituídos por [Aplicações de modelo](./service-template-apps-overview.md). A partir de 25 de setembro de 2019, vários pacotes de conteúdos foram preteridos. Qualquer pacote de conteúdos preterido que tenha instalado permanecerá na sua conta, mas não será fornecida nenhuma documentação ou suporte para o mesmo nem será possível instalá-lo novamente.
 
 Inicie sessão no Power BI para ver todos os [serviços aos quais se pode ligar](https://app.powerbi.com/getdata/services). 
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 12/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: a10370647a6079fc0d58307d30ffdc3f427e9f81
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3aa107dca6e4d1764bf8355eb0c79a8e113ee910
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231477"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860653"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>Usar o início de sessão único Kerberos para SSO no SAP BW com CommonCryptoLib (sapcrypto.dll)
 
@@ -95,7 +95,7 @@ Se não conseguir atualizar o relatório no serviço Power BI, pode utilizar o r
 
 1. Reproduza o problema.
 
-2. Abra a [aplicação de gateway](https://docs.microsoft.com/data-integration/gateway/service-gateway-app)e selecione **Export logs** (Exportar registos) no separador **Diagnostics** (Diagnóstico).
+2. Abra a [aplicação de gateway](/data-integration/gateway/service-gateway-app)e selecione **Export logs** (Exportar registos) no separador **Diagnostics** (Diagnóstico).
 
       ![Exportar registos do gateway](media/service-gateway-sso-kerberos/export-gateway-logs.png)
 
