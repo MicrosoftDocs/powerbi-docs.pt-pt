@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 2987d17510d8bbe5681c78df7d86d839c45b5ef9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3fea12fcc9d87c796f3da7bb0df040211db90f70
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240046"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861550"
 ---
 # <a name="developer-resources-for-power-bi-dataflows"></a>Recursos para programadores para fluxos de dados do Power BI
 
@@ -28,7 +28,7 @@ Os seguintes recursos para programadores estão disponíveis para trabalhar com 
 
 | Recursos de fluxos de dados | Descrição |
 | --- | --- |
-| [Power BI dataflow REST API Reference](https://go.microsoft.com/fwlink/?linkid=2047629) (Referência da API REST do fluxo de dados do Power BI)    | Um guia de referência completo para a API REST do fluxo de dados.|
+| [Power BI dataflow REST API Reference](/rest/api/power-bi/dataflows) (Referência da API REST do fluxo de dados do Power BI)    | Um guia de referência completo para a API REST do fluxo de dados.|
 
 
 ## <a name="next-steps"></a>Passos Seguintes
@@ -41,9 +41,9 @@ Este artigo forneceu informações sobre os recursos para programadores para flu
 * [Utilizar fluxos de dados com origens de dados no local](service-dataflows-on-premises-gateways.md)
 
 Para obter informações sobre o desenvolvimento do CDM e os recursos de tutoriais, veja o seguinte:
-* [Common Data Service – descrição geral](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [Pastas de CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [Definição do ficheiro de modelo do CDM](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Common Data Service – descrição geral](/powerapps/common-data-model/overview)
+* [Pastas de CDM](/common-data-model/data-lake)
+* [Definição do ficheiro de modelo do CDM](/common-data-model/model-json)
 
 
 Para obter mais informações sobre o Power Query e a atualização agendada, pode ler estes artigos:

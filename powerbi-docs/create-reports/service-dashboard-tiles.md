@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9a6db74384a9fa47d13eb36b0e64cb926600a191
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84b3fafa3ae5e12a96b4e1117ee74baf94dba597
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219680"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861435"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introdução aos mosaicos dos dashboards para designers do Power BI
 
@@ -42,7 +42,7 @@ Existem diversas formas diferentes de adicionar (afixar) um mosaico a um dashboa
 * [Outro dashboard](service-pin-tile-to-another-dashboard.md)
 * [um livro do Excel no OneDrive para Empresas](service-dashboard-pin-tile-from-excel.md)
 * [Quick Insights (Informações Rápidas)](service-insights.md)
-* [Um relatório paginado no local no Power BI Report Server ou SQL Server Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
+* [Um relatório paginado no local no Power BI Report Server ou SQL Server Reporting Services](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 Crie mosaicos autónomos para imagens, caixas de texto, vídeos, dados de transmissão em fluxo e conteúdo Web diretamente no dashboard com o controlo [Adicionar mosaico](service-dashboard-add-widget.md).
 

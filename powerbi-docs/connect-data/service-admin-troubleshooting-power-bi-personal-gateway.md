@@ -5,15 +5,16 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 108a50017a55a2ac87bb8db2adf4f92bd5dca58f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9c5e241cee86b9f7ea21607128f5c32099dd0415
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231075"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861504"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Resolver problemas do gateway do Power BI (modo pessoal)
 
@@ -30,7 +31,7 @@ Muitos problemas podem surgir quando a versão do gateway está desatualizada. �
 ## <a name="installation"></a>Instalação
 O **Gateway (modo pessoal) funciona em versões de 64 bits:** se o seu computador tiver uma versão de 32 bits, não pode instalar o gateway (modo pessoal). A versão do seu sistema operativo tem de ser a de 64 bits. Instale uma versão de 64 bits do Windows ou instale o gateway (modo pessoal) num computador de 64 bits.
 
-Não consegue instalar o **gateway (modo pessoal) como um serviço, embora seja um administrador local do computador:** a instalação pode falhar se o utilizador estiver no grupo de Administração local do computador, mas a Política de Grupo não permitir que o utilizador inicie sessão como um serviço. Certifique-se de que a Política de Grupo permite que um utilizador inicie sessão como um serviço. Estamos a trabalhar para encontrar uma correção para este problema. Para obter mais informações, veja [Adicionar a opção Iniciar sessão como um serviço a uma conta](https://technet.microsoft.com/library/cc739424.aspx).
+Não consegue instalar o **gateway (modo pessoal) como um serviço, embora seja um administrador local do computador:** a instalação pode falhar se o utilizador estiver no grupo de Administração local do computador, mas a Política de Grupo não permitir que o utilizador inicie sessão como um serviço. Certifique-se de que a Política de Grupo permite que um utilizador inicie sessão como um serviço. Estamos a trabalhar para encontrar uma correção para este problema. Para obter mais informações, veja [Adicionar a opção Iniciar sessão como um serviço a uma conta](/previous-versions/windows/it-pro/windows-server-2003/cc739424(v=ws.10)).
 
 **A operação excedeu o limite de tempo:** esta mensagem é comum quando o computador (computador físico ou VM) em que o gateway (modo pessoal) é instalado tem um processador de um só núcleo. Feche todas as aplicações, desative todos os processos não essenciais e tente instalar novamente.
 

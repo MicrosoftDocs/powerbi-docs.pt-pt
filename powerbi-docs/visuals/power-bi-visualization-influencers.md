@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48f094def0576d6e90a71117cc37ac975304e07f
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: 58d595ff5e7d3947117aa9663e761a6f98f10c7f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557285"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861320"
 ---
 # <a name="create-key-influencers-visualizations"></a>Criar visualizações de influenciadores principais
 
@@ -241,7 +241,7 @@ Os segmentos superiores de destinos numéricos mostram grupos em que os preços 
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>Analisar uma métrica que é uma medida ou uma coluna resumida
 
-No caso de uma medida ou coluna resumida, a análise é predefinida para o **Tipo de Análise Contínuo** descrito [acima](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric). Esta opção não pode ser alterada. A maior diferença entre analisar uma medida/coluna resumida e uma coluna numérica não resumida é o nível a que a análise é executada.
+No caso de uma medida ou coluna resumida, a análise é predefinida para o **Tipo de Análise Contínuo** descrito [acima](#analyze-a-metric-that-is-numeric). Esta opção não pode ser alterada. A maior diferença entre analisar uma medida/coluna resumida e uma coluna numérica não resumida é o nível a que a análise é executada.
 
 No caso de colunas não resumidas, a análise é sempre executada ao nível da tabela. No exemplo do preço da casa acima, analisámos a métrica **House Price** (Preço da Casa) para ver o que influencia o aumento/diminuição do preço da casa. A análise é executada automaticamente ao nível da tabela. A nossa tabela tem um ID exclusivo para cada casa, por isso a análise é executada ao nível da casa.
 
@@ -255,7 +255,7 @@ As medidas e colunas resumidas são analisadas automaticamente ao nível dos cam
 
 Esta análise é muito resumida e, portanto, será difícil para o modelo de regressão encontrar padrões nos dados a partir dos quais pode aprender. Devemos executar a análise a um nível mais detalhado para obter resultados melhores. Se quiséssemos analisar o preço da casa ao nível da casa, teríamos de adicionar explicitamente o campo **ID** à análise. No entanto, não queremos que o ID da casa seja considerado um influenciador. Não é útil saber que, à medida que o ID da casa aumenta, o preço de uma casa aumenta. É aqui que a opção do grupo de campos **Expandir por** se torna útil. Pode utilizar a opção **Expandir por** para adicionar campos que pretende utilizar para definir o nível da análise sem procurar novos influenciadores.
 
-Observe o aspeto da visualização assim que adicionarmos **ID** a **Expandir por**. Assim que definir o nível a que pretende que a sua medida seja avaliada, a interpretação dos influenciadores é exatamente igual para [colunas numéricas não resumidas](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric).
+Observe o aspeto da visualização assim que adicionarmos **ID** a **Expandir por**. Assim que definir o nível a que pretende que a sua medida seja avaliada, a interpretação dos influenciadores é exatamente igual para [colunas numéricas não resumidas](#analyze-a-metric-that-is-numeric).
 
 ![Tabela de medidas](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 

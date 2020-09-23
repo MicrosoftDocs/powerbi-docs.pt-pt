@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eb46c35c4040ead37b132cf2c34a22663ee72b6d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9030d7ebacad92780a7dcafe33ae5bdded842b01
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220293"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856154"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Ver relatórios do Power BI otimizados para o seu telemóvel
 
@@ -115,7 +115,7 @@ Existem alguns tipos de desagregação:
 
 ## <a name="drill-through-from-a-value"></a>Pormenorizar a partir de um valor
 A pormenorização liga valores numa página de relatório a outras páginas de relatório. Ao pormenorizar de um ponto de dados para outra página de relatório, os valores do ponto de dados são utilizados para filtrar a página pormenorizada ou o contexto será o dos dados selecionados.
-Os autores do relatório podem [definir a pormenorização](https://docs.microsoft.com/power-bi/desktop-drillthrough) ao criarem o relatório.
+Os autores do relatório podem [definir a pormenorização](../../create-reports/desktop-drillthrough.md) ao criarem o relatório.
 
 1. Toque sem soltar num ponto de dados num elemento visual.
 2. Será apresentada uma descrição e, se estiver definida a pormenorização, o rodapé da descrição irá apresentar uma seta para pormenorizar.

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: bdea7bbadc9e974e6b71122775408f50cfe33de3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204972"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855961"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -23,7 +23,7 @@ Aplica-se a:
 | iPhones |iPads |Telemóveis Android |Tablets Android |Dispositivos Windows 10 |
 
 >[!NOTE]
->O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+>O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Um relatório do Power BI é uma vista interativa dos seus dados, com elementos visuais que representam diferentes descobertas e informações obtidas por meio desses dados. Ver os relatórios nas aplicações móveis do Power BI é o terceiro passo num processo de três passos:
 
@@ -134,13 +134,13 @@ Por exemplo:
 
 **Marcadores** só está presente se tiverem sido definidos [marcadores](mobile-reports-in-the-mobile-apps.md#bookmarks) no relatório. São apresentados os dois marcadores pessoais que pode definir no serviço Power BI e os marcadores definidos pelo criador do relatório. Se um dos marcadores tiver sido definido como o marcador predefinido, o relatório abrir-se-á nessa vista quando for carregado.
 
-As ações **Anotar e partilhar** podem estar desativadas caso exista uma [política de proteção do Intune](https://docs.microsoft.com/intune/app-protection-policies) na sua organização que proíba a partilha a partir da aplicação móvel Power BI.
+As ações **Anotar e partilhar** podem estar desativadas caso exista uma [política de proteção do Intune](/intune/app-protection-policies) na sua organização que proíba a partilha a partir da aplicação móvel Power BI.
 
 A ação **Convidar** só estará ativa se tiver permissão para partilhar o relatório com outras pessoas. Apenas terá permissão caso seja o proprietário do relatório ou caso o proprietário lhe tenha concedido permissão para voltar a partilhar.
 
-A ação **Filtrar pela localização atual** estará ativa se o autor do relatório tiver categorizado o relatório com dados geográficos. Para obter mais informações, leia sobre a [identificação de dados geográficos num relatório](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering).
+A ação **Filtrar pela localização atual** estará ativa se o autor do relatório tiver categorizado o relatório com dados geográficos. Para obter mais informações, leia sobre a [identificação de dados geográficos num relatório](../../transform-model/desktop-mobile-geofiltering.md).
 
-A ação **Ler para filtrar o relatório por código de barras** só estará ativa se o conjunto de dados do seu relatório estiver identificado como **Código de barras**. Para obter mais informações, leia sobre a [identificação de códigos de barras no Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes).
+A ação **Ler para filtrar o relatório por código de barras** só estará ativa se o conjunto de dados do seu relatório estiver identificado como **Código de barras**. Para obter mais informações, leia sobre a [identificação de códigos de barras no Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md).
 
 ### <a name="bookmarks"></a>Marcadores
 
@@ -154,7 +154,7 @@ Quando é aberta uma vista de marcador de um relatório, o nome do marcador apar
 
 ![vista de marcador](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
-[Leia mais sobre marcadores no serviço Power BI](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks).
+[Leia mais sobre marcadores no serviço Power BI](../end-user-bookmarks.md).
 
 ## <a name="configure-your-experience-with-reports"></a>Configurar a sua experiência em relatórios
 A aplicação móvel do Power BI tem uma série de definições que lhe permitem controlar a sua experiência de relatórios. Atualmente, pode configurar:

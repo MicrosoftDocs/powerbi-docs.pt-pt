@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69929ff48428ebf73044c296eabc419f8e442b3b
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 7a7988ba9bb9efd4b2dec20fd2dc88478af439a2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411963"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855294"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Utilizar ferramentas externas no Power BI Desktop (pré-visualização)
 
@@ -37,13 +37,13 @@ As seguintes secções descrevem as operações suportadas pelas ferramentas ext
 
 As ferramentas externas podem ligar-se ao conjunto de dados do Power BI Desktop (modelo do Analysis Services) para editar os seguintes objetos. A edição de um ficheiro de modelo do Power BI Desktop (PBIT) não é suportada.
 
-* [Medidas](https://docs.microsoft.com/analysis-services/tabular-models/measures-ssas-tabular) para os cálculos
-* [Grupos de cálculo](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups) para a reutilização de cálculos em modelos complexos
-* As [Perspetivas](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular) para definir vistas dos metadados dos conjuntos de dados específicas do domínio empresarial em destaque
+* [Medidas](/analysis-services/tabular-models/measures-ssas-tabular) para os cálculos
+* [Grupos de cálculo](/analysis-services/tabular-models/calculation-groups) para a reutilização de cálculos em modelos complexos
+* As [Perspetivas](/analysis-services/tabular-models/perspectives-ssas-tabular) para definir vistas dos metadados dos conjuntos de dados específicas do domínio empresarial em destaque
 
 A gestão de traduções de metadados através de ferramentas externas pode ser possível, mas não é suportada atualmente nesta versão de pré-visualização. Se a região do utilizador atual for uma região com tradução, a edição de objetos na lista de campos não funcionará corretamente com a versão atual do Power BI Desktop. 
 
-Todos os metadados do conjunto de dados [Modelo de Objeto em Tabela](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) podem ser acedidos apenas para fins de leitura, mas os objetos não abrangidos pela lista descrita no artigo [Modelo de Objeto em Tabela](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) ainda não são suportados para edição na instância do Analysis Services do Power BI Desktop.
+Todos os metadados do conjunto de dados [Modelo de Objeto em Tabela](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) podem ser acedidos apenas para fins de leitura, mas os objetos não abrangidos pela lista descrita no artigo [Modelo de Objeto em Tabela](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) ainda não são suportados para edição na instância do Analysis Services do Power BI Desktop.
 
 
 ## <a name="featured-external-tools"></a>Ferramentas externas em destaque
@@ -147,5 +147,3 @@ Poderá também estar interessado nos seguintes artigos:
 
 * [Utilizar a pormenorização de relatórios cruzados em relatórios do Power BI](desktop-cross-report-drill-through.md)
 * [Utilizar a segmentação de dados no Power BI Desktop](../visuals/power-bi-visualization-slicers.md)
-
-

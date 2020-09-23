@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 999e146d459fbff541e3655d97ddb841972ec62c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dddc90ee30ff58269c723d247a6c0a9fe3718683
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227728"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855087"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Aplicação Métricas do Power BI Premium
 
@@ -342,10 +342,9 @@ Para diagnosticar o cenário dois, determine primeiro se a limitação se deve a
 ## <a name="next-steps"></a>Próximos passos
 
 * [O que é o Power BI Premium?](service-premium-what-is.md)
-* [Notas de versão do Power BI Premium](../service-premium-release-notes.md)
 * [Documento técnico do Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 * [Documento técnico sobre Planear uma Implementação Empresarial do Power BI](https://aka.ms/pbienterprisedeploy)
-* [Ativação da Versão de Avaliação Pro alargada](../service-extended-pro-trial.md)
+* [Ativação da Versão de Avaliação Pro alargada](../fundamentals/service-self-service-signup-for-power-bi.md)
 * [FAQ do Power BI Embedded](../developer/embedded/embedded-faq.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/14/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 5cd0dd3b91109e63e5481e2f5e5516fd9ecd245c
-ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.openlocfilehash: cd9295e26de50714a15afb672814893317fb8e3b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86385981"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861412"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Transferir um relatório do serviço Power BI para o Power BI Desktop (Pré-visualização)
       
@@ -30,7 +30,7 @@ Só pode transferir relatórios que tenham [criados com o Power BI Desktop](/lea
 
 Para transferir o ficheiro .pbix, siga estes passos:
 
-1. No serviço Power BI, abra o relatório que pretende transferir na [Vista de edição](https://docs.microsoft.com/power-bi/service-interact-with-a-report-in-editing-view).
+1. No serviço Power BI, abra o relatório que pretende transferir na [Vista de edição](./service-interact-with-a-report-in-editing-view.md).
 
 2. No painel de navegação superior, selecione **Ficheiro > Transferir relatório**.
    

@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/25/2020
 ms.author: painbar
-ms.openlocfilehash: f72117dfab77893dd48be7e939c07a1a8c2bea90
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f8f9ed1a9f2ba0e1f3c41eded45f32b8ef220f00
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219856"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855823"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Afixe um dashboard ao Ecrã inicial do Windows 10 a partir da aplicação móvel do Power BI
 Pode afixar dashboards do Power BI ao Ecrã inicial do Windows a partir da aplicação móvel do Power BI para o Windows 10. Quando toca no mosaico no Ecrã inicial, o dashboard abre na aplicação móvel do Power BI para o Windows 10.
@@ -20,7 +20,7 @@ Pode afixar dashboards do Power BI ao Ecrã inicial do Windows a partir da aplic
 ![Mosaico do Windows](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-screen.png)
 
 >[!NOTE]
->O suporte à aplicação móvel Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+>O suporte à aplicação móvel Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-tile"></a>Afixar um dashboard ao ecrã Início como um mosaico
 1. Abre um dashboard.

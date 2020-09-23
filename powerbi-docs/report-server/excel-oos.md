@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 05/14/2020
-ms.openlocfilehash: 03197d7d6b976615f13d9f482c1ba4d4c1ae2abd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 90061cec87bae4b65d347617dacc2863052a07ce
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239453"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861159"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configure o servidor de relatórios para alojar livros do Excel com o Office Online Server (OOS)
 
-Além de visualizar relatórios do Power BI no portal Web, o Power BI Report Server pode alojar livros do Excel através do [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). O servidor de relatórios torna-se uma localização única para publicar e visualizar o conteúdo do Microsoft BI com gestão personalizada.
+Além de visualizar relatórios do Power BI no portal Web, o Power BI Report Server pode alojar livros do Excel através do [Office Online Server](/officeonlineserver/office-online-server-overview) (OOS). O servidor de relatórios torna-se uma localização única para publicar e visualizar o conteúdo do Microsoft BI com gestão personalizada.
 
 ![Relatórios do Excel visualizados no portal Web do servidor de relatórios](media/excel-oos/excel-in-pbirs.png)
 
@@ -187,6 +187,6 @@ Depois de introduzir o URL de deteção e selecionar **Aplicar**, selecionar um 
 [Descrição geral para administradores](admin-handbook-overview.md)  
 [Instalar o Power BI Report Server](install-report-server.md)  
 [Transferir o Report Builder](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Transferir o SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Transferir o SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

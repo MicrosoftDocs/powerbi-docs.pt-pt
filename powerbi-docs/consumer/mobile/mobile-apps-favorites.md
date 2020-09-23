@@ -8,11 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: ee2ce1161f5afbdc39520a0102d3289f00792207
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 553beb5f30625ce416ea778ba6b5fde63526065c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240209"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856481"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Criar e ver favoritos nas aplicações móveis do Power BI
 Aplica-se a:
@@ -22,7 +23,7 @@ Aplica-se a:
 | iPhones |iPads |Telemóveis Android |Tablets Android |Dispositivos Windows 10 |
 
 >[!NOTE]
->O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+>O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Leia mais sobre como criar e ver os dashboards, relatórios e aplicações favoritos do Power BI, bem como os relatórios e KPIs favoritos no local do Power BI Report Server e Reporting Services, nas aplicações móveis.
 
@@ -75,4 +76,3 @@ Pode ver os seus KPIs e relatórios favoritos do Power BI Report Server e Report
 ## <a name="next-steps"></a>Próximos passos
 * [Tornar dashboards favoritos no serviço Power BI](../end-user-favorite.md) 
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

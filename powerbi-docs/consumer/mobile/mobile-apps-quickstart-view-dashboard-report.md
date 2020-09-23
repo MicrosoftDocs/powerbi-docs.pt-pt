@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: e3b0fba18250853eec7eef85b5cfc9161290bacb
-ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
+ms.openlocfilehash: 003543579e26262194668f94bdf78b8b002cb114
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84685322"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856168"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Quickstart: Explorar dashboards e relatórios nas aplicações móveis do Power BI
 Neste início rápido, pode fazer uma visita guiada rápida da aplicação Power BI Mobile e explorar um relatório e dashboard de exemplo. É apresentada a aplicação Power BI para iOS, mas pode facilmente acompanhar noutros dispositivos.
@@ -25,7 +25,7 @@ Aplica-se a:
 | iPhone | iPad | Android | Windows 10 |
 
 >[!NOTE]
->O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+>O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 O dashboard é um portal para o ciclo de vida e os processos da sua empresa. É uma vista geral, um único local para monitorizar o estado atual da empresa. Os relatórios são vistas interativas dos seus dados, com elementos visuais que representam diferentes descobertas e informações obtidas através desses dados. 
 
@@ -112,4 +112,3 @@ Neste início rápido, explorou um dashboard e um relatório de exemplo no seu d
 
 > [!div class="nextstepaction"]
 > [Início Rápido: Introdução ao serviço Power BI](../end-user-experience.md)
-

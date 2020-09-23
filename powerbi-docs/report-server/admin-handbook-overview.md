@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
-ms.openlocfilehash: 8f292b8474c478c178b85f2c015781ead1fa503c
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 172bc4cb677ffb4df5719e3c77f12ad10160c247
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86213814"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861274"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Descrição geral de administração, Power BI Report Server
 Este artigo é a descrição geral da administração do Power BI Report Server, uma localização no local para armazenar e gerir os relatórios móveis e paginados do Power BI. Este artigo apresenta os conceitos de planeamento, implementação e gestão do Power BI Report Server, com ligações para obter mais informações.
@@ -38,17 +38,16 @@ Não é necessário atualizar para o SQL Server Reporting Services. Se tiver uma
 ## <a name="configuring-your-report-server"></a>Configurar o servidor de relatórios
 Tem várias opções de configuração do servidor de relatórios. Irá utilizar SSL? Está a configurar um servidor de e-mail? Quer integrar no serviço Power BI para afixar visualizações?
 
-A maioria da configuração irá ocorrer no Gestor de Configuração do Servidor de Relatórios. Veja a documentação do [gestor de configuração](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) para obter mais detalhes.
+A maioria da configuração irá ocorrer no Gestor de Configuração do Servidor de Relatórios. Veja a documentação do [gestor de configuração](/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) para obter mais detalhes.
 
 ## <a name="security"></a>Segurança
-A segurança e proteção são importantes para todas as organizações. Pode saber mais sobre a autenticação, a autorização, as funções e as permissões na documentação de [segurança](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection).
+A segurança e proteção são importantes para todas as organizações. Pode saber mais sobre a autenticação, a autorização, as funções e as permissões na documentação de [segurança](/sql/reporting-services/security/reporting-services-security-and-protection).
 
 ## <a name="next-steps"></a>Próximos passos
 [Instalar o Power BI Report Server](install-report-server.md)  
 [Encontrar a chave de produto do servidor de relatórios](find-product-key.md)  
 [Instalar o Power BI Desktop otimizado para o Power BI Report Server](install-powerbi-desktop.md)  
 [Transferir o Report Builder](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Transferir o SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Transferir o SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

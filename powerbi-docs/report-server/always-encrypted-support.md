@@ -8,16 +8,16 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
-ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f921d9dbeb16d1b960e22f228f7833c8fbf184b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76710212"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861251"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Funcionalidade Always Encrypted no Power BI Report Server
 
-Este artigo descreve o suporte da funcionalidade Always Encrypted no Power BI Report Server ao utilizar os tipos de origens de dados Microsoft SQL Server e Base de Dados SQL do Microsoft Azure. Para obter mais informações sobre a funcionalidade Always Encrypted no SQL Server, veja o artigo [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine).
+Este artigo descreve o suporte da funcionalidade Always Encrypted no Power BI Report Server ao utilizar os tipos de origens de dados Microsoft SQL Server e Base de Dados SQL do Microsoft Azure. Para obter mais informações sobre a funcionalidade Always Encrypted no SQL Server, veja o artigo [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine).
 
 ## <a name="always-encrypted-user-isolation"></a>Isolamento de utilizadores da funcionalidade Always Encrypted
 
@@ -37,8 +37,8 @@ Neste momento, o Power BI Report Server não restringe o acesso a colunas Always
 
 A conta que requer acesso ao certificado é a conta de serviço. O certificado deve ser armazenado no arquivo de certificados do computador local. Para obter mais informações, veja:
 
-- [Configure the Report Server Service Account](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Configurar a Conta de Serviço do Servidor de Relatórios) (Configuration Manager)
-- Secção [Making certificates available to applications and users](https://docs.microsoft.com/sql/relational-databases/security/encryption/create-and-store-column-master-keys-always-encrypted#making-certificates-available-to-applications-and-users) (Disponibilizar certificados para aplicações e utilizadores) no artigo do SQL Server "Create and store column master keys for Always Encrypted" (Criar e armazenar chaves mestras de coluna para o Always Encrypted).
+- [Configure the Report Server Service Account](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Configurar a Conta de Serviço do Servidor de Relatórios) (Configuration Manager)
+- Secção [Making certificates available to applications and users](/sql/relational-databases/security/encryption/create-and-store-column-master-keys-always-encrypted#making-certificates-available-to-applications-and-users) (Disponibilizar certificados para aplicações e utilizadores) no artigo do SQL Server "Create and store column master keys for Always Encrypted" (Criar e armazenar chaves mestras de coluna para o Always Encrypted).
 
 ### <a name="column-encryption-strategy"></a>Estratégia de encriptação de coluna
 
@@ -51,7 +51,7 @@ No Power BI Report Server, a estratégia de encriptação de coluna pode ser *de
 |Pode ser utilizado como um campo agregado, exceto para COUNT e DISTINCT. | Não, exceto para COUNT e DISTINCT | No |
 |Pode ser utilizado como um parâmetro de relatório | Yes | No |
 
-Saiba mais sobre [encriptação determinista vs. aleatória](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption).
+Saiba mais sobre [encriptação determinista vs. aleatória](/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption).
 
 ### <a name="parameter-usage"></a>Utilização de parâmetros
 
@@ -73,7 +73,7 @@ A utilização de parâmetros aplica-se apenas à encriptação determinista.
 | --- | --- | --- | --- | --- | --- |
 | int | Yes | Yes | COUNT, DISTINCT | Sim, como Número Inteiro |   |
 | float | Yes | Yes | COUNT, DISTINCT | Sim, como Flutuante |   |
-| nvarchar | Yes | Yes | COUNT, DISTINCT | Sim, como Texto | A encriptação determinista tem de utilizar um agrupamento de colunas com uma sequência de ordenação binary2 para colunas de carateres. Veja o artigo [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) do SQL Server para obter detalhes.  |
+| nvarchar | Yes | Yes | COUNT, DISTINCT | Sim, como Texto | A encriptação determinista tem de utilizar um agrupamento de colunas com uma sequência de ordenação binary2 para colunas de carateres. Veja o artigo [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) do SQL Server para obter detalhes.  |
 | varchar | Yes | Yes | COUNT, DISTINCT | No |   |
 | decimal | Yes | Yes | COUNT, DISTINCT | No |   |
 | numeric | Yes | Yes | COUNT, DISTINCT | No |   |
@@ -86,11 +86,10 @@ Atualmente, as únicas agregações suportadas nas colunas deterministas Always 
 
 ## <a name="always-encrypted-in-connection-strings"></a>Always Encrypted nas cadeias de ligação
 
-Tem de ativar a funcionalidade Always Encrypted na cadeia de ligação de uma origem de dados do SQL Server. Saiba mais sobre como ativar a funcionalidade [Always Encrypted nas consultas da aplicação](https://docs.microsoft.com/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries).
+Tem de ativar a funcionalidade Always Encrypted na cadeia de ligação de uma origem de dados do SQL Server. Saiba mais sobre como ativar a funcionalidade [Always Encrypted nas consultas da aplicação](/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries).
 
 ## <a name="next-steps"></a>Próximas etapas
 
-[Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine) no SQL Server e Base de Dados SQL do Azure
+[Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine) no SQL Server e Base de Dados SQL do Azure
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-
