@@ -51,7 +51,9 @@
           items:
             - name: Collaborate in Teams (Colaborar no Teams)
               href: service-collaborate-microsoft-teams.md
-            - name: Embed reports in Teams (Incorporar relatórios no Teams)
+            - name: Adicionar a aplicação Power BI ao Teams
+              href: service-microsoft-teams-app.md
+            - name: Incorporar relatórios em separadores do Teams
               href: service-embed-report-microsoft-teams.md
             - name: Share directly to Teams (Partilhar diretamente no Teams)
               href: service-share-report-teams.md

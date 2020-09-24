@@ -269,6 +269,8 @@
               href: ../visuals/power-bi-visualization-combo-chart.md
             - name: Decomposition tree visuals (Elementos visuais de árvore de decomposição)
               href: ../visuals/power-bi-visualization-decomposition-tree.md
+            - name: Narrativas inteligentes
+              href: ../visuals/power-bi-visualization-smart-narrative.md
             - name: Gráficos em anel
               href: ../visuals/power-bi-visualization-doughnut-charts.md
             - name: Mapas preenchidos (coropletos)
