@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 02/20/2020
-ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 09/17/2020
+ms.openlocfilehash: 4579296568524304f416d8e353dcbccac77bfc63
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77558558"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861757"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de software e hardware para instalar o Power BI Report Server
 
@@ -23,12 +23,12 @@ Este artigo descreve o hardware mínimo e os requisitos de software para instala
 
 | Componente | Requisito |
 | --- | --- |
-| .NET Framework |4.7<br><br>Pode instalar manualmente o .NET Framework a partir do [Microsoft .NET Framework 4.7 (Instalador Web) para Windows](https://support.microsoft.com/en-us/kb/3186500).<br/><br/> Para obter mais informações, recomendações e orientações sobre o .NET Framework 4.7, veja o [Guia de Implementação do .NET Framework para Programadores](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>O Windows 8.1 e o Windows Server 2012 R2 requerem a atualização [KB2919355](https://support.microsoft.com/kb/2919355) antes de instalar o .NET Framework 4.7. |
+| .NET Framework |4.7<br><br>Pode instalar manualmente o .NET Framework a partir do [Microsoft .NET Framework 4.7 (Instalador Web) para Windows](https://support.microsoft.com/en-us/kb/3186500).<br/><br/> Para obter mais informações, recomendações e orientações sobre o .NET Framework 4.7, veja o [Guia de Implementação do .NET Framework para Programadores](/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>O Windows 8.1 e o Windows Server 2012 R2 requerem a atualização [KB2919355](https://support.microsoft.com/kb/2919355) antes de instalar o .NET Framework 4.7. |
 | Disco Rígido |O Power BI Report Server requer um mínimo de 1 GB de espaço disponível em disco rígido.<br><br>Será necessário espaço adicional no servidor de base de dados que aloja a base de dados do servidor de relatórios. |
 | Memória |**Mínima:** 1 GB<br/><br/> **Recomendada:** Pelo menos 4 GB |
 | Velocidade do processador |**Mínima:** Processador x64: 1,4 GHz<br/><br/> **Recomendada:** 2,0 GHz ou mais rápido |
 | Tipo de processador |Processador x64: AMD Opteron, AMD Athlon 64, Intel Xeon com suporte Intel EM64T, Intel Pentium IV com suporte EM64T |
-| Sistema operativo |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
+| Sistema operativo |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br> |
 
 > [!NOTE]
 > A instalação do Power BI Report Server é suportada apenas em processadores x64.
@@ -45,15 +45,15 @@ O SQL Server é utilizado para alojar as bases de dados de servidores de relató
 * SQL Server 2014
 * SQL Server 2012
 
-Quando criar a base de dados do servidor de relatórios num computador remoto, tem de configurar a ligação de forma a utilizar uma conta de utilizador de domínio ou uma conta de serviço com acesso à rede. Se decidir utilizar uma instância remota do SQL Server, considere atentamente que credenciais o servidor de relatórios deve utilizar para se ligar à instância do SQL Server. Para obter mais informações, consulte [Configure a Report Server Database Connection (Configurar uma Ligação à Base de Dados do Servidor de Relatórios - em inglês)](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
+Quando criar a base de dados do servidor de relatórios num computador remoto, tem de configurar a ligação de forma a utilizar uma conta de utilizador de domínio ou uma conta de serviço com acesso à rede. Se decidir utilizar uma instância remota do SQL Server, considere atentamente que credenciais o servidor de relatórios deve utilizar para se ligar à instância do SQL Server. Para obter mais informações, consulte [Configure a Report Server Database Connection (Configurar uma Ligação à Base de Dados do Servidor de Relatórios - em inglês)](/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
 
 ## <a name="considerations"></a>Considerações
 
 O Power BI Report Server irá instalar os valores predefinidos para configurar as principais definições necessárias para tornar um servidor de relatórios operacional. Tem os seguintes requisitos:
 
-* Os idiomas suportados para o Power BI Report Server são: inglês, alemão, espanhol, japonês, italiano, francês, russo, chinês simplificado, chinês tradicional, português (Brasil) e coreano.
+* Os idiomas suportados para o Power BI Report Server são: inglês, alemão, espanhol, japonês, italiano, francês, russo, chinês simplificado, chinês tradicional, português do Brasil e coreano.
 * Tem de estar disponível um Motor de Base de Dados do SQL Server após a configuração e antes de configurar a base de dados para o servidor de relatórios. A instância do Motor de Base de Dados aloja a base de dados do servidor de relatórios que o Gestor de Configuração do Reporting Services irá criar. O Motor de Base de Dados não é necessário para a experiência de configuração propriamente dita.
-* [Reporting Services Features Supported by the Editions of SQL Server](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016) (Recursos do SQL Server Reporting Services Suportados pelas Edições do SQL Server) descreve as diferenças entre as edições do SQL Server.
+* [Reporting Services Features Supported by the Editions of SQL Server](/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016) (Recursos do SQL Server Reporting Services Suportados pelas Edições do SQL Server) descreve as diferenças entre as edições do SQL Server.
 * A conta de utilizador que executa a Configuração tem de ser de um membro do grupo local de Administradores.
 * A conta de utilizador que executa o Gestor de Configuração do SQL Server Reporting Services tem de ter permissão para aceder e criar bases de dados na instância do Motor de Base de Dados que aloja as bases de dados do servidor de relatórios.
 * A configuração tem de conseguir utilizar os valores predefinidos para reservar os URLs que fornecem acesso ao servidor de relatórios e ao portal Web. Estes valores são a porta 80, um caráter universal forte, e os nomes de diretório virtual no formato **ReportServer** e **Relatórios**.
@@ -72,12 +72,12 @@ Pode utilizar uma ligação em direto contra instâncias em tabela ou multidimen
 | 2014 |Business Intelligence e SKU Enterprise |
 | 2016 e posterior |SKU Standard ou superior |
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 
 [O que é o Power BI Report Server?](get-started.md)  
 [Descrição geral para administradores](admin-handbook-overview.md)  
 [Instalar o Power BI Report Server](install-report-server.md)  
 [Transferir o Report Builder](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Transferir o SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Transferir o SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
