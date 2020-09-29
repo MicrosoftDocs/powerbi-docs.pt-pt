@@ -6,21 +6,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4282b4fc5d59e2ff5e0def353ad444546dcf5f43
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 2268cb86ec60e2b461c66cca6034fd47a30c2e38
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008520"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91019981"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Quais são as Novidades no Power BI Desktop?
 
-## <a name="august-2020-update-2844610"></a>Atualização de agosto de 2020 (2.84.461.0)
+## <a name="september-2020-update-2852840"></a>Atualização de setembro de 2020 (2.85.284.0)
 
-As nossas atualizações do Power BI Desktop de agosto são uma celebração de novas funcionalidades e capacidades dignas de fogo de artifício, piqueniques ensolarados e churrascos comunitários. 
+As nossas atualizações de setembro do Power BI Desktop são fresquinhas e coloridas, tal como a chegada do outono e o amarelecer das folhas. 
+
+Uma novidade este mês: as atualizações mensais no blogue e em vídeo do Power BI Desktop agora também incluem as novas atualizações do Power BI para dispositivos móveis e do serviço Power BI. Este artigo descreve as atualizações do Power BI Desktop. Para saber mais sobre as atualizações do Power BI para dispositivos móveis e do serviço Power BI, veja os seguintes artigos de novidades:
+
+* [Novidades do serviço Power BI](service-whats-new.md)
+* [Novidades em aplicativos móveis para o Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 Obtenha a versão mais recente do Power BI Desktop a partir do [Centro de Transferências](https://www.microsoft.com/download/details.aspx?id=58494). Se tiver o Windows 10, também poderá obter o Power BI Desktop através da [Microsoft Store](https://aka.ms/pbidesktopstore). Independentemente do modo como instalar o Power BI Desktop, as versões mensais são as mesmas embora a numeração das versões possa diferir. Para obter mais informações sobre como transferir e instalar o Power BI Desktop, veja [Obter o Power BI Desktop](desktop-get-the-desktop.md). 
 
@@ -34,48 +39,56 @@ As ligações que se encontram ao lado de cada funcionalidade na lista de atuali
 * \[artigo\]: algumas funcionalidades têm um artigo que proporciona mais detalhes.
 * As funcionalidades restantes são facilmente compreensíveis e não precisam de um artigo ou vídeo.
 
-Também pode ver o [vídeo da atualização mensal do Power BI Desktop](#power-bi-desktop-monthly-update-video) na sua totalidade.
+Também pode ver o [vídeo da atualização mensal do Power BI](#power-bi-desktop-monthly-update-video) na sua totalidade.
 
 > [!IMPORTANT]
 > O Power BI Desktop deixará de ser suportado no Windows 7 após 31 de janeiro de 2021. Após essa data, o Power BI Desktop será suportado no Windows 8 ou em versões mais recentes do Windows, apenas na versão mais recente do Power BI Desktop. 
 
 As atualizações seguintes são novas no Power BI Desktop este mês:
 
+https://www.youtube.com/watch?v=gPGy18Yo0Go https://youtu.be/TPsV7N4bZZg?t=15
 
-### <a name="reporting"></a>Relatórios
-* Perspectives support for Personalize visuals (preview) (Suporte de perspetivas para a opção Personalizar elementos visuais [pré-visualização]) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=15)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Perspectives) 
-* Rectangular lasso select for data points (preview) (Seleção de laço retangular para pontos de dados [pré-visualização]) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=448)   [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Data_point) 
-* Added dynamic formatting support to more visuals (Suporte para formatação dinâmica adicionado a mais elementos visuais) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=715)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_dynamic_formatting) 
 
+https://www.youtube.com/watch?v=gPGy18Yo0Go
+
+https://www.youtube.com/watch?v=TPsV7N4bZZg?t=448
 
 ### <a name="analytics"></a>Análise
-* DirectQuery support for Q&A (Suporte do DirectQuery para Perguntas e Respostas) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=926)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Direct_Query) 
+* Narrativas inteligentes (pré-visualização) [[vídeo]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=51) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) 
+* As Perguntas e Respostas agora suportam operações aritméticas [[vídeo]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=333) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) 
+
+
+### <a name="reporting"></a>Relatórios
+* Seleção do retângulo de ponto de dados para gráficos adicionais [[vídeo]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=370) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Data_point_rectangle_select) 
+* Foi adicionada a opção de elemento visual geral para manter a ordem das camadas [[vídeo]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=405) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Maintain_layer_order) 
+* Procurar uma área de trabalho durante a publicação [[vídeo]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=615) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Search_workspace) 
+* Total de etiquetas para elementos visuais empilhados [[vídeo]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=630) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Total_labels_stacked) 
+* Melhorias na criação para dispositivos móveis [[vídeo]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=786) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Mobile_authoring_enhancements) 
+
+
+### <a name="modeling"></a>Modelação
+* Os Metadados de Conjunto de Dados Otimizados já estão disponíveis globalmente [[vídeo]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1200) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Enhanced_Dataset_Metadata)
+* Melhorias no desempenho para expressões de agregação que envolvem colunas de tipo de dados de moeda [[vídeo]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1220) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Performance_improvements_to_agg)
+
+
+### <a name="data-connectivity"></a>Conectividade de dados
+* Azure Databricks [[vídeo]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1342) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Azure_Databricks)
+* MariaDB [[vídeo]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1365) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#MariaDB)
+* Hexagon PPM Smart API [[vídeo]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1386) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Hexagon_PPM_Smart)
+* Outras atualizações na conectividade de dados [[vídeo]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1411) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Other_data_connectivity)
 
 
 ### <a name="visuals"></a>Visuais
-* Multiple new visuals from various companies (Múltiplos elementos visuais novos de diversas empresas) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=956)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Visualizations)
-* ArcGIS Maps updates (Atualizações aos Mapas ArcGIS) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=1096)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_ArcGIS)
-* Extending admin capabilities for AppSource visuals (Capacidades de administrador expandidas para elementos visuais do AppSource) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=1135)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Admin)
+* Novos elementos visuais de vários fornecedores [[vídeo]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1228) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Visualizations)
 
 
-### <a name="template-apps"></a>Aplicações de modelo
-* Agile CRM Analytics for Dynamics 365 (Análise de CRM ágil para o Dynamics 365) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=1300)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_CRM)
+### <a name="template-apps"></a>Aplicações de Modelo
+* Dashboard de atribuição multicanal [[vídeo]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1290) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Multichannel_Attribution_Dashboard) 
+* Dashboard de análise da área de trabalho [[vídeo]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1290) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Workspace_Analytics_Dashboard) 
 
 
-### <a name="data-preparation"></a>Preparação de dados
-* Text/CSF by Example (preview) (Texto/CSF por Exemplo [pré-visualização]) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=1335)   [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_text_csv) 
+Para obter informações detalhadas sobre cada uma destas novas funcionalidades, veja [Publicação de blogue do resumo das funcionalidades do Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/).
 
-### <a name="data-connectivity"></a>Conectividade de dados
-* Cherwell connector (Conector Cherwell) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=1392)   [[artigo]](../create-reports/desktop-external-tools.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Cherwell_connector) 
-
-* Automation Anywhere connector (Conector Automation Anywhere) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=1414)   [[artigo]](../create-reports/desktop-external-tools.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Auto_connector) 
-
-* Acterys connector (Conector Acterys) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=1434)   [[artigo]](../create-reports/desktop-external-tools.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Acterys_connector) 
-
-
-Para obter informações detalhadas sobre cada uma destas novas funcionalidades, veja [Publicação de blogue do resumo das funcionalidades do Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/).
-
-Veja quais são as [novidades do serviço Power BI](service-whats-new.md) e as [novidades nas aplicações móveis do Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 > [!NOTE]
 > Veja as [origens de dados disponíveis para o Power BI Desktop](../connect-data/desktop-data-sources.md). A nossa lista está sempre a crescer, por isso consulte-a regularmente.
@@ -91,7 +104,7 @@ O vídeo seguinte descreve cada uma destas atualizações. Também pode ver este
 Quer saber mais sobre o Power BI através de vídeos e outro conteúdo interessante? Consulte a seguinte coleção de origens de vídeo e conteúdo:
 
 -   [Canal do Power BI](https://www.youtube.com/user/mspowerbi): uma coleção de vídeos sobre o Power BI no YouTube.
--   [Microsoft Learn para o Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link): uma apresentação sequencial do Power BI, em peças de tamanho de bytes.
+-   [Microsoft Learn para o Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link): uma apresentação sequencial do Power BI, em peças de tamanho de bytes.
 
 ## <a name="updates-for-previous-months"></a>Atualizações dos meses anteriores
 

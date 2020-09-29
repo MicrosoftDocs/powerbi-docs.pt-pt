@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: b911af4c7137aac9352c16985aac3a79a7eec87e
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.date: 09/15/2020
+ms.openlocfilehash: f7b37392581ad532093b0a543fe75cdb969d2c86
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557170"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855379"
 ---
-# <a name="deployment-pipelines-troubleshooting-preview"></a>Resolução de problemas dos pipelines de implementação (pré-visualização)
+# <a name="deployment-pipelines-troubleshooting"></a>Resolução de problemas dos pipelines de implementação
 
 Utilize este artigo para resolver problemas em pipelines de implementação.
 
@@ -39,6 +39,13 @@ Se as seguintes condições não forem satisfeitas, não conseguirá ver o botã
 * Uma área de trabalho só pode ser atribuída a um único pipeline
 
 * É administrador de uma área de trabalho nova.
+
+### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>Por que não consigo ver a etiqueta das fases do pipeline na minha área de trabalho?
+
+Os pipelines de implementação apresentam uma etiqueta das fases do pipeline nas áreas de trabalho atribuídas a um pipeline. As etiquetas das fases de *Desenvolvimento* e de *Teste* estão sempre visíveis. No entanto, só verá a etiqueta de *Produção* se tiver [acesso ao pipeline](deployment-pipelines-process.md#user-with-pipeline-access) ou se for [administrador da área de trabalho](deployment-pipelines-process.md#workspace-admin).
+
+> [!div class="mx-imgBorder"]
+> ![Captura de ecrã a mostrar a etiqueta de produção numa área de trabalho do pipeline de produção.](media/deployment-pipelines-troubleshooting/production-tag.png)
 
 ## <a name="licensing"></a>Licensing
 
@@ -112,7 +119,7 @@ Faltam valores nas regras do conjunto de dados. Este erro poderá ocorrer se o c
 
 ![Uma captura de ecrã do erro de regras inválidas apresentado quando uma implementação falha devido a ligações quebradas.](media/deployment-pipelines-troubleshooting/broken-rule.png)
 
-Quando uma implementação anteriormente bem-sucedida falhar devido a ligações quebradas, é apresentado um aviso. Pode clicar em **Configurar regras** para navegar para o painel de definições de implementação, onde o conjunto de dados com falha está marcado. Quando clica no conjunto de dados, as regras quebradas estão marcadas.
+Quando uma implementação anteriormente bem-sucedida falhar devido a ligações quebradas, é apresentado um aviso. Pode selecionar **Configurar regras** para navegar para o painel de definições de implementação, onde o conjunto de dados com falha está marcado. Quando seleciona o conjunto de dados, as regras quebradas estão marcadas.
 
 Para implementar com êxito, corrija ou remova as regras quebradas e volte a implementar.
 
@@ -120,9 +127,9 @@ Para implementar com êxito, corrija ou remova as regras quebradas e volte a imp
 
 Não pode alterar a ligação da origem de dados no serviço Power BI.
 
-Se quiser alterar a origem de dados nas fases de teste ou de produção, poderá utilizar as [regras de conjuntos de dados](deployment-pipelines-get-started.md#step-4---create-dataset-rules) ou as [APIs](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup). As regras de conjuntos de dados só entrarão em vigor após a próxima implementação.
+Se quiser alterar a origem de dados nas fases de teste ou de produção, poderá utilizar as [regras de conjuntos de dados](deployment-pipelines-get-started.md#step-4---create-dataset-rules) ou as [APIs](/rest/api/power-bi/datasets/updateparametersingroup). As regras de conjuntos de dados só entrarão em vigor após a próxima implementação.
 
-### <a name="i-fixed-a-bug-in-production-but-now-i-cant-click-the-deploy-to-previous-stage-button-why-is-it-greyed-out"></a>Corrigi um erro na produção, mas agora não consigo clicar no botão para implementar na fase anterior. Por que está a cinzento?
+### <a name="i-fixed-a-bug-in-production-but-now-i-cant-select-the-deploy-to-previous-stage-button-why-is-it-greyed-out"></a>Corrigi um erro na produção, mas agora não consigo selecionar o botão para implementar na fase anterior. Por que está a cinzento?
 
 Só pode implementar retroativamente numa fase vazia. Se tiver conteúdo na fase de teste, não poderá implementar retroativamente a partir da produção.
 

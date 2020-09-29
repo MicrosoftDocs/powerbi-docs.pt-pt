@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea519b4f120bb643e88d29fba79a5ca464030797
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 9124322dbf7656b05c4cd174207e074cd4f807fe
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537372"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763971"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Forma como os elementos visuais efetuam a filtragem cruzada entre si num relatório do Power BI
 
@@ -52,7 +52,7 @@ Vamos definir estes termos ao analisar as páginas de relatório abaixo. O gráf
     
 - Os filtros de nível visual são mantidos quando se faz a filtragem cruzada e o realce cruzado de outros elementos visuais na página do relatório. Assim, se o Elemento Visual A tiver filtros de nível visual aplicados pelo designer de relatórios ou por si e utilizar o Elemento Visual A para interagir com o Elemento Visual B, serão aplicados filtros de nível visual do Elemento Visual A ao Elemento Visual B.
 
-    ![Página de relatório depois de o segmento Moderação do gráfico em anel ser selecionado](media/end-user-interactions/power-bi-visual-filters.png)
+    ![Página de relatório a mostrar os filtros já definidos](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>Próximos passos
 [Como utilizar filtros de relatório](../consumer/end-user-report-filter.md)

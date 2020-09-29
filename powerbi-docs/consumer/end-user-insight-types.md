@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7b5a935418aacb8de15ea6e7e942f2de440ecec1
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 8e8411ea29436a5ee19802d2a970b760062fe59e
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008842"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763994"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipos de informações suportados pelo Power BI
 
@@ -77,7 +77,7 @@ Encontra padrões periódicos nos dados de série de tempo, como a sazonalidade 
 ![Exemplo de Sazonalidade](./media/end-user-insight-types/pbi-auto-insight-type-seasonality-new.png)
 
 ### <a name="steady-share"></a>Partilha constante
-Realça os casos em que há uma correlação de pai-filho entre a partilha de um valor do filho em relação ao valor geral do pai numa variável contínua. As informações de partilha constante aplicam-se ao contexto de uma medida, uma dimensão e outra dimensão de data/hora. Estas informações são acionadas quando um valor específico de dimensão (por exemplo, “a região nordeste”) possui uma percentagem estável das vendas gerais ao longo dessa dimensão de data/hora.
+Realça os casos em que há uma correlação de pai-filho entre a partilha de um valor do filho em relação ao valor geral do pai numa variável contínua. As informações de partilha constante aplicam-se ao contexto de uma medida, uma dimensão e outra dimensão de data/hora. Estas informações são acionadas quando um valor específico de dimensão (por exemplo, “a região leste”) possui uma percentagem estável das vendas gerais ao longo dessa dimensão de data/hora.
 
 As informações de partilha constante são semelhantes às informações de desvio baixo, dado que ambas estão relacionadas com a falta de desvio de um valor ao longo do tempo. No entanto, as informações de partilha constante medem a falta de desvio da **percentagem geral** ao longo do tempo, enquanto as informações de desvio baixo medem a falta de desvio dos valores absolutos da medida ao longo de uma dimensão.
 

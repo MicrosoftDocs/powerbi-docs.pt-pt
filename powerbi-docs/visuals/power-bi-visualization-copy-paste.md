@@ -6,15 +6,15 @@ ms.reviewer: maggie tsang
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 04/13/2020
+ms.date: 09/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5791f2428c13bca9a6e2df02e7739623bb51fc96
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 785f16b84dee1509ab04255587724e5ce39a043c
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233282"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763146"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>Copiar e colar uma visualização de relatório
 
@@ -23,7 +23,7 @@ ms.locfileid: "85233282"
 Este artigo aborda duas formas diferentes de copiar e colar um elemento visual: 
 * copiar um elemento visual num relatório e colá-lo noutra página de relatório (requer permissões de edição para o relatório)
 
-* copiar uma imagem de um elemento visual do Power BI na área de transferência e colá-la noutras aplicações
+* copiar uma imagem de um elemento visual do Power BI para a área de transferência e colá-la noutras aplicações (disponível no serviço Power BI e para dispositivos móveis, indisponível no Power BI Desktop)
 
 ## <a name="copy-and-paste-within-the-same-report"></a>Copiar e colar dentro do mesmo relatório
 Os elementos visuais nos relatórios do Power BI podem ser copiados de uma página no relatório para a mesma página ou para uma página diferente no mesmo relatório. 
@@ -41,7 +41,7 @@ Não pode copiar e colar as visualizações nos *dashboards* em relatórios do P
 
 ## <a name="copy-a-visual-as-an-image-to-your-clipboard"></a>Copiar um elemento visual como uma imagem na área de transferência
 
-Já alguma vez quis partilhar uma imagem de um dashboard ou relatório do Power BI? Agora, pode copiar o elemento visual e colá-lo em qualquer outra aplicação que suporte essa ação. 
+Já alguma vez quis partilhar uma imagem de um dashboard ou relatório do Power BI? Agora, pode copiar o elemento visual do serviço Power BI ou para dispositivos móveis e colá-lo em qualquer outra aplicação que suporte essa ação. 
 
 Quando copiar uma imagem estática de um elemento visual, obterá uma cópia do elemento visual juntamente com os metadados. O que está incluído:
 * ligar de volta ao dashboard ou relatório do Power BI
@@ -52,7 +52,7 @@ Quando copiar uma imagem estática de um elemento visual, obterá uma cópia do 
 
 ### <a name="copy-from-a-dashboard-tile"></a>Copiar de um mosaico do dashboard
 
-1. Navegue até ao dashboard a partir do qual quer copiar.
+1. Abra o serviço Power BI e navegue até ao dashboard a partir do qual quer copiar.
 
 2. No canto superior direito do elemento visual, selecione **Mais opções(...)** e escolha **Copiar elemento visual como imagem**. 
 
@@ -64,15 +64,15 @@ Quando copiar uma imagem estática de um elemento visual, obterá uma cópia do 
 
 4. Quando o elemento visual estiver pronto, cole-o noutra aplicação com **Ctrl + V** ou clique com o botão direito do rato > Colar. Na captura de ecrã abaixo, colamos o elemento visual no Microsoft Word. 
 
-    ![elemento visual colado no Outlook](media/power-bi-visualization-copy-paste/power-bi-paste-word.png)
+    ![elemento visual colado no Word](media/power-bi-visualization-copy-paste/power-bi-paste-word.png)
 
 ### <a name="copy-from-a-report-visual"></a>Copiar a partir de um elemento visual de relatório 
 
-1. Navegue até ao relatório a partir do qual quer copiar.
+1. Abra o serviço Power BI e navegue até ao relatório a partir do qual quer copiar.
 
 2. No canto superior direito do elemento visual, selecione o ícone **Copiar elemento visual como imagem**. 
 
-    ![ícone Copiar elemento visual como imagem apresentado](media/power-bi-visualization-copy-paste/power-bi-copy-icon.png)
+    ![Captura de ecrã a mostrar o ícone Copiar elementos visuais como imagem](media/power-bi-visualization-copy-paste/power-bi-copy-icon.png)
 
 3. Quando a caixa de diálogo **O elemento visual está pronto para a cópia**, selecione **Copiar para a área de transferência**.
 
@@ -95,7 +95,7 @@ Quando copiar uma imagem estática de um elemento visual, obterá uma cópia do 
 Se for proprietário do conteúdo ou for um administrador do inquilino, poderá controlar se um elemento visual pode ser copiado como uma imagem a partir de um relatório ou dashboard.
 
 #### <a name="disable-copy-as-an-image-for-a-specific-visual"></a>Desativar a opção Copiar como imagem para um elemento visual específico
-Se não quiser que os utilizadores copiem um elemento visual específico, poderá remover o ícone de cópia desse elemento visual.
+Se não quiser que os utilizadores copiem um elemento visual específico, poderá remover o ícone de cópia desse elemento visual no serviço Power BI.    
 1. Selecione o ícone de rolo de tinta para abrir o painel Formatação. 
 
 1. Abra o cartão **Formatação visual**.
@@ -129,17 +129,19 @@ Se for proprietário do conteúdo ou administrador do inquilino, poderá control
    ![copiar não disponível](media/power-bi-visualization-copy-paste/power-bi-copy-grey.png)
 
 
+P: Não vejo a opção Copiar como imagem    
+R: Se estiver a utilizar o Power BI Desktop, esta funcionalidade ainda não está disponível    
 P: Porque é que o ícone Copiar está desativado num elemento visual?    
 R: Atualmente, suportamos elementos visuais nativos do Power BI e Elementos Visuais Certificados. Existe um suporte limitado para certos elementos visuais, incluindo: 
 - Elementos visuais ESRI e outros elementos visuais de Mapa 
 - Elementos visuais do Python 
 - Visuais R 
 - PowerApps 
-- Elementos visuais personalizados não certificados para que o seu elemento visual personalizado seja suportado. Saiba mais sobre [como certificar o elemento visual personalizado](../developer/visuals/power-bi-custom-visuals-certified.md). 
+- Elementos visuais personalizados não certificados. Para que o elemento visual personalizado seja suportado, veja [como certificar o elemento visual personalizado](../developer/visuals/power-bi-custom-visuals-certified.md). 
 
 
 P: Porque é que o meu elemento visual não está a ser colado corretamente?    
-R: Existem limitações com a cópia de elementos visuais como imagem: 
+R: Existem limitações com a cópia de elementos visuais como imagem, o que inclui: 
 - Para elementos visuais personalizados 
     - Elementos visuais com temas e cores aplicados 
     - Dimensionamento de mosaico ao colar 

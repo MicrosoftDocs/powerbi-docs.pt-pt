@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/01/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1153b20e77958bbecce9284add3ae7eab21cd47d
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: 841b8bb72b7b2a13c833fd313027b38b57511af3
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040323"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90764293"
 ---
 # <a name="export-reports-to-powerpoint"></a>Exportar relatórios para o PowerPoint
 
@@ -27,7 +27,7 @@ Com o serviço Power BI (app.powerbi.com), pode publicar o seu relatório no Mic
 * Cada página no relatório do Power BI torna-se um diapositivo no PowerPoint.
 * Cada página no relatório do Power BI é exportada como uma só imagem de alta resolução no PowerPoint.
 * Pode preservar as definições de filtragem e de segmentação de dados que adicionou ao relatório.
-* É criada uma ligação no PowerPoint que direciona para o relatório do Power BI.
+* É criada uma ligação no PowerPoint que direciona de volta para o relatório do Power BI.
 
 É rápido exportar o seu **relatório do Power BI** para o **PowerPoint**. Siga os passos descritos na secção seguinte.
 
@@ -44,13 +44,13 @@ Quando o relatório que pretende exportar para o PowerPoint for apresentado na t
 
 ![Selecione Exportar na barra de menus](media/end-user-powerpoint/power-bi-export.png)
 
-Será apresentado um pop-up onde terá a opção de selecionar **Valores atuais** ou **Valores predefinidos**. A opção **Valores atuais** exporta o relatório no estado atual, que inclui as alterações ativas que efetuou na segmentação de dados e nos valores de filtro.  A maioria dos utilizadores seleciona esta opção. Se tiver utilizado a barra de deslocamento, o campo **Valores atuais** não incluirá o estado de deslocamento do elemento visual, exportará antes a parte superior dos dados. Em alternativa, selecionar a opção **Valores predefinidos** exporta o relatório no estado original (conforme partilhado pelo *designer*) e não reflete as alterações que tiver feito ao estado original.
+Será apresentado um pop-up onde terá a opção de selecionar **Valores atuais** ou **Valores predefinidos**. A opção **Valores atuais** exporta o relatório no estado atual, que inclui as alterações ativas que efetuou na segmentação de dados e nos valores de filtro.  A maioria dos utilizadores seleciona esta opção. Se tiver utilizado a barra de deslocamento, o campo **Valores atuais** não incluirá o estado de deslocamento do elemento visual, exportará antes a parte superior dos dados. Em alternativa, selecionar a opção **Valores predefinidos** exporta o relatório no estado original (conforme partilhado pelo *estruturador*) e não reflete as alterações que tiver feito ao estado original.
 
 ![Selecione o que Exportar](media/end-user-powerpoint/power-bi-current-values.png)
  
-Além disso, existe uma caixa de verificação para selecionar se quer exportar os separadores ocultos de um relatório. Selecione esta caixa de verificação se quiser exportar apenas os separadores do relatório que estiverem visíveis no seu browser. Se preferir incluir todos os separadores ocultos na exportação, mantenha esta caixa de verificação desselecionada. Se a caixa de verificação aparecer a cinzento, significa que não existem separadores ocultos no relatório. Um exemplo de separador oculto seria um separador de descrição. As [descrições personalizadas](../create-reports/desktop-tooltips.md) são criadas por *designers* de relatórios e não são apresentadas como separadores de relatório no serviço Power BI para *consumidores*. 
+Além disso, existe uma caixa de verificação para selecionar se quer exportar os separadores ocultos de um relatório. Selecione esta caixa de verificação se quiser exportar apenas os separadores do relatório que estiverem visíveis no seu browser. Se preferir incluir todos os separadores ocultos na exportação, mantenha esta caixa de verificação desselecionada. Se a caixa de verificação aparecer a cinzento, significa que não existem separadores ocultos no relatório. Um exemplo de separador oculto seria um separador de descrição. As [descrições personalizadas](../create-reports/desktop-tooltips.md) são criadas pelos *estruturadores* dos relatórios e não são apresentadas como separadores de relatório no serviço Power BI dos *utilizadores empresariais*. 
 
-Também pode optar por exportar apenas a página atual que está a ser apresentada num relatório ao selecionar a opção “Exportar apenas a página atual”.  Por predefinição, esta opção está desmarcada e todas as páginas serão exportadas do relatório.
+Também pode optar por exportar apenas a página atual que está a ser apresentada num relatório ao selecionar a opção **Exportar apenas a página atual**.  Por predefinição, esta opção está desmarcada e todas as páginas serão exportadas do relatório.
 
 Depois de fazer as suas seleções, selecione **Exportar** para continuar. Verá uma faixa de notificação no canto superior direito da janela de browser do serviço Power BI a informar que o relatório está a ser exportado para o PowerPoint. 
 
@@ -76,7 +76,7 @@ Quando abrir o ficheiro PowerPoint que o Power BI exportou, tem alguns elementos
 
 
 3. Cada página do relatório é um diapositivo diferente, conforme apresentado no painel de navegação. 
-4. O relatório publicado é composto no idioma das suas definições do Power BI ou da definição de região do seu browser. Para ver ou definir a sua preferência de idioma, selecione o ícone de engrenagem ![Ícone de Engrenagem](media/end-user-powerpoint/power-bi-settings-icon.png) > **Definições** > **Geral** > **Idioma**. Para obter informações sobre a região, veja [Idiomas e países/regiões com suporte no Power BI](../fundamentals/supported-languages-countries-regions.md).
+4. O relatório publicado é composto no idioma das suas definições do Power BI ou da definição de região do seu browser. Para ver ou definir o idioma preferencial no browser, selecione o ícone de engrenagem ![Ícone de engrenagem](media/end-user-powerpoint/power-bi-settings-icon.png) > **Definições** > **Geral** > **Idioma**. Para obter informações sobre a região, veja [Idiomas e países/regiões com suporte no Power BI](../fundamentals/supported-languages-countries-regions.md).
 
 
 Quando vê um diapositivo individual, verá que cada página do relatório é uma imagem independente. O deslocamento no PowerPoint não está disponível, dado que cada diapositivo é uma imagem estática.
@@ -110,8 +110,8 @@ Existem algumas considerações e limitações a ter em conta ao trabalhar com a
     - Relatórios que demoram mais de uma hora a processar. 
     - Páginas de relatório que demoram mais de 6 minutos a carregar. 
 
-* Se o item de menu **Exportar para PowerPoint** não estiver disponível no serviço Power BI, é provável que o seu administrador de inquilinos tenha desativado a funcionalidade. Contacte o seu administrador de inquilinos para obter informações.
-* O serviço Power BI utiliza a sua definição de idioma do Power BI como o idioma da exportação do PowerPoint. Para ver ou definir a sua preferência de idioma, selecione o ícone de engrenagem ![Ícone de Engrenagem](media/end-user-powerpoint/power-bi-settings-icon.png) > **Definições** > **Geral** > **Idioma**.
+* Se o item de menu **Exportar para PowerPoint** não estiver disponível no serviço Power BI, é provável que o administrador de inquilinos ou proprietário de relatório tenha desativado a funcionalidade. Contacte o administrador de inquilinos ou proprietário para obter informações.
+* O serviço Power BI utiliza a sua definição de idioma do Power BI como o idioma da exportação do PowerPoint. Para ver ou definir o idioma preferencial no browser, selecione o ícone de engrenagem ![Ícone de engrenagem](media/end-user-powerpoint/power-bi-settings-icon.png) > **Definições** > **Geral** > **Idioma**.
 
 
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/03/2020
+ms.date: 09/22/2020
 ms.author: kfollis
-ms.openlocfilehash: d7b36d7ecbbf9d046c02f275ca83d7f8c8a196d5
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 76f0963da1a7cecec6f97fc7e0ab534f7d4bcb8a
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768407"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020027"
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com) é um vendedor que trabalha com a Chauncy Freels e ajuda a manter esta lista de webinars"
@@ -22,11 +22,23 @@ Registe-se nos próximos webinars em direto ou veja as sessões gravadas a pedid
 
 ## <a name="upcoming-webinars"></a>Próximos webinars
 
+**Começar a Trabalhar Rapidamente com o Power BI**  
+por Miguel Martinez, Microsoft  
+[Registe-se para assistir a este webinar no dia 5 de novembro de 2020, das 10:00 às 11:00 (Hora de verão do Pacífico)](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+
 [Próximos webinars da comunidade do Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Webinars em destaque
 
 Introdução aos webinars a pedido populares
+
+**Monitorizar os Dados em Tempo Real com o Microsoft Power BI**  
+por Miguel Martinez e Peter Myers  
+[Ver agora](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+
+**Criar Soluções BI Dimensionáveis com o Power BI e o Snowflake**  
+por Chris Webb, Craig Collier e Chris Holliday  
+[Ver agora](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html?lcid=en-us)
 
 **Boost User Satisfaction with Best Practices for Managing BI Content** (Aumentar a Satisfação dos Utilizadores com as Melhores Práticas para Gerir Conteúdos BI)  
 por Nimrod Shalit  

@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 08/05/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 72e7550666960948ff3a3155a328613c95fcf43f
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: add9e4e5c5a68354eb3e2d1b9c9b86a3b8c4e614
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040207"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763826"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportar relatórios do Power BI para PDF
 
@@ -30,13 +30,13 @@ No serviço Power BI, selecione um relatório para apresentá-lo na tela. També
 
 1. Selecione **Exportar** > **PDF** na barra de menus.
 
-    ![Selecione Exportar na barra de menus](media/end-user-pdf/power-bi-export.png)
+    ![Selecione Exportar na barra de menus](media/end-user-pdf/power-bi-export-pdfs.png)
 
-    Será apresentado um pop-up onde terá a opção de selecionar **Valores atuais** ou **Valores predefinidos**. A opção **Valores atuais** exporta o relatório no estado atual, que inclui as alterações ativas que efetuou na segmentação de dados e nos valores de filtro. A maioria dos utilizadores seleciona esta opção. Em alternativa, selecionar **Valores predefinidos** exporta o relatório no respetivo estado original, tal como o *criador* o partilhou, e não reflete nenhuma alteração que tenha feito a esse estado original.
+    Será apresentado um pop-up onde terá a opção de selecionar **Valores atuais** ou **Valores predefinidos**. A opção **Valores atuais** exporta o relatório no estado atual, que inclui as alterações ativas que efetuou na segmentação de dados e nos valores de filtro. A maioria dos utilizadores seleciona esta opção. Em alternativa, selecionar **Valores predefinidos** exporta o relatório no estado original, tal como o *estruturador* o partilhou, e não reflete nenhuma alteração que tenha feito a esse estado original.
     
     Além disso, existe uma caixa de verificação para selecionar se quer exportar os separadores ocultos de um relatório. Selecione esta caixa de verificação se quiser exportar apenas os separadores do relatório que estiverem visíveis no seu browser. Se preferir incluir todos os separadores ocultos na sua exportação, pode deixar esta caixa de verificação desselecionada. Se a caixa de verificação aparecer a cinzento, significa que não existem separadores ocultos no relatório. Depois de fazer as suas seleções, selecione **Exportar** para continuar.
     
-    Também pode optar por exportar apenas a página atual que está a ser apresentada num relatório ao selecionar a opção “Exportar apenas a página atual”.  Por predefinição, esta opção está desmarcada e todas as páginas serão exportadas do relatório.
+    Também pode optar por exportar apenas a página atual que está a ser apresentada num relatório ao selecionar a opção **Exportar apenas a página atual**.  Por predefinição, esta opção está desmarcada e todas as páginas serão exportadas do relatório.
     
     É apresentada uma barra de progresso no canto superior direito. A exportação poderá demorar alguns minutos. Pode continuar a trabalhar no Power BI enquanto o relatório estiver a ser exportado.
 
@@ -57,13 +57,13 @@ Existem algumas considerações e limitações a ter em conta ao trabalhar com a
 * O PDF incluirá os dados e as visualizações visíveis na sua tela do Power BI. Se o elemento visual incluir barras de deslocamento, o PDF irá incluí-lo no seu estado predefinido sem deslocamento.  
 * Os elementos visuais Python e R não são atualmente suportados. No PDF, estes elementos visuais estão em branco e apresentam uma mensagem de erro. 
 * Os elementos visuais do Power BI que tiverem sido certificados são suportados. Para obter mais informações sobre os elementos visuais do Power BI certificados, incluindo como certificar um elemento visual do Power BI, veja [Certificar um elemento visual do Power BI](../developer/visuals/power-bi-custom-visuals-certified.md). Não são suportados elementos visuais do Power BI que não tenham sido certificados. No PDF, são apresentados com uma mensagem de erro.
-* O elemento visual ESRI não é suportado
+* O elemento visual ESRI não é suportado.
 * Atualmente, os relatórios com mais de 50 páginas não podem ser exportados.
 * O processo de exportar o relatório para PDF pode demorar alguns minutos a ser concluído, por isso pedimos que seja paciente. Os fatores que podem afetar o tempo necessário incluem a estrutura do relatório e a carga atual no serviço Power BI.
 * Se o item de menu **Exportar para PDF** não estiver disponível no serviço Power BI, é provável que o seu administrador de inquilinos tenha desativado a funcionalidade. Contacte o seu administrador de inquilinos para obter informações.
 * As imagens de fundo serão recortadas de acordo com a área delimitadora do gráfico. Recomendamos que remova as imagens de fundo antes de exportar para PDF.
 * Os relatórios pertencentes a um utilizador fora do seu domínio de inquilino do Power BI (por exemplo, um relatório pertencente a alguém fora da sua organização e partilhado consigo) não podem ser publicados para PDF.
-* Se partilhar um dashboard com alguém fora da sua organização (e, portanto, um utilizador que não está no seu inquilino do Power BI), esse utilizador não poderá exportar os relatórios associados do dashboard partilhado para PDF. Por exemplo, se for aaron@contoso.com, pode partilhar com cassie@cohowinery.com. No entanto, cassie@cohowinery.com não pode exportar os relatórios associados para PDF.
+* Se partilhar um dashboard com alguém fora da sua organização (e, portanto, um utilizador que não está no seu inquilino do Power BI), esse utilizador não poderá exportar os relatórios associados do dashboard partilhado para PDF. Por exemplo, se for aaron@contoso.com, pode partilhar com cassie@northwinds.com. No entanto, cassie@northwinds.com não pode exportar os relatórios associados para PDF.
 * Quando exportar para PDF relatórios que contêm uma imagem de fundo, poderá ver uma imagem distorcida na exportação, se utilizar as opções **Normal** ou **Preenchimento** para a definição **Fundo da Página**. Para obter os melhores resultados, utilize a opção **Ajustar** para evitar problemas com o documento exportado.
 * O serviço Power BI utiliza a sua definição de idioma do Power BI como o idioma da exportação para PDF. Para ver ou definir a sua preferência de idioma, selecione o ícone de engrenagem ![Ícone de Engrenagem](media/end-user-powerpoint/power-bi-settings-icon.png) > **Definições** > **Geral** > **Idioma**.
 * Os filtros de URL não são atualmente respeitados quando seleciona **Valores Atuais** na exportação.

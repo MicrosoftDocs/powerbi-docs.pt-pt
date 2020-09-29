@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: 8ce11c0ac6a5098c49f4d8aba0b0a09f28be975b
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.custom: contperfq1
+ms.date: 09/15/2020
+ms.openlocfilehash: 8f486d1f872aec8eaec096bf01d5d36a314c5cef
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557262"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855786"
 ---
-# <a name="get-started-with-deployment-pipelines-preview"></a>Começar a utilizar os pipelines de implementação (pré-visualização)
+# <a name="get-started-with-deployment-pipelines"></a>Começar a utilizar os pipelines de implementação
 
 Este artigo explica as definições básicas necessárias para a utilização dos pipelines de implementação.
 
@@ -35,13 +36,31 @@ Se as seguintes condições forem satisfeitas, conseguirá aceder à funcionalid
 
 ## <a name="step-1---create-a-deployment-pipeline"></a>Passo 1 – Criar um pipeline de implementação
 
-Para criar um pipeline de implementação, faça o seguinte:
-
-1. No serviço Power BI, no painel de navegação, selecione **Pipelines de implementação** e clique em **Criar pipeline**.
-
-2. Na caixa de diálogo *Criar um pipeline de implementação*, introduza um nome e uma descrição para o pipeline e clique em **Criar**.
+Pode criar um pipeline no separador dos pipelines de implementação ou na área de trabalho.
 
 Após a criação do pipeline, pode partilhá-lo com outros utilizadores ou eliminá-lo. Quando partilhar um pipeline com outras pessoas, os utilizadores com quem o partilhar terão [acesso ao pipeline](deployment-pipelines-process.md#user-with-pipeline-access). O acesso ao pipeline permite aos utilizadores ver, partilhar, editar e eliminar o pipeline.
+
+### <a name="create-a-pipeline-from-the-deployment-pipelines-tab"></a>Criar um pipeline no separador dos pipelines de implementação
+
+Para criar um pipeline no separador dos pipelines de implementação, faça o seguinte:
+
+1. No serviço Power BI, no painel de navegação, selecione **Pipelines de implementação** e, em seguida, selecione **Criar pipeline**.
+
+2. Na caixa de diálogo *Criar um pipeline de implementação*, introduza um nome e uma descrição para o pipeline e, em seguida, selecione **Criar**.
+
+### <a name="create-a-pipeline-from-a-workspace"></a>Criar um pipeline numa área de trabalho
+
+Pode criar um pipeline numa área de trabalho existente, desde que seja o administrador de uma [nova experiência de área de trabalho](../collaborate-share/service-create-the-new-workspaces.md).
+
+1. Na área de trabalho, selecione **Criar um pipeline**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Captura de ecrã a mostrar o botão Criar um pipeline numa área de trabalho.](media/deployment-pipelines-get-started/workspace-deploy.png)
+
+2. Na caixa de diálogo *Criar um pipeline de implementação*, introduza um nome e uma descrição para o pipeline e, em seguida, selecione **Criar**.
+
+>[!NOTE]
+>Se a área de trabalho não estiver atribuída à capacidade Premium da sua organização, receberá uma notificação para a [atribuir a uma capacidade](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity).  
 
 ## <a name="step-2---assign-a-workspace-to-a-deployment-pipeline"></a>Passo 2 – Atribuir uma área de trabalho a um pipeline de implementação
 
@@ -51,9 +70,12 @@ Pode atribuir uma área de trabalho a um pipeline de implementação. Os pipelin
 
 Siga estes passos para atribuir uma área de trabalho num pipeline de implementação:
 
-1. No pipeline de implementação recém-criado, clique em **Atribuir uma área de trabalho**.
+1. No pipeline de implementação recém-criado, selecione **Atribuir uma área de trabalho**.
 
 2. No menu pendente *Escolher a área de trabalho*, selecione a área de trabalho que quer atribuir ao pipeline.
+
+    >[!NOTE]
+    >Se estiver a criar um pipeline numa área de trabalho, poderá ignorar esta fase, pois a área de trabalho já está selecionada.
 
 3. Selecione a fase à qual quer atribuir a área de trabalho.
 
@@ -82,13 +104,13 @@ Uma vez concluída a implementação, atualize o conjunto de dados. Para obter m
 
 ### <a name="deploying-all-content"></a>Implementar todo o conteúdo
 
-Selecione a fase a partir da qual quer implementar e clique no botão de implementação. O processo de implementação cria uma área de trabalho duplicada na fase de destino. Esta área de trabalho inclui todo o conteúdo existente na fase atual.
+Selecione a fase a partir da qual quer implementar e, em seguida, selecione o botão de implementação. O processo de implementação cria uma área de trabalho duplicada na fase de destino. Esta área de trabalho inclui todo o conteúdo existente na fase atual.
 
 [![Captura de ecrã a mostrar o botão de implementação para as fases de desenvolvimento e teste num pipeline de implementação.](media/deployment-pipelines-get-started/deploy.png)](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>Implementação seletiva
 
-Para implementar apenas itens específicos, clique na ligação **Mostrar mais** e selecione os itens que quer implementar. Ao clicar no botão de implementação, apenas os itens selecionados são implementados na fase seguinte.
+Para implementar apenas itens específicos, selecione a ligação **Mostrar mais** e, em seguida, selecione os itens que quer implementar. Ao clicar no botão de implementação, apenas os itens selecionados são implementados na fase seguinte.
 
 Uma vez que os dashboards, os relatórios e os conjuntos de dados estão relacionados e têm dependências, pode utilizar o botão Selecionar relacionados para selecionar todos os itens relacionados. Por exemplo, se quiser implementar um relatório na fase seguinte, clicar no botão Selecionar relacionados marcará o conjunto de dados a que o relatório está associado para que ambos sejam implementados em simultâneo e o relatório não falhe.
 
@@ -119,7 +141,7 @@ As regras de conjuntos de dados são definidas em origens de dados e parâmetros
 
 ### <a name="create-a-dataset-rule"></a>Criar uma regra de conjunto de dados
 
-1. Na fase do pipeline para a qual quer criar uma regra de conjunto de dados, clique em **Definições de implementação**.
+1. Na fase do pipeline para a qual quer criar uma regra de conjunto de dados, selecione **Definições de implementação**.
 
     ![Captura de ecrã do botão Definições de implementação, localizado no canto superior direito de cada fase do pipeline de implementação.](media/deployment-pipelines-get-started/deployment-settings.png)
 
@@ -127,7 +149,7 @@ As regras de conjuntos de dados são definidas em origens de dados e parâmetros
 
     [![Captura de ecrã a mostrar a seleção de um conjunto de dados para criar uma regra de conjunto de dados.](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
-3. Selecione o tipo de regra que quer criar, expanda a lista e clique em **Adicionar regra**.
+3. Selecione o tipo de regra que quer criar, expanda a lista e, em seguida selecione **Adicionar regra**.
 
      [![Captura de ecrã a mostrar a seleção de uma regra de origem de dados e o clique na opção Adicionar regra.](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
@@ -139,7 +161,7 @@ Existem dois tipos de regras que pode criar:
 
     1. Selecione numa lista.
 
-    2. Clique em **Outro** e adicione manualmente a nova origem de dados. Só pode alterar para uma origem de dados do mesmo tipo.
+    2. Selecione **Outra** e adicione manualmente a nova origem de dados. Só pode alterar para uma origem de dados do mesmo tipo.
 
 * **Regras de parâmetros** – selecione um parâmetro na lista de parâmetros. É apresentado o valor atual. Edite o valor para o que quer aplicar após cada implementação.
 
@@ -153,7 +175,7 @@ Existem dois tipos de regras que pode criar:
 
 * Se a origem de dados ou os parâmetros definidos numa regra forem alterados ou removidos do conjunto de dados de origem, a regra não será válida e a implementação falhará.
 
-* As regras dos parâmetros não podem ser definidas para parâmetros que sejam do tipo *Qualquer* ou *Binário*. Para obter mais informações, veja [Restrições dos parâmetros de atualização dos conjuntos de dados](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparameters).
+* As regras dos parâmetros não podem ser definidas para parâmetros que sejam do tipo *Qualquer* ou *Binário*. Para obter mais informações, veja [Restrições dos parâmetros de atualização dos conjuntos de dados](/rest/api/power-bi/datasets/updateparameters).
 
 * As regras de origens de dados só podem ser definidas para as seguintes origens de dados:
     * Azure Analysis Services
@@ -172,7 +194,7 @@ Existem dois tipos de regras que pode criar:
 
 Depois de ter conteúdo numa fase do pipeline, pode implementá-lo na fase seguinte. A implementação de conteúdo noutra fase é geralmente feita depois de ter realizado algumas ações no pipeline. Por exemplo, fez alterações de desenvolvimento ao conteúdo na fase de desenvolvimento ou testou o conteúdo na fase de teste. Um fluxo de trabalho típico para mover conteúdo entre fases é da fase de desenvolvimento para a fase de teste e, em seguida, da fase de teste para a fase de produção. Pode obter mais informações sobre este processo na secção [Implementar conteúdo numa área de trabalho existente](deployment-pipelines-process.md#deploy-content-to-an-existing-workspace).
 
-Para implementar conteúdo na fase seguinte do pipeline de implementação, clique no botão Implementar na parte inferior da fase.
+Para implementar conteúdo na fase seguinte do pipeline de implementação, selecione o botão Implementar na parte inferior da fase.
 
 Ao consultar os cartões das fases de teste e produção, pode ver a hora da última implementação. É indicada a última vez que o conteúdo foi implementado na fase.
 

@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/31/2020
-ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.date: 09/21/2020
+ms.openlocfilehash: 0abaf886806ea783bb478f47d020daeea7829da5
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478021"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965125"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>Incorporar conteúdos do Power BI no Microsoft Teams
 
@@ -30,9 +30,9 @@ Para utilizar o separador **Power BI** no Microsoft Teams, certifique-se de que 
 - Para verem o relatório no separador **Power BI** do Microsoft Teams, os utilizadores têm de ter permissão para ver o relatório.
 - Os utilizadores têm de ser utilizadores do Microsoft Teams com acesso a canais e chats.
 
-Veja [Colaborar no Microsoft Teams com o Power BI](service-embed-report-microsoft-teams.md) para obter informações sobre como o Power BI e o Teams funcionam em conjunto, incluindo outros requisitos.
+Veja [Colaborar no Microsoft Teams com o Power BI](service-embed-report-microsoft-teams.md) para obter informações sobre como o Power BI e o Microsoft Teams funcionam em conjunto, incluindo outros requisitos.
 
-## <a name="embed-a-report-in-teams"></a>Incorporar um relatório no Teams
+## <a name="embed-a-report-in-microsoft-teams"></a>Incorporar um relatório no Microsoft Teams
 
 Siga estes passos para incorporar o seu relatório num canal ou chat do Microsoft Teams.
 
@@ -62,7 +62,7 @@ Pode incorporar os seguintes tipos de relatórios no separador **Power BI**:
 
 ## <a name="start-a-conversation"></a>Iniciar uma conversa
 
-Quando adiciona um separador de relatório do Power BI ao Microsoft Teams, o Teams cria automaticamente um separador de conversa para o relatório.
+Quando adiciona um separador de relatório do Power BI ao Microsoft Teams, este último cria automaticamente uma conversa no separador para o relatório.
 
 - Selecione **Mostrar separador de conversa** no canto superior direito.
 
@@ -74,6 +74,7 @@ Quando adiciona um separador de relatório do Power BI ao Microsoft Teams, o Te
 
 ## <a name="known-issues-and-limitations"></a>Limitações e problemas conhecidos
 
+- No Microsoft Teams, quando exporta dados de um elemento visual num relatório do Power BI, este é guardado automaticamente na pasta de Transferências. É um ficheiro do Excel chamado “dados (*n*).xlsx”, em que *n* é o número de vezes que exportou os dados para a mesma pasta.
 - Não pode incorporar dashboards do Power BI no separador **Power BI** do Microsoft Teams.
 - Os [filtros de URL](service-url-filters.md) não são suportados no separador **Power BI** do Microsoft Teams.
 - Nas clouds nacionais, o novo separador **Power BI** não está disponível. Poderá estar disponível uma versão mais antiga que não suporta a nova experiência de área de trabalho ou relatórios em aplicações do Power BI.

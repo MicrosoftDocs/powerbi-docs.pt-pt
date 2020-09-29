@@ -6,13 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 09/17/2020
 ms.author: painbar
-ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e152743c243e1af02650d919168dee0969e3a89e
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235689"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763780"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Instalar e distribuir aplicações de modelo na sua organização
 
@@ -74,13 +75,9 @@ Para instalar, personalizar e distribuir uma aplicação de modelo, precisa do s
 
    ![Ligação Ligar os seus dados da aplicação GitHub](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
 
+    Esta ligação abre a caixa de diálogo dos parâmetros, onde pode alterar a origem de dados dos dados de exemplo para a sua própria origem de dados (veja [limitações conhecidas](service-template-apps-overview.md#known-limitations)), seguida pela caixa de diálogo do método de autenticação. Talvez seja necessário redefinir os valores nestas caixas de diálogo. Veja a documentação da aplicação de modelo específica que está a instalar para obter mais informações.
 
-    
-    Esta ação abre uma caixa de diálogo ou um conjunto de caixas de diálogo onde pode alterar a origem de dados dos dados de exemplo para a sua própria origem de dados. De forma geral, isto significa redefinir os parâmetros do conjunto de dados e as credenciais da origem de dados. Veja [Limitações conhecidas](service-template-apps-overview.md#known-limitations).
-    
-    No exemplo abaixo, a ligação a dados envolve duas caixas de diálogo.
-
-   ![Ligar a caixas de diálogo de dados](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
+   ![Captura de ecrã a mostrar a ligação a caixas de diálogo de dados.](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
     Quando terminar o preenchimento das caixas de diálogo de ligação, o processo de ligação é iniciado. Uma faixa informa-o de que os dados estão a ser atualizados e de que entretanto está a ver dados de exemplo.
 
@@ -109,11 +106,11 @@ Periodicamente, os criadores de aplicações de modelo lançam novas versões me
 
 Se transferiu originalmente a aplicação do AppSource, quando for disponibilizada uma nova versão da aplicação de modelo, será notificado de duas formas:
 * É apresentada uma faixa de atualização no serviço Power BI a informar que está disponível uma nova versão da aplicação.
-  ![Notificação de atualização da aplicação de modelo](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+  ![Faixa de notificação de atualização da aplicação de modelo](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
 * Recebe uma notificação no painel de notificações do Power BI.
 
 
-  ![Notificação de atualização da aplicação de modelo](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
+  ![Painel da notificação de atualização da aplicação de modelo](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >Se tiver obtido originalmente a aplicação através de uma ligação direta em vez de a partir do AppSource, a única forma de saber quando uma nova versão está disponível é ao contactar o criador da aplicação de modelo.

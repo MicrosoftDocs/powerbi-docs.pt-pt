@@ -1,22 +1,22 @@
 ---
-title: Aplicação Power BI for Mixed Reality (Pré-visualização)
+title: Power BI for HoloLens (1.ª geração)
 description: Veja os seus dashboards e relatórios na aplicação Power BI for Mixed Reality (Preview) no mundo virtual ou no contexto do seu ambiente.
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 09/22/2020
 ms.author: painbar
-ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b0288bf3980ac54b960160f011531f3667d8edff
+ms.sourcegitcommit: b3d32b8a4ce26fba7fdb5f1c5954d2b2e426503c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205924"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91005520"
 ---
-# <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicação Power BI for Mixed Reality (Pré-visualização)
-Veja os seus dashboards e relatórios na aplicação Power BI for Mixed Reality (Preview) no mundo virtual ou coloque-os em localizações específicas no contexto do seu ambiente. 
+# <a name="power-bi-for-hololens-1st-gen"></a>Power BI for HoloLens (1.ª geração)
+Veja os dashboards e os relatórios na aplicação Power BI for HoloLens no mundo virtual ou coloque-os em localizações específicas no contexto do seu ambiente. 
 
 [Transfira a aplicação Power BI for Mixed Reality](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) da Microsoft Store. Na Microsoft Store, está com o nome "Power BI Mobile". Interaja com os seus dashboards e relatórios no mundo virtual e selecione os que pretende colocar no seu ambiente. 
 

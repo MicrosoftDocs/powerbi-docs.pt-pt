@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/01/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 91b19fd5e357f4ab020b72b259ab5053c36af8f7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4405ab8d3e0db949ec825f3eea436183512f862d
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238446"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91019923"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Publicar conjuntos de dados e relatórios a partir do Power BI Desktop
 Quando publica um ficheiro do Power BI Desktop no serviço Power BI, os dados no modelo são publicados na sua área de trabalho do Power BI. O mesmo acontece com quaisquer relatórios que tenha criado na vista **Relatório**. Verá um novo conjunto de dados com o mesmo nome e todos os relatórios no navegador da Área de Trabalho.
@@ -30,8 +30,8 @@ Publicar através do Power BI Desktop tem o mesmo efeito que utilizar a opção 
    ![Botão Publicar](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 
 
-2. Inicie sessão no Power BI.
-3. Selecione o destino.
+2. Inicie sessão no Power BI, se ainda não o fez.
+3. Selecione o destino. A partir da versão de setembro de 2020, pode pesquisar a lista de áreas de trabalho disponíveis para localizar a área de trabalho na qual quer publicar. A caixa de pesquisa permite-lhe filtrar as áreas de trabalho. Selecione a área de trabalho e, em seguida, clique no botão **Selecionar** para publicar.
 
    ![Selecionar o destino da publicação](media/desktop-upload-desktop-files/pbid_publish_select_destination.png)
 
@@ -58,3 +58,13 @@ Este processo é muito simples, mas existem alguns aspetos que deve saber:
 > [!NOTE]
 > Algumas ligações de dados nos relatórios do Power BI poderão incluir ligações para dados, em vez de incluírem os dados no conjunto de dados que é importado para o serviço Power BI. Por exemplo, as ligações do DirectQuery ligam aos dados à medida que as atualizações ou interações ocorrem, em vez de importarem os próprios dados. Se as origens de dados ligadas no seu relatório estão no local, poderá precisar de um gateway para aceder aos mesmos a partir do Power BI. Para obter mais informações, consulte [O que é um gateway de dados no local?](../connect-data/service-gateway-onprem.md).
 > 
+
+## <a name="next-steps"></a>Próximos passos
+
+Pode fazer todo o tipo de coisas com o Power BI Desktop. Para obter mais informações sobre as suas capacidades, veja os seguintes recursos:
+
+* [O que é o Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
+* [Descrição geral das consultas no Power BI Desktop](../transform-model/desktop-query-overview.md)
+* [Tipos de dados no Power BI Desktop](../connect-data/desktop-data-types.md)
+* [Tutorial: formatar e combinar dados no Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
+* [Tarefas comuns de consulta no Power BI Desktop](../transform-model/desktop-common-query-tasks.md)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4172fc2ff4a1da409a1f5586e8b3579e4745fe99
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 193247aaf610d1712b7986394e08d3c21055d2fa
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273460"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965464"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Compreender o que é um esquema de estrela e qual a importância para o Power BI
 
@@ -65,7 +65,7 @@ Existem muitos conceitos adicionais relacionados com o design do esquema de estr
 
 No design do esquema de estrela, uma **medida** é uma coluna da tabela de factos que armazena valores que têm de ser resumidos.
 
-Num modelo do Power BI, uma **medida** tem uma definição diferente mas semelhante. É uma fórmula escrita em [DAX (Data Analysis Expressions)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) que obtém esse resumo. Muitas vezes, as expressões de medida tiram partido de funções de agregação do DAX, como SUM, MIN, MAX, AVERAGE, entre outras, para produzir um resultado de valor escalar ao nível da consulta (os valores nunca são armazenados no modelo). A expressão de medida pode variar de agregações de colunas simples até fórmulas mais sofisticadas que substituem o contexto de filtro e/ou a propagação de relações. Para obter mais informações, leia o artigo [Noções Básicas do DAX no Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics).
+Num modelo do Power BI, uma **medida** tem uma definição diferente mas semelhante. É uma fórmula escrita em [DAX (Data Analysis Expressions)](/dax/data-analysis-expressions-dax-reference) que obtém esse resumo. Muitas vezes, as expressões de medida tiram partido de funções de agregação do DAX, como SUM, MIN, MAX, AVERAGE, entre outras, para produzir um resultado de valor escalar ao nível da consulta (os valores nunca são armazenados no modelo). A expressão de medida pode variar de agregações de colunas simples até fórmulas mais sofisticadas que substituem o contexto de filtro e/ou a propagação de relações. Para obter mais informações, leia o artigo [Noções Básicas do DAX no Power BI Desktop](../transform-model/desktop-quickstart-learn-dax-basics.md).
 
 É importante compreender que os modelos do Power BI suportam um segundo método para obter resumos. Qualquer coluna (normalmente colunas numéricas) pode ser resumida por Perguntas e Respostas ou um elemento visual do relatório. Estas colunas são referidas como _medidas implícitas_. Oferecem uma conveniência para si enquanto programador de modelos, pois em muitos casos não tem de criar medidas. Por exemplo, a coluna **Montante das Vendas** de vendas de revendedor da Adventure Works pode ser resumida de várias formas (sum, count, average, median, min, max, etc.), sem ter de criar uma medida para cada tipo de agregação possível.
 
@@ -73,7 +73,7 @@ Num modelo do Power BI, uma **medida** tem uma definição diferente mas semelha
 
 No entanto, existem três motivos apelativos para criar medidas, até mesmo para resumos simples ao nível da coluna:
 
-- Quando souber que os autores de relatórios irão consultar o modelo com [MDX (Multidimensional Expressions)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), o modelo tem de incluir _medidas explícitas_. As medidas explícitas são definidas ao utilizar DAX. Esta abordagem de design é altamente relevante quando um conjunto de dados Power BI é consultado ao utilizar MDX, porque o MDX não consegue resumir os valores de colunas. Notavelmente, o MDX será utilizado ao executar [Analisar no Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) porque as tabelas dinâmicas emitem consultas MDX.
+- Quando souber que os autores de relatórios irão consultar o modelo com [MDX (Multidimensional Expressions)](/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query), o modelo tem de incluir _medidas explícitas_. As medidas explícitas são definidas ao utilizar DAX. Esta abordagem de design é altamente relevante quando um conjunto de dados Power BI é consultado ao utilizar MDX, porque o MDX não consegue resumir os valores de colunas. Notavelmente, o MDX será utilizado ao executar [Analisar no Excel](../collaborate-share/service-analyze-in-excel.md) porque as tabelas dinâmicas emitem consultas MDX.
 - Quando souber que os autores de relatórios irão criar relatórios paginados do Power BI com o estruturador de consulta MDX, o modelo tem de incluir medidas explícitas. Apenas o estruturador de consulta MDX suporta [agregados de servidores](/sql/reporting-services/report-design/report-builder-functions-aggregate-function). Assim, se os autores de relatórios precisarem de ter medidas avaliadas pelo Power BI (em vez do motor de relatórios paginados), têm de utilizar o estruturador de consulta MDX.
 - Quando precisar de garantir que os autores de relatórios só podem resumir colunas de formas específicas. Por exemplo, a coluna **Preço Unitário** de vendas de revendedor (que representa uma taxa por unidade) pode ser resumida, mas apenas com funções de agregação específicas. Nunca deve ser somada, mas é adequado resumir com outras funções de agregação, como min, max, average, etc. Neste caso, o modelador pode ocultar a coluna **Preço Unitário** e criar medidas para todas as funções de agregação adequadas.
 
@@ -83,7 +83,7 @@ Esta abordagem de design funciona bem para relatórios criados no serviço Power
 
 Uma **chave de substituição** é um identificador exclusivo que adiciona a uma tabela para suportar a modelação do esquema de estrela. Por definição, não são definidas nem armazenadas nos dados de origem. Normalmente, as chaves de substituição são adicionadas a tabelas de dimensão de armazém de dados relacional para fornecer um identificador exclusivo para cada linha da tabela de dimensão.
 
-As relações do modelo do Power BI são baseadas numa única coluna exclusiva numa tabela, que propaga filtros para uma única coluna numa tabela diferente. Quando uma tabela de dimensão no seu modelo não inclui uma única coluna exclusiva, tem de adicionar um identificador exclusivo para se tornar o lado "um" de uma relação. No Power BI Desktop, pode alcançar facilmente este requisito ao criar uma [coluna de índice do Power Query](https://docs.microsoft.com/powerquery-m/table-addindexcolumn).
+As relações do modelo do Power BI são baseadas numa única coluna exclusiva numa tabela, que propaga filtros para uma única coluna numa tabela diferente. Quando uma tabela de dimensão no seu modelo não inclui uma única coluna exclusiva, tem de adicionar um identificador exclusivo para se tornar o lado "um" de uma relação. No Power BI Desktop, pode alcançar facilmente este requisito ao criar uma [coluna de índice do Power Query](/powerquery-m/table-addindexcolumn).
 
 ![Criar uma coluna de índice na barra de ferramentas do Power Query](media/star-schema/toolbar-index.png)
 
@@ -150,12 +150,12 @@ Num modelo do Power BI, este design pode ser imitado ao criar múltiplas relaç�
 
 ![Exemplo de uma única dimensão de desempenho de funções e relações](media/star-schema/relationships.png)
 
-A única forma de utilizar uma relação inativa é definir uma expressão DAX que utiliza a [função USERELATIONSHIP](https://docs.microsoft.com/dax/userelationship-function-dax). No nosso exemplo, o programador do modelo tem de criar medidas para permitir a análise de vendas de revendedor por data de envio e data de entrega. Este trabalho pode ser cansativo, especialmente quando a tabela de revendedor define várias medidas. Também cria desorganização no painel **Campos**, com uma abundância de medidas. Também existem outras limitações:
+A única forma de utilizar uma relação inativa é definir uma expressão DAX que utiliza a [função USERELATIONSHIP](/dax/userelationship-function-dax). No nosso exemplo, o programador do modelo tem de criar medidas para permitir a análise de vendas de revendedor por data de envio e data de entrega. Este trabalho pode ser cansativo, especialmente quando a tabela de revendedor define várias medidas. Também cria desorganização no painel **Campos**, com uma abundância de medidas. Também existem outras limitações:
 
 - Quando os autores dos relatórios recorrem a resumos de colunas, em vez de definições de medidas, não podem obter o resumo das relações inativas sem escrever uma medida ao nível do relatório. As medidas ao nível do relatório só podem ser definidas ao criar relatórios no Power BI Desktop.
 - Com apenas um caminho de relação ativo entre a data e as vendas de revendedor, não é possível filtrar simultaneamente vendas de revendedor por diferentes tipos de datas. Por exemplo, não pode produzir um elemento visual que represente vendas de data de encomenda por vendas enviadas.
 
-Para ultrapassar estas limitações, uma técnica comum de modelação do Power BI é criar uma tabela de dimensão para cada instância de desempenho de funções. Normalmente, cria tabelas de dimensão adicionais como [tabelas calculadas](https://docs.microsoft.com/dax/calculatetable-function-dax) com DAX. Com as tabelas calculadas, o modelo pode conter uma tabela **Dados**, uma tabela **Data de Envio** e uma tabela **Data de Entrega**, cada uma com uma única relação ativa com as colunas de tabela de vendas de revendedor.
+Para ultrapassar estas limitações, uma técnica comum de modelação do Power BI é criar uma tabela de dimensão para cada instância de desempenho de funções. Normalmente, cria tabelas de dimensão adicionais como [tabelas calculadas](/dax/calculatetable-function-dax) com o DAX. Com as tabelas calculadas, o modelo pode conter uma tabela **Dados**, uma tabela **Data de Envio** e uma tabela **Data de Entrega**, cada uma com uma única relação ativa com as colunas de tabela de vendas de revendedor.
 
 ![Exemplo de dimensões de desempenho de funções e relações](media/star-schema/relationships2.png)
 
@@ -174,7 +174,7 @@ Uma **dimensão de lixo** é útil quando existem várias dimensões, especialme
 
 O objetivo do design de uma dimensão de lixo é consolidar várias dimensões "pequenas" numa única dimensão para reduzir o tamanho do armazenamento do modelo e reduzir a desorganização do painel **Campos** ao apresentar menos tabelas do modelo.
 
-Normalmente, uma tabela de dimensão de lixo é o produto cartesiano de todos os membros do atributo de dimensão, com uma coluna de chave de substituição. A chave de substituição fornece uma referência exclusiva para cada linha na tabela. Pode criar a dimensão num armazém de dados ou pode utilizar o Power Query para criar uma consulta que efetua [associações externas completas de consultas](https://docs.microsoft.com/powerquery-m/table-join) e adiciona uma chave de substituição (coluna de índice).
+Normalmente, uma tabela de dimensão de lixo é o produto cartesiano de todos os membros do atributo de dimensão, com uma coluna de chave de substituição. A chave de substituição fornece uma referência exclusiva para cada linha na tabela. Pode criar a dimensão num armazém de dados ou pode utilizar o Power Query para criar uma consulta que efetua [associações externas completas de consultas](/powerquery-m/table-join) e adiciona uma chave de substituição (coluna de índice).
 
 ![Exemplo de dimensão de lixo](media/star-schema/junk-dimension.png)
 
@@ -216,5 +216,3 @@ Para obter mais informações sobre o design do esquema de estrela ou o design d
 - [Documento de orientação das relações ativas vs. inativas](relationships-active-inactive.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)
-
-

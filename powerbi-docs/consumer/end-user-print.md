@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/12/2020
+ms.date: 09/19/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4c44e7d0ff21f49887a069e0a83686aafecc2f24
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 600b8d1447d50a1647097d94df9077299f00cccf
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537280"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860412"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Imprimir a partir do serviço Power BI
 
@@ -49,9 +49,9 @@ Teste as definições do seu browser até obter o aspeto pretendido. Alguns brow
 
 ## <a name="print-a-dashboard"></a>Imprimir um dashboard
 1. Abra o dashboard que quer imprimir.
-2. No canto superior esquerdo, selecione Exportar e **Imprimir esta página**.
+2. No canto superior esquerdo, selecione **Ficheiro** e escolha **Imprimir esta página**.
    
-    ![Opção de impressão do dashboard](./media/end-user-print/power-bi-dashboard-print.png)
+    ![Opção de impressão do dashboard](./media/end-user-print/power-bi-dashboard-print-options.png)
 
 3. A janela Imprimir do browser abre. Escolha as definições. Por exemplo, se a largura do seu dashboard for superior à altura do mesmo, é recomendado alterar o esquema para **Horizontal**. Selecione **Imprimir**.
    
@@ -62,11 +62,13 @@ Teste as definições do seu browser até obter o aspeto pretendido. Alguns brow
 
 3. [Abra o mosaico no Modo de detalhe](end-user-focus.md) ao pairar o rato para apresentar **Mais opções** (...) e ao selecionar **Abrir no modo de detalhe** ou o ícone de detalhe ![ícone de Detalhe](./media/end-user-print/power-bi-focus-icon.png).
    
-    ![menu de reticências](./media/end-user-print/power-bi-menu-options.png)
+    ![menu de reticências](./media/end-user-print/power-bi-focus-tile.png)
 
 4. Paire o rato sobre o mosaico para revelar o menu de Opções.
    
-    ![menu de Opções em ecrã inteiro](./media/end-user-print/menu-options-new.png)
+    ![menu de Opções em ecrã inteiro](./media/end-user-print/power-bi-menu-option.png)
+
+    ![modo de ecrã inteiro](./media/end-user-print/power-bi-focus.png)
 
 4. Selecione o ícone Imprimir ![ícone imprimir](./media/end-user-print/print-icon.png).     
 
@@ -83,9 +85,9 @@ Teste as definições do seu browser até obter o aspeto pretendido. Alguns brow
 ## <a name="print-a-report-page"></a>Imprimir uma página de relatório
 Os relatórios podem ser impressos uma página de cada vez.
 
-1. Abra o relatório e selecione **Exportar** > **Imprimir** para imprimir a página de relatório atual.
+1. Abra o relatório e selecione **Ficheiro** > **Imprimir esta página** para imprimir a página atual do relatório.
    
-    ![Menu Ficheiro do Power BI](./media/end-user-print/power-bi-report-print.png)
+    ![Menu Ficheiro do Power BI](./media/end-user-print/power-bi-print-report.png)
 2. A janela Imprimir do browser abre.
 
 3. Siga os passos de impressão acima a partir de **Imprimir um dashboard**.
@@ -95,9 +97,12 @@ Os relatórios podem ser impressos uma página de cada vez.
 ## <a name="print-a-report-visual"></a>Imprimir um elemento visual de relatório
 1. [Abra o elemento visual no Modo de detalhe](end-user-focus.md) ao pairar o rato sobre o mosaico e selecionar o ícone de Detalhe ![ícone de Detalhe](./media/end-user-print/power-bi-focus-icon.png) no canto superior direito.
 
-2. No canto superior esquerdo, selecione **Exportar** > **Imprimir** para imprimir o elemento visual.
 
-    ![Menu Ficheiro do Power BI](./media/end-user-print/power-bi-report-print.png)
+    ![Abrir o elemento visual no Modo de detalhe](./media/end-user-print/power-bi-visual-focus.png)
+
+2. No canto superior esquerdo, selecione **Ficheiro** > **Imprimir esta página** para imprimir o elemento visual.
+
+    ![Captura de ecrã a mostrar o menu Ficheiro do Power BI](./media/end-user-print/power-bi-visual-print.png)
 
 
 3. Siga os passos de impressão acima a partir de **Imprimir um dashboard**.
@@ -111,11 +116,11 @@ Os relatórios podem ser impressos uma página de cada vez.
 * P: O que vejo quando seleciono **Imprimir** não corresponde ao que estão a mostrar aqui.    
 * R: Os ecrãs de impressão variam consoante o browser e a versão do software.
 * P: A minha impressão não é dimensionada corretamente.  O meu dashboard não cabe na página. Outras perguntas sobre dimensionamento e orientação.    
-* R: Não podemos garantir que a cópia impressa será exatamente igual ao que é apresentado no serviço Power BI. Aspetos como o dimensionamento, as margens, os detalhes visuais, a orientação e o tamanho não são controlados pelo Power BI. Experimente ajustar as definições de impressão do seu browser. Algumas das definições acima sugeridas incluem a orientação da página (vertical ou horizontal), o tamanho das margens e a escala. Se isto não ajudar, veja a documentação relativa ao seu browser específico.      
+* R: Não podemos garantir que a cópia impressa será exatamente igual ao que é apresentado no serviço Power BI. Aspetos como o dimensionamento, as margens, os detalhes visuais, a orientação e o tamanho não são controlados pelo Power BI. Experimente ajustar as definições de impressão do seu browser. Algumas das definições acima sugeridas incluem a orientação da página (vertical ou horizontal), o tamanho das margens e a escala. Se isto não ajudar, veja a documentação relativa ao seu browser específico.      
 * P: Quando estou a imprimir no modo de ecrã inteiro, não vejo a opção de impressão quando pairo sobre o elemento visual.   
 * R: Regresse ao dashboard ou relatório na vista predefinida e reabra o elemento visual no modo de detalhe e, em seguida, no modo de ecrã inteiro. 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Partilhar dashboards e relatórios com colegas e outras pessoas](../collaborate-share/service-share-dashboards.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

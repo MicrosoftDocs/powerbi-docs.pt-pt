@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d8b98afff55c830a1ce3fadd39c11b4cf98036a8
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: 99ee50db33d549d33347c9ceedfe9084f0dbe01f
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578203"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020119"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Atualizações mensais anteriores do Power BI Desktop
 
@@ -37,6 +37,88 @@ As ligações ao lado de cada atualização significam o seguinte:
 Também pode ver o vídeo de **Atualizações Mais Recentes** no início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
 
 As secções seguintes descrevem as atualizações dos meses anteriores ao **Power BI Desktop**.
+
+
+
+## <a name="august-2020-update-2844610"></a>Atualização de agosto de 2020 (2.84.461.0)
+
+As nossas atualizações de agosto do Power BI Desktop estavam repletas de novas funcionalidades e capacidades interessantes. 
+
+Obtenha a versão mais recente do Power BI Desktop a partir do [Centro de Transferências](https://www.microsoft.com/download/details.aspx?id=58494). Se tiver o Windows 10, também poderá obter o Power BI Desktop através da [Microsoft Store](https://aka.ms/pbidesktopstore). Independentemente do modo como instalar o Power BI Desktop, as versões mensais são as mesmas embora a numeração das versões possa diferir. Para obter mais informações sobre como transferir e instalar o Power BI Desktop, veja [Obter o Power BI Desktop](desktop-get-the-desktop.md). 
+
+> [!IMPORTANT]
+> O Power BI Desktop é atualizado e lançado mensalmente e incorpora feedback dos clientes e novas funcionalidades. Apenas é suportada a versão mais recente do Power BI Desktop. Aos clientes que contactarem o suporte do Power BI Desktop, será pedido que atualizem para a versão mais recente. Pode obter a versão mais recente do Power BI Desktop na [Windows Store](https://aka.ms/pbidesktopstore). Também pode obtê-la como um único ficheiro executável, com todos os idiomas suportados, que pode [transferir](https://www.microsoft.com/download/details.aspx?id=58494) e instalar no seu computador.
+
+As ligações que se encontram ao lado de cada funcionalidade na lista de atualizações do Power BI Desktop são interpretadas da seguinte forma:
+
+* \[blogue\]: a maior parte das funcionalidades são explicadas numa secção da publicação do blogue de atualização mensal.
+* \[vídeo\]: algumas funcionalidades têm um excerto de vídeo que fala sobre a funcionalidade, reproduzido num novo separador do browser.
+* \[artigo\]: algumas funcionalidades têm um artigo que proporciona mais detalhes.
+* As funcionalidades restantes são facilmente compreensíveis e não precisam de um artigo ou vídeo.
+
+Também pode ver o [vídeo da atualização mensal do Power BI Desktop](#power-bi-desktop-monthly-update-video) na sua totalidade.
+
+> [!IMPORTANT]
+> O Power BI Desktop deixará de ser suportado no Windows 7 após 31 de janeiro de 2021. Após essa data, o Power BI Desktop será suportado no Windows 8 ou em versões mais recentes do Windows, apenas na versão mais recente do Power BI Desktop. 
+
+As atualizações seguintes são novas no Power BI Desktop este mês:
+
+
+### <a name="reporting"></a>Relatórios
+* Perspectives support for Personalize visuals (preview) (Suporte de perspetivas para a opção Personalizar elementos visuais [pré-visualização]) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=15)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Perspectives) 
+* Rectangular lasso select for data points (preview) (Seleção de laço retangular para pontos de dados [pré-visualização]) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=448)   [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Data_point) 
+* Added dynamic formatting support to more visuals (Suporte para formatação dinâmica adicionado a mais elementos visuais) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=715)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_dynamic_formatting) 
+
+
+### <a name="analytics"></a>Análise
+* DirectQuery support for Q&A (Suporte do DirectQuery para Perguntas e Respostas) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=926)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Direct_Query) 
+
+
+### <a name="visuals"></a>Visuais
+* Multiple new visuals from various companies (Múltiplos elementos visuais novos de diversas empresas) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=956)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Visualizations)
+* ArcGIS Maps updates (Atualizações aos Mapas ArcGIS) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=1096)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_ArcGIS)
+* Extending admin capabilities for AppSource visuals (Capacidades de administrador expandidas para elementos visuais do AppSource) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=1135)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Admin)
+
+
+### <a name="template-apps"></a>Aplicações de modelo
+* Agile CRM Analytics for Dynamics 365 (Análise de CRM ágil para o Dynamics 365) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=1300)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_CRM)
+
+
+### <a name="data-preparation"></a>Preparação de dados
+* Text/CSF by Example (preview) (Texto/CSF por Exemplo [pré-visualização]) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=1335)   [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_text_csv) 
+
+### <a name="data-connectivity"></a>Conectividade de dados
+* Cherwell connector (Conector Cherwell) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=1392)   [[artigo]](../create-reports/desktop-external-tools.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Cherwell_connector) 
+
+* Automation Anywhere connector (Conector Automation Anywhere) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=1414)   [[artigo]](../create-reports/desktop-external-tools.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Auto_connector) 
+
+* Acterys connector (Conector Acterys) [[vídeo]](https://youtu.be/TPsV7N4bZZg?t=1434)   [[artigo]](../create-reports/desktop-external-tools.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Acterys_connector) 
+
+
+Para obter informações detalhadas sobre cada uma destas novas funcionalidades, veja [Publicação de blogue do resumo das funcionalidades do Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/).
+
+Veja quais são as [novidades do serviço Power BI](service-whats-new.md) e as [novidades nas aplicações móveis do Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
+> [!NOTE]
+> Veja as [origens de dados disponíveis para o Power BI Desktop](../connect-data/desktop-data-sources.md). A nossa lista está sempre a crescer, por isso consulte-a regularmente.
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>Vídeo da atualização mensal do Power BI Desktop
+O vídeo seguinte descreve cada uma destas atualizações. Também pode ver este vídeo a partir da publicação de blogue:
+
+> [!VIDEO https://www.youtube.com/embed/TPsV7N4bZZg]
+
+Também pode transferir as versões anteriores do Power BI Desktop se a sua organização o exigir. Recomendamos sempre que utilize a versão mais recente do Power BI Desktop, em vez de uma versão anterior. Todas as versões anteriores têm as seguintes limitações:
+
+* As versões anteriores do Power BI Desktop não estão a ser servidas – deve sempre utilizar a versão mais recente para obter as funcionalidades e as atualizações mais recentes.
+* Pode não ser possível abrir ficheiros que criou ou guardou em versões mais recentes do Power BI Desktop com versões anteriores do Power BI Desktop. 
+* Se receber um aviso quando carregar um relatório guardado numa versão mais recente do Power BI Desktop e guardar esse relatório na versão anterior, perderá todas as informações relacionadas com as novas funcionalidades.
+* Apenas arquivamos as versões em inglês do Power BI Desktop.
+
+Selecione as seguintes ligações para transferir esta versão anterior: 
+
+* [Versão de agosto de 2020 do Power BI Desktop – 32 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-08.exe)
+* [Versão de agosto de 2020 do Power BI Desktop – 64 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-08_x64.exe)
 
 
 ## <a name="july-2020-update-2835894661"></a>Atualização de julho de 2020 (2.83.5894.661)
@@ -419,7 +501,7 @@ As atualizações seguintes são novas no Power BI Desktop este mês:
 
 
 ### <a name="modeling"></a>Modelação
-* Nova função DAX: COALESCE [[vídeo]](https://youtu.be/DMjvJGGB_LQ?t=830)  [[artigo]](https://docs.microsoft.com/dax/coalesce-function-dax)   [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_DAX_function
+* Nova função DAX: COALESCE [[vídeo]](https://youtu.be/DMjvJGGB_LQ?t=830)  [[artigo]](/dax/coalesce-function-dax)   [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_DAX_function
 ) 
 
 ### <a name="visuals"></a>Visuais
@@ -503,7 +585,7 @@ As atualizações seguintes são novas no Power BI Desktop este mês:
 
 
 ### <a name="modeling"></a>Modelação
-* Novas funções do DAX: FirstNonBlankValue, LastNonBlankValue [[vídeo]](https://youtu.be/TN61JvbUAxk?t=716)  [[artigo]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax)   [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_New_DAX_Functions) 
+* Novas funções do DAX: FirstNonBlankValue, LastNonBlankValue [[vídeo]](https://youtu.be/TN61JvbUAxk?t=716)  [[artigo]](/dax/firstnonblankvalue-function-dax)   [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_New_DAX_Functions) 
 
 ### <a name="visuals"></a>Visuais
 * Novos elementos visuais personalizados [[vídeo]](https://youtu.be/TN61JvbUAxk?t=835)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Visualizations) 
@@ -539,17 +621,6 @@ O vídeo seguinte descreve cada uma destas atualizações. Também pode ver este
 
 > [!VIDEO https://www.youtube.com/embed/TN61JvbUAxk]
 
-Também pode transferir as versões anteriores do Power BI Desktop se a sua organização o exigir. Recomendamos sempre que utilize a versão mais recente do Power BI Desktop, em vez de uma versão anterior. Todas as versões anteriores têm as seguintes limitações:
-
-* As versões anteriores do Power BI Desktop não estão a ser servidas – deve sempre utilizar a versão mais recente para obter as funcionalidades e as atualizações mais recentes.
-* Pode não ser possível abrir ficheiros que criou ou guardou em versões mais recentes do Power BI Desktop com versões anteriores do Power BI Desktop. 
-* Se receber um aviso quando carregar um relatório guardado numa versão mais recente do Power BI Desktop e guardar esse relatório na versão anterior, perderá todas as informações relacionadas com as novas funcionalidades.
-* Apenas arquivamos as versões em inglês do Power BI Desktop.
-
-Selecione as seguintes ligações para transferir esta versão anterior: 
-
-* [Versão de fevereiro de 2020 do Power BI Desktop – 32 bits](https://download.microsoft.com/download/3/C/0/3C0A5D40-85C6-4959-BB51-3A2087B18BCA/PBIDesktopRS.msi)
-* [Versão de fevereiro de 2020 do Power BI Desktop – 64 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe)
 
 
 ## <a name="december-2019-update-2765678661"></a>Atualização de dezembro de 2019 (2.76.5678.661)

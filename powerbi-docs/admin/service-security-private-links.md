@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 09/14/2020
+ms.date: 09/17/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 612fa923f45b427cb9c4fea4ecc1b18ad8580004
-ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
+ms.openlocfilehash: 3b8eb9c5e4211097cd6f11d233165ccaf197ddbe
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90084036"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854374"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Ligações privadas para aceder ao Power BI
 
@@ -158,7 +158,7 @@ O passo seguinte é criar a rede virtual e a sub-rede para alojar a máquina vir
     |Tamanho | Mantenha a predefinição **Standard DS1 v2** |
     |CONTA DE ADMINISTRADOR ||
     |Nome de utilizador |Introduza um nome de utilizador à sua escolha |
-    |Palavra-passe | Introduza uma palavra-passe à sua escolha. A palavra-passe tem de ter pelo menos 12 carateres e cumprir os [requisitos de complexidade definidos](https://docs.microsoft.com/azure/virtual-machines/windows/faq?toc=/azure/virtual-network/toc.json#what-are-the-password-requirements-when-creating-a-vm) |
+    |Palavra-passe | Introduza uma palavra-passe à sua escolha. A palavra-passe tem de ter pelo menos 12 carateres e cumprir os [requisitos de complexidade definidos](/azure/virtual-machines/windows/faq#what-are-the-password-requirements-when-creating-a-vm) |
     |Confirmar Palavra-passe | Reintroduza a palavra-passe |
     |REGRAS DA PORTA DE ENTRADA ||
     |Portas de entrada públicas | Mantenha a predefinição **Nenhuma** |
@@ -284,6 +284,7 @@ Estas são algumas considerações a ter enquanto trabalha com ligações privad
 * Qualquer utilização de temas ou imagens externas não está disponível ao utilizar um ambiente de ligação privada e poderá afetar os elementos visuais personalizados
 * Serviços de exportação, como exportar para PDF, exportar para o Excel a partir de um relatório e outros serviços de exportação não funcionam ao utilizar um ambiente de ligação privada
 * Os relatórios do SQL Server Reporting Services, também conhecidos como ficheiros RDL (*ficheiros de formato .rdl) não compõem em ambientes de ligação privada
+* Se o acesso à Internet estiver desativado e se o conjunto de dados ou fluxo de dados estiver a ligar-se a um conjunto de dados do Power BI ou fluxo de dados como uma origem de dados, a ligação falhará
 
 
 ## <a name="next-steps"></a>Próximos passos

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 07/22/2020
-ms.openlocfilehash: 06bd8271904b9c44de6c71e287f0560c54f6d031
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: fb79358bb9149498a39cca32db618cb6971121de
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254058"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964780"
 ---
 # <a name="get-a-power-bi-link-preview-in-microsoft-teams"></a>Obter uma pré-visualização da ligação do Power BI no Microsoft Teams
 
@@ -27,7 +27,7 @@ Quando cola uma ligação para os relatórios, dashboards e aplicações na caix
 
 O serviço de pré-visualização da ligação exige que os seus utilizadores iniciem sessão. Para terminar sessão, selecione o ícone do **Power BI** na parte inferior da caixa de mensagens. Em seguida, selecione **Terminar sessão**.
 
-Veja [Colaborar no Microsoft Teams com o Power BI](service-collaborate-microsoft-teams.md) para obter informações sobre como o Power BI e o Teams funcionam em conjunto, incluindo requisitos que precisa de cumprir.
+Veja [Colaborar no Microsoft Teams com o Power BI](service-collaborate-microsoft-teams.md) para obter informações sobre como o Power BI e o Microsoft Teams funcionam em conjunto, incluindo os requisitos que precisa de cumprir.
 
 ## <a name="get-a-link-preview"></a>Obter uma pré-visualização da ligação
 

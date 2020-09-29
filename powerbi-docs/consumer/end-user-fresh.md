@@ -7,15 +7,15 @@ ms.reviewer: mihart
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 09/15/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 73affb07b137ee60fe00f7d344759ec2de1bcb85
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c3ae3974b411ccd7f1be175910878cdeb0bc5c40
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215904"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763218"
 ---
 # <a name="your-content-is-up-to-date"></a>Os seus conteúdos estão atualizados
 
@@ -23,7 +23,7 @@ ms.locfileid: "86215904"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Enquanto *consumidor*, interage com conteúdos que são feitos por *criadores* e partilhados consigo. Poderá perguntar-se se esses conteúdos estarão atualizados ou talvez queira saber quando foi a última atualização dos mesmos. O conhecimento de que está a trabalhar com os conteúdos mais recentes transmite-lhe confiança.  
+Enquanto *utilizador empresarial*, interage com conteúdos que são feitos por *estruturadores* e partilhados consigo. Poderá perguntar-se se esses conteúdos estarão atualizados ou talvez queira saber quando foi a última atualização dos mesmos. O conhecimento de que está a trabalhar com os conteúdos mais recentes transmite-lhe confiança.  
  
 ![Dashboard do Power BI](media/end-user-fresh/power-bi-dashboards.png)
 
@@ -38,7 +38,7 @@ Se tiver mais perguntas sobre o quão recentes são os dados, contacte o criador
 
 O nome do proprietário está disponível na barra de título de dashboards e relatórios. Selecione o nome do relatório ou do dashboard para revelar detalhes adicionais, incluindo o **Proprietário**.
 
-![Proprietário do dashboard do Power BI](media/end-user-fresh/power-bi-owner.png)
+![Proprietário do dashboard do Power BI](media/end-user-fresh/power-bi-designer.png)
 
 
 ### <a name="apps"></a>Apps
@@ -47,19 +47,19 @@ O ecrã da aplicação apresenta o nome do criador e a data em que a aplicação
 
 1. No painel de navegação, selecione **Aplicações**.
 
-    ![painel de navegação](media/end-user-fresh/power-bi-nav-app.png)
+    ![painel de navegação](media/end-user-fresh/power-bi-nav-apps.png)
 
 
 
 2. Passe o rato sobre a aplicação para apresentar o título, a data de atualização e o nome do criador. 
 
-    ![2 aplicações com uma selecionada](media/end-user-fresh/power-bi-app.png)
+    ![2 aplicações com uma selecionada](media/end-user-fresh/power-bi-apps.png)
 
 
 ### <a name="shared-with-me"></a>Shared with me (Partilhado comigo)
 O ecrã **Partilhado comigo** mostra-lhe o nome do proprietário dos conteúdos, bem como a data na qual o mesmo foi partilhado consigo da última vez.
 
-![ecrã partilhado comigo a mostrar Data da alteração e Proprietário](media/end-user-fresh/power-bi-share.png) 
+![ecrã partilhado comigo a mostrar Data da alteração e Proprietário](media/end-user-fresh/power-bi-shared.png) 
 
 
 ## <a name="how-to-look-up-the-last-refresh-date"></a>Como encontrar a última data de atualização
@@ -70,20 +70,20 @@ Para os mosaicos do dashboard, consulte o mosaico em modo de Detalhe para ver o 
 
 1. No mosaico do dashboard, selecione **Mais opções** (...) e, em seguida, **Abrir no modo de Detalhe**.
 
-    ![menu que é apresentado após selecionar as reticências](media/end-user-fresh/power-bi-focus-mode.png)
+    ![menu que é apresentado após selecionar as reticências](media/end-user-fresh/power-bi-fresh-focus.png)
 
 2. É apresentada a data da última atualização no canto superior direito. Se não a conseguir ver, expanda o browser para o tornar mais largo. 
 
-    ![browser expandido a mostrar a última atualização](media/end-user-fresh/power-bi-last-refresh2.png)
+    ![browser expandido a mostrar a última atualização](media/end-user-fresh/power-bi-last-refresh.png)
 
 ### <a name="dashboards-and-reports"></a>Dashboards e relatórios
-Outra forma de pesquisar a data da última atualização é ao utilizar a opção **Ver relacionados**.  A opção **Ver relacionados** está disponível ao selecionar **Mais opções** (…) na barra de menus superior do Power BI.
+Outra forma de pesquisar a data da última atualização é ao utilizar a opção **Ver conteúdo relacionado**.  A opção **Ver conteúdo relacionado** está disponível ao selecionar **Mais opções** (…) na barra de menus superior do Power BI.
 
-![Selecionar Ver relacionados do menu](media/end-user-fresh/power-bi-view-related-dropdown.png)
+![Selecionar Ver conteúdo relacionado no menu](media/end-user-fresh/power-bi-see-related.png)
 
 O painel **Conteúdo relacionado** apresenta as informações da última atualização para o conjunto de dados subjacente do relatório ou dashboard.
 
-![Dashboard do Power BI](media/end-user-fresh/power-bi-refresh.png)
+![Captura de ecrã a mostrar o painel Conteúdo relacionado](media/end-user-fresh/power-bi-see-related-screen.png)
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>O que acontece se uma aplicação for eliminada pelo criador
 

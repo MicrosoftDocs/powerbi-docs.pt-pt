@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 06/25/2020
-ms.openlocfilehash: 69ad9fc76250e09c2cea5a8d5dc0d3b2c13f72bf
-ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
+ms.custom: contperfq1
+ms.date: 09/22/2020
+ms.openlocfilehash: a364d3dd2d2175e4509d05f4c34eec31a1a371b6
+ms.sourcegitcommit: 37ec0e9e356b6d773d7d56133fb8ed6c06b65fd3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89220889"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "91024041"
 ---
-# <a name="understand-the-deployment-process-preview"></a>Compreender o processo de implementação (pré-visualização)
+# <a name="understand-the-deployment-process"></a>Understand the deployment process (Compreender o processo de implementação)
 
 O processo de implementação permite clonar conteúdo de uma fase no pipeline para outra, normalmente da fase de desenvolvimento para a fase de teste e da fase de teste para a fase de produção.
 
@@ -90,7 +91,7 @@ Os pipelines de implementação não suportam os seguintes itens:
 
 * Relatórios baseados em conjuntos de dados não suportados
 
-* A área de trabalho não pode utilizar uma aplicação de modelo
+* [Áreas de trabalho da aplicação de modelo](../connect-data/service-template-apps-create.md#create-the-template-workspace)
 
 * Relatórios paginados
 
@@ -137,14 +138,60 @@ As seguintes propriedades de itens não são copiadas durante a implementação:
 As propriedades de conjuntos de dados seguintes também não são copiadas durante a implementação:
 
 * Atribuição de função
-    
+
 * Agenda de atualizações
-    
+
 * Credenciais da origem de dados
-    
+
 * Definições de colocação em cache de consultas (podem ser herdadas da capacidade)
-    
+
 * Definições de endossamento
+
+## <a name="incremental-refresh"></a>Atualização incremental
+
+Os pipelines de implementação suportam a [atualização incremental](../admin/service-premium-incremental-refresh.md), uma funcionalidade que permite atualizações mais rápidas e fiáveis aos conjuntos de dados grandes, mas com menor consumo.
+
+Com os pipelines de implementação, pode fazer atualizações a um conjunto de dados com a atualização incremental enquanto mantém os dados e as partições. Quando implementa o conjunto de dados, a política é copiada ao mesmo tempo.
+
+### <a name="activating-incremental-refresh-in-a-pipeline"></a>Ativar a atualização incremental num pipeline
+
+Para ativar a atualização incremental, [ative-a no Power BI Desktop](../admin/service-premium-incremental-refresh.md#configure-incremental-refresh) e, em seguida, publique o conjunto de dados. Depois da publicação, a política de atualização incremental será semelhante em todo o pipeline e só poderá ser criada no Power BI Desktop.
+
+Depois da configuração do pipeline com a atualização incremental, recomendamos que utilize o seguinte fluxo:
+
+1. Faça alterações no ficheiro PBIX no Power BI Desktop. Para evitar tempos de espera longos, pode fazer alterações com uma amostra dos dados.
+
+2. Carregue o ficheiro PBIX para a fase de *desenvolvimento*.
+
+3. Implemente o conteúdo na fase de *teste*. Após a implementação, as alterações que fizer serão aplicadas a todo o conjunto de dados em utilização.
+
+4. Examine as alterações feitas na fase de *teste* e, depois de as verificar, implemente para a fase de *produção*.
+
+### <a name="usage-examples"></a>Exemplos de utilização
+
+Abaixo estão alguns exemplos de como pode integrar a atualização incremental aos pipelines de implementação.
+
+* [Crie um novo pipeline](deployment-pipelines-get-started.md#step-1---create-a-deployment-pipeline) e ligue-o a uma área de trabalho com um conjunto de dados que tenha a atualização incremental ativada.
+
+* Ative a atualização incremental num conjunto de dados que já esteja numa área de trabalho de *desenvolvimento*.  
+
+* Crie um pipeline a partir de uma área de trabalho de produção que tenha um conjunto de dados que utilize a atualização incremental. Poderá fazê-lo ao atribuir a área de trabalho a uma fase de *produção* de um pipeline novo e ao utilizar a [implementação retroativa](deployment-pipelines-get-started.md#backwards-deployment) para implementar na fase de *teste* e, em seguida, na fase de *desenvolvimento*.
+
+* Publique um conjunto de dados que utilize a atualização incremental numa área de trabalho que faz parte de um pipeline existente.
+
+### <a name="limitations-and-considerations"></a>Limitações e considerações
+
+Na atualização incremental, os pipelines de implementação só suportam conjuntos de dados que utilizem [metadados de conjuntos de dados otimizados](../connect-data/desktop-enhanced-dataset-metadata.md). A partir da versão de setembro de 2020 do Power BI Desktop, todos os conjuntos de dados criados ou modificados com o Power BI Desktop implementam automaticamente os metadados dos conjuntos de dados otimizados.
+
+Ao publicar novamente um conjunto de dados num pipeline ativo com a atualização incremental ativada, as seguintes alterações irão resultar na falha da implementação devido a uma potencial perda de dados:
+
+* Nova publicação dos conjuntos de dados que não utilizam a atualização incremental para substituir os conjuntos de dados que têm a atualização incremental ativada.
+
+* Mudança do nome das tabelas que têm a atualização incremental ativada.
+
+* Mudança do nome das colunas não calculadas nas tabelas com a atualização incremental ativada.
+
+Outras alterações, como a adição de colunas, a remoção de colunas e a mudança de nome das colunas calculadas, são permitidas. No entanto, se as alterações afetarem a apresentação, terá de atualizar antes de a alteração ficar visível.
 
 ## <a name="deploying-power-bi-apps"></a>Implementar aplicações do Power BI
 
@@ -170,9 +217,9 @@ As permissões dos pipelines e as permissões das áreas de trabalho são conced
 Os utilizadores com acesso ao pipeline têm as seguintes permissões:
 
 * Ver o pipeline
-    
+
 * Partilhar o pipeline com outras pessoas
-    
+
 * Editar e eliminar o pipeline
 
 >[!NOTE]
@@ -202,9 +249,9 @@ Os contribuidores da área de trabalho com *acesso ao pipeline* também podem fa
 Os membros da área de trabalho com *acesso ao pipeline* também podem fazer o seguinte:
 
 * Ver o conteúdo da área de trabalho
-    
+
 * Comparar fases
-    
+
 * Implementar relatórios e dashboards
 
 * Remover áreas de trabalho
@@ -222,7 +269,7 @@ Os administradores da área de trabalho com *acesso ao pipeline* podem realizar 
 Os proprietários dos conjuntos de dados que sejam membros ou administradores da área de trabalho também podem fazer o seguinte:
 
 * Atualizar conjuntos de dados
-    
+
 * Configurar regras
 
 >[!NOTE]
@@ -244,13 +291,11 @@ Esta secção lista a maioria das limitações nos pipelines de implementação.
 
 ### <a name="dataset-limitations"></a>Limitações dos conjuntos de dados
 
-* Os conjuntos de dados configurados com a [atualização incremental](../admin/service-premium-incremental-refresh.md) não podem ser implementados.
-
 * Os conjuntos de dados que utilizam conectividade de dados em tempo real não podem ser implementados.
 
 * Durante a implementação, se o conjunto de dados de destino estiver a utilizar uma [ligação em direto](../connect-data/desktop-report-lifecycle-datasets.md), o conjunto de dados de origem também terá de utilizar este modo de ligação.
 
-* Após a implementação, não será suportada a transferência de um conjunto de dados (a partir da fase na qual foi implementado).
+* Após a implementação, não será suportada a transferência do conjunto de dados (a partir da fase na qual foi implementado).
 
 * Para obter uma lista das limitações das regras de conjuntos de dados, veja [Limitações das regras de conjuntos de dados](deployment-pipelines-get-started.md#dataset-rule-limitations).
 
