@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/22/2020
+ms.date: 09/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2268cb86ec60e2b461c66cca6034fd47a30c2e38
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: acfe54479ae02b950dcc8521807add7c06071207
+ms.sourcegitcommit: 3655521f7d6e70d25cbe72006aada69ba08e7dec
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91019981"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "91224193"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Quais são as Novidades no Power BI Desktop?
 
@@ -97,7 +97,7 @@ Para obter informações detalhadas sobre cada uma destas novas funcionalidades,
 ### <a name="power-bi-desktop-monthly-update-video"></a>Vídeo da atualização mensal do Power BI Desktop
 O vídeo seguinte descreve cada uma destas atualizações. Também pode ver este vídeo a partir da publicação de blogue:
 
-> [!VIDEO https://www.youtube.com/embed/TPsV7N4bZZg]
+> [!VIDEO https://www.youtube.com/embed/gPGy18Yo0Go]
 
 ## <a name="more-videos"></a>Mais vídeos
 
