@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 06/28/2020
-ms.openlocfilehash: 29aff96cc93de305ce78cb0cfa015954928309ff
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 44e82a3f51af606d4e5cd6f70b13b9a8db4641fe
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937522"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91135896"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>Incorporar uma peça Web de relatórios no SharePoint Online
 
@@ -160,7 +160,7 @@ Os utilizadores que visualizam um relatório no SharePoint precisam de uma **lic
 
 * O Power BI não suporta os mesmos idiomas localizados que o SharePoint Online. Como tal, poderá não ver uma devida localização no relatório incorporado.
 
-* Poderá encontrar problemas se estiver a utilizar o Internet Explorer 10. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+* Poderá encontrar problemas se estiver a utilizar o Internet Explorer 10. <!--You can look at the [browsers support for Power BI](../fundamentals/power-bi-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 
 * A peça Web do Power BI não está disponível para [clouds nacionais](https://powerbi.microsoft.com/clouds/).
 

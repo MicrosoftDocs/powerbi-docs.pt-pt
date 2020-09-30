@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 971c699170103d5521763679c93d3641c094cc58
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f2b9ee2093889fc9a60d621ad09b3b52d2e90474
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277439"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525944"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Separar relatórios de modelos no Power BI Desktop
 
@@ -37,7 +37,7 @@ Faz sentido separar o desenvolvimento do modelo e do relatório em ficheiros sep
 - Os modeladores dos dados e os autores dos relatórios são pessoas diferentes.
 - Está subentendido que um modelo será a origem de vários relatórios, agora ou no futuro.
 
-:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="Existem três ficheiros PBIX. O primeiro contém apenas um modelo. Os outros dois contêm apenas relatórios, e estão diretamente ligados ao modelo alojado no serviço Power BI. Os relatórios são desenvolvidos por pessoas diferentes." border="true":::
+:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="Um ficheiro único contém um modelo e relatório, desenvolvido pela mesma pessoa." border="true":::
 
 Os modeladores dos dados ainda podem utilizar a experiência de criação de relatórios do Power BI Desktop para testar e validar os designs dos modelos. No entanto, logo após a publicação do ficheiro no serviço Power BI, devem remover o relatório da área de trabalho. E, devem lembrar-se de remover o relatório de cada vez que publicam novamente e substituem o conjunto de dados.
 
@@ -56,7 +56,7 @@ A adição de novas tabelas, colunas, hierarquias, níveis de hierarquia ou medi
 
 Se tiver de realizar alterações interruptivas aos modelos, recomendamos que:
 
-- [Veja os conteúdos relacionados com o conjunto de dados](../consumer/end-user-related.md#view-related-content-for-a-dataset) no serviço Power BI.
+- [Veja os conteúdos relacionados com o conjunto de dados](../consumer/end-user-related.md) no serviço Power BI.
 - Explore a vista [Linhagem de dados](../collaborate-share/service-data-lineage.md) no serviço Power BI.
 
 Ambas as opções permitem identificar rapidamente os relatórios e dashboards relacionados. A vista Linhagem de dados é provavelmente a melhor escolha, dado que é fácil ver a pessoa de contacto de cada artefacto relacionado. De facto, trata-se de uma hiperligação que abre uma mensagem de e-mail dirigida ao contacto.

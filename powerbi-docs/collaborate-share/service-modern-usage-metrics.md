@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/31/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 467061dfe7ee3cdf62c08dd60c4325eee96d431c
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 0555f6c46ef864ed89d3d364420a14a2ff18ab84
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763649"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136103"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Monitorizar as métricas de utilização na nova experiência de área de trabalho (pré-visualização)
 
@@ -363,7 +363,7 @@ Se suspeitar de problemas de consistência de dados ou de atualização, poderá
 
     ![URL do conjunto de dados Métricas de utilização](media/service-modern-usage-metrics/power-bi-usage-metrics-url.png)
 
-1. No browser, aceda a [https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup](https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup) e selecione o botão **Experimentar**.
+1. No browser, aceda a [https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup](/rest/api/power-bi/datasets/deletedatasetingroup) e selecione o botão **Experimentar**.
 
     ![Eliminar conjunto de dados – Experimentar](media/service-modern-usage-metrics/power-bi-delete-dataset-try-it.png)
 
