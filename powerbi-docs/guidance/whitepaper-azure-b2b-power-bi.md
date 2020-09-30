@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9125c87f96641852a16410d3f8287c714816fb4b
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: df6b3bd29089f37b11064216568523f442169794
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965366"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528396"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure Active Directory B2B
 
@@ -306,7 +306,7 @@ A integração do Power BI com o Azure AD B2B dá à Contoso uma forma perfeita 
 
     Os utilizadores convidados podem posteriormente chegar à app do Contoso clicando no link no e-mail ou marcando o link. O Contoso também pode facilitar a vida aos utilizadores dos hóspedes, adicionando este link a qualquer portal de extranet existente que os utilizadores já utilizem.
 
-4. Passos seguintes
+4. Próximos passos
 
     Utilizando uma aplicação Power BI e Azure AD B2B, a Contoso conseguiu rapidamente criar um Portal BI para os seus fornecedores de forma sem código. Esta distribuição muito simplificada da análise padronizada a todos os fornecedores que dela necessitavam.
 
@@ -397,7 +397,7 @@ Sempre que as funções forem definidas no relatório, um utilizador deve ser at
 
 Isto abre uma página onde a equipa de BI de Contoso pode ver os dois papéis que criaram.  Agora a equipa de BI da Contoso pode atribuir os utilizadores às funções.
 
-![Segurança ao nível da linha](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_30.png)
+![Segurança ao Nível da Linha](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_30.png)
 
 No exemplo, a Contoso está a adicionar um utilizador numa organização parceira com endereço de e-mail [adam@themeasuredproduct.com](mailto:adam@themeasuredproduct.com) " " ao papel da Europa:
 
@@ -535,7 +535,7 @@ Os detalhes sobre as definições estão disponíveis aqui:
 
 ### <a name="control-guest-invites"></a>Convites de convidados de controlo
 
-Os administradores do Power BI podem controlar a partilha externa apenas para o Power BI visitando o portal de administração Power BI. Mas os administradores de inquilinos também podem controlar a partilha externa com várias políticas de AD Azure.  Estas políticas permitem que os administradores de inquilinos
+Os administradores do Power BI podem controlar a partilha externa apenas para o Power BI visitando o portal de administração Power BI. Mas os administradores também podem controlar a partilha externa com várias políticas AZure AD.  Estas políticas permitem aos administradores:
 
 - Desligue os convites pelos utilizadores finais
 - Só os administradores e utilizadores no papel de Convidado convidado podem convidar
