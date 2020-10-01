@@ -259,8 +259,6 @@
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
             - name: "Interagir com mapas ArcGIS nos elementos visuais do Power\_BI"
               href: ../visuals/power-bi-visualizations-arcgis.md
-            - name: "Criar mapas ArcGIS para os elementos visuais do Power\_BI"
-              href: ../visuals/power-bi-visualization-arcgis.md
             - name: Gráficos de área básicos
               href: ../visuals/power-bi-visualization-basic-area-chart.md
             - name: Criar elementos visuais de cartão (mosaicos de número grande)

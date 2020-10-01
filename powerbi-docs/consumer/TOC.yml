@@ -100,8 +100,6 @@
               href: end-user-copy-paste.md
             - name: Desagregar numa visualização
               href: end-user-drill.md
-            - name: Interagir com mapas ArcGIS
-              href: ../visuals/power-bi-visualizations-arcgis.md
         - name: Common tasks (Tarefas comuns)
           items:
             - name: Export data to Excel (Exportar dados para o Excel)
