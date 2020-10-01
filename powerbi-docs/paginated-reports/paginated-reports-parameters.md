@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 12/03/2019
-ms.openlocfilehash: ab2d0a0678fb5ff251e65d42784f02c1fb8c0cea
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 09/28/2020
+ms.openlocfilehash: 3a755b2b4eeba407178d7afa0a0250b6897e6dac
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219593"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526358"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Criar parâmetros para relatórios paginados no serviço Power BI
 
-Neste artigo, vai aprender a criar parâmetros para relatórios paginados no serviço Power BI.  Um parâmetro de relatório proporciona uma forma de escolher os dados do relatório e de variar a apresentação do relatório. Pode indicar um valor padrão e uma lista de valores disponíveis e os leitores do seu relatório podem alterar a seleção.  
+Neste artigo, vai aprender a criar parâmetros para relatórios paginados no serviço Power BI.  Um parâmetro de relatório proporciona uma forma de escolher os dados do relatório e de variar a apresentação do relatório. Pode fornecer um valor predefinido e uma lista de valores disponíveis. Os leitores do relatório podem alterar a seleção. Eles também podem escrever nas caixas de texto de parâmetro para procurar valores. Veja [Ver parâmetros de relatórios paginados](../consumer/paginated-reports-view-parameters.md) para ver como os utilizadores empresariais interagem com os parâmetros no serviço Power BI.  
 
 A ilustração seguinte mostra a vista Estrutura no Report Builder do Power BI para um relatório com os parâmetros @BuyingGroup, @Customer, @FromDate e @ToDate. 
   
@@ -64,10 +64,10 @@ A ilustração seguinte mostra a vista Estrutura no Report Builder do Power BI p
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 
-- Se estiver a utilizar um conjunto de dados do Power BI ou um modelo do Analysis Services como a sua origem de dados, não poderá transmitir mais de 1000 valores de parâmetro num único pedido devido a limitações DAX. 
+- Se estiver a utilizar um conjunto de dados do Power BI ou um modelo do Analysis Services como origem de dados, não poderá transmitir mais de 1000 valores de parâmetro num único pedido. O DAX limita os parâmetros a 1000 valores. 
 
  
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 
 Veja [Ver parâmetros dos relatórios paginados](../consumer/paginated-reports-view-parameters.md) para ver o aspeto dos parâmetros no serviço Power BI.
 

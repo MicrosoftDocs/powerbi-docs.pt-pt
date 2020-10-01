@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: c97a303a5b3241f49e82aac41d9ed7984c3a5af1
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 521c1cbc60c6d616c06bde6b6826bb270d3ddba0
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642305"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375310"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gerir a sua origem de dados – Analysis Services
 
@@ -219,7 +219,9 @@ Não é possível utilizar EffectiveUserName num servidor do Analysis Services n
 
 Poderá não saber qual é o seu UPN nem ser um administrador do domínio. Pode utilizar o seguinte comando da sua estação de trabalho para descobrir o UPN da sua conta.
 
-    whoami /upn
+```dos
+whoami /upn
+```
 
 O resultado é semelhante a um endereço de e-mail, mas trata-se do UPN que está na sua conta do domínio. Se utilizar uma origem de dados do Analysis Services para ligações em direto e se este UPN não corresponder ao endereço de e-mail que utilizou para iniciar sessão no Power BI, é recomendado que veja como [mapear nomes de utilizador](#map-user-names-for-analysis-services-data-sources).
 
@@ -235,7 +237,7 @@ Os serviços cloud só conhecem as contas no Azure AD. É irrelevante se adicion
 
 - Pode utilizar a ferramenta [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) para sincronizar as contas locais no inquilino do Azure AD.
 
-   A ferramenta Azure AD Connect fornece opções de sincronização de diretórios e configuração de autenticação. As opções incluem a sincronização de hash de palavra-passe, autenticação pass-through e federação. Se não for administrador de inquilinos ou administrador do domínio local, contacte o seu administrador de TI para obter ajuda com a configuração.
+   A ferramenta Azure AD Connect fornece opções de sincronização de diretórios e configuração de autenticação. As opções incluem a sincronização de hash de palavra-passe, autenticação pass-through e federação. Se não for administrador ou administrador do domínio local, contacte o seu administrador de TI para obter ajuda com a configuração.
 
    A utilização do Azure AD Connect assegura que o UPN terá correspondência entre o Azure AD e a instância do Active Directory local.
 

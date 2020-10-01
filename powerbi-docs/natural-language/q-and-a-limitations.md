@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/09/2020
 ms.author: maggies
-ms.openlocfilehash: 7b02e1b1fb49eb1c43b12d204250eabec8eafe91
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: c989dad575f10a6ed4f6b25ed80368315087c1c2
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642349"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528304"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Limitações das Perguntas e Respostas do Power BI
 
@@ -53,7 +53,7 @@ A nova caixa de diálogo de ferramentas permite que os utilizadores personalizem
 
 A funcionalidade para rever perguntas só armazena as perguntas feitas sobre o seu modelo de dados durante um máximo de 28 dias. Ao utilizar a nova funcionalidade para rever perguntas, poderá reparar que algumas perguntas não são registadas. Este comportamento é predefinido, uma vez que o motor de linguagem natural executa uma série de passos de limpeza de dados para garantir que todos os batimentos de teclas de um utilizador não são registados ou mostrados.
 
-Os administradores de inquilinos podem utilizar as definições de administração de inquilinos para gerir a capacidade de armazenar perguntas. As permissões são baseadas em grupos de segurança. 
+Os administradores do Power BI podem utilizar as definições de inquilinos para gerir a capacidade de armazenar perguntas. As permissões são baseadas em grupos de segurança. 
 
 Os utilizadores também podem impedir que as suas perguntas sejam registadas ao selecionar **Definições** > **Geral** e ao desselecionar **Permitir que as Perguntas e Respostas registem a minha expressão**. 
 

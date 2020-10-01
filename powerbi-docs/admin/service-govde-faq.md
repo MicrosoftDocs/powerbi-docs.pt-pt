@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5fcffd39e9a341478657b63770201ad722b8c291
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 97164fe1db72cac28096b1fde5130cfccec29be2
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855133"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374815"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Perguntas frequentes do Power BI para clientes Germany Cloud
 O **serviço Power BI** têm uma versão disponível para clientes da União Europeia/Acordo de Comércio Livre da Europa (UE/EFTA), normalmente conhecida como Microsoft Cloud Deutschland (MCD). A versão do **serviço Power BI** falada neste artigo é específica para clientes da UE/EFTA, sendo separada e diferente da versão comercial do **serviço Power BI** ou serviços Power BI fornecidos a clientes da administração pública.
@@ -34,7 +34,7 @@ As seguintes perguntas e respostas fornecem informações importantes sobre o Se
    Pode encontrar diversas informações na [página inicial do Power BI Germany Cloud](https://powerbi.microsoft.com/power-bi-germany/), incluindo informações de preços. Nesta página, há também uma ligação para se inscrever na versão de avaliação de 30 dias do **serviço Power BI Pro** com 25 licenças de utilizador. Como parte da inscrição de avaliação, tem a opção de comprar ou adicionar mais licenças, conforme necessário. Também oferecemos preços para Enterprise Agreement (EA), Administração Pública e organizações sem fins lucrativos. Entre em contacto com o seu representante de suporte ao cliente da Microsoft para obter mais detalhes.
 3. **Tenho um inquilino do Germany Cloud como parte de subscrições do Azure Germany e/ou Office 365 Germany. Posso utilizar o inquilino existente para me inscrever no Power BI Germany?**
    
-   Yes. Como parte do processo de inscrição, terá a opção de iniciar sessão com uma conta de administrador de inquilino Germany Cloud existente e adicionar as licenças de serviço do Power BI Pro ao seu inquilino existente no Germany Cloud. Tenha em atenção que as contas de utilizador e os inquilinos do Germany Cloud são diferentes do serviço Power BI para Germany Cloud.
+   Yes. Como parte do processo de inscrição, terá a opção de iniciar sessão com uma conta de administrador existente do Germany Cloud e adicionar as licenças de serviço do Power BI Pro ao seu inquilino existente no Germany Cloud. Tenha em atenção que as contas de utilizador e os inquilinos do Germany Cloud são diferentes do serviço Power BI para Germany Cloud.
 4. **Existe um serviço gratuito no serviço Power BI para Germany Cloud?**
    
    Não. Não disponibilizamos versões de licenças gratuitas no serviço Power BI para Germany Cloud. No entanto, encorajamo-lo a inscrever-se na [oferta gratuita do Power BI na nossa cloud pública](https://powerbi.microsoft.com/get-started/) se as suas necessidades empresariais forem cumpridas com uma oferta gratuita do Power BI.

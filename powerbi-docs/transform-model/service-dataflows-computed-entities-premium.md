@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 79ab3a38a6f1df97b445c06adf13a4b53af30d87
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 412da06f6188ec4d8c0e8e027475d99872a21ecf
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858031"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528327"
 ---
 # <a name="using-computed-entities-on-power-bi-premium"></a>Utilizar entidades calculadas no Power BI Premium
 
@@ -56,11 +56,11 @@ Imagine que deseja enriquecer a entidade *Conta* com dados das *ServiceCalls*.
 
 Primeiro, terá de agregar os dados das ServiceCalls para calcular o número de chamadas de suporte que foram feitas para cada conta no último ano. 
 
-![Exemplo de uma entidade calculada no Power BI Premium](media/service-dataflows-computed-entities-premium/computed-entities-premium_02.png)
+![Captura de ecrã a mostrar a página Editar consultas com a caixa de diálogo Agrupar por account i d.](media/service-dataflows-computed-entities-premium/computed-entities-premium_02.png)
 
 Em seguida, deve unir a entidade *Conta* com a entidade *ServiceCallsAggregated* para calcular a tabela **Conta** melhorada.
 
-![Exemplo de uma entidade calculada no Power BI Premium](media/service-dataflows-computed-entities-premium/computed-entities-premium_03.png)
+![Captura de ecrã a mostrar a página Editar consultas com a caixa de diálogo Intercalar.](media/service-dataflows-computed-entities-premium/computed-entities-premium_03.png)
 
 E, em seguida, pode ver os resultados, mostrados como *EnrichedAccount* na imagem seguinte.
 

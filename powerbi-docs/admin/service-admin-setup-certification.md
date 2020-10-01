@@ -8,18 +8,18 @@ ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 41247a6dbee2ba6c4c5181a4646df735e43f8b18
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 11079e2ab1578cfe5db352e7e3286d491bdfca2c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227526"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374919"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>Configurar a certificação de conjuntos de dados e de fluxos de dados (pré-visualização)
 
 A sua organização pode certificar conjuntos de dados e fluxos de dados que sejam as origens autoritativas de informações críticas.
 
-Como administrador de inquilinos do Power BI, é responsável por configurar o processo de certificação para a sua organização. Isto significa:
+Como administrador do Power BI, é responsável por configurar o processo de certificação para a sua organização. Isto significa:
 * Ativar a certificação no seu inquilino.
 * Definir uma lista de grupos e utilizadores autorizados a certificar conjuntos de dados e fluxos de dados.
 * Para conjuntos de dados, fornecer o URL da política de certificação do conjunto de dados da organização, se existir.
