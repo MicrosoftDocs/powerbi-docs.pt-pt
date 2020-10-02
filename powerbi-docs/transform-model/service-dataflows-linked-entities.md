@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 608389e10e225517d6e50c14058732cf5fedb16f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2c627e728af5cbe20594c712d6fd3d3733e30777
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861067"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527729"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>Ligar entidades entre fluxos de dados no Power BI
 
@@ -22,7 +22,7 @@ Com os fluxos de dados no Power BI, pode ter uma única origem de armazenamento
 
 Quando liga entidades entre fluxos de dados, pode reutilizar as entidades que já foram ingeridas, limpas e transformadas por outros fluxos de dados pertencentes a outras pessoas sem a necessidade de manter esses dados. As entidades ligadas apontam simplesmente para as entidades noutros fluxos de dados e *não* copiam nem duplicam os dados.
 
-![Entidades ligadas no Power BI](media/service-dataflows-linked-entities/linked-entities_00.png)
+![Captura de ecrã a mostrar a caixa de diálogo Adicionar entidades para começar a criar o seu fluxo de dados.](media/service-dataflows-linked-entities/linked-entities_00.png)
 
 As entidades ligadas são **só de leitura**. Se quiser criar transformações para uma entidade ligada, terá de criar uma nova entidade calculada com uma referência à entidade ligada.
 
@@ -42,11 +42,11 @@ As entidades ligadas só funcionam corretamente em novas áreas de trabalho do P
 
 Existem algumas formas de ligar entidades entre fluxos de dados no Power BI. Pode selecionar **Adicionar entidades ligadas** na Ferramenta de criação de fluxos de dados, como mostrado na imagem seguinte. 
 
-![Entidades ligadas no Power BI](media/service-dataflows-linked-entities/linked-entities_00.png)
+![Captura de ecrã a mostrar a caixa de diálogo Adicionar entidades para começar a criar o seu fluxo de dados, onde pode selecionar Adicionar entidades associadas.](media/service-dataflows-linked-entities/linked-entities_00.png)
 
 Também pode selecionar **Adicionar entidades ligadas** no item de menu **Adicionar entidades** do serviço Power BI.
 
-![Entidades ligadas no Power BI](media/service-dataflows-linked-entities/linked-entities_01.png)
+![Captura de ecrã a mostrar a opção Adicionar entidades associadas do menu Adicionar entidades no serviço Power BI.](media/service-dataflows-linked-entities/linked-entities_01.png)
 
 Para ligar entidades, tem de iniciar sessão com as suas credenciais do Power BI.
 

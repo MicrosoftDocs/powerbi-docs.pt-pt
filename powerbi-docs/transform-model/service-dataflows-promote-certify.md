@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 473d1375ed35e638a94f82970b29809d35482584
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 87b1f15b53ef5a76fe61e040766822dd2714add4
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237693"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528281"
 ---
 # <a name="promote-or-certify-dataflows-preview"></a>Promote or certify dataflows (Promover ou certificar fluxos de dados - Pré-visualização)
 
@@ -21,9 +21,9 @@ O Power BI fornece duas formas de aumentar a visibilidade dos seus valiosos flux
 
 * **Promoção**: A promoção permite que os utilizadores destaquem os fluxos de dados que consideram valiosos e que valem a pena serem utilizados por outros utilizadores. Desta forma, incentiva a difusão colaborativa de fluxos de dados numa organização. Um proprietário de fluxo de dados ou um membro com permissões de escrita na área de trabalho na qual está localizado um fluxo de dados, pode simplesmente promover o fluxo de dados quando considerar ser suficientemente bom para partilhar.
 
-* **Certificação**: A certificação significa que um fluxo de dados foi verificado por um revisor autorizado e que é uma origem de dados verdadeiramente confiável e autoritária que está pronta para ser utilizada em toda a organização. Um grupo selecionado de revisores definido pelo administrador de inquilinos do Power BI determina os fluxos de dados a certificar. Um utilizador que considere que um determinado fluxo de dados deve ser certificado, mas não está autorizado a certificar o mesmo, deve contactar o administrador do inquilino.
+* **Certificação**: A certificação significa que um fluxo de dados foi verificado por um revisor autorizado e que é uma origem de dados verdadeiramente confiável e autoritária que está pronta para ser utilizada em toda a organização. Um grupo específico de revisores definido pelo administrador do Power BI determina os fluxos de dados a certificar. Um utilizador que considere que um determinado fluxo de dados deve ser certificado, mas não está autorizado a fazê-lo, deve contactar o administrador.
 
-  A certificação do fluxo de dados apenas é possível se tiver sido [ativada pelo administrador de inquilinos do Power BI ](../admin/service-admin-setup-certification.md).
+  A certificação do fluxo de dados apenas é possível se tiver sido [ativada pelo administrador do Power BI](../admin/service-admin-setup-certification.md).
 
 A promoção ou certificação de um fluxo de dados denomina-se *endossamento*. Os criadores de relatórios do Power BI costumam ter muitos fluxos de dados diferentes para escolher e o endosso ajuda a orientá-los para os fluxos de dados que são fiáveis, fidedignos e autoritários.
 
@@ -35,9 +35,9 @@ A imagem abaixo mostra como os fluxos de dados promovidos e certificados são fa
 
 Este artigo descreve
 * A promoção de um fluxo de dados (proprietário de fluxo de dados ou qualquer utilizador com permissões de membro na área de trabalho na qual está localizado o fluxo de dados)
-* A certificação de um fluxo de dados (certificador de fluxo de dados autorizado, determinado pelo administrador de inquilinos)
+* Certificar um fluxo de dados (certificador de fluxo de dados autorizado, conforme determinado pelo administrador do Power BI)
 
-Para obter mais informações sobre a configuração da certificação de fluxos de dados (administrador de inquilinos), veja o artigo [Set up dataset and dataflow certification](../admin/service-admin-setup-certification.md) (Configurar a certificação de conjunto de dados e de fluxos de dados)
+Para obter mais informações sobre a configuração da certificação de fluxos de dados (administrador), veja o artigo [Configurar a certificação de conjuntos e fluxos de dados](../admin/service-admin-setup-certification.md).
 
 
 ## <a name="promote-a-dataflow"></a>Promover um fluxo de dados
@@ -58,7 +58,7 @@ Para promover um fluxo de dados, tem de ter permissões de escrita na área de t
 
 ## <a name="certify-a-dataflow"></a>Certificar um fluxo de dados
 
-Esta secção destina-se aos utilizadores que foram autorizados pelo seu administrador de inquilinos a certificar fluxos de dados. A certificação de fluxos de dados é uma grande responsabilidade. Esta secção explica o processo de certificação que segue.
+Esta secção destina-se aos utilizadores que foram autorizados pelo respetivo administrador do Power BI a certificar fluxos de dados. A certificação de fluxos de dados é uma grande responsabilidade. Esta secção explica o processo de certificação que segue.
 
 1. Obtenha permissões de escrita na área de trabalho na qual reside o fluxo de dados que quer certificar. Isto pode ser do proprietário do fluxo de dados ou de qualquer pessoa com permissões de administrador na área de trabalho. 
 

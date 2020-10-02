@@ -8,11 +8,11 @@ ms.topic: include
 ms.date: 08/15/2020
 ms.author: mihart
 ms.custom: include file
-ms.openlocfilehash: a9d760bb962a2c4ebf5387faf4c09ebf55aac9b7
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: 8ca9942175916e354a57b9cee9f35382de0fc6ef
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88639091"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91544978"
 ---
-<Token>**APLICA-SE A:** ![não](media/no.png)Serviço Power BI para ***utilizadores empresariais*** ![não](media/no.png)Serviço Power BI para designers e programadores ![sim](media/yes.png)Power BI Desktop ![não](media/no.png)Requer licença Pro ou Premium </Token>
+<Token>**APLICA-SE A:** ![Não se aplica a:](media/no.png)serviço Power BI para ***utilizadores empresariais*** ![Não se aplica a:](media/no.png)serviço Power BI para designers e programadores ![Aplica-se a:](media/yes.png)Power BI Desktop ![Não se aplica a:](media/no.png)É necessária uma licença Pro ou Premium </Token>

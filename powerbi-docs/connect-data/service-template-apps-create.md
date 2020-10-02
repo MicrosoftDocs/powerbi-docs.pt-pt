@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/15/2020
 ms.author: painbar
-ms.openlocfilehash: e3b6ada10138e6964240c5eb5c53399507170b79
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2f663c8e47e9a66ec3f4ee3eb70646239be6126a
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860676"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375011"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Criar uma aplicação de modelo no Power BI
 
@@ -21,7 +21,7 @@ As *aplicações de modelo* do Power BI permitem que os parceiros do mesmo criem
 
 Se conseguir criar relatórios e dashboards do Power BI, pode tornar-se um *criador de aplicações de modelo* que cria e empacota conteúdos de análise numa *aplicação*. Pode implementar a sua aplicação noutros inquilinos do Power BI através de qualquer plataforma disponível, como o AppSource, ou ao utilizá-la no seu próprio serviço Web. Enquanto criador, pode criar um pacote de análise protegido para distribuição.
 
-Os administradores de inquilinos do Power BI gerem e controlam quem na sua organização pode criar aplicações de modelo e quem pode instalá-las. Os utilizadores que tiverem autorização para tal podem instalar a aplicação de modelo e, em seguida, modificar e distribuí-la para os consumidores do Power BI na organização.
+Os administradores do Power BI gerem e controlam quem na sua organização pode criar aplicações de modelo e quem pode instalá-las. Os utilizadores que tiverem autorização para tal podem instalar a aplicação de modelo e, em seguida, modificar e distribuí-la para os consumidores do Power BI na organização.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -163,7 +163,7 @@ Vamos percorrer todas as fases:
 
     ![Ícone de gestão de versões](media/service-template-apps-create/power-bi-release-management-icon.png)
 
-2. Selecione **Obter ligação** se tiver criado a aplicação de teste na secção **Criar a aplicação de modelo de teste** acima (como resultado, o ponto amarelo junto a **Teste** já está preenchido).
+2. Selecione **Obter ligação** se tiver criado a aplicação de teste na secção **Definir as propriedades da aplicação de teste** acima (como resultado, o ponto amarelo junto a **Teste** já está preenchido).
 
     Se não criou a aplicação, selecione **Criar aplicação**. Isto faz com que volte ao processo de criação de aplicação de modelo.
 

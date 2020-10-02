@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
-ms.date: 07/15/2019
+ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4d106a2bd2c11d049307a2b6f752d9486cd5aa20
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 6dc42a5feb13b344a0e5d4d7c8880d1f5388a1ef
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860699"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375195"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Resolver problemas de gateways – Power BI
 
@@ -32,7 +32,7 @@ No final da configuração, o serviço Power BI será chamado novamente para val
 
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Erro: Não é possível ligar. Detalhes: “Credenciais de ligação inválidas”
 
-Em **Mostrar detalhes**, será apresentada a mensagem de erro recebida da origem de dados. Para o SQL Server, verá algo semelhante ao seguinte:
+Em **Mostrar detalhes**, será apresentada a mensagem de erro recebida da origem de dados. Para o SQL Server, verá uma mensagem semelhante à seguinte:
 
     Login failed for user 'username'.
 
@@ -150,7 +150,7 @@ Opcionalmente, pode ver o que o Power BI obtém do Azure Active Directory.
         https://graph.windows.net/me?api-version=1.5
 4. Procure **userPrincipalName**.
 
-Se o UPN do Azure Active Directory não corresponder ao seu UPN local do Azure Active Directory, pode utilizar a funcionalidade [Mapear nomes de utilizador](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources) para substituí-lo por um valor válido. Em alternativa, pode consultar o seu administrador de inquilinos ou administrador do Active Directory local para alterar o seu UPN.
+Se o UPN do Azure Active Directory não corresponder ao seu UPN local do Azure Active Directory, pode utilizar a funcionalidade [Mapear nomes de utilizador](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources) para substituí-lo por um valor válido. Em alternativa, pode consultar o administrador do Power BI ou o administrador local do Active Directory para alterar o UPN.
 
 ## <a name="kerberos"></a>Kerberos
 
@@ -192,11 +192,11 @@ Será apresentado o erro 1033 quando o seu ID externo configurado no SAP HANA n�
 
 * O SAP HANA requer que o utilizador representado utilize o atributo sAMAccountName no Active Directory (alias do utilizador). Se este atributo não estiver correto, será apresentado o erro 1033.
 
-    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+    ![Editor de atributos](media/service-gateway-onprem-tshoot/sAMAccount.png)
 
 * Nos registos, verá sAMAccountName (alias) e não o UPN, que é o alias seguido do domínio (alias@doimain.com).
 
-    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+    ![Informações da conta nos registos](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
 ```xml
       <setting name="ADUserNameReplacementProperty" serializeAs="String">

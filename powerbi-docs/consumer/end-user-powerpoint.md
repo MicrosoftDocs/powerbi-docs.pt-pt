@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 841b8bb72b7b2a13c833fd313027b38b57511af3
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 61c084dca6d80a5e609f642ed6fc6894bef9e63c
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90764293"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527448"
 ---
 # <a name="export-reports-to-powerpoint"></a>Exportar relatórios para o PowerPoint
 
@@ -110,7 +110,7 @@ Existem algumas considerações e limitações a ter em conta ao trabalhar com a
     - Relatórios que demoram mais de uma hora a processar. 
     - Páginas de relatório que demoram mais de 6 minutos a carregar. 
 
-* Se o item de menu **Exportar para PowerPoint** não estiver disponível no serviço Power BI, é provável que o administrador de inquilinos ou proprietário de relatório tenha desativado a funcionalidade. Contacte o administrador de inquilinos ou proprietário para obter informações.
+* Se o item de menu **Exportar para PowerPoint** não estiver disponível no serviço Power BI, é provável que o administrador do Power BI ou o proprietário do relatório tenha desativado a funcionalidade. Contacte o administrador ou o proprietário para obter mais informações.
 * O serviço Power BI utiliza a sua definição de idioma do Power BI como o idioma da exportação do PowerPoint. Para ver ou definir o idioma preferencial no browser, selecione o ícone de engrenagem ![Ícone de engrenagem](media/end-user-powerpoint/power-bi-settings-icon.png) > **Definições** > **Geral** > **Idioma**.
 
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.openlocfilehash: ef981c63aaa1cdececbe03f187d25ee09073f61f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 30ab225230784d19bd2aa4eb2f5ea775684b2afb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857755"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524794"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>Manage Power BI visuals admin settings (Gerir as definições de administrador de elementos visuais do Power BI)
 
@@ -148,11 +148,11 @@ Pode escolher elementos visuais a partir da página de elementos visuais da orga
 
 1. Na linha do elemento visual que pretende adicionar, clique em **definições**.
 
-    ![painel-organizacional](media/organizational-visuals/organizational-pane.png)painel-organizacional
+    ![Captura de ecrã a mostrar o Portal de administração com o campo Elementos visuais da organização selecionado e um ícone de definições realçado.](media/organizational-visuals/organizational-pane.png)painel-organizacional
 
 2. Ative a definição do painel de visualização e clique em **Atualizar**.
 
-    ![atualizar-painel-organizacional](media/organizational-visuals/update-organizational-pane.png)
+    ![Captura de ecrã a mostrar a caixa de diálogo Definições de Elementos Visuais, onde pode fazer com que o elemento visual seja apresentado para toda a organização.](media/organizational-visuals/update-organizational-pane.png)
 
 ### <a name="delete-a-visual-uploaded-from-a-file"></a>Eliminar um elemento visual carregado a partir de um ficheiro
 

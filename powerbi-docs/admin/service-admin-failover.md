@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a9fca9f27baf51c4e4bafbf93244f0d745ba714b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c83565582a47c75e4f55e516afe3be0d9fbe7847
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857433"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374229"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>FAQ sobre elevada disponibilidade, ativação pós-falha e recuperação após desastre do Power BI
 
@@ -74,4 +74,8 @@ Se a solução do Power BI utilizada na sua organização incluir um dos seguint
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>Os gateways funcionam no modo de ativação pós-falha?
 
-Não. Os dados necessários de origens de dados no local (quaisquer relatórios e dashboards baseados no DirectQuery e no Live Connect) não funcionam durante uma ativação pós-falha. No entanto, a configuração do gateway não é alterada: quando a instância do Power BI regressa ao seu estado original, os gateways retomam as suas funções normais.
+Não. Os dados necessários de origens de dados no local (quaisquer relatórios e dashboards baseados no DirectQuery e no Live Connect) não funcionam durante uma ativação pós-falha. No entanto, a configuração do gateway não é alterada. quando a instância do Power BI regressa ao seu estado original, os gateways retomam as suas funções normais.
+
+Em caso de um desastre grave numa região primária que impeça a sua utilização online durante algum tempo, a região primária afetada permitirá operações de leitura e escrita, e os clientes poderão reimplementar e configurar gateways para a nova região.
+
+Os clientes podem optar por instalar um novo gateway noutro computador ou utilizar um gateway existente. Utilizar um gateway existente deve ser mais simples, uma vez que todas as origens de dados associadas ao gateway antigo serão transferidas para o novo.

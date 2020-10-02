@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 86453ff7a192a9c79f1c9eda97529b661c7512d3
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 05aab15b3807429c20b0ff72a7bfce21b3e25b12
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537717"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526887"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de elementos visuais no Power BI
 
@@ -142,7 +142,7 @@ Um mapa de manchas utiliza sombreado, tonalidade ou padrões para mostrar como u
 Os mapas de formas comparam regiões num mapa com cores. Um mapa de forma não pode mostrar localizações geográficas precisas de pontos de dados num mapa. Em vez disso, o seu objetivo principal é mostrar comparações relativas de regiões num mapa ao colori-los de forma diferente.
 
 ### <a name="matrix"></a>Matriz
-![matriz](media/end-user-visual-type/matrix.png)
+![Captura de ecrã a mostrar uma matriz de dados de anos e trimestres de receitas e receitas do ano até à data.](media/end-user-visual-type/matrix.png)
 
 O elemento visual de matriz é um tipo de elemento visual de tabela (consulte "Tabela" abaixo) que suporta um esquema gradual. Muitas vezes, os designers de relatórios incluem matrizes em relatórios e dashboards para permitir que os utilizadores selecionem um ou mais elementos (linhas, colunas, células) na matriz para realçar de forma cruzada outros elementos visuais numa página de relatório.  
 

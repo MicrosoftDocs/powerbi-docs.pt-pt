@@ -1,114 +1,97 @@
 ---
-title: Integração do Power BI com o Power Automate
+title: Integrar alertas de dados no Power Automate
 description: Saiba como criar fluxos do Power Automate acionados por alertas de dados do Power BI.
 author: maggiesMSFT
 ms.reviewer: ''
-featuredvideoid: YhmNstC39Mw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/25/2020
+ms.date: 09/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 85d3ab05359094fbc0bd05b0fdb70fb73e4acec8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: da5940a6ff4e8b05d7548f21b6b048d3adbe05b0
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226174"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526572"
 ---
-# <a name="power-automate-and-power-bi"></a>Power Automate e Power BI
+# <a name="integrate-power-bi-data-alerts-with-power-automate"></a>Integrar alertas de dados do Power BI no Power Automate
 
-O [Power Automate](https://docs.microsoft.com/power-automate/getting-started) é uma oferta SaaS para automatizar fluxos de trabalho entre o número cada vez maior de aplicações e serviços SaaS em que os utilizadores empresariais confiam. Com o Power Automate, pode automatizar tarefas ao integrar os seus serviços e aplicações favoritos (incluindo o Power BI) de forma a obter notificações, sincronizar ficheiros, recolher dados e muito mais. As tarefas repetitivas tornam-se mais fáceis com a automatização de fluxos de trabalho.
+O [Power Automate](/power-automate/getting-started) é uma oferta SaaS para automatizar fluxos de trabalho entre um número cada vez maior de aplicações e serviços SaaS. Pode automatizar tarefas ao integrar os seus serviços e aplicações favoritos (incluindo o Power BI), de forma a obter notificações, sincronizar ficheiros, recolher dados e mais. Neste artigo, irá automatizar a geração de um e-mail a partir de uma alerta de dados do Power BI.
 
-[Introdução ao Power Automate.](https://docs.microsoft.com/power-automate/getting-started)
+[Introdução ao Power Automate.](/power-automate/getting-started)
 
-Veja o Sirui a criar um fluxo do Power Automate que envia um e-mail detalhado aos colegas quando um alerta do Power BI é acionado. Em seguida, siga as instruções passo-a-passo abaixo do vídeo para experimentar.
+## <a name="prerequisites"></a>Pré-requisitos
+Este artigo mostra como criar dois fluxos diferentes: um a partir de um modelo e um de raiz. Para continuar, [crie um alerta de dados no Power BI](../create-reports/service-set-data-alerts.md) e [inscreva-se no Power Automate](https://flow.microsoft.com/#home-signup). É gratuito!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
-
-## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Criar um fluxo acionado por um alerta de dados do Power BI
-
-### <a name="prerequisites"></a>Pré-requisitos
-Este tutorial mostra-lhe como criar dois fluxos diferentes: um a partir de um modelo e um de raiz. Para acompanhar, [crie um alerta de dados no Power BI](../create-reports/service-set-data-alerts.md), crie uma conta do Slack gratuita e [inscreva-se no Power Automate](https://flow.microsoft.com/#home-signup) (é gratuito).
-
-## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Criar um fluxo que utilize o Power BI a partir de um modelo
+## <a name="create-a-flow-from-a-template"></a>Criar um fluxo a partir de um modelo
 Nesta tarefa, vamos utilizar um modelo para criar um fluxo simples que é acionado por um alerta de dados do Power BI (notificação).
 
 1. Inicie sessão no Power Automate (flow.microsoft.com).
-2. Selecione **Os meus fluxos**.
+2. Selecione **Modelos**, procure **Power BI** > **Enviar um e-mail a qualquer audiência quando for acionado um alerta de dados do Power BI**.
    
-   ![Barra de menus do Power Automate](media/service-flow-integration/power-bi-my-flows.png)
-3. Selecione **Criar a partir de um modelo**.
+    :::image type="content" source="media/service-flow-integration/power-automate-templates.png" alt-text="Captura de ecrã do modelo do Power Automate denominado Enviar um e-mail a qualquer audiência quando for acionado um alerta de dados do Power BI.":::
+
+### <a name="build-the-flow"></a>Compilar o fluxo
+Este modelo tem um acionador, um alerta de dados do Power BI e uma ação de envio de e-mail. Ao selecionar um campo, o Power Automate mostra o conteúdo dinâmico que pode incluir.  Neste exemplo, vamos incluir o valor e o URL do mosaico no corpo da mensagem.
+
+1. Selecione **Continuar**.
+
+    :::image type="content" source="media/service-flow-integration/power-automate-power-bi-mail.png" alt-text="Captura de ecrã do modelo do Power Automate denominado Enviar um e-mail a qualquer audiência quando for acionado um alerta de dados do Power BI.":::
+
+1. Na caixa **ID do Alerta**, selecione um alerta de dados do Power BI. Para saber como criar um alerta, selecione [Alertas de dados no Power BI](../create-reports/service-set-data-alerts.md).
    
-    ![Barra de menus Os meus fluxos](media/service-flow-integration/power-bi-template.png)
-4. Utilize a caixa de Pesquisa para localizar modelos do Power BI e selecione **Enviar um e-mail a qualquer audiência quando for acionado um alerta de dados do Power BI > Continuar**.
-   
-    ![resultados da pesquisa](media/service-flow-integration/power-bi-flow-alert.png)
+    :::image type="content" source="media/service-flow-integration/power-automate-select-alert-id.png" alt-text="Captura de ecrã do modelo do Power Automate denominado Enviar um e-mail a qualquer audiência quando for acionado um alerta de dados do Power BI.":::
+2. Introduza um ou mais endereços de e-mail válidos.
 
+3. O Power Automate gera automaticamente um **Assunto** e um **Corpo** para manter ou modificar. O corpo do texto utiliza o formato HTML.
 
-### <a name="build-the-flow"></a>Criar o fluxo
-Este modelo tem um acionador (alerta de dados do Power BI para novas medalhas olímpicas para a Irlanda) e uma ação (enviar um e-mail). Ao selecionar um campo, o Power Automate mostra o conteúdo dinâmico que pode incluir.  Neste exemplo, vamos incluir o valor e o URL do mosaico no corpo da mensagem.
+    :::image type="content" source="media/service-flow-integration/power-automate-autogenerated-email.png" alt-text="Captura de ecrã do modelo do Power Automate denominado Enviar um e-mail a qualquer audiência quando for acionado um alerta de dados do Power BI.":::
 
-![modelo de fluxo](media/service-flow-integration/power-bi-template1.png)
-
-1. No menu pendente do acionador, selecione um alerta de dados do Power BI. Selecione **Nova medalha para a Irlanda**. Para saber como criar um alerta, selecione [Alertas de dados no Power BI](../create-reports/service-set-data-alerts.md).
-   
-   ![menu pendente Alerta](media/service-flow-integration/power-bi-trigger-flow.png)
-2. Introduza um ou mais endereços de e-mail válidos e, em seguida, selecione **Editar** (mostrado abaixo) ou **Adicionar conteúdo dinâmico**. 
-   
-   ![Ecrã Enviar um e-mail](media/service-flow-integration/power-bi-flow-email.png)
-
-3. O Power Automate cria um título e uma mensagem que pode manter ou modificar. Todos os valores que definir aquando da criação do alerta no Power BI estão disponíveis para utilização – basta colocar o cursor sobre eles e selecionar a partir da área realçada cinzenta. 
-
-   ![Ecrã Enviar um e-mail](media/service-flow-integration/power-bi-flow-email-default.png)
-
-1.  Por exemplo, se tiver criado um título do alerta no Power BI de **Ganhámos outra medalha**, pode selecionar **Título do alerta** para adicionar esse texto ao campo Assunto do e-mail.
-
-    ![criar o texto do e-mail](media/service-flow-integration/power-bi-flow-message.png)
-
-    Pode também aceitar o corpo do e-mail predefinido ou criar o seu próprio. O exemplo acima contém algumas modificações na mensagem.
-
-1. Quando concluir, selecione **Criar fluxo** ou **Guardar fluxo**.  O fluxo é criado e avaliado.  O Power Automate avisa-o caso encontre erros.
+1. Quando terminar a mensagem, selecione **Passo seguinte** ou **Guardar**.  O fluxo é criado e avaliado.  O Power Automate avisa-o caso encontre erros.
 2. Se forem encontrados erros, selecione **Editar fluxo** para corrigi-los. Caso contrário, selecione **Concluído** para executar o novo fluxo.
    
-   ![mensagem de êxito](media/service-flow-integration/power-bi-flow-running.png)
-5. Quando o alerta de dados é acionado, será enviado um e-mail para os endereços que indicou.  
+   ![Captura de ecrã da mensagem de êxito do Power Automate.](media/service-flow-integration/power-bi-flow-running.png)
+5. Quando o alerta de dados é acionado, o Power Automate envia um e-mail para os endereços que indicou.  
    
-   ![e-mail de alerta](media/service-flow-integration/power-bi-flow-email2.png)
+   ![Captura de ecrã de e-mail de alerta do Power Automate.](media/service-flow-integration/power-bi-flow-email2.png)
 
-## <a name="create-a-power-automate-that-uses-power-bi---from-scratch-blank"></a>Criar do zero (em branco) um Power Automate que utiliza o Power BI
+## <a name="create-a-flow-from-scratch"></a>Criar um fluxo a partir do zero
 Nesta tarefa, vamos criar do zero um fluxo simples que é acionado por um alerta de dados do Power BI (notificação).
 
-1. Inicie sessão no Power Automate.
-2. Selecione **Os meus fluxos** > **Criar do zero**.
-   
-   ![Barra de menus superior do Power Automate](media/service-flow-integration/power-bi-my-flows.png)
-3. Utilize a caixa de Pesquisa para localizar um acionador do Power BI e selecione **Power BI - quando um alerta de dados é acionado**.
+1. Inicie sessão no Power Automate (flow.microsoft.com).
+2. Selecione **Criar** > **Fluxo automatizado**.
 
-### <a name="build-your-flow"></a>Criar o seu fluxo
-1. No menu pendente, selecione o nome do seu alerta.  Para saber como criar um alerta, selecione [Alertas de dados no Power BI](../create-reports/service-set-data-alerts.md).
+    :::image type="content" source="media/service-flow-integration/power-automate-create-automated-flow.png" alt-text="Captura de ecrã do modelo do Power Automate denominado Enviar um e-mail a qualquer audiência quando for acionado um alerta de dados do Power BI.":::   
+3. Em **Criar um fluxo automatizado**, atribua um nome ao fluxo.
+1. Em **Escolher o acionador do fluxo**, procure **Power BI**.
+1. Selecione **Power BI – Quando um alerta de dados é acionado** > **Criar**.
+
+    :::image type="content" source="media/service-flow-integration/power-automate-build-automated-flow.png" alt-text="Captura de ecrã do modelo do Power Automate denominado Enviar um e-mail a qualquer audiência quando for acionado um alerta de dados do Power BI.":::
+
+### <a name="build-your-flow"></a>Compilar o fluxo
+1. Na caixa **ID do Alerta**, selecione o nome do alerta. Para saber como criar um alerta, selecione [Alertas de dados no Power BI](../create-reports/service-set-data-alerts.md).
+
+    :::image type="content" source="media/service-flow-integration/power-automate-select-alert-id-scratch.png" alt-text="Captura de ecrã do modelo do Power Automate denominado Enviar um e-mail a qualquer audiência quando for acionado um alerta de dados do Power BI.":::   
+
+2. Selecione **Novo passo**.
    
-    ![selecionar o nome do Alerta](media/service-flow-integration/power-bi-totalstores2.png)
-2. Selecione **Novo passo** > **Adicionar uma ação**.
-   
-   ![adicionar um novo passo](media/service-flow-integration/power-bi-new-step.png)
-3. Pesquise **Outlook** e selecione **Criar evento**.
-   
-   ![criar o fluxo](media/service-flow-integration/power-bi-create-event.png)
+3. Em **Escolher uma ação**, procure **Outlook** > **Criar evento**.
+
+    :::image type="content" source="media/service-flow-integration/power-automate-choose-action-create-event.png" alt-text="Captura de ecrã do modelo do Power Automate denominado Enviar um e-mail a qualquer audiência quando for acionado um alerta de dados do Power BI.":::   
 4. Preencha os campos do evento. Ao selecionar um campo, o Power Automate mostra o conteúdo dinâmico que pode incluir.
    
-   ![continuar a criar o fluxo](media/service-flow-integration/power-bi-flow-event.png)
+   ![Captura de ecrã da opção Continuar a criar o fluxo.](media/service-flow-integration/power-bi-flow-event.png)
 5. Selecione **Criar fluxo** depois de concluir.  O Power Automate guarda e avalia o fluxo. Se não houver erros, selecione **Concluído** para executar este fluxo.  O novo fluxo é adicionado à página **Os meus fluxos**.
    
-   ![Concluir o fluxo](media/service-flow-integration/power-bi-flow-running.png)
+   ![Captura de ecrã da opção Concluir o fluxo.](media/service-flow-integration/power-bi-flow-running.png)
 6. Quando este fluxo for acionado pelo seu alerta de dados do Power BI, receberá uma notificação de evento do Outlook semelhante a esta.
    
-    ![O Power Automate aciona uma notificação do Outlook](media/service-flow-integration/power-bi-flow-notice.png)
+    ![Captura de ecrã do Power Automate a acionar uma notificação do Outlook.](media/service-flow-integration/power-bi-flow-notice.png)
 
-## <a name="next-steps"></a>Próximas etapas
-* [Introdução ao Power Automate](https://docs.microsoft.com/power-automate/getting-started/)
+## <a name="next-steps"></a>Passos seguintes
+* [Introdução ao Power Automate](/power-automate/getting-started/)
 * [Definir alertas de dados no serviço Power BI](../create-reports/service-set-data-alerts.md)
 * [Definir alertas de dados no iPhone](../consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Definir alertas de dados na aplicação móvel Power BI para Windows 10](../consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e8a5d3b4bf8200e6e990c1bced2920383398b6cf
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 29dad4db6843f0895ea9de791992b3f70ce57e66
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857088"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524748"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Inscrever-se no Power BI com uma nova Versão de Avaliação do Microsoft 365
 
@@ -35,7 +35,7 @@ Se selecionar **Office 365 E5**, a sua versão de avaliação irá incluir o Pow
 
     Se precisar de um novo endereço de e-mail, a Microsoft irá ajudá-lo a seguir os passos necessários. O primeiro passo é criar uma conta nova. Selecione **Configurar conta**.
 
-    ![Optar por se inscrever numa nova conta](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-email.png)
+    ![Inscreva-se numa nova conta.](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-email.png)
 
 2. Introduza os detalhes da nova conta.
 
@@ -43,7 +43,7 @@ Se selecionar **Office 365 E5**, a sua versão de avaliação irá incluir o Pow
 
 3. Crie o seu novo endereço de e-mail e palavra-passe. Crie um novo nome de início de sessão com um aspeto semelhante a you@yourcompany.onmicrosoft.com. Este é o início de sessão que irá utilizar com a sua nova conta escolar ou profissional e com o Power BI.
 
-    ![Optar por se inscrever numa nova conta](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
+    ![Captura de ecrã a mostrar as opções de Criar a sua identidade empresarial.](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
 
 4. Já está.  Tem agora um endereço de e-mail que pode utilizar para se inscrever no Power BI. Aceda agora a [Inscrever-se no serviço Power BI como um indivíduo](../fundamentals/service-self-service-signup-for-power-bi.md)
 

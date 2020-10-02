@@ -9,11 +9,12 @@ ms.topic: how-to
 ms.date: 06/26/2020
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3ff8a504a9043c28d9064ad186005200165c232e
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 950868252bb1002a31cb0868308d2337e03d03e9
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485786"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375218"
 ---
 # <a name="connect-to-snowflake-in-power-bi-service"></a>Ligar ao Snowflake no serviço Power BI
 
@@ -37,7 +38,7 @@ Para ativar o SSO, um administrador global tem de ativar a definição no Portal
 1. Selecione **Definições** no menu do cabeçalho da página e, em seguida, selecione **Portal de administração**.
 1. Selecione **Definições do inquilino** e, em seguida, desloque-se para localizar as **Definições de integração**.
 
-   ![Definição do administrador do inquilino para SSO do Snowflake](media/service-connect-snowflake/snowflake-sso-tenant.png)
+   ![Definição de inquilino para o SSO do Snowflake](media/service-connect-snowflake/snowflake-sso-tenant.png)
 
 4. Expanda **SSO do Snowflake**, alterne a definição para **Ativado** e, em seguida, selecione **Aplicar**.
 

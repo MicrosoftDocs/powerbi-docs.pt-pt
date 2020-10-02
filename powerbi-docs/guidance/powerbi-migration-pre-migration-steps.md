@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9a5ed3d2a4798332de2394e1ad5be6fdbdb6eeae
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: fba37d9f73ea0f61d8a43dc46cd13a5835d4d2a9
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803383"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525806"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>Preparar a migração para o Power BI
 
@@ -73,7 +73,7 @@ Tenha em atenção que a [Fase 2](powerbi-migration-planning.md) faz referência
 
 Eis alguns itens críticos a serem abordados no início de uma implementação do Power BI:
 
-- Decisões de [definições do administrador do inquilino Power BI](admin-tenant-settings.md), que devem ser documentadas.
+- Decisões de [definições do inquilino do Power BI](admin-tenant-settings.md), que devem ser documentadas.
 - Decisões de [gestão de áreas de trabalho](../collaborate-share/service-new-workspaces.md), que devem ser documentadas.
 - Considerações e preferências relacionadas com dados e [métodos de distribuição de conteúdos](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md), como aplicações, áreas de trabalho, partilhas, subscrições e incorporação de conteúdos.
 - Preferências relacionadas com [modos de conjuntos de dados](../connect-data/service-dataset-modes-understand.md), como a utilização do Modo de importação, o Modo DirectQuery ou a combinação dos dois modos num [Modelo composto](composite-model-guidance.md).
@@ -96,7 +96,7 @@ A sua [arquitetura da solução de BI](center-of-excellence-business-intelligenc
 - A configuração e integração do inquilino do Power BI no Azure Active Directory.
 - Definir [administradores do Power BI](../admin/service-admin-role.md).
 - Obter e atribuir [licenças de utilizador](../admin/service-admin-licensing-organization.md) iniciais.
-- Configurar e rever as [definições de administração do inquilino do Power BI](admin-tenant-settings.md).
+- Configurar e rever as [definições do inquilino do Power BI](admin-tenant-settings.md).
 - Configurar [funções de área de trabalho](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) e atribuir o acesso aos utilizadores e grupos de segurança do Azure Active Directory.
 - Configurar um cluster de [gateway de dados](../connect-data/service-gateway-deployment-guidance.md) inicial, com um plano de atualização regular.
 - Obter a [licença de capacidade Premium](../admin/service-admin-premium-purchase.md) inicial (se aplicável).

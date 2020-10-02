@@ -1,20 +1,20 @@
 ---
 title: Relatórios no serviço Power BI
-description: Relatórios no serviço Power BI, para consumidores
+description: Relatórios no serviço Power BI para utilizadores empresariais
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/28/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: bc0ef9854afdb95a00502ea6755dc36db6c8fbf4
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 871f807d18017343b4b23eee4d59833c196cf2f0
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536222"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528074"
 ---
 # <a name="reports-in-power-bi"></a>Reports in Power BI (Relatórios no Power BI)
 
@@ -22,7 +22,7 @@ ms.locfileid: "87536222"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Um relatório do Power BI é uma vista de múltiplas perspetivas sobre um conjunto de dados, com elementos visuais que representam diferentes achados e informações desse conjunto de dados.  Um relatório pode ter um único elemento visual ou páginas cheias de elementos visuais. Consoante a sua função, pode ser um *estruturador* de relatórios. Também pode ser alguém que *consome* ou utiliza relatórios. Este artigo é direcionado para os *consumidores*.
+Um relatório do Power BI é uma vista de múltiplas perspetivas sobre um conjunto de dados, com elementos visuais que representam diferentes achados e informações desse conjunto de dados.  Um relatório pode ter um único elemento visual ou páginas cheias de elementos visuais. Consoante a sua função, pode ser um *estruturador* de relatórios. Também pode ser um utilizador empresarial que *consome* ou utiliza relatórios. Este artigo destina-se a *utilizadores empresariais*.
 
 ![Captura de ecrã a mostrar uma página de relatórios.](./media/end-user-reports/power-bi-report.png)
 
@@ -32,7 +32,7 @@ C. O painel *Filters* (Filtros) mostra um filtro aplicado a todas as páginas do
 D. A faixa do Power BI apresenta o nome do relatório e a data da última atualização. Selecione a seta para abrir um menu que também mostra o nome do proprietário do relatório.    
 E. A barra de ação contém ações que pode executar neste relatório.  Por exemplo, pode adicionar um comentário, ver um indicador ou exportar dados do relatório.  Selecione **Mais opções** (...) para revelar uma lista de funcionalidades de relatório adicionais.    
 
-Se for um novo utilizador do Power BI, pode obter uma boa base de aprendizagem ao ler os [Conceitos básicos para os consumidores do serviço Power BI](end-user-basic-concepts.md). Os relatórios estão disponíveis para visualização, partilha e criação de notas em dispositivos móveis. Para obter mais informações, veja [Explorar relatórios nas aplicações móveis do Power BI](mobile/mobile-reports-in-the-mobile-apps.md).
+Se for um novo utilizador do Power BI, pode obter uma boa base de conhecimentos ao ler o artigo [Conceitos básicos para os utilizadores empresariais do serviço Power BI](end-user-basic-concepts.md). Os relatórios estão disponíveis para visualização, partilha e criação de notas em dispositivos móveis. Para obter mais informações, veja [Explorar relatórios nas aplicações móveis do Power BI](mobile/mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="advantages-of-reports"></a>Vantagens dos relatórios
 
@@ -68,14 +68,14 @@ Os [Dashboards](end-user-dashboards.md) costumam ser confundidos com relatórios
 <!--| Available in Power BI Desktop |No |Yes, can create and view reports in Desktop |
 | Pinning |Can pin existing visuals (tiles) only from current dashboard to your other dashboards |Can pin visuals (as tiles) to any of your dashboards. Can pin entire report pages to any of your dashboards. | -->
 
-## <a name="report-designers-and-report-consumers"></a>Estruturadores e consumidores de relatórios
+## <a name="report-designers-and-report-users"></a>Designers e utilizadores de relatórios
 
 Consoante a sua função, pode ser um *estruturador*, isto é, uma pessoa que cria relatórios para sua utilização ou para partilhar com colegas. Assim, vai querer saber como pode criar e partilhar relatórios.
 
-Em alternativa, pode ser um *consumidor*, isto é, uma pessoa que recebe relatórios de terceiros. Vai querer saber como pode compreender e interagir com os relatórios. Se for um *consumidor* de relatórios, veja estas ligações:
+Em alternativa, pode ser um *utilizador empresarial*, isto é, uma pessoa que recebe relatórios de terceiros. Vai querer saber como pode compreender e interagir com os relatórios. Se for um *utilizador empresarial* de relatórios, veja estas ligações:
 
 * Comece por uma [apresentação do serviço Power BI](end-user-basic-concepts.md) para saber onde procurar relatórios e ferramentas de relatórios.
-* Saiba como [abrir um relatório](end-user-report-open.md) e todas as [interações disponíveis para os consumidores](end-user-reading-view.md).
+* Saiba como [abrir um relatório](end-user-report-open.md) e todas as [interações disponíveis para utilizadores empresariais](end-user-reading-view.md).
 * Conheça melhor os relatórios ao ver uma apresentação de um dos nossos [exemplos](../create-reports/sample-tutorial-connect-to-the-samples.md).  
 * Para ver que conjunto de dados está a ser utilizado pelo relatório e que dashboards estão a apresentar elementos visuais do relatório (*marcadores*), veja [Ver conteúdos relacionados no serviço Power BI](end-user-related.md).
 

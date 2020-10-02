@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5d7fbe9e302c7b1460bc285af140a50304c468da
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7f08d75ecc9386dc2329c6564448023dfbfb3b9b
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858537"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374965"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Ligar-se à API de Segurança do Microsoft Graph no Power BI Desktop
 
-Utilize o conector de Segurança do Microsoft Graph do Power BI Desktop para se ligar à [API de Segurança do Microsoft Graph](/graph/security-concept-overview). Em seguida, pode criar dashboards e relatórios para obter informações sobre os seus [alertas](/graph/api/resources/alert?view=graph-rest-1.0) de segurança e [classificações de segurança](/graph/api/resources/securescores?view=graph-rest-beta).
+Utilize o conector de Segurança do Microsoft Graph do Power BI Desktop para se ligar à [API de Segurança do Microsoft Graph](/graph/security-concept-overview). Em seguida, pode criar dashboards e relatórios para obter informações sobre os seus [alertas](/graph/api/resources/alert) de segurança e [classificações de segurança](/graph/api/resources/securescores).
 
-A API de Segurança do Microsoft Graph liga [múltiplas soluções de segurança](/graph/api/resources/security-api-overview#alerts) da Microsoft e dos respetivos parceiros do ecossistema para tornar a correlação de alertas mais fácil. Esta combinação disponibiliza acesso a informações contextuais avançadas e simplifica a automatização. Permite que as organizações obtenham informações e tomem medidas em múltiplos produtos de segurança, ao mesmo tempo que reduzem os custos e a complexidade.
+A API de Segurança do Microsoft Graph associa [várias soluções de segurança](/graph/api/resources/security-api-overview#alerts) da Microsoft e dos respetivos parceiros para tornar a correlação de alertas mais fácil. Esta combinação disponibiliza acesso a informações contextuais avançadas e simplifica a automatização. Permite que as organizações obtenham informações e tomem medidas em múltiplos produtos de segurança, ao mesmo tempo que reduzem os custos e a complexidade.
 
 ## <a name="prerequisites-to-use-the-microsoft-graph-security-connector"></a>Pré-requisitos para utilizar o conector de Segurança do Microsoft Graph
 
-Para utilizar o conector Segurança do Microsoft Graph, tem de obter autorização *explicitamente* por parte do administrador de inquilinos do Azure Active Directory (Azure AD). Veja [Requisitos de autenticação da Segurança do Microsoft Graph](/graph/security-authorization).
+Para utilizar o conector de Segurança do Microsoft Graph, tem de obter *explicitamente* autorização do administrador global do Azure Active Directory (Azure AD). Veja [Requisitos de autenticação da Segurança do Microsoft Graph](/graph/security-authorization).
 Para obter autorização necessita do ID e nome da aplicação do conector, que é mencionado aqui e está disponível no [portal do Azure](https://portal.azure.com):
 
 | Propriedade | Value |
@@ -35,7 +35,7 @@ Para obter autorização necessita do ID e nome da aplicação do conector, que 
 | **URI de Redirecionamento** | `https://oauth.powerbi.com/views/oauthredirect.html` |
 |||
 
-Para conceder autorização para o conector, o seu administrador de inquilinos do Azure AD pode utilizar qualquer um dos seguintes métodos:
+Para conceder autorização para o conector, o administrador global do Azure AD pode utilizar qualquer um dos seguintes métodos:
 
 * [Conceda autorização para aplicações do Azure AD](/azure/active-directory/develop/v2-permissions-and-consent)
 
@@ -61,7 +61,7 @@ Siga estes passos para utilizar o conector:
 
     ![Iniciar sessão](media/desktop-connect-graph-security/SignIn.PNG) 
     
-6. Se for o administrador do inquilino *e* se ainda não tiver concedido autorização ao conector de Segurança do Microsoft Graph do Power BI (aplicação), verá a seguinte caixa de diálogo. Selecione **Consentimento em nome da sua organização**.
+6. Se for o administrador *e* ainda não tiver autorização para utilizar o conector de Segurança do Microsoft Graph do Power BI (aplicação), verá a seguinte caixa de diálogo. Selecione **Consentimento em nome da sua organização**.
 
     ![Caixa de diálogo de autorização do administrador](media/desktop-connect-graph-security/AdminConsent.PNG)
     

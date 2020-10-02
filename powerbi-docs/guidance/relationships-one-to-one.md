@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7e10cfa5c99eb1750829150fd0a25347a4da1880
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278267"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136264"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Documento de orientação das relações um-para-um
 
@@ -131,13 +131,13 @@ No nosso exemplo, os autores do relatório podem encontrar o campo **Categoria**
 
 ![O painel Campos mostra o campo Categoria numa pasta de apresentação chamada Marketing.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-Caso decida ainda definir relações um-para-um intra ilha no modelo, sempre que possível, verifique se existem linhas correspondentes nas tabelas relacionadas. Como uma relação um-para-um intra ilha é avaliada como uma [relação forte](../transform-model/desktop-relationships-understand.md#strong-relationships), podem surgir problemas de integridade de dados nos elementos visuais do relatório como valores EM BRANCO (pode ver um exemplo de um agrupamento EM BRANCO no primeiro elemento visual da tabela apresentado neste artigo.)
+Caso decida ainda definir relações um-para-um intra ilha no modelo, sempre que possível, verifique se existem linhas correspondentes nas tabelas relacionadas. Dado que uma relação um-para-um intra ilha é avaliada como uma [relação regular](../transform-model/desktop-relationships-understand.md#regular-relationships), podem surgir problemas de integridade de dados nos elementos visuais do relatório como valores EM BRANCO. (pode ver um exemplo de um agrupamento EM BRANCO no primeiro elemento visual da tabela apresentado neste artigo.)
 
 ### <a name="inter-island-one-to-one-relationship"></a>Relação um-para-um inter ilha
 
-Quando existe uma relação um-para-um _inter ilha_ entre tabelas, não existe nenhum design de modelo alternativo, exceto se pré-consolidar os dados nas origens de dados. O Power BI avaliará a relação do modelo um-para-um como uma [relação fraca](../transform-model/desktop-relationships-understand.md#weak-relationships). Assim, verifique se existem linhas correspondentes nas tabelas relacionadas, uma vez que as linhas sem correspondência serão eliminadas dos resultados da consulta.
+Quando existe uma relação um-para-um _inter ilha_ entre tabelas, não existe nenhum design de modelo alternativo, exceto se pré-consolidar os dados nas origens de dados. O Power BI avaliará a relação do modelo um-para-um como uma [relação limitada](../transform-model/desktop-relationships-understand.md#limited-relationships). Assim, verifique se existem linhas correspondentes nas tabelas relacionadas, uma vez que as linhas sem correspondência serão eliminadas dos resultados da consulta.
 
-Vejamos o que acontece quando os campos de ambas as tabelas são adicionados a um elemento visual de tabela e existe uma relação fraca entre as tabelas.
+Vejamos o que acontece quando os campos de ambas as tabelas são adicionados a um elemento visual de tabela e existe uma relação limitada entre as tabelas.
 
 ![Um elemento visual de tabela inclui quatro colunas: SKU, Produto, Cor e Categoria. A tabela só tem duas linhas.](media/relationships-one-to-one/product-to-product-category-table-visual-weak-relationship.png)
 

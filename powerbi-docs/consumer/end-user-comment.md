@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/07/2020
+ms.date: 09/25/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 76a3bd087899126d1c3aa9eed6eb7d20b1441bff
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 6f7e640669b53d67a635083d3ae48e23720c9e61
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161899"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375105"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Adicionar comentários a um dashboard ou relatório
 
@@ -23,12 +23,12 @@ ms.locfileid: "86161899"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Adicione um comentário pessoal ou inicie uma conversa sobre um dashboard ou relatório com os seus colegas. A funcionalidade de **comentário** é apenas uma das formas de como um *consumidor* pode colaborar com outros. 
+Adicione um comentário pessoal ou inicie uma conversa sobre um dashboard ou relatório com os seus colegas. A funcionalidade **comentários** é apenas uma das formas através das quais um *utilizador empresarial* pode colaborar com outras pessoas. 
 
 ![vídeo de comentários](media/end-user-comment/comment.gif)
 
 > [!NOTE]
-> Colaborar com outras pessoas, incluindo adicionar comentários a relatórios partilhados, requer um licença do Power BI Pro ou Premium. [Qual é o meu tipo de licença?](end-user-license.md)
+> Colaborar com outras pessoas, incluindo a adição de comentários em relatórios partilhados, requer uma licença do Power BI Pro ou que o conteúdo esteja alojado numa capacidade do Power BI Premium. [Qual é o meu tipo de licença?](end-user-license.md)
 
 ## <a name="how-to-use-the-comments-feature"></a>Como utilizar a funcionalidade Comentários
 Os comentários podem ser adicionados a um dashboard completo, a elementos visuais individuais num dashboard, a uma página de relatório, a um relatório paginado e a elementos visuais individuais numa página de relatório. Adicione um comentário geral ou um comentário direcionado a colegas específicos.  
@@ -44,17 +44,17 @@ Se estiver a utilizar um relatório paginado, só poderá deixar um comentário 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>Adicionar um comentário geral a um dashboard ou relatório
 O processo para adicionar comentários a um dashboard ou relatório é semelhante.  Neste exemplo, estamos a utilizar um dashboard. 
 
-1. Abra o dashboard ou relatório do Power BI e selecione o ícone de **Comentários**. Esta ação abre a caixa de diálogo Comentários.
+1. Abra o dashboard ou um relatório do Power BI e selecione o ícone de **Comentários**. Esta ação abre a caixa de diálogo Comentários.
 
-    ![ícone de comentários](media/end-user-comment/power-bi-comments-icon.png)
+    ![ícone de comentários na barra de menus](media/end-user-comment/power-bi-comment-icon.png)
 
     Aqui podemos ver que o criador do dashboard já adicionou um comentário geral.  Qualquer pessoa com acesso a este dashboard pode ver este comentário.
 
-    ![ícone de comentários](media/end-user-comment/power-bi-first-comment.png)
+    ![Captura de ecrã do dashboard com a secção Comentários selecionada](media/end-user-comment/power-bi-first-comments.png)
 
 2. Para responder, selecione **Responder**, introduza a sua resposta e selecione **Publicar**.  
 
-    ![ícone de Resposta a Comentários](media/end-user-comment/power-bi-comments-reply.png)
+    ![Ecrã Selecionar Resposta](media/end-user-comment/power-bi-comments-reply.png)
 
     Por predefinição, o Power BI encaminha a sua resposta para o colega que iniciou o tópico do comentário, neste caso o Samuel. 
 
@@ -62,7 +62,7 @@ O processo para adicionar comentários a um dashboard ou relatório é semelhant
 
  3. Se quiser adicionar um comentário que não faça parte do tópico existente, escreva o seu comentário no campo de texto superior.
 
-    ![ícone de Resposta a Comentários](media/end-user-comment/power-bi-new-commenting.png)
+    ![Captura de ecrã a mostrar um novo tópico](media/end-user-comment/power-bi-new-commenting.png)
 
     Os comentários deste dashboard terão o seguinte aspeto.
 
@@ -71,25 +71,25 @@ O processo para adicionar comentários a um dashboard ou relatório é semelhant
 ### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>Adicionar um comentário a um elemento visual específico do dashboard ou relatório
 Além de adicionar comentários a um dashboard completo ou a uma página de relatório completa, pode adicionar comentários a mosaicos do dashboard individuais e a elementos visuais de relatório individuais. Os processos são semelhantes e, neste exemplo, estamos a utilizar um relatório.
 
-1. Paire o cursor sobre o elemento visual e selecione **Mais opções** (...).    
-2. No menu pendente, selecione **Abrir comentários**.
+1. Paire o cursor sobre o elemento visual e selecione **Mais ações** (...).    
+2. No menu pendente, selecione **Adicionar um comentário**.
 
     ![Adicionar um comentário é a primeira opção](media/end-user-comment/power-bi-comment-reports.png)  
 
 3.  A caixa de diálogo **Comentários** é aberta e os outros elementos visuais na página ficam a cinzento. Este elemento visual ainda não tem comentários. 
 
-    ![Adicionar um comentário para si próprio](media/end-user-comment/power-bi-comments-column.png)  
+    ![Captura de ecrã a mostrar um elemento visual selecionado e a caixa de diálogo Comentários aberta](media/end-user-comment/power-bi-comments-column.png)  
 
 4. Escreva o seu comentário e selecione **Publicar**.
 
-    ![Adicionar um comentário para si próprio](media/end-user-comment/power-bi-comment-logistics.png)  
+    ![Caixa de diálogo Comentários com nova mensagem](media/end-user-comment/power-bi-comment-spikes.png)  
 
-    - Numa página de relatório, selecionar um comentário feito num elemento visual realça esse elemento visual (ver acima).
+    - Numa página de relatório, selecionar um comentário feito num elemento visual realça o mesmo (ver abaixo).
 
     - Num dashboard, o ícone de gráfico ![comentário com o ícone de gráfico](media/end-user-comment/power-bi-comment-chart-icon.png) permite-nos saber que o comentário está ligado a um elemento visual específico. Os comentários que se aplicam a todo o dashboard não têm um ícone especial. A seleção do ícone de gráfico realça o elemento visual relacionado no dashboard.
     
 
-    ![o elemento visual realçado](media/end-user-comment/power-bi-highlight.png)
+    ![o elemento visual realçado](media/end-user-comment/power-bi-highlights.png)
 
 5. Selecione **Fechar** para voltar ao dashboard ou relatório.
 
@@ -98,12 +98,13 @@ Quer esteja a criar um comentário num dashboard, relatório, mosaico ou element
 
 Aqui está uma conversa que estou a ter com o *designer* da visualização. O símbolo @ é utilizado para garantir que vejo o comentário. Recebo uma notificação e seleciono a ligação para abrir este dashboard e a conversação relevante.  
 
-![Adicionar uma menção num comentário](media/end-user-comment/power-bi-comment-convo.png)  
+![Adicionar uma menção num comentário](media/end-user-comment/power-bi-comment-conversation.png)  
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 
 - Os marcadores não são capturados quando responde a uma conversação. Apenas o primeiro comentário numa conversação cria um marcador.
+- Se estiver a utilizar um relatório paginado, só poderá deixar um comentário geral sobre o relatório.  O suporte para deixar comentários em elementos visuais de relatórios paginados individuais não está disponível.
 
-## <a name="next-steps"></a>Próximos passos
-Voltar às [visualizações para os consumidores](end-user-visualizations.md)    
-<!--[Select a visualization to open a report](end-user-open-report.md)-->
+## <a name="next-steps"></a>Passos seguintes
+Voltar a [visualizações de utilizadores empresariais](end-user-visualizations.md)    
+[Selecionar uma visualização para abrir um relatório](end-user-report-open.md)

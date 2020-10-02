@@ -9,19 +9,19 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 984ac0bc0e89ff1be5281039f4f4586025d7973e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ac0b032d8f20610dff97fb112d3ac54d5cc43889
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236748"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374298"
 ---
 # <a name="promote-your-dataset---power-bi"></a>Promover o conjunto de dados – Power BI
 
 Agora, os criadores de relatórios do Power BI podem ter acesso a muitos conjuntos de dados diferentes, pelo que as empresas têm de os orientar na obtenção de conjuntos de dados fiáveis e de alta qualidade. O Power BI fornece duas formas de *recomendar* conjuntos de dados:
 
 - **Promoção**: Enquanto proprietário de um conjunto de dados, pode promover os seus próprios conjuntos de dados quando estiverem prontos para serem disponibilizados para o público. Qualquer membro da área de trabalho com permissões de Escrita pode promover um conjunto de dados. Não existem restrições sobre quem pode promover um conjunto de dados. A promoção apoia a divulgação colaborativa dos conjuntos de dados nas organizações. Este artigo aborda a promoção do seu conjunto de dados.
-- **Certificação**: pode pedir a certificação de um conjunto de dados promovido. Um determinado grupo de utilizadores definido na definição de administração de inquilinos **Certificação de Conjunto de Dados** decide quais são os conjuntos de dados a certificar. Veja [Certificar conjuntos de dados](service-datasets-certify.md) para obter mais informações.
+- **Certificação**: pode pedir a certificação de um conjunto de dados promovido. Um grupo específico de utilizadores configurado na definição de inquilino **Certificação de Conjunto de Dados** decide quais são os conjuntos de dados a certificar. Veja [Certificar conjuntos de dados](service-datasets-certify.md) para obter mais informações.
 
 ## <a name="promote-a-dataset"></a>Promover um conjunto de dados
 
@@ -41,7 +41,7 @@ O seu conjunto de dados terá de estar numa nova experiência de área de trabal
 
 ## <a name="request-dataset-certification"></a>Pedir a certificação do conjunto de dados
 
-O seu administrador de inquilinos identificou pessoas que podem certificar conjuntos de dados na sua organização. Pode pedir a estas pessoas que certifiquem o seu conjunto de dados.
+O administrador do Power BI identificou pessoas que podem certificar conjuntos de dados na sua organização. Pode pedir a estas pessoas que certifiquem o seu conjunto de dados.
 
 1. Dê permissões de membro para a área de trabalho em que o conjunto de dados se encontra ao certificador.
 
@@ -49,7 +49,7 @@ O seu administrador de inquilinos identificou pessoas que podem certificar conju
 
 1. Selecione a ligação **Saiba mais**.
 
-    O seu administrador de inquilinos do Power BI pode configurar a ligação **Saiba mais** para aceder a uma localização especificada com detalhes acerca do processo de certificação no seu inquilino.   Se o administrador não tiver personalizado a ligação **Saiba mais**, esta irá direcionar os utilizadores para o artigo de [certificação de conjuntos de dados](service-datasets-certify.md) por predefinição.
+    O administrador do Power BI pode configurar a ligação **Saiba mais** para aceder a uma localização especificada com detalhes sobre o processo de certificação no seu inquilino.   Se o administrador não tiver personalizado a ligação **Saiba mais**, esta irá direcionar os utilizadores para o artigo de [certificação de conjuntos de dados](service-datasets-certify.md) por predefinição.
 
 ## <a name="next-steps"></a>Próximos passos
 

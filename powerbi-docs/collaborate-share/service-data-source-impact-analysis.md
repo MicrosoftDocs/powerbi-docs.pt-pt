@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/20/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 2c9834310179d8936cda8b769e3b7e3f80d328e6
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 71c214e265c84eb7436d384a98f793eefe2f6a23
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254181"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526236"
 ---
 # <a name="data-source-impact-analysis"></a>Análise de impacto da origem de dados
 
@@ -42,6 +42,17 @@ O painel lateral de análise de impacto é aberto.
  
 * **Resumo do impacto**: Mostra-lhe o número de áreas de trabalho, fluxos de dados e conjuntos de dados potencialmente afetados. Esta contagem inclui áreas de trabalho aos quais o utilizador não tem acesso.
 * **Discriminação de utilização**: Mostra-lhe, para cada área de trabalho, os nomes dos fluxos de dados e conjuntos de dados afetados. Para explorar mais aprofundadamente o impacto numa determinada área de trabalho, clique no nome da área de trabalho para a abrir. Uma vez na área de trabalho afetada, utilize [a análise de impacto do conjunto de dados](service-dataset-impact-analysis.md) para ver os detalhes de utilização sobre relatórios e dashboards ligados.
+
+## <a name="notify-contacts"></a>Notificar contactos
+
+Se fez uma alteração a uma origem de dados ou estiver a pensar nisso, recomendamos que contacte os utilizadores relevantes para os informar. Ao notificar os contactos, é enviado um e-mail para as [listas de contactos](service-create-the-new-workspaces.md#create-a-contact-list) de todas as áreas de trabalho afetadas (no caso das áreas de trabalho clássicas, é enviado um e-mail para os respetivos administradores). O seu nome aparece no e-mail para que os contactos possam encontrá-lo e responder de volta num novo tópico de e-mail. 
+
+1. Clique em **Notificar contactos** no painel lateral de análise de impacto. A caixa de diálogo Notificar contactos será apresentada.
+
+   ![Captura de ecrã da caixa de diálogo de notificação dos contactos sobre a origem de dados.](media/service-data-source-impact-analysis/notify-contacts-dialog.png)
+
+1. Na caixa de texto, forneça alguns detalhes sobre a alteração.
+1. Quando a mensagem estiver pronta, clique em **Enviar**.
 
 ## <a name="privacy"></a>Privacidade
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 38c14aa33504e7a3bb21cf68c6466a829d0653a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 931c500cd2c2dbbf750eb3699ac5290a2977c21b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238866"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526266"
 ---
 # <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Executar tarefas comuns de consulta no Power BI Desktop
 
@@ -87,7 +87,7 @@ Neste exemplo, agrupa linhas num conjunto de dados de matrículas académicas. O
 
 Vamos descobrir quantas Agências existem por estado (as agências podem incluir distritos escolares, outras entidades educacionais, como distritos de serviços regionais, entre outras). Selecione a coluna **ID da Agência – \[Distrito\] Atribuído pelo NCES Mais Recente** e, em seguida, selecione o botão **Agrupar Por** no separador **Transformar** ou no separador **Página Inicial** do friso (**Agrupar Por** está disponível em ambos os separadores).
 
-![Caixa de diálogo Agrupar Por, Editor do Power Query, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
+![Captura de ecrã a mostrar como agrupar linhas numa tabela.](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
 
 É apresentada a caixa de diálogo **Agrupar Por**. Quando o Editor do Power Query agrupa linhas, cria uma nova coluna na qual coloca os resultados de **Agrupar Por**. Pode ajustar a operação **Agrupar Por** das seguintes formas:
 
@@ -98,7 +98,7 @@ Vamos descobrir quantas Agências existem por estado (as agências podem incluir
 
 Selecione **Adicionar agrupamento** ou **Adicionar agregação** para adicionar mais agrupamentos ou agregações a uma operação **Agrupar Por**. Para remover um agrupamento ou uma agregação, selecione o ícone de reticências ( **...** ) à direita da linha e, em seguida, **Eliminar**. Continue e experimente a operação **Agrupar Por** com os valores predefinidos para ver o que ocorre.
 
-![Caixa de diálogo Agrupar Por, Editor do Power Query, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
+![Captura de ecrã a mostrar a caixa de diálogo Agrupar por com as opções Adicionar agrupamento e Adicionar agregação selecionadas.](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
 Quando seleciona **OK**, a Consulta realiza a operação **Agrupar Por** e devolve os resultados. Repare que Ohio, Illinois, Texas e Califórnia agora têm mais de mil entidades cada um!
 

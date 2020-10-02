@@ -8,11 +8,11 @@ ms.topic: include
 ms.date: 03/17/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: f6305031f18ffcee34d7c5be5a0f499da6fe342e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ce5830154e10a0b728246053f53c5978b3342a50
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114069"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91544939"
 ---
-![sim](media/yes.png) serviço Power BI
+![Aplica-se a:](media/yes.png) serviço Power BI

@@ -6,15 +6,15 @@ ms.reviewer: Mohammad.ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/23/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 8784de7e13932d8cd9c33d706a0c49d6f6cc024c
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 9a8486a24ab7daa23e35f762c6830e400392963f
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537234"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375287"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Dicas para fazer perguntas nas Perguntas e Respostas do Power BI
 
@@ -67,7 +67,7 @@ A lista abaixo utiliza o tempo verbal presente, mas todos os tempos são reconhe
 |  |  |
 |**Maiores N**     |     (ordem, classificação): maiores, menores, mais altos, mais baixos, primeiro, último, seguinte, primeiros, mais recentes, mais antigos, últimos, mais recente, próximo            |
 |        |         |
-|**Tipos visuais**     |  todos os tipos visuais nativos do Power BI.  Se for uma opção no painel Visualizações, pode incluí-lo na sua pergunta.  A exceção à regra são os [elementos visuais do Power BI](../developer/visuals/power-bi-custom-visuals.md) que adicionou manualmente ao painel Visualização.  |
+|**Tipos visuais**     |  todos os tipos visuais nativos do Power BI.  Se for uma opção no painel Visualizações, pode incluí-lo na sua pergunta.  A exceção a esta regra são os [elementos visuais personalizados do Power BI](../developer/visuals/power-bi-custom-visuals.md) que adicionou manualmente ao painel Visualização.  |
 |  |  Exemplo: mostrar distritos por mês e total de vendas como gráfico de barras               |
 |        |         |
 |**Q (relação qualificada)**  | quando, onde, qual, quem, a quem, quantos, quanto, quantas vezes, com que frequência, montante, número, quantidade, quanto tempo, o quê                |

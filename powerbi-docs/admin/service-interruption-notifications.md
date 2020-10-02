@@ -1,23 +1,23 @@
 ---
 title: Service interruption notifications (Notificações de interrupção do serviço)
-description: Saiba mais sobre como receber notificações por e-mail em caso de interrupção ou degradação do serviço Power BI.
+description: Saiba mais sobre como receber notificações por e-mail em caso de interrupção ou falha do serviço Power BI.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/09/2020
+ms.date: 09/25/2020
 ms.author: kfollis
-ms.openlocfilehash: 89619a20f2fcf8510825b0234b90be5b2ff92e11
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: aa69be7cabae3abeeaf1888272389a791909cae7
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642268"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374873"
 ---
 # <a name="service-interruption-notifications"></a>Service interruption notifications (Notificações de interrupção do serviço)
 
-É fundamental ter informações sobre a disponibilidade das aplicações empresariais essenciais para a sua atividade. O Power BI fornece notificações de incidentes para que possa, opcionalmente, receber e-mails em caso de interrupção ou degradação do serviço. Apesar de o SLA (Contrato de Nível de Serviço) de 99,9% do Power BI faça com que estas ocorrências sejam raras, queremos garantir que se mantém informado. A seguinte captura de ecrã mostra o tipo de e-mail que receberá se ativar as notificações:
+É importante ter informações sobre a disponibilidade das aplicações empresariais essenciais para a sua atividade. O Power BI fornece notificações de incidentes para que possa, opcionalmente, receber e-mails em caso de interrupção ou degradação do serviço. Apesar de o SLA (Contrato de Nível de Serviço) de 99,9% do Power BI fazer com que estas ocorrências sejam raras, queremos garantir que se mantém informado. A seguinte captura de ecrã mostra o tipo de e-mail que receberá se ativar as notificações:
 
 ![E-mail de notificação relativamente à atualização](media/service-interruption-notifications/refresh-notification-email.png)
 
@@ -27,7 +27,7 @@ De momento, enviamos e-mails relativos aos seguintes _cenários de fiabilidade_:
 - Fiabilidade das atualizações dos modelos
 - Fiabilidade das atualizações das consultas
 
-As notificações são enviadas quando houver um _atraso maior_ em operações, tais como: abertura de relatórios, atualização de conjuntos de dados ou execuções de consultas. Após a resolução de um incidente, receberá um e-mail de seguimento.
+As notificações são enviadas em caso de um _atraso prolongado_ em operações como a abertura de relatórios, a atualização de conjuntos de dados ou execuções de consultas. Após a resolução de um incidente, receberá um e-mail de seguimento.
 
 > [!NOTE]
 > De momento, esta funcionalidade só está disponível para capacidades dedicadas no Power BI Premium. Não está disponível para capacidade partilhada ou incorporada.
@@ -36,18 +36,17 @@ As notificações são enviadas quando houver um _atraso maior_ em operações, 
 
 Quando uma capacidade do Power BI Premium tem longos períodos de alta utilização de recursos que afetam potencialmente a fiabilidade, é enviado um e-mail de notificação. Exemplos de tais impactos incluem atrasos alargados em operações como a abertura de um relatório, atualização do conjunto de dados e execuções de consultas. 
 
-O e-mail de notificação fornece informações sobre o motivo da alta utilização de recursos, incluindo o seguinte:
+O e-mail de notificação fornece informações sobre o motivo da alta utilização de recursos, incluindo os seguintes detalhes:
 
 * ID do conjunto de dados responsável
 * Tipo de operação
 * Tempo de CPU associado à alta utilização de recursos. Eis a [definição de tempo da CPU](https://wikipedia.org/wiki/CPU_time) na Wikipédia.
 
-O Power BI também envia notificações de e-mail quando é detetada uma sobrecarga na capacidade do Power BI Premium. O e-mail explica o motivo provável da sobrecarga, que operações geraram a carga nos 10 minutos anteriores e a quantidade de carga gerada por cada operação. 
+O Power BI também envia notificações de e-mail quando é detetada uma sobrecarga na capacidade do Power BI Premium. O e-mail explica o motivo provável da sobrecarga, que operações geraram a carga nos 10 minutos anteriores e a quantidade de carga gerada por cada operação.
 
+Se tiver mais do que uma capacidade Premium, o e-mail incluirá informações sobre essas capacidades durante o período de sobrecarga. Estas informações ajudam-no a considerar mover as áreas de trabalho que têm itens com muitos recursos para as capacidades com menor carga.
 
-Se tiver mais do que uma capacidade Premium, o e-mail incluirá informações sobre essas capacidades durante o período sobrecarregado, para que possa considerar mover áreas de trabalho que contenham itens com muitos recursos para capacidades com menor carga.
-
-As notificações de e-mail de sobrecarga só são enviadas quando é acionado um limiar de sobrecarga. Não receberá um segundo e-mail quando a carga nessa capacidade Premium voltar a níveis não sobrecarregados.
+As notificações de e-mail de sobrecarga só são enviadas quando é acionado um limiar de sobrecarga. Não receberá um segundo e-mail quando essa capacidade Premium deixar de estar sobrecarregada.
 
 A imagem seguinte mostra um e-mail de notificação de exemplo:
 
@@ -56,7 +55,7 @@ A imagem seguinte mostra um e-mail de notificação de exemplo:
 
 ## <a name="enable-notifications"></a>Ativar notificações
 
-Os administradores de inquilinos do Power BI têm de seguir os passos abaixo para ativar notificações no portal de administração.
+Um administrador do Power BI ativa as notificações no portal de administração:
 
 1. Identifique ou crie o grupo de segurança com o e-mail ativado que deve receber notificações.
 
@@ -68,6 +67,10 @@ Os administradores de inquilinos do Power BI têm de seguir os passos abaixo par
 
 > [!NOTE]
 > O Power BI envia notificações da conta no-reply-powerbi@microsoft.com. Adicione esta conta à lista de remetentes seguros para que as notificações não acabem numa pasta de e-mail de lixo.
+
+## <a name="service-health-in-microsoft-365"></a>Estado de funcionamento do serviço no Microsoft 365
+
+Esta artigo descreve como receber notificações de serviço através do Power BI. Também pode monitorizar o estado de funcionamento do serviço Power BI através do Microsoft 365. Adira para receber notificações por e-mail sobre o estado de funcionamento do serviço do Microsoft 365. Saiba mais em [Como verificar o estado de funcionamento do serviço do Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health).
 
 ## <a name="next-steps"></a>Próximos passos
 

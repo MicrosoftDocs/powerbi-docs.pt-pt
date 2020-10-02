@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 385f7278f7fdd55ba76b1b559674040f6513924d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0caaf46956656c141992482ae39773d19e8fc550
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237287"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374156"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces"></a>Controlar a utilização de conjuntos de dados em áreas de trabalho
 
@@ -32,7 +32,7 @@ Se desativar esta definição, serão estes os efeitos nos criadores de relatór
 
 ## <a name="provide-a-link-for-the-certification-process"></a>Fornecer uma ligação para o processo de certificação
 
-Enquanto administrador de inquilinos, pode fornecer um URL para a ligação **Saiba mais** na página de definições **Recomendação**.  Esta ligação pode direcionar os utilizadores para documentação acerca do seu processo de certificação. Se não fornecer um destino para a ligação **Saiba mais**, esta irá direcionar os utilizadores, por predefinição, para o artigo de [certificação de conjuntos de dados](service-datasets-certify.md).
+Enquanto administrador do Power BI, pode fornecer um URL para a ligação **Saiba mais** na página de definições **Recomendação**.  Esta ligação pode direcionar os utilizadores para documentação acerca do seu processo de certificação. Se não fornecer um destino para a ligação **Saiba mais**, esta irá direcionar os utilizadores, por predefinição, para o artigo de [certificação de conjuntos de dados](service-datasets-certify.md).
 
 ![Ligação Saiba mais da certificação de conjuntos de dados](media/service-datasets-certify-promote/power-bi-dataset-learn-more-certification.png)
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e95b51d5d50900b8e09de8f5bf62bf31d5578ad1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec4bd8788d3c0421118a8e96287b36497683c4b2
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860216"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136149"
 ---
 # <a name="get-power-bi-desktop"></a>Obter o Power BI Desktop
 O Power BI Desktop permite-lhe criar consultas avançadas, modelos e relatórios que visualizam os dados. No Power BI Desktop, pode criar modelos de dados, criar relatórios e partilhar o seu trabalho ao publicar no serviço Power BI. A transferência do Power BI Desktop é gratuita.
@@ -105,9 +105,12 @@ A seguinte lista apresenta os requisitos mínimos para executar o Power BI Deskt
 * .NET 4.5
 * Internet Explorer 10 ou posterior
 * Memória (RAM): pelo menos 1 GB disponível, 1,5 GB ou mais, recomendado.
-* Ecrã: pelo menos 1440 x 900 ou 1600 x 900 (16:9) recomendado. As resoluções mais baixas, como 1024x768 ou 1280x800 não são recomendadas, pois determinados controlos (como fechar o ecrã de arranque) são apresentados fora dos limites destas resoluções.
+* Ecrã: É necessária uma resolução de, pelo menos, 1440x900 ou 1600x900 (16:9). As resoluções mais baixas, como 1024x768 ou 1280x800 não são suportadas, pois determinados controlos (como fechar o ecrã de arranque) são apresentados fora dos limites destas resoluções.
 * Definições de visualização do Windows: se definir as suas definições de visualização para alterar o tamanho do texto, das aplicações e de outros itens para mais de 100%, poderá não conseguir ver determinadas caixas de diálogo com as quais tem de interagir para continuar a utilizar o Power BI Desktop. Caso tenha este problema, consulte as suas definições de visualização ao aceder a **Definições** > **Sistema** > **Visualização** e utilize o controlo de deslize para alterar as definições de visualização novamente para 100%.
-* CPU: processador de 1 gigahertz (GHz) ou processador x86 mais rápido de 32 ou 64 bits recomendado.
+* CPU: é recomendado um processador de 1 gigahertz (GHz) e 64 bits (x64).
+
+> [!NOTE]
+> Recomendamos que utilize uma versão cliente do Windows, como o Windows 10, ao invés do Windows Server. Por exemplo, o Power BI Desktop não suporta a utilização da Configuração de Segurança Melhorada do Internet Explorer, pois impede o Power BI Desktop de iniciar sessão no serviço Power BI.
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8fc61a1aee263b40afb8ae95f365477b4104ca71
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: dfc682e867b65ba9da2b2eee87f52d7fd5d0961c
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763350"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528137"
 ---
 # <a name="personalize-visuals-in-a-report"></a>Personalizar os elementos visuais num relatório
 
@@ -117,7 +117,7 @@ Selecione o ícone de borracha para limpar todas as alterações recentes que ef
 
 Atualmente, a funcionalidade tem algumas limitações que devem ser tidas em conta.
 
-- A opção **Personalizar este elemento visual** pode ser desativada para um relatório inteiro ou para um determinado elemento visual. Se não tiver opção de personalizar um elemento visual, consulte o administrador do inquilino ou o proprietário do relatório. Para apresentar informações de contacto do proprietário do relatório, selecione o nome do relatório na barra de menus do Power BI.
+- A opção **Personalizar este elemento visual** pode ser desativada para um relatório inteiro ou para um determinado elemento visual. Se não tiver a opção de personalizar um elemento visual, consulte o administrador do Power BI ou o proprietário do relatório. Para apresentar informações de contacto do proprietário do relatório, selecione o nome do relatório na barra de menus do Power BI.
 - As explorações de utilizadores não persistem automaticamente. Tem de guardar a sua vista como um marcador pessoal para capturar as alterações.
 - Esta funcionalidade é suportada nas aplicações móveis do Power BI para tablets iOS e Android e na aplicação Windows do Power BI; não é suportada nas aplicações móveis do Power BI para telemóveis. No entanto, qualquer alteração a um elemento visual que guardar num marcador pessoal enquanto está no serviço Power BI será respeitada em todas as aplicações móveis do Power BI.
 
