@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 19548729f4ae85334fea14584e78ad4ee05a5c24
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 432f8a7a39e6902c679c83d447039519f90d0dac
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965324"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635706"
 ---
 # <a name="power-bi-security-whitepaper"></a>Documento técnico de segurança do Power BI
 
@@ -171,12 +171,11 @@ Uma consulta para um conjunto de dados importados consiste numa coleção de con
 
 A seguinte tabela descreve os dados do Power BI com base no tipo de consulta utilizado. Um **X** indica a presença de dados do Power BI ao utilizar o tipo de consulta associado.
 
-
-|  |Importar  |DirectQuery  |Live Connect  |
-|---------|---------|---------|---------|
-|Esquema     |     X    |    X     |         |
-|Dados da linha     |    X     |         |         |
-|Colocação em cache dos dados dos elementos visuais     |    X     |     X    |    X     |
+|                         | Importar   | DirectQuery | Live Connect  |
+|-------------------------|----------|-------------|---------------|
+|**Esquema**               | X        | X           |               |
+|**Dados da linha**             | X        |             |               |
+|**Colocação em cache dos dados dos elementos visuais** | X        | X           | X             |
 
 A distinção entre uma DirectQuery e outras consultas determina a forma como o serviço Power BI processa os dados inativos e se a própria consulta é encriptada. As secções seguintes descrevem os dados inativos e em movimento, e explicam a encriptação, a localização e o processo de tratamento de dados.
 
@@ -453,13 +452,13 @@ Seguem-se perguntas e respostas comuns relacionadas com a segurança do Power BI
 
 **Existem outros elementos visuais do Power BI que enviam informações para fora da rede do cliente?**
 
-* Sim. Os elementos visuais do Mapas Bing e da ESRI transmitem dados para fora do serviço Power BI, caso utilizem esses serviços.
+* Yes. Os elementos visuais do Mapas Bing e da ESRI transmitem dados para fora do serviço Power BI, caso utilizem esses serviços.
 
 **Para apps de modelo, a Microsoft realiza alguma avaliação de segurança ou privacidade da aplicação Do Modelo antes de publicar itens na Galeria?**
 * Não. O editor da aplicação é responsável pelo conteúdo, enquanto o cliente tem a responsabilidade de rever e determinar se confia na editora de aplicações Modelo. 
 
 **Existem aplicações de modelo que podem enviar informações fora da rede de clientes?**
-* Sim. É da responsabilidade do cliente rever a política de privacidade da editora e determinar se deve instalar a aplicação Modelo no Inquilino. Além disso, a editora é responsável por notificar o comportamento e capacidades da app.
+* Yes. É da responsabilidade do cliente rever a política de privacidade da editora e determinar se deve instalar a aplicação Modelo no Inquilino. Além disso, a editora é responsável por notificar o comportamento e capacidades da app.
 
 **E a soberania dos dados? Podemos fornecer inquilinos em centros de dados localizados em geografias específicas, para garantir que os dados não saem das fronteiras do país?**
 
