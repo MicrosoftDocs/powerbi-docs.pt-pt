@@ -35,6 +35,22 @@
           href: desktop-bidirectional-filtering.md
         - name: Trabalhar com modelos multidimensionais no Power BI
           href: ../connect-data/desktop-default-member-multidimensional-models.md
+    - name: Fluxos de Dados
+      items:
+        - name: Introdução aos fluxos de dados
+          href: dataflows/dataflows-introduction-self-service.md
+        - name: Criar um fluxo de dados
+          href: dataflows/dataflows-create.md
+        - name: Configurar e consumir um fluxo de dados
+          href: dataflows/dataflows-configure-consume.md
+        - name: Fluxos de dados e Azure Data Lake Gen2
+          href: dataflows/dataflows-azure-data-lake-storage-integration.md
+        - name: Funcionalidades Premium do fluxo de dados
+          href: dataflows/dataflows-premium-features.md
+        - name: Utilizar o Machine Learning e os Serviços Cognitivos com os fluxo de dados
+          href: dataflows/dataflows-machine-learning-integration.md
+        - name: Limitações e considerações dos fluxo de dados
+          href: dataflows/dataflows-features-limitations.md
     - name: Manuais de instruções
       items:
         - name: Realizar tarefas de consulta comuns
