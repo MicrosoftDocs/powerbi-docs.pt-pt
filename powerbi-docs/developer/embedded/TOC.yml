@@ -91,9 +91,9 @@
         - name: APIs
           items:
             - name: Azure Resource Management REST APIs (APIs REST de Gestão de Recursos do Azure)
-              href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+              href: /rest/api/power-bi-embedded/
             - name: Power BI REST APIs (APIs REST do Power BI)
-              href: 'https://docs.microsoft.com/rest/api/power-bi/'
+              href: /rest/api/power-bi/
         - name: Bibliotecas do Power BI
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: Incorporar esquemas personalizados numa aplicação
