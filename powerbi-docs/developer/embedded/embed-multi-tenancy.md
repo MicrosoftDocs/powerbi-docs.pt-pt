@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: cd30727e6329ca91413f2023f7dc3bd715bcbca6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b2638c3fdb483f45b6f4b3f9363f42ee36e57f0b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276013"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747764"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Gerir multi-inquilinos com a análise incorporada do Power BI
 
@@ -28,7 +28,7 @@ Este artigo descreve as diferentes abordagens e analisa-as, de acordo com vário
 
 ## <a name="concepts-and-terminology"></a>Conceitos e terminologia
 
-**[ADD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)** – Azure Active Directory.
+**[ADD](/azure/active-directory/fundamentals/active-directory-whatis)** – Azure Active Directory.
 
 **Aplicação do AAD** – a identidade de uma aplicação no AAD. É necessária uma aplicação do AAD para a autenticação.
 
@@ -131,17 +131,17 @@ Existem duas abordagens principais para gerir os dados do inquilino.
 
 Se o armazenamento da aplicação SaaS estiver a manter uma base de dados separada por inquilino, a opção natural será utilizar conjuntos de dados de inquilinos únicos no Power BI com a cadeia de ligação para cada conjunto de dados que aponte para a base de dados correspondente.
 
-Se o armazenamento da aplicação SaaS estiver a utilizar uma base de dados multi-inquilinos para todos os inquilinos, será fácil separar os inquilinos por área de trabalho. Pode configurar a ligação da base de dados para o conjunto de dados do Power BI com uma consulta parametrizada da base de dados que obtém apenas os dados relevantes do inquilino. Pode atualizar a ligação com o [Power BI Desktop](../../transform-model/desktop-query-overview.md) ou a [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) com [parâmetros](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) na consulta.
+Se o armazenamento da aplicação SaaS estiver a utilizar uma base de dados multi-inquilinos para todos os inquilinos, será fácil separar os inquilinos por área de trabalho. Pode configurar a ligação da base de dados para o conjunto de dados do Power BI com uma consulta parametrizada da base de dados que obtém apenas os dados relevantes do inquilino. Pode atualizar a ligação com o [Power BI Desktop](../../transform-model/desktop-query-overview.md) ou a [API](/rest/api/power-bi/datasets/updatedatasourcesingroup) com [parâmetros](/rest/api/power-bi/datasets/updateparametersingroup) na consulta.
 
 ### <a name="data-isolation"></a>Isolamento de dados
 
-Os dados neste modelo de inquilino são separados ao nível da área de trabalho. Um mapeamento simples entre uma área de trabalho e um inquilino impede que os utilizadores de um inquilino vejam o conteúdo de outro inquilino. A utilização de um utilizador *principal* único exige que tenha acesso a todas as áreas de trabalho diferentes. A configuração dos dados a mostrar a um utilizador final é definida durante a [geração do token de incorporação](https://docs.microsoft.com/rest/api/power-bi/embedtoken), um processo só de back-end que os utilizadores finais não podem ver nem alterar.
+Os dados neste modelo de inquilino são separados ao nível da área de trabalho. Um mapeamento simples entre uma área de trabalho e um inquilino impede que os utilizadores de um inquilino vejam o conteúdo de outro inquilino. A utilização de um utilizador *principal* único exige que tenha acesso a todas as áreas de trabalho diferentes. A configuração dos dados a mostrar a um utilizador final é definida durante a [geração do token de incorporação](/rest/api/power-bi/embedtoken), um processo só de back-end que os utilizadores finais não podem ver nem alterar.
 
 Para acrescentar isolamento adicional, um programador de aplicações pode definir um utilizador *principal* ou uma aplicação por área de trabalho, ao invés de um utilizador *principal* único ou uma aplicação com acesso a várias áreas de trabalho. Desta forma, pode garantir que qualquer erro humano ou fuga de credenciais não vai conduzir à exposição dos dados de vários clientes.
 
 ### <a name="scalability"></a>Escalabilidade
 
-Uma vantagem deste modelo é que a separação dos dados em vários conjuntos de dados para cada inquilino supera os [limites de tamanho de um único conjunto de dados](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (atualmente 10 GB numa capacidade). Quando a capacidade ficar sobrecarregada, esta poderá expulsar conjuntos de dados não utilizados para libertar memória para conjuntos de dados ativos. Esta tarefa não pode ser realizada com um conjunto de dados único de grandes dimensões. Ao utilizar vários conjuntos de dados, também pode separar os inquilinos em várias capacidades do Power BI, se necessário.
+Uma vantagem deste modelo é que a separação dos dados em vários conjuntos de dados para cada inquilino supera os [limites de tamanho de um único conjunto de dados](../../admin/service-premium-what-is.md) (atualmente 10 GB numa capacidade). Quando a capacidade ficar sobrecarregada, esta poderá expulsar conjuntos de dados não utilizados para libertar memória para conjuntos de dados ativos. Esta tarefa não pode ser realizada com um conjunto de dados único de grandes dimensões. Ao utilizar vários conjuntos de dados, também pode separar os inquilinos em várias capacidades do Power BI, se necessário.
 
 Apesar destas vantagens, deve considerar a escala que a aplicação SaaS pode atingir no futuro. Por exemplo, pode atingir limitações em torno do número de artefactos que pode gerir. Veja as [limitações](#summary-comparison-of-the-different-approaches) da implementação mais adiante neste artigo para obter mais detalhes. O SKU de capacidade utilizado introduz um limite no tamanho da memória que os conjuntos de dados têm de comportar, no número de atualizações que podem ser executadas ao mesmo tempo e na frequência máxima das atualizações dos dados. É recomendado realizar testes durante a gestão de centenas ou milhares de conjuntos de dados. Também é recomendável considerar a média e o pico do volume de utilização, bem como quaisquer inquilinos específicos com grandes conjuntos de dados ou padrões de utilização diferentes, que são geridos de forma diferente dos outros inquilinos.
 
@@ -155,7 +155,7 @@ Com o isolamento baseado na área de trabalho do Power BI, um programador de ap
    * Personalizações não planeadas para inquilinos específicos
    * Frequência das atualizações dos conjuntos de dados
 
-Por exemplo, a criação de uma área de trabalho para um novo inquilino é uma tarefa comum, pelo que necessita de automatização. Com a [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/), pode conseguir uma [automatização total durante a criação de áreas de trabalho](https://powerbi.microsoft.com/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/).
+Por exemplo, a criação de uma área de trabalho para um novo inquilino é uma tarefa comum, pelo que necessita de automatização. Com a [API REST do Power BI](/rest/api/power-bi/), pode conseguir uma [automatização total durante a criação de áreas de trabalho](https://powerbi.microsoft.com/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/).
 
 ### <a name="multi-geo-needs"></a>Necessidades da Multi-Geo
 
@@ -222,15 +222,15 @@ O controlador primário de custo com isolamento baseado na segurança ao nível 
 > [!Important]
 > A seguinte análise baseia-se no estado atual do produto. Uma vez que estamos a lançar novas funcionalidades mensalmente, podemos continuar a disponibilizar novas capacidades e funcionalidades em resposta às limitações existentes e aos pontos fracos. Não se esqueça de consultar as publicações mensais do nosso blogue para ver as novidades e, em seguida, volte a este artigo para ver como as novas funcionalidades afetam a recomendação do modelo de inquilinos.
 
-| Critérios de Avaliação | Baseados na área de trabalho   | Segurança baseada ao nível da linha  |  |  |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---|---|
-| Arquitetura dos dados  | Mais fácil quando existe uma base de dados separada por inquilinos  | Mais fácil quando todos os dados de todos os inquilinos estão num único armazém de dados   |  |  |
-| Isolamento de dados  | Bom. Cada inquilino tem um conjunto de dados dedicado.  | Moderado. Todos os dados estão no mesmo conjunto de dados partilhado, mas são geridos através do controlo de acesso.  |  |  |
-| Escalabilidade  | Média. A divisão dos dados entre vários conjuntos de dados permite a otimização.  | Menor. Restringida pelos limites do conjunto de dados.  |  |  |
-| Necessidades da Multi-Geo  | Boa adequação quando a maioria dos inquilinos está apenas numa região.  | Não recomendada. Tem de manter todo o conjunto de dados armazenado em várias regiões.  |  |  |
-| Automatização e complexidade operacional  | Boa automatização para o inquilino individual.   A gestão de vários artefactos em escala torna-se complexa.  | Os artefactos do Power BI são fáceis de gerir, mas a gestão da RLS à escala torna-se complexa.  |  |  |
-| Custo  | Baixo/médio. Pode otimizar a utilização para reduzir o custo por inquilino.  Pode aumentar quando são necessárias atualizações frequentes.  | Médio/alto se utilizar o modo de Importação.  Baixo/médio se utilizar o modo do DirectQuery.  |  |  |
-| Personalização e criação de conteúdos  | Boa adequação. Pode atingir limitações em grande escala.  | Geração de conteúdo apenas no iFrame incorporado  |  |  |
+| Critérios de Avaliação | Baseados na área de trabalho   | Segurança baseada ao nível da linha  |
+|---------------------|-------------------|---------------------------|
+| Arquitetura dos dados  | Mais fácil quando existe uma base de dados separada por inquilinos  | Mais fácil quando todos os dados de todos os inquilinos estão num único armazém de dados   |
+| Isolamento de dados  | Bom. Cada inquilino tem um conjunto de dados dedicado.  | Moderado. Todos os dados estão no mesmo conjunto de dados partilhado, mas são geridos através do controlo de acesso.  |
+| Escalabilidade  | Média. A divisão dos dados entre vários conjuntos de dados permite a otimização.  | Menor. Restringida pelos limites do conjunto de dados.  |
+| Necessidades da Multi-Geo  | Boa adequação quando a maioria dos inquilinos está apenas numa região.  | Não recomendada. Tem de manter todo o conjunto de dados armazenado em várias regiões.  |
+| Automatização e complexidade operacional  | Boa automatização para o inquilino individual.   A gestão de vários artefactos em escala torna-se complexa.  | Os artefactos do Power BI são fáceis de gerir, mas a gestão da RLS à escala torna-se complexa.  |
+| Custo  | Baixo/médio. Pode otimizar a utilização para reduzir o custo por inquilino.  Pode aumentar quando são necessárias atualizações frequentes.  | Médio/alto se utilizar o modo de Importação.  Baixo/médio se utilizar o modo do DirectQuery.  |
+| Personalização e criação de conteúdos  | Boa adequação. Pode atingir limitações em grande escala.  | Geração de conteúdo apenas no iFrame incorporado  |
 
 ## <a name="deployment-considerations-and-limitations"></a>Considerações e limitações de implementação
 

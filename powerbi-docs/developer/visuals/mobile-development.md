@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: 38e6ac3be143381304f1fdfc8e1427b91f398a9a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 99df7a301a1025d50c82c5cc7f5966325a6a6a6f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196635"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747534"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>Como criar elementos visuais do Power BI compatíveis com dispositivos móveis
 O consumo em dispositivos móveis tem um papel importante no Power BI. Uma das suas vantagens é o facto de se manter ligado aos seus dados em qualquer momento e em qualquer lugar.
 
 Enquanto programador que cria elementos visuais do Power BI, devem ser abordadas as restrições únicas de cada dispositivo móvel para alcançar o maior número possível de utilizadores e proporcionar a melhor experiência móvel.
 
-Utilize a [aplicação Power BI para Windows, iOS e Android](/power-bi/consumer/mobile/mobile-apps-for-mobile-devices) para dar aos seus utilizadores empresariais uma visão abrangente dos respetivos dados, em qualquer lado e na ponta dos dedos.
+Utilize a [aplicação Power BI para Windows, iOS e Android](../../consumer/mobile/mobile-apps-for-mobile-devices.md) para dar aos seus utilizadores empresariais uma visão abrangente dos respetivos dados, em qualquer lado e na ponta dos dedos.
 
 ## <a name="requirements"></a>Requirements
 
@@ -63,7 +63,7 @@ Os pontos seguintes são considerados opcionais e são utilizados para criar uma
   Também se podem aplicar as mesmas definições aos elementos visuais nos browsers de computador e, se for necessário, sobrepor para adaptar o elemento visual a ecrãs mais pequenos.
 
   > [!NOTE]
-  > Para otimizar um elemento visual no **Modo de detalhe**, é preciso considerar as orientações de tamanho de ecrã vertical ou horizontal – veja [Display content in Focus mode](/power-bi/consumer/end-user-focus) (Apresentar conteúdos no Modo de detalhe).
+  > Para otimizar um elemento visual no **Modo de detalhe**, é preciso considerar as orientações de tamanho de ecrã vertical ou horizontal – veja [Display content in Focus mode](../../consumer/end-user-focus.md) (Apresentar conteúdos no Modo de detalhe).
 
 - Interativo
 
@@ -74,9 +74,9 @@ Os pontos seguintes são considerados opcionais e são utilizados para criar uma
   Um elemento visual deve apresentar um erro descritivo se não for possível compô-lo no dispositivo móvel.
 
 ## <a name="supported-browsers-and-devices"></a>Dispositivos e browsers suportados
-Os elementos visuais do Power BI devem ser compostos em todos os dispositivos que suportam aplicações do Power BI. Para obter mais informações, veja [Browsers com suporte para o Power BI](/power-bi/power-bi-browsers) e [Aplicações móveis do Power BI](/power-bi/consumer/mobile/mobile-apps-for-mobile-devices).
+Os elementos visuais do Power BI devem ser compostos em todos os dispositivos que suportam aplicações do Power BI. Para obter mais informações, veja [Browsers com suporte para o Power BI](../../fundamentals/power-bi-browsers.md) e [Aplicações móveis do Power BI](../../consumer/mobile/mobile-apps-for-mobile-devices.md).
 
 O programador tem de considerar a maioria destes aspetos de qualidade quando testa os elementos visuais nos mais recentes modelos de dispositivos Windows, iOS e Android.
 
 ## <a name="next-steps"></a>Próximos passos
-Para começar, veja [Tutorial: desenvolver um elemento visual do Power BI](/power-bi/developer/visuals/custom-visual-develop-tutorial).
+Para começar, veja [Tutorial: desenvolver um elemento visual do Power BI](./custom-visual-develop-tutorial.md).

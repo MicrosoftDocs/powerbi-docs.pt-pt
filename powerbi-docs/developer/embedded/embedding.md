@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: ade60bf8b786f70002f0af0672acf951348fee49
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7c90093fefb98c6b385328e8dd207760e3207cbf
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487822"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746223"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Análise incorporada com o Power BI
 
@@ -43,7 +43,7 @@ Existem dois cenários principais ao incorporar conteúdos do Power BI:
  
 - Incorporação para os seus utilizadores e clientes sem a necessidade de licenças do Power BI. 
 
-A [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/) permite ambos os cenários.
+A [API REST do Power BI](/rest/api/power-bi/) permite ambos os cenários.
 
 No caso de clientes e utilizadores sem licenças do Power BI, pode incorporar dashboards e relatórios na sua aplicação personalizada, utilizando a mesma API para servir a sua organização ou os seus clientes. Os seus clientes veem os dados que são geridos pela aplicação. Além disso, os utilizadores do Power BI da sua organização têm opções adicionais para verem *os respetivos dados* diretamente no Power BI ou no contexto da aplicação incorporada. Pode tirar total partido das APIs REST e JavaScript para as suas necessidades de incorporação.
 
@@ -53,7 +53,7 @@ Para compreender o funcionamento da incorporação, veja o [exemplo de incorpora
 
 A solução **Incorporar para a sua organização** permite-lhe alargar o serviço Power BI. Este tipo de incorporação exige que os utilizadores da sua aplicação iniciem sessão no serviço Power BI para verem os conteúdos. Quando alguém na sua organização iniciar sessão, essa pessoa só terá acesso aos relatórios e dashboards de que é proprietária ou que alguém partilhou com a mesma no serviço Power BI.
 
-Alguns exemplos de incorporação para organizações incluem aplicações internas, como o [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), a [integração do Microsoft Teams (tem de ter direitos de administrador)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) e o [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).
+Alguns exemplos de incorporação para organizações incluem aplicações internas, como o [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), a [integração do Microsoft Teams (tem de ter direitos de administrador)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) e o [Microsoft Dynamics](/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).
 
 Para incorporar para a sua organização, veja [Tutorial: incorporar conteúdos do Power BI numa aplicação para a sua organização](embed-sample-for-your-organization.md).
 

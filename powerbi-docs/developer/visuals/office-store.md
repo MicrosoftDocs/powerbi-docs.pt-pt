@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/14/2020
-ms.openlocfilehash: 94cd4fd652fc1b06a73e1ea319a65e1aa5b46c7e
-ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
+ms.openlocfilehash: 891f4d57e1c2754f4c98916b2824ef2283d8298a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86437221"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747971"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicar elementos visuais do Power BI no Centro de Parceiros
 
@@ -35,7 +35,7 @@ Quando estiver pronto para submeter o elemento visual do Power BI, verifique se
 | --- | --- | --- |
 | Pacote Pbiviz |Sim |Compacte o elemento visual do Power BI num pacote Pbiviz com todos os metadados necessários.<br>Nome do elemento visual<br>Nome a apresentar<br>GUID<br>Versão<br>Descrição<br>Nome e e-mail do autor |
 | Ficheiro de relatório. pbix de exemplo |Sim |Para demonstrar o elemento visual, ajude os utilizadores a familiarizarem-se com o mesmo. Realce o valor que o elemento visual proporciona ao utilizador e dê exemplos de utilização e opções de formatação. Também pode adicionar uma página de *“sugestões”* no final com algumas sugestões e truques e aspetos a evitar.<br>O ficheiro de relatório .pbix de exemplo deve funcionar offline, sem quaisquer ligações externas. |
-| Ícone |Sim |Deve incluir o logótipo do elemento visual personalizado que será apresentado na loja. Os formatos possíveis são .png, .jpg, .jpeg ou .gif. Tem de ter exatamente 300 x 300 px (largura x altura).<BR>**Importante!** Reveja atentamente o [guia de imagens da loja AppSource](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) antes de submeter o ícone. |
+| Ícone |Sim |Deve incluir o logótipo do elemento visual personalizado que será apresentado na loja. Os formatos possíveis são .png, .jpg, .jpeg ou .gif. Tem de ter exatamente 300 x 300 px (largura x altura).<BR>**Importante!** Reveja atentamente o [guia de imagens da loja AppSource](/office/dev/store/craft-effective-appsource-store-images) antes de submeter o ícone. |
 | Capturas de ecrã |Sim |Forneça, pelo menos, uma captura de ecrã. Os formatos possíveis são .png, .jpg, .jpeg ou .gif. As dimensões devem ter exatamente 1366 px (largura) por 768 px (altura). O tamanho do ficheiro não pode ser superior a 1024 KB.<br>Para promover uma maior utilização, adicione balões de texto para articular a proposta de valor das principais funcionalidades mostradas em cada captura de ecrã. |
 | Ligação de transferência do suporte |Sim |Forneça uma URL de suporte para os clientes. Esta ligação é introduzida como parte da sua lista do Centro de Parceiros e está visível para os utilizadores quando acederem à lista do elemento visual no AppSource. O formato do URL deve incluir https:// ou https://. |
 | Ligação para documento sobre privacidade |Sim |Forneça uma ligação para a política de privacidade do elemento visual. Esta ligação é introduzida como parte da sua lista do Centro de Parceiros e está visível para os utilizadores quando acederem à lista do elemento visual no AppSource. O formato da ligação deve incluir https:// ou https://. |
@@ -71,14 +71,14 @@ A equipa do Power BI terá de verificar os ficheiros quanto a novas submissões
 
 ### <a name="submitting-to-partner-center"></a>Submeter no Centro de Parceiros
 
-Para submeter o elemento visual do Power BI no Centro de Parceiros, precisa de estar registado no Centro de Parceiros. Se ainda não estiver registado, [abra uma conta de programador no Centro de Parceiros](https://docs.microsoft.com/office/dev/store/open-a-developer-account).
+Para submeter o elemento visual do Power BI no Centro de Parceiros, precisa de estar registado no Centro de Parceiros. Se ainda não estiver registado, [abra uma conta de programador no Centro de Parceiros](/office/dev/store/open-a-developer-account).
 
 >[!NOTE]
 >Os **editores individuais** podem utilizar um destes métodos para submeter um elemento visual do Power BI:
 >* Se tiver uma conta do Dashboard de Vendedor antiga, pode continuar a utilizar as credenciais desta conta para iniciar sessão no Centro de Parceiros.
->* Se não tiver uma conta do Dashboard de Vendedor antiga e não estiver registado no Centro de Parceiros, terá de [Criar uma conta de programador no Centro de Parceiros](https://docs.microsoft.com/office/dev/store/open-a-developer-account) com o e-mail de trabalho.
+>* Se não tiver uma conta do Dashboard de Vendedor antiga e não estiver registado no Centro de Parceiros, terá de [Criar uma conta de programador no Centro de Parceiros](/office/dev/store/open-a-developer-account) com o e-mail de trabalho.
 
-Siga os passos abaixo para submeter o elemento visual do Power BI no Centro de Parceiros. Para obter mais informações acerca do processo de submissão, veja [Submit your Office solution to AppSource via Partner Center](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource) (Submeter a solução do Office no AppSource através do Centro de Parceiros).
+Siga os passos abaixo para submeter o elemento visual do Power BI no Centro de Parceiros. Para obter mais informações acerca do processo de submissão, veja [Submit your Office solution to AppSource via Partner Center](/office/dev/store/use-partner-center-to-submit-to-appsource) (Submeter a solução do Office no AppSource através do Centro de Parceiros).
 
 1. Inicie sessão no **Centro de Parceiros**.
 
@@ -107,7 +107,7 @@ Siga os passos abaixo para submeter o elemento visual do Power BI no Centro de 
 
 ## <a name="tracking-submission-status-and-usage"></a>Controlar o estado da submissão e a utilização
 
-Pode rever as [políticas de validação](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
+Pode rever as [políticas de validação](/legal/marketplace/certification-policies#1180-power-bi-visuals).
 
 * Após a submissão, poderá ver o estado da submissão no [dashboard da aplicação](https://sellerdashboard.microsoft.com/Application/Summary/).
 

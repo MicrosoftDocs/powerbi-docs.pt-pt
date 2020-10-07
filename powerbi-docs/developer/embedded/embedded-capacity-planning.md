@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9158dfccecd42d13a133a49097b2f85cb3713f00
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145136"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746752"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Capacidade de planeamento na análise incorporada do Power BI
 
@@ -42,7 +42,7 @@ Quando estiver a executar a ferramenta, lembre-se da carga existente nas suas ca
 Seguem-se alguns exemplos de como pode utilizar a ferramenta de planeamento.
 
 * Os administradores de capacidade podem compreender melhor qual o número de utilizadores máximo a ser processado pela capacidade num determinado período de tempo.
-* Os autores de relatórios podem compreender o efeito da carga do utilizador, conforme medido pelo [Analisador de Desempenho](https://docs.microsoft.com/power-bi/desktop-performance-analyzer) do Power BI Desktop.
+* Os autores de relatórios podem compreender o efeito da carga do utilizador, conforme medido pelo [Analisador de Desempenho](../../create-reports/desktop-performance-analyzer.md) do Power BI Desktop.
 * Pode ver as composições a acontecer em tempo real no browser.
 * Ao utilizar o SQL Server Profiler, pode [ligar aos pontos finais XMLA](https://powerbi.microsoft.com/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/) das capacidades a serem medidas para ver as consultas em execução.
 * Os efeitos do teste de carga são visíveis na página Conjuntos de dados da aplicação de métricas de capacidade Premium. Os administradores de capacidade podem utilizar esta ferramenta para gerar carga e para ver como essa carga é apresentada.

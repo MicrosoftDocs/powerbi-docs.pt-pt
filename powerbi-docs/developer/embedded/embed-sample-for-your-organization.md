@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 38db00f51a333b754267d52aaf3e3eabccc3e6b6
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 7a93260aab9d8195478949ea8044378ea5cfae83
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273029"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746407"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Incorporar conteúdos do Power BI numa aplicação para a sua organização
 
@@ -50,7 +50,7 @@ Se optar por configurar o ambiente manualmente, pode continuar abaixo.
 
 ### <a name="register-an-application-in-azure-active-directory"></a>Registar uma aplicação no Azure Active Directory
 
-[Registe a sua aplicação](register-app.md) com o Azure Active Directory para permitir que a aplicação aceda às [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/). O registo da aplicação permite-lhe estabelecer uma identidade para a sua aplicação e especificar permissões para recursos REST do Power BI.
+[Registe a sua aplicação](register-app.md) com o Azure Active Directory para permitir que a aplicação aceda às [APIs REST do Power BI](/rest/api/power-bi/). O registo da aplicação permite-lhe estabelecer uma identidade para a sua aplicação e especificar permissões para recursos REST do Power BI.
 
 Tem de continuar com o registo de uma **aplicação Web do lado do servidor**. Registe uma aplicação Web do lado do servidor para criar um segredo da aplicação.
 
@@ -190,9 +190,9 @@ Para incorporar com um convidado, utilize o URL: `https://login.microsoftonline.
 
 ## <a name="embed-your-content-within-your-application"></a>Incorporar os seus conteúdos na aplicação
 
-Embora os passos para incorporar os seus conteúdos possam ser efetuados com as [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/), os códigos de exemplo descritos neste artigo são efetuados com o .NET SDK.
+Embora os passos para incorporar os seus conteúdos possam ser efetuados com as [APIs REST do Power BI](/rest/api/power-bi/), os códigos de exemplo descritos neste artigo são efetuados com o .NET SDK.
 
-Para integrar um relatório numa aplicação Web, utilize a API REST do Power BI ou o SDK C# do Power BI. Também utilize um token de acesso de autorização do Azure Active Directory para obter um relatório. Em seguida, carregue o relatório com o mesmo token de acesso. A API REST do Power BI proporciona acesso programático a recursos específicos do Power BI. Para obter mais informações, veja [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/) e [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+Para integrar um relatório numa aplicação Web, utilize a API REST do Power BI ou o SDK C# do Power BI. Também utilize um token de acesso de autorização do Azure Active Directory para obter um relatório. Em seguida, carregue o relatório com o mesmo token de acesso. A API REST do Power BI proporciona acesso programático a recursos específicos do Power BI. Para obter mais informações, veja [APIs REST do Power BI](/rest/api/power-bi/) e [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ### <a name="get-an-access-token-from-azure-ad"></a>Obter um token de acesso do Azure AD
 
@@ -200,11 +200,11 @@ Na sua aplicação, terá de obter um token de acesso do Azure AD antes de poder
 
 ### <a name="get-a-report"></a>Obter um relatório
 
-Para obter um relatório do Power BI ou um relatório paginado, utilize a operação [Obter Relatórios](https://docs.microsoft.com/rest/api/power-bi/reports/getreports), que obtém uma lista de relatórios do Power BI e relatórios paginados. Da lista de relatórios, pode obter um ID de relatório.
+Para obter um relatório do Power BI ou um relatório paginado, utilize a operação [Obter Relatórios](/rest/api/power-bi/reports/getreports), que obtém uma lista de relatórios do Power BI e relatórios paginados. Da lista de relatórios, pode obter um ID de relatório.
 
 ### <a name="get-reports-by-using-an-access-token"></a>Obter relatórios com um token de acesso
 
-A operação [Obter Relatórios](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) devolve uma lista de relatórios. Pode obter um único relatório a partir da lista de relatórios.
+A operação [Obter Relatórios](/rest/api/power-bi/reports/getreports) devolve uma lista de relatórios. Pode obter um único relatório a partir da lista de relatórios.
 
 Para efetuar a chamada à API REST, tem de incluir um cabeçalho de *Autorização* no formato de *Portador {token de acesso}* .
 

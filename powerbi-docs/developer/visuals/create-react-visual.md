@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/30/2020
-ms.openlocfilehash: 2b1b28608799616f4bc75837f82521ae345cf186
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 0160bf604b23102bcb6e21232a64a776f3bb8290
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148901"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746269"
 ---
 # <a name="tutorial-create-a-react-based-visual"></a>Tutorial: Criar um elemento visual baseado no React
 
@@ -36,7 +36,7 @@ Neste tutorial, vai aprender a:
 
 * Uma conta do **Power BI Pro**. [Inscreva-se numa avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
 * [Visual Studio Code](https://www.visualstudio.com/).
-* Versão 4 ou posterior do [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) para utilizadores do Windows OU o [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) para utilizadores do OSX.
+* Versão 4 ou posterior do [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) para utilizadores do Windows OU o [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) para utilizadores do OSX.
 * Um ambiente conforme descrito em [Configurar o ambiente de programação](custom-visual-develop-tutorial.md#setting-up-the-developer-environment).
 
 ## <a name="getting-started"></a>Introdução

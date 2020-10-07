@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: fe1eb36a63d504497f15bef8316e96d120439793
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 86ac6bebf6373f14ac343721a8594ee9f45b0e89
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145098"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746200"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
@@ -51,7 +51,7 @@ Podem ocorrer situações em que, além da incorporação de aplicações, um IS
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Quantos tokens de incorporação posso criar?
 
-Os tokens de incorporação com a licença PRO destinam-se a testes de desenvolvimento, pelo que uma conta principal do Power BI ou um [principal de serviço](embed-service-principal.md) só podem gerar um número limitado de tokens. [Compre uma capacidade](#technical) para incorporar num ambiente de produção. Não existe limite para o número de tokens de incorporação que pode gerar ao adquirir uma capacidade. Aceda a [Funcionalidades Disponíveis](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) para verificar o valor de utilização que indica a utilização atual incorporada em valores percentuais.
+Os tokens de incorporação com a licença PRO destinam-se a testes de desenvolvimento, pelo que uma conta principal do Power BI ou um [principal de serviço](embed-service-principal.md) só podem gerar um número limitado de tokens. [Compre uma capacidade](#technical) para incorporar num ambiente de produção. Não existe limite para o número de tokens de incorporação que pode gerar ao adquirir uma capacidade. Aceda a [Funcionalidades Disponíveis](/rest/api/power-bi/availablefeatures) para verificar o valor de utilização que indica a utilização atual incorporada em valores percentuais.
 
 ## <a name="technical"></a>Parte Técnica
 
@@ -69,7 +69,7 @@ Consulte o artigo [Capacity and SKUs in Power BI embedded analytics](embedded-ca
 
 * Ao utilizar o [portal de Administração do Power BI](../../admin/service-admin-portal.md#power-bi-embedded).
 
-* Ao transferir a [aplicação de métrica](https://docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) no Power BI.
+* Ao transferir a [aplicação de métrica](../../admin/service-admin-premium-monitor-capacity.md) no Power BI.
 
 * Ao utilizar o [registo de diagnósticos do Azure](azure-pbie-diag-logs.md).
 
@@ -79,7 +79,7 @@ Apesar de atualmente não existir uma opção de dimensionamento automático, to
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>Porque é que criar/dimensionar/retomar uma capacidade faz com que esta seja colocada num estado de suspensão?
 
-O aprovisionamento de capacidade (dimensionar/retomar/criar) pode falhar. Pode utilizar a API Obter Detalhes para verificar a propriedade ProvisioningState de uma capacidade: [Capacidades – Obter Detalhe](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
+O aprovisionamento de capacidade (dimensionar/retomar/criar) pode falhar. Pode utilizar a API Obter Detalhes para verificar a propriedade ProvisioningState de uma capacidade: [Capacidades – Obter Detalhe](/rest/api/power-bi-embedded/capacities/getdetails).
 
 ### <a name="can-i-only-create-power-bi-embedded-capacities-in-a-specific-region"></a>Só posso criar capacidades do Power BI Embedded numa região específica?
 
@@ -89,7 +89,7 @@ Com a funcionalidade [Multi-geo (Pré-visualização)](embedded-multi-geo.md), p
 
 Quando são concedidas permissões a um utilizador para uma área de trabalho, uma aplicação ou um artefacto, as mesmas poderão não estar imediatamente disponíveis através de chamadas à API.
 O resultado pode ser um artefacto em falta numa resposta de API "GET" ou um erro ao tentar utilizar o artefacto.
-O utilizador pode resolver este problema ao chamar a [API refreshUserPermissions](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions), que atualiza as permissões de utilizador.
+O utilizador pode resolver este problema ao chamar a [API refreshUserPermissions](/rest/api/power-bi/users/refreshuserpermissions), que atualiza as permissões de utilizador.
 
 
 ### <a name="how-can-i-find-my-pbi-tenant-region"></a>Como posso encontrar a minha região de inquilino do PBI?
@@ -114,8 +114,8 @@ O Power BI exige que se inscreva com uma conta escolar ou profissional. Não é 
 
 Sim, existem cmdlets do PowerShell e APIs REST do Azure Resource Manager que pode utilizar para criar e gerir recursos do PBIE.
 
-* [APIs REST](https://docs.microsoft.com/rest/api/power-bi-embedded/) 
-* [Cmdlets do PowerShell](https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/)
+* [APIs REST](/rest/api/power-bi-embedded/) 
+* [Cmdlets do PowerShell](/powershell/module/azurerm.powerbiembedded/)
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Qual é a função de capacidade dedicada do Power BI Embedded numa solução do Power BI Embedded?
 
@@ -145,7 +145,7 @@ O Power BI Embedded continua a utilizar o Azure AD para a autenticação do util
 
 Pode utilizar o seu diretório existente se já tiver um inquilino do Azure AD. Também pode criar um novo inquilino do Azure AD para a segurança dos conteúdos da sua aplicação incorporada.
 
-Para obter um token do AAD, pode utilizar uma das [Bibliotecas de Autenticação do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries). Existem bibliotecas cliente disponíveis para múltiplas plataformas.
+Para obter um token do AAD, pode utilizar uma das [Bibliotecas de Autenticação do Azure Active Directory](/azure/active-directory/develop/active-directory-authentication-libraries). Existem bibliotecas cliente disponíveis para múltiplas plataformas.
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>A minha Aplicação já utiliza o AAD para a Autenticação de Utilizadores. Como podemos utilizar esta Identidade ao efetuar a autenticação no Power BI num cenário "Os Dados Pertencem ao Utilizador"?
 
@@ -194,7 +194,7 @@ Assim que ativar o [principal de serviço](embed-service-principal.md) a utiliza
 
 Os principais de serviço herdam as permissões de todas as definições do inquilino do Power BI do respetivo grupo de segurança. Para restringir as permissões, crie um grupo de segurança dedicado para os principais de serviço e adicione-o à lista **Exceto grupos de segurança específicos** para as definições do Power BI relevantes ativadas.
 
-Esta situação é importante quando adicionar o principal de serviço como um **administrador** à nova área de trabalho. Pode gerir esta tarefa através das [APIs](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) ou com o serviço Power BI.
+Esta situação é importante quando adicionar o principal de serviço como um **administrador** à nova área de trabalho. Pode gerir esta tarefa através das [APIs](/rest/api/power-bi/groups/addgroupuser) ou com o serviço Power BI.
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>Quando devo utilizar um ID da aplicação vs. um ID do objeto do principal de serviço?
 
@@ -283,7 +283,7 @@ A **Coleção de Áreas de Trabalho do Power BI** (Versão 1 do **Power BI Em
     > [!Note]
     > Pode continuar a utilizar a **Coleção de Áreas de Trabalho do Power BI** durante a criação em paralelo com uma solução **Power BI Embedded**. Assim que tudo estiver pronto, pode mover o seu cliente para a nova solução **Power BI Embedded** e descontinuar a solução **Coleção de Áreas de Trabalho do Power BI**.
 
-Para obter mais informações, veja [Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)
+Para obter mais informações, veja [Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded](./migrate-from-powerbi-embedded.md)
 
 ### <a name="is-power-bi-workspace-collection-on-a-deprecation-path"></a>A Coleção de Áreas de Trabalho do Power BI está em vias de ser preterida?
 
@@ -327,11 +327,11 @@ Se estiver a trabalhar com a experiência **Incorporar para a sua organização*
 
 ### <a name="how-can-i-edit-my-registered-application"></a>Como posso editar a minha aplicação registada?
 
-Para saber como editar aplicações registadas no Azure AD, veja [Guia de Início Rápido: atualizar uma aplicação no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app).
+Para saber como editar aplicações registadas no Azure AD, veja [Guia de Início Rápido: atualizar uma aplicação no Azure Active Directory](/azure/active-directory/develop/quickstart-v1-update-azure-ad-app).
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Como posso editar os meus dados ou o meu perfil de utilizador do Power BI?
 
-Pode saber como editar os seus dados do Power BI [aqui](https://docs.microsoft.com/power-bi/service-basic-concepts).
+Pode saber como editar os seus dados do Power BI [aqui](../../fundamentals/service-basic-concepts.md).
 
 Para obter mais informações, veja [Resolver problemas da sua aplicação incorporada](embedded-troubleshoot.md).
 

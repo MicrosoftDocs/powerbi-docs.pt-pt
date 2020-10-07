@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 95d2cec8cf731c403e204beeb6c013c2cfe0ce1d
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 7624e51bf8c1ee49f2b7e7a0682e12b24bcdfa98
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878581"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748477"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Registo de alterações da API de elementos visuais do Power BI
 Esta página contém um resumo rápido das versões da API. As versões aqui listadas são consideradas estáveis e não serão alteradas.
@@ -62,7 +62,7 @@ Esta página contém um resumo rápido das versões da API. As versões aqui lis
 * A propriedade `proto` já não armazena metadados\dados ocultos em dataView. Os elementos visuais que acedem a propriedades através de `proto` podem falhar com esta atualização.
 
 ## <a name="api-v1130"></a>API v1.13.0
-* Suporta a **[Segmentação de Dados de Sincronização](./enable-sync-slicers.md)** ; tenha em atenção que apenas funciona para segmentações de campos individuais devido ao estado do código atual do PBI. [Saiba mais](/power-bi/desktop-slicers).
+* Suporta a **[Segmentação de Dados de Sincronização](./enable-sync-slicers.md)** ; tenha em atenção que apenas funciona para segmentações de campos individuais devido ao estado do código atual do PBI. [Saiba mais](../../visuals/power-bi-visualization-slicers.md).
 * Acessibilidade: [suporte de alto contraste](./high-contrast-support.md) 
 * Acessibilidade: permitir o sinalizador Foco de Teclado
 

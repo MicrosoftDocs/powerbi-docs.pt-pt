@@ -8,19 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: ba37d9fc79405518a59ff188fdb5890e6af8043c
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: b43e9c93499f60039a924051c30b0ed631c85e8e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355036"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748385"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Step 5: Adicionar linhas a uma tabela do Power BI
 
 Este artigo faz parte das instruções passo-a-passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
 
-No **passo 4** de Enviar dados por push a um Conjunto de dados, [Obter um conjunto de dados para adicionar linhas a uma tabela do Power BI](walkthrough-push-data-get-datasets.md), utilizou a operação [Obter Conjuntos de Dados](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) e Newtonsoft.Json para obter um ID de conjunto de dados. Neste passo, utilize o ID de conjunto de dados com a operação [Publicar Linhas](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) para adicionar linhas a um conjunto de dados do **Power BI**. 
+No **passo 4** de Enviar dados por push a um Conjunto de dados, [Obter um conjunto de dados para adicionar linhas a uma tabela do Power BI](walkthrough-push-data-get-datasets.md), utilizou a operação [Obter Conjuntos de Dados](/rest/api/power-bi/datasets/getdatasets) e Newtonsoft.Json para obter um ID de conjunto de dados. Neste passo, utilize o ID de conjunto de dados com a operação [Publicar Linhas](/rest/api/power-bi/pushdatasets/datasets_postrows) para adicionar linhas a um conjunto de dados do **Power BI**. 
 
-Quando chama a operação [Publicar Linhas](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows), adiciona linhas a um conjunto de dados.
+Quando chama a operação [Publicar Linhas](/rest/api/power-bi/pushdatasets/datasets_postrows), adiciona linhas a um conjunto de dados.
 
 ![adicionar linhas](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -104,9 +105,7 @@ Adicione este código a Program.cs.
     #endregion
 ```
 
-Segue-se a [lista completa de códigos](#code).
-
-<a name="code"/>
+Segue-se a lista completa de códigos.
 
 ## <a name="complete-code-listing"></a>Listagem de código completo
 
@@ -314,5 +313,5 @@ Apesar de especificarmos que **_//obtemos o primeiro id_** no código acima, o m
 ## <a name="next-steps"></a>Próximos passos
 [Enviar dados por push a um Dashboard do Power BI](walkthrough-push-data.md)  
 [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
-[Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
+[Referência da API REST do Power BI](/rest/api/power-bi/)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

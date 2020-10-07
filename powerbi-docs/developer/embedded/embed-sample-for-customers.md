@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
-ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
+ms.openlocfilehash: 6ba5cd95f3e8b788ca7ee8939dff6616c5610573
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86092245"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746637"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Incorporar conteúdo do Power BI numa aplicação para os seus clientes
 
@@ -46,7 +46,7 @@ No entanto, se optar por configurar o ambiente manualmente, pode continuar abaix
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Registar uma aplicação no Azure Active Directory (Azure AD)
 
-[Registe a sua aplicação](register-app.md) com o Azure Active Directory para permitir que a aplicação aceda às [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/). O registo da aplicação permite-lhe estabelecer uma identidade para a sua aplicação e especificar [permissões para recursos REST do Power BI](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). A utilização de uma conta principal ou do [principal de serviço](embed-service-principal.md) determina a forma como começa a registar uma aplicação.
+[Registe a sua aplicação](register-app.md) com o Azure Active Directory para permitir que a aplicação aceda às [APIs REST do Power BI](/rest/api/power-bi/). O registo da aplicação permite-lhe estabelecer uma identidade para a sua aplicação e especificar [permissões para recursos REST do Power BI](/azure/active-directory/develop/v2-permissions-and-consent). A utilização de uma conta principal ou do [principal de serviço](embed-service-principal.md) determina a forma como começa a registar uma aplicação.
 
 O método que escolher afetará o tipo de aplicação que registará no Azure.
 
@@ -62,7 +62,7 @@ Se estiver a incorporar relatórios, dashboards ou mosaicos para os seus cliente
 
 ### <a name="create-and-publish-your-reports"></a>Criar e publicar os seus relatórios
 
-Pode criar os seus relatórios e conjuntos de dados com o Power BI Desktop e, em seguida, publicar esses relatórios numa área de trabalho. Existem duas formas de efetuar esta tarefa: como utilizador final, pode publicar relatórios numa área de trabalho tradicional com uma conta principal (licença do Power BI Pro). Se estiver a utilizar o principal de serviço, pode publicar relatórios nas novas áreas de trabalho através das [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup).
+Pode criar os seus relatórios e conjuntos de dados com o Power BI Desktop e, em seguida, publicar esses relatórios numa área de trabalho. Existem duas formas de efetuar esta tarefa: como utilizador final, pode publicar relatórios numa área de trabalho tradicional com uma conta principal (licença do Power BI Pro). Se estiver a utilizar o principal de serviço, pode publicar relatórios nas novas áreas de trabalho através das [APIs REST do Power BI](/rest/api/power-bi/imports/postimportingroup).
 
 Os passos abaixo explicam como pode publicar o seu registo PBIX na sua área de trabalho do Power BI.
 
@@ -224,11 +224,11 @@ Preencha as informações do **inquilino** com o seu ID de inquilino do Azure. P
 
 ## <a name="embed-content-within-your-application"></a>Incorporar conteúdos na sua aplicação
 
-Embora os passos para incorporar os seus conteúdos possam ser efetuados com as [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/), os códigos de exemplo descritos neste artigo são efetuados com o **SDK .NET**.
+Embora os passos para incorporar os seus conteúdos possam ser efetuados com as [APIs REST do Power BI](/rest/api/power-bi/), os códigos de exemplo descritos neste artigo são efetuados com o **SDK .NET**.
 
-A incorporação para os seus clientes na sua aplicação exige que obtenha um **token de acesso** para a sua conta principal ou [principal de serviço](embed-service-principal.md) a partir do **Azure AD**. É necessário obter um [token de acesso do Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) para a sua aplicação Power BI antes de fazer chamadas às [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/).
+A incorporação para os seus clientes na sua aplicação exige que obtenha um **token de acesso** para a sua conta principal ou [principal de serviço](embed-service-principal.md) a partir do **Azure AD**. É necessário obter um [token de acesso do Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) para a sua aplicação Power BI antes de fazer chamadas às [APIs REST do Power BI](/rest/api/power-bi/).
 
-Para criar o Cliente do Power BI com o seu **token de acesso**, deve criar o objeto de cliente do Power BI que lhe permite interagir com as [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/). Cria o objeto de cliente do Power BI ao encapsular num wrapper o **AccessToken** com um objeto ***Microsoft.Rest.TokenCredentials***.
+Para criar o Cliente do Power BI com o seu **token de acesso**, deve criar o objeto de cliente do Power BI que lhe permite interagir com as [APIs REST do Power BI](/rest/api/power-bi/). Cria o objeto de cliente do Power BI ao encapsular num wrapper o **AccessToken** com um objeto ***Microsoft.Rest.TokenCredentials***.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -269,11 +269,11 @@ Gere um token de incorporação que pode ser utilizado a partir da API JavaScrip
 **APIs para gerar um token de incorporação para um item específico**
 
 O token de incorporação criado com essas APIs é específico do item que está a incorporar. Sempre que inserir um item do Power BI (como um relatório, dashboard ou mosaico) com estas APIs, tem de criar um novo token de incorporação.
-* [Dashboards GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
-* [Conjuntos de dados GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
-* [Relatórios GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
-* [Relatórios GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
-* [Mosaicos GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
+* [Dashboards GenerateTokenInGroup](/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
+* [Conjuntos de dados GenerateTokenInGroup](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
+* [Relatórios GenerateTokenForCreateInGroup](/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
+* [Relatórios GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
+* [Mosaicos GenerateTokenInGroup](/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
 
 Exemplos de criação de um token de incorporação para um relatório, dashboard ou mosaico estão disponíveis nos seguintes ficheiros na [aplicação de exemplo](https://github.com/Microsoft/PowerBI-Developer-Samples).
 * Services\EmbedService.cs
@@ -300,7 +300,7 @@ var embedConfig = new EmbedConfig()
 
 **API para gerar um token de incorporação para múltiplos itens**<a id="multiEmbedToken"></a>
 
-A API de incorporação [Generate Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken) gera um token que pode ser utilizado para incorporar múltiplos itens.
+A API de incorporação [Generate Token](/rest/api/power-bi/embedtoken/generatetoken) gera um token que pode ser utilizado para incorporar múltiplos itens.
 
 Pode também ser utilizado para selecionar dinamicamente um conjunto de dados ao incorporar um relatório. Para obter mais informações sobre esta utilização da API, veja [enlace dinâmico](embed-dynamic-binding.md).
 
@@ -414,7 +414,7 @@ Ao criar uma capacidade dedicada, pode tirar partido de ter um recurso dedicado 
 > [!NOTE]
 > Com os SKUs A, não pode aceder a conteúdos do Power BI com uma licença do Power BI GRATUITA.
 
-A seguinte tabela descreve os recursos e limites de cada SKU. Para determinar qual a capacidade mais adequada às suas necessidades, veja a tabela [que SKU devo comprar para o meu cenário](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose).
+A seguinte tabela descreve os recursos e limites de cada SKU. Para determinar qual a capacidade mais adequada às suas necessidades, veja a tabela [que SKU devo comprar para o meu cenário](./embedded-faq.md#which-solution-should-i-choose).
 
 | Nós de Capacidade | Núcleos virtuais totais | Núcleos virtuais de back-end | RAM (GB) | Núcleos virtuais de front-end | DirectQuery/Ligação em Direto (por segundo) | Paralelismo de Atualização do Modelo |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -430,7 +430,7 @@ A seguinte tabela descreve os recursos e limites de cada SKU. Para determinar qu
 
 Pode utilizar tokens de avaliação incorporados com uma licença Pro para fins de teste de desenvolvimento. Utilize uma capacidade dedicada para incorporar num ambiente de produção.
 
-O número de tokens de avaliação incorporados que um serviço de Power BI ou conta principal pode gerar é limitado. Utilize a API [Funcionalidades Disponíveis](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) para verificar a sua percentagem de utilização atual incorporada. O valor de utilização é apresentado por principal do serviço ou conta principal.
+O número de tokens de avaliação incorporados que um serviço de Power BI ou conta principal pode gerar é limitado. Utilize a API [Funcionalidades Disponíveis](/rest/api/power-bi/availablefeatures/getavailablefeatures) para verificar a sua percentagem de utilização atual incorporada. O valor de utilização é apresentado por principal do serviço ou conta principal.
 
 Se ficar sem tokens incorporados durante as avaliações, tem de adquirir uma [capacidade](embedded-capacity.md) do Power BI Incorporada ou Premium. Não existe um número limite de tokens de incorporação que pode gerar com uma capacidade dedicada.
 
@@ -441,7 +441,7 @@ Assim que criar uma capacidade dedicada, pode atribuir a área de trabalho a ess
 
 Todas as áreas de trabalho que contêm recursos do Power BI relacionados com os conteúdos incorporados (incluindo conjuntos de dados, relatórios e dashboards) têm de ser atribuídas a capacidades dedicadas. Por exemplo, se um relatório incorporado e o conjunto de dados a este vinculado residirem em diferentes áreas de trabalho, ambas as áreas de trabalho têm de ser atribuídas a capacidades dedicadas.
 
-Para atribuir uma capacidade dedicada a uma área de trabalho com o [principal de serviço](embed-service-principal.md), utilize a [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Ao utilizar as APIs REST do Power BI, certifique-se de que utiliza o [ID do objeto do principal de serviço](embed-service-principal.md).
+Para atribuir uma capacidade dedicada a uma área de trabalho com o [principal de serviço](embed-service-principal.md), utilize a [API REST do Power BI](/rest/api/power-bi/capacities/groups_assigntocapacity). Ao utilizar as APIs REST do Power BI, certifique-se de que utiliza o [ID do objeto do principal de serviço](embed-service-principal.md).
 
 Siga os passos abaixo para atribuir uma capacidade dedicada a uma área de trabalho com uma **conta principal**.
 

@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: e32b33a7e913772215fad63ddea7987d199420fd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 8b20ee4fbac3c4b22bd420e49df0bc1fbfd6e300
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355059"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746614"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Obter um token de acesso do Azure AD para a sua aplicação do Power BI
 
-Este artigo mostra como pode autenticar utilizadores na sua aplicação Power BI e obter um token de acesso para utilizar com a [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/).
+Este artigo mostra como pode autenticar utilizadores na sua aplicação Power BI e obter um token de acesso para utilizar com a [API REST do Power BI](/rest/api/power-bi/).
 
-Antes de a sua aplicação chamar a API REST, terá de obter um **token de acesso de autenticação** do Azure Active Directory (Azure AD). A sua aplicação utiliza um token para obter acesso a dashboards, mosaicos e relatórios do Power BI. Para saber mais, veja [Autorizar o acesso a aplicações Web do Azure Active Directory através do fluxo de concessão de código do OAuth 2.0](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code).
+Antes de a sua aplicação chamar a API REST, terá de obter um **token de acesso de autenticação** do Azure Active Directory (Azure AD). A sua aplicação utiliza um token para obter acesso a dashboards, mosaicos e relatórios do Power BI. Para saber mais, veja [Autorizar o acesso a aplicações Web do Azure Active Directory através do fluxo de concessão de código do OAuth 2.0](/azure/active-directory/develop/v1-protocols-oauth-code).
 
 Consoante a forma como está a incorporar conteúdos, o token de acesso é obtido de forma diferente. Este artigo apresenta duas abordagens diferentes.
 
@@ -55,7 +55,7 @@ var @params = new NameValueCollection
 
 Após construir uma cadeia de consulta, redirecione para o **Azure AD** para obter um **código de autorização**.  Segue-se um método C# completo para construir uma cadeia de consulta de **código de autorização** e redirecionar para o **Azure AD**. Em seguida, vai utilizar o **código de autorização** para obter um **token de acesso**.
 
-Em redirect.aspx.cs, [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) é chamado para gerar o token.
+Em redirect.aspx.cs, [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) é chamado para gerar o token.
 
 #### <a name="get-authorization-code"></a>Obter código de autorização
 

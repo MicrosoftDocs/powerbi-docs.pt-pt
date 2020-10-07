@@ -8,11 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: ba0a85958fad500bd27f4697a7f46961ca430f49
-ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
+ms.openlocfilehash: 2d33ed5a707a3b4bc3e0a77a38128e7e00154798
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "85299578"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746683"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Melhores práticas para o desempenho do Power BI Embedded
 
@@ -52,7 +53,7 @@ Se incorporar relatórios com os mesmos filtros, marcadores e segmentações de 
 Quando incorporar vários relatórios no mesmo iframe, não gere um novo iframe para cada relatório. Em vez disso, utilize `powerbi.embed(element, config)` com uma configuração diferente para incorporar o novo relatório.
 
 > [!NOTE]
-> Alternar entre relatórios ao incorporar para os clientes (também conhecido como cenário “os dados pertencem à aplicação”) requer a utilização de um token de incorporação com permissões para todos os relatórios e conjuntos de dados. Para obter mais informações, veja [Gerar a API de tokens](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken).
+> Alternar entre relatórios ao incorporar para os clientes (também conhecido como cenário “os dados pertencem à aplicação”) requer a utilização de um token de incorporação com permissões para todos os relatórios e conjuntos de dados. Para obter mais informações, veja [Gerar a API de tokens](/rest/api/power-bi/embedtoken/generatetoken).
 
 ## <a name="query-caching"></a>Colocação de consultas em cache
 

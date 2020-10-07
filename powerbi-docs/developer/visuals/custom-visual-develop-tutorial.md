@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: ebb0107b158e505a8095b4c8f6b6b32731e7e98d
-ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
+ms.openlocfilehash: 3ff04b476cba281ef484fc6a1bfd73be94af563e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88512937"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746660"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Tutorial: Desenvolver um elemento visual do Power BI
 
@@ -38,7 +38,7 @@ Neste tutorial, vai aprender a:
 
 * Se não estiver inscrito no **Power BI Pro**, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
 * Precisa de ter o [Visual Studio Code](https://www.visualstudio.com/) instalado.
-* Precisa de ter a versão 4 ou posterior do [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) para utilizadores do Windows OU o [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) para utilizadores do OSX.
+* Precisa de ter a versão 4 ou posterior do [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) para utilizadores do Windows OU o [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) para utilizadores do OSX.
 
 ## <a name="setting-up-the-developer-environment"></a>Configurar o ambiente de programação
 

@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 646a09545a06dfa65bd73a666fa2419d82e4da33
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb9476b3f21d1149492982a8dcae3d8ce89e9629
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236915"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748661"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Instalar automaticamente as aplicações do Power BI ao incorporar para a sua organização
 
@@ -29,7 +29,7 @@ Para permitir a instalação automática de aplicações para os seus utilizador
 
 ![Permissão criação de conteúdos das aplicações registadas](media/embed-auto-install-app/register-app-create-content.png)
 
-A seguir, tem de fornecer o ID da aplicação no URL de incorporação. Para fornecer o ID da aplicação, o criador da aplicação tem de instalar a aplicação e, em seguida, utilizar uma das chamadas de [APIs Rest do Power BI](https://docs.microsoft.com/rest/api/power-bi/) suportadas – [Obter Relatórios](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) ou [Obter Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards). Em seguida, o criador da aplicação tem de tirar o URL de incorporação da resposta da API REST. O ID da aplicação irá aparecer no URL se os conteúdos forem de uma aplicação.  Após ter o URL de incorporação, poderá utilizá-lo para incorporar regularmente.
+A seguir, tem de fornecer o ID da aplicação no URL de incorporação. Para fornecer o ID da aplicação, o criador da aplicação tem de instalar a aplicação e, em seguida, utilizar uma das chamadas de [APIs Rest do Power BI](/rest/api/power-bi/) suportadas – [Obter Relatórios](/rest/api/power-bi/reports/getreports) ou [Obter Dashboards](/rest/api/power-bi/dashboards/getdashboards). Em seguida, o criador da aplicação tem de tirar o URL de incorporação da resposta da API REST. O ID da aplicação irá aparecer no URL se os conteúdos forem de uma aplicação.  Após ter o URL de incorporação, poderá utilizá-lo para incorporar regularmente.
 
 ## <a name="secure-embed"></a>Incorporação Segura
 

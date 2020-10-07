@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 2b4715a388250e00cced8a0164a7dcf687887d8a
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: bb06f5b0a170189c3c98b734a09259645a650c55
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86556894"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748178"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Exportar relatórios paginados para ficheiros (pré-visualização)
 
@@ -38,9 +38,9 @@ Pode utilizar a funcionalidade de exportação de várias formas. Veja a seguir 
 
 ## <a name="using-the-api"></a>Utilizar a API
 
-A API é assíncrona. Quando a API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) é chamada, aciona uma tarefa de exportação. Depois de acionar uma tarefa de exportação, utilize a [consulta](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) para controlar a tarefa, até estar concluída.
+A API é assíncrona. Quando a API [exportToFile](/rest/api/power-bi/reports/exporttofile) é chamada, aciona uma tarefa de exportação. Depois de acionar uma tarefa de exportação, utilize a [consulta](/rest/api/power-bi/reports/getexporttofilestatus) para controlar a tarefa, até estar concluída.
 
-Quando a exportação estiver concluída, a chamada à API de consulta devolve um [URL do Power BI](https://docs.microsoft.com/rest/api/power-bi/reports/getfileofexporttofile) para obter o ficheiro. O URL estará disponível durante 24 horas.
+Quando a exportação estiver concluída, a chamada à API de consulta devolve um [URL do Power BI](/rest/api/power-bi/reports/getfileofexporttofile) para obter o ficheiro. O URL estará disponível durante 24 horas.
 
 ## <a name="supported-features"></a>Funcionalidades suportadas
 
