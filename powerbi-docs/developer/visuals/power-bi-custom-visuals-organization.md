@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b969fa3dd04f25c8921db563a89b11125216c752
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: b1ae402f8e8712920cc93248828603d1087c8c4a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89401962"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749236"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Elementos visuais organizacionais no Power BI
 
@@ -49,7 +49,7 @@ Administrador:
 
 Utilizador final:
 
-* Os elementos visuais organizacionais do Power BI são os elementos visuais privados importados do repositório da organização. À semelhança de qualquer elemento visual privado, não podem ser [exportados para o PowerPoint](https://docs.microsoft.com/power-bi/consumer/end-user-powerpoint) nem apresentados nos e-mails recebidos quando um utilizador [subscreve páginas de relatórios](https://docs.microsoft.com/power-bi/consumer/end-user-subscribe). Apenas os [elementos visuais certificados do Power BI](power-bi-custom-visuals-certified.md) importados diretamente do Marketplace suportam estas funcionalidades.
+* Os elementos visuais organizacionais do Power BI são os elementos visuais privados importados do repositório da organização. À semelhança de qualquer elemento visual privado, não podem ser [exportados para o PowerPoint](../../consumer/end-user-powerpoint.md) nem apresentados nos e-mails recebidos quando um utilizador [subscreve páginas de relatórios](../../consumer/end-user-subscribe.md). Apenas os [elementos visuais certificados do Power BI](power-bi-custom-visuals-certified.md) importados diretamente do Marketplace suportam estas funcionalidades.
 
 * Os elementos visuais do Visio, do PowerApps, do Mapbox e do GlobeMap do marketplace do AppSource não são compostos se forem implementados através do repositório da organização.
 

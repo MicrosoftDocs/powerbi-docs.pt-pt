@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: aeea5ea3a9d1d2bd375c44b6c6b7eac57eb65aff
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878600"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749006"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Adicionar suporte de marcadores para elementos visuais do Power BI
 
 Com os marcadores de relatório do Power BI, pode captar a vista configurada de uma página de relatório, estado de seleção e estado de filtragem do elemento visual. Contudo, requer a realização de ações adicionais do lado dos elementos visuais do Power BI para suportar o marcador e reagir corretamente às alterações.
 
-Para obter mais informações sobre marcadores, veja [Utilizar marcadores para partilhar informações e criar histórias no Power BI](https://docs.microsoft.com/power-bi/desktop-bookmarks).
+Para obter mais informações sobre marcadores, veja [Utilizar marcadores para partilhar informações e criar histórias no Power BI](../../create-reports/desktop-bookmarks.md).
 
 ## <a name="report-bookmarks-support-in-your-visual"></a>Suporte de marcadores de relatório no seu elemento visual
 

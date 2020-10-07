@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: 248e641488edb2523a2fa7102bd7a9a4829ee29b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2046dc389b859ce71c4d26cc31cc686f812e461e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527775"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749328"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>Tutorial: Criar um elemento visual do Power BI baseado em R
 
@@ -31,9 +31,9 @@ Neste tutorial, vai aprender a:
 ## <a name="prerequisites"></a>Pré-requisitos
 
 * Uma conta do **Power BI Pro**. [Inscreva-se numa avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
-* O motor de linguagem R. Pode transferir e instalá-lo gratuitamente a partir de vários locais, incluindo a [página de transferência do Revolution Open](https://mran.revolutionanalytics.com/download/) e o [Repositório CRAN](https://cran.r-project.org/bin/windows/base/). Para obter mais informações, veja [Criar elementos visuais do Power BI com o R](../../desktop-r-visuals.md).
+* O motor de linguagem R. Pode transferir e instalá-lo gratuitamente a partir de vários locais, incluindo a [página de transferência do Revolution Open](https://mran.revolutionanalytics.com/download/) e o [Repositório CRAN](https://cran.r-project.org/bin/windows/base/). Para obter mais informações, veja [Criar elementos visuais do Power BI com o R](../../create-reports/desktop-r-visuals.md).
 * [Power BI Desktop](../../fundamentals/desktop-get-the-desktop.md).
-* Versão 4 ou posterior do [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) para utilizadores do Windows OU o [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) para utilizadores do OSX.
+* Versão 4 ou posterior do [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) para utilizadores do Windows OU o [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) para utilizadores do OSX.
 
 ## <a name="getting-started"></a>Introdução
 
@@ -283,6 +283,6 @@ O aspeto final é semelhante ao exemplo abaixo:
 
 ## <a name="next-steps"></a>Próximos passos
 
-Para saber mais sobre os elementos visuais baseados em R, veja [Utilizar elementos visuais do Power BI baseados em R no Power BI](../../desktop-r-powered-custom-visuals.md).
+Para saber mais sobre os elementos visuais baseados em R, veja [Utilizar elementos visuais do Power BI baseados em R no Power BI](../../create-reports/desktop-r-powered-custom-visuals.md).
 
-Para obter mais informações sobre elementos visuais baseados em linguagem R no Power BI Desktop, veja [Criar elementos visuais do Power BI através da linguagem R](../../desktop-r-visuals.md).
+Para obter mais informações sobre elementos visuais baseados em linguagem R no Power BI Desktop, veja [Criar elementos visuais do Power BI através da linguagem R](../../create-reports/desktop-r-visuals.md).

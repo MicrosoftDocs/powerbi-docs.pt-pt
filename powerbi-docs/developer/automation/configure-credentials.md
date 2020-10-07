@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: dd85f44057c0e4069a903293ec162028b1cbd66e
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: d2cd9786a635aed79f334706f53c21fe87e723a4
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034066"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748960"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Configurar credenciais para o Power BI através de programação
 
@@ -25,7 +25,7 @@ Siga os passos neste artigo para configurar as credenciais do Power BI através
 
 ## <a name="update-credentials-flow-for-data-sources"></a>Atualizar o fluxo de credenciais das origens de dados
 
-1. Chame a API [Get Datasources](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasourcesingroup) para descobrir as origens de dados do conjunto de dados. No corpo da resposta de cada origem de dados está o tipo, os detalhes da ligação, o gateway e o ID da origem de dados.
+1. Chame a API [Get Datasources](/rest/api/power-bi/datasets/getdatasourcesingroup) para descobrir as origens de dados do conjunto de dados. No corpo da resposta de cada origem de dados está o tipo, os detalhes da ligação, o gateway e o ID da origem de dados.
 
     ```csharp
     // Select a datasource
@@ -33,7 +33,7 @@ Siga os passos neste artigo para configurar as credenciais do Power BI através
     var datasource = datasources.First();
     ```
 
-2. Crie a cadeia de credenciais de acordo com a secção [Update Datasource Examples](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) (Exemplos de Update Datasource), consoante o tipo de credenciais.
+2. Crie a cadeia de credenciais de acordo com a secção [Update Datasource Examples](/rest/api/power-bi/gateways/updatedatasource) (Exemplos de Update Datasource), consoante o tipo de credenciais.
 
     # <a name="net-sdk-v3"></a>[SDK .NET v3](#tab/sdk3)
 
@@ -50,9 +50,9 @@ Siga os passos neste artigo para configurar as credenciais do Power BI através
     ---
 
     >[!NOTE]
-    >Se estiver a utilizar origens de dados na cloud, não siga os próximos passos desta secção. Configure as credenciais através do ID do gateway e do ID de origem de dados, obtidos no passo 1, ao chamar [Atualizar a Origem de Dados](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource). 
+    >Se estiver a utilizar origens de dados na cloud, não siga os próximos passos desta secção. Configure as credenciais através do ID do gateway e do ID de origem de dados, obtidos no passo 1, ao chamar [Atualizar a Origem de Dados](/rest/api/power-bi/gateways/updatedatasource). 
 
-3. Chame a API [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) para obter a chave pública do gateway.
+3. Chame a API [Get Gateway](/rest/api/power-bi/gateways/getgateways) para obter a chave pública do gateway.
 
     ```csharp
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
@@ -104,7 +104,7 @@ Siga os passos neste artigo para configurar as credenciais do Power BI através
 
     ---
 
-6. Chame a API [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) para definir credenciais.
+6. Chame a API [Update Datasource](/rest/api/power-bi/gateways/updatedatasource) para definir credenciais.
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);
@@ -114,7 +114,7 @@ Siga os passos neste artigo para configurar as credenciais do Power BI através
 
 1. Instale o [Gateway de dados no local](https://powerbi.microsoft.com/gateway/) no seu computador.
 
-2. Chame a API [Get Gateways](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) para obter a chave pública e o ID do gateway.
+2. Chame a API [Get Gateways](/rest/api/power-bi/gateways/getgateways) para obter a chave pública e o ID do gateway.
 
     ```csharp
     // Select a gateway
@@ -134,7 +134,7 @@ Siga os passos neste artigo para configurar as credenciais do Power BI através
             dataSourceName: "my sql datasource");
     ```
 
-5. Chame a API [Create Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource).
+5. Chame a API [Create Datasource](/rest/api/power-bi/gateways/createdatasource).
 
     ```csharp
     pbiClient.Gateways.CreateDatasource(gateway.Id, request);
@@ -142,7 +142,7 @@ Siga os passos neste artigo para configurar as credenciais do Power BI através
 
 ## <a name="credential-types"></a>Tipos de credenciais
 
-Quando chama [Criar Origem de Dados](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) ou [Atualizar Origens de Dados](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) num **gateway empresarial no local** através da [API REST Power BI](https://docs.microsoft.com/rest/api/power-bi/), o valor das credenciais tem de estar encriptado com a chave pública do gateway.
+Quando chama [Criar Origem de Dados](/rest/api/power-bi/gateways/createdatasource) ou [Atualizar Origens de Dados](/rest/api/power-bi/gateways/updatedatasource) num **gateway empresarial no local** através da [API REST Power BI](/rest/api/power-bi/), o valor das credenciais tem de estar encriptado com a chave pública do gateway.
 
 >[!NOTE]
 >O SDK .NET v3 também pode executar os exemplos do SDK .NET v2 listados abaixo.
@@ -233,6 +233,6 @@ Este problema significa que o conjunto de dados não está vinculado a um gatewa
 
 Depois de criar o conjunto de dados, é criado um enlace automático entre o conjunto de dados e um gateway adequado, que contém origens de dados correspondentes para todas as ligações. Se não existir um ou múltiplos gateways adequados, o enlace automático irá falhar.
 
-Se estiver a utilizar conjuntos de dados no local, crie as origens de dados no local em falta e vincule manualmente o conjunto de dados a um gateway através da API [Bind To Gateway](https://docs.microsoft.com/rest/api/power-bi/datasets/bindtogateway).
+Se estiver a utilizar conjuntos de dados no local, crie as origens de dados no local em falta e vincule manualmente o conjunto de dados a um gateway através da API [Bind To Gateway](/rest/api/power-bi/datasets/bindtogateway).
 
-Para descobrir os gateways que podem ser vinculados, utilize a API [Discover Gateways](https://docs.microsoft.com/rest/api/power-bi/datasets/discovergateways).
+Para descobrir os gateways que podem ser vinculados, utilize a API [Discover Gateways](/rest/api/power-bi/datasets/discovergateways).

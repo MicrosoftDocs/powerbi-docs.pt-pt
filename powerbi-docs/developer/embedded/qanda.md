@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/20/2017
-ms.openlocfilehash: 5a3a7b91b0c97a75923876caff205ffb9abfce70
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0106cc9ddb0e82a7b40e362342fce5196ef655c5
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114388"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749282"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Perguntas e Respostas no Power BI Embedded
 
@@ -96,7 +96,7 @@ qna.on("visualRendered", function(event) {
 
 ## <a name="embed-token"></a>Token de incorporação
 
-Crie um token de incorporação a partir de um conjunto de dados para iniciar uma peça de Perguntas e Respostas. Para obter mais informações, veja [Gerar token](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+Crie um token de incorporação a partir de um conjunto de dados para iniciar uma peça de Perguntas e Respostas. Para obter mais informações, veja [Gerar token](/rest/api/power-bi/embedtoken).
 
 ## <a name="next-steps"></a>Próximas etapas
 

@@ -9,23 +9,23 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: e9d1479b596f563edc37f0c7a72b29c3343fed1e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f8b2a54ac7882c02f1ece63ce1362c97ad027af
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239902"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749029"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>O Painel de análise em elementos visuais do Power BI
 
-O Painel de **análise** foi apresentado para [elementos visuais nativos](https://docs.microsoft.com/power-bi/desktop-analytics-pane) em novembro de 2018.
+O Painel de **análise** foi apresentado para [elementos visuais nativos](../../transform-model/desktop-analytics-pane.md) em novembro de 2018.
 Este artigo aborda a forma como os elementos visuais do Power BI com a API v2.5.0 podem apresentar e gerir as suas propriedades no Painel de **análise**.
 
 ![O Painel de análise](media/analytics-pane/visualization-pane-analytics-tab.png)
 
 ## <a name="manage-the-analytics-pane"></a>Gerir o Painel de análise
 
-Do mesmo modo que gere as propriedades no painel [**Formatação**](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options), também pode gerir o Painel de **análise** ao definir um objeto no ficheiro *capabilities.json* do elemento visual.
+Do mesmo modo que gere as propriedades no painel [**Formatação**](./custom-visual-develop-tutorial-format-options.md), também pode gerir o Painel de **análise** ao definir um objeto no ficheiro *capabilities.json* do elemento visual.
 
 Relativamente ao Painel de **análise**, as diferenças são as seguintes:
 

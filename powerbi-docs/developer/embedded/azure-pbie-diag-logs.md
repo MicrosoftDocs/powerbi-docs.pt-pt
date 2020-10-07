@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cc64338ed40fcdc6433fdcf231004b4946335c72
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79495809"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748799"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Registo de diagnóstico do Power BI Embedded no Azure
 
-Com os [registos de diagnóstico de recursos do Azure](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs), pode registar muitos eventos a partir da sua capacidade, movê-los para uma ferramenta de análise e obter informações sobre o comportamento do recurso.
+Com os [registos de diagnóstico de recursos do Azure](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs), pode registar muitos eventos a partir da sua capacidade, movê-los para uma ferramenta de análise e obter informações sobre o comportamento do recurso.
 
 A utilização do Diagnóstico pode ajudar a responder a alguns cenários, tais como:
 
@@ -36,12 +36,12 @@ A utilização do Diagnóstico pode ajudar a responder a alguns cenários, tais 
 
     * **Nome** – introduza um nome para a definição de diagnóstico a criar.
 
-    * **Arquivar numa conta de armazenamento** – para utilizar esta opção, tem de se ligar a uma conta de armazenamento existente. Veja [Criar uma conta de armazenamento](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account) e siga as instruções apresentadas. Em seguida, selecione a conta de armazenamento ao voltar a esta página no portal. Pode demorar alguns minutos para as contas de armazenamento recentemente criadas aparecerem no menu pendente. O armazenamento do ficheiro de registo está no formato JSON.
-    * **Transmitir em fluxo para um hub de eventos** – para utilizar esta opção, tem de se ligar a um espaço de nomes do Hub de Eventos ou a um hub de eventos existente. Para obter mais informações, veja [Criar um espaço de nomes de Hubs de Eventos e um hub de eventos com o portal do Azure](https://docs.microsoft.com/azure/event-hubs/event-hubs-create).
-    * **Enviar para o Log Analytics** – para utilizar esta opção, utilize uma área de trabalho existente ou crie uma nova área de trabalho do Log Analytics ao seguir os passos para [criar uma nova área de trabalho](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) no portal. Este processo tira partido do [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview), que fornece capacidades de análise incorporada, de dashboard e de notificação. Pode utilizar o Log Analytics para ligar mais dados de outros recursos e obter uma vista única e completa dos dados em todos os recursos da aplicação. Também pode ser ligado ao [Power BI com um único clique](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi).
-    Para obter mais informações sobre a visualização dos registos no Log Analytics, veja [Ver registos no Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-activity).
+    * **Arquivar numa conta de armazenamento** – para utilizar esta opção, tem de se ligar a uma conta de armazenamento existente. Veja [Criar uma conta de armazenamento](/azure/storage/common/storage-create-storage-account) e siga as instruções apresentadas. Em seguida, selecione a conta de armazenamento ao voltar a esta página no portal. Pode demorar alguns minutos para as contas de armazenamento recentemente criadas aparecerem no menu pendente. O armazenamento do ficheiro de registo está no formato JSON.
+    * **Transmitir em fluxo para um hub de eventos** – para utilizar esta opção, tem de se ligar a um espaço de nomes do Hub de Eventos ou a um hub de eventos existente. Para obter mais informações, veja [Criar um espaço de nomes de Hubs de Eventos e um hub de eventos com o portal do Azure](/azure/event-hubs/event-hubs-create).
+    * **Enviar para o Log Analytics** – para utilizar esta opção, utilize uma área de trabalho existente ou crie uma nova área de trabalho do Log Analytics ao seguir os passos para [criar uma nova área de trabalho](/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) no portal. Este processo tira partido do [Azure Log Analytics](/azure/log-analytics/log-analytics-overview), que fornece capacidades de análise incorporada, de dashboard e de notificação. Pode utilizar o Log Analytics para ligar mais dados de outros recursos e obter uma vista única e completa dos dados em todos os recursos da aplicação. Também pode ser ligado ao [Power BI com um único clique](/azure/log-analytics/log-analytics-powerbi).
+    Para obter mais informações sobre a visualização dos registos no Log Analytics, veja [Ver registos no Log Analytics](/azure/log-analytics/log-analytics-activity).
     * **Motor** – selecione esta opção para registar o conjunto dos [eventos](#whats-logged) de motor listados abaixo.
-    * **AllMetrics** – selecione esta opção para armazenar os dados verbosos em [Métrica](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics). Se estiver a arquivar numa conta de armazenamento, poderá selecionar o período de retenção dos registos de diagnóstico. Os registos são eliminados automaticamente após expirar o período de retenção.
+    * **AllMetrics** – selecione esta opção para armazenar os dados verbosos em [Métrica](/azure/analysis-services/analysis-services-monitor#server-metrics). Se estiver a arquivar numa conta de armazenamento, poderá selecionar o período de retenção dos registos de diagnóstico. Os registos são eliminados automaticamente após expirar o período de retenção.
 
 3. Selecione **Guardar**.
 
@@ -87,11 +87,11 @@ Pode combinar estes parâmetros para ativar várias opções de saída.
 
 ### <a name="rest-api"></a>API REST
 
-Saiba como [alterar as definições de diagnóstico ao utilizar a API REST do Azure Monitor](https://docs.microsoft.com/rest/api/monitor/). 
+Saiba como [alterar as definições de diagnóstico ao utilizar a API REST do Azure Monitor](/rest/api/monitor/). 
 
 ### <a name="resource-manager-template"></a>Modelo do Resource Manager
 
-Saiba como [ativar as definições de diagnóstico durante a criação de recursos com um modelo do Resource Manager](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template).
+Saiba como [ativar as definições de diagnóstico durante a criação de recursos com um modelo do Resource Manager](/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template).
 
 ## <a name="whats-logged"></a>O que é registado?
 
@@ -174,11 +174,11 @@ Em **Tipo**, selecione **AzureDiagnostics** e, em seguida, **Aplicar**. O AzureD
 
 Selecione **EventClass\_s** ou um dos nomes de eventos. O Log Analytics continua a construir uma consulta. Confirme que guarda as consultas para reutilização posterior.
 
-Verifique se vê o [Log Analytics](https://docs.microsoft.com/azure/log-analytics/), que fornece um site com uma consulta avançada e capacidades de dashboard e de alertas sobre os dados recolhidos.
+Verifique se vê o [Log Analytics](/azure/log-analytics/), que fornece um site com uma consulta avançada e capacidades de dashboard e de alertas sobre os dados recolhidos.
 
 ### <a name="queries"></a>Consultas
 
-Há centenas de consultas que pode utilizar. Veja a seguir algumas para começar. Para saber mais sobre como utilizar a nova linguagem de consulta de Pesquisa de Registos, veja [Compreender as pesquisas de registo no Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search).
+Há centenas de consultas que pode utilizar. Veja a seguir algumas para começar. Para saber mais sobre como utilizar a nova linguagem de consulta de Pesquisa de Registos, veja [Compreender as pesquisas de registo no Log Analytics](/azure/log-analytics/log-analytics-log-search).
 
 * A consulta devolve o que levou menos de cinco minutos (300 000 milissegundos) a concluir.
 
@@ -206,7 +206,7 @@ Há centenas de consultas que pode utilizar. Veja a seguir algumas para começar
 Pode saber mais sobre o registo de diagnóstico de recursos do Azure.
 
 > [!div class="nextstepaction"]
-> [Registo de diagnóstico de recursos do Azure](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
+> [Registo de diagnóstico de recursos do Azure](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
 
 > [!div class="nextstepaction"]
-> [Set-AzureRmDiagnosticSetting](https://docs.microsoft.com/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting)
+> [Set-AzureRmDiagnosticSetting](/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting)

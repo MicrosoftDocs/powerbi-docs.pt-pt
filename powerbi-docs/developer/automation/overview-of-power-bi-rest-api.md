@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 43480006b775aa7b8444f099b783f0d7f45a98c8
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488438"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748983"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>O que podem os programadores fazer com a API Power BI?
 
@@ -26,7 +26,7 @@ Aqui estão algumas das coisas que pode fazer com as APIs do Power BI.
 | **Para saber mais** | **Veja estas informações** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | Incorporar relatórios, dashboards e mosaicos para utilizadores do Power BI e pessoas que não utilizam o Power BI. | [Como incorporar os seus dashboards, relatórios e mosaicos do Power BI](../embedded/embed-sample-for-customers.md) |
-| Realize tarefas de gestão em objetos do Power BI. | [Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
+| Realize tarefas de gestão em objetos do Power BI. | [Referência da API REST do Power BI](/rest/api/power-bi/) |
 | Expanda um fluxo de trabalho empresarial existente para enviar dados importantes por push para um dashboard do Power BI. | [Push data into a dashboard ](walkthrough-push-data.md)(Emitir dados para um dashboard) |
 | Autenticação no Power BI. | [Autenticar-se no Power BI ](../embedded/get-azuread-access-token.md) |
 
@@ -35,10 +35,10 @@ Aqui estão algumas das coisas que pode fazer com as APIs do Power BI.
 
 ## <a name="api-developer-tools"></a>Ferramentas de Programação da API
 
-| Ferramentas | Descrição |  |  |
-|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
-| [Ferramenta Playground](https://microsoft.github.io/PowerBI-JavaScript/demo) | Experimente exemplos completos sobre a utilização das APIs de JavaScript do Power BI. Esta ferramenta também proporciona uma forma rápida de testar vários tipos de exemplos do Power BI Embedded. |  |  |
-| [Wiki de JavaScript do Power BI](https://github.com/Microsoft/powerbi-javascript/wiki) | Para obter mais informações sobre as APIs de JavaScript do Power BI. |  |  |
+| Ferramentas | Descrição |
+|---------|-------------|
+| [Ferramenta Playground](https://microsoft.github.io/PowerBI-JavaScript/demo) | Experimente exemplos completos sobre a utilização das APIs de JavaScript do Power BI. Esta ferramenta também proporciona uma forma rápida de testar vários tipos de exemplos do Power BI Embedded. |
+| [Wiki de JavaScript do Power BI](https://github.com/Microsoft/powerbi-javascript/wiki) | Para obter mais informações sobre as APIs de JavaScript do Power BI. |
 | [Postman](https://www.getpostman.com/) | Execute pedidos, testes, depurações, monitorizações, testes automatizados e mais. |
 
 ## <a name="push-data-into-power-bi"></a>Enviar dados por push para o Power BI
@@ -58,6 +58,6 @@ Pode utilizar a API do Power BI para [enviar dados por push para um conjunto de 
 * [Envio de dados por push para um conjunto de dados](walkthrough-push-data.md)
 * [Desenvolver um elemento visual do Power BI](../visuals/custom-visual-develop-tutorial.md)
 * [Referência da API REST do Power BI](rest-api-reference.md)
-* [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)
+* [APIs REST do Power BI](/rest/api/power-bi/)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

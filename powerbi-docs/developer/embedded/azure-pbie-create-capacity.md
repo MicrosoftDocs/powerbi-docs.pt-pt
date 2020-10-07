@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 6c5a4657328b755e53a3ddd016c2b095394fd83b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 99943f30aa0c31223eae2058aff8b4d34d49bf1d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528373"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748868"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Criar capacidade do Power BI Embedded no portal do Azure
 
@@ -26,11 +26,11 @@ Para concluir este guia de início rápido, precisa de:
 
 * **Subscrição do Azure:** visite a página da [Versão de Avaliação Gratuita do Azure](https://azure.microsoft.com/free/) para criar uma conta.
 
-* **Azure Active Directory:** a sua subscrição tem de estar associada a um inquilino do Azure Active Directory (Azure AD). Além disso, ***precisa de ter sessão iniciada no Azure com uma conta nesse inquilino***. As contas Microsoft não são suportadas. Para saber mais, veja [Authentication and user permissions](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users) (Permissões de autenticação e utilizador).
+* **Azure Active Directory:** a sua subscrição tem de estar associada a um inquilino do Azure Active Directory (Azure AD). Além disso, ***precisa de ter sessão iniciada no Azure com uma conta nesse inquilino***. As contas Microsoft não são suportadas. Para saber mais, veja [Authentication and user permissions](/azure/analysis-services/analysis-services-manage-users) (Permissões de autenticação e utilizador).
 
 * **Inquilino do Power BI:** pelo menos uma conta no inquilino do Azure AD tem de estar inscrita no Power BI.
 
-* **Grupo de recursos:** utilize um grupo de recursos existente ou [crie um novo](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).
+* **Grupo de recursos:** utilize um grupo de recursos existente ou [crie um novo](/azure/azure-resource-manager/resource-group-overview).
 
 ## <a name="create-a-capacity"></a>Criar uma capacidade
 
@@ -50,13 +50,13 @@ Antes de criar uma capacidade do Power BI Embedded, certifique-se de que iniciou
 
     * **Subscrição** – a subscrição para a qual pretende criar a capacidade.
 
-    * **Grupo de recursos** – o grupo de recursos que contém esta nova capacidade. Escolha a partir de um grupo de recursos existente ou crie outro. Para obter mais informações, veja [Descrição geral do Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).
+    * **Grupo de recursos** – o grupo de recursos que contém esta nova capacidade. Escolha a partir de um grupo de recursos existente ou crie outro. Para obter mais informações, veja [Descrição geral do Azure Resource Manager](/azure/azure-resource-manager/resource-group-overview).
 
     * **Nome do recurso** – o nome do recurso da capacidade.
 
     * **Localização** – a localização em que o Power BI está alojado para o seu inquilino. A localização predefinida é a sua região base, mas pode alterar a localização com as [opções Multi-Geo](embedded-multi-geo.md).
 
-    * **Tamanho** – o [SKU A](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) de que precisa. Para obter mais informações, veja [Poder de computação e memória das SKUs](/power-bi/developer/embedded/embedded-capacity).
+    * **Tamanho** – o [SKU A](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) de que precisa. Para obter mais informações, veja [Poder de computação e memória das SKUs](./embedded-capacity.md).
 
     * **Administrador de capacidade do Power BI** – um administrador da capacidade.
         >[!NOTE]
@@ -114,7 +114,7 @@ Os comandos de capacidade do Power BI Embedded requerem a versão 2.3.1 ou poste
 
 ### <a name="create-a-capacity-with-azure-cli"></a>Criar uma capacidade com a CLI do Azure
 
-Utilize o comando [az Power BI embedded-capacity create](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) para criar uma capacidade.
+Utilize o comando [az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) para criar uma capacidade.
 
 ```azurecli
 az powerbi embedded-capacity create --location westeurope
@@ -126,7 +126,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>Eliminar uma capacidade com a CLI do Azure
 
-Para eliminar uma capacidade com a CLI do Azure, utilize o comando [az powerbi embedded-capacity delete](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete).
+Para eliminar uma capacidade com a CLI do Azure, utilize o comando [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete).
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -135,13 +135,13 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>Gerir a capacidade com a CLI do Azure
 
-O comando [az powerbi](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest) permite-lhe ver todos os comandos da CLI do Azure do Power BI Embedded.
+O comando [az powerbi](/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest) permite-lhe ver todos os comandos da CLI do Azure do Power BI Embedded.
 
 # <a name="arm-template"></a>[Modelo ARM](#tab/ARM-template)
 
 ### <a name="use-resource-manager-template"></a>Utilizar o modelo do Resource Manager
 
-O [modelo do Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/templates/overview) é um ficheiro JavaScript Object Notation (JSON) que define a infraestrutura e a configuração do seu projeto. O modelo utiliza a sintaxe declarativa, que permite afirmar o que quer implementar sem ter de escrever a sequência de comandos de programação para a criar. Se quiser saber mais sobre o desenvolvimento de modelos do Resource Manager, veja a [documentação do Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/) e a [referência do modelo](https://docs.microsoft.com/azure/templates/).
+O [modelo do Resource Manager](/azure/azure-resource-manager/templates/overview) é um ficheiro JavaScript Object Notation (JSON) que define a infraestrutura e a configuração do seu projeto. O modelo utiliza a sintaxe declarativa, que permite afirmar o que quer implementar sem ter de escrever a sequência de comandos de programação para a criar. Se quiser saber mais sobre o desenvolvimento de modelos do Resource Manager, veja a [documentação do Resource Manager](/azure/azure-resource-manager/) e a [referência do modelo](/azure/templates/).
 
 Se não tiver uma subscrição do Azure, crie uma conta [gratuita](https://azure.microsoft.com/free/) antes de começar.
 
@@ -209,7 +209,7 @@ O modelo utilizado neste início rápido pertence aos [Modelos de Início Rápid
 }
 ```
 
-Um recurso do Azure é definido no modelo, [Microsoft.PowerBIDedicated/capacities Az](https://docs.microsoft.com/azure/templates/microsoft.powerbidedicated/allversions) – Criar uma capacidade do Power BI Embedded.
+Um recurso do Azure é definido no modelo, [Microsoft.PowerBIDedicated/capacities Az](/azure/templates/microsoft.powerbidedicated/allversions) – Criar uma capacidade do Power BI Embedded.
 
 ### <a name="deploy-the-template"></a>Implementar o modelo
 
@@ -223,16 +223,16 @@ Um recurso do Azure é definido no modelo, [Microsoft.PowerBIDedicated/capacitie
 
     * **Subscrição** – a subscrição para a qual pretende criar a capacidade.
 
-    * **Grupo de recursos** – o grupo de recursos que contém esta nova capacidade. Escolha a partir de um grupo de recursos existente ou crie outro. Para obter mais informações, veja [Descrição geral do Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).
+    * **Grupo de recursos** – o grupo de recursos que contém esta nova capacidade. Escolha a partir de um grupo de recursos existente ou crie outro. Para obter mais informações, veja [Descrição geral do Azure Resource Manager](/azure/azure-resource-manager/resource-group-overview).
 
     * **Região** – a região à qual a capacidade irá pertencer.
 
     * **Nome** – o nome da capacidade.
 
-    * **Localização** – a localização em que o Power BI está alojado para o seu inquilino. A localização predefinida é a sua região base, mas pode alterar a localização com as [opções Multi-Geo](https://docs.microsoft.com/power-bi/developer/embedded/embedded-multi-geo
+    * **Localização** – a localização em que o Power BI está alojado para o seu inquilino. A localização predefinida é a sua região base, mas pode alterar a localização com as [opções Multi-Geo](./embedded-multi-geo.md
 ).
 
-    * **SKU** – o [SKU A](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) de que precisa. Para obter mais informações, veja [Poder de computação e memória das SKUs](/power-bi/developer/embedded/embedded-capacity).
+    * **SKU** – o [SKU A](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) de que precisa. Para obter mais informações, veja [Poder de computação e memória das SKUs](./embedded-capacity.md).
 
     * **Administrador** – Um administrador da capacidade.
         >[!NOTE]

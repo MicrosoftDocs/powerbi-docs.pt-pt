@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 76947b1e311bbd1a21e09ce39461a70bed61d926
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d8ab94bd33aa2f0674f6dc45a93da0d2f42b1647
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079606"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749306"
 ---
 # <a name="data-model-versioning"></a>Controlo de versões do Modelo de Dados
 
@@ -39,4 +39,4 @@ Os serviços ***NÃO DEVEM*** alterar os modelos de dados, consoante o utilizado
 Para mais informações acerca das normas do Modelo de Dados OData, veja [OData Version 4.0 Part 1: Protocol Plus Errata 02](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html) (OData Versão 4.0 Parte 1: Protocolo mais Errata 02).  
   
 ## <a name="see-also"></a>Veja também
-[Visão geral da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)
+[Visão geral da API REST do Power BI](/rest/api/power-bi/)
