@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: e2615915503b0eb6d9d1ee08bd2a1fa8599bcf8c
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 336dbad3ac77fb333b52cd3f4c4c0b104573314a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953013"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633544"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugestões e truques para criar relatórios no Power BI Desktop
 Para aproveitar ao máximo os seus dados, por vezes precisa de uma ajuda extra. Reunimos algumas dicas e truques que pode usar ao criar relatórios no Microsoft Power BI Desktop *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento do Power Pivot ativado e o Power Query instalado e ativado. 
@@ -44,7 +44,9 @@ Com um exemplo de uma tabela simples de Temperaturas e da Hora em que a leitura 
 ## <a name="reference-lines-in-your-report"></a>Linhas de referência no relatório
 Pode utilizar uma coluna calculada no Power BI Desktop para definir uma linha de referência. Identifique a tabela e coluna nas quais quer criar uma linha de referência. Selecione "Nova coluna" no friso e, na barra de fórmulas, escreva a seguinte fórmula:
 
-    Target Value = 100
+```console
+Target Value = 100
+```
 
 Esta coluna calculada devolverá o valor 100, independentemente de onde for utilizado. A nova coluna aparecerá na Lista de Campos. Adicione a coluna calculada Valor de Destino a um gráfico de linhas para mostrar como qualquer série se relaciona com essa linha de referência específica. 
 
@@ -66,7 +68,9 @@ Outra forma de garantir que os campos são geocodificados corretamente é defini
 ## <a name="better-geocoding-with-more-specific-locations"></a>Melhor geocodificação com localizações mais específicas
 Por vezes, até mesmo a definição das categorias de dados para mapeamento é insuficiente. Crie uma localização mais específica, como uma rua, através do Editor de Consultas do Power BI Desktop. Utilize a funcionalidade Adicionar Coluna para criar uma coluna personalizada. Em seguida, crie a localização desejada da seguinte forma: 
 
-    = [Field1] & " " & [Field2]
+```console
+= [Field1] & " " & [Field2]
+```
 
 Em seguida, utilize este campo resultante nas visualizações de mapa. Este procedimento é bastante útil para a criação de ruas a partir dos campos de endereço para envio, comuns em conjuntos de dados. Lembre-se de que a concatenação funciona apenas com campos de texto. Se necessário, converta o número da rua num tipo de dados de texto antes de o utilizar para criar um endereço.
 
@@ -77,11 +81,13 @@ Histogramas Mais Simples – Determine que consulta contém o campo no qual quer
 
 Definir registos para criar um histograma – Determine que consulta contém o campo no qual quer criar um histograma. Utilize a opção "Referência" da consulta para criar uma nova consulta e atribua-lhe o nome de "FieldName". Agora, defina os registos com uma regra. Utilize a opção Adicionar Coluna Personalizada no friso Adicionar Coluna e crie uma regra personalizada. Uma regra de registo simples pode assemelhar-se à seguinte:
 
-    if([FieldName] \< 2) then "\<2 min" else
-    if([FieldName] \< 5) then "\<5 min" else
-    if([FieldName] \< 10) then "\<10 min" else
-    if([FieldName] \< 30) then "\<30 min" else
-    "longer")
+```console
+if([FieldName] \< 2) then "\<2 min" else
+if([FieldName] \< 5) then "\<5 min" else
+if([FieldName] \< 10) then "\<10 min" else
+if([FieldName] \< 30) then "\<30 min" else
+"longer")
+```
 
 Certifique-se de que o tipo de dados é um número para a coluna agregada resultante. Agora, pode utilizar o grupo através da técnica descrita no Histograma Mais Simples para obter o histograma. Esta opção trata de mais pontos de dados, mas ainda não ajuda no brushing.
 

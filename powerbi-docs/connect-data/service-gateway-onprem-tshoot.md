@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6dc42a5feb13b344a0e5d4d7c8880d1f5388a1ef
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375195"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634648"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Resolver problemas de gateways – Power BI
 
@@ -34,7 +34,9 @@ No final da configuração, o serviço Power BI será chamado novamente para val
 
 Em **Mostrar detalhes**, será apresentada a mensagem de erro recebida da origem de dados. Para o SQL Server, verá uma mensagem semelhante à seguinte:
 
-    Login failed for user 'username'.
+```output
+Login failed for user 'username'.
+```
 
 Verifique se tem o nome de utilizador e a palavra-passe corretos. Verifique também se essas credenciais podem ligar à origem de dados com êxito. Verifique se a conta que está a ser utilizada corresponde ao método de autenticação.
 
@@ -44,7 +46,9 @@ Conseguimos ligar ao servidor, mas não à base de dados fornecida. Verifique o 
 
 Em **Mostrar detalhes**, será apresentada a mensagem de erro recebida da origem de dados. Para o SQL Server, verá algo semelhante ao seguinte:
 
-    Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```output
+Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```
 
 ### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Erro: Não é possível ligar. Detalhes: “Erro desconhecido no gateway de dados”
 
@@ -62,11 +66,15 @@ Em **Mostrar detalhes**, poderá ver um código de erro de **DM_GWPipeline_Gatew
 
 Se a mensagem de erro subjacente for semelhante à seguinte, significa que a conta que está a utilizar para a origem de dados não é um administrador de servidor para essa instância do Analysis Services. Para obter mais informações, veja [Grant server admin rights to an Analysis Services instance](/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance) (Conceder direitos de administrador de servidor a uma instância do Analysis Services).
 
-    The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```output
+The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```
 
 Se a mensagem de erro subjacente for semelhante à seguinte, pode significar que o atributo de diretório [token-groups-global-and-universal](/windows/win32/adschema/a-tokengroupsglobalanduniversal) (TGGAU) pode estar em falta na conta de serviço do Analysis Services.
 
-    The username or password is incorrect.
+```output
+The username or password is incorrect.
+```
 
 Os domínios com acesso de compatibilidade anterior ao Windows 2000 terão o atributo TGGAU ativado. Os domínios criados mais recentemente não ativarão este atributo por predefinição. Para obter mais informações, veja [Algumas aplicações e APIs requerem acesso a informações de autorização em objetos de conta](https://support.microsoft.com/kb/331951).
 
@@ -75,13 +83,17 @@ Para confirmar se o atributo está ativado, siga estes passos.
 1. Ligue à máquina do Analysis Services no SQL Server Management Studio. Nas propriedades de ligação Avançadas, inclua EffectiveUserName para o utilizador em questão e confira se o erro é reproduzido.
 2. Pode utilizar a ferramenta dsacls do Active Directory para confirmar se o atributo está listado. Esta ferramenta encontra-se num controlador de domínio. Precisa de saber qual é o nome de domínio único da conta e transmitir esse nome à ferramenta.
 
-        dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```console
+   dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```
 
     Pretende ver algo semelhante ao seguinte nos resultados:
 
-            Allow BUILTIN\Windows Authorization Access Group
-                                          SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
-                                          READ PROPERTY
+   ```console
+   Allow BUILTIN\Windows Authorization Access Group
+                                   SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
+                                   READ PROPERTY
+   ```
 
 Para corrigir este problema, tem de ativar o TGGAU na conta utilizada para o serviço Windows do Analysis Services.
 
@@ -139,7 +151,9 @@ Para confirmar o nome de utilizador em vigor, siga estes passos.
 1. Localize o nome do utilizador efetivo nos [registos do gateway](/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app).
 2. Assim que o valor estiver a ser transmitido, confirme se está correto. Se for o seu utilizador, pode utilizar o seguinte comando numa linha de comandos para ver o UPN. O UPN tem o aspeto de um endereço de e-mail.
 
-        whoami /upn
+   ```console
+   whoami /upn
+   ```
 
 Opcionalmente, pode ver o que o Power BI obtém do Azure Active Directory.
 
@@ -147,7 +161,10 @@ Opcionalmente, pode ver o que o Power BI obtém do Azure Active Directory.
 2. Selecione **Iniciar sessão** no canto superior direito.
 3. Execute a consulta seguinte. Verá uma resposta JSON bastante grande.
 
-        https://graph.windows.net/me?api-version=1.5
+   ```http
+   https://graph.windows.net/me?api-version=1.5
+   ```
+
 4. Procure **userPrincipalName**.
 
 Se o UPN do Azure Active Directory não corresponder ao seu UPN local do Azure Active Directory, pode utilizar a funcionalidade [Mapear nomes de utilizador](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources) para substituí-lo por um valor válido. Em alternativa, pode consultar o administrador do Power BI ou o administrador local do Active Directory para alterar o UPN.

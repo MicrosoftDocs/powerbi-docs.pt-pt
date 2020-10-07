@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: e1925c57869a58f111b77c6a50a1289224440ecb
-ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
+ms.openlocfilehash: 52593cbcbdc0a67709735a06eca493fefb18e1a0
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86301005"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633705"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Incorporar um relatório num site ou portal seguro
 
@@ -60,10 +60,10 @@ Para ver o relatório incorporado, os utilizadores precisam de uma licença do P
 
 Pode personalizar a experiência de utilizador com as definições de introdução de URL de incorporação. No iFrame fornecido, pode atualizar as definições **src** do URL.
 
-| Propriedade  | Descrição  |  |  |  |
-|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-| pageName  | Pode utilizar o parâmetro de cadeia de consulta **pageName** para definir a página de relatório que pretende abrir. Pode encontrar este valor no final do URL do relatório ao visualizar um relatório no serviço Power BI, conforme mostrado abaixo. |  |  |  |
-| Filtros de URL  | Pode utilizar [Filtros de URL](service-url-filters.md) no URL de incorporação que recebeu da IU do Power BI para filtrar o conteúdo da incorporação. Desta forma, pode criar integrações de código reduzido tendo apenas experiência básica de HTML e JavaScript.  |  |  |  |
+| Propriedade  | Descrição  |
+|-----------|--------------|
+| pageName  | Pode utilizar o parâmetro de cadeia de consulta **pageName** para definir a página de relatório que pretende abrir. Pode encontrar este valor no final do URL do relatório ao visualizar um relatório no serviço Power BI, conforme mostrado abaixo. |
+| Filtros de URL  | Pode utilizar [Filtros de URL](service-url-filters.md) no URL de incorporação que recebeu da IU do Power BI para filtrar o conteúdo da incorporação. Desta forma, pode criar integrações de código reduzido tendo apenas experiência básica de HTML e JavaScript.  |
 
 ## <a name="set-which-page-opens-for-an-embedded-report"></a>Definir que página é aberta para um relatório incorporado 
 

@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 07/13/2020
-ms.openlocfilehash: 8e3ca6d9615a348fec928f13a561fbb97e719d6a
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: f024959c0d7e8bd0b51893a277161c67b5f4dfc6
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160378"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746131"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportar relatório do Power BI para ficheiro (pré-visualização)
 
@@ -22,7 +22,7 @@ A API `exportToFile` permite exportar um relatório do Power BI através de uma
 * **.png**
     * Ao exportar para um .png, os relatórios com várias páginas são comprimidos num ficheiro .zip
     * Cada ficheiro no .zip representa uma página de relatório
-    * Os nomes de página são os mesmos que os valores devolvidos das APIs [Obter Páginas](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) ou [Obter Páginas no Grupo](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup)
+    * Os nomes de página são os mesmos que os valores devolvidos das APIs [Obter Páginas](/rest/api/power-bi/reports/getpages) ou [Obter Páginas no Grupo](/rest/api/power-bi/reports/getpagesingroup)
 
 ## <a name="usage-examples"></a>Exemplos de utilização
 
@@ -38,17 +38,17 @@ Antes de utilizar a API, verifique se estão ativadas as seguintes [definições
 * **Exportar relatórios como apresentações do PowerPoint ou documentos PDF** – ativada por predefinição.
 * **Exportar relatórios como ficheiros de imagem** – obrigatória apenas para *.png* e desativada por predefinição.
 
-A API é assíncrona. Quando a API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) é chamada, aciona uma tarefa de exportação. Depois de acionar uma tarefa de exportação, utilize a [consulta](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) para controlar a tarefa, até estar concluída.
+A API é assíncrona. Quando a API [exportToFile](/rest/api/power-bi/reports/exporttofile) é chamada, aciona uma tarefa de exportação. Depois de acionar uma tarefa de exportação, utilize a [consulta](/rest/api/power-bi/reports/getexporttofilestatus) para controlar a tarefa, até estar concluída.
 
 Durante a consulta, a API devolve um número que representa a quantidade de trabalho concluído. O trabalho em cada tarefa de exportação é calculado com base no número de páginas que o relatório tem. Todas as páginas têm o mesmo tamanho. Por exemplo, se estiver a exportar um relatório com 10 páginas e a consulta devolver 70, significa que a API processou sete das 10 páginas na tarefa de exportação.
 
-Quando a exportação estiver concluída, a chamada à API de consulta devolve um [URL do Power BI](https://docs.microsoft.com/rest/api/power-bi/reports/getfileofexporttofile) para obter o ficheiro. O URL estará disponível durante 24 horas.
+Quando a exportação estiver concluída, a chamada à API de consulta devolve um [URL do Power BI](/rest/api/power-bi/reports/getfileofexporttofile) para obter o ficheiro. O URL estará disponível durante 24 horas.
 
 ## <a name="supported-features"></a>Funcionalidades suportadas
 
 ### <a name="selecting-which-pages-to-print"></a>Selecionar as páginas a imprimir
 
-Especifique as páginas que quer imprimir de acordo com o valor devolvido de [Obter Páginas](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) ou [Obter Páginas no Grupo](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup). Também pode especificar a ordem das páginas que está a exportar.
+Especifique as páginas que quer imprimir de acordo com o valor devolvido de [Obter Páginas](/rest/api/power-bi/reports/getpages) ou [Obter Páginas no Grupo](/rest/api/power-bi/reports/getpagesingroup). Também pode especificar a ordem das páginas que está a exportar.
 
 ### <a name="bookmarks"></a>Marcadores
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/20/2020
-ms.openlocfilehash: 7ebc02b2c459517957425e78438e12e89dc2e1bb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c22c634ef59a1aae2994dcacaae62dc8ebed7474
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196566"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746084"
 ---
 # <a name="how-to-build-a-high-performance-power-bi-visual"></a>Como criar um elemento visual Power BI de elevado desempenho
 Este artigo abrangerá técnicas sobre a forma como um programador pode alcançar elevado desempenho ao compor elementos visuais. 
@@ -104,7 +104,7 @@ Para obter mais informações, veja [youmightnotneedjquery.com](http://youmightn
 ### <a name="use-canvas-or-webgl"></a>Utilizar tela ou WebGL 
 Para a utilização repetida de animações, considere utilizar **Tela** ou **WebGL** em vez de SVG. Ao contrário do SVG, com estas opções o desempenho é determinado pelo tamanho e não pelos conteúdos. 
 
-Pode ler mais sobre as diferenças em [SVG vs Canvas: How to Choose (SVG vs Tela: Como escolher)](https://msdn.microsoft.com/library/gg193983(v=vs.85).aspx). 
+Pode ler mais sobre as diferenças em [SVG vs Canvas: How to Choose (SVG vs Tela: Como escolher)](/previous-versions/windows/internet-explorer/ie-developer/samples/gg193983(v=vs.85)). 
 
 ### <a name="use-requestanimationframe-instead-of-settimeout"></a>Utilize requestAnimationFrame em vez de setTimeout 
 Se utilizar [requestAnimationFrame](https://www.w3.org/TR/animation-timing/) para atualizar as animações no ecrã, as suas funções de animação são chamadas **antes** de o browser chamar outro redesenho.
@@ -113,4 +113,4 @@ Para obter mais informações, veja esta [amostra](https://testdrive-archive.azu
 
 ## <a name="next-steps"></a>Próximos passos
 
-Saiba mais sobre técnicas de otimização no [Guia de otimização para Power BI](/power-bi/guidance/power-bi-optimization).
+Saiba mais sobre técnicas de otimização no [Guia de otimização para Power BI](../../guidance/power-bi-optimization.md).

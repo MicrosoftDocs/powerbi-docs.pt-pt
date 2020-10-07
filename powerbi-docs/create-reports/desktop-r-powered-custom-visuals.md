@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7abbfce4254359c95efe1ef91511672b0aa98be6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e4e65c26c9d1b5598ecf6b523649dc70722b7d79
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229374"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634993"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Utilizar elementos visuais baseados em R no Power BI
 
@@ -125,20 +125,25 @@ A equipa do Power BI está a trabalhar ativamente para mitigar estes problemas 
 
 3. Instale os pacotes do R manualmente com qualquer consola do R. Os passos para esta abordagem são os seguintes:
 
-   a.  Transfira o script de instalação do elemento visual baseado em R e guarde esse ficheiro numa unidade local.
+   a. Transfira o script de instalação do elemento visual baseado em R e guarde esse ficheiro numa unidade local.
 
-   b.  Na consola do R, execute o seguinte:
+   b. Na consola do R, execute o seguinte:
 
-       source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
+      ```console
+      source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
+      ```
 
    As localizações de instalação predefinida típica são as seguintes:
 
+   ```console
        c:\Program Files\R\R-3.3.x\bin\x64\Rterm.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\x64\Rgui.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\R.exe (for CRAN-R)
        c:\Program Files\Microsoft\MRO-3.3.x\bin\R.exe (for MRO)
        c:\Program Files\Microsoft\MRO-3.3.x\bin\x64\Rgui.exe (for MRO)
        c:\Program Files\RStudio\bin\rstudio.exe (for RStudio)
+   ```
+
 4. Se os passos anteriores não funcionarem, experimente o seguinte:
 
    a. Utilize o **R Studio** e siga o passo descrito em 3.b. acima (executar a linha de script a partir da consola do R).

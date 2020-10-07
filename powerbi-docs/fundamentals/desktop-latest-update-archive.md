@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/22/2020
+ms.date: 09/30/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d718b83e5c6ee5966bb882bcbf37feb58657f7cb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2464d95fd9d2cc7a5e3bb42479c1ba96bf5285a8
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525406"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600541"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Atualizações mensais anteriores do Power BI Desktop
 
@@ -1392,7 +1392,7 @@ As atualizações seguintes são novas no **Power BI Desktop** este mês:
 ### <a name="reporting"></a>Relatórios
 
 * Guias inteligentes para alinhar objetos numa página [[vídeo]](https://youtu.be/AHNlkjRFdYI?t=11)  [[artigo]](../create-reports/power-bi-reports-filters-and-highlighting.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) 
-* Atualizações do ArcGIS Maps for Power BI [[vídeo]](https://youtu.be/AHNlkjRFdYI?t=84)  [[artigo]](../visuals/power-bi-visualization-arcgis.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
+* Atualizações do ArcGIS Maps for Power BI [[vídeo]](https://youtu.be/AHNlkjRFdYI?t=84)  [[artigo]](../visuals/power-bi-visualizations-arcgis.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
 * Suporte de acessibilidade para listas de campos [[vídeo]](https://youtu.be/AHNlkjRFdYI?t=464)  [[artigo]](../create-reports/desktop-report-view.md#copy-and-paste-between-reports)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
 * Definir a ordem dos separadores para os objetos numa página [[vídeo]](https://youtu.be/AHNlkjRFdYI?t=643)   [[artigo]](../create-reports/power-bi-reports-filters-and-highlighting.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
 * Descrições para elementos visuais de botões [[vídeo]](https://youtu.be/AHNlkjRFdYI?t=884)  [[artigo]](../create-reports/desktop-accessibility-overview.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 1e2426b12bf6205e5ed2fc6cfb0540c67740df7d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 762cc2d3d170f5418616da46806f8a445490ee8d
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813629"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635223"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capacity and SKUs in Power BI embedded analytics (Capacidade e SKUs na análise incorporada do Power BI)
 
@@ -68,10 +68,9 @@ A tabela abaixo apresenta um resumo das funcionalidades, bem como da capacidade 
 
 Nesta tabela, uma aplicação personalizada refere-se a uma aplicação Web criada com uma análise incorporada. Quando incorpora uma aplicação Web personalizada como um desenvolvedor (com os SDKs JavaScript ou .NET, ou as APIs REST), tem a capacidade de controlar e personalizar a experiência do utilizador. Esta capacidade não está disponível quando utiliza outras opções de incorporação, como o serviço Power BI e o Power BI Mobile.
 
-
-|         |         |         |
-|---------|---------|---------|
-|**Cenário**</br><p></p>|**Azure**</br>(SKU A)|**Office**</br>(SKUs P e EM)|
+| Cenário | Azure   | Office          |
+|----------|---------|-----------------|
+|          | (SKU A) | (SKUs P e EM) |
 |[Incorporar para os seus clientes](embed-sample-for-customers.md)</br>(os dados pertencem à aplicação)     |✔        |✔        |
 |[Incorporar para a sua organização](embed-sample-for-your-organization.md)</br>(os dados pertencem ao utilizador)     |✖        |✔         |
 |Aplicações do Microsoft 365</br>(anteriormente conhecidas como aplicações do Office 365)<ul><li>[Incorporar no Teams](../../collaborate-share/service-embed-report-microsoft-teams.md)</li><li>[Incorporar no SharePoint](../../collaborate-share/service-embed-report-spo.md)</li></ul>     |✖        |✔        |

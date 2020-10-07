@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 978a257ccd5916f14bc3dfa6916f9315b755c12e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2a0c326902063759d10f49f3c5d745c22f477ec2
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860262"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634809"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Ver relatórios e dashboards no modo de apresentação no Surface Hub e em dispositivos com o Windows 10
 Pode utilizar o modo de apresentação para ver relatórios e dashboards em ecrã inteiro em dispositivos com o Windows 10 e no Surface Hub. O modo de apresentação é útil para mostrar o Power BI em reuniões ou conferências, num projetor de escritório dedicado ou simplesmente para maximizar o espaço num ecrã pequeno.
@@ -36,8 +36,8 @@ Na aplicação móvel Power BI, toque no ícone **Ecrã inteiro** para entrar no
 
 Na barra de ferramentas, pode tocar para realizar as seguintes ações:
 
-|||
-|-|-|
+| Ícone | Ação |
+|------|--------|
 |![Ícone Anterior](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png)|**Voltar** para a página anterior. Se tocar prolongadamente no ícone, são apresentadas as janelas de trilhos, que lhe permitem navegar para a pasta que contém o relatório ou o dashboard.|
 |![Ícone de paginação](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png)|**Mudar para outra página** do relatório na apresentação.|
 |![Ícone de marcadores](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-bookmarks-icon.png)|**Aplicar um marcador** para apresentar a vista específica dos dados que esse marcador captura. Pode aplicar marcadores pessoais e de relatório.|
