@@ -9,11 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/01/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 82f9ffaeb98610dd9ae5986031638c5086749937
-ms.sourcegitcommit: 7fba2caf3bd7ed93a7ecb6a6b9ba2da26de27395
+ms.openlocfilehash: bb5e2d0accd2db339666e23c449164103bb26ac8
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "84467039"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527890"
 ---
 # <a name="power-bi-developer-in-a-day-course"></a>Curso Programador do Power BI num Dia
 
@@ -84,7 +85,7 @@ Para concluir os laboratórios, precisa de um PC Windows (Windows 7 ou posterio
 
 - A versão mais recente do [Power BI Desktop](../fundamentals/desktop-get-the-desktop.md).
 - Visual Studio 2015 ou posterior. Recomendamos o [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/). Pode utilizar a edição **Community**, que é gratuita e adequada para cenários de aprendizagem. Tem de ter a carga de trabalho de **desenvolvimento ASP.NET e Web** instalada.
-- Um browser [suportado pelo Power BI](../power-bi-browsers.md). Recomendamos o Microsoft Edge.
+- Um browser [suportado pelo Power BI](../fundamentals/power-bi-browsers.md). Recomendamos o Microsoft Edge.
 
 Siga estes passos de configuração:
 
@@ -105,7 +106,7 @@ Recomendamos que veja o curso online. Pode consultar a parte teórica da apresen
 Quando estiver pronto para iniciar o primeiro laboratório, abra o ficheiro **&lt;CourseFolder&gt;\PowerBIDevIAD\Lab01A\PowerBIDevIAD_Lab01A.pdf**. Este documento orienta-o para iniciar sessão no serviço Power BI e preparar um relatório do Power BI.
 
 > [!NOTE]
-> É responsável por ter a sua própria conta do Power BI. Se ainda não tiver uma, veja [Inscrever-se no Power BI como um indivíduo](../service-self-service-signup-for-power-bi.md).
+> É responsável por ter a sua própria conta do Power BI. Se ainda não tiver uma, veja [Inscrever-se no Power BI como um indivíduo](../fundamentals/service-self-service-signup-for-power-bi.md).
 >
 > A conta tem de ter uma licença do Power BI Pro ou ainda pode aceitar uma licença de Versão de avaliação do Power BI Pro, uma oferta que só pode ser aceite uma vez. Além disso, a conta não pode ter esgotado a reserva de tokens de incorporação gratuitos, disponíveis com a licença do Power BI Pro.
 >

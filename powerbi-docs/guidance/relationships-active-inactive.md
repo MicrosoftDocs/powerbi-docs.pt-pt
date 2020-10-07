@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e8ba3203728a72b26d188e96eb1fa66f62f89a55
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: df9405dcf65eb39095f711edbcaf2a35e4a1f6aa
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215131"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136241"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>Documento de orientação das relações ativas vs. inativas
 
@@ -114,7 +114,7 @@ Este design de modelo suporta a criação do design de relatório seguinte.
 
 A página de relatório filtra pelo quarto trimestre de 2019. O elemento visual da tabela agrupa por mês e apresenta várias estatísticas de vendas. As medidas **Encomendas** e **Encomendas Enviadas** criam resultados diferentes. Cada uma utiliza a mesma lógica de resumo (contabiliza as linhas da tabela **Vendas**), mas uma propagação de filtro da tabela **Data** diferente.
 
-Tenha em atenção que a segmentação de dados trimestral inclui um item EM BRANCO. Este item de segmentação de dados é apresentado como resultado da [expansão da tabela](../transform-model/desktop-relationships-understand.md#strong-relationships). Embora cada linha da tabela **Vendas** tenha uma data de encomenda, algumas linhas têm uma data de envio EM BRANCO (estas encomendas ainda não foram enviadas). A expansão da tabela também considera as relações inativas, pelo que podem ser apresentados valores EM BRANCO devido a valores EM BRANCO no lado “muitos” da relação ou devido a problemas de integridade dos dados.
+Tenha em atenção que a segmentação de dados trimestral inclui um item EM BRANCO. Este item de segmentação de dados é apresentado como resultado da [expansão da tabela](../transform-model/desktop-relationships-understand.md#regular-relationships). Embora cada linha da tabela **Vendas** tenha uma data de encomenda, algumas linhas têm uma data de envio EM BRANCO (estas encomendas ainda não foram enviadas). A expansão da tabela também considera as relações inativas, pelo que podem ser apresentados valores EM BRANCO devido a valores EM BRANCO no lado “muitos” da relação ou devido a problemas de integridade dos dados.
 
 ## <a name="recommendations"></a>Recomendações
 

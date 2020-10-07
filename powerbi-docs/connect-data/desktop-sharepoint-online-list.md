@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 74dbd1207a39f44f761c5068af41db1f40acabe3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f6bcd67d41f2c04cedd7c66eb5989f2a6919b030
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222685"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598661"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>Criar um relatório numa Lista do SharePoint
 
@@ -30,7 +30,7 @@ Veja este tutorial em vídeo de cinco minutos ou desloque-se para baixo para obt
 2. Abra o Power BI Desktop e, no separador Base do friso, selecione **Obter Dados** > **Mais**.
 3. Selecione **Serviços Online** e, em seguida, selecione **Lista do SharePoint Online**.  
 
-    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="get data" width="350"/>
+    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="Screenshot shows the Get Data dialog box with Online Services selected." width="350"/>
 
 4. Selecione **Ligar**.
 4. Localize o endereço (também denominado URL) do site do SharePoint Online que contém a sua lista.  Normalmente, numa página no SharePoint Online, pode obter o endereço do site ao selecionar **Home page** no painel de navegação ou no ícone do site na parte superior e, em seguida, copiar o endereço na barra de endereço do seu browser.
@@ -52,7 +52,7 @@ Veja este tutorial em vídeo de cinco minutos ou desloque-se para baixo para obt
 
 9. No lado esquerdo do Navegador, selecione a caixa de verificação junto à lista do SharePoint à qual pretende ligar.
 
-    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="get data" width="450"/>
+    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="Screenshot shows the Navigator page with BudgetRequests selected." width="450"/>
 
 10. Selecione **Carregar**.  O Power BI carrega os dados da sua lista para um novo relatório.
 

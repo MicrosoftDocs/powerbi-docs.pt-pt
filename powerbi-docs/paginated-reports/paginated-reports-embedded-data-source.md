@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 03/02/2020
-ms.openlocfilehash: 37ab82de16e45f86f2d2aba5113ba4efe6fc383c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: e44b81120ef5eb1d2a384aae4f2d149525c3b7b4
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859687"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632509"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Criar uma origem de dados incorporada para relatórios paginados no serviço Power BI
 
@@ -41,30 +41,30 @@ Para obter informações mais detalhadas, veja [Dados de Relatórios no Report B
 
 1. Na barra de ferramentas do painel Dados do Relatório, selecione **Novo** > **Origem de Dados**. A caixa de diálogo **Propriedades da Origem de Dados** é apresentada.
 
-    ![Nova Origem de Dados](media/paginated-reports-embedded-data-source/power-bi-paginated-new-data-source.png)
+   ![Nova Origem de Dados](media/paginated-reports-embedded-data-source/power-bi-paginated-new-data-source.png)
   
-2.  Na caixa de texto **Nome**, escreva um nome para a origem de dados ou aceite o nome predefinido.  
+1. Na caixa de texto **Nome**, escreva um nome para a origem de dados ou aceite o nome predefinido.  
   
-3.  Selecione **Utilizar uma ligação incorporada no meu relatório**.  
+1. Selecione **Utilizar uma ligação incorporada no meu relatório**.  
   
-1.  Na lista **Selecionar o tipo de ligação**, selecione um tipo de origem de dados. 
+1. Na lista **Selecionar o tipo de ligação**, selecione um tipo de origem de dados. 
 
-1.  Especifique uma cadeia de ligação com um dos seguintes métodos:  
+1. Especifique uma cadeia de ligação com um dos seguintes métodos:  
   
-    -   Escreva a cadeia de ligação diretamente na caixa de texto **Cadeia de ligação**. 
+   - Escreva a cadeia de ligação diretamente na caixa de texto **Cadeia de ligação**. 
   
-     -   Selecione **Criar** para abrir a caixa de diálogo **Propriedades da Ligação** da origem de dados que selecionou no passo 2.  
+   - Selecione **Criar** para abrir a caixa de diálogo **Propriedades da Ligação** da origem de dados que selecionou no passo 2.  
   
-        Preencha os campos na caixa de diálogo **Propriedades da Ligação** conforme adequado para o tipo da origem de dados. As propriedades da ligação incluem o tipo da origem de dados, o nome da origem de dados e as credenciais a utilizar. Depois de especificar os valores nesta caixa de diálogo, selecione **Testar Ligação** para verificar se a origem de dados está disponível e se as credenciais que especificou estão corretas.  
+     Preencha os campos na caixa de diálogo **Propriedades da Ligação** conforme adequado para o tipo da origem de dados. As propriedades da ligação incluem o tipo da origem de dados, o nome da origem de dados e as credenciais a utilizar. Depois de especificar os valores nesta caixa de diálogo, selecione **Testar Ligação** para verificar se a origem de dados está disponível e se as credenciais que especificou estão corretas.  
   
-4.  Selecione **Credenciais**.  
+1. Selecione **Credenciais**.  
   
-     Especifique as credenciais a utilizar para esta origem de dados. O proprietário da origem de dados escolhe o tipo de credenciais que são suportadas. Para obter mais informações, veja [Specify Credential and Connection Information for Report Data Sources](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources) (Especificar as Credenciais e as Informações de Ligação das Origens de Dados de Relatório).
+   Especifique as credenciais a utilizar para esta origem de dados. O proprietário da origem de dados escolhe o tipo de credenciais que são suportadas. Para obter mais informações, veja [Specify Credential and Connection Information for Report Data Sources](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources) (Especificar as Credenciais e as Informações de Ligação das Origens de Dados de Relatório).
   
-5.  Selecione **OK**.  
+1. Selecione **OK**.  
   
-     A origem de dados é apresentada no painel Dados do Relatório.  
-     
+   A origem de dados é apresentada no painel Dados do Relatório.
+
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 
 Os relatórios paginados que estão ligados a conjuntos de dados do Power BI seguem as regras para conjuntos de dados partilhados no Power BI, com algumas pequenas alterações.  Para que os utilizadores vejam corretamente os relatórios paginados que utilizam conjuntos de dados do Power BI, assim como para garantir que a segurança ao nível da linha (RLS) está ativada e é imposta para quem vir o seu relatório, certifique-se de que segue estas regras:
