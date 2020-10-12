@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59cede1cae716661be8d3796330bde7da44170eb
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274196"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634602"
 ---
 # <a name="line-charts-in-power-bi"></a>Gráficos de linhas no Power BI
 
@@ -67,11 +67,11 @@ Em vez de apresentarmos o total de unidades para todas as regiões como uma úni
 ### <a name="use-two-y-axes"></a>Utilizar dois eixos Y
 E se pretender examinar o total de vendas e o total de unidades no mesmo gráfico? Os números de vendas são muito superiores aos números de unidades, o que torna o gráfico de linhas inutilizável. Na verdade, a linha vermelha que representa o total de unidades parece estar no zero.
 
-   ![valores altamente divergentes](media/power-bi-line-charts/power-bi-diverging.png)
+   ![Captura de ecrã a mostrar como a utilização de um único eixo y apresenta o total de unidades como, essencialmente, plano e uma comparação sem utilidade com os valores de vendas.](media/power-bi-line-charts/power-bi-diverging.png)
 
 Para apresentar valores altamente divergentes num gráfico, utilize um gráfico de combinação. Pode saber tudo sobre os gráficos de combinação ao ler [Gráficos de combinação no Power BI](power-bi-visualization-combo-chart.md). No exemplo a seguir, podemos apresentar as vendas e o total de unidades em conjunto num gráfico ao adicionar um segundo eixo Y. 
 
-   ![valores altamente divergentes](media/power-bi-line-charts/power-bi-dual-axes.png)
+   ![Captura de ecrã a mostrar os valores de vendas como um gráfico de barras com o eixo y do lado esquerdo e as unidades totais como uma linha com o eixo y do lado direito.](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>Realce e filtragem cruzada
 Para obter informações sobre como utilizar o painel Filtros, veja [Adicionar um filtro a um relatório](../create-reports/power-bi-report-add-filter.md).

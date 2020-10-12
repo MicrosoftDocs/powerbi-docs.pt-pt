@@ -8,16 +8,16 @@ ms.topic: how-to
 ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: afe81469bc3ce67979602eedbf49b00cf7a3f1e6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 96e51d41c39ccc11d4e3816883193132531bb730
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854319"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374321"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>Ative as etiquetas de confidencialidade no Power BI
 
-Para poderem ser utilizadas no Power BI, as [Etiquetas de confidencialidade do Microsoft Information Protection](/microsoft-365/compliance/sensitivity-labels) têm de estar ativadas no inquilino. Este artigo explica como os administradores de inquilinos do Power BI podem fazê-lo. Para obter uma descrição geral das etiquetas de confidencialidade no Power BI, veja [Etiquetas de confidencialidade no Power BI](service-security-sensitivity-label-overview.md). Para obter informações sobre a aplicação de etiquetas de confidencialidade no Power BI, veja [Aplicar etiquetas de confidencialidade](./service-security-apply-data-sensitivity-labels.md). 
+Para poderem ser utilizadas no Power BI, as [Etiquetas de confidencialidade do Microsoft Information Protection](/microsoft-365/compliance/sensitivity-labels) têm de estar ativadas no inquilino. Este artigo explica aos administradores do Power BI como o fazer. Para obter uma descrição geral das etiquetas de confidencialidade no Power BI, veja [Etiquetas de confidencialidade no Power BI](service-security-sensitivity-label-overview.md). Para obter informações sobre a aplicação de etiquetas de confidencialidade no Power BI, veja [Aplicar etiquetas de confidencialidade](./service-security-apply-data-sensitivity-labels.md). 
 
 Quando as etiquetas de confidencialidade estão ativadas:
 
@@ -34,7 +34,7 @@ Ativar etiquetas de confidencialidade requer uma licença do Azure Information P
 
 * As aplicações do Office têm os seus próprios [requisitos de licenciamento para visualizar e aplicar etiquetas de confidencialidade]( https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels ).
 
-* Antes de ativar as etiquetas de confidencialidade no seu inquilino, verifique se as mesmas foram definidas e publicadas para utilizadores e grupos relevantes. Veja [Criar e configurar etiquetas de confidencialidade e as políticas](/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide) para obter detalhes.
+* Antes de ativar as etiquetas de confidencialidade no seu inquilino, verifique se as mesmas foram definidas e publicadas para utilizadores e grupos relevantes. Veja [Criar e configurar etiquetas de confidencialidade e as políticas](/microsoft-365/compliance/create-sensitivity-labels) para obter detalhes.
 
 >[!NOTE]
 > Se a sua organização utilizar etiquetas de confidencialidade do Azure Information Protection, é preciso migrá-las para a plataforma de Etiquetagem Unificada do Microsoft Azure Information Protection para as poder utilizar no Power BI. [Saiba mais sobre como migrar etiquetas de confidencialidade](/azure/information-protection/configure-policy-migrate-labels).

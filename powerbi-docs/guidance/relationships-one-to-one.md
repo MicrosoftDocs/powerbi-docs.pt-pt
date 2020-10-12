@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7e10cfa5c99eb1750829150fd0a25347a4da1880
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: cbcf7fc1890ae1455f1f6ec7c8604e275f60b2d5
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136264"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668419"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Documento de orientação das relações um-para-um
 
@@ -82,7 +82,7 @@ Tenha em atenção que a tabela **Categoria de Produto** não inclui nenhuma lin
 
 No painel **Campos**, os autores do relatório encontrarão os campos relacionados com o produto em duas tabelas: **Produto** e **Categoria de Produto**.
 
-![O painel Campos mostra ambas as tabelas expandidas e as colunas são listadas como campos.](media/relationships-one-to-one/product-to-product-category-fields-pane.png)
+![Painel Campos a mostrar ambas as tabelas expandidas. As colunas são listadas como campos com Produto e Categoria de produtos destacados.](media/relationships-one-to-one/product-to-product-category-fields-pane.png)
 
 Vamos ver o que acontece quando os campos de ambas as tabelas são adicionados a um elemento visual de tabela. Neste exemplo, a coluna **SKU** é proveniente da tabela **Produto**.
 
@@ -112,7 +112,7 @@ Os passos seguintes apresentam uma metodologia para consolidar e modelar os dado
 
     No nosso exemplo, os autores do relatório encontram agora uma única tabela chamada **Produto** no painel **Campos**. Contém todos os campos relacionados com o produto.
 
-    ![O painel Campos mostra ambas as tabelas expandidas e as colunas são listadas como campos.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
+    ![Painel Campos a mostrar ambas as tabelas expandidas. As colunas são listadas como campos com Produto destacado.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
 3. **Substituir os valores em falta**: se a segunda consulta tiver linhas sem correspondência, serão apresentados valores NULOS nas colunas introduzidas a partir da mesma. Quando for apropriado, considere substituir os valores NULOS por um valor de token. A substituição dos valores em falta é importante sobretudo quando os autores do relatório filtram ou agrupam pelos valores da coluna, uma vez que podem ser apresentados valores EM BRANCO nos elementos visuais do relatório.
 
     No elemento visual da tabela seguinte, tenha em atenção que a categoria do SKU CL-02 do produto é agora _[Indefinida]_ . Na consulta, as categorias nulas foram substituídas por este valor de texto de token.
@@ -123,7 +123,7 @@ Os passos seguintes apresentam uma metodologia para consolidar e modelar os dado
 
     No nosso exemplo, os autores do relatório podem agora utilizar uma hierarquia com dois níveis: **Categoria** e **Produto**.
 
-    ![O painel Campos mostra ambas as tabelas expandidas e as colunas são listadas como campos.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
+    ![Painel Campos a mostrar ambas as tabelas expandidas. As colunas são listadas como campos com Produto destacado.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
 
 Se gosta da forma como as tabelas separadas ajudam a organizar os campos, continuamos a recomenda a consolidação numa única tabela. Pode continuar a organizar os campos, mas através de _pastas de apresentação_.
 

@@ -7,17 +7,17 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 12/03/2019
-ms.openlocfilehash: 97d116e233395368ddf86b86811f1a3ee72a43c4
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.date: 09/28/2020
+ms.openlocfilehash: 37ec4b9f38287b893469de2bcf152a6aba9886ad
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538085"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528235"
 ---
 # <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>Ver parâmetros para relatórios paginados no serviço Power BI
 
-Neste artigo, vai aprender a interagir com parâmetros para relatórios paginados no serviço Power BI.  Um parâmetro de relatório proporciona uma forma de filtrar os dados do relatório. Os parâmetros oferecem uma lista de valores disponíveis e pode escolher um ou vários valores. Por vezes, os parâmetros têm um valor predefinido e, às vezes, tem de escolher um valor para visualizar o relatório.  
+Neste artigo, vai aprender a interagir com parâmetros para relatórios paginados no serviço Power BI.  Um parâmetro de relatório proporciona uma forma de filtrar os dados do relatório. Os parâmetros oferecem uma lista dos valores disponíveis. Pode escolher um ou vários valores ou escrever numa caixa de texto de parâmetros para pesquisar valores. Por vezes, os parâmetros têm um valor predefinido e, por vezes, tem de escolher um valor antes de visualizar o relatório.  
 
 Quando visualizar um relatório que tenha parâmetros, a barra de ferramentas do visualizador de relatórios apresenta cada parâmetro para que possa especificar os valores e forma interativa. A ilustração seguinte mostra a área de parâmetros de um relatório com parâmetros para **Grupo de Compra**, **Localização**, uma **Data de Início**e uma **Data de Fim**.  
 
@@ -27,7 +27,7 @@ Quando visualizar um relatório que tenha parâmetros, a barra de ferramentas do
   
 1.  **Painel de parâmetros** – a barra de ferramentas do visualizador de relatórios apresenta um pedido, como “Necessário” ou um valor predefinido para cada parâmetro.    
   
-2.  **Parâmetros Data de Início das Faturas/Data de Fim das Faturas** – os dois parâmetros de dados têm valores predefinidos. Para alterar a data, digite uma data na caixa de texto ou escolha uma data no calendário.  
+2.  **Parâmetros Data de Início das Faturas/Data de Fim das Faturas** Os dois parâmetros de data têm valores predefinidos. Para alterar a data, digite uma data na caixa de texto ou escolha uma data no calendário.  
   
 3.  **Parâmetro Localização** – o parâmetro Localização está definido para permitir que selecione um, muitos ou todos os valores. 
   
@@ -35,6 +35,6 @@ Quando visualizar um relatório que tenha parâmetros, a barra de ferramentas do
 
 5. **Valores predefinidos** – se todos os parâmetros tiverem os valores predefinidos, o relatório será executado automaticamente na primeira visualização. Alguns parâmetros deste relatório não têm valores predefinidos pelo que não irá ver o relatório até que selecione os valores.  
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 
 [Relatórios paginados no serviço Power BI](end-user-paginated-report.md)

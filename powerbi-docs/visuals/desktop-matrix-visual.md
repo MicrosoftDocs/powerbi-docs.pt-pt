@@ -9,11 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: beb744e1293db077111df8212c0861154aa86242
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: e96431aaa17b1ae79d940d768a7e160e402c0af3
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354714"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635867"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Criar visualizações de matriz no Power BI
 
@@ -206,7 +207,7 @@ A matriz ou a tabela pode ter conteúdo gostaria de utilizar noutras aplicaçõe
 
 Se tiver uma coluna ou uma medida que contenha URLs de sites, poderá utilizar a formatação condicional para aplicar esses URLs a campos como ligações ativas. Poderá encontrar esta opção no cartão **Formatação condicional** do painel de formatação.
 
-![Cartão de filtros a mostrar que linhas são escolhidas](media/desktop-matrix-visual/power-bi-web-url.png)
+![Captura de ecrã a mostrar o ícone de formatação associado ao URL da Web.](media/desktop-matrix-visual/power-bi-web-url.png)
 
 Ative o **URL da Web** e selecione um campo para utilizar como URL da coluna. Uma vez aplicados, os valores nesse campo (coluna) tornam-se ligações ativas. Passe o rato para ver a ligação e selecione para ir para essa página. 
 

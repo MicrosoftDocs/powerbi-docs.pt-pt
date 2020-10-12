@@ -8,17 +8,17 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: a0fdc83db8d24f4733d3eb8402a4ea9ccce15869
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 71fb659ba102e139c7a1679b0c58c07c47a38bf0
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860607"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668672"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Definir alertas de dados nas aplicações móveis do Power BI
 Aplica-se a:
 
-| ![iPhone](./media/mobile-set-data-alerts-in-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-set-data-alerts-in-the-mobile-apps/ipad-logo-50-px.png) | ![Telemóvel Android](./media/mobile-set-data-alerts-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Tablet Android](./media/mobile-set-data-alerts-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Tablet Android](./media/mobile-set-data-alerts-in-the-mobile-apps/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-set-data-alerts-in-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-set-data-alerts-in-the-mobile-apps/ipad-logo-50-px.png) | ![Telemóvel Android](./media/mobile-set-data-alerts-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Tablet Android](./media/mobile-set-data-alerts-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Dispositivo Windows 10.](./media/mobile-set-data-alerts-in-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Telemóveis Android |Tablets Android |Dispositivos Windows 10 |
 
@@ -38,7 +38,7 @@ Pode definir alertas em mosaicos se tiver uma licença do Power BI Pro ou se o d
 1. Toque num número ou mosaico de medidor no dashboard para o abrir no modo de detalhe.  
    
    ![Captura de ecrã a mostrar um dashboard com o mosaico de medidor no modo de detalhe.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
-2. Toque no ícone de campainha ![Ícone de campainha](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) para adicionar um alerta.  
+2. Toque no ícone de sino :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png" border="false"::: para adicionar um alerta.  
 3. Toque em **Adicionar regra de alerta**.
    
    ![Captura de ecrã a mostrar a regra de alerta sem alertas definidos.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
@@ -62,9 +62,9 @@ Pode gerir alertas individuais no seu dispositivo móvel ou [gerir todos os seus
 
 1. Num dashboard, toque num número ou mosaico de medidor que tenha um alerta.  
    
-   ![Captura de ecrã a mostrar o dashboard, com o mosaico de número que tem um alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+   ![Captura de ecrã do dashboard num iPhone ou iPad a mostrar o mosaico de número que tem um alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
 
-2. Toque no ícone de campainha ![Ícone de campainha](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png).  
+2. Toque no ícone do sino :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png" border="false":::.  
 3. Toque no nome do alerta para editá-lo, toque no controlo de deslize para desativar os alertas de e-mails ou toque na lata do lixo para eliminar o alerta.
    
     ![Captura de ecrã a mostrar um alerta, a apontar para o nome do alerta, o caixote do lixo para eliminar o alerta e o controlo de deslizar para desativar o alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
@@ -72,9 +72,9 @@ Pode gerir alertas individuais no seu dispositivo móvel ou [gerir todos os seus
 ## <a name="data-alerts-on-an-android-device"></a>Alertas de dados num dispositivo Android
 ### <a name="set-an-alert-on-an-android-device"></a>Definir um alerta num dispositivo Android
 1. Num dashboard do Power BI, toque num número ou mosaico de medidor para abri-lo.  
-2. Toque no ícone de campainha ![Ícone de campainha](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png) para adicionar um alerta.  
+2. Toque no ícone de sino :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png" border="false"::: para adicionar um alerta.  
    
-   ![Captura de ecrã a mostrar o dashboard, com o mosaico de número que tem um alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
+   ![Captura de ecrã do dashboard num dispositivo Android a mostrar o mosaico de número que tem um alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
 3. Toque no ícone de adição (+).
    
    ![Captura de ecrã a mostrar a opção Gerir alertas, com uma seta a apontar para o sinal de adição.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-plus-alert.png)
@@ -95,7 +95,7 @@ Pode gerir alertas individuais no seu dispositivo móvel ou [gerir todos os seus
 Pode gerir alertas individuais na aplicação móvel do Power BI ou [gerir todos os seus alertas no serviço Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. Num dashboard, toque num cartão ou mosaico de medidor que tenha um alerta.  
-2. Toque no ícone sólido de campainha ![Ícone de campainha](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
+2. Toque no ícone de sino sólido :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png" border="false":::.  
 3. Toque no alerta para alterar um valor ou desativá-lo.
    
     ![Captura de ecrã a mostrar o mosaico do alerta Gerir, com o ícone de adição para adicionar um alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-manage-alerts.png)
@@ -109,9 +109,9 @@ Pode gerir alertas individuais na aplicação móvel do Power BI ou [gerir todos
 
 ### <a name="set-data-alerts-on-a-windows-device"></a>Definir alertas de dados num dispositivo Windows
 1. Toque num número ou mosaico de medidor no dashboard para o abrir.  
-2. Toque no ícone de campainha ![Ícone de campainha](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) para adicionar um alerta.  
+2. Toque no ícone de sino :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png" border="false"::: para adicionar um alerta.  
    
-   ![Captura de ecrã a mostrar o dashboard, com o mosaico de número que tem um alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
+   ![Captura de ecrã do dashboard num dispositivo Windows a mostrar o mosaico de número que tem um alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
 3. Toque no ícone de adição (+).
    
    ![Captura de ecrã a mostrar a opção Gerir alertas, sem nenhum alerta definido.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-no-alerts-yet.png)
@@ -134,7 +134,7 @@ Pode gerir alertas individuais na aplicação móvel do Power BI ou [gerir todos
 Pode gerir alertas individuais na aplicação móvel do Power BI ou [gerir todos os seus alertas no serviço Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. Num dashboard, toque num cartão ou mosaico de medidor que tenha um alerta.  
-2. Toque no ícone de campainha ![Ícone de campainha](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
+2. Toque no ícone do sino :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png" border="false":::.  
    
    ![Captura de ecrã a mostrar o dashboard, com o mosaico de número que tem um alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-has-alerts.png)
 3. Toque no alerta para alterar um valor ou desativá-lo.
@@ -153,10 +153,10 @@ Normalmente, as origens de dados são definidas para serem atualizadas diariamen
 2. Se tiver definido o alerta para lhe enviar uma mensagem de e-mail, irá encontrar algo deste género na sua Caixa de entrada.
    
    ![Captura de ecrã a mostrar uma notificação de e-mail com o alerta.](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
-3. O Power BI adiciona uma mensagem ao seu [Centro de notificações](mobile-apps-notification-center.md) e adiciona um ponto amarelo ao ícone de sino ![ícone de sino](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) na barra de título (iOS e Android) ou ao botão de navegação global ![botão de navegação global](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) (dispositivos com o Windows 10).
+3. O Power BI adiciona uma mensagem ao [Centro de notificações](mobile-apps-notification-center.md) e adiciona um ponto amarelo ao ícone de sino :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png" border="false"::: na barra de títulos (iOS e Android) ou ao botão de navegação global ![botão de navegação global](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) (dispositivos Windows 10).
 
 
-4. Toque no ícone de sino ![ícone de sino](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) ou no botão de navegação global ![botão de navegação global](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) para [abrir o seu **Centro de notificações**](mobile-apps-notification-center.md) e ver os detalhes do alerta.
+4. Toque no ícone de sino :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png" border="false"::: ou no botão de navegação global ![botão de navegação global](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) para [abrir o **Centro de notificações**](mobile-apps-notification-center.md) e ver os detalhes do alerta.
    
      
 

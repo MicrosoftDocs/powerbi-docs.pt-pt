@@ -1,17 +1,17 @@
 ---
 title: Catálogo de aprendizagem para consumidores
-description: Encontre todas as opções de formação para o Power BI
+description: Descubra todas as opções de formação do Power BI para consumidores que utilizam relatórios e dashboards, desde as mais básicas às mais avançadas.
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 51ccaa55eba6a03aa7b41780aaf859f134d2ddae
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 4a4190dd8a1f17c1a49eca09e6c673a102ae0924
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532747"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749420"
 ---
 # <a name="consumers-learning-catalog"></a>Catálogo de aprendizagem para consumidores
 
@@ -22,6 +22,6 @@ O seguinte catálogo está organizado do conhecimento básico aos domínios espe
 ## <a name="get-started"></a>Introdução<a name="get-started"></a>
 | Conteúdo  | Descrição  | Formato| Comprimento  |
 |--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-------------------|
-| [Consumir dados com o Power BI](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/) | Quer tomar decisões empresariais apoiadas por dados? Saiba como fazê-lo no Power BI. Saiba como trabalhar no Power BI para rever e interagir com estes conteúdos para tomar decisões empresariais. | Percurso de aprendizagem online personalizado e gratuito | 2 horas e 9 minutos  |
+| [Consumir dados com o Power BI](/learn/paths/consume-data-with-power-bi/) | Quer tomar decisões empresariais apoiadas por dados? Saiba como fazê-lo no Power BI. Saiba como trabalhar no Power BI para rever e interagir com estes conteúdos para tomar decisões empresariais. | Percurso de aprendizagem online personalizado e gratuito | 2 horas e 9 minutos  |
 | [Canal do YouTube do Microsoft Power BI](https://www.youtube.com/user/mspowerbi/videos) | Canal do YouTube com conteúdos da equipa do produto do Power BI da Microsoft  | Vídeos  |            |
-| [O que é o Power BI?](https://docs.microsoft.com/power-bi/fundamentals/power-bi-overview) | Descrição geral do Power BI | Site  | 3 minutos de leitura |
+| [O que é o Power BI?](../fundamentals/power-bi-overview.md) | Descrição geral do Power BI | Site  | 3 minutos de leitura |

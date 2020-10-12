@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 323ea88f3a8843dd663985abac5552be1de71584
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264925"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634418"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual Perguntas e Respostas em aplicações iOS – Power BI
 
@@ -52,7 +52,7 @@ Depois de concluir os pré-requisitos, estará pronto para experimentar o Analis
 4. Toque em **by** nas palavras-chave e, em seguida, toque em **item** na lista de sugestões > **Enviar** ![ícone Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Vendas por item](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. Toque em **as** nas palavras-chave, toque no ícone de gráfico de colunas ![ícone Gráfico](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) e, em seguida, toque em **Enviar** ![ícone Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+5. Toque em **como** nas palavras-chave, toque no ícone de gráfico de colunas :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png" border="false"::: e, em seguida, toque em **Enviar** ![ícone Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 6. Mantenha pressionado o gráfico resultante e, em seguida, toque em **Expandir**.
 
     ![Captura de ecrã a mostrar um gráfico de colunas, com uma seta a apontar para Expandir.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
@@ -68,7 +68,7 @@ Depois de concluir os pré-requisitos, estará pronto para experimentar o Analis
 10. Selecione **by** nas palavras-chave, toque em **time** na lista de sugestões na parte superior > **Enviar** ![ícone Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
      ![Captura de ecrã a mostrar um gráfico, com top sale by average amount per unit by time (principais vendas por média por unidade por tempo).](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. Escreva **as**, selecione o ícone do gráfico de linhas ![ícone Gráfico](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) na lista de sugestões > **Enviar** ![ícone Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+11. Escreva **como**, selecione o ícone do gráfico de linhas :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png" border="false"::: na lista de sugestões > **Enviar** ![ícone Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Captura de ecrã a mostrar um gráfico de colunas e linhas, com uma seta a apontar do gráfico de colunas para o gráfico de linhas](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 

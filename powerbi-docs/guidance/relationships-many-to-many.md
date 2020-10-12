@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7c9b5c753b262900d61a1a71b4c9a8167c943121
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 3c94c25f5f1ba717f68a0c2a5ec661be10f70135
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216697"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668534"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Guia de relações muitos-para-muitos
 
@@ -48,7 +48,7 @@ Para ajudar a descrever como funciona a propagação do filtro de relacionamento
 > [!NOTE]
 > Não é possível apresentar linhas de tabela no diagrama de modelo do Power BI Desktop. Isto é feito neste artigo para o demonstrar com exemplos claros.
 
-![Diagrama a mostrar que o modelo revela agora as linhas da tabela. Os detalhes da linha estão descritos no seguinte parágrafo.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
+![Diagrama a mostrar que o modelo revela agora as linhas da tabela. Os detalhes da linha para as quatro tabelas estão descritos no seguinte parágrafo.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
 
 Os detalhes da linha para as quatro tabelas estão descritos na seguinte lista com marcas:
 
@@ -137,7 +137,7 @@ A cardinalidade da relação é definida como muitos-para-muitos para permitir o
 
 Vamos agora analisar as linhas da tabela. Na tabela **Fulfillment**, observe que as linhas de encomenda podem ser cumpridas por múltiplos envios. (A ausência de uma linha de encomenda significa que a encomenda ainda não foi entregue.)
 
-![Diagrama a mostrar que o modelo revela agora as linhas da tabela. Os detalhes da linha estão descritos no seguinte parágrafo.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
+![Diagrama a mostrar que o modelo revela agora as linhas da tabela. Os detalhes da linha para as duas tabelas estão descritos no parágrafo seguinte.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
 
 Os detalhes da linha para as duas tabelas estão descritos na seguinte lista com marcas:
 
@@ -161,7 +161,7 @@ O elemento visual apresenta um resultado preciso. No entanto, a utilidade do mod
 
 ### <a name="relate-many-to-many-facts-guidance"></a>Orientação para relacionar factos muitos-para-muitos
 
-Normalmente, não recomendamos relacionar duas tabelas de factos diretamente utilizando a cardinalidade muitos-para-muitos. O motivo principal é porque o modelo não irá fornecer a flexibilidade na forma como relata o filtro ou agrupamento de elementos visuais. No exemplo fornecido, só é possível filtrar ou agrupar elementos visuais pela coluna **OrderID** da tabela **Order**. Um motivo adicional está relacionado com a qualidade dos seus dados. Se os seus dados tiverem problemas de integridade, é possível que algumas linhas sejam omitidas durante a consulta devido à natureza da _fraca relação_. Para obter mais informações, veja [Relações de modelos no Power BI Desktop (Avaliação de relações)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
+Normalmente, não recomendamos relacionar duas tabelas de factos diretamente utilizando a cardinalidade muitos-para-muitos. O motivo principal é porque o modelo não irá fornecer a flexibilidade na forma como relata o filtro ou agrupamento de elementos visuais. No exemplo fornecido, só é possível filtrar ou agrupar elementos visuais pela coluna **OrderID** da tabela **Order**. Um motivo adicional está relacionado com a qualidade dos seus dados. Se os dados tiverem problemas de integridade, algumas linhas poderão ser omitidas durante a consulta devido à natureza da _relação limitada_. Para obter mais informações, veja [Relações de modelos no Power BI Desktop (Avaliação de relações)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 Em vez de relacionar tabelas de factos diretamente, recomendamos que adote os princípios do design [Esquema de Estrela](star-schema.md). Pode fazê-lo ao adicionar tabelas de dimensão. As tabelas de dimensão relacionam-se então com as tabelas de factos através de relações um-para-muitos. Esta abordagem de design é robusta, pois fornece opções de relatórios flexíveis. Permite-lhe filtrar ou agrupar com qualquer uma das colunas de dimensão e resumir qualquer tabela de factos.
 
@@ -184,7 +184,7 @@ Dedicar tempo para aplicar os princípios de design do esquema de estrela result
 - Os elementos visuais do seu relatório podem _filtrar ou agrupar_ por qualquer coluna visível a partir das tabelas de tipo de dimensão
 - Os elementos visuais do seu relatório podem _resumir_ qualquer coluna visível a partir das tabelas de factos
 - Os filtros aplicados às tabelas **OrderLine**, **OrderDate** ou **Product** irão propagar para ambas as tabelas de tipos de factos
-- Todas as relações são um-para-muitos e cada relação é uma _relação forte_. Os problemas de integridade de dados não serão dissimulados. Para obter mais informações, veja [Relações de modelos no Power BI Desktop (Avaliação de relações)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
+- Todas as relações são um-para-muitos e cada relação é uma _relação regular_. Os problemas de integridade de dados não serão dissimulados. Para obter mais informações, veja [Relações de modelos no Power BI Desktop (Avaliação de relações)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 ## <a name="relate-higher-grain-facts"></a>Relacionar factos de agregação superior
 
@@ -228,7 +228,7 @@ IF(
 
 O seguinte elemento visual de matriz utiliza agora a medida **Target Quantity**. Mostra que todas as quantidades de destino mensais apresentam BLANK.
 
-![Um diagrama a mostrar um elemento visual de matriz que revela a quantidade de destino de 2020 como 270.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
+![Diagrama a mostrar um elemento visual de matriz a apresentar a quantidade de destino de 2020 como 270 com valores mensais em branco.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
 
 ### <a name="relate-higher-grain-non-date"></a>Relacionar agregação superior (que não seja uma data)
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/27/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e9b950d85d50727ed1e9ca5ec2f94498a37d1665
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: f447856ac387bdabdbd29e1d1ebf47caef22677a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286819"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633958"
 ---
 # <a name="view-a-dashboard"></a>Visualizar um dashboard
 
@@ -31,14 +31,11 @@ Os *utilizadores empresariais* do Power BI passam muito tempo a visualizar dash
 
 ## <a name="open-a-dashboard"></a>Abrir um dashboard
 
+Os dashboards podem ser abertos em várias localizações do serviço Power BI.
 
+![ícone do dashboard](media/end-user-dashboard-open/power-bi-dashboard-icon.png)
 
-|              |         |
-|------------|--------------------------------|
-|![ícone do dashboard](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Os dashboards podem ser abertos em várias localizações do serviço Power BI. <br> Basta procurar este ícone do dashboard. Depois de identificar um <br>dashboard, selecione-o para o abrir. O painel irá preencher a tela do Power BI. |
-|                    |          |
-
-
+Basta procurar este ícone do dashboard. Quando tiver identificado um dashboard, abra-o selecionando-o e o dashboard irá preencher a tela do Power BI.
 
 Poderá encontrar dashboards em todos os contentores no painel de navegação. 
 

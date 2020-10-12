@@ -1,20 +1,20 @@
 ---
-title: Mostrar os dados utilizados para criar o elemento visual
-description: Este documento explica como os consumidores do Power BI podem "ver" os dados utilizados para criar um elemento visual.
+title: Mostra os dados que foram utilizados para criar o elemento visual do relatório
+description: Este documento explica como os utilizadores empresariais do Power BI podem “ver” os dados utilizados para criar um elemento visual de relatório.
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/28/2020
+ms.date: 10/6/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a48f6aa12a1fd3f3a3dcea39524ed3d51251b062
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 737fe43a7a94ef5738676792e1e903564d29e4bb
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536245"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780213"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Mostrar dados com relatórios do Power BI
 
@@ -37,8 +37,12 @@ Num dashboard, utilize a opção [Exportar para o Excel](end-user-export.md) par
 
 4. Para alterar a orientação, selecione o esquema vertical ![ícone de esquema](media/end-user-show-data/power-bi-vertical-icon-new.png) no canto superior direito da visualização.
    
-   ![apresentação horizontal dos dados e elemento visual](./media/end-user-show-data/power-bi-horizontal.png)
+   ![apresentação horizontal dos dados e elemento visual](./media/end-user-show-data/power-bi-show-horizontal.png)
 
-## <a name="next-steps"></a>Próximos passos
+Para regressar ao relatório, selecione **Voltar ao relatório**, no canto superior esquerdo. 
+
+   ![Captura de ecrã a mostra a ligação para Voltar ao relatório.](./media/end-user-show-data/power-bi-back.png)
+
+## <a name="next-steps"></a>Passos seguintes
 [Elementos visuais em relatórios do Power BI](../visuals/power-bi-report-visualizations.md)    
 [Relatórios do Power BI](end-user-reports.md)    

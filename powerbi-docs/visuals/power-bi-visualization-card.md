@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e213107f84f81aef78a52cdb282b70379c7465
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8ee29bcfb85c627ed6e9bb4c33c48b941ded7dd7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237519"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526835"
 ---
 # <a name="create-card-visualizations"></a>Criar visualizações de cartão
 
@@ -102,7 +102,8 @@ O painel Formatação está disponível ao interagir com o cartão num relatóri
 5. Continue a explorar as opções de formatação até que o cartão esteja exatamente como gostaria. 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
-Se não vir uma caixa de perguntas, contacte o administrador do sistema ou inquilino.    
+
+Se não vir nenhuma caixa de perguntas, contacte o administrador do Power BI.
 
 ## <a name="next-steps"></a>Próximos passos
 [Gráficos de combinação no Power BI](power-bi-visualization-combo-chart.md)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: c362a8012635becb68200a9d513157c05310edaf
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: e9c25089c5141f16cc3f993039dc69bece9231f1
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215141"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668626"
 ---
 # <a name="bi-directional-relationship-guidance"></a>Documento de orientação das relações bidirecionais
 
@@ -77,7 +77,7 @@ Quando os utilizadores do relatório segmentarem por Austrália, é melhor limit
 
 A segmentação de dados **Produto** apresenta agora um único item: T-shirts. Este item representa o único produto vendido a clientes australianos.
 
-![Diagrama a mostrar a página do relatório que contém três elementos visuais. Os detalhes são descritos no seguinte parágrafo.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
+![Diagrama a mostrar a página do relatório que contém três elementos visuais com Produto destacado. Os detalhes são descritos no seguinte parágrafo.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
 
 Primeiro, sugerimos que considere cuidadosamente se este design funciona para os utilizadores do seu relatório. Alguns utilizadores de relatórios consideram a experiência confusa. Não compreendem por que motivo os itens de segmentação de dados aparecem ou desaparecem de forma dinâmica quando interagem com outras segmentações de dados.
 

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11ccbdd3a5586aa10c051e6bfed820ed7f0ae48b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 45f5ff81e8ab11c2082af7f570f02bd3671719c6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237548"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634690"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabelas em relatórios e dashboards do Power BI
 
@@ -157,7 +157,7 @@ Para copiar o valor de uma única célula:
 
 1. Selecione **Copiar** > **Copiar valor**.
 
-    ![opções de cópia](media/power-bi-visualization-tables/power-bi-copy-value.png)
+    ![Captura de ecrã a mostrar Copiar selecionado com a opção Copiar valor selecionada.](media/power-bi-visualization-tables/power-bi-copy-value.png)
 
     Com o valor da célula não formatado na área de transferência, pode colá-lo noutra aplicação.
 
@@ -169,7 +169,7 @@ Para copiar mais do que uma única célula:
 
 1. Selecione **Copiar** > **Copiar seleção**.
 
-    ![opções de cópia](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+    ![Captura de ecrã a mostra Copiar selecionado com a opção Copiar seleção selecionada.](media/power-bi-visualization-tables/power-bi-copy-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>Ajustar a largura da coluna de uma tabela
 

@@ -1,17 +1,17 @@
 ---
 title: Catálogo de aprendizagem para analistas de dados
-description: Encontre todas as opções de formação para o Power BI
+description: Descubra todas as opções de formação do Power BI para analistas de dados, desde as mais básicas às mais avançadas
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: f9b7f7f56065f3a27ee2fde3aeecb95a8f19ebdb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 711cb902eed3eee22eb117f9c2fe1f772291671b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527844"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746568"
 ---
 # <a name="data-analyst-learning-catalog"></a>Catálogo de aprendizagem para Analistas de Dados
 

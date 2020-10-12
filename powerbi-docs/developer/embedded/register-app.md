@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: 92bccc80c36fdf6de0972dd67b33a4f1f9c85c0c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eac2f6d1bcb79ccf25f69eb79b73ae884898ec58
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240155"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748684"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Registar uma aplicação do Azure AD para utilizar com o Power BI
 
 Saiba como registar uma aplicação no Azure Active Directory (Azure AD) para utilizar ao incorporar conteúdo do Power BI.
 
-Pode registar a aplicação com o Azure AD para permitir que a sua aplicação aceda às [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/). Quando registar a sua aplicação, pode estabelecer uma identidade para a sua aplicação e especificar permissões para recursos REST do Power BI.
+Pode registar a aplicação com o Azure AD para permitir que a sua aplicação aceda às [APIs REST do Power BI](/rest/api/power-bi/). Quando registar a sua aplicação, pode estabelecer uma identidade para a sua aplicação e especificar permissões para recursos REST do Power BI.
 
 > [!IMPORTANT]
 > Antes de registar uma aplicação do Power BI, precisa de um [inquilino do Azure Active Directory e um utilizador organizacional](create-an-azure-active-directory-tenant.md). Se ainda não se inscreveu no Power BI com um utilizador no seu inquilino, o registo da aplicação não é concluído com êxito.
@@ -54,7 +54,7 @@ Veja aqui como registar a sua aplicação com a Ferramenta de Registo de Aplica�
 
 5. Se selecionou **Aplicação Web do lado do servidor** para o tipo de aplicação, então continue a introduzir um valor para o **URL da Home Page** e **URL de Redirecionamento**. O **URL de Redirecionamento** funciona com qualquer URL válido e deve corresponder à aplicação que criou. Se selecionou **Nativa**, então avance para o passo 6.
 
-6. Selecione as APIs Power BI de que a sua aplicação precisa. Para obter mais informações sobre as permissões de acesso do Power BI, consulte [Permissões e consentimento no ponto final da plataforma de identidades da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). Em seguida, selecione **Registar**.
+6. Selecione as APIs Power BI de que a sua aplicação precisa. Para obter mais informações sobre as permissões de acesso do Power BI, consulte [Permissões e consentimento no ponto final da plataforma de identidades da Microsoft](/azure/active-directory/develop/v2-permissions-and-consent). Em seguida, selecione **Registar**.
 
     ![Escolher APIs para registar](media/register-app/register-app-new-app-registration-apis-register.png)
 
@@ -86,7 +86,7 @@ A outra opção para registar a aplicação é fazê-lo diretamente no portal do
 
 5. Siga as instruções e crie uma nova aplicação.
 
-   Para obter mais informações sobre como registar aplicações no Azure Active Directory, veja [Register an app with the Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app) (Registar aplicações com o Azure Active Directory)
+   Para obter mais informações sobre como registar aplicações no Azure Active Directory, veja [Register an app with the Azure Active Directory](/azure/active-directory/develop/quickstart-v2-register-an-app) (Registar aplicações com o Azure Active Directory)
 
 ## <a name="how-to-get-the-application-id"></a>Como obter o ID de Aplicação
 
@@ -94,7 +94,7 @@ Ao registar uma aplicação, receberá um [ID de Aplicação](embed-sample-for-c
 
 ## <a name="how-to-get-the-service-principal-object-id"></a>Como obter o ID do objeto do principal de serviço
 
-Ao utilizar as [APIs Power BI](https://docs.microsoft.com/rest/api/power-bi/), certifique-se de que define as operações através do [ID do objeto do principal de serviço](embed-service-principal.md) para fazer referência ao principal de serviço – por exemplo, para aplicar um principal de serviço como um administrador à sua área de trabalho.
+Ao utilizar as [APIs Power BI](/rest/api/power-bi/), certifique-se de que define as operações através do [ID do objeto do principal de serviço](embed-service-principal.md) para fazer referência ao principal de serviço – por exemplo, para aplicar um principal de serviço como um administrador à sua área de trabalho.
 
 ## <a name="apply-permissions-to-your-application-within-azure-ad"></a>Aplicar permissões à sua aplicação no Azure AD
 
@@ -120,7 +120,7 @@ Precisa de ter sessão iniciada com uma conta *mestra*, utilizada para incorpora
 
 ### <a name="applying-permissions-programmatically"></a>Aplicar permissões programaticamente
 
-1. Tem de obter os principais de serviço existentes (utilizadores) no seu inquilino. Para obter informações sobre como fazê-lo, veja [servicePrincipal](https://docs.microsoft.com/graph/api/resources/serviceprincipal?view=graph-rest-beta).
+1. Tem de obter os principais de serviço existentes (utilizadores) no seu inquilino. Para obter informações sobre como fazê-lo, veja [servicePrincipal](/graph/api/resources/serviceprincipal?view=graph-rest-beta).
 
     Pode chamar a *API Obter servicePrincipal* sem {ID} e esta irá apresentar-lhe todos os principais de serviço no inquilino.
 
@@ -141,11 +141,11 @@ Precisa de ter sessão iniciada com uma conta *mestra*, utilizada para incorpora
 
 4. Conceder Permissões de Aplicação à API do Power BI
 
-   Se estiver a utilizar um inquilino existente e não estiver interessado em conceder permissões em nome de todos os utilizadores de inquilino, pode conceder permissões a um utilizador específico ao substituir o valor de **contentType** para **Principal**.
+   Se estiver a utilizar um inquilino existente e não estiver interessado em conceder permissões em nome de todos os utilizadores de inquilino, poderá conceder permissões a um utilizador específico ao substituir o valor de **contentType** por **Principal**.
 
    O valor para **consentType** pode indicar **AllPrincipals** ou **Principal**.
 
-   * **AllPrincipals** só pode ser utilizado por um administrador de inquilinos para conceder permissões em nome de todos os utilizadores no inquilino.
+   * **AllPrincipals** só pode ser utilizado por um administrador do Power BI para conceder permissões em nome de todos os utilizadores no inquilino.
    * **Principal** serve para conceder permissões em nome de um utilizador específico. Neste caso, deve ser adicionada uma propriedade adicional ao corpo do pedido: *principalId = {User_ObjectId}* .
 
      Precisa de *Conceder permissões* para a conta principal, para evitar que lhe seja pedido consentimento pelo Azure AD, o que não é possível ao efetuar um início de sessão não interativo.
@@ -164,18 +164,18 @@ Precisa de ter sessão iniciada com uma conta *mestra*, utilizada para incorpora
      }
      ```
 
-    O **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* não é universal mas está dependente de inquilinos. Este valor é o objectId da aplicação "Serviço Power BI" no inquilino do Azure Active Directory (AAD).
+    O **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* não é universal, mas está dependente do inquilino. Este valor é o objectId da aplicação “Serviço Power BI” no Azure Active Directory.
 
     O utilizador pode obter este valor rapidamente no portal do Azure:
     1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
 
     2. Procure "Serviço Power BI" na Caixa de Pesquisa
 
-5. Conceder Permissões de Aplicação ao Azure Active Directory (AAD)
+5. Conceder Permissões de Aplicação ao Azure Active Directory
 
    O valor para **consentType** pode indicar **AllPrincipals** ou **Principal**.
 
-   * **AllPrincipals** só pode ser utilizado por um administrador de inquilinos para conceder permissões para todos os utilizadores no inquilino.
+   * **AllPrincipals** só pode ser utilizado por um administrador do Power BI para conceder permissões para todos os utilizadores no inquilino.
    * **Principal** serve para conceder permissões a um utilizador específico. Neste caso, deve ser adicionada uma propriedade adicional ao corpo do pedido: *principalId = {User_ObjectId}* .
 
    Precisa de *Conceder permissões* para a conta principal, para evitar que lhe seja pedido consentimento pelo Azure AD, o que não é possível ao efetuar um início de sessão não interativo.

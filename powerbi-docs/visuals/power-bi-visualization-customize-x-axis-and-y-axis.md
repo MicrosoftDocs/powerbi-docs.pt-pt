@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 332c1c1b6c3e4888f0177bab284e6b4902987be2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0da34397c1b707eeece6fdf127c2c4e96f5ab6a5
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219787"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635683"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalizar as propriedades dos eixos X e Y
 
@@ -75,7 +75,7 @@ As etiquetas do eixo X são mostradas abaixo das colunas no gráfico. Neste mome
 
 3. Mova o controlo de deslize do **eixo X** para **Ativo**.
 
-    ![Captura de ecrã do controlo de deslize Ativo.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
+    ![Captura de ecrã a mostrar o controlo de deslize Ativado para o Eixo X.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
 
     Alguns motivos pelos quais pode querer definir o eixo X como **Desativado** são, por exemplo, se a visualização for evidente e não precisar de etiquetas ou se tiver uma página de relatório muito preenchida e precisar de criar espaço para mostrar mais dados.
 
@@ -139,7 +139,7 @@ As etiquetas do eixo Y são apresentadas à esquerda por predefinição. Neste m
 
 1. Mova o controlo de deslize do **Eixo Y** para **Ativo**.  
 
-    ![Captura de ecrã do controlo de deslize Ativo.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
+    ![Captura de ecrã a mostrar o controlo de deslize Ativado para o Eixo Y.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
 
     Uma razão para querer desativar o eixo Y é poupar espaço para obter mais dados.
 

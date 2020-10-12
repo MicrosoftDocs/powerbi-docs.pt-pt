@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7d1ecb8f15cc6d10bc2e04d43796874efb161a83
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 6d35d19a1d47adc6a918f01a71c2009d71692fbd
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537924"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633912"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Dashboard tiles in Power BI (Mosaicos do dashboard no Power BI)
 
@@ -41,15 +41,15 @@ Precisa de ajuda para compreender os mosaicos modulares que compõem o Power BI?
 
     - mosaico criado com as Perguntas e Respostas
    
-        ![ícone de reticências](./media/end-user-tiles/power-bi-options-1.png)
+        ![Captura de ecrã a mostrar o menu com seis opções.](./media/end-user-tiles/power-bi-options-1.png)
 
     - mosaico criado a partir de um livro
    
-        ![ícone de reticências](./media/end-user-tiles/power-bi-options-2.png)
+        ![Captura de ecrã a mostrar o menu com três opções.](./media/end-user-tiles/power-bi-options-2.png)
 
     - mosaico criado a partir de um relatório
    
-        ![ícone de reticências](./media/end-user-tiles/power-bi-options-3.png)
+        ![Captura de ecrã a mostrar o menu com cinco opções.](./media/end-user-tiles/power-bi-options-3.png)
    
     A partir daqui, pode:
    

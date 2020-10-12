@@ -1,6 +1,6 @@
 ---
 title: Segmentação de Dados no Power BI
-description: A segmentação de dados do Power BI é uma forma alternativa de filtrar que restringe a parte do conjunto de dados apresentada nas outras visualizações num relatório.
+description: A segmentação de dados do Power BI é uma forma alternativa de filtrar que restringe a parte do conjunto de dados apresentada nas outras visualizações num relatório da sua própria criação.
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/07/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: de466c4e299a3467f66b7b769303e1eadd7ee5b0
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: 1f68ed28a57f5dd52d447d48ea231e468dd5d02a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409634"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747741"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentação de Dados no Power BI
 

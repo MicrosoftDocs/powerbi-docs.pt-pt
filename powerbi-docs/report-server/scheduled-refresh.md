@@ -1,6 +1,6 @@
 ---
 title: Atualização agendada para relatórios do Power BI no Power BI Report Server
-description: Os relatórios do Power BI podem ligar-se a diferentes origens de dados. Consoante a forma como os dados são utilizados, estão disponíveis diferentes origens de dados.
+description: A atualização agendada para os relatórios do Power BI permite que os dados de um relatório com um modelo incorporado fiquem atualizados.
 author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 89adff51d70be24e4f42c379a729fd1123ca10a5
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 710df5f4159f49884d9eee1044b2c077c7edcb88
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861780"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749098"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Atualização agendada para relatórios do Power BI no Power BI Report Server
 A atualização agendada para relatórios do Power BI permite que os dados de um relatório fiquem atualizados.
@@ -64,7 +64,7 @@ Para obter informações sobre as definições de memória no Analysis Services,
 ### <a name="data-model-size-limit"></a>Limite de tamanho do modelo de dados
 O modelo de dados carregado no motor interno do Analysis Services durante uma atualização agendada tem um tamanho máximo de 2000 MB (2 GB). Este tamanho máximo não pode ser configurado. Se o seu modelo de dados tiver mais do que 2 GB, irá receber o erro de atualização, "O comprimento do resultado excede o limite de comprimento (2 GB) do tipo grande de destino." Nesse caso, recomendamos que aloje o modelo numa instância do Analysis Services e utilize uma ligação em direto ao modelo no relatório.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 Configure a [atualização agendada](configure-scheduled-refresh.md) num relatório do Power BI.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

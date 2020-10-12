@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 6b8d02984fdd6af467b0df5acb6c1455a6e93172
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f3f76bd7c422d07cb2b390c2aebd92a2d7fe4ef3
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221052"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749052"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded
 
@@ -48,7 +48,7 @@ Tem de efetuar alguns procedimentos para preparar a migração da Coleção de �
    * Utilizar um inquilino separado para a sua aplicação?
    * Utilizar um inquilino separado para cada cliente?
 
-     Se optar por criar um novo inquilino para a sua aplicação ou para cada cliente, consulte o artigo [Criar um inquilino do Azure Active Directory](create-an-azure-active-directory-tenant.md) ou [Como obter um inquilino do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant).
+     Se optar por criar um novo inquilino para a sua aplicação ou para cada cliente, consulte o artigo [Criar um inquilino do Azure Active Directory](create-an-azure-active-directory-tenant.md) ou [Como obter um inquilino do Azure Active Directory](/azure/active-directory/develop/active-directory-howto-tenant).
 2. Crie um utilizador neste novo inquilino que irá funcionar como a conta "principal" da aplicação. Essa conta tem de se inscrever no Power BI e tem de ter uma licença do Power BI Pro atribuída.
 
 ## <a name="accounts-within-azure-ad"></a>Contas no Azure AD
@@ -58,7 +58,7 @@ As contas que se seguem têm de existir no seu inquilino.
 > [!NOTE]
 > Estas contas têm de ter licenças do Power BI Pro para poderem utilizar áreas de trabalho.
 
-1. Um utilizador administrador do inquilino.
+1. Um administrador do Power BI.
 
     Recomenda-se que este utilizador seja membro de todas as áreas de trabalho criadas para fins de incorporação.
 
@@ -168,7 +168,7 @@ Além do conteúdo migrado a partir da Coleção de Áreas de Trabalho do Power 
 ## <a name="rebuild-your-application"></a>Reconstruir a aplicação
 
 1. Terá de modificar a sua aplicação para utilizar as APIs REST do Power BI e a localização de relatórios no powerbi.com.
-2. Reconstrua a sua autenticação AuthN/AuthZ com a conta *principal* da aplicação. Pode tirar partido da utilização de um [token de incorporação](https://docs.microsoft.com/rest/api/power-bi/embedtoken) para permitir que este utilizador aja em nome de outros utilizadores.
+2. Reconstrua a sua autenticação AuthN/AuthZ com a conta *principal* da aplicação. Pode tirar partido da utilização de um [token de incorporação](/rest/api/power-bi/embedtoken) para permitir que este utilizador aja em nome de outros utilizadores.
 3. Incorpore os relatórios de powerbi.com na sua aplicação.
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>Mapear os utilizadores para um utilizador do Power BI
@@ -180,7 +180,7 @@ Na sua aplicação, irá mapear os utilizadores que gere na aplicação para uma
 Quando estiver pronto para avançar para a produção, terá de fazer o seguinte.
 
 * Se estiver a utilizar um inquilino separado para o desenvolvimento, terá de se certificar de que as áreas de trabalho, a par dos dashboards e relatórios, estão disponíveis no seu ambiente de produção. Também terá de se certificar de que criou a aplicação no Azure AD para o seu inquilino de produção e que atribuiu as permissões de aplicação corretas, conforme indicado no Passo 1.
-* Compre uma capacidade adequada às suas necessidades. Para compreender melhor a quantidade e o tipo de capacidade que precisa, veja o [Documento técnico de planeamento da capacidade de análise do Power BI Embedded](https://aka.ms/pbiewhitepaper). Pode [comprar capacidade](https://portal.azure.com/#create/Microsoft.PowerBIDedicated) no Azure.
+* Compre uma capacidade adequada às suas necessidades. Para compreender melhor a quantidade e o tipo de capacidade que precisa, veja o [Documento técnico de planeamento da capacidade de análise do Power BI Embedded](./embedded-capacity-planning.md). Pode [comprar capacidade](https://portal.azure.com/#create/Microsoft.PowerBIDedicated) no Azure.
 * Edite a área de trabalho e atribua-a a uma capacidade Premium em Avançadas.
 
     ![Capacidade Premium](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
@@ -204,7 +204,7 @@ Deve fazer uma limpeza no Azure.
 [Repositório Git da API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Repositório Git C# do Power BI](https://github.com/Microsoft/PowerBI-CSharp)  
 [Exemplo de incorporação de JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[Documento técnico de planeamento da capacidade de análise da Coleção de Áreas de Trabalho](https://aka.ms/pbiewhitepaper)  
+[Documento técnico de planeamento da capacidade de análise da Coleção de Áreas de Trabalho](./embedded-capacity-planning.md)  
 [Documento técnico do Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

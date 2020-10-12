@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: painbar
-ms.openlocfilehash: f946c3b10f9d4922c227dd92a748af91266c040e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b84cf4969df05d4e9570b12a80436bca3e280be
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75221815"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668327"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Tutorial: Fazer perguntas sobre os seus dados com o analista virtual Perguntas e Respostas nas aplicações Power BI para iOS
 
@@ -92,13 +92,13 @@ Quando tiver terminado o tutorial, pode eliminar o dashboard, o relatório e o c
 
 3. Clique no separador Dashboards e, em seguida, na linha Exemplo de Análise de Oportunidade, clique no ícone de caixote do lixo.
 
-    ![Selecionar o ícone Eliminar](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
+    ![Captura de ecrã a mostrar a área de trabalho do Power BI com um dashboard selecionado e o ícone Eliminar destacado.](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
 
     Agora, selecione o separador Relatórios e repita o procedimento.
 
 4. Depois, selecione o separador Conjuntos de dados, clique em **Mais opções** (...) e, em seguida, selecione **Eliminar**.
 
-    ![Selecionar o ícone Eliminar](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
+    ![Captura de ecrã a mostrar a área de trabalho do Power BI com um conjunto de dados selecionado e Eliminar selecionado no menu de opções Mais.](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
 
 ## <a name="next-steps"></a>Próximos passos
 

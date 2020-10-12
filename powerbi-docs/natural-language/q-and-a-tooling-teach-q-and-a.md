@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/21/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 8f0d4c970de1724f47a016cbe063f1cc3df20178
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b2eff10484a7e05a9e51dfc09d44598de034ee88
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239922"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635246"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Ensinar Perguntas e Respostas para compreender as perguntas e os termos nas Perguntas e Respostas do Power BI
 
@@ -61,7 +61,7 @@ As Perguntas e Respostas detetam automaticamente quando uma palavra não reconhe
 
 Preenche a caixa com o termo dos seus dados.
 
-![Pedido de sinónimo de Ensinar Perguntas e Respostas](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
+![Captura de ecrã a mostrar parte de uma caixa de Perguntas e Respostas com a palavra Receita e o pedido Receita refere-se ao lado de uma caixa de texto.](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 Se fornecer algo diferente de um campo do modelo de dados, poderá obter resultados indesejáveis.
 
@@ -73,7 +73,7 @@ Por vezes, poderá querer definir termos que atuem como uma condição nos dados
 
 Preenche a caixa com a condição.
 
-![Pedido de sinónimo de Ensinar Perguntas e Respostas](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
+![Captura de ecrã a mostrar parte de uma caixa de Perguntas e Respostas com as palavras Publicadores fantásticos e o pedido “Publicadores que têm” ao lado de uma caixa de texto e as palavras “são fantásticos”.](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 Algumas condições de exemplo que pode definir são:
 

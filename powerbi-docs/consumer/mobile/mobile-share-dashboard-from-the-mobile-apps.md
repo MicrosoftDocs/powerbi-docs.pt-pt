@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 374b9eb1becb5c343600521efc2d493f7d83e677
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 5656e4b708cb52519b6dee25a8142b3c49af6532
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854053"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668442"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Partilhar um dashboard ou relatório a partir das aplicações móveis do Power BI
 Aplica-se a:
@@ -61,7 +61,7 @@ Só pode anular a partilha se for o proprietário.
  
 2. Escreva os endereços de e-mail e uma mensagem para acompanhar o seu convite de dashboard. Caso contrário, o Power BI envia uma mensagem predefinida. Para permitir que se volte a partilhar, deixe a opção **Permitir que os destinatários partilhem este dashboard** selecionada. Voltar a partilhar permite que os seus colegas de trabalho encaminhem o convite por e-mail a outros membros da sua organização, por meio da Web ou das aplicações móveis.
    
-3. Toque no ícone **Enviar**![ícone Enviar](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-send-icon.png) no canto superior direito para enviar o e-mail.
+3. Toque no ícone **Enviar** :::image type="icon" source="./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-send-icon.png" border="false"::: no canto superior direito para enviar o e-mail.
    
     Os destinatários vão receber um convite por e-mail, incluindo uma ligação direta para o dashboard ou relatório. O convite expira após um mês. Quando o abrirem no serviço Power BI ou na aplicação móvel do Power BI, este será adicionado à secção **Partilhado comigo** da respetiva conta do Power BI. Para aceder à secção "Partilhado comigo":
    * Na aplicação móvel do Power BI, toque em **Mais opções** (...) na barra de navegação e selecione ![Partilhado comigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Partilhado comigo**.
@@ -90,7 +90,7 @@ Só pode anular a partilha se for o proprietário.
 
 2. Escreva os endereços de e-mail e uma mensagem para acompanhar o seu convite. Caso contrário, o Power BI envia uma mensagem predefinida. Para permitir que se volte a partilhar, deixe a opção **Permitir que os destinatários partilhem este dashboard** selecionada. Voltar a partilhar permite que os seus colegas de trabalho partilhem com outros membros da sua organização, através do browser ou de aplicações móveis.
    
-3. Toque no ícone **Enviar**![ícone Enviar](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png).
+3. Toque no ícone **Enviar** :::image type="icon" source="./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png" border="false":::.
    
     Os destinatários vão receber um convite por e-mail, incluindo uma ligação direta para o dashboard ou relatório. O convite expira após um mês. Quando o abrirem no serviço Power BI ou na aplicação móvel do Power BI, este será adicionado à secção **Partilhado comigo** da respetiva conta do Power BI. Para aceder à secção "Partilhado comigo":
    

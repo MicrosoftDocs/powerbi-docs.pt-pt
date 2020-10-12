@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 68bfe1a97d9db0b12f3942961c4e50e5c535fd84
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 23f1ab7fb7ae5e143084042699db708c0827114f
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856191"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668557"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Explorar mosaicos nas aplicações móveis do Power BI
 Aplica-se a:
@@ -57,7 +57,7 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
     ![Captura de ecrã a mostrar uma caixa de diálogo com a permissão do Power BI para abrir ligações com um browser interno.](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
     Depois de abrir a ligação na aplicação do Power BI, pode copiar a ligação e abri-la numa janela do browser.
-7. [Abra o relatório](mobile-reports-in-the-mobile-apps.md) ![Ícone de abrir relatório](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) em que o mosaico se baseia.
+7. [Abra o relatório](mobile-reports-in-the-mobile-apps.md) ![Ícone Abrir relatório no iOS.](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) no qual o mosaico se baseia.
 8. Para sair do modo de detalhe do mosaico, toque no nome do mosaico e, em seguida, toque no nome do dashboard ou em **A Minha Área de Trabalho**.
    
     ![Captura de ecrã a mostrar um dashboard com ponteiros para A Minha Área de Trabalho e Exemplo de Análise de Oportunidade.](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
@@ -72,7 +72,7 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
    
    * Toque no gráfico para mover a barra num gráfico de linhas, barras, colunas ou bolhas, para ver os valores de um ponto específico na visualização.  
    * Toque no ícone de lápis ![Ícone de lápis](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) para [anotar um mosaico](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) e, em seguida, toque no ícone Partilhar instantâneo ![Ícone de Partilhar instantâneo](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) para [o partilhar](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) com outras pessoas.
-   * Toque no ícone Abrir relatório ![Ícone de abrir relatório](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) para [ver o relatório](mobile-reports-in-the-mobile-apps.md) na aplicação móvel.
+   * Toque no ícone Abrir relatório ![Ícone Abrir relatório no Android.](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) para [ver o relatório](mobile-reports-in-the-mobile-apps.md) na aplicação móvel.
 3. Por vezes, o criador do dashboard adiciona uma ligação a um mosaico. Se for esse o caso, ao tocar nas reticências verticais ( **...** ), verá **Abrir ligação** ![Ícone de ligação](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
     ![Captura de ecrã a mostrar um dashboard com as reticências verticais a apontar para Abrir Ligação.](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)

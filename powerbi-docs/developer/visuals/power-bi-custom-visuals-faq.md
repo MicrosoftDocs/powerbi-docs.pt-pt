@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
-ms.date: 12/17/2018
-ms.openlocfilehash: 8003d7ed6d6b455860ed5ed3bc4ada06c0a35c5f
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.date: 09/30/2020
+ms.openlocfilehash: 10790ef963a11fd78c41a28b54e7d177bd96a157
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537809"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747925"
 ---
 # <a name="power-bi-visuals-faq"></a>FAQ sobre elementos visuais do Power BI
 
@@ -32,9 +32,9 @@ Quando o administrador carrega uma nova versão de um elemento visual organizaci
 
 Os utilizadores podem encontrar os elementos visuais organizacionais do Power BI no arquivo da organização incorporado do Power BI Desktop e do serviço Power BI, no separador *A MINHA ORGANIZAÇÃO*. 
 
-### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Se um administrador carregar um elemento visual do Power BI do marketplace público para o arquivo da organização, este será automaticamente atualizado assim que o fornecedor atualizar o elemento visual no marketplace público?
+### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-using-add-visual--from-appsource-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Se um administrador carregar um elemento visual do Power BI do marketplace público para o arquivo da organização com *Adicionar elemento visual > do AppSource*, este será automaticamente atualizado assim que o fornecedor atualizar o elemento visual no marketplace público?
 
-Não, não existem atualizações automáticas no marketplace público. O Administrador terá de atualizar a versão dos elementos visuais organizacionais do Power BI.
+Sim, o elemento visual é automaticamente atualizado no marketplace público. Se o elemento visual for certificado, a certificação será retida, incluindo as funcionalidades adicionais como Exportar para PDF ou para PowerPoint.
 
 ### <a name="is-there-a-way-to-disable-the-organization-store"></a>Existe alguma forma de desativar o arquivo da organização?
 
@@ -135,7 +135,7 @@ Os elementos visuais de IAP disponibilizam compras via aplicação adicionais op
 
 ### <a name="what-is-changing-in-the-submission-process"></a>O que será alterado no processo de submissão?
 
-O processo de submissão de elementos visuais do Power BI IAP e de elementos visuais do Power BI gratuitos para o marketplace é o mesmo. Pode submeter um elemento visual do Power BI para ser certificado através do [Centro de Parceiros](https://docs.microsoft.com/partner-center/).
+O processo de submissão de elementos visuais do Power BI IAP e de elementos visuais do Power BI gratuitos para o marketplace é o mesmo. Pode submeter um elemento visual do Power BI para ser certificado através do [Centro de Parceiros](/partner-center/).
 
 
 Ao registar o elemento visual do Power BI, navegue para o separador *Configuração do produto* e selecione a caixa de verificação *O meu produto requer a compra de um serviço*.

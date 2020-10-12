@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/22/2020
+ms.date: 10/5/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 59ea8bf0ffa3b4b871c26758fd7433525e1eecd3
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 0b6ccdf2e5caad141ef0c33ae70b9c2f2b604462
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537947"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780157"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Visualizar os dashboards e os relatórios partilhados comigo
 
@@ -22,9 +22,9 @@ ms.locfileid: "87537947"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Quando um colega partilha conteúdo consigo, através do botão **Partilhar**, ele aparece no seu contentor **Partilhado comigo**. O dashboard ou relatório só está disponível a partir **Partilhado comigo** e não a partir de **Aplicações**.
+Quando um colega partilhar um dashboard ou um relatório consigo, este será apresentado no contentor **Partilhado comigo**. Quando um colega partilhar uma aplicação consigo, esta será apresentada no contentor **Aplicações**.   
 
-![Ícone Partilhar](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
+![Ícone Partilhar](./media/end-user-shared-with-me/power-bi-shared-with-me.png)
 
 Veja a Amália a explicar a lista de conteúdo **Partilhado comigo** e a demonstrar como navegar e filtrar a lista. Em seguida, siga as instruções passo-a-passo abaixo do vídeo para experimentar. Para que possa ver dashboards partilhados consigo, tem de ter uma licença do Power BI Pro. Para mais detalhes, leia [O que é o Power BI Premium?](../admin/service-premium-what-is.md).
     
@@ -37,24 +37,10 @@ Veja a Amália a explicar a lista de conteúdo **Partilhado comigo** e a demonst
 
 ## <a name="interact-with-shared-content"></a>Interagir com conteúdo partilhado
 
-Tem várias opções para interagir com os dashboards e os relatórios partilhados, consoante as permissões dadas pelo *designer*. Estas incluem a capacidade de fazer cópias do dashboard, abrir o relatório [na vista de Leitura](end-user-reading-view.md) e partilhar novamente com outros colegas.
-
-![contentor Partilhado comigo](./media/end-user-shared-with-me/power-bi-shared.png)
-
-### <a name="actions-available-from-the-shared-with-me-container"></a>Ações disponíveis a partir do contentor **Partilhado comigo**
-As ações disponíveis dependem das definições atribuídas pelo *designer* do conteúdo. Algumas das opções podem incluir:
-* Selecionar o ícone de estrela para [adicionar um dashboard ou um relatório aos favoritos](end-user-favorite.md) ![ícone de estrela](./media/end-user-shared-with-me/power-bi-star-icon.png).
-* Remover um dashboard ou relatório  ![ícone de recipiente do lixo](./media/end-user-shared-with-me/power-bi-delete-icon.png).
-* Alguns dashboards e relatórios podem ser partilhados novamente  ![ícone Partilhar](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
-* [Abrir o relatório no Excel](end-user-export.md) ![ícone Exportar para Excel](./media/end-user-shared-with-me/power-bi-excel.png) 
-* [Ver as informações](end-user-insights.md) que o Power BI encontra nos dados ![ícone de informações](./media/end-user-shared-with-me/power-bi-insights.png).
-  
-  > [!NOTE]
-  > Para obter informações sobre as classificações EGRC, selecione o botão de **Classificação** ou [visite a Classificação de dados de dashboards](../create-reports/service-data-classification.md).
-  > 
+Tem várias opções para interagir com os dashboards e os relatórios partilhados, consoante as permissões dadas pelo *designer*. Estas incluem a capacidade de fazer cópias do dashboard, subscrever, abrir o relatório [na Vista de leitura](end-user-reading-view.md) e partilhar novamente com outros colegas. Selecione um dashboard ou relatório para o abrir.
 
 
-## <a name="search-and-sort-shared-dashboards"></a>Procurar e ordenar dashboards partilhados
-Se a sua lista de conteúdo for longa, terá várias opções para encontrar aquilo de que precisa. Pode utilizar o campo de pesquisa, ordenar por data ou selecionar da coluna **Proprietário**.    
+## <a name="search-and-sort-shared-dashboards-and-reports"></a>Procurar e ordenar relatórios e dashboards partilhados
+Se a lista de conteúdo **Partilhado comigo** for longa, terá várias opções para encontrar aquilo de que precisa. Pode utilizar o campo de pesquisa (1), pode ordenar por uma das colunas (2) ou pode utilizar o painel Filtros. Para abrir o painel Filtros, selecione **Filtros** no canto superior direito.    
 
-![Pesquisa e Proprietário do dashboard](./media/end-user-shared-with-me/power-bi-sort.png)
+![Pesquisa e Proprietário do dashboard](./media/end-user-shared-with-me/power-bi-filter.png)

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b4a5733e0c4b8617dc93edb1e7fe35a0a76a3338
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 963bd77568db4390bca73a4ec4e9ce97ee616a58
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238161"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632900"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Gráficos de dispersão, de bolhas e de pontos no Power BI
 
@@ -143,7 +143,7 @@ Agora, vamos adicionar uma terceira dimensão.
 
         a. Altere o campo **Total sales variance %** para **Gross margin last year %** .
 
-        ![Captura de ecrã a mostrar o gráfico de bolhas com a linha mediana adicionada.](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+        ![Captura de ecrã a mostrar Detalhes com Percentagem de Margem Bruta do Ano Passado selecionada.](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
 
         b. No painel de Análise, adicione o **Sombreado de simetria**. Com base no sombreado, podemos ver que Hosiery (a bolha verde na área sombreada rosa) é a única categoria que favorece a margem bruta em detrimento das respetivas vendas por metro quadrado da loja. 
 
@@ -151,7 +151,7 @@ Agora, vamos adicionar uma terceira dimensão.
 
     - Continue a explorar o painel de Análise para descobrir informações relevantes sobre os seus dados. 
 
-        ![Captura de ecrã a mostrar o gráfico de bolhas com o sombreado de simetria adicionado.](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
+        ![Captura de ecrã a mostrar o painel Análise.](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>Criar um gráfico de pontos
 

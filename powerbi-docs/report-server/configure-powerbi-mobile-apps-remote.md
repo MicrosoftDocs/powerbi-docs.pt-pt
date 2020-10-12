@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: 996e3835337ce8aa1002abce7682d707daec032e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d5f55c005f34bc1e3aa9ab5351b816616f4f7664
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859135"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668350"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>Configurar o acesso da aplicação móvel do Power BI para um Servidor de Relatórios remotamente
 
@@ -63,7 +63,7 @@ Eis um exemplo de definição da política de configuração com o Intune.
 
 3. Escrevem uma palavra-passe para autenticar e, em seguida, tocam em **Iniciar sessão**. 
 
-    ![Detalhes do servidor de relatórios preenchidos](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-address.png)
+    ![Captura de ecrã a mostrar a introdução da palavra-passe com o botão Iniciar sessão.](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-address.png)
 
 Agora, podem ver e interagir com os KPIs e os relatórios do Power BI armazenados no Servidor de Relatórios.
 

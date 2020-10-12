@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e2245861e37a67e023efde1e6fc7c68a551f2944
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: e2ad8867117977cb7f53fbd295a2f560d65b0d76
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83814020"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600532"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualização no Power BI
 ## <a name="power-bi-visualizations"></a>Visualizações do Power BI
@@ -113,7 +113,7 @@ Para obter mais informações, veja [Sugestões e truques para elementos visuais
 ### <a name="maps-arcgis-maps"></a>Mapas: Mapas ArcGIS
 ![mapa ArcGIS](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-Para obter mais informações, veja [Mapas ArcGIS no Power BI](power-bi-visualization-arcgis.md).
+Para obter mais informações, veja [Mapas ArcGIS no Power BI](power-bi-visualizations-arcgis.md).
 
 ### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas preenchidos (Coropleto)
 ![mapa de manchas](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -133,7 +133,7 @@ Para obter mais informações, veja [Mapas de Forma no Power BI](desktop-shape-m
 
 
 ### <a name="matrix"></a>Matriz
-![matriz](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![captura de ecrã a mostrar o elemento visual da matriz](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
 >Uma tabela suporta duas dimensões, mas uma matriz facilita a apresentação dos dados de forma significativa em várias dimensões – suporta um esquema gradual. A matriz agrega automaticamente os dados e permite a desagregação. 
@@ -232,7 +232,7 @@ Ao escrever consultas em linguagem natural com as Perguntas e Respostas do Power
 
 "***vendas por estado como um mapa de árvore***"
 
-Se o seu dashboard não tiver um campo de Perguntas e Respostas, pode ter sido desativado pelo seu administrador de inquilinos. 
+Se o dashboard não tiver um campo Perguntas e Respostas, este poderá ter sido desativado pelo administrador do Power BI. 
 
 ![Caixa de perguntas das Perguntas e Respostas a mostrar o tipo de visualização especificado](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 

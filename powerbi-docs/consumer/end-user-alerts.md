@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3e34a736148a5d962c1f2d56782d38f31c15b9b6
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: 22d9baaf50ce32c4a9d3644cff455b474bdd1549
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049575"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525340"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Tutorial: Definir os alertas nos dashboards do Power BI
 
@@ -86,7 +86,7 @@ Se não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuit
    
 1. No painel **Gerir alertas**, selecione **+ Adicionar regra de alerta**.  Certifique-se de que o controlo de deslize está definido como **Ativo**e atribua um título ao alerta. Os títulos ajudam a reconhecer facilmente os alertas.
    
-   ![Janela Gerir alertas](media/end-user-alerts/power-bi-alert-manage.png)
+   ![Janela Adicionar regra de alerta](media/end-user-alerts/power-bi-alert-manage.png)
 4. Desloque o ecrã para baixo e introduza os detalhes do alerta.  Neste exemplo, vamos criar um alerta que nos notifica uma vez por dia se a nossa quota de mercado aumentar para 40 ou mais. Os alertas serão apresentados no nosso [Centro de notificações](end-user-notification-center.md). E o Power BI também nos envia uma mensagem de e-mail.
    
    ![Janela Gerir alertas, definição de Limiar](media/end-user-alerts/power-bi-manage-alert-detail.png)
@@ -142,7 +142,7 @@ Existem várias formas de gerir os alertas: no próprio mosaico do dashboard, no
 
 ## <a name="tips-and-troubleshooting"></a>Sugestões e resolução de problemas 
 
-* Se não conseguir definir um alerta para um medidor, KPI ou cartão, contacte o administrador do sistema ou o suporte técnico de TI para obter ajuda. Às vezes, os alertas são desativados ou não estão disponíveis no seu dashboard ou para determinados tipos de mosaicos do dashboard.
+* Se não conseguir definir um alerta para um medidor, um KPI ou um cartão, contacte o administrador do Power BI ou o suporte técnico de TI para obter ajuda. Às vezes, os alertas são desativados ou não estão disponíveis no seu dashboard ou para determinados tipos de mosaicos do dashboard.
 * Os alertas só funcionam em dados que são atualizados. Não funcionam em dados estáticos. Os exemplos fornecidos pela Microsoft são, em grande parte, estáticos. 
 * A capacidade de receber e ver conteúdos partilhados exige uma licença Power BI Pro ou Premium. Para obter mais informações, leia [Qual é a minha licença?](end-user-license.md).
 * Os alertas podem ser definidos em elementos visuais criados a partir de fluxos de conjuntos de dados que são afixados de um relatório a um dashboard. Os alertas não podem ser definidos em fluxos de mosaicos criados diretamente no dashboard com **Adicionar mosaico** > **Dados de transmissão em fluxo personalizados**.

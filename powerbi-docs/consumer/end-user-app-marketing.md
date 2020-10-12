@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8020e68db6b0baaabdde626d1b17674fe995ca2
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c3019abae20aec5e71d6b4cbae94c77426a151bd
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88205115"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635821"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Instalar e utilizar a aplicação de exemplo Sales and Marketing no serviço Power BI
 
@@ -53,11 +53,11 @@ Agora que já possui [noções básicas sobre como obter conteúdos do Power BI]
 
 6. Escolha se pretende ligar os seus próprios dados, explorar com dados de exemplo ou personalizar e partilhar a sua nova aplicação. Uma vez que selecionámos uma aplicação de exemplo da Microsoft, vamos começar por explorar. 
 
-    ![Explorar com dados de exemplo](./media/end-user-app-marketing/power-bi-explore-app.png)
+    ![Captura de ecrã a mostrar Comece a utilizar a nova aplicação com a opção Explorar com dados de exemplo destacada.](./media/end-user-app-marketing/power-bi-explore-app.png)
 
 7.  A sua nova aplicação é aberta com um dashboard. No entanto, o *designer* da aplicação poderia tê-la configurado para abrir um relatório.  
 
-    ![Explorar com dados de exemplo](./media/end-user-app-marketing/power-bi-app-new.png)
+    ![Captura de ecrã a mostrar um dashboard da aplicação.](./media/end-user-app-marketing/power-bi-app-new.png)
 
 
 

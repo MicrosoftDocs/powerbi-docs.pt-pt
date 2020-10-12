@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3154becb2f496c0bbb0f84d1c1e7316868251c36
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3340225ccd4c6457e25013b6c347769d848b104c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226041"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374942"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Destacar conteúdo na Base do Power BI de colegas
 
@@ -24,7 +24,7 @@ Pode destacar dashboards, relatórios e aplicações de forma a serem apresentad
 
 ## <a name="who-can-feature-content"></a>Quem pode destacar conteúdo
 
-Cabe ao seu administrador do inquilino do Power BI permitir a capacidade de destacar conteúdo no seu inquilino. O administrador também escolhe quem pode destacar conteúdo. Veja o artigo do [portal de administração](../admin/service-admin-portal.md#featured-content) para obter mais detalhes.
+Cabe ao administrador do Power BI ativar a capacidade de destacar conteúdo no inquilino. O administrador também escolhe quem pode destacar conteúdo. Veja o artigo do [portal de administração](../admin/service-admin-portal.md#featured-content) para obter mais detalhes.
 
 Se for um dos grupos selecionados na sua organização com essa responsabilidade, tem de ter uma licença do Power BI Pro. Para destacar dashboards e relatórios, tem de ter a função de Administrador, Membro ou Contribuidor na área de trabalho. Para destacar a própria aplicação, tem de ter a função de Administrador ou Membro na área de trabalho. Veja as [Funções nas novas áreas de trabalho](service-new-workspaces.md#roles-in-the-new-workspaces) para obter mais detalhes.
 
@@ -38,13 +38,13 @@ O procedimento para destacar um dashboard ou um relatório é semelhante.
 
 1. Nas listas **Dashboards** ou **Relatórios** de uma área de trabalho, selecione o ícone **Definições**.
 
-    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Ícone Definições de Relatório":::
+    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Conteúdo em destaque do Power BI na Base":::
 
 2. No painel **Definições**, selecione ou altere o nome. Adicione uma **Descrição** e carregue um **Instantâneo**, caso pretenda. Estes são úteis porque ajudam os utilizadores a encontrar os seus conteúdos.
 
 3. Selecione **Em destaque**.
 
-    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Definições de conteúdo em destaque":::
+    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Conteúdo em destaque do Power BI na Base":::
 
 4. Selecione **Guardar**.
 

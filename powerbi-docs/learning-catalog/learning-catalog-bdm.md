@@ -1,17 +1,17 @@
 ---
 title: Catálogo de aprendizagem dos Decisores Técnicos e Empresariais
-description: Encontre todas as opções de formação para o Power BI
+description: Descubra todas as opções de formação do Power BI para decisores técnicos e empresariais, desde as mais básicas às mais avançadas.
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: af44ca4674d66c8415b9919c9c83e3fbfda391b1
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: d64b83c08f4b7a332d0b4b894ea136921bc57ae6
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528028"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749259"
 ---
 # <a name="business-and-technical-decision-makers-learning-catalog"></a>Catálogo de aprendizagem dos Decisores Técnicos e Empresariais
 

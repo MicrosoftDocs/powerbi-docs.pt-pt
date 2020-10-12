@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/08/2020
-ms.openlocfilehash: 37bd8f15dcf17cd0f967e819338a719edf2a3054
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8eeca13acb1568a671618dca75d20cb7667b538b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276381"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747557"
 ---
 # <a name="create-an-ssl-certificate"></a>Criar um certificado SSL
 
 Este artigo descreve como gerar e instalar certificados Secure Sockets Layer (SSL) para elementos visuais do Power BI.
 
-Para os procedimentos do Windows, macOS X e Linux, deve ter o pacote **pbiviz** das Ferramentas dos Elementos Visuais do Power BI instalado. Para obter mais informações, veja [Configurar o ambiente de programador](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#setting-up-the-developer-environment). 
+Para os procedimentos do Windows, macOS X e Linux, deve ter o pacote **pbiviz** das Ferramentas dos Elementos Visuais do Power BI instalado. Para obter mais informações, veja [Configurar o ambiente de programador](./custom-visual-develop-tutorial.md#setting-up-the-developer-environment). 
 
 ## <a name="create-a-certificate-on-windows"></a>Criar um certificado no Windows
 
@@ -31,7 +31,7 @@ pbiviz --install-cert
 
 Para o Windows 7, a ferramenta `pbiviz` requer que o utilitário OpenSSL esteja disponível na linha de comandos. Para instalar o OpenSSL, aceda a [OpenSSL](https://www.openssl.org) ou [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries).
 
-Para obter mais informações e instruções para a instalação de um certificado, veja [Criar e instalar um certificado para o Windows](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#windows).
+Para obter mais informações e instruções para a instalação de um certificado, veja [Criar e instalar um certificado para o Windows](./custom-visual-develop-tutorial.md#windows).
 
 ## <a name="create-a-certificate-on-macos-x"></a>Criar um certificado no macOS X
 
@@ -58,7 +58,7 @@ Após a instalação do utilitário OpenSSL, execute o seguinte comando para ger
 pbiviz --install-cert
 ```
 
-Para obter mais informações e instruções, veja [Criar e instalar um certificado para o OS X](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#osx).
+Para obter mais informações e instruções, veja [Criar e instalar um certificado para o OS X](./custom-visual-develop-tutorial.md#osx).
 
 ## <a name="create-a-certificate-on-linux"></a>Criar um certificado no Linux
 
@@ -184,7 +184,7 @@ Se o ficheiro de certificado PFX exigir uma frase de acesso:
    \PowerBI-visuals-tools\config.json
    ```
    
-1. Na secção `server`, especifique a frase de acesso ao substituir o marcador de posição \<A SUA FRASE DE ACESSO:
+1. Na secção `server`, especifique a frase de acesso ao substituir o marcador de posição \<YOUR PASSPHRASE>:
 
     ```cmd
     "server":{

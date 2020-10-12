@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9d74733e6baad4f84d52e8bc8749fe0295eedb2e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7aebef72952c75ed6ec406c6f3f9e888f047086
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239832"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632831"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Criar e ver os elementos visuais da árvore de decomposição no Power BI
 
@@ -53,7 +53,7 @@ Depois de arrastar a medida para o conjunto de campo, as atualizações dos elem
 
 O próximo passo é importar uma ou mais dimensões que quer desagregar. Adicione estes campos ao registo **Explicar por**. Observe que um sinal de adição aparece ao lado do nó raiz. Ao selecionar o sinal +, pode escolher qual o campo que quer desagregar (pode desagregar os campos pela ordem que preferir).
 
-![Menu da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-menu.png)
+![Captura de ecrã a mostrar o ícone de adição selecionado e a apresentar as opções da lista Explicar por.](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
 Ao selecionar os resultados **Desvio da previsão** na árvore, pode expandir e desagregar a medida mediante os valores na coluna. Este processo pode ser repetido ao escolher outro nó para desagregar.
 
@@ -61,7 +61,7 @@ Ao selecionar os resultados **Desvio da previsão** na árvore, pode expandir e 
 
 Ao selecionar um nó do último nível, filtrará os dados de forma cruzada. A seleção de um nó de um nível anterior altera o caminho.
 
-![Menu da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
+![Animação a mostrar a seleção de um nó num nível anterior e como altera a visualização para mostrar os nós subordinados.](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
 
 A interação com outros elementos visuais filtra a árvore de decomposição de forma cruzada. Desta forma, a ordem dos nós dentro dos níveis pode ser alterada.
 No exemplo abaixo, filtrámos a árvore por Ubisoft de forma cruzada. As atualizações do caminho e as vendas da Xbox passam do primeiro para o segundo lugar, sendo ultrapassadas pela PlayStation. 
@@ -70,7 +70,7 @@ Se, em seguida, filtrarmos a árvore por Nintendo de forma cruzada, as vendas da
 
 Apesar de o caminho desaparecer, os níveis existentes (neste caso, Género de Jogo) permanecem afixados na árvore. Desta forma, a seleção do nó Nintendo expande automaticamente a árvore para Género de Jogo.
 
-![Menu da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
+![Animação a mostrar a seleção de filtros cruzados que afetam que nós são apresentados.](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
 
 
 ## <a name="ai-splits"></a>Divisões de IA
@@ -132,11 +132,11 @@ Se selecionar um nó diferente na árvore, as Divisões de IA serão recalculada
 
 Os níveis de IA também são recalculados quando filtra de forma cruzada a árvore de decomposição por outro elemento visual. No exemplo a seguir, podemos ver que a % das nossas encomendas em atraso é mais alta nas Instalações N.º 0477.
 
-![Filtragem cruzada da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
+![Captura de ecrã a mostrar a Análise da causa com todos os meses selecionados.](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
 
 Porém, se selecionarmos **Abril** no gráfico de barras, o valor mais alto muda para **Tipo de Produto > Cirurgia Avançada**. Neste caso, não são apenas os nós que foram reordenados, mas foi escolhida uma coluna completamente diferente. 
 
-![Filtragem cruzada da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
+![Captura de ecrã a mostrar a Análise da causa apenas com o mês de abril selecionado.](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
 
 Se quisermos que os níveis de IA se comportem como níveis não IA, selecione a lâmpada para reverter o comportamento para a predefinição. 
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/10/2020
 ms.author: painbar
-ms.openlocfilehash: db889c945a7ea6f674bcc95e8ccf2c2075d56094
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 5add474500754405acb959577a0a7eb2e50a148b
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091702"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668649"
 ---
 # <a name="view-dashboards-in-the-power-bi-mobile-apps"></a>Ver dashboards nas aplicações móveis do Power BI
 Aplica-se a:
@@ -44,12 +44,12 @@ Segue-se um dashboard do Power BI no serviço Power BI:
    
     ![Toque no dashboard](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
-   * As estrelas amarelas ![Estrelas favoritas](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostram os dashboards favoritos. 
-   * A notação abaixo de cada nome de dashboard (neste caso, "MBI") ![Classificação de dados](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../create-reports/service-data-classification.md).
+   * As estrelas amarelas ![Estrela favorita](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostram os dashboards favoritos. 
+   * A notação abaixo de cada nome de dashboard (neste caso, “MBI”) :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png" border="false"::: mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../create-reports/service-data-classification.md).
    
    Por predefinição, os dashboards do Power BI parecem um pouco diferentes no seu iPhone. Todos os mosaicos são apresentados com o mesmo tamanho e são dispostos um após o outro, de cima para baixo.
    
-    ![Vista vertical do dashboard](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
+    ![Captura de ecrã a mostrar um iPhone com vários mosaicos do Power BI que têm o mesmo tamanho.](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
    
    > [!TIP]
    > Se for o proprietário do dashboard, no serviço Power BI, pode [criar uma vista do dashboard especificamente para telemóveis](../../create-reports/service-create-dashboard-mobile-phone-view.md) no modo vertical. 
@@ -62,12 +62,12 @@ Segue-se um dashboard do Power BI no serviço Power BI:
 3. Passe o dedo para cima e para baixo para ver todos os mosaicos no dashboard. Pode:
    
    * [Toque num mosaico](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo de detalhe e interagir com o mesmo.
-   * Toque na estrela ![Estrela favorita](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) para [torná-lo um favorito](mobile-apps-favorites.md).
+   * Toque na estrela ![Estrela Não favorito](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) para [o tornar num favorito](mobile-apps-favorites.md).
    * Toque em **Convidar** ![Ícone de convite](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) para [convidar um colega](mobile-share-dashboard-from-the-mobile-apps.md) para ver o seu dashboard.
    * [Sincronize o dashboard com o Apple Watch](mobile-apple-watch.md).
 4. Para regressar à lista de dashboards, toque na seta junto ao título do dashboard e, em seguida, toque em **A Minha Área de Trabalho**.
    
-   ![Trilho](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
+   ![Captura de ecrã a mostrar um dashboard do Power BI que tem mosaicos de tamanhos diferentes dispostos conforme projetado.](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
 
 ### <a name="view-dashboards-in-landscape-mode-in-your-iphone"></a>Ver dashboards no modo horizontal no iPhone
 Basta colocar o telemóvel de lado para ver dashboards no modo horizontal. O esquema do dashboard muda de uma série de mosaicos para uma vista de todo o dashboard. Vê todos os mosaicos do dashboard dispostos da mesma forma que no serviço Power BI.
@@ -82,13 +82,13 @@ Pode utilizar o gesto de aproximar os dedos para ampliar e reduzir áreas difere
    É necessário [transferir a aplicação iPad](https://go.microsoft.com/fwlink/?LinkId=522062) da Apple App Store primeiro?
 2. Toque em **Dashboards** na parte superior da aplicação.  
    
-   ![Página inicial do dashboard](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
+   ![Captura de ecrã a mostrar um ecrã de iPad com A Minha Área de Trabalho com DASHBOARDS selecionado.](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * As estrelas amarelas ![Estrela favorita](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostram os dashboards favoritos. 
-   * A notação abaixo de cada nome de dashboard (neste caso, "MBI") ![Classificação de dados](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../create-reports/service-data-classification.md).
+   * A notação abaixo de cada nome de dashboard (neste caso, “MBI”) :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png" border="false"::: mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../create-reports/service-data-classification.md).
 3. Pode partilhar um dashboard a partir da sua área de trabalho. Toque nas reticências ( **...** ) no canto inferior direito do mosaico do dashboard e toque em **Convidar Outras Pessoas**.
    
-   ![Ícone de convite](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
+   ![Captura de ecrã a mostrar o controlo de reticências selecionado, que apresenta Convidar Outros.](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. Também pode tocar num dashboard para abri-lo e ver os respetivos mosaicos. Enquanto estiver no dashboard, pode interagir com o mesmo:
    
    * [Toque num mosaico para interagir](mobile-tiles-in-the-mobile-apps.md) com o mesmo.
@@ -97,7 +97,7 @@ Pode utilizar o gesto de aproximar os dedos para ampliar e reduzir áreas difere
    * [Anotar e partilhar um instantâneo](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) de um mosaico.
 5. Para regressar a A Minha Área de Trabalho, toque no nome do dashboard no canto superior esquerdo e, em seguida, toque em **A Minha Área de Trabalho**.
    
-   ![Trilho](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
+   ![Captura de ecrã a mostrar o menu de trilhos num iPad com A Minha Área de Trabalho destacada.](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
 
 ## <a name="view-dashboards-on-your-android-phone"></a>Ver dashboards no seu telemóvel Android
 1. Abra a aplicação Power BI no seu telemóvel Android e inicie sessão.
@@ -105,15 +105,15 @@ Pode utilizar o gesto de aproximar os dedos para ampliar e reduzir áreas difere
    É necessário [transferir a aplicação Android](https://go.microsoft.com/fwlink/?LinkID=544867) primeiro?
 2. Toque num dashboard para abri-lo.   
    
-   ![Página inicial do dashboard](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
+   ![Captura de ecrã a mostrar um ecrã de telemóvel Android com A Minha Área de Trabalho com DASHBOARDS selecionado.](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
     Estrelas amarelas ![Estrela favorita](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostram os dashboards favoritos. 
 
-    A notação abaixo do nome de um dashboard (neste caso, "MBI") ![Classificação de dados](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../create-reports/service-data-classification.md).
+    Uma notação abaixo de um nome de dashboard (neste caso, “MBI”) :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png" border="false"::: mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../create-reports/service-data-classification.md).
 
     Os dashboards do Power BI parecem um pouco diferentes no seu telemóvel Android. Todos os mosaicos são apresentados com a mesma largura e são dispostos um após o outro, de cima para baixo.
 
-    ![Vista vertical do dashboard](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
+    ![Captura de ecrã a mostrar um telemóvel Android com vários mosaicos que têm o mesmo tamanho.](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
     Se for o proprietário do dashboard, no serviço Power BI, pode [criar uma vista do dashboard especificamente para telemóveis](../../create-reports/service-create-dashboard-mobile-phone-view.md) no modo vertical. 
 
@@ -129,10 +129,10 @@ Pode utilizar o gesto de aproximar os dedos para ampliar e reduzir áreas difere
    É necessário [transferir a aplicação Android](https://go.microsoft.com/fwlink/?LinkID=544867) primeiro?
 2. Toque num dashboard para abri-lo.   
    
-   ![Página inicial do dashboard](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
+   ![Captura de ecrã a mostrar um ecrã de tablet Android com A Minha Área de Trabalho com DASHBOARDS selecionado.](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * As estrelas amarelas ![Estrela favorita](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostra os dashboards favoritos. 
-   * A notação abaixo de cada nome de dashboard (neste caso, "MBI") ![Classificação de dados](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../create-reports/service-data-classification.md).
+   * A notação abaixo de cada nome de dashboard (neste caso, “MBI”) :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png" border="false"::: mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../create-reports/service-data-classification.md).
 3. Enquanto estiver no dashboard, pode tocar no botão vertical (...) **Mais opções** junto ao nome para convidar um colega, atualizar ou obter informações sobre o dashboard:
    
    ![Menu de reticências](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
@@ -141,7 +141,7 @@ Pode utilizar o gesto de aproximar os dedos para ampliar e reduzir áreas difere
    Pode utilizar o gesto de aproximar os dedos para ampliar e reduzir áreas diferentes do dashboard e o movimento panorâmico para navegar pelo dashboard. Além disso, também é possível [tocar num mosaico](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo de detalhe e interagir com os dados.
 5. Para regressar à página inicial de dashboards, toque no nome do dashboard para abrir o trilho de navegação e, em seguida, toque em **A Minha Área de Trabalho**:
    
-    ![Trilho](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
+    ![Captura de ecrã a mostrar o menu de trilhos num tablet Android com A Minha Área de Trabalho destacada.](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     Pode utilizar o gesto de aproximar os dedos para ampliar e reduzir áreas diferentes do dashboard e o movimento panorâmico para navegar pelo dashboard. Além disso, também é possível [tocar num mosaico](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo de detalhe e interagir com os dados.
 

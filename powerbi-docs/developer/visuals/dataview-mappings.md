@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 86572383e2e88f5a1efcf5126828e3365933cbc2
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380862"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635959"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Compreender o mapeamento de vista de dados em elementos visuais do Power BI
 
@@ -337,14 +337,13 @@ Eis o mapeamento de vista de dados:
 
 A vista de dados categóricos poderia ser visualizada desta forma:
 
-| Categórico |  |  | | | |
-|-----|-----|------|------|------|------|
-| | Ano | 2013 | 2014 | 2015 | 2016 |
-| País | | |
-| EUA | | x | x | 650 | 350 |
-| Canadá | | x | 630 | 490 | x |
-| México | | 645 | x | x | x |
-| REINO UNIDO | | x | x | 831 | x |
+| País | 2013 | 2014 | 2015 | 2016 |
+|---------|------|------|------|------|
+| E.U.A. | x | x | 650 | 350 |
+| Canadá | x | 630 | 490 | x |
+| México | 645 | x | x | x |
+| REINO UNIDO | x | x | 831 | x |
+
 
 A vista de dados categóricos é produzida pelo Power BI. É o conjunto de categorias.
 
@@ -545,15 +544,15 @@ Pode visualizar a vista de dados em tabela da seguinte forma:
 
 Exemplo de dados:
 
-| País| Ano | Vendas |
+| País| Anual | Sales |
 |-----|-----|------|
-| EUA | 2016 | 100 |
-| EUA | 2015 | 50 |
+| E.U.A. | 2016 | 100 |
+| E.U.A. | 2015 | 50 |
 | Canadá | 2015 | 200 |
 | Canadá | 2015 | 50 |
 | México | 2013 | 300 |
 | REINO UNIDO | 2014 | 150 |
-| EUA | 2015 | 75 |
+| E.U.A. | 2015 | 75 |
 
 Enlace de dados:
 
@@ -934,6 +933,6 @@ Pode aplicar o algoritmo de redução de dados à secção `rows` da tabela de m
 
 Pode aplicar o algoritmo de redução de dados às secções `rows` e `columns` da matriz de mapeamento de Vista de Dados.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Leia como [adicionar suporte de desagregação para mapeamentos de vista de dados em elementos visuais do Power BI](drill-down-support.md).

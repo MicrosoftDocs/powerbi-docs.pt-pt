@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: a94f4bda1f7ebc4a612da65623f539e820c8c333
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 249e3cd56359a54c358341f463d049435f407515
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240434"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635798"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Melhores práticas para otimizar as Perguntas e Respostas no Power BI
 Utilizar linguagem natural e expressões comuns para fazer perguntas sobre os seus dados é algo extremamente útil. Torna-se ainda mais eficaz quando os seus dados respondem a essas perguntas e é isso que as Perguntas e Respostas no Power BI fazem.
@@ -116,11 +116,11 @@ Se tiver múltiplas colunas que atuam como uma única unidade distinta numa tabe
 
 **Precisa de ser modificado**
 
-![Utilizar múltiplas tabelas para as Perguntas e Respostas](media/q-and-a-best-practices/desktop-qna-09.png)
+![Captura de ecrã a mostrar uma tabela de Fornecedores com as informações de contacto.](media/q-and-a-best-practices/desktop-qna-09.png)
 
 **Está pronto para as Perguntas e Respostas**
 
-![Utilizar múltiplas tabelas para as Perguntas e Respostas](media/q-and-a-best-practices/desktop-qna-10.png)
+![Captura de ecrã a mostrar duas tabelas, uma para Fornecedores e outra para Contactos.](media/q-and-a-best-practices/desktop-qna-10.png)
 
 ### <a name="pivot-to-eliminate-property-bags"></a>Dinamizar para eliminar matrizes de propriedades
 
@@ -134,7 +134,7 @@ Por exemplo, considere uma tabela *DadosDemográficosDosClientes* com as colunas
 
 **Está pronto para as Perguntas e Respostas**
 
-![Utilizar múltiplas tabelas para as Perguntas e Respostas](media/q-and-a-best-practices/desktop-qna-12.png)
+![Captura de ecrã a mostrar quatro colunas que têm as propriedades Idade, Estado Civil, Cidade e Género como colunas com valores para clientes diferentes.](media/q-and-a-best-practices/desktop-qna-12.png)
 
 ### <a name="union-to-eliminate-partitioning"></a>União para eliminar a criação de partições
 
@@ -148,7 +148,7 @@ Da mesma forma, considere uma coluna de valor articulado típica: uma tabela *Ap
 
 **Está pronto para as Perguntas e Respostas**
 
-![Utilizar múltiplas tabelas para as Perguntas e Respostas](media/q-and-a-best-practices/desktop-qna-14.png)
+![Captura de ecrã a mostrar duas tabelas, uma com informações do livro e do autor para apresentações e uma com cidades associadas às apresentações.](media/q-and-a-best-practices/desktop-qna-14.png)
 
 ### <a name="split-formatted-columns"></a>Dividir colunas formatadas
 
@@ -160,7 +160,7 @@ Se a origem a partir da qual está a importar os seus dados contiver colunas for
 
 **Está pronto para as Perguntas e Respostas**
 
-![Utilizar múltiplas tabelas para as Perguntas e Respostas](media/q-and-a-best-practices/desktop-qna-16.png)
+![Captura de ecrã a mostrar uma tabela com clientes, uma linha de endereço completa e três linhas que dividem o endereço em rua, cidade e país.](media/q-and-a-best-practices/desktop-qna-16.png)
 
 Da mesma forma, se tiver colunas de nome completo para uma pessoa, adicione as colunas **Nome Próprio** e **Apelido**, no caso de alguém querer fazer perguntas com nomes parciais. 
 
@@ -175,7 +175,7 @@ Além disso, se a origem a partir da qual está a importar os seus dados contive
 
 **Está pronto para as Perguntas e Respostas**
 
-![Utilizar múltiplas tabelas para as Perguntas e Respostas](media/q-and-a-best-practices/desktop-qna-18.png)
+![Captura de ecrã a mostrar duas tabelas, uma com nome e género e outra com o compositor.](media/q-and-a-best-practices/desktop-qna-18.png)
 
 ### <a name="denormalize-to-eliminate-inactive-relationships"></a>Desnormalizar para eliminar relações inativas
 

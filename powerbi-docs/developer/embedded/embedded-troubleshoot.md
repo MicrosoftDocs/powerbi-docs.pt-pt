@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 245a23f0477b542ecd402a5028cffebe2d1142ad
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485697"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749075"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Resolver problemas da sua aplicação incorporada
 
@@ -75,27 +75,27 @@ Poderá ser necessária uma captura de fiddler para se investigar mais aprofunda
 
 Poderá ser necessária uma captura de fiddler para se investigar mais aprofundadamente. Poderão existir vários motivos para um erro 403.
 
-* O utilizador excedeu a quantidade de tokens de incorporação que podem ser gerados numa capacidade partilhada. Compre capacidades do Azure para gerar tokens de incorporação e atribuir a área de trabalho a essa capacidade. Veja [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Criar capacidade do Power BI Embedded no portal do Azure).
+* O utilizador excedeu a quantidade de tokens de incorporação que podem ser gerados numa capacidade partilhada. Compre capacidades do Azure para gerar tokens de incorporação e atribuir a área de trabalho a essa capacidade. Veja [Create Power BI Embedded capacity in the Azure portal](/azure/power-bi-embedded/create-capacity) (Criar capacidade do Power BI Embedded no portal do Azure).
 * O token de autenticação do Azure AD expirou.
 * O utilizador autenticado não é um membro do grupo (área de trabalho).
 * O utilizador autenticado não é um administrador do grupo (área de trabalho).
-* O utilizador autenticado não tem permissões. As permissões podem ser atualizadas através da [API refreshUserPermissions](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions).
+* O utilizador autenticado não tem permissões. As permissões podem ser atualizadas através da [API refreshUserPermissions](/rest/api/power-bi/users/refreshuserpermissions).
 * O cabeçalho de autorização poderá não estar corretamente listado. Certifique-se de que não existem gralhas.
 
 O back-end da aplicação poderá ter de atualizar o token de autenticação antes de chamar o GenerateToken.
 
-    ```
-    GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
-    Host: wabi-us-north-central-redirect.analysis.windows.net
-    ...
-    Authorization: Bearer eyJ0eXAiOi...
-    ...
+```console
+GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
+Host: wabi-us-north-central-redirect.analysis.windows.net
+...
+Authorization: Bearer eyJ0eXAiOi...
+...
 
-    HTTP/1.1 403 Forbidden
-    ...
+HTTP/1.1 403 Forbidden
+...
 
-    {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-    ```
+{"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
+```
 
 ## <a name="authentication"></a>Autenticação
 
@@ -113,13 +113,13 @@ Para resolver este problema, deve retirar "oauth2/authorize/" do final do seu UR
 
 Se estiver a utilizar o Power BI Embedded e a Autenticação Direta do Azure AD e estiver a receber mensagens ao iniciar sessão, tal como ***error:unauthorized_client, error_description:AADSTS70002: Erro ao validar as credenciais. AADSTS50053: Tentou iniciar sessão demasiadas vezes com um ID de Utilizador ou palavra-passe incorreta***, porque a autenticação direta já não está em utilização desde 14 de junho de 2018 por predefinição.
 
-Existe uma forma de ativar esta opção novamente com uma [Política do Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) definida para a organização ou para um [principal de serviço](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
+Existe uma forma de ativar esta opção novamente com uma [Política do Azure AD](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) definida para a organização ou para um [principal de serviço](/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
 Recomendamos que ative esta política apenas com base em cada aplicação.
 
 Para criar esta política, tem de ser um **Administrador Global** do diretório para o qual está a criar e atribuir a política. Eis um script de exemplo para criar a política e atribuí-la ao SP para esta aplicação:
 
-1. Instale o [Módulo PowerShell do Azure AD Preview](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+1. Instale o [Módulo PowerShell do Azure AD Preview](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
 2. Execute os seguintes comandos do PowerShell linha a linha (garantindo que a variável $sp não tem mais do que uma aplicação como resultado).
 
@@ -153,7 +153,7 @@ O GenerateToken pode falhar, com identidade eficaz fornecida, por vários motivo
 
 Para verificar qual é o motivo, experimente os passos abaixo.
 
-* Execute a operação [obter conjunto de dados](https://docs.microsoft.com/rest/api/power-bi/datasets). A propriedade IsEffectiveIdentityRequired é verdadeira?
+* Execute a operação [obter conjunto de dados](/rest/api/power-bi/datasets). A propriedade IsEffectiveIdentityRequired é verdadeira?
 * O nome de utilizador é obrigatório para qualquer EffectiveIdentity.
 * Se IsEffectiveIdentityRolesRequired for verdadeiro, é necessária uma Função.
 * DatasetId é obrigatório para qualquer EffectiveIdentity.
@@ -270,37 +270,43 @@ Se estiver a trabalhar com a experiência **Incorporar para os seus clientes**, 
 
 Quando seleciona **Conceder permissões** (o passo Conceder permissões), obtém o seguinte erro:
 
-    AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```output
+AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```
 
 A solução passa por fechar o pop-up, aguardar alguns segundos e tentar novamente. Poderá ter de repetir esta ação algumas vezes. O intervalo de tempo origina o problema desde a conclusão do processo de registo da aplicação até ao momento em que está disponível para APIs externas.
 
 A seguinte mensagem de erro é apresentada quando a aplicação de exemplo é executada:
 
-    Password is empty. Please fill password of Power BI username in web.config.
+```output
+Password is empty. Please fill password of Power BI username in web.config.
+```
 
 Este erro ocorre porque o único valor que não está a ser injetado na aplicação de exemplo é a sua palavra-passe de utilizador. Abra o ficheiro Web.config na solução e preencha o campo pbiPassword com a sua palavra-passe de utilizador.
 
 Se obtiver o erro – AADSTS50079: O utilizador tem de utilizar a autenticação multifator.
 
-    Need to use an AAD account that doesn't have MFA enabled.
+É necessário utilizar uma conta do AAD sem a MFA ativada.
 
-#### <a name="using-the-embed-for-your-organization-sample-application"></a>Utilização da aplicação de exemplo Incorporar para a sua organização
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>Utilizar o exemplo de aplicação de Incorporação para a sua organização
 
 Se estiver a trabalhar com a experiência **Incorporar para a sua organização**, guarde e descomprima o ficheiro *PowerBI-Developer-Samples.zip*. Em seguida, abra a pasta *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-ap* e execute o ficheiro *pbi-saas-embed-report.sln*.
 
 Quando executa a aplicação de exemplo **Incorporar para a sua organização**, obtém o seguinte erro:
 
-    AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```output
+AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```
 
 Este erro ocorre porque o URL de redirecionamento especificado para a aplicação de servidor Web é diferente do URL do exemplo. Se quiser registar a aplicação de exemplo, utilize `https://localhost:13526/` como o URL de redirecionamento.
 
-Se quiser editar a aplicação registada, saiba como [atualizar a aplicação registada no Azure AD](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app) para que a aplicação possa dar acesso às APIs Web.
+Se quiser editar a aplicação registada, saiba como [atualizar a aplicação registada no Azure AD](/azure/active-directory/develop/quickstart-v1-update-azure-ad-app) para que a aplicação possa dar acesso às APIs Web.
 
-Se quiser editar o seu perfil ou os seus dados de utilizador do Power BI, saiba como editar os seus [dados do Power BI](https://docs.microsoft.com/power-bi/service-basic-concepts).
+Se quiser editar o seu perfil ou os seus dados de utilizador do Power BI, saiba como editar os seus [dados do Power BI](../../fundamentals/service-basic-concepts.md).
 
 Se obtiver o erro – AADSTS50079: O utilizador tem de utilizar a autenticação multifator.
 
-    Need to use an AAD account that doesn't have MFA enabled.
+É necessário utilizar uma conta do AAD sem a MFA ativada.
 
 Para obter mais informações, veja [Perguntas frequentes sobre o Power BI Embedded](embedded-faq.md).
 
@@ -308,7 +314,7 @@ Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.c
 
 Se precisar de mais assistência, [contacte o suporte](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded) ou [crie um pedido de suporte através do portal do Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) e indique as mensagens de erro que encontrar.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Para obter mais informações, veja as [FAQs](embedded-faq.md).
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: b02d8d61a4580e70a72aa4da66c4409f04b7f6bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 054d7a4f96c83b97fbd5e96e7a3cf66d58a74823
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240090"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635936"
 ---
 # <a name="add-drill-down-support"></a>Adicionar suporte de Desagregação
 
@@ -26,7 +26,9 @@ Leia mais sobre a desagregação do Power BI [aqui](./../../consumer/end-user-dr
 
 Para suportar a desagregação no seu elemento visual, adicione um novo campo ao ficheiro `capabilities.json` chamado "desagregação", o qual tem uma propriedade:
 
-    *roles - the name of the dataRole you want to enable drill-down on.
+```json
+*roles - the name of the dataRole you want to enable drill-down on.
+```
 
 > [!NOTE]
 > A função dataRole de desagregação tem de ser do tipo `Grouping`.
@@ -222,11 +224,11 @@ Prepare dados de exemplo para testar o elemento visual:
 
 Crie uma Hierarquia no Power BI Desktop:
 
-![Criar uma nova hierarquia](media/drill-down-support/create-new-hierarchy.png)
+![Captura de ecrã a mostrar o Power BI Desktop com Nova hierarquia selecionada no menu contextual.](media/drill-down-support/create-new-hierarchy.png)
 
 Inclua todas as colunas de categorias (H1, H2, H3) na nova hierarquia:
 
-![Criar uma nova hierarquia](media/drill-down-support/new-hierarchy.png)
+![Captura de ecrã a mostrar as colunas de categoria que pode adicionar à nova hierarquia.](media/drill-down-support/new-hierarchy.png)
 
 Após esses passos, deverá obter o seguinte elemento visual:
 
@@ -305,11 +307,11 @@ Altere o corpo da chamada de retorno da função `forEach` para:
 
 Aplique os dados ao elemento visual:
 
-![O elemento visual com dados](media/drill-down-support/dev-visual-drilldown-data.png)
+![Captura de ecrã a mostrar a hierarquia com H2 em destaque.](media/drill-down-support/dev-visual-drilldown-data.png)
 
 No passo final, deverá obter o elemento visual com as seleções e o menu de contexto:
 
-![O elemento visual com suporte de desagregação](media/drill-down-support/dev-visual-drilldown-demo.gif)
+![Animação a mostrar a seleção Desagregar e Agregar no menu de contexto visual.](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>Adicionar suporte de desagregação do mapeamento de vista de dados de matriz
 
@@ -389,7 +391,7 @@ Aplique o seguinte mapeamento de vista de dados do elemento visual:
 
 Aplique os dados ao elemento visual:
 
-![O elemento visual com dados](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
+![Captura de ecrã a mostrar a MatrixHierarchy com a hierarquia de colunas e filas e os membros selecionados.](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 Importe as interfaces necessárias para processar mapeamentos de vista de dados de matriz:
 
@@ -614,7 +616,7 @@ public update(options: VisualUpdateOptions) {
 
 No passo final, deverá obter o elemento visual com o menu de contexto:
 
-![O elemento visual com suporte de desagregação](media\drill-down-support\dev-visual-drilldown-demo.gif)
+![Animação a mostrar um menu de contexto para o elemento visual com opções para desagregar ou agregar.](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>Próximas etapas
 
