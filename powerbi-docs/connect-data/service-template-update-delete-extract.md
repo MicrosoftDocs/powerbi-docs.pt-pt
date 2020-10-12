@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: d32e1223a335fc6bf2fdf52598f1e1bdf3d7a685
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c5bed13799824a0222b2961595108536f66133ee
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860538"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634947"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Atualizar, eliminar e extrair uma aplicação de modelo
 
@@ -23,11 +23,11 @@ Agora que a aplicação está em produção, pode recomeçar a fase de teste sem
 Se fez alterações no Power BI Desktop, comece pelo passo (1). Se não fez alterações no Power BI Desktop, comece pelo passo (4).
 
 1. Carregue o conjunto de dados atualizado e substitua o conjunto de dados existente. **Certifique-se de que utiliza exatamente o mesmo nome do conjunto de dados**. Se utilizar um nome diferente, será criado um novo conjunto de dados para os utilizadores que estão a atualizar a aplicação.
-![substituir conjunto de dados](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
+![Captura de ecrã a mostrar a aplicação Atualizar um modelo do Power B I, com a opção Conjunto de dados selecionada.](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
 1. Importe o ficheiro pbix do seu computador.
-![substituir conjunto de dados](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
+![Captura de ecrã a mostrar a página Obter Dados, com a opção Obter em destaque, em Ficheiros.](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
 1. Confirme a substituição.
-![substituir conjunto de dados](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
+![Captura de ecrã a mostrar uma mensagem de confirmação a informar que existe um conjunto de dados com o mesmo nome, assim como a opção para o substituir.](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
 
 1. No painel **Gestão de Versões**, selecione **Criar aplicação**.
 1. Repita o processo de criação de aplicações.
@@ -64,7 +64,8 @@ Com a capacidade de extração, agora é mais fácil do que nunca reverter para 
 
 1. No painel de gestão de versões, prima mais **(...)** e, em seguida, **Extrair**.
 
-    ![extrair versão da aplicação de modelo](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png) ![extrair versão da aplicação de modelo](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
+    ![Captura de ecrã a mostrar o painel Gestão de Versões, com a opção Extrair selecionada num menu.](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png)
+    ![Captura de ecrã a mostrar uma mensagem de confirmação para Extrair esta aplicação.](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
 2. Na caixa de diálogo, introduza o nome da área de trabalho extraída. Será adicionada uma nova área de trabalho.
 
 A nova versão da área de trabalho é reposta e pode continuar a desenvolver e a distribuir a aplicação de modelo a partir da área de trabalho recentemente extraída.
@@ -74,13 +75,13 @@ Uma área de trabalho de modelo é a origem de dados de uma aplicação de model
 Ao eliminar uma versão da aplicação, também elimina o URL da aplicação, que deixará de funcionar.
 
 1. No painel de gestão de versões, prima para selecionar as reticências **(...)** e, em seguida, prima **Eliminar**.
- ![Eliminar versão da aplicação de modelo](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
- ![Eliminar versão de aplicação de modelo](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
+ ![Captura de ecrã a mostrar o painel Gestão de Versões, com a opção Eliminar selecionada num menu.](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
+ ![Captura de ecrã a mostrar uma mensagem de confirmação para Eliminar esta aplicação.](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
 
 >[!NOTE]
 >Confirme que não elimina a versão da aplicação que está a ser utilizada pelos clientes ou pela **AppSource**. Caso contrário, a aplicação deixará de funcionar.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Veja como os seus clientes interagem com a sua aplicação de modelo em [Install, customize, and distribute template apps in your organization](service-template-apps-install-distribute.md) (Instalar, personalizar e distribuir aplicações de modelo na sua organização).
 

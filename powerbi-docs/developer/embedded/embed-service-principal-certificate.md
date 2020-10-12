@@ -9,23 +9,23 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 06/01/2020
-ms.openlocfilehash: 7caa39ca6fbf196aaa2be4492ab132ad05983f94
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 521c705587c10c76dedb731aeae34221244f3a83
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231832"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749190"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>Incorporar conteúdos do Power BI com o principal de serviço e um certificado
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 >[!NOTE]
->Recomendamos que proteja os seus serviços de back-end com certificados, em vez de chaves secretas. [Saiba mais sobre como obter tokens de acesso do Azure AD com chaves secretas ou certificados](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion).
+>Recomendamos que proteja os seus serviços de back-end com certificados, em vez de chaves secretas. [Saiba mais sobre como obter tokens de acesso do Azure AD com chaves secretas ou certificados](/azure/architecture/multitenant-identity/client-assertion).
 
 ## <a name="certificate-based-authentication"></a>Autenticação baseada em certificado
 
-A autenticação baseada em certificados permite-lhe ser autenticado pelo Azure Active Directory (Azure AD) com um certificado de cliente num dispositivo Windows, Android ou iOS ou guardado num [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts).
+A autenticação baseada em certificados permite-lhe ser autenticado pelo Azure Active Directory (Azure AD) com um certificado de cliente num dispositivo Windows, Android ou iOS ou guardado num [Azure Key Vault](/azure/key-vault/basic-concepts).
 
 Utilizar este método de autenticação permite-lhe gerir certificados a partir de um local central, ao utilizar a AC para obter rotação ou revogação.
 
@@ -49,7 +49,7 @@ Para utilizar o principal de serviço e um certificado com a análise incorporad
 
 Pode obter um certificado de uma *Autoridade de Certificação* fidedigna ou gerar o seu próprio certificado.
 
-Esta secção descreve a criação de um certificado com o [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/create-certificate) e a transferência do ficheiro *.cer* que contém a chave pública.
+Esta secção descreve a criação de um certificado com o [Azure Key Vault](/azure/key-vault/create-certificate) e a transferência do ficheiro *.cer* que contém a chave pública.
 
 1. Inicie sessão no [Microsoft Azure](https://ms.portal.azure.com/#allservices).
 
@@ -63,11 +63,11 @@ Esta secção descreve a criação de um certificado com o [Azure Key Vault](htt
 
 4. Clique em **Certificados**.
 
-    ![certificados](media/embed-service-principal-certificate/certificates.png)
+    ![Captura de ecrã a mostrar a página Cofres de chaves, com a opção Certificados em destaque.](media/embed-service-principal-certificate/certificates.png)
 
 5. Clique em **Gerar/Importar**.
 
-    ![gerar](media/embed-service-principal-certificate/generate.png)
+    ![Captura de ecrã a mostrar o painel Certificados, com a opção Gerar / Importar em destaque.](media/embed-service-principal-certificate/generate.png)
 
 6. Configure os campos **Criar um certificado** da seguinte forma:
 
@@ -107,7 +107,7 @@ Esta secção descreve a criação de um certificado com o [Azure Key Vault](htt
 
 1. Na sua aplicação do Azure AD, clique no separador **Certificados e segredos**.
 
-     ![ID da aplicação](media/embed-service-principal/certificates-and-secrets.png)
+     ![Captura de ecrã a mostrar o painel Certificados e segredos de uma aplicação no portal do Azure.](media/embed-service-principal/certificates-and-secrets.png)
 
 2. Clique em **Carregar certificado** e carregue o ficheiro *.cer* que criou e transferiu no [primeiro passo](#step-1---create-a-certificate) deste tutorial. O ficheiro *.cer* contém a chave pública.
 
@@ -175,7 +175,7 @@ public async Task<AuthenticationResult> DoAuthentication(){
 
 ## <a name="configure-visual-studio-to-use-msi"></a>Configurar o Visual Studio para utilizar o MSI
 
-Ao criar a sua solução incorporada, poderá ser útil configurar o Visual Studio para utilizar o Managed Service Identity (MSI). O [MSI](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview) é uma funcionalidade que lhe permite gerir a sua identidade do Azure AD. Após configurado, permitirá que o Visual Studio seja autenticado no seu Azure Key Vault.
+Ao criar a sua solução incorporada, poderá ser útil configurar o Visual Studio para utilizar o Managed Service Identity (MSI). O [MSI](/azure/active-directory/managed-identities-azure-resources/overview) é uma funcionalidade que lhe permite gerir a sua identidade do Azure AD. Após configurado, permitirá que o Visual Studio seja autenticado no seu Azure Key Vault.
 
 1. Abra o projeto no Visual Studio.
 
@@ -200,7 +200,7 @@ Ao criar a sua solução incorporada, poderá ser útil configurar o Visual Stud
 >[Power BI Embedded para clientes](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
->[Objetos do principal de serviço e aplicação no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+>[Objetos do principal de serviço e aplicação no Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals)
 
 >[!div class="nextstepaction"]
 >[Segurança ao nível da linha com o gateway de dados no local com o principal de serviço](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

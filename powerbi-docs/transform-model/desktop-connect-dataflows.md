@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 66e94ed2af0b9dc9cf3600594fc6679bd7261b12
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 24635df4a07f0f73a701fcb9d30b5db3ef678666
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861090"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668465"
 ---
 # <a name="connect-to-data-created-by-power-platform-dataflows-in-power-bi-desktop"></a>Ligar a dados criados por fluxos de dados do Power Platform no Power BI Desktop
 No **Power BI Desktop**, pode ligar a dados criados por **fluxos de dados do Power Platform** tal como faria com outra origem de dados no Power BI Desktop.
@@ -37,7 +37,7 @@ Pode melhorar o desempenho da ingestão de dados dos fluxos de dados. Por exempl
 
 Dessa forma, o processamento de dados de grandes dimensões é realizado online nos fluxos de dados, em vez de ser feito localmente na instância em execução do **Power BI Desktop**. Essa abordagem permite ingerir quantidades mais pequenas de dados do Power BI Desktop e a experiência com os fluxos de dados permanece rápida e reativa.
 
-## <a name="considerations-and-limitations"></a>Considerações e limitações
+## <a name="additional-considerations"></a>Considerações adicionais
 
 A maioria dos fluxos de dados reside no inquilino do serviço Power BI. No entanto, os utilizadores do **Power BI Desktop** não podem aceder a fluxos de dados que estão armazenados numa conta do Azure Data Lake Storage Gen2, salvo se forem os proprietários do fluxo de dados ou se lhes tiver sido dada autorização explícita para a pasta de CDM do fluxo de dados. Considere a situação seguinte:
 
@@ -45,28 +45,21 @@ A maioria dos fluxos de dados reside no inquilino do serviço Power BI. No entan
 2.  O Nuno, que também é membro da área de trabalho criada pela Ana, quer utilizar o Power BI Desktop e o conector de fluxo de dados para obter dados do fluxo de dados criado pela Ana.
 3.  O Miguel recebe um erro porque não foi adicionado como utilizador autorizado à pasta de CDM do fluxo de dados no data lake.
 
-    ![Erro ao tentar utilizar o fluxo de dados](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
-
-Para resolver este problema, devem ser concedidas permissões de leitor ao Nuno à Pasta de CDM e aos respetivos ficheiros. Pode saber mais sobre como conceder acesso à pasta de CDM [neste artigo](./service-dataflows-azure-data-lake-integration.md).
+Para resolver este problema, devem ser concedidas permissões de leitor ao Nuno à Pasta de CDM e aos respetivos ficheiros. Pode saber mais sobre como conceder acesso à Pasta de CDM em [configurar e consumir um fluxo de dados](dataflows/dataflows-configure-consume.md).
 
 
 
 
-## <a name="next-steps"></a>Próximos passos
-Existem inúmeras coisas interessantes que pode fazer com os fluxos de dados do Power Platform. Para obter mais informações, consulte os seguintes recursos:
+## <a name="next-steps"></a>Passos seguintes
+É possível fazer todo o tipo de coisas interessantes com os fluxos de dados. Para obter mais informações, consulte os seguintes recursos:
 
-* [Preparação personalizada de dados com fluxos de dados](service-dataflows-overview.md)
-* [Criar e utilizar fluxos de dados no Power BI](service-dataflows-create-use.md)
-* [Utilizar entidades calculadas no Power BI Premium (Pré-visualização)](service-dataflows-computed-entities-premium.md)
-* [Utilizar fluxos de dados com origens de dados no local (Pré-visualização)](service-dataflows-on-premises-gateways.md)
-* [Recursos para programadores para fluxos de dados do Power Platform (Pré-visualização)](service-dataflows-developer-resources.md)
+* [Introdução aos fluxos de dados e à preparação personalizada de dados](dataflows/dataflows-introduction-self-service.md)
+* [Criar um fluxo de dados](dataflows/dataflows-create.md)
+* [Configurar e consumir um fluxo de dados](dataflows/dataflows-configure-consume.md)
+* [Configurar o armazenamento do fluxo de dados para utilizar o Azure Data Lake Gen2](dataflows/dataflows-azure-data-lake-storage-integration.md)
+* [Funcionalidades Premium do fluxo de dados](dataflows/dataflows-premium-features.md)
+* [IA com fluxos de dados](dataflows/dataflows-machine-learning-integration.md)
 
-Para obter mais informações sobre a integração com o Azure Data Lake Storage Gen2, veja os artigos seguintes:
-
-* [Fluxos de dados e integração do Azure Data Lake (Pré-visualização)](service-dataflows-azure-data-lake-integration.md)
-* [Configure workspace dataflow settings (Preview) (Configurar as definições de fluxos de dados da área de trabalho [Pré-visualização])](service-dataflows-configure-workspace-storage-settings.md)
-* [Add a CDM folder to Power BI as a dataflow (Preview) (Adicionar uma pasta de CDM ao Power BI como um fluxo de dados [Pré-visualização])](service-dataflows-add-cdm-folder.md)
-* [Connect Azure Data Lake Storage Gen2 for dataflow storage (Preview) (Ligar o Azure Data Lake Storage Gen2 para armazenar fluxos de dados [Pré-visualização])](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Também existem artigos sobre o **Power BI Desktop** que poderão ser úteis:
 

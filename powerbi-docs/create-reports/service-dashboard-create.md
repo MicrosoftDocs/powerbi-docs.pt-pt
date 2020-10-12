@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 18fae9e7bca385ee10fed90649430a8062054b2e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f1892af9d943df1f4abf39aa55ae99c5e6ee1b34
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219580"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633429"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Criar um dashboard do Power BI a partir de um relatório
 Leu a [Introdução aos dashboards no Power BI](service-dashboards.md) e, agora, quer criar o seu. Existem várias formas diferentes de criar um dashboard. Por exemplo, pode criar um dashboard a partir de um relatório, de raiz, de um conjunto de dados ou ao duplicar um dashboard existente.  
@@ -27,7 +27,7 @@ Quando concluir este artigo, terá uma boa compreensão sobre:
 - Como afixar mosaicos 
 - Como navegar entre um dashboard e um relatório 
  
-![Dashboard](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![Captura de ecrã a mostrar um dashboard do Power B I com várias visualizações.](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 > [!NOTE] 
 > Os dashboards são uma funcionalidade do serviço Power BI, não do Power BI Desktop. Apesar de não criar dashboards nas aplicações móveis do Power BI, poderá utilizá-las para [visualização e partilha](../consumer/mobile/mobile-apps-view-dashboard.md).
@@ -59,7 +59,7 @@ Nestas instruções passo a passo, vamos importar um dos conjuntos de dados de e
     ![Janela OneDrive para Empresas](media/service-dashboard-create/power-bi-import.png)
 8. Quando for apresentada a mensagem de êxito, selecione o **x** para a dispensar.
 
-   ![Mensagem de êxito](media/service-dashboard-create/power-bi-view-datasetnew.png)
+   ![Captura de ecrã a mostrar uma mensagem de êxito, com o X em destaque.](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
 > Sabia que? Pode diminuir o painel de navegação ao selecionar o ícone com três linhas na parte superior ![Mostrar ou ocultar ícone do painel de navegação](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png), o que lhe permite ter mais espaço para o relatório propriamente dito.
@@ -77,17 +77,17 @@ Nestas instruções passo a passo, vamos importar um dos conjuntos de dados de e
     ![Pairar o cursor sobre o mosaico](media/service-dashboard-create/power-bi-hover.png)
 4. Visto que estamos a criar um novo dashboard, selecione a opção **Novo dashboard** e atribua um nome ao mesmo.
 
-    ![Caixa de diálogo Afixar no dashboard](media/service-dashboard-create/power-bi-pin-tile.png)
+    ![Captura de ecrã a mostrar a janela Afixar ao dashboard.](media/service-dashboard-create/power-bi-pin-tile.png)
 5. Quando selecionar **Afixar**, o Power BI irá criar o novo dashboard na área de trabalho atual. Após a mensagem **Afixado ao dashboard** ser apresentada, selecione **Ir para o dashboard**. Se lhe for pedido que guarde o relatório, selecione **Guardar**.
 
-    ![Mensagem de êxito](media/service-dashboard-create/power-bi-pin-success.png)
+    ![Captura de ecrã a mostrar uma mensagem de êxito, com a opção Ir para o dashboard em destaque.](media/service-dashboard-create/power-bi-pin-success.png)
 
     O Power BI abre o novo dashboard. Tem um mosaico, que é a visualização que afixou.
 
    ![dashboard com um mosaico](media/service-dashboard-create/power-bi-pinned.png)
 7. Selecione o mosaico para regressar ao relatório. Afixe mais alguns mosaicos ao dashboard. Quando for apresentada a janela **Afixar ao dashboard**, selecione **Dashboard existente**.  
 
-   ![Caixa de diálogo Afixar no dashboard](media/service-dashboard-create/power-bi-existing-dashboard.png)
+   ![Captura de ecrã a mostrar a janela Afixar ao dashboard, com a opção Dashboard existente em destaque.](media/service-dashboard-create/power-bi-existing-dashboard.png)
 
 ## <a name="pin-an-entire-report-page-to-the-dashboard"></a>Afixar uma página de relatório inteira ao dashboard
 Em vez de afixar um elemento visual de cada vez, pode [afixar uma página de relatório inteira como um *mosaico dinâmico*](service-dashboard-pin-live-tile-from-report.md). Vamos a isso.
@@ -102,11 +102,11 @@ Em vez de afixar um elemento visual de cada vez, pode [afixar uma página de rel
 
 3. Quando for apresentada a janela **Afixar ao dashboard**, selecione **Dashboard existente**.
 
-   ![Caixa de diálogo Afixar no dashboard](media/service-dashboard-create/power-bi-pin-live2.png)
+   ![Captura de ecrã a mostrar a janela Afixar ao dashboard, com a opção Dashboard existente selecionada e um botão Afixar dinâmico.](media/service-dashboard-create/power-bi-pin-live2.png)
 
 4. Após a mensagem de êxito ser apresentada, selecione **Ir para o dashboard**. Poderá ver aí os mosaicos que afixou a partir do relatório. No exemplo abaixo, afixámos dois mosaicos da primeira página do relatório e um mosaico dinâmico que corresponde à segunda página do relatório.
 
-   ![Dashboard](media/service-dashboard-create/power-bi-dashboard.png)
+   ![Captura de ecrã a mostrar um dashboard do Power B I com as visualizações deste artigo.](media/service-dashboard-create/power-bi-dashboard.png)
 
 ## <a name="next-steps"></a>Próximos passos
 Parabéns pela criação do seu primeiro dashboard! Agora que tem um dashboard, pode realizar muitas mais operações com o mesmo. Veja um dos artigos sugeridos abaixo ou comece a explorar de forma autónoma: 

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 975a7304e61042e408d732aa1c85bfed184f75f5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3db27630da230ee1805386b039916181e993d412
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239141"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632532"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>Aplicar as informações no Power BI Desktop para detetar onde é que as distribuições variam (pré-visualização)
 
@@ -110,18 +110,20 @@ Após examinar as diferentes colunas e os valores para cada uma dessas colunas, 
 
 Nem todas as colunas no modelo serão examinadas durante o tempo disponível, por isso não é garantido que as colunas e os valores com maior impacto sejam apresentados. No entanto, são utilizados vários processos para garantir que as colunas com mais probabilidade são examinadas em primeiro lugar. Por exemplo, imagine que após examinar todas as colunas, determina-se que os seguintes valores/colunas têm o maior impacto na distribuição, do maior impacto para o menor:
 
-    Subcategory = Touring Bikes
-    Channel = Direct
-    Subcategory = Mountain Bikes
-    Subcategory = Road Bikes
-    Subcategory = Kids Bikes
-    Channel = Store
+```console
+Subcategory = Touring Bikes
+Channel = Direct
+Subcategory = Mountain Bikes
+Subcategory = Road Bikes
+Subcategory = Kids Bikes
+Channel = Store
+```
 
 Estes seriam exportados pela ordem da coluna, da seguinte forma:
 
-    Subcategory: Touring Bikes, Mountain Bikes, Road Bikes (only three listed, with the text including “...amongst others” to indicate that more than three have a significant impact) 
+* Subcategory: Touring Bikes, Mountain Bikes, Road Bikes (apenas três são listadas, com o texto a incluir "...amongst others" para indicar que mais do que três têm um impacto relevante) 
 
-    Channel = Direct (only Direct listed, if it’s level of impact was much greater than Store)
+* Channel = Direct (apenas Direct é listado, se o respetivo nível de impacto tiver sido muito superior a Store)
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 A lista seguinte é a coleção de cenários atualmente não suportados para **informações**:
@@ -139,12 +141,12 @@ Além disso, os seguintes tipos de modelos e origens de dados não são atualmen
 * Reporting Services no local
 * Incorporação
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 Para obter mais informações sobre o **Power BI Desktop**, e sobre como começar, consulte os seguintes artigos.
 
 * [O que é o Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
-* [Descrição Geral das Consultas com o Power BI Desktop](../transform-model/desktop-query-overview.md)
+* [Descrição Geral das Consultas no Power BI Desktop](../transform-model/desktop-query-overview.md)
 * [Origens de Dados no Power BI Desktop](../connect-data/desktop-data-sources.md)
 * [Ligar a Dados no Power BI Desktop](../connect-data/desktop-connect-to-data.md)
-* [Moldar e Combinar Dados com o Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
-* [Tarefas de Consulta Comuns no Power BI Desktop](../transform-model/desktop-common-query-tasks.md)   
+* [Formatar e Combinar Dados com o Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
+* [Tarefas Comuns de Consulta no Power BI Desktop](../transform-model/desktop-common-query-tasks.md)   

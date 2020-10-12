@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: b3e661e8581f07ea9e19f295c30f29e5331754e7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e1b93b244a040fba1213fbb3b15bca3114e7075a
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83331377"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528166"
 ---
 # <a name="manage-storage-mode-in-power-bi-desktop"></a>Gerir o modo de armazenamento no Power BI Desktop
 
@@ -78,7 +78,7 @@ Digamos que inicialmente todas as tabelas neste modelo estão definidas como **D
 
 ![Janela de aviso do modo de armazenamento](media/desktop-storage-mode/storage-mode-05.png)
 
-Pode definir as tabelas de dimensão (**Cliente**, **Geografia** e **Data**) como **Dual** para reduzir o número de relações fracas no conjunto de dados e melhorar o desempenho. As relações fracas normalmente envolvem pelo menos uma tabela do DirectQuery em que a lógica de associação não pode ser emitida para os sistemas de origem. Como as tabelas Dual podem atuar como tabelas DirectQuery ou Importação, esta situação é evitada.
+Pode definir as tabelas de dimensão (**Cliente**, **Geografia** e **Data**) como **Duplo** para reduzir o número de relações limitadas no conjunto de dados e melhorar o desempenho. Normalmente, as relações limitadas envolvem pelo menos uma tabela do DirectQuery em que a lógica de associação não pode ser emitida para os sistemas de origem. Como as tabelas Dual podem atuar como tabelas DirectQuery ou Importação, esta situação é evitada.
 
 A lógica de propagação foi concebida para ajudar nos modelos que incluam muitas tabelas. Digamos que tem um modelo com 50 tabelas e apenas determinadas tabelas de factos (transacionais) precisam de ser colocadas em cache. A lógica no Power BI Desktop calcula o conjunto mínimo de tabelas de dimensão que têm de ser definidas como **Dual**, por isso, não precisa de o fazer.
 
@@ -118,15 +118,15 @@ As consultas que fazem referência a tabelas Dual devolvem dados da cache, se po
 
 Continuando o exemplo anterior, a seguinte consulta refere-se apenas a uma coluna da tabela **Data**, que está no modo **Dual**. Como tal, a consulta deve alcançar a cache:
 
-![Script do diagnóstico do modo de armazenamento](media/desktop-storage-mode/storage-mode-06.png)
+![Captura de ecrã que mostra texto da consulta referente à tabela Data.](media/desktop-storage-mode/storage-mode-06.png)
 
 A seguinte consulta refere-se apenas a uma coluna da tabela **Vendas**, que está no modo **DirectQuery**. Por isso, a mesma *não* deve alcançar a cache:
 
-![Script do diagnóstico do modo de armazenamento](media/desktop-storage-mode/storage-mode-07.png)
+![Captura de ecrã que mostra texto da consulta referente à tabela Vendas.](media/desktop-storage-mode/storage-mode-07.png)
 
 A seguinte consulta é interessante porque combina as duas colunas. Esta consulta não acerca na cache. No início, pode esperar obter os valores **CalendarYear** da cache e os valores **SalesAmount** da origem e, em seguida, combinar os resultados, mas esta abordagem seria menos eficaz do que a operação SUM/GROUP BY para o sistema de origem. Se a operação estiver a ser enviada para a origem, o número de linhas devolvidas provavelmente será muito menor: 
 
-![Script do diagnóstico do modo de armazenamento](media/desktop-storage-mode/storage-mode-08.png)
+![Captura de ecrã que mostra texto de uma consulta referente às tabelas Data e Vendas.](media/desktop-storage-mode/storage-mode-08.png)
 
 > [!NOTE]
 > Este comportamento é diferente das [relações muitos-para-muitos no Power BI Desktop](desktop-many-to-many-relationships.md) ao combinar tabelas em cache e tabelas que não estão em cache.

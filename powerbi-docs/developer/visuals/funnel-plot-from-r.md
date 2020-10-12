@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: e0bdb5174c1392e1a2f81a101a62798f82e2b191
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878691"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747718"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Tutorial: Build a funnel plot from R script to R visual (Criar um gráfico de funil ao transformar um script do R num visual do R)
 Este artigo descreve como criar um gráfico de funil com o script do R no elemento visual do R, passo a passo.
@@ -66,11 +66,11 @@ Em seguida, edite o script de forma a espelhar [este script](https://github.com/
 
 1. Edite o ficheiro *capabilities.json* e substitua a cadeia `Values` por `dataset`. Isto substitui o nome da "Função" no modelo de forma a igualar o código do R.
 
-   ![antes vs. depois](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
+   ![Captura de ecrã a mostrar uma comparação de desvio da alteração no ficheiro JSON.](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
 
 1. *(opcional)* Edite o ficheiro *dependencies.json* e adicione uma secção para cada pacote do R exigido pelo script do R. Isto indica ao Power BI que importe automaticamente estes pacotes quando o elemento visual for carregado pela primeira vez.
 
-   ![antes vs. depois](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
+   ![Captura de ecrã a mostrar uma comparação de desvio em que os conteúdos foram adicionados aos itens cranPackages.](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
 
 1. Volte a empacotar o elemento visual com o comando `pbiviz package` e tente importá-lo para o Power BI.
 
@@ -119,7 +119,7 @@ O elemento visual ainda não é simples de utilizar porque o utilizador tem de s
 
 1. Adicione capacidades para o utilizador controlar as cores e os tamanhos de elementos visuais, incluindo parâmetros internos da IU.
 
-   ![CV02to03](./media/funnel-plot/diagram-two.PNG)
+   ![Captura de ecrã a mostrar duas versões do painel de ferramentas, com as opções adicionadas à versão à direita.](./media/funnel-plot/diagram-two.PNG)
 
 1. Edite o ficheiro *capabilities.json* e atualize a secção `objects`. Aqui, definimos os nomes, descrições e tipos de cada parâmetro e decidimos também a divisão dos parâmetros em grupos (neste caso, três grupos).
 
@@ -274,7 +274,7 @@ Uma vez que o elemento visual resultante é baseado em PNG, não é reativo à p
 
 * Cada elemento visual do R aplica o operador `unique` à sua tabela de entrada. Para evitar a remoção de linhas idênticas, considere adicionar um campo de entrada extra com um ID exclusivo e ignore-o no código do R.   
 
-* Se tiver uma conta do Power BI, utilize o serviço Power BI para desenvolver um elemento visual [no momento](/power-bi/developer/visuals/custom-visual-develop-tutorial/) em vez de o reempacotar com o comando `pbiviz package`.
+* Se tiver uma conta do Power BI, utilize o serviço Power BI para desenvolver um elemento visual [no momento](./custom-visual-develop-tutorial.md) em vez de o reempacotar com o comando `pbiviz package`.
 
 ### <a name="html-widgets-gallery"></a>Galeria de widgets HTML
 Explore elementos visuais na [galeria de widgets HTML](http://gallery.htmlwidgets.org/) para utilizar no seu próximo elemento visual. Para facilitar, criámos um [repositório de projetos de elementos visuais](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) com mais de 20 elementos visuais HTML interativos à escolha!
@@ -291,15 +291,15 @@ Explore elementos visuais na [galeria de widgets HTML](http://gallery.htmlwidget
 1. Altere os metadados no ficheiro *pbiviz.json*, sendo o campo `guid` o mais importante.
 1. Reempacote e continue a personalizar o elemento visual conforme pretendido. 
 
-![CV02to03](./media/funnel-plot/diagram-four.PNG)
+![Captura de ecrã a mostrar seis widgets mencionados anteriormente neste artigo.](./media/funnel-plot/diagram-four.PNG)
 
-![CV02to03](./media/funnel-plot/diagram-five.PNG)
+![Captura de ecrã a mostrar mais seis widgets mencionados anteriormente neste artigo.](./media/funnel-plot/diagram-five.PNG)
 
 > [!NOTE]
 > Nem todos os widgets neste projeto são suportados pelo serviço.
 
 ## <a name="next-steps"></a>Próximos passos
 
-Para saber mais, veja mais tutoriais em [elementos visuais do Power BI](./custom-visual-develop-tutorial.md) e [elementos visuais do R](/power-bi/visuals/service-r-visuals).
+Para saber mais, veja mais tutoriais em [elementos visuais do Power BI](./custom-visual-develop-tutorial.md) e [elementos visuais do R](../../visuals/service-r-visuals.md).
 
 Saiba como [desenvolver e submeter elementos visuais](https://powerbi.microsoft.com/documentation/powerbi-developer-office-store/) para a [Loja Office (galeria)](https://store.office.com/appshome.aspx?ui=en-US&rs=en-US&ad=US&clickedfilter=OfficeProductFilter%3aPowerBI&productgroup=PowerBI) ou, para ver mais exemplos, veja a [demonstração de scripts do R](https://community.powerbi.com/t5/R-Script-Showcase/bd-p/RVisuals)

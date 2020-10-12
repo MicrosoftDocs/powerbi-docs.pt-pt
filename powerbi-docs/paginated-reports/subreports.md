@@ -1,6 +1,6 @@
 ---
 title: Sub-relatórios nos relatórios paginados do Power BI
-description: Neste artigo, irá ficar a conhecer as origens de dados suportadas para relatórios paginados no serviço Power BI e irá saber como ligar a origens de dados da Base de Dados SQL do Azure.
+description: Neste artigo, irá saber mais sobre as origens de dados suportadas para relatórios paginados no serviço Power BI.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: fbe60bab0d1c8d95cec1a3fda1d4b23fe919ea31
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9da6268e90e3f70797c2cfff19bb1d5c4b633e9a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861389"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746591"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Sub-relatórios nos relatórios paginados do Power BI
 
@@ -33,7 +33,7 @@ O Power BI Report Builder pode funcionar com relatórios paginados no seu comput
 
 Depois de iniciar sessão, verá uma opção de **Serviço Power BI** no Power BI Report Builder para as opções **Abrir** e **Guardar Como** no menu **Ficheiro**. Quando selecionar a opção **Serviço Power BI** para guardar um relatório, irá criar uma ligação em direto entre o Power BI Report Builder e o serviço Power BI. 
 
-:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Abrir a partir do serviço Power BI":::
+:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Inicie sessão no Power BI":::
 
 ## <a name="save-a-local-report-to-the-power-bi-service"></a>Guardar um relatório local no serviço Power BI
 
@@ -48,7 +48,7 @@ Antes de poder adicionar um sub-relatório a um relatório principal, crie os do
 
 3. Na caixa de diálogo **Guardar Como**, selecione uma área de trabalho Power BI Premium na qual possa armazenar os seus relatórios paginados.  As áreas de trabalho Premium têm um ícone de losango ![Ícone de losango Premium](media/subreports/report-builder-premium-diamond.png) junto do nome.
 
-    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Guardar como no serviço Power BI":::
+    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Inicie sessão no Power BI":::
 
 4. Selecione **Guardar**.
 
@@ -58,7 +58,7 @@ Agora que guardou ambos os relatórios na mesma área de trabalho Premium, pode 
 
 1. No friso **Inserir**, selecione o botão **Sub-relatório** ou clique com o botão direito do rato na tela do relatório e selecione **Inserir** > **Sub-relatório**.
 
-    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Inserir um sub-relatório num relatório":::
+    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Inicie sessão no Power BI":::
 
     A caixa de diálogo **Properties do Sub-relatório** é apresentada.  
 

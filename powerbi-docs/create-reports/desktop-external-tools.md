@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7a7988ba9bb9efd4b2dec20fd2dc88478af439a2
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 47b5df4c07f21282b14bae8bdfd63e5c271d53a6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855294"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635154"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Utilizar ferramentas externas no Power BI Desktop (pré-visualização)
 
@@ -132,9 +132,9 @@ Os ficheiros nessa localização especificada com a extensão **.pbitool.json** 
 
 As Ferramentas Externas podem ser desativadas através das **Políticas de Grupo** ou ao editar o registo, que é semelhante ao processo de desativação dos  **Elementos Visuais Personalizados**.
 
-    Registry key: *Software\Policies\Microsoft\Power BI Desktop\*
+* Chave do registo: *Software\Policies\Microsoft\Power BI Desktop\\*
 
-    Registry value: *EnableExternalTools*
+* Valor do registo: *EnableExternalTools*
 
 Um valor de 1 (decimal) ativa a utilização de ferramentas externas do Power BI no Power BI, que é o valor predefinido.
 

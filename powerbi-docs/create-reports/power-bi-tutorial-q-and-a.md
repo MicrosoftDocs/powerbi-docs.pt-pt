@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4269ccb5f86a364d2bf4abf89e3184096a368ff3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c1dc3da67cf6160360833e8702fdc492fa97b803
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234711"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633498"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Utilizar as Perguntas e Respostas do Power BI para explorar os seus dados e criar elementos visuais
 
@@ -33,7 +33,7 @@ No serviço Power BI (app.powerbi.com), um dashboard contém mosaicos afixados 
 
 A caixa de pergunta das Perguntas e Respostas está localizada no canto superior esquerdo do dashboard, onde vai escrever a sua pergunta com linguagem natural. Não vê a caixa de Perguntas e Respostas? Consulte [Considerações e resolução de problemas](../consumer/end-user-q-and-a.md#considerations-and-troubleshooting) no artigo **Perguntas e Respostas**.  As Perguntas e Respostas reconhecem as palavras que escreve e descobrem onde (em que conjunto de dados) encontrar a resposta. O P e R também o ajuda a criar a sua pergunta com preenchimento automático, ajuste e outros auxílios textuais e visuais.
 
-![Caixa de perguntas das Perguntas e Respostas](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
+![Captura de ecrã que mostra um dashboard do Power BI com uma opção para Colocar uma questão sobre os dados.](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
 
 A resposta à sua pergunta é apresentada como uma visualização interativa e atualiza à medida que modifica a pergunta.
 
@@ -87,7 +87,7 @@ Para utilizar as Perguntas e Respostas em relatórios, tem de ter permissões de
 
 2. Uma caixa de pergunta das Perguntas e Respostas é apresentada na tela do relatório. No exemplo abaixo, a caixa de pergunta é apresentada sobre outra visualização. Não há problema, mas pode ser melhor adicionar uma página em branco ao relatório antes de fazer uma pergunta.
 
-    ![Caixa de perguntas das Perguntas e Respostas](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
+    ![Captura de ecrã que mostra uma tela com a caixa Perguntas e Respostas numa visualização.](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
 
 3. Coloque o cursor na caixa de pergunta. À medida que escreve, as Perguntas e Respostas apresentam sugestões para o ajudar a formular a sua pergunta.
 

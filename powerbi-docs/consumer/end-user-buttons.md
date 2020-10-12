@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 51871e9653a1f3d0d48f25de33d4a72603695cf4
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1b0b677e67fa15906492fbaa41fcfd456d77bf01
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161796"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633891"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Botões no serviço Power BI
 Pode ter reparado em botões nos relatórios que recebe de colegas e questionado como utilizá-los. Alguns têm palavras, outros têm setas, outros têm gráficos e outros até têm menus pendentes. Este artigo irá ensinar-lhe a reconhecer os botões e como descobrir o que fazer com eles.
@@ -31,11 +31,11 @@ Um botão de retrocesso pode ter uma seta como ícone e, quando o seleciona, o P
 1. Selecione **Word** no gráfico de barras.
 1. Selecione **Pormenorizar** e **Market basket analysis**.
 
-    ![captura de ecrã a mostrar o botão Anterior](media/end-user-buttons/power-bi-drillthrough.png)
+    ![Captura de ecrã a mostrar o botão de pormenorização.](media/end-user-buttons/power-bi-drillthrough.png)
 
     Ao selecionar **Market basket analysis**, o Power BI abre a página de relatório de *Market basket analysis* e utiliza as seleções feitas na página de origem para filtrar o que é mostrado na página de destino.
 
-    ![captura de ecrã a mostrar o botão Anterior](media/end-user-buttons/power-bi-go-back.png)
+    ![Captura de ecrã a mostrar o botão Anterior.](media/end-user-buttons/power-bi-go-back.png)
 
     Está agora na página de relatório de **Market basket analysis**, que é filtrada para o Word. Selecione o botão Anterior para voltar à página anterior do relatório. 
 
@@ -60,15 +60,15 @@ Os botões de pormenorização podem ter mais do que um pré‑requisito. A não
 
 Aqui está um botão de pormenorização que nos irá levar à página *Store details*. Pairar o cursor sobre o botão revela uma descrição que nos informa de que precisamos de selecionar tanto uma loja como um produto. Até selecionarmos um de cada, o botão permanece inativo.
 
-![captura de ecrã a mostrar o botão de pormenorização com a descrição visível](media/end-user-buttons/power-bi-drill-two-selections.png)
+![Captura de ecrã a mostrar o botão de pormenorização com a descrição visível.](media/end-user-buttons/power-bi-drill-two-selections.png)
 
 Agora que selecionámos um produto (**Word**), e uma loja (**Leo**), o botão muda de cor para nos informar que agora está ativo.
 
-![captura de ecrã a mostrar o botão de pormenorização com a descrição visível](media/end-user-buttons/power-bi-select-both.png)
+![Captura de ecrã a mostrar o botão de pormenorização para Store details.](media/end-user-buttons/power-bi-select-both.png)
 
 A seleção do botão de pormenorização leva-nos à página de relatório *Store*. A página *Store* é filtrada para as nossas seleções de **Word** e **Leo**.
 
-![captura de ecrã a mostrar o botão de pormenorização com a descrição visível](media/end-user-buttons/power-bi-store.png)
+![Captura de ecrã a mostrar a página de relatórios das lojas.](media/end-user-buttons/power-bi-store.png)
 
 Os botões de pormenorização também podem ter menus pendentes que lhe oferecem uma seleção de destinos. Depois de ter feito as seleções na página do relatório de origem, selecione a página de relatório de destino para a pormenorização. No exemplo abaixo, estamos a mudar a nossa seleção para pormenorizar até chegar à página de relatório *Market details*. 
 
@@ -78,13 +78,13 @@ Os botões de pormenorização também podem ter menus pendentes que lhe oferece
 
 Os botões de navegação entre páginas levam‑no a uma página diferente no mesmo relatório. Muitas vezes, os criadores de relatórios criam botões de navegação para contar uma história ou para o guiar através das informações do relatório. No exemplo abaixo, o criador de relatórios adicionou em cada página um botão que o leva à primeira página do relatório, a página de resumo de nível superior. Este botão de navegação entre páginas é útil porque há muitas páginas neste relatório.
 
-![captura de ecrã a mostrar o botão de navegação entre páginas, chamado Team scorecard](media/end-user-buttons/power-bi-nav-button.png)
+![Captura de ecrã a mostrar o botão de navegação entre páginas denominado Team scorecard.](media/end-user-buttons/power-bi-nav-button.png)
 
 
 ## <a name="qa-buttons"></a>Botões de Perguntas e Respostas 
 A seleção de um botão de Perguntas e Respostas abre a janela do Explorador de Perguntas e Respostas do Power BI. A janela de Perguntas e Respostas aparece acima da página do relatório e pode ser fechada ao selecionar o X. [Saiba mais sobre Perguntas e Respostas](end-user-q-and-a.md)
 
-![captura de ecrã a mostrar o botão de navegação entre páginas, chamado Team scorecard](media/end-user-buttons/power-bi-qna.png)
+![Captura de ecrã a mostrar a janela do Explorador de Perguntas e Respostas do Power BI com o texto Faça uma pergunta sobre os seus dados.](media/end-user-buttons/power-bi-qna.png)
 
 ## <a name="web-url"></a>URL da Web
 Os botões de URL da Web abrem uma nova janela do browser. Os criadores de relatórios podem adicionar este tipo de botão como uma origem de referência, para ligar ao site corporativo, ou mesmo como uma ligação a um relatório ou dashboard diferente. No exemplo abaixo, o botão URL da Web permite transferir o ficheiro de origem do relatório. 

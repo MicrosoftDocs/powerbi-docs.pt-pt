@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: overview
-ms.date: 05/29/2020
+ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 791b5efce0489e837cb75ed1ae6632dcc240fc1c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: bd003bd8662a60a67b2bc13f228d165859b38e5c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857594"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374666"
 ---
 # <a name="what-is-power-bi-administration"></a>O que é a administração do Power BI
 
@@ -25,7 +25,7 @@ A administração do Power BI é a gestão das definições em toda a organizaç
 
 ## <a name="administrator-roles-related-to-power-bi"></a>Funções de administrador relacionadas com o Power BI
 
-Existem várias funções que trabalham em conjunto para administrar o Power BI na sua organização. A maioria das funções de administrador é atribuída no centro de administração do Microsoft 365 ou com o PowerShell. As funções de administrador Capacidade do Power BI Premium e Capacidade do Power BI Embedded são atribuídas quando a capacidade é criada. Para saber mais sobre cada uma das funções de administrador, consulte [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide) (Sobre as funções de administrador). Para saber como atribuir funções de administrador, consulte [Assign admin roles](/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide) (Atribuir funções de administrador).
+Existem várias funções que trabalham em conjunto para administrar o Power BI na sua organização. A maioria das funções de administrador é atribuída no centro de administração do Microsoft 365 ou com o PowerShell. As funções de administrador Capacidade do Power BI Premium e Capacidade do Power BI Embedded são atribuídas quando a capacidade é criada. Para saber mais sobre cada uma das funções de administrador, consulte [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) (Sobre as funções de administrador). Para saber como atribuir funções de administrador, consulte [Assign admin roles](/microsoft-365/admin/add-users/assign-admin-roles) (Atribuir funções de administrador).
 
 | **Tipo de administrator** | **Âmbito administrativo** | **Tarefas do Power BI** |
 | --- | --- | --- |
@@ -68,7 +68,7 @@ Os administradores do Power BI trabalham maioritariamente no portal de administr
 | | Classificação e controlo de dados |
 | | Políticas de prevenção de perda de dados |
 | | Governação de informações |
-| [Azure Active Directory (AAD) no portal do Azure](https://aad.portal.azure.com) | Configurar o acesso condicional a recursos do Power BI |
+| [Azure Active Directory no portal do Azure](https://aad.portal.azure.com) | Configurar o acesso condicional a recursos do Power BI |
 | | Aprovisionar capacidade do Power BI Embedded |
 | [Cmdlets do PowerShell](/powershell/power-bi/overview) | Gerir áreas de trabalho e outros aspetos do Power BI através de scripts |
 | [SDK e APIs Administrativas](service-admin-reference.md) | Criar ferramentas de administração personalizadas. Por exemplo, o Power BI Desktop pode utilizar estas APIs para criar relatórios com base nos dados relacionados com a administração. |
@@ -78,7 +78,7 @@ Os administradores do Power BI trabalham maioritariamente no portal de administr
 Agora que sabe as noções básicas da administração do Power BI, consulte estes artigos para saber mais:
 
 - [Utilizar o portal de administração do Power BI](service-admin-portal.md)
-- [Orientação sobre as definições para administradores de inquilinos](../guidance/admin-tenant-settings.md)
+- [Orientações sobre as definições de inquilino](../guidance/admin-tenant-settings.md)
 - [Utilizar cmdlets do PowerShell](/powershell/power-bi/overview)
 - [FAQ de administração do Power BI](service-admin-faq.md)
 - [Licenciamento do serviço Power BI para os utilizadores na sua organização](service-admin-licensing-organization.md)

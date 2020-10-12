@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 5bcc2123c5e22cb5b0ff91122a30ce3d7beb51fe
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 17006405a495798618bf7562e6b94864b795a224
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325581"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528051"
 ---
 # <a name="apply-many-many-relationships-in-power-bi-desktop"></a>Aplicar relações muitos para muitos no Power BI Desktop
 
@@ -93,7 +93,7 @@ Pode deixar a tabela da solução alternativa visível ou pode ocultá-la, de mo
 
 Um elemento visual a mostrar **Estado** (da tabela **Dados por Cidade**), juntamente com a **População** total e as **Vendas** totais seria apresentado da seguinte forma:
 
-![Tabelas State, Population e Sales, Power BI Desktop](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
+![Captura de ecrã a mostrar uma tabela com os dados de State, Population e Sales.](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
 
 > [!NOTE]
 > Devido à utilização do estado da tabela **CityData** nesta solução alternativa, apenas os estados nessa tabela são listados e, por isso, TX é excluído. Além disso, ao contrário das relações *Muitos para 1*, apesar de a linha total incluir todas as **Vendas** (incluindo as de TX), os detalhes não incluem uma linha em branco a abranger as linhas sem correspondência. Da mesma forma, nenhuma linha em branco abrangeria as **Sales** para as quais há um valor nulo em **State**.

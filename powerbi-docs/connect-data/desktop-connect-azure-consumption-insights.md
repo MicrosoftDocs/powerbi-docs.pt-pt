@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a8d2284a24bb04b175a00a69339ba9e6ac260c10
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7d036af591ae9c5fc44370085480c9266e328745
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858631"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632601"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Ligar aos dados do Azure Consumption Insights no Power BI Desktop
 
@@ -110,9 +110,7 @@ Em alternativa, no **Editor de Consultas**:
 1. Clique com o botão direito do rato no painel **Consultas** à esquerda 
 2. Selecione **Nova Consulta > Consulta em Branco** no menu apresentado
 
-Na **Barra de fórmulas**, escreva:
-
-    = MicrosoftAzureConsumptionInsights.Contents
+Na **Barra de fórmulas**, escreva *= MicrosoftAzureConsumptionInsights.Contents*.
 
 A seguinte imagem mostra uma coleção de exemplos que aparece.
 
@@ -141,12 +139,14 @@ O primeiro passo é utilizar o conector do **Azure Consumption Insights** descri
 ### <a name="step-2-create-a-query-in-advanced-editor"></a>Passo 2: Criar uma consulta no Editor Avançado
 No **Editor de Consultas**, selecione **Editor Avançado** na secção **Consulta** do friso **Home Page**. Na janela **Editor Avançado** que é apresentada, introduza esta consulta:
 
-    let    
-        enrollmentNumber = "100",
-        optionalParameters = [ numberOfMonth = 6, dataType="DetailCharges" ],
-        data = MicrosoftAzureConsumptionInsights.Contents(enrollmentNumber, optionalParameters)   
-    in     
-        data
+```console
+let    
+    enrollmentNumber = "100",
+    optionalParameters = [ numberOfMonth = 6, dataType="DetailCharges" ],
+    data = MicrosoftAzureConsumptionInsights.Contents(enrollmentNumber, optionalParameters)   
+in     
+    data
+```
 
 ![Captura de ecrã a mostrar uma caixa de diálogo para Criar uma consulta no Editor Avançado.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
 

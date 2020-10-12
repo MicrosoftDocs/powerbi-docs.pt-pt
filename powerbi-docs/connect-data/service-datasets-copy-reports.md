@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b6f5b1250604f435a49fe6310193eeb80da16763
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 86c663e7b9ba035af6592dc10972d868344df7f7
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236808"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633214"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>Copiar relatórios de outras áreas de trabalho
 
@@ -82,7 +82,7 @@ Quando tem um relatório numa área de trabalho baseada num conjunto de dados no
 
 1. Na vista Lista de relatórios, selecione **Ver relacionados**.
 
-    ![ícone Ver relacionados](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
+    ![Captura de ecrã a mostrar o ícone Ver relacionados, em Ações.](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
 
 1. A caixa de diálogo **Conteúdos relacionados** apresenta todos os itens relacionados. Nesta lista, o conjunto de dados tem um aspeto semelhante a qualquer outro. Não é possível perceber que reside numa área de trabalho diferente. Este problema é conhecido.
  
@@ -98,7 +98,7 @@ Pode decidir que não quer mais o relatório e o respetivo conjunto de dados par
 
 2. Na lista de conjuntos de dados, pode ver que os conjuntos de dados partilhados não têm ícones **Eliminar**. Atualize a página ou aceda a uma página diferente e regresse. O conjunto de dados desaparecerá. Se tal não acontecer, verifique **Ver relacionados**. O conjunto de dados pode estar relacionado com outra tabela na sua área de trabalho.
 
-    ![ícone Ver relacionados](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
+    ![Captura de ecrã a mostrar um conjunto de dados com a opção Ver relacionados, para procurar tabelas relacionadas.](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
 
     > [!NOTE]
     > Eliminar o conjunto de dados partilhado nesta área de trabalho não elimina o conjunto de dados. Elimina apenas a referência ao mesmo.

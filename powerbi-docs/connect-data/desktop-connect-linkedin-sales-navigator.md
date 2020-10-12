@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b87e176338552f0a90c4789d35f531fd7b12d44a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dd8e453a0cec6c404cad077a85f68044fa57ba1f
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224748"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600237"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Ligar-se ao LinkedIn Sales Navigator no Power BI Desktop
 
@@ -86,7 +86,7 @@ A aplicação de modelo fornece quatro separadores para ajudar a analisar e part
 
 O separador **Utilização** mostra os dados gerais do LinkedIn Sales Navigator.
 
-![Separador Utilização do LinkedIn Sales Navigator](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-12.png)
+![O separador Utilização mostra os dados gerais do LinkedIn Sales Navigator.](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-12.png)
 
 O separador **Procurar** permite-lhe realizar uma busca mais detalhada nos resultados de pesquisa:
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 09/18/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7009b4b195c89659c032b578ada130e12389b496
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: cea4af4a8c265e5195a8239bd592c8734e332255
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858859"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375172"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -161,14 +161,14 @@ Os dados são colocados em cache durante uma hora a partir do momento em que sã
 
 O portal de administração do Power BI tem definições que controlam quem pode publicar na Web. Trabalhe em conjunto com o [administrador do Power BI](../admin/service-admin-role.md) da sua organização para alterar as [definições de inquilino da funcionalidade Publicar na Web](../admin/service-admin-portal.md#publish-to-web) no portal de administração.
 
-As organizações mais pequenas ou os indivíduos que se inscreveram no Power BI podem ainda não ter um administrador do Power BI. Siga o nosso [processo de obtenção de controlo administrativo do inquilino](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover). Assim que tiver um administrador do Power BI, este pode ativar a criação de códigos incorporados para si.
+As organizações mais pequenas ou os indivíduos que se inscreveram no Power BI podem ainda não ter um administrador do Power BI. Siga o nosso [processo para a obtenção de controlo administrativo](/azure/active-directory/users-groups-roles/domains-admin-takeover). Assim que tiver um administrador do Power BI, este pode ativar a criação de códigos incorporados para si.
 
 Geralmente, as organizações estabelecidas já têm um administrador do Power BI. As pessoas em qualquer uma das seguintes funções podem desempenhar o papel de administrador do Power BI:
 
 - Administradores globais
 - Utilizadores com a função de administrador do serviço Power BI no Microsoft Azure Active Directory
 
-Precisa de [encontrar uma destas pessoas](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) na sua organização e pedir-lhes para atualizar as [definições de inquilino da funcionalidade Publicar na Web](../admin/service-admin-portal.md#publish-to-web) no portal de administração.
+Precisa de [encontrar uma destas pessoas](/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) na sua organização e pedir-lhes para atualizar as [definições de inquilino da funcionalidade Publicar na Web](../admin/service-admin-portal.md#publish-to-web) no portal de administração.
 
 ## <a name="limitations"></a>Limitações
 
@@ -196,5 +196,3 @@ A funcionalidade **Publicar na Web** é suportada para a grande maioria das orig
 - [Incorporar relatório num site ou portal seguro](service-embed-secure.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
-
-

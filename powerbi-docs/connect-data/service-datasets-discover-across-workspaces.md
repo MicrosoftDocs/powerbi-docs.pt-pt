@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0104d88ab926d649b7b2629e0e3427188c771948
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e9bffc860baa424caef05bad3ac423932868c410
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236780"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374344"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces"></a>Criar relatórios baseados em conjuntos de dados de diferentes áreas de trabalho
 
@@ -50,7 +50,7 @@ Desta forma, os membros da área de trabalho podem perceber quais os relatórios
 
 ## <a name="find-an-endorsed-dataset"></a>Encontrar um conjunto de dados recomendado
 
-Há dois tipos de conjuntos de dados recomendados. Os proprietários de conjuntos de dados podem *promover* um conjunto de dados que lhe recomendam. Além disso, o administrador de inquilinos do Power BI pode nomear peritos para *certificarem* conjuntos de dados para todos utilizarem na sua organização. Os conjuntos de dados promovidos e certificados apresentam *destaques* que vê ao procurar um conjunto de dados e na lista de conjuntos de dados numa área de trabalho. O nome da pessoa que certificou um conjunto de dados é apresentado numa descrição durante a experiência de deteção do conjunto de dados; paire o cursor sobre a etiqueta **Certificado** e veja-o.
+Há dois tipos de conjuntos de dados recomendados. Os proprietários de conjuntos de dados podem *promover* um conjunto de dados que lhe recomendam. Além disso, o administrador do Power BI pode nomear peritos para *certificarem* conjuntos de dados para todos utilizarem na sua organização. Os conjuntos de dados promovidos e certificados apresentam *destaques* que vê ao procurar um conjunto de dados e na lista de conjuntos de dados numa área de trabalho. O nome da pessoa que certificou um conjunto de dados é apresentado numa descrição durante a experiência de deteção do conjunto de dados; paire o cursor sobre a etiqueta **Certificado** e veja-o.
 
 - No serviço Power BI: **Obter dados** > **Conjuntos de dados publicados**.
 - No Power BI Desktop: **Obter dados** > **Conjuntos de dados do Power BI**.

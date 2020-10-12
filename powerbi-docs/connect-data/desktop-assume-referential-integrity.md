@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c0a7ef3ef7ce62ca1939791c3dcf198428f1353c
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 698abf814b9b93635ba425b2c9d1d30a292714ab
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034365"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599890"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>Aplicar a definição Assumir Integridade Referencial no Power BI Desktop
 Quando ligar a uma origem de dados através do **DirectQuery**, pode utilizar a seleção **Assumir Integridade Referencial** para ativar a execução de consultas mais eficientes relativamente à origem de dados. Esta funcionalidade tem alguns requisitos dos dados subjacentes e só está disponível quando utilizar o **DirectQuery**.
@@ -39,7 +39,7 @@ O exemplo seguinte demonstra como se comporta a funcionalidade **Assumir Integri
    ![Captura de ecrã a mostrar as tabelas Orders e Products.](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
 2. Na imagem seguinte, tenha em atenção que não existe integridade referencial entre **Orders[DepotID]** e **Depots[DepotID]** , uma vez que o **DepotID** é *Nulo* para algumas *Orders*. Como tal, **Assumir Integridade Referencial** *não* deve ser definido.
    
-   ![Captura de ecrã a mostrar as tabelas Orders e Products.](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
+   ![Captura de ecrã a mostrar as tabelas Orders e Depots.](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. Por fim, não existe integridade referencial entre **Orders[CustomerID]** e **Customers[CustID]** nas tabelas seguintes. **CustomerID** contém alguns valores (neste caso, *CustX*) que não existem na tabela *Customers*. Como tal, **Assumir Integridade Referencial** *não* deve ser definido.
    
    ![Captura de ecrã a mostrar as tabelas Orders e Customers.](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)

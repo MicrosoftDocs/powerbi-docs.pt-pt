@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 59e99bc44b9b438c76b72addf49beee2b69b8623
-ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
+ms.openlocfilehash: 5d5647216caee4eae648d0be0ebf3f453cd17d71
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86437276"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633007"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrar um relatório usando parâmetros de cadeia de consulta no URL
 
@@ -37,7 +37,7 @@ Com os parâmetros, pode filtrar o relatório para um ou mais valores, mesmo que
 
 *URL*?filter=*Table*/*Field* eq '*value*'
 
-![Captura de ecrã do URL com filtro.](media/service-url-filters/power-bi-filter-urls7b.png)
+![Captura de ecrã do URL com o filtro.](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * Os nomes de **Tabela** e **Campo** são sensíveis a maiúsculas e minúsculas, ao contrário de **valor**.
 * Os campos que são ocultados da vista de relatórios também podem ser filtrados.
@@ -64,7 +64,7 @@ Na nossa visualização de mapa acima, reparamos que temos lojas na Carolina do 
 ?filter=Store/Territory eq 'NC'
 ```
 
-![Captura de ecrã do URL com filtro.](media/service-url-filters/power-bi-filter-urls7.png)
+![Captura de ecrã do URL com o filtro da Carolina do Norte.](media/service-url-filters/power-bi-filter-urls7.png)
 
 O nosso relatório está filtrado para a Carolina do Norte. Todas as visualizações no relatório mostram dados apenas para a Carolina do Norte.
 
@@ -155,10 +155,10 @@ Os carateres especiais e espaços em nomes de tabelas e colunas requerem alguma 
 |**[Coluna]**     |  [ is 0x005B ] é 0x005D       |  _x005B_Column_x005D_       |
 |**Coluna+SinalDeAdição**     | + é 0x2B        |  Coluna_x002B_SinalDeAdição       |
 
-Table_x0020_Name/Column_x002B_Plus eq 3 ![Captura de ecrã dos carateres especiais de composição de elementos visuais da tabela.](media/service-url-filters/power-bi-special-characters1.png)
+Table_x0020_Name/Column_x002B_Plus eq 3 ![Captura de ecrã dos carateres especiais de composição de elementos visuais da tabela para o formato Unicode.](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Captura de ecrã dos carateres especiais de composição de elementos visuais da tabela.](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Captura de ecrã dos carateres especiais de composição de elementos visuais da tabela para codificação no Power BI.](media/service-url-filters/power-bi-special-characters2.png)
 
 ### <a name="special-characters-in-values"></a>Carateres especiais em valores
 
@@ -172,11 +172,11 @@ Por exemplo:
 
 - `?filter=Table/Name eq 'Lee''s Summit'` torna-se:
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Lee's Summit":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Name is O'Brien":::
 
 - O operador `in` também suporta este caráter de escape: `?filter=Table/Name in ('Lee''s Summit', 'O''Brien')` torna-se:
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Lee's Summit ou O'Brien":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Name is O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>Utilizar o DAX para filtrar em múltiplos valores
 

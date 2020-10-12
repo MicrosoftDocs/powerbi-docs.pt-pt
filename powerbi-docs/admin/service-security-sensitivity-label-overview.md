@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/16/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 00089c6ba2b2af5a6334fac07fd3991f5201cb44
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 04be21e368c74029e1e720a02b92d00448282138
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854213"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374405"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Etiquetas de confidencialidade no Power BI
 
@@ -38,7 +38,7 @@ Um [relatório de métricas de proteção](service-security-data-protection-metr
 
 A etiquetagem de confidencialidade **não** afeta o acesso aos conteúdos no Power BI, uma vez que esse acesso é gerido apenas pelas permissões do Power BI. Embora as etiquetas sejam visíveis, não são aplicadas definições de encriptação associadas (configuradas no [Centro de Segurança do Microsoft 365](https://security.microsoft.com/) ou no [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/)). Estes são aplicados apenas a dados que saem do Power BI através da exportação para ficheiros Excel, PowerPoint ou PDF ou através de qualquer outro caminho de exportação suportado.
 
-As etiquetas de confidencialidade e a encriptação de ficheiros **não são** aplicados em caminhos de exportação não suportados. O administrador de inquilinos do Power BI pode bloquear a exportação de caminhos de exportação não suportados:
+As etiquetas de confidencialidade e a encriptação de ficheiros **não são** aplicados em caminhos de exportação não suportados. O administrador do Power BI pode bloquear a exportação através de caminhos de exportação não suportados:
 
 >[!NOTE]
 > Os utilizadores a quem é concedido acesso a um relatório têm acesso a todo o conjunto de dados subjacente, a menos que [a segurança ao nível da linha (RLS)](./service-admin-rls.md) limite o acesso. Os autores do relatório podem classificar e etiquetar relatórios com as etiquetas de confidencialidade. Se a etiqueta de confidencialidade tiver definições de proteção, o Power BI aplicará estas definições de proteção quando exportar os dados do relatório para ficheiros do Excel, do PowerPoint ou PDF. Apenas os utilizadores autorizados podem abrir ficheiros protegidos.
@@ -83,7 +83,7 @@ Um utilizador que exporta um ficheiro do Power BI tem permissão para aceder e e
 
 As etiquetas de confidencialidade e proteções não são aplicadas quando os dados são exportados para ficheiros .csv ou .pbix ou qualquer outro caminho de exportação.
 
-Aplicar uma etiqueta de confidencialidade e proteção a um ficheiro exportado não adiciona marcação de conteúdos ao ficheiro. No entanto, se a etiqueta for configurada para aplicar marcações de conteúdos, estas são automaticamente aplicadas pelo cliente de etiquetagem unificada do Azure Information Protection, quando o ficheiro é aberto em aplicações de computador do Office. As marcações de conteúdo não são aplicadas automaticamente quando utiliza a etiquetagem incorporada para computadores, dispositivos móveis ou aplicações Web. Para obter mais detalhes, veja [When Office apps apply content marking and encryption](/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption) (Quando é que as aplicações do Office aplicam marcação de conteúdo e encriptação).
+Aplicar uma etiqueta de confidencialidade e proteção a um ficheiro exportado não adiciona marcação de conteúdos ao ficheiro. No entanto, se a etiqueta for configurada para aplicar marcações de conteúdos, estas são automaticamente aplicadas pelo cliente de etiquetagem unificada do Azure Information Protection, quando o ficheiro é aberto em aplicações de computador do Office. As marcações de conteúdo não são aplicadas automaticamente quando utiliza a etiquetagem incorporada para computadores, dispositivos móveis ou aplicações Web. Para obter mais detalhes, veja [When Office apps apply content marking and encryption](/microsoft-365/compliance/sensitivity-labels-office-apps#when-office-apps-apply-content-marking-and-encryption) (Quando é que as aplicações do Office aplicam marcação de conteúdo e encriptação).
 
 A exportação falha se uma etiqueta não puder ser aplicada quando os dados são exportados para um ficheiro. Para verificar se a exportação falhou porque a etiqueta não podia ser aplicada, clique no nome do relatório ou do dashboard no centro da barra de título e verifique se é apresentada a indicação "Não é possível carregar a etiqueta de confidencialidade" no menu pendente informativo aberto. Isto pode acontecer se o administrador de segurança tiver eliminado ou anulado a publicação da etiqueta aplicada, ou em resultado de um problema temporário do sistema.
 
@@ -139,8 +139,8 @@ A lista seguinte fornece algumas limitações de etiquetas de confidencialidade 
 * As etiquetas de confidencialidade só podem ser aplicadas em dashboards, relatórios, conjuntos de dados e fluxos de dados. Atualmente, não estão disponíveis para [relatórios paginados](../paginated-reports/report-builder-power-bi.md) e livros.
 * As etiquetas de confidencialidade em recursos do Power BI estão visíveis nas vistas de lista de áreas de trabalho, linhagem, favoritos, recentes e aplicações. Atualmente, as etiquetas não estão visíveis na vista "Partilhado comigo". No entanto, repare que uma etiqueta aplicada a um recurso do Power BI, mesmo que não esteja visível, persiste sempre nos dados exportados para ficheiros Excel, PowerPoint e PDF.
 * As etiquetas de confidencialidade de dados não são suportadas para aplicações de modelo. As etiquetas de confidencialidade definidas pelo criador de aplicações de modelo serão removidas quando a aplicação é extraída e instalada e as etiquetas de confidencialidade adicionadas a artefactos numa aplicação de modelo instalada pelo consumidor de aplicações serão perdidas (repostas a zero) quando a aplicação é atualizada.
-* O Power BI não suporta etiquetas de confidencialidade dos tipos de proteção [Não Reencaminhar](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions), [definido pelo utilizador](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions) e [HYOK](/azure/information-protection/configure-adrms-restrictions). Os tipos de proteção Não Reencaminhar e definido pelo utilizador fazem referência a etiquetas definidas no [Centro de Segurança do Microsoft 365](https://security.microsoft.com/) ou no [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/).
-* Não é recomendável permitir que os utilizadores apliquem etiquetas principais dentro do Power BI (uma etiqueta será considerada como sendo uma etiqueta principal apenas se possuir subetiquetas). Se uma etiqueta principal for aplicada ao conteúdo, a exportação de dados desse conteúdo para um ficheiro (Excel, PowerPoint e PDF) irá falhar. Veja [Sublabels (grouping labels)](/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels) (Subetiquetas [etiquetas do agrupamento]).
+* O Power BI não suporta etiquetas de confidencialidade dos tipos de proteção [Não Reencaminhar](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions), [definido pelo utilizador](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions) e [HYOK](/azure/information-protection/configure-adrms-restrictions). Os tipos de proteção Não Reencaminhar e definido pelo utilizador fazem referência a etiquetas definidas no [Centro de Segurança do Microsoft 365](https://security.microsoft.com/) ou no [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/).
+* Não é recomendável permitir que os utilizadores apliquem etiquetas principais dentro do Power BI (uma etiqueta será considerada como sendo uma etiqueta principal apenas se possuir subetiquetas). Se uma etiqueta principal for aplicada ao conteúdo, a exportação de dados desse conteúdo para um ficheiro (Excel, PowerPoint e PDF) irá falhar. Veja [Sublabels (grouping labels)](/microsoft-365/compliance/sensitivity-labels#sublabels-grouping-labels) (Subetiquetas [etiquetas do agrupamento]).
 
 ## <a name="next-steps"></a>Próximos passos
 

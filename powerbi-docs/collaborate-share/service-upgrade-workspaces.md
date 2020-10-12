@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 09/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 432c526479465da5d22e17172582c7f1d2cceb0c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e2b6c8d916cc3c180ab9adb9b6ea6af8eaefea4
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225290"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633061"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Atualizar as áreas de trabalho clássicas para as novas áreas de trabalho no Power BI
 
@@ -27,7 +27,7 @@ Este artigo explica como atualizar ou *migrar* uma área de trabalho clássica p
 
 No entanto, deverá ter conhecimento de que a área de trabalho poderá sofrer algumas alterações, pelo que devem ser planeadas. Por exemplo, os pacotes de conteúdos não estão disponíveis na nova experiência de área de trabalho. Veja a seção [Considerações e limitações da atualização](#upgrade-considerations-and-limitations), mais adiante neste artigo.
 
-## <a name="things-to-do-after-upgrading"></a>Coisas a realizar após a atualização
+## <a name="things-to-plan-before-upgrading"></a>Planeamento antes da atualização
 
 Deve fazer várias coisas *depois* de atualizar. É melhor planeá-las *antes* da atualização:
 - Analise a lista de acesso e compreenda as [permissões após a atualização](#permissions-after-upgrade).
@@ -48,11 +48,11 @@ Qualquer administrador da área de trabalho pode atualizar a área de trabalho. 
 
 1. Analise as informações na caixa de diálogo. Serão apresentados avisos caso tenha publicado ou instalado pacotes de conteúdos na área de trabalho. Quando estiver pronto, marque **Estou pronto para atualizar esta área de trabalho** e selecione **Atualizar**.
 
-    ![Ler para atualizar](media/service-upgrade-workspaces/power-bi-ready-upgrade.png)
+    ![Pronto para atualizar](media/service-upgrade-workspaces/power-bi-ready-upgrade.png)
 
 2. Durante a atualização, é apresentada a mensagem **A atualizar**. Normalmente, a atualização da área de trabalho demora menos de um minuto.
 
-1. Após a conclusão da atualização, é apresentada a caixa de diálogo **Êxito**. É recomendável ler [Organizar o trabalho nas novas áreas de trabalho no Power BI](service-new-workspaces.md) para que se possa familiarizar com o modo como as novas áreas de trabalho diferem das áreas de trabalho clássicas.
+1. Após a conclusão da atualização, é apresentada a caixa de diálogo **Êxito**. Verá a sua nova experiência de área de trabalho, com o mesmo nome e os mesmos conteúdos. É recomendável ler [Organizar o trabalho nas novas áreas de trabalho no Power BI](service-new-workspaces.md) para que se possa familiarizar com o modo como as novas áreas de trabalho diferem das áreas de trabalho clássicas.
 
 ### <a name="impact-on-other-workspace-users"></a>Impacto nos outros utilizadores da área de trabalho
 
@@ -62,6 +62,7 @@ Os utilizadores que estejam a utilizar ativamente a área de trabalho deverão a
 
 ## <a name="upgrade-considerations-and-limitations"></a>Considerações e limitações da atualização
 
+- Depois da atualização, os conteúdos da área de trabalho clássica aparecem na nova área de trabalho. Também são apresentados na secção **Partilhado comigo**.
 - Os URLs e IDs da área de trabalho, o conteúdo e a aplicação publicada a partir da área de trabalho não são alterados. O conteúdo dos pacotes de conteúdos instalados na área de trabalho é tratado separadamente. Veja [Pacotes de conteúdos durante a atualização](#content-packs-during-upgrade) neste artigo para obter detalhes.
 - Os pacotes de conteúdos não estão disponíveis na nova experiência de área de trabalho. Leia as seções relativas aos [pacotes de conteúdos publicados](#published-content-packs) ou aos [pacotes de conteúdos instalados](#installed-content-packs) para saber como são tratados durante a atualização. É recomendável eliminar os pacotes de conteúdos instalados ou publicados na área de trabalho antes da atualização.
 - O grupo do Microsoft 365 da área de trabalho clássica não é afetado pela atualização da área de trabalho no Power BI. As Equipas, os sites do SharePoint, as caixas de correio ou outros recursos geridos pelo Microsoft 365 não são alterados. Permanecem inalterados depois de atualizar a área de trabalho do Power BI. O grupo do Microsoft 365 continua a existir como antes.
@@ -111,7 +112,7 @@ A nova experiência de área de trabalho possui funcionalidades que as áreas de
 
 1. Selecione **Definições** na barra de menus na parte superior da lista de conteúdos da área de trabalho para aceder às definições da área de trabalho.
 
-    ![Definições de área de trabalho](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
+    ![Captura de ecrã a mostrar a seleção de Definições na barra de menus.](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
 
 2. Em **Avançado**, a **Lista de contactos** da área de trabalho está configurada para ser o grupo do Microsoft 365 a partir do qual a área de trabalho foi atualizada. Pode adicionar mais utilizadores ou grupos à lista de contactos ou alterná-los para administradores da área de trabalho.
 
@@ -119,11 +120,11 @@ A nova experiência de área de trabalho possui funcionalidades que as áreas de
 
 ### <a name="the-workspace-onedrive"></a>Área de trabalho do OneDrive 
 
-Após a atualização, a área de trabalho do **OneDrive** é ligada à biblioteca de documentos do SharePoint do grupo do Microsoft 365. Esta biblioteca de documentos é apresentada como a opção **OneDrive** na experiência **Obter Dados > Ficheiros**. Tenha em mente que nem todos os utilizadores da área de trabalho terão permissão para aceder a essa biblioteca de documentos se não estiverem no grupo do Microsoft 365.
+Após a atualização, a área de trabalho do **OneDrive** é ligada à biblioteca de documentos do SharePoint do grupo do Microsoft 365. Esta biblioteca de documentos é apresentada como a opção **OneDrive** na experiência **Obter Dados > Ficheiros**. Nem todos os utilizadores da área de trabalho terão permissão para aceder a essa biblioteca de documentos se não estiverem no grupo do Microsoft 365.
 
 ## <a name="content-packs-during-upgrade"></a>Pacotes de conteúdos durante a atualização
 
-A nova experiência de área de trabalho não suporta pacotes de conteúdos. Em vez disso, utilize aplicações e conjuntos de dados partilhados para distribuir conteúdo na área de trabalho. É recomendável remover os pacotes de conteúdos publicados ou instalados a partir da área de trabalho antes da atualização. No entanto, se houver pacotes de conteúdos publicados ou instalados quando atualiza, o processo de atualização tenta preservar o conteúdo, conforme descrito abaixo.  Não há forma de restaurar o pacote de conteúdo ou a associação do conteúdo ao pacote de conteúdos após a atualização.
+A nova experiência de área de trabalho não suporta pacotes de conteúdos. Em vez disso, utilize aplicações e conjuntos de dados partilhados para distribuir conteúdo na área de trabalho. É recomendável remover os pacotes de conteúdos publicados ou instalados a partir da área de trabalho antes da atualização. No entanto, se houver pacotes de conteúdos publicados ou instalados quando atualizar, o processo de atualização tenta preservar os conteúdos, conforme descrito mais à frente neste artigo.  Não há forma de restaurar o pacote de conteúdo ou a associação do conteúdo ao pacote de conteúdos após a atualização.
 
 ### <a name="published-content-packs"></a>Pacotes de conteúdos publicados
 
@@ -148,7 +149,7 @@ Para reverter, precisa de ser Proprietário do grupo do Microsoft 365 ao qual a
 
 1. Na lista conteúdos da área de trabalho, selecione **Mais opções** ( **...** ) > **Definições da área de trabalho**.
 
-    ![Definições de área de trabalho](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
+    ![Captura de ecrã a mostrar a seleção de Mais opções (…) > Definições da área de trabalho.](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
 
 1. Expanda **Avançado** e selecione **Mudar para a área de trabalho clássica**. Se esta opção não estiver disponível, veja [Considerações para mudar para a área de trabalho clássica](#considerations-for-switching-back-to-classic) neste artigo.
 
@@ -202,10 +203,10 @@ A funcionalidade de atualização da área de trabalho não fornece ferramentas 
    
 ## <a name="known-issues"></a>Problemas conhecidos
 
-Existem vários problemas conhecidos que poderá encontrar:
-- Após a atualização, os utilizadores poderão ver uma caixa de diálogo de aviso "Falha ao carregar modelo". Esta mensagem é erradamente apresentada e pode ser ignorada. 
-- Após a atualização, alguns nomes de áreas de trabalho estão diferentes. Quando tal acontecer, o nome da área de trabalho será revertido para um nome anterior ou ficará em branco. Para resolver este problema, mude o nome da área de trabalho para o nome pretendido.
-- Após atualizar uma área de trabalho que tinha um pacote de conteúdos instalado, poderá ver dashboards adicionais na área de trabalho que não eram visíveis antes da atualização. Tal acontece em alguns casos, quando um pacote de conteúdos não foi atualizado recentemente. Pode remover estes dashboards com segurança.
+Existem vários problemas conhecidos que poderá encontrar depois de atualizar:
+- Poderá ver uma mensagem de aviso a indicar "Falha ao carregar modelo". Esta mensagem é erradamente apresentada e pode ser ignorada. 
+- Alguns nomes de áreas de trabalho estão diferentes depois da atualização. Nesse caso, o nome da área de trabalho será revertido para um nome anterior ou ficará em branco. Para resolver este problema, mude o nome da área de trabalho para o nome pretendido.
+- Numa área de trabalho que tenha um pacote de conteúdos instalado, poderá ver dashboards adicionais que não eram visíveis antes da atualização. Neste caso, é possível que um pacote de conteúdos não tenha sido atualizado recentemente. Pode remover estes dashboards com segurança.
 
 ## <a name="next-steps"></a>Próximos passos
 

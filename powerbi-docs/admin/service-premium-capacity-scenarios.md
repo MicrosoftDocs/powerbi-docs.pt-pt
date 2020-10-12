@@ -5,17 +5,17 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: dc5f952aa38e2ab36887ec3f2727e2e253389460
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 1bc11d94162ab2c6ed62de0825acd6e94db30291
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952668"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599384"
 ---
 # <a name="premium-capacity-scenarios"></a>Cenários de capacidades Premium
 
@@ -52,54 +52,54 @@ Existem várias explicações possíveis para estes resultados:
 Para ajudar a investigar, o administrador do Power BI pode procurar:
 
 - Baixa memória disponível no momento em que os dados são atualizados quando a memória disponível é inferior ao dobro do tamanho do conjunto de dados a ser atualizado.
-- Os conjuntos de dados não estão a ser atualizados e não estão na memória antes da atualização, mas começaram a mostrar o tráfego interativo durante tempos de atualização pesados. Para ver os conjuntos de dados que são carregados para a memória a qualquer momento, um administrador do Power BI pode ver a área conjuntos de dados no separador **Conjuntos de dados** na aplicação. O administrador pode utilizar a função de filtro cruzado num determinado horário ao clicar numa das barras nas **Contagens de Conjuntos de Dados Carregados por Hora**. Um pico local, mostrado na imagem abaixo, indica uma hora em que vários conjuntos de dados foram carregados para a memória, o que poderia atrasar o início das atualizações agendadas.
-- Ocorrem mais expulsões de conjuntos de dados quando as atualizações estão agendadas para iniciar. As expulsões podem indicar que houve pressão de memória elevada causada pelo fornecimento de muitos relatórios interativos diferentes antes do momento da atualização. O elemento visual **Expulsões do Conjunto de Dados e Consumo de Memória Por Hora** pode indicar claramente picos em expulsões.
+- Os conjuntos de dados não estão a ser atualizados e não estão na memória antes da atualização, mas começaram a mostrar o tráfego interativo durante tempos de atualização pesados. Para ver os conjuntos de dados que são carregados para a memória a qualquer momento, um administrador do Power BI pode ver a área de conjuntos de dados no separador **Conjuntos de dados** na aplicação. O administrador pode utilizar a função de filtro cruzado num determinado horário ao clicar numa das barras nas **Contagens de Conjuntos de Dados Carregados por Hora**. Um pico local, mostrado na imagem abaixo, indica uma hora em que múltiplos conjuntos de dados foram carregados para a memória, o que poderia atrasar o início das atualizações agendadas.
+- Ocorrem mais expulsões de conjuntos de dados quando as atualizações estão agendadas para iniciar. As expulsões podem indicar que houve pressão de memória elevada causada pelo fornecimento de muitos relatórios interativos diferentes antes da atualização. O elemento visual **Expulsões do Conjunto de Dados e Consumo de Memória Por Hora** pode indicar claramente picos em expulsões.
 
-A imagem a seguir mostra um pico local nos conjuntos de dados carregados, o que sugere que uma consulta interativa atrasou o início das atualizações. A seleção de um período de tempo no elemento visual **Contagens do Conjunto de Dados Carregados Por Hora** irá utilizar o filtro cruzado no elemento visual **Tamanhos dos Conjuntos de Dados**.
+A imagem a seguir mostra um pico local nos conjuntos de dados carregados, o que sugere que uma consulta interativa atrasou o início das atualizações. A seleção de um período no elemento visual **Contagens do Conjunto de Dados Carregados Por Hora** irá utilizar o filtro cruzado no elemento visual **Tamanhos dos Conjuntos de Dados**.
 
 ![Um pico local nos conjuntos de dados carregados sugere que uma consulta interativa atrasou o início das atualizações](media/service-premium-capacity-scenarios/hourly-loaded-dataset-counts.png)
 
 O administrador do Power BI pode tentar resolver o problema ao seguir os passos para garantir que existe memória suficiente disponível para as atualizações de dados serem iniciadas ao:
 
 - Contactar os proprietários do conjunto de dados e pedir-lhes para escalonar e espaçar agendamentos de atualizações.
-- Reduzir a carga de consulta do conjunto de dados ao remover dashboards ou mosaicos de dashboards desnecessários, especialmente os que impõem segurança ao nível da linha.
+- Reduzir a carga de consulta do conjunto de dados ao remover dashboards ou mosaicos de dashboards desnecessários, especialmente os conteúdos que impõem segurança ao nível da linha.
 - Acelerar as atualizações de dados ao otimizar a lógica do Power Query. Melhore a modelação de colunas ou tabelas calculadas. Reduza os tamanhos dos conjuntos de dados ou configure conjuntos de dados maiores para executar a atualização incremental de dados.
 
 ## <a name="identifying-slow-responding-datasets"></a>Identificar conjuntos de dados de resposta lenta
 
-Neste cenário, começou uma investigação quando os utilizadores reclamaram que determinados relatórios demoravam muito tempo para abrir e, às vezes, deixavam de responder.
+Neste cenário, começou uma investigação quando os utilizadores reclamaram que determinados relatórios demoravam muito tempo para abrir. Por vezes, os relatórios deixavam até de responder.
 
-Na aplicação, o administrador do Power BI pode utilizar o elemento visual **Durações de Consulta** para determinar os piores conjuntos de dados de desempenho, ao ordenar os conjuntos de dados por ordem decrescente de **Duração Média**. Este elemento visual também mostra contagens da consulta do conjunto de dados, para que possa ver com que frequência os conjuntos de dados são consultados.
+Na aplicação, o administrador do Power BI pode utilizar o elemento visual **Durações de Consulta** para determinar os conjuntos de dados com o pior desempenho, ao ordenar os conjuntos de dados por ordem decrescente de **Duração Média**. Este elemento visual também mostra contagens da consulta do conjunto de dados, para que possa ver com que frequência os conjuntos de dados são consultados.
 
 ![Conjuntos de dados com o pior desempenho](media/service-premium-capacity-scenarios/worst-performing-datasets.png)
 
-O administrador pode consultar o elemento visual **Distribuição da Duração da Consulta**, que mostra uma distribuição geral do desempenho da consulta registada (<= 30 ms, 0-100 ms) no período de tempo filtrado. Geralmente, as consultas que demoram um segundo ou menos são consideradas responsivas pela maioria dos utilizadores; as consultas que demoram mais tendem a criar uma perceção de mau desempenho.
+O administrador pode consultar o elemento visual **Distribuição da Duração da Consulta**, que mostra uma distribuição geral do desempenho da consulta registada (<= 30 ms, 0-100 ms) no período de tempo filtrado. Geralmente, as consultas que demoram um segundo ou menos são consideradas reativas pela maioria dos utilizadores. As consultas que demoram mais tempo tendem a criar a perceção de mau desempenho.
 
 O elemento visual **Distribuição da Duração da Consulta Por Hora** permite que o administrador do Power BI identifique períodos de uma hora quando o desempenho da capacidade pode ter sido percebido como insatisfatório. Quanto maiores forem os segmentos de barras que representam durações de consulta num segundo, maior será o risco de que os utilizadores irão perceber o desempenho insatisfatório.
 
 O elemento visual é interativo e, quando um segmento da barra é selecionado, o elemento visual da tabela **Durações da Consulta** correspondente na página do relatório é filtrado de forma cruzada para mostrar os conjuntos de dados que ele representa. Esta filtragem cruzada permite que o administrador do Power BI identifique facilmente os conjuntos de dados que estão a responder lentamente.
 
-A imagem a seguir mostra um elemento visual filtrado por **Distribuições de Duração de Consulta Por Hora**, concentrando-se nos conjuntos de dados com pior desempenho em intervalos de uma hora. 
+A imagem a seguir mostra um elemento visual filtrado por **Distribuições de Duração de Consulta Por Hora**, concentrando-se nos conjuntos de dados com pior desempenho em intervalos de uma hora.
 
 ![O elemento visual de Distribuições de Duração de Consulta Filtrados Por Hora mostra os conjuntos de dados com pior desempenho](media/service-premium-capacity-scenarios/hourly-query-duration-distributions.png)
 
-Quando o conjunto de dados com pior desempenho num período específico de uma hora for identificado, o administrador do Power BI pode investigar se o baixo desempenho é causado por uma capacidade sobrecarregada ou devido a um relatório ou conjunto de dados mal concebido. O elemento visual **Tempos de Espera de Consulta** pode ser acedido, de forma a ordenar conjuntos de dados por tempo médio decrescente de espera de consulta. Se uma grande percentagem de consultas estiver a aguardar, uma procura elevada pelo conjunto de dados é provavelmente a causa de muitas esperas de consulta. Se o tempo médio de espera da consulta for significativo (> 100 ms), poderá valer a pena rever o conjunto de dados e comunicá-lo para ver se podem ser feitas otimizações. Por exemplo, menos elementos visuais em determinadas páginas de relatório ou numa otimização de expressão do DAX.
+Quando o conjunto de dados com pior desempenho num período específico de uma hora for identificado, o administrador do Power BI pode investigar se o baixo desempenho é causado por uma capacidade sobrecarregada ou devido a um relatório ou conjunto de dados mal concebido. O elemento visual **Tempos de Espera de Consulta** pode ser acedido, de forma a ordenar conjuntos de dados por tempo médio decrescente de espera de consulta. Se uma grande percentagem de consultas estiver a aguardar, uma procura elevada pelo conjunto de dados é provavelmente a causa de muitos atrasos de consulta. Se o tempo médio de espera da consulta for significativo (> 100 ms), poderá valer a pena rever o conjunto de dados e comunicá-lo para ver se podem ser feitas otimizações. Por exemplo, menos elementos visuais em determinadas páginas de relatório ou numa otimização de expressão do DAX.
 
 ![O elemento visual Tempos de Espera da Consulta ajuda a revelar conjuntos de dados com mau desempenho](media/service-premium-capacity-scenarios/query-wait-times.png)
 
 Há várias razões possíveis para o tempo de espera da consulta acumular nos conjuntos de dados:
 
 - Um design de modelo de qualidade inferior, expressões de medida ou até mesmo o design do relatório – todas as circunstâncias que podem contribuir para consultas de execução prolongada que consomem altos níveis de CPU. O que força as novas consultas a aguardar até que os threads de CPU fiquem disponíveis e possam criar um efeito de comboio (como um engarrafamento de trânsito), normalmente visto durante o pico do horário comercial. A página **Esperas de Consulta** será o recurso principal para determinar se os conjuntos de dados têm tempos de espera médios de consulta.
-- Um elevado número de utilizadores de capacidade simultânea (centenas a milhares) que consomem o mesmo relatório ou conjunto de dados. Até mesmo os conjuntos de dados bem desenhados podem ter um mau desempenho além de um limite de simultaneidade. O que é geralmente indicado por um único conjunto de dados, mostrando um valor consideravelmente mais alto para contagens de consulta do que outros conjuntos de valores mostram (por exemplo, 300 mil consultas para um conjunto de dados em comparação com <30 mil consultas para todos os outros conjuntos de dados). Em algum momento, a consulta espera que este conjunto de dados comece a escalonar, o que pode ser visto no elemento visual **Durações da Consulta**.
-- Foram consultados muitos conjuntos de dados diferentes em simultâneo, causando {1}thrashing{2}, dado que os conjuntos de dados saem e entram frequentemente da memória. O que resulta num desempenho reduzido para os utilizadores quando o conjunto de dados é carregado para a memória. Para confirmar, o administrador do Power BI pode consultar o elemento visual **Expulsões do Conjunto de Dados e Consumo de Memória Por Hora**, que pode indicar que um grande número de conjuntos de dados carregados para a memória está a ser expulso repetidamente.
+- Um elevado número de utilizadores de capacidade simultânea (centenas a milhares) que consomem o mesmo relatório ou conjunto de dados. Até mesmo os conjuntos de dados bem desenhados podem ter um mau desempenho além de um limite de simultaneidade. Este problema de desempenho é indicado por um único conjunto de dados que mostra um valor consideravelmente mais alto de contagens de consulta do que outros conjuntos de dados. Por exemplo, pode ver 300 mil consultas para um conjunto de dados em comparação com menos de 30 mil consultas para todos os outros conjuntos de dados. Em algum momento, a consulta espera que este conjunto de dados comece a escalonar, o que pode ser visto no elemento visual **Durações da Consulta**.
+- Foram consultados muitos conjuntos de dados diferentes em simultâneo, causando {1}thrashing{2}, dado que os conjuntos de dados saem e entram frequentemente da memória. Esta situação resulta num desempenho reduzido para os utilizadores quando o conjunto de dados é carregado para a memória. Para confirmar, o administrador do Power BI pode consultar o elemento visual **Expulsões do Conjunto de Dados e Consumo de Memória Por Hora**, que pode indicar que um grande número de conjuntos de dados carregados para a memória está a ser expulso repetidamente.
 
 ## <a name="identifying-causes-for-sporadically-slow-responding-datasets"></a>Identificar causas de conjuntos de dados de resposta esporadicamente lenta
 
-Neste cenário, começou uma investigação quando os utilizadores descreveram que os elementos visuais do relatório às vezes eram lentos para responder ou deixavam de responder, mas noutras alturas respondiam de forma aceitável.
+Neste cenário, começou uma investigação quando os utilizadores descreveram que os elementos visuais do relatório por vezes eram lentos a responder ou deixavam de responder. Noutras ocasiões, os elementos visuais do relatório respondiam de forma aceitável.
 
 Na aplicação, a secção **Durações da Consulta** foi utilizada para encontrar o conjunto de dados responsável da seguinte forma:
 
-- No elemento visual **Durações da Consulta**, o administrador filtrou o conjunto de dados por conjunto de dados (começando pelos conjuntos de dados principais consultados) e examinou as barras com filtro cruzado no elemento visual **Distribuições de Consulta Por Hora**.
+- No elemento visual Durações da Consulta, o administrador filtrou o conjunto de dados por conjunto de dados (começando pelos conjuntos de dados principais consultados) e examinou as barras com filtro cruzado no elemento visual **Distribuições de Consulta Por Hora**.
 - Quando uma única barra de uma hora mostrou alterações significativas na proporção entre todos os grupos de duração da consulta em relação a outras barras de uma hora para esse conjunto de dados (por exemplo, as proporções entre as cores são alteradas de forma drástica), significa que este conjunto de dados demonstrou uma alteração esporádica no desempenho.
 - As barras de uma hora que mostram uma parte irregular das consultas de baixo desempenho, indicaram um intervalo de tempo em que esse conjunto de dados foi afetado por um efeito vizinho ruidoso, causado por outras atividades de conjuntos de dados.
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0e21c4397708b289d7eccfbdbaa839cbf16c1f0b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 716439417a0e9cc57188c544f984f4936a424a47
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224063"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632463"
 ---
 # <a name="get-webpage-data-by-providing-examples"></a>Obter dados de página Web ao fornecer exemplos
 
@@ -36,7 +36,9 @@ Em **Da Web**, introduza o URL da página Web a partir da qual pretende extrair 
 
 Se quiser acompanhar, pode utilizar o [URL da Microsoft Store](https://www.microsoft.com/store/top-paid/games/xbox?category=classics) que utilizamos neste artigo:
 
-    https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```http
+https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```
 
 ![Caixa de diálogo Web](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 
@@ -48,14 +50,14 @@ Quando seleciona **OK**, é aberta a caixa de diálogo **Navegador** onde são a
 
 Neste exemplo, vamos extrair o *Nome* e o *Preço* de cada um dos jogos na página. Podemos fazê-lo ao especificar alguns exemplos da página para cada coluna. Ao introduzir exemplos, o *Power Query* extrai dados que se enquadram no padrão de entradas de exemplo, com algoritmos inteligentes de extração de dados.
 
-![dados de exemplo](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+![Captura de ecrã a mostrar dados da Internet.](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
 > [!NOTE]
 > as sugestões de valor incluem apenas valores inferiores ou iguais a 128 carateres.
 
 Quando estiver satisfeito com os dados extraídos da página Web, selecione **OK** para ir para o Editor do Power Query. Pode aplicar mais transformações ou formatar os dados, por exemplo, combinando estes dados com outros dados das nossas origens.
 
-![dados de exemplo](media/desktop-connect-to-web-by-example/web-by-example_07.png)
+![Captura de ecrã a mostrar dados extraídos da Internet no Editor do Power Query.](media/desktop-connect-to-web-by-example/web-by-example_07.png)
 
 A partir daí, pode criar os elementos visuais ou utilizar os dados da página Web quando criar os seus relatórios do Power BI Desktop.
 

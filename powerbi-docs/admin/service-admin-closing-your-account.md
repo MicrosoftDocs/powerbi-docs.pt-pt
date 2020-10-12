@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/09/2019
+ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: d5028e4aaa1bbb864f14c3f3cdb58d136275e5fc
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 076a1a65e275d58b54e340e30083d1c2a19ebbbf
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161244"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374445"
 ---
 # <a name="close-your-power-bi-account"></a>Fechar a sua conta do Power BI
 
-Se não quiser mais utilizar o Power BI, poderá fechar sua conta do Power BI.  Depois de fechar a sua conta, não pode iniciar sessão no Power BI. Além disso, tal como declara na política de retenção de dados nos Termos de Serviço do Power BI, este elimina quaisquer dados do cliente carregados ou criados. Não são mantidos.
+Se não quiser mais utilizar o Power BI, poderá fechar sua conta do Power BI.  Depois de fechar a sua conta, não pode iniciar sessão no Power BI. Além disso, tal como é declarado na política de retenção de dados no [Contrato de Serviço do Power BI](https://azure.microsoft.com/support/legal/subscription-agreement/), este elimina quaisquer dados de clientes criados ou carregados por si.
 
 ## <a name="individual-power-bi-users"></a>Utilizadores individuais do Power BI
 
@@ -26,7 +26,7 @@ Se se inscreveu no Power BI como um indivíduo, poderá fechar a sua conta no e
 
 1. No Power BI, selecione o ícone de engrenagem no canto superior direito e, em seguida, selecione **Definições**.
 
-    ![Captura de ecrã do canto superior direito da IU com o ícone de engrenagem e a opção de definições em destaque.](media/service-admin-closing-your-account/close-account-settings.png)
+    ![Captura de ecrã do canto superior direito da IU com o ícone de engrenagem e a opção das definições realçados.](media/service-admin-closing-your-account/close-account-settings.png)
 
 1. No separador **Geral**, selecione **Fechar Conta**.
 
@@ -44,9 +44,9 @@ Se se inscreveu no Power BI como um indivíduo, poderá fechar a sua conta no e
 
     ![Captura de ecrã a mostrar a caixa de diálogo de confirmação A sua conta está fechada.](media/service-admin-closing-your-account/close-account-settings-5.png)
 
-## <a name="managed-tenant-users"></a>Utilizadores de inquilino gerido
+## <a name="managed-users"></a>Utilizadores geridos
 
-Se a sua organização o tiver inscrito no Power BI, contacte o administrador de inquilinos e peça-lhe que remova a atribuição de licença da sua conta.
+Se a sua organização o tiver inscrito no Power BI, contacte o administrador. peça-lhe que remova a atribuição de licença da sua conta.
 
 ![Captura de ecrã a mostrar a opção para fechar a conta gerida.](media/service-admin-closing-your-account/close-account-managed.png)
 

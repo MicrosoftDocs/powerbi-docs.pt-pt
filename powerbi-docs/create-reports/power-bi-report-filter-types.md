@@ -1,6 +1,6 @@
 ---
 title: Tipos de filtros nos relatórios do Power BI
-description: Adicionar um filtro de página, um filtro de visualização ou um filtro de relatório a um relatório no Power BI
+description: Saiba mais sobre os tipos de filtros para relatórios no Power BI, incluindo o filtro de página, o filtro de visualização ou o filtro de relatório.
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 05a14f850907dddcbfbb3a2af4dc53806bcfceb8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0dfd55a710ed13f9f17ad2f4e1f01ed5101f189a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83305456"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749397"
 ---
 # <a name="types-of-filters-in-power-bi-reports"></a>Tipos de filtros nos relatórios do Power BI
 

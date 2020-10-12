@@ -1,6 +1,6 @@
 ---
 title: Incorporar relatórios paginados do Power BI na aplicação para a sua organização
-description: Saiba como integrar ou incorporar um relatório paginado do Power BI numa aplicação com as APIs Power BI.
+description: Neste tutorial, irá aprender a integrar ou incorporar um relatório paginado do Power BI numa aplicação através das APIs do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 1c348cbf74e6bc2999383bc5a5c031576a293ac2
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 0d52dd7df774dd834d0356e6de57b9c80beab801
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878745"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747626"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Tutorial: Incorporar relatórios paginados do Power BI numa aplicação para a sua organização
 
 No **Power BI**, pode incorporar relatórios paginados numa aplicação para a sua organização com o cenário *os dados pertencem ao utilizador*.
 
 Os relatórios paginados são relatórios concebidos para uma impressão de alta qualidade. Normalmente, estes relatórios contêm muitos dados, compostos de uma forma que os ajusta às páginas impressas.
-Para compreender como o Power BI suporta os relatórios paginados, veja [O que são relatórios paginados no Power BI Premium?](https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)
+Para compreender como o Power BI suporta os relatórios paginados, veja [O que são relatórios paginados no Power BI Premium?](../../paginated-reports/paginated-reports-report-builder-power-bi.md)
 
 O esquema **User Owns Data** (Dados Pertencem ao Utilizador) permite que a sua aplicação expanda o serviço Power BI para que possa utilizar a análise incorporada. Este tutorial demonstra como integrar um relatório paginado numa aplicação.
 

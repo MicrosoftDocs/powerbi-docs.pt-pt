@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 40de850663f49a26c1d8ae290d88821bbab8c822
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 13223b2ba9d5b50654c952da6b2517717103a724
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229476"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600226"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Criar relatórios do Power BI para acessibilidade
 Pode conceber e criar relatórios apelativos não negligenciando a acessibilidade. Sempre que criar um relatório, independentemente da audiência a que se destina, deve criá-lo para ser utilizável pelo máximo número de pessoas possível, sem necessidade de ser adaptado a um tipo de conceção especial.
@@ -72,11 +72,11 @@ Em geral, cada objeto no Power BI que tenha navegação por teclado também é c
 
 O Power BI dispõe de suporte de alto contraste para os relatórios. Se utilizar um modo de alto contraste no Windows, o Power BI Desktop deteta automaticamente qual o tema de alto contraste que está a ser utilizado no Windows e aplica essas definições aos seus relatórios. Essas cores de alto contraste são mantidas no relatório quando for publicado no serviço Power BI ou noutro local.
 
-![Definições de alto contraste do Windows](media/desktop-accessibility/accessibility-05b.png)
+![Captura de ecrã que mostra um relatório nas definições de alto contraste do Windows.](media/desktop-accessibility/accessibility-05b.png)
 
 O serviço Power BI também tenta detetar as definições de alto contraste selecionadas para o Windows, mas a eficácia e precisão dessa deteção depende do browser que está a ser utilizado para o serviço Power BI. Se quiser definir o tema manualmente no serviço Power BI, no canto superior direito, pode selecionar **V > Cores de alto contraste** e, em seguida, selecionar o tema que pretende aplicar ao relatório.
 
-![Foco para a navegação com acessibilidade](media/desktop-accessibility/accessibility-creating-reports-02.png)
+![Captura de ecrã que mostra como selecionar um tema de cores de alto contraste.](media/desktop-accessibility/accessibility-creating-reports-02.png)
 
 ### <a name="focus-mode"></a>Modo de detalhe
 Se o consumidor de um relatório estiver a analisar um elemento visual num dashboard, pode expandir o elemento visual de modo a preencher mais o ecrã ao navegar até ao menu de contexto do elemento visual e selecionar **Abrir no modo de detalhe**.

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 81ba595be7262c81cdb68f2a1ed052c45663d7a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 108c7cea815475c98a7529a53b9a177ff5fbf405
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234366"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600157"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Publicar no Power BI a partir do Microsoft Excel
 Com o Microsoft Excel 2016 e versões posteriores, pode publicar livros do Excel diretamente na área de trabalho do [Power BI](https://powerbi.microsoft.com), na qual pode criar relatórios e dashboards altamente interativos com base nos dados do livro. Em seguida, pode partilhar ideias com outras pessoas na organização.
@@ -44,11 +44,11 @@ O Excel suporta a publicação de ficheiros do Excel locais. Não têm de ser gu
 
 Ao selecionar **Publicar**, pode selecionar a área de trabalho na qual quer publicar. Se o seu ficheiro do Excel residir no OneDrive para Empresas, só poderá publicar em *A minha Área de Trabalho*. Se o seu ficheiro do Excel residir numa unidade local, pode publicar em *A minha Área de Trabalho* ou numa área de trabalho partilhada à qual tenha acesso.
 
-![Publicar no Power BI](media/service-publish-from-excel/pbi_choose_workspace.png)
+![Captura de ecrã a mostrar a página Publicar no Power BI com A Minha Área de Trabalho selecionada.](media/service-publish-from-excel/pbi_choose_workspace.png)
 
 Existem duas opções para inserir o livro no Power BI.
 
-![Publicar no Power BI](media/service-publish-from-excel/pbi_uploadexport3.png)
+![Captura de ecrã a mostrar a página Publicar com A Minha Área de Trabalho selecionada.](media/service-publish-from-excel/pbi_uploadexport3.png)
 
 Uma vez publicado, o conteúdo do livro que publica é importado para o Power BI, em separado do ficheiro local. Se quiser atualizar o ficheiro no Power BI, terá de voltar a publicar a versão atualizada ou poderá atualizar os dados ao configurar uma atualização programada no livro ou no conjunto de dados no Power BI.
 

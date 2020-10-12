@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2c65adfaee96eee61e1494f730b752d12020ab4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96c7a12e556fde805178bceabfe86f9eff8b9d5c
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236169"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632578"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Utilizar gateways pessoais no Power BI
 
@@ -31,13 +31,13 @@ A tabela seguinte descreve as diferenças entre um gateway de dados no local e u
 
 |   |Gateway de dados no local | Gateway de dados no local (modo pessoal) |
 | ---- | ---- | ---- |
-|Serviços na cloud suportados |Power BI, PowerApps, Azure Logic Apps, Power Automate, Azure Analysis Services, fluxos de dados |Power BI |
-|Execuções |Conforme configurado pelos utilizadores com acesso ao gateway |Conforme configurado pelo utilizador para autenticação do Windows e para outros tipos de autenticação |
-|Só é possível realizar instalações com privilégios de administrador do computador |Sim |Não |
-|Gateway centralizado e gestão de origens de dados |Sim |Não |
-|Importar dados e agendar atualização |Sim |Sim |
-|Suporte para DirectQuery |Sim |Não |
-|Suporte do LiveConnect para o Analysis Services |Sim |Não |
+|**Serviços na cloud suportados** |Power BI, PowerApps, Azure Logic Apps, Power Automate, Azure Analysis Services, fluxos de dados |Power BI |
+|**Execuções** |Conforme configurado pelos utilizadores com acesso ao gateway |Conforme configurado pelo utilizador para autenticação do Windows e para outros tipos de autenticação |
+|**Só é possível realizar instalações com privilégios de administrador do computador** |Sim |Não |
+|**Gateway centralizado e gestão de origens de dados** |Sim |Não |
+|**Importar dados e agendar atualização** |Sim |Sim |
+|**Suporte para DirectQuery** |Sim |Não |
+|**Suporte do LiveConnect para o Analysis Services** |Sim |Não |
 
 ## <a name="install-the-on-premises-data-gateway-personal-mode"></a>Instalar o gateway de dados no local (modo pessoal)
 

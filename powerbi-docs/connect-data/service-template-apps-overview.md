@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: bf51270a39f2f07518aaa6d83902519e08f7ab45
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c647f376502e2575b9eef46e9e2a72d5d76e8053
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860584"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635177"
 ---
 # <a name="what-are-power-bi-template-apps"></a>O que são as aplicações de modelo do Power BI?
 
@@ -29,23 +29,33 @@ Pode submeter aplicações de modelo ao Centro de parceiros. Em seguida, as apli
 
 As Aplicações de Modelo do Power BI permitem que os utilizadores do Power BI Pro ou do Power BI Premium obtenham informações imediatas através de relatórios e dashboards previamente compactados que podem ser ligados a origens de dados em direto. Já se encontram disponíveis muitas Aplicações do Power BI no [Marketplace de Aplicações do Power BI](https://app.powerbi.com/getdata/services).
 
-|  |
-|     :---:      |
-| [![Aplicação Web do Microsoft Project](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_msprojectonline.pbi-microsoftprojectwebapp) [![Aplicação Web Análise de Utilização do Microsoft 365](./media/service-template-apps-overview/microsoft365-usage-analytics.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics) [![Aplicação Web do Dynamic 365 Business Central – Sales](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales) [![Aplicação Web do Microsoft Forms Pro Customer Satisfaction](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction) |
-|  |
+:::row:::
+    :::column:::
+        [![Aplicação Web Microsoft Project](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_msprojectonline.pbi-microsoftprojectwebapp)
+    :::column-end:::
+    :::column:::
+        [![Aplicação Web Análise de Utilização do Microsoft 365](./media/service-template-apps-overview/microsoft365-usage-analytics.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics)
+    :::column-end:::
+    :::column:::
+        [![Aplicação Web Dynamic 365 Business Central – Sales](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales)
+    :::column-end:::
+    :::column:::
+        [![Aplicação Web Microsoft Forms Pro Customer Satisfaction](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction)
+    :::column-end:::
+:::row-end:::
 
 ## <a name="process"></a>Processo
 O processo geral para desenvolver e submeter uma aplicação de modelo inclui várias fases. Algumas fases podem incluir mais do que uma atividade em simultâneo.
 
 
-| Fase | Power BI Desktop |  |Serviço Power BI  |  |Centro de Parceiros  |
+| Fase | Power BI Desktop |  |serviço Power BI  |  |Partner Center  |
 |---|--------|--|---------|---------|---------|
 | **Um** | Crie um modelo de dados e um relatório num ficheiro .pbix |  | Crie uma área de trabalho. Importe o ficheiro .pbix. Crie um dashboard complementar  |  | Registe-se como um parceiro |
 | **Dois** |  |  | Crie um pacote de teste e execute uma validação interna        |  | |
 | **Três** | |  | Promova o pacote de teste na pré-produção para validação fora do seu inquilino do Power BI e submeta-o no AppSource  |  | Crie uma oferta de aplicação de modelo do Power BI com o seu pacote de pré-produção e inicie o processo de validação |
-| **Quatro** | |  | Promova o pacote de pré-produção para produção |  | Publique a aplicação |
+| **Quatro** | |  | Promova o pacote de pré-produção para produção |  | Entrar em direto |
 
-## <a name="before-you-begin"></a>Before you begin
+## <a name="before-you-begin"></a>Antes de começar
 
 Para criar a aplicação de modelo, necessita de permissões para esse efeito. Veja as Definições de aplicação de modelo do portal de administração do Power BI para obter detalhes. 
 
@@ -73,7 +83,7 @@ Eis os passos gerais.
 
 9. Agora pode começar a desenvolver a versão seguinte na mesma área de trabalho em pré-produção. 
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Para criar a aplicação de modelo, necessita de permissões para esse efeito. Veja as [Definições de aplicação de modelo do portal de administração](../admin/service-admin-portal.md#template-apps-settings) do Power BI para obter detalhes.
 
@@ -108,6 +118,6 @@ Veja [Tips for authoring template apps in Power BI](service-template-apps-tips.m
 ## <a name="support"></a>Suporte
 Para obter suporte durante o desenvolvimento, utilize [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Monitorizamos e gerimos este site de forma ativa. Os incidentes dos clientes são rapidamente reencaminhados para a equipa adequada.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 [Create a template app](service-template-apps-create.md) (Criar uma aplicação de modelo)

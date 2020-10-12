@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 10/14/2019
+ms.date: 09/30/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3ae0a9605391ca1230fb0080490e1ef0eadf3d72
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: eae8afc9db44b703ade1a9a4fcc28c24c3d72641
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858492"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599882"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Criar elementos visuais e relatórios com o conector do Azure Cost Management no Power BI Desktop
 
@@ -26,17 +26,21 @@ O conector do Azure Cost Management utiliza o protocolo OAuth 2.0 para autentica
 > [!NOTE]
 > Este conector substitui o conector do [Azure Consumption Insights e Azure Cost Management (Beta)](desktop-connect-azure-consumption-insights.md) anteriormente disponível. Todos os relatórios criados com o conector anterior têm de ser recriados com este conector.
 
+> [!NOTE]
+> O conector do Azure Cost Management para o Power BI Desktop não suporta a ligação a clouds governamentais. 
+
+
 ## <a name="connect-using-azure-cost-management"></a>Ligar com o Azure Cost Management
 
 Para utilizar o conector do **Azure Cost Management** no Power BI Desktop, siga estes passos:
 
 1.  No friso **Home Page**, selecione **Obter Dados**.
-2.  Selecione **Azure**  na lista de categorias de dados.
+2.  Selecione **Azure ** na lista de categorias de dados.
 3.  Selecione **Azure Cost Management**.
 
     ![Obter dados](media/desktop-connect-azure-cost-management/azure-cost-management-00b.png)
 
-4. Na caixa de diálogo apresentada, introduza o **ID do Perfil de Faturação** para os **Contratos de Cliente da Microsoft** ou o **Número de Inscrição** para os **Contratos Enterprise (EA)** . 
+4. Na caixa de diálogo apresentada, introduza o **ID do Perfil de Faturação** para os **Contratos de Cliente da Microsoft** ou o **Número de Inscrição** para os **Contratos Enterprise (EA)**. 
 
 
 ## <a name="connect-to-a-microsoft-customer-agreement-account"></a>Ligar-se a uma conta a Contrato de Cliente da Microsoft 
@@ -50,7 +54,7 @@ Para se ligar a uma conta do **Contrato de Cliente da Microsoft**, pode obter o 
 5.  Para **Escolher Âmbito**, selecione **ID do Perfil de Faturação** e cole o ID do perfil de faturação do passo anterior. 
 6.  Introduza o número de meses e selecione **OK**.
 
-    ![Obter o ID de faturação](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
+    ![Captura de ecrã a mostrar as propriedades do Azure Cost Management com um âmbito de ID do Perfil de Faturação.](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
 7.  Quando pedido, inicie sessão com a conta de utilizador e a palavra-passe do Azure. 
 
@@ -61,11 +65,11 @@ Para se ligar com uma conta do Contrato Enterprise (EA), pode obter o ID de insc
 
 1.  No [portal do Azure](https://portal.azure.com/), navegue para **Cost Management + Faturação**.
 2.  Selecione a sua conta de faturação.
-3.  No menu **Descrição geral** , copie o **ID da conta de faturação**.
+3.  No menu **Descrição geral **, copie o **ID da conta de faturação**.
 4.  Para **Escolher Âmbito**, selecione **Número de Inscrição** e cole o ID da conta de faturação do passo anterior. 
 5.  Introduza o número de meses e, em seguida, selecione **OK**.
 
-    ![Obter o ID de faturação](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
+    ![Captura de ecrã a mostrar as propriedades do Azure Cost Management com um âmbito de Número de inscrição.](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 
 6.  Quando pedido, inicie sessão com a conta de utilizador e a palavra-passe do Azure. 
 
@@ -82,18 +86,18 @@ Após ser autenticado com sucesso, é apresentada uma janela do **Navegador** co
 | **Orçamentos** | Detalhes dos orçamentos para ver os custos reais ou a utilização em comparação com os objetivos orçamentais existentes. |
 | **Cobranças** | Um resumo mensal da utilização do Azure, cobranças do Marketplace e cobranças faturadas separadamente. Apenas Contratos de Cliente da Microsoft. |
 | **Credit lots** (Lotes de crédito) | Os detalhes de compra de lotes de crédito do Azure para o perfil de faturação fornecido. Apenas Contratos de Cliente da Microsoft. |
-| **Pricesheets** (Folhas de preços) | Taxas de medição aplicáveis para o perfil de faturação ou inscrição EA. |
-| **RI charges** (Cobranças de RI) | Cobranças associadas às Instâncias Reservadas nos últimos 24 meses. |
-| **RI recommendations (shared)** (Recomendações de RI [partilhado]) | Recomendações de compra de Instâncias Reservadas com base em todas as suas tendências de utilização de subscrição nos últimos 7, 30 ou 60 dias. |
-| **RI recommendations (single)** (Recomendações de RI [individual]) | Recomendações de compra de Instâncias Reservadas com base nas suas tendências de utilização de subscrição individual nos últimos 7, 30 ou 60 dias. |
+| **Folhas de preços** | Taxas de medidor aplicáveis para o perfil de faturação fornecido ou a inscrição de EA. |
+| **Custos de RI** | Cobranças associadas às Instâncias Reservadas nos últimos 24 meses. |
+| **Recomendações de RI (partilhadas)** | Recomendações de compra de Instâncias Reservadas com base em todas as suas tendências de utilização de subscrição nos últimos 7, 30 ou 60 dias. |
+| **Recomendações de RI (individuais)** | Recomendações de compra de Instâncias Reservadas com base nas suas tendências de utilização de subscrição individual nos últimos 7, 30 ou 60 dias. |
 | **Detalhes de utilização de RI** | Detalhes de consumo das Instâncias Reservadas existentes no mês anterior. |
-| **Resumo de utilização de RI** | Percentagem de utilização da reserva diária do Azure. |
-| **Usage details** (Detalhes de utilização) | Uma análise das quantidades consumidas e da estimativa das cobranças para o perfil de faturação ou inscrição EA fornecido. |
+| **Resumo de utilização de RI** | Percentagem de utilização de reserva diária do Azure. |
+| **Detalhes de utilização** | Uma análise das quantidades consumidas e da estimativa das cobranças para o perfil de faturação ou inscrição EA fornecido. |
 | **Detalhes de utilização amortizados** | Uma análise das quantidades consumidas e da estimativa das cobranças amortizadas para o perfil de faturação ou inscrição EA fornecido. |
 
 Pode selecionar uma tabela para ver uma caixa de diálogo de pré-visualização. Pode selecionar uma ou mais tabelas ao selecionar as caixas junto do nome e, em seguida, selecionar **Carregar**.
 
-![Obter o ID de faturação](media/desktop-connect-azure-cost-management/azure-cost-management-01c.png)
+![Captura de ecrã a mostrar a caixa de diálogo Navegador.](media/desktop-connect-azure-cost-management/azure-cost-management-01c.png)
 
 Quando selecionar **Carregar**, os dados serão carregados para o Power BI Desktop. 
 

@@ -5,16 +5,16 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: dddc90ee30ff58269c723d247a6c0a9fe3718683
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ddaafaf175e2cb083e8e8eb494c156f0e9de8e0f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855087"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633192"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Aplicação Métricas do Power BI Premium
 
@@ -61,7 +61,7 @@ Para saber os detalhes do KPI “memória ativa”, clique no botão **Explorar*
 
 São explicados dois cenários, que podem ser apresentados na página do relatório ao selecionar **Cenário 1** ou **Cenário 2** na página. 
 
-![Página de detalhes da memória ativa](media/service-premium-metrics-app/premium-metrics-app-03.png)
+![Captura de ecrã que mostra a página de detalhes da memória ativa.](media/service-premium-metrics-app/premium-metrics-app-03.png)
 
 Os guias de resolução de problemas, associados a cada cenário, fornecem explicações detalhadas sobre o que significam as métricas, para que possa compreender melhor o estado da capacidade e o que pode ser feito para mitigar quaisquer problemas. 
 
@@ -116,7 +116,7 @@ Pode realizar os seguintes passos para solucionar os problemas associados ao cen
 
 Para determinar se existe memória suficiente para a capacidade concluir as cargas de trabalho, pode ver o elemento visual **A: Percentagens de Consumo de Memória** no topo da página, que representa a memória consumida pelos conjuntos de dados que estão a ser ativamente processados e que não podem ser expulsos. A linha pontilhada a preto realça as tendências. Numa capacidade a sofrer de pressão de memória, o mesmo elemento visual vai claramente mostrar a tendência crescente da memória (linha pontilhada a preto), o que significa que é possível, nesse momento, impedir o carregamento de conjuntos de dados adicionais na memória. A linha de tendência, a linha tracejada a preto, mostra a tendência de crescimento com base em sete dias de dados. 
 
-![Página de detalhes da memória ativa](media/service-premium-metrics-app/premium-metrics-app-07.png)
+![Captura de ecrã que mostra a página de detalhes da memória ativa do cenário dois.](media/service-premium-metrics-app/premium-metrics-app-07.png)
 
 #### <a name="diagnosing-scenario-two"></a>Diagnosticar o cenário dois
 
@@ -267,7 +267,7 @@ Se não existir memória suficiente para carregar um conjunto de dados para uma 
 
 Para diagnosticar o cenário um, determine primeiro se a limitação se deve a memória insuficiente. Os passos para o fazer são os seguintes.
 
-1.    Selecione o conjunto no qual está interessado na **Tabela A** ao clicar no mesmo: 
+1. Selecione o conjunto no qual está interessado na **Tabela A** ao clicar no mesmo: 
 
     ![Tabela A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -310,7 +310,7 @@ Para capacidades dedicadas, o Power BI limita o número de atualizações que p
 
 Para diagnosticar o cenário dois, determine primeiro se a limitação se deve a ter alcançado a simultaneidade máxima para as atualizações. Os passos para o fazer são os seguintes.
 
-1.    Selecione o conjunto no qual está interessado na **Tabela A** ao clicar no mesmo: 
+1. Selecione o conjunto no qual está interessado na **Tabela A** ao clicar no mesmo: 
 
     ![Tabela A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 

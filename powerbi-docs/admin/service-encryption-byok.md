@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 737a8df2f8f7e5d4da50259112ad1afd6ec2ecff
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 404e613f3e30bda3115ec0a9a3b71907b115bbcc
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856837"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374896"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Chaves de encriptação por BYOK (Bring Your Own Key) para o Power BI
 
@@ -67,7 +67,7 @@ As instruções nesta secção pressupõem que detém conhecimentos básicos sob
 
 1. Em **Permissões da chave**, selecione **Anular a Moldagem da Chave** e **Moldar Chave**.
 
-    ![Componentes do ficheiro PBIX](media/service-encryption-byok/service-principal.png)
+    ![Ficheiro P B I X, selecionar principal de serviço e operações criptográficas](media/service-encryption-byok/service-principal.png)
 
 1. Selecione **OK** e, em seguida, **Guardar**.
 
@@ -80,7 +80,7 @@ As instruções nesta secção pressupõem que detém conhecimentos básicos sob
 
 1. Selecione um **Tipo de Chave** RSA e um **Tamanho da Chave RSA** de 4096 bits.
 
-    ![Componentes do ficheiro PBIX](media/service-encryption-byok/create-rsa-key.png)
+    ![Criação de uma chave, com o tamanho e tipo de chave em destaque](media/service-encryption-byok/create-rsa-key.png)
 
 1. Selecione **Criar**.
 
@@ -90,7 +90,7 @@ As instruções nesta secção pressupõem que detém conhecimentos básicos sob
 
 1. Certifique-se de que as opções **Moldar Chave** e **Anular a Moldagem da Chave** estão selecionadas. Copie o **Identificador de Chave** a utilizar ao ativar o BYOK no Power BI.
 
-    ![Componentes do ficheiro PBIX](media/service-encryption-byok/key-properties.png)
+    ![Propriedades com o identificador de chave e as operações permitidas em destaque](media/service-encryption-byok/key-properties.png)
 
 ### <a name="soft-delete-option"></a>Opção de eliminação de forma recuperável
 
@@ -114,7 +114,7 @@ Antes de ativar o BYOK, tenha as seguintes considerações em conta:
 
 ### <a name="enable-byok"></a>Ativar o BYOK
 
-Para ativar o BYOK, tem de ser um administrador inquilino do serviço Power BI e de ter sessão iniciada com o cmdlet `Connect-PowerBIServiceAccount`. Em seguida, utilize [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) para ativar o BYOK, conforme ilustrado no seguinte exemplo:
+Para ativar o BYOK, tem de ser um administrador do Power BI e ter sessão iniciada com o cmdlet `Connect-PowerBIServiceAccount`. Em seguida, utilize [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) para ativar o BYOK, conforme ilustrado no seguinte exemplo:
 
 ```powershell
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

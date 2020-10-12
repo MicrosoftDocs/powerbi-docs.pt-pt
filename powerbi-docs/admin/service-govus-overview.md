@@ -1,21 +1,21 @@
 ---
 title: Power BI para clientes do Governo Norte-Americano – Descrição Geral
-description: Os clientes do Governo Norte-Americano podem adicionar uma subscrição do Power BI Pro ao plano do Microsoft 365 para o Governo Norte-Americano. Saiba como se inscrever e rever a disponibilidade das funcionalidades nesta descrição do serviço.
+description: Os clientes do Governo Norte-Americano podem adicionar uma subscrição do Power BI Pro ao plano do Microsoft 365 para o Governo Norte-Americano. Saiba como se inscrever, estabelecer ligação e rever a disponibilidade das funcionalidades nesta descrição do serviço.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/02/2020
+ms.date: 09/23/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 948e0260f13aa243a45ba5bdf6fe59c9699d47a0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: eecc36377ab79e4af4ea7882c24f4eb5a6e376c7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855110"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524633"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes do Governo Norte-Americano
 
@@ -51,7 +51,8 @@ O Microsoft 365 disponibiliza diferentes ambientes para que as agências govern
 
 * O [Ambiente DoD do Microsoft 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) foi concebido exclusivamente para o Departamento da Defesa dos EUA.
 
-## <a name="connect-to-power-bi-for-us-government"></a>Ligar ao Power BI para o Governo Norte-Americano
+
+## <a name="sign-in-to-power-bi-for-us-government"></a>Iniciar sessão no Power BI para o governo norte-americano
 
 O URL para ligação ao Power BI é diferente para utilizadores do Governo Norte-Americano e utilizadores comerciais. Para iniciar sessão no Power BI, utilize os seguintes URLs:
 
@@ -61,6 +62,38 @@ O URL para ligação ao Power BI é diferente para utilizadores do Governo Nort
 
 A sua conta pode estar configurada em mais de uma cloud. Se a conta estiver configurada desta forma, ao iniciar sessão no Power BI Desktop, poderá escolher a qual cloud ligar quando iniciar sessão.
 
+## <a name="allow-connections-to-power-bi"></a>Permitir ligações ao Power BI
+
+Para utilizar o serviço Power BI, tem de permitir ligações aos pontos finais necessários na Internet. Estes destinos têm de ser acessíveis, de modo a permitir a comunicação entre a sua rede, o Power BI e outros serviços dependentes.
+
+Na tabela abaixo, apresentamos os pontos finais necessários a adicionar à lista de permissões para permitir a ligação ao serviço Power BI para utilização geral no site. Estes pontos finais são exclusivos à cloud do governo norte-americano. O serviço Power BI apenas requer que a Porta TCP 443 esteja aberta para os pontos finais listados. Os pontos finais de integração de dados, dashboards e relatórios, os elementos visuais do Power BI e outros serviços opcionais não são exclusivos à cloud do governo norte-americano. Para também adicionar estes URLs à lista de permissões, veja o artigo [Adicionar URLs do Power BI à lista de permissões](power-bi-whitelist-urls.md).
+
+A autenticação, identidade e a administração do Power BI depende da conectividade aos serviços do Microsoft 365. Também tem de estabelecer ligação ao Microsoft 365 para ver os registos de auditoria. Para identificar os pontos finais destes serviços, veja a integração do Microsoft 365 na tabela abaixo.
+
+### <a name="power-bi-urls-for-general-site-usage"></a>URLs do Power BI para utilização geral no site
+
+|  Objetivo | Destino |
+| ---- | ----- |
+| APIs de back-end | **GCC**: api.powerbigov.us |
+| | **GCC-High**: api.high.powerbigov.us |
+| | **DoD**: api.mil.powerbi.gov.us |
+| APIs de back-end | **GCC**: *analysis.usgovcloudapi.net |
+| | **GCC High**: *.high.analysis.usgovcloudapi.net |
+| | **DoD**: *.mil.analysis.usgovcloudapi.net |
+| APIs de back-end | **Tudo**: *.pbidedicated.usgovcloudapi.net |
+| Rede de Entrega de Conteúdos (CDN) | **GCC**: gov.content.powerapps.us |
+| | **GCC High**: high.content.powerapps.us |
+| | **DoD**: mil.content.powerapps.us |
+| Integração do Microsoft 365 | **GCC**: [Pontos finais globais](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High**: [Pontos finais da GCC High do Governo Norte-Americano](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD**: [Pontos finais do DoD do Governo Norte-Americano](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| Portal |**GCC**: *.powerbigov.us |
+| | **GCC-High**: *.high.powerbigov.us |
+| | **DoD**: *.mil.powerbigov.us |
+| Telemetria do serviço | **Tudo**: dc.services.visualstudio.us |
+| Mensagens informativas (opcional) | **Tudo**: dynmsg.modpim.com |
+| Inquéritos do NPS (opcional) | **Tudo**: nps.onyx.azure.net |
+
 ## <a name="connect-government-and-global-azure-cloud-services"></a>Ligar serviços cloud do Azure global e do Governo Norte-Americano
 
 O Azure é distribuído entre várias clouds. Por predefinição, pode ativar regras da firewall para abrir uma ligação para uma instância específica da cloud, mas a rede entre clouds é diferente.  Para comunicar entre serviços na cloud pública e serviços na Cloud da Comunidade Governamental, tem de configurar regras específicas da firewall. Por exemplo, se quiser aceder a instâncias da cloud pública de uma base de dados do SQL a partir da sua implementação da cloud governamental do Power BI, precisará de uma regra da firewall na base de dados do SQL. Configure regras específicas da firewall para as bases de dados do SQL para permitir ligações à Cloud do Azure Government para os seguintes datacenters:
@@ -69,8 +102,12 @@ O Azure é distribuído entre várias clouds. Por predefinição, pode ativar re
 * USGov Virginia
 * USGov Texas
 * USGov Arizona
+* US DoD - Leste
+* US DoD Centro
 
-Os intervalos de IP estão disponíveis na cloud pública. Para obter os intervalos de IP do Microsoft Cloud for US Government, transfira o ficheiro [Azure IP Ranges and Service Tags – Us Government Cloud](https://www.microsoft.com/download/details.aspx?id=57063) (Intervalos de IP do Azure e Etiquetas de Serviço – Microsoft Cloud for US Government).
+Para obter os intervalos de IP do Microsoft Cloud for US Government, transfira o ficheiro [Azure IP Ranges and Service Tags – Us Government Cloud](https://www.microsoft.com/download/details.aspx?id=57063) (Intervalos de IP do Azure e Etiquetas de Serviço – Microsoft Cloud for US Government). Os intervalos estão listados para o Power BI e Power Query.
+
+Para obter mais informações sobre os serviços cloud do Microsoft Azure Government, veja a [documentação do Azure Government](https://docs.microsoft.com/azure/azure-government/).
 
 Para configurar firewalls para bases de dados do SQL, veja [Criar e gerir as regras de firewall de IP](/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules).
 
@@ -78,12 +115,12 @@ Para configurar firewalls para bases de dados do SQL, veja [Criar e gerir as reg
 
 Para cumprir os requisitos dos clientes da cloud governamental, existem algumas diferenças entre os planos governamentais e os planos comerciais. O nosso objetivo é tornar todas as funcionalidades disponíveis em clouds governamentais dentro de 30 dias da disponibilidade geral. Em alguns casos, as dependências subjacentes impedem-nos de tornar uma funcionalidade disponível.
 
-A seguinte tabela lista funcionalidades que não estão disponíveis num ambiente governamental específico e a disponibilidade estimada, se estiver planeado um lançamento:
+A tabela seguinte apresenta as funcionalidades que não estão disponíveis num ambiente governamental específico. Incluímos a previsão de disponibilidade se a versão for planeado:
 
 |Funcionalidade |GCC |GCC High |DoD|
 |------|------|------|------|
 |[Colaboração B2B do Azure entre a cloud comercial e governamental](service-admin-azure-ad-b2b.md)<sup>1</sup>|![disponível](../media/yes.png)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|
-|[Incorporar no SharePoint Online com a parte Web do Power BI](/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![disponível](../media/yes.png)|![Disponível](../media/yes.png)|![não disponível](../media/no.png)|
+|[Incorporar no SharePoint Online com a parte Web do Power BI](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![disponível](../media/yes.png)|![Disponível](../media/yes.png)|![não disponível](../media/no.png)|
 |[Conectividade do Power Automate para alertas baseados em dados](../connect-data/power-bi-data-sources.md)|![disponível](../media/yes.png)|![disponível](../media/yes.png)|![não disponível](../media/no.png)|
 |[Separador Power BI no Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![disponível](../media/yes.png)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|
 |[Métricas de Capacidade](../admin/service-admin-premium-monitor-portal.md)|T3 de 2020 |T3 de 2020|T3 de 2020|

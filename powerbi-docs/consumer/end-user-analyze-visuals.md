@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe44b183b77cb1e58c89cfd229f3f76d3b06ce39
-ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
+ms.openlocfilehash: f5b930ade7e0ae4e58977ba33dc725c6f1e34695
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88168490"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635890"
 ---
 # <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>Utilizar a funcionalidade Analisar para explicar as flutuações nos elementos visuais do relatório
 
@@ -50,7 +50,7 @@ Depois, o Power BI Desktop executa algoritmos de aprendizagem automática nos 
 
 Ao selecionar os pequenos ícones na parte inferior do visual de cascata, pode optar por ter as informações apresentadas em gráfico de dispersão, gráfico de colunas empilhadas ou gráfico de friso.
 
-![trio de elementos visuais de informações](media/end-user-analyze-visuals/power-bi-options.png)
+![Captura de ecrã a mostrar os ícones na parte inferior do elemento visual.](media/end-user-analyze-visuals/power-bi-options.png)
 
 Utilize os ícones de *polegar para cima* e *polegar para baixo* na parte inferior da página para dar feedback sobre o elemento visual e a funcionalidade.  
 
@@ -59,7 +59,7 @@ Utilize os ícones de *polegar para cima* e *polegar para baixo* na parte inferi
 
 Pode utilizar as informações quando o relatório estiver na Vista de leitura ou na Vista de edição, o que o tornará versátil para permitir analisar dados e para criar elementos visuais que pode facilmente adicionar aos relatórios. Se tiver o relatório aberto na Vista de edição, verá um ícone de adição ao lado dos ícones de polegar. Selecione o ícone de adição para adicionar as informações ao relatório como um novo elemento visual. 
 
-![trio de elementos visuais de informações](media/end-user-analyze-visuals/power-bi-add-visual.png)
+![Captura de ecrã a mostrar o ícone de símbolo de mais utilizado para adicionar as informações.](media/end-user-analyze-visuals/power-bi-add-visual.png)
 
 ## <a name="details-of-the-results-returned"></a>Detalhes dos resultados devolvidos
 

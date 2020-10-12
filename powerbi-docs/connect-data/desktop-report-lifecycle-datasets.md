@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f56acb7859b04f77ca403725740cb7ce472ccb7d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c056a48c78ae2e46ccd6419ad1b9d1e1a6693847
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223059"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598807"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop
 
@@ -32,7 +32,7 @@ Um desafio com a popularidade do Power BI é a proliferação de relatórios, da
 
 Vamos supor que Ana é analista de negócios na sua equipa. É competente na criação de bons modelos de dados, muitas vezes chamados conjuntos de dados. Ana consegue criar um conjunto de dados e relatório e, em seguida, partilhar esse relatório no serviço Power BI.
 
-![Publicar no serviço Power BI](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
+![Captura de ecrã a mostrar o botão Publicar do serviço Power B I.](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
 Todas as pessoas adoram o relatório e o conjunto de dados da Ana. Era aí que começariam os problemas. Todas as pessoas na equipa da Ana iriam tentar criar *a sua própria versão* desse conjunto de dados e, em seguida, partilhar os próprios relatórios com a equipa. De repente, existiriam inúmeros relatórios de diferentes conjuntos de dados na área de trabalho da equipa no serviço Power BI. Qual era o mais recente? Os conjuntos de dados foram os mesmos ou apenas quase? Quais eram as diferenças? Com a funcionalidade ligação em direto do serviço Power BI, tudo isto pode melhorar. Na secção seguinte, vamos ver como as outras pessoas podem utilizar o conjunto de dados publicado da Ana para os seus próprios relatórios (e nas respetivas áreas de trabalho) e permitir a todos utilizar o mesmo conjunto de dados sólido, aprovado e publicado para criar relatórios exclusivos.
 

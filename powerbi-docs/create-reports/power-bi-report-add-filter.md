@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: bf7fad8195f28303ae0ab73fb957db87861755e6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf81ec873b822fbb1604378aa508b3ffeb408511
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237376"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635844"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Add a filter to a report in Power BI (Adicionar um filtro a um relatório no Power BI)
 
@@ -77,7 +77,7 @@ A propósito, este procedimento utiliza o exemplo de Análise de Revenda, caso o
    
     O elemento visual é alterado de modo a refletir o novo filtro. Se guardar o relatório com o filtro, os leitores do relatório começarão por ver o elemento visual filtrado e poderão interagir com o filtro na Vista de leitura, ao selecionar ou desmarcar valores.
      
-    ![O elemento visual filtrado](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
+    ![Captura de ecrã a mostrar um gráfico de barras que reflete os valores filtrados.](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
     
     Quando utiliza o filtro num campo utilizado no elemento visual onde o campo está agregado (por exemplo, uma soma, média ou contagem), está a filtrar no valor *agregado* em cada ponto de dados. Desta forma, pedir para filtrar o elemento visual acima onde **Vendas Deste Ano > 500 000** significa que apenas veria o ponto de dados **13 - Charleston Fashion Direct** no resultado. Os filtros em [medidas do modelo](../transform-model/desktop-measures.md) aplicam-se sempre ao valor agregado do ponto de dados.
 
@@ -95,7 +95,7 @@ Agora, vamos adicionar um novo campo à nossa visualização como um filtro de n
 
     Além disso, a visualização propriamente dita está agora filtrada para mostrar apenas as vendas desses gestores neste ano para as lojas especificadas.
      
-    ![O elemento visual filtrado](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
+    ![Captura de ecrã a mostrar um gráfico de barras que reflete os valores filtrados com base no novo campo.](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
     Se guardar o relatório com este filtro, os leitores do relatório poderão interagir com o filtro **Gestor Distrital** na Vista de leitura, ao selecionar ou desmarcar valores.
     

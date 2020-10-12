@@ -1,6 +1,6 @@
 ---
 title: Gerir a origem de dados – Oracle
-description: Como gerir o gateway de dados no local e as origens de dados que pertencem a esse gateway.
+description: Como gerir o gateway de dados no local e as origens de dados do Oracle que pertencem a esse gateway.
 author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0b617afdeb69f2367b83ad40b2146f5ce78cdc89
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: 1a35cc875b0da1f75b1946d52db0aaf177f1a5e2
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364014"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747994"
 ---
 # <a name="manage-your-data-source---oracle"></a>Gerir a origem de dados – Oracle
 

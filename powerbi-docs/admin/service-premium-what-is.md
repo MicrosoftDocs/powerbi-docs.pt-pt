@@ -5,17 +5,17 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 7f90840284c5b17a118b414db606902789657b7a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7c81f3b624de0692d597cfb6c79f2159a6133593
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854696"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599015"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
@@ -30,7 +30,7 @@ Pode utilizar o Power BI Premium para obter recursos dedicados e otimizados par
 > * Partilhar dados com qualquer pessoa sem comprar uma licença por utilizador
 
 
-![Portal de administração](media/service-premium-what-is/premium-admin-portal.png) 
+![Captura de ecrã a mostrar o portal de administração do Power B I.](media/service-premium-what-is/premium-admin-portal.png) 
 
 Este artigo apresenta as principais funcionalidades do Power BI Premium. Sempre que necessário, são fornecidas ligações para artigos adicionais com mais informações detalhadas. Para obter mais informações acerca do Power BI Pro e do Power BI Premium, veja a secção _Comparação das funcionalidades do Power BI_ na página [Preços do Power BI](https://powerbi.microsoft.com/pricing/).
 
@@ -139,11 +139,11 @@ Os administradores do serviço Power BI e os administradores globais podem cria
 
 Quando as capacidades são criadas, a maior parte das tarefas administrativas é concluída no [Portal de Administração](service-admin-portal.md).
 
-![Portal de administração](media/service-premium-what-is/premium-admin-portal.png)
+![Captura de ecrã a mostrar o portal de administração do Power B I, com a opção A Minha Área de Trabalho selecionada.](media/service-premium-what-is/premium-admin-portal.png)
 
 Os administradores de capacidade podem atribuir áreas de trabalho à capacidade, gerir permissões de utilizador e atribuir outros administradores. Os administradores de capacidade também podem configurar cargas de trabalho, ajustando alocações de memória e, se for necessário, reiniciar uma capacidade, repondo operações em caso de sobrecarga de uma capacidade.
 
-![Portal de administração](media/service-premium-what-is/premium-admin-portal-mgmt.png)
+![Captura de ecrã a mostrar a gestão de capacidades no portal de administração do Power BI.](media/service-premium-what-is/premium-admin-portal-mgmt.png)
 
 Os administradores de capacidade também podem garantir que uma capacidade está a ser executada sem problemas. Podem monitorizar o estado de funcionamento das capacidades no Portal de Administração ou com a aplicação Métricas de Capacidade do Power BI Premium.
 
@@ -155,7 +155,7 @@ A monitorização das capacidades Premium indica aos administradores o desempenh
 
 A monitorização no portal fornece uma vista rápida com métricas de alto nível a indicar os carregamentos efetuados e os recursos utilizados pela sua capacidade, em média, nos últimos sete dias. 
 
-![Portal de administração](media/service-premium-what-is/premium-admin-portal-health.png)
+![Captura de ecrã a mostrar o estado de funcionamento das capacidades no portal de administração do Power BI.](media/service-premium-what-is/premium-admin-portal-health.png)
 
 A aplicação **Métricas de Capacidade do Power BI Premium** fornece as informações mais detalhadas sobre o desempenho das suas capacidades. A aplicação fornece um dashboard de alto nível e relatórios mais detalhados.
 

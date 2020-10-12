@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fb5807dd0a5bfa5d3223a8c436da475c51d8d8a0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec0c4cf9e719615489cbba5929f329e6f4f58826
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860630"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634533"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmissão em fluxo em tempo real no Power BI
 Com a transmissão em fluxo em tempo real do Power BI, pode transmitir dados em fluxo e atualizar dashboards em tempo real. Qualquer elemento visual ou dashboard criado no Power BI pode apresentar e atualizar elementos visuais e dados em tempo real. Os dispositivos e as origens de dados de transmissão em fluxo podem ser sensores de fábrica, origens de redes sociais, métricas de utilização de serviços ou muitos outros transmissores ou recoletores de dados sensíveis ao tempo.
@@ -52,7 +52,7 @@ A única forma de visualizar um conjunto de dados de transmissão em fluxo consi
 Na prática, os conjuntos de dados de transmissão em fluxo e os elementos visuais de transmissão em fluxo que lhes estão associados são mais úteis em situações nas quais é fundamental minimizar a latência entre o momento em que os dados são emitidos via push e a visualização dos mesmos. Além disso, as melhores práticas recomendam que os dados sejam emitidos via push num formato que possa ser visualizado tal como está, sem agregações adicionais. Exemplos de dados prontos tal como estão incluem temperaturas e médias pré-calculadas.
 
 ### <a name="pubnub-streaming-dataset"></a>Conjunto de dados de transmissão em fluxo PubNub
-Com um conjunto de dados de transmissão em fluxo **PubNub**, o cliente Web do Power BI utiliza o SDK de PubNub para ler um fluxo de dados PubNub existente. Não são armazenados dados pelo serviço Power BI. Uma vez que esta chamada é feita diretamente do cliente Web, teria de adicionar à lista o tráfego para o PubNub como permitido, se apenas permitir o tráfego de saída da rede que se encontra na lista de permissões. Veja as instruções do artigo de suporte sobre [a colocação em listas de permissões do tráfego de saída para o PubNub](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-).
+Com um conjunto de dados de transmissão em fluxo **PubNub**, o cliente Web do Power BI utiliza o SDK de PubNub para ler um fluxo de dados PubNub existente. Não são armazenados dados pelo serviço Power BI. Uma vez que esta chamada é feita diretamente a partir do cliente Web, teria de adicionar à lista o tráfego para o PubNub como permitido, se apenas permitir o tráfego aprovado de saída da sua rede. Veja as instruções do artigo de suporte sobre a [aprovação do tráfego de saída para o PubNub.](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-)
 
 À semelhança do **conjunto de dados de transmissão em fluxo**, com o **conjunto de dados de transmissão em fluxo PubNub** não há qualquer base de dados subjacente no Power BI, pelo que não pode criar elementos visuais de relatório com base nos dados transmitidos em fluxo, da mesma forma que não pode tirar partido das funcionalidades de relatório, como a filtragem, os elementos visuais do Power BI, entre outras. Como tal, o **conjunto de dados de transmissão em fluxo PubNub** também só pode ser visualizado quando se adiciona um mosaico ao dashboard e se configura um fluxo de dados PubNub como origem.
 
@@ -183,12 +183,9 @@ Neste exemplo, utilizamos um fluxo disponível ao público do **PubNub**. Eis os
 2. Se ainda não tiver origens de dados de transmissão em fluxo, selecione a ligação **gerir dados** (logo por cima do botão **Seguinte**) e, em seguida, selecione **+ Adicionar dados de transmissão em fluxo** na ligação presente no canto superior direito da janela. Selecione **PubNub** e, depois, selecione **Seguinte**.
 3. Crie um nome para o conjunto de dados, em seguida, cole os seguintes valores na janela apresentada e, depois, selecione **Seguinte**:
    
-   *Chave de subscrição:*
-   
-       sub-c-5f1b7c8e-fbee-11e3-aa40-02ee2ddab7fe
-   *Canal:*
-   
-       pubnub-sensor-network
+   **Chave de subscrição:** *sub-c-5f1b7c8e-fbee-11e3-aa40-02ee2ddab7fe*
+
+   **Canal:** *pubnub-sensor-network*
    
    ![Captura de ecrã a mostrar a caixa de diálogo Novo conjunto de dados de transmissão, a demonstrar como criar um Nome do conjunto de Dados e entradas nos campos Subchave e Nome do canal.](media/service-real-time-streaming/real-time-streaming_8.png)
 4. Na janela seguinte, basta selecionar as predefinições (que estão automaticamente povoadas) e, em seguida, selecione **Criar**.

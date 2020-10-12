@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c184fa19c2d94690f8609871babf5b60b2855b99
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 13792dbefbb459f4a3bb428b5965c6c56eff4b8c
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538062"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600105"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>O "novo visual": onde se encontram as ações?
 
@@ -38,17 +38,17 @@ Procura informações sobre o novo aspeto do **Power BI Desktop**? Veja [Utiliz
 | Ajustar à largura | Ver > Ajustar à largura | Barra de menus Ver (lado direito) > Ajustar à largura |
 | Tamanho real | Ver > Tamanho real | Barra de menus Ver (lado direito) > Tamanho real |
 | Cores de alto contraste | Ver > Cores de alto contraste | Barra de menus Ver (lado direito) > Cores de alto contraste |
-| Painel de marcadores | Ver > Painel de marcadores |  Barra de menus Marcadores > Mostrar mais marcadores |
-| Atualizar | Atualizar | Barra de menus Mais opções (...) > Atualizar |
+| Painel de marcadores | Ver > Painel de marcadores |  Barra de menus Marcadores (lado direito) > Mostrar mais marcadores |
+| Atualizar | Atualizar | Barra de menus (lado direito) Atualizar |
 | Afixar uma página dinâmica | Afixar uma página dinâmica | Barra de menus Mais opções (...) > Afixar uma página dinâmica |
 | Repor para predefinição | Repor para predefinição | Repor para predefinição |
 | Comentários | Comentários | Comentários |
 | Ver relacionados | Ver relacionados | Barra de menus Mais opções (...) > Ver relacionados |
 | Favorito | Favorito | Favorito |
 | Subscrever | Subscrever |Subscrever |
-| Partilhar | Partilhar | Partilhar |
-| Gerar código QR | Barra de menus Mais opções (...) > Gerar código QR | Barra de menus Mais opções (...) > Gerar código QR |
-| Analisar no Excel | Barra de menus Mais opções (...) > Analisar no Excel | Barra de menus Mais opções (...) > Analisar no Excel |
+| Partilhar | Partilhar | Partilhar > Relatório |
+| Gerar código QR | Barra de menus Mais opções (...) > Gerar código QR | Partilhar > Gerar código QR |
+| Analisar no Excel | Barra de menus Mais opções (...) > Analisar no Excel | Exportar > Analisar no Excel |
 | Modo de ecrã inteiro | Modo de ecrã inteiro | Barra superior Ver (lado direito) > Ecrã inteiro |
 
 ## <a name="dashboard-actions-in-the-new-look"></a>Ações dos dashboards no novo aspeto

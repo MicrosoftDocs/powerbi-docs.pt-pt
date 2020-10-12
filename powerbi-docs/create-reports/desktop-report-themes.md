@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fdd08c32277dfaa9a619b024a7fb0ece0517f1cb
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: ed8d93ef905cca6e934ac2100093475136595c9a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364106"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634740"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Utilizar temas de relatório no Power BI Desktop
 
@@ -53,11 +53,11 @@ Para selecionar de entre os temas de relatório incorporados disponíveis:
 
 1. Selecione o botão de seta para baixo **Mudar Tema** na secção **Temas** do friso **Ver**.
 
-   ![Selecionar um tema de relatório](media/desktop-report-themes/report-themes-02.png)
+   ![Captura de ecrã a mostrar o friso Ver selecionado, que disponibiliza vários temas.](media/desktop-report-themes/report-themes-02.png)
 
 2. Selecione um dos temas incluídos no menu pendente apresentado.
 
-   ![Selecionar um tema de relatório](media/desktop-report-themes/report-themes-03.png)
+   ![Captura de ecrã a mostrar temas do Power BI expandidos para seleção.](media/desktop-report-themes/report-themes-03.png)
 
    O tema de relatório é agora aplicado ao relatório.
 
@@ -600,7 +600,9 @@ Os valores booleanos são true ou false. As cadeias têm de estar entre aspas, t
 
 As cores utilizam o seguinte formato, em que o código hexadecimal personalizado substitui "FFFFFF" no exemplo seguinte:
 
-    { "solid": { "color": "#FFFFFF" } }
+```json
+{ "solid": { "color": "#FFFFFF" } }
+```
 
 Uma enumeração, habitualmente mais utilizada para opções de formatação de lista pendente, significa que pode ser definida como qualquer uma das opções vistas no painel, por exemplo, “RightCenter” para a posição da legenda ou “Valor de dados, percentagem do total” para a etiqueta de dados do gráfico circular. As opções de enumeração são mostradas abaixo da lista de propriedades.
 
