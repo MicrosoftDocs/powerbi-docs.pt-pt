@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 44aeb5030008d17a9998e8357f23d47524f11512
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: 469e2de86d18b9adeb4a7c8aeabeaae1db2a28de
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040230"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600455"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Resumos de atualizações do Power BI
 
@@ -53,11 +53,11 @@ Com as informações no ficheiro exportado, pode consultar a capacidade, duraç�
 
 Pode selecionar a vista **Agenda** ao clicar em **Agenda** nos resumos de atualizações. A vista Agenda apresenta informações de agendamento para a semana, divididas em intervalos de tempo de 30 minutos. 
 
-![Vista Agenda](media/refresh-summaries/refresh-summaries-02a.jpg)
+![Captura de ecrã a mostrar o separador Agenda da página Atualizar resumo em grande plano.](media/refresh-summaries/refresh-summaries-02a.jpg)
 
 A vista Agenda é muito útil para determinar se os eventos de atualizações agendadas estão devidamente espaçados, permitindo que todas as atualizações sejam concluídas sem sobreposições, ou se tem eventos de atualizações agendadas que estão a demorar demasiado tempo e a criar contenção de recursos. Se verificar que existe contenção de recursos, deve ajustar os seus horários de atualizações para evitar conflitos ou sobreposições, para que as suas atualizações agendadas possam ser concluídas com êxito. 
 
-![Vista Agenda](media/refresh-summaries/refresh-summaries-02.jpg)
+![Captura de ecrã a mostrar o separador Agenda da página Atualizar resumo.](media/refresh-summaries/refresh-summaries-02.jpg)
 
 A coluna *Tempo de atualização reservado (minutos)* é um cálculo da média de até 60 registos de cada conjunto de dados associado. O valor numérico para cada intervalo de tempo de 30 minutos é a soma de minutos calculados de todas as atualizações agendadas para começarem no intervalo de tempo **e** quaisquer atualizações agendadas definidas para começarem no intervalo de tempo *anterior*, mas cuja duração média se sobrepõe ao intervalo de tempo selecionado.
 
@@ -67,7 +67,7 @@ Pode selecionar um intervalo de tempo e, em seguida, selecionar o botão de **de
 
 Vejamos um exemplo de como funciona. A seguinte caixa de diálogo é apresentada quando selecionamos o intervalo de tempo das 20:30 de domingo e clicamos em **detalhes**.
 
-![Vista Agenda](media/refresh-summaries/refresh-summaries-04.jpg)
+![Captura de ecrã a mostrar detalhes das atualizações num período selecionado.](media/refresh-summaries/refresh-summaries-04.jpg)
 
 Existem três eventos de atualizações agendadas a ocorrer neste intervalo de tempo. 
 

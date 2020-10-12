@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dab2e4b7bdc3da8278db6765e7233d98d7dba473
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 55d196a9b041f52632300f6e10c00d753ca02a14
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218729"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635085"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Alertas de dados no serviço Power BI
 
@@ -46,7 +46,7 @@ Este exemplo utiliza um mosaico de cartão do dashboard de exemplo de Análise d
 
 1. Para começar, selecione **+ Adicionar regra de alerta**, certifique-se de que o controlo de deslize **Ativo** está **Ativado** e atribua um título ao alerta. Os títulos ajudam a reconhecer facilmente os alertas.
 
-   ![Janela Gerir alertas](media/service-set-data-alerts/powerbi-alert-title.png)
+   ![Captura de ecrã a mostrar a janela Gerir alertas com as opções Adicionar regra de alerta, Alerta para Total Stores e Título do alerta selecionadas.](media/service-set-data-alerts/powerbi-alert-title.png)
 
 1. Desloque o ecrã para baixo e introduza os detalhes do alerta.  Neste exemplo, irá criar um alerta que o notifica uma vez por dia se o número total de lojas ficar acima de 100.
 
@@ -93,7 +93,7 @@ Existem várias formas de gerir os alteras:
 
     O Power BI mostra os alertas que definiu para esse mosaico.
 
-    ![Janela Gerir alertas](media/service-set-data-alerts/powerbi-see-alerts.png)
+    ![Captura de ecrã a mostrar a janela Gerir alertas.](media/service-set-data-alerts/powerbi-see-alerts.png)
 
 1. Para modificar um alerta, selecione a seta para a esquerda do nome do alerta.
 

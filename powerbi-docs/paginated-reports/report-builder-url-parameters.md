@@ -1,6 +1,6 @@
 ---
 title: Parâmetros de URL em relatórios paginados no Power BI
-description: Este tópico descreve as utilizações comuns dos parâmetros de relatórios do Report Builder do Power BI, as propriedades que pode definir e muito mais.
+description: Aprenda a enviar comandos a relatórios paginados no Power BI ao adicionar um parâmetro a um URL, que pode incluir num e-mail ou numa página Web.
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: fc54d60be34cd9d40cf1ea715aa84f2f1ef6f9de
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7b12f6f6db864fb7b6af4df0d1019dc2eeed2617
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859411"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747488"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Parâmetros de URL em relatórios paginados no Power BI
 

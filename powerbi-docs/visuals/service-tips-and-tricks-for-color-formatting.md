@@ -9,11 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: e896b3aeabc6a22c98563d0836984cd2d8a644de
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354622"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633843"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Dicas e truques para formatação com cores no Power BI
 
@@ -129,15 +130,15 @@ Quando o controle deslizante **Divergente** estiver ativo, pode definir as cores
 ## <a name="add-color-to-table-rows"></a>Adicionar cor às linhas da tabela
 As tabelas e as matrizes oferecem muitas opções para a formatação das cores. 
 
-![tabela predefinida](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
+![Captura de ecrã a mostrar uma tabela com filas brancas e cinzentas alternadas.](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
 
 Uma das formas mais rápidas de aplicar cor a uma tabela ou matriz é abrir o separador Formatação e selecionar **Estilo**.  Na imagem abaixo, selecionamos **Linhas coloridas com cabeçalho a negrito**.
 
-![tabela predefinida](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
+![Captura de ecrã a mostrar a opção de estilo Linhas coloridas com cabeçalho a negrito, que torna a linha de cabeçalho preta e as outras linhas verde-claras e verde-escuras.](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
 
 Experimente com outras opções de formatação de cor. Nesta imagem, alterámos a cor de fundo em **Cabeçalhos de coluna** e alterámos a **Cor de fundo** e a **Cor de fundo alternativa** para os **Valores** (linhas).
 
-![tabela predefinida](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
+![Captura de ecrã a mostrar os seletores de valor de Cor de fundo e Cor de fundo alternativa.](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
 
 ## <a name="how-to-undo-in-power-bi"></a>Como anular no Power BI
 Como muitos outros serviços da Microsoft e o software, o Power BI fornece uma maneira fácil para desfazer o último comando. Por exemplo, vamos dizer que altera a cor de um ponto de dados ou uma série de pontos de dados, e não gosta de cor quando ele for mostrado na visualização. Não se lembra exatamente da cor anterior, mas sabe que deseja voltar àquela cor!
@@ -148,7 +149,7 @@ Para eliminar todas as alterações feitas no cartão Formatação, selecione **
 
 ![Cartão Formatação a mostrar Reverter para predefinição na parte inferior](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
 
-## <a name="feedback"></a>Feedback
+## <a name="give-us-your-feedback"></a>Envie-nos o seu feedback
 Tem uma dica que gostaria de partilhar? Envie-nos e vamos ver sobre adicionar à lista.
 
 ## <a name="next-steps"></a>Próximos passos

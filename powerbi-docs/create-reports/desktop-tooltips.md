@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 78aac3b12abc0e055094078c59f39911a026e797
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e794ecc67f7873efb1ee5750f55aefb3d93b40b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238515"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600320"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Criar descrições com base em páginas de relatório no Power BI Desktop
 Pode criar **descrições de relatórios** visualmente avançadas que surgem ao pairar o cursor sobre elementos visuais, com base nas páginas de relatórios que criar no **Power BI Desktop**. Ao criar uma página de relatório que serve como descrição, as suas descrições personalizadas podem incluir elementos visuais, imagens e qualquer outra coleção de itens que criar na página do relatório. 
@@ -46,7 +46,7 @@ Também pode atribuir um nome à página do relatório para tornar o seu propós
 
 A partir daí, pode criar os elementos visuais que pretende que sejam apresentados na sua descrição. Na imagem seguinte, existem dois cartões e um gráfico de barras agrupadas na página de descrição, juntamente com uma cor de fundo da própria página e fundos para cada um dos elementos visuais, de modo a dar o aspeto que pretende.
 
-![Descrições de relatórios para o Power BI Desktop](media/desktop-tooltips/desktop-tooltips_06.png)
+![Captura de ecrã a mostrar uma descrição de relatório personalizada.](media/desktop-tooltips/desktop-tooltips_06.png)
 
 Existem mais passos que tem de concluir antes de a descrição da página de relatório estar pronta a funcionar como uma descrição. Tem de configurar a página de descrição de diversas formas, conforme descrito na secção seguinte. 
 

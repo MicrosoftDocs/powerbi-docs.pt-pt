@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/5/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e0aa8c5845c7f87f15e9b152bcaa20094e83ade
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 148fe66039cb273d4ee20521762d5720252c7492
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237791"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635729"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Gráficos de cascata no Power BI
 
@@ -96,7 +96,7 @@ Aprofunde um pouco mais para ver o que contribui mais para as alterações mês 
 
 1.  Selecione **Store** > **Territory**, o que permitirá adicionar **Territory** ao registo **Divisão**.
 
-    ![Mostra Arquivo no registo Divisão](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![Captura de ecrã a mostrar a adição de Territory à área Divisão.](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
     O Power BI utiliza o valor no registo **Divisão** para adicionar dados à visualização. Adiciona os cincos principais contribuidores de aumentos ou diminuições de cada mês fiscal. Por exemplo, isto significa que fevereiro tem seis pontos de dados em vez de apenas um.  
 

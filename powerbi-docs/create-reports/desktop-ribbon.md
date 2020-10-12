@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6df5c0310fca47dfd590671766c47349ebb47f7f
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 3cc9277b567a58b60dc86c41b7ae56ad5c678d6b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793980"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600601"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Use the updated ribbon in Power BI Desktop (Utilizar o friso atualizado no Power BI Desktop)
 
@@ -30,7 +30,7 @@ O friso atualizado estará geralmente disponível a partir do lançamento de mai
 
 Os benefícios da atualização do nosso friso destinam-se a fazer com que a experiência no Power BI Desktop, bem como noutros produtos da Microsoft, seja simples e familiar. 
 
-![Novo friso do Power BI Desktop](media/desktop-ribbon/desktop-ribbon-03.png)
+![Captura de ecrã a mostrar o friso do Power BI Desktop em grande plano.](media/desktop-ribbon/desktop-ribbon-03.png)
 
 Estes benefícios podem ser agrupados nas seguintes categorias:
 
