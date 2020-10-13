@@ -1,16 +1,16 @@
 - name: 'Explore Power BI (../consumer) (Explorar o Power BI [../consumidor])'
-  href: 'https://docs.microsoft.com/learn/modules/explore-power-bi-service'
+  href: /learn/modules/explore-power-bi-service
 - name: 'Analyze data in Power BI (../consumer) (Analisar os dados no Power BI [../consumidor])'
-  href: 'https://docs.microsoft.com/learn/modules/analyze-data-power-bi'
+  href: /learn/modules/analyze-data-power-bi
 - name: "Começar a criar com o Power\_BI"
-  href: 'https://docs.microsoft.com/learn/modules/get-started-with-power-bi'
+  href: /learn/modules/get-started-with-power-bi
 - name: Obter dados
-  href: 'https://docs.microsoft.com/learn/modules/get-data-power-bi'
+  href: /learn/modules/get-data-power-bi
 - name: Modelar dados
-  href: 'https://docs.microsoft.com/learn/modules/model-data-power-bi'
+  href: /learn/modules/model-data-power-bi
 - name: Utilizar elementos visuais
-  href: 'https://docs.microsoft.com/learn/modules/visuals-in-power-bi'
+  href: /learn/modules/visuals-in-power-bi
 - name: Explorar dados
-  href: 'https://docs.microsoft.com/learn/modules/explore-data-power-bi'
+  href: /learn/modules/explore-data-power-bi
 - name: Publish and share (Publicar e partilhar)
   href: 'https://docs.microsoft.com/learn/modules/publish-share-power-bi'
