@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 02/13/2020
+ms.date: 09/29/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 55b08d608e30b8a1f4b06319f1de835a12f7ca77
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 87bb15829936c452999872f95f49f35c2b60af77
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234818"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525663"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Adicionar hiperligações (URLs) a uma tabela ou matriz
 Este tópico explica como adicionar hiperligações (URLs) a uma tabela. Pode utilizar o Power BI Desktop para adicionar hiperligações (URLs) a um conjunto de dados. Pode adicionar essas hiperligações às matrizes e tabelas de relatório no Power BI Desktop ou no serviço Power BI. Em seguida, pode visualizar o URL ou um ícone de ligação ou formatar outra coluna como texto da ligação.
@@ -136,7 +136,6 @@ Os URLs têm de começar por um dos seguintes:
 - http
 - https
 - -mailto
-- file
 - ftp
 - news
 - telnet
@@ -145,8 +144,8 @@ P: Posso utilizar um URL personalizado como uma hiperligação numa tabela ou nu
 R: Não. Pode utilizar um ícone de ligação. Se necessitar de texto personalizado para as hiperligações e se a sua lista de URLs for pequena, considere utilizar antes uma caixa de texto.
 
 
-## <a name="next-steps"></a>Próximas etapas
-[Visualizações nos relatórios do Power BI](../visuals/power-bi-report-visualizations.md)
+## <a name="next-steps"></a>Próximos passos
+[Visualizações em relatórios do Power BI](../visuals/power-bi-report-visualizations.md)
 
 [Conceitos básicos para designers no serviço Power BI](../fundamentals/service-basic-concepts.md)
 
