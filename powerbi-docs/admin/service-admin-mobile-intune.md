@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 214ef5072808decc4c153a28cf231e070c20508d
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: a7a3e0382b80d46ddb41b3f5677763a1a08bf26d
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524725"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981556"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Configurar aplicações móveis do Power BI com o Microsoft Intune
 
@@ -58,8 +58,8 @@ Para criar e atribuir uma política de proteção de aplicações à aplicação
 As aplicações geridas são as aplicações que o suporte da empresa pode configurar para ajudar a proteger os dados da empresa a que pode aceder nessa aplicação. Ao aceder a dados empresariais numa aplicação gerida num dispositivo, poderá reparar que a aplicação funciona de forma ligeiramente diferente do esperado. Por exemplo, poderá não conseguir copiar e colar dados protegidos da empresa ou poderá não conseguir guardar os dados em determinadas localizações.
 
 Para compreender como os utilizadores finais podem utilizar a aplicação Power BI no respetivo dispositivo, reveja os passos indicados nos seguintes artigos:
-- [Utilizar aplicações geridas no seu dispositivo iOS](https://docs.microsoft.com/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
-- [Utilizar aplicações geridas no seu dispositivo Android](https://docs.microsoft.com/intune-user-help/use-managed-apps-on-your-device-android)
+- [Utilizar aplicações geridas no seu dispositivo iOS](/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
+- [Utilizar aplicações geridas no seu dispositivo Android](/intune-user-help/use-managed-apps-on-your-device-android)
 
 ## <a name="next-steps"></a>Passos seguintes
 
@@ -67,4 +67,4 @@ Para compreender como os utilizadores finais podem utilizar a aplicação Power 
 
 [Power BI apps for mobile devices (Aplicações do Power BI para dispositivos móveis)](../consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)  
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
