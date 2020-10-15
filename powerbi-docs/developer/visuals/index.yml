@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: d68b08f941ebe04c41e29f1260332e6f2b0d332c
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 92eb2ebc5eaff00c5c83cd32b0fa90b631906237
+  ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80516244"
+  ms.lasthandoff: 10/14/2020
+  ms.locfileid: "92049321"
 landingContent:
 - title: Introdução
   linkLists:
@@ -27,14 +27,14 @@ landingContent:
       url: power-bi-custom-visuals.md
     - text: Power BI visual project structure (Estrutura de projeto de elementos visuais do Power BI)
       url: visual-project-structure.md
-    - text: Perguntas frequentes
+    - text: Perguntas mais frequentes
       url: power-bi-custom-visuals-faq.md
 - title: Develop a Power BI visual (Criar um elemento visual do Power BI)
   linkLists:
   - linkListType: tutorial
     links:
-    - text: 'Tutorial: Develop a Power BI visual (Criar um elemento visual do Power BI)'
-      url: custom-visual-develop-tutorial.md
+    - text: 'Tutorial: Desenvolver um elemento visual do Power BI'
+      url: develop-circle-card.md
     - text: 'Tutorial: Adicionar opções de formatação a um elemento visual do Power BI'
       url: custom-visual-develop-tutorial-format-options.md
   - linkListType: concept
