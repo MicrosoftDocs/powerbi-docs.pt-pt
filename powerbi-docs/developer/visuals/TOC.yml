@@ -10,8 +10,8 @@
     - name: Tutoriais
       expanded: true
       items:
-        - name: Develop a Power BI visual (Criar um elemento visual do Power BI)
-          href: custom-visual-develop-tutorial.md
+        - name: 'Tutorial: Programar um elemento visual de cartão circular do Power BI'
+          href: develop-circle-card.md
         - name: Create React-based Visuals (Criar Elementos Visuais com base em Reações)
           href: create-react-visual.md
         - name: Build a bar chart (Criar um gráfico de barras)
@@ -54,6 +54,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: Publicar elementos visuais do Power BI no AppSource
           href: office-store.md
+        - name: Configurar o seu ambiente para programar um elemento visual do Power BI
+          href: environment-setup.md
         - name: Create R-powered visuals (Criar elementos visuais baseados em R)
           href: create-r-based-power-bi-desktop.md
         - name: Test your Power BI visual (Testar o seu elemento visual do Power BI)
