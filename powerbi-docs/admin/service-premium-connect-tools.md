@@ -3,19 +3,19 @@ title: Conectividade e gestão dos conjuntos de dados com o ponto final XMLA no 
 description: Descreve como ligar aos conjuntos de dados no Power BI Premium a partir de ferramentas e aplicações cliente.
 author: minewiskan
 ms.author: owend
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-premium
+ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 06/04/2020
+ms.date: 10/14/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 6859cce8c50d34218e99c3466fdc9aeaa6ed57e6
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 5e30a59e637b39099cdd0ad2eb99223cff20fbe6
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599213"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116552"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Dataset connectivity with the XMLA endpoint (Preview) (Conectividade de conjuntos de dados com o ponto final de XMLA [Pré-visualização])
 

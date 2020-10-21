@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 09/15/2020
-ms.openlocfilehash: ea2fa0625ece88d8da2848dbe6a108d98a55a0d0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 01cb4c5de2863250f083320e7005c0d589a2da0b
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855565"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116483"
 ---
 # <a name="deployment-pipelines-best-practices"></a>Deployment pipelines best practices (Melhores práticas dos pipelines de implementação)
 
@@ -103,7 +103,7 @@ Considere o Power BI Desktop como o seu ambiente de desenvolvimento local. O Po
 
 ### <a name="version-control-for-pbix-files"></a>Controlo de versões dos ficheiros .pbix
 
-Se quiser gerir o histórico de versões dos relatórios e dos conjuntos de dados, utilize a [sincronização automática do Power BI com o OneDrive](../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md). Esta funcionalidade manterá os ficheiros atualizados com a versão mais recente. Também lhe permitirá obter versões mais antigas, se necessário.
+Se quiser gerir o histórico de versões dos relatórios e dos conjuntos de dados, utilize a [sincronização automática do Power BI com o OneDrive](../collaborate-share/service-connect-to-files-in-app-workspace-onedrive-for-business.md). Esta funcionalidade manterá os ficheiros atualizados com a versão mais recente. Também lhe permitirá obter versões mais antigas, se necessário.
 
 >[!NOTE]
 >Utilize a sincronização automática com o OneDrive (ou qualquer outro repositório) apenas com os ficheiros .pbix na fase de desenvolvimento dos pipelines de implementação. Não sincronize os ficheiros .pbix nas fases de teste e produção dos pipelines de implementação. Esta ação causará problemas na implementação do conteúdo no pipeline.

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 67470ec405806f44fdb483e857d222ad4ff05a45
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 69650982bd3e71c235ffb09b00a99959bc02c231
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379174"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197639"
 ---
 # <a name="tooltip-utils"></a>Utilitários de descrição
 Este artigo irá ajudá-lo a instalar, importar e utilizar utilitários de descrição. Este utilitário é útil para qualquer personalização de descrições em elementos visuais do Power BI.
@@ -29,7 +29,7 @@ Para utilizar o pacote, deve ter o seguinte:
 Para instalar o pacote, deve executar o seguinte comando no diretório com os elementos visuais atuais:
 
 ```bash
-npm install powerbi-visuals-utils-colorutils --save
+npm install powerbi-visuals-utils-tooltiputils --save
 ```
 Este comando instala o pacote e adiciona um pacote como dependência a ```package.json```
 

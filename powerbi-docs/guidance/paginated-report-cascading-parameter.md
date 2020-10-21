@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 35a62923ba69520c1197e7bb80114a22ec1d9a20
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f239622d8b6012913298212790f7f9aa8c3115a5
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214099"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197662"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Use cascading parameters in paginated reports (Utilizar parâmetros em cascata em relatórios paginados)
 
@@ -128,7 +128,7 @@ Veja a seguir como pode desenvolver os parâmetros em cascata:
 >
 > Normalmente, os procedimentos armazenados são uma melhor abordagem de conceção. Tal deve-se ao facto de os planos de consulta estarem armazenados em cache para uma execução mais rápida, além de permitirem criar uma lógica mais sofisticada, quando necessário. No entanto, não são atualmente suportados para origens de dados relacionais de gateway, o que significa SQL Server, Oracle e Teradata.
 >
-> Por último, deve sempre garantir que existem índices adequados para suportar uma obtenção de dados eficiente. Caso contrário, os parâmetros de relatório podem ser preenchidos lentamente e a base de dados pode ficar sobrecarregada. Para obter mais informações sobre a indexação do SQL Server, veja [SQL Server Index Architecture and Design Guide](/sql/relational-databases/sql-server-index-design-guide?view=sql-server-2017) (Guia de Arquitetura e Design dos Índices do SQL Server).
+> Por último, deve sempre garantir que existem índices adequados para suportar uma obtenção de dados eficiente. Caso contrário, os parâmetros de relatório podem ser preenchidos lentamente e a base de dados pode ficar sobrecarregada. Para obter mais informações sobre a indexação do SQL Server, veja [SQL Server Index Architecture and Design Guide](/sql/relational-databases/sql-server-index-design-guide) (Guia de Arquitetura e Design dos Índices do SQL Server).
 
 ### <a name="filter-by-a-grouping-column"></a>Filtrar por uma coluna de agrupamento
 
@@ -220,7 +220,7 @@ Veja a seguir como pode desenvolver os parâmetros em cascata:
 > [!TIP]
 > Pode melhorar este design para proporcionar mais controlo aos utilizadores do relatório. Permite que os utilizadores definam os seus próprios valores de correspondência de padrão. Por exemplo, o valor da pesquisa “vermelho%” filtrará os revendedores com nomes que _começam_ com os caracteres “vermelho”.
 >
-> Para obter mais informações, veja [LIKE (Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql?view=sql-server-ver15#using-the--wildcard-character).
+> Para obter mais informações, veja [LIKE (Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql#using-the--wildcard-character).
 
 Veja a seguir como pode deixar que os utilizadores do relatório definam o seu próprio padrão.
 

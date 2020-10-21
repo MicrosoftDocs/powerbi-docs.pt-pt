@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: bfbdbeb08f67a979a5f14c8b45ef7ca269c2d03d
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 3aa42394bb12078fb2abcf6574d04b8109a9c40c
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857365"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981602"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrar o Power BI – perguntas mais frequentes (FAQ)
 
@@ -55,7 +55,7 @@ Este artigo aborda perguntas mais frequentes relativas à administração do Pow
 
 ### <a name="using-powershell"></a>Utilizar o PowerShell
 
-Alguns dos procedimentos nesta secção requerem scripts do Windows PowerShell. Se não estiver familiarizado com o PowerShell, recomendamos o [guia de introdução ao PowerShell ](https://go.microsoft.com/fwlink/p/?LinkID=286814). Para executar os scripts, primeiro instale a mais recente versão de 64 bits do [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/overview).
+Alguns dos procedimentos nesta secção requerem scripts do Windows PowerShell. Se não estiver familiarizado com o PowerShell, recomendamos o [guia de introdução ao PowerShell ](/powershell/scripting/overview). Para executar os scripts, primeiro instale a mais recente versão de 64 bits do [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/overview).
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>Como é que os utilizadores se inscrevem no Power BI?
 
