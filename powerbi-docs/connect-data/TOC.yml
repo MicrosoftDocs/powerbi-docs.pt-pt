@@ -62,6 +62,8 @@
           items:
             - name: Ligar a origens de dados
               href: desktop-data-sources.md
+            - name: Utilizar os parâmetros de consulta M dinâmicos
+              href: desktop-dynamic-m-query-parameters.md
             - name: Criar um relatório numa Lista do SharePoint
               href: desktop-sharepoint-online-list.md
             - name: Ligar-se ao LinkedIn Sales Navigator
