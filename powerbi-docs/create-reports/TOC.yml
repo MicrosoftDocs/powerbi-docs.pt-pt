@@ -121,6 +121,8 @@
       items:
         - name: Relatórios do Power BI
           items:
+            - name: Criar um relatório no serviço
+              href: service-report-create-new.md
             - name: Ativar a atualização automática de páginas
               href: desktop-automatic-page-refresh.md
             - name: Examinar os elementos de relatório com o Analisador de Desempenho
@@ -205,8 +207,12 @@
               href: desktop-grouping-visuals.md
             - name: Criar modelos de relatórios
               href: desktop-templates.md
-            - name: Criar um relatório a partir de um conjunto de dados
-              href: service-report-create-new.md
+            - name: Alterar definições de relatório
+              href: power-bi-report-settings.md
+            - name: Apresentar relatórios nas Home pages de outras pessoas
+              href: ../collaborate-share/service-featured-content.md
+            - name: 'Let consumers customize visuals (Preview) (Permitir aos clientes personalizar elementos visuais [Pré-visualização])'
+              href: power-bi-personalize-visuals.md
             - name: Guardar um relatório
               href: service-report-save.md
             - name: Interagir com um relatório na Vista de Edição
