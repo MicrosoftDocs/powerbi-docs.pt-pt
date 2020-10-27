@@ -43,6 +43,8 @@
           href: dataflows/dataflows-create.md
         - name: Configurar e consumir um fluxo de dados
           href: dataflows/dataflows-configure-consume.md
+        - name: Configurar cargas de trabalho de fluxo de dados do Power BI Premium
+          href: dataflows/dataflows-premium-workload-configuration.md
         - name: Fluxos de dados e Azure Data Lake Gen2
           href: dataflows/dataflows-azure-data-lake-storage-integration.md
         - name: Funcionalidades Premium do fluxo de dados
