@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/07/2020
+ms.date: 10/21/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 56dd9e07e7c0647e7f92cc5d701b260483e2fbdf
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: 1ea5e7633fb81b2792459c3a428c9c43827a5137
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049282"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462234"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho nas novas áreas de trabalho no Power BI
 
@@ -31,13 +31,13 @@ As áreas de trabalho novas e atualizadas podem coexistir lado a lado com as ár
 
 Reestruturámos algumas funcionalidades nas novas áreas de trabalho. Veja a seguir as principais diferenças.
 
-- **A criação das novas áreas de trabalho não irá criar grupos do Microsoft 365**, ao contrário do que acontece nas áreas de trabalho clássicas. Todas as tarefas de administração das novas áreas de trabalho são efetuadas no Power BI, não no Office 365. Pode continuar a gerir o acesso dos utilizadores ao conteúdo através dos grupos do Microsoft 365, se assim quiser. Basta adicionar um grupo do Microsoft 365 na lista de acesso da área de trabalho.
+- **A criação das novas áreas de trabalho não irá criar grupos do Microsoft 365** , ao contrário do que acontece nas áreas de trabalho clássicas. Todas as tarefas de administração das novas áreas de trabalho são efetuadas no Power BI, não no Office 365. Pode continuar a gerir o acesso dos utilizadores ao conteúdo através dos grupos do Microsoft 365, se assim quiser. Basta adicionar um grupo do Microsoft 365 na lista de acesso da área de trabalho.
 - **Utilize funções de áreas de trabalho mais avançadas** para uma gestão de permissões mais flexível nas novas áreas de trabalho.  Nas áreas de trabalho clássicas, só pode adicionar utilizadores individuais à lista de membros e administradores. 
-- **Atribua grupos de utilizadores a funções de área de trabalho**: nas novas áreas de trabalho, pode adicionar vários grupos de segurança do Active Directory, listas de distribuição ou grupos dos Microsoft 365 a estas funções para uma gestão de utilizadores mais fácil. 
-- **Lista de contactos**: nas novas áreas de trabalho, pode especificar quem recebe notificações acerca da atividade da área de trabalho.
-- **Crie aplicações de modelo**: apenas pode criar *aplicações de modelo* nas novas áreas de trabalho. As aplicações de modelo são aplicações que pode distribuir para clientes fora da sua organização. Esses clientes podem então ligar aos seus próprios dados com a sua aplicação de modelo. Leia mais sobre as [aplicações de modelo](../connect-data/service-template-apps-overview.md).
-- **Partilhe conjuntos de dados**: para partilhar um conjunto de dados fora de uma área de trabalho específica, tem de guardar o relatório que contém o conjunto de dados numa das novas áreas de trabalho. Não pode partilhar conjuntos de dados de áreas de trabalho clássicas. Leia mais sobre os [conjuntos de dados partilhados](../connect-data/service-datasets-across-workspaces.md).
-- **Pacotes de conteúdos organizacionais**: nas áreas de trabalho clássicas, cria e consome pacotes de conteúdos organizacionais. Não os pode criar ou consumir nas novas áreas de trabalho. Nas novas áreas de trabalho, as aplicações e as aplicações de modelo substituem os pacotes de conteúdos organizacionais.
+- **Atribua grupos de utilizadores a funções de área de trabalho** : nas novas áreas de trabalho, pode adicionar vários grupos de segurança do Active Directory, listas de distribuição ou grupos dos Microsoft 365 a estas funções para uma gestão de utilizadores mais fácil. 
+- **Lista de contactos** : nas novas áreas de trabalho, pode especificar quem recebe notificações acerca da atividade da área de trabalho.
+- **Crie aplicações de modelo** : apenas pode criar *aplicações de modelo* nas novas áreas de trabalho. As aplicações de modelo são aplicações que pode distribuir para clientes fora da sua organização. Esses clientes podem então ligar aos seus próprios dados com a sua aplicação de modelo. Leia mais sobre as [aplicações de modelo](../connect-data/service-template-apps-overview.md).
+- **Partilhe conjuntos de dados** : para partilhar um conjunto de dados fora de uma área de trabalho específica, tem de guardar o relatório que contém o conjunto de dados numa das novas áreas de trabalho. Não pode partilhar conjuntos de dados de áreas de trabalho clássicas. Leia mais sobre os [conjuntos de dados partilhados](../connect-data/service-datasets-across-workspaces.md).
+- **Pacotes de conteúdos organizacionais** : nas áreas de trabalho clássicas, cria e consome pacotes de conteúdos organizacionais. Não os pode criar ou consumir nas novas áreas de trabalho. Nas novas áreas de trabalho, as aplicações e as aplicações de modelo substituem os pacotes de conteúdos organizacionais.
 
 Este artigo explica estas funcionalidades mais detalhadamente.
 
@@ -48,11 +48,11 @@ Este artigo explica estas funcionalidades mais detalhadamente.
 
 Nas novas áreas de trabalho, algumas funcionalidades funcionam de forma diferente. Estas diferenças são intencionais, com base no feedback que recebemos dos clientes. Permitem uma abordagem mais flexível à colaboração em áreas de trabalho.
 
-- **Imposição de licenciamento**: a publicação de relatórios numa nova experiência de área de trabalho impõe as regras de licenciamento existentes. Os utilizadores que colaboram em novas áreas de trabalho ou partilham conteúdos com outros utilizadores no serviço Power BI precisam de uma licença do Power BI Pro. Os utilizadores sem uma licença do Pro veem o erro "Apenas os utilizadores com licenças do Power BI Pro podem publicar nesta área de trabalho".
+- **Imposição de licenciamento** : a publicação de relatórios numa nova experiência de área de trabalho impõe as regras de licenciamento existentes. Os utilizadores que colaboram em novas áreas de trabalho ou partilham conteúdos com outros utilizadores no serviço Power BI precisam de uma licença do Power BI Pro. Os utilizadores sem uma licença do Pro veem o erro "Apenas os utilizadores com licenças do Power BI Pro podem publicar nesta área de trabalho".
 - **Definição "Os membros podem voltar a partilhar"** : a função de Contribuidor nas novas áreas de trabalho substitui a definição "Os membros podem voltar a partilhar" nas áreas de trabalho clássicas.
-- **Áreas de trabalho só de leitura**: a função de Visualizador nas novas áreas de trabalho substitui a concessão de acesso só de leitura aos utilizadores numa área de trabalho clássica. A função de Visualizador permite um acesso só de leitura semelhante ao conteúdo nas novas áreas de trabalho.
+- **Áreas de trabalho só de leitura** : a função de Visualizador nas novas áreas de trabalho substitui a concessão de acesso só de leitura aos utilizadores numa área de trabalho clássica. A função de Visualizador permite um acesso só de leitura semelhante ao conteúdo nas novas áreas de trabalho.
 - Os **utilizadores sem uma licença Pro** poderão aceder a uma nova área de trabalho se esta estiver numa capacidade do Power BI Premium, mas apenas se tiverem a função de Visualizador.
-- **Permitir que os utilizadores exportem dados**: até mesmo os utilizadores com a função de Visualizador na nova área de trabalho poderão exportar dados se tiverem a Permissão de compilação nos conjuntos de dados na mesma. Saiba mais sobre as [Permissões de compilação para conjuntos de dados](../connect-data/service-datasets-build-permissions.md).
+- **Permitir que os utilizadores exportem dados** : até mesmo os utilizadores com a função de Visualizador na nova área de trabalho poderão exportar dados se tiverem a Permissão de compilação nos conjuntos de dados na mesma. Saiba mais sobre as [Permissões de compilação para conjuntos de dados](../connect-data/service-datasets-build-permissions.md).
 - O botão **Sair da área de trabalho** não existe nas novas áreas de trabalho.
 
 ### <a name="workspace-contact-list"></a>Lista de contactos da área de trabalho

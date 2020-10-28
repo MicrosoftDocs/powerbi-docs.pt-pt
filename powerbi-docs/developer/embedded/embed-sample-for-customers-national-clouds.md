@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.custom: seodec18
+ms.custom: seodec18, devx-track-js
 ms.date: 02/05/2019
-ms.openlocfilehash: c5a902a8de8449290d52974063b25f51ff92dd9d
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: faacbe602a8c80dc036583cca599b24b072df315
+ms.sourcegitcommit: 702ababd71c38846303bf49990b51afc73f9ebb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747580"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "92795664"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Tutorial: Incorporar conteúdos do Power BI na sua aplicação para clouds nacionais
 
@@ -38,12 +38,12 @@ As diferentes clouds nacionais são:
 
 ![Dashboard incorporado](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Para começar a utilizar estas instruções, precisa de uma **conta do Power BI**. Se não tiver uma conta configurada, pode escolher a cloud nacional certa para si, consoante o tipo de governo ou país. Pode inscrever-se numa [conta do Power BI do Governo dos EUA](../../admin/service-govus-signup.md), numa [conta do Power BI para Germany Cloud](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) ou numa [conta do Power BI para China Cloud](https://www.21vbluecloud.com/powerbi/).
+Para começar a utilizar estas instruções, precisa de uma **conta do Power BI** . Se não tiver uma conta configurada, pode escolher a cloud nacional certa para si, consoante o tipo de governo ou país. Pode inscrever-se numa [conta do Power BI do Governo dos EUA](../../admin/service-govus-signup.md), numa [conta do Power BI para Germany Cloud](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) ou numa [conta do Power BI para China Cloud](https://www.21vbluecloud.com/powerbi/).
 
 > [!NOTE]
 > Pretende incorporar um dashboard para a sua organização em alternativa? Veja [Integrar um dashboard numa aplicação para a sua organização](embed-sample-for-your-organization.md).
 
-Para integrar um dashboard numa aplicação Web, utilize a API do **Power BI** e um **token de acesso** de autorização do Azure Active Directory (AD) para obter um dashboard. Em seguida, carregue o dashboard com um token de incorporação. A API do **Power BI** fornece acesso programático a recursos específicos do **Power BI**. Para obter mais informações, veja [API REST do Power BI](/rest/api/power-bi/), SDK .NET do Power BI e [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+Para integrar um dashboard numa aplicação Web, utilize a API do **Power BI** e um **token de acesso** de autorização do Azure Active Directory (AD) para obter um dashboard. Em seguida, carregue o dashboard com um token de incorporação. A API do **Power BI** fornece acesso programático a recursos específicos do **Power BI** . Para obter mais informações, veja [API REST do Power BI](/rest/api/power-bi/), SDK .NET do Power BI e [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Transferir o exemplo
 
@@ -143,7 +143,7 @@ Registe a sua aplicação no Microsoft Azure AD para fazer chamadas para a API 
 
 * Power BI para China Cloud – ```https://app.powerbi.cn/apps```
 
-Se transferiu o [Exemplo de incorporação para o seu cliente](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData), utilize o **applicationId** que recebe para que o exemplo possa ser autenticado no Azure AD. Para configurar o exemplo, altere o **applicationId** no ficheiro *web.config*.
+Se transferiu o [Exemplo de incorporação para o seu cliente](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData), utilize o **applicationId** que recebe para que o exemplo possa ser autenticado no Azure AD. Para configurar o exemplo, altere o **applicationId** no ficheiro *web.config* .
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Passo 2 – obter um token de acesso do Azure AD
 
@@ -159,7 +159,7 @@ Na sua aplicação, terá de obter um **token de acesso** do Azure AD antes de p
 
 * Power BI para China Cloud – ```https://login.chinacloudapi.cn```
 
-Pode ver exemplos desses tokens de acesso dentro de cada tarefa de item de conteúdo no ficheiro **Controllers\HomeController.cs**.
+Pode ver exemplos desses tokens de acesso dentro de cada tarefa de item de conteúdo no ficheiro **Controllers\HomeController.cs** .
 
 ## <a name="step-3---get-a-content-item"></a>Passo 3 - obter um item de conteúdo
 
@@ -167,7 +167,7 @@ Para incorporar o conteúdo do Power BI, tem de executar algumas ações para se
 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>Criar o Cliente do Power BI com o seu token de acesso
 
-Com o seu token de acesso, irá querer criar o objeto de cliente do Power BI que lhe permitirá interagir com as APIs do Power BI. Cria o objeto de cliente do Power BI ao encapsular num wrapper o AccessToken com um objeto *Microsoft.Rest.TokenCredentials*.
+Com o seu token de acesso, irá querer criar o objeto de cliente do Power BI que lhe permitirá interagir com as APIs do Power BI. Cria o objeto de cliente do Power BI ao encapsular num wrapper o AccessToken com um objeto *Microsoft.Rest.TokenCredentials* .
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -245,7 +245,7 @@ Com a API JavaScript, pode gerar um token de incorporação. O token de incorpor
 
 Está disponível um exemplo em **Controllers\HomeController.cs** do [Exemplo de incorporação para a sua organização](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData).
 
-É criada uma classe para **EmbedConfig** e **TileEmbedConfig**. Está disponível um exemplo em **Models\EmbedConfig.cs** e **Models\TileEmbedConfig.cs**.
+É criada uma classe para **EmbedConfig** e **TileEmbedConfig** . Está disponível um exemplo em **Models\EmbedConfig.cs** e **Models\TileEmbedConfig.cs** .
 
 #### <a name="reports"></a>Relatórios
 

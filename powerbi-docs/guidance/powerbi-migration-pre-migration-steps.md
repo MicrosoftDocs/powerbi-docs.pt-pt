@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fba37d9f73ea0f61d8a43dc46cd13a5835d4d2a9
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 01d1e48537b2d373be3897259f8ac6e97886f268
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525806"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680975"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>Preparar a migração para o Power BI
 
@@ -79,7 +79,7 @@ Eis alguns itens críticos a serem abordados no início de uma implementação d
 - Preferências relacionadas com [modos de conjuntos de dados](../connect-data/service-dataset-modes-understand.md), como a utilização do Modo de importação, o Modo DirectQuery ou a combinação dos dois modos num [Modelo composto](composite-model-guidance.md).
 - [Proteção de dados e acesso](../admin/service-admin-power-bi-security.md).
 - Trabalhar com [conjuntos de dados partilhados](../connect-data/service-datasets-share.md) para reutilização.
-- Aplicar a [certificação de dados](../connect-data/service-datasets-certify.md) para promover a utilização de dados autoritativos e fidedignos.
+- Aplicar a [certificação de dados](../collaborate-share/service-endorsement-overview.md) para promover a utilização de dados autoritativos e fidedignos.
 - Utilização de diferentes [tipos de relatórios](../create-reports/index.yml), incluindo relatórios do Power BI, relatórios do Excel ou relatórios paginados para diferentes casos de utilização ou unidades de negócio.
 - Alterar as abordagens de gestão para gerir artefactos de BI centralizados e artefactos de BI geridos por empresas.
 - Planos de preparação para consumidores, modeladores de dados, autores de relatórios e administradores.
@@ -123,7 +123,7 @@ A primeira tarefa consiste em compreender o significado do êxito na migração 
 Preparar um inventário de relatórios existentes na plataforma de BI legada é um passo crítico para compreender o que já existe. O resultado deste passo é uma entrada para avaliar o nível de esforço da migração. Eis algumas atividades que podem estar relacionadas com a preparação de um inventário:
 
 1. **Inventário de relatórios:** compilar uma lista de relatórios e dashboards que são candidatos à migração.
-2. **Inventário de origens de dados:** compilar uma lista de todas as origens de dados acedidas por relatórios existentes. Deve incluir origens de dados empresariais, bem como origens de dados departamentais e pessoais. Este processo pode revelar origens de dados que anteriormente não eram conhecidas pelo departamento de TI, frequentemente referidas como _TI sombra_.
+2. **Inventário de origens de dados:** compilar uma lista de todas as origens de dados acedidas por relatórios existentes. Deve incluir origens de dados empresariais, bem como origens de dados departamentais e pessoais. Este processo pode revelar origens de dados que anteriormente não eram conhecidas pelo departamento de TI, frequentemente referidas como _TI sombra_ .
 3. **Registo de auditoria:** obter dados do registo de auditoria da plataforma de BI legada para compreender os padrões de utilização e ajudar na priorização. As informações importantes a ser obtidas a partir do registo de auditoria incluem:
     - Número médio de vezes que cada relatório foi executado por semana/mês/trimestre.
     - Número médio de consumidores por relatório, por semana/mês/trimestre.

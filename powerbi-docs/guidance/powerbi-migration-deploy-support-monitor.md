@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: f9268409977b3aa78e1ebda6f1f6b2e732451455
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965001"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681024"
 ---
 # <a name="deploy-to-power-bi"></a>Implementar no Power BI
 
-Este artigo descreve a **Fase 5**, que diz respeito à implementação, ao suporte e à monitorização de conteúdo ao migrar para o Power BI.
+Este artigo descreve a **Fase 5** , que diz respeito à implementação, ao suporte e à monitorização de conteúdo ao migrar para o Power BI.
 
 :::image type="content" source="media/powerbi-migration-deploy-support-monitor/migrate-to-powerbi-stage-5.png" alt-text="Imagem a mostrar as fases de uma migração do Power BI. A Fase 5 está realçada neste artigo.":::
 
@@ -90,10 +90,10 @@ As principais atividades durante uma implementação na área de trabalho de pro
 - **Cadeias de ligação e parâmetros:** ajuste as cadeias de ligação dos conjuntos de dados quando a origem de dados for diferente entre a fase de teste e de produção. Pode utilizar a [parametrização](../connect-data/service-parameters.md) eficazmente para esta finalidade.
 - **Atualização de dados:** [Agende a atualização](../connect-data/refresh-scheduled-refresh.md) de qualquer conjunto de dados importado.
 - **Conteúdo da área de trabalho:** publique conjuntos de dados e relatórios na área de trabalho de produção e crie dashboards. Se o conteúdo tiver sido publicado em áreas de trabalho com capacidade Premium, os [pipelines de implementação](../create-reports/deployment-pipelines-overview.md) poderão simplificar o processo de implementação em áreas de trabalho de desenvolvimento, teste e produção.
-- **Aplicação:** se as aplicações fizerem parte da estratégia de distribuição de conteúdo, publique a [aplicação ](../consumer/end-user-apps.md) com o conteúdo da área de trabalho de produção.
+- **Aplicação:** se as aplicações fizerem parte da estratégia de distribuição de conteúdo, publique a [aplicação](../consumer/end-user-apps.md) com o conteúdo da área de trabalho de produção.
 - **Segurança:** atualize e verifique as [funções da área de trabalho](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) com base na estratégia de colaboração e de distribuição conteúdo.
 - **Definições dos conjuntos de dados:** atualize e verifique as definições de cada conjunto de dados, incluindo:
-  - [Endosso](../connect-data/service-datasets-certify.md) (como certificado ou promovido)
+  - [Endosso](../collaborate-share/service-endorse-content.md) (como certificado ou promovido)
   - Ligação do gateway ou credenciais da origem de dados
   - Atualização agendada
   - [Perguntas das Perguntas e Respostas em destaque](../create-reports/service-q-and-a-create-featured-questions.md)

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: efddfbdb70b2c20ad650eda6a16a5d7defb758e8
-ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
+ms.openlocfilehash: 20a81ed4675f6392f28a20f7b741d0c0ad1076eb
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "90811857"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680763"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Definir tabelas em destaque no Power BI Desktop (pré-visualização)
 
@@ -25,12 +25,12 @@ Na Galeria de Tipos de Dados no Excel, os utilizadores podem encontrar dados de 
 1. O resto da organização pode ligar-se a essas tabelas em destaque, referidas como *tipos de dados* no Excel, para obter dados relevantes e atualizáveis. O artigo [Aceder às tabelas em destaque do Power BI no Excel (pré-visualização)](service-excel-featured-tables.md) descreve a utilização destas tabelas em destaque no Excel.
 
 > [!NOTE]
-> Pode [promover ou certificar conjuntos de dados no Power BI](../connect-data/service-datasets-promote.md). A isso chama-se *recomendação*. O Excel dá prioridade a tabelas em conjuntos de dados recomendados na Galeria de Tipos de Dados. O Excel apresenta as tabelas em conjuntos de dados certificados em primeiro lugar e depois as tabelas em conjuntos de dados promovidos. Posteriormente, o Excel apresenta as tabelas em conjuntos de dados não recomendados. 
+> Pode [promover ou certificar conjuntos de dados no Power BI](../collaborate-share/service-endorse-content.md). A isso chama-se *recomendação* . O Excel dá prioridade a tabelas em conjuntos de dados recomendados na Galeria de Tipos de Dados. O Excel apresenta as tabelas em conjuntos de dados certificados em primeiro lugar e depois as tabelas em conjuntos de dados promovidos. Posteriormente, o Excel apresenta as tabelas em conjuntos de dados não recomendados. 
 
 ## <a name="turn-on-the-featured-table-preview"></a>Ativar a pré-visualização da tabela em destaque
 
-1. No Power BI Desktop, selecione **Ficheiro** > **Opções e Definições** > **Opções** > **Funcionalidades de Pré-visualização**.
-2. Selecione a caixa de verificação **Tabelas em destaque**.
+1. No Power BI Desktop, selecione **Ficheiro** > **Opções e Definições** > **Opções** > **Funcionalidades de Pré-visualização** .
+2. Selecione a caixa de verificação **Tabelas em destaque** .
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="Opção das tabelas em destaque de pré-visualização":::
 
@@ -42,10 +42,10 @@ Na Galeria de Tipos de Dados no Excel, os utilizadores podem encontrar dados de 
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="Opção das tabelas em destaque de pré-visualização":::
  
-2. Selecione uma tabela e defina **É tabela em destaque** como **Sim**.
+2. Selecione uma tabela e defina **É tabela em destaque** como **Sim** .
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="Opção das tabelas em destaque de pré-visualização" para ajudar os criadores de relatórios do Power BI a identificá-la.
-    - O valor do campo **Etiqueta da linha** é utilizado no Excel para que os utilizadores possam identificar facilmente a linha. Aparece como o valor da célula de uma célula associada, no painel **Seletor de Dados** e no cartão **Informações**. 
+    - O valor do campo **Etiqueta da linha** é utilizado no Excel para que os utilizadores possam identificar facilmente a linha. Aparece como o valor da célula de uma célula associada, no painel **Seletor de Dados** e no cartão **Informações** . 
     - O valor do campo **Coluna-chave** apresenta o ID exclusivo da linha. Este valor permite ao Excel associar uma célula a uma linha específica na tabela.
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="Opção das tabelas em destaque de pré-visualização":::
