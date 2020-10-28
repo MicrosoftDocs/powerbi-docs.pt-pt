@@ -42,7 +42,7 @@
           href: power-bi-data-sources.md
         - name: Pré-requisitos de origem de dados do Power BI
           href: desktop-data-source-prerequisites.md
-        - name: 'Using enhanced dataset metadata in Power BI Desktop (preview) (Utilizar conjuntos de dados otimizados no Power BI Desktop [pré-visualização])'
+        - name: "Utilizar metadados de conjuntos de dados otimizados no Power\_BI\_Desktop"
           href: desktop-enhanced-dataset-metadata.md
         - name: Trabalhar com modelos multidimensionais no Power BI
           href: desktop-default-member-multidimensional-models.md
@@ -184,12 +184,6 @@
               href: service-datasets-copy-reports.md
             - name: Control the use of datasets (Controlar a utilização de conjuntos de dados)
               href: service-datasets-admin-across-workspaces.md
-        - name: Endorse datasets (Recomendar conjuntos de dados)
-          items:
-            - name: Promote datasets (Promover conjuntos de dados)
-              href: service-datasets-promote.md
-            - name: Certify datasets (Certificar conjuntos de dados)
-              href: service-datasets-certify.md
         - name: Obter dados de bases de dados
           items:
             - name: Azure e Power BI
