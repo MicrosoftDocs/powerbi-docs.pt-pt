@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: c8daa87bca6fb5ed47899f804c0710f58b559ff1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d2e229dda05c1761fdaa5c7336c0eca5db538e46
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860239"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92026054"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -23,11 +23,25 @@ Para informações sobre “Novidades” relacionadas, veja:
 * [Novidades do serviço Power BI](../../fundamentals/service-whats-new.md)
 
 >[!NOTE]
->O suporte à aplicação móvel Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+
+## <a name="october-2020"></a>Outubro de 2020
+### <a name="automatic-page-refresh-is-now-supported-windows"></a>A atualização automática de páginas é agora suportada (Windows)
+
+Agora, as páginas de relatório configuradas com [atualização automática de página](../../create-reports/desktop-automatic-page-refresh.md) também serão atualizadas automaticamente na aplicação Power BI para dispositivos Windows. E isto não significa apenas na vista de relatório normal. Com a atualização automática de páginas, as suas [apresentações e apresentações de diapositivos](mobile-windows-10-app-presentation-mode.md#slideshows) também serão atualizadas em tempo real, o que garante que apresenta sempre os dados e informações empresariais mais recentes.
+
+### <a name="support-for-notch-displays-ios"></a>Suporte para ecrãs notch (iOS)
+Adicionámos suporte para ecrãs notch em iPhones e iPads, o que lhe vai oferecer mais espaço de ecrã para os seus relatórios e dashboards. 
+
+## <a name="september-2020"></a>Setembro de 2020
+### <a name="power-bi-app-preview-for-hololens-2-is-out-in-the-stores"></a>A aplicação Power BI (pré-visualização) para o HoloLens 2 está à venda!
+
+A aplicação Power BI para o HoloLens 2 oferece-lhe uma experiência totalmente imersiva. Através do nosso sistema de gestos do HoloLens 2, pode obter os seus relatórios e dashboards favoritos fora do toolbelt, redimensioná-los e colocá-los no seu espaço onde precisar deles e até navegar nas páginas do relatório. Os relatórios e os dashboards são atualizados enquanto estiver a usar a aplicação, portanto, se existirem alterações de dados, verá essas alterações imediatamente. Saiba mais na nossa [documentação](mobile-hololens2-app.md) e no nosso [blogue](https://powerbi.microsoft.com/blog/power-bi-app-for-mixed-reality-now-available-for-hololens-2/)!
+
 
 ## <a name="august-2020"></a>Agosto de 2020
 ### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>Melhorámos a forma como navega para os conteúdos (iOS e Android)
-Agora, pode navegar nos seus conteúdos de forma rápida e fácil com uma **nova árvore de navegação**, disponível no menu pendente do cabeçalho nos relatórios, dashboards e aplicações. Verá a hierarquia de localização dos seus conteúdos de relance, e pode facilmente subir na hierarquia de conteúdos, aceder a conteúdos colaterais ou até voltar rapidamente à home page. Se o item que estiver a ver fizer parte de uma aplicação, a árvore irá mostrar todo o conteúdo da aplicação: secções, ligações e todos os relatórios e dashboards. Se o item que estiver a ver for um relatório, encontrará também uma lista de todas as páginas de relatório visíveis. Nunca foi tão fácil ir de uma página para a outra! Veja por si mesmo! 
+Agora, pode navegar nos seus conteúdos de forma rápida e fácil com uma **nova árvore de navegação** , disponível no menu pendente do cabeçalho nos relatórios, dashboards e aplicações. Verá a hierarquia de localização dos seus conteúdos de relance, e pode facilmente subir na hierarquia de conteúdos, aceder a conteúdos colaterais ou até voltar rapidamente à home page. Se o item que estiver a ver fizer parte de uma aplicação, a árvore irá mostrar todo o conteúdo da aplicação: secções, ligações e todos os relatórios e dashboards. Se o item que estiver a ver for um relatório, encontrará também uma lista de todas as páginas de relatório visíveis. Nunca foi tão fácil ir de uma página para a outra! Veja por si mesmo! 
 
 ![Captura de ecrã da árvore de navegação na aplicação móvel Power BI.](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-nav-tree1.png)
 
@@ -119,8 +133,8 @@ As anotações criadas durante as apresentações tornam-se uma parte importante
 ### <a name="docked-report-footer-and-a-refresh-button---new-experiences-for-interacting-with-reports-android"></a>Rodapé de relatório ancorado e um botão de atualização: novas experiências de interação com relatórios (Android)
 
 Os nossos utilizadores de Android disseram-nos que a sua experiência na utilização de relatórios não era a melhor, que era difícil utilizar o rodapé dos relatórios e que a funcionalidade de puxar para atualizar é demasiado sensível em alguns dispositivos. Por isso, mudámos estes comportamentos nesta versão:
-* **Rodapé de relatório ancorado**: agora, quando abrir um relatório no telemóvel, encontrará o rodapé do relatório ancorado na parte inferior da página do relatório, onde ficará sempre visível e disponível, sejam quais forem as suas ações na página. Isto facilita a utilização de todas as opções disponíveis.
-* **Botão de atualização no cabeçalho do relatório**: encontrará também um botão de atualização no cabeçalho do relatório, para que seja fácil atualizar o relatório exatamente quando quiser.
+* **Rodapé de relatório ancorado** : agora, quando abrir um relatório no telemóvel, encontrará o rodapé do relatório ancorado na parte inferior da página do relatório, onde ficará sempre visível e disponível, sejam quais forem as suas ações na página. Isto facilita a utilização de todas as opções disponíveis.
+* **Botão de atualização no cabeçalho do relatório** : encontrará também um botão de atualização no cabeçalho do relatório, para que seja fácil atualizar o relatório exatamente quando quiser.
 
 Os utilizadores que preferirem o comportamento anterior podem restaurar estes comportamentos com as novas e expandidas [definições de interação](./mobile-app-interaction-settings.md) da aplicação móvel.
 
@@ -451,7 +465,7 @@ Ao tocar sem soltar no elemento visual de um relatório para aceder a descriçõ
 
 #### <a name="report-favorites"></a>Relatórios favoritos
 
-Atribua etiquetas de favoritos a relatórios para serem apresentados na página **Favoritos**. Saiba mais sobre os [favoritos nas aplicações móveis do Power BI](mobile-apps-favorites.md).
+Atribua etiquetas de favoritos a relatórios para serem apresentados na página **Favoritos** . Saiba mais sobre os [favoritos nas aplicações móveis do Power BI](mobile-apps-favorites.md).
 
 #### <a name="view-shared-reports"></a>Ver relatórios partilhados
 
@@ -477,7 +491,7 @@ Foram feitas algumas alterações que permitem a gestão mais precisa das permis
 
 #### <a name="auto-installed-apps"></a>Aplicações instaladas automaticamente
 
-Não precisa de instalar algumas das aplicações no Power BI. Os criadores de aplicações do Power BI na sua organização podem criar *aplicações* que contenham uma coleção de dashboards e relatórios. Em seguida, podem publicar a aplicação e configurá-la para ser instalada automaticamente no serviço Power BI e nas aplicações móveis do Power BI. Quando uma aplicação está configurada para ser instalada automaticamente, aparece no seu menu **Aplicações**:
+Não precisa de instalar algumas das aplicações no Power BI. Os criadores de aplicações do Power BI na sua organização podem criar *aplicações* que contenham uma coleção de dashboards e relatórios. Em seguida, podem publicar a aplicação e configurá-la para ser instalada automaticamente no serviço Power BI e nas aplicações móveis do Power BI. Quando uma aplicação está configurada para ser instalada automaticamente, aparece no seu menu **Aplicações** :
 
 ![Aplicações na aplicação móvel do Power BI](./media/mobile-whats-new-in-the-mobile-apps/power-bi-apps-mobile-apps.png)
 
@@ -510,7 +524,7 @@ Leia o [resumo de funcionalidades para aplicações móveis publicado em julho d
 **Nova experiência de Perguntas e Respostas em dispositivos iOS (pré-visualização)** Em vez de apenas receber uma resposta à sua pergunta, agora pode utilizar linguagem natural para obter informações com âmbito definido. Mesmo se não tiver a certeza do que procura, as Perguntas e Respostas analisam proativamente as informações relevantes para os seus dados. A nova experiência de Perguntas e Respostas em dispositivos móveis, desenvolvida em colaboração com a equipa do Microsoft Research, demonstra poderosas tecnologias do nosso produto. Consulte o tutorial [Fazer perguntas sobre os seus dados nas aplicações móveis iOS](mobile-apps-ios-qna.md).
 
 ### <a name="responsive-visuals"></a>Elementos visuais reativos
-**Elemento visual reativo para relatórios e dashboards de telemóvel** Pode definir os elementos visuais no seu dashboard ou relatório para que sejam *reativos*, para que sejam alterados dinamicamente para apresentarem a quantidade máxima de dados e informações, independentemente do tamanho do ecrã. Leia o [blogue sobre elementos visuais reativos](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals).
+**Elemento visual reativo para relatórios e dashboards de telemóvel** Pode definir os elementos visuais no seu dashboard ou relatório para que sejam *reativos* , para que sejam alterados dinamicamente para apresentarem a quantidade máxima de dados e informações, independentemente do tamanho do ecrã. Leia o [blogue sobre elementos visuais reativos](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals).
 
 ### <a name="june-2107"></a>Junho de 2107
 #### <a name="all-devices"></a>Todos os dispositivos
@@ -756,10 +770,10 @@ O centro de notificações da sua aplicação móvel do Power BI mostra novos da
 
 ### <a name="may-2016"></a>Maio de 2016
 #### <a name="ios-devices-and-android-phones"></a>Dispositivos iOS e telemóveis Android
-* Os **códigos QR** estão agora também disponíveis **para relatórios**. Digitalize o código com a sua aplicação do Power BI para ir diretamente para um relatório relacionado, sem necessidade de qualquer navegação ou pesquisa.
+* Os **códigos QR** estão agora também disponíveis **para relatórios** . Digitalize o código com a sua aplicação do Power BI para ir diretamente para um relatório relacionado, sem necessidade de qualquer navegação ou pesquisa.
 * **Melhoria da gestão de dados** para o SQL Server 2016 Reporting Services: Tempos de carregamento e consumo de dados reduzidos no seu dispositivo.
-* **Relatórios móveis com temas do SQL Server 2016**: Veja temas para relatórios móveis no seu dispositivo.
-* **Filtro geográfico**: filtre os relatórios pela sua localização atual.
+* **Relatórios móveis com temas do SQL Server 2016** : Veja temas para relatórios móveis no seu dispositivo.
+* **Filtro geográfico** : filtre os relatórios pela sua localização atual.
 
 ### <a name="april-2016"></a>Abril de 2016
 Consulte o [blogue sobre Aplicações do Power BI Mobile publicado em abril](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/) para obter mais detalhes.
@@ -768,13 +782,13 @@ Consulte o [blogue sobre Aplicações do Power BI Mobile publicado em abril](htt
 * Selecione mais do que uma opção numa segmentação de dados de relatório.
 
 #### <a name="android-mobile-app"></a>Aplicação móvel para Android
-* **SQL Server 2016 [Relatórios móveis do Reporting Services ](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)** agora disponíveis em telemóveis Android.
+* **SQL Server 2016 [Relatórios móveis do Reporting Services](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)** agora disponíveis em telemóveis Android.
 * **Galeria de relatórios** Abra os seus relatórios diretamente na galeria de relatórios.
 * Suporte de **autenticação NTLM** para relatórios móveis no SQL Server 2016 Reporting Services.
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>Aplicação Power BI para dispositivos Windows 10
 * **Modo de apresentação** Apresente dashboards e relatórios do Power BI no modo de apresentação, a partir da aplicação do Power BI.
-* **SQL Server 2016 [Relatórios móveis do Reporting Services ](mobile-app-windows-10-ssrs-kpis-mobile-reports.md)** agora disponíveis em dispositivos Windows 10.
+* **SQL Server 2016 [Relatórios móveis do Reporting Services](mobile-app-windows-10-ssrs-kpis-mobile-reports.md)** agora disponíveis em dispositivos Windows 10.
 * Veja as **descrições de dados** ao pairar o ponteiro do rato sobre um mosaico de dashboard.
 
 ### <a name="march-2016"></a>Março de 2016

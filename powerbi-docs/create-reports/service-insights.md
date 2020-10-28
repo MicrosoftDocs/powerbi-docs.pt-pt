@@ -1,5 +1,5 @@
 ---
-title: Gerar informações de dados automaticamente com o Power BI
+title: Gerar informações de dados automaticamente no seu conjunto de dados
 description: Saiba como obter informações sobre os conjuntos de dados e os mosaicos do dashboard.
 author: maggiesMSFT
 ms.reviewer: ''
@@ -8,36 +8,36 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 08/06/2019
+ms.date: 09/28/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5523c08b81a129bab70f1c087e8895dedf83621f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 79148389a697feb2a3d2e2cba0b919eb59632ff7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221098"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524472"
 ---
-# <a name="generate-data-insights-automatically-with-power-bi"></a>Gerar informações de dados automaticamente com o Power BI
-Tem um novo conjunto de dados e não sabe exatamente por onde começar?  Precisa criar um dashboard rapidamente?  Deseja procurar informações que pode ter perdido?
+# <a name="generate-data-insights-on-your-dataset-automatically-with-power-bi"></a>Gerar informações de dados automaticamente no seu conjunto de dados com o Power BI
+Tem um novo conjunto de dados e não sabe bem por onde começar?  Precisa criar um dashboard rapidamente?  Deseja procurar informações que pode ter perdido?
 
-Execute as informações rápidas para gerar visualizações interativas e interessantes com base nos seus dados. As informações rápidas podem ser executadas num conjunto de dados inteiro (informações rápidas) ou num mosaico específico do dashboard (informações de confinadas). Pode até executar informações numa informação!
+Execute as informações rápidas para gerar visualizações interessantes com base nos seus dados. Este artigo explica como executar informações rápidas num conjunto de dados completo (informações rápidas). Também pode executar [informações rápidas num mosaico específico do dashboard](../consumer/end-user-insights.md) (informações confinadas). Pode até executar informações numa informação!
 
 > [!NOTE]
 > As informações não são compatíveis com o DirectQuery. Só funcionam com dados carregados para o Power BI.
 > 
 
-A funcionalidade de informações é criada com base num [conjunto de algoritmos de análise avançados](../consumer/end-user-insight-types.md) crescente, desenvolvido em conjunto com o Microsoft Research, que continuaremos a utilizar para permitir que mais pessoas descubram informações nos dados de formas novas e intuitivas.
+Criamos a caraterística informações num [conjunto crescente de algoritmos analíticos avançados](../consumer/end-user-insight-types.md) que desenvolvemos com o Microsoft Research. Continuamos a usar estes algoritmos para ajudar mais pessoas a encontrar informações sobre os respetivos dados de formas novas e intuitivas. Também pode ter interesse em aprender a [otimizar os seus dados para as informações rápidas](service-insights-optimize.md).
 
 ## <a name="run-quick-insights-on-a-dataset"></a>Executar as informações rápidas num conjunto de dados
-Veja a Amanda a executar as informações rápidas num conjunto de dados, a abrir uma informação no Modo de detalhe, a afixar uma dessas informações como mosaico no dashboard dela e, em seguida, a obter as informações para um mosaico do dashboard.
+Veja Amanda executar informações rápidas num conjunto de dados e abrir informações no Modo de detalhe. Amanda fixa uma informação como um mosaico no dashboard e, em seguida, obtém informações para um mosaico do dashboard.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/et_MLSL2sA8" frameborder="0" allowfullscreen></iframe>
 
 
 Agora, é a sua vez. Explore as informações através do [exemplo de Análise de Qualidade do Fornecedor](sample-supplier-quality.md).
 
-1. No separador **Conjuntos de dados**, selecione **Mais opções** (...) e selecione **Obter informações rápidas**.
+1. No separador **Conjuntos de dados** , selecione **Mais opções** (...) e selecione **Obter informações rápidas** .
    
     ![Separador Conjuntos de Dados](media/service-insights/power-bi-ellipses.png)
    
@@ -61,7 +61,7 @@ Agora, é a sua vez. Explore as informações através do [exemplo de Análise d
 
 1. Passe o cursor sobre um cartão e selecione o ícone do pino para adicionar a visualização a um dashboard.
 
-2. Coloque o cursor sobre um cartão, selecione **Mais opções** (…) e, em seguida, selecione **Ver informações**. 
+2. Coloque o cursor sobre um cartão, selecione **Mais opções** (…) e, em seguida, selecione **Ver informações** . 
 
     É aberto o ecrã de informações em Modo de detalhe.
    
@@ -71,27 +71,17 @@ Agora, é a sua vez. Explore as informações através do [exemplo de Análise d
    * Filtrar as visualizações. Se o painel **Filtros** ainda não estiver aberto, expanda-o ao selecionar a seta no lado direito da janela.
 
        ![Menu Filtros de Informações expandido](media/service-insights/power-bi-insights-filter-new.png)
-   * Afixe o cartão de informações a um dashboard ao selecionar **Afixar visual**.
-   * Execute informações no próprio cartão, normalmente conhecido como *informações com âmbito*. No canto superior direito, selecione o ícone da lâmpada ![ícone Obter Informações](media/service-insights/power-bi-bulb-icon.png) ou **Obter Informações**.
+   * Afixar o cartão de informações a um dashboard ao selecionar **Afixar elemento visual** .
+   * Execute informações no próprio cartão, normalmente conhecido como *informações com âmbito* . No canto superior direito, selecione o ícone da lâmpada ![ícone Obter Informações](media/service-insights/power-bi-bulb-icon.png) ou **Obter Informações** .
      
        ![Ícone Obter Informações](media/service-insights/pbi-autoinsights-tile.png)
      
-     A informação é apresentada à esquerda e os cartões novos, com base apenas nos dados dessa informação, são apresentados à direita.
+     A informação é apresentada à esquerda. Os cartões novos, com base apenas nos dados dessa informação, são apresentados à direita.
      
        ![Informações sobre informações](media/service-insights/power-bi-insights-on-insights-new.png)
-4. Para voltar à tela original das informações, no canto superior direito, selecione **Sair do Modo de detalhe**.
+4. Para voltar à tela original das informações, no canto superior direito, selecione **Sair do Modo de detalhe** .
 
-## <a name="run-insights-on-a-dashboard-tile"></a>Executar as informações num mosaico do dashboard
-Em vez de procurar informações em todo um conjunto de dados, filtre a sua pesquisa de forma a obter informações apenas dos dados que são utilizados para criar um único mosaico de dashboard. 
-
-1. Abra um dashboard.
-2. Coloque o cursor sobre um mosaico, selecione **Mais opções** (...) e, em seguida, selecione **Ver informações**. O mosaico abre-se no [Modo de detalhe](../consumer/end-user-focus.md) com os cartões de informações apresentados no lado direito.    
-   
-    ![Modo de detalhe](media/service-insights/pbi-insights-tile.png)    
-3. Há alguma informação que desperte o seu interesse? Selecione esse cartão de informação para investigar melhor. A informação selecionada é apresentada à esquerda e os cartões de informações novos, com base apenas nos dados dessa informação, são apresentados à direita.    
-4. Continue a investigar os dados e, quando encontrar uma informação interessante, afixe-o ao dashboard ao selecionar **Afixar visual** no canto superior direito.
-
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 - Se é proprietário de um conjunto de dados, [otimize-o para as Informações Rápidas](service-insights-optimize.md).
 - Saiba mais sobre os [tipos de Informações Rápidas disponíveis](../consumer/end-user-insight-types.md).
 
