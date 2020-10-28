@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: e0bdb5174c1392e1a2f81a101a62798f82e2b191
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 5df13baf295745f86c89ce75d2890ca2c13894ee
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747718"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049344"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Tutorial: Build a funnel plot from R script to R visual (Criar um gráfico de funil ao transformar um script do R num visual do R)
 Este artigo descreve como criar um gráfico de funil com o script do R no elemento visual do R, passo a passo.
@@ -42,14 +42,14 @@ Neste exemplo, o gráfico de funil serve para comparar e analisar os dados de di
 
 ## <a name="build-a-report"></a>Criar um relatório
 
-Em seguida, edite o script de forma a espelhar [este script](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter2_Rvisual/script_RV_v2_00.r). Isto carrega o ficheiro *dataset.csv* em vez do *read.csv* na área de trabalho do Power BI Desktop e cria uma tabela de **Mortalidade do Cancro**. Veja os resultados no seguinte [ficheiro PBIX](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter2_Rvisual/funnelPlot_Rvisual.pbix).
+Em seguida, edite o script de forma a espelhar [este script](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter2_Rvisual/script_RV_v2_00.r). Isto carrega o ficheiro *dataset.csv* em vez do *read.csv* na área de trabalho do Power BI Desktop e cria uma tabela de **Mortalidade do Cancro** . Veja os resultados no seguinte [ficheiro PBIX](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter2_Rvisual/funnelPlot_Rvisual.pbix).
 
 > [!NOTE]
 > O `dataset` é um nome hard-coded para a entrada `data.frame` de qualquer elemento visual do R. 
 
 ## <a name="create-an-r-powered-visual-and-package-in-r-code"></a>Criar um elemento visual e pacote baseados em R em código R
 
-1. Antes de começar, certifique-se de que [instala as ferramentas PBIVIZ](./custom-visual-develop-tutorial.md#installing-packages).
+1. Antes de começar, certifique-se de que [instala as ferramentas PBIVIZ](./environment-setup.md#install-pbiviz).
 
 1. Execute o seguinte comando para criar um novo elemento visual baseado em R:
 
@@ -60,7 +60,7 @@ Em seguida, edite o script de forma a espelhar [este script](https://github.com/
    pbiviz package
    ```
 
-   Este comando cria a pasta *funnel-visual* com o elemento visual de modelo inicial (`-t` para **modelo**). O PBIVIZ encontra-se na pasta *dist*, o código do R dentro do ficheiro *script.r*. Experimente importá-lo para o Power BI e veja o que acontece.
+   Este comando cria a pasta *funnel-visual* com o elemento visual de modelo inicial (`-t` para **modelo** ). O PBIVIZ encontra-se na pasta *dist* , o código do R dentro do ficheiro *script.r* . Experimente importá-lo para o Power BI e veja o que acontece.
 
 1. Edite o ficheiro *script.r* e substitua o conteúdo pelo script anterior.
 
@@ -181,7 +181,7 @@ Uma vez que o elemento visual resultante é baseado em PNG, não é reativo à p
 
 1. Abra o ficheiro *script.r* e anote a estrutura. Pode abrir e executá-lo no RStudio, pois não utiliza dados externos. 
 
-   Isto cria e guarda o ficheiro *out.html*. Este ficheiro é autónomo (sem dependências externas) e define os gráficos dentro do widget HTML. 
+   Isto cria e guarda o ficheiro *out.html* . Este ficheiro é autónomo (sem dependências externas) e define os gráficos dentro do widget HTML. 
 
    > [!IMPORTANT]
    > Para utilizadores `htmlWidgets`, os utilitários do R são fornecidos na [pasta r_files](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/r_files) para ajudar a converter objetos `plotly` ou objetos `widget` no HTML autónomo. 
@@ -198,7 +198,7 @@ Uma vez que o elemento visual resultante é baseado em PNG, não é reativo à p
 
    O novo script utiliza o pacote `plotly` para converter o objeto **ggplot** em objeto **plotly** e, em seguida, o pacote `htmlWidgets` para o guardar num ficheiro HTML. 
 
-   A maioria das funções utilitárias é movida para [_r_files/utils.r_](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/r_files/utils.r) e a função `generateNiceTooltips` é adicionada ao aspeto do objeto **plotly**.
+   A maioria das funções utilitárias é movida para [_r_files/utils.r_](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/r_files/utils.r) e a função `generateNiceTooltips` é adicionada ao aspeto do objeto **plotly** .
 
    ![1](./samples/funnel-plot/chapter-4/RHTML-v01/script-before-after-1.PNG)
    
@@ -245,7 +245,7 @@ Uma vez que o elemento visual resultante é baseado em PNG, não é reativo à p
 
 ## <a name="tips-and-tricks"></a>Sugestões e truques
 
-* Recomendamos que os programadores editem o ficheiro *pbiviz.json* para armazenar os metadados corretos, como **versão**, **e-mail**, **nome**, **tipo de licença**, etc.
+* Recomendamos que os programadores editem o ficheiro *pbiviz.json* para armazenar os metadados corretos, como **versão** , **e-mail** , **nome** , **tipo de licença** , etc.
 
    > [!IMPORTANT]
    > O campo **guid** é o identificador exclusivo de um elemento visual. Se criar um novo projeto para cada elemento visual, o GUID também será diferente. Só é igual quando se utiliza um projeto antigo copiado para um novo elemento visual, algo que não deve fazer.
@@ -274,21 +274,21 @@ Uma vez que o elemento visual resultante é baseado em PNG, não é reativo à p
 
 * Cada elemento visual do R aplica o operador `unique` à sua tabela de entrada. Para evitar a remoção de linhas idênticas, considere adicionar um campo de entrada extra com um ID exclusivo e ignore-o no código do R.   
 
-* Se tiver uma conta do Power BI, utilize o serviço Power BI para desenvolver um elemento visual [no momento](./custom-visual-develop-tutorial.md) em vez de o reempacotar com o comando `pbiviz package`.
+* Se tiver uma conta do Power BI, utilize o serviço Power BI para desenvolver um elemento visual [no momento](./develop-circle-card.md) em vez de o reempacotar com o comando `pbiviz package`.
 
 ### <a name="html-widgets-gallery"></a>Galeria de widgets HTML
 Explore elementos visuais na [galeria de widgets HTML](http://gallery.htmlwidgets.org/) para utilizar no seu próximo elemento visual. Para facilitar, criámos um [repositório de projetos de elementos visuais](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) com mais de 20 elementos visuais HTML interativos à escolha!
 
 > [!TIP]
-> Para mudar entre widgets html, utilize **Formatar** > **Definições** > **Tipo**. Experimente com [este ficheiro PBIX](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML/assets/sample.pbix). 
+> Para mudar entre widgets html, utilize **Formatar** > **Definições** > **Tipo** . Experimente com [este ficheiro PBIX](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML/assets/sample.pbix). 
 
 #### <a name="to-use-a-sample-for-your-visual"></a>Para utilizar um exemplo para o seu elemento visual
 
 1. Transfira toda a pasta.
 1. Edite os ficheiros *script.r* e *dependencies.json* para manter apenas um widget.
 1. Edite os ficheiros *capabilities.json* e *settings.ts* para remover o seletor `Type`.
-1. Altere `const updateHTMLHead: boolean = true;` para `false` no ficheiro *visual.ts*. *(para melhor desempenho)*
-1. Altere os metadados no ficheiro *pbiviz.json*, sendo o campo `guid` o mais importante.
+1. Altere `const updateHTMLHead: boolean = true;` para `false` no ficheiro *visual.ts* . *(para melhor desempenho)*
+1. Altere os metadados no ficheiro *pbiviz.json* , sendo o campo `guid` o mais importante.
 1. Reempacote e continue a personalizar o elemento visual conforme pretendido. 
 
 ![Captura de ecrã a mostrar seis widgets mencionados anteriormente neste artigo.](./media/funnel-plot/diagram-four.PNG)
@@ -300,6 +300,6 @@ Explore elementos visuais na [galeria de widgets HTML](http://gallery.htmlwidget
 
 ## <a name="next-steps"></a>Próximos passos
 
-Para saber mais, veja mais tutoriais em [elementos visuais do Power BI](./custom-visual-develop-tutorial.md) e [elementos visuais do R](../../visuals/service-r-visuals.md).
+Para saber mais, consulte tutoriais adicionais do Power BI, [Desenvolver um elemento visual do cartão circular do Power BI](./develop-circle-card.md) e [elementos visuais R](../../visuals/service-r-visuals.md).
 
 Saiba como [desenvolver e submeter elementos visuais](https://powerbi.microsoft.com/documentation/powerbi-developer-office-store/) para a [Loja Office (galeria)](https://store.office.com/appshome.aspx?ui=en-US&rs=en-US&ad=US&clickedfilter=OfficeProductFilter%3aPowerBI&productgroup=PowerBI) ou, para ver mais exemplos, veja a [demonstração de scripts do R](https://community.powerbi.com/t5/R-Script-Showcase/bd-p/RVisuals)

@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 7c90093fefb98c6b385328e8dd207760e3207cbf
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 32fb26faa42f0ce6128a4a4cc0e491f78f270d36
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746223"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91982200"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Análise incorporada com o Power BI
 
@@ -63,7 +63,7 @@ Pode utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/
 
 ## <a name="embedding-for-your-customers"></a>Incorporar para os seus clientes
 
-A solução **Incorporar para os seus clientes** permite-lhe incorporar dashboards e relatórios para utilizadores que não têm uma conta do Power BI. Este tipo de incorporação também é conhecido como *Power BI Embedded*.
+A solução **Incorporar para os seus clientes** permite-lhe incorporar dashboards e relatórios para utilizadores que não têm uma conta do Power BI. Este tipo de incorporação também é conhecido como *Power BI Embedded* .
 
 O [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) é um serviço do **Microsoft Azure** que permite que os fabricantes independentes de software (ISVs) e programadores incorporem rapidamente elementos visuais, relatórios e dashboards numa aplicação. Esta incorporação é feita através de um modelo baseado em capacidades e com taxa de utilização por hora.
 
@@ -77,14 +77,14 @@ Com o Power BI Embedded, os seus clientes não precisam de ter conhecimentos sob
 
 A conta do Power BI Pro atua como a conta principal da sua aplicação (é como se fosse uma conta proxy). Esta conta permite-lhe gerar tokens de incorporação que fornecem acesso aos dashboards e relatórios do Power BI da sua aplicação.
 
-O [principal de serviço](embed-service-principal.md) pode incorporar conteúdos do Power BI numa aplicação através de um token **só para aplicações**. Também lhe permite gerar tokens de incorporação que fornecem acesso aos dashboards e relatórios do Power BI da sua aplicação.
+O [principal de serviço](embed-service-principal.md) pode incorporar conteúdos do Power BI numa aplicação através de um token **só para aplicações** . Também lhe permite gerar tokens de incorporação que fornecem acesso aos dashboards e relatórios do Power BI da sua aplicação.
 
 Os programadores que utilizam o Power BI Embedded podem ter tempo para se focar na criação da principal funcionalidade da sua aplicação, em vez de gastar tempo com a programação de elementos visuais e análises. Também podem satisfazer rapidamente as necessidades relativas a dashboards e relatórios dos clientes e incorporar facilmente com APIs e SDKs totalmente documentados. Ao ativar a exploração de dados de fácil navegação nas aplicações, os ISVs permitem que os clientes tomem decisões rápidas e baseadas em dados de acordo com o contexto a partir de qualquer dispositivo.
 
 > [!IMPORTANT]
-> Embora o serviço Power BI seja necessário para a incorporação, os seus clientes não precisam de ter uma conta do Power BI para ver os conteúdos incorporados da sua aplicação. 
+> Embora o serviço Power BI seja necessário para a incorporação, os seus clientes não precisam de ter uma conta do Power BI para ver os conteúdos incorporados da sua aplicação.
 
-Quando estiver pronto para passar à produção, terá de ser atribuída uma capacidade dedicada à sua área de trabalho. O Power BI Embedded, no Microsoft Azure, disponibiliza [capacidades dedicadas](azure-pbie-create-capacity.md) para as suas aplicações.
+Quando tiver tudo pronto para passar à produção, terá de ser atribuída uma capacidade à área de trabalho. [Crie uma capacidade do Power BI Embedded](azure-pbie-create-capacity.md) no Microsoft Azure para utilizar com as aplicações.
 
 Para obter informações sobre a incorporação, veja [Como incorporar conteúdos do Power BI](embed-sample-for-customers.md).
 

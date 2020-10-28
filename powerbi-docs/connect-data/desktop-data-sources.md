@@ -6,30 +6,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 09/22/2020
+ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56825599a6b566a93f18e6fea16d995dc8bdda8f
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: 8565f6ef18192110688d01127129dcc19919cb0f
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020050"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256667"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origens de dados no Power BI Desktop
 
 O Power BI Desktop permite ligar-se a dados de várias origens diferentes. Para obter uma lista completa de origens de dados, veja [Origens de dados do Power BI](power-bi-data-sources.md).
 
-Liga-se aos dados através do friso **Página Inicial**. Para ver o menu de tipos de dados **Mais Comuns**, selecione a etiqueta do botão **Obter Dados** ou a seta para baixo.
+Liga-se aos dados através do friso **Página Inicial** . Para ver o menu de tipos de dados **Mais Comuns** , selecione a etiqueta do botão **Obter Dados** ou a seta para baixo.
 
 ![Menu de tipos de dados Mais Comuns, Obter Dados no Power BI Desktop](media/desktop-data-sources/data-sources-01.png)
 
-Para aceder à caixa de diálogo **Obter Dados**, expanda o menu de tipos de dados **Mais Comuns** e selecione **Mais**. Também pode abrir a caixa de diálogo **Obter Dados** (e ignorar o menu **Mais Comuns**) ao selecionar o ícone **Obter Dados** diretamente.
+Para aceder à caixa de diálogo **Obter Dados** , expanda o menu de tipos de dados **Mais Comuns** e selecione **Mais** . Também pode abrir a caixa de diálogo **Obter Dados** (e ignorar o menu **Mais Comuns** ) ao selecionar o ícone **Obter Dados** diretamente.
 
 ![Botão Obter Dados, Power BI Desktop](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> A equipa do Power BI está continuamente a expandir as origens de dados disponíveis para o Power BI Desktop e o serviço Power BI. Como tal, verá frequentemente versões anteriores de origens de dados em construção marcadas como **Beta** ou **Pré-visualização**. As origens de dados marcadas como **Beta** ou **Pré-visualização** têm suporte e funcionamento limitados, pelo que não devem ser utilizadas em ambientes de produção. Além disso, as origens de dados marcadas como **Beta** ou **Pré-visualização** para o Power BI Desktop podem não estar disponíveis para utilização no serviço Power BI ou noutros serviços da Microsoft, até que fiquem disponíveis para o público.
+> A equipa do Power BI está continuamente a expandir as origens de dados disponíveis para o Power BI Desktop e o serviço Power BI. Como tal, verá frequentemente versões anteriores de origens de dados em construção marcadas como **Beta** ou **Pré-visualização** . As origens de dados marcadas como **Beta** ou **Pré-visualização** têm suporte e funcionamento limitados, pelo que não devem ser utilizadas em ambientes de produção. Além disso, as origens de dados marcadas como **Beta** ou **Pré-visualização** para o Power BI Desktop podem não estar disponíveis para utilização no serviço Power BI ou noutros serviços da Microsoft, até que fiquem disponíveis para o público.
 
 > [!NOTE]
 > Existem muitos conectores de dados para o Power BI Desktop que requerem o Internet Explorer 10 (ou mais recente) para autenticação. 
@@ -61,7 +61,7 @@ A categoria **Ficheiro** fornece as seguintes ligações de dados:
 * PDF
 * Pasta do SharePoint
 
-A imagem seguinte mostra a janela **Obter Dados** para **Ficheiro**.
+A imagem seguinte mostra a janela **Obter Dados** para **Ficheiro** .
 
 ![Origens de dados de ficheiros, caixa de diálogo Obter Dados, Power BI Desktop](media/desktop-data-sources/data-sources-03.png)
 
@@ -104,9 +104,9 @@ A categoria **Base de dados** fornece as seguintes ligações de dados:
 * MariaDB (Beta)
 
 > [!NOTE]
-> Alguns conectores de base de dados requerem que os ative ao selecionar **Ficheiro > Opções e definições > Opções** e, em seguida, selecionar **Funcionalidades de Pré-visualização** e ativar o conector. Se não vir alguns dos conectores mencionados acima e pretender utilizá-los, consulte as suas definições de **Funcionalidades de Pré-visualização**. Note também que qualquer origem de dados marcada como *Beta* ou *Pré-visualização* tem suporte e funcionamento limitados, não devendo ser utilizada em ambientes de produção.
+> Alguns conectores de base de dados requerem que os ative ao selecionar **Ficheiro > Opções e definições > Opções** e, em seguida, selecionar **Funcionalidades de Pré-visualização** e ativar o conector. Se não vir alguns dos conectores mencionados acima e pretender utilizá-los, consulte as suas definições de **Funcionalidades de Pré-visualização** . Note também que qualquer origem de dados marcada como *Beta* ou *Pré-visualização* tem suporte e funcionamento limitados, não devendo ser utilizada em ambientes de produção.
 
-A imagem a seguir mostra a janela **Obter Dados** para **Base de dados**.
+A imagem a seguir mostra a janela **Obter Dados** para **Base de dados** .
 
 ![Origens de dados de bases de dados, caixa de diálogo Obter Dados, Power BI Desktop](media/desktop-data-sources/data-sources-04.png)
 
@@ -119,7 +119,7 @@ A categoria do **Power Platform** fornece as seguintes ligações de dados:
 * Common Data Service
 * Fluxos de dados do Power Platform (Beta)
 
-A seguinte imagem mostra a janela **Obter Dados** para o **Power Platform**.
+A seguinte imagem mostra a janela **Obter Dados** para o **Power Platform** .
 
 ![Origens de dados do Power Platform, caixa de diálogo Obter Dados, Power BI Desktop](media/desktop-data-sources/data-sources-05.png)
 
@@ -145,7 +145,7 @@ A categoria **Azure** fornece as seguintes ligações de dados:
 * Azure Databricks
 
 
-A imagem a seguir mostra a janela **Obter Dados** para **Azure**.
+A imagem a seguir mostra a janela **Obter Dados** para **Azure** .
 
 ![Origens de dados do Azure, caixa de diálogo Obter Dados, Power BI Desktop](media/desktop-data-sources/data-sources-06.png)
 
@@ -185,22 +185,24 @@ A categoria **Serviços Online** fornece as seguintes ligações de dados:
 * Origem de Dados Emigo
 * Entersoft Business Suite (Beta)
 * FactSet Analytics
-* Palantir Foundry
-* Industrial App Store
+* Hexagon PPM Smart API
 * Intune Data Warehouse (Beta)
 * Segurança do Microsoft Graph (Beta)
-* Projectplace para o Power BI (Beta)
 * Product Insights (Beta)
 * Quick Base
 * TeamDesk (Beta)
 * Webtrends Analytics (Beta)
 * Witivio (Beta)
-* Zoho Creator (Beta)
 * Informações sobre Tendências Empresariais (Beta)
-* Hexagon PPM Smart API
+* Zoho Creator (Beta)
+* Palantir Foundry
+* Industrial App Store
+* Projectplace para o Power BI
+* eWay-CRM (Beta)
+* Spigit (Beta)
 
 
-A imagem a seguir mostra a janela **Obter Dados** para **Serviços Online**.
+A imagem a seguir mostra a janela **Obter Dados** para **Serviços Online** .
 
 ![Origens de dados dos Serviços Online, caixa de diálogo Obter Dados, Power BI Desktop](media/desktop-data-sources/data-sources-07.png)
 
@@ -238,22 +240,30 @@ A categoria **Outros** fornece as seguintes ligações de dados:
 * Tenforce (Smart)List
 * TIBCO(R) Data Virtualization (Beta)
 * Vena (Beta)
-* Zucchetti HR Infinity (Beta)
 * Vessel Insight (Beta)
+* Zucchetti HR Infinity (Beta)
 * Consulta em Branco
 
 
 
-A imagem a seguir mostra a janela **Obter Dados** para **Outros**.
+A imagem a seguir mostra a janela **Obter Dados** para **Outros** .
 
-![Outras origens de dados, caixa de diálogo Obter Dados, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
+![Outras origens de dados no Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > Atualmente, não é possível ligar-se a origens de dados personalizadas protegidas através do Azure Active Directory.
 
+### <a name="template-apps"></a>Aplicações de modelo
+
+Pode encontrar aplicações de modelo para a organização ao selecionar a ligação **Aplicações de Modelo** junto à parte inferior da janela **Obter Dados** . 
+
+![Caixa de diálogo Obter Dados para Outras origens de dados no Power BI Desktop](media/desktop-data-sources/data-sources-12.png)
+
+As Aplicações de Modelo disponíveis podem variar com base na organização.
+
 ## <a name="connecting-to-a-data-source"></a>Ligar a uma origem de dados
 
-Para se ligar a uma origem de dados, selecione a origem de dados na janela **Obter Dados** e selecione **Ligar**. Na imagem que se segue, a opção **Web** é selecionada da categoria de ligação de dados **Outros**.
+Para se ligar a uma origem de dados, selecione a origem de dados na janela **Obter Dados** e selecione **Ligar** . Na imagem que se segue, a opção **Web** é selecionada da categoria de ligação de dados **Outros** .
 
 ![Ligar à Web, caixa de diálogo Obter Dados, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
@@ -261,11 +271,11 @@ Para se ligar a uma origem de dados, selecione a origem de dados na janela **Obt
 
 ![URL de entrada, caixa de diálogo Da Web, Power BI Desktop](media/desktop-data-sources/datasources-fromwebbox.png)
 
-Introduza o URL ou as informações de ligação do recurso e, em seguida, selecione **OK**. O Power BI Desktop estabelece a ligação à origem de dados e apresenta as origens de dados disponíveis no **Navegador**.
+Introduza o URL ou as informações de ligação do recurso e, em seguida, selecione **OK** . O Power BI Desktop estabelece a ligação à origem de dados e apresenta as origens de dados disponíveis no **Navegador** .
 
 ![Caixa de diálogo Navegador, Power BI Desktop](media/desktop-data-sources/datasources-fromnavigatordialog.png)
 
-Para carregar os dados, selecione o botão **Carregar** na parte inferior do painel **Navegador**. Para transformar ou editar a consulta no Editor do Power Query antes de carregar os dados, selecione o botão **Transformar Dados**.
+Para carregar os dados, selecione o botão **Carregar** na parte inferior do painel **Navegador** . Para transformar ou editar a consulta no Editor do Power Query antes de carregar os dados, selecione o botão **Transformar Dados** .
 
 E é tudo o que precisa de saber sobre ligar-se a origens de dados no Power BI Desktop! Experimente ligar-se a dados da nossa cada vez maior lista de origens de dados e consulte esta secção com frequência, pois estamos constantemente a expandir esta lista.
 
@@ -273,25 +283,43 @@ E é tudo o que precisa de saber sobre ligar-se a origens de dados no Power BI D
 
 Os ficheiros PBIDS são ficheiros do Power BI Desktop que possuem uma estrutura específica e têm uma extensão .PBIDS para os identificar como um ficheiro de origem de dados do Power BI.
 
-Pode criar um ficheiro PBIDS para simplificar a experiência de **Obter Dados** dos criadores de relatórios na sua organização. Para facilitar a utilização dos ficheiros PBIDS por parte de um novo autor de relatórios, recomendamos que um administrador crie estes ficheiros para ligações normalmente utilizadas.
+Pode criar um ficheiro PBIDS para simplificar a experiência de **Obter Dados** dos criadores de relatórios novos ou principiantes na sua organização. Se criar o ficheiro PBIDS a partir de relatórios existentes, será mais fácil para os autores de relatórios principiantes criarem novos relatórios a partir dos mesmos dados.
 
-Quando um autor abre um ficheiro PBIDS, o Power BI Desktop é aberto e solicita ao utilizador as credenciais para autenticar e ligar à origem de dados que é especificada no ficheiro. A caixa de diálogo **Navegação** é apresentada e o utilizador deve selecionar as tabelas dessa origem de dados a serem carregadas para o modelo. Os utilizadores também poderão ter de selecionar as bases de dados se não tiver sido especificada nenhuma no ficheiro PBIDS.
+Quando um autor abre um ficheiro PBIDS, o Power BI Desktop é aberto e solicita ao utilizador as credenciais para autenticar e ligar à origem de dados que é especificada no ficheiro. A caixa de diálogo **Navegação** é apresentada e o utilizador deve selecionar as tabelas dessa origem de dados a serem carregadas para o modelo. Os utilizadores também poderão ter de selecionar as bases de dados e o modo de ligação se não tiverem sido especificados no ficheiro PBIDS.
 
 Deste ponto em diante, o utilizador pode começar a criar visualizações ou selecionar **Origens Recentes** para carregar um novo conjunto de tabelas para o modelo.
 
 Atualmente, os ficheiros PBIDS só suportam uma única origem de dados num ficheiro. A especificação de mais do que uma origem de dados resulta num erro.
 
-Para criar o ficheiro PBIDS, um administrador deve especificar as entradas necessárias para uma única ligação. Também pode especificar o modo de ligação como DirectQuery ou Importação. Se o **modo** estiver em falta ou for nulo no ficheiro, será pedido ao utilizador que abra o ficheiro no Power BI Desktop para selecionar **DirectQuery** ou **Importação**.
+
+### <a name="how-to-create-a-pbids-connection-file"></a>Como criar um ficheiro de ligação PBIDS
+
+Se tiver um ficheiro Power BI Desktop (.PBIX) que já está ligado aos dados nos quais tem interesse, pode simplesmente exportar estes ficheiros de ligação a partir do Power BI Desktop. Este é o método recomendado, uma vez que o ficheiro PBIDS pode ser gerado automaticamente a partir do Desktop. Além disso, ainda pode editar ou criar manualmente o ficheiro num editor de texto. 
+
+Para criar o ficheiro PBIDS, selecione **Ficheiro > Opções e definições > Definições da origem de dados** :
+
+![A opção do menu das definições da origem de dados](media/desktop-data-sources/data-sources-09.png)
+
+Na caixa de diálogo apresentada, selecione a origem de dados que pretende exportar como um ficheiro PBIDS e, em seguida, selecione **Exportar PBIDS** .
+
+![Caixa de diálogo das definições da origem de dados](media/desktop-data-sources/data-sources-10.png)
+
+Quando seleciona o botão **Exportar PBIDS** , o Power BI Desktop gera o ficheiro PBIDS, que pode renomear, guardar no diretório e partilhar com outras pessoas. Também pode abrir o ficheiro num editor de texto e modificar o ficheiro ainda mais, incluindo a especificação do modo de ligação no próprio ficheiro, conforme mostrado na imagem a seguir. 
+
+![Utilizar um editor de texto para modificar o ficheiro PBIDS](media/desktop-data-sources/data-sources-11.png)
+
+Se preferir criar os ficheiros PBIDS manualmente num editor de texto, deve especificar as entradas necessárias para uma única ligação e guardar o ficheiro com a extensão PBIDS. Opcionalmente, também pode especificar o modo de ligação como DirectQuery ou Importação. Se o **modo** estiver em falta ou for nulo no ficheiro, será pedido ao utilizador que abra o ficheiro no Power BI Desktop para selecionar **DirectQuery** ou **Importação** .
+
 
 ### <a name="pbids-file-examples"></a>Exemplos de ficheiros PBIDS
 
-Esta seção fornece alguns exemplos de origens de dados utilizadas com frequência. O tipo de ficheiro PBIDS apenas suporta ligações de dados que também são suportadas no Power BI Desktop, com duas exceções: Live Connect e Consulta em Branco.
+Esta seção fornece alguns exemplos de origens de dados utilizadas com frequência. O tipo de ficheiro PBIDS apenas suporta ligações de dados que também são suportadas no Power BI Desktop, com as seguintes exceções: URLs do Wiki, Live Connect e Consulta em Branco.
 
 O ficheiro PBIDS *não* inclui informações de autenticação nem informações de tabela e de esquema.  
 
 Os fragmentos de código seguintes mostram vários exemplos comuns de ficheiros PBIDS, mas estes não estão completos nem são exaustivos. Para outras origens de dados, pode consultar o [formato de Referência da Origem de Dados (DSR) para as informações de protocolo e endereço](/azure/data-catalog/data-catalog-dsr#data-source-reference-specification).
 
-Estes exemplos são apenas para conveniência, não pretendem ser exaustivos nem incluem todos os conectores suportados no formato DSR. Os administradores ou organizações podem criar as suas próprias origens de dados ao utilizar estes exemplos como guias, a partir dos quais podem criar e suportar os seus próprios ficheiros de origem de dados.
+Se editar ou a criar manualmente os ficheiros de ligação, estes exemplos são apenas para conveniência, não pretendem ser exaustivos nem incluem todos os conectores suportados no formato DSR.
 
 #### <a name="azure-as"></a>Azure AS
 
@@ -487,7 +515,7 @@ O URL deve apontar para o site do SharePoint, não para uma lista no site. Os ut
 Pode fazer todo o tipo de coisas com o Power BI Desktop. Para obter mais informações sobre as suas capacidades, veja os seguintes recursos:
 
 * [O que é o Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
-* [Descrição geral das consultas no Power BI Desktop](../transform-model/desktop-query-overview.md)
+* [Descrição geral das Consultas no Power BI Desktop](../transform-model/desktop-query-overview.md)
 * [Tipos de dados no Power BI Desktop](desktop-data-types.md)
 * [Formatar e combinar dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Tarefas comuns de consulta no Power BI Desktop](../transform-model/desktop-common-query-tasks.md)

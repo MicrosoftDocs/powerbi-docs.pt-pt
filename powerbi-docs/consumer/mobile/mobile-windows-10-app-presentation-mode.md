@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 2a0c326902063759d10f49f3c5d745c22f477ec2
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: a47af4b96e80508a6ea21de2d8d3e0b40f907d8d
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634809"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92025939"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Ver relatórios e dashboards no modo de apresentação no Surface Hub e em dispositivos com o Windows 10
 Pode utilizar o modo de apresentação para ver relatórios e dashboards em ecrã inteiro em dispositivos com o Windows 10 e no Surface Hub. O modo de apresentação é útil para mostrar o Power BI em reuniões ou conferências, num projetor de escritório dedicado ou simplesmente para maximizar o espaço num ecrã pequeno.
@@ -56,13 +56,13 @@ Pode desancorar a barra de ferramentas e arrastá-la e largá-la em qualquer par
 
 ## <a name="slideshows"></a>Apresentações de diapositivos
 
-Pode reproduzir uma apresentação de diapositivos para percorrer automaticamente a apresentação. Pode definir a apresentação de diapositivos para percorrer páginas, marcadores ou páginas e marcadores.
+Pode reproduzir uma apresentação de diapositivos para percorrer automaticamente a apresentação. Pode definir a apresentação de diapositivos para percorrer páginas, marcadores ou páginas e marcadores. Durante a apresentação de diapositivos, as páginas do relatório com [atualização automática da página](../../create-reports/desktop-automatic-page-refresh.md) vão continuar a ser atualizadas automaticamente conforme configurado, o que garante que são sempre apresentados os dados mais atuais.
 
 Quando selecionar o botão **Reproduzir** na barra de ferramentas de ação, a apresentação de diapositivos será iniciada. Aparece um controlador que lhe permite colocar em pausa a apresentação de diapositivos ou alterar o que está a ser reproduzido: páginas, marcadores ou páginas e marcadores.
 
 ![Captura de ecrã do seletor da apresentação de diapositivos](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-selector.png)
 
- O controlador mostra o nome da vista atualmente apresentada (página ou marcador e página). Na imagem acima, vemos que no relatório chamado **Vendas**, estamos atualmente a ver o marcador **Ásia-Pacífico** na página **Desempenho de Vendas**.
+ O controlador mostra o nome da vista atualmente apresentada (página ou marcador e página). Na imagem acima, vemos que no relatório chamado **Vendas** , estamos atualmente a ver o marcador **Ásia-Pacífico** na página **Desempenho de Vendas** .
 
 Por predefinição, uma apresentação de diapositivos percorre apenas as páginas, a uma velocidade de uma a cada 30 segundos. Pode altera o comportamento predefinido nas [Definições de apresentação de diapositivos](#slideshow-settings).
 
@@ -73,7 +73,7 @@ Pode configurar a aplicação móvel Power BI para começar a reproduzir uma apr
 
 ### <a name="slideshow-settings"></a>Definições da apresentação de diapositivos
 
-Por predefinição, uma apresentação de diapositivos percorre apenas as páginas, a uma velocidade de uma a cada 30 segundos. Pode alterar este comportamento predefinido em **Definições > Opções**, conforme ilustrado abaixo. Também pode ativar a reprodução automática e escolher um relatório para reprodução.
+Por predefinição, uma apresentação de diapositivos percorre apenas as páginas, a uma velocidade de uma a cada 30 segundos. Pode alterar este comportamento predefinido em **Definições > Opções** , conforme ilustrado abaixo. Também pode ativar a reprodução automática e escolher um relatório para reprodução.
 
 1. Selecione o ícone das Definições.
 
@@ -81,7 +81,7 @@ Por predefinição, uma apresentação de diapositivos percorre apenas as págin
 
 1. Se pretender, altere as predefinições sobre o ciclo da apresentação de diapositivos (páginas, marcadores ou ambos) e a frequência de transição entre diapositivos.
 
-1. Se quiser que o relatório comece a reprodução automaticamente ao abrir a aplicação, ative o botão e selecione **Selecionar Relatório**. Pode procurar os relatórios aos quais tem acesso.
+1. Se quiser que o relatório comece a reprodução automaticamente ao abrir a aplicação, ative o botão e selecione **Selecionar Relatório** . Pode procurar os relatórios aos quais tem acesso.
 
 ![Captura de ecrã a mostrar as definições da apresentação de diapositivos](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-settings.png)
 

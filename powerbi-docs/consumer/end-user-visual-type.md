@@ -1,42 +1,44 @@
 ---
-title: Tipos de elementos visuais no Power BI para consumidores
+title: Tipos de elementos visuais no Power BI para utilizadores empresariais
 description: Tipos de elementos visuais no serviço Power BI
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/24/2020
+ms.date: 10/07/2020
 ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 05aab15b3807429c20b0ff72a7bfce21b3e25b12
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 6d2ded8060ebe663989fd4f91fc22e4163f60c93
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526887"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830672"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de elementos visuais no Power BI
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-Os elementos visuais (também conhecidos como *gráficos* e *visualizações*) são representações de imagens dos dados. Alguns exemplos comuns são gráficos de colunas, mapas, gráficos de dispersão e medidores radiais. Encontrará elementos visuais em relatórios, dashboards e Perguntas e Respostas.
+Os elementos visuais (também conhecidos como *gráficos* e *visualizações* ) são representações de imagens dos dados. Alguns exemplos comuns são gráficos de colunas, mapas, gráficos de dispersão e medidores radiais. Encontrará elementos visuais em relatórios, dashboards e Perguntas e Respostas.
 
 Os elementos visuais descritos nesta página são os que estão empacotados no Power BI. Estes são os tipos de elementos visuais que encontrará com mais frequência. Esta página dá-lhe uma descrição geral rápida destes elementos visuais pré-empacotados. Para obter informações detalhadas sobre algum destes elementos visuais, veja [Documentação sobre os tipos de elementos visuais para *designers* de relatórios do Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
-Os elementos visuais que não são incluídos automaticamente no Power BI são referidos como *elementos visuais personalizados*. Os elementos visuais personalizados podem ser importados para o Power BI a partir de sites externos, como o Microsoft AppSource, ou de origens internas, como a sua loja organizacional. A importação de elementos visuais personalizados requer permissões de edição do relatório. Para saber mais sobre estes elementos visuais adicionais, visite [Elementos visuais no Power BI](../developer/visuals/power-bi-custom-visuals.md).
+Os elementos visuais que não são incluídos automaticamente no Power BI são referidos como *elementos visuais personalizados* . Os elementos visuais personalizados podem ser importados para o Power BI a partir de sites externos, como o Microsoft AppSource, ou de origens internas, como a sua loja organizacional. A importação de elementos visuais personalizados requer permissões de edição do relatório. Para saber mais sobre estes elementos visuais adicionais, visite [Elementos visuais personalizados no Power BI](../developer/visuals/power-bi-custom-visuals.md).
 
 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Lista de elementos visuais disponíveis no Power BI
 Todos estes elementos visuais podem ser encontrados em dashboards e relatórios do Power BI, e podem ser [especificados em Perguntas e Respostas](end-user-q-and-a.md). Para saber como interagir com elementos visuais, veja [Interagir com elementos visuais em relatórios, dashboards e aplicações](end-user-visualizations.md).
 
-### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos das áreas: Básica (em camadas) e Empilhada
+## <a name="a"></a>A
+### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos de área: básica (em camadas) e empilhada
 ![gráfico de área](media/end-user-visual-type/basic-area-map-small.png)
 
 O gráfico de área básica baseia-se no gráfico de linhas com a área entre o eixo e a linha preenchida. Os gráficos de área realçam a magnitude da alteração ao longo do tempo e podem ser utilizados para chamar a atenção para o valor total numa tendência. Por exemplo, os dados que representam o lucro ao longo do tempo podem ser representados num gráfico de área para realçar o lucro total.
 
+## <a name="b"></a>N
 ### <a name="bar-and-column-charts"></a>Gráficos de barras e colunas
 ![gráfico de colunas](media/end-user-visual-type/pbi-nancy-viz-bar.png)
 
@@ -44,6 +46,7 @@ O gráfico de área básica baseia-se no gráfico de linhas com a área entre o 
 
 Os gráficos de barras são o padrão para observar um valor específico em diferentes categorias.
 
+## <a name="c"></a>C
 ### <a name="cards-single-number"></a>Cartões: número único
 ![cartão de número único](media/end-user-visual-type/pbi-nancy-viz-card.png)
 
@@ -67,7 +70,7 @@ Os gráficos de combinação são uma ótima opção:
 - para verificar se uma medida está em conformidade com o destino definido pela outra medida
 - para conservar o espaço da tela
 
-
+## <a name="d"></a>D    
 ### <a name="decomposition-tree"></a>Árvore de decomposição
 ![árvore de decomposição](media/end-user-visual-type/power-bi-decomposition.png)
 
@@ -78,6 +81,7 @@ O elemento visual da árvore de decomposição permite-lhe visualizar os dados e
 
 Os gráficos em anel são semelhantes aos gráficos circulares.  Mostram a relação das partes com um todo. A única diferença é que o centro está em branco e permite ter espaço para uma etiqueta ou ícone.
 
+## <a name="f"></a>F
 ### <a name="funnel-charts"></a>Gráficos de funil
 ![gráfico de funil](media/end-user-visual-type/pbi-nancy-viz-funnel.png)
 
@@ -86,7 +90,7 @@ Os funis ajudam a visualizar um processo que contém fases e itens que seguem um
 Por exemplo, um funil de vendas que controla os clientes por fases: Oportunidade Potencial > Oportunidade Potencial Qualificada > Potencial Interessado > Contrato > Fecho. Num relance, a forma do funil transmite a integridade do processo que está a controlar.
 Cada fase do funil representa um ponto percentual do total. Portanto, na maioria dos casos, um gráfico de funil tem a forma de um funil – com a primeiro fase, sendo a maior e cada fase subsequente menor do que a antecessor. Um funil em forma de pêra também é útil - pode identificar um problema no processo. Mas, em geral, a primeira fase, a fase de "entrada", é a maior.
 
-
+## <a name="g"></a>G
 ### <a name="gauge-charts"></a>Gráficos de medidor
 ![gráfico de medidor](media/end-user-visual-type/gauge-m.png)
 
@@ -100,12 +104,13 @@ Os medidores radiais são uma ótima opção para:
 - mostrar a integridade de uma única medida
 - mostrar informações que podem ser analisadas e compreendidas rapidamente
 
+## <a name="k"></a>K
  ### <a name="key-influencers-chart"></a>Gráfico de principais influenciadores
 ![principal influenciador](media/end-user-visual-type/power-bi-influencer.png)
 
 Um gráfico de principais influenciadores apresenta os maiores contribuidores para um determinado resultado ou valor.
 
-Os principais influenciadores são uma ótima opção para ajudá-lo a compreender os fatores que influenciam uma métrica principal. Por exemplo, *o que influencia os clientes a fazer uma segunda encomenda *ou* por que é que as vendas foram tão altas no último mês de junho*. 
+Os principais influenciadores são uma ótima opção para ajudá-lo a compreender os fatores que influenciam uma métrica principal. Por exemplo, *o que influencia os clientes a fazer uma segunda encomenda *ou* por que é que as vendas foram tão altas no último mês de junho* . 
 
 ### <a name="kpis"></a>KPIs
 ![kpi](media/end-user-visual-type/power-bi-kpi.png)
@@ -116,11 +121,13 @@ Os KPIs são uma ótima opção:
 - para medir o progresso (em que estou adiantado ou atrasado?)
 - para medir a distância de um objetivo (quão adiantado ou atrasado estou?)
 
+## <a name="l"></a>L
 ### <a name="line-charts"></a>Gráficos de linhas
 ![gráfico de linhas](media/end-user-visual-type/pbi-nancy-viz-line.png)
 
 Os gráficos de linhas enfatizam o formato geral de uma série inteira de valores, geralmente ao longo do tempo.
 
+## <a name="m"></a>M
 ### <a name="maps-basic-maps"></a>Mapas: mapas básicos
 ![mapa básico](media/end-user-visual-type/pbi-nancy-viz-map.png)
 
@@ -146,6 +153,7 @@ Os mapas de formas comparam regiões num mapa com cores. Um mapa de forma não p
 
 O elemento visual de matriz é um tipo de elemento visual de tabela (consulte "Tabela" abaixo) que suporta um esquema gradual. Muitas vezes, os designers de relatórios incluem matrizes em relatórios e dashboards para permitir que os utilizadores selecionem um ou mais elementos (linhas, colunas, células) na matriz para realçar de forma cruzada outros elementos visuais numa página de relatório.  
 
+## <a name="p"></a>P
 ### <a name="pie-charts"></a>Gráficos circulares
 ![gráfico circular](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
@@ -154,8 +162,9 @@ Os gráficos circulares mostram a relação das partes com um todo.
 ### <a name="power-apps-visual"></a>Elemento visual do Power Apps
 ![Elemento visual do Power Apps](media/end-user-visual-type/power-bi-powerapps-visual.png)
 
-Os designers de relatórios podem criar um Power App e incorporá-lo no relatório do Power BI. Os consumidores podem interagir com esse elemento visual dentro do relatório do Power BI. 
+Os designers de relatórios podem criar um Power App e incorporá-lo no relatório do Power BI. Os *utilizadores empresariais* podem interagir com esse elemento visual dentro do relatório do Power BI. 
 
+## <a name="q"></a>Q
 ### <a name="qa-visual"></a>Q&A visual (Elemento visual Perguntas e Respostas)
 ![Elementos Visuais das Perguntas e Respostas](media/end-user-visual-type/power-bi-q-and-a.png)
 
@@ -164,13 +173,14 @@ Os designers de relatórios podem criar um Power App e incorporá-lo no relató
 
 Para obter mais informações, veja [Elementos visuais das Perguntas e Respostas no Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
+## <a name="r"></a>R
 ### <a name="ribbon-chart"></a>Gráfico do friso
 ![gráfico do friso](media/end-user-visual-type/power-bi-ribbon.png)
 
 Os gráficos do friso mostram que categoria de dados tem a classificação mais elevada (valor maior). Os gráficos de friso são uma forma eficaz de mostrar as alterações de classificação, com a classificação (valor) mais elevada sempre mostrada na parte superior de cada período temporal.
 
+## <a name="s"></a>S
 ### <a name="scatter-bubble-and-dot-plot-charts"></a>Gráficos de dispersão, de bolhas e de pontos
-
 
 Um gráfico de dispersão tem sempre dois eixos de valor para mostrar um conjunto de dados numéricos num eixo horizontal e outro conjunto de valores numéricos num eixo vertical. O gráfico mostra pontos na intersecção de um valor numérico de x e y e combina estes valores em pontos de dados individuais. Estes pontos de dados podem ser distribuídos de forma uniforme ou não pelo eixo horizontal, consoante os dados.
 
@@ -202,12 +212,18 @@ As segmentações de dados são uma ótima opção para:
 - filtrar por colunas desnecessárias e ocultas nas tabelas de dados
 - criar relatórios mais objetivos ao colocar as segmentações de dados junto aos elementos visuais importantes
 
+
+### <a name="smart-narrative"></a>Narrativa inteligente
+![narrativa inteligente](media/end-user-visual-type/power-bi-smart-narrative.png)
+
+A narração Inteligente adiciona texto a relatórios para destacar tendências, conclusões fundamentais e adicionar explicações e contexto. O texto ajuda os utilizadores a entender os dados e identificar rapidamente as conclusões importantes.
+
 ### <a name="standalone-images"></a>Imagens autónomas
 ![imagens autónomas](media/end-user-visual-type/pbi-nancy-viz-image.png)
 
 Uma imagem autónoma é um gráfico que foi adicionado a um relatório ou dashboard. 
 
-
+## <a name="t"></a>T
 ### <a name="tables"></a>Tabelas
 ![gráfico de tabela](media/end-user-visual-type/table-type.png)
 
@@ -231,6 +247,7 @@ Os treemaps são uma ótima opção:
 - para mostrar atributos com a codificação de cor e tamanho
 - para identificar padrões, valores atípicos, colaboradores mais importantes e exceções
 
+## <a name="w"></a>W
 ### <a name="waterfall-charts"></a>Gráficos de cascata
 ![gráfico de cascata](media/end-user-visual-type/waterfall-small.png)
 
@@ -249,7 +266,7 @@ Os gráficos de cascata são uma ótima opção:
 Ao escrever consultas em linguagem natural com as Perguntas e Respostas do Power BI, pode especificar o tipo de elemento visual na consulta.  Por exemplo:
 
 
-“***vendas por estado como um treemap***”
+“ ***vendas por estado como um treemap*** ”
 
 ![sessão de perguntas e respostas](media/end-user-visual-type/qa-treemap.png)
 

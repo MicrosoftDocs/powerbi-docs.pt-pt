@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2ae4223a6e156be3907bcad980df9446dbb64127
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c94990f3126191cf568c2cc20fb5db0c954a6424
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234651"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049459"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizações em relatórios do Power BI
 
@@ -23,13 +23,13 @@ ms.locfileid: "85234651"
 
 As visualizações (também conhecidas como elementos visuais) apresentam informações que foram descobertas nos dados. Um relatório do Power BI poderá ter uma única página com um elemento visual ou poderá ter páginas repletas de elementos visuais. No serviço Power BI, os elementos visuais podem ser [afixados de relatórios a dashboards](../create-reports/service-dashboard-pin-tile-from-report.md).
 
-É importante saber distinguir *estruturadores* e *consumidores* de relatórios.  Se for a pessoa que cria ou modifica o relatório, é um estruturador.  Os estruturadores têm permissões de edição para o relatório e o respetivo conjunto de dados subjacente. No Power BI Desktop, isto significa que pode abrir o conjunto de dados na Vista de dados e criar elementos visuais na Vista de relatório. No serviço Power BI, significa que pode abrir o relatório ou conjunto de dados no editor de relatórios na [Vista de edição](../consumer/end-user-reading-view.md). Se um relatório ou dashboard tiver sido [partilhado consigo](../consumer/end-user-shared-with-me.md), você será um *consumidor* do relatório. Poderá ver e interagir com o relatório e os seus elementos visuais, mas não conseguirá fazer tantas alterações como um *estruturador*.
+É importante saber distinguir *estruturadores* e *consumidores* de relatórios.  Se for a pessoa que cria ou modifica o relatório, é um estruturador.  Os estruturadores têm permissões de edição para o relatório e o respetivo conjunto de dados subjacente. No Power BI Desktop, isto significa que pode abrir o conjunto de dados na Vista de dados e criar elementos visuais na Vista de relatório. No serviço Power BI, significa que pode abrir o relatório ou conjunto de dados no editor de relatórios na [Vista de edição](../consumer/end-user-reading-view.md). Se um relatório ou dashboard tiver sido [partilhado consigo](../consumer/end-user-shared-with-me.md), você será um *consumidor* do relatório. Poderá ver e interagir com o relatório e os seus elementos visuais, mas não conseguirá fazer tantas alterações como um *estruturador* .
 
 Existem vários tipos de elementos visuais disponíveis diretamente no painel Visualizações do Power BI.
 
 ![Painel a mostrar ícones para cada tipo de visualização](media/power-bi-report-visualizations/power-bi-icons.png)
 
-Estão disponíveis mais elementos visuais do Power BI no [site da comunidade do Microsoft AppSource](https://appsource.microsoft.com). No AppSource, pode procurar e [transferir](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) os [elementos visuais do Power BI](../developer/visuals/custom-visual-develop-tutorial.md) disponibilizados pela Microsoft e pela comunidade.
+Estão disponíveis mais elementos visuais do Power BI no [site da comunidade do Microsoft AppSource](https://appsource.microsoft.com). No AppSource, pode procurar e [transferir](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) os elementos visuais do Power BI disponibilizados pela Microsoft e pela comunidade.
 
 Se for novo no Power BI, ou se precisar de relembrar alguns aspetos, utilize as ligações abaixo para saber os aspetos básicos de visualizações do Power BI.  Em alternativa, utilize o nosso Índice (no lado esquerdo deste artigo) para procurar ainda mais informações úteis.
 
@@ -39,7 +39,7 @@ Se for novo no Power BI, ou se precisar de relembrar alguns aspetos, utilize as 
 
 ## <a name="upload-a-visualization-from-a-file-or-from-appsource"></a>Carregar uma visualização a partir de um ficheiro ou do AppSource
 
-Adicione uma visualização que criou ou que encontrou no [site da comunidade do Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Sente-se criativo? Aprofunde o nosso código fonte e utilize as nossas [ferramentas de programador](../developer/visuals/custom-visual-develop-tutorial.md) para criar um novo tipo de visualização e [partilhá-la com a comunidade](../developer/visuals/office-store.md). Para saber mais sobre como desenvolver um elemento visual do Power BI, veja [Desenvolver um elemento visual do Power BI](../developer/visuals/custom-visual-develop-tutorial.md).
+Adicione uma visualização que criou ou que encontrou no [site da comunidade do Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Sente-se criativo? Aprofunde o nosso código fonte e utilize as nossas [ferramentas de programação](../developer/visuals/environment-setup.md) para criar um novo tipo de visualização e [partilhá-la com a comunidade](../developer/visuals/office-store.md). Para saber mais sobre como desenvolver um elemento visual do Power BI, veja [Desenvolver um elemento visual do Power BI](../developer/visuals/develop-circle-card.md).
 
 ## <a name="personalize-your-visualization-pane"></a>Personalizar o painel de visualização
 
@@ -65,7 +65,7 @@ Se deixar de utilizar um elemento visual regularmente, poderá clicar com o bot�
 
 Restaurar o painel de visualização só se aplica aos elementos visuais predefinidos. Os elementos visuais adicionados ao painel de visualização não são afetados e permanecerão disponíveis no painel de visualização. Se quiser remover elementos visuais do AppSource ou de ficheiros do painel de visualização, terá de o fazer manualmente.
 
-Para restaurar o painel de visualização para a predefinição, clique em mais opções e selecione **Restaurar elementos visuais predefinidos**.
+Para restaurar o painel de visualização para a predefinição, clique em mais opções e selecione **Restaurar elementos visuais predefinidos** .
 
 ![Restaurar o painel de visualização para a predefinição](media/power-bi-report-visualizations/restore-default.png)
 

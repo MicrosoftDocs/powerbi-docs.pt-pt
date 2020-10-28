@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: 6ad986308fb82f8191829d29654bb96b55d0fbd0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 091bdeb4eeb4c979ccf0e79476eb081895fae2e1
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272701"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049413"
 ---
 # <a name="use-the-supportsmultivisualselection-feature"></a>Utilizar a funcionalidade supportsMultiVisualSelection
 
@@ -21,7 +21,7 @@ A funcionalidade `supportsMultiVisualSelection` permite-lhe utilizar a seleção
 
 ## <a name="example"></a>Exemplo
 
-Num relatório com mais de um elemento visual, selecione dois valores para que esses valores sejam aplicados aos outros elementos visuais. Por exemplo, no [Exemplo de Análise de Revenda](../../create-reports/sample-retail-analysis.md), selecione **Fashions Direct** num elemento visual. Prima Ctrl e selecione **Jan** noutro elemento visual. No relatório, as seleções serão aplicadas aos outros elementos visuais que suportam a utilização desta funcionalidade. Os outros elementos visuais encontram-se agora no âmbito de **Fashions Direct** e **Jan**.
+Num relatório com mais de um elemento visual, selecione dois valores para que esses valores sejam aplicados aos outros elementos visuais. Por exemplo, no [Exemplo de Análise de Revenda](../../create-reports/sample-retail-analysis.md), selecione **Fashions Direct** num elemento visual. Prima Ctrl e selecione **Jan** noutro elemento visual. No relatório, as seleções serão aplicadas aos outros elementos visuais que suportam a utilização desta funcionalidade. Os outros elementos visuais encontram-se agora no âmbito de **Fashions Direct** e **Jan** .
 
 ## <a name="requirements"></a>Requirements
 
@@ -45,4 +45,4 @@ Para utilizar a funcionalidade `supportsMultiVisualSelection`, adicione o seguin
 
 Para saber mais sobre os conceitos do Power BI, veja [Elementos Visuais do Power BI](power-bi-visuals-concept.md).
 
-Para experimentar o desenvolvimento do Power BI, veja [Desenvolver um elemento visual do Power BI](custom-visual-develop-tutorial.md).
+Para experimentar o desenvolvimento do Power BI, veja [Desenvolver cartão circular do Power BI](develop-circle-card.md).

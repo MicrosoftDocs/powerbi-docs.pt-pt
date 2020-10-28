@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: a36c377a7faf82e6aeb544859b72ac973305a3b3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 0f4b84067389e93de0e5c5c2b5008b08cd78151f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860170"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525208"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
-Consulte esta página para ver problemas conhecidos e funcionalidades lançados recentemente no **Serviço Power BI**. Para obter informações sobre “Novidades” relacionadas, veja:
+Consulte esta página para ver problemas conhecidos e funcionalidades lançados recentemente no **Serviço Power BI** . Para obter informações sobre “Novidades” relacionadas, veja:
 
 - Notas de versão [What's new in business intelligence October '18 ](/business-applications-release-notes/October18/intelligence-platform/planned-features) (Novidades sobre business intelligence de outubro de 2018) do Microsoft Business Applications Group: as atualizações mais recentes às nossas aplicações empresariais.
 - [Novidades do Power BI Desktop](desktop-latest-update.md)  
@@ -80,7 +80,7 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 * Envie notificações de atualização para outros utilizadores.
 * [Ferramenta de teste](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/) para capacidades do Power BI Premium.
 * Pré-visualização pública de [notificações de disponibilidade do serviço](https://powerbi.microsoft.com/blog/power-bi-introduces-service-availability-notifications/).
-* Pré-visualização pública do [Novo Aspeto](https://powerbi.microsoft.com/blog/introducing-the-new-look-for-power-bi-service/) dos relatórios do Power BI.
+* Pré-visualização pública do [Novo Aspeto](https://powerbi.microsoft.com/blog/introducing-the-new-look-of-workspaces-in-the-power-bi-service/) dos relatórios do Power BI.
 * Nova região do Power BI na África do Sul.
 
 ### <a name="june-2019"></a>Junho de 2019
@@ -312,7 +312,7 @@ Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://po
 
 ***Segurança em nível de linha (RLS)***
 
-* Suporte de grupos do Azure Active Directory (AAD): os utilizadores agora podem atribuir grupos do AAD (grupos de segurança e listas de distribuição) a uma função. Isto facilita a atribuição de funções a um grupo grande de utilizadores em simultâneo.
+* Suporte de grupos do Azure Active Directory (Azure AD): Agora, os utilizadores podem atribuir grupos do Azure AD (grupos de segurança) a uma função. Isto facilita a atribuição de funções a um grupo grande de utilizadores em simultâneo.
 * [Testar as funções da RLS com relatórios suportados pelos dados com RLS no local](../admin/service-admin-rls.md#validate-the-roles-within-power-bi-desktop): adicionámos uma funcionalidade para a nossa pré-visualização da RLS que lhe permite testar o conjunto de dados como uma função específica. Esta ação irá garantir que a função funciona como esperado antes de quaisquer utilizadores conseguirem utilizar o dashboard.
 * Definir e aplicar RLS a modelos de cloud baseados em consultas diretas: agora pode criar e aplicar regras da RLS a origens de dados de consulta direta.
 
@@ -646,7 +646,7 @@ Consulte o [blogue](https://powerbi.microsoft.com/blog/power-bi-service-weekly-u
 * Com a atualização de serviço desta semana, quando cria novos relatórios, pode agora escolher entre múltiplos tamanhos de página, bem como definir o seu próprio tamanho de página. Esta opção controla o tamanho e a proporção de cada página no relatório.
 * Adicionámos suporte adicional de formatação visual para imagens e gráficos de bolhas. Pode bloquear a proporção durante o redimensionamento de imagens para evitar a distorção da imagem, e as bolhas do gráfico de dispersão podem ser configuradas para serem preenchidas ou não.
 * Atualmente, o Power BI enviará convites de partilha para um endereço de e-mail alternativo. Quando um dashboard é partilhado consigo, enviamos a ligação de convite de partilha para o seu endereço de e-mail original e para o seu endereço de e-mail alternativo (se o tiver configurado).
-* O Power BI está disponível para todos os clientes, incluindo os da arquitetura DonMT (Dedicated on Multitenant) do Microsoft 365. Irá utilizar o Power BI como um serviço partilhado no modo de multi-inquilino. Na maioria dos casos, pode registar-se no Power BI seguindo o [processo de inscrição automático](https://powerbi.microsoft.com/) – basta inserir o seu endereço de e-mail do trabalho, inserir o nome e palavra-passe para começar. Se for administrador de inquilino, pode atribuir licenças aos utlizadores utilizando as instruções descritas [aqui](/microsoft-365/admin/add-users/add-users?redirectSourcePath=%252fen-us%252farticle%252fAssign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
+* O Power BI está disponível para todos os clientes, incluindo os da arquitetura DonMT (Dedicated on Multitenant) do Microsoft 365. Irá utilizar o Power BI como um serviço partilhado no modo de multi-inquilino. Na maioria dos casos, pode registar-se no Power BI seguindo o [processo de inscrição automático](https://powerbi.microsoft.com/) – basta inserir o seu endereço de e-mail do trabalho, inserir o nome e palavra-passe para começar. Se for Administrador de licenças, pode atribuir licenças aos utilizadores através das instruções descritas [aqui](/microsoft-365/admin/add-users/add-users?redirectSourcePath=%252fen-us%252farticle%252fAssign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
 * Os Registos de Auditoria do Azure permitem-lhe visualizar registos operacionais do plano de controlo na sua subscrição do Azure. O pacote de conteúdos dos Registos de Auditoria do Azure do Power BI pode ajudá-lo a analisar e visualizar facilmente a imensa informação contida nestes registos. O pacote de conteúdos permite-lhe ligar-se aos seus dados e começar a descobrir informações com um dashboard e relatórios prontos a utilizar. Leia o nosso [blogue](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/) e a [documentação online](../connect-data/service-connect-to-services.md) para obter mais informações.
 
 [Saiba mais através do nosso blogue](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/).
@@ -747,7 +747,7 @@ Consulte o [blogue](https://powerbi.microsoft.com/blog/power-bi-service-weekly-u
 
 **13 de maio de 2015**
 
-* Pode ligar-se diretamente aos dados armazenados na sua **base de dados SQL do Azure**. Geramos e enviamos dinamicamente consultas para a origem, permitindo-lhe criar relatórios interativos diretamente na sua base de dados. Pode ler a [mensagem do blogue](https://powerbi.microsoft.com/blog/using-power-bi-to-visualize-and-explore-azure-sql-databases/) e [documentação](../connect-data/service-azure-sql-database-with-direct-connect.md) para obter mais informações.
+* Pode ligar-se diretamente aos dados armazenados na sua **base de dados SQL do Azure** . Geramos e enviamos dinamicamente consultas para a origem, permitindo-lhe criar relatórios interativos diretamente na sua base de dados. Pode ler a [mensagem do blogue](https://powerbi.microsoft.com/blog/using-power-bi-to-visualize-and-explore-azure-sql-databases/) e [documentação](../connect-data/service-azure-sql-database-with-direct-connect.md) para obter mais informações.
 
 **7 de maio de 2015**
 
@@ -755,7 +755,7 @@ Consulte o [blogue](https://powerbi.microsoft.com/blog/power-bi-service-weekly-u
 
 **28 de abril de 2015**
 
-* O Power BI está agora disponível em **44 idiomas**. Leia a nossa [mensagem do blogue](https://powerbi.microsoft.com/blog/power-bi-preview-now-available-in-your-language/) para ver a lista completa.
+* O Power BI está agora disponível em **44 idiomas** . Leia a nossa [mensagem do blogue](https://powerbi.microsoft.com/blog/power-bi-preview-now-available-in-your-language/) para ver a lista completa.
 
 **23 de abril de 2015**
 

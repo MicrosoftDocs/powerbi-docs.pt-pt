@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/17/2019
-ms.openlocfilehash: b6b56e57bdc7815b7db1afc3cde79831523c1129
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 076ad6549cb68660313dcd8da5ccf8eb1f8f26c7
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634257"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049160"
 ---
 # <a name="samples-of-power-bi-visuals"></a>Exemplos de elementos visuais do Power BI
 
@@ -73,4 +73,4 @@ Estes exemplos demonstram como pode aproveitar o poder analítico e visual dos e
 
 ## <a name="next-steps"></a>Próximos passos
 
-Para experimentar a criação de elementos visuais do Power BI, veja [Tutorial: desenvolver um elemento visual do Power BI](custom-visual-develop-tutorial.md).
+Para começar a criar elementos visuais do Power BI, veja [Programar um elemento visual do cartão circular do Power BI](develop-circle-card.md).

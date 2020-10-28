@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 07/13/2020
-ms.openlocfilehash: f024959c0d7e8bd0b51893a277161c67b5f4dfc6
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.date: 10/01/2020
+ms.openlocfilehash: f997547bb61bf203f7806dbe68d45beb29c6538b
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746131"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116460"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportar relatório do Power BI para ficheiro (pré-visualização)
 
@@ -52,11 +52,18 @@ Especifique as páginas que quer imprimir de acordo com o valor devolvido de [Ob
 
 ### <a name="bookmarks"></a>Marcadores
 
- Pode utilizar a API `exportToFile` para exportar programaticamente um relatório num estado específico, depois de aplicar filtros. Este procedimento é feito com as capacidades de [Marcadores](../../consumer/end-user-bookmarks.md). Para exportar um relatório com marcadores, utilize a [API JavaScript de marcadores](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Bookmarks).
+Os [marcadores](../../consumer/end-user-bookmarks.md) podem ser utilizados para guardar um relatório numa configuração específica, incluindo filtros aplicados e o estado dos elementos visuais do relatório. Pode utilizar a API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) para exportar programaticamente o marcador de um relatório de duas formas:
 
- Por exemplo, pode utilizar o método `capturedBookmark.state` do marcador para capturar as alterações que um utilizador específico fez a um relatório e, em seguida, exportá-lo no estado atual.
+* **Exportar um marcador existente**
 
-Não são suportados [marcadores pessoais](../../consumer/end-user-bookmarks.md#personal-bookmarks) nem [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/).
+    Para exportar um [marcador de relatório existente](../../consumer/end-user-bookmarks.md#report-bookmarks), utilize a propriedade `name`, um identificador exclusivo (sensível a maiúsculas e minúsculas) que pode obter através da [API JavaScript de marcadores](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Bookmarks).
+
+* **Exportar o estado do relatório**
+
+    Para exportar o estado atual do relatório, use a propriedade `state`. Por exemplo, pode utilizar o método `bookmarksManager.capture` do marcador para capturar as alterações que um utilizador específico fez a um relatório e, em seguida, exportá-lo no estado atual com `capturedBookmark.state`.
+
+>[!NOTE]
+>Não são suportados [marcadores pessoais](../../consumer/end-user-bookmarks.md#personal-bookmarks) nem [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/).
 
 ### <a name="authentication"></a>Autenticação
 

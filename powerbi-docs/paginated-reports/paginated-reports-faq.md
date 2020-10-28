@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: 893becbcfc7d58b04bbff2819baed4bbc829fe9d
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.date: 10/19/2020
+ms.openlocfilehash: 2a0490106d5954a57abea1dd5de61f26f2fe2377
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526680"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92257030"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Relatórios paginados no Power BI: PERGUNTAS FREQUENTES 
 
@@ -72,11 +72,11 @@ Recebe uma mensagem de erro e não poderá visualizar o relatório até que a ca
 
 Memória predefinida em cada SKU Premium para os relatórios paginados:
 
-- **P1/A4**: 20% predefinido; 10% mínimo
-- **P2/A5**: 20% predefinido; 5% mínimo
-- **P3/A6**: 20% predefinido; 2,5% mínimo
+- **P1/A4** : 20% predefinido; 10% mínimo
+- **P2/A5** : 20% predefinido; 5% mínimo
+- **P3/A6** : 20% predefinido; 2,5% mínimo
 
-Os administradores do Power BI podem modificar a percentagem de memória máxima predefinida no portal de administração. Consulte a secção da carga de trabalho **Relatórios Paginados** em **Power BI Premium**, no separador **Definições de capacidade**.
+Os administradores do Power BI podem modificar a percentagem de memória máxima predefinida no portal de administração. Consulte a secção da carga de trabalho **Relatórios Paginados** em **Power BI Premium** , no separador **Definições de capacidade** .
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Relatórios paginados, separador Definições de capacidade":::
 
@@ -178,6 +178,12 @@ Sim, atualmente não pode procurar os relatórios paginados na Home Page.  Mas p
 Eis algo a ter em mente quando trabalhar com campos DateTime em relatórios paginados.
 
 - Atualmente, existem algumas limitações de globalização relacionadas com os parâmetros DateTime. Todos os parâmetros DateTime no serviço Power BI são obtidos no formato dos E.U.A. (MM/DD/AAAA) independentemente da forma como concebe o DataTime no Report Builder do Power BI.
+
+Quando estiver a ver relatórios paginados no serviço Power BI, as sessões podem exceder o limite de tempo, apresentando o utilizador com a seguinte notificação:
+
+:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="Relatórios paginados, separador Definições de capacidade":::
+
+- A sessão irá exceder o limite de tempo após 60 minutos de inatividade ou antes quando o dispositivo for bloqueado ou estiver inativo, ou quando o relatório não for apresentado no separador ativo do navegador.
 
 ## <a name="next-steps"></a>Próximos passos
 

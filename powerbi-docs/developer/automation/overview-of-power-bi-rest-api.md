@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 43480006b775aa7b8444f099b783f0d7f45a98c8
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: fd9d9991b55ec6611504c96a30cb6383b8ac1296
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748983"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049275"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>O que podem os programadores fazer com a API Power BI?
 
@@ -56,7 +56,7 @@ Pode utilizar a API do Power BI para [enviar dados por push para um conjunto de 
 ## <a name="next-steps"></a>Passos Seguintes
 
 * [Envio de dados por push para um conjunto de dados](walkthrough-push-data.md)
-* [Desenvolver um elemento visual do Power BI](../visuals/custom-visual-develop-tutorial.md)
+* [Programar um elemento visual de cartão circular do Power BI](../visuals/develop-circle-card.md)
 * [Referência da API REST do Power BI](rest-api-reference.md)
 * [APIs REST do Power BI](/rest/api/power-bi/)
 

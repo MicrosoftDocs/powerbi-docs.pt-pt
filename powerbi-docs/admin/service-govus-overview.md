@@ -10,12 +10,12 @@ ms.date: 09/23/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: eecc36377ab79e4af4ea7882c24f4eb5a6e376c7
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 45d89fe7a224d56e710765e533a7c075c24b8a66
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524633"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981510"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes do Governo Norte-Americano
 
@@ -38,7 +38,7 @@ Se for um cliente novo, terá de validar a elegibilidade da sua organização pa
 Após implementar o Microsoft 365, pode adicionar uma subscrição do Power BI Pro. Siga a orientação passo a passo em [Inscrever a sua organização do Governo Norte-Americano](service-govus-signup.md) para comprar o serviço do Power BI Pro para o Governo Norte-Americano. Compre licenças suficientes para todos os utilizadores que precisam de utilizar o Power BI e, em seguida, atribua as licenças a contas de utilizadores individuais.
 
 > [!IMPORTANT]
-> O Power BI para o Governo Norte-Americano não está disponível com as licenças *Gratuitas*. Para aceder à cloud da comunidade governamental deve ser atribuída a cada utilizador uma licença *Pro*. Se uma conta de utilizador tiver atribuída uma licença Gratuita, estará autorizada a aceder apenas à cloud comercial e irá deparar-se com problemas de autenticação e acesso. Se tiver adquirido o Power BI Premium, não tem de atribuir licenças do Pro para permitir o acesso de utilizadores.  Os utilizadores na organização podem aceder aos relatórios partilhados com eles, desde que os relatórios sejam publicados com uma capacidade Premium. Para rever as diferenças entre os tipos de licença, veja [Funcionalidades do serviço Power BI por tipo de licença](../fundamentals/service-features-license-type.md).
+> O Power BI para o Governo Norte-Americano não está disponível com as licenças *Gratuitas* . Para aceder à cloud da comunidade governamental deve ser atribuída a cada utilizador uma licença *Pro* . Se uma conta de utilizador tiver atribuída uma licença Gratuita, estará autorizada a aceder apenas à cloud comercial e irá deparar-se com problemas de autenticação e acesso. Se tiver adquirido o Power BI Premium, não tem de atribuir licenças do Pro para permitir o acesso de utilizadores.  Os utilizadores na organização podem aceder aos relatórios partilhados com eles, desde que os relatórios sejam publicados com uma capacidade Premium. Para rever as diferenças entre os tipos de licença, veja [Funcionalidades do serviço Power BI por tipo de licença](../fundamentals/service-features-license-type.md).
 >
 
 ## <a name="government-cloud-instances"></a>Instâncias da cloud para o Governo Norte-Americano
@@ -74,25 +74,25 @@ A autenticação, identidade e a administração do Power BI depende da conectiv
 
 |  Objetivo | Destino |
 | ---- | ----- |
-| APIs de back-end | **GCC**: api.powerbigov.us |
-| | **GCC-High**: api.high.powerbigov.us |
-| | **DoD**: api.mil.powerbi.gov.us |
-| APIs de back-end | **GCC**: *analysis.usgovcloudapi.net |
-| | **GCC High**: *.high.analysis.usgovcloudapi.net |
-| | **DoD**: *.mil.analysis.usgovcloudapi.net |
-| APIs de back-end | **Tudo**: *.pbidedicated.usgovcloudapi.net |
-| Rede de Entrega de Conteúdos (CDN) | **GCC**: gov.content.powerapps.us |
-| | **GCC High**: high.content.powerapps.us |
-| | **DoD**: mil.content.powerapps.us |
-| Integração do Microsoft 365 | **GCC**: [Pontos finais globais](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) |
-| | **GCC High**: [Pontos finais da GCC High do Governo Norte-Americano](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
-| | **DoD**: [Pontos finais do DoD do Governo Norte-Americano](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
-| Portal |**GCC**: *.powerbigov.us |
-| | **GCC-High**: *.high.powerbigov.us |
-| | **DoD**: *.mil.powerbigov.us |
-| Telemetria do serviço | **Tudo**: dc.services.visualstudio.us |
-| Mensagens informativas (opcional) | **Tudo**: dynmsg.modpim.com |
-| Inquéritos do NPS (opcional) | **Tudo**: nps.onyx.azure.net |
+| APIs de back-end | **GCC** : api.powerbigov.us |
+| | **GCC-High** : api.high.powerbigov.us |
+| | **DoD** : api.mil.powerbi.gov.us |
+| APIs de back-end | **GCC** : *analysis.usgovcloudapi.net |
+| | **GCC High** : *.high.analysis.usgovcloudapi.net |
+| | **DoD** : *.mil.analysis.usgovcloudapi.net |
+| APIs de back-end | **Tudo** : *.pbidedicated.usgovcloudapi.net |
+| Rede de Entrega de Conteúdos (CDN) | **GCC** : gov.content.powerapps.us |
+| | **GCC High** : high.content.powerapps.us |
+| | **DoD** : mil.content.powerapps.us |
+| Integração do Microsoft 365 | **GCC** : [Pontos finais globais](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High** : [Pontos finais da GCC High do Governo Norte-Americano](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD** : [Pontos finais do DoD do Governo Norte-Americano](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| Portal |**GCC** : *.powerbigov.us |
+| | **GCC-High** : *.high.powerbigov.us |
+| | **DoD** : *.mil.powerbigov.us |
+| Telemetria do serviço | **Tudo** : dc.services.visualstudio.us |
+| Mensagens informativas (opcional) | **Tudo** : dynmsg.modpim.com |
+| Inquéritos do NPS (opcional) | **Tudo** : nps.onyx.azure.net |
 
 ## <a name="connect-government-and-global-azure-cloud-services"></a>Ligar serviços cloud do Azure global e do Governo Norte-Americano
 
@@ -107,7 +107,7 @@ O Azure é distribuído entre várias clouds. Por predefinição, pode ativar re
 
 Para obter os intervalos de IP do Microsoft Cloud for US Government, transfira o ficheiro [Azure IP Ranges and Service Tags – Us Government Cloud](https://www.microsoft.com/download/details.aspx?id=57063) (Intervalos de IP do Azure e Etiquetas de Serviço – Microsoft Cloud for US Government). Os intervalos estão listados para o Power BI e Power Query.
 
-Para obter mais informações sobre os serviços cloud do Microsoft Azure Government, veja a [documentação do Azure Government](https://docs.microsoft.com/azure/azure-government/).
+Para obter mais informações sobre os serviços cloud do Microsoft Azure Government, veja a [documentação do Azure Government](/azure/azure-government/).
 
 Para configurar firewalls para bases de dados do SQL, veja [Criar e gerir as regras de firewall de IP](/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules).
 
@@ -123,7 +123,6 @@ A tabela seguinte apresenta as funcionalidades que não estão disponíveis num 
 |[Incorporar no SharePoint Online com a parte Web do Power BI](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![disponível](../media/yes.png)|![Disponível](../media/yes.png)|![não disponível](../media/no.png)|
 |[Conectividade do Power Automate para alertas baseados em dados](../connect-data/power-bi-data-sources.md)|![disponível](../media/yes.png)|![disponível](../media/yes.png)|![não disponível](../media/no.png)|
 |[Separador Power BI no Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![disponível](../media/yes.png)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|
-|[Métricas de Capacidade](../admin/service-admin-premium-monitor-portal.md)|T3 de 2020 |T3 de 2020|T3 de 2020|
 |[Modelos grandes](service-premium-large-models.md) | T4 de 2020 |T4 de 2020| ![não disponível](../media/no.png) |
 |[Fluxos de dados – otimização do motor de computação SQL](../transform-model/service-dataflows-enhanced-compute-engine.md) | T4 de 2020 |T4 de 2020| ![não disponível](../media/no.png) |
 |[Fluxos de dados – Direct Query](../transform-model/service-dataflows-directquery.md) | T4 de 2020 |T4 de 2020|![não disponível](../media/no.png)|
@@ -131,6 +130,7 @@ A tabela seguinte apresenta as funcionalidades que não estão disponíveis num 
 |[Proteção de Dados (Etiquetas da MIP)](service-security-sensitivity-label-overview.md)|T4 de 2020|T4 de 2020 |T4 de 2020|
 |[Aplicações de modelo](../connect-data/service-template-apps-overview.md)<sup>3</sup>|T4 de 2020 |T4 de 2020| T4 de 2020|
 |[Elementos Visuais Personalizados](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|T4 de 2020 |T4 de 2020| T4 de 2020|
+|[Conector de Dados de Qualidade da Chamada](/microsoftteams/cqd-power-bi-connector)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|
 |[Geração de códigos QR](../create-reports/service-create-qr-code-for-tile.md)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|
 
 <sup>1</sup> Embora a Colaboração B2B esteja disponível para GCC, o utilizador externo deverá receber uma licença nesse ambiente. As licenças da cloud comercial não são válidas no GCC. Para obter mais informações sobre as limitações conhecidas com a Colaboração B2B para administração pública dos EUA, [Compare o Azure Government e o Azure global](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)

@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/06/2020
+ms.date: 10/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7e74bb6b2d3414e37924319016a0fab421dd096e
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: bbcac4eb3adf8fe47ff6576e15d8d1334a8c13f0
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536107"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830412"
 ---
 # <a name="slicers-in-the-power-bi-service"></a>Segmentações de dados no serviço Power BI
 
@@ -29,7 +29,7 @@ Uma segmentação de dados é um tipo de elemento visual que filtra os outros el
 Ao criar relatórios, os *designers* adicionam segmentações de dados para ajudar a contar uma história e dar-lhe ferramentas para explorar os seus dados.
 
 ### <a name="numeric-range-slicer"></a>Segmentação de dados do intervalo numérico
- A segmentação de dados do intervalo numérico acima ajuda a explorar as vendas totais por geografia, unidades em stock e data de encomenda. Utilize as alças para selecionar um intervalo. 
+ A segmentação de dados do intervalo numérico ajuda a explorar os dados quantitativos, como as vendas totais por: geografia, unidades em stock e data de encomenda. Utilize as alças para selecionar um intervalo. 
 
 ![as alças para uma segmentação de dados de intervalo](media/end-user-slicer/power-bi-handles.png)
 

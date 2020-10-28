@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 2978401c7ec949c8c8df7c813395b3d84db18b72
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f3a3551db1d7d995db0194ff7fa9b7141415c9eb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232672"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525553"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Como depurar elementos visuais do Power BI
 
@@ -74,20 +74,20 @@ Também pode definir o browser para ser interrompido ao capturar exceções. Est
 ### <a name="edge"></a>Microsoft Edge
 
 1. Abra as ferramentas de programação (F12).
-2. Aceda ao **Depurador**.
+2. Aceda ao **Depurador** .
 3. Clique no ícone **interromper nas exceções** (hexágono com um símbolo de pausa).
-4. Selecione **Interromper em todas as exceções**.
+4. Selecione **Interromper em todas as exceções** .
 
-![Campos de função de dados](media/visuals-how-to-debug/how-to-debug-edge.png)
+![A captura de ecrã mostra o separador Depurador com a opção Interromper em todas as exceções selecionada.](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
 1. Abra as ferramentas de programação (F12).
-2. Aceda ao separador **Origens**.
+2. Aceda ao separador **Origens** .
 3. Clique no ícone **interromper nas exceções** (sinal de stop com um símbolo de pausa).
-4. Selecione a caixa de verificação **Pausa ao Capturar Exceções**.
+4. Selecione a caixa de verificação **Pausa ao Capturar Exceções** .
 
-![Campos de função de dados](media/visuals-how-to-debug/how-to-debug-chrome.png)
+![A captura de ecrã mostra o separador Fontes com a opção Pausa ao Capturar Exceções selecionada.](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Resolver problemas com os elementos visuais do Power BI](power-bi-custom-visuals-troubleshoot.md)

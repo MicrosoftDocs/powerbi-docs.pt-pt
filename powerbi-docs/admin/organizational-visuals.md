@@ -7,13 +7,13 @@ ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 07/01/2020
-ms.openlocfilehash: 30ab225230784d19bd2aa4eb2f5ea775684b2afb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.date: 08/11/2020
+ms.openlocfilehash: 4725db331269bc9a2f41abf4c432e0bdf427bae6
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524794"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981694"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>Manage Power BI visuals admin settings (Gerir as definições de administrador de elementos visuais do Power BI)
 
@@ -25,9 +25,9 @@ Para gerir os elementos visuais do Power BI, tem de ser Administrador Global no 
 
 Para ativar as definições descritas no artigo, terá de aceder ao portal de administração.
 
-1. No serviço Power BI, selecione **Definições**.
+1. No serviço Power BI, selecione **Definições** .
 
-2. No menu pendente de definições, selecione **Portal de administração**.
+2. No menu pendente de definições, selecione **Portal de administração** .
 
     ![Formulário sobre elementos visuais do Power BI](media/organizational-visuals/admin-portal.png)
 
@@ -50,17 +50,17 @@ Faça a gestão do acesso da organização relativamente ao seguinte tipo de ele
 
 Siga as instruções abaixo para permitir aos utilizadores da sua organização carregar ficheiros .pbiviz e adicionar elementos visuais do AppSource aos respetivos relatórios e dashboards.
 
-1. Expanda as definições **Permitir elementos visuais criados com o Power BI SDK**.
+1. Expanda as definições **Permitir elementos visuais criados com o Power BI SDK** .
 
-2. Clique em **Ativadas**.
+2. Clique em **Ativadas** .
 
 3. Escolha quem pode carregar elementos visuais do .pbiviz e do AppSource:
 
     * Selecione a opção **Toda a organização** para permitir que todos na sua organização possam carregar ficheiros .pbiviz e adicionar elementos visuais do AppSource.
 
-     * Selecione a opção **Grupos de segurança específicos** para gerir o carregamento de ficheiros .pbiviz e adicionar elementos visuais do AppSource através de grupos de segurança. Adicione os grupos de segurança que pretende gerir à barra de texto *Introduzir grupos de segurança*. Os grupos de segurança que especificar são excluídos por predefinição. Se quiser incluí-los e excluir todos os outros grupos de segurança da organização, selecione a opção **Exceto grupos de segurança específicos**.
+     * Selecione a opção **Grupos de segurança específicos** para gerir o carregamento de ficheiros .pbiviz e adicionar elementos visuais do AppSource através de grupos de segurança. Adicione os grupos de segurança que pretende gerir à barra de texto *Introduzir grupos de segurança* . Os grupos de segurança que especificar são excluídos por predefinição. Se quiser incluí-los e excluir todos os outros grupos de segurança da organização, selecione a opção **Exceto grupos de segurança específicos** .
 
-4. Clique em **Aplicar**.
+4. Clique em **Aplicar** .
 
 ![elementos visuais do AppSource ou de um ficheiro](media/organizational-visuals/tenant-settings.png)
 
@@ -75,11 +75,11 @@ As alterações da IU às definições do inquilino aplicam-se apenas ao serviç
 
 Quando esta definição estiver ativada, apenas os [elementos visuais do Power BI certificados](../developer/visuals/power-bi-custom-visuals-certified.md) serão apresentados nos relatórios e dashboards da sua organização. Os elementos visuais do Power BI do AppSource ou de ficheiros (que não sejam certificados) devolverão uma mensagem de erro.
 
-1. No portal de administração, selecione **Adicionar e utilizar apenas elementos visuais certificados**.
+1. No portal de administração, selecione **Adicionar e utilizar apenas elementos visuais certificados** .
 
-2. Clique em **Ativadas**.
+2. Clique em **Ativadas** .
 
-3. Clique em **Aplicar**.
+3. Clique em **Aplicar** .
 
 ![elementos visuais certificados](media/organizational-visuals/certified-visuals.png)
 
@@ -106,7 +106,7 @@ Utilize este método para adicionar um novo elemento visual do Power BI a partir
 > [!WARNING]
 > Um elemento visual do Power BI carregado a partir de um ficheiro pode conter código com riscos de privacidade ou de segurança. Certifique-se de que confia no autor e na origem do elemento visual antes de implementá-lo no repositório da organização.
 
-1. Selecione **Adicionar elemento visual** > **A partir de um ficheiro**.
+1. Selecione **Adicionar elemento visual** > **A partir de um ficheiro** .
 
     ![adicionar elementos visuais de um ficheiro](media/organizational-visuals/add-from-file.png)
 
@@ -130,27 +130,27 @@ Utilize este método para adicionar um novo elemento visual do Power BI a partir
 
 3. Selecione **Adicionar** para iniciar o pedido de carregamento. Após ser carregado, o elemento visual será apresentado na lista de elementos visuais da organização.
 
-### <a name="add-a-visual-from-appsource-preview"></a>Adicionar um elemento visual do AppSource (pré-visualização)
+### <a name="add-a-visual-from-appsource"></a>Adicionar um elemento visual do AppSource
 
 Utilize este método para adicionar um novo elemento visual do Power BI a partir do AppSource.
 
 Os elementos visuais do Power BI no AppSource são atualizados automaticamente. Os utilizadores na sua organização terão sempre a versão mais recente do elemento visual.
 
-1. Selecione **Adicionar elemento visual** > **A partir do AppSource**.
+1. Selecione **Adicionar elemento visual** > **A partir do AppSource** .
 
     ![adicionar elementos visuais do AppSource](media/organizational-visuals/add-visual-from-appsource.png)
 
-2. Na janela **Elementos visuais do Power BI**, procure o elemento visual do AppSource que pretende adicionar e clique em **Adicionar**. Após ser carregado, o elemento visual será apresentado na lista de elementos visuais da organização.
+2. Na janela **Elementos visuais do Power BI** , procure o elemento visual do AppSource que pretende adicionar e clique em **Adicionar** . Após ser carregado, o elemento visual será apresentado na lista de elementos visuais da organização.
 
 ### <a name="add-a-visual-to-the-visualization-pane"></a>Adicionar um elemento visual ao painel de visualização
 
 Pode escolher elementos visuais a partir da página de elementos visuais da organização para serem apresentados automaticamente no painel de visualização de todos os utilizadores da sua organização.
 
-1. Na linha do elemento visual que pretende adicionar, clique em **definições**.
+1. Na linha do elemento visual que pretende adicionar, clique em **definições** .
 
     ![Captura de ecrã a mostrar o Portal de administração com o campo Elementos visuais da organização selecionado e um ícone de definições realçado.](media/organizational-visuals/organizational-pane.png)painel-organizacional
 
-2. Ative a definição do painel de visualização e clique em **Atualizar**.
+2. Ative a definição do painel de visualização e clique em **Atualizar** .
 
     ![Captura de ecrã a mostrar a caixa de diálogo Definições de Elementos Visuais, onde pode fazer com que o elemento visual seja apresentado para toda a organização.](media/organizational-visuals/update-organizational-pane.png)
 
@@ -165,9 +165,9 @@ Selecione o ícone de caixote do lixo para eliminar permanentemente um elemento 
 
 Pode fazer com que os elementos visuais carregados a partir de ficheiros .pbiviz deixem de estar disponíveis na [loja organizacional](../developer/visuals/power-bi-custom-visuals.md#organizational-store), mas continuem na lista de elementos visuais da organização.
 
-1. Na linha do elemento visual .pbiviz que pretende desativar, clique em **definições**.
+1. Na linha do elemento visual .pbiviz que pretende desativar, clique em **definições** .
 
-2. Na secção **Acesso**, desative a definição: *Os utilizadores na organização podem aceder, ver, partilhar e interagir com este elemento visual*.
+2. Na secção **Acesso** , desative a definição: *Os utilizadores na organização podem aceder, ver, partilhar e interagir com este elemento visual* .
 
 Depois de desativar o elemento visual .pbiviz, este não será composto nos relatórios existentes e será apresentada a seguinte mensagem de erro:
 
@@ -182,11 +182,11 @@ Os elementos visuais do AppSource são atualizados automaticamente. Quando uma n
 
 Para atualizar um elemento visual .pbiviz, siga estes passos para substituí-lo.
 
-1. Na linha do elemento visual que pretende adicionar, clique em **definições**.
+1. Na linha do elemento visual que pretende adicionar, clique em **definições** .
 
 2. Clique em **Procurar** e selecione o ficheiro .pbiviz pelo qual pretende substituir o elemento visual atual.
 
-3. Clique em **Atualizar**.
+3. Clique em **Atualizar** .
 
 ## <a name="next-steps"></a>Próximos passos
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 65291c81ab1952599079ff93ed4ed19694657132
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96d33351ba1f0d96cac71548854c94810cfdc692
+ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239089"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91928292"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Criar elementos visuais do Power BI com o R
 Com o Power BI Desktop, pode utilizar o *R* para visualizar os dados. [R](https://mran.revolutionanalytics.com/documents/what-is-r) é uma linguagem e um ambiente para computação e gráficos estatísticos.
@@ -25,11 +25,11 @@ Por predefinição, o Power BI Desktop não inclui, implementa nem instala o mot
 ## <a name="enable-r-visuals-in-power-bi-desktop"></a>Ativar elementos visuais do R no Power BI Desktop
 Depois de instalado, o Power BI Desktop ativa o R automaticamente. Para verificar se o Power BI Desktop ativou o R na localização correta, siga estes passos: 
 
-1. No menu do Power BI Desktop, selecione **Ficheiro** > **Opções e definições** > **Opções**. 
+1. No menu do Power BI Desktop, selecione **Ficheiro** > **Opções e definições** > **Opções** . 
 
-2. No lado esquerdo da página **Opções**, em **Global**, selecione **Scripting R**. 
+2. No lado esquerdo da página **Opções** , em **Global** , selecione **Scripting R** . 
 
-3. Em **Opções de script R**, verifique se a instalação local do R está especificada em **Diretórios raiz R detetados** e se o mesmo reflete a instalação local do R que pretende que o Power BI Desktop utilize. Na seguinte imagem, o caminho para a instalação local do R é **C:\Program Files\R Open\R-3.5.3\\** .
+3. Em **Opções de script R** , verifique se a instalação local do R está especificada em **Diretórios raiz R detetados** e se o mesmo reflete a instalação local do R que pretende que o Power BI Desktop utilize. Na seguinte imagem, o caminho para a instalação local do R é **C:\Program Files\R Open\R-3.5.3\\** .
    
    ![Página de opções de script R](media/desktop-r-visuals/r-visuals-2.png)
 
@@ -40,7 +40,7 @@ Depois de ter verificado a instalação do R, estará pronto para começar a cri
    
    ![Ícone do Elemento visual do R no painel de Visualização](media/desktop-r-visuals/r-visuals-3.png)
 
-2. Na janela **Ativar elementos visuais do script** apresentada, selecione **Ativar**.
+2. Na janela **Ativar elementos visuais do script** apresentada, selecione **Ativar** .
 
    ![Ativar visuais do script](media/desktop-r-visuals/r-visuals-10.png)
 
@@ -52,12 +52,12 @@ Depois de ter verificado a instalação do R, estará pronto para começar a cri
    
    ![Editor de script R](media/desktop-r-visuals/r-visuals-4.png)
 
-3. Na secção **Valores** do painel de **Visualização**, arraste os campos do painel de **Campos** que pretende consumir no script R, como faria com qualquer outro elemento visual do Power BI Desktop. Em alternativa, também pode selecionar os campos diretamente no painel de **Campos**.
+3. Na secção **Valores** do painel de **Visualização** , arraste os campos do painel de **Campos** que pretende consumir no script R, como faria com qualquer outro elemento visual do Power BI Desktop. Em alternativa, também pode selecionar os campos diretamente no painel de **Campos** .
     
-    Apenas os campos que adicionou à secção **Valores** estão disponíveis para o script R. Pode adicionar novos campos ou remover campos desnecessários da secção **Valores** enquanto trabalha no script R no **Editor de scripts R**. O Power BI Desktop deteta automaticamente os campos que adicionou ou removeu.
+    Apenas os campos que adicionou à secção **Valores** estão disponíveis para o script R. Pode adicionar novos campos ou remover campos desnecessários da secção **Valores** enquanto trabalha no script R no **Editor de scripts R** . O Power BI Desktop deteta automaticamente os campos que adicionou ou removeu.
    
    > [!NOTE]
-   > O tipo de agregação predefinido para elementos visuais do R é *não resumir*.
+   > O tipo de agregação predefinido para elementos visuais do R é *não resumir* .
    > 
    > 
    
@@ -68,8 +68,8 @@ Depois de ter verificado a instalação do R, estará pronto para começar a cri
    
    No exemplo mostrado na seguinte imagem, três campos foram selecionados: hp, gear e drat. Como resultado dessas seleções, o editor de scripts R gera o código de enlace, que se resume da seguinte forma:
    
-   * Crie um pacote de dados denominado **dataset**, que é composto por diferentes campos selecionados pelo utilizador.
-   * A agregação predefinida é: *não resumir*.
+   * Crie um pacote de dados denominado **dataset** , que é composto por diferentes campos selecionados pelo utilizador.
+   * A agregação predefinida é: *não resumir* .
    * Da mesma forma que acontece com elementos visuais de tabela, os campos são agrupados e as linhas duplicadas são apresentadas apenas uma vez.
    
    ![Código do editor de script R](media/desktop-r-visuals/r-visuals-5.png)
@@ -81,20 +81,20 @@ Depois de ter verificado a instalação do R, estará pronto para começar a cri
    
    O pacote de dados gerado é denominado **dataset** e pode aceder às colunas selecionadas pelos seus nomes. Por exemplo, aceda ao campo de engrenagem ao adicionar *dataset$gear* ao script R. Para campos com espaços ou carateres especiais, utilize plicas.
 
-5. Com o pacote de dados gerado automaticamente pelos campos selecionados, está pronto para escrever um script R, que resulta num desenho do Power BI Desktop no dispositivo predefinido do R. Depois de ter concluído o script, selecione **Executar script** no lado direito da barra de título do **Editor de script R**.
+5. Com o pacote de dados gerado automaticamente pelos campos selecionados, está pronto para escrever um script R, que resulta num desenho do Power BI Desktop no dispositivo predefinido do R. Depois de ter concluído o script, selecione **Executar script** no lado direito da barra de título do **Editor de script R** .
    
-    Quando selecionar **Executar script**, o Power BI Desktop identifica o desenho e apresenta-o na tela. Uma vez que o processo é executado na instalação local do R, confirme que os pacotes R necessários estão instalados.
+    Quando selecionar **Executar script** , o Power BI Desktop identifica o desenho e apresenta-o na tela. Uma vez que o processo é executado na instalação local do R, confirme que os pacotes R necessários estão instalados.
    
    O Power BI Desktop volta a desenhar o elemento visual quando qualquer um dos seguintes eventos ocorre:
    
-   * Quando selecionar **Executar script** na barra de título **Editor de scripts R**.
+   * Quando selecionar **Executar script** na barra de título **Editor de scripts R** .
    * Uma alteração de dados ocorre devido à atualização, filtragem ou destaque de dados.
 
      A imagem seguinte mostra um exemplo de código de desenho da correlação, que desenha as correlações entre atributos de tipos diferentes de carros.
 
      ![Exemplo de código de desenho da correlação](media/desktop-r-visuals/r-visuals-6.png)
 
-6. Para obter uma vista ampliada das visualizações, minimize o **Editor de scripts R**. Tal como noutros elementos visuais no Power BI Desktop, pode efetuar a filtragem cruzada do desenho de correlação, ao selecionar uma secção específica (como carros desportivos) no elemento visual em forma de anel (o elemento visual redondo à direita).
+6. Para obter uma vista ampliada das visualizações, minimize o **Editor de scripts R** . Tal como noutros elementos visuais no Power BI Desktop, pode efetuar a filtragem cruzada do desenho de correlação, ao selecionar uma secção específica (como carros desportivos) no elemento visual em forma de anel (o elemento visual redondo à direita).
 
     ![Vista ampliada das visualizações](media/desktop-r-visuals/r-visuals-7.png)
 
@@ -129,6 +129,8 @@ Os elementos visuais do R no Power BI Desktop apresentam as seguintes limitaçõ
 
 * Tamanhos dos dados: Os dados utilizados por um elemento visual do R para desenhar são limitados a 150 000 linhas. Se forem selecionadas mais de 150.000 linhas, apenas as primeiras 150.000 linhas serão utilizadas e uma mensagem será apresentada na imagem.
 
+* Tamanho do resultado: O elemento visual R tem um limite de tamanho de saída de 2 MB.
+
 * Resolução: Todos os elementos visuais do R são apresentados a 72 DPI.
 
 * Dispositivo de desenho: Só é suportado o desenho para o dispositivo predefinido. 
@@ -145,9 +147,9 @@ Os elementos visuais do R no Power BI Desktop apresentam as seguintes limitaçõ
 
 * Mudança de nome de colunas: os elementos visuais R não suportam a mudança de nome de colunas de entrada. As colunas serão referidas pelo seu nome original durante a execução do script.
 
-* Instalações do RRO: Nesta versão, as instalações do RRO não são automaticamente identificadas pela versão de 32 bits do Power BI Desktop; portanto, é necessário fornecer manualmente o caminho para o diretório de instalação do R em **Opções e definições** > **Opções** > **Scripting R**.
+* Instalações do RRO: Nesta versão, as instalações do RRO não são automaticamente identificadas pela versão de 32 bits do Power BI Desktop; portanto, é necessário fornecer manualmente o caminho para o diretório de instalação do R em **Opções e definições** > **Opções** > **Scripting R** .
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 Para obter mais informações sobre a linguagem R no Power BI, veja os seguintes artigos:
 
 * [Executar Scripts R no Power BI Desktop](../connect-data/desktop-r-scripts.md)
