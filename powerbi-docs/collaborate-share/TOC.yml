@@ -16,6 +16,8 @@
           href: service-usage-metrics.md
         - name: Monitorizar a utilização em áreas de trabalho novas
           href: service-modern-usage-metrics.md
+        - name: Recomendação de conteúdo
+          href: service-endorsement-overview.md
     - name: Manuais de instruções
       expanded: true
       items:
@@ -73,6 +75,8 @@
               href: service-url-filters.md
             - name: Subscrever-se e subscrever outros
               href: service-report-subscribe.md
+            - name: Recomendar o seu conteúdo
+              href: service-endorse-content.md
             - name: Feature content on Home (Destacar conteúdo na Home Page)
               href: service-featured-content.md
             - name: Embed report in SharePoint Online (Incorporar um relatório no SharePoint Online)
