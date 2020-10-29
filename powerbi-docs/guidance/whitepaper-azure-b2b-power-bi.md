@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: df6b3bd29089f37b11064216568523f442169794
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: cc4387c3c1c0f83347823bbc6b95beb437b235e9
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528396"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916895"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure Active Directory B2B
 
@@ -25,7 +25,7 @@ ms.locfileid: "91528396"
 **Revisores Técnicos:** Adam Wilson, Sheng Liu, Qian Liang, Sergei Gundorov, Jacob Grimm, Adam Saxton, Maya Shenhav, Nimrod Shalit, Elisabeth Olson
 
 > [!NOTE]
-> Pode guardar ou imprimir este papel branco selecionando **Imprimir** no seu navegador e, em seguida, selecionar **Guardar como PDF**.
+> Pode guardar ou imprimir este papel branco selecionando **Imprimir** no seu navegador e, em seguida, selecionar **Guardar como PDF** .
 
 ## <a name="introduction"></a>Introdução
 
@@ -306,7 +306,7 @@ A integração do Power BI com o Azure AD B2B dá à Contoso uma forma perfeita 
 
     Os utilizadores convidados podem posteriormente chegar à app do Contoso clicando no link no e-mail ou marcando o link. O Contoso também pode facilitar a vida aos utilizadores dos hóspedes, adicionando este link a qualquer portal de extranet existente que os utilizadores já utilizem.
 
-4. Próximos passos
+4. Passos seguintes
 
     Utilizando uma aplicação Power BI e Azure AD B2B, a Contoso conseguiu rapidamente criar um Portal BI para os seus fornecedores de forma sem código. Esta distribuição muito simplificada da análise padronizada a todos os fornecedores que dela necessitavam.
 
@@ -344,7 +344,7 @@ Com esta abordagem, a Contoso compra a capacidade Power BI Premium e atribui o s
 
 Os utilizadores externos também estão sujeitos ao consumo apenas experiências oferecidas aos utilizadores "gratuitos" no Power BI ao consumirem conteúdo dentro do Power BI Premium.
 
-A Contoso também pode tirar partido de outras capacidades premium do Power BI para as suas apps, como taxas de atualização aumentadas, capacidade dedicada e grandes tamanhos de modelo.
+A Contoso também pode tirar partido de outras capacidades premium do Power BI para as suas apps, como taxas de atualização aumentadas, capacidade e grandes tamanhos de modelo.
 
 ![Capacidades adicionais](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_24.png)
 
@@ -490,7 +490,7 @@ Os utilizadores convidados obtêm a experiência padrão apenas de leitura e que
 
 Para ajudar estes utilizadores a iniciar sessão no Power BI, forneça-lhes o URL do inquilino. Para encontrar o URL de inquilino, siga estes passos:
 
-1. No serviço Power BI, no menu superior, selecione ajuda ( **?** ), em  **seguida, Sobre o Power BI**.
+1. No serviço Power BI, no menu superior, selecione ajuda ( **?** ), em  **seguida, Sobre o Power BI** .
 2. Procure o valor ao lado **do URL do inquilino.** Este é o URL do inquilino que pode partilhar com os seus utilizadores convidados.
 
     ![URL de Inquilino](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
