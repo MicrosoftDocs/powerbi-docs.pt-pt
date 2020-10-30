@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 33b047952ce5ca7748bc54595e27c4025bd34e6b
-  ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+  ms.openlocfilehash: 3ed27c97169c1b4a579dadb001555445fe8fc43f
+  ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 10/14/2020
-  ms.locfileid: "92048838"
+  ms.lasthandoff: 10/29/2020
+  ms.locfileid: "92916780"
 highlightedContent:
   items:
   - title: Análise incorporada com o Power BI
@@ -85,7 +85,7 @@ additionalContent:
       summary: As APIs REST do Power BI fornecem pontos finais de serviço para recursos de utilizadores e ao nível da incorporação e administração.
       url: /rest/api/power-bi/
     - title: API REST do Azure Resource Manager
-      summary: Uma API que fornece um conjunto RESTful de serviços Web que lhe permite criar, obter, atualizar e eliminar capacidades dedicadas do Power BI.
+      summary: Uma API que fornece um conjunto RESTful de serviços Web que lhe permite criar, obter, atualizar e eliminar capacidades do Power BI.
       url: /rest/api/power-bi-embedded/
     - title: Documentação do Power Platform
       summary: Saiba como o Power BI, o Power Apps, o Power Automate e os Power Virtual Agents trabalham em conjunto.
