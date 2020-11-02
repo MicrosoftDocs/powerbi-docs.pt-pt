@@ -7,18 +7,22 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/26/2019
+ms.date: 10/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 83e1725b7ce7d38a00d0564702977c3a8eef7c1d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9aaa89db53e22fcefe55a53ec7a5414a8835255b
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222870"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501909"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>Enable encryption for SAP HANA (Ativar encriptação para o SAP HANA)
 
-Recomendamos que encripte as ligações a um servidor SAP HANA do Power BI Desktop e do serviço Power BI. Pode ativar a encriptação HANA com a biblioteca CommonCryptoLib (anteriormente conhecida como sapcrypto) proprietária do SAP e OpenSSL. O SAP recomenda a utilização da CommonCryptoLib, embora as funcionalidades básicas de encriptação estejam disponíveis em ambas as bibliotecas.
+Recomendamos que encripte as ligações a um servidor SAP HANA do Power BI Desktop e do serviço Power BI. Pode ativar a encriptação HANA com a biblioteca CommonCryptoLib (anteriormente conhecida como sapcrypto) proprietária do SAP. O SAP recomenda a utilização da CommonCryptoLib.
+
+> [!IMPORTANT]
+> O SAP já não suporta o OpenSSL. Como resultado, a Microsoft também descontinuou o respetivo suporte. As ligações novas e existentes continuarão a funcionar até ao final de 2020, mas deixarão de funcionar a partir de 1 de janeiro de 2021. Utilize a biblioteca CommonCryptoLib.
 
 Este artigo fornece uma descrição geral da ativação de encriptação com o OpenSSL e faz referência a algumas áreas específicas da documentação do SAP. Apesar de atualizarmos os conteúdos e ligações frequentemente, recomendamos que consulte sempre a documentação oficial do SAP para obter instruções e suporte abrangentes. Se quiser configurar a encriptação com a CommonCryptoLib em vez do OpenSSL, veja [How to Configure TLS/SSL in SAP HANA 2.0](https://blogs.sap.com/2018/11/13/how-to-configure-tlsssl-in-sap-hana-2.0/) (Como Configurar o TLS/SSL no SAP HANA 2.0). Para saber como realizar a migração do OpenSSL para a CommonCryptoLib, veja [SAP Note 2093286](https://launchpad.support.sap.com/#/notes/2093286) (Nota do SAP 2093286 [é necessário um utilizador S]).
 
@@ -39,7 +43,7 @@ Crie um pedido de assinatura do certificado X509 para o servidor HANA.
 
 1. Através do SSH, ligue-se como \<sid\>administrador ao computador Linux que está executar o servidor HANA.
 
-1. Aceda ao diretório Raiz _/__usr/sap/\<sid\>/home_.
+1. Aceda ao diretório Raiz _/_ _usr/sap/\<sid\>/home_ .
 
 1. Se ainda não existir, crie um diretório oculto com o nome _.__ssl_.
 
@@ -97,7 +101,7 @@ Certifique-se de que o certificado é assinado por uma autoridade de certificaç
 
 Teste a ligação no Power BI Desktop ou no serviço Power BI.
 
-1. No Power BI Desktop ou na página **Gerir gateways** do serviço Power BI, certifique-se de que a opção **Validar certificado do servidor** está ativada antes de tentar estabelecer ligação ao seu servidor SAP HANA. Para **Fornecedor criptográfico SSL**, selecione mscrypto caso tenha seguido os passos de configuração e commoncrypto caso tenha configurado a biblioteca como o seu fornecedor criptográfico. Deixe os campos Arquivo de chaves do SSL e Arquivo de confiança do SSL em branco.
+1. No Power BI Desktop ou na página **Gerir gateways** do serviço Power BI, certifique-se de que a opção **Validar certificado do servidor** está ativada antes de tentar estabelecer ligação ao seu servidor SAP HANA. Para **Fornecedor criptográfico SSL** , selecione mscrypto caso tenha seguido os passos de configuração e commoncrypto caso tenha configurado a biblioteca como o seu fornecedor criptográfico. Deixe os campos Arquivo de chaves do SSL e Arquivo de confiança do SSL em branco.
 
     - Power BI Desktop
 
@@ -107,4 +111,4 @@ Teste a ligação no Power BI Desktop ou no serviço Power BI.
 
         ![Certificado de validação do servidor – desktop](media/desktop-sap-hana-encryption/validate-server-certificate-desktop.png)
 
-1. Certifique-se de que consegue estabelecer uma ligação encriptada ao servidor através da opção **Validar certificado do servidor**. Poderá ativá-la ao carregar dados no Power BI Desktop ou atualizar um relatório publicado no serviço Power BI.
+1. Certifique-se de que consegue estabelecer uma ligação encriptada ao servidor através da opção **Validar certificado do servidor** . Poderá ativá-la ao carregar dados no Power BI Desktop ou atualizar um relatório publicado no serviço Power BI.

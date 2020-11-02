@@ -8,19 +8,19 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: ff1fb59a59f72483bab5ec55c9b2cf9805f83b81
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d23062a5b8fe4a1a68be372865746a1a7d497c26
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860285"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349673"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugestões para criar aplicações de modelo no Power BI
 
 Uma parte da [criação da sua aplicação de modelo](service-template-apps-create.md) no Power BI é a logística de criação, testes e produção da área de trabalho. No entanto, é evidente que a criação do relatório e do dashboard também é importante. Podemos resumir o processo de criação em quatro componentes principais. Trabalhar com esses componentes ajuda a criar a melhor aplicação de modelo possível:
 
-* Com **consultas**, pode [ligar](desktop-connect-to-data.md) e [transformar](../transform-model/desktop-query-overview.md) os dados e definir [parâmetros](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/). 
-* No **modelo de dados**, cria [relações](../transform-model/desktop-create-and-manage-relationships.md), [medidas](../transform-model/desktop-measures.md) e melhorias de Perguntas e Respostas.  
+* Com **consultas** , pode [ligar](desktop-connect-to-data.md) e [transformar](../transform-model/desktop-query-overview.md) os dados e definir [parâmetros](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/). 
+* No **modelo de dados** , cria [relações](../transform-model/desktop-create-and-manage-relationships.md), [medidas](../transform-model/desktop-measures.md) e melhorias de Perguntas e Respostas.  
 * As **[páginas do relatório](../create-reports/desktop-report-view.md)** incluem elementos visuais e filtros para apresentar informações sobre os seus dados.  
 * Os **[dashboards](../consumer/end-user-dashboards.md)** e os [mosaicos](../create-reports/service-dashboard-create.md) oferecem uma descrição geral das informações incluídas.
 * Os dados de exemplo tornam a sua aplicação detetável imediatamente após a instalação.
@@ -30,7 +30,7 @@ Poderá estar familiarizado com cada peça como as funcionalidades existentes do
 <a name="queries"></a>
 
 ## <a name="queries"></a>Consultas
-Para aplicações de modelo, são utilizadas consultas desenvolvidas no Power BI Desktop para ligar a sua origem de dados e importar dados. Estas consultas são necessárias para devolver um esquema consistente e são suportadas para atualizações de Dados Agendadas (o DirectQuery não é suportado).
+Para aplicações de modelo, são utilizadas consultas desenvolvidas no Power BI Desktop para ligar a sua origem de dados e importar dados. Estas consultas são necessárias para devolver um esquema consistente e são suportadas para atualizações de Dados Agendadas.
 
 ### <a name="connect-to-your-api"></a>Ligar à sua API
 Para começar, terá de ligar à sua API a partir do Power BI Desktop para começar a criar as suas consultas.

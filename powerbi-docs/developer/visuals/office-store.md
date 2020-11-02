@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/14/2020
-ms.openlocfilehash: 55661d8faa39d26d19d15696252cf46b74c84a50
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 1809b1f539c82de4bf98689dbb259594a603b90c
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049436"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349696"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicar elementos visuais do Power BI no Centro de Parceiros
 
@@ -62,6 +62,9 @@ Anexe o **ficheiro pbiviz** e o **ficheiro pbix do relatório de exemplo** ao e-
 ## <a name="submitting-to-appsource"></a>Submeter no AppSource
 
 Para submeter o elemento visual do Power BI no AppSource, precisa de obter um pacote de aplicação da equipa do Power BI e, em seguida, submetê-lo no Centro de Parceiros.
+
+>[!IMPORTANT]
+>Se estiver a enviar novamente um elemento visual, não poderá alterar o respetivo GUID.
 
 ### <a name="getting-the-app-package"></a>Obter o pacote de aplicação
 

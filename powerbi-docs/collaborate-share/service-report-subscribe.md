@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/15/2020
+ms.date: 10/22/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1fd5f4748ffd7a59095bfe34090d9494ff0a9134
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8768801f2d704644c888a14caf9b930dcd27f8fa
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526772"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501978"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Subscrever relatórios e dashboards no serviço Power BI para si e para outras pessoas
 
@@ -112,11 +112,16 @@ Os administradores do Power BI podem utilizar os registos de auditoria do Power 
 - Tal como outros produtos de BI, o período que definiu para a sua subscrição começa quando é iniciado o processamento da mesma.  Quando o processamento de relatório é concluído, a subscrição é colocada em fila e é enviada para os destinatários de e-mail.  Esforçamo-nos por processar e entregar as subscrições o mais rapidamente possível. No entanto, quando a procura for mais elevada, por vezes poderá observar um atraso maior devido ao número de subscrições que o Power BI consegue enviar de cada vez. A maioria dos clientes poderá observar um atraso não superior a 15 minutos no processamento e envio dos relatórios. Em determinadas alturas e para inquilinos com uma utilização especialmente elevada, poderá demorar até 30 minutos.  Não esperamos que os eventuais atrasos na entrega ultrapassem os 60 minutos, a partir do momento em que a subscrição é agendada.  Se observar um atraso assim tão grande, primeiro verifique se o endereço `no-reply-powerbi@microsoft.com` se encontra na lista de remetentes seguros do seu fornecedor de e-mail.  Se o e-mail não estiver bloqueado, contacte o suporte do Power BI para obter assistência.
 - Atualmente, as subscrições por e-mail para relatórios e dashboards que utilizem conjuntos de dados com ligações em tempo real só são suportadas ao subscrever utilizadores que não o próprio, exceto para relatórios paginados. Pode subscrever outras pessoas num relatório paginado, com o seu contexto de segurança. Saiba mais sobre como [subscrever os relatórios paginados](../consumer/paginated-reports-subscriptions.md).
 - O Power BI interrompe automaticamente a atualização nos conjuntos de dados associados a dashboards e relatórios que não tenham sido acedidos durante mais de dois meses. No entanto, se adicionar uma subscrição a um dashboard ou relatório, este não será interrompido, mesmo se não for acedido.
-- Se não estiver a receber os e-mails de subscrição, certifique-se de que o Nome Principal de Utilizador (UPN) pode receber e-mails.
+- Se não estiver a receber os e-mails da subscrição:
+
+    - Certifique-se de que o seu Nome Principal de Utilizador (UPN) pode receber e-mails.
+    - Embora tenha uma licença do Power BI Pro, é possível que não tenha uma licença do Microsoft Exchange. Caso não tenha, a sua conta do Azure Active Directory poderá não ter um e-mail ou um endereço de e-mail alternativo especificado. Nesse caso, embora a subscrição pareça ser enviada, acabará por não receber uma cópia.  Se o seu administrador do Power BI atribuir um endereço de email, o Power BI irá sincronizar a atualização da próxima vez que iniciar sessão e utilizará esse endereço de email para a subscrição.
+
 - Se o dashboard ou relatório estiver em capacidade Premium, pode utilizar aliases de e-mail de grupo para subscrições, em vez de subscrever colegas individualmente através dos endereços de e-mail. Os aliases são baseados no Active Directory atual.
 - Se os seus conteúdos não se encontrarem numa capacidade Premium, apenas os utilizadores do Power BI Pro poderão receber subscrições por e-mail. 
 - Atualmente, as subscrições não suportam a utilização de marcadores.
 - A opção para permitir o acesso ao relatório/dashboard é sempre apresentada como ativada ao editar uma subscrição existente.  Se desselecionar esta opção e guardar a subscrição, esse estado será guardado. No entanto, a opção será marcada por predefinição se editar novamente o relatório.
+- Se tiver um endereço de e-mail alternativo, mas não tiver um principal, o Power BI irá utilizar o alternativo para enviar a subscrição.
 
 ### <a name="dashboards"></a>Dashboards
 

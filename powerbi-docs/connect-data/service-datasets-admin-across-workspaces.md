@@ -9,16 +9,16 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0caaf46956656c141992482ae39773d19e8fc550
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 6cc602b96207b1662f0738c0936ca816bbfd0a03
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374156"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681077"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces"></a>Controlar a utilização de conjuntos de dados em áreas de trabalho
 
-A utilização de conjuntos de dados em áreas de trabalho é uma excelente forma de fomentar a cultura e a democratização de dados numa organização. Ainda assim, se for um administrador do Power BI, poderá querer restringir o fluxo de informações no seu inquilino do Power BI. Com a definição de inquilinos **Utilizar conjuntos de dados em áreas de trabalho**, poderá restringir total ou parcialmente a reutilização de conjuntos de dados por grupos de segurança.
+A utilização de conjuntos de dados em áreas de trabalho é uma excelente forma de fomentar a cultura e a democratização de dados numa organização. Ainda assim, se for um administrador do Power BI, poderá querer restringir o fluxo de informações no seu inquilino do Power BI. Com a definição de inquilinos **Utilizar conjuntos de dados em áreas de trabalho** , poderá restringir total ou parcialmente a reutilização de conjuntos de dados por grupos de segurança.
 
 ![Definições de área de trabalho de um administrador do Power BI](media/service-datasets-admin-across-workspaces/power-bi-admin-workspace-settings.png)
 
@@ -32,9 +32,9 @@ Se desativar esta definição, serão estes os efeitos nos criadores de relatór
 
 ## <a name="provide-a-link-for-the-certification-process"></a>Fornecer uma ligação para o processo de certificação
 
-Enquanto administrador do Power BI, pode fornecer um URL para a ligação **Saiba mais** na página de definições **Recomendação**.  Esta ligação pode direcionar os utilizadores para documentação acerca do seu processo de certificação. Se não fornecer um destino para a ligação **Saiba mais**, esta irá direcionar os utilizadores, por predefinição, para o artigo de [certificação de conjuntos de dados](service-datasets-certify.md).
+Enquanto administrador do Power BI, pode fornecer um URL para a ligação **Saiba mais** na página de definições **Recomendação** .  Para obter detalhes, veja [Ativar a certificação de conteúdo](../admin/service-admin-setup-certification.md). Esta ligação pode direcionar os utilizadores para documentação acerca do seu processo de certificação. Se não fornecer um destino para a ligação **Saiba mais** , esta irá direcionar os utilizadores, por predefinição, para o artigo [Endossar os seus conteúdos](../collaborate-share/service-endorse-content.md).
 
-![Ligação Saiba mais da certificação de conjuntos de dados](media/service-datasets-certify-promote/power-bi-dataset-learn-more-certification.png)
+![Ligação Saiba mais da certificação de conjuntos de dados](media/service-datasets-admin-across-workspaces/service-admin-certification-setup-dialog.png)
 
 ## <a name="next-steps"></a>Próximos passos
 

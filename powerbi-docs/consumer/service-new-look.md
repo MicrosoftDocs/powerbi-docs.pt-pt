@@ -6,91 +6,69 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 04/15/2020
+ms.date: 10/22/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 01edbc2a3ec3fe9423b5eab575b1b0450185d6bd
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: f398b0b3331d5677419c824646108f8d04815338
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538039"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462361"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>O "novo aspeto" do serviço Power BI
 
 O serviço Power BI (app.powerbi.com) tem um novo aspeto que facilita a visualização dos seus relatórios e a interação com os mesmos. O novo aspeto é mais simples e baseia-se na sua familiaridade com outros produtos da Microsoft. Fizemos dos conteúdos dos relatórios o principal foco do serviço Power BI, ao atualizarmos os ícones e mudarmos para um tema de cores mais claro. 
 
-Procura informações sobre o novo aspeto do **Power BI Desktop**? Veja [Utilizar o friso atualizado no Power BI Desktop](../create-reports/desktop-ribbon.md).
+Procura informações sobre o novo aspeto do **Power BI Desktop** ? Veja [Utilizar o friso atualizado no Power BI Desktop](../create-reports/desktop-ribbon.md).
 
 Eis uma descrição geral das alterações do novo aspeto. Veja as secções numeradas para obter mais detalhes:
 
-![Descrição geral das alterações do novo aspeto](media/service-new-look/power-bi-new-look-changes.png)
+![Captura de ecrã a mostrar a Descrição geral das alterações do novo aspeto.](media/service-new-look/power-bi-new-look-changes-callouts.png)
 
-Procura uma ação específica? Veja [The "new look": onde se encontram as ações?](service-new-look-where-actions.md).
+Procura uma ação específica? Veja [The "new look": Where did the actions go?](service-new-look-where-actions.md) (O “novo aspeto”: onde se encontram as ações?)
 
-## <a name="quick-tour-of-the-changes"></a>Breve apresentação das alterações
+## <a name="1-vertical-list-of-pages"></a>1. Lista vertical de páginas 
+Na Vista de leitura, os nomes das páginas do relatório estão incluídos numa lista num painel vertical. Encontram-se destacados para que possa reparar neles facilmente e a navegação é semelhante à do Word ou PowerPoint. Pode aumentar ou diminuir a restante área do relatório: Redimensione o painel vertical ou selecione as setas duplas para o fechar por completo.
 
-Esta animação demonstra as alterações ao aspeto de um relatório.
+![Captura de ecrã a mostrar os nomes das páginas do relatório ao lado.](media/service-new-look/power-bi-new-look-report-pages.png)
 
-![Breve apresentação do novo aspeto](media/service-new-look/power-bi-new-look-quick-tour.gif)
+Se tiver permissão para editar um relatório, pode defini-lo de modo a que os nomes das páginas estejam na parte inferior, tal como estão na Vista de edição do relatório. Veja [Definir o painel Páginas](../create-reports/power-bi-report-settings.md#set-the-pages-pane) no artigo "Alterar as definições de relatórios do Power BI" para obter mais informações.
 
-## <a name="1-opt-in-to-the-new-look"></a>1. Ativar o novo aspeto
+## <a name="2-simplified-action-bar"></a>2. Barra de ação simplificada 
 
-Qualquer utilizador do serviço Power BI pode utilizar o novo aspeto. Basta clicar em **Novo aspeto desligado** para a opção mudar para **Novo aspeto ligado**.
+A barra de ação simplificada na parte superior da página apresenta os comandos mais relevantes para os consumidores de relatórios numa posição destacada. É mais fácil exportar, partilhar, conversar no Teams e subscrever. 
 
-![Ativar o novo aspeto](media/service-new-look/power-bi-new-look-off.png)
+![Captura de ecrã a mostrar a Nova barra de ação.](media/service-new-look/power-bi-new-look-action-bar.png)
 
-Se precisar de regressar ao aspeto antigo, só terá de o **desativar** ![Novo aspeto ativado](media/service-new-look/power-bi-new-look-toggle-on.png). Se esta opção não for apresentada, selecione o menu de reticências no canto superior direito.
+## <a name="3-where-are-the-report-commands"></a>3. Onde estão os comandos do relatório?
 
-![Desativar o novo aspeto](media/service-new-look/power-bi-new-look-on.png)
+Não removemos nenhuma das funcionalidades do antigo aspeto. Selecione **Mais opções (…)** para outros comandos mais avançados. Veja [O "novo aspeto": onde se encontram as ações?](service-new-look-where-actions.md) para obter mais informações.
 
-## <a name="2-view-report-details"></a>2. Ver detalhes do relatório 
+## <a name="4-new-filter-experience"></a>4. Nova experiência de filtro
+
+Com o novo aspeto, verá o novo painel Filtros do relatório por predefinição. Quando pairar o cursor sobre o ícone de Filtro de um elemento visual, verá todos os filtros e segmentações de dados que afetam esse elemento visual.
+
+![Captura de ecrã a mostrar todos os filtros e segmentações de dados que afetam esse elemento visual.](media/service-new-look/power-bi-new-look-filters.png)
+
+## <a name="view-report-details"></a>Ver detalhes do relatório 
 
 Veja rapidamente detalhes, como a data da última atualização e as informações de contacto, diretamente na faixa superior.  Abra o menu para ver detalhes adicionais sobre o relatório. Até pode enviar um e-mail ao proprietário do relatório.
 
-![Ver detalhes do relatório](media/service-new-look/power-bi-new-look-metadata.png)
+![Captura de ecrã a mostrar a opção Ver detalhes do relatório.](media/service-new-look/power-bi-new-look-metadata.png)
 
-## <a name="3-vertical-list-of-pages"></a>3. Lista vertical de páginas 
-Os nomes das páginas do relatório estão agora incluídos numa lista num painel vertical. Encontram-se destacados para que possa reparar neles facilmente e a navegação é semelhante à do Word ou PowerPoint. Pode redimensionar o painel vertical para aumentar ou diminuir a restante área do relatório.
-
-![Páginas do relatório](media/service-new-look/power-bi-new-look-report-pages.png)
-
-## <a name="4-simplified-action-bar"></a>4. Barra de ação simplificada 
-
-A barra de ação simplificada na parte superior da página apresenta os comandos mais relevantes para os consumidores de relatórios numa posição destacada. Agora é mais fácil exportar, subscrever, colaborar e explorar através de filtros e marcadores.
-
-![Nova barra de ação](media/service-new-look/power-bi-new-look-action-bar.png)
-
-## <a name="5-where-are-the-report-commands"></a>5. Onde estão os comandos do relatório?
-
-Não removemos nenhuma das funcionalidades do antigo aspeto. Poderá encontrar os comandos adicionais, como Editar, Guardar uma cópia, entre outros, ao expandir o menu de reticências (...) na barra de ação. Além disso, pode aceder às métricas de utilização na lista de conteúdos.
-
-![Barra de ação do relatório no novo aspeto](media/service-new-look/power-bi-report-action-bar-new-look.gif)
-
-### <a name="where-are-file-menu-actions"></a>Onde estão as ações do menu Ficheiro?
-
-Está à procura das ações do menu **Ficheiro**? As ações que estavam no menu **Ficheiro** também estão agora no menu **Mais opções** (...). 
-
-![Menu Ficheiro no novo aspeto](media/service-new-look/power-bi-file-menu-new-look.gif)
-
-## <a name="6-new-filter-experience"></a>6. Nova experiência de filtro
-
-As atualizações recentes, como a capacidade de ver os filtros aplicados e o novo painel de filtros, estão disponíveis por predefinição com o novo aspeto. Mesmo que o Report Designer não tenha sido atualizado para a nova experiência de filtros, poderá ver o novo painel de filtros.
-
-![Redefinição de filtros](media/service-new-look/power-bi-new-look-filters.png)
-
-## <a name="dashboard-new-look-experience"></a>A experiência do "novo aspeto" do dashboard 
-
-Os dashboards também têm uma barra de ação simplificada, como os relatórios e as aplicações, de modo a garantir uma experiência consistente que mantenha as diferenças funcionais. Veja onde se encontram agora as ações num dashboard.
- 
-![Barra de ação do dashboard no novo aspeto](media/service-new-look/power-bi-dashboard-action-bar-new-look.gif)
-
-## <a name="no-changes-to-edit-mode"></a>Não fizemos alterações ao modo de edição 
+## <a name="no-changes-to-report-edit-mode"></a>Sem alterações ao modo de edição do relatório 
 
 Mantivemos a experiência de criação semelhante à experiência do Desktop. As alterações do novo aspeto aplicam-se apenas à vista de leitura.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="dashboard-new-look-experience"></a>A experiência do "novo aspeto" do dashboard 
 
-- [Utilizar o friso atualizado no Power BI Desktop](../create-reports/desktop-ribbon.md)
+Os dashboards também têm uma barra de ação simplificada. São como relatórios e aplicações, para uma experiência consistente, mas mantêm as diferenças funcionais. Veja onde se encontram agora as ações num dashboard.
+ 
+![Captura de ecrã a mostrar a Barra de ação do dashboard no novo aspeto.](media/service-new-look/power-bi-dashboard-action-bar-new-look.png)
+
+## <a name="next-steps"></a>Passos seguintes
+
+- [Use the updated ribbon in Power BI Desktop (Utilizar o friso atualizado no Power BI Desktop)](../create-reports/desktop-ribbon.md)
 - [Aceitar o “novo aspeto” da área de trabalho](../collaborate-share/service-workspaces-new-look.md)
 - [Power BI para consumidores](end-user-consumer.md)

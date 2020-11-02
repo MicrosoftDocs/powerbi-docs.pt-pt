@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: edf49ba9fa85ab2c46040fdac74691bea8b5b960
-ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
+ms.openlocfilehash: 68698d51b074102a8d8e556101fcfaf6a39c2c62
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91928315"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349420"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>Ligar a uma base de dados Google BigQuery no Power BI Desktop
 No Power BI Desktop, pode ligar a uma base de dados Google **BigQuery** e utilizar os dados subjacentes, tal como faria com outra origem de dados no Power BI Desktop.
@@ -49,7 +49,7 @@ Existem alguns limites e aspetos a ter em conta com o conector do **Google BigQu
   Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here"])
   ```
 
-  A partir da versão de setembro de 2020, permitimos o suporte para a [API de Armazenamento Google BigQuery](https://cloud.google.com/bigquery/docs/reference/storage). Alguns clientes poderão encontrar problemas com esta caraterística se usarem permissões granulares. Neste cenário, poderá ver a seguinte mensagem de erro:
+  A partir da versão de setembro de 2020, permitimos o suporte para a [API de Armazenamento Google BigQuery](https://cloud.google.com/bigquery/docs/reference/storage). Esta funcionalidade está ativada por predefinição e é controlada pelo argumento booleano opcional denominado "UseStorageApi". Alguns clientes poderão encontrar problemas com esta caraterística se usarem permissões granulares. Neste cenário, poderá ver a seguinte mensagem de erro:
 
   `ERROR [HY000] [Microsoft][BigQuery] (131) Unable to authenticate with Google BigQuery Storage API. Check your account permissions`
 
@@ -60,7 +60,15 @@ Existem alguns limites e aspetos a ter em conta com o conector do **Google BigQu
   - `bigquery.readsessions.update` – Atualiza uma sessão de leitura através da API de Armazenamento BigQuery.
 
   Estas permissões normalmente são fornecidas na função BigQuery.User. Para obter mais informações, veja [Funções e permissões predefinidas do Google BigQuery](https://cloud.google.com/bigquery/docs/access-control).
-
+  
+  Se os passos anteriores não resolverem o problema ou se quiser desativar o suporte da API de Armazenamento, altere a sua consulta para a seguinte:
+  ```
+  Source = GoogleBigQuery.Database([UseStorageApi=false])
+  ```
+  Em alternativa, se já estiver a utilizar um projeto de faturação, altere a consulta para a seguinte:
+  ```
+  Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here", UseStorageApi=false])
+  ```
 
 ## <a name="next-steps"></a>Próximos passos
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:

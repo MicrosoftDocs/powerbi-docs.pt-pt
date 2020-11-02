@@ -8,15 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 7624e51bf8c1ee49f2b7e7a0682e12b24bcdfa98
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: c43542bc6c2bb0699403062f68024f9718bbbb60
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748477"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501955"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Registo de alterações da API de elementos visuais do Power BI
 Esta página contém um resumo rápido das versões da API. As versões aqui listadas são consideradas estáveis e não serão alteradas.
+
+
+## <a name="api-v340"></a>API v3.4.0
+  * `fetchMoreData`: novo parâmetro `aggregateSegments` (predefinição true) para suportar fetchMoreData sem agregação
 
 ## <a name="api-v320"></a>API v3.2.0
   * Suporta **[supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)**

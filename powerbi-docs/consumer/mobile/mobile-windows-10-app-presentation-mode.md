@@ -1,6 +1,6 @@
 ---
 title: Ver no modo de apresentação no Surface Hub e Windows 10 – Power BI
-description: Saiba mais sobre mostrar relatórios do Power BI no Surface Hub e mostrar dashboards, relatórios e mosaicos do Power BI em ecrã inteiro, em dispositivos Windows 10.
+description: Saiba mais sobre como apresentar relatórios do Power BI no Surface Hub e mostrar dashboards, relatórios e mosaicos do Power BI no modo de apresentação em dispositivos Windows 10.
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,17 +8,17 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: a47af4b96e80508a6ea21de2d8d3e0b40f907d8d
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: a982374bbf713d4e0c970da601fdca3249120cbe
+ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92025939"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92683331"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Ver relatórios e dashboards no modo de apresentação no Surface Hub e em dispositivos com o Windows 10
 Pode utilizar o modo de apresentação para ver relatórios e dashboards em ecrã inteiro em dispositivos com o Windows 10 e no Surface Hub. O modo de apresentação é útil para mostrar o Power BI em reuniões ou conferências, num projetor de escritório dedicado ou simplesmente para maximizar o espaço num ecrã pequeno.
 
-![Relatório em modo de ecrã inteiro](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
+![Captura de ecrã a mostrar um relatório no modo de apresentação.](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
 No modo de apresentação:
 * Todo o “cromado” (como as barras de navegação e de menus) desaparece, o que facilita a concentração nos dados do relatório.
@@ -29,7 +29,7 @@ No modo de apresentação:
 >O suporte à aplicação móvel Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="use-presentation-mode"></a>Utilizar o modo de apresentação
-Na aplicação móvel Power BI, toque no ícone **Ecrã inteiro** para entrar no modo de ecrã inteiro.
+Na aplicação móvel do Power BI, toque no ícone **Mudar para o modo de apresentação** .
 ![Ícone de ecrã inteiro](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) O cromado da aplicação desaparece e é apresentada uma barra de ferramentas de ação na parte inferior do ecrã ou nos lados direito e esquerdo (consoante o tamanho do ecrã).
 
 [![Relatório em modo de ecrã inteiro com barras de ferramentas laterais](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-toolbar.png)](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-toolbar-expanded.png#lightbox)

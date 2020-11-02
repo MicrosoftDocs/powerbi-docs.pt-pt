@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 60bb1ef7421d4ebcedd49d2e973cf245edec0381
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 644e4499a335f18febadf33c371bd15e01499701
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965020"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349627"
 ---
 # <a name="row-level-security-rls-guidance-in-power-bi-desktop"></a>Orientação de segurança ao nível da linha (RLS) com o Power BI Desktop
 
@@ -32,22 +32,22 @@ Este artigo destina-se aos modeladores de dados que trabalham com o Power BI De
 
 Quando são atribuídas várias funções a um utilizador de relatório, os filtros RLS tornam-se aditivos. Ou seja, os utilizadores do relatório podem ver as linhas da tabela que representam a união desses filtros. Além disso, em alguns cenários não é possível garantir que um utilizador do relatório não vê linhas numa tabela. Assim, ao contrário das permissões aplicadas a objetos de base de dados do SQL Server (e outros modelos de permissão), o princípio “uma vez negado sempre negado” não se aplica.
 
-Considere um modelo com duas funções: a primeira função, denominada **Trabalhadores**, restringe o acesso a todas as linhas da tabela **Folha de pagamentos**, com a seguinte expressão de regra:
+Considere um modelo com duas funções: a primeira função, denominada **Trabalhadores** , restringe o acesso a todas as linhas da tabela **Folha de pagamentos** , com a seguinte expressão de regra:
 
 ```dax
 FALSE()
 ```
 
 > [!NOTE]
-> Uma regra não devolverá linhas de tabela quando a expressão a avaliar como **falsa**.
+> Uma regra não devolverá linhas de tabela quando a expressão a avaliar como **falsa** .
 
-No entanto, uma segunda função, denominada **Gestores**, permite o acesso a todas as linhas da tabela **Folha de pagamentos**, com a seguinte expressão de regra:
+No entanto, uma segunda função, denominada **Gestores** , permite o acesso a todas as linhas da tabela **Folha de pagamentos** , com a seguinte expressão de regra:
 
 ```dax
 TRUE()
 ```
 
-Tenha em atenção: caso um utilizador de relatório seja mapeado para ambas as funções, verá todas as linhas da tabela **Salário**.
+Tenha em atenção: caso um utilizador de relatório seja mapeado a ambas as funções, verá todas as linhas da tabela **Folha de pagamentos** .
 
 ## <a name="optimize-rls"></a>Otimizar a RLS
 
@@ -72,9 +72,9 @@ Os membros podem ser contas de utilizador ou grupos de segurança. Sempre que po
 
 ## <a name="validate-roles"></a>Validar as funções
 
-Teste cada função para garantir que filtra corretamente o modelo. Pode testar facilmente com o comando **Ver Como** no separador do friso **Modelação**.
+Teste cada função para garantir que filtra corretamente o modelo. Pode testar facilmente com o comando **Ver Como** no separador do friso **Modelação** .
 
-Quando o modelo tiver regras dinâmicas com a função DAX [USERNAME](/dax/username-function-dax), confirme que testa quanto a valores esperados _e inesperados_. Ao incorporar o conteúdo do Power BI, especificamente com o cenário [Os dados pertencem à aplicação](../developer/embedded/embedding.md#embedding-for-your-customers), a lógica da aplicação pode transmitir qualquer valor como nome de utilizador de identidade em vigor. Sempre que possível, confirme que valores acidentais ou maliciosos resultam em filtros que não devolvem linhas.
+Quando o modelo tiver regras dinâmicas com a função DAX [USERNAME](/dax/username-function-dax), confirme que testa quanto a valores esperados _e inesperados_ . Ao incorporar o conteúdo do Power BI, especificamente com o cenário [Os dados pertencem à aplicação](../developer/embedded/embedding.md#embedding-for-your-customers), a lógica da aplicação pode transmitir qualquer valor como nome de utilizador de identidade em vigor. Sempre que possível, confirme que valores acidentais ou maliciosos resultam em filtros que não devolvem linhas.
 
 Considere um exemplo com o Power BI Embedded, em que a aplicação passa a função de tarefa do utilizador como o nome de utilizador em vigor: “Gestor” ou “Trabalhador”. Os gestores conseguem ver todas as linhas, mas os trabalhadores só conseguem ver a linhas onde o valor da coluna **Tipo** é “Interno”.
 
@@ -88,7 +88,7 @@ IF(
 )
 ```
 
-O problema desta expressão de regra é que todos os valores, exceto “Trabalhador”, devolvem _todas as linhas da tabela_. Assim, um valor acidental, como “Trbalhador”, devolverá acidentalmente todas as linhas da tabela. Portanto, é mais seguro escrever uma expressão que testa cada valor esperado. Na seguinte expressão de regra melhorada, um valor inesperado resultará na devolução de uma tabela sem linhas.
+O problema desta expressão de regra é que todos os valores, exceto “Trabalhador”, devolvem _todas as linhas da tabela_ . Assim, um valor acidental, como “Trbalhador”, devolverá acidentalmente todas as linhas da tabela. Portanto, é mais seguro escrever uma expressão que testa cada valor esperado. Na seguinte expressão de regra melhorada, um valor inesperado resultará na devolução de uma tabela sem linhas.
 
 ```dax
 IF(
@@ -104,7 +104,7 @@ IF(
 
 ## <a name="design-partial-rls"></a>Conceção parcial da RLS
 
-Por vezes os cálculos precisam de valores não limitados pelos filtros RLS. Por exemplo, um relatório pode precisar de apresentar um rácio de receitas obtidas pela região de vendas do utilizador do relatório relativamente a _todas as receitas obtidas_.
+Por vezes os cálculos precisam de valores não limitados pelos filtros RLS. Por exemplo, um relatório pode precisar de apresentar um rácio de receitas obtidas pela região de vendas do utilizador do relatório relativamente a _todas as receitas obtidas_ .
 
 Apesar de não ser possível que uma expressão DAX substitua a RLS, de facto, nem sequer consegue determinar se a RLS está aplicada, pode utilizar uma tabela de modelo resumida. A tabela de modelo resumida é consultada para recuperar as receitas de “todas as regiões” e não é limitada pelos filtros RLS.
 
@@ -114,12 +114,12 @@ Vamos ver como implementar este requisito de design. Primeiro, considere o segui
 
 O modelo é composto por quatro tabelas:
 
-- A tabela **Vendedor** armazena uma linha por vendedor. Inclui a coluna **EmailAddress**, que armazena o endereço de e-mail de cada vendedor. Esta tabela está oculta.
-- A tabela **Vendas** armazena uma linha por encomenda. Inclui a medida **% de Receitas de Todas as Regiões**, que se destina a devolver um rácio das receitas obtidas pela região do utilizador do relatório relativamente às receitas obtidas por todas as regiões.
+- A tabela **Vendedor** armazena uma linha por vendedor. Inclui a coluna **EmailAddress** , que armazena o endereço de e-mail de cada vendedor. Esta tabela está oculta.
+- A tabela **Vendas** armazena uma linha por encomenda. Inclui a medida **% de Receitas de Todas as Regiões** , que se destina a devolver um rácio das receitas obtidas pela região do utilizador do relatório relativamente às receitas obtidas por todas as regiões.
 - A tabela **Data** armazena uma linha por data e permite filtrar e agrupar o ano e o mês.
 - **SalesRevenueSummary** é uma tabela calculada. Armazena receitas totais para cada data de encomenda. Esta tabela está oculta.
 
-A expressão seguinte define a tabela calculada **SalesRevenueSummary**:
+A expressão seguinte define a tabela calculada **SalesRevenueSummary** :
 
 ```dax
 SalesRevenueSummary =
@@ -132,7 +132,7 @@ SUMMARIZECOLUMNS(
 > [!NOTE]
 > Uma [tabela de agregação](../transform-model/desktop-aggregations.md) poderia conseguir o mesmo requisito de conceção.
 
-A seguinte regra RLS é aplicada à tabela **Vendedor**:
+A seguinte regra RLS é aplicada à tabela **Vendedor** :
 
 ```dax
 [EmailAddress] = USERNAME()
@@ -142,11 +142,11 @@ Cada uma das três relações de modelo é descrita na tabela seguinte:
 
 |Relação|Descrição|
 |---------|---------|
-|![Terminador de fluxograma 1.](media/common/icon-01-red-30x30.png)|Existe uma relação de muitos para muitos entre as tabelas **Vendedor** e **Vendas**. A regra RLS filtra a coluna **EmailAddress** da tabela **Vendedor** oculta, com a função DAX [USERNAME](/dax/username-function-dax). O valor da coluna **Região** (do utilizador do relatório) propaga-se para a tabela **Vendas**.|
-|![Terminador de fluxograma 2.](media/common/icon-02-red-30x30.png)|Existe uma relação de um para muitos entre as tabelas **Data** e **Vendas**.|
-|![Terminador de fluxograma 3.](media/common/icon-03-red-30x30.png)|Existe uma relação de um para muitos entre as tabelas **Data** e **SalesRevenueSummary**.|
+|![Terminador de fluxograma 1.](media/common/icon-01-red-30x30.png)|Existe uma relação de muitos para muitos entre as tabelas **Vendedor** e **Vendas** . A regra RLS filtra a coluna **EmailAddress** da tabela **Vendedor** oculta, com a função DAX [USERNAME](/dax/username-function-dax). O valor da coluna **Região** (do utilizador do relatório) propaga-se para a tabela **Vendas** .|
+|![Terminador de fluxograma 2.](media/common/icon-02-red-30x30.png)|Existe uma relação de um para muitos entre as tabelas **Data** e **Vendas** .|
+|![Terminador de fluxograma 3.](media/common/icon-03-red-30x30.png)|Existe uma relação de um para muitos entre as tabelas **Data** e **SalesRevenueSummary** .|
 
-A seguinte expressão define a medida **% de Receita de Todas as Regiões**:
+A seguinte expressão define a medida **% de Receita de Todas as Regiões** :
 
 ```dax
 Revenue % All Region =

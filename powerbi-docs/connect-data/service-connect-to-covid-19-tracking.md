@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5487d9f0eb5d8b172cc3e29ea24e88704267cd85
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 01dab6cad6142b455a0d61a0011e43cea6da23e1
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230258"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349530"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>Ligar ao COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA)
 Este artigo indica como instalar a aplicação de modelo COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA) e como ligar às origens de dados.
@@ -26,13 +26,13 @@ Depois de ter instalado a aplicação de modelo e ligado às origens de dados, p
 
 ## <a name="install-the-app"></a>Instalar a aplicação
 
-1. Clique na seguinte ligação para aceder à aplicação: [Aplicação de modelo COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA)](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.covid19ms)
+1. Clique na seguinte ligação para aceder à aplicação: [Aplicação de modelo COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
-1. Quando estiver na página Appsource da Aplicação, clique em [**OBTER AGORA**](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.covid19ms).
+1. Quando estiver na página Appsource da Aplicação, clique em [**OBTER AGORA**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms).
 
-    [![COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA) no Appsource](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.covid19ms)
+    [![COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA) no Appsource](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
-1. Quando lhe for pedido, clique em **Instalar**. Assim que a aplicação estiver instalada, irá vê-la na página Aplicações.
+1. Quando lhe for pedido, clique em **Instalar** . Assim que a aplicação estiver instalada, irá vê-la na página Aplicações.
 
    ![COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA) na página Aplicações](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-apps-page-icon.png)
 
@@ -40,15 +40,25 @@ Depois de ter instalado a aplicação de modelo e ligado às origens de dados, p
 
 1. Clique no ícone na página Aplicações para abrir a aplicação.
 
-1. No ecrã inicial que é apresentado, selecione **Ligar**.
+1. No ecrã inicial que é apresentado, selecione **Ligar** .
 
    ![Ecrã inicial da aplicação de modelo](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-splash-screen.png)
 
-1. Serão apresentadas duas caixas de diálogo de início de sessão, uma após a outra. Em ambas, defina o nível de privacidade como Público.
+1. Será apresentada a caixa de diálogo de parâmetros. Não há parâmetros obrigatórios. Clique em **Seguinte** .
 
-   ![Caixa de diálogo de início de sessão do COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA)](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-signin-dialog.png)
+   ![Captura de ecrã a mostrar a caixa de diálogo de parâmetros do relatório COVID-19 US Tracking Report.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-parameters-dialog.png)
 
-   O relatório ligará às origens de dados e será preenchido com dados atualizados. Durante este tempo, o monitor de atividade será ativado.
+1. Será apresentada a caixa de diálogo do método de autenticação. Os valores recomendados são pré-preenchidos. Não os altere, a menos que tenha conhecimento específico de diferentes valores.
+
+    Clique em **Seguinte** .
+
+   ![Captura de ecrã do caixa de diálogo de autenticação do relatório COVID-19 US Tracking Report.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-authentication-dialog.png)
+
+1. Clique em **Iniciar sessão** .
+
+   ![Captura de ecrã a mostrar a caixa de diálogo de início de sessão do relatório COVID-19 US Tracking Report](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-signin-dialog.png)
+ 
+   O relatório ligará às origens de dados e será preenchido com dados atualizados. Durante esse período, verá dados de exemplo e que a atualização está em curso.
 
    ![Atualização do COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA) em curso](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-refresh-monitor.png)
 
@@ -60,7 +70,7 @@ Quando a atualização de dados for concluída, estará na área de trabalho ass
 
 Para obter detalhes, veja [Personalizar e partilhar a aplicação](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Certifique-se de que revê as [isenções de responsabilidade do relatório](../create-reports/sample-covid-19-us.md#disclaimers) antes de publicar ou distribuir a aplicação.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * [Exemplo de controlo da COVID-19 das autoridades locais e estaduais dos EUA](../create-reports/sample-covid-19-us.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 * [O que são as aplicações de modelo do Power BI?](../connect-data/service-template-apps-overview.md)

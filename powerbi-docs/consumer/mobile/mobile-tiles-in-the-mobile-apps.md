@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 23f1ab7fb7ae5e143084042699db708c0827114f
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 1afde236dd4fc9698efe4391cb2d9e095ade37a4
+ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668557"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92683377"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Explorar mosaicos nas aplicações móveis do Power BI
 Aplica-se a:
@@ -35,7 +35,7 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
    
     ![Captura de ecrã a mostrar um gráfico de linhas, com os valores selecionados para Vendas deste Ano e Vendas do Último Ano.](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *Por exemplo, neste gráfico de linhas, os valores selecionados são para **Vendas deste Ano** e **Vendas do Último Ano** em **agosto**.*  
+   *Por exemplo, neste gráfico de linhas, os valores selecionados são para **Vendas deste Ano** e **Vendas do Último Ano** em **agosto** .*  
    
    Num gráfico circular, toque num setor do gráfico para mostrar o valor do setor na parte superior do gráfico.  
    
@@ -58,7 +58,7 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
    
     Depois de abrir a ligação na aplicação do Power BI, pode copiar a ligação e abri-la numa janela do browser.
 7. [Abra o relatório](mobile-reports-in-the-mobile-apps.md) ![Ícone Abrir relatório no iOS.](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) no qual o mosaico se baseia.
-8. Para sair do modo de detalhe do mosaico, toque no nome do mosaico e, em seguida, toque no nome do dashboard ou em **A Minha Área de Trabalho**.
+8. Para sair do modo de detalhe do mosaico, toque no nome do mosaico e, em seguida, toque no nome do dashboard ou em **A Minha Área de Trabalho** .
    
     ![Captura de ecrã a mostrar um dashboard com ponteiros para A Minha Área de Trabalho e Exemplo de Análise de Oportunidade.](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
 
@@ -111,10 +111,10 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
    
    *Neste gráfico de barras, os valores da barra **Decor** são apresentados na parte superior do gráfico.*
    
-   Toque no ícone **Ecrã inteiro** ![Ícone de ecrã inteiro](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) para abrir o mosaico em modo de ecrã inteiro, sem as barras de navegação e de menus.
+   Toque no ícone **Mudar para o modo de apresentação** ![Imagem do ícone de mudar para apresentação.](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) para abrir o mosaico no modo de apresentação, sem as barras de navegação e de menu.
    
    > [!NOTE]
-   > Também pode [ver os dashboards e relatórios no modo de ecrã inteiro](mobile-windows-10-app-presentation-mode.md) na aplicação móvel do Power BI para Windows 10.
+   > Também pode [ver os dashboards e relatórios no modo de apresentação](mobile-windows-10-app-presentation-mode.md) na aplicação móvel do Power BI para Windows 10.
    > 
    > 
    

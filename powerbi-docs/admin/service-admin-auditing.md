@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 0c1c113f100c3ae1db0902c90833c44788fa7ec6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 330f844e9c97a3a59ff854ac14612c328b7cb9b6
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857709"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680990"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Controlar as atividades dos utilizadores no Power BI
 
@@ -48,7 +48,7 @@ Tem de cumprir estes requisitos para aceder aos registos de atividades do Power 
 
 ### <a name="activityevents-rest-api"></a>API REST do ActivityEvents
 
-Pode utilizar uma aplicação administrativa baseada nas APIs REST do Power BI para exportar eventos de atividade para um arquivo de blob ou base de dados SQL. Em seguida, pode criar um relatório de utilização personalizado sobre os dados exportados. Na chamada à REST API do **ActivityEvents**, tem de especificar uma data de início e data de fim e, opcionalmente, um filtro para selecionar atividades por tipo de atividade ou ID de utilizador. Como o registo de atividades pode conter uma grande quantidade de dados, a API **ActivityEvents** só suporta atualmente a transferência de até um dia de dados por pedido. Por outras palavras, a data de início e a data de fim têm de especificar o mesmo dia, como no seguinte exemplo. Certifique-se de que especifica os valores DataTime no formato UTC.
+Pode utilizar uma aplicação administrativa baseada nas APIs REST do Power BI para exportar eventos de atividade para um arquivo de blob ou base de dados SQL. Em seguida, pode criar um relatório de utilização personalizado sobre os dados exportados. Na chamada à REST API do **ActivityEvents** , tem de especificar uma data de início e data de fim e, opcionalmente, um filtro para selecionar atividades por tipo de atividade ou ID de utilizador. Como o registo de atividades pode conter uma grande quantidade de dados, a API **ActivityEvents** só suporta atualmente a transferência de até um dia de dados por pedido. Por outras palavras, a data de início e a data de fim têm de especificar o mesmo dia, como no seguinte exemplo. Certifique-se de que especifica os valores DataTime no formato UTC.
 
 ```
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?startDateTime='2019-08-31T00:00:00'&endDateTime='2019-08-31T23:59:59'
@@ -81,7 +81,7 @@ Para saber mais sobre como utilizar a API REST do Power BI, incluindo exemplos
 
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Cmdlet Get-PowerBIActivityEvent
 
-Transfira eventos de atividade ao utilizar os cmdlets do Power BI Management para PowerShell. O cmdlet **Get-PowerBIActivityEvent** processa automaticamente o token de continuação. O cmdlet **Get-PowerBIActivityEvent** utiliza um parâmetro StartDateTime e um parâmetro EndDateTime com as mesmas restrições que a API REST **ActivityEvents**. Por outras palavras, a data de início e a data de fim têm de fazer referência ao mesmo valor de data, porque só é possível obter os dados de atividade para um dia de cada vez.
+Transfira eventos de atividade ao utilizar os cmdlets do Power BI Management para PowerShell. O cmdlet **Get-PowerBIActivityEvent** processa automaticamente o token de continuação. O cmdlet **Get-PowerBIActivityEvent** utiliza um parâmetro StartDateTime e um parâmetro EndDateTime com as mesmas restrições que a API REST **ActivityEvents** . Por outras palavras, a data de início e a data de fim têm de fazer referência ao mesmo valor de data, porque só é possível obter os dados de atividade para um dia de cada vez.
 
 O seguinte script demonstra como transferir todas as atividades do Power BI. O comando converte os resultados do JSON em objetos .NET para obter acesso direto às propriedades individuais da atividade. Estes exemplos mostram os carimbos de data/hora possíveis menores e maiores para um dia, para garantir que não são perdidos eventos.
 
@@ -97,7 +97,7 @@ $activities[0]
 
 ### <a name="filter-activity-data"></a>Filtrar dados de atividade
 
-Pode filtrar eventos de atividade por tipo de atividade e ID de utilizador. O seguinte script demonstra como transferir apenas os dados de evento para a atividade **ViewDashboard**. Para obter informações adicionais sobre os parâmetros suportados, utilize o comando `Get-Help Get-PowerBIActivityEvent`.
+Pode filtrar eventos de atividade por tipo de atividade e ID de utilizador. O seguinte script demonstra como transferir apenas os dados de evento para a atividade **ViewDashboard** . Para obter informações adicionais sobre os parâmetros suportados, utilize o comando `Get-Help Get-PowerBIActivityEvent`.
 
 ```powershell
 Login-PowerBI
@@ -136,13 +136,13 @@ Para aceder aos registos, confirme primeiro que ativa o registo no Power BI. Pa
 
 Os registos de auditoria do Power BI estão disponíveis diretamente através do [Centro de Conformidade e Segurança do Office 365](https://sip.protection.office.com/#/unifiedauditlog). Também existe uma ligação no portal de administração do Power BI:
 
-1. No Power BI, selecione o **ícone de engrenagem** no canto superior direito e, em seguida, selecione **Portal de administração**.
+1. No Power BI, selecione o **ícone de engrenagem** no canto superior direito e, em seguida, selecione **Portal de administração** .
 
    ![Captura de ecrã do menu pendente de engrenagem com a opção do Portal de administração em destaque.](media/service-admin-auditing/powerbi-admin.png)
 
-1. Selecione **Registos de auditoria**.
+1. Selecione **Registos de auditoria** .
 
-1. Selecione **Aceder ao Centro de Administração do Microsoft 365**.
+1. Selecione **Aceder ao Centro de Administração do Microsoft 365** .
 
    ![Captura de ecrã do Portal de administração com as opções Registos de auditoria e Aceder ao Centro de Administração do Microsoft 365 realçadas.](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
@@ -150,9 +150,9 @@ Os registos de auditoria do Power BI estão disponíveis diretamente através d
 
 Restrinja os resultados só para atividades do Power BI. Para tal, siga estes passos. Para obter uma lista de atividades, veja a [lista de atividades auditadas pelo Power BI](#operations-available-in-the-audit-and-activity-logs) mais adiante neste artigo.
 
-1. Na página **Pesquisa de registo de auditoria**, em **Pesquisa**, selecione a lista pendente de **Atividades**.
+1. Na página **Pesquisa de registo de auditoria** , em **Pesquisa** , selecione a lista pendente de **Atividades** .
 
-2. Selecione **Atividades do Power BI**.
+2. Selecione **Atividades do Power BI** .
 
    ![Captura de ecrã a mostrar a Pesquisa de registo de auditoria, com atividades do Power B I em destaque.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
@@ -162,21 +162,21 @@ As suas pesquisas apenas vão devolver atividades do Power BI.
 
 ### <a name="search-the-audit-logs-by-date"></a>Procurar os registos de auditoria por data
 
-Pode procurar os registos por intervalo de datas com o campo **Data de início** e **Data de fim**. A seleção predefinida é os últimos sete dias. O ecrã apresenta a data e hora no formato Hora Universal Coordenada (UTC). O intervalo de data máximo que pode especificar é 90 dias. 
+Pode procurar os registos por intervalo de datas com o campo **Data de início** e **Data de fim** . A seleção predefinida é os últimos sete dias. O ecrã apresenta a data e hora no formato Hora Universal Coordenada (UTC). O intervalo de data máximo que pode especificar é 90 dias. 
 
-Receberá um erro se o intervalo de datas selecionadas for superior a 90 dias. Se estiver a utilizar o intervalo de datas máximo de 90 dias, selecione a hora atual para a **Data de início**. Caso contrário, vai receber uma mensagem de erro a informar que a data de início é anterior à data de fim. Se tiver ativado a auditoria para os últimos 90 dias, não poderá iniciar o intervalo de datas antes da data de auditoria ser ativada.
+Receberá um erro se o intervalo de datas selecionadas for superior a 90 dias. Se estiver a utilizar o intervalo de datas máximo de 90 dias, selecione a hora atual para a **Data de início** . Caso contrário, vai receber uma mensagem de erro a informar que a data de início é anterior à data de fim. Se tiver ativado a auditoria para os últimos 90 dias, não poderá iniciar o intervalo de datas antes da data de auditoria ser ativada.
 
 ![Captura de ecrã a mostrar a Pesquisa de registo de auditoria, com as opções Data de Início e Data de Fim em destaque.](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ### <a name="search-the-audit-logs-by-users"></a>Procurar os registos de auditoria por utilizador
 
-Pode procurar entradas de registo de auditoria relativas a atividades efetuadas por utilizadores específicos. Introduza um ou mais nomes de utilizador no campo **Utilizadores**. O nome do utilizador tem o aspeto de um endereço de e-mail. É a conta com a qual os utilizadores iniciam sessão no Power BI. Deixe esta caixa em branco para apresentar as entradas de todos os utilizadores (e as contas de serviço) na sua organização.
+Pode procurar entradas de registo de auditoria relativas a atividades efetuadas por utilizadores específicos. Introduza um ou mais nomes de utilizador no campo **Utilizadores** . O nome do utilizador tem o aspeto de um endereço de e-mail. É a conta com a qual os utilizadores iniciam sessão no Power BI. Deixe esta caixa em branco para apresentar as entradas de todos os utilizadores (e as contas de serviço) na sua organização.
 
 ![Captura de ecrã a mostrar a Pesquisa de registo de auditoria, com os Utilizadores em destaque.](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ### <a name="view-search-results"></a>Ver resultados da pesquisa
 
-Depois de selecionar **Pesquisar**, os resultados da pesquisa são carregados. Após alguns instantes, são apresentados em **Resultados**. Quando a pesquisa terminar, o ecrã apresenta o número de resultados encontrado. A **Pesquisa de registo de auditoria** apresenta um máximo de 1000 eventos. Se mais de 1000 eventos cumprirem os critérios de pesquisa, a aplicação apresenta os 1000 eventos mais recentes.
+Depois de selecionar **Pesquisar** , os resultados da pesquisa são carregados. Após alguns instantes, são apresentados em **Resultados** . Quando a pesquisa terminar, o ecrã apresenta o número de resultados encontrado. A **Pesquisa de registo de auditoria** apresenta um máximo de 1000 eventos. Se mais de 1000 eventos cumprirem os critérios de pesquisa, a aplicação apresenta os 1000 eventos mais recentes.
 
 #### <a name="view-the-main-results"></a>Ver os resultados principais
 
@@ -187,7 +187,7 @@ A área **Resultados** tem as seguintes informações para cada evento devolvido
 | Data |A data e a hora (no formato UTC) em que ocorreu o evento. |
 | Endereço IP |O endereço IP do dispositivo usado para a atividade registada. A aplicação apresenta o endereço IP no formato de endereço IPv4 ou IPv6. |
 | Utilizador |O utilizador (ou a conta de serviço) que efetuou a ação que, por sua vez, acionou o evento. |
-| Atividade |A atividade realizada pelo utilizador. Este valor corresponde às atividades que selecionou na lista pendente **Atividades**. Para um evento do registo de auditoria de administrador do Exchange, o valor nesta coluna é um cmdlet do Exchange. |
+| Atividade |A atividade realizada pelo utilizador. Este valor corresponde às atividades que selecionou na lista pendente **Atividades** . Para um evento do registo de auditoria de administrador do Exchange, o valor nesta coluna é um cmdlet do Exchange. |
 | Item |O objeto criado ou modificado devido à atividade correspondente. Por exemplo, o ficheiro visto ou modificado, ou a conta de utilizador atualizada. Nem todas as atividades têm um valor nesta coluna. |
 | Detalhe |Os detalhes adicionais sobre uma atividade. Nem todas as atividades têm um valor. |
 
@@ -195,7 +195,7 @@ A área **Resultados** tem as seguintes informações para cada evento devolvido
 
 Para ver mais detalhes sobre um evento, selecione o registo de eventos na lista de resultados da pesquisa. Aparece uma página **Detalhes** que contém as propriedades detalhadas do registo de eventos. A página **Detalhes** apresenta propriedades consoante o serviço do Microsoft 365 em que decorre o evento.
 
-Para apresentar estes detalhes, selecione **Mais informações**. Todas as entradas do Power BI têm um valor de 20 para a propriedade RecordType. Para obter informações acerca de outras propriedades, veja [Propriedades detalhadas no registo de auditoria](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
+Para apresentar estes detalhes, selecione **Mais informações** . Todas as entradas do Power BI têm um valor de 20 para a propriedade RecordType. Para obter informações acerca de outras propriedades, veja [Propriedades detalhadas no registo de auditoria](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
 
    ![Captura de ecrã da caixa de diálogo de detalhes da auditoria com a opção Mais informações em destaque.](media/service-admin-auditing/audit-details.png)
 
@@ -203,9 +203,9 @@ Para apresentar estes detalhes, selecione **Mais informações**. Todas as entra
 
 Para exportar o registo de auditoria do Power BI para um ficheiro CSV, siga estes passos.
 
-1. Selecione **Exportar resultados**.
+1. Selecione **Exportar resultados** .
 
-1. Selecione **Guardar resultados carregados** ou **Transferir todos os resultados**.
+1. Selecione **Guardar resultados carregados** ou **Transferir todos os resultados** .
 
     ![Captura de ecrã a mostrar a opção Exportar resultados, com a opção Transferir todos os resultados em destaque.](media/service-admin-auditing/export-auditing-results.png)
 
@@ -310,6 +310,7 @@ As seguintes operações estão disponíveis tanto no registo de auditoria como 
 | Falha ao remover permissões de fluxo de dados             | FailedToRemoveDataflowPermissions           | Não é atualmente utilizado                       |
 | Token de SAS de fluxo de dados do Power BI gerado             | GenerateDataflowSasToken                    |                                          |
 | Token de Incorporação do Power BI gerado                    | GenerateEmbedToken                          |                                          |
+| Gerar captura de ecrã                       | GenerateScreenshot |                     |
 | Ficheiro importado para o Power BI                         | Importar                                      |                                          |
 | Aplicação do Power BI instalada                            | InstallApp                                  |                                          |
 | Área de trabalho migrada para uma capacidade                  | MigrateWorkspaceIntoCapacity                |                                          |

@@ -6,19 +6,21 @@ ms.reviewer: nikhilga
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 03/16/2020
+ms.date: 10/14/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3340225ccd4c6457e25013b6c347769d848b104c
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: eef0ba24347bd46cc86325cac494937e3f95086a
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374942"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462464"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Destacar conteúdo na Base do Power BI de colegas
 
-Pode destacar dashboards, relatórios e aplicações de forma a serem apresentados na secção Em destaque da Base do Power BI dos seus colegas. O conteúdo em destaque é particularmente útil para a integração de novos colaboradores no Power BI. Pode decidir que conteúdo é visto em primeiro lugar. Pode adicionar descrições e imagens em miniatura para ajudar os utilizadores a encontrarem o que precisam. O conteúdo tem de estar numa nova área de trabalho.
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)]
+
+Pode destacar dashboards, relatórios e aplicações de forma a serem apresentados na secção Em destaque da Base do Power BI dos seus colegas. O conteúdo em destaque é particularmente útil para a integração de novos colaboradores no Power BI. Pode decidir que conteúdo é visto em primeiro lugar. Adicione descrições e imagens em miniatura para ajudar os utilizadores a encontrarem o que precisam. O conteúdo tem de estar numa nova área de trabalho.
 
 :::image type="content" source="media/service-featured-content/power-bi-featured-home.png" alt-text="Conteúdo em destaque do Power BI na Base":::
 
@@ -30,31 +32,31 @@ Se for um dos grupos selecionados na sua organização com essa responsabilidade
 
 ## <a name="who-sees-featured-content"></a>Quem vê o conteúdo em destaque
 
-Se destacar um dashboard ou um relatório a partir de uma área de trabalho, as pessoas que tenham no mínimo uma função de Visualizador nessa área de trabalho verão esse conteúdo em destaque. Se destacar um dashboard ou um relatório a partir de uma aplicação, ou a própria aplicação, as pessoas a quem distribui a aplicação verão esse conteúdo em destaque.
+Pode destacar um dashboard ou relatório de uma área de trabalho. Quando o fizer, as pessoas que têm, pelo menos, uma função de visualizador nessa área de trabalho irão vê-lo em destaque. Também pode destacar um dashboard ou relatório de uma aplicação ou a própria aplicação. Nesse caso, as pessoas a quem distribuiu a aplicação irão vê-lo em destaque.
 
 ## <a name="feature-a-dashboard-or-report"></a>Destacar um dashboard ou relatório
 
 O procedimento para destacar um dashboard ou um relatório é semelhante.
 
-1. Nas listas **Dashboards** ou **Relatórios** de uma área de trabalho, selecione o ícone **Definições**.
+1. Nas listas **Dashboards** ou **Relatórios** de uma área de trabalho, selecione o ícone **Definições** .
 
     :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Conteúdo em destaque do Power BI na Base":::
 
-2. No painel **Definições**, selecione ou altere o nome. Adicione uma **Descrição** e carregue um **Instantâneo**, caso pretenda. Estes são úteis porque ajudam os utilizadores a encontrar os seus conteúdos.
+2. No painel **Definições** , selecione ou altere o nome. Adicione uma **Descrição** e carregue um **Instantâneo** , caso pretenda. Estes são úteis porque ajudam os utilizadores a encontrar os seus conteúdos.
 
-3. Selecione **Em destaque**.
+3. Selecione **Em destaque** .
 
     :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Conteúdo em destaque do Power BI na Base":::
 
-4. Selecione **Guardar**.
+4. Selecione **Guardar** .
 
-    Agora, todos os utilizadores com acesso a este dashboard ou relatório vão vê-lo na secção **Em destaque** na **Base**.
+    Agora, todos os utilizadores com acesso a este dashboard ou relatório vão vê-lo na secção **Em destaque** na **Base** .
 
 ## <a name="feature-an-app"></a>Destacar uma aplicação
 
-- Para destacar uma aplicação, abra a área de trabalho da aplicação, selecione o menu **Opções** ( **...** ) > **Destacar esta aplicação na Base**.
+- Para destacar uma aplicação, abra a área de trabalho da aplicação, selecione o menu **Opções** ( **...** ) > **Destacar esta aplicação na Base** .
 
-Agora, todas as pessoas com acesso a esta aplicação vão também vê-la na secção **Em destaque** na **Base**.
+Agora, todas as pessoas com acesso a esta aplicação vão também vê-la na secção **Em destaque** na **Base** .
 
 ## <a name="next-steps"></a>Próximos passos
 

@@ -1,31 +1,34 @@
 ---
-title: Configurar a certificação de conjuntos de dados e de fluxos de dados (pré-visualização)
-description: Saiba como configurar o processo de certificação de conjuntos de dados e de fluxos de dados na sua organização.
+title: Ativar a certificação de conteúdo
+description: Saiba como ativar a certificação de conjuntos de dados, de fluxos de dados, de relatórios e de aplicações.
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 05/15/2020
+ms.date: 10/26/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 11079e2ab1578cfe5db352e7e3286d491bdfca2c
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 4961f5f2b6364e06488baf32478b1f6e9338675e
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374919"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680849"
 ---
-# <a name="set-up-dataset-and-dataflow-certification-preview"></a>Configurar a certificação de conjuntos de dados e de fluxos de dados (pré-visualização)
+# <a name="enable-content-certification"></a>Ativar a certificação de conteúdo
 
-A sua organização pode certificar conjuntos de dados e fluxos de dados que sejam as origens autoritativas de informações críticas.
+A sua organização pode certificar conteúdos selecionados para identificá-los como uma origem autorizada de informações importantes. Neste momento, é possível certificar estes tipos de conteúdos:
+* Conjuntos de dados
+* Fluxos de dados (pré-visualização)
+* Relatórios (pré-visualização)
+* Aplicações (pré-visualização)
 
-Como administrador do Power BI, é responsável por configurar o processo de certificação para a sua organização. Isto significa:
+Como administrador do Power BI, é responsável por ativar e configurar o processo de certificação para a sua organização. Isto significa:
 * Ativar a certificação no seu inquilino.
-* Definir uma lista de grupos e utilizadores autorizados a certificar conjuntos de dados e fluxos de dados.
-* Para conjuntos de dados, fornecer o URL da política de certificação do conjunto de dados da organização, se existir.
+* Definir uma lista de grupos de segurança cujos membros serão autorizados para certificar conteúdos.
+* Fornecer um URL que aponte para a documentação do processo de certificação de conteúdos da organização, se essa documentação existir.
 
-A certificação de conjuntos de dados e de fluxos de dados faz parte do *endossamento* de conjuntos de dados e de fluxos de dados. Para obter mais informações, veja [endossamento do conjunto de dados](../connect-data/service-datasets-promote.md) e [endossamento do fluxo de dados](../transform-model/service-dataflows-promote-certify.md).
-
+A certificação faz parte da funcionalidade de *endosso* do Power BI. Veja [Endosso: promover e certificar conteúdos do Power BI](../collaborate-share/service-endorsement-overview.md) para mais informações.
 
 ## <a name="set-up-certification"></a>Configurar a certificação
 
@@ -34,14 +37,14 @@ A certificação de conjuntos de dados e de fluxos de dados faz parte do *endoss
 
    ![Set up dataset and dataflow certification (Configurar a certificação de conjuntos de dados e de fluxos de dados)](media/service-admin-setup-certification/service-admin-certification-setup-dialog.png)
 
-1. Mova o botão para **Ligado**.
-1. Para a certificação de conjuntos de dados, se a sua organização tiver uma política de certificação publicada, pode fornecer o URL aqui. Irá tornar-se a ligação **Saiba mais** na secção de certificação da [caixa de diálogo de definições do endossamento do fluxo de dados](../connect-data/service-datasets-promote.md#request-dataset-certification) 
-1. Especifique os utilizadores ou grupos autorizados a certificar conjuntos de dados e fluxos de dados. Estas pessoas autorizadas poderão utilizar o botão Certificação na secção de certificação da caixa de diálogo de definições do endossamento do [conjunto de dados](../connect-data/service-datasets-promote.md#request-dataset-certification) ou [fluxo de dados](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow).
-1. Clique em **Aplicar**.
+1. Mova o botão para **Ligado** .
+1. Se a sua organização tiver uma política de certificação publicada, forneça o URL aqui. Irá tornar-se a ligação **Saiba mais** na secção de certificação da [caixa de diálogo de definições do endosso](../collaborate-share/service-endorse-content.md#request-content-certification). Se não fornecer uma ligação, os utilizadores que quiserem pedir a certificação dos respetivos conteúdos serão aconselhados a entrar em contato com o administrador do Power BI.
+1. Especifique um ou mais grupos de segurança cujos membros serão autorizados para certificar conteúdos. Estas pessoas autorizadas poderão utilizar o botão Certificação na secção de certificação da [caixa de diálogo de definições do endosso](../collaborate-share/service-endorse-content.md#certify-content).
+    
+    Se um grupo de segurança contiver subgrupos de segurança aos quais não pretende dar direitos de certificação, pode selecionar a caixa **Exceto grupos de segurança específicos** e introduzir os nomes desses grupos numa caixa de texto que será apresentada.
+1. Clique em **Aplicar** .
 
 ## <a name="next-steps"></a>Próximos passos
-* [Promote datasets](../connect-data/service-datasets-promote.md) (Promover conjuntos de dados)
-* [Certify datasets](../connect-data/service-datasets-certify.md) (Certificar conjuntos de dados)
-* [Promote dataflows](../transform-model/service-dataflows-promote-certify.md#promote-a-dataflow) (Promover fluxos de dados)
-* [Certify dataflows](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow) (Certificar fluxos de dados)
+* [Promover ou certificar conteúdos](../collaborate-share/service-endorse-content.md)
+* [Ler mais sobre endosso no Power BI](../collaborate-share/service-endorsement-overview.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

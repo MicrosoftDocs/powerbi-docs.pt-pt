@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 10/13/2020
+ms.date: 10/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b2fd8375e105769ed0c9a81e7d894cc0f31f08b0
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 104692fff7f94168a505dc6e1f2c513d647554ce
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92258400"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349650"
 ---
 # <a name="dynamic-m-query-parameters-in-power-bi-desktop-preview"></a>Parâmetros de consulta M Dinâmicos no Power BI Desktop (pré-visualização)
 
@@ -28,7 +28,12 @@ Os **Parâmetros de Consulta M Dinâmicos** estão atualmente em pré-visualiza�
 
 ![Ativar a funcionalidade de pré-visualização](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-01.png)
 
-Como um pré-requisito para esta caraterística, tem de ter um [Parâmetro de Consulta M](/power-query/power-query-query-parameters) válido criado e referenciado numa ou mais tabelas de Consulta Direta. Vamos percorrer um exemplo de passagem de um **valor individual** para um parâmetro dinamicamente:
+Como um pré-requisito para esta caraterística, tem de ter um [Parâmetro de Consulta M](/power-query/power-query-query-parameters) válido criado e referenciado numa ou mais tabelas de Consulta Direta. 
+
+> [!NOTE]
+> Certifique-se de que consulta a secção [Considerações e limitações](#considerations-and-limitations) neste artigo, pois nem todas as origens do DirectQuery são suportadas com esta funcionalidade.
+
+Vamos percorrer um exemplo de passagem de um **valor individual** para um parâmetro dinamicamente:
 
 1. No Power BI Desktop, inicie **Power Query** no separador **Dados** e selecione **Novos Parâmetros** no botão **Gerir Parâmetros** no friso.
 
@@ -147,7 +152,13 @@ Eis alguns exemplos:
 Há algumas considerações e limitações a serem consideradas quando utilizar parâmetros de consulta M dinâmicos:
 
 * Um parâmetro individual não pode ser dependente de vários campos e vice-versa.
-* A caraterística é suportada apenas para a origem de dados baseada em M e exclui o suporte para a consulta SQL nativa.
+* A funcionalidade só é suportada para origens de dados baseadas em M. Não são suportadas as seguintes origens do DirectQuery:
+    * Origens de dados baseadas em T-SQL: SQL Server, Base de Dados SQL do Azure, conjuntos Synapse SQL (também conhecido como Azure SQL Data Warehouse) e conjuntos Synapse SQL OnDemand
+    * Origens de dados do Live connect: Azure Analysis Services, SQL Server Analysis Services, Conjuntos de Dados do Power BI
+    * Outras origens de dados não suportadas: Oracle, Teradata e SAP Hana Relacional
+    * Suportado parcialmente através de programação de ponto final XMLA/TOM: SAP BW e SAP Hana 
+
+
 * Os tipos de parâmetro prontos para utilização não suportados são os seguintes:
   * Qualquer
   * Duração
