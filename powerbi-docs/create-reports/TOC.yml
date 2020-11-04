@@ -85,6 +85,8 @@
           items:
             - name: Report Builder in Power BI (O Report Builder no Power BI)
               href: ../paginated-reports/report-builder-power-bi.md
+            - name: Relatórios paginados do Power BI de exemplo
+              href: ../paginated-reports/paginated-reports-samples.md
             - name: Navegar na Vista de Estrutura do Relatório
               href: ../paginated-reports/paginated-reports-report-design-view.md
             - name: Planning a report (Planear um relatório)
