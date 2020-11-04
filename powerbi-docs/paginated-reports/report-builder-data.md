@@ -9,14 +9,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 08/04/2020
-ms.openlocfilehash: fe6ca733a5498c0e576ec30e6992ffbf26d54319
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: 97b93f23c8070af1b514032cea122b257097d664
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837595"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297951"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Dados de relatórios no Report Builder do Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Os dados de relatórios podem ser provenientes de múltiplas origens de dados na sua organização. O primeiro passo para estruturar um relatório no Report Builder do Power BI é criar origens de dados e conjuntos de dados que representem os dados subjacentes do relatório. Cada origem de dados inclui informações de ligação de dados. Cada conjunto de dados inclui um comando de consulta que define o conjunto de campos a utilizar como dados de uma origem de dados. Para visualizar os dados de cada conjunto de dados, adicione uma região de dados, como uma tabela, matriz, gráfico ou mapa. Quando o relatório é processado, as consultas são executadas na origem de dados e cada região de dados aumenta, conforme necessário, para apresentar os resultados da consulta para o conjunto de dados.  
 

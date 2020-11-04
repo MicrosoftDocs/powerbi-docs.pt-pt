@@ -4,22 +4,22 @@ description: Dados dinâmicos do SQL Server Analysis Services no Power BI. Isto 
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-author: Minewiskan
-ms.author: owend
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
-ms.openlocfilehash: c88c0d56d24f12edf30c2c79ddebb13fa941695a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2c32ceb1db154cd7647402593051e4230c75c07f
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238199"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916757"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>SQL Server Analysis Services live data in Power BI (Dados dinâmicos do SQL Server Analysis Services no Power BI)
 
-No Power BI, existem duas formas de ligar a um servidor do SQL Server Analysis Services. Em **Obter dados**, pode lugar a um servidor do SQL Server Analysis Services ou a um [ficheiro do Power BI Desktop](service-desktop-files.md) ou [livro do Excel](service-excel-workbook-files.md), já ligado a um servidor do Analysis Services. Como melhor prática, a Microsoft recomenda vivamente que utilize o Power BI Desktop devido à riqueza do conjunto de ferramentas e à capacidade para manter uma cópia de segurança do ficheiro do Power BI Desktop localmente.
+No Power BI, existem duas formas de ligar a um servidor do SQL Server Analysis Services. Em **Obter dados** , pode lugar a um servidor do SQL Server Analysis Services ou a um [ficheiro do Power BI Desktop](service-desktop-files.md) ou [livro do Excel](service-excel-workbook-files.md), já ligado a um servidor do Analysis Services. Como melhor prática, a Microsoft recomenda vivamente que utilize o Power BI Desktop devido à riqueza do conjunto de ferramentas e à capacidade para manter uma cópia de segurança do ficheiro do Power BI Desktop localmente.
 
 >[!IMPORTANT]
 > * Para ligar em direto a um servidor do Analysis Services, é necessário um administrador instalar e configurar um Gateway de dados no local. Para obter mais informações, veja [Gateway de dados no local](service-gateway-onprem.md).
@@ -28,7 +28,7 @@ No Power BI, existem duas formas de ligar a um servidor do SQL Server Analysis S
 
 ## <a name="to-connect-to-a-model-from-get-data"></a>Para ligar a um modelo a partir de Obter dados
 
-1. Em **A Minha Área de Trabalho**, selecione **Obter dados**. Também pode mudar para uma área de trabalho de grupo, se estiver disponível.
+1. Em **A Minha Área de Trabalho** , selecione **Obter dados**. Também pode mudar para uma área de trabalho de grupo, se estiver disponível.
 
    ![Botão Ligar-se para obter dados](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 

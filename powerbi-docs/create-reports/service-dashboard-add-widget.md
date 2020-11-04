@@ -7,15 +7,15 @@ featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/25/2019
+ms.date: 10/28/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f98fb7a9d5a01c70eb8cef2a8d5befdbe919d796
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 72306a6269df91a75b750628e3534bf5891fe6b0
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219479"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916918"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Adicionar imagens, vídeos e mais ao dashboard
 
@@ -50,9 +50,9 @@ Pode adicionar uma imagem, uma caixa de texto, um vídeo, dados de transmissão 
 ## <a name="add-an-image"></a>Adicionar uma imagem
 Se quiser adicionar o logótipo da sua empresa ou outra imagem ao seu dashboard, guarde o ficheiro de imagem online e ligue ao mesmo. Certifique-se de que não são necessárias credenciais de segurança para aceder ao ficheiro de imagem. Por exemplo, o OneDrive e o SharePoint exigem autenticação, pelo que as imagens lá armazenadas não podem ser adicionadas a um dashboard desta forma.  
 
-1. Na janela **Adicionar mosaico**, selecione **Imagem** > **Seguinte**.
+1. Na janela **Adicionar mosaico** , selecione **Imagem** > **Seguinte**.
 
-2. Na janela **Adicionar mosaico de imagem**, adicione as informações da imagem:   
+2. Na janela **Adicionar mosaico de imagem** , adicione as informações da imagem:   
    
    a. Para apresentar um título acima da imagem, selecione **Apresentar título e subtítulo** e introduza um **Título** e um **Subtítulo** opcional.
 
@@ -74,7 +74,7 @@ Se quiser adicionar o logótipo da sua empresa ou outra imagem ao seu dashboard,
 
 para adicionar um cabeçalho de dashboard, escreva o cabeçalho na caixa de texto e aumente o tipo de letra.
 
-1. Na janela **Adicionar mosaico**, selecione **Caixa de texto** > **Seguinte**.
+1. Na janela **Adicionar mosaico** , selecione **Caixa de texto** > **Seguinte**.
 
 2. Formatar a caixa de texto:
    
@@ -95,14 +95,14 @@ para adicionar um cabeçalho de dashboard, escreva o cabeçalho na caixa de text
 ## <a name="add-a-video"></a>Adicionar um vídeo
 Quando adicionar um mosaico de título do YouTube ou Vimeo ao seu dashboard, o vídeo é reproduzido diretamente no dashboard.
 
-1. Na janela **Adicionar mosaico**, selecione **Vídeo** > **Seguinte**.
-2. Adicione as informações do vídeo na janela **Adicionar mosaico de vídeo**:   
+1. Na janela **Adicionar mosaico** , selecione **Vídeo** > **Seguinte**.
+2. Adicione as informações do vídeo na janela **Adicionar mosaico de vídeo** :   
    
    a. Para apresentar um título e subtítulo na parte superior do mosaico de vídeo, selecione **Apresentar título e subtítulo** e introduza um **Título** e um **Subtítulo** opcional. Neste exemplo, vamos adicionar um **Subtítulo** e, em seguida, convertê-lo numa hiperligação para toda a lista de reprodução do YouTube.
 
    b. Introduza o **URL do Vídeo**.
 
-   c. Adicione uma hiperligação para o **Título** e **Subtítulo**, para que os seus colegas possam ver toda a lista de reprodução no YouTube após visualizarem o vídeo incorporado. Para fazê-lo, em **Funcionalidade**, selecione **Definir ligação personalizada** e, em seguida, introduza o **URL** da lista de reprodução.
+   c. Adicione uma hiperligação para o **Título** e **Subtítulo** , para que os seus colegas possam ver toda a lista de reprodução no YouTube após visualizarem o vídeo incorporado. Para fazê-lo, em **Funcionalidade** , selecione **Definir ligação personalizada** e, em seguida, introduza o **URL** da lista de reprodução.
 
    d. Selecione **Aplicar**.  
 
@@ -120,10 +120,10 @@ Pode utilizar o PubNub para adicionar dados de transmissão, como feeds do Twitt
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kOuINwgkEkQ" frameborder="0" allowfullscreen></iframe>
 
-1. Na janela **Adicionar mosaico**, selecione **Dados de Transmissão em Fluxo Personalizados** > **Seguinte**.
+1. Na janela **Adicionar mosaico** , selecione **Dados de Transmissão em Fluxo Personalizados** > **Seguinte**.
 2. Selecione **Adicionar conjunto de dados de transmissão em fluxo**.
 3. Crie um **Novo conjunto de dados de transmissão** com a API Power BI ou o PubNub.
-4. Preencha os campos **Nome do conjunto de dados**, **Chave de subscrição** e **Nome do canal**. Se a ligação for segura, também tem uma chave de autorização. Pode utilizar os valores de exemplo do PubNub para experimentá-la.
+4. Preencha os campos **Nome do conjunto de dados** , **Chave de subscrição** e **Nome do canal**. Se a ligação for segura, também tem uma chave de autorização. Pode utilizar os valores de exemplo do PubNub para experimentá-la.
 5. Selecione **Seguinte**.
     Verá os campos disponíveis no conjunto de dados, com os seus tipos de dados e formato JSON.
 6. Selecione **Ligar**.
@@ -131,20 +131,20 @@ Pode utilizar o PubNub para adicionar dados de transmissão, como feeds do Twitt
 7. Regresse ao dashboard e selecione **Adicionar mosaico** > **Dados de Transmissão em Fluxo Personalizados** > **Seguinte** novamente.
 8. Selecione o conjunto de dados de sensor que criou > **Seguinte**.
 9. Selecione o tipo de elemento visual pretendido. Normalmente, um gráfico de linhas funciona bem para estes dados.
-10. Selecione o **Eixo**, a **Legenda** e os **Valores**.
+10. Selecione o **Eixo** , a **Legenda** e os **Valores**.
 11. Decida o tempo da apresentação, optando por segundos, minutos ou horas.
 12. Selecione **Seguinte**.
-13. Atribua um **Título** e **Subtítulo**, se quiser.
+13. Atribua um **Título** e **Subtítulo** , se quiser.
 14. Afixe o conjunto de dados no seu dashboard.
 
 
-1. Na janela **Adicionar mosaico**, selecione **Dados de Transmissão em Fluxo Personalizados** > **Seguinte**.
+1. Na janela **Adicionar mosaico** , selecione **Dados de Transmissão em Fluxo Personalizados** > **Seguinte**.
 
 2. Selecione **Adicionar conjunto de dados de transmissão em fluxo**.
 
 3. Crie um **Novo conjunto de dados de transmissão** com a API Power BI ou o PubNub.
 
-4. Preencha os campos **Nome do conjunto de dados**, **Chave de subscrição** e **Nome do canal**. Se a ligação for segura, também tem uma chave de autorização. Pode utilizar os valores de exemplo do PubNub para experimentá-la.
+4. Preencha os campos **Nome do conjunto de dados** , **Chave de subscrição** e **Nome do canal**. Se a ligação for segura, também tem uma chave de autorização. Pode utilizar os valores de exemplo do PubNub para experimentá-la.
 
 5. Selecione **Seguinte**.
 
@@ -160,7 +160,7 @@ Pode utilizar o PubNub para adicionar dados de transmissão, como feeds do Twitt
 
 9. Selecione o tipo de elemento visual pretendido. Normalmente, um gráfico de linhas funciona bem para estes dados.
 
-10. Selecione o **Eixo**, a **Legenda** e os **Valores**.
+10. Selecione o **Eixo** , a **Legenda** e os **Valores**.
 
 11. Decida o tempo da apresentação, optando por segundos, minutos ou horas.
 
@@ -173,9 +173,9 @@ Pode utilizar o PubNub para adicionar dados de transmissão, como feeds do Twitt
 ## <a name="add-web-content"></a>Adicionar conteúdo da Web
 Pode colar ou escrever qualquer conteúdo HTML, como um mosaico, ao seu relatório ou dashboard. Introduza o código de incorporação manualmente ou copie/cole de sites como o Twitter, YouTube, embed.ly, entre outros.
 
-1. Na janela **Adicionar mosaico**, selecione **Conteúdo Web** > **Seguinte**.
+1. Na janela **Adicionar mosaico** , selecione **Conteúdo Web** > **Seguinte**.
 
-2. Adicione informações à janela **Adicionar mosaico de conteúdo Web**:
+2. Adicione informações à janela **Adicionar mosaico de conteúdo Web** :
    
    a. Para apresentar um título acima do mosaico, selecione **Apresentar título e subtítulo** e introduza um **Título** e um **Subtítulo** opcional.
 
@@ -239,8 +239,9 @@ Para alterar um mosaico existente:
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 * Para facilitar ainda mais a movimentação do mosaico no dashboard, adicione um título e um subtítulo opcional.
 * Se quiser introduzir conteúdo de um site, mas o site não fornecer o código de incorporação para copiar e colar, aceda a embed.ly para obter ajuda para gerar o código de incorporação.
+* Certifique-se de que não são necessárias credenciais de segurança para aceder ao ficheiro de imagem. Por exemplo, o OneDrive e o SharePoint exigem autenticação, pelo que as imagens lá armazenadas não podem ser adicionadas a um dashboard desta forma.  
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 [Introdução aos mosaicos dos dashboards para designers do Power BI](service-dashboard-tiles.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).

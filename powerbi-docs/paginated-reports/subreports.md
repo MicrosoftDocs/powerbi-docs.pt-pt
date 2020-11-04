@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: 9da6268e90e3f70797c2cfff19bb1d5c4b633e9a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d2cd4e9f5d6cb8872e266fabacb9f8a5a3e318cb
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746591"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298003"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Sub-relatórios nos relatórios paginados do Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Um *sub-relatório* é um item de relatório paginado que apresenta outro relatório paginado no corpo de um relatório paginado principal. Em termos conceituais, um sub-relatório num relatório é semelhante a um frame numa página Web. É utilizado para incorporar um relatório num relatório. Pode utilizar qualquer relatório como sub-relatório. O relatório que é apresentado como o sub-relatório é armazenado na mesma área de trabalho Premium que o relatório principal. Pode designar o relatório principal para transmitir os parâmetros ao sub-relatório. Um sub-relatório pode repetir-se em regiões de dados, utilizando um parâmetro para filtrar dados em cada instância do sub-relatório.  
   
@@ -33,22 +35,22 @@ O Power BI Report Builder pode funcionar com relatórios paginados no seu comput
 
 Depois de iniciar sessão, verá uma opção de **Serviço Power BI** no Power BI Report Builder para as opções **Abrir** e **Guardar Como** no menu **Ficheiro**. Quando selecionar a opção **Serviço Power BI** para guardar um relatório, irá criar uma ligação em direto entre o Power BI Report Builder e o serviço Power BI. 
 
-:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Inicie sessão no Power BI":::
+:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Abrir a partir do serviço Power BI":::
 
 ## <a name="save-a-local-report-to-the-power-bi-service"></a>Guardar um relatório local no serviço Power BI
 
 Antes de poder adicionar um sub-relatório a um relatório principal, crie os dois relatórios e guarde-os na mesma área de trabalho do Power BI Premium. 
 
-1. Para abrir um relatório local existente, no menu **Ficheiro**, selecione **Abrir** > **Este PC** e selecione um ficheiro .rdl.  
+1. Para abrir um relatório local existente, no menu **Ficheiro** , selecione **Abrir** > **Este PC** e selecione um ficheiro .rdl.  
 
-2. No menu **Ficheiro**, selecione **Guardar Como** > **Serviço Power BI**.  Veja [Publicar um relatório paginado no serviço Power BI](paginated-reports-save-to-power-bi-service.md) para obter informações.
+2. No menu **Ficheiro** , selecione **Guardar Como** > **Serviço Power BI**.  Veja [Publicar um relatório paginado no serviço Power BI](paginated-reports-save-to-power-bi-service.md) para obter informações.
 
     > [!NOTE]
     > Também pode carregar um relatório ao começar no serviço Power BI. O mesmo artigo, [Publicar um relatório paginado no serviço Power BI](paginated-reports-save-to-power-bi-service.md), contém informações.
 
-3. Na caixa de diálogo **Guardar Como**, selecione uma área de trabalho Power BI Premium na qual possa armazenar os seus relatórios paginados.  As áreas de trabalho Premium têm um ícone de losango ![Ícone de losango Premium](media/subreports/report-builder-premium-diamond.png) junto do nome.
+3. Na caixa de diálogo **Guardar Como** , selecione uma área de trabalho Power BI Premium na qual possa armazenar os seus relatórios paginados.  As áreas de trabalho Premium têm um ícone de losango ![Ícone de losango Premium](media/subreports/report-builder-premium-diamond.png) junto do nome.
 
-    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Inicie sessão no Power BI":::
+    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Guardar como no serviço Power BI":::
 
 4. Selecione **Guardar**.
 
@@ -56,9 +58,9 @@ Antes de poder adicionar um sub-relatório a um relatório principal, crie os do
 
 Agora que guardou ambos os relatórios na mesma área de trabalho Premium, pode adicionar um ao outro como sub-relatório. Existem duas formas de adicionar um sub-relatório. 
 
-1. No friso **Inserir**, selecione o botão **Sub-relatório** ou clique com o botão direito do rato na tela do relatório e selecione **Inserir** > **Sub-relatório**.
+1. No friso **Inserir** , selecione o botão **Sub-relatório** ou clique com o botão direito do rato na tela do relatório e selecione **Inserir** > **Sub-relatório**.
 
-    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Inicie sessão no Power BI":::
+    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Inserir um sub-relatório num relatório":::
 
     A caixa de diálogo **Properties do Sub-relatório** é apresentada.  
 
@@ -70,7 +72,7 @@ Agora que guardou ambos os relatórios na mesma área de trabalho Premium, pode 
  Para transmitir os parâmetros do relatório principal para o sub-relatório, defina um parâmetro de relatório no relatório que utilizará como sub-relatório. Quando colocar o sub-relatório no relatório principal, poderá selecionar o parâmetro de relatório e um valor para transmitir do relatório principal para o parâmetro de relatório no sub-relatório.  
   
 > [!NOTE]  
-> O parâmetro que selecionar do sub-relatório é um parâmetro de *relatório*, não um parâmetro de *consulta*.  
+> O parâmetro que selecionar do sub-relatório é um parâmetro de *relatório* , não um parâmetro de *consulta*.  
   
  Pode colocar um sub-relatório no corpo principal do relatório ou numa região de dados. Se colocar um sub-relatório numa região de dados, o sub-relatório repete-se em cada instância do grupo ou linha na região de dados. Pode transmitir um valor do grupo ou da linha para o sub-relatório. Na propriedade de valor do sub-relatório, utilize uma expressão de campo para o campo com o valor que pretende transmitir ao parâmetro do sub-relatório.  
   
@@ -80,7 +82,7 @@ Agora que guardou ambos os relatórios na mesma área de trabalho Premium, pode 
 
 Pode pré-visualizar os seus relatórios no Report Builder.
 
-- No friso **Base**, selecione **Executar**. 
+- No friso **Base** , selecione **Executar**. 
 
 Uma vez que o Report Builder é uma ferramenta de design, a pré-visualização do relatório pode ter um aspeto diferente da composição do relatório no serviço Power BI.
 

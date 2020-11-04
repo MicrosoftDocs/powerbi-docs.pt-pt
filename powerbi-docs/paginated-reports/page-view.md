@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: ''
 ms.topic: how-to
 ms.date: 05/14/2020
-ms.openlocfilehash: 5ed7f3a05be1e600fc67e5162b496309ce315f94
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 41d59f12ad95430e13eb4d856bc1b7d321f7006f
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230953"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297343"
 ---
 # <a name="set-report-views-for-paginated-reports-in-the-power-bi-service"></a>Definir vistas de relatórios para relatórios paginados no serviço Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Quando compõe um relatório paginado no serviço Power BI, a vista predefinida é interativa e baseada em HTML. Outra vista de relatório para formatos de página fixa, como o PDF, é a nova opção Vista de Página.
 

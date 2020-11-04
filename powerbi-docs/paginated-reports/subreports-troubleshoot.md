@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: troubleshooting
 ms.date: 04/29/2020
-ms.openlocfilehash: 6a0e90036b759c409a9f5b3e994571c2a0eb510c
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 06d9b0fc60d9b44f98108cf46bc35c5de15316d6
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747511"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297983"
 ---
 # <a name="troubleshoot-subreports-in-power-bi-paginated-reports"></a>Resolver problemas de sub-relatórios em relatórios paginados do Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Por vezes, ao utilizar sub-relatórios em relatórios paginados, a funcionalidade pode não funcionar conforme esperado ou pode devolver resultados inesperados. Este artigo apresenta soluções para problemas comuns ao utilizar sub-relatórios. Um *sub-relatório* é um item de relatório que apresenta outro relatório no corpo de um relatório paginado principal. Veja [Sub-relatórios em relatórios paginados do Power BI](subreports.md) para obter mais informações de contexto.
 

@@ -9,14 +9,16 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: 7b12f6f6db864fb7b6af4df0d1019dc2eeed2617
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 0816ba6f3ff606a73c835ac71af66655fd49acfd
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747488"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298068"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Parâmetros de URL em relatórios paginados no Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Pode enviar comandos para relatórios paginados no Power BI ao adicionar um parâmetro a um URL. Por exemplo, pode ter visto o relatório através de um conjunto específico de valores de parâmetro de relatório. Deverá incorporar estas informações no URL ao utilizar parâmetros de acesso por URL predefinidos. Pode personalizar a forma como o Power BI processa o relatório ao incorporar parâmetros para formatos de composição ou para obter o aspeto e funcionalidade da barra de ferramentas de relatórios. Em seguida, irá colar este URL diretamente num e-mail ou página Web para que outras pessoas possam experimentar o seu relatório da mesma forma que no browser. 
 

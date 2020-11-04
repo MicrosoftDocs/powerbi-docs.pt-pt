@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: f74fb596fb2a080922d0e62a4492ef6c8ccd4e0d
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 6a0a72015a66abc9425dc467703a5044ea0c8116
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216730"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297862"
 ---
 # <a name="power-bi-report-builder"></a>Power BI Report Builder
 
- O Power BI Report Builder é uma ferramenta para a criação de relatórios paginados que pode publicar no serviço Power BI.  Quando criar um relatório paginado, irá criar uma definição do relatório que especifica os dados a obter, o local de obtenção e a forma como estes são apresentados. Quando executar o relatório, o processador do relatório irá utilizar a definição do relatório que especificou, obter os dados e combiná-los com o esquema de relatório para gerar o relatório. Pré-visualize o seu relatório no Report Builder. Em seguida, publique o seu relatório no serviço Power BI.
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+O Power BI Report Builder é uma ferramenta para a criação de relatórios paginados que pode publicar no serviço Power BI.  Quando criar um relatório paginado, irá criar uma definição do relatório que especifica os dados a obter, o local de obtenção e a forma como estes são apresentados. Quando executar o relatório, o processador do relatório irá utilizar a definição do relatório que especificou, obter os dados e combiná-los com o esquema de relatório para gerar o relatório. Pré-visualize o seu relatório no Report Builder. Em seguida, publique o seu relatório no serviço Power BI.
  
 Pronto para começar a criação? [Instale o Power BI Report Builder](https://aka.ms/pbireportbuilder) a partir do Centro de Transferências da Microsoft.
 

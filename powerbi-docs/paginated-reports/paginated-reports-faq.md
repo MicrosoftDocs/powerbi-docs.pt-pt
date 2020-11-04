@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/19/2020
-ms.openlocfilehash: 2a0490106d5954a57abea1dd5de61f26f2fe2377
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 7cba43ff6339ce890ca2f4f1744282648eaf877b
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92257030"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297899"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Relatórios paginados no Power BI: PERGUNTAS FREQUENTES 
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Este artigo responde às perguntas mais frequentes sobre os relatórios paginados. Estes relatórios são uma saída de imagem perfeita, altamente formatada e otimizada para impressão ou geração de PDFs. Os relatórios são designados “paginados” porque são formatados para se ajustarem a várias páginas. Os relatórios paginados baseiam-se na tecnologia de relatório RDL do SQL Server Reporting Services. 
 
@@ -76,7 +78,7 @@ Memória predefinida em cada SKU Premium para os relatórios paginados:
 - **P2/A5** : 20% predefinido; 5% mínimo
 - **P3/A6** : 20% predefinido; 2,5% mínimo
 
-Os administradores do Power BI podem modificar a percentagem de memória máxima predefinida no portal de administração. Consulte a secção da carga de trabalho **Relatórios Paginados** em **Power BI Premium** , no separador **Definições de capacidade** .
+Os administradores do Power BI podem modificar a percentagem de memória máxima predefinida no portal de administração. Consulte a secção da carga de trabalho **Relatórios Paginados** em **Power BI Premium** , no separador **Definições de capacidade**.
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Relatórios paginados, separador Definições de capacidade":::
 
@@ -181,7 +183,7 @@ Eis algo a ter em mente quando trabalhar com campos DateTime em relatórios pagi
 
 Quando estiver a ver relatórios paginados no serviço Power BI, as sessões podem exceder o limite de tempo, apresentando o utilizador com a seguinte notificação:
 
-:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="Relatórios paginados, separador Definições de capacidade":::
+:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="Notificação de expiração da sessão dos relatórios paginados":::
 
 - A sessão irá exceder o limite de tempo após 60 minutos de inatividade ou antes quando o dispositivo for bloqueado ou estiver inativo, ou quando o relatório não for apresentado no separador ativo do navegador.
 

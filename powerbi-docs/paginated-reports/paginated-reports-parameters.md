@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: aa4df6db3058ef3d6f8c399e1bf20f0edf17ebc8
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 217c1b571c01068d64283df0b25b5e56bbc8b956
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600488"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297219"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Criar parâmetros para relatórios paginados no serviço Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Neste artigo, vai aprender a criar parâmetros para relatórios paginados no serviço Power BI.  Um parâmetro de relatório proporciona uma forma de escolher os dados do relatório e de variar a apresentação do relatório. Pode fornecer um valor predefinido e uma lista de valores disponíveis. Os leitores do relatório podem alterar a seleção. Eles também podem escrever nas caixas de texto de parâmetro para procurar valores. Veja [Ver parâmetros de relatórios paginados](../consumer/paginated-reports-view-parameters.md) para ver como os utilizadores empresariais interagem com os parâmetros no serviço Power BI.  
 
@@ -38,13 +40,13 @@ A ilustração seguinte mostra a vista Estrutura no Report Builder do Power BI p
   
 1.  Abra o relatório paginado no Report Builder do Power BI.
 
-1. No painel **Dados do Relatório**, clique com o botão direito do rato no nó **Parâmetros** > **Adicionar Parâmetro**. A caixa de diálogo **Propriedades do Parâmetro de Relatório** é apresentada.  
+1. No painel **Dados do Relatório** , clique com o botão direito do rato no nó **Parâmetros** > **Adicionar Parâmetro**. A caixa de diálogo **Propriedades do Parâmetro de Relatório** é apresentada.  
   
-2.  Em **Nome**, escreva um nome para o parâmetro ou aceite o nome predefinido.  
+2.  Em **Nome** , escreva um nome para o parâmetro ou aceite o nome predefinido.  
   
-3.  Em **Pedido**, escreva um texto para aparecer ao lado da caixa de texto do parâmetro quando o utilizador executar o relatório.  
+3.  Em **Pedido** , escreva um texto para aparecer ao lado da caixa de texto do parâmetro quando o utilizador executar o relatório.  
   
-4.  Em **Tipo de dados**, selecione o tipo de dados para o valor do parâmetro.  
+4.  Em **Tipo de dados** , selecione o tipo de dados para o valor do parâmetro.  
   
 5.  Se o parâmetro puder conter um valor em branco, selecione **Permitir valor em branco**.  
   

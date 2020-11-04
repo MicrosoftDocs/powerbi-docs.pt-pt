@@ -7,14 +7,16 @@ ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d3955b8dde22863e7b0224d335b162846e0741d2
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 44f1c1280e176d99ab909402a77804074e7d8cbd
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216880"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298105"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Criar um relatório paginado com base num conjunto de dados partilhado do Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] 
 
 Pode utilizar um conjunto de dados que criou no Power BI Desktop como uma origem de dados para relatórios paginados do Power BI Report Builder. Imagine este cenário: criou um relatório do Power BI no Power BI Desktop. Passou muito tempo a criar o modelo de dados e, em seguida, criou um relatório apelativo do Power BI com vários tipos de elementos visuais. O seu relatório tem uma matriz com várias linhas, pelo que tem de se deslocar para ver todas. Os leitores do seu relatório querem imprimir o relatório e apresentar todas as linhas nessa matriz. Um relatório paginado do Power BI pode fazer isso: imprima uma tabela ou matriz com múltiplas páginas, com cabeçalhos e rodapés de página e um esquema de página perfeito que criou. Irá complementar o relatório do Power BI Desktop. Quer que se baseie nos mesmos dados, sem discrepâncias, por isso utiliza o mesmo conjunto de dados.
 
@@ -30,7 +32,7 @@ Eis uma lista do que precisa e não precisa para utilizar um conjunto de dados p
 - Para aceder a um conjunto de dados do Power BI, tem de ter permissão de compilação no conjunto de dados. Leia sobre a [permissão de compilação](../connect-data/service-datasets-build-permissions.md).
 - Não precisa de uma licença do Power BI Pro para criar um relatório paginado no Report Builder. 
 - Precisa de uma licença do Power BI Pro para publicar o seu relatório paginado. Também precisa de pelo menos uma função de Contribuidor numa área de trabalho numa capacidade Premium. 
-- Opcional: se quiser acompanhar este artigo, transfira o ficheiro [Exemplo de Análise de Revenda.pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) do Power BI Desktop, abra-o no Power BI Desktop e adicione uma tabela com várias colunas. No painel **Formatar**, desative a opção **Totais**. Em seguida, publique numa área de trabalho no serviço Power BI.
+- Opcional: se quiser acompanhar este artigo, transfira o ficheiro [Exemplo de Análise de Revenda.pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) do Power BI Desktop, abra-o no Power BI Desktop e adicione uma tabela com várias colunas. No painel **Formatar** , desative a opção **Totais**. Em seguida, publique numa área de trabalho no serviço Power BI.
 
     ![Totais desativados](media/report-builder-shared-datasets/power-bi-desktop-totals-off.png)
 
@@ -78,11 +80,11 @@ Seguem-se os passos para obter a consulta.
 
         ![Ícone da medida](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 
-1. No friso **Ver**, selecione **Analisador de Desempenho**.
+1. No friso **Ver** , selecione **Analisador de Desempenho**.
 
     ![Abrir o Analisador de Desempenho](media/report-builder-shared-datasets/power-bi-performance-analyzer.png)
 
-1. No painel **Analisador de Desempenho**, selecione **Iniciar gravação** e, em seguida, selecione **Atualizar elementos visuais**.
+1. No painel **Analisador de Desempenho** , selecione **Iniciar gravação** e, em seguida, selecione **Atualizar elementos visuais**.
 
     ![Atualizar elementos visuais](media/report-builder-shared-datasets/power-bi-performance-analyzer-refresh-visuals.png)
 
@@ -132,7 +134,7 @@ Seguem-se os passos para obter a consulta.
 
 Uma forma rápida de criar uma tabela é através do Assistente de Tabelas.
 
-1. No friso **Inserir**, selecione **Tabela** > **Assistente de Tabelas**.
+1. No friso **Inserir** , selecione **Tabela** > **Assistente de Tabelas**.
 
     ![Iniciar o Assistente de Tabelas](media/report-builder-shared-datasets/power-bi-report-builder-table-wizard.png)
 
@@ -171,10 +173,10 @@ Uma forma rápida de criar uma tabela é através do Assistente de Tabelas.
 
 Tem várias opções de formatação para ajustar a sua tabela numa página. 
 
-1. Pode diminuir as margens da página no painel Propriedades. Se não vir o painel Propriedades, no friso **Ver**, selecione a caixa de verificação **Propriedades**.
+1. Pode diminuir as margens da página no painel Propriedades. Se não vir o painel Propriedades, no friso **Ver** , selecione a caixa de verificação **Propriedades**.
 
 1. Selecione o relatório, não selecione a tabela ou título.
-1. No painel **Propriedades do Relatório**, em **Página**, expanda **Margens** e altere cada uma para **0,75 pol**.
+1. No painel **Propriedades do Relatório** , em **Página** , expanda **Margens** e altere cada uma para **0,75 pol**.
 
     ![Definir as margens da página](media/report-builder-shared-datasets/power-bi-report-builder-page-margins.png)
 
@@ -188,15 +190,15 @@ Tem várias opções de formatação para ajustar a sua tabela numa página.
 
     ![Selecionar mais do que uma célula](media/report-builder-shared-datasets/power-bi-report-builder-select-cells.png)
 
-1. No friso **Base**, na secção **Número**, altere o formato **Predefinido** para um formato numérico, tal como **Moeda**.
+1. No friso **Base** , na secção **Número** , altere o formato **Predefinido** para um formato numérico, tal como **Moeda**.
 
     ![Definir o formato de número](media/report-builder-shared-datasets/power-bi-report-builder-number-format.png)
 
-1. Altere o estilo **Marcador de Posição** para **Valores de Exemplo**, para que possa ver a formatação na célula. 
+1. Altere o estilo **Marcador de Posição** para **Valores de Exemplo** , para que possa ver a formatação na célula. 
 
     ![Ver valores de exemplo](media/report-builder-shared-datasets/power-bi-report-builder-sample-values.png)
 
-1. Se for adequado, na secção **Número**, diminua as casas decimais para poupar mais espaço.
+1. Se for adequado, na secção **Número** , diminua as casas decimais para poupar mais espaço.
 
 ### <a name="getting-rid-of-blank-pages"></a>Eliminar páginas em branco
 
@@ -209,7 +211,7 @@ Por exemplo, digamos que o seu relatório tem o formato 8,5x11 pol. e definiu as
 1. Selecione o limite direito da superfície de desenho do relatório e arraste para que seja menor do que o número pretendido na régua. 
 
     > [!TIP]
-    > Pode definir com mais precisão nas Propriedades do **corpo**. Em **Tamanho**, defina a **Largura** de forma adequada.
+    > Pode definir com mais precisão nas Propriedades do **corpo**. Em **Tamanho** , defina a **Largura** de forma adequada.
 
     ![Definir o tamanho do corpo](media/report-builder-shared-datasets/power-bi-report-builder-body-size.png)
 

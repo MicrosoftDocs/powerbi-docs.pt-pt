@@ -8,14 +8,16 @@ ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 30ab632d11befd34ff9a234e441b345c696fb54d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3f075372436723cd8952decd68ecc764bd6e92a0
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922994"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297745"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>Planear um relatório no Report Builder do Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 O Report Builder do Power BI permite-lhe criar vários tipos de relatórios paginados. Por exemplo, pode criar relatórios que apresentem dados de vendas detalhados ou resumidos, tendências de marketing e vendas, relatórios operacionais ou dashboards. Também pode criar relatórios que tirem partido de texto formatado, por exemplo, para ordens de venda, catálogos de produtos ou cartas de formulário. Todos estes relatórios são criados através de diferentes combinações dos mesmos componentes principais básicos do Report Builder. Para criar um relatório útil e fácil de compreender, recomendamos que faça um plano primeiro. Eis algumas questões que deve considerar antes de começar:  
   
@@ -47,6 +49,6 @@ Considere se quer ocultar itens de relatório, incluindo colunas, grupos e regi�
   
 Pode guardar o relatório no computador local e continuar a trabalhar no mesmo ou abri-lo localmente para efeitos de consulta. No entanto, para partilhar o seu relatório com outras pessoas, precisa de guardá-lo no Power BI. Ao guardá-lo no Power BI, permite que outras pessoas o utilizem sempre que quiserem. Em alternativa, pode configurar uma subscrição e a entrega de e-mail do relatório para outros utilizadores individuais. Se preferir, o relatório pode ser entregue num formato de exportação específico à sua escolha. 
   
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)
