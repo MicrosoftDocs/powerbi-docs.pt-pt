@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 778ce3c810cb0d59559940f489dfeda34f366fda
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: baccdcae82fb56b2f7f7a9d6cb4839e941e99bf0
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853983"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297533"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: criar um relatório paginado e carregá-lo para o serviço Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Neste tutorial, vai ligar-se a uma base de dados SQL do Azure de exemplo. Em seguida, vai utilizar um assistente no Report Builder do Power BI para criar um relatório paginado com uma tabela que ocupa múltiplas páginas. Em seguida, vai carregar o relatório paginado para uma área de trabalho numa capacidade Premium do serviço Power BI.
 
@@ -36,9 +38,9 @@ Se não tiver uma subscrição do Azure, crie uma [conta gratuita](https://azure
 
 Seguem-se os pré-requisitos para a criação do relatório paginado:
 
-- Instalar o [Report Builder do Power BI a partir do Centro de Transferências da Microsoft](https://aka.ms/pbireportbuilder). 
+- Instale o [Report Builder do Power BI a partir do Centro de Transferências da Microsoft](https://aka.ms/pbireportbuilder). 
 
-- Siga o início rápido [Criar um exemplo de base de dados SQL do Azure no portal do Azure](/azure/sql-database/sql-database-get-started-portal). Copie e guarde o valor na caixa **Nome do servidor**, no separador **Descrição geral**. Lembre-se do nome de utilizador e da palavra-passe que criou no Azure.
+- Siga o início rápido [Criar um exemplo de base de dados SQL do Azure no portal do Azure](/azure/sql-database/sql-database-get-started-portal). Copie e guarde o valor na caixa **Nome do servidor** , no separador **Descrição geral**. Lembre-se do nome de utilizador e da palavra-passe que criou no Azure.
 
 Seguem-se os pré-requisitos para carregar o relatório paginado para o serviço Power BI:
 
@@ -55,35 +57,35 @@ Seguem-se os pré-requisitos para carregar o relatório paginado para o serviço
   
 1.  No painel esquerdo, verifique se o **Novo Relatório** está selecionado e, no painel direito, selecione **Assistente de Tabela ou Matriz**.  
   
-4.  Na página **Escolher um conjunto de dados**, selecione **Criar um conjunto de dados** > **Seguinte**.  
+4.  Na página **Escolher um conjunto de dados** , selecione **Criar um conjunto de dados** > **Seguinte**.  
 
     ![Criar um conjunto de dados](media/paginated-reports-quickstart-aw/power-bi-paginated-create-dataset.png)
   
-5.  Na página **Escolher uma ligação para uma origem de dados**, selecione **Nova**. 
+5.  Na página **Escolher uma ligação para uma origem de dados** , selecione **Nova**. 
 
     ![Nova origem de dados](media/paginated-reports-quickstart-aw/power-bi-paginated-new-data-source-connection.png)
   
      A caixa de diálogo **Propriedades da Origem de Dados** é apresentada.  
   
-6.  Pode dar qualquer nome à origem de dados, com carateres e carateres de sublinhado. Para este tutorial, na caixa **Nome**, escreva **MyAzureDataSource**.  
+6.  Pode dar qualquer nome à origem de dados, com carateres e carateres de sublinhado. Para este tutorial, na caixa **Nome** , escreva **MyAzureDataSource**.  
   
-7.  Na caixa **Selecionar tipo de ligação**, selecione **Base de Dados SQL do Microsoft Azure**.  
+7.  Na caixa **Selecionar tipo de ligação** , selecione **Base de Dados SQL do Microsoft Azure**.  
   
 8.  Selecione **Criar** junto da caixa **Cadeia de ligação**. 
 
     ![Propriedades da origem de dados – Criar](media/paginated-reports-quickstart-aw/power-bi-paginated-data-source-properties-build.png)
 
-9. **No Azure:** regresse ao portal do Azure e selecione **Bases de dados SQL**.
+9. **No Azure:** volte ao portal do Azure e selecione **Bases de dados SQL**.
 
 1. Selecione a base de dados SQL do Azure que criou no início rápido “Criar um exemplo de base de dados SQL do Azure no portal do Azure” na secção **Pré-requisitos** deste artigo.
 
-1. No separador **Descrição geral**, copie e guarde o valor na caixa **Nome do servidor**.
+1. No separador **Descrição geral** , copie e guarde o valor na caixa **Nome do servidor**.
 
-2. **No Report Builder**: na caixa de diálogo **Propriedades da Ligação**, em **Nome do servidor**, cole o nome do servidor que copiou. 
+2. **No Report Builder** : na caixa de diálogo **Propriedades da Ligação** , em **Nome do servidor** , cole o nome do servidor que copiou. 
 
-1. Para **Iniciar sessão no servidor**, garanta que a opção **Utilizar a Autenticação do SQL Server** está selecionada. Em seguida, escreva o nome de utilizador e a palavra-passe que criou no Azure para a base de dados de exemplo.
+1. Para **Iniciar sessão no servidor** , garanta que a opção **Utilizar a Autenticação do SQL Server** está selecionada. Em seguida, escreva o nome de utilizador e a palavra-passe que criou no Azure para a base de dados de exemplo.
 
-1. Em **Ligar a uma base de dados**, selecione a seta para baixo e selecione o nome da base de dados que criou no Azure.
+1. Em **Ligar a uma base de dados** , selecione a seta para baixo e selecione o nome da base de dados que criou no Azure.
  
     ![Propriedades da ligação de origem de dados](media/paginated-reports-quickstart-aw/power-bi-paginated-connection-properties.png)
 
@@ -91,19 +93,19 @@ Seguem-se os pré-requisitos para carregar o relatório paginado para o serviço
 
 1. Selecione **OK** > **OK**. 
 
-   Agora, na caixa **Cadeia de ligação**, o Report Builder apresenta a cadeia de ligação que acabou de criar. 
+   Agora, na caixa **Cadeia de ligação** , o Report Builder apresenta a cadeia de ligação que acabou de criar. 
 
     ![Cadeia de ligação da origem de dados](media/paginated-reports-quickstart-aw/power-bi-paginated-data-source-properties-connection-string.png)
 
 1. Selecione **OK**.
   
-9. Na página **Escolher uma ligação para uma origem de dados**, verá “(neste Relatório)” sob a ligação de origem de dados que acabou de criar. Selecione essa origem de dados > **Seguinte**.  
+9. Na página **Escolher uma ligação para uma origem de dados** , verá “(neste Relatório)” sob a ligação de origem de dados que acabou de criar. Selecione essa origem de dados > **Seguinte**.  
 
     ![A minha origem de dados](media/paginated-reports-quickstart-aw/power-bi-paginated-my-azure-data-source.png)
 
 10. Escreva o mesmo nome de utilizador e a palavra-passe na caixa. 
   
-10. Na página **Estruturar uma consulta**, expanda SalesLT, expanda Tabelas e selecione estas tabelas:
+10. Na página **Estruturar uma consulta** , expanda SalesLT, expanda Tabelas e selecione estas tabelas:
 
     - Endereço
     - Cliente
@@ -122,27 +124,27 @@ Seguem-se os pré-requisitos para carregar o relatório paginado para o serviço
 
 18. Selecione **Seguinte**. 
 
-19. Na página **Escolher um conjunto de dados**, selecione o conjunto de dados que acabou de criar > **Seguinte**.
+19. Na página **Escolher um conjunto de dados** , selecione o conjunto de dados que acabou de criar > **Seguinte**.
 
     ![Escolher um conjunto de dados](media/paginated-reports-quickstart-aw/power-bi-paginated-choose-dataset.png)
 
-1. Na página **Dispor campos**, arraste estes campos da caixa **Campos disponíveis** para a caixa **Grupos de linha**:
+1. Na página **Dispor campos** , arraste estes campos da caixa **Campos disponíveis** para a caixa **Grupos de linha** :
 
     - CompanyName
     - SalesOrderNumber
     - Product_Name
 
-1. Arraste estes campos da caixa **Campos disponíveis** para a caixa **Valores**:
+1. Arraste estes campos da caixa **Campos disponíveis** para a caixa **Valores** :
 
     - OrderQty
-    - PreçoUnitário
+    - Preço Unitário
     - TotalDaLinha
 
     O Report Builder faz com que os campos na caixa **Valores** sejam somados.
 
     ![Dispor campos](media/paginated-reports-quickstart-aw/power-bi-paginated-drag-fields.png)
 
-24. Na página **Escolher o layout**, mantenha todas as configurações padrão, mas desmarque **Expandir/fechar grupos**. Em geral, a funcionalidade expandir/fechar grupos é ótima, mas desta vez quer que a tabela seja moldada a várias páginas.
+24. Na página **Escolher o layout** , mantenha todas as configurações padrão, mas desmarque **Expandir/fechar grupos**. Em geral, a funcionalidade expandir/fechar grupos é ótima, mas desta vez quer que a tabela seja moldada a várias páginas.
 
 1. Selecione **Seguinte** > **Concluir**. A tabela é apresentada na superfície da estrutura.
  
@@ -165,7 +167,7 @@ Vamos fazer uma pausa por um momento para examinar os resultados do assistente.
 5. No painel Agrupamento, verá os três grupos de linhas que criou no assistente: 
 
     - CompanyName
-    - Nota de Venda
+    - Encomenda de Vendas
     - Nome do Produto
 
     Esta matriz não tem grupos de colunas.
@@ -206,7 +208,7 @@ Normalmente, um relatório paginado é formatado para impressão e uma página n
 
 1. Selecione as palavras **Clicar para adicionar título** na parte superior da página e, em seguida, escreva **Vendas por Empresa**.  
 
-2. Selecione o texto do título e, no painel Propriedades, em **Tipo de letra**, altere a **Cor** para **Azul**.
+2. Selecione o texto do título e, no painel Propriedades, em **Tipo de letra** , altere a **Cor** para **Azul**.
   
 ### <a name="add-a-page-number"></a>Adicionar um número de página
 
@@ -218,7 +220,7 @@ Reparou que o relatório tem um carimbo de data e hora no rodapé. Também pode 
 
 3. Arraste o lado direito da caixa [&PageNumber] para torná-la quadrada.
 
-4. No separador **Inserir**, selecione **Caixa de Texto**.
+4. No separador **Inserir** , selecione **Caixa de Texto**.
 
 5. Clique à direita de [&PageNumber], escreva “de” e, em seguida, torne a caixa de texto quadrada.
 
@@ -248,7 +250,7 @@ Se tiver reparado quando executou o relatório, os valores de dólar não estão
 
     ![Selecionar células com valores de moeda](media/paginated-reports-quickstart-aw/power-bi-paginated-select-money-cells.png)
 
-2. No separador **Raiz**, selecione o símbolo de modela de cifrão ( **$** ) e, em seguida, selecione a seta junto de **Estilos do marcador de posição** > **Valores de Exemplo**.
+2. No separador **Raiz** , selecione o símbolo de modela de cifrão ( **$** ) e, em seguida, selecione a seta junto de **Estilos do marcador de posição** > **Valores de Exemplo**.
  
     ![Mostrar valores de exemplo](media/paginated-reports-quickstart-aw/power-bi-paginated-format-currency.png)
 
@@ -268,7 +270,7 @@ Mais uma melhoria na formatação antes de publicar o relatório no serviço Pow
 
    ![Selecionar o grupo estático](media/paginated-reports-quickstart-aw/power-bi-paginated-static-group.png)
 
-3. No painel **Propriedades**, vai procurar as propriedades do **Membro de Tablix**. Defina **KeepWithGroup**como **Depois** e **RepeatOnNewPage** como **Verdadeiro**.
+3. No painel **Propriedades** , vai procurar as propriedades do **Membro de Tablix**. Defina **KeepWithGroup** como **Depois** e **RepeatOnNewPage** como **Verdadeiro**.
 
     ![Set RepeatOnNewPage](media/paginated-reports-quickstart-aw/power-bi-paginated-repeat-on-new-page.png)
 
@@ -306,7 +308,7 @@ Agora que criou o relatório paginado, chegou a hora de o carregar no serviço P
 
 2. Na caixa **Ficheiros** > **Obter**.
 
-3. Selecione **Ficheiro Local**, navegue para o local onde guardou o ficheiro > **Abrir**.
+3. Selecione **Ficheiro Local** , navegue para o local onde guardou o ficheiro > **Abrir**.
 
    O Power BI importa o ficheiro e poderá vê-lo sob **Relatórios** na página Lista de aplicações.
 

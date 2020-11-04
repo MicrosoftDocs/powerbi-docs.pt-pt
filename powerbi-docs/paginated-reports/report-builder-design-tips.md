@@ -8,17 +8,18 @@ ms.topic: conceptual
 ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 13b9e37d4a64493dfdcac02d9df86a1e19a1c24b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: dc8400361ca8d7bdd3713efa7bdf180578a597a2
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921177"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297930"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Sugestões de estrutura de relatórios no Report Builder do Power BI
-  Utilize as seguintes sugestões para ajudar a estruturar os relatórios paginados no Report Builder do Power BI.  
-  
-   
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+Utilize as seguintes sugestões para ajudar a estruturar os relatórios paginados no Report Builder do Power BI.  
   
 ##  <a name="designing-reports"></a><a name="DesigningReports"></a> Estruturação de relatórios  
   
@@ -127,7 +128,7 @@ ms.locfileid: "78921177"
   
     -   Os contentores aumentam para acomodar o crescimento de itens subordinados. Para um item selecionado, no painel Propriedades, a propriedade Principal identifica o contentor para o item. Também pode utilizar o painel Contorno do Documento para ver a hierarquia de contenção de itens de relatório.  
   
-    -   A barra de ferramentas **Esquema** fornece múltiplos botões para ajudar a alinhar as margens, os centros e o espaçamento para itens de relatório. Para ativar a barra de ferramentas **Esquema**, a partir do menu **Ver**, aponte para **Barras de Ferramentas** e, em seguida, clique em **Esquema**.  
+    -   A barra de ferramentas **Esquema** fornece múltiplos botões para ajudar a alinhar as margens, os centros e o espaçamento para itens de relatório. Para ativar a barra de ferramentas **Esquema** , a partir do menu **Ver** , aponte para **Barras de Ferramentas** e, em seguida, clique em **Esquema**.  
   
 -   Se quiser guardar o relatório como um ficheiro .pdf, a largura do relatório tem de ser explicitamente definida como um valor que apresente os resultados que pretende no formato de ficheiro de exportação. Por exemplo, defina a largura da página de relatório para exatamente 7,9375 polegadas e as margens esquerda e direita para 0,5 polegadas.  
   
@@ -145,6 +146,6 @@ ms.locfileid: "78921177"
 
  Este comportamento, as propriedades de largura e altura dos itens de relatório, o tamanho do corpo do relatório, a definição de largura e altura da página, as definições de margem do relatório principal e o suporte específico do compositor para paginação combinam-se para determinar que itens de relatório se conjugam numa página composta.
  
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)  

@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: a77631cbf2438c00a8c05b196837b73b8dc6bb61
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f19e80a421c6e27fa3b85814d00bfb05dc2789b2
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207143"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297714"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports"></a>Explorar a Vista de Estrutura de Relatório dos relatórios paginados
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 A Vista de Estrutura de Relatório no Report Builder do Power BI é o espaço de estrutura para a criação de relatórios paginados que pode publicar no serviço Power BI. A superfície de desenho está no centro do Report Builder, com o friso e os painéis em seu redor. A superfície de desenho é onde pode adicionar e organizar os seus itens de relatório. Este artigo explica os painéis que utiliza para adicionar, selecionar e organizar os recursos de relatório e alterar as propriedades do item de relatório.  
 
@@ -59,7 +61,7 @@ A Vista de Estrutura de Relatório no Report Builder do Power BI é o espaço de
 ### <a name="design-surface-size-and-print-area"></a>Área de impressão e de tamanho da superfície de desenho  
 O tamanho da superfície de desenho pode ser diferente da área de impressão do tamanho de página que especificar para imprimir o relatório. Alterar o tamanho da superfície de desenho não mudará a área de impressão do relatório. Não importa qual o tamanho definido para a área de impressão do relatório, o tamanho da área da estrutura completo não será alterado. Para obter mais informações, veja Comportamentos de Composição. 
   
-- Para apresentar a régua, no separador **Ver**, selecione a caixa de verificação **Régua**.  
+- Para apresentar a régua, no separador **Ver** , selecione a caixa de verificação **Régua**.  
   
 ## <a name="3-parameters-pane"></a>3 Painel Parâmetros  
  Com os parâmetros do relatório, pode controlar os dados dos relatórios, ligar os relatórios relacionados entre si e variar a apresentação do relatório. O painel Parâmetros fornece um esquema flexível para os parâmetros do relatório.  
@@ -71,7 +73,7 @@ O tamanho da superfície de desenho pode ser diferente da área de impressão do
   
  Estas propriedades são apresentadas no painel Propriedades. As propriedades no painel mudam consoante o item de relatório que selecionar.  
   
-- Para ver o painel Propriedades, no separador **Ver** no grupo **Mostrar/Ocultar**, selecione **Propriedades**.  
+- Para ver o painel Propriedades, no separador **Ver** no grupo **Mostrar/Ocultar** , selecione **Propriedades**.  
   
 ### <a name="changing-property-values"></a>Alterar os Valores das Propriedades  
  No Report Builder, pode alterar as propriedades dos itens de relatório de várias formas:  
@@ -89,12 +91,12 @@ O tamanho da superfície de desenho pode ser diferente da área de impressão do
 ### <a name="changing-the-properties-pane-view"></a>Alterar a Vista do Painel Propriedades  
  Por predefinição, as propriedades apresentadas no painel Propriedades estão organizadas em categorias amplas, como Ação, Limite, Preenchimento, Tipo de Letra e Geral. Cada categoria tem um conjunto de propriedades que lhe estão associadas. Por exemplo, as seguintes propriedades estão listadas na categoria Tipo de letra: Cor, FontFamily, FontSize, FontStyle, FontWeight, LineHeight e TextDecoration. Se preferir, pode alfabetizar todas as propriedades listadas no painel. Este procedimento remove as categorias e apresenta uma lista de todas as propriedades por ordem alfabética, independentemente da categoria.  
   
- O painel Propriedades tem três botões na parte superior do painel: **Categoria**, **Alfabetizar** e **Página de Propriedades**. Selecione os botões Categoria e Alfabetizar para alternar entre as vistas do painel Propriedades. Selecione o botão **Páginas de Propriedades** para abrir a caixa de diálogo de propriedades para um item de relatório selecionado.  
+ O painel Propriedades tem três botões na parte superior do painel: **Categoria** , **Alfabetizar** e **Página de Propriedades**. Selecione os botões Categoria e Alfabetizar para alternar entre as vistas do painel Propriedades. Selecione o botão **Páginas de Propriedades** para abrir a caixa de diálogo de propriedades para um item de relatório selecionado.  
   
   
 ## <a name="5-grouping-pane"></a>5 Painel Agrupamento
 
- Os grupos servem para organizar os dados do relatório numa hierarquia visual e para calcular totais. Pode ver os grupos de linhas e de colunas numa região de dados na superfície de desenho e também no painel Agrupamento. O painel Agrupamento tem dois painéis: Grupos de Linhas e Grupos de Colunas. Quando seleciona uma região de dados, o painel Agrupamento apresenta todos os grupos nessa região de dados como uma lista hierárquica: os grupos subordinados são apresentados com avanço sob os grupos principais.  
+ Os grupos servem para organizar os dados do relatório numa hierarquia visual e para calcular totais. Pode ver os grupos de linhas e de colunas numa região de dados na superfície de desenho e também no painel Agrupamento. O painel Agrupamento tem dois painéis: Grupos de Linhas e Grupos de Colunas. Quando seleciona uma região de dados, o painel Agrupamento apresenta todos os grupos nessa região de dados como uma lista hierárquica: os Grupos subordinados são apresentados com avanço sob os grupos principais.  
   
  Pode criar grupos ao arrastar campos do painel Dados do Relatório e ao soltá-los na superfície de desenho ou no painel Agrupamento. No painel Agrupamento, pode adicionar os grupos principais, adjacentes e subordinados, alterar as propriedades dos grupos e eliminar grupos.  
   

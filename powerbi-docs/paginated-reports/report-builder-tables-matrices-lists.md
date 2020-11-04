@@ -8,15 +8,18 @@ ms.topic: conceptual
 ms.assetid: 9dcf3fc8-bf9c-4a14-a03d-e78254aa4098
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 02ac131325dab59590cb88c524ace68a1226fc69
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3d22696168d8ae550238fab243110db357b39c22
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921499"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297694"
 ---
 # <a name="tables-matrixes-and-lists-in-power-bi-report-builder"></a>Tabelas, matrizes e listas no Report Builder do Power BI
- No Report Builder, as tabelas, matrizes e listas são *regiões de dados* que apresentam dados de relatórios paginados em células organizadas em linhas e colunas. As células geralmente incluem dados, como texto, datas e números, mas também podem incluir medidores, gráficos ou itens de relatório, como imagens. Coletivamente, as tabelas, matrizes e listas são muitas vezes designadas de regiões de dados *tablix*.  
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+No Report Builder, as tabelas, matrizes e listas são *regiões de dados* que apresentam dados de relatórios paginados em células organizadas em linhas e colunas. As células geralmente incluem dados, como texto, datas e números, mas também podem incluir medidores, gráficos ou itens de relatório, como imagens. Coletivamente, as tabelas, matrizes e listas são muitas vezes designadas de regiões de dados *tablix*.  
   
  Os modelos de tabelas, matrizes e listas são incorporados na região de dados tablix, que é uma grelha flexível que pode apresentar dados em células. Nos modelos de tabelas e matrizes, as células são organizadas em linhas e colunas. Dado que os modelos são variações da região de dados tablix genérica subjacente, pode apresentar dados ao combinar formatos de modelos e alterar a tabela, matriz ou lista para incluir as funcionalidades de outra região de dados à medida que desenvolve o seu relatório. Por exemplo, se adicionar uma tabela e verificar que não se adequa às suas necessidades, pode adicionar grupos de colunas para transformar a tabela numa matriz.  
   
@@ -33,7 +36,7 @@ ms.locfileid: "78921499"
 
 ![Modelo de tabela do Report Builder com a superfície da estrutura selecionada](media/report-builder-tables-matrices-lists/report-builder-new-table.png)
   
- Pode agrupar dados por um único campo, por múltiplos campos ou ao escrever a sua própria expressão. Pode criar grupos aninhados ou grupos adjacentes independentes e apresentar valores agregados para dados agrupados, ou adicionar valores totais a grupos. Por exemplo, se a sua tabela tiver um grupo de linhas denominado **Categoria**, pode adicionar um subtotal para cada grupo, bem como um total geral para o relatório. Para melhorar o aspeto da tabela e realçar dados importantes, pode intercalar células e aplicar formatação a cabeçalhos de tabelas e dados.  
+ Pode agrupar dados por um único campo, por múltiplos campos ou ao escrever a sua própria expressão. Pode criar grupos aninhados ou grupos adjacentes independentes e apresentar valores agregados para dados agrupados, ou adicionar valores totais a grupos. Por exemplo, se a sua tabela tiver um grupo de linhas denominado **Categoria** , pode adicionar um subtotal para cada grupo, bem como um total geral para o relatório. Para melhorar o aspeto da tabela e realçar dados importantes, pode intercalar células e aplicar formatação a cabeçalhos de tabelas e dados.  
   
  Inicialmente, pode ocultar dados agrupados ou detalhados e incluir botões de alternar de desagregação para permitir que os utilizadores selecionem a quantidade de dados a apresentar de forma interativa.  
   

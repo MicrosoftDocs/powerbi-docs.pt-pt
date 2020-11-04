@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 03/02/2020
-ms.openlocfilehash: e44b81120ef5eb1d2a384aae4f2d149525c3b7b4
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 29ed0a764773c2252989aa05bfcabe5976472d11
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632509"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297832"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Criar uma origem de dados incorporada para relatórios paginados no serviço Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Neste artigo, vai aprender a criar e a modificar uma origem de dados incorporada para um relatório paginado no serviço Power BI. Vai definir uma origem de dados incorporada num único relatório e utilizá-la apenas nesse relatório. Atualmente, os relatórios paginados publicados no serviço Power BI precisam de conjuntos de dados incorporados e origens de dados incorporadas e podem ligar-se a estas origens de dados:
 
@@ -43,11 +45,11 @@ Para obter informações mais detalhadas, veja [Dados de Relatórios no Report B
 
    ![Nova Origem de Dados](media/paginated-reports-embedded-data-source/power-bi-paginated-new-data-source.png)
   
-1. Na caixa de texto **Nome**, escreva um nome para a origem de dados ou aceite o nome predefinido.  
+1. Na caixa de texto **Nome** , escreva um nome para a origem de dados ou aceite o nome predefinido.  
   
 1. Selecione **Utilizar uma ligação incorporada no meu relatório**.  
   
-1. Na lista **Selecionar o tipo de ligação**, selecione um tipo de origem de dados. 
+1. Na lista **Selecionar o tipo de ligação** , selecione um tipo de origem de dados. 
 
 1. Especifique uma cadeia de ligação com um dos seguintes métodos:  
   
@@ -89,7 +91,7 @@ Os relatórios paginados que estão ligados a conjuntos de dados do Power BI seg
 - .rdl numa área de trabalho diferente do conjunto de dados (utilizador diferente): precisa de atribuir a Permissão de leitura a cada utilizador que vir o relatório ao nível do conjunto de dados
 - Segurança ao nível da função: precisa de atribuir a Permissão de leitura a cada utilizador que vir o relatório ao nível do conjunto de dados para que a segurança seja imposta
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
-- [Criar uma origem de dados incorporada para um relatório paginado no serviço Power BI](paginated-reports-create-embedded-dataset.md)
+- [Criar um conjunto de dados incorporado para um relatório paginado no serviço Power BI](paginated-reports-create-embedded-dataset.md)
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)

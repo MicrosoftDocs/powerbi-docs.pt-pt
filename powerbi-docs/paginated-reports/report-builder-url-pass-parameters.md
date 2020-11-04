@@ -9,14 +9,16 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 05/01/2020
-ms.openlocfilehash: c26f9c8f219517e3039b62cdbc89af24ba1af288
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f103f29c61d1a4e4a5340d97598d80a86c708701
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239563"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298039"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Transmitir um parâmetro de relatório num URL para um relatório paginado no Power BI 
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Pode transmitir parâmetros de relatório para um relatório ao incluí-los num URL de relatório paginado. Todos os parâmetros de consulta podem ter parâmetros de relatório correspondentes. Por conseguinte, pode transmitir um parâmetro de consulta para um relatório ao transmitir o parâmetro de relatório correspondente. Tem de colocar o prefixo `rp:` no nome do parâmetro para que o Power BI o reconheça no URL. 
 
@@ -81,7 +83,7 @@ O seguinte URL de exemplo transmite um único parâmetro de  SellStartDate  
 https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d?rp:SellStartDate=7/1/2005
 ```
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 
 - [Parâmetros de URL em relatórios paginados no Power BI](report-builder-url-parameters.md)
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)
