@@ -284,7 +284,7 @@
               href: service-gateway-personal-mode.md
             - name: Manage gateway data sources (Gerir origens de dados do gateway)
               items:
-                - name: Gerir origens de dados
+                - name: Adicionar ou remover uma origem de dados do gateway
                   href: service-gateway-data-sources.md
                 - name: Manage your enterprise data source - Analysis Services (Gerir a sua origem de dados empresarial – Analysis Services)
                   href: service-gateway-enterprise-manage-ssas.md
