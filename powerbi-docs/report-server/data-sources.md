@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/04/2020
+ms.date: 10/29/2020
 ms.author: maggies
-ms.openlocfilehash: cedabd613e177aa9a3645e80db38b74d799b8799
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 52d38fd0705a6f9335f0ddd965acb0d9f56d38ee
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861205"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045075"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origens de dados de relatórios do Power BI no Power BI Report Server
 Os relatórios do Power BI podem estabelecer ligação a diversas origens de dados. Consoante a forma como os dados são utilizados, estão disponíveis diferentes origens de dados. Pode importar ou consultar dados diretamente através do DirectQuery ou de uma ligação em direto ao SQL Server Analysis Services. Algumas origens de dados estão disponíveis no Power BI Desktop otimizadas para o Power BI Report Server, mas não são suportadas quando publicadas no Power BI Report Server.
@@ -190,20 +190,22 @@ O Power BI Report Server não suporta autenticação com base em OAuth para a at
 
 **A utilização da autenticação LDAP com Teradata (ativada no Power BI Desktop com a linha de comandos "setx PBI_EnableTeradataLdap true") não é suportada para a atualização de modelos.
 
+O Power BI Report Server tem uma limitação quando utiliza dados da Web: apenas ficheiros de dados da Web podem ser atualizados. Os dados baseados na Página ou Por exemplo não podem ser atualizados. Esta limitação ocorre uma vez que expressões M criadas com Web.BrowserContents e Web.Page não podem ser atualizadas. O Power BI Report Server só pode atualizar origens de dados Web.Contents.
+
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>Lista de métodos de autenticação suportados para o DirectQuery
 
 O Power BI Report Server não suporta autenticação com base em OAuth para o DirectQuery.
 
 | **Origem de dados** | **Autenticação Anónima** | **Autenticação da Chave** | **Nome de utilizador e Palavra-passe** | **Autenticação do Windows** | **Autenticação Integrada do Windows** |
 | --- | --- | --- | --- | --- | --- |
-| Base de Dados do SQL Server |No |No |Sim |Yes |Yes |
-| SQL Server Analysis Services |No |No |Sim |Yes |Yes |
-| Base de Dados SQL do Azure |No |No |Sim |Não |No |
-| Azure SQL Data Warehouse |No |No |Sim |Não |No |
-| Base de dados Oracle |No |No |Sim |Yes |Yes |
-| SAP Business Warehouse Server |No |No |Sim |Não |No |
-| Base de Dados do SAP HANA |No |No |Sim |Yes |Sim** |
-| Teradata |No |No |Sim |Yes |Yes |
+| Base de Dados do SQL Server |No |No |Yes |Yes |Sim |
+| SQL Server Analysis Services |No |No |Yes |Yes |Sim |
+| Base de Dados SQL do Azure |No |No |Yes |No |No |
+| Azure SQL Data Warehouse |No |No |Yes |No |No |
+| Base de dados Oracle |No |No |Yes |Yes |Sim |
+| SAP Business Warehouse Server |No |No |Yes |No |No |
+| Base de Dados do SAP HANA |No |No |Yes |Yes |Sim** |
+| Teradata |No |No |Yes |Yes |Yes |
 
 **O SAP HANA suporta o DirectQuery com Autenticação Integrada do Windows apenas quando a utiliza como base de dados relacional no ficheiro do Power BI Desktop publicado (.pbix).
 

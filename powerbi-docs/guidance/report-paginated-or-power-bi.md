@@ -8,21 +8,21 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f1608fd2511e38758b5bf05041d625cf524fff34
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 169a94beab8cb5b4c44105aba4c1cdf02e902c06
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83127822"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916872"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Quando utilizar os relatórios paginados no Power BI
 
 O presente artigo destina-se a si, na qualidade de criador de relatórios para o Power BI. Fornece sugestões para ajudá-lo a escolher quando criar os [relatórios paginados do Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md).
 
 > [!NOTE]
-> Para publicar os relatórios paginados do Power BI, é necessária uma subscrição do Power BI Premium. Os relatórios vão ser compostos somente quando estiverem numa área de trabalho numa capacidade dedicada que tenha [a carga de trabalho Relatórios Paginados ativada](../admin/service-admin-premium-workloads.md#paginated-reports).
+> Para publicar os relatórios paginados do Power BI, é necessária uma subscrição do Power BI Premium. Os relatórios serão compostos somente quando estiverem numa área de trabalho numa capacidade que tenha [a carga de trabalho Relatórios Paginados ativada](../admin/service-admin-premium-workloads.md#paginated-reports).
 
-Os relatórios paginados do Power BI são otimizados para **impressão**ou **geração de PDFs**. Também lhe proporcionam a capacidade de produzir esquemas altamente formatados e com um aspeto perfeito. Portanto, os relatórios paginados são ideais para relatórios operacionais, como faturas de vendas.
+Os relatórios paginados do Power BI são otimizados para **impressão** ou **geração de PDFs**. Também lhe proporcionam a capacidade de produzir esquemas altamente formatados e com um aspeto perfeito. Portanto, os relatórios paginados são ideais para relatórios operacionais, como faturas de vendas.
 
 Em contrapartida, os relatórios do Power BI estão otimizados para a **exploração e a interatividade**. Além disso, podem apresentar os seus dados através de uma gama abrangente de elementos visuais ultramodernos. Assim, os relatórios do Power BI são ideais para relatórios analíticos, pois permitem que os utilizadores dos seus relatórios explorem os dados e descubram relações e padrões.
 
@@ -44,27 +44,27 @@ Poderá ponderar voltar a criar os relatórios SSRS, em vez de os migrar. Isto a
 
 Quando é preferível criar um relatório paginado do Power BI, há muitos cenários apelativos. Muitos destes cenários são funcionalidades ou capacidades não suportadas pelos relatórios do Power BI.
 
-- **Pronto para impressão**: os relatórios paginados são otimizados para impressão ou geração de PDFs. Quando necessário, as regiões de dados podem expandir e sobrecarregar para várias páginas de forma controlada. Os esquemas de relatório podem definir margens, cabeçalhos e rodapés de página.
-- **Formatos de composição**: o Power BI pode compor relatórios paginados em formatos diferentes. Os formatos incluem Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, CSV, XML e MHTML (o formato MHTML é utilizado pelo serviço Power BI para compor relatórios). Os utilizadores de relatórios podem decidir exportar no formato que preferirem.
-- **Esquema preciso**: pode criar esquemas com um aspeto perfeito e altamente formatados com o tamanho exato e a localização configurada em frações de polegadas ou centímetros.
-- **Esquema dinâmico**: pode produzir esquemas altamente reativos ao definir muitas propriedades de relatório para utilizar expressões VB.NET. As expressões têm acesso a muitas bibliotecas do .NET Framework importantes.
-- **Esquema de composição específica**: pode utilizar expressões para modificar o esquema de relatório com base no formato de composição aplicado. Por exemplo, pode criar o relatório para desativar a alternância de visibilidade (de modo a desagregar e a agregar) quando este é composto através de um formato não interativo, como PDF.
-- **Consultas nativas**: não é preciso criar previamente um conjunto de dados do Power BI. É possível criar consultas nativas (ou utilizar procedimentos armazenados) para qualquer [origem de dados suportada](../paginated-reports/paginated-reports-data-sources.md). As consultas podem incluir parametrização.
-- **Designers de consultas gráficas**: o Power BI Report Builder inclui designers de consultas gráficas para ajudá-lo a escrever e a testar as consultas de conjuntos de dados.
-- **Conjuntos de dados estáticos**: pode definir um conjunto de dados e introduzir dados diretamente na definição do relatório. Esta funcionalidade é, sobretudo, útil para suportar uma demonstração ou para fornecer uma prova de conceito (POC).
-- **Integração de dados**: pode combinar dados de diferentes origens de dados ou com conjuntos de dados estáticos. Isto é conseguido através da criação de campos personalizados com expressões VB.NET.
-- **Parametrização**: pode criar experiências de parametrização altamente personalizadas, incluindo parâmetros de dados e em cascata. Também é possível definir as predefinições dos parâmetros. Estas experiências podem ser criadas para ajudar os utilizadores do relatório a definir rapidamente filtros apropriados. Além disso, os parâmetros não precisam de filtrar os dados do relatório. Podem ser utilizados para suportar cenários "hipotéticos", ou estilo ou filtragem dinâmica.
-- **Dados de imagens**: o seu relatório pode compor imagens quando estas estão armazenadas no formato binário numa origem de dados.
-- **Código personalizado**: pode criar blocos de código das funções VB.NET no relatório e utilizá-las em qualquer expressão do relatório.
-- **Sub-relatórios**: pode incorporar outros relatórios paginados do Power BI (da mesma área de trabalho) no seu relatório.
-- **Grelhas de dados flexíveis**: tem controlo detalhado dos esquemas de grelha ao utilizar a região de dados tablix. Também suporta esquemas complexos, incluindo grupos adjacentes e aninhados. Pode ser configurado para repetir cabeçalhos ao ser impresso em várias páginas. Além disso, pode incorporar um sub-relatório ou outras visualizações, incluindo barras de dados, gráficos sparkline e indicadores.
-- **Tipos de dados espaciais**: a região de dados do mapa pode visualizar os [tipos de dados espaciais do SQL Server](/sql/relational-databases/spatial/spatial-data-sql-server). Portanto, os tipos de dados GEOGRAPHY (Geografia) e GEOMETRY (Geometria) podem ser utilizados para visualizar pontos, linhas ou polígonos. Também é possível visualizar polígonos definidos em ficheiros de formas ESRI.
-- **Medidores modernos**: os medidores radiais e lineares podem ser utilizados para apresentar os valores e o estado de KPI. Estes até podem ser incorporados em regiões de dados da grelha e repetir dentro dos grupos.
-- **Composição de HTML**: pode apresentar texto com formatação avançada quando este estiver armazenado como HTML.
-- **Impressão em série**: pode utilizar marcadores de posição de caixa de texto para inserir valores de dados no texto. Desta forma, pode produzir um relatório de impressão em série.
-- **Funcionalidades de interatividade**: as funcionalidades interativas incluem a alternância de visibilidade (de modo a desagregar e a agregar), ligações, ordenação interativa e descrições. Também pode adicionar ligações que efetuem uma pormenorização para relatórios do Power BI ou outros relatórios paginados do Power BI. As ligações podem, inclusive, avançar para outra localização dentro do mesmo relatório.
-- **Subscrições**: o Power BI pode apresentar relatórios paginados numa agenda como e-mails, com anexos de relatórios em qualquer formato suportado.
-- **Esquemas por utilizador**: pode criar esquemas de relatórios reativos com base no utilizador autenticado que abrir o relatório. Pode fazer com que o relatório filtre dados de forma diferente, oculte regiões de dados ou visualizações, aplique formatos diferentes ou defina predefinições de parâmetros específicos do utilizador.
+- **Pronto para impressão** : os relatórios paginados são otimizados para impressão ou geração de PDFs. Quando necessário, as regiões de dados podem expandir e sobrecarregar para várias páginas de forma controlada. Os esquemas de relatório podem definir margens, cabeçalhos e rodapés de página.
+- **Formatos de composição** : o Power BI pode compor relatórios paginados em formatos diferentes. Os formatos incluem Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, CSV, XML e MHTML (o formato MHTML é utilizado pelo serviço Power BI para compor relatórios). Os utilizadores de relatórios podem decidir exportar no formato que preferirem.
+- **Esquema preciso** : pode criar esquemas com um aspeto perfeito e altamente formatados com o tamanho exato e a localização configurada em frações de polegadas ou centímetros.
+- **Esquema dinâmico** : pode produzir esquemas altamente reativos ao definir muitas propriedades de relatório para utilizar expressões VB.NET. As expressões têm acesso a muitas bibliotecas do .NET Framework importantes.
+- **Esquema de composição específica** : pode utilizar expressões para modificar o esquema de relatório com base no formato de composição aplicado. Por exemplo, pode criar o relatório para desativar a alternância de visibilidade (de modo a desagregar e a agregar) quando este é composto através de um formato não interativo, como PDF.
+- **Consultas nativas** : não é preciso criar previamente um conjunto de dados do Power BI. É possível criar consultas nativas (ou utilizar procedimentos armazenados) para qualquer [origem de dados suportada](../paginated-reports/paginated-reports-data-sources.md). As consultas podem incluir parametrização.
+- **Designers de consultas gráficas** : o Power BI Report Builder inclui designers de consultas gráficas para ajudá-lo a escrever e a testar as consultas de conjuntos de dados.
+- **Conjuntos de dados estáticos** : pode definir um conjunto de dados e introduzir dados diretamente na definição do relatório. Esta funcionalidade é, sobretudo, útil para suportar uma demonstração ou para fornecer uma prova de conceito (POC).
+- **Integração de dados** : pode combinar dados de diferentes origens de dados ou com conjuntos de dados estáticos. Isto é conseguido através da criação de campos personalizados com expressões VB.NET.
+- **Parametrização** : pode criar experiências de parametrização altamente personalizadas, incluindo parâmetros de dados e em cascata. Também é possível definir as predefinições dos parâmetros. Estas experiências podem ser criadas para ajudar os utilizadores do relatório a definir rapidamente filtros apropriados. Além disso, os parâmetros não precisam de filtrar os dados do relatório. Podem ser utilizados para suportar cenários "hipotéticos", ou estilo ou filtragem dinâmica.
+- **Dados de imagens** : o seu relatório pode compor imagens quando estas estão armazenadas no formato binário numa origem de dados.
+- **Código personalizado** : pode criar blocos de código das funções VB.NET no relatório e utilizá-las em qualquer expressão do relatório.
+- **Sub-relatórios** : pode incorporar outros relatórios paginados do Power BI (da mesma área de trabalho) no seu relatório.
+- **Grelhas de dados flexíveis** : tem controlo detalhado dos esquemas de grelha ao utilizar a região de dados tablix. Também suporta esquemas complexos, incluindo grupos adjacentes e aninhados. Pode ser configurado para repetir cabeçalhos ao ser impresso em várias páginas. Além disso, pode incorporar um sub-relatório ou outras visualizações, incluindo barras de dados, gráficos sparkline e indicadores.
+- **Tipos de dados espaciais** : a região de dados do mapa pode visualizar os [tipos de dados espaciais do SQL Server](/sql/relational-databases/spatial/spatial-data-sql-server). Portanto, os tipos de dados GEOGRAPHY (Geografia) e GEOMETRY (Geometria) podem ser utilizados para visualizar pontos, linhas ou polígonos. Também é possível visualizar polígonos definidos em ficheiros de formas ESRI.
+- **Medidores modernos** : os medidores radiais e lineares podem ser utilizados para apresentar os valores e o estado de KPI. Estes até podem ser incorporados em regiões de dados da grelha e repetir dentro dos grupos.
+- **Composição de HTML** : pode apresentar texto com formatação avançada quando este estiver armazenado como HTML.
+- **Impressão em série** : pode utilizar marcadores de posição de caixa de texto para inserir valores de dados no texto. Desta forma, pode produzir um relatório de impressão em série.
+- **Funcionalidades de interatividade** : as funcionalidades interativas incluem a alternância de visibilidade (de modo a desagregar e a agregar), ligações, ordenação interativa e descrições. Também pode adicionar ligações que efetuem uma pormenorização para relatórios do Power BI ou outros relatórios paginados do Power BI. As ligações podem, inclusive, avançar para outra localização dentro do mesmo relatório.
+- **Subscrições** : o Power BI pode apresentar relatórios paginados numa agenda como e-mails, com anexos de relatórios em qualquer formato suportado.
+- **Esquemas por utilizador** : pode criar esquemas de relatórios reativos com base no utilizador autenticado que abrir o relatório. Pode fazer com que o relatório filtre dados de forma diferente, oculte regiões de dados ou visualizações, aplique formatos diferentes ou defina predefinições de parâmetros específicos do utilizador.
 
 ## <a name="next-steps"></a>Próximos passos
 

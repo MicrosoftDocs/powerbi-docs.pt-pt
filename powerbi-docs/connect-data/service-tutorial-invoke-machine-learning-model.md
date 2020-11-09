@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a5cfbfe52ec8b4e0d9eec07844a3eaa7f9447ded
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 7e2019d3b554bc4e033c7aee36c41216ba910a9f
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600399"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916849"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Tutorial: Invocar um modelo do Machine Learning Studio (clássico) no Power BI (Pré-visualização)
 
@@ -43,11 +43,11 @@ Para aceder a um modelo do Azure ML a partir do Power BI, tem de ter acesso de *
 
 Os passos seguintes partem do princípio de que é o coadministrador da subscrição do Azure e do grupo de recursos para os quais o modelo foi publicado.
 
-Inicie sessão no [portal do Azure](https://portal.azure.com) e navegue para a página **Subscrições**, que pode encontrar com a lista **Todos os Serviços** no painel de navegação.
+Inicie sessão no [portal do Azure](https://portal.azure.com) e navegue para a página **Subscrições** , que pode encontrar com a lista **Todos os Serviços** no painel de navegação.
 
 ![Captura de ecrã a mostrar o portal do Azure, com a opção Subscrições selecionada.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
-Selecione a subscrição do Azure que utilizou para publicar o modelo e selecione **Controlo de Acesso (IAM)** . Em seguida, selecione **Adicionar atribuição de função**, depois selecione a função **Leitor** e, por último, selecione o utilizador do Power BI. Selecione **Guardar** quando terminar. A imagem seguinte mostra as seleções indicadas.
+Selecione a subscrição do Azure que utilizou para publicar o modelo e selecione **Controlo de Acesso (IAM)** . Em seguida, selecione **Adicionar atribuição de função** , depois selecione a função **Leitor** e, por último, selecione o utilizador do Power BI. Selecione **Guardar** quando terminar. A imagem seguinte mostra as seleções indicadas.
 
 ![Controlo de Acesso do portal do Azure](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_02.png)
 
@@ -65,7 +65,7 @@ Este passo parte do princípio de que tem os dados que quer classificar com o mo
 
 ### <a name="create-a-dataflow"></a>Criar um fluxo de dados
 
-Para criar as entidades no seu fluxo de dados, inicie sessão no serviço Power BI e navegue para uma área de trabalho na sua capacidade dedicada que tenha a pré-visualização de IA ativada.
+Para criar as entidades no seu fluxo de dados, inicie sessão no serviço Power BI e navegue para uma área de trabalho na sua capacidade que tenha a pré-visualização de IA ativada.
 
 Se ainda não tem uma área de trabalho, pode criar uma ao selecionar **Áreas de trabalho** no menu à esquerda e, em seguida, **Criar área de trabalho** no painel da parte inferior.  Esta ação abre um painel para introduzir os detalhes da área de trabalho. Introduza um nome de área de trabalho e, em seguida, selecione **Guardar**.
 
@@ -79,7 +79,7 @@ Selecione o separador **Fluxos de dados (pré-visualização)**  e, em seguida, 
 
 ![Fluxos de dados (pré-visualização)](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_05.png)
 
-Selecione a opção **Adicionar novas entidades**, o que inicia o **Editor do Power Query** no browser.
+Selecione a opção **Adicionar novas entidades** , o que inicia o **Editor do Power Query** no browser.
 
 ![Adicionar nova entidade](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_06.png)
 
@@ -87,24 +87,24 @@ Selecione **Ficheiro de Texto/CSV** como origem de dados.
 
 ![Escolher origem de dados](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_07.png)
 
-No ecrã seguinte, é-lhe pedido para ligar a uma origem de dados. Cole a ligação para os dados que utilizou para criar o seu modelo do Azure ML. Se utilizou os dados de _Preço de Automóvel_, pode colar a seguinte ligação na caixa **Caminho de ficheiro ou URL** e depois selecione **Seguinte**.
+No ecrã seguinte, é-lhe pedido para ligar a uma origem de dados. Cole a ligação para os dados que utilizou para criar o seu modelo do Azure ML. Se utilizou os dados de _Preço de Automóvel_ , pode colar a seguinte ligação na caixa **Caminho de ficheiro ou URL** e depois selecione **Seguinte**.
 
 `https://raw.githubusercontent.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/master/Module7/Automobile%20price%20data%20_Raw_.csv`
 
 ![Ligar a origem de dados](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
-O Editor do Power Query mostra uma pré-visualização dos dados do ficheiro CSV. Selecione **Transformar Tabela** no friso de comandos e, em seguida, selecione **Utilizar primeira linha como cabeçalhos**.  Esta ação adiciona o passo de consulta _Cabeçalhos promovidos_ ao painel **Passos aplicados** à direita. Também pode mudar o nome da consulta para um nome mais reconhecível, como _Preço de Automóvel_, através do painel à direita.
+O Editor do Power Query mostra uma pré-visualização dos dados do ficheiro CSV. Selecione **Transformar Tabela** no friso de comandos e, em seguida, selecione **Utilizar primeira linha como cabeçalhos**.  Esta ação adiciona o passo de consulta _Cabeçalhos promovidos_ ao painel **Passos aplicados** à direita. Também pode mudar o nome da consulta para um nome mais reconhecível, como _Preço de Automóvel_ , através do painel à direita.
 
 ![Captura de ecrã do Editor do Power Query, a mostrar uma pré-visualização dos dados.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
-O conjunto de dados de origem tem valores desconhecidos definidos como "?".  Para limpar estes valores, pode substituir "?" por "0" para evitar erros mais tarde, por motivos de simplicidade.  Para tal, selecione as colunas *perdas normalizadas*, *cilindro*, *tempo*, *taxa de compressão*, *potência* , *rpm máximo* e *preço* ao clicar nos respetivos nomes nos cabeçalhos das colunas. Em seguida, clique em "Transformar colunas" e selecione "Substituir valores".  Substitua "?" por "0".
+O conjunto de dados de origem tem valores desconhecidos definidos como "?".  Para limpar estes valores, pode substituir "?" por "0" para evitar erros mais tarde, por motivos de simplicidade.  Para tal, selecione as colunas *perdas normalizadas* , *cilindro* , *tempo* , *taxa de compressão* , *potência* , *rpm máximo* e *preço* ao clicar nos respetivos nomes nos cabeçalhos das colunas. Em seguida, clique em "Transformar colunas" e selecione "Substituir valores".  Substitua "?" por "0".
 
 ![Substituir valores](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_10.png)
 
 Todas as colunas na tabela de uma origem de Texto/CSV são processadas como colunas de texto.  Em seguida, é necessário alterar as colunas numéricas para os respetivos tipos de dados corretos.  Pode fazê-lo no Power Query, ao clicar no símbolo de tipo de dados no cabeçalho da coluna.  Altere as colunas para os tipos indicados abaixo:
 
-- **Número inteiro**: simbologia, perdas normalizadas, peso sem carga, tamanho do motor, potência, rpm máximo, km/l em cidade, km/l em autoestrada, preço
-- **Número decimal**: distância entre os eixos, comprimento, largura, altura, cilindro, tempo, taxa de compressão
+- **Número inteiro** : simbologia, perdas normalizadas, peso sem carga, tamanho do motor, potência, rpm máximo, km/l em cidade, km/l em autoestrada, preço
+- **Número decimal** : distância entre os eixos, comprimento, largura, altura, cilindro, tempo, taxa de compressão
 
 ![Alterar colunas](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_11.png)
 
@@ -126,11 +126,11 @@ Também pode atualizar o fluxo de dados com os comandos de **Ações**. O fluxo 
 
 ## <a name="apply-insights-from-your-azure-ml-model"></a>Aplicar informações do modelo do Azure ML
 
-Para aceder ao modelo do Azure ML de _Predição de Preço de Automóvel_, pode editar a entidade _Preço de Automóvel_ à qual queremos adicionar o preço previsto.
+Para aceder ao modelo do Azure ML de _Predição de Preço de Automóvel_ , pode editar a entidade _Preço de Automóvel_ à qual queremos adicionar o preço previsto.
 
 ![Editar entidade](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_15.png)
 
-Se selecionar o ícone **Editar**, abre o Editor do Power Query para as entidades no seu fluxo de dados.
+Se selecionar o ícone **Editar** , abre o Editor do Power Query para as entidades no seu fluxo de dados.
 
 ![Editar](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_16.png)
 
@@ -140,7 +140,7 @@ Os modelos do Azure ML aos quais lhe foi concedido acesso estão indicados como 
 
 Para invocar um modelo do Azure ML, pode especificar qualquer uma das colunas da entidade selecionada como uma entrada da lista pendente. Também pode especificar um valor constante a utilizar como entrada, ao mudar o ícone de coluna para a esquerda da caixa de diálogo de entrada. Quando um nome de coluna corresponde a um dos nomes de parâmetro de função, a coluna é sugerida automaticamente como uma entrada.  Se o nome de coluna não corresponder, pode selecioná-lo na lista pendente.
 
-No caso do modelo de _Predição de Preço de Automóvel_, os parâmetros de entrada são:
+No caso do modelo de _Predição de Preço de Automóvel_ , os parâmetros de entrada são:
 
 - modelo
 - estilo de carroçaria

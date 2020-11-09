@@ -7,18 +7,20 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 08/07/2019
+ms.date: 10/30/2020
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cf79a5ecf4d98595a033733824a41002a7cd38e0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 805b7805d932468e973805d9496a5b25d4391fdd
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860561"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132626"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Tutorial: ligar-se a um repositório do GitHub com o Power BI
-Neste tutorial, irá ligar a dados reais no serviço GitHub com o Power BI e o Power BI criará automaticamente dashboards e relatórios. Vai ligar-se ao repositório de conteúdos públicos do Power BI (também conhecido como *repositório*) e ver respostas a perguntas como: Quantas pessoas contribuem para os conteúdos públicos do Power BI? Quem contribui mais? Que dia da semana tem mais contribuições? Entre outras perguntas. 
+Neste tutorial, irá ligar a dados reais: o *repositório* público de conteúdos do Power BI no serviço GitHub. O Power BI cria automaticamente um dashboard e um relatório com os dados. Verá respostas para perguntas como: quantas pessoas contribuem para o repositório público do Power BI? Quem contribui mais? Que dia da semana tem mais contribuições? Entre outras perguntas. 
+
+Também pode ligar-se aos seus próprios repositórios do GitHub públicos ou privados. O artigo [Ligue-se ao GitHub com o Power BI](service-connect-to-github.md) explica como pode utilizar a *aplicação de modelo* do Power BI para se ligar aos seus repositórios.
 
 ![O relatório do GitHub no Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
@@ -42,18 +44,18 @@ Para concluir este tutorial, precisa de uma conta do GitHub, se ainda não tiver
 - Inscreva-se numa [conta do GitHub](/contribute/get-started-setup-github).
 
 
-## <a name="how-to-connect"></a>Como se ligar
+## <a name="how-to-connect"></a>Como ligar
 1. Inicie sessão no serviço Power BI (`https://app.powerbi.com`). 
 2. No painel de navegação, selecione **Aplicações** e, em seguida, **Obter aplicações**.
    
    ![Power BI: obter aplicações](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
-3. Selecione **Aplicações**, escreva **GitHub** na caixa de pesquisa > **Obter agora**.
+3. Selecione **Aplicações** , escreva **GitHub** na caixa de pesquisa > **Obter agora**.
    
    ![Power BI: obter o GitHub](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-app-source.png) 
 
 4. Em **Instalar esta aplicação do Power BI?** , selecione **Instalar**.
-5. Em **A sua nova aplicação está pronta**, selecione **Ir para a aplicação**.
+5. Em **A sua nova aplicação está pronta** , selecione **Ir para a aplicação**.
 6. Em **Comece já com a sua nova aplicação** , selecione **Ligar**.
 
     ![Comece já com a sua nova aplicação](media/service-tutorial-connect-to-github/power-bi-new-app-connect-get-started.png)
@@ -64,7 +66,7 @@ Para concluir este tutorial, precisa de uma conta do GitHub, se ainda não tiver
 
 5. Introduza as credenciais do GitHub que criou. O Power BI poderá ignorar este passo se já tiver iniciado sessão no GitHub no seu browser. 
 
-6. Para **Método de Autenticação**, mantenha **oAuth2** selecionado \>**Iniciar Sessão**.
+6. Para o **Método de Autenticação** , mantenha **oAuth2** selecionado \> **Iniciar Sessão**.
 
 7. Siga os ecrãs de autenticação do GitHub. Conceda permissão ao Power BI para aceder aos dados do GitHub.
    
@@ -91,7 +93,7 @@ Para concluir este tutorial, precisa de uma conta do GitHub, se ainda não tiver
 
     
 
-## <a name="ask-a-question"></a>Colocar uma pergunta
+## <a name="ask-a-question"></a>Fazer uma pergunta
 
 1. Coloque o cursor em **Colocar uma questão sobre os dados**. O Power BI oferece **Perguntas para começar**. 
 
@@ -99,7 +101,7 @@ Para concluir este tutorial, precisa de uma conta do GitHub, se ainda não tiver
  
     ![Quantos utilizadores existem](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
 
-13. Entre **quantos** e **utilizadores existem**, escreva **pedidos pull por**. 
+13. Entre **quantos** e **utilizadores existem** , escreva **pedidos pull por**. 
 
      O Power BI cria um gráfico de barras que mostra o número de pedidos pull por pessoa.
 
@@ -122,9 +124,9 @@ Para concluir este tutorial, precisa de uma conta do GitHub, se ainda não tiver
  
     ![Power BI: separador Punch Card do relatório do GitHub](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tues-3pm.png)
 
-    Aparentemente, terças às 15:00 é a hora e o dia da semana mais comum para *consolidações*, quando as pessoas verificam o trabalho.
+    Aparentemente, terças às 15:00 é a hora e o dia da semana mais comum para *consolidações* , quando as pessoas verificam o trabalho.
 
-## <a name="clean-up-resources"></a>Limpar recursos
+## <a name="clean-up-resources"></a>Limpar os recursos
 
 Agora que concluiu o tutorial, pode eliminar a aplicação GitHub. 
 
@@ -133,9 +135,9 @@ Agora que concluiu o tutorial, pode eliminar a aplicação GitHub.
 
     ![Eliminar a aplicação GitHub](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-delete.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Neste tutorial, ligou a um repositório público do GitHub e obteve dados, que o Power BI formatou num dashboard e num relatório. Respondeu a algumas questões sobre os dados ao explorar o dashboard e o relatório. Agora pode saber mais sobre como ligar a outros serviços, como o Salesforce, o Microsoft Dynamics e o Google Analytics. 
  
 > [!div class="nextstepaction"]
-> [Ligar aos serviços online que utiliza](service-connect-to-services.md)
+> [Ligue-se ao GitHub com uma aplicação de modelo do Power BI](service-connect-to-github.md)

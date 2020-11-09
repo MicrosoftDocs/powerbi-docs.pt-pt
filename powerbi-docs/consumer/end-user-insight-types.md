@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/09/2020
+ms.date: 10/12/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 8e8411ea29436a5ee19802d2a970b760062fe59e
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 53074b44457abcf4cae6ffc3cffab2be6e8b95bb
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763994"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045279"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipos de informações suportados pelo Power BI
 
@@ -66,6 +66,11 @@ Encontra casos em que a maioria de um valor total pode ser atribuída a um únic
 
 ![Exemplo de principais fatores](./media/end-user-insight-types/pbi-auto-insight-type-majority.png)
 
+### <a name="outliers"></a>Valores atípicos
+Este tipo de informações utiliza um modelo de clustering para encontrar valores atípicos em dados de série não temporal. Os valores atípicos detetam quando há categorias específicas com valores significativamente diferentes dos valores das outras categorias.
+
+![exemplo de valores atípicos](./media/end-user-insight-types/power-bi-outliers.png)
+
 ### <a name="overall-trends-in-time-series"></a>Tendências gerais na série de tempo
 Deteta as tendências ascendentes ou descendentes em dados de série de tempo.
 
@@ -87,6 +92,7 @@ As informações de partilha constante são semelhantes às informações de des
 Para dados numa série de tempo, deteta quando há datas ou horas específicas com valores significativamente diferentes dos outros valores de data/hora.
 
 ![Exemplo de Valores atípicos de série de tempo](./media/end-user-insight-types/pbi-auto-insight-type-time-series-outliers-purple.png)
+
 
 ## <a name="next-steps"></a>Próximas etapas
 [Informações do Power BI](end-user-insights.md)

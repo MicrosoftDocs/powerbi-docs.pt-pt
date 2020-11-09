@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 533dba01bb975d774741643771415aaafa8f155c
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 94ffbb508fea27e8b80f137539b6120e4c094030
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092297"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916734"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Curso Relatórios Paginados do Power BI num Dia
 
@@ -87,10 +87,10 @@ Pode transferir e configurar um kit de estudo autónomo, que consiste no conteú
 1. Abra as propriedades do ficheiro zip e selecione “desbloquear” (o Windows pode sinalizar o ficheiro como potencialmente não fidedigno).
 1. Crie uma pasta de curso raiz. Recomendamos que atribua um nome como “C:\Formação”. Memorize esta localização, pois vai precisar de aceder aos ficheiros do curso ao longo dos laboratórios. Todos os documentos do laboratório referem esta localização como **&lt;CourseFolder&gt;** .
 1. Extraia os conteúdos do ficheiro **PowerBIPRIAD-Student.zip** para a pasta do curso raiz.
-1. Na pasta **&lt;CourseFolder&gt;\PowerBIPRIAD**, abra o ficheiro **ReadMe.txt** e veja as instruções de configuração.
+1. Na pasta **&lt;CourseFolder&gt;\PowerBIPRIAD** , abra o ficheiro **ReadMe.txt** e veja as instruções de configuração.
 
 > [!TIP]
-> O ficheiro **ReadMe.txt**, os documentos do laboratório e o ficheiro de apresentação (PDF) estão disponíveis em inglês, bem como nos oito idiomas seguintes:
+> O ficheiro **ReadMe.txt** , os documentos do laboratório e o ficheiro de apresentação (PDF) estão disponíveis em inglês, bem como nos oito idiomas seguintes:
 > - Alemão (de-DE)
 > - Espanhol (es-ES)
 > - Francês (fr-FR)
@@ -105,7 +105,7 @@ Pode transferir e configurar um kit de estudo autónomo, que consiste no conteú
 >
 > Tem de iniciar sessão no Power BI para publicar um ficheiro do Power BI Desktop numa área de trabalho. A publicação resulta num conjunto de dados que é utilizado como uma origem de dados de relatório. Não precisa de uma licença do Power BI Pro ou uma subscrição do Power BI Premium para utilizar um conjunto de dados como uma origem de dados do relatório.
 >
-> Algumas tarefas do laboratório envolvem a publicação do seu próprio relatório paginado numa área de trabalho. Só pode abrir um relatório paginado se este tiver sido guardado numa área de trabalho na [capacidade dedicada](../admin/service-premium-what-is.md#dedicated-capacities), que tem a carga de trabalho de relatórios paginados ativada. Se não tiver acesso a uma área de trabalho adequada, o laboratório disponibilizará uma ligação para ver um vídeo que demonstra a publicação do relatório.
+> Algumas tarefas do laboratório envolvem a publicação do seu próprio relatório paginado numa área de trabalho. Só pode abrir um relatório paginado se este tiver sido guardado numa área de trabalho numa [capacidade](../admin/service-premium-what-is.md#dedicated-capacities), que tem a carga de trabalho de relatórios paginados ativada. Se não tiver acesso a uma área de trabalho adequada, o laboratório disponibilizará uma ligação para ver um vídeo que demonstra a publicação do relatório.
 
 ## <a name="instructor-kit"></a>Kit do professor
 

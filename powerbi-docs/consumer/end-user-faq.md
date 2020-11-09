@@ -10,12 +10,12 @@ ms.date: 09/02/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: dca1b3bb107c8a2e02b48db9d22a4fe6c2875a4c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c604bec5213b14f91e514c9a1552acb99ac5d0aa
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860929"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916803"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
 
@@ -37,7 +37,7 @@ A forma como interage com o Power BI irá depender da sua função. Um utilizado
 
 O Power BI Pro é uma licença de utilizador individual que permite o acesso a todos os conteúdos e funcionalidades no serviço Power BI. Pode até mesmo partilhar conteúdos e colaborar com outros utilizadores do Pro. Apenas os utilizadores Pro podem publicar conteúdos noutras áreas de trabalho, partilhar dashboards e subscrever dashboards e relatórios. 
 
-O Power BI Premium oferece uma capacidade dedicada para um desempenho mais consistente. Também suporta maiores volumes de dados no Power BI. Para utilizadores individuais, o Premium também permite uma distribuição alargada de conteúdos por utilizadores Pro e os destinatários podem ver os conteúdos sem necessitarem de licenças Pro. Tal significa que os *utilizadores empresariais* podem colaborar com colegas e ver e interagir com dashboards, relatórios e aplicações que foram partilhadas com eles. 
+O Power BI Premium oferece uma capacidade para proporcionar um desempenho mais consistente. Também suporta maiores volumes de dados no Power BI. Para utilizadores individuais, o Premium também permite uma distribuição alargada de conteúdos por utilizadores Pro e os destinatários podem ver os conteúdos sem necessitarem de licenças Pro. Tal significa que os *utilizadores empresariais* podem colaborar com colegas e ver e interagir com dashboards, relatórios e aplicações que foram partilhadas com eles. 
 
 Para saber mais, veja [Qual é o meu tipo de licença?](end-user-license.md).
 
@@ -49,7 +49,7 @@ Para questões relacionadas com o Power BI Premium, consulte as [Perguntas Frequ
 
 O Power BI Desktop é uma aplicação gratuita que pode ser instalada diretamente no computador. O Power BI Desktop funciona de forma integrada com o serviço Power BI.  Os cientistas de dados, estruturadores de relatórios, administradores e programadores trabalham com o Power BI Desktop para criar relatórios e disponibilizá-los a *utilizadores empresariais* do serviço Power BI, como você. Saiba mais sobre [O que é o Power BI Desktop](../fundamentals/desktop-what-is-desktop.md).
 
-## <a name="as-a-business-user-what-do-i-need-to-use-the-power-bi-service"></a>O que é necessário para utilizar o serviço Power BI enquanto *utilizador empresarial*?
+## <a name="as-a-business-user-what-do-i-need-to-use-the-power-bi-service"></a>O que é necessário para utilizar o serviço Power BI enquanto *utilizador empresarial* ?
 
 Se a sua empresa tiver comprado licenças do Power BI ou uma conta de capacidade Premium, apenas precisará de um browser e de credenciais. Para iniciar sessão, utilizará o endereço de e-mail de trabalho e uma palavra-passe (definida pelo administrador do Power BI).  
 

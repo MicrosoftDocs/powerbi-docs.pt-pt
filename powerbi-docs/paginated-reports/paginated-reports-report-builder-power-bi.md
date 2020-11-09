@@ -8,17 +8,26 @@ featuredvideoid: jXTiYJKw1Rs
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/19/2020
-ms.openlocfilehash: 16fcc18492b371accaaf3c447d7a88978051f8c3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/16/2020
+ms.openlocfilehash: 2c136f4d81a9cb1c1904c3a06b58271391c76c23
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859664"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297756"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>O que são relatórios paginados no Power BI Premium?
 
-Os *relatórios paginados* são concebidos para serem impressos ou partilhados. Designam-se *paginados* porque são formatados para se ajustarem a uma página. Os relatórios paginados apresentam todos os dados numa tabela, mesmo que a tabela ocupe múltiplas páginas. Também são chamados *imagem perfeita*, uma vez que pode controlar o esquema de página do relatório com exatidão. O Power BI Report Builder é a ferramenta autónoma para a criação de relatórios paginados. Os relatórios paginados baseiam-se na tecnologia de relatório RDL, há muito o formato de relatório padrão do SQL Server Reporting Services. 
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+Os *relatórios paginados* são concebidos para serem impressos ou partilhados. Designam-se *paginados* porque são formatados para se ajustarem a uma página. Os relatórios paginados apresentam todos os dados numa tabela, mesmo que a tabela ocupe múltiplas páginas. Também são chamados *imagem perfeita* , uma vez que pode controlar o esquema de página do relatório com exatidão. O Power BI Report Builder é a ferramenta autónoma para a criação de relatórios paginados para o serviço Power BI. 
+
+Eis algumas ligações rápidas caso esteja preparado para começar:
+
+- [Instalar o Report Builder do Power BI a partir do Centro de Transferências da Microsoft](https://aka.ms/pbireportbuilder)
+- [Tutorial: Criar um relatório paginado](paginated-reports-quickstart-aw.md)
+- [Relatórios paginados do Power BI de exemplo](paginated-reports-samples.md)
+- Está à procura de informações sobre o Report Builder para o Power BI Report Server ou para o SQL Server Reporting Services? Em alternativa, veja [Instalar o Report Builder – Power BI Report Server](../report-server/install-report-builder.md).
 
 Frequentemente, os relatórios paginados têm muitas páginas. Por exemplo, este relatório tem 563 páginas. Cada página está disposta com exatidão, com uma página por fatura e cabeçalhos e rodapés repetidos.
 
@@ -72,7 +81,7 @@ Tudo num relatório paginado, desde o próprio relatório a cada caixa de texto,
 
 ## <a name="creating-a-report-definition"></a>Criar uma definição do relatório
 
-Quando cria um relatório paginado, está, na realidade, a criar uma *definição do relatório*, ou seja, não contém os dados, especifica onde obter os dados, quais os dados a obter e como apresentar os dados. Quando executar o relatório, o processador do relatório utiliza a definição do relatório que especificou, obtém os dados e combina-os com o esquema de relatório para gerar o relatório. Carregue a definição do relatório no serviço Power BI, `https://app.powerbi.com`, ou em A Minha Área de Trabalho ou numa área de trabalho partilhada com os seus colegas. Se a origem de dados do relatório for no local, depois de carregar o relatório, deverá redirecionar a ligação da origem de dados para passar por um gateway. 
+Quando cria um relatório paginado, está, na realidade, a criar uma *definição do relatório* , ou seja, não contém os dados, especifica onde obter os dados, quais os dados a obter e como apresentar os dados. Quando executar o relatório, o processador do relatório utiliza a definição do relatório que especificou, obtém os dados e combina-os com o esquema de relatório para gerar o relatório. Carregue a definição do relatório no serviço Power BI, `https://app.powerbi.com`, ou em A Minha Área de Trabalho ou numa área de trabalho partilhada com os seus colegas. Se a origem de dados do relatório for no local, depois de carregar o relatório, deverá redirecionar a ligação da origem de dados para passar por um gateway. 
 
 ## <a name="view-your-paginated-report"></a>Visualizar o relatório paginado
 Pode ver o relatório paginado no serviço Power BI num browser e também nas aplicações móveis do Power BI. No serviço Power BI, pode exportar o relatório para uma série de formatos, tais como HTML, MHTML, PDF, XML, CSV, TIFF, Word e Excel. Também pode partilhá-lo com outras pessoas.  
@@ -98,5 +107,6 @@ Apresentamos a seguir mais algumas funcionalidades que não são suportadas na v
 - [Instalar o Report Builder do Power BI a partir do Centro de Transferências da Microsoft](https://aka.ms/pbireportbuilder)
 - [Tutorial: Criar um relatório paginado](paginated-reports-quickstart-aw.md)
 - [Online course: Relatórios Paginados do Power BI num Dia](../learning-catalog/paginated-reports-online-course.md)
+- [Relatórios paginados do Power BI de exemplo](paginated-reports-samples.md)
 - [Introduzir dados diretamente num relatório paginado](paginated-reports-enter-data.md)
 - [Tutorial: Incorporar relatórios paginados do Power BI numa aplicação para os clientes](../developer/embedded/embed-paginated-reports-customers.md)

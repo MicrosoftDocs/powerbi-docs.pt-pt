@@ -7,12 +7,12 @@ ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 09/15/2020
-ms.openlocfilehash: 0a90c03c516b64e5a0a81c6a2bbdf0049d48b76f
-ms.sourcegitcommit: be0971576a3f1af7a064371c9cf27dd462dfca82
+ms.openlocfilehash: 929a79d7e940f729b90d0cdf6d3ebd905a621f6a
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "92080260"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916826"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>Resolução de problemas dos pipelines de implementação
 
@@ -55,7 +55,7 @@ Para utilizar os pipelines de implementação, tem de ser um [utilizador Pro](..
 
 ### <a name="what-type-of-capacity-can-i-assign-to-a-workspace-in-a-pipeline"></a>Que tipo de capacidade posso atribuir a uma área de trabalho num pipeline?
 
-Todas as áreas de trabalho num pipeline de implementação têm de residir dentro de uma capacidade dedicada para que o pipeline esteja funcional. No entanto, pode utilizar diferentes capacidades para diferentes áreas de trabalho num pipeline. Também pode utilizar diferentes tipos de capacidade para diferentes áreas de trabalho no mesmo pipeline.
+Todas as áreas de trabalho num pipeline de implementação têm de residir dentro de uma capacidade para que o pipeline esteja funcional. No entanto, pode utilizar diferentes capacidades para diferentes áreas de trabalho num pipeline. Também pode utilizar diferentes tipos de capacidade para diferentes áreas de trabalho no mesmo pipeline.
 
 Para desenvolvimento e teste, pode utilizar a capacidade A ou EM juntamente com uma conta Pro do Power BI para cada utilizador.
 

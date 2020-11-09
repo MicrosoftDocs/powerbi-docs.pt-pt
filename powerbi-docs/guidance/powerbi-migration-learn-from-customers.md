@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a725d2763d7d044220785c2f9727ee30f14bfd5d
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: d436f01e074c27dc8a0d37f9e62d0ac422c4ab81
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803487"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916688"
 ---
 # <a name="learn-from-customer-power-bi-migrations"></a>Aprenda com as migrações do Power BI dos clientes
 
@@ -158,7 +158,7 @@ No ano passado, a empresa melhorou as ofertas de formação interna e o programa
 
 Tem atualmente seis cursos internos sobre o Power BI no catálogo interno. O curso [Dashboard num dia](https://powerbi.microsoft.com/diad/) continua a ser um curso popular para principiantes. Para ajudar os utilizadores a aprofundar as competências, disponibilizam uma série de três cursos sobre o Power BI e dois cursos sobre DAX.
 
-Uma das decisões de governação de dados mais importantes relacionadas com a gestão das capacidades Premium. A empresa optou por alinhar a capacidade dedicada com as principais áreas de análise em unidades de negócios e serviços partilhados. Assim, em caso de ineficiências, o impacto será apenas dentro dessa área, e os administradores da capacidade descentralizada poderão gerir a capacidade como entenderem.
+Uma das decisões de governação de dados mais importantes relacionadas com a gestão das capacidades Premium. A empresa optou por alinhar a capacidade com as principais áreas de análise em unidades de negócios e serviços partilhados. Assim, em caso de ineficiências, o impacto será apenas dentro dessa área, e os administradores da capacidade descentralizada poderão gerir a capacidade como entenderem.
 
 > [!IMPORTANT]
 > Preste atenção ao modo como as capacidades Premium são utilizadas e como as áreas de trabalho são atribuídas às mesmas.

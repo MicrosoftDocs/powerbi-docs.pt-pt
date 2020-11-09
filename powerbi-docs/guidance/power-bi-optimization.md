@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f189ea2944f86a3caabfbc51ae5b2887bc7c89bb
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3a541c46f78c5e5cd25b47a94394a011fd61954f
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278613"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916550"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Guia de otimização para o Power BI
 
@@ -83,7 +83,7 @@ Pode otimizar o ambiente do Power BI ao configurar as definições de capacidad
 
 ### <a name="capacity-settings"></a>Definições de capacidade
 
-Com as capacidades dedicadas, disponíveis com o Power BI Premium (SKUs P) ou o Power BI Embedded (SKUs A, A4 a A6), pode gerir as definições de capacidade. Para obter mais informações, veja [Gerir capacidades Premium](../admin/service-premium-capacity-manage.md). Para obter orientação sobre como otimizar a capacidade, veja [Otimizar as capacidades Premium](../admin/service-premium-capacity-optimize.md).
+Com as capacidades, disponíveis com o Power BI Premium (SKUs P) ou o Power BI Embedded (SKUs A, A4 a A6), pode gerir as definições de capacidade. Para obter mais informações, veja [Gerir capacidades Premium](../admin/service-premium-capacity-manage.md). Para obter orientação sobre como otimizar a capacidade, veja [Otimizar as capacidades Premium](../admin/service-premium-capacity-optimize.md).
 
 ### <a name="gateway-sizing"></a>Dimensionamento do gateway
 

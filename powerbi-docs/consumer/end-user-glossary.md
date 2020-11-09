@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 08/24/2020
 ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: 012fad9cd566018a6fd0d96fb172fadd816e3420
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 47526e06da24f720f273c45616a012483f077ed5
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860860"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916596"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Glossário para utilizadores empresariais do serviço Power BI    
 O serviço Power BI pode introduzir terminologia que é confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar a terminologia, pode até mesmo guardá-la nos marcadores. Outro recurso excelente para saber mais sobre os blocos de construção que formam o serviço Power BI é [Conceitos Básicos](end-user-basic-concepts.md). Conceitos básicos proporciona uma perspetiva geral de alto nível das *partes* do Power BI e de como estão ligadas.
@@ -52,7 +52,7 @@ Repositório online centralizado, onde pode procurar e descobrir dashboards, rel
 O ArcGIS é uma plataforma de mapeamento e de análise criada pela empresa ESRI. O nome do elemento visual incluído na biblioteca de elementos visuais do Power BI é chamado ArcGIS para o Power BI.
 
 **atribuir**    
-[Power BI Premium] Verbo para mover uma área de trabalho para dentro ou para fora da capacidade dedicada. Não utilizar promover para mover uma área de trabalho para a capacidade dedicada, porque isto tem a conotação de dedicada ser superior à capacidade partilhada. 
+[Power BI Premium] Verbo para mover uma área de trabalho para dentro ou para fora de uma capacidade. Não utilizar promover para mover uma área de trabalho para a capacidade, porque isto tem a conotação de dedicada ser superior à capacidade partilhada. 
 
 **Informações Automáticas**    
 São agora denominadas *Informações Rápidas*.
@@ -71,6 +71,9 @@ A navegação na parte superior esquerda para navegar rapidamente entre relatór
 
 **cálculo**    
 A determinação matemática do tamanho ou do número de algo.
+
+**Capacidade**    
+[Power BI Premium] Os modelos de dados em execução em hardware dedicado em datacenters de cloud da Microsoft para ajudar a garantir um desempenho consistente à escala. As soluções BI são disponibilizadas para toda a organização, independentemente da licença do Power BI.
 
 **cartão** (tipo de elemento visual)    
 Um [elemento visual](end-user-visual-type.md) do Power BI.
@@ -136,12 +139,8 @@ Os fluxos de dados servem para ingerir, transformar, integrar e enriquecer macro
 **conjunto de dados** vs. **origem de dados**    
 Um **conjunto de dados** é uma coleção de dados utilizada para criar visualizações e relatórios.
 
-**capacidade dedicada**    
-[Power BI Premium] Os modelos de dados em execução em hardware dedicado em datacenters de cloud da Microsoft para ajudar a garantir um desempenho consistente à escala. As soluções BI são disponibilizadas para toda a organização, independentemente da licença do Power BI.
-
 **Desktop** ou **Power BI Desktop**    
 Ferramenta do Power BI gratuita utilizada principalmente por designers, administradores e programadores de relatórios. 
-
 
 **diamante**    
 Power BI Premium. A forma do ícone que significa que uma área de trabalho é uma área de trabalho de capacidade Premium.
@@ -232,7 +231,7 @@ Indicadores chave de desempenho. Um tipo de elemento visual.
 ## <a name="l"></a>L
 
 **navegação esquerda**    
-Foi substituído por **painel de navegação**, mas ainda pode aparecer em alguma documentação.    
+Foi substituído por **painel de navegação** , mas ainda pode aparecer em alguma documentação.    
 Os controlos na margem esquerda do serviço Power BI.
 
 Primeira instância: painel de navegação. Menções subsequentes ou com pouco espaço: painel nav
@@ -242,7 +241,7 @@ O seu nível de acesso é determinado pela licença do Power BI associada à su
 
 Uma licença é atribuída a um utilizador e pode ser gratuita ou Pro. Consoante a forma como a licença tenha sido adquirida, pode ser paga ou não paga. As contas são: por utilizador ou organizacionais. As contas por utilizador estão disponíveis como *gratuitas* ou *Pro*.  Um utilizador *gratuito* do Power BI está a utilizar o Power BI Desktop autónomo ou está a utilizar o serviço Power BI autónomo ou a utilizar o serviço Power BI dentro de uma subscrição organizacional Premium. A conta *Pro* por utilizador do Power BI é uma subscrição mensal paga que permite a colaboração e a partilha de conteúdos com outros utilizadores *Pro*. 
 
-A subscrição organizacional *Premium* (também denominada de *capacidade Premium*) adiciona uma camada de funcionalidades às licenças por utilizador. Por exemplo, os titulares de uma conta por utilizador *gratuita* numa organização que possui uma subscrição *Premium* podem fazer muito mais com o Power BI do que os utilizadores *gratuitos* sem uma licença *Premium*. Por exemplo, os utilizadores *gratuitos* em contas organizacionais *Premium* podem colaborar com os colegas e visualizar os conteúdos alojados na capacidade do Power BI Premium. 
+A subscrição organizacional *Premium* (também denominada de *capacidade Premium* ) adiciona uma camada de funcionalidades às licenças por utilizador. Por exemplo, os titulares de uma conta por utilizador *gratuita* numa organização que possui uma subscrição *Premium* podem fazer muito mais com o Power BI do que os utilizadores *gratuitos* sem uma licença *Premium*. Por exemplo, os utilizadores *gratuitos* em contas organizacionais *Premium* podem colaborar com os colegas e visualizar os conteúdos alojados na capacidade do Power BI Premium. 
 
 **página de lista** ou **lista de conteúdos**    
 Uma das páginas de secção dos elementos no painel de navegação. Por exemplo, Favoritos, Recentes, A minha área de trabalho, etc.
@@ -259,7 +258,7 @@ Aplicações que permitem executar o Power BI em dispositivos iOS, Android e Win
 [Power BI Desktop] Obter os dados a que está ligado para ficarem prontos para serem utilizados no Power BI. Isto inclui criar relações entre tabelas em várias origens de dados, criar medidas e atribuir métricas.
 
 **A minha área de trabalho**    
-A área de trabalho utilizada por cada cliente do Power BI para criar conteúdos. Caso o cliente pretenda agrupar conteúdo aqui criado numa aplicação e tenha permissão de *estruturador*, irá carregar esse conteúdo para a área de trabalho adequada ou criar uma nova.
+A área de trabalho utilizada por cada cliente do Power BI para criar conteúdos. Caso o cliente pretenda agrupar conteúdo aqui criado numa aplicação e tenha permissão de *estruturador* , irá carregar esse conteúdo para a área de trabalho adequada ou criar uma nova.
 
 ## <a name="n"></a>N
 
@@ -305,7 +304,7 @@ A extensão de ficheiro para um elemento visual personalizado do Power BI.
 A extensão de ficheiro para um ficheiro do Power BI Desktop.
 
 **permissões**    
-O que um utilizador pode e não pode fazer no Power BI baseia-se em permissões. Como *consumidor* não terá as mesmas permissões que um *designer*, administrador ou programador.
+O que um utilizador pode e não pode fazer no Power BI baseia-se em permissões. Como *consumidor* não terá as mesmas permissões que um *designer* , administrador ou programador.
 
 **relatório de telemóvel**    
 O nome de um relatório do Power BI que foi formatado para visualização num telemóvel.
@@ -316,8 +315,8 @@ A interface de utilizador no serviço Power BI para estruturar um relatório de 
 **afixar, desafixar**    
 A ação utilizada por um *designer* de relatórios para colocar um elemento visual, normalmente a partir de um relatório, num dashboard.
 
-**Power BI**, **serviço Power BI**, **Power BI Desktop**, **Power BI Mobile**    
-Algumas das ofertas do Power BI. *Power BI* é o termo geral. É frequentemente utilizado em vez do nome completo do produto, como *serviço Power BI* e *Power BI Mobile*, após a primeira menção do nome completo do produto.
+**Power BI** , **serviço Power BI** , **Power BI Desktop** , **Power BI Mobile**    
+Algumas das ofertas do Power BI. *Power BI* é o termo geral. É frequentemente utilizado em vez do nome completo do produto, como *serviço Power BI* e *Power BI Mobile* , após a primeira menção do nome completo do produto.
 
 **Power BI Desktop**    
 Também referido como *Desktop*. A aplicação gratuita do Windows do Power BI que pode instalar no seu computador local e que lhe permite ligar-se a dados, transformá-los e visualizá-los. Utilizado por designers de relatórios e administradores. Para obter mais informações, veja [O que é o Power BI](../fundamentals/power-bi-overview.md).
@@ -341,7 +340,7 @@ Servidor de relatórios no local com um portal Web em que pode apresentar e geri
 Um serviço online SaaS (Software como serviço). Para obter mais informações, veja [O que é o Power BI](../fundamentals/power-bi-overview.md).
 
 **Área de trabalho Premium**    
-Uma área de trabalho em execução em capacidade dedicada, demonstrada aos clientes por um ícone de diamante.  
+Uma área de trabalho em execução numa capacidade, demonstrada aos clientes por um ícone de diamante.  
 
 Licença **Pro** ou conta **Pro** Ver *Conta*.
 
@@ -432,7 +431,7 @@ Um conjunto de ferramentas e serviços no local utilizados para criar, implement
 **dados de transmissão em fluxo**    
 Veja *transmissão em fluxo em tempo real*.
 
-**subscrições**, **Subscrever**     
+**subscrições** , **Subscrever**     
 Pode subscrever páginas, aplicações e dashboards de relatórios e receber e-mails que contenham um instantâneo. Requer uma licença do Power BI Pro.
 
 **resumo**    

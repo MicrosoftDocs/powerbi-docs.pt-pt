@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 09/18/2020
+ms.date: 11/02/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: cea4af4a8c265e5195a8239bd592c8734e332255
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 7980057ae35637f06aeec3d241b074fcc41564b7
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375172"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297647"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
 Com a opção **Publicar na Web** do Power BI, pode incorporar facilmente conteúdos do Power BI em publicações de blogue, sites, e-mails ou redes sociais. Também pode facilmente editar, atualizar ou parar de partilhar os seus elementos visuais publicados.
 
 > [!WARNING]
-> Quando utilizar a funcionalidade **Publicar na Web**, qualquer pessoa poderá ver os seus relatórios ou elementos visuais publicados. A visualização não requer autenticação. Está incluída a visualização de dados detalhados agregados pelos seus relatórios. Antes de publicar um relatório, certifique-se de que pode partilhar os dados e as visualizações publicamente. Não publique informações confidenciais ou proprietárias. Se tiver dúvidas, consulte as políticas da sua organização antes da publicação.
+> Quando utilizar a funcionalidade **Publicar na Web** , qualquer pessoa poderá ver os seus relatórios ou elementos visuais publicados. A visualização não requer autenticação. Está incluída a visualização de dados detalhados agregados pelos seus relatórios. Antes de publicar um relatório, certifique-se de que pode partilhar os dados e as visualizações publicamente. Não publique informações confidenciais ou proprietárias. Se tiver dúvidas, consulte as políticas da sua organização antes da publicação.
 
 >[!Note]
 >Pode incorporar o seu conteúdo de forma segura num portal interno ou num site. Utilize as opções [Incorporar](service-embed-secure.md) ou [Incorporar no SharePoint Online](service-embed-report-spo.md). Estas opções garantem que todas as permissões e a segurança de dados são impostas quando os utilizadores veem os seus dados internos.
@@ -54,22 +54,24 @@ Os passos seguintes descrevem como utilizar a funcionalidade **Publicar na Web**
 
    ![Bem-sucedido: uma ligação e o HTML](media/service-publish-to-web/publish_to_web4.png)
 
-6. Se já tiver criado um código de incorporação para um relatório e selecionar **Publicar na Web**, não verá as caixas de diálogo nos passos 2-4. Em vez disso, será apresentada a caixa de diálogo **Código de incorporação**:
+6. Se já tiver criado um código de incorporação para um relatório e selecionar **Publicar na Web** , não verá as caixas de diálogo nos passos 2-4. Em vez disso, será apresentada a caixa de diálogo **Código de incorporação** :
 
    ![Caixa de diálogo Código de incorporação](media/service-publish-to-web/publish_to_web5.png)
 
    Só pode criar um código de incorporação para cada relatório.
 
+Se fizer alterações na caixa de diálogo, certifique-se de que copia o URL ou iFrame atualizado para utilizar nas definições atualizadas na sua página.
+
 
 ### <a name="tips-for-view-modes"></a>Sugestões para os modos de visualização
 
-Normalmente, ao incorporar conteúdos numa publicação de um blogue, é necessário ajustá-los a um tamanho de ecrã específico.  Pode ajustar a altura e largura na etiqueta iFrame, conforme necessário. No entanto, deve certificar-se de que o seu relatório cabe na área de iFrame fornecida. Assim, deve também definir um Modo de Visualização adequado ao editar o relatório.
+Normalmente, ao incorporar conteúdos numa publicação de um blogue, é necessário ajustá-los a um tamanho de ecrã específico.  Pode ajustar a altura e largura na etiqueta iFrame, conforme necessário. No entanto, tem de certificar-se de que o seu relatório cabe na área de iFrame fornecida. Assim, defina um Modo de Visualização adequado ao editar o relatório.
 
 A seguinte tabela fornece instruções sobre o Modo de Visualização e a forma como será apresentado quando for incorporado.
 
 | Modo de Visualização | O aspeto que terá quando incorporado |
 | --- | --- |
-| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |A opção **Ajustar à página** respeita a altura e a largura de página do seu relatório. Se definir a página para proporções *dinâmicas*, como 16:9 ou 4:3, os conteúdos serão dimensionados para caber no iFrame. Ao incorporar num iFrame, a opção **Ajustar à página** poderá resultar em *letterboxing*, fazendo com que seja apresentado um fundo cinzento na área do iFrame após os conteúdos serem ajustados de forma a caber no mesmo. Para minimizar o letterboxing, defina adequadamente a altura e a largura do iFrame. |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |A opção **Ajustar à página** respeita a altura e a largura de página do seu relatório. Se definir a página para proporções *dinâmicas* , como 16:9 ou 4:3, os conteúdos serão dimensionados para caber no iFrame. Quando incorporado num iFrame, utilizar a opção **Ajustar à página** poderá resultar em *letterboxing* : é apresentado um fundo cinzento nas áreas do iFrame após os conteúdos serem ajustados de forma a caber no mesmo. Para minimizar o letterboxing, defina adequadamente a altura e a largura do iFrame. |
 | ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |A opção **Tamanho real** garante que o relatório mantém o tamanho definido na página de relatórios. Isto poderá originar barras de deslocamento no seu iFrame. Defina a altura e largura do iFrame para evitar as barras de deslocamento. |
 | ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |A opção **Ajustar à largura** garante que os conteúdos preenchem a área horizontal do iFrame. Continua a ser apresentado um limite, mas os conteúdos ajustam-se de forma a ocupar todo o espaço horizontal disponível. |
 
@@ -94,9 +96,9 @@ Para obter um melhor ajuste, experimente adicionar 56 pixéis à altura do iFram
 
 ## <a name="manage-embed-codes"></a>Gerir códigos de incorporação
 
-Depois de criar um código de incorporação **Publicar na Web**, poderá gerir os seus códigos a partir do menu **Definições** no Power BI. A gestão de códigos de incorporação inclui a capacidade de remover o relatório ou elemento visual de destino de um código (tornando o código de incorporação inutilizável) ou de obter o código de incorporação novamente.
+Depois de criar um código de incorporação **Publicar na Web** , poderá gerir os seus códigos a partir do menu **Definições** no Power BI. A gestão de códigos de incorporação inclui a capacidade de remover o relatório ou elemento visual de destino de um código (tornando o código de incorporação inutilizável) ou de obter o código de incorporação novamente.
 
-1. Para gerir os seus códigos de incorporação da funcionalidade **Publicar na Web**, abra a engrenagem das **Definições** e selecione **Gerir códigos de incorporação**.
+1. Para gerir os seus códigos de incorporação da funcionalidade **Publicar na Web** , abra a engrenagem das **Definições** e selecione **Gerir códigos de incorporação**.
 
    ![Gerir códigos de incorporação](media/service-publish-to-web/publish_to_web8.png)
 
@@ -108,28 +110,36 @@ Depois de criar um código de incorporação **Publicar na Web**, poderá gerir 
 
    ![PtW10](media/service-publish-to-web/publish_to_web10.png)
 
-4. Se selecionar **Eliminar**, ser-lhe-á pedida uma confirmação.
+4. Se selecionar **Eliminar** , ser-lhe-á pedida uma confirmação.
 
    ![PtW11](media/service-publish-to-web/publish_to_web11.png)
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Atualizações a relatórios e atualização de dados
 
-Depois de criar e partilhar o seu código de incorporação da funcionalidade **Publicar na Web**, o relatório será atualizado com as alterações que fizer e a ligação do código de incorporação ficará imediatamente ativa. Qualquer pessoa que abra a ligação poderá vê-lo. Após a criação inicial, as atualizações aos relatórios ou aos elementos visuais podem demorar até duas horas até que os utilizadores as vejam. Os dados são colocados em cache durante uma hora a partir do momento em que são obtidos. Não recomendamos a utilização de Publicar na Web para obter dados que têm de ser atualizados com frequência. Para obter mais informações, consulte a secção [**Como funciona**](#howitworks), mais à frente neste artigo. 
+Depois de criar o seu código de incorporação de **Publicar na Web** e partilhá-lo, o relatório será atualizado com as alterações que fizer. A ligação do código de incorporação fica ativa imediatamente. Qualquer pessoa que abra a ligação poderá vê-lo. Os dados são colocados em cache durante uma hora a partir do momento em que são obtidos. Não recomendamos a utilização de Publicar na Web para obter dados que têm de ser atualizados com frequência. Para obter mais informações, consulte a secção [**Como funciona**](#howitworks), mais à frente neste artigo. 
 
 ### <a name="data-refresh"></a>Atualização de dados
 
-As atualizações de dados são refletidas automaticamente no relatório ou visual incorporado. Pode demorar até duas horas para que os dados atualizados sejam visíveis nos códigos de incorporação. Para desativar as atualizações automáticas, selecione **não atualizar** no agendamento do conjunto de dados que o relatório utiliza.  
+As atualizações de dados são refletidas automaticamente no relatório ou visual incorporado. Quando os dados são atualizados para um modelo de importação de dados no serviço Power BI, o serviço limpa a cache de dados, o que faz com que os dados sejam atualizados rapidamente. Para desativar as atualizações automáticas, selecione **não atualizar** no agendamento do conjunto de dados que o relatório utiliza.  
+
+### <a name="heavy-usage"></a>Utilização intensiva
+
+Pode ocorrer uma experiência de utilização intensiva quando um relatório recebe demasiadas consultas num curto espaço de tempo. Quando ocorre uma utilização intensiva, os utilizadores não conseguem ver nem interagir com o relatório até o período de utilização intensiva passar. 
+
+Recomendamos que defina uma imagem de marcador de posição para o seu relatório. Se ocorrer uma utilização intensiva, os utilizadores veem a imagem de marcador de posição. 
+
+Para ajudar a evitar uma experiência de utilização intensiva, limite o número de consultas distintas que o seu relatório pode gerar e a frequência da atualização de dados.
 
 ## <a name="power-bi-visuals"></a>Elementos Visuais do Power BI
 
-Os elementos visuais do Power BI são suportados na funcionalidade **Publicar na Web**. Ao utilizar a funcionalidade **Publicar na Web**, os utilizadores com quem partilha os elementos visuais publicados não precisam de ativar os elementos visuais do Power BI para ver o relatório.
+Os elementos visuais do Power BI são suportados na funcionalidade **Publicar na Web**. Ao utilizar a funcionalidade **Publicar na Web** , os utilizadores com quem partilha os elementos visuais publicados não precisam de ativar os elementos visuais do Power BI para ver o relatório.
 
 ## <a name="understanding-the-embed-code-status-column"></a>Compreender a coluna do estado do código de incorporação
 
 >[!Note]
 >Consulte os códigos de incorporação que publicou com frequência. Remova os que já não precisarem de estar disponíveis publicamente.
 
-A página **Gerir códigos de incorporação** inclui uma coluna de estado. Os códigos de incorporação estão predefinidos como **Ativos**, mas também poderá encontrar um dos estados descritos abaixo.
+A página **Gerir códigos de incorporação** inclui uma coluna de estado. Os códigos de incorporação estão predefinidos como **Ativos** , mas também poderá encontrar um dos estados descritos abaixo.
 
 | Estado | Descrição |
 | --- | --- |
@@ -153,9 +163,9 @@ Tem de ser utilizador do Microsoft Power BI para utilizar a funcionalidade **Pub
 <a name="howitworks"></a>
 ## <a name="how-it-works-technical-details"></a>Como funciona (detalhes técnicos)
 
-Quando cria um código de incorporação através da funcionalidade **Publicar na Web**, o relatório fica visível para os utilizadores na Internet. Encontra-se disponível publicamente, pelo que é expectável que os utilizadores partilhem facilmente o relatório através das redes sociais. Quando os utilizadores virem o relatório, quer ao abrir o URL público direto ou ao vê-lo incorporado numa página Web ou blogue, o Power BI regista a definição do relatório e os resultados das consultas necessários para ver o relatório. Esta colocação em cache garante que milhares de utilizadores podem ver o relatório em simultâneo, sem afetar o desempenho.
+Quando cria um código de incorporação através da funcionalidade **Publicar na Web** , o relatório fica visível para os utilizadores na Internet. Encontra-se disponível publicamente, pelo que é expectável que os utilizadores partilhem facilmente o relatório através das redes sociais. Os utilizadores veem o relatório se abrirem o URL público direto ou se o virem incorporado numa página Web ou blogue. Quando o fazem, o Power BI coloca em cache a definição do relatório e os resultados das consultas necessárias para ver o relatório. Esta colocação em cache garante que milhares de utilizadores podem ver o relatório em simultâneo, sem afetar o desempenho.
 
-Os dados são colocados em cache durante uma hora a partir do momento em que são obtidos. Se atualizar a definição do relatório (por exemplo, se alterar o Modo de visualização) ou atualizar os dados do relatório, poderá demorar até duas horas para que as alterações se reflitam na versão do relatório vista pelos utilizadores. Uma vez que cada elemento e valor de dados é colocado em cache independentemente, quando uma atualização de dados ocorre, uma mistura de valores atuais e anteriores pode ser mostrada a um utilizador. Por conseguinte, recomendamos que teste o seu trabalho antecipadamente e crie o código de incorporação **Publicar na Web** apenas quando estiver satisfeito com as definições. Se os seus dados se atualizarem, minimize o número de atualizações e execute as atualizações durante horas de inatividade. Não recomendamos a utilização de Publicar na Web para obter dados que têm de ser atualizados com frequência.
+Os dados são colocados em cache durante uma hora a partir do momento em que são obtidos. Se atualizar a definição do relatório (por exemplo, se alterar o Modo de visualização) ou atualizar os dados do relatório, poderá demorar algum tempo para que as alterações se reflitam na versão do relatório vista pelos utilizadores. Quando ocorre uma atualização de dados para um modelo de dados de importação, o serviço limpa os dados em cache e obtém novos dados. Na maioria dos casos, os dados são atualizados quase em simultâneo com a importação dos dados. No entanto, a atualização pode demorar algum tempo em relatórios com muitas consultas distintas. Uma vez que cada elemento e valor de dados é colocado em cache independentemente, quando uma atualização de dados ocorre, um utilizador pode ver uma mistura de valores atuais e anteriores. Por conseguinte, recomendamos que teste o seu trabalho antecipadamente e crie o código de incorporação **Publicar na Web** apenas quando estiver satisfeito com as definições. Se os seus dados se atualizarem, minimize o número de atualizações e execute as atualizações durante horas de inatividade. Não recomendamos a utilização de Publicar na Web para obter dados que têm de ser atualizados com frequência.
 
 ## <a name="find-your-power-bi-administrator"></a>Encontrar o seu administrador do Power BI
 
@@ -172,7 +182,7 @@ Precisa de [encontrar uma destas pessoas](/office365/admin/admin-overview/admin-
 
 ## <a name="limitations"></a>Limitações
 
-A funcionalidade **Publicar na Web** é suportada para a grande maioria das origens de dados e relatórios no serviço Power BI. No entanto, os seguintes tipos de relatórios não são atualmente suportados ou não estão disponíveis com a funcionalidade **Publicar na Web**:
+A funcionalidade **Publicar na Web** é suportada para a grande maioria das origens de dados e relatórios no serviço Power BI. No entanto, os seguintes tipos de relatórios não são atualmente suportados ou não estão disponíveis com a funcionalidade **Publicar na Web** :
 
 - Relatórios com segurança ao nível da linha.
 - Relatórios que utilizam qualquer origem de dados de Ligação em Direto, incluindo Tabelas do Analysis Services no local, modelos Multidimensionais do Analysis Services e o Azure Analysis Services.

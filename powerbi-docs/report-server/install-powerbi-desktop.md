@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 07/24/2020
-ms.openlocfilehash: d361430387d9c24b8b4ef0b673c50cf4cec5a24b
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 10/16/2020
+ms.openlocfilehash: 62add0b1268b06bb227bdc1b8ec2e4ae59358c57
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252612"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044759"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Power BI Report Server
 
@@ -45,9 +45,9 @@ A forma mais fácil de garantir que tem a versão mais atualizada do Power BI De
     Este inicia automaticamente e está pronto para começar.
 
 ## <a name="verify-youre-using-the-correct-version"></a>Confirmar que está a utilizar a versão correta
-É fácil verificar se está a utilizar a versão correta do Power BI Desktop: observe o ecrã inicial ou a barra de título no Power BI Desktop. O texto **Power BI Desktop (maio de 2020)** na barra de título indica que tem a versão correta. Além disso, as cores do logótipo do Power BI estão invertidas: o logótipo surge a amarelo sobre um fundo preto em vez de aparecer a preto sobre um fundo amarelo.
+É fácil verificar se está a utilizar a versão correta do Power BI Desktop: observe o ecrã inicial ou a barra de título no Power BI Desktop. O texto **Power BI Desktop (outubro de 2020)** na barra de título indica que tem a versão correta. Além disso, as cores do logótipo do Power BI estão invertidas: o logótipo surge a amarelo sobre um fundo preto em vez de aparecer a preto sobre um fundo amarelo.
 
-![Power BI Desktop (maio de 2020)](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
+![Power BI Desktop (outubro de 2020)](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
 
 A versão do Power BI Desktop para o serviço Power BI não tem o mês e ano na barra de título.
 

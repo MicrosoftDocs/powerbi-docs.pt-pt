@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: 3be821bfaad91ede2a7348e35c06850c81ddf1b4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/29/2020
+ms.openlocfilehash: 3173108abe6082c199cbf6ff1229ca57fde31064
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859250"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044785"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registo de alterações do Power BI Report Server
 
@@ -21,6 +21,26 @@ Este registo de alterações destina-se ao Power BI Report Server e lista novos 
 
 Veja as [Novidades no Power BI Report Server](whats-new.md) para obter mais informações sobre as novas funcionalidades. 
 
+## <a name="october-2020"></a>Outubro de 2020
+- **Power BI Report Server**
+    - *Versão: 1.9.7604.41261 (Compilação 15.0.1104.239), Lançamento: 27 de outubro de 2020*
+         - Funcionalidades
+            - Suporte ativado para metadados de conjuntos de dados otimizados no Power BI Report Server.
+            - Ativámos a capacidade de atualizar ligações de relatórios do Power BI para o DirectQuery (para obter mais detalhes, veja [Alterar cadeias de ligação da origem de dados](./connect-data-source-apis.md)).
+        - Atualizações de segurança
+        - Correções de erros
+            - Correção do problema que impedia os utilizadores de alterarem as atualizações agendadas de relatórios do Power BI.
+            - Correção da mensagem de erro confusa que os utilizadores recebiam ao gerirem relatórios quando as credenciais tinham expirado.
+            - Correção do problema de exportação de relatórios com pontos finais no nome.
+            - Correção de problemas com o leitor de ecrã tablix.
+            - Correção de um problema que fazia com que os ficheiros de registo estivessem vazios em algumas circunstâncias.
+            - Correção de um problema que fazia com que a caixa de diálogo "Ligar ao Power BI" não fechasse.
+            - O compositor MHTML foi atualizado para utilizar o HTML DOCTYPE mais recente
+
+- **Power BI Desktop (otimizado para o Power BI Report Server)**
+   - *Versão: 2.86.961.0 (outubro de 2020), Lançamento: 27 de outubro de 2020* (nova compilação e nova versão)
+        - Contém as alterações necessárias para a ligação com o Power BI Report Server (outubro de 2020)        
+   
 ## <a name="may-2020"></a>Maio de 2020
 - **Power BI Report Server**
     - *Versão: 1.8.7485.35104 (Compilação 15.0.1103.234), Lançamento: 30 de junho de 2020*
@@ -225,7 +245,7 @@ Veja as [Novidades no Power BI Report Server](whats-new.md) para obter mais info
 - **Power BI Report Server**
     - *Versão 1.3.6816.37243 (Compilação 15.0.2.557), Lançamento: 30 de agosto de 2018*
         - Correções de erros
-            - Foi corrigido um problema em que o redirecionamento de enlace não era atualizado quando o servidor era atualizado de versões anteriores do Servidor de Relatórios do PBI. Os clientes viam o seguinte:      
+            - Correção de um problema em que o redirecionamento de enlace não era atualizado quando o servidor era atualizado de versões anteriores do Servidor de Relatórios do PBI. Os clientes viam a seguinte mensagem:      
             *`
             Failed to load expression host assembly. Details: Could not load file or assembly 'Microsoft.ReportingServices.ProcessingObjectModel, Version=2018.7.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (rsErrorLoadingExprHostAssembly)
              `*
@@ -311,8 +331,8 @@ Veja as [Novidades no Power BI Report Server](whats-new.md) para obter mais info
 
     - *Versão 1.1.6514.9163 (Compilação 14.0.600.434), Lançamento: 1 de novembro de 2017*
         - Correções de Erros
-            - Correção para problemas de fiabilidade de carregamento para relatórios PBIX com mais de 500 MB
-            - Correção para o problema de carregamento de dados para relatórios PBIX com mais de 1 GB
+            - Correção de problemas de fiabilidade de carregamento para relatórios PBIX com mais de 500 MB
+            - Correção do problema de carregamento de dados para relatórios PBIX com mais de 1 GB
 
     - *Versão 1.1.6513.3500 (Compilação 14.0.600.433), Lançamento: 31 de outubro de 2017*
         - Funcionalidades

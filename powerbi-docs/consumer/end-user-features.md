@@ -10,18 +10,18 @@ ms.date: 09/16/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 9ab371844f4c746bfcb4c993dec0b32237e5c26a
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: ddd63a4f18c9994e0a89f4028bcdec96eda21600
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763075"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916711"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Lista de funcionalidades do Power BI para *consumidores* e outros utilizadores com licenças gratuitas
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
-Como *utilizador empresarial*, utiliza o serviço Power BI para explorar relatórios e dashboards para tomar decisões empresariais. Esses relatórios e dashboards são criados por *designers* que têm licenças do Power BI *Pro*. Os utilizadores Pro têm a capacidade de partilhar conteúdos com colegas e controlar o que estes podem ou não fazer com esses conteúdos. Por vezes, os designers partilham conteúdos ao enviar ligações e, por vezes, os conteúdos são instalados automaticamente e são apresentados no Power BI em **Aplicações** ou **Partilhado comigo**.
+Como *utilizador empresarial* , utiliza o serviço Power BI para explorar relatórios e dashboards para tomar decisões empresariais. Esses relatórios e dashboards são criados por *designers* que têm licenças do Power BI *Pro*. Os utilizadores Pro têm a capacidade de partilhar conteúdos com colegas e controlar o que estes podem ou não fazer com esses conteúdos. Por vezes, os designers partilham conteúdos ao enviar ligações e, por vezes, os conteúdos são instalados automaticamente e são apresentados no Power BI em **Aplicações** ou **Partilhado comigo**.
 
 Existem diferentes formas de os designers partilharem conteúdos. No entanto, este artigo é para *utilizadores empresariais* do Power BI e, portanto, só descreve como os *utilizadores empresariais* recebem e interagem com os conteúdos. Para obter mais informações sobre outras formas de partilhar conteúdos, veja [Formas de partilhar o seu trabalho no Power BI](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md).
 
@@ -42,7 +42,7 @@ Existem dois tipos de áreas de trabalho: **A minha área de trabalho** e as ár
 Nas áreas de trabalho de aplicações, as *funções* são atribuídas pelos designers para gerir quem pode fazer o quê naquela área de trabalho. Os *utilizadores empresariais* possuem normalmente a função de **Visualizador**. 
 
 ### <a name="premium-capacity"></a>Capacidade Premium
-Quando uma organização tem uma subscrição com capacidade Premium, os administradores e os utilizadores Pro podem atribuir as áreas de trabalho à *capacidade dedicada*. Uma área de trabalho com capacidade dedicada é uma área onde os utilizadores Pro podem partilhar e colaborar com os utilizadores gratuitos, sem que os utilizadores gratuitos precisem de licenças Pro. Nessas áreas de trabalho, os utilizadores gratuitos têm permissões elevadas (ver lista abaixo). 
+Quando uma organização tem uma subscrição de capacidade Premium, os administradores e utilizadores Pro podem atribuir áreas de trabalho à *capacidade*. Uma área de trabalho com capacidade é um espaço onde os utilizadores Pro podem partilhar e colaborar com os utilizadores gratuitos, sem que os utilizadores gratuitos precisem de ter licenças Pro. Nessas áreas de trabalho, os utilizadores gratuitos têm permissões elevadas (ver lista abaixo). 
 
 ### <a name="licenses"></a>Licenças 
 Cada utilizador do serviço Power BI tem uma licença gratuita ou uma licença Pro. Os *utilizadores empresariais* têm licenças gratuitas.
@@ -79,7 +79,7 @@ A segunda coluna representa um *utilizador empresarial*.  Um utilizador empresar
 
 ### <a name="feature-list"></a>Lista de funcionalidades
 
-|Funcionalidades   | Cenário 1: Utilizador gratuito do Power BI que não tem acesso ao conteúdo alojado na capacidade dedicada.    | Cenário 2: Utilizador gratuito do Power BI com permissões de **Visualizador** para o conteúdo alojado na capacidade dedicada. Esta pessoa é um *utilizador empresarial* do Power BI. |
+|Funcionalidades   | Cenário 1: utilizador gratuito do Power BI que não tem acesso aos conteúdos alojados na capacidade.    | Cenário 2: utilizador gratuito do Power BI com permissões de **Visualizador** para conteúdos alojados na capacidade. Esta pessoa é um *utilizador empresarial* do Power BI. |
 |---|---|---|
 |**Aplicações** 
 |Instalar automaticamente | ![x cor de laranja](media/end-user-features/orange-x.png) | ![ponto verde](media/end-user-license/power-bi-green-dot.png)*| 

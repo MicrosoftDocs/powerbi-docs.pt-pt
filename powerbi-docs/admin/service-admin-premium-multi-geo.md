@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/26/2019
+ms.date: 10/29/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5d8841c35b2086f9a7e452cdcb4aa9a0fc4c16bd
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 899dc5092ac86e08d552758e74dfabd8b373f5c0
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599654"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044717"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configurar o suporte da Multi-Geo para o Power BI Premium
 
@@ -90,14 +90,16 @@ Pode retirar as áreas de trabalho da capacidade Multi-Geo de uma das seguintes 
 - Eliminar a capacidade atual onde está localizada a área de trabalho.  Essa ação move a área de trabalho de novo para a capacidade partilhada na região base.
 - Migrar as áreas de trabalho individuais de novo para a capacidade Premium localizada no inquilino principal.
 
+Os conjuntos de dados de formato de grande armazenamento não devem ser movidos da região onde foram criados. Os relatórios baseados em conjuntos de dados de grande formato não conseguirão carregar o conjunto de dados e devolverão o erro *Não foi possível carregar o modelo*. Mova os conjuntos de dados de formato de grande armazenamento para a sua região original para que fiquem disponíveis novamente.
+
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 
 - Confirme que qualquer movimentação que efetuar entre regiões está conforme todos os requisitos de conformidade empresariais e governamentais antes de iniciar a transferência de dados.
 - Uma consulta em cache armazenada numa região remota permanece inativa nessa região. No entanto, os outros dados em trânsito podem ir e voltar entre várias localizações geográficas.
 - Ao mover dados de uma região para outra num ambiente Multi-Geo, os dados de origem pode permanecer na região da qual foram movidos até um máximo de 30 dias. Durante esse período, os utilizadores finais não terão acesso aos dados. São removidos desta região e destruídos durante esse período de 30 dias.
 - O texto de consulta e o tráfego de resultados da consulta dos modelos de dados importados não transitam pela região base. Os metadados do relatório ainda provêm da região remota e certos estados de encaminhamento de DNS podem retirar o tráfego da região. 
-
 - De momento, a funcionalidade de [fluxos de trabalho](../transform-model/service-dataflows-overview.md) não é suportada na Multi-Geo.
+- Mover conjuntos de dados de formato de grande armazenamento da região onde foram criados fará com que os relatórios não consigam carregar o conjunto de dados. Mova os conjuntos de dados de grande armazenamento para a sua região original para que fiquem disponíveis. 
 
 ## <a name="next-steps"></a>Próximos passos
 

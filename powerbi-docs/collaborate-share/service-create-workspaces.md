@@ -1,24 +1,24 @@
 ---
 title: Criar áreas de trabalho clássicas no Power BI
-description: Saiba como criar áreas de trabalho, coleções de dashboards, relatórios e relatórios paginados criados para fornecer métricas importantes à sua organização.
+description: Aprenda a criar as áreas de trabalho clássicas, coleções de dashboards, relatórios e relatórios paginados criados para fornecer métricas importantes à sua organização.
 author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 10/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 44d4c24edbb6ebece8b07ed9fb99261f7f1f0408
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5a5aced331ff8f66fdd0cb58fd7625a68acf9331
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226521"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132396"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Criar áreas de trabalho clássicas no Power BI
 
-No Power BI, pode criar *áreas de trabalho*, ou seja, locais onde pode colaborar com colegas para criar e otimizar coleções de dashboards, relatórios e relatórios paginados. Depois, pode agrupar a coleção em *aplicações* e distribuir por toda a organização ou por um conjunto de pessoas ou grupos específico. 
+No Power BI, pode criar *áreas de trabalho* , ou seja, locais onde pode colaborar com colegas para criar e otimizar coleções de dashboards, relatórios e relatórios paginados. O Power BI tem as áreas de trabalho originais ou *clássicas* e as novas áreas de trabalho. Este artigo é sobre a criação de uma área de trabalho clássica.
 
 **Sabia que?** O Power BI oferece uma nova experiência de áreas de trabalho, que é agora a predefinição. Para obter detalhes sobre as novas áreas de trabalho, leia [Organize work in the new workspaces](service-new-workspaces.md) (Organizar o seu trabalho nas novas áreas de trabalho). Pronto para migrar a sua área de trabalho clássica? Veja [Atualizar as áreas de trabalho clássicas para as novas áreas de trabalho no Power BI](service-upgrade-workspaces.md) para obter detalhes.
 
@@ -38,7 +38,7 @@ Ao criá-la pela primeira vez, poderá ter de aguardar aproximadamente uma hora 
 ### <a name="add-an-image-to-your-microsoft-365-workspace-optional"></a>Adicionar uma imagem à área de trabalho do Microsoft 365 (opcional)
 Por predefinição, o Power BI cria um círculo ligeiramente colorido para a aplicação, com as iniciais da aplicação. Mas talvez o queira personalizar com uma imagem. Para adicionar uma imagem, precisa de uma licença do Exchange Online.
 
-1. Selecione **Áreas de trabalho**, selecione **Mais opções** (…) junto ao nome da área de trabalho e, em seguida, **Membros**. 
+1. Selecione **Áreas de trabalho** , selecione **Mais opções** (…) junto ao nome da área de trabalho e, em seguida, **Membros**. 
    
      ![Selecionar Membros da Área de Trabalho](media/service-create-workspaces/power-bi-workspace-old-members.png)
    

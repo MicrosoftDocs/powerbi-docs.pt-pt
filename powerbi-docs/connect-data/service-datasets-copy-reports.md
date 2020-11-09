@@ -6,22 +6,24 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 04/30/2020
+ms.date: 10/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86c663e7b9ba035af6592dc10972d868344df7f7
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 4b9573d0a24efdbb4c0b5a4130f973a0dfac0f10
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633214"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132327"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>Copiar relatórios de outras áreas de trabalho
 
 Quando encontrar um relatório do seu agrado numa área de trabalho ou numa aplicação, poderá fazer uma cópia do mesmo e guardá-lo numa área de trabalho diferente. Em seguida, poderá modificar a sua cópia do relatório ao adicionar ou eliminar elementos visuais e outros elementos. Não tem de se preocupar com a criação do modelo de dados. Já terá sido criado automaticamente. Além disso, é muito mais fácil modificar um relatório existente do que começar do zero. No entanto, quando criar uma aplicação a partir da área de trabalho, nem sempre pode publicar a cópia do relatório na aplicação. Veja [Considerações e limitações no artigo "Utilizar conjuntos de dados em várias áreas de trabalho"](service-datasets-across-workspaces.md#considerations-and-limitations) para obter detalhes.
 
-> [!NOTE]
-> Para criar uma cópia, precisa de uma licença Pro, mesmo que o relatório original esteja numa área de trabalho numa capacidade Premium.
+## <a name="prerequisites"></a>Pré-requisitos
+
+- Para criar uma cópia ou um relatório, precisa de uma licença Pro, mesmo que o relatório original esteja numa área de trabalho numa capacidade Premium.
+- Para copiar um relatório ou para o criar numa área de trabalho com base num conjunto de dados noutra área de trabalho, precisará da Permissão de compilação para o conjunto de dados. Para conjuntos de dados na área de trabalho original, as pessoas com as funções de Administrador, Membro e Contribuidor têm automaticamente Permissão de compilação através da função da área de trabalho. Veja as [Funções nas novas áreas de trabalho](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) para obter mais detalhes.
 
 ## <a name="save-a-copy-of-a-report-in-a-workspace"></a>Guardar uma cópia de um relatório numa área de trabalho
 
@@ -29,13 +31,13 @@ Quando encontrar um relatório do seu agrado numa área de trabalho ou numa apli
 
     ![Vista de lista Relatórios](media/service-datasets-copy-reports/power-bi-report-list-view.png)
 
-1. Em **Ações**, selecione **Guardar uma cópia**.
+1. Em **Ações** , selecione **Guardar uma cópia**.
 
     ![Guardar uma cópia de um relatório](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
     O ícone **Guardar uma cópia** só será apresentado se o relatório estiver numa nova experiência de área de trabalho e se tiver a [Permissão de compilação](service-datasets-build-permissions.md). Mesmo com acesso à área de trabalho, terá de ter a Permissão de compilação para o conjunto de dados.
 
-3. Em **Guardar uma cópia deste relatório**, dê um nome ao relatório e selecione a área de trabalho de destino.
+3. Em **Guardar uma cópia deste relatório** , dê um nome ao relatório e selecione a área de trabalho de destino.
 
     ![Caixa de diálogo Guardar uma cópia](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 

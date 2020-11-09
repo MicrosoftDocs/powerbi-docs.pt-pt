@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/27/2020
-ms.openlocfilehash: 288e511c38df0326d07fad87f5d239cd5b0cfec0
-ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
+ms.openlocfilehash: 07b3004553f62dbdd138d93bf1aba2c08287b9c6
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84126279"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044822"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Linha cronológica de suporte para o Power BI Report Server
 
@@ -30,15 +30,10 @@ Esta política de suporte permite-nos disponibilizar inovação aos clientes rap
 
 | **Versão** | **Data de disponibilidade** | **Data de fim do suporte** |
 | --- | --- | --- |
-| Junho de 2017 |12 de junho de 2017 |Sem suporte |
-| Outubro de 2017 |31 de outubro de 2017 | Sem suporte |
-| Março de 2018 | 19 de março de 2018 | Sem suporte |
-| Agosto de 2018 | 15 de agosto de 2018 | Sem suporte |
-| Janeiro de 2019 | 23 de janeiro de 2019 | Sem suporte |
-| Maio de 2019 | 22 de maio de 2019 | Sem suporte |
-| Setembro de 2019 | Setembro de 2019 | Setembro de 2020 
+| Setembro de 2019 | Setembro de 2019 | Setembro de 2019 e todas as versões anteriores que já não são suportadas
 | Janeiro de 2020 | Janeiro de 2020 | Janeiro de 2021
 | Maio de 2020 | Maio de 2020 | Maio de 2021
+| Outubro de 2020 | Outubro de 2020 | Outubro de 2021
 
 Para transferir o Power BI Report Server e o Power BI Desktop otimizado para o Power BI Report Server, aceda a [Relatórios no local com o Power BI Report Server](https://powerbi.microsoft.com/report-server/).
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: d97c1a4be226d81ca20ef2f31a1f535174cb6c5b
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 82237286fa4d6ac3713ca6674a541b7d59c20a49
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599126"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92915906"
 ---
 # <a name="power-bi-premium-faq"></a>Perguntas Frequentes do Power BI Premium
 
@@ -32,7 +32,7 @@ O Power BI Premium é uma oferta com base na capacidade, que inclui:
 * Uma superfície de API, um conjunto consistente de capacidades e acesso às funcionalidades mais recentes para análise incorporada.
 
 **O que faz o Power BI Premium? Como funciona?**  
-O Power BI Premium consiste na capacidade no serviço Power BI exclusivamente atribuída a cada organização. A capacidade é suportada pelo hardware dedicado totalmente gerido pela Microsoft. As organizações podem optar por aplicar a respetiva capacidade dedicada amplamente ou atribui-la às áreas de trabalho atribuídas com base no número de utilizadores, necessidades de carga de trabalho ou outros fatores – e aumentar ou reduzir verticalmente, à medida que os requisitos mudam.
+O Power BI Premium consiste na capacidade no serviço Power BI exclusivamente atribuída a cada organização. A capacidade é suportada pelo hardware dedicado totalmente gerido pela Microsoft. As organizações podem optar por aplicar a respetiva capacidade amplamente ou atribui-la às áreas de trabalho atribuídas com base no número de utilizadores, necessidades de carga de trabalho ou outros fatores – e aumentar ou reduzir verticalmente, à medida que os requisitos mudam.
 
 **Em que é o que Power BI Pro diverge do Power BI Premium?**  
 O Power BI Premium é uma licença com base na capacidade, enquanto o Power BI Pro é uma licença baseada no utilizador. O Power BI Pro serve para os utilizadores publicarem relatórios, partilharem dashboards, colaborarem com colegas em áreas de trabalho e participarem noutras atividades relacionadas – como a capacidade de:

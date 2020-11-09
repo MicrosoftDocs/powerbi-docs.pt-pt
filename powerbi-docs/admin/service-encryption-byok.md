@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 404e613f3e30bda3115ec0a9a3b71907b115bbcc
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 449721a13a126344f3ef8334e63f64579a98ec20
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374896"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916159"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Chaves de encriptação por BYOK (Bring Your Own Key) para o Power BI
 
@@ -60,12 +60,12 @@ As instruções nesta secção pressupõem que detém conhecimentos básicos sob
 
 1. No portal do Azure, em **Políticas de acesso** no seu cofre de chaves, selecione **Adicionar Novo**.
 
-1. Em **Selecionar principal**, procure e selecione Microsoft.Azure.AnalysisServices.
+1. Em **Selecionar principal** , procure e selecione Microsoft.Azure.AnalysisServices.
 
     > [!NOTE]
     > Se não encontrar "Microsoft.Azure.AnalysisServices", é provável que a subscrição do Azure associada ao seu Azure Key Vault nunca tenha tido um recurso do Power BI associado. Em vez disso, experimente procurar a seguinte cadeia de carateres: 00000009-0000-0000-c000-000000000000.
 
-1. Em **Permissões da chave**, selecione **Anular a Moldagem da Chave** e **Moldar Chave**.
+1. Em **Permissões da chave** , selecione **Anular a Moldagem da Chave** e **Moldar Chave**.
 
     ![Ficheiro P B I X, selecionar principal de serviço e operações criptográficas](media/service-encryption-byok/service-principal.png)
 
@@ -76,7 +76,7 @@ As instruções nesta secção pressupõem que detém conhecimentos básicos sob
 
 ### <a name="create-an-rsa-key"></a>Criar uma chave RSA
 
-1. No seu cofre de chaves, em **Chaves**, selecione **Gerar/Importar**.
+1. No seu cofre de chaves, em **Chaves** , selecione **Gerar/Importar**.
 
 1. Selecione um **Tipo de Chave** RSA e um **Tamanho da Chave RSA** de 4096 bits.
 
@@ -84,7 +84,7 @@ As instruções nesta secção pressupõem que detém conhecimentos básicos sob
 
 1. Selecione **Criar**.
 
-1. Em **Chaves**, selecione a chave que criou.
+1. Em **Chaves** , selecione a chave que criou.
 
 1. Selecione o GUID para a **Versão Atual** da chave.
 
@@ -108,9 +108,9 @@ Antes de ativar o BYOK, tenha as seguintes considerações em conta:
 
 - Neste momento, não pode desativar o BYOK após tê-lo ativado. Dependendo de como especificar os parâmetros de `Add-PowerBIEncryptionKey`, pode controlar a forma como utiliza o BYOK para uma ou várias das suas capacidades. No entanto, não pode anular a introdução de chaves no seu inquilino. Para obter mais informações, veja a secção [Ativar o BYOK](#enable-byok).
 
-- Não pode mover _diretamente_ uma área de trabalho que recorre a BYOK de uma capacidade dedicada no Power BI Premium para uma capacidade partilhada. Primeiro, tem de mover a área de trabalho para uma capacidade dedicada que não tenha o BYOK ativado.
+- Não pode mover _diretamente_ uma área de trabalho que recorre a BYOK de uma capacidade no Power BI Premium para uma capacidade partilhada. Primeiro, tem de mover a área de trabalho para uma capacidade que não tenha o BYOK ativado.
 
-- Se mover uma área de trabalho que utiliza o BYOK de uma capacidade dedicada no Power BI Premium, os relatórios e conjuntos de dados ficarão inacessíveis, pois são encriptados com a Chave. Para evitar esta situação, tem de mover a área de trabalho para uma capacidade dedicada que não tenha o BYOK ativado.
+- Se mover uma área de trabalho que utiliza o BYOK de uma capacidade no Power BI Premium, os relatórios e conjuntos de dados ficarão inacessíveis, pois são encriptados com a Chave. Para evitar esta situação, tem de mover a área de trabalho para uma capacidade que não tenha o BYOK ativado.
 
 ### <a name="enable-byok"></a>Ativar o BYOK
 
@@ -183,7 +183,7 @@ O Power BI fornece cmdlets adicionais para ajudá-lo a gerir o BYOK no seu inqui
 
     Tenha em atenção que a encriptação é ativada ao nível da capacidade, mas que irá obter o estado de encriptação ao nível do conjunto de dados para a área de trabalho especificada.
 
-- Utilize [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) para alternar (ou _rodar_) a versão da chave que está a ser utilizada para encriptação. O cmdlet apenas atualiza o `-KeyVaultKeyUri` para o `-Name` de uma chave:
+- Utilize [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) para alternar (ou _rodar_ ) a versão da chave que está a ser utilizada para encriptação. O cmdlet apenas atualiza o `-KeyVaultKeyUri` para o `-Name` de uma chave:
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

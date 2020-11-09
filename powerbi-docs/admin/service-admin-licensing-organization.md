@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 825b336a96b998c04b019195ad3f3beea96d0a19
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 86a28c1d89537a59bf96d82fb3df87a4a0ccf391
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857295"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916090"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Licenciamento do serviço Power BI para os utilizadores na sua organização
 
@@ -84,7 +84,7 @@ Existem dois tipos de subscrições do Power BI para organizações: Standard e 
 
 Com uma subscrição de gestão personalizada Standard do Power BI Pro, os administradores atribuem licenças por utilizador. Existe uma taxa mensal por utilizador para as licenças do Power BI Pro. Este tipo de licença permite colaboração, publicação, partilha e análise ad hoc. Os conteúdos são guardados numa capacidade de armazenamento partilhada que é totalmente gerida pela Microsoft.
 
-Uma subscrição do Power BI Premium aloca capacidade dedicada a uma organização. Adequada para a BI empresarial, a análise de macrodados e os relatórios na cloud e no local, a capacidade Premium proporciona controlos de implementação e administração avançados. Os recursos de armazenamento e de computação dedicados são geridos pelos administradores das capacidades na sua organização. Existe um custo mensal para este ambiente dedicado. Para além das outras vantagens da capacidade Premium, o conteúdo armazenado nesta pode ser acedido e distribuído pelos utilizadores que não possuem licenças do Power BI Pro. Pelo menos um utilizador tem de possuir uma licença do Power BI Pro atribuída para utilizar a capacidade Premium. Os criadores e programadores de conteúdo continuam a precisar de uma licença do Power BI Pro.
+Uma subscrição do Power BI Premium aloca capacidade a uma organização. Adequada para a BI empresarial, a análise de macrodados e os relatórios na cloud e no local, a capacidade Premium proporciona controlos de implementação e administração avançados. Os recursos de armazenamento e de computação dedicados são geridos pelos administradores das capacidades na sua organização. Existe um custo mensal para este ambiente dedicado. Para além das outras vantagens da capacidade Premium, o conteúdo armazenado nesta pode ser acedido e distribuído pelos utilizadores que não possuem licenças do Power BI Pro. Pelo menos um utilizador tem de possuir uma licença do Power BI Pro atribuída para utilizar a capacidade Premium. Os criadores e programadores de conteúdo continuam a precisar de uma licença do Power BI Pro.
 
 Os dois tipos de subscrição não são mutuamente exclusivos. Pode possuir o Power BI Premium e o Power BI Pro. Nesta configuração, o conteúdo armazenado na capacidade Premium pode ser partilhado com todos os utilizadores e a capacidade partilhada também está disponível. Para obter mais informações sobre os limites de capacidade, veja [Gerir o armazenamento de dados nas áreas de trabalho do Power BI](service-admin-manage-your-data-storage-in-power-bi.md).
 

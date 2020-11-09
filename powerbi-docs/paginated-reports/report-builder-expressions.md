@@ -8,17 +8,20 @@ ms.topic: conceptual
 ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 96c62fec55f87a31970b624a79314656ced0c159
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dbda608fcab3457a45c4ad93abf7143a19abcd1
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921131"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298181"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Expressões no Report Builder do Power BI
-  As expressões são amplamente utilizadas nos relatórios paginados do Report Builder do Power BI para obter, calcular, apresentar, agrupar, ordenar, filtrar, parametrizar e formatar dados. 
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+As expressões são amplamente utilizadas nos relatórios paginados do Report Builder do Power BI para obter, calcular, apresentar, agrupar, ordenar, filtrar, parametrizar e formatar dados. 
   
-  Muitas propriedades de item de relatório podem ser definidas como uma expressão. As expressões ajudam a controlar os conteúdos, a estrutura e a interatividade do seu relatório. As expressões são escritas no Microsoft Visual Basic, guardadas na definição do relatório e avaliadas pelo processador do relatório, quando executa o relatório.  
+Muitas propriedades de item de relatório podem ser definidas como uma expressão. As expressões ajudam a controlar os conteúdos, a estrutura e a interatividade do seu relatório. As expressões são escritas no Microsoft Visual Basic, guardadas na definição do relatório e avaliadas pelo processador do relatório, quando executa o relatório.  
   
  Ao contrário de aplicações como o Microsoft Office Excel, onde trabalha com dados diretamente numa folha de cálculo, num relatório trabalha com expressões que são marcadores de posição para os dados. Para ver os dados reais das expressões avaliadas, tem de pré-visualizar o relatório. Quando executar o relatório, o processador do relatório avalia cada expressão que combina dados do relatório e elementos de esquema do relatório, como tabelas e gráficos.  
   
@@ -28,18 +31,18 @@ ms.locfileid: "78921131"
   
  Quando pré-visualizar o relatório, o processador do relatório combinará a região de dados de tabela com os dados reais da ligação de dados e apresentará uma linha na tabela para cada linha no conjunto de resultados.  
   
- Para introduzir expressões manualmente, selecione um item na superfície de desenho e utilize os menus de atalho e as caixas de diálogo para definir as propriedades do item. Quando vir o botão ***(fx)*** ou o valor `<Expression>` numa lista pendente, sabe que pode definir a propriedade para uma expressão. 
+ Para introduzir expressões manualmente, selecione um item na superfície de desenho e utilize os menus de atalho e as caixas de diálogo para definir as propriedades do item. Quando vir o botão * **(fx)** _ ou o valor `<Expression>` numa lista pendente, sabe que pode definir a propriedade como uma expressão. 
   
 ##  <a name="understanding-simple-and-complex-expressions"></a><a name="Types"></a> Compreender as expressões simples e complexas  
  As expressões começam com um sinal de igual (=) e são escritas no Microsoft Visual Basic. As expressões podem incluir uma combinação de constantes, operadores e referências para valores internos (campos, coleções e funções) e código externo ou personalizado.  
   
  Pode utilizar expressões para especificar o valor das muitas propriedades de item de relatório. As propriedades mais comuns são valores para as caixas de texto e o texto do marcador de posição. Normalmente, se uma caixa de texto contiver apenas uma expressão, a expressão é o valor da propriedade da caixa de texto. Se uma caixa de texto contiver múltiplas expressões, cada expressão é o valor de texto do marcador de posição na caixa de texto.  
   
- Por predefinição, as expressões são apresentadas na superfície de desenho do relatório como expressões *simples* ou *complexas*.  
+ Por predefinição, as expressões são apresentadas na superfície de desenho do relatório como expressões _simples* ou *complexas*.  
   
 -   **Simples** Uma expressão simples contém uma referência a um único item de uma coleção incorporada, por exemplo, um campo de conjunto de dados, um parâmetro ou um campo incorporado. Na superfície de desenho, uma expressão simples entre parênteses retos. Por exemplo, `[FieldName]` corresponde à expressão subjacente `=Fields!FieldName.Value`. As expressões simples são criadas automaticamente quando cria o esquema do relatório e arrasta os itens do painel de dados do relatório para a superfície de desenho. Para obter mais informações sobre os símbolos que representam diferentes coleções incorporadas, veja [Compreender os símbolos de prefixo para expressões simples](#DisplayText).  
   
--   **Complexas** Uma expressão complexa contém referências a múltiplas referências internas, operadores e chamadas de função. Uma expressão complexa é apresentada como <\<Expr >> quando o valor da expressão inclui mais de uma referência simples. Para ver a expressão, coloque o cursor sobre a mesma e utilize a descrição. Para editar a expressão, abra-a na caixa de diálogo **Expressão**.  
+-   **Complexas** Uma expressão complexa contém referências a múltiplas referências internas, operadores e chamadas de função. Uma expressão complexa é apresentada como <\<Expr>> quando o valor da expressão inclui mais de uma referência simples. Para ver a expressão, coloque o cursor sobre a mesma e utilize a descrição. Para editar a expressão, abra-a na caixa de diálogo **Expressão**.  
   
  A seguinte figura mostra expressões simples e complexas típicas para caixas de texto e o texto do marcador de posição.  
   
@@ -66,10 +69,10 @@ As expressões simples utilizam símbolos para indicar se a referência é relat
   
  A seguinte tabela lista os tipos de referências que pode incluir numa expressão:  
   
-|References (Referências)|Descrição|Exemplo|  
+|Referências|Descrição|Exemplo|  
 |----------------|-----------------|-------------|  
 |Constantes|Descreve as constantes a que pode aceder interativamente para propriedades que necessitem de valores de constantes, como cores do tipo de letra.|`="Blue"`|  
-|Operators|Descreve os operadores que pode utilizar para combinar referências numa expressão. Por exemplo, o operador **&** é utilizado para concatenar cadeias de carateres.|`="The report ran at: " & Globals!ExecutionTime & "."`|  
+|Operadores|Descreve os operadores que pode utilizar para combinar referências numa expressão. Por exemplo, o operador **&** é utilizado para concatenar cadeias de carateres.|`="The report ran at: " & Globals!ExecutionTime & "."`|  
 |Coleções incorporadas|Descreve as coleções incorporadas que pode incluir numa expressão, tais como `Fields`, `Parameters` e `Variables`.|`=Fields!Sales.Value`<br /><br /> `=Parameters!Store.Value`<br /><br /> `=Variables!MyCalculation.Value`|  
 |Relatório incorporado e funções de agregação|Descreve as funções internas, tais como `Sum` ou `Previous`, a que pode aceder a partir de uma expressão.|`=Previous(Sum(Fields!Sales.Value))`|  
 |Código personalizado e referências de assemblagem em expressões no Report Builder |Descreve como pode aceder às classes CLR incorporadas `xref:System.Math` e `xref:System.Convert`, outras classes CLR, funções de biblioteca de tempo de execução do Visual Basic ou aos métodos de uma assemblagem externa.<br /><br /> Descreve como pode aceder ao código personalizado que está incorporado no relatório, ou compilar e instalar como uma assemblagem personalizada no relatório do cliente e no servidor de relatórios.|`=Sum(Fields!Sales.Value)`<br /><br /> `=CDate(Fields!SalesDate.Value)`<br /><br /> `=DateAdd("d",3,Fields!BirthDate.Value)`<br /><br /> `=Code.ToUSD(Fields!StandardCost.Value)`|  
@@ -83,6 +86,6 @@ As expressões simples utilizam símbolos para indicar se a referência é relat
   
 -   A sintaxe da expressão é validada no momento da estruturação. A validação do âmbito da expressão ocorre quando publica o relatório. Para a validação, tal depende dos dados reais, os erros só podem ser detetados durante a execução. Algumas destas expressões produzem #Error, ou seja, uma mensagem de erro no relatório composto. 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)

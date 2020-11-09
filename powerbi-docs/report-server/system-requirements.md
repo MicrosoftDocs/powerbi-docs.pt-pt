@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/17/2020
-ms.openlocfilehash: 4579296568524304f416d8e353dcbccac77bfc63
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/29/2020
+ms.openlocfilehash: 30e8f1cb1ef8f12d9573d77a70771eef915a2704
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861757"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044804"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de software e hardware para instalar o Power BI Report Server
 
@@ -23,7 +23,7 @@ Este artigo descreve o hardware mínimo e os requisitos de software para instala
 
 | Componente | Requisito |
 | --- | --- |
-| .NET Framework |4.7<br><br>Pode instalar manualmente o .NET Framework a partir do [Microsoft .NET Framework 4.7 (Instalador Web) para Windows](https://support.microsoft.com/en-us/kb/3186500).<br/><br/> Para obter mais informações, recomendações e orientações sobre o .NET Framework 4.7, veja o [Guia de Implementação do .NET Framework para Programadores](/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>O Windows 8.1 e o Windows Server 2012 R2 requerem a atualização [KB2919355](https://support.microsoft.com/kb/2919355) antes de instalar o .NET Framework 4.7. |
+| .NET Framework |4.8<br><br>Pode instalar manualmente o .NET Framework a partir do [Microsoft .NET Framework 4.8 (Instalador Web) para Windows](https://support.microsoft.com/en-us/help/4503548/).<br/><br/> Para obter mais informações, recomendações e orientações sobre o .NET Framework 4.8, veja o [Guia de Implementação do .NET Framework para Programadores](/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>O Windows 8.1 e o Windows Server 2012 R2 requerem a atualização [KB2919355](https://support.microsoft.com/kb/2919355) antes de instalar o .NET Framework 4.8. |
 | Disco Rígido |O Power BI Report Server requer um mínimo de 1 GB de espaço disponível em disco rígido.<br><br>Será necessário espaço adicional no servidor de base de dados que aloja a base de dados do servidor de relatórios. |
 | Memória |**Mínima:** 1 GB<br/><br/> **Recomendada:** Pelo menos 4 GB |
 | Velocidade do processador |**Mínima:** Processador x64: 1,4 GHz<br/><br/> **Recomendada:** 2,0 GHz ou mais rápido |

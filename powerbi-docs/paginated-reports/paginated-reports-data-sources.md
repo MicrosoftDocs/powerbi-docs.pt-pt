@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: f433a90580034495b4f7b1f6201c4481ffc627c5
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d6f436477a8226dec870d039c8fe10491456a325
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859871"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298188"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Origens de dados suportadas para relatórios paginados do Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Este artigo descreve as origens de dados suportadas para relatórios paginados no serviço Power BI e explica como ligar a origens de dados da Base de Dados SQL do Azure. Algumas origens de dados são suportadas nativamente. Pode ligar-se a outras pessoas através de gateways de dados.
 
@@ -65,9 +67,9 @@ Para as origens de dados da Base de Dados SQL do Azure, eis os tipos de autentic
 
 - Básico (nome de utilizador e palavra-passe)
 - SSO (início de sessão único)
-- OAuth2 (token do AAD armazenado)
+- OAuth2 (token do Azure Active Directory armazenado)
 
-Para que o SSO e o OAuth2 funcionem corretamente, o servidor da Base de Dados SQL do Azure ao qual a origem de dados está a ligar tem de ter o [suporte de autenticação do AAD ativado](/azure/sql-database/sql-database-aad-authentication-configure). No caso do método de autenticação OAuth2, o AAD gera um token e armazena-o para acesso futuro à origem de dados. Em alternativa, para utilizar o [método de autenticação SSO](../connect-data/service-azure-sql-database-with-direct-connect.md#single-sign-on), selecione a opção de SSO **Os utilizadores finais utilizam as suas próprias credenciais do OAuth2 ao aceder a esta origem de dados através de DirectQuery** imediatamente abaixo.
+Para que o SSO e o OAuth2 funcionem corretamente, o servidor da Base de Dados SQL do Azure ao qual a origem de dados está a ligar tem de ter o [suporte de autenticação do Azure Active Directory ativado](/azure/sql-database/sql-database-aad-authentication-configure). No caso do método de autenticação OAuth2, o Azure Active Directory gera um token e armazena-o para acesso futuro à origem de dados. Em alternativa, para utilizar o [método de autenticação SSO](../connect-data/service-azure-sql-database-with-direct-connect.md#single-sign-on), selecione a opção de SSO **Os utilizadores finais utilizam as suas próprias credenciais do OAuth2 ao aceder a esta origem de dados através de DirectQuery** imediatamente abaixo.
   
 ## <a name="next-steps"></a>Próximos passos
 

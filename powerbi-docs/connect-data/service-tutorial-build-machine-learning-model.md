@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9f25c9ffc294a1733a3dba5818dc00bd23124837
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: ad4715bbecc94934d0f2ac53551b27d82cb4282c
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878898"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916964"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>Tutorial: Criar um modelo de Machine Learning no Power BI
 
@@ -44,9 +44,9 @@ Pode transferir o conjunto de dados a partir do site da UC Irvine. Além disso, 
 
 ### <a name="create-the-entities"></a>Criar as entidades
 
-Para criar as entidades no seu fluxo de dados, inicie sessão no serviço Power BI e navegue para uma área de trabalho na sua capacidade dedicada que tenha a IA ativada.
+Para criar as entidades no seu fluxo de dados, inicie sessão no serviço Power BI e navegue para uma área de trabalho na sua capacidade que tenha a IA ativada.
 
-Se ainda não tiver uma área de trabalho, poderá criar uma ao selecionar **Áreas de trabalho** no menu do painel de navegação do serviço Power BI e, em seguida, **Criar área de trabalho** na parte inferior do painel apresentado. Esta ação abre um painel no lado direito para introduzir os detalhes da área de trabalho. Introduza um nome de área de trabalho e selecione **Avançado**. Confirme se a área de trabalho utiliza uma Capacidade Dedicada com o botão de opção e se está atribuída a uma instância de capacidade dedicada que tenha a pré-visualização de IA ativada. Em seguida, selecione **Guardar**.
+Se ainda não tiver uma área de trabalho, poderá criar uma ao selecionar **Áreas de trabalho** no menu do painel de navegação do serviço Power BI e, em seguida, **Criar área de trabalho** na parte inferior do painel apresentado. Esta ação abre um painel no lado direito para introduzir os detalhes da área de trabalho. Introduza um nome de área de trabalho e selecione **Avançado**. Confirme se a área de trabalho utiliza uma Capacidade Dedicada com o botão de opção e se está atribuída a uma instância de capacidade que tenha a pré-visualização de IA ativada. Em seguida, selecione **Guardar**.
 
 ![Criar uma área de trabalho](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-01.png)
 
@@ -139,13 +139,13 @@ O relatório também inclui uma página Detalhes da Preparação que descreve as
 
 ## <a name="apply-the-model-to-a-dataflow-entity"></a>Aplicar o modelo a uma entidade de fluxo de dados
 
-Selecione o botão **Aplicar modelo** na parte superior do relatório para invocar este modelo. Na caixa de diálogo **Aplicar**, pode especificar a entidade de destino com os dados de origem aos quais o modelo deve ser aplicado.
+Selecione o botão **Aplicar modelo** na parte superior do relatório para invocar este modelo. Na caixa de diálogo **Aplicar** , pode especificar a entidade de destino com os dados de origem aos quais o modelo deve ser aplicado.
 
 ![Aplicar o modelo](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-19.png)
 
 Quando pedido, deve **Atualizar** o fluxo de dados para pré-visualizar os resultados do modelo.
 
-A aplicação do modelo criará duas novas entidades, com o sufixo **enriched <nome_do_modelo>** e **enriched <nome_do_modelo> explanations**. No nosso caso, aplicar o modelo à entidade **Visitantes Online** criará **Visitantes Online enriched Purchase Intent Prediction**, que inclui a saída prevista do modelo, e **Visitantes Online enriched Purchase Intent Prediction explanations**, que contém os principais influenciadores específicos do registo para a previsão. 
+A aplicação do modelo criará duas novas entidades, com o sufixo **enriched <nome_do_modelo>** e **enriched <nome_do_modelo> explanations**. No nosso caso, aplicar o modelo à entidade **Visitantes Online** criará **Visitantes Online enriched Purchase Intent Prediction** , que inclui a saída prevista do modelo, e **Visitantes Online enriched Purchase Intent Prediction explanations** , que contém os principais influenciadores específicos do registo para a previsão. 
 
 A aplicação de um modelo de Predição Binária adiciona quatro colunas com os resultados previstos, uma classificação de probabilidade, os principais influenciadores específicos do registo para a predição e o índice de explicação, cada um com um prefixo com o nome de coluna especificado.  
 
