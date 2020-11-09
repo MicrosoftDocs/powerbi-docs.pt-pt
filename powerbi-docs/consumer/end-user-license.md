@@ -11,12 +11,12 @@ ms.date: 10/07/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 2b0bde7aa193af831a95fc53d461f874a3c1d1d1
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: c2a81e771e611380ef89ef15e097005d1a86e2da
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830340"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916987"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>Licenças e subscrições para *utilizadores empresariais*
 
@@ -32,21 +32,21 @@ Aquilo que pode fazer no serviço Power BI depende de três coisas:
 
 ![imagem dos utilizadores pro](media/end-user-license/power-bi-questions-small.png)
 
-Neste artigo, vamos descrever as capacidades de cada tipo de licença e como *o local onde o conteúdo é armazenado* pode afetar *o que pode fazer com o mesmo* . Também ficará a saber como procurar a licença e a subscrição e descobrir onde o conteúdo está armazenado. Para obter mais informações sobre as funções e as permissões, veja as [funções das áreas de trabalho](end-user-workspaces.md).
+Neste artigo, vamos descrever as capacidades de cada tipo de licença e como *o local onde o conteúdo é armazenado* pode afetar *o que pode fazer com o mesmo*. Também ficará a saber como procurar a licença e a subscrição e descobrir onde o conteúdo está armazenado. Para obter mais informações sobre as funções e as permissões, veja as [funções das áreas de trabalho](end-user-workspaces.md).
 
 ## <a name="licenses"></a>Licenças
 
-Cada utilizador do serviço Power BI possui uma licença *gratuita* ou uma licença *Pro* . Se for um *utilizador empresarial* do Power BI, provavelmente estará a utilizar uma licença gratuita gerida pelo administrador do Power BI.
+Cada utilizador do serviço Power BI possui uma licença *gratuita* ou uma licença *Pro*. Se for um *utilizador empresarial* do Power BI, provavelmente estará a utilizar uma licença gratuita gerida pelo administrador do Power BI.
 
 É possível ter mais do que uma licença ao mesmo tempo.  O serviço oferece-lhe sempre a experiência equivalente à licença mais permissiva que possui atualmente.
 
 ## <a name="power-bi-premium-capacity"></a>Capacidade Power BI Premium
 
-A capacidade Premium corresponde a uma subscrição organizacional que proporciona uma forma diferente de armazenar o conteúdo – na capacidade dedicada. Com a capacidade Premium, qualquer pessoa com permissões, quer seja da sua organização ou não, pode ver o conteúdo armazenado nesta capacidade Premium sem precisar de comprar licenças individuais do Power BI Pro. 
+A capacidade Premium corresponde a uma subscrição organizacional que proporciona uma forma diferente de armazenar o conteúdo – numa capacidade. Com a capacidade Premium, qualquer pessoa com permissões, quer seja da sua organização ou não, pode ver o conteúdo armazenado nesta capacidade Premium sem precisar de comprar licenças individuais do Power BI Pro. 
 
 O Premium permite uma distribuição alargada de conteúdos por utilizadores do Power BI Pro e os destinatários que veem os conteúdos sem necessitarem de licenças Pro. As licenças Pro são necessárias para designers de conteúdo. Os designers ligam-se às origens de dados, modelam dados e criam relatórios e dashboards que são empacotados como aplicações de área de trabalho. Um utilizador sem uma licença Pro ainda poderá aceder a uma área de trabalho que se encontre na capacidade do Power BI Premium, desde que tenha uma [função nessa área de trabalho](end-user-workspaces.md).
 
-Dentro dessas áreas de trabalho, os designers atribuem funções, como **Visualizador** , **Contribuidor** , **Membro** e **Administrador** . Estas funções determinam até que ponto os colegas podem interagir com o conteúdo. Para obter mais informações, veja [permissões e funções das áreas de trabalho.](end-user-workspaces.md) 
+Dentro dessas áreas de trabalho, os designers atribuem funções, como **Visualizador** , **Contribuidor** , **Membro** e **Administrador**. Estas funções determinam até que ponto os colegas podem interagir com o conteúdo. Para obter mais informações, veja [permissões e funções das áreas de trabalho.](end-user-workspaces.md) 
 
 Para obter mais informações sobre a capacidade Premium, veja [O que é o Microsoft Power BI Premium?](../admin/service-premium-what-is.md)
 
@@ -56,7 +56,7 @@ Selecione a imagem do seu perfil para apresentar informações da conta. O Zalan
 ![Captura de ecrã do menu pendente que aparece quando clica na sua imagem de perfil](media/end-user-license/power-bi-profiles.png)
 
 
-Para ver detalhes adicionais sobre a sua conta, selecione **Ver conta** . [A página **A minha conta** da Microsoft](https://portal.office.com/account) é aberta num novo separador do browser.  Para ver as licenças que lhe estão atribuídas.  Selecione o separador **Subscrições** .
+Para ver detalhes adicionais sobre a sua conta, selecione **Ver conta**. [A página **A minha conta** da Microsoft](https://portal.office.com/account) é aberta num novo separador do browser.  Para ver as licenças que lhe estão atribuídas.  Selecione o separador **Subscrições**.
 
 ![Captura de ecrã da página Contas do Microsoft 365.](media/end-user-license/power-bi-subscriptions.png)
 
@@ -77,7 +77,7 @@ Em seguida, verifique se faz parte de uma organização que tem a capacidade Pre
 
 Podemos determinar se a organização do Guilherme tem a capacidade Premium ao procurar a quantidade de armazenamento disponível. 
 
-- No serviço Power BI, selecione **A minha área de trabalho** e, em seguida, selecione o ícone de engrenagem no canto superior direito. Selecione **Gerir armazenamento pessoal** .
+- No serviço Power BI, selecione **A minha área de trabalho** e, em seguida, selecione o ícone de engrenagem no canto superior direito. Selecione **Gerir armazenamento pessoal**.
 
     ![Apresentação do menu de engrenagem Definições](media/end-user-license/power-bi-license-personal.png)
 
@@ -95,11 +95,11 @@ Na imagem abaixo, três das aplicações estão armazenadas na capacidade Premiu
 
 ![Ecrã de aplicações](media/end-user-license/power-bi-premium.png)
 
-Se for um utilizador com uma licença gratuita, desde que o *designer* coloque a área de trabalho na capacidade Premium dedicada, terá a possibilidade, **dentro dessa área de trabalho** , de visualizar conteúdo partilhado, colaborar com colegas, trabalhar com os dashboards e os relatórios da aplicação e muito mais. A extensão das permissões é definida pelo administrador do Power BI e pelo designer de conteúdos.
+Se for um utilizador com uma licença gratuita, desde que o *designer* coloque a área de trabalho numa capacidade Premium, terá a possibilidade, **dentro dessa área de trabalho** , de visualizar conteúdo partilhado, colaborar com colegas, trabalhar com os dashboards e os relatórios da aplicação e mais. A extensão das permissões é definida pelo administrador do Power BI e pelo designer de conteúdos.
 
 ## <a name="putting-it-all-together"></a>Juntar tudo
 
-Quando uma organização compra uma subscrição Premium, o administrador atribui normalmente licenças Pro aos colaboradores que vão trabalhar na capacidade Premium para criar e partilhar conteúdos. Os utilizadores Pro criam [áreas de trabalho](end-user-workspaces.md) e adicionam conteúdos (dashboards, relatórios e aplicações) a essas áreas de trabalho. Para permitir que os utilizadores gratuitos colaborem nessas áreas de trabalho, o administrador ou utilizador Pro atribui as áreas de trabalho à *capacidade dedicada* .  
+Quando uma organização compra uma subscrição Premium, o administrador atribui normalmente licenças Pro aos colaboradores que vão trabalhar na capacidade Premium para criar e partilhar conteúdos. Os utilizadores Pro criam [áreas de trabalho](end-user-workspaces.md) e adicionam conteúdos (dashboards, relatórios e aplicações) a essas áreas de trabalho. Para permitir que os utilizadores gratuitos colaborem nessas áreas de trabalho, o administrador ou utilizador Pro atribui as áreas de trabalho a uma *capacidade*.  
 
 |Tipo de licença  |Capacidade partilhada |Capacidade Premium dedicada  |
 |---------|---------|---------|
@@ -113,11 +113,11 @@ No diagrama abaixo, o lado esquerdo representa os utilizadores Pro que criam e p
 
 - A **Área de Trabalho A** foi criada numa organização que não possui capacidade Premium.
 
-- A **Área de Trabalho B** foi criada numa organização que possui uma subscrição Premium. A área de trabalho foi guardada numa capacidade dedicada. Esta área de trabalho tem um ícone de diamante.  
+- A **Área de Trabalho B** foi criada numa organização que possui uma subscrição Premium. A área de trabalho foi guardada numa capacidade. Esta área de trabalho tem um ícone de diamante.  
 
     ![imagem de três áreas de trabalho](media/end-user-license/power-bi-dedicated.jpg)
 
-O *designer* do Power BI Pro pode partilhar e colaborar com outros utilizadores Pro em qualquer uma das áreas de trabalho. Mas, a única forma de um utilizador do Power BI Pro poder partilhar e colaborar com utilizadores gratuitos é com a Área de Trabalho B, que se encontra na capacidade dedicada Premium.  Na área de trabalho, o designer atribui funções aos colaboradores. A função determina as ações pode realizar na área de trabalho. Os *utilizadores empresariais* do Power BI possuem normalmente a função *Visualizador* . Para saber mais sobre as funções, veja [Áreas de trabalho para utilizadores empresariais do Power BI](end-user-workspaces.md).
+O *designer* do Power BI Pro pode partilhar e colaborar com outros utilizadores Pro em qualquer uma das áreas de trabalho. Porém, a única forma de um utilizador do Power BI Pro poder partilhar e colaborar com utilizadores gratuitos é com a Área de Trabalho B, que se encontra numa capacidade Premium.  Na área de trabalho, o designer atribui funções aos colaboradores. A função determina as ações pode realizar na área de trabalho. Os *utilizadores empresariais* do Power BI possuem normalmente a função *Visualizador*. Para saber mais sobre as funções, veja [Áreas de trabalho para utilizadores empresariais do Power BI](end-user-workspaces.md).
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 
@@ -131,7 +131,7 @@ O *designer* do Power BI Pro pode partilhar e colaborar com outros utilizadore
 
 - Se se tiver inscrito para obter uma licença gratuita ao selecionar um tipo de botão *Experimentar gratuitamente* , esta nunca expirará. Assim, se atualizar para uma avaliação Pro ou se a sua organização lhe proporcionar uma licença Pro e, em seguida, a avaliação terminar ou a sua organização remover a licença Pro, ainda poderá voltar à licença gratuita, exceto se a cancelar.
 
-- <sup>1</sup> Uma licença de utilizador gratuita do serviço Power BI é perfeita para alguém que o explore ou utilize para análise de dados pessoais e visualizações com **A minha área de trabalho** . Um utilizador autónomo gratuito não está a utilizar o Power BI para colaborar com os colegas. Os utilizadores autónomos com licenças gratuitas não podem ver conteúdos partilhados por outros utilizadores nem partilhar os seus próprios conteúdos com outros utilizadores do Power BI.
+- <sup>1</sup> Uma licença de utilizador gratuita do serviço Power BI é perfeita para alguém que o explore ou utilize para análise de dados pessoais e visualizações com **A minha área de trabalho**. Um utilizador autónomo gratuito não está a utilizar o Power BI para colaborar com os colegas. Os utilizadores autónomos com licenças gratuitas não podem ver conteúdos partilhados por outros utilizadores nem partilhar os seus próprios conteúdos com outros utilizadores do Power BI.
 
 
 
