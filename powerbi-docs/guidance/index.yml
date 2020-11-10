@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 3c3b5889cb7691529dcbf9c20313a6460e85b6b3
-  ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+  ms.openlocfilehash: f457d7c30daab584cbac324aa161b1e9a9f35b58
+  ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 09/29/2020
-  ms.locfileid: "91525576"
+  ms.lasthandoff: 11/10/2020
+  ms.locfileid: "94397329"
 landingContent:
 - title: Orientações para o Power BI
   linkLists:
@@ -40,7 +40,7 @@ landingContent:
     - text: Referencing Power Query queries (Referenciar consultas do Power Query)
       url: power-query-referenced-queries.md
     - text: Melhores práticas dos fluxos de dados
-      url: ../transform-model/service-dataflows-best-practices.md
+      url: ../transform-model/dataflows/dataflows-introduction-self-service.md
 - title: Modelação de dados
   linkLists:
   - linkListType: concept

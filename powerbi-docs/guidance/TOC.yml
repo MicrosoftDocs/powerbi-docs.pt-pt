@@ -21,7 +21,7 @@
             - name: Desativar a atualização em segundo plano do Power Query
               href: power-query-background-refresh.md
             - name: Best practices for dataflows (Melhores práticas para fluxos de dados)
-              href: ../transform-model/service-dataflows-best-practices.md
+              href: ../transform-model/dataflows/dataflows-introduction-self-service.md
         - name: Modelação de dados
           items:
             - name: O que é um esquema de estrela?

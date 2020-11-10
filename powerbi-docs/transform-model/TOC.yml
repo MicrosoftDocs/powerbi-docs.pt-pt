@@ -8,7 +8,7 @@
         - name: Query Editor overview (Descrição geral do Editor de Consultas)
           href: desktop-query-overview.md
         - name: Preparação personalizada de dados com fluxos de dados
-          href: service-dataflows-overview.md
+          href: ./dataflows/dataflows-introduction-self-service.md
     - name: Tutoriais
       expanded: true
       items:
@@ -98,39 +98,39 @@
         - name: Preparação personalizada de dados
           items:
             - name: Create and use dataflows (Criar e utilizar fluxos de dados)
-              href: service-dataflows-create-use.md
+              href: ./dataflows/dataflows-create.md
             - name: 'Use DirectQuery with dataflows in Power BI (preview) (Utilizar o DirectQuery com fluxos de dados no Power BI [pré-visualização])'
-              href: service-dataflows-directquery.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Utilizar o motor de computação melhorado com fluxos de dados
-              href: service-dataflows-enhanced-compute-engine.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Entidades calculadas com o Power BI Premium
-              href: service-dataflows-computed-entities-premium.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Ligar a origens de dados com fluxos de dados
-              href: service-dataflows-data-sources.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Use dataflows with on-premises data sources (Utilizar fluxos de dados com origens de dados no local)
-              href: service-dataflows-on-premises-gateways.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Ligar entidades entre fluxos de dados
-              href: service-dataflows-linked-entities.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Use incremental refresh with dataflows (Utilizar a atualização incremental com os fluxos de dados)
-              href: service-dataflows-incremental-refresh.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Recursos para programadores para fluxos de dados
-              href: service-dataflows-developer-resources.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Ligar a fluxos de dados no Power BI Desktop
               href: desktop-connect-dataflows.md
             - name: Integração dos fluxos de dados e do Azure Data Lake (Pré-visualização)
-              href: service-dataflows-azure-data-lake-integration.md
+              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
             - name: Ligar o Azure Data Lake Storage Gen2 para armazenar fluxos de dados
-              href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
             - name: Configurar definições de fluxos de dados da área de trabalho (Pré-visualização)
-              href: service-dataflows-configure-workspace-storage-settings.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Adicionar uma pasta de CDM ao Power BI como um fluxo de dados (Pré-visualização)
-              href: service-dataflows-add-cdm-folder.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: Integrar o Machine Learning no Power BI
-              href: service-machine-learning-integration.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: Utilizar os Serviços Cognitivos no Power BI
-              href: service-cognitive-services.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: Machine Learning automatizada no Power BI
-              href: service-machine-learning-automated.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
     - name: Referência
       items:
         - name: Atalhos do editor de fórmulas
