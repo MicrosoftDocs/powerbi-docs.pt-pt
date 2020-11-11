@@ -1,20 +1,20 @@
 ---
 title: Gráficos em anel no Power BI
 description: Gráficos em anel no Power BI
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f76fe26f8b7d4f9e9c0cbe1ffe22c71d815a9307
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 24788b16718e1223bdd2040d42a67e4f175b8371
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239713"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413068"
 ---
 # <a name="create-and-use-doughnut-charts-in-power-bi"></a>Criar e utilizar gráficos em anel no Power BI
 
@@ -44,7 +44,7 @@ Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](https:
 
 1. Comece numa página de relatório em branco e, no painel Campos, selecione **Vendas** \> **Vendas do Ano Passado**.  
    
-3. No painel Visualizações, selecione o ícone de gráfico em anel ![ícone de gráfico em anel](media/power-bi-visualization-doughnut-charts/power-bi-icon.png) para converter o gráfico de barras num gráfico em anel. Se as **Vendas do Ano Passado** não estiverem na área **Valores**, arraste-as para aí.
+3. No painel Visualizações, selecione o ícone de gráfico em anel ![ícone de gráfico em anel](media/power-bi-visualization-doughnut-charts/power-bi-icon.png) para converter o gráfico de barras num gráfico em anel. Se as **Vendas do Ano Passado** não estiverem na área **Valores** , arraste-as para aí.
      
    ![Painel de visualização com gráfico em anel selecionado](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 

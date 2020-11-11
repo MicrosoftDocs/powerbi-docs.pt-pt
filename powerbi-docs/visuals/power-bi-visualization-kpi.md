@@ -1,8 +1,8 @@
 ---
 title: Elementos visuais do Indicador Chave de Desempenho (KPI)
 description: Criar elementos visuais do Indicador Chave de Desempenho (KPI) no Power BI
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 01/30/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 87e63358e2590bff1ebab6ce7816b558e72ac3e0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f272a760c016fa0d5fcfc9849eaa2a01fc77b9f9
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237644"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412872"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>Criar visualizações do indicador chave de desempenho (KPI)
 
@@ -36,7 +36,7 @@ Os KPIs são uma ótima opção:
 
 ## <a name="kpi-requirements"></a>Requisitos do KPI
 
-Um designer baseia um elemento visual do KPI numa medida específica. A intenção do KPI é ajudar a avaliar o valor atual e o estado de uma métrica em relação a um objetivo definido. Um elemento visual do KPI requer uma medida *base*, que é avaliada como um valor, um valor ou uma medida de *destino* e um *limiar* ou *objetivo*.
+Um designer baseia um elemento visual do KPI numa medida específica. A intenção do KPI é ajudar a avaliar o valor atual e o estado de uma métrica em relação a um objetivo definido. Um elemento visual do KPI requer uma medida *base* , que é avaliada como um valor, um valor ou uma medida de *destino* e um *limiar* ou *objetivo*.
 
 Um conjunto de dados de KPI deve conter valores de objetivo para um KPI. Se o conjunto de dados não contiver valores de objetivo, poderá criá-los. Para tal, adicione uma folha do Excel com os objetivos ao seu modelo de dados ou ficheiro PBIX.
 
@@ -59,7 +59,7 @@ Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](https:
 
 Neste exemplo, irá criar um KPI que avalia o progresso realizado para atingir um objetivo de vendas.
 
-1. No painel **Campos**, selecione **Vendas > Total de Unidades deste Ano**.  Este valor será o indicador.
+1. No painel **Campos** , selecione **Vendas > Total de Unidades deste Ano**.  Este valor será o indicador.
 
 1. Adicione **Time > FiscalMonth** (Tempo > MêsFiscal).  Este valor representará a tendência.
 
@@ -84,13 +84,13 @@ Neste exemplo, irá criar um KPI que avalia o progresso realizado para atingir u
 
 1. Opcionalmente, formate o KPI selecionando o ícone do rolo de tinta para abrir o painel de Formatação.
 
-    * **Indicador**: controla as unidades de apresentação do indicador e casas decimais.
+    * **Indicador** : controla as unidades de apresentação do indicador e casas decimais.
 
-    * **Eixo de tendência**: quando definido como **Ativado**, o elemento visual mostra o eixo de tendência como o fundo do elemento visual do KPI.  
+    * **Eixo de tendência** : quando definido como **Ativado** , o elemento visual mostra o eixo de tendência como o fundo do elemento visual do KPI.  
 
-    * **Objetivos**: quando definido como **Ativado**, o elemento visual mostra o objetivo e a distância do objetivo como uma percentagem.
+    * **Objetivos** : quando definido como **Ativado** , o elemento visual mostra o objetivo e a distância do objetivo como uma percentagem.
 
-    * **Codificação de cores > Direção**: as pessoas consideram alguns KPIs melhores para valores *mais altos* e consideram outros para valores *mais baixos*. Por exemplo, ganhos vs. tempo de espera. Normalmente, um valor mais alto de ganhos é melhor em comparação com um valor mais alto de tempo de espera. Selecione **alto é melhor** e, opcionalmente, altere as definições de cor.
+    * **Codificação de cores > Direção** : as pessoas consideram alguns KPIs melhores para valores *mais altos* e consideram outros para valores *mais baixos*. Por exemplo, ganhos vs. tempo de espera. Normalmente, um valor mais alto de ganhos é melhor em comparação com um valor mais alto de tempo de espera. Selecione **alto é melhor** e, opcionalmente, altere as definições de cor.
 
 Os KPIs também estão disponíveis no serviço Power BI e nos dispositivos móveis. Estes oferecem a opção de estar sempre ligado ao heartbeat do seu negócio.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2019
 ms.author: asaxton
-ms.openlocfilehash: 441400a5d32ea776288f976aa1d2155a971f3c72
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a501e1b379958836e339628e904b36125c9b9ce3
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279003"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94395627"
 ---
 # <a name="guidance-for-power-bi"></a>Orientações para o Power BI
 
@@ -36,6 +36,6 @@ Neste documento, irá encontrar orientações e práticas recomendadas para o Po
 
 | Orientação | Descrição |
 | --- | --- |
-| [Melhores práticas dos fluxos de dados](../transform-model/service-dataflows-best-practices.md) | Descreve as melhores práticas para criar fluxos de dados no Power BI. |
+| [Melhores práticas dos fluxos de dados](../transform-model/dataflows/dataflows-introduction-self-service.md) | Descreve as melhores práticas para criar fluxos de dados no Power BI. |
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -1,20 +1,20 @@
 ---
 title: Treemaps no Power BI
 description: Treemaps no Power BI
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6331209d40defc4f97a2de670be207e86eaabfef
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3cc14a9b873d86b3e9d62655d41d152cb3348252
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237406"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411458"
 ---
 # <a name="treemaps-in-power-bi"></a>Treemaps no Power BI
 
@@ -26,7 +26,7 @@ Os treemaps apresentam dados hierárquicos, como um conjunto de retângulos anin
 
 ![Captura de ecrã de uma Contagem de Produtos por Treemap de fabricante e Categoria.](media/power-bi-visualization-treemaps/pbi-nancy-viz-treemap.png)
 
-Por exemplo, se estiver a analisar as vendas, poderá ter ramos de nível superior para as categorias de vestuário: **Urbano**, **Rural**, **Jovem** e **Combinado**. O Power BI dividiria os retângulos da categoria em folhas para os fabricantes de vestuário dentro dessa categoria. Estas folhas seriam dimensionadas e sombreadas com base no número vendido.
+Por exemplo, se estiver a analisar as vendas, poderá ter ramos de nível superior para as categorias de vestuário: **Urbano** , **Rural** , **Jovem** e **Combinado**. O Power BI dividiria os retângulos da categoria em folhas para os fabricantes de vestuário dentro dessa categoria. Estas folhas seriam dimensionadas e sombreadas com base no número vendido.
 
 No ramo **Urbano** acima, foi vendido muito vestuário **VanArsdel**. Foi vendido menos vestuário **Natura** e **Fama**. Apenas foi vendido algum vestuário **Leo**. Assim, o ramo **Urbano** do Treemap tem:
 
@@ -74,14 +74,14 @@ Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](https:
 
 
 
-Depois de obter o conjunto de dados **Exemplo de Análise de Revenda**, pode começar a trabalhar.
+Depois de obter o conjunto de dados **Exemplo de Análise de Revenda** , pode começar a trabalhar.
 
 ## <a name="create-a-basic-treemap"></a>Criar um treemap básico
 
 Vai criar um relatório e adicione um treemap básico.
 
 
-1. No painel **Campos**, selecione a medida **Vendas** > **Vendas do Ano Passado**.
+1. No painel **Campos** , selecione a medida **Vendas** > **Vendas do Ano Passado**.
 
    ![Captura de ecrã da seleção de Vendas > Vendas do Ano Passado e do elemento visual resultante.](media/power-bi-visualization-treemaps/treemapfirstvalue-new.png)
 
@@ -89,13 +89,13 @@ Vai criar um relatório e adicione um treemap básico.
 
    ![Captura de ecrã do treemap sem configuração.](media/power-bi-visualization-treemaps/treemapconvertto-new.png)
 
-1. Selecione **Item** > **Categoria**, o que irá adicionar **Categoria** à área **Grupo**.
+1. Selecione **Item** > **Categoria** , o que irá adicionar **Categoria** à área **Grupo**.
 
     O Power BI cria um treemap no qual o tamanho dos retângulos se baseia no total de vendas e a cor representa a categoria. No fundo, criou uma hierarquia que descreve visualmente o tamanho relativo do total de vendas por categoria. A categoria **Men** tem as vendas mais altas e a categoria **Hosiery** tem as mais baixas.
 
     ![Captura de ecrã do treemap configurado.](media/power-bi-visualization-treemaps/power-bi-complete.png)
 
-1. Selecione **Loja** > **Cadeia**, o que irá adicionar **Cadeia** à área **Detalhes** para concluir o treemap. Agora pode comparar as vendas do ano passado por categoria e cadeia.
+1. Selecione **Loja** > **Cadeia** , o que irá adicionar **Cadeia** à área **Detalhes** para concluir o treemap. Agora pode comparar as vendas do ano passado por categoria e cadeia.
 
    ![Captura de ecrã do treemap com a adição de Loja > Cadeia aos Detalhes.](media/power-bi-visualization-treemaps/power-bi-details.png)
 
@@ -113,11 +113,11 @@ Vai criar um relatório e adicione um treemap básico.
 
 Realçar uma **Categoria** ou **Detalhes** num treemap filtra e destaca de forma cruzada as outras visualizações na página de relatório. Para acompanhar, adicione alguns elementos visuais a esta página do relatório ou copie o treemap para uma das outras páginas neste relatório. A imagem abaixo do treemap foi copiada para a página **Descrição geral**. 
 
-1. No treemap, selecione uma **Categoria** ou uma **Cadeia** numa **Categoria**. Assim, destaca de forma cruzada as outras visualizações na página. Por exemplo, se selecionar **050-Shoes**, é indicado que as vendas do ano passado de sapatos foram de **16 352 432 $** , sendo **2 174 185 $** provenientes da **Fashions Direct**.
+1. No treemap, selecione uma **Categoria** ou uma **Cadeia** numa **Categoria**. Assim, destaca de forma cruzada as outras visualizações na página. Por exemplo, se selecionar **050-Shoes** , é indicado que as vendas do ano passado de sapatos foram de **16 352 432 $** , sendo **2 174 185 $** provenientes da **Fashions Direct**.
 
    ![Captura de ecrã do relatório de Descrição Geral de Vendas em Loja a mostrar o realce cruzado.](media/power-bi-visualization-treemaps/treemaphiliting.png)
 
-1. No gráfico circular **Vendas do Ano Passado por Cadeia**, se selecionar o setor **Fashions Direct**, filtrará de forma cruzada o mapa de árvore.
+1. No gráfico circular **Vendas do Ano Passado por Cadeia** , se selecionar o setor **Fashions Direct** , filtrará de forma cruzada o mapa de árvore.
    ![Demonstração em GIF da funcionalidade de filtragem cruzada.](media/power-bi-visualization-treemaps/treemapnoowl.gif)
 
 1. Para gerir a forma como os gráficos se realçam e filtram entre si de forma cruzada, veja [Alterar a forma como os elementos visuais interagem num relatório do Power BI](../create-reports/service-reports-visual-interactions.md).

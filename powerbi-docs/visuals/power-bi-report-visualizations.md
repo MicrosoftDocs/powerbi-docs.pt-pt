@@ -1,21 +1,21 @@
 ---
 title: Descrição geral das visualizações de relatório no serviço Power BI e no Desktop
 description: Descrição geral das visualizações de relatório (elementos visuais) no Microsoft Power BI.
-author: mihart
-ms.author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.author: rien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c94990f3126191cf568c2cc20fb5db0c954a6424
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: be7249411f4e90d99dde38a1da3b6a6656674ea0
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049459"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411343"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizações em relatórios do Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "92049459"
 
 As visualizações (também conhecidas como elementos visuais) apresentam informações que foram descobertas nos dados. Um relatório do Power BI poderá ter uma única página com um elemento visual ou poderá ter páginas repletas de elementos visuais. No serviço Power BI, os elementos visuais podem ser [afixados de relatórios a dashboards](../create-reports/service-dashboard-pin-tile-from-report.md).
 
-É importante saber distinguir *estruturadores* e *consumidores* de relatórios.  Se for a pessoa que cria ou modifica o relatório, é um estruturador.  Os estruturadores têm permissões de edição para o relatório e o respetivo conjunto de dados subjacente. No Power BI Desktop, isto significa que pode abrir o conjunto de dados na Vista de dados e criar elementos visuais na Vista de relatório. No serviço Power BI, significa que pode abrir o relatório ou conjunto de dados no editor de relatórios na [Vista de edição](../consumer/end-user-reading-view.md). Se um relatório ou dashboard tiver sido [partilhado consigo](../consumer/end-user-shared-with-me.md), você será um *consumidor* do relatório. Poderá ver e interagir com o relatório e os seus elementos visuais, mas não conseguirá fazer tantas alterações como um *estruturador* .
+É importante saber distinguir *estruturadores* e *consumidores* de relatórios.  Se for a pessoa que cria ou modifica o relatório, é um estruturador.  Os estruturadores têm permissões de edição para o relatório e o respetivo conjunto de dados subjacente. No Power BI Desktop, isto significa que pode abrir o conjunto de dados na Vista de dados e criar elementos visuais na Vista de relatório. No serviço Power BI, significa que pode abrir o relatório ou conjunto de dados no editor de relatórios na [Vista de edição](../consumer/end-user-reading-view.md). Se um relatório ou dashboard tiver sido [partilhado consigo](../consumer/end-user-shared-with-me.md), você será um *consumidor* do relatório. Poderá ver e interagir com o relatório e os seus elementos visuais, mas não conseguirá fazer tantas alterações como um *estruturador*.
 
 Existem vários tipos de elementos visuais disponíveis diretamente no painel Visualizações do Power BI.
 
@@ -65,7 +65,7 @@ Se deixar de utilizar um elemento visual regularmente, poderá clicar com o bot�
 
 Restaurar o painel de visualização só se aplica aos elementos visuais predefinidos. Os elementos visuais adicionados ao painel de visualização não são afetados e permanecerão disponíveis no painel de visualização. Se quiser remover elementos visuais do AppSource ou de ficheiros do painel de visualização, terá de o fazer manualmente.
 
-Para restaurar o painel de visualização para a predefinição, clique em mais opções e selecione **Restaurar elementos visuais predefinidos** .
+Para restaurar o painel de visualização para a predefinição, clique em mais opções e selecione **Restaurar elementos visuais predefinidos**.
 
 ![Restaurar o painel de visualização para a predefinição](media/power-bi-report-visualizations/restore-default.png)
 

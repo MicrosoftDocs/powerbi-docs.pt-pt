@@ -1,26 +1,27 @@
 ---
 title: Mostrar os dados que foram utilizados para criar a visualização do Power BI
 description: Este documento explica como mostrar os dados utilizados para criar um elemento visual no Power BI e como exportar esses dados para um ficheiro. csv.
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 12/4/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b74c0948ba8d22f1917f9750f86e899c8a99a904
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c3e996da62b71c008f4f7a5929cc8b91d38cc26e
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239377"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412792"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Apresentar dados subjacentes de uma visualização
 
 [!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 ## <a name="show-data"></a>Mostrar dados
-Uma visualização do Power BI é construída com dados dos conjuntos de dados. Se estiver interessado em conhecer os bastidores, o Power BI permite-lhe *apresentar* os dados que estão a ser utilizados para criar o elemento visual. Quando seleciona **Mostrar Dados**, o Power BI apresenta os dados por baixo da visualização (ou junto da mesma).
+Uma visualização do Power BI é construída com dados dos conjuntos de dados. Se estiver interessado em conhecer os bastidores, o Power BI permite-lhe *apresentar* os dados que estão a ser utilizados para criar o elemento visual. Quando seleciona **Mostrar Dados** , o Power BI apresenta os dados por baixo da visualização (ou junto da mesma).
 
 Também pode exportar os dados que estão a ser utilizados para criar a visualização como um ficheiro .xlsx ou .csv e visualizá-los no Excel. Para obter mais informações, veja [Exportar dados de visualizações do Power BI](power-bi-visualization-export-data.md).
 
@@ -53,7 +54,7 @@ Também pode exportar os dados que estão a ser utilizados para criar a visualiz
 ## <a name="using-show-records"></a>Utilizar Mostrar registos
 Também pode concentrar-se num registo de dados numa visualização e explorar os dados. 
 
-1. Para utilizar a opção **Ver registos**, selecione uma visualização para ativá-la. 
+1. Para utilizar a opção **Ver registos** , selecione uma visualização para ativá-la. 
 
 2. No friso de Ambiente de trabalho, selecione o separador de **Ferramentas visuais** > **Dados/Pormenorização** > **Ver registos**. 
 

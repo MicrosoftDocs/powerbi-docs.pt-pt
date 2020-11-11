@@ -1,19 +1,20 @@
 ---
 title: Gráfico de Área básico
 description: Gráfico de área básico.
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/16/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dd0cfbcb2b4e4d18a7aa69fb65063f9d81e0a14a
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 4cc08398821d019d55475e0d4ed66a7633c49ca1
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354806"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411435"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Criar e utilizar gráficos de área básicos
 

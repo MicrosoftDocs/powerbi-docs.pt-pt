@@ -2,25 +2,25 @@
 title: Utilizar uma segmentação ou filtro de data relativa no Power BI
 description: Saiba como utilizar uma segmentação de dados ou um filtro para restringir intervalos de datas relativas no Power BI.
 author: maggiesMSFT
-ms.reviewer: ''
+ms.reviewer: rien
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 09/09/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 26e638e106f7bd11544d1d80dae543f06783bda7
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 5599c26524ba296b7cd201467c48f124b9843b4d
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008888"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412838"
 ---
 # <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Criar uma segmentação e filtro de data relativa no Power BI
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
-Com a **segmentação de data relativa** ou o **filtro de data relativa**, pode aplicar filtros baseados no tempo a qualquer coluna de datas no seu modelo de dados. Por exemplo, pode utilizar a **segmentação de data relativa** para mostrar apenas dados de vendas ocorridas nos últimos 30 dias (ou mês, meses de calendário, etc.). Quando atualizar os dados, o período de tempo relativo aplica automaticamente a restrição de data relativa adequada.
+Com a **segmentação de data relativa** ou o **filtro de data relativa** , pode aplicar filtros baseados no tempo a qualquer coluna de datas no seu modelo de dados. Por exemplo, pode utilizar a **segmentação de data relativa** para mostrar apenas dados de vendas ocorridas nos últimos 30 dias (ou mês, meses de calendário, etc.). Quando atualizar os dados, o período de tempo relativo aplica automaticamente a restrição de data relativa adequada.
 
 ![Captura de ecrã a mostrar um relatório com uma seta a apontar para a segmentação de data relativa.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
 
@@ -40,7 +40,7 @@ Para a segmentação de data relativa, selecione *Relativo*.
 
 Em seguida, pode selecionar as definições.
 
-Na primeira definição, na *segmentação de data relativa*, tem as seguintes opções:
+Na primeira definição, na *segmentação de data relativa* , tem as seguintes opções:
 
 ![Captura de ecrã a mostrar as opções de configuração de Relativo com a primeira definição destacada.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
@@ -75,7 +75,7 @@ Em comparação, se selecionar *Meses (Calendário)* , os elementos visuais rest
 
 ## <a name="create-the-relative-date-range-filter"></a>Criar o filtro de intervalo de datas relativas
 
-Também pode criar um filtro de intervalo de datas relativas para a página de relatório ou todo o relatório. Para fazê-lo, arraste o campo da data para o grupo **Filtros de nível de página** ou para o grupo **Filtros de nível de relatório** no painel **Campo**:
+Também pode criar um filtro de intervalo de datas relativas para a página de relatório ou todo o relatório. Para fazê-lo, arraste o campo da data para o grupo **Filtros de nível de página** ou para o grupo **Filtros de nível de relatório** no painel **Campo** :
 
 ![Captura de ecrã a mostrar o campo DataDaEncomenda a ser arrastado para o grupo de filtros de nível de página.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-06.png)
 
@@ -83,7 +83,7 @@ Lá pode alterar o intervalo de datas relativas. É semelhante à forma de perso
 
 ![Captura de ecrã a mostrar o Tipo de Filtro pendente, bem como o ponteiro do rato na filtragem de Data Relativa.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-07.png)
 
-Após selecionar **Filtragem de data relativa**, verá três secções para alterar, incluindo uma caixa numérica intermédia, tal qual a segmentação de dados.
+Após selecionar **Filtragem de data relativa** , verá três secções para alterar, incluindo uma caixa numérica intermédia, tal qual a segmentação de dados.
 
 ![Captura de ecrã a mostrar os Filtros de nível de relatório com setas a apontar para a opção Mostrar itens.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-08.png)
 

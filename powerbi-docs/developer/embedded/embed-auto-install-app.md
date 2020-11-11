@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: eb9476b3f21d1149492982a8dcae3d8ce89e9629
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f84527a189be0f78f73470cbc475f45206dd8cf1
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748661"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412401"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Instalar automaticamente as aplicações do Power BI ao incorporar para a sua organização
 
@@ -25,7 +25,7 @@ Se um utilizador tiver acesso a uma aplicação que não está instalada, a inco
 
 ## <a name="embed-for-power-bi-users-user-owns-data"></a>Incorporação para os utilizadores do Power BI (o utilizador detém os dados)
 
-Para permitir a instalação automática de aplicações para os seus utilizadores, terá de dar a permissão "Criação de Conteúdos" à sua aplicação quando [a registar](register-app.md#register-with-the-power-bi-application-registration-tool), ou adicionar a permissão, se já tiver registado a sua aplicação.
+Para permitir a instalação automática de aplicações para os seus utilizadores, terá de dar a permissão "Criação de Conteúdos" à sua aplicação quando [a registar](register-app.md#register-an-azure-ad-app), ou adicionar a permissão, se já tiver registado a sua aplicação.
 
 ![Permissão criação de conteúdos das aplicações registadas](media/embed-auto-install-app/register-app-create-content.png)
 

@@ -1,20 +1,20 @@
 ---
 title: Criar um elemento visual Matriz no Power BI
 description: Saiba como o elemento visual de matriz ativa esquemas graduais e realces granulares no Power BI.
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e96431aaa17b1ae79d940d768a7e160e402c0af3
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: bf3210982380a0a3aa498dea8038366733182d7e
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635867"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412309"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Criar visualizações de matriz no Power BI
 
@@ -69,17 +69,17 @@ Com o elemento visual de matriz, pode fazer todos os tipos de atividades de desa
 
 ### <a name="drill-down-on-row-headers"></a>Desagregação em cabeçalhos de linha
 
-No painel Visualizações, quando adicionar vários campos à secção **Linhas** de **Campos**, ativa a desagregação nas linhas do elemento visual de matriz. Isto é semelhante à criação de uma hierarquia que lhe permite desagregar (e, em seguida, efetuar cópias de segurança) através dessa hierarquia e analisar os dados em cada nível.
+No painel Visualizações, quando adicionar vários campos à secção **Linhas** de **Campos** , ativa a desagregação nas linhas do elemento visual de matriz. Isto é semelhante à criação de uma hierarquia que lhe permite desagregar (e, em seguida, efetuar cópias de segurança) através dessa hierarquia e analisar os dados em cada nível.
 
-Na imagem seguinte, a secção **Linhas** contém *Fase de vendas* e *Tamanho da oportunidade*, o que cria um agrupamento (ou hierarquia) nas linhas que podemos explorar.
+Na imagem seguinte, a secção **Linhas** contém *Fase de vendas* e *Tamanho da oportunidade* , o que cria um agrupamento (ou hierarquia) nas linhas que podemos explorar.
 
 ![Cartão de filtros a mostrar que linhas são escolhidas](media/desktop-matrix-visual/power-bi-rows-matrix.png)
 
-Quando o elemento visual tem um agrupamento criado na secção **Linhas**, o elemento visual apresenta os ícones *agregar* e *expandir* no canto superior esquerdo do elemento visual.
+Quando o elemento visual tem um agrupamento criado na secção **Linhas** , o elemento visual apresenta os ícones *agregar* e *expandir* no canto superior esquerdo do elemento visual.
 
 ![matriz com controlos de desagregação realçados](media/desktop-matrix-visual/power-bi-matrix-drilldown.png)
 
-Semelhante ao comportamento de desagregação e expansão noutros elementos visuais, a seleção desses botões permite-nos desagregar (ou efetuar cópias de segurança) através da hierarquia. Neste caso, podemos desagregar de *Fase de vendas* para *Tamanho da oportunidade*, conforme mostrado na imagem seguinte, em que o ícone de desagregação de um nível (a forquilha) foi selecionado.
+Semelhante ao comportamento de desagregação e expansão noutros elementos visuais, a seleção desses botões permite-nos desagregar (ou efetuar cópias de segurança) através da hierarquia. Neste caso, podemos desagregar de *Fase de vendas* para *Tamanho da oportunidade* , conforme mostrado na imagem seguinte, em que o ícone de desagregação de um nível (a forquilha) foi selecionado.
 
 ![matriz com forquilha realçada](media/desktop-matrix-visual/power-bi-matrix-drill3.png)
 
@@ -93,7 +93,7 @@ Selecionar **Desagregar** expande a matriz para *esse* nível de linha e *exclui
 
 ![matriz desagregada um nível](media/desktop-matrix-visual/power-bi-drill-down-matrix.png)
 
-Selecione o ícone **Agregar** para voltar à vista de nível superior anterior. Se, em seguida, selecionar **Proposta** > **Mostrar Nível Seguinte**, obtém uma lista ascendente de todos os itens do nível seguinte (neste caso, o campo *Tamanho da oportunidade*), sem a categorização da hierarquia de nível superior.
+Selecione o ícone **Agregar** para voltar à vista de nível superior anterior. Se, em seguida, selecionar **Proposta** > **Mostrar Nível Seguinte** , obtém uma lista ascendente de todos os itens do nível seguinte (neste caso, o campo *Tamanho da oportunidade* ), sem a categorização da hierarquia de nível superior.
 
 ![matriz a utilizar Mostrar nível seguinte](media/desktop-matrix-visual/power-bi-next-level-matrix.png)
 
@@ -106,7 +106,7 @@ Também pode utilizar o item de menu **Expandir** para controlar ainda mais a vi
 ![Matriz depois da opção Expandir aplicada à Proposta](media/desktop-matrix-visual/power-bi-matrix-expand.png)
 
 ### <a name="drill-down-on-column-headers"></a>Desagregação em cabeçalhos de coluna
-Semelhante à capacidade de desagregação em linhas, também pode desagregar em colunas. Na imagem seguinte, existem dois campos no painel do campo **Colunas**, o que cria uma hierarquia semelhante à utilizada para as linhas anteriores neste artigo. No campo **Colunas**, temos *Região* e *Segmento*. Assim que o segundo campo foi adicionado a **Colunas**, um novo menu pendente apresentado no elemento visual, atualmente, mostra **Linhas**.
+Semelhante à capacidade de desagregação em linhas, também pode desagregar em colunas. Na imagem seguinte, existem dois campos no painel do campo **Colunas** , o que cria uma hierarquia semelhante à utilizada para as linhas anteriores neste artigo. No campo **Colunas** , temos *Região* e *Segmento*. Assim que o segundo campo foi adicionado a **Colunas** , um novo menu pendente apresentado no elemento visual, atualmente, mostra **Linhas**.
 
 ![Matriz após o segundo valor da coluna adicionado](media/desktop-matrix-visual/power-bi-matrix-row.png)
 
@@ -114,11 +114,11 @@ Para desagregar nas colunas, selecione **Colunas** no menu *Desagregar em* que p
 
 ![menu par a desagregação das colunas](media/desktop-matrix-visual/power-bi-matrix-column.png)
 
-Quando seleciona **Desagregar**, é apresentado o nível seguinte da hierarquia de colunas para *Região > Leste*, neste caso *Contagem de oportunidades*. A outra região é ocultada.
+Quando seleciona **Desagregar** , é apresentado o nível seguinte da hierarquia de colunas para *Região > Leste* , neste caso *Contagem de oportunidades*. A outra região é ocultada.
 
 ![matriz com desagregação da coluna de um nível](media/desktop-matrix-visual/power-bi-matrix-column-drill.png)
 
-Os restantes itens do menu funcionam em colunas da mesma forma que para as linhas (veja a secção anterior, **Desagregação em cabeçalhos de linha**). Pode **Mostrar Nível Seguinte** e **Expandir para o nível seguinte** com colunas, tal como faria com linhas.
+Os restantes itens do menu funcionam em colunas da mesma forma que para as linhas (veja a secção anterior, **Desagregação em cabeçalhos de linha** ). Pode **Mostrar Nível Seguinte** e **Expandir para o nível seguinte** com colunas, tal como faria com linhas.
 
 > [!NOTE]
 > Os ícones de desagregação e agregação na parte superior esquerda do elemento visual de matriz aplicam-se apenas a linhas. Para desagregação em colunas, tem de utilizar o menu de contexto.
@@ -135,7 +135,7 @@ Na imagem seguinte, verá um elemento visual de matriz com o esquema gradual em 
 
 ![forma atual através da qual a matriz formata os dados](media/desktop-matrix-visual/matrix-visual_13.png)
 
-Pode ajustar facilmente as definições do esquema gradual. Com o elemento visual de matriz selecionado, na secção **Formatar** (o ícone de rolo de pintura) do painel **Visualizações**, expanda a secção de cabeçalhos de linha. Tem duas opções: o seletor de esquema gradual (que ativa ou desativa) e o avanço de esquema gradual (especifica a quantidade de avanço em pixéis).
+Pode ajustar facilmente as definições do esquema gradual. Com o elemento visual de matriz selecionado, na secção **Formatar** (o ícone de rolo de pintura) do painel **Visualizações** , expanda a secção de cabeçalhos de linha. Tem duas opções: o seletor de esquema gradual (que ativa ou desativa) e o avanço de esquema gradual (especifica a quantidade de avanço em pixéis).
 
 ![Cartão de cabeçalhos de linha a apresentar o controlo do Esquema gradual](media/desktop-matrix-visual/power-bi-stepped-matrix.png)
 
@@ -216,7 +216,7 @@ Para obter mais informações, veja [Formatação condicional em tabelas](../cre
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Sombreado e cores de tipo de letra com elementos visuais de matriz
 Com o elemento visual de matriz, pode aplicar a formatação condicional (cores, sombreado e barras de dados) ao fundo das células na matriz, bem como ao texto e aos valores.
 
-Para aplicar a formatação condicional, selecione a matriz visual e abra o painel **Formato**. Expanda o cartão **Formatação condicional** e, para, **Cor de fundo**, **Cor do tipo de letra** ou **Barras de dados**, mude o controlo de deslize para **Ativado**. Ativar uma destas opções apresenta uma ligação para *Controlos avançados*, que lhe permitem personalizar as cores e os valores da formatação de cores.
+Para aplicar a formatação condicional, selecione a matriz visual e abra o painel **Formato**. Expanda o cartão **Formatação condicional** e, para, **Cor de fundo** , **Cor do tipo de letra** ou **Barras de dados** , mude o controlo de deslize para **Ativado**. Ativar uma destas opções apresenta uma ligação para *Controlos avançados* , que lhe permitem personalizar as cores e os valores da formatação de cores.
   
   ![Painel Formatação a mostrar o controlo das Barras de dados](media/desktop-matrix-visual/power-bi-matrix-data-bars.png)
 

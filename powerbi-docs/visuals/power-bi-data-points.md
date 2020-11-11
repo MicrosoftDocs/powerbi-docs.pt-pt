@@ -1,7 +1,7 @@
 ---
 title: Conjuntos de dados de grande dimensão, limites de pontos de dados e estratégias de dados
 description: Limites de dados para elementos visuais e estratégias de redução de dados
-author: mihart
+author: msftrien
 ms.reviewer: justyna
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5efe83cfa43c6fcb156501774bbaeae79381ab85
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 89bfba0dc679ddb7a9142c83e863cddaf1400063
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857732"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412056"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Aplicar limites de pontos de dados e estratégias por tipo de elemento visual
 
@@ -31,9 +31,9 @@ Cada elemento visual controla os parâmetros dessas estratégias de modo a influ
 Para cada estratégia, existem predefinições com base na forma e no tipo de dados que estão a ser visualizados. No entanto, as predefinições podem ser substituídas, no painel de Formatação do Power BI, para proporcionar a experiência de utilizador certa. 
 
 * **Apresentação de Dados em Janelas** (Segmentação): Permitir que os utilizadores percorram os dados num elemento visual ao carregar progressivamente fragmentos do conjunto de dados global.
-* **TopN**: Mostrar apenas os primeiros X itens.
-* **Amostra Simples**: Mostrar o primeiro, o último e X itens uniformemente distribuídos pelo meio.
-* **BottomN**: Mostrar apenas os últimos X itens.  Útil na monitorização de dados atualizados com frequência.
+* **TopN** : Mostrar apenas os primeiros X itens.
+* **Amostra Simples** : Mostrar o primeiro, o último e X itens uniformemente distribuídos pelo meio.
+* **BottomN** : Mostrar apenas os últimos X itens.  Útil na monitorização de dados atualizados com frequência.
 * **Amostragem de elevada densidade** - Um algoritmo de amostragem melhorado que respeita melhor os valores atípicos e/ou a forma de uma curva.
     * **Amostragem de linhas posicionadas** - Pontos de dados de exemplo baseados em valores atípicos presentes em posições ao longo de um eixo
     * **Amostragem de pontos sobrepostos** - Pontos de dados de exemplo baseados em valores sobrepostos para preservar valores atípicos
@@ -52,7 +52,7 @@ Os limites dinâmicos são aplicados automaticamente quando o servidor tem a cap
 
 * No Power BI Desktop com a versão 2016 ou superior do SSAS no Local para [tirar partido das capacidades de SuperDax do servidor](/archive/blogs/analysisservices/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3)
 
-* No serviço Power BI e de Ambiente de Trabalho ao utilizar um modelo importado, a Consulta Direta, a ligação em direto ao serviço ou a ligação em direto a AS PaaS. 
+* No serviço Power BI e de Ambiente de Trabalho ao utilizar um modelo importado, a Consulta Direta, a ligação em direto ao serviço ou a ligação em direto a AS PaaS. 
 
 * No serviço Power BI, quando é estabelecida a ligação através de um gateway no local ao SSAS no local, não é possível utilizar limites dinâmicos. O gateway no local não suporta totalmente a estratégia de limites dinâmicos que devolve uma estrutura de conjuntos de resultados diferente a partir do SSAS no local.  
 
