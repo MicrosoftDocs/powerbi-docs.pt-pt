@@ -8,11 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/24/2020
 ms.author: v-pemyer
-ms.openlocfilehash: ad85ad56db907ca19af7dc14681eb34f8c2b9abc
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 350d4889643556d4e1c6389580415ccba46b55d4
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85398346"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396644"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>Criar tabelas de datas no Power BI Desktop
 
@@ -21,7 +22,7 @@ Este artigo destina-se aos modeladores de dados que trabalham com o Power BI De
 Para trabalhar com as [funções de análise de tempo](/dax/time-intelligence-functions-dax) DAX (Data Analysis Expressions), existe um requisito no modelo de pré-requisitos: tem de ter, pelo menos, uma _tabela de datas_ no modelo. Uma tabela de datas é uma tabela que satisfaz os seguintes requisitos:
 
 > [!div class="checklist"]
-> - Deve ter uma coluna de tipo de dados de **data** (ou **data/hora**) – conhecida como a _coluna de data_.
+> - Deve ter uma coluna de tipo de dados de **data** (ou **data/hora** ) – conhecida como a _coluna de data_.
 > - A coluna de data deve conter valores exclusivos.
 > - A coluna de data não deve conter espaços EM BRANCO.
 > - A coluna de data não deve ter datas em falta.
@@ -59,7 +60,7 @@ Pode gerar uma tabela de datas com o Power Query. Veja a seguir duas entradas d
 - [Gerar uma Tabela de Dimensões de Datas no Power Query](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/) por Chris Webb
 
 > [!TIP]
-> Se não possuir um armazém de dados ou outra definição consistente para a hora na sua organização, considere utilizar o Power Query para publicar um [fluxo de dados](../transform-model/service-dataflows-overview.md). Em seguida, deve ligar todos os modeladores de dados ao fluxo de dados para adicionar as tabelas de datas aos modelos. O fluxo de dados torna-se na única origem de verdade para a hora na sua organização.
+> Se não possuir um armazém de dados ou outra definição consistente para a hora na sua organização, considere utilizar o Power Query para publicar um [fluxo de dados](../transform-model/dataflows/dataflows-introduction-self-service.md). Em seguida, deve ligar todos os modeladores de dados ao fluxo de dados para adicionar as tabelas de datas aos modelos. O fluxo de dados torna-se na única origem de verdade para a hora na sua organização.
 
 Se precisar de gerar uma tabela de datas, considere fazê-lo com a DAX. Poderá ser mais fácil. Adicionalmente, é provável que seja mais conveniente, dado que a DAX inclui alguma inteligência incorporada para simplificar a criação e gestão de tabelas de datas.
 
@@ -81,7 +82,7 @@ Para obter mais informações relacionadas com este artigo, consulte os seguinte
 - [Data/Hora Automáticas no Power BI Desktop](../transform-model/desktop-auto-date-time.md)
 - [Orientação de data/hora automáticas no Power BI Desktop](auto-date-time.md)
 - [Definir e utilizar tabelas de datas no Power BI Desktop](../transform-model/desktop-date-tables.md)
-- [Preparação personalizada de dados no Power BI](../transform-model/service-dataflows-overview.md)
+- [Preparação personalizada de dados no Power BI](../transform-model/dataflows/dataflows-introduction-self-service.md)
 - [Função CALENDAR (DAX)](/dax/calendar-function-dax)
 - [Função CALENDARAUTO (DAX)](/dax/calendarauto-function-dax)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

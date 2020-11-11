@@ -7,14 +7,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 10/14/2020
+ms.date: 10/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5e07cafc5c507d090d56a0d973e2c02aa873c3e2
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 406b526f9e2dd146ee99629ed913c60b95989cb0
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116506"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483725"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Automatizar as tarefas de conjuntos de dados e áreas de trabalho Premium com principais de serviço
 
@@ -22,7 +22,7 @@ Os principais de serviço são *registos de aplicações* do Azure Active Direct
 
 O Power BI Premium utiliza a mesma funcionalidade de principal de serviço que o Power BI Embedded. Para saber mais, veja [Incorporar conteúdos do Power BI com principais de serviço](../developer/embedded/embed-service-principal.md).
 
-No **Power BI Premium**, os principais de serviço também podem ser utilizados com o [ponto final XMLA](service-premium-connect-tools.md) para automatizar tarefas de gestão de conjuntos de dados, tal como aprovisionar áreas de trabalho, implementar modelos e atualizar conjuntos de dados com:
+No **Power BI Premium** , os principais de serviço também podem ser utilizados com o [ponto final XMLA](service-premium-connect-tools.md) para automatizar tarefas de gestão de conjuntos de dados, tal como aprovisionar áreas de trabalho, implementar modelos e atualizar conjuntos de dados com:
 
 - PowerShell
 - Automatização do Azure
@@ -32,9 +32,6 @@ No **Power BI Premium**, os principais de serviço também podem ser utilizados 
 Apenas as [Novas áreas de trabalho](../collaborate-share/service-new-workspaces.md) suportam ligações de ponto final XMLA com principais de serviço. Não são suportadas áreas de trabalho clássicas. Um principal de serviço só tem as permissões necessárias para realizar tarefas nas áreas de trabalho atribuídas. As permissões são atribuídas através do acesso à área de trabalho, de modo semelhante às contas UPN.
 
 Para executar operações de escrita, a **Carga de trabalho dos conjuntos de dados** tem de ter o [ponto final XMLA ativado para leitura/escrita](service-premium-connect-tools.md#enable-xmla-read-write). Os conjuntos de dados publicados a partir do Power BI Desktop devem ter a funcionalidade [Formato de metadados melhorado](../connect-data/desktop-enhanced-dataset-metadata.md) ativada.
-
-> [!NOTE]
-> A funcionalidade de ponto final XMLA no Power BI Premium está em **Pré-visualização**. As funcionalidades em pré-visualização não devem ser utilizadas num ambiente de produção. Algumas funcionalidades, o suporte e a documentação são limitados.  Veja os [Termos do Microsoft Online Services (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) para obter mais detalhes.
 
 ## <a name="create-a-service-principal"></a>Criar um principal de serviço
 
@@ -53,7 +50,7 @@ Para restringir o acesso do principal de serviço a configurações específicas
 
 Antes de utilizar principais de serviço no Power BI, um administrador terá de ativar o acesso do principal de serviço no portal de administração do Power BI.
 
-No Power BI, em **Portal de administração** > **Definições de inquilino**, expanda **Permitir que os principais de serviço utilizem as APIs do Power BI** e, em seguida, clique em **Ativado**. Para aplicar permissões a um grupo de segurança, adicione o nome do grupo a **Grupos de segurança específicos**.
+No Power BI, em **Portal de administração** > **Definições de inquilino** , expanda **Permitir que os principais de serviço utilizem as APIs do Power BI** e, em seguida, clique em **Ativado**. Para aplicar permissões a um grupo de segurança, adicione o nome do grupo a **Grupos de segurança específicos**.
 
 ![Definições de área de trabalho](media/service-premium-service-principal/admin-portal.png)
 

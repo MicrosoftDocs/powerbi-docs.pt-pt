@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 934ffa649885b270dd7f321f45168723f53bc379
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 406a2aebbf5d043ce74ca189c18b384f6c70e716
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600354"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397191"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Tutorial: Utilizar os Serviços Cognitivos no Power BI
 
@@ -86,7 +86,7 @@ Assim que o fluxo de dados estiver guardado e atualizado, pode utilizá-lo num r
 
 Abra o Power BI Desktop. No friso Base, selecione **Obter Dados**.
 
-Navegue para os **fluxos de dados do Power BI (Beta**) na secção Power BI e selecione **Ligar**.
+Navegue para os **fluxos de dados do Power BI (Beta** ) na secção Power BI e selecione **Ligar**.
 
 ![Captura de ecrã a mostrar o painel Obter Dados, com os fluxos de dados do Power B I selecionados.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
 
@@ -175,11 +175,11 @@ Quando já não for necessária, elimine a consulta ao clicar com o botão direi
 Neste tutorial, aplicou as funções de classificação de sentimento e etiquetagem de imagens num fluxo de dados do Power BI. Para saber mais sobre os Serviços Cognitivos no Power BI, leia os artigos seguintes.
 
 * [Serviços Cognitivos no Azure](/azure/cognitive-services/)
-* Introdução à [preparação personalizada de dados em fluxos de dados](../transform-model/service-dataflows-overview.md)
+* Introdução à [preparação personalizada de dados em fluxos de dados](../transform-model/dataflows/dataflows-introduction-self-service.md)
 * Saiba mais sobre o [Power BI Premium](https://powerbi.microsoft.com/power-bi-premium/)
 
 Poderá também estar interessado nos seguintes artigos.
 
 * [Tutorial: Invocar um modelo do Machine Learning Studio (clássico) no Power BI (Pré-visualização)](service-tutorial-invoke-machine-learning-model.md)
-* [Integração do Azure Machine Learning no Power BI (Pré-visualização)](../transform-model/service-machine-learning-integration.md)
-* [Serviços Cognitivos no Power BI (Pré-visualização)](../transform-model/service-cognitive-services.md)
+* [Integração do Azure Machine Learning no Power BI (Pré-visualização)](../transform-model/dataflows/dataflows-machine-learning-integration.md)
+* [Serviços Cognitivos no Power BI (Pré-visualização)](../transform-model/dataflows/dataflows-machine-learning-integration.md)

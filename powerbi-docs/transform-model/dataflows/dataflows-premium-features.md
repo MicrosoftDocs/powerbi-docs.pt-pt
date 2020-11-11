@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ffd11a57267ef69aab7b999a29949c33163e52e8
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e052816cb3d633ba5c01d0331e00572a9b51a579
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91639052"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397306"
 ---
 # <a name="premium-features-of-dataflows"></a>Funcionalidades Premium do fluxo de dados
 
@@ -34,14 +34,14 @@ As secções seguintes descrevem pormenorizadamente cada uma destas funcionalida
 
 O motor de computação melhorado no Power BI permite que os subscritores do Power BI Premium utilizem as suas capacidades para otimizar a utilização de fluxos de dados. A utilização do motor de computação melhorado proporciona as seguintes vantagens:
 
-* Reduz drasticamente o tempo de atualização necessário para passos de ETL de execução longa em entidades calculadas, como a execução de *associações*, *distinto*, *filtros* e *agrupar por*
+* Reduz drasticamente o tempo de atualização necessário para passos de ETL de execução longa em entidades calculadas, como a execução de *associações* , *distinto* , *filtros* e *agrupar por*
 * Executa consultas do DirectQuery em entidades
 
 Em seguida, é descrito o motor de computação melhorado, bem como as respostas a perguntas comuns.
 
 ### <a name="using-the-enhanced-compute-engine"></a>Utilizar o motor de computação melhorado
 
-O motor de computação melhorado é ativado na página **Definições de Capacidade** no serviço Power BI, na secção de **fluxos de dados**. Por predefinição, o motor de computação melhorado está **Desativado**. Para ativar o motor de computação melhorado, altere o botão de alternar para **Ativado**, conforme apresentado na seguinte imagem, e guarde as definições. 
+O motor de computação melhorado é ativado na página **Definições de Capacidade** no serviço Power BI, na secção de **fluxos de dados**. Por predefinição, o motor de computação melhorado está **Desativado**. Para ativar o motor de computação melhorado, altere o botão de alternar para **Ativado** , conforme apresentado na seguinte imagem, e guarde as definições. 
 
 ![Ativar o motor de computação melhorado](media/dataflows-premium-features/compute-engine-settings.png)
 
@@ -146,7 +146,7 @@ Os fluxos de dados podem ser definidos para atualizarem de forma incremental de 
 
 ![Atualização incremental](media/dataflows-premium-features/incremental-refresh.png)
 
-Ao definir a atualização incremental, são adicionados parâmetros ao fluxo de dados para especificar o intervalo de datas. Para obter informações detalhadas sobre como configurar a atualização incremental, veja o artigo sobre a [atualização incremental](https://docs.microsoft.com/power-query/dataflows/incremental-refresh).
+Ao definir a atualização incremental, são adicionados parâmetros ao fluxo de dados para especificar o intervalo de datas. Para obter informações detalhadas sobre como configurar a atualização incremental, veja o artigo sobre a [atualização incremental](/power-query/dataflows/incremental-refresh).
 
 ### <a name="considerations-for-when-not-to-set-incremental-refresh"></a>Considerações relativas ao momento em que não deve ser definida uma atualização incremental
 

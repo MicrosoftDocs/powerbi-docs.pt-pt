@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f9268409977b3aa78e1ebda6f1f6b2e732451455
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 3e0bb00042b869061b7cb7cebf624e324db7e916
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681024"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396133"
 ---
 # <a name="deploy-to-power-bi"></a>Implementar no Power BI
 
@@ -76,7 +76,7 @@ Durante o processo de implementação, poderá ter de trabalhar com os administr
 - **Manutenção do gateway:** pode ser necessário o registo de uma [nova origem de dados](../connect-data/service-gateway-data-sources.md) no gateway de dados.
 - **Controladores e conectores de gateway:** uma nova origem de dados proprietária pode exigir a instalação de um novo controlador ou conector personalizado em cada servidor no cluster de gateway.
 - **Criar uma nova capacidade Premium:** poderá utilizar uma [capacidade Premium](../admin/service-premium-capacity-manage.md) existente. Poderão também existir situações em que uma nova capacidade Premium seja necessária. Poderá ser o caso quando deseja separar propositadamente uma carga de trabalho departamental.
-- **Configurar um fluxo de dados do Power BI:** as atividades de preparação de dados podem ser configuradas uma vez no [fluxo de dados do Power BI](../transform-model/service-dataflows-overview.md) com o Power Query Online, que ajuda a evitar a replicação do trabalho de preparação de dados para vários ficheiros diferentes do Power BI Desktop.
+- **Configurar um fluxo de dados do Power BI:** as atividades de preparação de dados podem ser configuradas uma vez no [fluxo de dados do Power BI](../transform-model/dataflows/dataflows-introduction-self-service.md) com o Power Query Online, que ajuda a evitar a replicação do trabalho de preparação de dados para vários ficheiros diferentes do Power BI Desktop.
 - **Registar um novo elemento visual organizacional:** o registo do [elemento visual organizacional](../developer/visuals/power-bi-custom-visuals-organization.md) pode ser feito no portal de administração para os elementos visuais personalizados que não tiveram origem no AppSource.
 - **Definir conteúdo em destaque:** existe uma definição de inquilino que controla quem pode [destacar conteúdo](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/) na home page do serviço Power BI.
 - **Configurar etiquetas de confidencialidade:** todas as [etiquetas de confidencialidade](../admin/service-security-data-protection-overview.md) estão integradas no Microsoft Information Protection.

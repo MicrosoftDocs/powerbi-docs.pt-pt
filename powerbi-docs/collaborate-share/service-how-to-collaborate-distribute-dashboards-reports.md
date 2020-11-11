@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4af8f9edd3d51214aaa766219e4903eb4b26b813
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 93ccb8c02e71165dfd23bcd82b21ae2758e03d43
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252550"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396202"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>Formas de colaborar e partilhar no Power BI
 
@@ -101,7 +101,7 @@ Também pode [partilhar um instantâneo de um mosaico](../consumer/mobile/mobile
 
 ## <a name="distribute-insights-in-an-app"></a>Distribuir informações numa aplicação
 
-Suponhamos que pretende distribuir o seu dashboard para um público alargado na sua organização. Você e os seus colegas criaram uma *área de trabalho* e, em seguida, criaram e refinaram dashboards, relatórios e conjuntos de dados na área de trabalho. Agora, selecione os dashboards e os relatórios e publique-os como uma *aplicação*, quer seja para um grupo ou para toda a organização.
+Suponhamos que pretende distribuir o seu dashboard para um público alargado na sua organização. Você e os seus colegas criaram uma *área de trabalho* e, em seguida, criaram e refinaram dashboards, relatórios e conjuntos de dados na área de trabalho. Agora, selecione os dashboards e os relatórios e publique-os como uma *aplicação* , quer seja para um grupo ou para toda a organização.
 
 ![Ícone Publicar aplicação](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-publish-app.png)
 
@@ -125,7 +125,7 @@ Com as opções **Incorporar no SharePoint Online** e **Incorporar** no serviço
 
 ### <a name="publish-to-public-web-sites"></a>Publicar em sites públicos
 
-Com a opção **Publicar na Web**, pode publicar relatórios do Power BI para toda a Internet ao incorporar visualizações em mensagens de blogue, sites, redes sociais e outras comunicações online. Qualquer pessoa na Internet pode ver os seus relatórios e o utilizador não pode controlar quem vê o que publicou. As pessoas não precisam de uma licença do Power BI. A publicação na Web só está disponível para relatórios que o utilizador pode editar. Não pode publicar relatórios na Web se estes forem partilhados consigo ou se estiverem numa aplicação. Leia sobre como [publicar na Web](service-publish-to-web.md).
+Com a opção **Publicar na Web** , pode publicar relatórios do Power BI para toda a Internet ao incorporar visualizações em mensagens de blogue, sites, redes sociais e outras comunicações online. Qualquer pessoa na Internet pode ver os seus relatórios e o utilizador não pode controlar quem vê o que publicou. As pessoas não precisam de uma licença do Power BI. A publicação na Web só está disponível para relatórios que o utilizador pode editar. Não pode publicar relatórios na Web se estes forem partilhados consigo ou se estiverem numa aplicação. Leia sobre como [publicar na Web](service-publish-to-web.md).
 
 >[!Warning]
 >Utilize a opção [Publicar na Web](service-publish-to-web.md) apenas para partilhar conteúdos publicamente e não internamente.
@@ -158,7 +158,7 @@ Saiba mais sobre como [criar e utilizar conjuntos de dados partilhados](../conne
 
 ## <a name="create-dataflows"></a>Criar fluxos de dados
 
-Os *fluxos de dados* são uma forma personalizada de uniformizar os dados de diferentes origens e prepará-los para a modelação. Os analistas criam fluxos de dados para ingerir, transformar, integrar e enriquecer os macrodados. Criam e gerem fluxos de dados em áreas de trabalho no serviço Power BI. Leia sobre a [preparação de dados personalizada com fluxos de dados](../transform-model/service-dataflows-overview.md).
+Os *fluxos de dados* são uma forma personalizada de uniformizar os dados de diferentes origens e prepará-los para a modelação. Os analistas criam fluxos de dados para ingerir, transformar, integrar e enriquecer os macrodados. Criam e gerem fluxos de dados em áreas de trabalho no serviço Power BI. Leia sobre a [preparação de dados personalizada com fluxos de dados](../transform-model/dataflows/dataflows-introduction-self-service.md).
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 

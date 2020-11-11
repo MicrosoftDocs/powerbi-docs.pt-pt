@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b8811d9b869d4aa3592c9ed3531d067701b544a8
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 89de77e65d8eb675d9e80c3b2497f39af7c32d33
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91638998"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396593"
 ---
 # <a name="dataflows-limitations-and-considerations"></a>Limitações e considerações dos fluxo de dados
 
@@ -24,7 +24,7 @@ Os fluxos de dados têm algumas limitações relativas à criação, atualizaç�
 
 Ao criar fluxos de dados, os utilizadores devem ter em consideração o seguinte:
 
-* A criação em fluxos de dados é realizada no ambiente do Power Query Online (PQO); veja as limitações descritas no artigo [Limites do Power Query](https://docs.microsoft.com/power-query/power-query-online-limits).
+* A criação em fluxos de dados é realizada no ambiente do Power Query Online (PQO); veja as limitações descritas no artigo [Limites do Power Query](/power-query/power-query-online-limits).
 Como a criação de fluxos de dados é realizada no ambiente do Power Query Online (PQO), as novas versões aplicadas nas configurações de cargas de trabalho de fluxos de dados só afetam as atualizações e não terão impacto na experiência de criação
 
 * Os fluxos de dados só podem ser modificados pelos respetivos proprietários
@@ -37,13 +37,13 @@ Como a criação de fluxos de dados é realizada no ambiente do Power Query Onli
 
 ## <a name="api-considerations"></a>Considerações sobre a API
 
-Pode encontrar mais informações sobre as APIs REST de Fluxos de Dados suportadas na [referência da API REST](https://docs.microsoft.com/rest/api/power-bi/dataflows). Eis algumas considerações a ter em mente:
+Pode encontrar mais informações sobre as APIs REST de Fluxos de Dados suportadas na [referência da API REST](/rest/api/power-bi/dataflows). Eis algumas considerações a ter em mente:
 
 * Exportar e importar um fluxo de dados atribui um novo ID ao mesmo
 
 * Importar fluxos de dados que contenham entidades ligadas não corrige as referências existentes no fluxo de dados (estas consultas devem ser corrigidas manualmente antes de importar o fluxo de dados)
 
-* Os fluxos de dados podem ser substituídos com o parâmetro *CreateOrOverwrite*, caso tenham sido inicialmente criados com a API de importação
+* Os fluxos de dados podem ser substituídos com o parâmetro *CreateOrOverwrite* , caso tenham sido inicialmente criados com a API de importação
 
 ## <a name="dataflows-in-shared"></a>Fluxos de Dados em Capacidades Partilhadas
 
@@ -75,7 +75,7 @@ Os fluxos de dados existentes em Capacidades Premium têm as seguintes limitaç�
 
 * Uma entidade ligada não pode ser associada a uma entidade normal que obtém os seus dados a partir de uma origem de dados no local
 
-* Quando uma consulta (consulta *A*, por exemplo) é utilizada no cálculo de outra consulta (consulta *B*) nos fluxos de dados, a consulta *B* torna-se uma entidade calculada. As entidades calculadas não podem fazer referência a origens no local.
+* Quando uma consulta (consulta *A* , por exemplo) é utilizada no cálculo de outra consulta (consulta *B* ) nos fluxos de dados, a consulta *B* torna-se uma entidade calculada. As entidades calculadas não podem fazer referência a origens no local.
 
 
 **Motor de Computação:**
@@ -111,4 +111,3 @@ Os seguintes artigos fornecem mais informações sobre os fluxos de dados e o Po
 * [Configurar o armazenamento de fluxos de dados para utilizar o Azure Data Lake Gen2](dataflows-azure-data-lake-storage-integration.md)
 * [Funcionalidades Premium do fluxo de dados](dataflows-premium-features.md)
 * [IA com fluxos de dados](dataflows-machine-learning-integration.md)
-

@@ -9,16 +9,16 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 48e8788ca81365e1f46dbe6d3c4804c10f3f308a
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8de033c673d9d08833fdc5a935b92490db369104
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525507"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396754"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>Utilizar as Informações de IA no Power BI Desktop
 
-No Power BI, pode utilizar Informações de IA para obter acesso a uma coleção de modelos de machine learning previamente preparados que aumentam os esforços de preparação de dados. As Informações de IA são acedidas no **Editor do Power Query** e as funcionalidades e funções são acedidas através dos separadores **Base** e **Adicionar Coluna** do **Editor do Power Query** . 
+No Power BI, pode utilizar Informações de IA para obter acesso a uma coleção de modelos de machine learning previamente preparados que aumentam os esforços de preparação de dados. As Informações de IA são acedidas no **Editor do Power Query** e as funcionalidades e funções são acedidas através dos separadores **Base** e **Adicionar Coluna** do **Editor do Power Query**. 
 
 ![Localização das Informações de IA no friso](media/desktop-ai-insights/ai-insights-00.png)
 
@@ -26,7 +26,7 @@ Este artigo descreve as funções da Análise de Texto e as funções de Visão,
 
 ## <a name="how-to-enable-ai-insights"></a>Como ativar as Informações de IA
 
-As informações de IA foram disponibilizadas de forma geral na versão de junho de 2020 do Power BI Desktop. Para versões anteriores do Power BI Desktop, as informações de IA no Power BI devem ser ativadas ao selecionar **Ficheiro > Opções e definições > Opções** e, em seguida, **Funcionalidades de pré-visualização** na coluna esquerda. No painel direto, poderá encontrar a seleção **Browser de funções das Informações de IA** . Marque a caixa junto a **Browser de funções das Informações de IA** para ativar a funcionalidade de pré-visualização. Terá de reiniciar o Power BI Desktop para que a alteração da funcionalidade de pré-visualização produza efeito.
+As informações de IA foram disponibilizadas de forma geral na versão de junho de 2020 do Power BI Desktop. Para versões anteriores do Power BI Desktop, as informações de IA no Power BI devem ser ativadas ao selecionar **Ficheiro > Opções e definições > Opções** e, em seguida, **Funcionalidades de pré-visualização** na coluna esquerda. No painel direto, poderá encontrar a seleção **Browser de funções das Informações de IA**. Marque a caixa junto a **Browser de funções das Informações de IA** para ativar a funcionalidade de pré-visualização. Terá de reiniciar o Power BI Desktop para que a alteração da funcionalidade de pré-visualização produza efeito.
 
 > [!NOTE]
 > As informações de IA estão disponíveis de forma geral para todas as versões do Power BI Desktop a partir da versão de junho de 2020 e, para essas versões, não é preciso ativá-las como uma funcionalidade de pré-visualização.
@@ -67,7 +67,7 @@ A Análise de Texto reconhece até 120 idiomas. Para obter mais informações, v
 
 #### <a name="extract-key-phrases"></a>Extrair Expressões-Chave
 
-A função **Extração de Expressões-Chave** avalia texto não estruturado e, para cada campo de texto, devolve uma lista de expressões-chave. A função precisa de um campo de texto como entrada e aceita uma entrada opcional para **Informações de cultura** .
+A função **Extração de Expressões-Chave** avalia texto não estruturado e, para cada campo de texto, devolve uma lista de expressões-chave. A função precisa de um campo de texto como entrada e aceita uma entrada opcional para **Informações de cultura**.
 
 A extração de expressões-chave funciona melhor quando são disponibilizados segmentos de texto maiores para processamento. Isto é o oposto da análise de sentimentos, que oferece um desempenho melhor em blocos de texto mais pequenos. Para obter os melhores resultados em ambas as operações, considere reestruturar as entradas em conformidade.
 
@@ -91,9 +91,9 @@ Esta função precisa de um URL de imagem ou de um campo base 64 como entrada. 
 
 ### <a name="invoking-text-analytics-or-vision-functions-in-power-query"></a>Invocar as funções Análise de Texto ou Visão no Power Query
 
-Para enriquecer os dados com as funções Análise de Texto ou Visão, abra o **Editor do Power Query** . Este exemplo explica o processo de classificação de sentimento de um texto. Podem ser utilizados os mesmos passos para extrair expressões-chave, detetar idioma e etiquetar imagens.
+Para enriquecer os dados com as funções Análise de Texto ou Visão, abra o **Editor do Power Query**. Este exemplo explica o processo de classificação de sentimento de um texto. Podem ser utilizados os mesmos passos para extrair expressões-chave, detetar idioma e etiquetar imagens.
 
-Selecione o botão **Análise de texto** na **Base** ou no friso **Adicionar coluna** . Ser-lhe-á pedido que inicie sessão.
+Selecione o botão **Análise de texto** na **Base** ou no friso **Adicionar coluna**. Ser-lhe-á pedido que inicie sessão.
 
 ![Análise de texto](media/desktop-ai-insights/ai-insights-02.png)
 
@@ -105,7 +105,7 @@ O Power BI seleciona uma capacidade Premium para executar a função e enviar o
 
 ![Selecionar a capacidade Premium a utilizar](media/desktop-ai-insights/ai-insights-04.png)
 
-**CultureInfo** (Informações de Cultura) é uma entrada opcional para especificar o idioma do texto. Este campo é um código ISO. Pode utilizar uma coluna como entrada para Cultureinfo ou um campo estático. Neste exemplo, o idioma é especificado como inglês (en) para a coluna inteira. Se deixar este campo em branco, o Power BI deteta automaticamente o idioma antes de aplicar a função. Em seguida, selecione **Aplicar** .
+**CultureInfo** (Informações de Cultura) é uma entrada opcional para especificar o idioma do texto. Este campo é um código ISO. Pode utilizar uma coluna como entrada para Cultureinfo ou um campo estático. Neste exemplo, o idioma é especificado como inglês (en) para a coluna inteira. Se deixar este campo em branco, o Power BI deteta automaticamente o idioma antes de aplicar a função. Em seguida, selecione **Aplicar**.
 
 Quando utilizar as Informações de IA pela primeira vez numa origem de dados nova, ser-lhe-á pedido que defina o nível de privacidade dos dados.
 
@@ -158,7 +158,7 @@ Para utilizar esta capacidade, basta que um cientista de dados conceda acesso ao
 
 Esta funcionalidade é suportada no Power BI Desktop, nos fluxos de dados do Power BI e para o Power Query Online no serviço Power BI.
 
-Para saber mais sobre fluxos de dados, veja [Preparação personalizada de dados no Power BI](service-dataflows-overview.md).
+Para saber mais sobre fluxos de dados, veja [Preparação personalizada de dados no Power BI](./dataflows/dataflows-introduction-self-service.md).
 
 Para saber mais sobre o Azure Machine Learning, veja os seguintes artigos:
 
@@ -175,9 +175,9 @@ Para aceder a um modelo do Azure ML a partir do Power BI, o utilizador tem de te
 Os passos indicados nesta secção descrevem como conceder acesso a um utilizador do Power BI a um modelo alojado no serviço do Azure ML, para que possam aceder a este modelo como uma função do Power Query. Para obter mais detalhes, veja [Gerir o acesso com o RBAC e o portal do Azure](/azure/role-based-access-control/role-assignments-portal).
 
 1. Inicie sessão no [portal do Azure](https://portal.azure.com/).
-2. Vá para a página **Subscrições** . Pode encontrar a página **Subscrições** através da lista **Todos os Serviços** no menu de navegação esquerdo do portal do Azure.
+2. Vá para a página **Subscrições**. Pode encontrar a página **Subscrições** através da lista **Todos os Serviços** no menu de navegação esquerdo do portal do Azure.
 3. Selecionar a sua subscrição
-4. Selecione **Controlo de acesso (IAM)** e, em seguida, selecione o botão **Adicionar** .
+4. Selecione **Controlo de acesso (IAM)** e, em seguida, selecione o botão **Adicionar**.
 5. Selecione **Leitor** como Função. Selecione o utilizador do Power BI ao qual quer conceder acesso ao modelo do Azure ML.
 6. Selecione **Guardar**
 7. Repita os passos três a seis para conceder acesso de **Leitor** ao utilizador ao serviço Web Machine Learning Studio (clássico) específico *ou* à área de trabalho do Machine Learning que aloja o modelo.
@@ -225,7 +225,7 @@ Este artigo forneceu uma descrição geral da integração do Machine Learning n
 
 - [Tutorial: Invocar um modelo do Machine Learning Studio (clássico) no Power BI](../connect-data/service-tutorial-invoke-machine-learning-model.md)
 - [Tutorial: Utilizar os Serviços Cognitivos no Power BI](../connect-data/service-tutorial-use-cognitive-services.md)
-- [Serviços Cognitivos no Power BI](service-cognitive-services.md)
-- [Integração do Azure Machine Learning no Power BI](service-machine-learning-integration.md)
+- [Serviços Cognitivos no Power BI](./dataflows/dataflows-machine-learning-integration.md)
+- [Integração do Azure Machine Learning no Power BI](./dataflows/dataflows-machine-learning-integration.md)
 - [Monitorizar as capacidades Premium com a aplicação](../admin/service-admin-premium-monitor-capacity.md)
 - [AI metrics in the Premium capacity metrics app](https://powerbi.microsoft.com/blog/ai-metrics-now-available-in-power-bi-premium-capacity-metrics-app/) (Métricas de IA disponíveis na aplicação de métricas da capacidade Premium)

@@ -10,16 +10,16 @@ ms.date: 10/22/2020
 ms.author: davidi
 ms.custom: references_regions
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4a919c499746711719d679fc5cb9a689731093cc
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: f2efd4410af62425f599b1addd0f792f495120e0
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92502300"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397260"
 ---
 # <a name="configure-power-bi-premium-dataflow-workloads"></a>Configurar cargas de trabalho de fluxo de dados do Power BI Premium
 
-Pode criar cargas de trabalho de fluxo de dados na sua subscrição do Power BI Premium. O Power BI utiliza o conceito de *cargas de trabalho* para descrever conteúdos Premium. As cargas de trabalho incluem Conjuntos de Dados, Relatórios Paginados, Fluxos de Dados e IA. A carga de trabalho dos *fluxos de dados* permite-lhe utilizar a preparação personalizada de fluxos de dados para ingerir, transformar, integrar e enriquecer os dados. Os fluxos de dados do Power BI Premium são geridos no **Portal de administração** .
+Pode criar cargas de trabalho de fluxo de dados na sua subscrição do Power BI Premium. O Power BI utiliza o conceito de *cargas de trabalho* para descrever conteúdos Premium. As cargas de trabalho incluem Conjuntos de Dados, Relatórios Paginados, Fluxos de Dados e IA. A carga de trabalho dos *fluxos de dados* permite-lhe utilizar a preparação personalizada de fluxos de dados para ingerir, transformar, integrar e enriquecer os dados. Os fluxos de dados do Power BI Premium são geridos no **Portal de administração**.
 
 ![Portal de administração para fluxos de dados no Power BI Premium](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-01.png)
 
@@ -45,11 +45,11 @@ Assim que os fluxos de dados forem ativados, pode utilizar o **Portal de adminis
 
     ![Alterar o tamanho de uma capacidade](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-03.png)
 
-3. Em Definições de capacidade, pode configurar as definições de fluxo de dados ao expandir a secção **Cargas de trabalho** .
+3. Em Definições de capacidade, pode configurar as definições de fluxo de dados ao expandir a secção **Cargas de trabalho**.
 
     ![Expandir a secção de cargas de trabalho](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-04.png)
 
-4. Na secção **Cargas de trabalho** , navegue para a área **Fluxos de dados** . A seguinte imagem mostra as definições que pode utilizar para controlar ou refinar o comportamento da carga de trabalho de fluxo de dados da sua capacidade.
+4. Na secção **Cargas de trabalho** , navegue para a área **Fluxos de dados**. A seguinte imagem mostra as definições que pode utilizar para controlar ou refinar o comportamento da carga de trabalho de fluxo de dados da sua capacidade.
 
     ![Definições da carga de trabalho de fluxo de dados](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-05.png)
 
@@ -69,7 +69,7 @@ Nas secções seguintes, iremos detalhar cada uma das definições e a forma com
 
 ### <a name="understanding-dataflow-workload-options"></a>Compreender as opções de carga de trabalho de fluxo de dados
 
-Uma forma simples de pensar nas opções de carga de trabalho de fluxo de dados é com uma analogia. Podemos pensar no *Tamanho da capacidade* ou no tipo de Instância do Power BI Premium que tem como o seu *restaurante* . No seu restaurante, tem a sua *memória de carga de trabalho* , que é a sua *cozinha* . O *motor de computação* é o seu *forno* . Por último, o *contentor* é o tipo de qualidade do seu *chefe de cozinha* . Para avaliar as suas opções de carga de trabalho de fluxo de dados, imagine que está a preparar uma refeição para um grande jantar. Vai ter convidados importantes e tem de ter o jantar preparado para ser servido quando chegarem.
+Uma forma simples de pensar nas opções de carga de trabalho de fluxo de dados é com uma analogia. Podemos pensar no *Tamanho da capacidade* ou no tipo de Instância do Power BI Premium que tem como o seu *restaurante*. No seu restaurante, tem a sua *memória de carga de trabalho* , que é a sua *cozinha*. O *motor de computação* é o seu *forno*. Por último, o *contentor* é o tipo de qualidade do seu *chefe de cozinha*. Para avaliar as suas opções de carga de trabalho de fluxo de dados, imagine que está a preparar uma refeição para um grande jantar. Vai ter convidados importantes e tem de ter o jantar preparado para ser servido quando chegarem.
 
 Vamos utilizar esta analogia do restaurante à medida que explicamos e fornecemos orientações sobre cada uma das definições. Vamos começar no nível superior, a sua Capacidade Premium, uma vez que esta é a primeira escolha que efetuamos ao utilizar o Power BI Premium.
 
@@ -89,7 +89,7 @@ Em seguida, vamos falar sobre a definição **Tamanho do Contentor (MB)** . Inte
 
 Se voltarmos à nossa analogia, ter menos cozinheiros na cozinha, mas mais concentrados, permite-lhe cozinhar uma refeição muito mais rapidamente, consoante os tipos de pedidos que são feitos e a complexidade da refeição. A contrapartida aqui é ter menos cozinheiros, mas mais tempo de concentração para a preparação. Da mesma forma, aumentar a medida do tamanho do contentor para 1200-1500 MB pode significar um número mais pequeno de trabalhos de ETL mais complexos: atividades como agregações, associações, dinamizações e manipulações de linha ou coluna podem ter um aumento no desempenho à medida que fornecemos mais memória a cada contentor, mas ao fazê-lo, reduzir o número de contentores. Tal como a analogia implica, demasiados pedidos podem tornar o trabalho na cozinha mais lento. É dessa forma que pode pensar no tamanho do contentor: utilize esta opção quando precisar de concluir operações de entidade complexas e se estiver disposto a trocar paralelismo por desempenho, uma vez que este recurso divide a memória alocada a menos contentores.
 
-Em suma, o objetivo é otimizar o tamanho do seu contentor com base nas consultas a serem utilizadas. Por exemplo, carregar apenas dados a partir de uma origem para uma entidade não requer a solicitação de dados e o desempenho de quaisquer operações, apenas carrega os dados para o armazenamento. Precisa do máximo de paralelismo possível para esta situação, uma vez que pretende aumentar a velocidade das operações de atualização e carga. Por outro lado, quando adiciona mais operações de transformação (filtros complexos, associações, agregações), a memória deverá ser muito superior, uma vez que poderemos precisar de processar algumas destas operações de transformação em memória. Tenha em atenção que, se tiver outras operações de fluxo de dados em execução na capacidade, esta pode tornar essas operações mais lentas e forçá-las a esperar numa fila por um bloco de execução. Para esse fim, a monitorização e gestão de fluxos de dados, o desempenho de atualizações e toda a capacidade são apoiados pela aplicação **Métricas de Capacidade do Power BI Premium** . Pode utilizar a aplicação [Power BI Premium Capacity Metrics](../../admin/service-premium-capacity-optimize.md#what-content-is-using-up-my-capacity) para filtrar por capacidade e analisar as métricas de desempenho do conteúdo da área de trabalho. É possível rever as métrica de desempenho e utilização de recursos por hora, para os últimos sete dias, para todos os conteúdos armazenados numa capacidade Premium. Por isso, para investigar o desempenho do fluxo de dados, recomenda-se que comece com a aplicação.
+Em suma, o objetivo é otimizar o tamanho do seu contentor com base nas consultas a serem utilizadas. Por exemplo, carregar apenas dados a partir de uma origem para uma entidade não requer a solicitação de dados e o desempenho de quaisquer operações, apenas carrega os dados para o armazenamento. Precisa do máximo de paralelismo possível para esta situação, uma vez que pretende aumentar a velocidade das operações de atualização e carga. Por outro lado, quando adiciona mais operações de transformação (filtros complexos, associações, agregações), a memória deverá ser muito superior, uma vez que poderemos precisar de processar algumas destas operações de transformação em memória. Tenha em atenção que, se tiver outras operações de fluxo de dados em execução na capacidade, esta pode tornar essas operações mais lentas e forçá-las a esperar numa fila por um bloco de execução. Para esse fim, a monitorização e gestão de fluxos de dados, o desempenho de atualizações e toda a capacidade são apoiados pela aplicação **Métricas de Capacidade do Power BI Premium**. Pode utilizar a aplicação [Power BI Premium Capacity Metrics](../../admin/service-premium-capacity-optimize.md#what-content-is-using-up-my-capacity) para filtrar por capacidade e analisar as métricas de desempenho do conteúdo da área de trabalho. É possível rever as métrica de desempenho e utilização de recursos por hora, para os últimos sete dias, para todos os conteúdos armazenados numa capacidade Premium. Por isso, para investigar o desempenho do fluxo de dados, recomenda-se que comece com a aplicação.
 
 #### <a name="enhanced-compute-engine---an-opportunity-to-improve-performance"></a>Motor de computação avançado – uma oportunidade para melhorar o desempenho
 
@@ -106,7 +106,7 @@ Esta secção fornece orientações para cenários comuns ao utilizar cargas de 
 
 Os tempos de atualização lentos são, normalmente, um problema de paralelismo. Deve rever as seguintes opções por ordem:
 
-1. Um conceito chave para os tempos de atualização lentos é a natureza da sua preparação de dados. Na nossa analogia do restaurante, explicada anteriormente neste artigo, imagine que já preparou a comida, que está à espera de ser utilizada. Neste cenário, a comida pode ser cozinhada muito mais rapidamente devido ao tempo de preparação reduzido. Da mesma forma, sempre que for possível otimizar os seus tempos de atualização lentos ao tirar partido da preparação e desempenho adiantados da lógica de consultas pela sua origem de dados, deve fazê-lo. Especificamente, ao utilizar uma base de dados relacional como o SQL como origem, veja se a consulta inicial pode ser executada na origem e utilize essa consulta de origem para o fluxo de dados da extração inicial para a origem de dados. Se não conseguir utilizar uma consulta nativa no sistema de origem, desempenhe operações que o [motor de fluxos de dados consiga dobrar para a origem de dados](https://docs.microsoft.com/power-query/power-query-folding).
+1. Um conceito chave para os tempos de atualização lentos é a natureza da sua preparação de dados. Na nossa analogia do restaurante, explicada anteriormente neste artigo, imagine que já preparou a comida, que está à espera de ser utilizada. Neste cenário, a comida pode ser cozinhada muito mais rapidamente devido ao tempo de preparação reduzido. Da mesma forma, sempre que for possível otimizar os seus tempos de atualização lentos ao tirar partido da preparação e desempenho adiantados da lógica de consultas pela sua origem de dados, deve fazê-lo. Especificamente, ao utilizar uma base de dados relacional como o SQL como origem, veja se a consulta inicial pode ser executada na origem e utilize essa consulta de origem para o fluxo de dados da extração inicial para a origem de dados. Se não conseguir utilizar uma consulta nativa no sistema de origem, desempenhe operações que o [motor de fluxos de dados consiga dobrar para a origem de dados](/power-query/power-query-folding).
 
 2. Avalie a distribuição de tempos de atualização na mesma capacidade. As operações de atualização são um processo que requer uma computação significativa. Com a nossa analogia do restaurante, a distribuição de tempos de atualização corresponde à limitação do número de convidados no seu restaurante. Assim como os restaurantes fazem reservas para os convidados e fazem planos relativamente à capacidade, também deverá considerar as operações de atualização durante os tempos em que a utilização não esteja no seu pico. Isto poderá aliviar bastante a sobrecarga na capacidade.
 
@@ -136,7 +136,7 @@ Siga os passos seguintes para permitir que as cargas de trabalho acionem o motor
 
 1. Para a *ingestão* , concentre-se em transmitir os dados para o armazenamento o mais rapidamente possível, utilizando os filtros apenas se for reduzido o tamanho do conjunto de dados no geral. É uma boa prática manter a sua lógica de transformação à parte deste passo e permitir que o motor se concentre na recolha inicial de ingredientes. Em seguida, separe a sua lógica de transformação e negócio num fluxo de dados separado na mesma área de trabalho, com entidades ligadas ou calculadas. Ao fazê-lo, está a permitir que o motor ative e acelere as suas computações. Na nossa analogia, é como preparar a comida na cozinha: a preparação da comida é, normalmente, um passo separado e distinto da recolha dos ingredientes não cozinhados e um pré-requisito para colocar a comida no forno. Da mesma forma, as suas necessidades de lógica precisam de ser preparadas em separado, antes de tirar partido do motor de computação.
 
-2. Certifique-se de que desempenha as operações que se dobram, como uniões, associações, conversões, entre [outras](https://docs.microsoft.com/power-query/power-query-folding#transformations-that-can-achieve-folding).
+2. Certifique-se de que desempenha as operações que se dobram, como uniões, associações, conversões, entre [outras](/power-query/power-query-folding#transformations-that-can-achieve-folding).
 
 3. Crie fluxos de dados [dentro das orientações e limitações publicadas](dataflows-features-limitations.md#dataflows-in-premium).
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 10/29/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 899dc5092ac86e08d552758e74dfabd8b373f5c0
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 93d982c684014430009a80112da841820e7b0fc9
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044717"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396402"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configurar o suporte da Multi-Geo para o Power BI Premium
 
@@ -98,7 +98,7 @@ Os conjuntos de dados de formato de grande armazenamento não devem ser movidos 
 - Uma consulta em cache armazenada numa região remota permanece inativa nessa região. No entanto, os outros dados em trânsito podem ir e voltar entre várias localizações geográficas.
 - Ao mover dados de uma região para outra num ambiente Multi-Geo, os dados de origem pode permanecer na região da qual foram movidos até um máximo de 30 dias. Durante esse período, os utilizadores finais não terão acesso aos dados. São removidos desta região e destruídos durante esse período de 30 dias.
 - O texto de consulta e o tráfego de resultados da consulta dos modelos de dados importados não transitam pela região base. Os metadados do relatório ainda provêm da região remota e certos estados de encaminhamento de DNS podem retirar o tráfego da região. 
-- De momento, a funcionalidade de [fluxos de trabalho](../transform-model/service-dataflows-overview.md) não é suportada na Multi-Geo.
+- De momento, a funcionalidade de [fluxos de trabalho](../transform-model/dataflows/dataflows-introduction-self-service.md) não é suportada na Multi-Geo.
 - Mover conjuntos de dados de formato de grande armazenamento da região onde foram criados fará com que os relatórios não consigam carregar o conjunto de dados. Mova os conjuntos de dados de grande armazenamento para a sua região original para que fiquem disponíveis. 
 
 ## <a name="next-steps"></a>Próximos passos
@@ -107,4 +107,3 @@ Os conjuntos de dados de formato de grande armazenamento não devem ser movidos 
 - [Multi-Geo para as capacidades do Power BI Embedded](../developer/embedded/embedded-multi-geo.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

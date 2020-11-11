@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f96fa15981de8d86007c6e1fa768f95a77921280
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 21d619c42648f90746af9961475bb531dc24d5ab
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680952"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396662"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>Obter os requisitos para migrar para o Power BI
 
@@ -51,12 +51,12 @@ Compile informações completas e de referência fácil sobre os relatórios, ta
 - **Requisitos de segurança:** esclareça os requisitos de segurança (como visualizadores permitidos, editores permitidos e quaisquer necessidades de segurança ao nível da linha), incluindo quaisquer exceções à segurança organizacional normal. Documente qualquer nível de confidencialidade de dados, privacidade de dados ou necessidades normativas/de conformidade.
 - **Cálculos, KPIs e regras de negócio:** identifique e documente todos os cálculos, KPIs e regras de negócio atualmente definidos no relatório existente, para que possam ser alinhados com os requisitos dos dados.
 - **Requisitos de utilização, esquema e estéticos:** identifique necessidades estéticas, de utilização e de esquema específicas relacionadas com os requisitos de agrupamento, classificação e visualizações dos dados e a visibilidade condicional. Inclua todas as considerações específicas relacionadas com a entrega de dispositivos móveis.
-- **Necessidades de impressão e exportação:** determine se há requisitos específicos para impressão, exportação ou esquema de aspeto perfeito. Estas necessidades vão influenciar o tipo de relatório que poderá ser mais adequado (como um Power BI, Excel ou relatório paginado). Tenha atenção que os consumidores dos relatórios tendem a dar muita importância à forma como sempre fizeram as coisas, portanto, não se preocupe em desafiar a forma de pensar deles. Não se esqueça de falar em termos de _melhoramentos_ em vez de _alterações_ .
+- **Necessidades de impressão e exportação:** determine se há requisitos específicos para impressão, exportação ou esquema de aspeto perfeito. Estas necessidades vão influenciar o tipo de relatório que poderá ser mais adequado (como um Power BI, Excel ou relatório paginado). Tenha atenção que os consumidores dos relatórios tendem a dar muita importância à forma como sempre fizeram as coisas, portanto, não se preocupe em desafiar a forma de pensar deles. Não se esqueça de falar em termos de _melhoramentos_ em vez de _alterações_.
 - **Riscos ou preocupações:** determine se há outros requisitos técnicos ou funcionais para os relatórios, bem como quaisquer riscos ou preocupações sobre as informações apresentadas nos mesmos.
 - **Problemas abertos e itens de registos de tarefas pendentes:** identifique todas as manutenções futuras, problemas conhecidos ou pedidos adiados para adicionar ao registo de tarefas pendentes neste momento.
 
 > [!TIP]
-> Considere classificar os requisitos como _necessários_ ou _úteis_ . Frequentemente, os consumidores pedem tudo aquilo que poderão vir a precisar com antecedência pois acreditam que pode ser a única hipótese de fazer os pedidos. Além disso, ao estabelecer as prioridades em várias iterações, o registo de tarefas pendentes é disponibilizado aos intervenientes, o que ajuda na comunicação, tomada de decisões e acompanhamento de compromissos pendentes.
+> Considere classificar os requisitos como _necessários_ ou _úteis_. Frequentemente, os consumidores pedem tudo aquilo que poderão vir a precisar com antecedência pois acreditam que pode ser a única hipótese de fazer os pedidos. Além disso, ao estabelecer as prioridades em várias iterações, o registo de tarefas pendentes é disponibilizado aos intervenientes, o que ajuda na comunicação, tomada de decisões e acompanhamento de compromissos pendentes.
 
 ### <a name="gather-data-requirements"></a>Obter os requisitos dos dados
 
@@ -74,7 +74,7 @@ Compile informações detalhadas referentes aos dados, como:
 - **Problemas abertos e itens de registos de tarefas pendentes:** adicione todos os problemas conhecidos, defeitos de qualidade dos dados conhecidos, manutenção futura ou pedidos adiados para o registo de tarefas pendentes neste momento.
 
 > [!IMPORTANT]
-> A reutilização dos dados pode ser obtida com os [conjuntos de dados partilhados](../connect-data/service-datasets-share.md), que, opcionalmente, podem ser [certificados](../collaborate-share/service-endorse-content.md) para indicar a fiabilidade e melhorar a deteção. A reutilização da preparação de dados pode ser obtida com os [fluxos de dados](../transform-model/service-dataflows-overview.md) para reduzir a lógica repetitiva em vários conjuntos de dados. Os fluxos de dados também podem reduzir significativamente a carga nos sistemas de origem, pois os dados são recuperados com menor frequência. Desta forma, vários conjuntos de dados podem assim importar dados do fluxo de dados.
+> A reutilização dos dados pode ser obtida com os [conjuntos de dados partilhados](../connect-data/service-datasets-share.md), que, opcionalmente, podem ser [certificados](../collaborate-share/service-endorse-content.md) para indicar a fiabilidade e melhorar a deteção. A reutilização da preparação de dados pode ser obtida com os [fluxos de dados](../transform-model/dataflows/dataflows-introduction-self-service.md) para reduzir a lógica repetitiva em vários conjuntos de dados. Os fluxos de dados também podem reduzir significativamente a carga nos sistemas de origem, pois os dados são recuperados com menor frequência. Desta forma, vários conjuntos de dados podem assim importar dados do fluxo de dados.
 
 ## <a name="identify-improvement-opportunities"></a>Identificar oportunidades de melhoramento
 

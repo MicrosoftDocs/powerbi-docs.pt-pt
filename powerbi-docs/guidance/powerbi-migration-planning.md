@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 590e28c727cab88b008d7a05e7df22244e8dabf0
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: fd57d893a0c381c345364306e04d4897597b36f1
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803372"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396984"
 ---
-# <a name="plandeploymenttomigratetopowerbi"></a>Planear a implementação para migrar para o Power BI
+# <a name="plan-deployment-to-migrate-to-power-bi"></a>Planear a implementação para migrar para o Power BI
 
-Este artigo descreve a **Fase 2**, que diz respeito ao planeamento da migração para uma solução do Power BI única.
+Este artigo descreve a **Fase 2** , que diz respeito ao planeamento da migração para uma solução do Power BI única.
 
 :::image type="content" source="media/powerbi-migration-planning/migrate-to-powerbi-stage-2.png" alt-text="Imagem a mostrar as fases de uma migração do Power BI. A Fase 2 está realçada neste artigo.":::
 
@@ -96,7 +96,7 @@ Os dados exigidos por um relatório podem influenciar várias decisões. Eis alg
 - Um conjunto de dados partilhado existente precisa de ser aumentado com novos dados ou medidas para dar resposta às necessidades adicionais?
 - Que [modo de armazenamento de dados](../transform-model/desktop-storage-mode.md) será mais adequado? As opções incluem a Importação, o DirectQuery, o Modelo Composto ou a Ligação em Direto.
 - As [agregações](../transform-model/desktop-aggregations.md) devem ser utilizadas para melhorar o desempenho de consultas?
-- Será a criação de um [fluxo de dados](../transform-model/service-dataflows-overview.md) útil e poderá servir como origem para vários conjuntos de dados?
+- Será a criação de um [fluxo de dados](../transform-model/dataflows/dataflows-introduction-self-service.md) útil e poderá servir como origem para vários conjuntos de dados?
 - Será necessário registar uma nova [origem de dados de gateway](../connect-data/service-gateway-data-sources.md)?
 
 ## <a name="decide-where-original-content-will-be-stored"></a>Decidir onde o conteúdo original será armazenado

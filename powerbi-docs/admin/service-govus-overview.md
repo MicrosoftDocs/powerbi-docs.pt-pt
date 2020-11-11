@@ -10,12 +10,12 @@ ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: fe4f9c54b45035cc22f2e582a75ba98d648c549d
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: c90d15c20b54a25ccea5865302753e0189359be2
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132373"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396110"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes do Governo Norte-Americano
 
@@ -124,8 +124,8 @@ A tabela seguinte apresenta as funcionalidades que não estão disponíveis num 
 |[Conectividade do Power Automate para alertas baseados em dados](../connect-data/power-bi-data-sources.md)|![disponível](../media/yes.png)|![disponível](../media/yes.png)|![não disponível](../media/no.png)|
 |[Separador Power BI no Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![disponível](../media/yes.png)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|
 |[Modelos grandes](service-premium-large-models.md) | T4 de 2020 |T4 de 2020| ![não disponível](../media/no.png) |
-|[Fluxos de dados – otimização do motor de computação SQL](../transform-model/service-dataflows-enhanced-compute-engine.md) | T4 de 2020 |T4 de 2020| ![não disponível](../media/no.png) |
-|[Fluxos de dados – Direct Query](../transform-model/service-dataflows-directquery.md) | T4 de 2020 |T4 de 2020|![não disponível](../media/no.png)|
+|[Fluxos de dados – otimização do motor de computação SQL](../transform-model/dataflows/dataflows-premium-features.md) | T4 de 2020 |T4 de 2020| ![não disponível](../media/no.png) |
+|[Fluxos de dados – Direct Query](../transform-model/dataflows/dataflows-configure-consume.md) | T4 de 2020 |T4 de 2020|![não disponível](../media/no.png)|
 |[Proteção de Dados (Etiquetas da MIP)](service-security-sensitivity-label-overview.md)|T4 de 2020|T4 de 2020 |T4 de 2020|
 |[Aplicações de modelo](../connect-data/service-template-apps-overview.md)<sup>3</sup>|T4 de 2020 |T4 de 2020| T4 de 2020|
 |[Elementos Visuais Personalizados](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|T4 de 2020 |T4 de 2020| T4 de 2020|
