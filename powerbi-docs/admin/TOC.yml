@@ -44,6 +44,8 @@
               href: service-premium-capacity-scenarios.md
             - name: Perguntas Frequentes do Power BI Premium
               href: service-premium-faq.md
+            - name: FAQ do Power BI Premium Por Utilizador
+              href: service-premium-per-user-faq.md
     - name: Procedimentos
       items:
         - name: Licenciamento e inscrição
@@ -106,6 +108,8 @@
               href: service-admin-premium-manage.md
             - name: Configurar cargas de trabalho
               href: service-admin-premium-workloads.md
+            - name: Comprar o Power BI Premium para testes
+              href: service-admin-premium-testing.md
             - name: Monitorizar capacidades com a aplicação
               href: service-admin-premium-monitor-capacity.md
             - name: Monitorizar as métricas da carga de trabalho Premium
