@@ -8,23 +8,23 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 09/02/2020
-ms.openlocfilehash: ca9c18cbd51737a5e4b05f3504c6ac2760006281
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 447f73601362c9ee205fe64119d0c251e7b4eb9a
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92051116"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412286"
 ---
 # <a name="set-up-your-environment-for-developing-a-power-bi-visual"></a>Configurar o seu ambiente para programar um elemento visual do Power BI
 
 Neste artigo, vai aprender a configurar o seu ambiente para programar um elemento visual do Power BI.
 
-Antes de começar a programação, tem de instalar **node.js** e o pacote **pbiviz** . Também precisa de criar e instalar um certificado. Quando o ambiente local estiver configurado, vai precisar de configurar o serviço Power BI para programar um elemento visual do Power BI.
+Antes de começar a programação, tem de instalar **node.js** e o pacote **pbiviz**. Também precisa de criar e instalar um certificado. Quando o ambiente local estiver configurado, vai precisar de configurar o serviço Power BI para programar um elemento visual do Power BI.
 
 Neste artigo, vai aprender a:
 > [!div class="checklist"]
-> * Instalar o *nodes.js* .
-> * Instalar o *pbiviz* .
+> * Instalar o *nodes.js*.
+> * Instalar o *pbiviz*.
 > * Criar e instalar um certificado.
 > * Configurar o serviço Power BI para programar um elemento visual.
 > * Instalar bibliotecas adicionais (obrigatórias para programar um elemento visual).
@@ -33,7 +33,7 @@ Neste artigo, vai aprender a:
 
 O *Node.js* é um runtime JavaScript criado no motor JavaScript V8 do Chrome. Permite que os programadores executem qualquer aplicação criada em JavaScript.
 
-1. Para instalar o *node.js* , num browser, navegue até [node.js](https://nodejs.org).
+1. Para instalar o *node.js*, num browser, navegue até [node.js](https://nodejs.org).
 
 2. Transfira o instalador MSI mais recente.
 
@@ -43,7 +43,7 @@ O *Node.js* é um runtime JavaScript criado no motor JavaScript V8 do Chrome. Pe
 
 ## <a name="install-pbiviz"></a>Instalar o pbiviz
 
-A ferramenta *pbiviz* , que é escrita com JavaScript, compila o código fonte do elemento visual do pacote *pbiviz* .
+A ferramenta *pbiviz* , que é escrita com JavaScript, compila o código fonte do elemento visual do pacote *pbiviz*.
 
 O pacote *pbiviz* é um projeto de elemento visual do Power BI comprimido, com todos os scripts e recursos necessários.
 
@@ -59,7 +59,7 @@ Para que um cliente (o seu computador) e um servidor (serviço Power BI) intera
 
 # <a name="windows"></a>[Windows](#tab/windows)
 
-Este processo descreve a execução de um comando do PowerShell que inicia o **Assistente para Importar Certificados** . Siga os passos abaixo para configurar o certificado no assistente.
+Este processo descreve a execução de um comando do PowerShell que inicia o **Assistente para Importar Certificados**. Siga os passos abaixo para configurar o certificado no assistente.
 
 >[!IMPORTANT]
 >Não feche a janela do PowerShell durante este procedimento.
@@ -71,43 +71,43 @@ Este processo descreve a execução de um comando do PowerShell que inicia o **A
     ```
 
     Este comando realiza duas ações:
-    * Devolve uma *frase de acesso* . Neste caso, a *frase de acesso* é 9765328806094.
+    * Devolve uma *frase de acesso*. Neste caso, a *frase de acesso* é 9765328806094.
     * Também inicia o Assistente para Importar Certificados.
     
     >[!div class="mx-imgBorder"]
     >![Captura de ecrã do comando p b i v i z executado no Windows PowerShell](media/environment-setup/powershell-pbiviz.png)
 
-2. No Assistente para Importar Certificados, verifique se a localização de armazenamento está definida como *Utilizador Atual* e selecione **Seguinte** .
+2. No Assistente para Importar Certificados, verifique se a localização de armazenamento está definida como *Utilizador Atual* e selecione **Seguinte**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de ecrã da primeira janela do assistente para importar certificados, com a opção localização do arquivo definida como utilizador atual.](media/environment-setup/certificate-wizard-store-location.png)
 
-3. Na janela **Ficheiro a Importar** , selecione **Seguinte** .
+3. Na janela **Ficheiro a Importar**, selecione **Seguinte**.
 
-4. Na janela **Proteção da Chave Privada** , na caixa de texto *Palavra-passe* , cole a frase de acesso que recebeu ao executar o comando do PowerShell (passo 1) e selecione **Seguinte** . Neste exemplo, a frase de acesso é 9765328806094.
+4. Na janela **Proteção da Chave Privada**, na caixa de texto *Palavra-passe* , cole a frase de acesso que recebeu ao executar o comando do PowerShell (passo 1) e selecione **Seguinte**. Neste exemplo, a frase de acesso é 9765328806094.
 
     >[!div class="mx-imgBorder"]
     >![Captura de ecrã da janela proteção da chave privada do assistente para importar certificados, com a caixa da palavra-passe realçada.](media/environment-setup/certificate-wizard-password.png)
 
-5. Na janela **Arquivo de Certificados** , selecione a opção **Colocar todos os certificados no seguinte arquivo** e selecione **Procurar** .
+5. Na janela **Arquivo de Certificados**, selecione a opção **Colocar todos os certificados no seguinte arquivo** e selecione **Procurar**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de ecrã da janela do arquivo de certificados do assistente para importar certificados, com a opção colocar todos os certificados no seguinte arquivo selecionada.](media/environment-setup/certificate-wizard-certificate-store.png)
 
-6. Na janela **Selecionar Arquivo de Certificados** , selecione **Autoridades de Certificação de Raiz Fidedigna** e, em seguida, selecione **OK** .
+6. Na janela **Selecionar Arquivo de Certificados**, selecione **Autoridades de Certificação de Raiz Fidedigna** e, em seguida, selecione **OK**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de ecrã da janela selecionar arquivo de certificados, com a pasta Autoridades de Certificação de Raiz Fidedigna selecionada.](media/environment-setup/trusted-root.png)
 
-7. Selecione *Seguinte* na janela **Arquivo de Certificados** .
+7. Selecione *Seguinte* na janela **Arquivo de Certificados**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de ecrã da janela do arquivo de certificados do assistente para importar certificados, com a pasta Autoridades de Certificação de Raiz Fidedigna selecionada e o botão seguinte realçado.](media/environment-setup/certificate-wizard-store-next.png)
 
-8. Na janela **Concluir o Assistente para Importar Certificados** , verifique as suas definições e selecione **Concluir** .
+8. Na janela **Concluir o Assistente para Importar Certificados**, verifique as suas definições e selecione **Concluir**.
 
     >[!NOTE]
-    >Se receber um aviso de segurança, selecione **Sim** .
+    >Se receber um aviso de segurança, selecione **Sim**.
 
 
 # <a name="osx"></a>[OSX](#tab/sdk2osx)
@@ -120,7 +120,7 @@ Este processo descreve a execução de um comando do PowerShell que inicia o **A
 
     ![Instalar o certificado 2 de SSL no OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx2.png)
 
-3. Introduza o seu nome de utilizador e palavra-passe e selecione **Definições de Atualização** .
+3. Introduza o seu nome de utilizador e palavra-passe e selecione **Definições de Atualização**.
 
     ![Instalar o certificado 3 de SSL no OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx3.png)
 
@@ -144,12 +144,12 @@ Para programar um elemento visual do Power BI, tem de ativar a depuração de e
 
 1. Inicie sessão em [PowerBI.com](https://powerbi.microsoft.com/).
 
-2. Navegue até **Definições** > **Definições** > **Definições** .
+2. Navegue até **Definições** > **Definições** > **Definições**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de ecrã da opção do menu definições, definições, definições no serviço Power BI.](media/environment-setup/powerbi-settings.png)
 
-3. No separador **Geral** , selecione **Programador** . Nas **Definições de Programador** selecione a caixa de verificação **Ativar a depuração de elementos visuais personalizados com o elemento visual do programador** e selecione **Aplicar** .
+3. No separador **Geral**, selecione **Programador**. Nas **Definições de Programador** selecione a caixa de verificação **Ativar a depuração de elementos visuais personalizados com o elemento visual do programador** e selecione **Aplicar**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de ecrã da ativação da depuração de elementos visuais personalizados através da opção elemento visual do programador, nas definições do Power BI, separador geral.](media/environment-setup/developer-settings.png)
@@ -211,22 +211,22 @@ O [Visual Studio Code](https://code.visualstudio.com/) (VS Code) é um IDE (Ambi
     >```powershell
     >code .
     >```
-2. No VS Code, abra o menu **Ficheiro** e selecione **Abrir Pasta** .
+2. No VS Code, abra o menu **Ficheiro** e selecione **Abrir Pasta**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de ecrã da opção Abrir Pasta do VS Studio, no menu Ficheiro.](media/environment-setup/open-folder.png)
 
-3. Na janela **Abrir Pasta** , selecione a pasta que contém o projeto do elemento visual do Power BI e selecione **Selecionar Pasta** .
+3. Na janela **Abrir Pasta**, selecione a pasta que contém o projeto do elemento visual do Power BI e selecione **Selecionar Pasta**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de ecrã da seleção da pasta de projeto de elementos visuais do Power BI na janela Abrir Pasta do VS Studio.](media/environment-setup/project-folder.png)
 
-4. No painel **Explorador** , expanda a pasta **node_modules** e verifique se a biblioteca **d3** foi instalada.
+4. No painel **Explorador**, expanda a pasta **node_modules** e verifique se a biblioteca **d3** foi instalada.
 
     >[!div class="mx-imgBorder"]
     >![Captura de ecrã da pasta 3d num projeto de elementos visuais do Power BI, conforme aparece no VS Code.](media/environment-setup/verify-d3.png)
 
-5. No painel **Explorer** , expanda **node_modules > @types  > d3** e verifique se o ficheiro **index.t.ds** está instalado.
+5. No painel **Explorer**, expanda **node_modules > @types  > d3** e verifique se o ficheiro **index.t.ds** está instalado.
 
     >[!div class="mx-imgBorder"]
     >![Captura de ecrã do ficheiro index.t.ds num projeto de elementos visuais do Power BI, conforme aparece no VS Code.](media/environment-setup/verify-index.png)

@@ -8,128 +8,179 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: eac2f6d1bcb79ccf25f69eb79b73ae884898ec58
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 52e835f4ff0d3dc4cad13c2e3ecc77d254f3be9d
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748684"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412262"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Registar uma aplicação do Azure AD para utilizar com o Power BI
 
-Saiba como registar uma aplicação no Azure Active Directory (Azure AD) para utilizar ao incorporar conteúdo do Power BI.
+Para utilizar a análise incorporada do Power BI, precisa de registar uma aplicação do Azure Active Directory (Azure AD) no Azure. A aplicação do Azure AD estabelece permissões para os recursos REST do Power BI e permite o acesso às [APIs REST do Power BI](/rest/api/power-bi/).
 
-Pode registar a aplicação com o Azure AD para permitir que a sua aplicação aceda às [APIs REST do Power BI](/rest/api/power-bi/). Quando registar a sua aplicação, pode estabelecer uma identidade para a sua aplicação e especificar permissões para recursos REST do Power BI.
+## <a name="determine-your-embedding-solution"></a>Determinar a sua solução incorporada
+
+Antes de registar a sua aplicação, decida qual das seguintes soluções é a mais adequada para si:
+
+* Incorporar para os seus clientes
+* Incorporar para a sua organização
+
+### <a name="embed-for-your-customers"></a>Incorporar para os seus clientes
+
+Utilize a solução [Incorporar para os seus clientes](embed-sample-for-customers.md), também conhecida como *dados que pertencem à aplicação*, se estiver a planear criar uma aplicação concebida para os seus clientes. Os utilizadores não irão precisar de iniciar sessão no Power BI ou de ter uma licença do Power BI para utilizarem a sua aplicação. A sua aplicação irá utilizar um dos seguintes métodos para autenticar face ao Power BI:
+
+* Conta de **utilizador principal** (uma licença do Power BI Pro utilizada para iniciar sessão no Power BI)
+
+*  [Service principal (Principal de serviço)](embed-service-principal.md)
+
+Normalmente, a solução Incorporar para os seus clientes é utilizada por programadores e fornecedores de software independentes (ISVs) que estão a criar uma aplicação para terceiros.
+
+### <a name="embed-for-your-organization"></a>Incorporar para a sua organização
+
+Utilize a solução [Incorporar para a sua organização](embed-sample-for-your-organization.md), também conhecida como *os dados pertencem ao utilizador*, se estiver a planear criar uma aplicação que precise que os utilizadores utilizem as suas credenciais para se autenticarem face ao Power BI.
+
+Normalmente, a solução Incorporar para a sua organização é utilizada por grandes empresas e organizações e é destinada a utilizadores internos.
+
+## <a name="register-an-azure-ad-app"></a>Registar uma aplicação do Azure AD
+
+A forma mais fácil de registar uma aplicação do Azure AD é ao utilizar a [ferramenta de configuração de incorporação do Power BI](https://app.powerbi.com/embedsetup). A ferramenta oferece um processo de registo rápido para ambas as soluções de incorporação, ao utilizar uma interface gráfica simples.
+
+Se estiver a criar uma aplicação com a solução *Incorporar para a sua organização* e quiser obter mais controlo sobre a sua aplicação do Azure AD, pode registá-la manualmente no portal do Azure.
 
 > [!IMPORTANT]
-> Antes de registar uma aplicação do Power BI, precisa de um [inquilino do Azure Active Directory e um utilizador organizacional](create-an-azure-active-directory-tenant.md). Se ainda não se inscreveu no Power BI com um utilizador no seu inquilino, o registo da aplicação não é concluído com êxito.
+> Antes de registar uma aplicação do Power BI, precisa de um [inquilino do Azure Active Directory e um utilizador organizacional](create-an-azure-active-directory-tenant.md).
 
-Existem duas formas de registar a sua aplicação. A primeira é com a [Ferramenta de Registo de Aplicações do Power BI](https://dev.powerbi.com/apps/) ou pode fazê-lo diretamente no portal do Azure. A Ferramenta de Registo de Aplicações do Power BI é a opção mais adequada, pois há apenas alguns campos para preencher. Se quiser fazer alterações na sua aplicação, utilize o portal do Azure.
+# <a name="embed-for-your-customers"></a>[Incorporar para os seus clientes](#tab/customers)
 
-## <a name="register-with-the-power-bi-application-registration-tool"></a>Registar com a Ferramenta de Registo de Aplicações do Power BI
+Estes passos descrevem como registar uma aplicação do Azure AD para a solução [Incorporar para os seus clientes](embed-sample-for-customers.md) do Power BI.
 
-Registe a aplicação no **Azure Active Directory** para estabelecer uma identidade para a sua aplicação e especificar permissões para recursos REST do Power BI. Ao registar uma aplicação, como uma aplicação de consola ou de um site, receberá um identificador que é utilizado pela aplicação para se identificar perante os utilizadores a quem está a pedir permissões.
+[!INCLUDE[registration tool step 1](../../includes/register-tool-step-1.md)]
 
-Veja aqui como registar a sua aplicação com a Ferramenta de Registo de Aplicações do Power BI:
+2. Na secção *Selecionar uma solução de incorporação*, selecione **Incorporar para os seus clientes**.
 
-1. Vá para [dev.powerbi.com/apps](https://dev.powerbi.com/apps).
+[!INCLUDE[registration tool step 3](../../includes/register-tool-step-3.md)]
 
-2. Selecione **Iniciar sessão** com a sua conta existente e, em seguida, selecione **Seguinte**.
+4. Em *Passo 2 – Registar a sua aplicação*, preencha os seguintes campos:
 
-3. Forneça um **Nome da Aplicação**.
+    * **Nome da Aplicação**: atribua um nome à sua aplicação.
 
-4. Forneça um **Tipo de Aplicação**.
+    * **Acesso à API**: selecione as APIs do Power BI (também conhecidas como âmbitos) de que a sua aplicação precisa. Pode utilizar a opção *Selecionar tudo* para selecionar todas as APIs. Para obter mais informações sobre as permissões de acesso do Power BI, consulte [Permissões e consentimento no ponto final da plataforma de identidades da Microsoft](/azure/active-directory/develop/v2-permissions-and-consent).
 
-    Eis as diferenças entre optar por uma aplicação **Nativa** e uma **Aplicação Web do lado do servidor** para um tipo de aplicação.
+5. Selecione **Registar**.
 
-    Nativa:
-    * Planeia criar uma aplicação [destinada aos seus clientes](embed-sample-for-customers.md) através de uma conta de utilizador principal (uma licença do Power BI Pro utilizada para iniciar sessão no Power BI) para autenticar.
+    O **ID da Aplicação** da sua aplicação do Azure AD é apresentado na caixa *Resumo*. Copie este valor para utilizar mais tarde.
 
-    Aplicação Web do lado do servidor:
-    * Planeia criar uma aplicação [destinada à sua organização](embed-sample-for-your-organization.md).
-    * Planeia criar uma aplicação [destinada aos seus clientes](embed-sample-for-customers.md) através do principal de serviço para autenticar.
-    * Planeia criar aplicações Web ou APIs Web.
+[!INCLUDE[registration tool steps 6-7](../../includes/register-tool-steps-6-7.md)]
 
-    ![Tipo de aplicação](media/register-app/register-app-new-design-app-type.png)
+8. Em *Passo 5 – Conceder permissão*, selecione **Conceder permissões** e, na janela de pop-up, selecione **Aceitar**. Isto permite à sua aplicação do Azure AD aceder às API's que selecionou (também conhecidas como âmbitos) com o seu utilizador com sessão iniciada. Este utilizador também é conhecido como **utilizador principal**.
 
-5. Se selecionou **Aplicação Web do lado do servidor** para o tipo de aplicação, então continue a introduzir um valor para o **URL da Home Page** e **URL de Redirecionamento**. O **URL de Redirecionamento** funciona com qualquer URL válido e deve corresponder à aplicação que criou. Se selecionou **Nativa**, então avance para o passo 6.
+9. (Opcional) Se criou uma área de trabalho do Power BI e carregou conteúdos para a mesma com a ferramenta, pode selecionar **Transferir aplicação de exemplo**. Certifique-se de que copia todas as informações na caixa *Resumo*.
 
-6. Selecione as APIs Power BI de que a sua aplicação precisa. Para obter mais informações sobre as permissões de acesso do Power BI, consulte [Permissões e consentimento no ponto final da plataforma de identidades da Microsoft](/azure/active-directory/develop/v2-permissions-and-consent). Em seguida, selecione **Registar**.
+[!INCLUDE[registration tool note](../../includes/register-tool-note.md)]
 
-    ![Escolher APIs para registar](media/register-app/register-app-new-app-registration-apis-register.png)
+# <a name="embed-for-your-organization"></a>[Incorporar para a sua organização](#tab/organization)
 
-    > [!Important]
-    > Se ativar os principais de serviço a serem utilizados com o Power BI, as permissões do Azure Active Directory deixarão de estar em vigor. As permissões são geridas através do portal de administração do Power BI.
+Estes passos descrevem como registar uma aplicação do Azure AD para a solução [Incorporar para a sua organização](embed-sample-for-your-organization.md) do Power BI.
 
-7. Se selecionar **Nativa** para o tipo de aplicação, ser-lhe-á fornecido um **ID de Aplicação**. Se selecionar **Aplicação Web do lado do servidor** para o tipo de aplicação, irá receber um **ID de Aplicação** e um **Segredo da aplicação**.
+[!INCLUDE[registration tool step 1](../../includes/register-tool-step-1.md)]
 
-    > [!Note]
-    > O **ID de Aplicação** pode ser obtido a partir do portal do Azure, posteriormente, se necessário. Se perder o **Segredo da aplicação**, terá de criar um novo no portal do Azure.
+2. Na secção *Selecionar uma solução de incorporação*, selecione **Incorporar para a sua organização**.
 
-| Nativa | Aplicação Web do lado do servidor |
-|--------|-----------------------------|
-| ![Sucesso da aplicação nativa](media/register-app/register-app-new-design-success-native.png) | ![Sucesso da aplicação Web do lado do servidor](media/register-app/register-app-new-design-success-server-side-web-app.png) |
+[!INCLUDE[registration tool step 3](../../includes/register-tool-step-3.md)]
 
-Agora pode utilizar a aplicação registada como parte da sua aplicação personalizada para interagir com o serviço Power BI e a sua aplicação do Power BI Embedded.
+4. Em *Passo 2 – Registar a sua aplicação*, preencha os seguintes campos:
 
-## <a name="register-with-the-azure-portal"></a>Registar com o portal do Azure
+    * **Nome da Aplicação**: atribua um nome à sua aplicação.
 
-A outra opção para registar a aplicação é fazê-lo diretamente no portal do Azure. Para registar a sua aplicação, siga estes passos.
+    * **URL da Home Page**: introduza um URL para a sua home page.
 
-1. Aceite os [Termos da API do Microsoft Power BI](https://powerbi.microsoft.com/api-terms).
+    * **URL de redirecionamento**: após iniciarem sessão, os utilizadores da sua aplicação serão redirecionados para este endereço enquanto a sua aplicação recebe um código de autenticação do Azure. Selecione uma das seguintes opções:
 
-2. Inicie sessão no [portal do Azure](https://portal.azure.com).
+        * **Utilizar um URL predefinido**: esta opção irá criar e transferir automaticamente uma aplicação de análise incorporada de exemplo. O URL predefinido é http://localhost:13526/.
 
-3. Escolha o seu inquilino do Azure AD ao selecionar a sua conta no canto superior direito da página.
+        * **Utilizar um URL personalizado**: selecione esta opção se já tiver uma aplicação de análise incorporada e sabe o que pretende utilizar como URL de redirecionamento.
 
-4. No painel de navegação esquerdo, aceda a **Todos os serviços**, selecione **Registos das Aplicações** e, em seguida, selecione **Novo registo**.
+    * **Acesso à API**: selecione as APIs do Power BI (também conhecidas como âmbitos) de que a sua aplicação precisa. Pode utilizar a opção *Selecionar tudo* para selecionar todas as APIs. Para obter mais informações sobre as permissões de acesso do Power BI, consulte [Permissões e consentimento no ponto final da plataforma de identidades da Microsoft](/azure/active-directory/develop/v2-permissions-and-consent).
 
-5. Siga as instruções e crie uma nova aplicação.
+5. Selecione **Registar**.
 
-   Para obter mais informações sobre como registar aplicações no Azure Active Directory, veja [Register an app with the Azure Active Directory](/azure/active-directory/develop/quickstart-v2-register-an-app) (Registar aplicações com o Azure Active Directory)
+    Os valores **ID da Aplicação** e **Segredo da aplicação** da sua aplicação do Azure AD são apresentados na caixa *Resumo*. Copie estes valores para utilizar mais tarde.
 
-## <a name="how-to-get-the-application-id"></a>Como obter o ID de Aplicação
+[!INCLUDE[registration tool steps 6-7](../../includes/register-tool-steps-6-7.md)]
 
-Ao registar uma aplicação, receberá um [ID de Aplicação](embed-sample-for-customers.md#application-id).  O **ID de Aplicação** pede permissões aos utilizadores através da aplicação para os identificar.
+8. (Opcional) Se criou uma área de trabalho do Power BI e carregou conteúdos para a mesma com a ferramenta, pode selecionar **Transferir aplicação de exemplo**. Certifique-se de que copia todas as informações na caixa *Resumo*.
 
-## <a name="how-to-get-the-service-principal-object-id"></a>Como obter o ID do objeto do principal de serviço
+[!INCLUDE[registration tool note](../../includes/register-tool-note.md)]
 
-Ao utilizar as [APIs Power BI](/rest/api/power-bi/), certifique-se de que define as operações através do [ID do objeto do principal de serviço](embed-service-principal.md) para fazer referência ao principal de serviço – por exemplo, para aplicar um principal de serviço como um administrador à sua área de trabalho.
+# <a name="manual-registration"></a>[Registo manual](#tab/manual)
 
-## <a name="apply-permissions-to-your-application-within-azure-ad"></a>Aplicar permissões à sua aplicação no Azure AD
+Utilize o registo de aplicações manual do Azure AD apenas se for criar uma solução *Incorporar para a sua organização*. Para obter mais informações sobre como registar aplicações no Azure Active Directory, veja [Registar aplicações com o Azure Active Directory](/azure/active-directory/develop/quickstart-v2-register-an-app).
 
-Ative permissões adicionais na sua aplicação, para além do que a página de registo de aplicações fornece. Pode realizar esta tarefa através do portal do Azure AD ou ao programar.
+1. Inicie sessão no [portal do Azure](https://portal.azure.com).
 
-Precisa de ter sessão iniciada com uma conta *mestra*, utilizada para incorporar, ou uma conta de Administrador global.
+2. Selecione o seu inquilino do Azure AD ao selecionar a sua conta no canto superior direito da página.
 
-### <a name="using-the-azure-ad-portal"></a>Utilizar o portal do Azure AD
+3. Selecione **Registos de aplicações**. Se não conseguir ver esta opção, procure-a.
+ 
+4. Em *Registos de aplicações*, selecione **Novo registo**.
 
-1. Navegue até aos [Registos de aplicações](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType//sourceType/) no portal do Azure e selecione a aplicação que estiver a utilizar para incorporar.
+5. Preencha os seguintes campos:
 
-2. Selecione **Permissões de API** em **Gerir**.
+    * **Nome**: atribua um nome à sua aplicação.
 
-3. Em **Permissões de API**, selecione **Adicionar uma permissão** e, em seguida, selecione **Serviço Power BI**.
+    * **Tipo de conta suportada**: selecione quem pode utilizar a aplicação.
 
-    ![Permissões de aplicação 03](media/register-app/powerbi-embedded-azuread-app-permissions03.png)
+6. (Opcional) No campo **URI de redirecionamento**, adicione um URL de redirecionamento.
 
-4. Selecione as permissões específicas de que precisa em **Permissões Delegadas**. Selecione-as uma a uma para guardar as seleções. Selecione **Guardar** quando terminar.
+7. Selecione **Registar**. Após a sua aplicação estar registada, será direcionado para a página Descrição Geral da sua aplicação, onde poderá obter o *ID da Aplicação*.
 
-5. Selecione **Conceder Consentimento**.
+---
 
-    A ação **Conceder Consentimento** precisa da *conta principal* para evitar que lhe seja pedido consentimento pelo Azure AD. Se a conta que executa esta ação for de um Administrador Global, concede permissões a todos os utilizadores na sua organização para esta aplicação. Se a conta que realiza esta ação for a *conta principal* e não for de um Administrador Global, concede permissões apenas à *conta principal* para esta aplicação.
+## <a name="change-your-azure-ad-apps-permissions"></a>Alterar as permissões da sua aplicação do Azure AD
 
-### <a name="applying-permissions-programmatically"></a>Aplicar permissões programaticamente
+Após registar a sua aplicação, pode fazer alterações às respetivas permissões. As alterações às permissões podem ser efetuadas através de programação ou no portal do Azure.
 
-1. Tem de obter os principais de serviço existentes (utilizadores) no seu inquilino. Para obter informações sobre como fazê-lo, veja [servicePrincipal](/graph/api/resources/serviceprincipal?view=graph-rest-beta).
+# <a name="azure"></a>[Azure](#tab/Azure)
 
-    Pode chamar a *API Obter servicePrincipal* sem {ID} e esta irá apresentar-lhe todos os principais de serviço no inquilino.
+No portal do Azure, pode ver a sua aplicação e fazer alterações às respetivas permissões.
 
-2. Verifique a existência de um principal de serviço com o ID de aplicação da aplicação como a propriedade **appId**.
+1. Inicie sessão no [portal do Azure](https://portal.azure.com).
 
-3. Crie um novo plano de serviço se estiver em falta na sua aplicação.
+2. Selecione o seu inquilino do Azure AD ao selecionar a sua conta no canto superior direito da página.
+
+3. Selecione **Registos de aplicações**. Se não conseguir ver esta opção, procure-a.
+
+4. No separador **Aplicações Próprias**, selecione a sua aplicação. A aplicação abre no separador *Descrição Geral*, onde pode rever o *ID da Aplicação*.
+
+5. Selecione o separador **Permissões da API**.
+
+6. Para adicionar permissões, siga estes passos:
+
+    1. Selecione **Adicionar uma permissão** e, em seguida, selecione **Serviço Power BI**.
+
+    2. Selecione **Permissões Delegadas** e adicione ou remova as permissões específicas que precisar.
+
+    3. Quando terminar, selecione **Adicionar permissões** para guardar as alterações.
+
+7. Para remover uma permissão, siga estes passos:
+
+    1. Selecione as reticências (...) à direta da permissão.
+    
+    2. Selecione **Remover permissão**.
+    
+    3. Na janela de pop-up *Remover permissão*, selecione **Sim, remover**.
+
+# <a name="http"></a>[HTTP](#tab/HTTP)
+
+Para alterar as permissões da sua aplicação do Azure AD através de programação, irá precisar de obter os principais (utilizadores) de serviço existentes no seu inquilino. Para obter informações sobre como fazê-lo, veja [servicePrincipal](/graph/api/resources/serviceprincipal).
+
+1. Para obter todos os principais de serviço no seu inquilino, chame a API `Get servicePrincipal` sem `{ID}`.
+
+2. Verifique a existência de um principal de serviço com o *ID de aplicação* da aplicação como a propriedade `appId`.
 
     ```json
-    Post https://graph.microsoft.com/beta/servicePrincipals
+    Post https://graph.microsoft.com/v1.0/servicePrincipals HTTP/1.1
     Authorization: Bearer ey..qw
     Content-Type: application/json
     {
@@ -139,19 +190,17 @@ Precisa de ter sessão iniciada com uma conta *mestra*, utilizada para incorpora
     }
     ```
 
-4. Conceder Permissões de Aplicação à API do Power BI
+    >[!NOTE]
+    >`displayName` é opcional.
 
-   Se estiver a utilizar um inquilino existente e não estiver interessado em conceder permissões em nome de todos os utilizadores de inquilino, poderá conceder permissões a um utilizador específico ao substituir o valor de **contentType** por **Principal**.
+3. Conceda permissões ao Power BI para a sua aplicação, ao atribuir um destes valores a `consentType`:
 
-   O valor para **consentType** pode indicar **AllPrincipals** ou **Principal**.
+    * `AllPrincipals`: só pode ser utilizado por um administrador do Power BI para conceder permissões em nome de todos os utilizadores no inquilino.
 
-   * **AllPrincipals** só pode ser utilizado por um administrador do Power BI para conceder permissões em nome de todos os utilizadores no inquilino.
-   * **Principal** serve para conceder permissões em nome de um utilizador específico. Neste caso, deve ser adicionada uma propriedade adicional ao corpo do pedido: *principalId = {User_ObjectId}* .
-
-     Precisa de *Conceder permissões* para a conta principal, para evitar que lhe seja pedido consentimento pelo Azure AD, o que não é possível ao efetuar um início de sessão não interativo.
+    * `Principal`: utilize para conceder permissões em nome de um utilizador específico. Se estiver a utilizar esta opção, adicione a propriedade `principalId={User_ObjectId}` ao corpo do pedido.
 
      ```json
-     Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+     Post https://graph.microsoft.com/v1.0/OAuth2PermissionGrants HTTP/1.1
      Authorization: Bearer ey..qw
      Content-Type: application/json
      {
@@ -164,38 +213,67 @@ Precisa de ter sessão iniciada com uma conta *mestra*, utilizada para incorpora
      }
      ```
 
-    O **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* não é universal, mas está dependente do inquilino. Este valor é o objectId da aplicação “Serviço Power BI” no Azure Active Directory.
+    >[!NOTE]
+    >* Se estiver a utilizar um **utilizador principal**, para evitar que lhe seja pedido consentimento pelo Azure AD, precisa de conceder permissões à conta principal.
+    >* O `resourceId` *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* é dependente de inquilino e não universal. Este valor é o *objectId* da aplicação *Serviço Power BI* no Azure AD. Para obter este valor no portal do Azure, navegue para [Aplicações empresariais > Todas as aplicações](https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps) e procure *Serviço Power BI*.
 
-    O utilizador pode obter este valor rapidamente no portal do Azure:
-    1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
+4. Conceda permissões da aplicação ao Azure AD, ao atribuir um valor a `consentType`.
 
-    2. Procure "Serviço Power BI" na Caixa de Pesquisa
+    ```json
+    Post https://graph.microsoft.com/v1.0/OAuth2PermissionGrants HTTP/1.1
+    Authorization: Bearer ey..qw
+    Content-Type: application/json
+    {
+    "clientId":"{Service_Plan_ID}",
+    "consentType":"AllPrincipals",
+    "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
+    "scope":"User.Read Directory.AccessAsUser.All",
+    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+    "startTime":"2017-03-29T14:35:32.4933413+03:00"
+    }
+    ```
 
-5. Conceder Permissões de Aplicação ao Azure Active Directory
+# <a name="c"></a>[C#](#tab/CSharp)
 
-   O valor para **consentType** pode indicar **AllPrincipals** ou **Principal**.
+Também pode alterar as permissões da sua aplicação do Azure AD com o C#. Este método pode ser útil se estiver a considerar automatizar alguns dos seus processos.
 
-   * **AllPrincipals** só pode ser utilizado por um administrador do Power BI para conceder permissões para todos os utilizadores no inquilino.
-   * **Principal** serve para conceder permissões a um utilizador específico. Neste caso, deve ser adicionada uma propriedade adicional ao corpo do pedido: *principalId = {User_ObjectId}* .
+Para obter mais informações relativamente aos pedidos HTTP, consulte o [separador HTTP](register-app.md?tabs=customers%2CHTTP#change-your-azure-ad-apps-permissions).
 
-   Precisa de *Conceder permissões* para a conta principal, para evitar que lhe seja pedido consentimento pelo Azure AD, o que não é possível ao efetuar um início de sessão não interativo.
+```csharp
+var graphClient = GetGraphClient();
 
-   ```json
-   Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-   Authorization: Bearer ey..qw
-   Content-Type: application/json
-   { 
-   "clientId":"{Service_Plan_ID}",
-   "consentType":"AllPrincipals",
-   "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
-   "scope":"User.Read Directory.AccessAsUser.All",
-   "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-   "startTime":"2017-03-29T14:35:32.4933413+03:00"
-   }
-   ```
+currentState.createdApp = await graphClient.Applications
+    .Request()
+    .AddAsync(application);
 
-## <a name="next-steps"></a>Próximos passos
+System.Threading.Thread.Sleep(2000);
 
-Agora que registou a aplicação no Azure AD, tem de autenticar os utilizadores na sua aplicação. Dê uma vista de olhos em [Autenticar utilizadores e obter um token de acesso do Azure AD para a sua aplicação do Power BI](get-azuread-access-token.md) para aprender mais.
+var passwordCredential = new PasswordCredential
+{
+    DisplayName = "Client Secret Created in C#"
+};
+
+currentState.createdSecret = await graphClient.Applications[currentState.createdApp.Id]
+    .AddPassword(passwordCredential)
+    .Request()
+    .PostAsync();
+
+var servicePrincipal = new ServicePrincipal
+{
+    AppId = currentState.createdApp.AppId
+};
+
+currentState.createdServicePrincipal = await graphClient.ServicePrincipals
+    .Request()
+    .AddAsync(servicePrincipal);
+
+```
+
+---
+
+## <a name="next-steps"></a>Passos seguintes
+
+>[!div class="nextstepaction"]
+>[Obter um token de acesso do Azure AD para a sua aplicação do Power BI](get-azuread-access-token.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

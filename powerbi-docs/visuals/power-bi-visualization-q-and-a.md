@@ -1,19 +1,19 @@
 ---
 title: Utilizar o elemento visual das Perguntas e Respostas do Power BI
 description: Como configurar o elemento visual das Perguntas e Respostas do Power BI
-author: rien
+author: msftrien
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 22ce23b408f87c8c792f75a543fd0c29a9d13281
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96773bc256ba8563147c7dc7c19e2558125b48fc
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232304"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412355"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Introdução às visualizações das Perguntas e Respostas do Power BI
 
@@ -133,7 +133,7 @@ Selecione o ícone ![ícone de engrenagem](media/power-bi-visualization-q-and-a/
 
 Este elemento visual já não é um elemento visual das Perguntas e Respostas, mas é um gráfico de colunas padrão. Pode ser afixado a um dashboard. No relatório, este elemento visual tem o mesmo comportamento que os outros elementos visuais padrão. Repare que o painel Visualizações mostra um ícone de Gráfico de colunas selecionado em vez do ícone do elemento visual das Perguntas e Respostas.
 
-Se estiver a utilizar o ***Serviço Power BI***, pode agora afixar o elemento visual a um dashboard ao selecionar o ícone de alfinete. 
+Se estiver a utilizar o **_Serviço Power BI_*, pode agora afixar o elemento visual a um dashboard ao selecionar o ícone de alfinete. 
 
 
 ![Serviço Power BI com ícone de alfinete destacado](media/power-bi-visualization-q-and-a/power-bi-pin.png)
@@ -155,5 +155,5 @@ O elemento visual das Perguntas e Respostas integra-se no Office e no Bing para 
 
 Existem diversas formas de integrar linguagem natural. Para obter mais informações, veja os seguintes artigos:
 
-* [Ferramentas das Perguntas e Respostas](../natural-language/q-and-a-tooling-intro.md)
+_ [Ferramentas das Perguntas e Respostas](../natural-language/q-and-a-tooling-intro.md)
 * [Q&A Best Practices](../natural-language/q-and-a-best-practices.md) (Melhores Práticas das Perguntas e Respostas)

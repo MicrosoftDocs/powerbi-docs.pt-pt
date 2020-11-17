@@ -1,7 +1,7 @@
 ---
 title: Exportar dados de uma visualização do Power BI
 description: Exporte dados de uma visualização de relatório e visualização de dashboard e veja-os no Excel.
-author: mihart
+author: msftrien
 manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 09/09/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ab0a093dfd41034aa79d2934ad23cf373fd0474
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: bbeabcd3cbdc04378ea90908703744489371b11f
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861596"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412976"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Exportar os dados que foram utilizados para criar uma visualização
 
@@ -81,8 +81,8 @@ Para acompanhar, abra o [Relatório de exemplo de análise de aprovisionamento](
 
 Agora, estamos prontos para experimentar ambas as opções para exportar dados.
 
-### <a name="export-summarized-data"></a>Exportar dados ***resumidos***
-Selecione a opção de **Dados resumidos** se quiser exportar dados do que vê nesse elemento visual.  Este tipo de exportação mostra-lhe apenas os dados (colunas e medidas) que estão a ser utilizados para criar o elemento visual.  Se o elemento visual tiver uma agregação, irá exportar os dados agregados. Por exemplo, se tiver um gráfico de barras que mostre quatro barras, obterá quatro linhas de dados do Excel. Os dados resumidos estão disponíveis no serviço Power BI como *.xlsx* e *.csv* e no Power BI Desktop como .csv.
+### <a name="export-_summarized__-data"></a>Exportar dados **_resumidos_* _
+Selecione a opção de _ *Dados resumidos** se quiser exportar dados do que vê nesse elemento visual.  Este tipo de exportação mostra-lhe apenas os dados (colunas e medidas) que estão a ser utilizados para criar o elemento visual.  Se o elemento visual tiver uma agregação, irá exportar os dados agregados. Por exemplo, se tiver um gráfico de barras que mostre quatro barras, obterá quatro linhas de dados do Excel. Os dados resumidos estão disponíveis no serviço Power BI como *.xlsx* e *.csv* e no Power BI Desktop como .csv.
 
 1. Selecione as reticências (…) no canto superior direito da visualização. Selecione **Exportar dados**.
 
@@ -117,9 +117,9 @@ Selecione a opção de **Dados resumidos** se quiser exportar dados do que vê n
 
     - Uma vez que aplicámos filtros à visualização, os dados exportados serão exportados como filtrados. Repare que a primeira linha apresenta **Applied filters: City is not Atlanta, GA** (Filtros aplicados: a Cidade não é Atlanta, GA). 
 
-### <a name="export-underlying-data"></a>Exportar dados ***subjacentes***
+### <a name="export-_underlying__-data"></a>Exportar dados **_subjacentes_* _
 
-Selecione esta opção se quiser ver os dados no elemento visual ***e*** os dados adicionais do conjunto de dados (veja o gráfico abaixo para obter detalhes). Se a sua visualização tiver uma agregação, selecionar **Dados subjacentes** removerá a mesma. Neste exemplo, a exportação do Excel mostra uma linha para cada Cidade no nosso conjunto de dados e a percentagem de desconto para essa entrada individual. O Power BI uniformiza os dados, não os agrega.  
+Selecione esta opção se quiser ver os dados no elemento visual _*_e_*_ os dados adicionais do conjunto de dados (veja o gráfico abaixo para obter detalhes). Se a sua visualização tiver uma agregação, selecionar _ *Dados subjacentes** removerá a mesma. Neste exemplo, a exportação do Excel mostra uma linha para cada Cidade no nosso conjunto de dados e a percentagem de desconto para essa entrada individual. O Power BI uniformiza os dados, não os agrega.  
 
 Quando seleciona **Exportar**, o Power BI exporta os dados para um ficheiro *.xlsx* e o browser pede-lhe para guardar o ficheiro. Depois de guardado, abra o ficheiro no Excel.
 

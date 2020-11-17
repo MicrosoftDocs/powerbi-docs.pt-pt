@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4b9573d0a24efdbb4c0b5a4130f973a0dfac0f10
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: 4fcfe4038b8fa14b0c1640680aaf7657e92bb9bb
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132327"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397375"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>Copiar relatórios de outras áreas de trabalho
 
@@ -22,7 +22,7 @@ Quando encontrar um relatório do seu agrado numa área de trabalho ou numa apli
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-- Para criar uma cópia ou um relatório, precisa de uma licença Pro, mesmo que o relatório original esteja numa área de trabalho numa capacidade Premium.
+- Para copiar um relatório, precisa de uma licença Pro, mesmo que o relatório original esteja numa área de trabalho numa capacidade Premium.
 - Para copiar um relatório ou para o criar numa área de trabalho com base num conjunto de dados noutra área de trabalho, precisará da Permissão de compilação para o conjunto de dados. Para conjuntos de dados na área de trabalho original, as pessoas com as funções de Administrador, Membro e Contribuidor têm automaticamente Permissão de compilação através da função da área de trabalho. Veja as [Funções nas novas áreas de trabalho](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) para obter mais detalhes.
 
 ## <a name="save-a-copy-of-a-report-in-a-workspace"></a>Guardar uma cópia de um relatório numa área de trabalho
@@ -31,13 +31,13 @@ Quando encontrar um relatório do seu agrado numa área de trabalho ou numa apli
 
     ![Vista de lista Relatórios](media/service-datasets-copy-reports/power-bi-report-list-view.png)
 
-1. Em **Ações** , selecione **Guardar uma cópia**.
+1. Em **Ações**, selecione **Guardar uma cópia**.
 
     ![Guardar uma cópia de um relatório](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
     O ícone **Guardar uma cópia** só será apresentado se o relatório estiver numa nova experiência de área de trabalho e se tiver a [Permissão de compilação](service-datasets-build-permissions.md). Mesmo com acesso à área de trabalho, terá de ter a Permissão de compilação para o conjunto de dados.
 
-3. Em **Guardar uma cópia deste relatório** , dê um nome ao relatório e selecione a área de trabalho de destino.
+3. Em **Guardar uma cópia deste relatório**, dê um nome ao relatório e selecione a área de trabalho de destino.
 
     ![Caixa de diálogo Guardar uma cópia](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 

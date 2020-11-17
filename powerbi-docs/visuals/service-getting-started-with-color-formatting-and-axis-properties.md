@@ -1,19 +1,20 @@
 ---
 title: Introdução à formatação de visualizações de relatórios
 description: Introdução à utilização das opções de formatação com visualizações de relatórios
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/17/2020
-ms.author: mihart
+ms.date: 11/09/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 3e61521ec7ac518aaa374cec328639a849b21bd5
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354599"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483852"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Introdução ao painel de formatação
 
@@ -40,6 +41,7 @@ Pode personalizar muitos elementos de cada visualização. As opções disponív
 * Eixo Y
 * Cores de dados
 * Etiquetas de dados
+* Total de etiquetas
 * Formas
 * Área de desenho
 * Título
@@ -65,6 +67,7 @@ A melhor forma de aprender a utilizar as Opções de formatação é experiment�
 2. Aplicar um estilo    
 3. Alterar as propriedades do eixo    
 4. Adicionar etiquetas de dados    
+1. Adicionar total de etiquetas
 
 
 
@@ -140,7 +143,7 @@ Pode remover completamente as etiquetas do eixo ao ativar/desativar o botão de 
 
 ## <a name="adding-data-labels"></a>Adicionar etiquetas de dados    
 
-Um último exemplo de formatação antes de começar a explorar por sua conta.  Vamos adicionar etiquetas de dados a um gráfico de área. 
+Vamos adicionar etiquetas de dados a um gráfico de área. 
 
 Veja a seguir a foto do *antes*. 
 
@@ -154,6 +157,27 @@ E esta é a foto do *depois*.
 Selecionamos a visualização para a tornar ativa e abrimos o separador Formatação.  Selecionamos **Etiquetas de dados** e Ativar. Em seguida, aumentámos o tipo de letra para 12, alterámos a família de tipos de letra para Arial Black, definimos **Mostrar fundo** como Ativado e a cor de fundo como branco com uma transparência de 5%.
 
 Estas são apenas algumas das tarefas de formatação possíveis. Abra um relatório no Modo de edição e divirta-se a explorar o painel Formatação para criar visualizações apelativas e informativas.
+
+## <a name="adding-total-labels"></a>Adicionar o total de etiquetas    
+
+Um último exemplo de formatação antes de começar a explorar por sua conta.  Vamos adicionar o total de etiquetas a um gráfico de colunas empilhadas. O total de etiquetas está disponível para gráficos empilhados, gráficos de combinação e gráficos de área.
+
+Quando ativa o total de etiquetas, o Power BI apresenta uma agregação ou o total dos dados. Vejamos um exemplo. 
+
+Aqui, temos um gráfico de colunas empilhadas com etiquetas de dados a mostrar o valor de cada parte de cada pilha completa.  Esta é a vista predefinida. 
+
+![gráfico de colunas com etiquetas de dados](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-column-charts.png)
+
+
+Ao abrir o elemento visual na Vista de edição, pode alterar a apresentação das etiquetas de dados e do total de etiquetas. Selecione o elemento visual para torná-lo ativo e abra o painel Formatting (Formatação). Desloque-se para baixo, até **Etiquetas de dados** e **Total de etiquetas**. A opção **Etiquetas de dados** está ativada e a opção **Total de etiquetas** está desativada. 
+
+![gráfico de colunas não formatado](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-total-label.png)
+
+Desative a opção **Etiquetas de dados** e ative a opção **Total de etiquetas**. O Power BI apresenta agora a agregação de cada coluna.    
+![gráfico de colunas formatado](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-totals.png)
+
+Estas são apenas algumas das tarefas de formatação possíveis. Abra um relatório no Modo de edição e divirta-se a explorar o painel Formatação para criar visualizações apelativas e informativas.
+
 
 ## <a name="next-steps"></a>Próximos passos
 Para obter mais informações, veja o seguinte artigo: 

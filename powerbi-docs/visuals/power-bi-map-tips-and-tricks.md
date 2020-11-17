@@ -1,21 +1,21 @@
 ---
 title: Sugestões e Truques para mapas (incluindo a integração do Bing Maps)
 description: 'Dicas e Truques para Visualizações de mapas do Power BI, visualizações, localizações, longitude e latitude, e como funcionam com o Bing Maps. '
-author: mihart
-ms.reviewer: rien
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0c28d95c5275f5778b1ae646b8e5fb65489eb072
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec2e097dd829760c331ff8f045af00176b0c302b
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860124"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411872"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Truques e sugestões para visualizações de mapa do Power BI
 
@@ -53,13 +53,13 @@ Se tiver acesso ao conjunto de dados que está a ser utilizado para criar a visu
 No Power BI Desktop, pode assegurar que os campos são geocodificados corretamente ao definir a *Categoria de Dados* nos campos de dados. Na vista de Dados, selecione a coluna desejada. No friso, selecione o separador **Modelação** e, em seguida, defina a **Categoria de Dados** como **Morada**, **Cidade**, **Continente**, **País/Região**, **Distrito**, **Código Postal**, **Estado** ou **Província**. Estas categorias de dados ajudam o Bing a codificar corretamente a data. Para saber mais, veja [Data categorization in Power BI Desktop (Categorização de dados no Power BI Desktop)](../transform-model/desktop-data-categorization.md). Se estiver a ligar em direto ao SQL Server Analysis Services, terá de definir a categorização de dados fora da utilização do Power BI [SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt).
 
 **2. Utilize mais do que uma coluna de localização.**     
- Às vezes, até mesmo definir as categorias de dados de mapeamento não é suficiente para o Bing adivinhar corretamente a intenção. Algumas designações são ambíguas porque a localização existe em vários países ou regiões. Por exemplo, existe ***Southampton*** em Inglaterra, na Pennsylvania e em Nova Iorque.
+ Às vezes, até mesmo definir as categorias de dados de mapeamento não é suficiente para o Bing adivinhar corretamente a intenção. Algumas designações são ambíguas porque a localização existe em vários países ou regiões. Por exemplo, existe **_Southampton_* _ em Inglaterra, na Pennsylvania e em Nova Iorque.
 
 O Power BI utiliza o [serviço de modelo de URL não estruturado](/bingmaps/rest-services/locations/find-a-location-by-address) do Bing para obter as coordenadas de latitude e longitude, com base num conjunto de valores da morada para qualquer país. Se os dados não tiverem dados de localização suficientes, adicione essas colunas e categorize-as adequadamente.
 
  Por exemplo, se tiver apenas uma coluna de Cidade, o Bing pode ter dificuldade em geocodificar. Adicione colunas geográficas adicionais para tornar a localização inequívoca.  Por vezes, basta apenas adicionar mais uma coluna de localização ao conjunto de dados - neste caso, estado/província. E não se esqueça de a categorizar corretamente, veja o n.º 1 acima.
 
-Certifique-se de que cada campo apenas tem uma categoria de localização. Por exemplo, o campo de localização de Cidade deve ser **Southampton**, e não **Southampton, Nova Iorque**.  E os campos de localização de Morada devem ser **1 Microsoft Way**, e não **1 Microsoft Way, Redmond, WA**.
+Certifique-se de que cada campo apenas tem uma categoria de localização. Por exemplo, o campo de localização de Cidade deve ser _*Southampton** e não **Southampton, Nova Iorque**.  E os campos de localização de Morada devem ser **1 Microsoft Way**, e não **1 Microsoft Way, Redmond, WA**.
 
 **3. Utilize Latitude e Longitude específicas**
 

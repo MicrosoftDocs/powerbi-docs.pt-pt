@@ -9,16 +9,16 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 9a38533e76fec134d667ae4026258a2a3c07f410
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: e4d1c625d86234c97305c705b2feeead8efacb61
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983120"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397283"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Incorporar conteúdos do Power BI numa aplicação para a sua organização
 
-No **Power BI** , pode incorporar relatórios (do Power BI ou Paginados), dashboards ou mosaicos numa aplicação através do esquema Dados Pertencem ao Utilizador. O esquema **User Owns Data** (Dados Pertencem ao Utilizador) permite que a sua aplicação expanda o serviço Power BI para que possa utilizar a análise incorporada. Este tutorial demonstra como integrar um relatório (do Power BI ou Paginado) numa aplicação. Utilize o SDK de .NET do Power BI com a API JavaScript do Power BI para incorporar o Power BI numa aplicação para a sua organização.
+No **Power BI**, pode incorporar relatórios (do Power BI ou Paginados), dashboards ou mosaicos numa aplicação através do esquema Dados Pertencem ao Utilizador. O esquema **User Owns Data** (Dados Pertencem ao Utilizador) permite que a sua aplicação expanda o serviço Power BI para que possa utilizar a análise incorporada. Este tutorial demonstra como integrar um relatório (do Power BI ou Paginado) numa aplicação. Utilize o SDK de .NET do Power BI com a API JavaScript do Power BI para incorporar o Power BI numa aplicação para a sua organização.
 
 ![Power BI Embed Report](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
@@ -36,7 +36,7 @@ Para começar, precisa de:
 * Tem de ter a sua própria configuração de [inquilino do Azure Active Directory](create-an-azure-active-directory-tenant.md).
 * Para incorporar relatórios paginados, tem de dispor de uma capacidade mínima de P1. Veja [Preciso de que tamanho de capacidade Premium para os relatórios paginados?](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
-Se não estiver inscrito no **Power BI Pro** , [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
+Se não estiver inscrito no **Power BI Pro**, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
 
 Se não tiver uma subscrição do Azure, crie uma [conta gratuita](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) antes de começar.
 
@@ -44,7 +44,7 @@ Se não tiver uma subscrição do Azure, crie uma [conta gratuita](https://azure
 
 Antes de começar a incorporar relatórios, dashboards ou mosaicos na sua aplicação, tem de certificar-se de que o seu ambiente permite a incorporação com o Power BI.
 
-Pode utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/embedsetup/UserOwnsData) para começar e transferir rapidamente uma aplicação de exemplo que o ajuda a orientar-se durante a criação de um ambiente e a incorporação de um relatório. No caso de incorporar um relatório paginado, tem de atribuir, no mínimo, uma capacidade P1 para a área de trabalho criada.
+Pode utilizar a [Ferramenta de configuração de incorporação](https://app.powerbi.com/embedsetup) para começar e transferir rapidamente uma aplicação de exemplo que o ajuda a orientar-se durante a criação de um ambiente e a incorporação de um relatório. No caso de incorporar um relatório paginado, tem de atribuir, no mínimo, uma capacidade P1 para a área de trabalho criada.
 
 Se optar por configurar o ambiente manualmente, pode continuar abaixo.
 
@@ -52,9 +52,9 @@ Se optar por configurar o ambiente manualmente, pode continuar abaixo.
 
 [Registe a sua aplicação](register-app.md) com o Azure Active Directory para permitir que a aplicação aceda às [APIs REST do Power BI](/rest/api/power-bi/). O registo da aplicação permite-lhe estabelecer uma identidade para a sua aplicação e especificar permissões para recursos REST do Power BI.
 
-Tem de continuar com o registo de uma **aplicação Web do lado do servidor** . Registe uma aplicação Web do lado do servidor para criar um segredo da aplicação.
-
-Depois de criar a sua aplicação no Azure, abra a mesma no Azure, navegue para *Autenticação* e em *URIs de Redirecionamento* adicione **/Redirect** ao *URI de Redirecionamento* .
+>[!NOTE]
+>Na sua própria aplicação, terá de navegar para *Autenticação* e, no campo *URIs de Redirecionamento*, introduza o endereço de redirecionamento.
+Para saber mais sobre o redirecionamento, veja [Restrições e limitações do URI de redirecionamento (URL de resposta)](https://docs.microsoft.com/azure/active-directory/develop/reply-url).
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurar o ambiente do Power BI
 
@@ -113,15 +113,15 @@ Siga os passos abaixo para começar a incorporar os seus conteúdos através da 
 
 ### <a name="application-id"></a>ID da Aplicação
 
-Preencha as informações de **applicationId** com o **ID da Aplicação** do **Azure** . O **applicationId** serve para a aplicação se identificar junto dos utilizadores aos quais está a pedir permissões.
+Preencha as informações de **applicationId** com o **ID da Aplicação** do **Azure**. O **applicationId** serve para a aplicação se identificar junto dos utilizadores aos quais está a pedir permissões.
 
-Para obter o **applicationId** , siga estes passos:
+Para obter o **applicationId**, siga estes passos:
 
 1. Inicie sessão no [portal do Azure](https://portal.azure.com).
 
-2. No painel de navegação esquerdo, selecione **Todos os Serviços** e **Registos de Aplicações** .
+2. No painel de navegação esquerdo, selecione **Todos os Serviços** e **Registos de Aplicações**.
 
-3. Selecione a aplicação que precisa do **applicationId** .
+3. Selecione a aplicação que precisa do **applicationId**.
 
     ![Escolher Aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
@@ -176,11 +176,11 @@ Para incorporar com um convidado, utilize o URL: `https://login.microsoftonline.
 
 ### <a name="run-the-application"></a>Executar a aplicação
 
-1. Selecione **Executar** no **Visual Studio** .
+1. Selecione **Executar** no **Visual Studio**.
 
     ![Executar a aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-2. Em seguida, selecione **Incorporar Relatório** . Consoante os conteúdos que selecionar para efetuar os testes (relatórios, dashboards ou mosaicos), selecione essa opção na aplicação.
+2. Em seguida, selecione **Incorporar Relatório**. Consoante os conteúdos que selecionar para efetuar os testes (relatórios, dashboards ou mosaicos), selecione essa opção na aplicação.
 
     ![Selecionar o conteúdo](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
@@ -404,15 +404,15 @@ A tabela seguinte lista os SKUs do Power BI Premium disponíveis no [Microsoft�
 
 Depois de criar uma capacidade, pode atribuir a área de trabalho a essa capacidade. Para concluir este processo, siga estes passos:
 
-1. No serviço Power BI, expanda as áreas de trabalho e selecione as reticências da área de trabalho que está a utilizar para incorporar os seus conteúdos. Em seguida, selecione **Editar área de trabalho** .
+1. No serviço Power BI, expanda as áreas de trabalho e selecione as reticências da área de trabalho que está a utilizar para incorporar os seus conteúdos. Em seguida, selecione **Editar área de trabalho**.
 
     ![Editar uma área de trabalho](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
 
-2. Expanda **Avançadas** e ative **Capacidade** . Selecione a capacidade que criou. Em seguida, selecione **Guardar** .
+2. Expanda **Avançadas** e ative **Capacidade**. Selecione a capacidade que criou. Em seguida, selecione **Guardar**.
 
     ![Atribuir uma capacidade](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. Depois de selecionar **Guardar** , deverá ver um losango junto ao nome da área de trabalho.
+3. Depois de selecionar **Guardar**, deverá ver um losango junto ao nome da área de trabalho.
 
     ![área de trabalho associada a uma capacidade](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 

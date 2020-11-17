@@ -7,13 +7,13 @@ ms.reviewer: swgupt
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/01/2020
-ms.openlocfilehash: cf0e6a6e7cd40a5b8bb97560caf94b71c1b48e7a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 11/10/2020
+ms.openlocfilehash: cfa4b46e521079802ec87b63d6323e01213625c3
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93324057"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483874"
 ---
 # <a name="sample-power-bi-paginated-reports"></a>Relatórios paginados do Power BI de exemplo
 
@@ -27,8 +27,25 @@ Este artigo fornece informações e ligações para vários relatórios paginado
 - Pode partilhar estes relatórios online, tal como estão, sem edição. Para fazê-lo, precisa de uma licença do Power BI Pro. Inscreva-se numa [avaliação gratuita de licença do Power BI Pro](../fundamentals/service-self-service-signup-for-power-bi.md#sign-up-for-an-individual-trial-of-power-bi-pro).
 - Também precisa de acesso a uma área de trabalho do Power BI numa [Capacidade Premium](../admin/service-premium-what-is.md).
 - Para editar estes relatórios, tem de [instalar o Power BI Report Builder](https://aka.ms/pbireportbuilder) a partir do Centro de Transferências da Microsoft.
-- Está tudo pronto para [transferir estes relatórios paginados de exemplo](https://github.com/microsoft/Reporting-Services/tree/master/PaginatedReportSamples) a partir do GitHub. Não precisa de uma conta do GitHub. 
+- Está tudo pronto para transferir estes relatórios paginados de exemplo a partir do GitHub. Não precisa de uma conta do GitHub. 
 
+## <a name="download-the-reports"></a>Transferir os relatórios
+
+Para transferir os relatórios com êxito, precisa de transferir o repositório como um ficheiro .zip e, em seguida, extraí-los. Os relatórios paginados são ficheiros .rdl.
+
+1. Abra o [repositório do GitHub Reporting Services](https://github.com/microsoft/Reporting-Services).
+1. Selecione a seta no botão verde **Code** (Código) > **Download ZIP** (Transferir ZIP).
+
+    :::image type="content" source="media/paginated-reports-samples/paginated-report-download-zip.png" alt-text="Captura de ecrã a mostrar o repositório do GitHub com os relatórios paginados de exemplo do Power BI.":::
+    
+1. Abra o ficheiro, selecione **Extrair todos** e selecione uma localização para os ficheiros. Por predefinição, o nome da pasta é **Reporting-Services-master**.
+1. Abra a pasta **Reporting-Services-master** e, em seguida, abra a pasta **PaginatedReportSamples**.
+
+    >[!NOTE]
+    >Pode eliminar todas as outras pastas na pasta **Reporting-Services-master**. Estas contêm outros exemplos de que não precisa.
+
+1. Selecione um dos ficheiros .rdl para abrir no Power BI Report Builder.
+1. Agora, pode [publicar o relatório paginado no serviço Power BI](paginated-reports-save-to-power-bi-service.md).
 
 ## <a name="invoice"></a>Fatura
 

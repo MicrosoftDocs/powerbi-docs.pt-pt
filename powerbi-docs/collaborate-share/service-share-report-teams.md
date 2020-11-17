@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 07/31/2020
-ms.openlocfilehash: 6f4f083f7ec36fff13624b6b0d28ffd810e0d62b
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: ae3f6b5f3026adf127b53dd07118fe05e4c06a00
+ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90964819"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "94348088"
 ---
 # <a name="share-directly-to-microsoft-teams-from-the-power-bi-service"></a>Partilhar diretamente no Microsoft Teams a partir do serviço Power BI
 
@@ -43,7 +43,7 @@ Siga estes passos para partilhar ligações para relatórios, dashboards e eleme
     
       ![Captura de ecrã a mostrar o botão Partilhar no Teams, no menu contextual de um elemento visual.](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
 
-1. Na caixa de diálogo **Partilhar no Microsoft Teams**, selecione o canal ou as pessoas para as quais quer enviar a ligação. Se preferir, pode introduzir uma mensagem. Primeiro, pode ser-lhe pedido para iniciar sessão no Microsoft Teams.
+1. Na caixa de diálogo **Partilhar no Microsoft Teams**, selecione a equipa ou o canal para onde quer enviar a ligação. Se preferir, pode introduzir uma mensagem. Primeiro, pode ser-lhe pedido para iniciar sessão no Microsoft Teams.
 
     ![Captura de ecrã a mostrar a caixa de diálogo Partilhar no Microsoft Teams com informações e mensagem.](media/service-share-report-teams/service-teams-share-to-teams-dialog.png)
 

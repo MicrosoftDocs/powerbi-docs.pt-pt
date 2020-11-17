@@ -1,5 +1,5 @@
 ---
-title: Resolver problemas de conectividade do ponto final XMLA no Power BI Premium (Pré-visualização)
+title: Resolver problemas de conectividade de pontos finais XMLA no Power BI
 description: Descreve como resolver problemas de conectividade através do ponto final XMLA no Power BI Premium.
 author: minewiskan
 ms.author: owend
@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 10/14/2020
+ms.date: 10/20/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: c8f0683e0789ec29577322424a4187a42ff5679f
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 5426c91f2ab0c4de1f9f2bc335ac21ea3a90c0e2
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116575"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483679"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Troubleshoot XMLA endpoint connectivity (Resolver problemas de conectividade de pontos finais XMLA)
 
@@ -79,7 +79,7 @@ Se o Power BI não conseguir vincular o novo conjunto de dados às credenciais 
 
 Para evitar a falha no processamento, defina **Opções de Implementação** > **Opções de Processamento** como **Não Processar**, conforme apresentado na imagem seguinte. O Visual Studio implementa apenas os metadados. Em seguida, pode configurar as credenciais da origem de dados e clicar em **Atualizar agora** para o conjunto de dados na interface de utilizador do Power BI. Para obter informações sobre a resolução de problemas de processamento, veja a secção [Atualizar um conjunto de dados](#refreshing-a-dataset) mais à frente neste artigo.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="Erro na implementação do modelo":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="Opção Não processar":::
 
 ### <a name="new-project-from-an-existing-dataset"></a>Novo projeto a partir de um conjunto de dados existente
 
@@ -128,13 +128,13 @@ O Power BI apresentará o erro seguinte se realizar uma atualização através 
 
 As definições de representação que pode definir para as origens de dados do fornecedor não são relevantes para o Power BI. O Power BI utiliza um mecanismo diferente com base nas definições do conjunto de dados para gerir credenciais da origem de dados. Por este motivo, confirme que seleciona **Conta de Serviço** se estiver a criar uma Origem de Dados do Fornecedor.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="Erro na implementação do modelo":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="Representar conta de serviço":::
 
 ### <a name="fine-grained-processing"></a>Processamento detalhado
 
 Ao acionar uma atualização agendada ou um pedido de atualização no Power BI, normalmente todo o conjunto de dados é atualizado. Em muitos casos, é mais eficiente para realizar atualizações de forma mais seletiva. Pode executar tarefas de processamento detalhadas no SQL Server Management Studio (SSMS), conforme apresentado abaixo, ou com ferramentas ou scripts de terceiros.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Erro na implementação do modelo":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Tabelas de processos no SSMS":::
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Substituições no comando TMSL Atualizar
 
@@ -142,7 +142,7 @@ As substituições no [comando Atualizar (TMSL)](/analysis-services/tmsl/refresh
 
 ## <a name="see-also"></a>Veja também
 
-[Conectividade dos conjuntos de dados com o ponto final XMLA](service-premium-connect-tools.md)   
-[Automatizar as tarefas de conjuntos de dados e áreas de trabalho Premium com principais de serviço](service-premium-service-principal.md)   
-[Resolver Problemas da Função Analisar no Excel](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[Implementação da solução de modelo tabular](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)
+[Conectividade dos conjuntos de dados com o ponto final XMLA](service-premium-connect-tools.md)  
+[Automatizar as tarefas de conjuntos de dados e áreas de trabalho Premium com principais de serviço](service-premium-service-principal.md)  
+[Resolução de Problemas de Análise no Excel](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)  
+[Implementação da solução de modelo tabular](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current&preserve-view=true)

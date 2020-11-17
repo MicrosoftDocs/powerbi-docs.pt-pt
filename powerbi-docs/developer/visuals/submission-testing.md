@@ -8,20 +8,41 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/15/2020
-ms.openlocfilehash: 65e00fa5311ea12c9fe0011c6aa7c3e779f33dc5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 515813aeb98010f838cfff75febbb1ef206bc2cf
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131124"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397490"
 ---
 # <a name="submission-testing-of-a-power-bi-visual"></a>Teste de submissão de um elemento visual do Power BI
 
-Antes de publicar o elemento visual no [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), deve passar estes casos de teste. Teste o elemento visual antes de o submeter. Se o elemento visual não passar nos casos de teste necessários, será rejeitado.
+Antes de publicar o seu elemento visual no [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), este tem de passar os testes listados neste artigo. Teste o elemento visual antes de o submeter. Se o elemento visual não passar nos casos de teste necessários, será rejeitado.
 
 Para obter mais informações sobre o processo de publicação, veja [Publicar elementos visuais do Power BI no Centro de Parceiros](./office-store.md).
 
+## <a name="testing-a-new-version-of-a-published-visual"></a>Testar uma nova versão de um elemento visual publicado
+
+Se estiver a testar ou a depurar uma nova versão de um elemento visual já publicado, pode substituir a versão do AppSource por uma versão de ficheiro local, ao ativar o Modo de Programador no Power BI Desktop.
+
+Para ativar o Modo de Programador, siga estes passos:
+
+1. Abra o Power BI Desktop.
+
+2.  Selecione **Ficheiro** > **Opções e definições**.
+
+3.  Selecione **Opções**.
+
+4. Na janela Opções, na lista FICHEIRO ATUAL, selecione **Definições de relatório**.
+
+5. No Modo de Programador, selecione a opção **Ativar o modo de programador para esta sessão**.
+
+>[!NOTE]
+>No Power BI Desktop, o Modo de Programador é válido apenas para uma sessão. Se abrir uma instância do Power BI Desktop para testar, irá precisar de ativar o Modo de Programador novamente.
+
 ## <a name="general-test-cases"></a>Casos de teste gerais
+
+Verifique se o seu elemento visual passa os casos de teste gerais.
 
 | Caso de teste | Resultados esperados
 | --------- | ----------------

@@ -1,26 +1,26 @@
 ---
-title: Sugestões e truques para formatação com cores em relatórios
-description: Sugestões e truques para formatação com cores em relatórios do Power BI
-author: mihart
-ms.reviewer: ''
+title: Sugestões e truques para formatação em relatórios
+description: Sugestões e truques para formatação em relatórios do Power BI
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/18/2020
-ms.author: mihart
+ms.date: 10/29/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e896b3aeabc6a22c98563d0836984cd2d8a644de
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: bce798e07a3bdac0ba52f56e9ddf7eac72087924
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633843"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483960"
 ---
-# <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Dicas e truques para formatação com cores no Power BI
+# <a name="tips-and-tricks-for-formatting-in-reports"></a>Sugestões e truques para formatação em relatórios
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
-O Power BI fornece diversas maneiras de personalizar os painéis e relatórios. Este artigo detalha uma coleção de dicas que podem tornar suas visualizações do Power BI mais convincentes, interessantes e personalizadas para suas necessidades.
+O Power BI fornece diversas maneiras de personalizar os seus relatórios. Este artigo detalha uma coleção de dicas que podem tornar suas visualizações do Power BI mais convincentes, interessantes e personalizadas para suas necessidades.
 
 As dicas a seguir são fornecidas. Há outra dica excelente? Excelente! Envie para nós e vermos sobre adicioná-la à lista.
 
@@ -36,7 +36,7 @@ As dicas a seguir são fornecidas. Há outra dica excelente? Excelente! Envie pa
 
 Para realizar alterações, tem de ter permissões de edição no relatório. No Power BI Desktop, abra o relatório na vista **Relatório**. No serviço Power BI, significa abrir o relatório e selecionar **Editar** na barra de menus, conforme mostrado na imagem seguinte.
 
-![onde encontrar o menu Editar](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-report.png)
+![onde encontrar o menu Editar](media/service-tips-and-tricks-for-color-formatting/power-bi-editing-view.png)
 
 Quando os painéis **Filtros** e **Visualizações** forem apresentados no lado direito da tela de relatório, está pronto para começar a personalizar. Se os painéis não aparecerem, selecione a seta no canto superior direito para os abrir.
 

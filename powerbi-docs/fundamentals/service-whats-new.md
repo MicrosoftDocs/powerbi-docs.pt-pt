@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 0f4b84067389e93de0e5c5c2b5008b08cd78151f
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 3052119ed4abd4e752ab14a5eb9a2087148f4997
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525208"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397076"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
-Consulte esta página para ver problemas conhecidos e funcionalidades lançados recentemente no **Serviço Power BI** . Para obter informações sobre “Novidades” relacionadas, veja:
+Consulte esta página para ver problemas conhecidos e funcionalidades lançados recentemente no **Serviço Power BI**. Para obter informações sobre “Novidades” relacionadas, veja:
 
 - Notas de versão [What's new in business intelligence October '18 ](/business-applications-release-notes/October18/intelligence-platform/planned-features) (Novidades sobre business intelligence de outubro de 2018) do Microsoft Business Applications Group: as atualizações mais recentes às nossas aplicações empresariais.
 - [Novidades do Power BI Desktop](desktop-latest-update.md)  
@@ -97,7 +97,7 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 * [Comentários](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/) para relatórios do Power BI no serviço.
 
 ### <a name="april-2019"></a>Abril de 2019
-* [Fluxos de dados](../transform-model/service-dataflows-overview.md) do Power BI disponíveis para o público.
+* [Fluxos de dados](../transform-model/dataflows/dataflows-introduction-self-service.md) do Power BI disponíveis para o público.
 * Nova experiência de áreas de trabalho disponível para o público.
 * Novas regiões do Power BI em França e na Coreia do Sul.
 * Experiência de perguntas e respostas atualizada para dashboards.
@@ -120,12 +120,12 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 * Operações em massa no Portal de Administração.
 * Exportação filtrada para PPT e PDF.
 * [Definições da ajuda e do suporte](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/) no Portal de Administração.
-* Experiência de linhagem de dados para [fluxos de dados](../transform-model/service-dataflows-overview.md).
+* Experiência de linhagem de dados para [fluxos de dados](../transform-model/dataflows/dataflows-introduction-self-service.md).
 * Definição de elementos visuais do Power BI certificados no Portal de Administração.
 
 ### <a name="january-2019"></a>Janeiro de 2019
 * [Incorporação de relatórios seguros do Power BI ](../collaborate-share/service-embed-report-spo.md) em portais ou sites internos.
-* Atualizações do editor de [fluxos de dados](../transform-model/service-dataflows-overview.md) com novos conectores e suporte de consultas nativas do SQL, e transformações do Power Query Online.
+* Atualizações do editor de [fluxos de dados](../transform-model/dataflows/dataflows-introduction-self-service.md) com novos conectores e suporte de consultas nativas do SQL, e transformações do Power Query Online.
 * [Marcadores pessoais](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/) no serviço Power BI.
 * Agendamento baseado no tempo com subscrições de e-mail.
 
@@ -133,11 +133,11 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 ### <a name="december-2018"></a>Dezembro de 2018
 * [Aplicações recomendadas](https://powerbi.microsoft.com/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/) com tecnologia de IA na Home Page do Power BI.
 * [Gestão de áreas de trabalho](https://powerbi.microsoft.com/blog/workspace-management-in-the-admin-portal/) no Portal de Administração.
-* Pré-visualização de Fluxos de Dados do Power BI e Integração do Azure Data Lake Storage Gen2 em [fluxos de dados](../transform-model/service-dataflows-overview.md).
+* Pré-visualização de Fluxos de Dados do Power BI e Integração do Azure Data Lake Storage Gen2 em [fluxos de dados](../transform-model/dataflows/dataflows-introduction-self-service.md).
 * Os modelos de soluções do Power BI tornaram-se open source.
 
 ### <a name="november-2018"></a>Novembro de 2018
-* Preparação de dados do Power BI disponível com a pré-visualização pública de [fluxos de dados](../transform-model/service-dataflows-overview.md).
+* Preparação de dados do Power BI disponível com a pré-visualização pública de [fluxos de dados](../transform-model/dataflows/dataflows-introduction-self-service.md).
 * Pré-visualização pública de [relatórios paginados](../paginated-reports/paginated-reports-report-builder-power-bi.md) no Power BI Premium.
 * Tamanho dos dados e número de conjuntos de dados em memória na [aplicação Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
 
@@ -283,46 +283,46 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 * Apresente [colunas de texto como Descrições](https://powerbi.microsoft.com/blog/tech-tip-thursday-displaying-text-columns-in-tool-tips/).
 
 ### <a name="july-2016"></a>Julho de 2016
-***RLS é formado a partir da pré-visualização***
+***RLS é formado a partir da pré-visualização** _
 
-* Segurança em nível de linha (RLS) permite-lhe restringir o acesso de dados com base em quem está a aceder. Recentemente, otimizamos o processo de configuração RLS expondo as funções e as regras no Power BI Desktop. Atualmente, estamos satisfeitos em anunciar que RLS está agora disponível para todos os utilizadores do Power BI Pro.
+_Segurança em nível de linha (RLS) permite-lhe restringir o acesso de dados com base em quem está a aceder. Recentemente, otimizamos o processo de configuração RLS expondo as funções e as regras no Power BI Desktop. Atualmente, estamos satisfeitos em anunciar que RLS está agora disponível para todos os utilizadores do Power BI Pro.
 
-***Classificação de dados***
+***Classificação de dados** _
 
-* Agora, pode marcar os dashboards com classificações definidas pelo departamento de TI da sua empresa, que gera deteção daqueles que visualizam os dashboards em relação ao nível de segurança que deve ser utilizado.
+_Agora, pode marcar os dashboards com classificações definidas pelo departamento de TI da sua empresa, que gera deteção daqueles que veem os dashboards em relação ao nível de segurança que deve ser utilizado.
 
-***Analise os dados no local no Excel***
+***Analise os dados no local no Excel** _
 
-* A funcionalidade Analisar no Excel foi expandida para suportar conjuntos de dados no local. Estabelecemos uma ligação segura e direta ao conjunto de dados no local que permite analisá-lo no Excel. Também introduzimos uma definição para os administradores desativarem a funcionalidade Analisar no Excel para origens no local.  
+_A funcionalidade Analisar no Excel foi expandida para suportar conjuntos de dados no local. Estabelecemos uma ligação segura e direta ao conjunto de dados no local que permite analisá-lo no Excel. Também introduzimos uma definição para os administradores desativarem a funcionalidade Analisar no Excel para origens no local.  
 
 Para obter todos os detalhes, [visite o blogue da equipa do Power BI](https://powerbi.microsoft.com/blog/power-bi-july-update-for-service-and-mobile/)
 
 ### <a name="june-2016"></a>Junho de 2016
-***Quick Insights (Informações Rápidas)***
+***Informações Rápidas** _
 
-* As Informações Rápidas funcionam com Filtros Complexos: estamos satisfeitos em anunciar que as Informações Rápidas no âmbito de um único mosaico vão incluir filtros complexos.
+_As Informações Rápidas funcionam com Filtros Complexos: estamos satisfeitos em anunciar que as Informações Rápidas no âmbito de um único mosaico vão incluir filtros complexos.
 
 Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://powerbi.microsoft.com/blog/smarter-auto-generated-insights-with-complex-filters/)
 
 ### <a name="may-2016"></a>Maio 2016
-***Obter Dados***
+***Obter dados** _
 
-* Aumento do limite de tamanho do ficheiro para 1 GB: aumentámos o limite de tamanho do ficheiro para os livros do Excel e os ficheiros do Power BI Desktop para 1 GB.
+_Aumento do limite de tamanho do ficheiro para 1 GB: aumentámos o limite de tamanho do ficheiro para os livros do Excel e os ficheiros do Power BI Desktop para 1 GB.
 * Localize servidores do SSAS configurados com o gateway empresarial e outras atualizações de gateway: agora, ao configurar um gateway empresarial, os utilizadores na sua empresa poderão aceder a estes servidores no serviço do Power BI através da página Obter Dados. Adicionámos também suporte para atualizar os conjuntos de dados que incluem dados do SAP Business Warehouse Server utilizando o gateway e criando regras de mapeamento de UPN quando estiver a utilizar o Analysis Services com o gateway.
 
-***Segurança em nível de linha (RLS)***
+***Segurança em nível de linha (RLS)** _
 
-* Suporte de grupos do Azure Active Directory (Azure AD): Agora, os utilizadores podem atribuir grupos do Azure AD (grupos de segurança) a uma função. Isto facilita a atribuição de funções a um grupo grande de utilizadores em simultâneo.
+_Suporte de grupos do Azure Active Directory (Azure AD): Agora, os utilizadores podem atribuir grupos do Azure AD (grupos de segurança) a uma função. Isto facilita a atribuição de funções a um grupo grande de utilizadores em simultâneo.
 * [Testar as funções da RLS com relatórios suportados pelos dados com RLS no local](../admin/service-admin-rls.md#validate-the-roles-within-power-bi-desktop): adicionámos uma funcionalidade para a nossa pré-visualização da RLS que lhe permite testar o conjunto de dados como uma função específica. Esta ação irá garantir que a função funciona como esperado antes de quaisquer utilizadores conseguirem utilizar o dashboard.
 * Definir e aplicar RLS a modelos de cloud baseados em consultas diretas: agora pode criar e aplicar regras da RLS a origens de dados de consulta direta.
 
-***Dashboards***
+***Dashboards** _
 
-* Dashboards favoritos: para o ajudar a aceder aos dashboards que utiliza com maior frequência, adicionámos uma forma de os transformar em favoritos e torná-los facilmente acessíveis a partir de todas as áreas de trabalho.
+_ Dashboards favoritos: para o ajudar a aceder aos dashboards que utiliza com maior frequência, adicionámos uma forma de os transformar em favoritos e torná-los facilmente acessíveis a partir de todas as áreas de trabalho.
 
-***Analyze in Excel***
+***Analisar no Excel** _
 
-* Experiência de transferência melhorada: transfira facilmente atualizações para a funcionalidade Analisar no Excel através de uma nova experiência de caixa de diálogo.
+_ Experiência de transferência melhorada: transfira facilmente atualizações para a funcionalidade Analisar no Excel através de uma nova experiência de caixa de diálogo.
 * Suporte para a RLS: depois de configurar a RLS, as regras que se aplicam aos dados agora fluem quando um utilizador analisa os dados no Excel.
 * Mensagens de erro melhoradas para bases de dados do Analysis Services no local: anteriormente, se tivesse selecionado Analisar no Excel para uma origem de dados não suportada, só receberia uma mensagem de erro depois de transferir o ficheiro ODC e tentar estabelecer ligação ao Power BI. Agora, logo que selecione Analisar no Excel para uma origem de dados que não suporta, irá aparecer uma mensagem a avisar que ainda não suportamos essa origem de dados.
 
@@ -351,49 +351,49 @@ Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://po
 
 **14 de abril de 2016**
 
-***Enterprise***
+**_Grandes Empresas_* _
 
-* [Suporte ao pacote de conteúdos para a RLS](../admin/service-admin-rls.md) (Pré-visualização): se a RLS estiver definida para os dashboards e relatórios que são distribuídos como parte de um pacote de conteúdos, as regras de segurança serão respeitadas para esses pacotes de conteúdos.
+_ [Suporte ao pacote de conteúdos para a RLS](../admin/service-admin-rls.md) (Pré-visualização): se a RLS estiver definida para os dashboards e relatórios que são distribuídos como parte de um pacote de conteúdos, as regras de segurança serão respeitadas para esses pacotes de conteúdos.
 
-***Dashboards***
+***Dashboards** _
 
-* [Mosaico de vídeo Vimeo](../create-reports/service-dashboard-add-widget.md):  a partir do dashboard, adicione um mosaico que inclua um leitor Vimeo incorporado.
+_ [Mosaico de vídeo Vimeo](../create-reports/service-dashboard-add-widget.md):  a partir do dashboard, adicione um mosaico que inclua um leitor Vimeo incorporado.
 
-***Analyze in Excel***
+***Analisar no Excel** _
 
-* [Analisar no Excel](../collaborate-share/service-analyze-in-excel.md) disponível a todos os utilizadores: a capacidade para aceder aos seus modelos de dados do Power BI no Excel foi expandida a todos os utilizadores, independentemente da licença que lhes foi atribuída.
+_ [Analisar no Excel](../collaborate-share/service-analyze-in-excel.md) disponível a todos os utilizadores: a capacidade para aceder aos seus modelos de dados do Power BI no Excel foi expandida a todos os utilizadores, independentemente da licença que lhes foi atribuída.
 * Experiência de conta multiutilizador melhorada: se tiver mais do que uma conta de utilizador do Power BI, agora é mais fácil iniciar sessão.
 
 Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)
 
 **31 de março de 2016** muitas atualizações anunciadas no Microsoft Data Insights Summit.
 
-***Dashboards***
+**_Dashboards_* _
 
-* Dashboard em destaque: facilita aceder ao dashboard que mais lhe interessa.
+_ Dashboard em destaque: facilita aceder ao dashboard que mais lhe interessa.
 * Filtrar lista de dashboards: mostrar tudo, mostrar conteúdo que criou, mostrar conteúdo partilhado consigo.
 
-***Funcionalidades do Enterprise***
+***Funcionalidades do Enterprise** _
 
-* Relatório de utilização de administração: adicione um relatório de utilização ao centro de administração do Power BI.
+_ Relatório de utilização de administração: adicione um relatório de utilização ao centro de administração do Power BI.
 * Segurança em nível de linha: esta é uma funcionalidade de pré-visualização que lhe permite definir as permissões em conjuntos de dados do Power BI.
 * Desativar a exportação de dados: os utilizadores no seu inquilino já não poderão exportar dados em mosaico ou visuais para um ficheiro .csv.
 
-***Perguntas e Repostas***
+***Perguntas e respostas** _
 
-* Preenchimento automático para “é”: as Perguntas e Respostas sugerem valores se escrever o nome da coluna seguido por “é”.
+_ Preenchimento automático para "é": as Perguntas e Respostas sugerem valores se escrever o nome da coluna seguido por “é”.
 
-***Móvel***
+***Móvel** _
 
-* KPIs no seu Apple Watch: monitorizar os KPIS e mosaicos do cartão sem ter de abrir a aplicação Power BI.
+_ KPIs no seu Apple Watch: monitorizar os KPIS e mosaicos do cartão sem ter de abrir a aplicação Power BI.
 
-***Excel***
+***Excel** _
 
-* Analisar no Excel: ligar o seu modelo de dados do Power BI ao Excel e realizar a análise no Excel, em vez do Power BI.
+_ Analisar no Excel: ligar o seu modelo de dados do Power BI ao Excel e realizar a análise no Excel, em vez do Power BI.
 
-***Outros***
+***Outros** _
 
-* Power BI na Austrália: agora, qualquer pessoa da Austrália, individuais ou através de uma organização, pode aceder à powerbi.microsoft.com e iniciar sessão no Power BI.
+_ Power BI na Austrália: agora, qualquer pessoa da Austrália, individuais ou através de uma organização, pode aceder à powerbi.microsoft.com e iniciar sessão no Power BI.
 * Definições de idioma: substituir a deteção automática de idioma e definir o idioma para o Power BI.
 
 Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://powerbi.microsoft.com/blog/power-bi-service-march-update-part-two/)
@@ -402,19 +402,19 @@ Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://po
 
 Este mês fizemos algumas atualizações nos dashboards, Insights Rápidos e Perguntas e Respostas.
 
-***Dashboards***
+**_Dashboards_* _
 
-* Modo de ecrã inteiro: imprima sem ter de sair primeiro do modo de Ecrã Inteiro
+_ Modo de ecrã inteiro: imprima sem ter de sair primeiro do modo de Ecrã Inteiro
 * Modo de ecrã inteiro: expanda os mosaicos para preencherem o ecrã inteiro e removerem o espaço em branco em excesso selecionando **Ajustar à Largura**
 * Utilize o Fluxo de Mosaicos para alinhar automaticamente os mosaicos no canto superior esquerdo da tela.
 
-***Quick Insights (Informações Rápidas)***
+***Informações Rápidas** _
 
-* Agora, as informações de Tendência e Correlação têm linhas de tendência para facilitar a deteção de padrões nos dados.
+_ Agora, as informações de Tendência e Correlação têm linhas de tendência para facilitar a deteção de padrões nos dados.
 
-***Perguntas e Repostas***
+***Perguntas e respostas** _
 
-* Agora, pode especificar gráficos de Medidor e Área em Perguntas e Respostas
+_ Agora, pode especificar gráficos de Medidor e Área em Perguntas e Respostas
 * Conclusão automática melhorada para Perguntas e Respostas: assim que digita apenas alguns carateres, as Perguntas e Respostas começam a preencher automaticamente e a sugerir elementos visuais.
 
 Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://powerbi.microsoft.com/blog/power-bi-service-march-update/)
@@ -423,31 +423,31 @@ Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://po
 
 Hoje lançámos uma longa lista das funcionalidades mais pedidas. [Leia a mensagem do blogue](https://powerbi.microsoft.com/blog/power-bi-february-service-update/).
 
-***Partilhar***
+**_Partilha_* _
 
-* Partilhar com utilizadores fora da sua organização
+_ Partilhar com utilizadores fora da sua organização
 * Pedir acesso a um dashboard
 
-***Portal de Administração***
+***Portal de Administração** _
 
-* Gestão de utilizadores fácil com uma ligação para o centro de administração do Microsoft 365
+_ Gestão de utilizadores fácil com uma ligação para o centro de administração do Microsoft 365
 * Capacidade de desativar a publicação na Web
 * Impedir que os utilizadores publiquem pacotes de conteúdos para toda a organização
 * Capacidade para desativar a partilha de conteúdos para utilizadores externos
 
-***Quick Insights (Informações Rápidas)***
+***Informações Rápidas** _
 
-* Insights Rápidos ao publicar ficheiros do Power BI Desktop
+_ Insights Rápidos ao publicar ficheiros do Power BI Desktop
 
-***Dashboard***
+***Dashboard** _
 
-* Adicionar conteúdo Web ao seu dashboard (através de Widget)
+_ Adicionar conteúdo Web ao seu dashboard (através de Widget)
 * Adicionar conteúdo de vídeo ao seu dashboard (através de Widget)
 * Fazer zoom em dashboards
 
-***Conetividade***
+***Conectividade** _
 
-* Ligar a ficheiros no site de equipa do SharePoint através de um URL
+_ Ligar a ficheiros no site de equipa do SharePoint através de um URL
 
 Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://powerbi.microsoft.com/blog/power-bi-february-service-update/)
 
@@ -466,37 +466,37 @@ Melhorias de desempenho para composição de relatório, realce cruzado, etc.
 
 A equipa do Power BI esteve ocupada durante o período de férias. Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://powerbi.microsoft.com/blog/power-bi-service-update-0106/)
 
-***Dashboards***
+**_Dashboards_* _
 
-* Exportar dados de mosaico
+_ Exportar dados de mosaico
 * Adicionar um widget de caixa de texto ou imagem a dashboards
 * Imprimir dashboards
 * Atualizar a hora em mosaicos
 * Descrições em mosaicos de dashboard
 
-***Colaboração***
+***Colaboração** _
 
-* Notificação de dashboard partilhado
+_ Notificação de dashboard partilhado
 * Contactar o proprietário de um dashboard partilhado ou organizacional
 
-***Relatórios***
+***Relatórios** _
 
-* Imprimir a página atual do relatório
+_ Imprimir a página atual do relatório
 * Exportar dados visuais do relatório
 
-***Conetividade***
+***Conectividade** _
 
-* Ligar-se a ficheiros nos sites de equipa do SharePoint
+_ Ligar-se a ficheiros nos sites de equipa do SharePoint
 
-***Relatórios do Excel***
+***Relatórios do Excel** _
 
-* Abrir relatórios do Excel no ambiente de trabalho do Excel
+_ Abrir relatórios do Excel no ambiente de trabalho do Excel
 * Afixar gráficos do Excel
 * Melhorias de formato para mosaicos do Excel
 
-***Outros***
+***Outros** _
 
-* Power BI no Brasil
+_ Power BI no Brasil
 * Suporte para árabe e hebraico
 
 Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://powerbi.microsoft.com/blog/power-bi-service-update-0106/)
@@ -747,7 +747,7 @@ Consulte o [blogue](https://powerbi.microsoft.com/blog/power-bi-service-weekly-u
 
 **13 de maio de 2015**
 
-* Pode ligar-se diretamente aos dados armazenados na sua **base de dados SQL do Azure** . Geramos e enviamos dinamicamente consultas para a origem, permitindo-lhe criar relatórios interativos diretamente na sua base de dados. Pode ler a [mensagem do blogue](https://powerbi.microsoft.com/blog/using-power-bi-to-visualize-and-explore-azure-sql-databases/) e [documentação](../connect-data/service-azure-sql-database-with-direct-connect.md) para obter mais informações.
+* Pode ligar-se diretamente aos dados armazenados na sua **base de dados SQL do Azure**. Geramos e enviamos dinamicamente consultas para a origem, permitindo-lhe criar relatórios interativos diretamente na sua base de dados. Pode ler a [mensagem do blogue](https://powerbi.microsoft.com/blog/using-power-bi-to-visualize-and-explore-azure-sql-databases/) e [documentação](../connect-data/service-azure-sql-database-with-direct-connect.md) para obter mais informações.
 
 **7 de maio de 2015**
 
@@ -755,7 +755,7 @@ Consulte o [blogue](https://powerbi.microsoft.com/blog/power-bi-service-weekly-u
 
 **28 de abril de 2015**
 
-* O Power BI está agora disponível em **44 idiomas** . Leia a nossa [mensagem do blogue](https://powerbi.microsoft.com/blog/power-bi-preview-now-available-in-your-language/) para ver a lista completa.
+* O Power BI está agora disponível em **44 idiomas**. Leia a nossa [mensagem do blogue](https://powerbi.microsoft.com/blog/power-bi-preview-now-available-in-your-language/) para ver a lista completa.
 
 **23 de abril de 2015**
 

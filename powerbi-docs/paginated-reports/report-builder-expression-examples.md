@@ -1,19 +1,19 @@
 ---
 title: Exemplos de expressões no Report Builder do Power BI
 description: As expressões são utilizadas com frequência nos relatórios paginados do Report Builder do Power BI para controlar o conteúdo e o aspeto dos relatórios.
-ms.date: 10/21/2019
+ms.date: 11/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 042221e3836aae72568df7eadaacfeeeac90d215
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 762949dcce178628d387cd8f88c60080f74c5bae
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297776"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397352"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Exemplos de expressões no Report Builder do Power BI
 
@@ -180,7 +180,7 @@ Para obter mais informações sobre expressões simples e complexas, onde pode u
   
      Se a caixa de texto contiver apenas uma data ou número, deve utilizar a propriedade Format da caixa de texto para aplicar formatação em vez da função **Format** dentro da caixa de texto.  
   
--   As funções **Right** , **Len** e **InStr** são úteis para devolver uma subcadeia, por exemplo, cortar *DOMAIN*\\*username* para apenas o nome de utilizador. A expressão seguinte devolve a parte da cadeia de carateres à direita de um caráter de barra invertida (\\) a partir de um parâmetro denominado *User* :  
+-   As funções **Right**, **Len** e **InStr** são úteis para devolver uma subcadeia, por exemplo, cortar *DOMAIN*\\*username* para apenas o nome de utilizador. A expressão seguinte devolve a parte da cadeia de carateres à direita de um caráter de barra invertida (\\) a partir de um parâmetro denominado *User*:  
   
     ```  
     =Right(Parameters!User.Value, Len(Parameters!User.Value) - InStr(Parameters!User.Value, "\"))  
@@ -205,7 +205,7 @@ Para obter mais informações sobre expressões simples e complexas, onde pode u
   
     ```  
   
--   As funções **Regex** do .NET Framework `xref:System.Text.RegularExpressions` são úteis para alterar o formato de cadeias existentes, por exemplo, formatar um número de telefone. A expressão seguinte utiliza a função **Replace** para alterar o formato de um número de telefone de 10 dígitos num campo de " *nnn*-*nnn*-*nnnn* " para "( *nnn* ) *nnn*-*nnnn* ":  
+-   As funções **Regex** do .NET Framework `xref:System.Text.RegularExpressions` são úteis para alterar o formato de cadeias existentes, por exemplo, formatar um número de telefone. A expressão seguinte utiliza a função **Replace** para alterar o formato de um número de telefone de 10 dígitos num campo de "*nnn*-*nnn*-*nnnn*" para "(*nnn*) *nnn*-*nnnn*":  
   
     ```  
     =System.Text.RegularExpressions.Regex.Replace(Fields!Phone.Value, "(\d{3})[ -.]*(\d{3})[ -.]*(\d{4})", "($1) $2-$3")  
@@ -247,7 +247,7 @@ Para obter mais informações sobre expressões simples e complexas, onde pode u
   
 ###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> Funções de decisão  
   
--   A função **Iif** devolve um de dois valores consoante se a expressão for verdadeira ou não. A expressão seguinte utiliza a função **Iif** para devolver um valor Booleano de **True** se o valor de `LineTotal` for superior a 100. Caso contrário, devolve **False** :  
+-   A função **Iif** devolve um de dois valores consoante se a expressão for verdadeira ou não. A expressão seguinte utiliza a função **Iif** para devolver um valor Booleano de **True** se o valor de `LineTotal` for superior a 100. Caso contrário, devolve **False**:  
   
     ```  
     =IIF(Fields!LineTotal.Value > 100, True, False)  
@@ -275,13 +275,13 @@ Para obter mais informações sobre expressões simples e complexas, onde pode u
     =IIF(DateDiff("d",Fields!ImportantDate.Value, Now())>7,"Red","Blue")  
     ```  
   
--   Testar o valor do campo `PhoneNumber` e devolver "No Value" se for **null** ( **Nothing** no Visual Basic); caso contrário, devolver o valor de número de telefone. Esta expressão pode ser utilizada para controlar o valor de uma caixa de texto num item de relatório.  
+-   Testar o valor do campo `PhoneNumber` e devolver "No Value" se for **null** (**Nothing** no Visual Basic); caso contrário, devolver o valor de número de telefone. Esta expressão pode ser utilizada para controlar o valor de uma caixa de texto num item de relatório.  
   
     ```  
     =IIF(Fields!PhoneNumber.Value Is Nothing,"No Value",Fields!PhoneNumber.Value)  
     ```  
   
--   Testar o valor do campo `Department` e devolver um nome de sub-relatório ou **null** ( **Nothing** no Visual Basic). Esta expressão pode ser utilizada para sub-relatórios de pormenorização condicional.  
+-   Testar o valor do campo `Department` e devolver um nome de sub-relatório ou **null** (**Nothing** no Visual Basic). Esta expressão pode ser utilizada para sub-relatórios de pormenorização condicional.  
   
     ```  
     =IIF(Fields!Department.Value = "Development", "EmployeeReport", Nothing)  
@@ -319,7 +319,7 @@ Para obter mais informações sobre expressões simples e complexas, onde pode u
   
 ###  <a name="rownumber"></a><a name="RowNumber"></a> RowNumber  
   
--   A função **RowNumber** , quando utilizada numa caixa de texto dentro de uma região de dados, apresenta o número de linha para cada instância da caixa de texto na qual a expressão é apresentada. Esta função pode ser útil para linhas numeradas numa tabela. Também pode ser útil para tarefas mais complexas, como fornecer quebras de página com base no número de linhas. Para obter mais informações, consulte [Quebras de Página](#PageBreaks) neste tópico.  
+-   A função **RowNumber**, quando utilizada numa caixa de texto dentro de uma região de dados, apresenta o número de linha para cada instância da caixa de texto na qual a expressão é apresentada. Esta função pode ser útil para linhas numeradas numa tabela. Também pode ser útil para tarefas mais complexas, como fornecer quebras de página com base no número de linhas. Para obter mais informações, consulte [Quebras de Página](#PageBreaks) neste tópico.  
   
      O âmbito especificado para **RowNumber** controla quando a renumeração começa. A palavra-chave **Nothing** indica que a função começará a contar a partir da primeira linha na região de dados mais externa. Para começar a contagem dentro de regiões de dados aninhadas, utilize o nome da região de dados. Para começar a contagem de dentro de um grupo, utilize o nome do grupo.  
   
@@ -454,6 +454,9 @@ Para obter mais informações sobre expressões simples e complexas, onde pode u
     =IIF(Parameters!IncludeURLs.Value,"https://adventure-works.com/productcatalog",Nothing)  
     ```  
   
+> [!NOTE]
+>  Os relatórios paginados do Power BI não suportam a utilização de JavaScript numa expressão **Ir para URL**.  
+  
 ##  <a name="report-data"></a><a name="ReportData"></a> Dados de relatório  
  As expressões podem ser utilizadas para manipular os dados que são utilizados no relatório. Pode consultar parâmetros e outras informações de relatórios. Pode até mesmo alterar a consulta que é utilizada para obter os dados do relatório.  
   
@@ -466,13 +469,13 @@ Para obter mais informações sobre expressões simples e complexas, onde pode u
     =User!UserID  
     ```  
   
--   Para fazer referência a um parâmetro num parâmetro de consulta, expressão de filtro, caixa de texto ou outra área do relatório, utilize a coleção global **Parameters**. Este exemplo assume que o parâmetro tem o nome *Department* :  
+-   Para fazer referência a um parâmetro num parâmetro de consulta, expressão de filtro, caixa de texto ou outra área do relatório, utilize a coleção global **Parameters**. Este exemplo assume que o parâmetro tem o nome *Department*:  
   
     ```  
     =Parameters!Department.Value  
     ```  
   
--   Podem ser criados parâmetros num relatório, mas definidos como ocultos. Quando o relatório é executado no servidor de relatórios, o parâmetro não aparece na barra de ferramentas e o leitor do relatório não pode mudar o valor predefinido. Pode utilizar um parâmetro oculto definido como um valor predefinido como constante personalizada. Pode utilizar este valor em qualquer expressão, incluindo uma expressão de campo. A expressão seguinte identifica o campo especificado pelo valor de parâmetro predefinido para o parâmetro com o nome *ParameterField* :  
+-   Podem ser criados parâmetros num relatório, mas definidos como ocultos. Quando o relatório é executado no servidor de relatórios, o parâmetro não aparece na barra de ferramentas e o leitor do relatório não pode mudar o valor predefinido. Pode utilizar um parâmetro oculto definido como um valor predefinido como constante personalizada. Pode utilizar este valor em qualquer expressão, incluindo uma expressão de campo. A expressão seguinte identifica o campo especificado pelo valor de parâmetro predefinido para o parâmetro com o nome *ParameterField*:  
   
     ```  
     =Fields(Parameters!ParameterField.Value).Value  
@@ -495,7 +498,7 @@ Para obter mais informações sobre expressões simples e complexas, onde pode u
     =IIF(Field!B.Value=0, 0, Field!A.Value / IIF(Field!B.Value =0, 1, Field!B.Value))  
     ```  
   
--   Utilize uma função de código personalizada para devolver o valor da expressão. O exemplo seguinte devolve a diferença de percentagem entre um valor atual e um valor anterior. Isto pode ser utilizado para calcular a diferença entre dois valores sucessivos e processa o caso de limite da primeira comparação (quando não existe um valor anterior) e se o valor anterior ou o valor atual é **null** ( **Nothing** no Visual Basic).  
+-   Utilize uma função de código personalizada para devolver o valor da expressão. O exemplo seguinte devolve a diferença de percentagem entre um valor atual e um valor anterior. Isto pode ser utilizado para calcular a diferença entre dois valores sucessivos e processa o caso de limite da primeira comparação (quando não existe um valor anterior) e se o valor anterior ou o valor atual é **null** (**Nothing** no Visual Basic).  
   
     ```  
     Public Function GetDeltaPercentage(ByVal PreviousValue, ByVal CurrentValue) As Object  

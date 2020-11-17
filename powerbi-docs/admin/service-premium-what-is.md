@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 6ff1f445172c553116148ffb212129b96f34b1da
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: cb8ac0ad558f15219829e9f32111cacf9f27eb25
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916021"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483748"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
@@ -96,7 +96,7 @@ Os recursos e limites de cada SKU Premium (e SKU A dimensionado de forma equival
 
 ### <a name="capacity-workloads"></a>Cargas de trabalho de capacidade
 
-As cargas de trabalho de capacidade são serviços disponibilizados aos utilizadores. Por predefinição, as capacidades Premium e do Azure só suportam uma carga de trabalho do conjunto de dados associada à execução de consultas do Power BI. A carga de trabalho do conjunto de dados não pode ser desativada. Pode ativar cargas de trabalho adicionais para [IA (Serviços Cognitivos)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [Fluxos de dados](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) e [Relatórios paginados](../paginated-reports/paginated-reports-save-to-power-bi-service.md). Estas cargas de trabalho são suportadas apenas nas subscrições Premium. 
+As cargas de trabalho de capacidade são serviços disponibilizados aos utilizadores. Por predefinição, as capacidades Premium e do Azure só suportam uma carga de trabalho do conjunto de dados associada à execução de consultas do Power BI. A carga de trabalho do conjunto de dados não pode ser desativada. Pode ativar cargas de trabalho adicionais para [IA (Serviços Cognitivos)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [Fluxos de dados](../transform-model/dataflows/dataflows-introduction-self-service.md) e [Relatórios paginados](../paginated-reports/paginated-reports-save-to-power-bi-service.md). Estas cargas de trabalho são suportadas apenas nas subscrições Premium. 
 
 Cada carga de trabalho adicional permite configurar a memória máxima (como uma percentagem da memória total disponível) que pode ser utilizada pela carga de trabalho. Os valores predefinidos da memória máxima são determinados pelo SKU. Pode maximizar os recursos disponíveis da sua capacidade ao ativar apenas as cargas de trabalho adicionais quando são utilizadas. Pode alterar as definições de memória apenas quando tiver determinado que as predefinições não estão a cumprir os requisitos dos recursos de capacidade. As cargas de trabalho podem ser ativadas e configuradas para uma capacidade por administradores de capacidade através das **Definições de capacidade** no [Portal de Administração](service-admin-portal.md) ou através de [APIs REST de capacidades](/rest/api/power-bi/capacities).  
 
@@ -235,9 +235,9 @@ O Premium permite uma distribuição alargada de conteúdos por utilizadores do 
 
 Para saber mais, veja [Licenciamento do Power BI](service-admin-licensing-organization.md).
 
-## <a name="analysis-services-in-power-bi-premium-preview"></a>Analysis Services no Power BI Premium (Pré-visualização)
+## <a name="analysis-services-in-power-bi-premium"></a>Analysis Services no Power BI Premium
 
-Nos bastidores, o **motor Vertipaq do Analysis Services** , comprovado pela empresa, é utilizado para as áreas de trabalho e os conjuntos de dados do Power BI Premium. O Analysis Services fornece capacidade de programação e suporte de ferramentas e aplicações cliente através de APIs e bibliotecas de cliente que suportam o protocolo XMLA de padrão aberto. Por predefinição, as cargas de trabalho de conjuntos de dados de capacidade do Power BI Premium suportam operações *só de leitura* da Microsoft e de ferramentas e aplicações cliente de terceiros através de um **ponto final XMLA**. Os administradores de capacidade também podem optar por desativar ou permitir operações de *leitura/escrita* através do ponto final.
+Nos bastidores, o **motor Vertipaq do Analysis Services**, comprovado pela empresa, é utilizado para as áreas de trabalho e os conjuntos de dados do Power BI Premium. O Analysis Services fornece capacidade de programação e suporte de ferramentas e aplicações cliente através de APIs e bibliotecas de cliente que suportam o protocolo XMLA de padrão aberto. Por predefinição, as cargas de trabalho de conjuntos de dados de capacidade do Power BI Premium suportam operações *só de leitura* da Microsoft e de ferramentas e aplicações cliente de terceiros através de um **ponto final XMLA**. Os administradores de capacidade também podem optar por desativar ou permitir operações de *leitura/escrita* através do ponto final.
 
 Com o acesso só de leitura, as ferramentas da Microsoft, como o SQL Server Management Studio (SSMS) e o SQL Server Profiler, e aplicações de terceiros, como o DAX Studio e aplicações de visualização de dados, podem ligar-se e consultar conjuntos de dados Premium com eventos XMLA, DAX, MDX, DMVs e Trace. Com acesso de leitura/escrita, as ferramentas de modelação de dados empresariais como o Visual Studio com a extensão de projetos do Analysis Services ou o Tabular Editor open source podem implementar modelos em tabela como um conjunto de dados para uma área de trabalho Premium. E, com ferramentas como o SSMS, os administradores podem usar a linguagem TMSL para colocar em script alterações de metadados e cenários avançados de atualização de dados. 
 
