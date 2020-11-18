@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 10b395cc14bf0aac97ead4b86c010109cfbc3703
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 5a75965bb236a1515274343e58668809f91cef7b
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91638841"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669207"
 ---
 # <a name="creating-a-dataflow"></a>Criar um fluxo de dados
 Um **fluxo de dados** é uma coleção de entidades (as entidades são semelhantes a tabelas) que são criadas e geridas em áreas de trabalho no serviço Power BI. Uma **entidade/Tabela** é um conjunto de campos que servem para armazenar dados, tal como uma tabela numa base de dados. Pode adicionar e editar entidades/tabelas no seu fluxo de dados, bem como gerir agendas de atualização de dados, diretamente a partir da área de trabalho na qual o seu fluxo de dados foi criado.
@@ -133,3 +133,4 @@ Depois de criar um fluxo de dados, pode utilizar o Power BI Desktop e o serviç
 * [Funcionalidades Premium do fluxo de dados](dataflows-premium-features.md)
 * [IA com fluxos de dados](dataflows-machine-learning-integration.md)
 * [Limitações e considerações dos fluxo de dados](dataflows-features-limitations.md)
+* [Melhores práticas dos fluxos de dados](dataflows-best-practices.md)

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 11/13/2020
 ms.author: davidi
 ms.custom: references_regions
 LocalizationGroup: Data from files
-ms.openlocfilehash: f2efd4410af62425f599b1addd0f792f495120e0
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: e5d2e1f65ef326ac12f15ff14c8d07c22c2950fe
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397260"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94667988"
 ---
 # <a name="configure-power-bi-premium-dataflow-workloads"></a>Configurar cargas de trabalho de fluxo de dados do Power BI Premium
 
@@ -27,7 +27,7 @@ As secções seguintes descrevem como ativar fluxos de dados na sua organizaçã
 
 ## <a name="enabling-dataflows-in-power-bi-premium"></a>Ativar fluxos de dados no Power BI Premium
 
-O primeiro requisito para a utilização de fluxos de dados na sua subscrição do Power BI Premium é a ativação da criação e utilização dos fluxos de dados para a sua organização. No **Portal de administração** , selecione **Definições** e defina o controlo de deslize em **Definições do fluxo de dados** para **Ativado** , como apresentado na seguinte imagem.
+O primeiro requisito para a utilização de fluxos de dados na sua subscrição do Power BI Premium é a ativação da criação e utilização dos fluxos de dados para a sua organização. No **Portal de administração**, selecione **Definições** e defina o controlo de deslize em **Definições do fluxo de dados** para **Ativado**, como apresentado na seguinte imagem.
 
 ![Portal de administração para fluxos de dados no Power BI Premium](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-01.png)
 
@@ -37,11 +37,11 @@ Após ativar a carga de trabalho de fluxos de dados, esta é configurada com as 
 
 Assim que os fluxos de dados forem ativados, pode utilizar o **Portal de administração** para alterar ou refinar a forma como os fluxos de dados são criados e como utilizam recursos na sua subscrição do Power BI Premium. Os seguintes passos mostram como ajustar as suas definições de fluxo de dados.
 
-1. No **Portal de administração** , selecione **Definições do inquilino** para listar todas as capacidades que foram criadas. Selecione uma capacidade para gerir as respetivas definições.
+1. No **Portal de administração**, selecione **Definições do inquilino** para listar todas as capacidades que foram criadas. Selecione uma capacidade para gerir as respetivas definições.
 
     ![Selecionar uma capacidade para gerir as definições](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-02.png)
 
-2. A sua capacidade do Power BI Premium reflete os recursos disponíveis para os seus fluxos de dados. Pode alterar o tamanho da sua capacidade ao selecionar o botão **Alterar tamanho** , como apresentado na seguinte imagem.
+2. A sua capacidade do Power BI Premium reflete os recursos disponíveis para os seus fluxos de dados. Pode alterar o tamanho da sua capacidade ao selecionar o botão **Alterar tamanho**, como apresentado na seguinte imagem.
 
     ![Alterar o tamanho de uma capacidade](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-03.png)
 
@@ -49,7 +49,7 @@ Assim que os fluxos de dados forem ativados, pode utilizar o **Portal de adminis
 
     ![Expandir a secção de cargas de trabalho](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-04.png)
 
-4. Na secção **Cargas de trabalho** , navegue para a área **Fluxos de dados**. A seguinte imagem mostra as definições que pode utilizar para controlar ou refinar o comportamento da carga de trabalho de fluxo de dados da sua capacidade.
+4. Na secção **Cargas de trabalho**, navegue para a área **Fluxos de dados**. A seguinte imagem mostra as definições que pode utilizar para controlar ou refinar o comportamento da carga de trabalho de fluxo de dados da sua capacidade.
 
     ![Definições da carga de trabalho de fluxo de dados](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-05.png)
 
@@ -69,7 +69,7 @@ Nas secções seguintes, iremos detalhar cada uma das definições e a forma com
 
 ### <a name="understanding-dataflow-workload-options"></a>Compreender as opções de carga de trabalho de fluxo de dados
 
-Uma forma simples de pensar nas opções de carga de trabalho de fluxo de dados é com uma analogia. Podemos pensar no *Tamanho da capacidade* ou no tipo de Instância do Power BI Premium que tem como o seu *restaurante*. No seu restaurante, tem a sua *memória de carga de trabalho* , que é a sua *cozinha*. O *motor de computação* é o seu *forno*. Por último, o *contentor* é o tipo de qualidade do seu *chefe de cozinha*. Para avaliar as suas opções de carga de trabalho de fluxo de dados, imagine que está a preparar uma refeição para um grande jantar. Vai ter convidados importantes e tem de ter o jantar preparado para ser servido quando chegarem.
+Uma forma simples de pensar nas opções de carga de trabalho de fluxo de dados é com uma analogia. Podemos pensar no *Tamanho da capacidade* ou no tipo de Instância do Power BI Premium que tem como o seu *restaurante*. No seu restaurante, tem a sua *memória de carga de trabalho*, que é a sua *cozinha*. O *motor de computação* é o seu *forno*. Por último, o *contentor* é o tipo de qualidade do seu *chefe de cozinha*. Para avaliar as suas opções de carga de trabalho de fluxo de dados, imagine que está a preparar uma refeição para um grande jantar. Vai ter convidados importantes e tem de ter o jantar preparado para ser servido quando chegarem.
 
 Vamos utilizar esta analogia do restaurante à medida que explicamos e fornecemos orientações sobre cada uma das definições. Vamos começar no nível superior, a sua Capacidade Premium, uma vez que esta é a primeira escolha que efetuamos ao utilizar o Power BI Premium.
 
@@ -120,7 +120,7 @@ Os tempos de atualização lentos são, normalmente, um problema de paralelismo.
 
 ### <a name="out-of-memory-exceptions"></a>Exceções de fora da memória
 
-Quando se deparar com **exceções de fora da memória** , precisa de aumentar o desempenho dos contentores e memória. Siga estes passos.
+Quando se deparar com **exceções de fora da memória**, precisa de aumentar o desempenho dos contentores e memória. Siga estes passos.
 
 1. Aumente a memória do contentor. Isto é semelhante a ter um cozinheiro famoso em oposição a vários cozinheiros, como descrito na secção anterior.
 
@@ -134,7 +134,7 @@ Siga os passos seguintes para permitir que as cargas de trabalho acionem o motor
 
 **Para entidades ligas e calculadas na mesma área de trabalho:**
 
-1. Para a *ingestão* , concentre-se em transmitir os dados para o armazenamento o mais rapidamente possível, utilizando os filtros apenas se for reduzido o tamanho do conjunto de dados no geral. É uma boa prática manter a sua lógica de transformação à parte deste passo e permitir que o motor se concentre na recolha inicial de ingredientes. Em seguida, separe a sua lógica de transformação e negócio num fluxo de dados separado na mesma área de trabalho, com entidades ligadas ou calculadas. Ao fazê-lo, está a permitir que o motor ative e acelere as suas computações. Na nossa analogia, é como preparar a comida na cozinha: a preparação da comida é, normalmente, um passo separado e distinto da recolha dos ingredientes não cozinhados e um pré-requisito para colocar a comida no forno. Da mesma forma, as suas necessidades de lógica precisam de ser preparadas em separado, antes de tirar partido do motor de computação.
+1. Para a *ingestão*, concentre-se em transmitir os dados para o armazenamento o mais rapidamente possível, utilizando os filtros apenas se for reduzido o tamanho do conjunto de dados no geral. É uma boa prática manter a sua lógica de transformação à parte deste passo e permitir que o motor se concentre na recolha inicial de ingredientes. Em seguida, separe a sua lógica de transformação e negócio num fluxo de dados separado na mesma área de trabalho, com entidades ligadas ou calculadas. Ao fazê-lo, está a permitir que o motor ative e acelere as suas computações. Na nossa analogia, é como preparar a comida na cozinha: a preparação da comida é, normalmente, um passo separado e distinto da recolha dos ingredientes não cozinhados e um pré-requisito para colocar a comida no forno. Da mesma forma, as suas necessidades de lógica precisam de ser preparadas em separado, antes de tirar partido do motor de computação.
 
 2. Certifique-se de que desempenha as operações que se dobram, como uniões, associações, conversões, entre [outras](/power-query/power-query-folding#transformations-that-can-achieve-folding).
 

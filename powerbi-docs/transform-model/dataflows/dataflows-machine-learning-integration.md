@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5834230a59f6473624e955827dad36cdd75c04e5
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 703e87847f2f6dfb24040cc6532052b17d39086c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397513"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668540"
 ---
 # <a name="ai-with-dataflows"></a>IA com fluxos de dados
 
@@ -112,7 +112,7 @@ Os fluxos de dados oferecem uma preparação de dados personalizada para macroda
 
 O AutoML no Power BI permite que os analistas de dados utilizem os fluxos de dados para criar modelos de machine learning com uma experiência simplificada através das competências do Power BI. A maior parte da ciência de dados por trás da criação dos modelos de ML é automatizada pelo Power BI. Dispõe de proteções para garantir que o modelo produzido tem boa qualidade e fornece visibilidade do processo utilizado para criar o seu modelo de ML.
 
-O AutoML suporta a criação de modelos de **Predição Binária** , de **Classificação** e de **Regressão** para os fluxos de dados. Estes são tipos de técnicas de machine learning supervisionadas, o que significa que aprendem com os resultados conhecidos das observações anteriores para prever os resultados de outras observações. O conjunto de dados de entrada para a preparação de um modelo de AutoML é um conjunto de registos **etiquetados** com os resultados conhecidos.
+O AutoML suporta a criação de modelos de **Predição Binária**, de **Classificação** e de **Regressão** para os fluxos de dados. Estes são tipos de técnicas de machine learning supervisionadas, o que significa que aprendem com os resultados conhecidos das observações anteriores para prever os resultados de outras observações. O conjunto de dados de entrada para a preparação de um modelo de AutoML é um conjunto de registos **etiquetados** com os resultados conhecidos.
 
 O AutoML no Power BI integra o [ML automatizado](/azure/machine-learning/service/concept-automated-ml) do [Azure Machine Learning](/azure/machine-learning/service/overview-what-is-azure-ml) para criar os modelos de ML. No entanto, não é necessária uma subscrição do Azure para utilizar o AutoML no Power BI. O processo de preparação e de alojamento dos modelos de ML é completamente gerido pelo serviço Power BI.
 
@@ -202,7 +202,7 @@ As medidas e os gráficos utilizados para descrever o desempenho do modelo no re
 
 Páginas adicionais do relatório podem descrever as medidas estatísticas sobre o modelo de uma perspetiva da ciência de dados. Por exemplo, o relatório **Predição Binária** inclui um gráfico de ganhos e a curva ROC para o modelo.
 
-Os relatórios também incluem uma página **Detalhes da Preparação** , que inclui uma descrição da preparação do modelo e um gráfico que descreve o desempenho do modelo em cada uma das execuções de iterações.
+Os relatórios também incluem uma página **Detalhes da Preparação**, que inclui uma descrição da preparação do modelo e um gráfico que descreve o desempenho do modelo em cada uma das execuções de iterações.
 
 ![Detalhes de preparação](media/service-machine-learning-automated/automated-machine-learning-power-bi-08.png)
 
@@ -220,7 +220,7 @@ Caso esteja satisfeito com o desempenho do modelo de ML criado, pode aplicá-lo 
 
 Para aplicar o modelo de ML, deve especificar o nome da entidade à qual deve ser aplicado e um prefixo para as colunas que serão adicionadas a essa entidade para a saída do modelo. O prefixo predefinido para os nomes das colunas é o nome do modelo. A função _Aplicar_ pode incluir parâmetros adicionais específicos do tipo de modelo.
 
-A aplicação do modelo de ML cria duas novas entidades de fluxo de dados que contêm as predições e explicações individualizadas para cada linha classificada na entidade de saída. Por exemplo, se aplicar o modelo _PurchaseIntent_ à entidade _OnlineShoppers_ , a saída gerará as entidades **OnlineShoppers enriched PurchaseIntent** e **OnlineShoppers enriched PurchaseIntent explanations**. Para cada linha na entidade melhorada, as **Explicações** estão divididas em várias linhas na entidade de explicações melhoradas com base na funcionalidade de entrada. Um **ExplanationIndex** ajuda a mapear as linhas da entidade de explicações melhoradas para a linha na entidade melhorada.
+A aplicação do modelo de ML cria duas novas entidades de fluxo de dados que contêm as predições e explicações individualizadas para cada linha classificada na entidade de saída. Por exemplo, se aplicar o modelo _PurchaseIntent_ à entidade _OnlineShoppers_, a saída gerará as entidades **OnlineShoppers enriched PurchaseIntent** e **OnlineShoppers enriched PurchaseIntent explanations**. Para cada linha na entidade melhorada, as **Explicações** estão divididas em várias linhas na entidade de explicações melhoradas com base na funcionalidade de entrada. Um **ExplanationIndex** ajuda a mapear as linhas da entidade de explicações melhoradas para a linha na entidade melhorada.
 
 ![Editor de consultas](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
 
@@ -234,7 +234,7 @@ Para utilizar as informações e as predições do modelo de ML num relatório d
 
 ### <a name="binary-prediction-models"></a>Modelos de Predição Binária
 
-Os modelos de Predição Binária, mais formalmente conhecidos como **modelos de classificação binária** , são utilizados para classificar um conjunto de dados em dois grupos. São utilizados para prever eventos que podem ter um resultado binário. Por exemplo, se uma oportunidade de vendas será convertida, uma conta será abandonada, uma fatura será paga pontualmente, uma transação é fraudulenta, entre outros.
+Os modelos de Predição Binária, mais formalmente conhecidos como **modelos de classificação binária**, são utilizados para classificar um conjunto de dados em dois grupos. São utilizados para prever eventos que podem ter um resultado binário. Por exemplo, se uma oportunidade de vendas será convertida, uma conta será abandonada, uma fatura será paga pontualmente, uma transação é fraudulenta, entre outros.
 
 A saída de um modelo de Predição Binária é uma classificação de probabilidade, que identifica a probabilidade de o resultado de destino ser alcançado.
 
@@ -272,7 +272,7 @@ Para aplicar um modelo de Predição Binária, deve especificar a entidade com o
 
 ![Entradas de predição](media/service-machine-learning-automated/automated-machine-learning-power-bi-16.png)
 
-Quando um modelo de Predição Binária é aplicado, adiciona quatro colunas de saída à entidade de saída melhorada: **Outcome** , **PredictionScore** , **PredictionExplanation** e **ExplanationIndex**. Os nomes das colunas na entidade têm o prefixo especificado quando o modelo é aplicado.
+Quando um modelo de Predição Binária é aplicado, adiciona quatro colunas de saída à entidade de saída melhorada: **Outcome**, **PredictionScore**, **PredictionExplanation** e **ExplanationIndex**. Os nomes das colunas na entidade têm o prefixo especificado quando o modelo é aplicado.
 
 **PredictionScore** é uma probabilidade em percentagem, que identifica a probabilidade de o resultado de destino ser alcançado.
 
@@ -314,7 +314,7 @@ O relatório do Modelo de classificação também inclui uma página Detalhes da
 
 Para aplicar um Modelo de ML de classificação, deve especificar a entidade com os dados de entrada e o prefixo de nome da coluna de saída.
 
-Quando um Modelo de classificação é aplicado, adiciona cinco colunas de saída à entidade de saída melhorada: **ClassificationScore** , **ClassificationResult** , **ClassificationExplanation** , **ClassProbabilities** e **ExplanationIndex**. Os nomes das colunas na entidade têm o prefixo especificado quando o modelo é aplicado.
+Quando um Modelo de classificação é aplicado, adiciona cinco colunas de saída à entidade de saída melhorada: **ClassificationScore**, **ClassificationResult**, **ClassificationExplanation**, **ClassProbabilities** e **ExplanationIndex**. Os nomes das colunas na entidade têm o prefixo especificado quando o modelo é aplicado.
 
 A coluna **ClassProbabilities** contém a lista de pontuações de probabilidade para o registo de cada classe possível.
 
@@ -358,7 +358,7 @@ Para aplicar um Modelo de ML de regressão, deve especificar a entidade com os d
 
 ![Aplicar uma regressão](media/service-machine-learning-automated/automated-machine-learning-power-bi-19.png)
 
-Quando um Modelo de regressão é aplicado, adiciona três colunas de saída à entidade de saída melhorada: **RegressionResult** , **RegressionExplanation** e **ExplanationIndex**. Os nomes das colunas na entidade têm o prefixo especificado quando o modelo é aplicado.
+Quando um Modelo de regressão é aplicado, adiciona três colunas de saída à entidade de saída melhorada: **RegressionResult**, **RegressionExplanation** e **ExplanationIndex**. Os nomes das colunas na entidade têm o prefixo especificado quando o modelo é aplicado.
 
 A coluna **RegressionResult** contém o valor previsto para o registo com base nos campos de entrada. A coluna **RegressionExplanation** contém uma explicação com a influência específica que os recursos de entrada tiveram na coluna **RegressionResult**.
 
@@ -430,7 +430,7 @@ Pode invocar qualquer modelo do Azure ML ao qual lhe foi concedido acesso direta
 
 [ ![Serviço Power BI – editar a entidade](media/service-machine-learning-integration/machine-learning-integration-05.png) ](media/service-machine-learning-integration/machine-learning-integration-05.png#lightbox)
 
-Se selecionar o botão **Editar** , abre o Editor do Power Query para as entidades no seu fluxo de dados.
+Se selecionar o botão **Editar**, abre o Editor do Power Query para as entidades no seu fluxo de dados.
 
 [ ![Editor do Power Query](media/service-machine-learning-integration/machine-learning-integration-06.png) ](media/service-machine-learning-integration/machine-learning-integration-06.png#lightbox)
 
@@ -466,3 +466,4 @@ Os seguintes artigos fornecem mais informações sobre as fluxos de dados e o Po
 * [Configurar o armazenamento do fluxo de dados para utilizar o Azure Data Lake Gen 2](dataflows-azure-data-lake-storage-integration.md)
 * [Funcionalidades Premium do fluxo de dados](dataflows-premium-features.md)
 * [Limitações e considerações dos fluxo de dados](dataflows-features-limitations.md)
+* [Melhores práticas dos fluxos de dados](dataflows-best-practices.md)

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 47b1647732c1977e6e8a3992b617e2a35c803c50
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 82d5981d885f97d48dec180e692a4a44c0bbe781
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396403"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668264"
 ---
 # <a name="configure-and-consume-a-dataflow"></a>Configurar e consumir um fluxo de dados
 
@@ -40,12 +40,12 @@ A opção **Definições** oferece muitas opções para o fluxo de dados, confor
 
 * **Atualização Agendada:** aqui, pode definir as horas de atualização do fluxo de dados selecionado. Um fluxo de dados pode ser atualizado com a mesma frequência de um conjunto de dados.
 
-* **Definições do Motor de Computação Avançado:** aqui, podes definir se o fluxo de dados é armazenado no motor de computação. O motor de computação permite que os fluxos de dados subsequentes, que referenciam este fluxo de dados, executem operações de união e fusão, bem como outras transformações mais rápidas. Além disso, permite que o DirectQuery seja executado com o fluxo de dados. Ao selecionar **Ativado** , garante que o fluxo de dados é sempre suportado no modo DirectQuery e que todas as referências beneficiam do motor. Ao selecionar **Otimizado** , o motor é utilizado apenas se existir uma referência a este fluxo de dados. Ao selecionar **Desativado** , desativa o motor de computação e a capacidade do DirectQuery neste fluxo de dados.
+* **Definições do Motor de Computação Avançado:** aqui, podes definir se o fluxo de dados é armazenado no motor de computação. O motor de computação permite que os fluxos de dados subsequentes, que referenciam este fluxo de dados, executem operações de união e fusão, bem como outras transformações mais rápidas. Além disso, permite que o DirectQuery seja executado com o fluxo de dados. Ao selecionar **Ativado**, garante que o fluxo de dados é sempre suportado no modo DirectQuery e que todas as referências beneficiam do motor. Ao selecionar **Otimizado**, o motor é utilizado apenas se existir uma referência a este fluxo de dados. Ao selecionar **Desativado**, desativa o motor de computação e a capacidade do DirectQuery neste fluxo de dados.
 
 * **Recomendações:** pode definir se o fluxo de dados é certificado ou promovido. 
 
 ## <a name="refreshing-a-dataflow"></a>Atualizar um fluxo de dados
-Os fluxos de dados são como tijolos numa parede. Suponha que tem um fluxo de dados chamado *Dados Não Processados* e uma entidade associada denominada *Dados Transformados* , que contém uma entidade associada ao fluxo de dados *Dados Não Processados*. Quando o agendamento da atualização do fluxo de dados *Dados Não Processados* é ativado, o mesmo aciona qualquer fluxo de dados de dados que o referencie após a respetiva conclusão. Esta funcionalidade cria uma cadeia de atualizações, o que lhe permite evitar o agendamento manual de fluxos de dados. Existem algumas diferenças a ter em consideração ao efetuar atualizações de entidades associadas:
+Os fluxos de dados são como tijolos numa parede. Suponha que tem um fluxo de dados chamado *Dados Não Processados* e uma entidade associada denominada *Dados Transformados*, que contém uma entidade associada ao fluxo de dados *Dados Não Processados*. Quando o agendamento da atualização do fluxo de dados *Dados Não Processados* é ativado, o mesmo aciona qualquer fluxo de dados de dados que o referencie após a respetiva conclusão. Esta funcionalidade cria uma cadeia de atualizações, o que lhe permite evitar o agendamento manual de fluxos de dados. Existem algumas diferenças a ter em consideração ao efetuar atualizações de entidades associadas:
 
 * Uma entidade associada é acionada por uma atualização apenas se existir na mesma área de trabalho.
 
@@ -106,3 +106,4 @@ Os seguintes artigos fornecem mais informações sobre as fluxos de dados e o Po
 * [Funcionalidades Premium do fluxo de dados](dataflows-premium-features.md)
 * [IA com fluxos de dados](dataflows-machine-learning-integration.md)
 * [Limitações e considerações dos fluxo de dados](dataflows-features-limitations.md)
+* [Melhores práticas dos fluxos de dados](dataflows-best-practices.md)

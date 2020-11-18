@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/30/2020
-ms.openlocfilehash: 653724c6028b5be950c09c9361cdb43edc930e3a
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: d8e7b5dca207aef1a4f119bf324662dbcaa1bbab
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049068"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94513327"
 ---
 # <a name="tutorial-create-a-react-based-visual"></a>Tutorial: Criar um elemento visual baseado no React
 
@@ -34,7 +34,7 @@ Neste tutorial, vai aprender a:
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-* Uma conta do **Power BI Pro** . [Inscreva-se numa avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
+* Uma conta do **Power BI Pro**. [Inscreva-se numa avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
 * [Visual Studio Code](https://www.visualstudio.com/).
 * Versão 4 ou posterior do [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell) para utilizadores do Windows OU o [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) para utilizadores do OSX.
 * Um ambiente, conforme descrito em [Configurar o seu ambiente para desenvolver um elemento visual do Power BI](environment-setup.md).
@@ -51,7 +51,7 @@ Pode clonar ou transferir o código fonte completo do elemento visual a partir d
    pbiviz new ReactCircleCard
    ```
 
-   O comando cria uma pasta chamada *ReactCircleCard* .
+   O comando cria uma pasta chamada *ReactCircleCard*.
 
 1. Altere os diretórios para essa pasta e abra o Visual Studio Code.
 
@@ -86,7 +86,7 @@ Este elemento visual básico representa o número de atualizações. Em seguida,
    npm i @types/react @types/react-dom
    ```
 
-1. Crie uma classe de componente do React. No Visual Studio Code, selecione **Ficheiro** > **Novo Ficheiro** . Copie o seguinte código para o ficheiro.
+1. Crie uma classe de componente do React. No Visual Studio Code, selecione **Ficheiro** > **Novo Ficheiro**. Copie o seguinte código para o ficheiro.
 
     ```typescript
     import * as React from "react";
@@ -104,9 +104,9 @@ Este elemento visual básico representa o número de atualizações. Em seguida,
     export default ReactCircleCard;
     ```
 
-1. Selecione **Guardar Como** . Aceda ao diretório *src* . Introduza o nome *component* . Em **Guardar com o tipo** , selecione **TypeScript React** .
+1. Selecione **Guardar Como**. Aceda ao diretório *src*. Introduza o nome *component*. Em **Guardar com o tipo**, selecione **TypeScript React**.
 
-1. Abra *src/visual.ts* . Substitua o código atual pelo seguinte código:
+1. Abra *src/visual.ts*. Substitua o código atual pelo seguinte código:
 
     ```typescript
     "use strict";
@@ -179,7 +179,7 @@ Este elemento visual básico representa o número de atualizações. Em seguida,
     ```
 
    > [!NOTE]
-   > Se tiver executado `pbiviz` anteriormente, terá de o reiniciar para aplicar as alterações em *tsconfig.json* .
+   > Se tiver executado `pbiviz` anteriormente, terá de o reiniciar para aplicar as alterações em *tsconfig.json*.
 
   ![mensagem hello React no elemento visual](./media/create-react-visual/hello-react-message-visual.png)
 
@@ -232,7 +232,7 @@ Agora, pode introduzir os dados do painel `Fields` nas definições do elemento 
 
 Pode compor os dados com o React. O componente pode apresentar os dados a partir do seu próprio estado.
 
-1. Modifique *src/component.tsx* .
+1. Modifique *src/component.tsx*.
 
     ```javascript
     export interface State {
@@ -267,7 +267,7 @@ Pode compor os dados com o React. O componente pode apresentar os dados a partir
     }
     ```
 
-1. Adicione estilos para a nova marcação ao editar *styles/visual.less* .
+1. Adicione estilos para a nova marcação ao editar *styles/visual.less*.
 
     ```css
     .circleCard {
@@ -309,7 +309,6 @@ Pode compor os dados com o React. O componente pode apresentar os dados a partir
                     textLabel: dataView.metadata.columns[0].displayName,
                     textValue: dataView.single.value.toString()
                 });
-            }
             } else {
                 this.clear();
             }
@@ -355,7 +354,7 @@ Nesta secção, vai tornar o componente redimensionável. Atualmente, o componen
 
 Obtenha o tamanho atual da janela viewport do elemento visual a partir do objeto `options`.
 
-1. Abra *src/visual.ts* . Importe a interface `IViewport` e adicione a propriedade `viewport` à classe `visual`.
+1. Abra *src/visual.ts*. Importe a interface `IViewport` e adicione a propriedade `viewport` à classe `visual`.
 
     ```typescript
     import IViewport = powerbi.IViewport;
@@ -385,7 +384,7 @@ Obtenha o tamanho atual da janela viewport do elemento visual a partir do objeto
       }
     ```
 
-1. Adicione propriedades à interface `State` em *src/component.tsx* .
+1. Adicione propriedades à interface `State` em *src/component.tsx*.
 
     ```typescript
     export interface State {
@@ -399,7 +398,7 @@ Obtenha o tamanho atual da janela viewport do elemento visual a partir do objeto
     }
     ```
 
-1. Faça as seguintes alterações no método `render` em *src/component.tsx* :
+1. Faça as seguintes alterações no método `render` em *src/component.tsx*:
 
     ```typescript
         render() {
@@ -428,7 +427,7 @@ Agora, pode redimensionar a janela viewport. O diâmetro do círculo corresponde
 
 Nesta secção, vai tornar o elemento visual personalizável.
 
-1. Abra *capabilities.json* . Adicione as seguintes definições à propriedade `objects`.
+1. Abra *capabilities.json*. Adicione as seguintes definições à propriedade `objects`.
 
     ```json
     //...
@@ -478,7 +477,7 @@ Nesta secção, vai tornar o elemento visual personalizável.
     }
     ```
 
-1. Adicione estas instruções `import` na parte superior de *src/visual.ts* :
+1. Adicione estas instruções `import` na parte superior de *src/visual.ts*:
 
     ```typescript
     import VisualObjectInstance = powerbi.VisualObjectInstance;
@@ -489,7 +488,7 @@ Nesta secção, vai tornar o elemento visual personalizável.
 
     ```
 
-1. Adicione o método `enumerateObjectInstances` a *src/visual.ts* . Este método é utilizado para aplicar as definições visuais.
+1. Adicione o método `enumerateObjectInstances` a *src/visual.ts*. Este método é utilizado para aplicar as definições visuais.
 
     ```typescript
     export class Visual implements IVisual {
@@ -526,7 +525,7 @@ Nesta secção, vai tornar o elemento visual personalizável.
     }
     ```
 
-1. Aplique as alterações correspondentes a *src/component.tsx* , primeiro ao adicionar estes valores a `State`:
+1. Aplique as alterações correspondentes a *src/component.tsx*, primeiro ao adicionar estes valores a `State`:
 
     ```typescript
     export interface State {

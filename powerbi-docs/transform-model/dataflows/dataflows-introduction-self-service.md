@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 23ead6afd508cc0e61ae29d65926372561a6375a
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: d8315652883f644d5440c25e3203fdf004bac51c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396294"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669115"
 ---
 # <a name="introduction-to-dataflows-and-self-service-data-prep"></a>Introdução aos fluxos de dados e à preparação personalizada de dados
 
@@ -49,6 +49,7 @@ Os seguintes artigos fornecem mais informações sobre os fluxos de dados e o Po
 * [Funcionalidades Premium do fluxo de dados](dataflows-premium-features.md)
 * [IA com fluxos de dados](dataflows-machine-learning-integration.md)
 * [Limitações e considerações dos fluxo de dados](dataflows-features-limitations.md)
+* [Melhores práticas dos fluxos de dados](dataflows-best-practices.md)
 
 
 Para obter mais informações sobre o Common Data Service, pode ler o seguinte artigo de descrição geral:

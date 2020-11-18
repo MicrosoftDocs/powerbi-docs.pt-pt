@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2020
+ms.date: 11/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fe55c789f5af644a802bc5c5f648315744a074be
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: d84f6a4fcf7ff531b76b6e731f165aa6e0df764f
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638675"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512131"
 ---
 # <a name="bi-solution-architecture-in-the-center-of-excellence"></a>Arquitetura da solução de BI no Centro de Excelência
 
@@ -64,13 +64,13 @@ Os **modelos semânticos de BI** representam uma camada semântica dos modelos e
 
 Além de serem ativadas por dados, as capacidades empresariais utilizam modelos semânticos de BI que descrevem conceitos, relações, regras e padrões. Assim, representam estruturas simples e intuitivas que definem relações de dados e englobam regras de negócio como cálculos. Também podem aplicar permissões de dados detalhadas e garantir que as pessoas certas têm acesso aos dados certos. Além disso, aceleram o desempenho das consultas e fornecem análises interativas extremamente responsivas, mesmo com terabytes de dados. Tal como os modelos empresariais, os modelos semânticos de BI utilizam convenções de nomenclatura para garantir a consistência.
 
-Numa plataforma de BI da cloud, os programadores de BI podem implementar modelos semânticos de BI no [Azure Analysis Services](/azure/analysis-services/) ou em [capacidades do Power BI Premium](../admin/service-premium-what-is.md#dedicated-capacities). Se a utiliza como camada de relatórios e análise, recomendamos a respetiva implementação no Power BI. Estes produtos suportam vários modos de armazenamento e permitem que as tabelas dos modelos de dados coloquem os respetivos dados em cache ou utilizem o [DirectQuery](directquery-model-guidance.md), que é uma tecnologia que envia consultas para a origem de dados adjacente. O DirectQuery é um modo de armazenamento ideal quando as tabelas dos modelos representam grandes volumes de dados ou quando é necessidade fornecer resultados quase em tempo real. É possível combinar ambos os modos de armazenamento: Os [modelos compostos](composite-model-guidance.md) combinam tabelas que utilizam vários modos de armazenamento num único modelo.
+Numa plataforma de BI da cloud, os programadores de BI podem implementar modelos semânticos de BI no [Azure Analysis Services](/azure/analysis-services/) ou em [capacidades do Power BI Premium](../admin/service-premium-what-is.md#reserved-capacities). Se a utiliza como camada de relatórios e análise, recomendamos a respetiva implementação no Power BI. Estes produtos suportam vários modos de armazenamento e permitem que as tabelas dos modelos de dados coloquem os respetivos dados em cache ou utilizem o [DirectQuery](directquery-model-guidance.md), que é uma tecnologia que envia consultas para a origem de dados adjacente. O DirectQuery é um modo de armazenamento ideal quando as tabelas dos modelos representam grandes volumes de dados ou quando é necessidade fornecer resultados quase em tempo real. É possível combinar ambos os modos de armazenamento: Os [modelos compostos](composite-model-guidance.md) combinam tabelas que utilizam vários modos de armazenamento num único modelo.
 
 No caso dos modelos com muitas consultas, é possível utilizar o [Balanceador de Carga do Azure](/azure/load-balancer/load-balancer-overview) para distribuir uniformemente a carga das consultas em réplicas de modelos. Tal também lhe permite dimensionar aplicações e criar modelos semânticos de BI de elevada disponibilidade.
 
 ### <a name="machine-learning-models"></a>Modelos de Machine Learning
 
-Os [ **modelos de Machine Learning (ML)** ](/windows/ai/windows-ml/what-is-a-machine-learning-model) são compilados e mantidos por cientistas de dados. Tendem a ser desenvolvidos a partir de origens de dados não processadas no data lake.
+Os [ **modelos de Machine Learning (ML)**](/windows/ai/windows-ml/what-is-a-machine-learning-model) são compilados e mantidos por cientistas de dados. Tendem a ser desenvolvidos a partir de origens de dados não processadas no data lake.
 
 Os modelos de ML preparados podem revelar padrões nos dados. Em muitas circunstâncias, esses padrões podem ser utilizados para efetuar predições que podem ser utilizadas para melhorar os dados. Por exemplo, o comportamento de compra pode ser utilizado para prever o abandono de clientes ou segmentar os mesmos. Os resultados das predições podem ser adicionados a modelos empresariais para permitir a realização de análises por segmento de clientes.
 
