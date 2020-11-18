@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 697aa38a08acb561cca9b0ccba5656281157237e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d08ddeddc0a0feee82b02549db819a901f944c2d
+ms.sourcegitcommit: 1b79577006a2f6583a0a249f1920ae1e2b6b0ace
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226423"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94529034"
 ---
 # <a name="data-lineage"></a>Linhagem de dados
 Em projetos modernos de business intelligence (BI), compreender o fluxo de dados desde a origem até ao destino pode ser um desafio. A dimensão deste desafio é ainda maior se tiver desenvolvido projetos de análise avançados que abranjam múltiplas origens de dados, artefactos e dependências. Responder a perguntas como "O que acontece se alterar estes dados?" ou "Porque é que este relatório não está atualizado?" pode ser difícil. A compreensão destas questões pode exigir o trabalho de uma equipa de peritos ou uma investigação profunda. Para ajudar a responder a estas perguntas, criámos uma vista de linhagem de dados.
@@ -23,7 +23,9 @@ Em projetos modernos de business intelligence (BI), compreender o fluxo de dados
  
 O Power BI tem vários tipos de artefactos, como dashboards, relatórios, conjuntos de dados e fluxos de dados. Muitos conjuntos de dados e fluxos de dados ligam-se a origens de dados externas, como o SQL Server, e a conjuntos de dados externos noutras áreas de trabalho. Quando um conjunto de dados é externo a uma área de trabalho que lhe pertence, é possível que esteja numa área de trabalho de um colaborador de TI ou outro analista. Os conjuntos de dados e as origens de dados externas tornam difícil perceber de onde os dados são provenientes. Apresentamos a vista de linhagem tanto para projetos simples como complexos.
 
-Na vista de linhagem, pode ver as relações de linhagem entre todos os artefactos numa área de trabalho, bem como todas as respetivas dependências externas. Mostra as ligações entre todos os artefactos da área de trabalho, incluindo as ligações a fluxos de dados de origem e destino.
+Na vista de linhagem, pode ver as relações de linhagem entre todos os artefactos numa área de trabalho, bem como todas as respetivas dependências externas. Mostra as ligações entre todos os artefactos da área de trabalho, incluindo as ligações a fluxos de dados de origem e destino.    
+
+> [!VIDEO https://youtu.be/rUj06dqB98g]
 
 ## <a name="explore-lineage-view"></a>Explorar a vista de linhagem
 

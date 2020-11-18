@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18, devx-track-js
 ms.date: 02/05/2019
-ms.openlocfilehash: c831118a14c1dc453acb81b866013dcb085d9f6d
-ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
+ms.openlocfilehash: 0ef66f847485e066d6596c65b277f2d74699614d
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94348203"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94559787"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Tutorial: Incorporar conteúdos do Power BI na sua aplicação para clouds nacionais
 
@@ -78,7 +78,7 @@ Este artigo mostra o código utilizado no [exemplo App Owns Data](https://github
 3. Adicione os parâmetros do DoDCON ao ficheiro web.config da seguinte forma.
 
 ```xml
-<add key="authorityUrl" value="https://login.microsoftonlineS.us/common/" />
+<add key="authorityUrl" value="https://login.microsoftonline.us/common/" />
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
 <add key="apiUrl" value="https://api.high.powerbigov.us/" />
 <add key="embedUrlBase" value="https://app.high.powerbigov.us" />

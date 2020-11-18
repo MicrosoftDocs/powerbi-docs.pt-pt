@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2020
+ms.date: 11/17/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: c90d15c20b54a25ccea5865302753e0189359be2
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 8fa83bfc0dc19e4c60094b0ee3c26eb8f7bab12d
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396110"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718897"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes do Governo Norte-Americano
 
@@ -74,25 +74,25 @@ A autenticação, identidade e a administração do Power BI depende da conectiv
 
 |  Objetivo | Destino |
 | ---- | ----- |
-| APIs de back-end | **GCC** : api.powerbigov.us |
-| | **GCC-High** : api.high.powerbigov.us |
-| | **DoD** : api.mil.powerbi.gov.us |
-| APIs de back-end | **GCC** : *analysis.usgovcloudapi.net |
-| | **GCC High** : *.high.analysis.usgovcloudapi.net |
-| | **DoD** : *.mil.analysis.usgovcloudapi.net |
-| APIs de back-end | **Tudo** : *.pbidedicated.usgovcloudapi.net |
-| Rede de Entrega de Conteúdos (CDN) | **GCC** : gov.content.powerapps.us |
-| | **GCC High** : high.content.powerapps.us |
-| | **DoD** : mil.content.powerapps.us |
-| Integração do Microsoft 365 | **GCC** : [Pontos finais globais](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
-| | **GCC High** : [Pontos finais da GCC High do Governo Norte-Americano](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
-| | **DoD** : [Pontos finais do DoD do Governo Norte-Americano](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
-| Portal |**GCC** : *.powerbigov.us |
-| | **GCC-High** : *.high.powerbigov.us |
-| | **DoD** : *.mil.powerbigov.us |
-| Telemetria do serviço | **Tudo** : dc.services.visualstudio.us |
-| Mensagens informativas (opcional) | **Tudo** : dynmsg.modpim.com |
-| Inquéritos do NPS (opcional) | **Tudo** : nps.onyx.azure.net |
+| APIs de back-end | **GCC**: api.powerbigov.us |
+| | **GCC-High**: api.high.powerbigov.us |
+| | **DoD**: api.mil.powerbi.gov.us |
+| APIs de back-end | **GCC**: *analysis.usgovcloudapi.net |
+| | **GCC High**: *.high.analysis.usgovcloudapi.net |
+| | **DoD**: *.mil.analysis.usgovcloudapi.net |
+| APIs de back-end | **Tudo**: *.pbidedicated.usgovcloudapi.net |
+| Rede de Entrega de Conteúdos (CDN) | **GCC**: gov.content.powerapps.us |
+| | **GCC High**: high.content.powerapps.us |
+| | **DoD**: mil.content.powerapps.us |
+| Integração do Microsoft 365 | **GCC**: [Pontos finais globais](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High**: [Pontos finais da GCC High do Governo Norte-Americano](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD**: [Pontos finais do DoD do Governo Norte-Americano](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| Portal |**GCC**: *.powerbigov.us |
+| | **GCC-High**: *.high.powerbigov.us |
+| | **DoD**: *.mil.powerbigov.us |
+| Telemetria do serviço | **Tudo**: dc.services.visualstudio.us |
+| Mensagens informativas (opcional) | **Tudo**: dynmsg.modpim.com |
+| Inquéritos do NPS (opcional) | **Tudo**: nps.onyx.azure.net |
 
 ## <a name="connect-government-and-global-azure-cloud-services"></a>Ligar serviços cloud do Azure global e do Governo Norte-Americano
 
@@ -129,6 +129,7 @@ A tabela seguinte apresenta as funcionalidades que não estão disponíveis num 
 |[Proteção de Dados (Etiquetas da MIP)](service-security-sensitivity-label-overview.md)|T4 de 2020|T4 de 2020 |T4 de 2020|
 |[Aplicações de modelo](../connect-data/service-template-apps-overview.md)<sup>3</sup>|T4 de 2020 |T4 de 2020| T4 de 2020|
 |[Elementos Visuais Personalizados](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|T4 de 2020 |T4 de 2020| T4 de 2020|
+|[Azure Stream Analytics](/azure/stream-analytics/stream-analytics-power-bi-dashboard)| T4 de 2020|T4 de 2020|T4 de 2020|
 |[Conector de Dados de Qualidade da Chamada](/microsoftteams/cqd-power-bi-connector)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|
 |[Traga o Seu Próprio Armazenamento (Azure Data Lake Gen2)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|
 |[Geração de códigos QR](../create-reports/service-create-qr-code-for-tile.md)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|

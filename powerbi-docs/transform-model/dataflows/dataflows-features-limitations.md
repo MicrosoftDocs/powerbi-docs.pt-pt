@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 89de77e65d8eb675d9e80c3b2497f39af7c32d33
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 2d58fe71b7ceb27afe5d52a55ed57ae162622b06
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396593"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668172"
 ---
 # <a name="dataflows-limitations-and-considerations"></a>Limitações e considerações dos fluxo de dados
 
@@ -43,7 +43,7 @@ Pode encontrar mais informações sobre as APIs REST de Fluxos de Dados suportad
 
 * Importar fluxos de dados que contenham entidades ligadas não corrige as referências existentes no fluxo de dados (estas consultas devem ser corrigidas manualmente antes de importar o fluxo de dados)
 
-* Os fluxos de dados podem ser substituídos com o parâmetro *CreateOrOverwrite* , caso tenham sido inicialmente criados com a API de importação
+* Os fluxos de dados podem ser substituídos com o parâmetro *CreateOrOverwrite*, caso tenham sido inicialmente criados com a API de importação
 
 ## <a name="dataflows-in-shared"></a>Fluxos de Dados em Capacidades Partilhadas
 
@@ -75,7 +75,7 @@ Os fluxos de dados existentes em Capacidades Premium têm as seguintes limitaç�
 
 * Uma entidade ligada não pode ser associada a uma entidade normal que obtém os seus dados a partir de uma origem de dados no local
 
-* Quando uma consulta (consulta *A* , por exemplo) é utilizada no cálculo de outra consulta (consulta *B* ) nos fluxos de dados, a consulta *B* torna-se uma entidade calculada. As entidades calculadas não podem fazer referência a origens no local.
+* Quando uma consulta (consulta *A*, por exemplo) é utilizada no cálculo de outra consulta (consulta *B*) nos fluxos de dados, a consulta *B* torna-se uma entidade calculada. As entidades calculadas não podem fazer referência a origens no local.
 
 
 **Motor de Computação:**
@@ -111,3 +111,4 @@ Os seguintes artigos fornecem mais informações sobre os fluxos de dados e o Po
 * [Configurar o armazenamento de fluxos de dados para utilizar o Azure Data Lake Gen2](dataflows-azure-data-lake-storage-integration.md)
 * [Funcionalidades Premium do fluxo de dados](dataflows-premium-features.md)
 * [IA com fluxos de dados](dataflows-machine-learning-integration.md)
+* [Melhores práticas dos fluxos de dados](dataflows-best-practices.md)
