@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 11/13/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4eae96dbdddae82a7f74f27c835874a19b04a69f
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 624da63259dcb09d0ebbb35079ef0d8e1340b04c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256849"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668517"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Permitir que os utilizadores personalizem elementos visuais num relatório
 
@@ -60,7 +60,7 @@ Para utilizar as Perspetivas, tem de ativar a opção Personalizar elementos vis
 
 Para criar a perspetiva, utilize o [Tabular Editor](https://tabulareditor.com/), que pode transferir na localização seguinte: transferir o Tabular Editor
 
-Depois de instalar o **Tabular Editor** , abra o seu relatório no **Power BI Desktop** e abra o **Tabular Editor** no separador **Ferramentas Externas** do friso, como mostrado na imagem seguinte.
+Depois de instalar o **Tabular Editor**, abra o seu relatório no **Power BI Desktop** e abra o **Tabular Editor** no separador **Ferramentas Externas** do friso, como mostrado na imagem seguinte.
 
 ![Tabular Editor no friso Ferramentas Externas](media/power-bi-personalize-visuals/power-bi-personalize-perspective-02.png)
 
@@ -82,11 +82,11 @@ Após adicionar todos os campos que pretende, lembre-se de guardar as definiçõ
 
 ![Guardar as definições de perspetivas no Tabular Editor e no Power BI Desktop](media/power-bi-personalize-visuals/power-bi-personalize-perspective-06.png)
 
-Depois de guardar a nova perspetiva no modelo e de guardar o relatório do Power BI Desktop, navegue para o painel **Formatar** da página, onde verá uma nova secção para **Personalizar elemento visual** .
+Depois de guardar a nova perspetiva no modelo e de guardar o relatório do Power BI Desktop, navegue para o painel **Formatar** da página, onde verá uma nova secção para **Personalizar elemento visual**.
 
 ![Secção Personalizar elemento visual no painel Formatar](media/power-bi-personalize-visuals/power-bi-personalize-perspective-07.png)
 
-A seleção de *Perspetiva do leitor do relatório* está definida inicialmente como *Campos predefinidos* . Quando selecionar a seta pendente, verá as outras Perspetivas que criou.
+A seleção de *Perspetiva do leitor do relatório* está definida inicialmente como *Campos predefinidos*. Quando selecionar a seta pendente, verá as outras Perspetivas que criou.
 
 ![Selecione a seta pendente para ver as outras perspetivas](media/power-bi-personalize-visuals/power-bi-personalize-perspective-08.png)
 
@@ -96,23 +96,23 @@ Após definir a Perspetiva para a página do relatório, a experiência Personal
 
 ## <a name="enable-personalization-in-a-report"></a>Ativar a personalização num relatório
 
-A funcionalidade pode ser ativada no Power BI Desktop ou no serviço Power BI.
+A funcionalidade pode ser ativada no Power BI Desktop ou no serviço Power BI. Pode também ativá-la nos relatórios incorporados.
 
 ### <a name="in-power-bi-desktop"></a>No Power BI Desktop
 
-Para ativar a funcionalidade no Power BI Desktop, aceda a **Ficheiro** > **Opções e Definições** > **Opções** > **Ficheiro atual** > **Definições de relatórios** . Certifique-se de que a definição **Personalizar elementos visuais** está ativada.
+Para ativar a funcionalidade no Power BI Desktop, aceda a **Ficheiro** > **Opções e Definições** > **Opções** > **Ficheiro atual** > **Definições de relatórios**. Certifique-se de que a definição **Personalizar elementos visuais** está ativada.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="Personalizar um elemento visual":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="Ativar a personalização num relatório":::
 
 ### <a name="in-the-power-bi-service"></a>No serviço Power BI
 
 Para ativar a funcionalidade no serviço Power BI, aceda às **Definições** do seu relatório.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Personalizar um elemento visual":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Definições de relatórios no serviço Power BI":::
 
-Ative **Personalizar elementos visuais** > **Guardar** .
+Ative **Personalizar elementos visuais** > **Guardar**.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="Personalizar um elemento visual":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="Ativar Personalizar elementos visuais no serviço":::
 
 ## <a name="turn-the-feature-on-or-off-at-a-page-or-visual-level"></a>Ativar ou desativar a funcionalidade num nível de página ou de elemento visual
 
@@ -120,21 +120,21 @@ Quando ativa a definição Personalizar elementos visuais para um determinado re
 
 ### <a name="per-page"></a>Por página
 
-Selecione o separador da página > selecione **Formato** no painel **Visualizações** .
+Selecione o separador da página > selecione **Formato** no painel **Visualizações**.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="Personalizar um elemento visual":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="Selecione Personalizar Elemento Visual para uma página.":::
  
-Deslize a opção **Personalizar elemento visual** para a posição  >  **Ativado** ou **Desativado** .
+Deslize a opção **Personalizar elemento visual** para a posição  >  **Ativado** ou **Desativado**.
 
 ### <a name="per-visual"></a>Por elemento visual
 
-Selecione o elemento visual > selecione **Formatar** no painel **Visualizações** > expanda **Cabeçalho de elemento visual** .
+Selecione o elemento visual > selecione **Formatar** no painel **Visualizações** > expanda **Cabeçalho de elemento visual**.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="Personalizar um elemento visual":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="Selecionar Cabeçalho de elemento visual":::
  
-Deslize a opção **Personalizar elemento visual** para a posição  >  **Ativado** ou **Desativado** .
+Deslize a opção **Personalizar elemento visual** para a posição  >  **Ativado** ou **Desativado**.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Personalizar um elemento visual":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Deslizar a opção Personalizar elemento visual para a posição ativado ou desativado":::
 
 
 ## <a name="limitations"></a>Limitações
