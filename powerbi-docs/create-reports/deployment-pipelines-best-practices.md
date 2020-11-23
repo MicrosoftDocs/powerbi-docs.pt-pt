@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 09/15/2020
-ms.openlocfilehash: 01cb4c5de2863250f083320e7005c0d589a2da0b
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.date: 10/21/2020
+ms.openlocfilehash: 9d78a4cd8beb84402a4b3b586df6998810d1c8f7
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116483"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94513005"
 ---
 # <a name="deployment-pipelines-best-practices"></a>Deployment pipelines best practices (Melhores práticas dos pipelines de implementação)
 
@@ -93,26 +93,26 @@ Esta secção disponibiliza orientação para trabalhar com a fase de desenvolvi
 
 ### <a name="use-power-bi-desktop-to-edit-your-reports-and-datasets"></a>Utilizar o Power BI Desktop para editar os relatórios e os conjuntos de dados
 
-Considere o Power BI Desktop como o seu ambiente de desenvolvimento local. O Power BI Desktop permite-lhe experimentar, explorar e rever as atualizações feitas aos relatórios e aos conjuntos de dados. Após a conclusão do trabalho, pode carregar a nova versão para a fase de desenvolvimento. Devido às razões seguintes, é recomendado editar os ficheiros .pbix no Desktop (e não no serviço Power BI):
+Considere o Power BI Desktop como o seu ambiente de desenvolvimento local. O Power BI Desktop permite-lhe experimentar, explorar e rever as atualizações feitas aos relatórios e aos conjuntos de dados. Após a conclusão do trabalho, pode carregar a nova versão para a fase de desenvolvimento. Devido às razões seguintes, é recomendado editar os ficheiros PBIX no Desktop (e não no serviço Power BI):
 
-* Será mais fácil colaborar com os outros criadores no mesmo ficheiro .pbix se todas as alterações estiverem a ser feitas na mesma ferramenta.
+* Será mais fácil colaborar com os outros criadores no mesmo ficheiro PBIX se todas as alterações estiverem a ser feitas na mesma ferramenta.
 
- * Fazer alterações online, transferir o ficheiro .pbix e, em seguida, carregá-lo novamente, cria duplicação de relatórios e conjuntos de dados.
+ * Fazer alterações online, transferir o ficheiro PBIX e, em seguida, carregá-lo novamente, cria duplicação de relatórios e conjuntos de dados.
 
-* Pode utilizar o controlo de versões para manter os ficheiros .pbix atualizados.
+* Pode utilizar o controlo de versões para manter os ficheiros PBIX atualizados.
 
-### <a name="version-control-for-pbix-files"></a>Controlo de versões dos ficheiros .pbix
+### <a name="version-control-for-pbix-files"></a>Controlo de versões dos ficheiros PBIX
 
 Se quiser gerir o histórico de versões dos relatórios e dos conjuntos de dados, utilize a [sincronização automática do Power BI com o OneDrive](../collaborate-share/service-connect-to-files-in-app-workspace-onedrive-for-business.md). Esta funcionalidade manterá os ficheiros atualizados com a versão mais recente. Também lhe permitirá obter versões mais antigas, se necessário.
 
 >[!NOTE]
->Utilize a sincronização automática com o OneDrive (ou qualquer outro repositório) apenas com os ficheiros .pbix na fase de desenvolvimento dos pipelines de implementação. Não sincronize os ficheiros .pbix nas fases de teste e produção dos pipelines de implementação. Esta ação causará problemas na implementação do conteúdo no pipeline.
+>Utilize a sincronização automática com o OneDrive (ou qualquer outro repositório) apenas com os ficheiros PBIX na fase de desenvolvimento dos pipelines de implementação. Não sincronize os ficheiros PBIX nas fases de teste e produção dos pipelines de implementação. Esta ação causará problemas na implementação do conteúdo no pipeline.
 
 ### <a name="separate-modeling-development-from-report-and-dashboard-development"></a>Desenvolvimento de modelação separado do desenvolvimento de relatórios e dashboards
 
 Para implementações à escala empresarial, é recomendado separar o desenvolvimento dos conjuntos de dados do desenvolvimento de relatórios e dashboards. Para promover alterações apenas a um relatório ou conjunto de dados, utilize a opção de implementação seletiva dos pipelines de implementação.  
 
-Esta abordagem deve começar no Power BI Desktop, através da criação de um ficheiro .pbix separado para os conjuntos de dados e os relatórios. Por exemplo, pode criar um ficheiro .pbix do conjunto de dados e carregá-lo para a fase de desenvolvimento. Mais tarde, os autores do relatório podem criar um novo .pbix apenas para o relatório e [ligá-lo ao conjunto de dados publicado](../connect-data/service-datasets-discover-across-workspaces.md) com uma ligação em direto. Esta técnica permite que diferentes criadores trabalhem separadamente na modelação e nas visualizações, e as implementem na fase de produção de forma independente.
+Esta abordagem deve começar no Power BI Desktop, através da criação de um ficheiro PBIX separado para os conjuntos de dados e os relatórios. Por exemplo, pode criar um ficheiro PBIX do conjunto de dados e carregá-lo para a fase de desenvolvimento. Mais tarde, os autores do relatório podem criar um novo PBIX apenas para o relatório e [ligá-lo ao conjunto de dados publicado](../connect-data/service-datasets-discover-across-workspaces.md) com uma ligação em direto. Esta técnica permite que diferentes criadores trabalhem separadamente na modelação e nas visualizações, e as implementem na fase de produção de forma independente.
 
 Também pode utilizar este método em áreas de trabalho com [conjuntos de dados partilhados](../connect-data/service-datasets-share.md).
 
@@ -195,7 +195,7 @@ A implementação num pipeline atualiza o conteúdo da área de trabalho, mas n�
 
 ### <a name="quick-fixes-to-content"></a>Correções rápidas ao conteúdo
 
-No caso de existirem erros na fase de produção que exijam uma correção rápida, não carregue uma nova versão do .pbix diretamente para a fase de produção nem faça nenhuma alteração online no serviço Power BI. Não será possível implementar retroativamente nas fases de teste e de desenvolvimento se já existir conteúdo nessas fases. Além disso, implementar uma correção sem a testar primeiro é uma má prática. Por conseguinte, a forma correta de tratar este problema é implementar a correção na fase de desenvolvimento e aplicá-la nas restantes fases do pipeline de implementação. Assim, pode verificar se a correção funciona, antes de a implementar na fase de produção. A implementação no pipeline demora apenas alguns minutos.
+No caso de existirem erros na fase de produção que exijam uma correção rápida, não carregue uma nova versão do PBIX diretamente para a fase de produção nem faça nenhuma alteração online no serviço Power BI. Não será possível implementar retroativamente nas fases de teste e de desenvolvimento se já existir conteúdo nessas fases. Além disso, implementar uma correção sem a testar primeiro é uma má prática. Por conseguinte, a forma correta de tratar este problema é implementar a correção na fase de desenvolvimento e aplicá-la nas restantes fases do pipeline de implementação. Assim, pode verificar se a correção funciona, antes de a implementar na fase de produção. A implementação no pipeline demora apenas alguns minutos.
 
 ## <a name="next-steps"></a>Próximos passos
 

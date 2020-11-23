@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: b74c381bfddc638c1371d571492eedfc7cf82a65
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 50c10343487765f4f42c895ba605618b852415fd
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916412"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512246"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Aplicação Métricas do Power BI Premium
 
-Pode utilizar a **aplicação Métricas do Power BI Premium** para gerir o estado de funcionamento e a capacidade da sua subscrição do Power BI Premium. Com a aplicação, os administradores utilizam o **Centro de estado de funcionamento da capacidade** da aplicação para ver e interagir com os indicadores que monitorizam o estado de funcionamento da capacidade premium. A aplicação Métricas consiste na página de destino, denominada **Centro de Estado de Funcionamento da Capacidade** , e em detalhes sobre três métricas importantes:
+Pode utilizar a **aplicação Métricas do Power BI Premium** para gerir o estado de funcionamento e a capacidade da sua subscrição do Power BI Premium. Com a aplicação, os administradores utilizam o **Centro de estado de funcionamento da capacidade** da aplicação para ver e interagir com os indicadores que monitorizam o estado de funcionamento da capacidade premium. A aplicação Métricas consiste na página de destino, denominada **Centro de Estado de Funcionamento da Capacidade**, e em detalhes sobre três métricas importantes:
 
 * Memória ativa
 * Esperas de consultas
@@ -31,11 +31,13 @@ As secções a seguir descrevem a página de destino e as três páginas de rela
 > [!IMPORTANT]
 > Se a sua capacidade do Power BI Premium tiver uma alta utilização de recursos, resultando em problemas de fiabilidade ou desempenho, pode receber e-mails de notificação para identificar e resolver o problema. Pode ser uma forma simplificada de resolver problemas de capacidades sobrecarregadas. Para obter mais informações, veja [notificações de fiabilidade e capacidade](service-interruption-notifications.md#capacity-and-reliability-notifications).
 
+> [!NOTE]
+> O Power BI Premium lançou recentemente uma nova versão do Premium, denominada **Premium Gen2**, que está atualmente em pré-visualização. O Premium Gen2 irá simplificar a gestão de capacidades Premium e reduzirá a sobrecarga de gestão. Em especial, reduz consideravelmente as métricas que os administradores têm de monitorizar (apenas CPU) para garantir o desempenho e a experiência dos utilizadores. Para obter mais informações, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 
 ## <a name="premium-capacity-health-center"></a>Centro de estado de funcionamento da capacidade Premium
 
-Quando abre a **aplicação Métricas do Power BI Premium** , é-lhe apresentado o **Centro de estado de funcionamento da capacidade** , que apresenta uma visão geral do estado de funcionamento da capacidade do Power BI Premium.
+Quando abre a **aplicação Métricas do Power BI Premium**, é-lhe apresentado o **Centro de estado de funcionamento da capacidade**, que apresenta uma visão geral do estado de funcionamento da capacidade do Power BI Premium.
 
 ![O centro de estado de funcionamento da capacidade na aplicação Métricas Premium](media/service-premium-metrics-app/premium-metrics-app-01.png)
 
@@ -47,7 +49,7 @@ Para ver informações específicas sobre cada KPI, selecione o botão **Explora
 
 ## <a name="the-active-memory-metric"></a>Métrica “memória ativa”
 
-A métrica **memória ativa** faz parte da categoria *planeamento de capacidade* , que serve como indicador do bom estado de funcionamento para avaliar o consumo de utilização dos recursos da capacidade, para que assim possa ajustar a capacidade conforme necessário para planear o dimensionamento da capacidade. 
+A métrica **memória ativa** faz parte da categoria *planeamento de capacidade*, que serve como indicador do bom estado de funcionamento para avaliar o consumo de utilização dos recursos da capacidade, para que assim possa ajustar a capacidade conforme necessário para planear o dimensionamento da capacidade. 
 
 ![KPI “memória ativa”](media/service-premium-metrics-app/premium-metrics-app-02.png)
 
@@ -81,9 +83,9 @@ Muitas ocorrências de memória ativa acima do limiar de alarme (linha pontilhad
 
 Quando vê estes casos, deve analisar atentamente os outros gráficos na página para melhor determinar o quê e o porquê de tanta memória estar a ser consumida com tanta frequência e como otimizar e balancear a carga ou se necessário aumentar verticalmente a capacidade. 
 
-O segundo elemento visual na página, **B: Conjuntos de dados ativos carregados por hora** , apresenta as contagens do número máximo de conjuntos de dados que foram carregados na memória, em registos horários. 
+O segundo elemento visual na página, **B: Conjuntos de dados ativos carregados por hora**, apresenta as contagens do número máximo de conjuntos de dados que foram carregados na memória, em registos horários. 
 
-O terceiro elemento visual, **C: Porque é que os conjuntos de dados estão na memória** , é uma tabela que lista o conjunto de dados por nome de área de trabalho, nome do conjunto de dados, tamanho não comprimido de conjuntos de dados na memória e explica o motivo pelo qual está carregado na memória (por exemplo, está a ser atualizado, consultado ou ambos).
+O terceiro elemento visual, **C: Porque é que os conjuntos de dados estão na memória**, é uma tabela que lista o conjunto de dados por nome de área de trabalho, nome do conjunto de dados, tamanho não comprimido de conjuntos de dados na memória e explica o motivo pelo qual está carregado na memória (por exemplo, está a ser atualizado, consultado ou ambos).
 
 #### <a name="diagnosing-scenario-one"></a>Diagnosticar o cenário um
 
@@ -164,7 +166,7 @@ Na página do relatório, são apresentados os seguintes elementos visuais:
 * A tabela superior intitulada **A: Tempos de espera elevados** lista os conjuntos de dados com consultas que estão em espera. 
 * **B: Distribuição dos tempos de espera elevados por hora** mostra a distribuição dos tempos de espera elevados. 
 * O gráfico denominado **C: Contagens de consultas de execução prolongada por hora** apresenta a contagem das consultas de execução prolongada que foram executadas, divididas em registos por hora.
-* O último elemento visual, tabela **D: Consultas de execução prolongada** , lista as consultas de execução prolongada e as estatísticas das mesmas.
+* O último elemento visual, tabela **D: Consultas de execução prolongada**, lista as consultas de execução prolongada e as estatísticas das mesmas.
 
 ![Página de detalhes de espera de consultas](media/service-premium-metrics-app/premium-metrics-app-10.png)
 
@@ -176,7 +178,7 @@ Em primeiro lugar, pode determinar se as consultas de execução prolongada est�
 
 ![Tabela de tempos de espera elevados](media/service-premium-metrics-app/premium-metrics-app-11.png)
 
-Observe o **Gráfico B** , que apresenta a contagem de consultas que esperam durante mais de 100 ms. Selecione uma das colunas que mostra um número elevado de esperas.
+Observe o **Gráfico B**, que apresenta a contagem de consultas que esperam durante mais de 100 ms. Selecione uma das colunas que mostra um número elevado de esperas.
 
 ![Distribuição do tempo de espera elevado](media/service-premium-metrics-app/premium-metrics-app-12.png)
 
@@ -209,7 +211,7 @@ Quando o número de consultas a executar excede os limites da capacidade, as con
 
 #### <a name="diagnosing-scenario-two"></a>Diagnosticar o cenário dois
 
-Na **Tabela A** , selecione um conjunto de dados que tenha uma elevada percentagem de tempo de espera.
+Na **Tabela A**, selecione um conjunto de dados que tenha uma elevada percentagem de tempo de espera.
 
 ![tabela de tempos de espera elevados](media/service-premium-metrics-app/premium-metrics-app-16.png)
 
@@ -242,7 +244,7 @@ A métrica **Esperas de atualizações** fornece informações sobre quando os u
 
 Este medidor mostra que nos últimos sete dias a partir da última atualização do relatório de atualizações, 3,18% das atualizações aguardaram mais de 10 minutos. 
 
-Para obter detalhes sobre o KPI **Esperas de atualizações** , clique no botão **Explorar** , que apresentará uma página com métricas e um guia de resolução de problemas na coluna direita da página de relatório. O guia fornece explicações detalhadas sobre as métricas na página e ajuda-o a compreender o estado da capacidade e o que pode fazer para mitigar quaisquer problemas.
+Para obter detalhes sobre o KPI **Esperas de atualizações**, clique no botão **Explorar**, que apresentará uma página com métricas e um guia de resolução de problemas na coluna direita da página de relatório. O guia fornece explicações detalhadas sobre as métricas na página e ajuda-o a compreender o estado da capacidade e o que pode fazer para mitigar quaisquer problemas.
 
 ![Explorar as métricas “esperas de atualizações”](media/service-premium-metrics-app/premium-metrics-app-21.png)
 
@@ -271,17 +273,17 @@ Para diagnosticar o cenário um, determine primeiro se a limitação se deve a m
 
     ![Tabela A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
-    a. Quando um conjunto de dados é selecionado na **Tabela A** , a **Tabela B** é filtrada para apresentar quando a espera ocorreu.
+    a. Quando um conjunto de dados é selecionado na **Tabela A**, a **Tabela B** é filtrada para apresentar quando a espera ocorreu.
 
     ![Gráfico B](media/service-premium-metrics-app/premium-metrics-app-23.png)
 
     b. E seguida, o **Gráfico C** é filtrado para mostrar qualquer limitação, explicada no passo seguinte. 
 
-2. Observe os resultados no **Gráfico C** , que agora se encontra filtrado. Se o gráfico mostrar que ocorreu uma limitação por falta de memória no momento em que o conjunto de dados estava em espera, significa que o conjunto de dados estava em espera devido a condições de memória baixa.
+2. Observe os resultados no **Gráfico C**, que agora se encontra filtrado. Se o gráfico mostrar que ocorreu uma limitação por falta de memória no momento em que o conjunto de dados estava em espera, significa que o conjunto de dados estava em espera devido a condições de memória baixa.
 
     ![Gráfico C](media/service-premium-metrics-app/premium-metrics-app-24.png)
 
-3. Por fim, marque o **Gráfico D** , que mostra os tipos de atualizações que estão a ocorrer, agendadas versus a pedido. Qualquer atualização a pedido que ocorra ao mesmo tempo pode ser a causa da limitação.
+3. Por fim, marque o **Gráfico D**, que mostra os tipos de atualizações que estão a ocorrer, agendadas versus a pedido. Qualquer atualização a pedido que ocorra ao mesmo tempo pode ser a causa da limitação.
 
     ![Gráfico D](media/service-premium-metrics-app/premium-metrics-app-25.png)
 
@@ -314,17 +316,17 @@ Para diagnosticar o cenário dois, determine primeiro se a limitação se deve a
 
     ![Tabela A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
-    a. Quando um conjunto de dados é selecionado na **Tabela A** , a **Tabela B** é filtrada para apresentar quando a espera ocorreu.
+    a. Quando um conjunto de dados é selecionado na **Tabela A**, a **Tabela B** é filtrada para apresentar quando a espera ocorreu.
 
     ![Gráfico B](media/service-premium-metrics-app/premium-metrics-app-23.png)
 
     b. E seguida, o **Gráfico C** é filtrado para mostrar qualquer limitação, explicada no passo seguinte. 
 
-2. Observe os resultados no **Gráfico C** , que agora se encontra filtrado. Se o gráfico mostrar que a *simultaneidade máxima* ocorreu nos momentos em que o conjunto de dados estava em espera, significa que o conjunto de dados estava em espera devido à CPU disponível ser insuficiente.
+2. Observe os resultados no **Gráfico C**, que agora se encontra filtrado. Se o gráfico mostrar que a *simultaneidade máxima* ocorreu nos momentos em que o conjunto de dados estava em espera, significa que o conjunto de dados estava em espera devido à CPU disponível ser insuficiente.
 
     ![Gráfico C](media/service-premium-metrics-app/premium-metrics-app-24.png)
 
-3. Por fim, marque o **Gráfico D** , que mostra os tipos de atualizações que estão a ocorrer, agendadas versus a pedido. Qualquer atualização a pedido que ocorra ao mesmo tempo pode ser a causa da limitação.
+3. Por fim, marque o **Gráfico D**, que mostra os tipos de atualizações que estão a ocorrer, agendadas versus a pedido. Qualquer atualização a pedido que ocorra ao mesmo tempo pode ser a causa da limitação.
 
     ![Gráfico D](media/service-premium-metrics-app/premium-metrics-app-25.png)
 
@@ -348,3 +350,13 @@ Para diagnosticar o cenário dois, determine primeiro se a limitação se deve a
 * [FAQ do Power BI Embedded](../developer/embedded/embedded-faq.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+
+O Power BI introduziu o Power BI Premium Gen2 como uma oferta de pré-visualização, que melhora a experiência do Power BI Premium nos seguintes aspetos:
+* Desempenho
+* Licenciamento por utilizador
+* Maior dimensionamento
+* Métricas melhoradas
+* Dimensionamento automático
+* Sobrecarga de gestão reduzida
+
+Para obter mais informações sobre o Power BI Premium Gen2, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

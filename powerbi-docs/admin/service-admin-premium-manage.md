@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8edc24e62524834e74fb8334875cc27a259207d1
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 5cce18c2ec4a24b06f4cf48d5fd2b542109d70c6
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916389"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512499"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Configurar e gerir capacidades no Power BI Premium
 
@@ -25,6 +25,9 @@ Saiba como pode gerir as capacidades do Power BI Premium e do Power BI Embedded 
 ![Ecrã de definições de capacidade do Power BI](media/service-admin-premium-manage/premium-capacity-management.png)
 
 A *capacidade* é a parte principal das ofertas do Power BI Premium e do Power BI Embedded. É um conjunto de recursos reservados para utilização exclusiva pela sua organização. Ter uma capacidade permite-lhe publicar dashboards, relatórios e conjuntos de dados para os utilizadores em toda a organização sem ter de comprar licenças individuais para os mesmos. Esta ação proporciona também um desempenho fiável e consistente dos conteúdos alojados na capacidade. Para obter mais informações, consulte [O que é o Power BI Premium?](service-premium-what-is.md).
+
+> [!NOTE]
+> O Power BI Premium lançou recentemente uma nova versão do Premium, denominada **Premium Gen2**, que está atualmente em pré-visualização. O Premium Gen2 irá simplificar a gestão de capacidades Premium e reduzirá a sobrecarga de gestão. Para obter mais informações, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 ## <a name="manage-capacity"></a>Gerir capacidade
 
@@ -64,7 +67,7 @@ Os administradores de capacidade, bem como os administradores do Power BI e os a
 
 ### <a name="capacity-settings"></a>Definições de capacidade
 
-1. No ecrã de gestão de capacidade do Power BI Premium, em **Ações** , selecione o **ícone de engrenagem** para rever e atualizar definições. 
+1. No ecrã de gestão de capacidade do Power BI Premium, em **Ações**, selecione o **ícone de engrenagem** para rever e atualizar definições. 
 
     ![Ações de capacidade na área de gestão de capacidade](media/service-admin-premium-manage/capacity-actions.png)
 
@@ -87,7 +90,7 @@ Os administradores do Power BI e os administradores globais podem alterar a capa
 
     ![Alterar o tamanho de capacidade do Power BI Premium](media/service-admin-premium-manage/change-capacity-size.png)
 
-1. No ecrã **Alterar o tamanho da capacidade** , aumente ou diminua o tamanho da capacidade conforme adequado.
+1. No ecrã **Alterar o tamanho da capacidade**, aumente ou diminua o tamanho da capacidade conforme adequado.
 
     ![Alterar o menu pendente do tamanho da capacidade do Power BI Premium](media/service-admin-premium-manage/change-capacity-size2.png)
 
@@ -108,7 +111,7 @@ Pode atribuir administradores de capacidade adicionais e utilizadores com permis
 > [!NOTE]
 > Para a capacidade do Power BI Embedded, os administradores de capacidade são definidos no portal do Microsoft Azure.
 
-Em **Permissões de utilizador** , expanda a secção **Utilizadores com permissões de atribuição** e, em seguida, adicione utilizadores ou grupos conforme adequado.
+Em **Permissões de utilizador**, expanda a secção **Utilizadores com permissões de atribuição** e, em seguida, adicione utilizadores ou grupos conforme adequado.
 
 ![Permissões de utilizador da capacidade](media/service-admin-premium-manage/capacity-user-permissions2.png)
 
@@ -118,7 +121,7 @@ Existem duas formas de atribuir uma área de trabalho a uma capacidade: no porta
 
 ### <a name="assign-from-the-admin-portal"></a>Atribuir a partir do portal de administração
 
-Os administradores de capacidade, em conjunto com os administradores do Power BI e os administradores globais, podem atribuir áreas de trabalho em massa na secção de gestão de capacidade premium do portal de administração. Ao gerir uma capacidade, verá a secção **Áreas de trabalho** , que lhe permite atribuir áreas de trabalho.
+Os administradores de capacidade, em conjunto com os administradores do Power BI e os administradores globais, podem atribuir áreas de trabalho em massa na secção de gestão de capacidade premium do portal de administração. Ao gerir uma capacidade, verá a secção **Áreas de trabalho**, que lhe permite atribuir áreas de trabalho.
 
 ![Área de atribuição de área de trabalho de gestão de capacidade](media/service-admin-premium-manage/capacity-manage-workspaces.png)
 
@@ -145,7 +148,7 @@ Também pode atribuir uma área de trabalho a uma capacidade Premium a partir da
 
     ![Editar a área de trabalho a partir do menu de contexto de reticências](media/service-admin-premium-manage/edit-app-workspace.png)
 
-1. Em **Editar área de trabalho** , expanda a secção **Avançado**.
+1. Em **Editar área de trabalho**, expanda a secção **Avançado**.
 
 1. Selecione a capacidade à qual pretende atribuir esta área de trabalho.
 
@@ -161,7 +164,7 @@ No separador **Definições de capacidade** do portal do administração do Powe
 
 ![Chave do Power BI Report Server nas definições de capacidade](media/service-admin-premium-manage/pbirs-product-key.png)
 
-Ao selecionar **Chave do Power BI Report Server** , será apresentada uma caixa de diálogo com a sua chave de produto. Pode copiá-la e utilizá-la na instalação.
+Ao selecionar **Chave do Power BI Report Server**, será apresentada uma caixa de diálogo com a sua chave de produto. Pode copiá-la e utilizá-la na instalação.
 
 ![Chave de produto do Power BI Report Server](media/service-admin-premium-manage/pbirs-product-key-dialog.png)
 
@@ -172,3 +175,13 @@ Para obter mais informações, consulte [Instalar o Power BI Report Server](../r
 [Gerir as capacidades Premium](service-premium-capacity-manage.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+
+O Power BI introduziu o Power BI Premium Gen2 como uma oferta de pré-visualização, que melhora a experiência do Power BI Premium nos seguintes aspetos:
+* Desempenho
+* Licenciamento por utilizador
+* Maior dimensionamento
+* Métricas melhoradas
+* Dimensionamento automático
+* Sobrecarga de gestão reduzida
+
+Para obter mais informações sobre o Power BI Premium Gen2, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

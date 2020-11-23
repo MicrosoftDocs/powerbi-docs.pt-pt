@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 11/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05df39b58334b33046fde0f95b9f1ca596c1eec1
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 0f6f4cdb221773218c945e7f800d569c73a9a130
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120558"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718989"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Acerca de utilizar o DirectQuery no Power BI
 
@@ -165,6 +165,7 @@ Quase todas as capacidades dos relatórios são suportadas nos modelos do Direct
 * **As Informações Rápidas não são suportadas:** as Informações Rápidas do Power BI procuram diferentes subconjuntos do seu conjunto de dados enquanto aplicam um grupo de algoritmos sofisticados para detetar informações potencialmente interessantes. Tendo em conta a necessidade de consultas de desempenho muito alto, esta funcionalidade não está disponível em conjuntos de dados que utilizem o DirectQuery.
 * **As Perguntas e Respostas não são suportadas:** as Perguntas e Respostas do Power BI permitem-lhe explorar os seus dados com capacidades de linguagem natural e intuitiva e receber respostas na forma de gráficos e quadros. No entanto, não são atualmente suportadas em conjuntos de dados que utilizem o DirectQuery.
 * **Utilizar o Explorador no Excel vai resultar, provavelmente, num desempenho pior:** pode explorar os seus dados com a funcionalidade Explorar no Excel num conjunto de dados. Esta abordagem permite criar Tabelas Dinâmicas e Gráficos Dinâmicos no Excel. Embora esta funcionalidade seja suportada em conjuntos de dados que utilizem o DirectQuery, o desempenho é, geralmente, mais lento do que a criação de elementos visuais no Power BI, pelo que, se a utilização do Excel for importante para os seus cenários, deve ter em conta este facto quando decidir se vai utilizar o DirectQuery.
+* **Comprimento máximo de colunas de texto:** o comprimento máximo dos dados numa coluna de texto para conjuntos de dados que utilizem o DirectQuery é de 32 764 carateres. Criar relatórios de textos com um comprimento superior a este irá resultar num erro.
 
 ### <a name="security"></a>Segurança
 

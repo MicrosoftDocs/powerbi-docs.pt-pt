@@ -7,19 +7,19 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/15/2020
-ms.openlocfilehash: 58d1adef9a9b2a8a4f818f94da2cb34e6529db83
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/21/2020
+ms.openlocfilehash: b0b8d61224a91cd069caf48a2d321979ac2d291d
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855501"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94513304"
 ---
 # <a name="introduction-to-deployment-pipelines"></a>Introduction to deployment pipelines (Introdução aos pipelines de implementação)
 
 No mundo de hoje, a análise é uma parte vital da tomada de decisão em quase todas as organizações. A utilização crescente do Power BI como ferramenta de análise requer a utilização de mais dados, que seja apelativo e fácil de utilizar. Acima de tudo, o Power BI precisa de estar sempre disponível e ser fiável. Para satisfazer estes requisitos, os criadores do BI devem colaborar de forma eficaz.
 
-A ferramenta de pipelines de implementação permite aos criadores do BI gerir o ciclo de vida dos conteúdos organizacionais. A ferramenta é eficiente e reutilizável para os criadores numa empresa com capacidade Premium. A ferramenta permite aos criadores desenvolver e testar conteúdos do Power BI, antes de os conteúdos serem consumidos pelos utilizadores. Os tipos de conteúdo incluem relatórios, dashboards e conjuntos de dados.
+A ferramenta de pipelines de implementação permite aos criadores do BI gerir o ciclo de vida dos conteúdos organizacionais. É uma ferramenta eficiente e reutilizável para os criadores numa empresa com capacidade Premium. Os pipelines de implementação permitem aos criadores desenvolver e testar conteúdos do Power BI, antes de os conteúdos serem consumidos pelos utilizadores. Os tipos de conteúdo incluem relatórios, dashboards e conjuntos de dados.
 
 A ferramenta foi concebida como um pipeline com três fases:
 
@@ -29,7 +29,7 @@ A ferramenta foi concebida como um pipeline com três fases:
 
 * **<a name="test"></a>Teste**
 
-    Está pronto para entrar na fase de teste, após ter feito todas as alterações aos seus conteúdos. Basta carregar os conteúdos modificados para que possam ser movidos para esta fase de teste. Eis três exemplos daquilo que pode ser feito no ambiente de teste:
+    Está pronto para entrar na fase de teste, após ter feito todas as alterações necessárias aos seus conteúdos. Basta carregar os conteúdos modificados para que possam ser movidos para esta fase de teste. Eis três exemplos daquilo que pode ser feito no ambiente de teste:
 
     * Partilhar conteúdo com técnicos de teste e revisores
 

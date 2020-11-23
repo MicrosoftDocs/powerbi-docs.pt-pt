@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 03/12/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 0f237efece8403730ea7790d45bca6f5169e53fd
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: ac0935dd6f2239ab96b9e7689a4f8e5bc013efa1
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599531"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512522"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Reiniciar uma capacidade do Power BI Premium
 
@@ -28,6 +28,9 @@ A capacidade partilhada do Power BI proporciona alguma proteção contra estes c
 
 O Power BI esforça-se por melhorar continuamente a forma como protege os utilizadores da capacidade Premium contra esse tipo de problemas. Também estamos a disponibilizar ferramentas aos administradores que lhes permitem analisar quando e por que motivo as capacidades estão sobrecarregadas. Para obter mais informações, veja a nossa [sessão de formação curta](https://www.youtube.com/watch?v=UgsjMbhi_Bk&feature=youtu.be) e a nossa [sessão de formação mais extensa](https://powerbi.tips/2018/07/). Ao mesmo tempo, terá de conseguir mitigar problemas importantes no momento em que estes ocorrerem. A forma mais rápida de mitigar estes problemas é reiniciar a capacidade.
 
+> [!NOTE]
+> O Power BI Premium lançou recentemente uma nova versão do Premium, denominada **Premium Gen2**, que está atualmente em pré-visualização. As capacidades de pré-visualização do Gen2 não precisam de reinícios, pelo que esta funcionalidade não está disponível no Premium Gen2.
+
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>O processo de reinício é seguro? Vou perder dados?
 
 Todos os dados, definições, relatórios e dashboards na sua capacidade permanecerão totalmente intactos após reiniciá-la. Ao reiniciar uma capacidade, as atualizações agendadas e ad hoc em curso são, na maioria dos casos, temporariamente interrompidas pelo motor de atualização e, em seguida, são reiniciadas devido à lógica de repetição de atualização incorporada no Power BI. O serviço tenta efetuar novamente quaisquer atualizações afetadas assim que a capacidade ficar disponível. O estado das atualizações poderá não ser alterado na interface do utilizador durante o processo de reinício. 
@@ -40,7 +43,7 @@ Siga estes passos para reiniciar uma capacidade.
 
 1. No portal de administração do Power BI, no separador **Definições de Capacidade**, navegue até à capacidade. 
 
-1. Adicione o **sinalizador de funcionalidade** *CapacityRestart* ao URL da capacidade: `https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`.
+1. Adicione o *sinalizador de funcionalidade* **CapacityRestart** ao URL da capacidade: `https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`.
 
 1. Em **Definições Avançadas** > **REINÍCIO DA CAPACIDADE**, selecione **Reiniciar capacidade**.
 
@@ -56,7 +59,7 @@ A melhor forma de evitar problemas passa por instruir os utilizadores sobre como
 
 Também recomendamos que [monitorize as suas capacidades](service-admin-premium-monitor-capacity.md) regularmente para detetar tendências que indiquem problemas subjacentes. Planeamos o lançamento regular de versões da aplicação de monitorização e de outras ferramentas, para que possa monitorizar e gerir as suas capacidades com maior eficácia.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 [O que é o Power BI Premium?](service-premium-what-is.md)
 

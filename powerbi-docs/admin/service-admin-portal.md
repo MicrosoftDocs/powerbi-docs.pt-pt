@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: eb7a2dfeb78e60c78b1b3f17306aec91a8a55330
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 38df6680f2f4d0031ec26a1935e01c849c285909
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397030"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719081"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -146,15 +146,15 @@ As seguintes secções explicam as definições no separador **Definições de i
 
 Várias das definições podem ter um de três estados:
 
-* **Desativado para toda a organização** : Ninguém na sua organização pode utilizar esta funcionalidade.
+* **Desativado para toda a organização**: Ninguém na sua organização pode utilizar esta funcionalidade.
 
     ![Definição Desativado para todos](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **Ativado para toda a organização** : Todas as pessoas na sua organização podem utilizar esta funcionalidade.
+* **Ativado para toda a organização**: Todas as pessoas na sua organização podem utilizar esta funcionalidade.
 
     ![Definição Ativado para todos](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Ativado para um subconjunto da organização** : grupos de segurança específicos na sua organização têm permissão para utilizar esta funcionalidade.
+* **Ativado para um subconjunto da organização**: grupos de segurança específicos na sua organização têm permissão para utilizar esta funcionalidade.
 
     Também pode ativar uma funcionalidade para toda a organização, **Exceto grupos de segurança específicos**.
 
@@ -168,7 +168,7 @@ As próximas secções fornecem uma descrição geral dos diferentes tipos de de
 
 ## <a name="tenant-wide-new-look-settings"></a>Definições do novo aspeto em todo o inquilino
 
-Quando a opção **Novo aspeto** é desativada, os utilizadores desta organização podem ativar ou desativar o novo aspeto do Power BI. Quando ativar a opção **Novo aspeto** , *todos* os utilizadores desta organização veem os controlos modernos do novo aspeto do Power BI a qualquer altura. Deixam de poder desativar o novo aspeto. A opção Novo aspeto está ativada por predefinição.
+Quando a opção **Novo aspeto** é desativada, os utilizadores desta organização podem ativar ou desativar o novo aspeto do Power BI. Quando ativar a opção **Novo aspeto**, *todos* os utilizadores desta organização veem os controlos modernos do novo aspeto do Power BI a qualquer altura. Deixam de poder desativar o novo aspeto. A opção Novo aspeto está ativada por predefinição.
 
 :::image type="content" source="media/service-admin-portal/admin-portal-new-look-disable.png" alt-text="Captura de ecrã da opção Desativar Novo Aspeto no portal de administração.":::
 
@@ -184,7 +184,7 @@ Os administradores podem especificar URLs internos para substituir o destino de 
 
 * **Comunidade**. Para direcionar os utilizadores para um fórum interno a partir do menu de ajuda em vez da [Comunidade do Power BI](https://community.powerbi.com/), defina um URL personalizado para um **Fórum de debate**.
 
-* **Atualizações de licenciamento**. Os utilizadores com uma licença do Power BI (gratuito) podem ter a oportunidade de atualizar a respetiva conta para o Power BI Pro ao utilizar o serviço. Se especificar um URL interno para **Pedidos de licenciamento** , redireciona os utilizadores para um fluxo de pedido e compra interno e impede que estes façam uma compra de gestão personalizada. Se quiser impedir os utilizadores de comprarem licenças, mas não de iniciarem uma avaliação do Power BI Pro, veja [Permitir que os utilizadores experimentem o Power BI Pro](#allow-users-to-try-power-bi-pro) para separar as experiências de compra e avaliação.
+* **Atualizações de licenciamento**. Os utilizadores com uma licença do Power BI (gratuito) podem ter a oportunidade de atualizar a respetiva conta para o Power BI Pro ao utilizar o serviço. Se especificar um URL interno para **Pedidos de licenciamento**, redireciona os utilizadores para um fluxo de pedido e compra interno e impede que estes façam uma compra de gestão personalizada. Se quiser impedir os utilizadores de comprarem licenças, mas não de iniciarem uma avaliação do Power BI Pro, veja [Permitir que os utilizadores experimentem o Power BI Pro](#allow-users-to-try-power-bi-pro) para separar as experiências de compra e avaliação.
 
 * **Obter ajuda**. Para direcionar os utilizadores para o suporte técnico interno a partir do menu de ajuda em vez do [Suporte do Power BI](https://powerbi.microsoft.com/support/), defina um URL personalizado para o **Suporte Técnico**.
 
@@ -212,7 +212,7 @@ Para saber mais, veja [Ativar ou desativar a compra e inscrição de gestão per
 
 ## <a name="workspace-settings"></a>Definições de área de trabalho
 
-Em **Definições de inquilino** , o portal de administração possui três secções para controlar áreas de trabalho:
+Em **Definições de inquilino**, o portal de administração possui três secções para controlar áreas de trabalho:
 
 - [Criar as novas experiências de área de trabalho](#create-the-new-workspaces).
 - [Utilizar conjuntos de dados em áreas de trabalho](#use-datasets-across-workspaces).
@@ -296,7 +296,7 @@ Os utilizadores veem opções diferentes na IU consoante a definição **Publica
 |Funcionalidade |Ativada para toda a organização |Desativada para toda a organização |Grupos de segurança específicos   |
 |---------|---------|---------|---------|
 |**Publicar na Web** no menu **Mais opções (...)** do relatório|Ativada para todos|Não visível para todos|Visível apenas para utilizadores ou grupos autorizados.|
-|**Gerir códigos de incorporação** , em **Definições**|Ativada para todos|Ativada para todos|Ativada para todos<br><br>* A opção **Eliminar** está ativada apenas para utilizadores e grupos autorizados.<br>* A opção **Obter códigos** está ativada para todos.|
+|**Gerir códigos de incorporação**, em **Definições**|Ativada para todos|Ativada para todos|Ativada para todos<br><br>* A opção **Eliminar** está ativada apenas para utilizadores e grupos autorizados.<br>* A opção **Obter códigos** está ativada para todos.|
 |**Incorporar códigos** no portal de administração|O estado é um dos seguintes:<br>* Ativo<br>* Não suportado<br>* Bloqueado|O estado apresenta **Desativado**|O estado é um dos seguintes:<br>* Ativo<br>* Não suportado<br>* Bloqueado<br><br>Se um utilizador não tiver autorizações com base na definição do inquilino, o estado é apresentado como **Em violação**.|
 |Relatórios publicados existentes|Todos ativados|Todos desativados|Os relatórios continuam a ser compostos para todos.|
 
@@ -362,7 +362,7 @@ Os utilizadores na organização podem criar subscrições por e-mail. Saiba mai
 
 ### <a name="featured-content"></a>Conteúdo em destaque
 
-Permita que alguns ou todos os autores de relatórios na sua organização destaquem os respetivos conteúdos na secção Em destaque da Base do Power BI. Os novos utilizadores verão o conteúdo em destaque na parte superior da respetiva Base do Power BI. O conteúdo em destaque move-se na Base à medida que os utilizadores adicionam conteúdos **Favoritos** , **Frequentes** e **Recentes**. 
+Permita que alguns ou todos os autores de relatórios na sua organização destaquem os respetivos conteúdos na secção Em destaque da Base do Power BI. Os novos utilizadores verão o conteúdo em destaque na parte superior da respetiva Base do Power BI. O conteúdo em destaque move-se na Base à medida que os utilizadores adicionam conteúdos **Favoritos**, **Frequentes** e **Recentes**. 
 
 Recomendamos que comece com um pequeno conjunto de promotores. Permitir que toda a organização destaque conteúdos na Base pode dificultar a monitorização de todos os conteúdos promovidos. 
 
@@ -405,7 +405,7 @@ Os utilizadores na organização podem utilizar as funcionalidades de pesquisa e
 
 ## <a name="featured-tables-settings"></a>Definições das tabelas em destaque
 
-Em **Definições do inquilino** , a definição **Permitir ligações a tabelas em destaque** permite que os administradores do Power BI controlem que pessoas na organização podem utilizar tabelas em destaque na Galeria de Tipos de Dados do Excel. 
+Em **Definições do inquilino**, a definição **Permitir ligações a tabelas em destaque** permite que os administradores do Power BI controlem que pessoas na organização podem utilizar tabelas em destaque na Galeria de Tipos de Dados do Excel. 
 
 :::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Todas as ligações a tabelas em destaque":::
 
@@ -460,6 +460,13 @@ Os utilizadores na organização podem identificar os dashboards com classifica�
 > [!NOTE]
 > Esta definição aplica-se a toda a organização e não pode estar limitada a grupos específicos.
 
+### <a name="web-content-on-dashboard-tiles"></a>Conteúdos Web em mosaicos do dashboard
+
+Os utilizadores na organização podem adicionar e ver mosaicos de conteúdos Web em dashboards do Power BI. [Saiba mais](../create-reports/service-dashboard-add-widget.md)
+
+> [!NOTE]
+> Isto pode expor a sua organização a riscos de segurança provocados por conteúdos Web maliciosos.
+
 ## <a name="developer-settings"></a>Definições de programador
 
 ### <a name="embed-content-in-apps"></a>Incorporar conteúdo em aplicações
@@ -510,7 +517,7 @@ Controle quais os utilizadores na organização que podem transferir e instalar 
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
-O separador **Power BI Premium** permite-lhe gerir todas as capacidades do Power BI Premium (SKU EM ou P) compradas para a sua organização. Todos os utilizadores na organização podem ver o separador **Power BI Premium** , mas apenas verão os conteúdos no mesmo se estiverem atribuídos como *Administrador de capacidade* ou como um utilizador com permissões de atribuição. Se um utilizador não tiver nenhuma permissão, será apresentada a mensagem seguinte.
+O separador **Power BI Premium** permite-lhe gerir todas as capacidades do Power BI Premium (SKU EM ou P) compradas para a sua organização. Todos os utilizadores na organização podem ver o separador **Power BI Premium**, mas apenas verão os conteúdos no mesmo se estiverem atribuídos como *Administrador de capacidade* ou como um utilizador com permissões de atribuição. Se um utilizador não tiver nenhuma permissão, será apresentada a mensagem seguinte.
 
 ![Sem acesso às definições Premium](media/service-admin-portal/premium-settings-no-access.png)
 
@@ -554,9 +561,9 @@ Enquanto administrador, pode ver as áreas de trabalho existentes no seu inquili
 
 Os administradores também podem controlar a capacidade dos utilizadores de criar áreas de trabalho na nova experiência e áreas de trabalho clássicas. Veja a secção [Definições da área de trabalho](#workspace-settings) neste artigo para obter mais detalhes. 
 
-As colunas da tabela no separador **Áreas de trabalho** correspondem às propriedades devolvidas pela [API Rest do administrador do Power BI](/rest/api/power-bi/admin) das áreas de trabalho. As áreas de trabalho pessoais são do tipo **GrupoPessoal** , as áreas de trabalho clássicas são do tipo **Grupo** e as novas experiências de área de trabalho são do tipo **Área de Trabalho**. Para obter mais informações, veja [Organizar o trabalho nas novas áreas de trabalho](../collaborate-share/service-new-workspaces.md).
+As colunas da tabela no separador **Áreas de trabalho** correspondem às propriedades devolvidas pela [API Rest do administrador do Power BI](/rest/api/power-bi/admin) das áreas de trabalho. As áreas de trabalho pessoais são do tipo **GrupoPessoal**, as áreas de trabalho clássicas são do tipo **Grupo** e as novas experiências de área de trabalho são do tipo **Área de Trabalho**. Para obter mais informações, veja [Organizar o trabalho nas novas áreas de trabalho](../collaborate-share/service-new-workspaces.md).
 
-No separador **Áreas de trabalho** , vê o *estado* de cada área de trabalho. A tabela abaixo fornece mais detalhes sobre o significado desses estados.
+No separador **Áreas de trabalho**, vê o *estado* de cada área de trabalho. A tabela abaixo fornece mais detalhes sobre o significado desses estados.
 
 |Estado  |Descrição  |
 |---------|---------|
@@ -575,11 +582,11 @@ Como administrador, pode personalizar o aspeto do Power BI para toda a sua organ
 
 ![Opções de imagem corporativa personalizada](media/service-admin-portal/power-bi-custom-branding.png)
 
-* **Carregar Logótipo** : Para obter melhores resultados, carregue um logótipo que seja guardado como. png, 10 KB ou menor e, pelo menos, 200 x 30 píxeis.
+* **Carregar Logótipo**: Para obter melhores resultados, carregue um logótipo que seja guardado como. png, 10 KB ou menor e, pelo menos, 200 x 30 píxeis.
 
-* **Carregar imagem de capa** : Para obter melhores resultados, carregue uma imagem de capa que seja guardada como .jpg ou .png, 1 MB ou menor e, pelo menos, 1920 x 160 píxeis.
+* **Carregar imagem de capa**: Para obter melhores resultados, carregue uma imagem de capa que seja guardada como .jpg ou .png, 1 MB ou menor e, pelo menos, 1920 x 160 píxeis.
 
-* **Selecionar cor do tema** : Pode selecionar o seu tema com base num número hexadecimal, RGB, valor ou na paleta fornecida.
+* **Selecionar cor do tema**: Pode selecionar o seu tema com base num número hexadecimal, RGB, valor ou na paleta fornecida.
 
 
 Para obter mais informações, veja [Custom branding for your organization](https://aka.ms/orgBranding) (Imagem corporativa personalizada para a sua organização).

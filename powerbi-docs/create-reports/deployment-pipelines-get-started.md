@@ -7,13 +7,13 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/15/2020
-ms.openlocfilehash: 8f486d1f872aec8eaec096bf01d5d36a314c5cef
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 11/11/2020
+ms.openlocfilehash: ca588c50052ed4950b2f283ee8294098dd36a8ef
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855786"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669138"
 ---
 # <a name="get-started-with-deployment-pipelines"></a>Começar a utilizar os pipelines de implementação
 
@@ -23,11 +23,13 @@ Este artigo explica as definições básicas necessárias para a utilização do
 
 Se as seguintes condições forem satisfeitas, conseguirá aceder à funcionalidade dos pipelines de implementação:
 
-* É um [utilizador Pro](../admin/service-admin-purchasing-power-bi-pro.md) do Power BI
+* Tem uma das seguintes licenças Premium:
 
-* Pertence a uma organização com capacidade Premium
+    * É um [utilizador Pro](../admin/service-admin-purchasing-power-bi-pro.md) do Power BI e pertence a uma organização com capacidade Premium.
 
-* É administrador de uma [nova experiência de área de trabalho](../collaborate-share/service-create-the-new-workspaces.md)
+    * [Premium Por Utilizador (PPU)](../admin/service-premium-per-user-faq.md).
+
+* É administrador de uma [nova experiência de área de trabalho](../collaborate-share/service-create-the-new-workspaces.md).
 
 >[!NOTE]
 > Também poderá ver o botão dos pipelines de implementação se tiver criado anteriormente um pipeline ou se tiver sido partilhado consigo um pipeline.
@@ -60,7 +62,7 @@ Pode criar um pipeline numa área de trabalho existente, desde que seja o admini
 2. Na caixa de diálogo *Criar um pipeline de implementação*, introduza um nome e uma descrição para o pipeline e, em seguida, selecione **Criar**.
 
 >[!NOTE]
->Se a área de trabalho não estiver atribuída à capacidade Premium da sua organização, receberá uma notificação para a [atribuir a uma capacidade](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity).  
+>Se a área de trabalho não estiver atribuída à capacidade Premium da sua organização ou à sua capacidade PPU, receberá uma notificação para a [atribuir a uma capacidade](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity).  
 
 ## <a name="step-2---assign-a-workspace-to-a-deployment-pipeline"></a>Passo 2 – Atribuir uma área de trabalho a um pipeline de implementação
 
@@ -87,7 +89,7 @@ Siga estes passos para atribuir uma área de trabalho num pipeline de implementa
 
 * A área de trabalho não está atribuída a nenhum outro pipeline.
 
-* A área de trabalho tem de residir numa  [capacidade premium](../admin/service-premium-what-is.md).
+* A área de trabalho tem de residir numa  [capacidade Premium](../admin/service-premium-what-is.md).
 
 * Não pode atribuir uma área de trabalho com [exemplos do Power BI](../create-reports/sample-datasets.md) a uma fase do pipeline.
 
@@ -124,7 +126,7 @@ Uma vez que os dashboards, os relatórios e os conjuntos de dados estão relacio
 
 Pode optar por implementar numa fase anterior, por exemplo, num cenário em que atribui uma área de trabalho existente a uma fase de produção e, em seguida, a implementa de forma retroativa, primeiro na fase de teste e depois na fase de desenvolvimento.
 
-A implementação numa fase anterior só funcionará se a fase anterior não tiver conteúdo. Ao implementar na fase anterior, não pode selecionar itens específicos. Todo o conteúdo na fase será implementado.
+A implementação numa fase anterior só funcionará se a fase anterior estiver vazia. Ao implementar na fase anterior, não poderá selecionar itens específicos. Todo o conteúdo na fase será implementado.
 
 [![Captura de ecrã a mostrar o botão Implementar na fase anterior, disponível nos menus da fase de produção ou de teste.](media/deployment-pipelines-get-started/deploy-back.png)](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
@@ -134,7 +136,7 @@ Quando utilizar um pipeline de implementação, as várias fases podem ter difer
 
 Quando implementar conteúdo entre as fases do pipeline, a configuração de regras de conjuntos de dados permite-lhe fazer alterações ao conteúdo e manter algumas definições intactas.
 
-As regras de conjuntos de dados são definidas em origens de dados e parâmetros, em cada conjunto de dados. Determinam os valores das origens de dados ou dos parâmetros de um conjunto de dados específico. Por exemplo, se quiser que um conjunto de dados numa fase de produção aponte para uma base de dados de produção, pode definir uma regra para tal. A regra é definida na fase de produção, no conjunto de dados adequado. Uma vez definida a regra, o conteúdo implementado da fase de teste na fase de produção herdará o valor definido nas regras de conjuntos de dados e serão sempre aplicadas desde que a regra permaneça inalterada e válida.
+As regras de conjuntos de dados são definidas em origens de dados e parâmetros, em cada conjunto de dados. Determinam os valores das origens de dados ou dos parâmetros de um conjunto de dados específico. Por exemplo, se quiser que um conjunto de dados numa fase de produção aponte para uma base de dados de produção, pode definir uma regra para tal. A regra é definida na fase de produção, no conjunto de dados adequado. Uma vez definida a regra, o conteúdo implementado da fase de teste na fase de produção herdará o valor definido na regra de conjunto de dados e será sempre aplicada desde que a regra permaneça inalterada e válida.
 
 >[!NOTE]
 > As regras de conjuntos de dados só funcionam quando os dados de origem e de destino forem do mesmo tipo.

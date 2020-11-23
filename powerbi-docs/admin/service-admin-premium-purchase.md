@@ -7,27 +7,28 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 02/13/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: bce7b4fcb054dbc38ebf684088602a6f48f0ffb9
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 2250a93d5fc061ff1e9d67217d021686935a8db7
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599670"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512729"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Como comprar o Power BI Premium
 
-Este artigo descreve como pode comprar a capacidade do Power BI Premium para a sua organização. O artigo aborda dois cenários:
+Este artigo descreve como pode comprar a capacidade do Power BI Premium para a sua organização. O artigo abrange os seguintes cenários:
 
 - Utilizar SKUs P para cenários de produção típicos. Os SKUs P exigem um compromisso mensal ou anual e são faturados mensalmente.
-
-- Utilizar SKUs A para cenários de teste e para casos em que não tem as permissões necessárias para comprar SKUs P (função de Administrador de Faturação ou de Administrador Global do Microsoft 365). Os SKUs A não exigem um compromisso de tempo e são faturados por hora. Pode comprar SKUs A no [portal do Azure](https://portal.azure.com).
 
 Para obter mais informações sobre o Power BI Premium, veja [O que é o Power BI Premium?](service-premium-what-is.md). Para obter informações sobre os planos e preços atuais, veja a [Página de preços do Power BI](https://powerbi.microsoft.com/pricing/) e a [Calculadora Power BI Premium](https://powerbi.microsoft.com/calculator/). Os criadores de conteúdos continuam a precisar de uma [licença do Power BI Pro](service-admin-purchasing-power-bi-pro.md), mesmo que a sua organização utilize o Power BI Premium. Certifique-se de que compra, pelo menos, uma licença do Power BI Pro para a sua organização. Com os SKUs A, _todos os utilizadores_ que consomem conteúdos também necessitam de licenças Pro.
 
 > [!NOTE]
 > Se deixar uma subscrição Premium expirar, terá 30 dias de acesso total à sua capacidade. Depois desse período, os seus conteúdos serão revertidos para uma capacidade partilhada. Os modelos com mais de 1 GB não são suportados na capacidade partilhada.
+
+> [!NOTE]
+> O Power BI Premium lançou recentemente uma nova versão do Premium, denominada **Premium Gen2**, que está atualmente em pré-visualização. O Premium Gen2 irá simplificar a gestão de capacidades Premium e reduzirá a sobrecarga de gestão. Para obter mais informações, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 ## <a name="purchase-p-skus-for-typical-production-scenarios"></a>Comprar SKUs P para cenários de produção típicos
 
@@ -110,66 +111,9 @@ Quando cancelar a sua subscrição Premium, ou a licença de capacidade expirar,
 
 ## <a name="purchase-a-skus-for-testing-and-other-scenarios"></a>Comprar SKUs A para testes e outros cenários
 
-Os SKUs A são disponibilizados através do serviço Power BI Embedded. Pode utilizar um SKU A das seguintes formas:
+Também pode comprar SKUs A para testes e outros cenários, que fornecem a capacidade Premium por hora. Para obter mais informações e instruções, veja [Comprar o Power BI Premium para testes](service-admin-premium-testing.md).
 
-- Ativar a incorporação do Power BI em aplicações de terceiros. Para obter mais informações, veja [Power BI Embedded](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md).
-
-- Teste a funcionalidade Premium antes de comprar um SKU P.
-
-- Crie ambientes de desenvolvimento e de teste, assim como um ambiente de produção que utilize SKUs P.
-
-- Compre o Power BI Premium mesmo que não tenha uma função de Administrador Global Microsoft 365 ou função de Administrador de Faturação.
-
-> [!NOTE]
-> Se comprar um SKU A4 ou superior, pode tirar partido de todas as funcionalidades Premium, exceto a partilha ilimitada de conteúdos. Com os SKUs A, _todos os utilizadores_ que consomem conteúdos necessitam de licenças Pro.
-
-Siga estes passos para comprar SKUs A no portal do Azure:
-
-1. Inicie sessão no [portal do Azure](https://portal.azure.com) com uma conta que tenha, no mínimo, permissões de administração de capacidades no Power BI.
-
-1. Procure _Power BI Embedded_ e selecione o serviço nos resultados da pesquisa.
-
-    ![Pesquisa no portal do Azure](media/service-admin-premium-purchase/azure-portal-search.png)
-
-1. Selecione **Criar Power BI Embedded**.
-
-    ![Criar Power BI Embedded](media/service-admin-premium-purchase/create-power-bi-embedded.png)
-
-1. No ecrã de criação **Power BI Embedded**, especifique as seguintes informações:
-
-    - A **Subscrição** na qual irá criar o serviço Power BI Embedded.
-
-    - A **Localização** física na qual irá criar o grupo de recursos que contém o serviço. Para obter um melhor desempenho, esta localização deve estar próxima do seu inquilino do Azure Active Directory para o Power BI.
-
-    - O **Grupo de recursos** existente a utilizar. Em alternativa, crie um novo, conforme o exemplo.
-
-    - O **Administrador de capacidades do Power BI**. O administrador de capacidades tem de ser um utilizador membro ou um principal de serviço no seu inquilino do Azure AD.
-
-    ![Subscrição e grupo de recursos](media/service-admin-premium-purchase/subscription-resource-group.png)
-
-1. Se quiser utilizar todas as funcionalidades do Power BI Premium (exceto a partilha ilimitada), precisa no mínimo de um SKU A4. Selecione **Alterar tamanho**.
-
-    ![Alterar o tamanho da capacidade](media/service-admin-premium-purchase/change-capacity-size.png)
-
-1. Selecione um tamanho de capacidade de A4, A5 ou A6, que correspondem a P1, P2 e P3.
-
-    ![Selecionar a capacidade A3](media/service-admin-premium-purchase/select-a3-capacity.png)
-
-1. Selecione **Rever + Criar**, reveja as opções escolhidas e selecione **Criar**.
-
-    ![Criar um recurso](media/service-admin-premium-purchase/create-resource.png)
-
-1. A implementação poderá demorar alguns minutos a concluir. Quando for concluída, selecione **Ir para recurso**.
-
-    ![Implementação concluída](media/service-admin-premium-purchase/deployment-complete.png)
-
-1. No ecrã de gestão, reveja as opções que tem para gerir o serviço, incluindo colocar o mesmo em pausa quando não estiver a utilizá-lo.
-
-    ![Gerir capacidade](media/service-admin-premium-purchase/manage-capacity.png)
-
-Após comprar capacidade, saiba como [gerir capacidades](service-admin-premium-manage.md#manage-capacity) e [atribuir áreas de trabalho](service-admin-premium-manage.md#assign-a-workspace-to-a-capacity) a uma capacidade.
-
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 
 [Configurar e gerir capacidades no Power BI Premium](service-admin-premium-manage.md)\
 [Página de preços do Power BI](https://powerbi.microsoft.com/pricing/)\
@@ -178,3 +122,13 @@ Após comprar capacidade, saiba como [gerir capacidades](service-admin-premium-m
 [Documento técnico sobre Planear uma Implementação Empresarial do Power BI](https://aka.ms/pbienterprisedeploy)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+
+O Power BI introduziu o Power BI Premium Gen2 como uma oferta de pré-visualização, que melhora a experiência do Power BI Premium nos seguintes aspetos:
+* Desempenho
+* Licenciamento por utilizador
+* Maior dimensionamento
+* Métricas melhoradas
+* Dimensionamento automático
+* Sobrecarga de gestão reduzida
+
+Para obter mais informações sobre o Power BI Premium Gen2, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 09/15/2020
-ms.openlocfilehash: 929a79d7e940f729b90d0cdf6d3ebd905a621f6a
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.date: 11/11/2020
+ms.openlocfilehash: 141364664b6608b252fc2be8620226ae8d9ce39b
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916826"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668632"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>Resolução de problemas dos pipelines de implementação
 
@@ -32,15 +32,15 @@ Comece a utilizar os pipelines de implementação com as [instruções de introd
 
 Se as seguintes condições não forem satisfeitas, não conseguirá ver o botão dos pipelines de implementação.
 
-* É um [utilizador Pro](../admin/service-admin-purchasing-power-bi-pro.md) do Power BI
+* Tem uma das seguintes licenças Premium:
 
-* Pertence a uma organização com capacidade Premium
+    * É um [utilizador Pro](../admin/service-admin-purchasing-power-bi-pro.md) do Power BI e pertence a uma organização com capacidade Premium.
 
-* Uma área de trabalho só pode ser atribuída a um único pipeline
+    * [Premium Por Utilizador (PPU)](../admin/service-premium-per-user-faq.md).
 
-* É administrador de uma área de trabalho nova.
+* É administrador de uma [nova experiência de área de trabalho](../collaborate-share/service-create-the-new-workspaces.md).
 
-### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>Por que não consigo ver a etiqueta das fases do pipeline na minha área de trabalho?
+### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>Por que motivo não consigo ver a etiqueta das fases do pipeline na minha área de trabalho?
 
 Os pipelines de implementação apresentam uma etiqueta das fases do pipeline nas áreas de trabalho atribuídas a um pipeline. As etiquetas das fases de *Desenvolvimento* e de *Teste* estão sempre visíveis. No entanto, só verá a etiqueta de *Produção* se tiver [acesso ao pipeline](deployment-pipelines-process.md#user-with-pipeline-access) ou se for [administrador da área de trabalho](deployment-pipelines-process.md#workspace-admin).
 
@@ -51,15 +51,24 @@ Os pipelines de implementação apresentam uma etiqueta das fases do pipeline na
 
 ### <a name="what-licenses-are-needed-to-work-with-deployment-pipelines"></a>Que licenças são necessárias para trabalhar com os pipelines de implementação?
 
-Para utilizar os pipelines de implementação, tem de ser um [utilizador Pro](../admin/service-admin-purchasing-power-bi-pro.md) com [capacidade Premium](../admin/service-premium-what-is.md). Para obter mais informações, veja como [aceder aos pipelines de implementação](deployment-pipelines-get-started.md#accessing-deployment-pipelines).
+Para utilizar os pipelines de implementação, precisa de ter uma das seguintes licenças:
+
+* Uma licença de [utilizador Pro](../admin/service-admin-purchasing-power-bi-pro.md), com uma área de trabalho que reside numa [Capacidade Premium](../admin/service-premium-what-is.md).
+
+* [Premium Por Utilizador (PPU)](../admin/service-premium-per-user-faq.md).
+
+Para obter mais informações, veja como [aceder aos pipelines de implementação](deployment-pipelines-get-started.md#accessing-deployment-pipelines).
 
 ### <a name="what-type-of-capacity-can-i-assign-to-a-workspace-in-a-pipeline"></a>Que tipo de capacidade posso atribuir a uma área de trabalho num pipeline?
 
 Todas as áreas de trabalho num pipeline de implementação têm de residir dentro de uma capacidade para que o pipeline esteja funcional. No entanto, pode utilizar diferentes capacidades para diferentes áreas de trabalho num pipeline. Também pode utilizar diferentes tipos de capacidade para diferentes áreas de trabalho no mesmo pipeline.
 
-Para desenvolvimento e teste, pode utilizar a capacidade A ou EM juntamente com uma conta Pro do Power BI para cada utilizador.
+Para desenvolvimento e teste, pode utilizar a capacidade A ou EM juntamente com uma conta Pro do Power BI para cada utilizador. Também pode utilizar um PPU para cada utilizador nas fases de desenvolvimento e teste.
 
-Para áreas de trabalho de produção, precisa de uma capacidade P. Se for um ISV que distribui conteúdo através de aplicações incorporadas, também poderá utilizar as capacidades A ou EM para produção.
+Para áreas de trabalho de produção, precisa de uma capacidade P. Se for um ISV que distribui conteúdo através de aplicações incorporadas, também poderá utilizar as capacidades A ou EM para produção. Os PPU também podem ser utilizados para áreas de trabalho de produção.
+
+>[!NOTE]
+>Ao criar uma área de trabalho com um PPU, apenas outros utilizadores do PPU poderão aceder à área de trabalho e consumir os respetivos conteúdos.
 
 ## <a name="technical"></a>Parte Técnica
 
@@ -87,7 +96,7 @@ A primeira implementação pode ter falhado devido a várias razões. Veja na ta
 
 |Erro  |Ação  |
 |---------|---------|
-|Não tem [permissões de capacidade premium](deployment-pipelines-process.md#creating-a-premium-capacity-workspace).     |Para obter permissões de capacidade premium, peça a um administrador de capacidade para adicionar a sua área de trabalho a uma capacidade ou solicite permissões de atribuição para a capacidade. Depois de a área de trabalho estar numa capacidade, implemente-a novamente.        |
+|Não tem [permissões de capacidade premium](deployment-pipelines-process.md#creating-a-premium-capacity-workspace).     |Se trabalhar numa organização que tem uma capacidade Premium, peça a um administrador de capacidade para adicionar a sua área de trabalho a uma capacidade ou solicite permissões de atribuição para a capacidade. Depois de a área de trabalho estar numa capacidade, implemente-a novamente.</br></br>Se não trabalhar numa organização com capacidade Premium, considere comprar o [Premium Por Utilizador (PPU)](../admin/service-premium-per-user-faq.md).        |
 |Não tem permissões para a área de trabalho.     |Para implementar, tem de ser membro da área de trabalho. Peça ao administrador da área de trabalho para lhe conceder as permissões adequadas.         |
 |O administrador do Power BI desativou a criação de áreas de trabalho.     |Contacte o administrador do Power BI para obter suporte.         |
 |A área de trabalho não é uma [nova experiência de área de trabalho](../collaborate-share/service-create-the-new-workspaces.md).     |Crie o conteúdo na nova experiência de área de trabalho. Se tiver conteúdo numa área de trabalho clássica, pode [atualizá-lo](../collaborate-share/service-upgrade-workspaces.md) para uma nova experiência de área de trabalho.         |
@@ -152,9 +161,9 @@ O modelo de permissões dos pipelines de implementação está descrito na secç
 
 O conteúdo pode ser implementado numa fase vazia ou numa fase com conteúdo. O conteúdo tem de residir numa [capacidade premium](../admin/service-premium-what-is.md).
 
-* **Implementar numa fase vazia** – qualquer [utilizador Pro](../admin/service-admin-purchasing-power-bi-pro.md) que seja membro ou administrador na área de trabalho de origem.
+* **Implementar numa fase vazia** – qualquer utilizador [Pro](../admin/service-admin-purchasing-power-bi-pro.md) ou [PPU](../admin/service-premium-per-user-faq.md) que seja membro ou administrador na área de trabalho de origem.
 
-* **Implementar numa fase com conteúdo** – qualquer [utilizador Pro](../admin/service-admin-purchasing-power-bi-pro.md) que seja membro ou administrador de ambas as áreas de trabalho nas fases de implementação de origem e destino.
+* **Implementar numa fase com conteúdos** – qualquer utilizador [Pro](../admin/service-admin-purchasing-power-bi-pro.md) ou [PPU](../admin/service-premium-per-user-faq.md) que seja membro ou administrador de ambas as áreas de trabalho nas fases de implementação de origem e destino.
 
 * **Substituir um conjunto de dados** – a implementação substitui cada conjunto de dados incluído na fase de destino, mesmo que o conjunto de dados não tenha sido alterado. O utilizador tem de ser o proprietário de todos os conjuntos de dados da fase de destino especificados na implementação.
 

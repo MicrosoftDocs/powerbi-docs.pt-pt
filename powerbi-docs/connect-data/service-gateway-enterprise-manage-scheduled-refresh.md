@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 11/17/2020
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: b3f3dd39953ad382ab934bf87021123b949733fd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb61f752891205a0e8997592d522efb2022a562b
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237046"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719035"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Gerir a origem de dados – Atualização importada/agendada
 
@@ -62,14 +62,13 @@ Se estiver listado no separador **Utilizadores** da origem de dados configurada 
 
 ![Apresentar os utilizadores](media/service-gateway-enterprise-manage-scheduled-refresh/powerbi-gateway-enterprise-schedule-refresh.png)
 
+> [!IMPORTANT]
+> Ao republicar, o proprietário do conjunto de dados tem de voltar a associar o conjunto de dados a um gateway e à origem de dados correspondente. A associação anterior não é mantida ao republicar. 
+
 > [!WARNING]
 > Se o conjunto de dados contém várias origens de dados, cada origem de dados tem de ser adicionada ao gateway. Se uma ou mais origens de dados não forem adicionadas ao gateway, não verá o gateway como disponível para a atualização agendada.
 
-## <a name="limitations"></a>Limitações
-
-O OAuth não é um esquema de autenticação suportado com o gateway de dados no local. Não é possível adicionar origens de dados que exigem o OAuth. Se o conjunto de dados tiver uma origem de dados que exige o OAuth, não poderá utilizar o gateway para a atualização agendada.
-
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 * [Resolução de problemas do gateway de dados no local](/data-integration/gateway/service-gateway-tshoot)
 * [Resolver problemas de gateways – Power BI](service-gateway-onprem-tshoot.md)

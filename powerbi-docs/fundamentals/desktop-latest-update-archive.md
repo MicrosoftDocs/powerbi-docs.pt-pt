@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/12/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 01d7a433650eb8c74ace37b548ba8d7bf2c570ea
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 216fd30142f76758cbcb9ed2b329f3bbefb7156f
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396179"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560086"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Atualizações mensais anteriores do Power BI Desktop
 
@@ -37,6 +37,101 @@ As ligações ao lado de cada atualização significam o seguinte:
 Também pode ver o vídeo de **Atualizações Mais Recentes** no início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
 
 As secções seguintes descrevem as atualizações dos meses anteriores ao **Power BI Desktop**.
+
+
+## <a name="october-2020-update-2863210"></a>Atualização de outubro de 2020 (2.86.321.0)
+
+As nossas atualizações de outubro do Power BI Desktop são um conjunto de doces assustadoramente bons que pode classificar e aproveitar durante várias semanas. 
+
+As atualizações mensais no blogue e em vídeo do Power BI Desktop agora também incluem as novas atualizações do Power BI para dispositivos móveis e do serviço Power BI. Este artigo descreve as atualizações do Power BI Desktop. Para saber mais sobre as atualizações do Power BI para dispositivos móveis e do serviço Power BI, veja os seguintes artigos de novidades:
+
+* [Novidades do serviço Power BI](service-whats-new.md)
+* [Novidades em aplicativos móveis para o Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+Obtenha a versão mais recente do Power BI Desktop a partir do [Centro de Transferências](https://www.microsoft.com/download/details.aspx?id=58494). Se tiver o Windows 10, também poderá obter o Power BI Desktop através da [Microsoft Store](https://aka.ms/pbidesktopstore). Independentemente do modo como instalar o Power BI Desktop, as versões mensais são as mesmas embora a numeração das versões possa diferir. Para obter mais informações sobre como transferir e instalar o Power BI Desktop, veja [Obter o Power BI Desktop](desktop-get-the-desktop.md). 
+
+> [!IMPORTANT]
+> O Power BI Desktop é atualizado e lançado mensalmente e incorpora feedback dos clientes e novas funcionalidades. Apenas é suportada a versão mais recente do Power BI Desktop. Aos clientes que contactarem o suporte do Power BI Desktop, será pedido que atualizem para a versão mais recente. Pode obter a versão mais recente do Power BI Desktop na [Windows Store](https://aka.ms/pbidesktopstore). Também pode obtê-la como um único ficheiro executável, com todos os idiomas suportados, que pode [transferir](https://www.microsoft.com/download/details.aspx?id=58494) e instalar no seu computador.
+
+As ligações que se encontram ao lado de cada funcionalidade na lista de atualizações do Power BI Desktop são interpretadas da seguinte forma:
+
+* \[blogue\]: a maior parte das funcionalidades são explicadas numa secção da publicação do blogue de atualização mensal.
+* \[vídeo\]: algumas funcionalidades têm um excerto de vídeo que fala sobre a funcionalidade, reproduzido num novo separador do browser.
+* \[artigo\]: algumas funcionalidades têm um artigo que proporciona mais detalhes.
+* As funcionalidades restantes são facilmente compreensíveis e não precisam de um artigo ou vídeo.
+
+Também pode ver o [vídeo da atualização mensal do Power BI](#power-bi-desktop-monthly-update-video) na sua totalidade.
+
+> [!IMPORTANT]
+> O Power BI Desktop deixará de ser suportado no Windows 7 após 31 de janeiro de 2021. Após essa data, o Power BI Desktop será suportado no Windows 8 ou em versões mais recentes do Windows, apenas na versão mais recente do Power BI Desktop. 
+
+As atualizações seguintes são novas no Power BI Desktop este mês:
+
+
+
+### <a name="reporting"></a>Relatórios
+* Marcas d' água da tela [[video]](https://youtu.be/LveNuQqV5xk?t=17)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195557) 
+* A personalização de elementos visuais já está disponível para o público [[video]](https://youtu.be/LveNuQqV5xk?t=115)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195558) [[article]](../create-reports/power-bi-personalize-visuals.md)
+* Seleção de retângulo de ponto de dados para o Mapa de árvore (pré-visualização) [[video]](https://youtu.be/LveNuQqV5xk?t=292)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195559)  [[article]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+
+### <a name="analytics"></a>Análise
+* Exportar dados de elemento visual Perguntas e Respostas [[video]](https://youtu.be/LveNuQqV5xk?t=308)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270582) 
+
+
+### <a name="modeling"></a>Modelação
+* Melhorias de desempenho nas funções IF e SWITCH  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270584)
+
+
+### <a name="data-preparation"></a>Preparação de dados
+* Parâmetros de Consulta M Dinâmicos (pré-visualização) [[video]](https://youtu.be/LveNuQqV5xk?t=329)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc51665421)  [[article]](../connect-data/desktop-dynamic-m-query-parameters.md)
+* Deteção Automática de Tabelas de ficheiros do Excel [[video]](https://youtu.be/LveNuQqV5xk?t=615)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195566)
+* Deteção Automática de Tabelas de ficheiros JSON [[video]](https://youtu.be/LveNuQqV5xk?t=650)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc51665423)
+
+### <a name="data-connectivity"></a>Conectividade de dados
+* Suporte geográfico mais amplo para o conector de fluxos de dados do Power Platform [[video]](https://youtu.be/LveNuQqV5xk?t=675)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270590)
+* O MariaDB já suporta o DirectQuery [[video]](https://youtu.be/LveNuQqV5xk?t=694)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195570)
+* Conector Lista do SharePoint Online atualizado [[video]](https://youtu.be/LveNuQqV5xk?t=707)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270592)
+* Novos conectores de dados – Spigit e eWay-CRM [[video]](https://youtu.be/LveNuQqV5xk?t=736)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195572)
+
+
+### <a name="visuals"></a>Visuais
+* As caraterísticas da capacidade do administrador agora estão disponíveis para o público [[video]](https://youtu.be/LveNuQqV5xk?t=997)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270604)
+* Novos elementos visuais de vários fornecedores [[vídeo]](https://youtu.be/LveNuQqV5xk?t=1039) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195582)
+
+
+### <a name="template-apps"></a>Aplicações de Modelo
+* Instalação simplificada para aplicações de modelo [[video]](https://youtu.be/LveNuQqV5xk?t=1127)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270613) 
+* Localizar aplicações de modelo do Power BI Desktop [[video]](https://youtu.be/LveNuQqV5xk?t=1164)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195591) 
+
+### <a name="other"></a>Outros
+* Exportar origem de dados para PBIDS no Power BI Desktop [[video]](https://youtu.be/LveNuQqV5xk?t=1255)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195594)  [[article]](../connect-data/desktop-data-sources.md#how-to-create-a-pbids-connection-file)
+* Atualização do ícone para o Power BI [[video]](https://youtu.be/LveNuQqV5xk?t=1295)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270618) 
+* Dispensa do ecrã inicial do Power BI Desktop [[video]](https://youtu.be/LveNuQqV5xk?t=1313)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195596)
+
+
+Para obter informações detalhadas sobre cada uma destas novas funcionalidades, veja [Publicação de blogue do resumo das funcionalidades do Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/).
+
+
+> [!NOTE]
+> Veja as [origens de dados disponíveis para o Power BI Desktop](../connect-data/desktop-data-sources.md). A nossa lista está sempre a crescer, por isso consulte-a regularmente.
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>Vídeo da atualização mensal do Power BI Desktop
+O vídeo seguinte descreve cada uma destas atualizações. Também pode ver este vídeo a partir da publicação de blogue:
+
+> [!VIDEO https://www.youtube.com/embed/LveNuQqV5xk]
+
+Também pode transferir as versões anteriores do Power BI Desktop se a sua organização o exigir. Recomendamos sempre que utilize a versão mais recente do Power BI Desktop, em vez de uma versão anterior. Todas as versões anteriores têm as seguintes limitações:
+
+* As versões anteriores do Power BI Desktop não estão a ser servidas – deve sempre utilizar a versão mais recente para obter as funcionalidades e as atualizações mais recentes.
+* Pode não ser possível abrir ficheiros que criou ou guardou em versões mais recentes do Power BI Desktop com versões anteriores do Power BI Desktop. 
+* Se receber um aviso quando carregar um relatório guardado numa versão mais recente do Power BI Desktop e guardar esse relatório na versão anterior, perderá todas as informações relacionadas com as novas funcionalidades.
+* Apenas arquivamos as versões em inglês do Power BI Desktop.
+
+Selecione as seguintes ligações para transferir esta versão anterior: 
+
+* [Versão de outubro de 2020 do Power BI Desktop – 32 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-10.exe)
+* [Versão de outubro de 2020 do Power BI Desktop – 64 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-10_x64.exe)
 
 
 ## <a name="september-2020-update-2852840"></a>Atualização de setembro de 2020 (2.85.284.0)
@@ -445,8 +540,6 @@ O vídeo seguinte descreve cada uma destas atualizações. Também pode ver este
 
 > [!VIDEO https://www.youtube.com/embed/JtuHIslowxk]
 
-
-
 Também pode transferir as versões anteriores do Power BI Desktop se a sua organização o exigir. Recomendamos sempre que utilize a versão mais recente do Power BI Desktop, em vez de uma versão anterior. Todas as versões anteriores têm as seguintes limitações:
 
 * As versões anteriores do Power BI Desktop não estão a ser servidas – deve sempre utilizar a versão mais recente para obter as funcionalidades e as atualizações mais recentes.
@@ -537,20 +630,6 @@ Veja quais são as [novidades do serviço Power BI](service-whats-new.md) e as [
 O vídeo seguinte descreve cada uma destas atualizações. Também pode ver este vídeo a partir da publicação de blogue:
 
 > [!VIDEO https://www.youtube.com/embed/q2Hfn_Rhb3E]
-
-
-Também pode transferir as versões anteriores do Power BI Desktop se a sua organização o exigir. Recomendamos sempre que utilize a versão mais recente do Power BI Desktop, em vez de uma versão anterior. Todas as versões anteriores têm as seguintes limitações:
-
-* As versões anteriores do Power BI Desktop não estão a ser servidas – deve sempre utilizar a versão mais recente para obter as funcionalidades e as atualizações mais recentes.
-* Pode não ser possível abrir ficheiros que criou ou guardou em versões mais recentes do Power BI Desktop com versões anteriores do Power BI Desktop. 
-* Se receber um aviso quando carregar um relatório guardado numa versão mais recente do Power BI Desktop e guardar esse relatório na versão anterior, perderá todas as informações relacionadas com as novas funcionalidades.
-* Apenas arquivamos as versões em inglês do Power BI Desktop.
-
-Selecione as seguintes ligações para transferir esta versão anterior: 
-
-* [Versão de abril de 2020 do Power BI Desktop – 32 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup.exe)
-* [Versão de abril de 2020 do Power BI Desktop – 64 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe)
-
 
 
 
@@ -2108,7 +2187,7 @@ O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode
 
 ## <a name="december-2017-update-2534954481"></a>Atualização de dezembro de 2017 (2.53.4954.481)
 
-Dezembro trouxe consigo muitos presentes em forma de atualizações para o **Power BI Desktop** , repletas de funcionalidades para a felicidade dos fãs de business intelligence de todas as idades.
+Dezembro trouxe consigo muitos presentes em forma de atualizações para o **Power BI Desktop**, repletas de funcionalidades para a felicidade dos fãs de business intelligence de todas as idades.
 
 As ligações ao lado de cada atualização significam o seguinte:
 
@@ -2694,7 +2773,7 @@ As atualizações seguintes eram novas no Power BI Desktop em novembro:
 ### <a name="analytics"></a>Análise
 
 -   Clustering (pré-visualização) [[vídeo]](https://youtu.be/kERJ_WOLuLk?t=8m52s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#clustering)
--   Previsão (agora no **serviço Power BI** ) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#forecasting)
+-   Previsão (agora no **serviço Power BI**) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#forecasting)
 -   Grupos (agora no friso) [[vídeo]](https://youtu.be/kERJ_WOLuLk?t=13m29s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#groups)
 
 
@@ -2830,7 +2909,7 @@ As atualizações seguintes eram novas no Power BI Desktop em setembro:
 
 Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pcUr6E8g_KI" frameborder="0" allowfullscreen></iframe>
 
@@ -3134,7 +3213,7 @@ O mês de março traz todos os tipos de renovação e vigor, incluindo uma nova 
     -   Manter Duplicados
 -   Suporte para espaço em branco e avanços de linha na pré-visualização do Editor de Consultas
 -   Incluir dicas para *valores de entrada de exemplo* na caixa de diálogo **Alterar Tipo com Região**
--   Melhorias na janela **Navegador** :
+-   Melhorias na janela **Navegador**:
     -   Adicionar informações de esquema à hierarquia de navegação de origens ODBC
     -   Capacidade de desativar a pré-visualização do **Navegador**
     -   Suporte para nomes técnicos
@@ -3163,14 +3242,14 @@ Estamos a avançar com mais atualizações este mês! Fevereiro traz 29 dias do 
 
 ### <a name="report-view"></a>Vista de Relatório:
 
--   Consulte os dados por trás de um elemento visual (incluindo *exportar dados para CSV* )
+-   Consulte os dados por trás de um elemento visual (incluindo *exportar dados para CSV*)
 -   Melhorias de mapa – desenhe o mapa apenas com a latitude/longitude
 -   Suporte para a versão de consumo de KPI (incluindo suporte para a hierarquia de navegação e a tendência do KPI para SSAS MD)
 -   Modo de Exploração do SSAS: suporte para pastas **Apresentação** no painel **Campos**
 -   Melhorias ao esquema do friso: separador de friso contextual para **Ferramentas de Relatório**
 -   Novo elemento visual de KPI
 -   Abra os relatórios na mesma página que estava visível quando foram guardados
--   Opção **Editar Consulta** no menu de contexto da tabela no painel Campos (vistas de **Relatório** & **Dados** )
+-   Opção **Editar Consulta** no menu de contexto da tabela no painel Campos (vistas de **Relatório** & **Dados**)
 -   **Duplicar Página** do friso
 
 
@@ -3290,7 +3369,7 @@ Dezembro é um mês para ofertar, e a equipa do Power BI está a prosseguir com 
 -   [Suporte de SSAS Multidimensional - suporte de hierarquias](../connect-data/desktop-ssas-multidimensional.md)
 -   Conector do Stripe
 -   Conector do Smartsheet
--   **Introduzir Dados** : colar ou inserir dados para criar uma tabela
+-   **Introduzir Dados**: colar ou inserir dados para criar uma tabela
 -   Melhorias do DirectQuery: suporte para todos os tipos de dados do T-SQL e SAP HANA, resultando em melhorias de desempenho
 -   Conector ODBC: suporte para a seleção de DSNs de Sistema/Utilizador
 -   Conector CSV: capacidade de especificar o Delimitador de Coluna na caixa de diálogo Origem
@@ -3521,11 +3600,11 @@ Veja o vídeo abaixo para obter mais detalhes sobre esta atualização:
 
 As seguintes funcionalidades foram adicionadas nesta atualização:
 
--   **Novos Conectores de Dados** : appFigures, Quickbooks Online, Zendesk, GitHub, Twilio e SweetIQ.
+-   **Novos Conectores de Dados**: appFigures, Quickbooks Online, Zendesk, GitHub, Twilio e SweetIQ.
 
--   **Novas Transformações** : extração do Primeiro/Último/Intervalo de carateres de uma Coluna de Texto; opção para especificar o Tipo de Associação na caixa de diálogo Intercalar Consultas; capacidade de personalizar o Estilo de Cotação na Coluna de Divisão pela caixa de diálogo Delimitador.
+-   **Novas Transformações**: extração do Primeiro/Último/Intervalo de carateres de uma Coluna de Texto; opção para especificar o Tipo de Associação na caixa de diálogo Intercalar Consultas; capacidade de personalizar o Estilo de Cotação na Coluna de Divisão pela caixa de diálogo Delimitador.
 
--   **Melhorias na Criação de Relatórios** : novas visualizações (Gráfico de Área, Cascata, Anel e Matriz); novas opções de formatação e personalização de elementos visuais (etiquetas, títulos, fundo, legenda, cores, etc.); inserção de Caixa de Texto e Imagem no seu relatório; suporte para hiperligações em relatórios e tabelas de relatório; ações Anular/Refazer.
+-   **Melhorias na Criação de Relatórios**: novas visualizações (Gráfico de Área, Cascata, Anel e Matriz); novas opções de formatação e personalização de elementos visuais (etiquetas, títulos, fundo, legenda, cores, etc.); inserção de Caixa de Texto e Imagem no seu relatório; suporte para hiperligações em relatórios e tabelas de relatório; ações Anular/Refazer.
 
 -   **Exploração Direta do Relatório** nos modelos de tabela do Analysis Services.
 
@@ -3561,7 +3640,7 @@ As seguintes funcionalidades foram adicionadas nesta atualização:
 
 -   Novo conector de **Tabelas ODBC** (Beta)
 
--   Melhoria do conector do **Livro do Excel** : melhor inferência de tipos de coluna e carregamento mais rápido de pré-visualizações de dados
+-   Melhoria do conector do **Livro do Excel**: melhor inferência de tipos de coluna e carregamento mais rápido de pré-visualizações de dados
 
 -   Novos Filtros de Coluna de Texto - **Não Começa Com** e **Não Termina Com**
 

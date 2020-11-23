@@ -7,32 +7,81 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 07/28/2020
+ms.date: 11/12/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: cb8ac0ad558f15219829e9f32111cacf9f27eb25
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: d5879d6a8469b23f6e31e48345ac3ccb5f378cbb
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483748"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668218"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
-Pode utilizar o Power BI Premium para obter recursos dedicados e otimizados para a sua organização, de forma a que os utilizadores da sua organização possam utilizar o serviço Power BI com melhor desempenho e capacidade de resposta. Por exemplo, com uma subscrição do Power BI Premium, além de si, os utilizadores da sua organização têm acesso a:
+Pode utilizar o Power BI Premium para aceder a funcionalidades e capacidades que apenas estão disponíveis no Premium e oferecer um maior dimensionamento e desempenho para os conteúdos do Power BI na sua organização. O Power BI Premium permite que mais utilizadores na sua organização tirem o maior partido do Power BI, com melhor desempenho e capacidade de resposta. Por exemplo, com o Power BI Premium, você e os utilizadores da sua organização obtêm o seguinte:
 
 > [!div class="checklist"]
-> * Maior dimensionamento e desempenho
+> * Maior dimensionamento e desempenho para os seus relatórios do Power BI
 > * Flexibilidade de licenciar por capacidade
-> * Unificar o BI de gestão personalizada e empresarial
-> * Expandir o BI no local com o Power BI Report Server
-> * Suporte para residência dos dados por região (Multi-Geo)
-> * Partilhar dados com qualquer pessoa sem comprar uma licença por utilizador
+> * As melhores funcionalidades para a visualização de dados e extração de informações, como análise orientada por IA, fluxos de dados agregáveis e reutilizáveis e relatórios paginados
+> * BI empresarial e self-service unificado com uma variedade de capacidades exclusivas do Premium que suportam cargas de trabalho mais pesadas e requerem dimensionamento empresarial
+> * Licença incorporada para expandir o BI no local com o Power BI Report Server
+> * Suporte para residência de dados por região (Multi-Geo) e chaves de encriptação geridas pelo cliente para dados inativos (BYOK)
+> * Capacidade de partilhar conteúdos do Power BI com qualquer pessoa (mesmo fora da sua organização) sem comprar uma licença por utilizador
 
 
 ![Captura de ecrã a mostrar o portal de administração do Power B I.](media/service-premium-what-is/premium-admin-portal.png) 
 
 Este artigo apresenta as principais funcionalidades do Power BI Premium. Sempre que necessário, são fornecidas ligações para artigos adicionais com mais informações detalhadas. Para obter mais informações acerca do Power BI Pro e do Power BI Premium, veja a secção _Comparação das funcionalidades do Power BI_ na página [Preços do Power BI](https://powerbi.microsoft.com/pricing/).
+
+## <a name="power-bi-premium-generation-2-preview"></a>Power BI Premium Generation 2 (pré-visualização)
+
+O Power BI Premium lançou recentemente uma nova versão do Power BI Premium, o **Power BI Premium Generation 2**, conhecida como **Premium Gen2**. O Premium Gen2 está atualmente em pré-visualização e está disponível para os subscritores Premium utilizarem durante esta fase. Pode optar por utilizar a versão original do Premium ou mudar para o Premium Gen2. Só pode utilizar um ou o outro para a sua capacidade Premium. 
+
+O Premium Gen2 fornece as seguintes atualizações ou experiências melhoradas:
+
+* Capacidade de licenciar o **Premium por Utilizador** além de por capacidade.
+
+* **Desempenho** melhorado em qualquer tamanho de capacidade, a qualquer momento: as operações de análise são executadas até 16X mais rapidamente no Premium Gen2. As operações serão sempre executadas na velocidade máxima e não irão abrandar quando a carga na capacidade se aproximar dos limites desta.
+
+* **Maior dimensionamento**:
+    * *Não existem limites* na simultaneidade de atualização, o que significa que deixa de ser necessário monitorizar horários para os conjuntos de dados serem atualizados na sua capacidade
+    * Menos restrições de memória
+    * Separação total entre a interação do relatório e as atualizações agendadas
+
+* **Métricas melhoradas** com dados de utilização de capacidade claros e normalizados, dependentes apenas da complexidade das operações de análise que a capacidade executa e não do seu tamanho ou nível de carga no sistema durante a sua execução, entre outros. Com as métricas melhoradas, a análise de utilização, o planeamento de orçamentos, os estornos e a necessidade de atualização são claramente visíveis com os relatórios incorporados. As métricas melhoradas serão disponibilizadas e otimizadas durante o período de pré-visualização. 
+
+* O **dimensionamento automático** permite *adicionar automaticamente* um núcleo virtual de cada vez em períodos de 24 horas quando a carga na capacidade exceder os seus limites, o que impede abrandamentos causados por sobrecarga. Os núcleos virtuais são removidos automaticamente quando é detetado tempo inativo. Os núcleos virtuais adicionais são cobrados na sua subscrição do Azure, numa base de pay as you go. O dimensionamento automático será disponibilizado durante o período de pré-visualização. 
+
+* **Sobrecarga de gestão reduzida** significativamente, com notificações de administração proativas e configuráveis sobre o nível de utilização da capacidade e o aumento de carga.
+
+
+### <a name="using-premium-gen2"></a>Utilizar o Premium Gen2
+
+Tem de ativar o Premium Gen2 para tirar partido das atualizações. Para ativar o Premium Gen2, siga os seguintes passos:
+
+1. No portal de administração, navegue até **Definições de capacidade**.
+2. Selecione **Power BI Premium**.
+3. É apresentada uma secção intitulada **Geração Premium 2 (pré-visualização)** e, nessa secção, existe um controlo de deslize para ativar a Geração Premium 2 (pré-visualização). 
+4. Mova o controlo de deslize para **Ativado**.
+
+A imagem seguinte mostra como ativar o Premium Gen2. 
+
+![Ativar o Premium Generation 2](media/service-premium-what-is/enable-premium-gen2.gif#lightbox) 
+
+### <a name="known-limitations-in-premium-gen2"></a>Limitações conhecidas no Premium Gen2
+
+As seguintes limitações conhecidas aplicam-se atualmente ao Premium Gen2:
+
+1.  A utilização da capacidade Premium Gen2 não pode ser monitorizada na aplicação Metrics.
+
+2.  As definições da capacidade Premium Gen2 para cargas de trabalho específicas ainda não estão visíveis na página de definições do Premium Gen2 no Portal de administração. Para alterar as definições, faça a transição da capacidade para a versão original do Premium, altere as definições e configure a capacidade para utilizar novamente o Premium Gen2. As definições de alocação de memória não são aplicáveis para as capacidades do Premium Gen2.
+
+3.  Atualmente, os fluxos de dados com origens de dados ADLS Gen2 não estão funcionais em capacidades do Premium Gen2.  
+
+4.  Se estiver a utilizar XMLA no Premium Gen2, certifique-se de que está a utilizar as versões mais recentes das [ferramentas de modelação de dados e de gestão](service-premium-connect-tools.md#data-modeling-and-management-tools). 
+
 
 ## <a name="subscriptions-and-licensing"></a>Subscrições e licenciamento
 
@@ -42,19 +91,22 @@ O Power BI Premium é uma subscrição do Microsoft 365 ao nível do inquilino, 
 
 - Os SKUs **EM** (EM1-EM3) para incorporar a nível _organizacional_ necessitam de uma fidelização anual e são faturados mensalmente. Os SKUs EM1 e EM2 estão disponíveis apenas através de planos de licenciamento em volume. Não pode comprá-los diretamente.
 
-Uma abordagem alternativa é comprar uma subscrição do **Power BI Embedded** no Azure. Existe uma única família de SKUs **A** (A1-A6) que não necessita de fidelização e é faturada à hora para utilizar o Power BI de marca branca em aplicações, portais e sites ou como uma forma de testar as funcionalidades P e EM. Todos os SKUs fornecem núcleos virtuais para criar capacidades, mas os SKUs EM são restritos para incorporação em menor escala. Os SKUs EM1, EM2, A1 e A2 com menos de quatro núcleos virtuais não são executados na infraestrutura dedicada.
+### <a name="updates-for-premium-gen2-preview"></a>Atualizações para o Premium Gen2 (Pré-visualização)
+Atualmente, o Premium Gen2 está disponível como uma funcionalidade de pré-visualização totalmente suportada apenas para SKUs **P** e **EM**. A capacidade de SKUs **A** ainda não oferece todos os benefícios adicionais disponibilizados pela atualização do Premium Gen2 (pré-visualização).
 
-Embora o foco deste artigo sejam os SKUs P, a maior parte do que é descrito também é relevante para os SKUs A. Em contraste com os SKUs da subscrição Premium, os SKUs do Azure não necessitam de fidelização e são faturados à hora. Fornecem elasticidade total e permitem aumentar verticalmente, reduzir verticalmente, colocar em pausa, retomar e eliminar. 
-
-O Azure Power BI Embedded está fora do âmbito deste artigo, mas é descrito na secção [Abordagens de Teste](service-premium-capacity-optimize.md#testing-approaches) do artigo Otimizar as capacidades Premium como uma opção prática e económica para testar e medir cargas de trabalho. Para saber mais sobre os SKUs do Azure, veja a [Documentação do Azure Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/).
 
 ### <a name="purchasing"></a>Compras
 
 As subscrições do Power BI Premium são compradas por administradores no centro de administração do Microsoft 365. Especificamente, apenas os Administradores de Faturação ou Administradores Globais podem comprar SKUs. Quando forem comprados, o inquilino recebe um número correspondente de núcleos virtuais para atribuir a capacidades, conhecido como *agrupamento de núcleos virtuais*. Por exemplo, a compra de um SKU P3 fornece ao inquilino 32 núcleos virtuais. Para saber mais, veja [Como comprar o Power BI Premium](service-admin-premium-purchase.md).
 
-## <a name="dedicated-capacities"></a>Capacidades dedicadas
+#### <a name="power-bi-premium-per-user-preview"></a>Power BI Premium por Utilizador (pré-visualização)
 
-Com o Power BI Premium, obtém *capacidades dedicadas*. Em contraste com a capacidade partilhada, em que as cargas de trabalho são executadas em recursos computacionais partilhados com outros clientes, uma capacidade dedicada é para utilização exclusiva de uma organização. Tem recursos computacionais dedicados que fornecem um desempenho consistente e fiável para os conteúdos alojados. Note que os seguintes recursos são armazenados na capacidade partilhada e não na capacidade dedicada:
+O Power BI **Premium por Utilizador** permite que as organizações licenciem funcionalidades Premium por utilizador. O Premium por Utilizador (PPU) inclui todas as capacidades da licença Power BI Pro e também adiciona funcionalidades como relatórios paginados, IA e outras capacidades que estão disponíveis apenas para subscritores Premium. Atualmente, o Premium por Utilizador está em fase de pré-visualização. Para obter mais informações sobre o Premium por Utilizador, incluindo uma comparação de funcionalidades e outras informações sobre a versão de pré-visualização, veja [Perguntas Frequentes sobre o Power BI Premium por Utilizador (pré-visualização)](service-premium-per-user-faq.md). 
+
+
+## <a name="reserved-capacities"></a>Capacidades reservadas
+
+Com o Power BI Premium, obtém *capacidades reservadas*. Em contraste com a capacidade partilhada, em que o processamento das análises das cargas de trabalho é executado em recursos computacionais partilhados com outros clientes, uma capacidade reservada é para utilização exclusiva de uma organização. Tem recursos computacionais reservados que fornecem um desempenho consistente e fiável para os conteúdos alojados. Tenha em atenção que o processamento dos seguintes tipos de conteúdos do Power BI é armazenado numa capacidade partilhada em vez de na sua capacidade reservada:
 
 * Livros do Excel (a menos que os dados sejam importados primeiro para o Power BI Desktop)
 * [Conjuntos de dados push](/rest/api/power-bi/pushdatasets)
@@ -62,6 +114,12 @@ Com o Power BI Premium, obtém *capacidades dedicadas*. Em contraste com a capac
 * [Perguntas e Repostas](../create-reports/power-bi-tutorial-q-and-a.md)
 
 As áreas de trabalho residem nas capacidades. Cada utilizador do Power BI tem uma área de trabalho pessoal conhecida como **A Minha Área de Trabalho**. As áreas de trabalho adicionais conhecidas como **áreas de trabalho** podem ser criadas para permitir a colaboração. Por predefinição, as áreas de trabalho, incluindo as áreas de trabalho pessoais, são criadas na capacidade partilhada. Quando tem capacidades Premium, As Minhas Áreas de Trabalho e áreas de trabalho podem ser atribuídas a capacidades Premium.
+
+Os administradores de capacidade têm as suas áreas de trabalho atribuídas automaticamente a capacidades Premium.
+
+### <a name="updates-for-premium-gen2-preview"></a>Atualizações para o Premium Gen2 (Pré-visualização)
+Os nós do Premium Gen 2 deixaram de utilizar a infraestrutura reservada. Em vez disso, o serviço garante a disponibilidade de capacidade de computação adequada para cada carga de trabalho em execução ao alocar recursos suficientes de um conjunto partilhado de nós de computação de alta capacidade.
+
 
 ### <a name="capacity-nodes"></a>Nós de capacidade
 
@@ -82,17 +140,22 @@ Os recursos e limites de cada SKU Premium (e SKU A dimensionado de forma equival
 | EM1/A1 | 1 | 0,5 | 3 | 0,5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
-| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
-| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
-| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
-| P4/A7 <sup>[1](#limit)</sup>| 64 | 32 | 200 | 32 | 240 | 48 |
-| P5/A8 <sup>[1](#limit)</sup>| 128 | 64 | 400 | 64 | 480 | 96 |
+| P1 | 8 | 4 | 25 | 4 | 30 | 6 |
+| P2 | 16 | 8 | 50 | 8 | 60 | 12 |
+| P3 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4 <sup>[1](#limit)</sup>| 64 | 32 | 200 | 32 | 240 | 48 |
+| P5 <sup>[1](#limit)</sup>| 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
 <a name="limit">1</a> – Apenas por pedido especial. Para modelos muito grandes, superiores a 100 GB.
 
 >[!NOTE]
 >Pode ser preferível utilizar um único SKU maior (por exemplo, um SKU P2) em vez de combinar SKUs mais pequenos (por exemplo, dois SKUs P1). Por exemplo, pode utilizar modelos maiores e obter um melhor paralelismo com o P2.
+
+#### <a name="updates-for-premium-gen2-preview"></a>Atualizações para o Premium Gen2 (Pré-visualização)
+
+Com o **Premium Gen2** a quantidade de memória disponível em cada tamanho de Nó está definida para o limite da quantidade de memória de um único artefacto e não para o consumo cumulativo de memória. Por exemplo, no Premium Gen2, apenas o tamanho de um único conjunto de dados está limitado a 25 GB, em comparação com o Premium original, em que o total da quantidade de memória dos conjuntos de dados que são manipulados ao mesmo tempo estava limitado a 25 GB.
+
 
 ### <a name="capacity-workloads"></a>Cargas de trabalho de capacidade
 
@@ -123,6 +186,10 @@ A remoção de um modelo da memória é conhecida como *expulsão*. É uma opera
 As atualizações de modelos de importação exigem sempre bastantes recursos, pois os modelos têm de ser carregados para a memória. É necessária memória adicional para o processamento. Uma atualização total pode utilizar aproximadamente o dobro da quantidade de memória exigida pelo modelo. Isto garante que o modelo pode ser consultado mesmo durante o processamento, porque as consultas são enviadas para o modelo existente até que a atualização seja concluída e os dados do novo modelo estejam disponíveis. A atualização incremental irá exigir menos memória e pode ser concluída mais rapidamente, reduzindo substancialmente a pressão sobre os recursos de capacidades. As atualizações também podem exigir bastante CPU para os modelos, especialmente aquelas com transformações complexas do Power Query ou colunas/tabelas calculadas que são complexas ou baseadas em tabelas de grandes dimensões.
 
 As atualizações, como as consultas, exigem que o modelo seja carregado para a memória. Se não existir memória suficiente, o serviço Power BI irá tentar expulsar modelos inativos, e se isso não for possível (todos os modelos estão ativos), a tarefa de atualização será colocada em fila. Normalmente, as atualizações exigem bastante CPU, mais do que as consultas. Por este motivo, existem limites de capacidade no número de atualizações simultâneas, definido como 1,5 vezes o número de núcleos virtuais de back-end, arredondados. Se existirem muitas atualizações simultâneas, uma atualização agendada será colocada em fila. Quando estas situações ocorrem, demora mais tempo para a atualização ser concluída. As atualizações a pedido, como aquelas acionadas por um pedido de utilizador ou uma chamada à API, serão repetidas três vezes \[[1](#endnote-1)\]. Se ainda não existirem recursos suficientes, a atualização irá falhar.
+
+#### <a name="updates-for-premium-gen2-preview"></a>Atualizações para o Premium Gen2 (Pré-visualização)
+O Premium Gen2 não requer limites de memória cumulativa e, assim, as atualizações têm sempre memória suficiente disponível. Além disso, não há limite de atualizações 1,5X em execução por núcleo virtual. Pode agendar e executar quantas atualizações forem necessárias a qualquer altura e o serviço do Power BI executará essas atualizações no momento agendado, como um melhor esforço.
+
 
 Notas de secção:   
 <a name="endnote-1"></a>\[1\] Sujeito a alterações.
@@ -157,6 +224,10 @@ A monitorização no portal fornece uma vista rápida com métricas de alto nív
 
 ![Captura de ecrã a mostrar o estado de funcionamento das capacidades no portal de administração do Power BI.](media/service-premium-what-is/premium-admin-portal-health.png)
 
+> [!NOTE]
+> **Atualizações para o Premium Gen2 (Pré-visualização)** – o Premium Gen2 apenas precisa da monitorização de um aspeto: quanto tempo de CPU é que a capacidade requer para servir a carga a qualquer momento. Se exceder o tempo de CPU tendo em conta o tamanho do SKU comprado, a sua capacidade será dimensionada de forma automática para acomodar a necessidade ou irá limitar as operações interativas com base nas suas definições de configuração.
+
+
 A aplicação **Métricas de Capacidade do Power BI Premium** fornece as informações mais detalhadas sobre o desempenho das suas capacidades. A aplicação fornece um dashboard de alto nível e relatórios mais detalhados.
 
 ![Dashboard da aplicação de métricas](media/service-admin-premium-monitor-capacity/app-dashboard.png)
@@ -166,6 +237,10 @@ No dashboard da aplicação, pode clicar na célula de uma métrica para abrir u
 ![Os picos periódicos de contagens de tempo de espera de consulta indicam uma potencial saturação de CPU](media/service-premium-capacity-scenarios/peak-query-wait-times.png)
 
 Para saber mais sobre capacidades de monitorização, veja [Monitorização no Portal de Administração do Power BI](service-admin-premium-monitor-portal.md) e [Monitorização com a aplicação Métricas de Capacidade do Power BI Premium](service-admin-premium-monitor-capacity.md).
+
+#### <a name="updates-for-premium-gen2-preview"></a>Atualizações para o Premium Gen2 (Pré-visualização)
+As capacidades do **Premium Gen2** não utilizam a aplicação Metrics, mas sim a aplicação Capacity Utilization, que ficará disponível durante a pré-visualização. A aplicação Capacity Utilization pode ser iniciada a partir da página de gestão da capacidade no **Portal de administração** para cada capacidade.
+
 
 ### <a name="optimizing-capacities"></a>Otimizar as capacidades
 
@@ -187,9 +262,9 @@ A tabela seguinte mostra os SKUs recomendados para o carregamento do ficheiro .p
 
    |SKU  |Tamanho do ficheiro .pbix   |
    |---------|---------|
-   |P1/A4    | < 3 GB        |
-   |P2/A5    | < 6 GB        |
-   |P3/A6, P4, P5    | até 10 GB   |
+   |P1    | < 3 GB        |
+   |P2    | < 6 GB        |
+   |P3, P4 e P5    | até 10 GB   |
 
 O SKU A4 do Power BI Embedded é igual ao SKU P1, A5 = P2 e A6 = P3.
 
@@ -216,6 +291,21 @@ Para saber mais, veja [Atualização incremental no Power BI Premium](service-pr
 Os relatórios paginados, suportados por SKUs P1-P3 e A4-A6, são baseados em tecnologia de linguagem RDL (Report Definition Language) no SQL Server Reporting Services. Embora seja baseado na tecnologia RDL, não é o mesmo que o Power BI Report Server, que é uma plataforma de relatórios transferível que pode instalar no local, também incluída no Power BI Premium. Os relatórios paginados são formatados para se ajustarem a uma página que pode ser impressa ou partilhada. Os dados são apresentados numa tabela, mesmo que a tabela ocupe múltiplas páginas. Ao utilizar a aplicação gratuita [**Power BI Report Builder**](https://aka.ms/pbireportbuilder) para ambiente de trabalho do Windows, os utilizadores criam relatórios paginados e publicam-nos no serviço.
 
 No Power BI Premium, os relatórios paginados são uma carga de trabalho que tem de ser ativada para uma capacidade com o Portal de Administração. Os administradores de capacidade podem ativar e, em seguida, especificar a quantidade de memória como uma percentagem dos recursos de memória gerais da capacidade. Ao contrário de outros tipos de cargas de trabalho, o Premium executa relatórios paginados num espaço contido dentro da capacidade. A memória máxima especificada para este espaço é utilizada, independentemente de a carga de trabalho estar ou não ativa. A predefinição é 20%. 
+
+> [!NOTE]
+> No **Premium Gen2 (pré-visualização)** , não há gestão de memória para Relatórios paginados. Com o Premium Gen2, os Relatórios paginados são suportados nos SKUs EM1-EM3.
+
+### <a name="paginated-reports-and-premium-gen2"></a>Relatórios paginados e o Premium Gen2
+
+Ao utilizar o Premium Gen2, os Relatórios paginados no Power BI beneficiam das otimizações de arquitetura e engenharia refletidas no Premium Gen2. As secções seguintes descrevem os benefícios do Premium Gen2 para Relatórios paginados.
+
+**Disponibilidade de SKU mais ampla** – os Relatórios paginados em execução no Premium Gen2 podem executar relatórios em todos os SKUs incorporados e Premium disponíveis. A faturação é calculada por hora de CPU, num período de 24 horas. Isto expande consideravelmente os SKUs que suportam os Relatórios paginados.
+
+**Dimensionamento dinâmico** – com o Premium Gen2, os desafios associados a picos de atividade ou a necessidade de recursos podem ser tratados de forma dinâmica, conforme for necessário. 
+
+**Colocação em cache otimizada** – antes do Premium Gen2, era necessário que os Relatórios paginados executassem muitas operações no contexto de memória alocada na capacidade para a carga de trabalho. Agora, com o Premium Gen2, as reduções na memória necessária para muitas operações irão melhorar a capacidade que os clientes têm para executar operações de execução prolongada sem afetar outras sessões de utilizador. 
+
+**Segurança otimizada e isolamento de código** – com o Premium Gen2, o isolamento de código pode ocorrer por utilizador, em vez de por capacidade, como era o caso na oferta Premium original. 
 
 Para saber mais, veja [Relatórios paginados no Power BI Premium](../paginated-reports/paginated-reports-report-builder-power-bi.md). Para saber mais sobre como ativar a carga de trabalho de relatórios paginados, veja [Configurar cargas de trabalho](service-admin-premium-workloads.md).
 
@@ -249,6 +339,7 @@ Para saber mais, veja [Conectividade de conjuntos de dados com o ponto final XML
 ## <a name="next-steps"></a>Próximos passos
 
 > [!div class="nextstepaction"]
-> [Gerir as capacidades Premium](service-premium-capacity-manage.md)
+> [Gerir capacidades Premium](service-premium-capacity-manage.md)
+> [Documentação do Azure Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

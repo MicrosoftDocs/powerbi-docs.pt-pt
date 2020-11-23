@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 41c7ba43d16b6d77ecf6324d3cd175dbbabc51a1
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 447fad076d9d171a2bdcb8e9f5aafe9c63555d79
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983412"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668678"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Tutorial: Incorporar relatórios paginados do Power BI numa aplicação para a sua organização
 
-No **Power BI** , pode incorporar relatórios paginados numa aplicação para a sua organização com o cenário *os dados pertencem ao utilizador* .
+No **Power BI**, pode incorporar relatórios paginados numa aplicação para a sua organização com o cenário *os dados pertencem ao utilizador*.
 
 Os relatórios paginados são relatórios concebidos para uma impressão de alta qualidade. Normalmente, estes relatórios contêm muitos dados, compostos de uma forma que os ajusta às páginas impressas.
 Para compreender como o Power BI suporta os relatórios paginados, veja [O que são relatórios paginados no Power BI Premium?](../../paginated-reports/paginated-reports-report-builder-power-bi.md)
@@ -43,7 +43,10 @@ Para começar, precisa de:
 
 * Pelo menos uma capacidade P1. Veja [Preciso de que tamanho de capacidade Premium para os relatórios paginados?](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
-Se não estiver inscrito no **Power BI Pro** , [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
+Se não estiver inscrito no **Power BI Pro**, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
+
+>[!NOTE]
+>O [Premium Por Utilizador (PPU)](../../admin/service-premium-per-user-faq.md) é suportado. No entanto, se estiver a utilizar o PPU, apenas os utilizadores do PPU da sua organização poderão aceder à sua solução.
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurar o ambiente do Power BI
 
@@ -83,7 +86,7 @@ Tem de ativar a carga de trabalho dos relatórios paginados na capacidade.
 
     ![Selecionar capacidade](media/embed-paginated-reports-organization/select-capacity.png)
 
-3. Expanda as **Cargas de trabalho** .
+3. Expanda as **Cargas de trabalho**.
 
     ![Expandir as cargas de trabalho](media/embed-paginated-reports-organization/expand-workloads.png)
 
@@ -95,15 +98,15 @@ Tem de ativar a carga de trabalho dos relatórios paginados na capacidade.
 
 Depois de criar uma capacidade, pode atribuir a área de trabalho da aplicação a essa capacidade. Para concluir este processo, siga estes passos:
 
-1. No serviço Power BI, expanda as áreas de trabalho e selecione **Mais** para a área de trabalho que está a utilizar para incorporar o conteúdo. Em seguida, selecione **Definições da área de trabalho** .
+1. No serviço Power BI, expanda as áreas de trabalho e selecione **Mais** para a área de trabalho que está a utilizar para incorporar o conteúdo. Em seguida, selecione **Definições da área de trabalho**.
 
     ![Editar uma área de trabalho](media/embed-paginated-reports-organization/workspace-settings.png)
 
-2. Selecione **Premium**  e ative **Capacidade** . Selecione a capacidade que criou. Em seguida, selecione **Guardar** .
+2. Selecione **Premium**  e ative **Capacidade**. Selecione a capacidade que criou. Em seguida, selecione **Guardar**.
 
     ![Atribuir uma capacidade](media/embed-paginated-reports-organization/capacity.png)
 
-3. Após selecionar **Guardar** , deverá ver um diamante junto ao nome da área de trabalho da aplicação.
+3. Após selecionar **Guardar**, deverá ver um diamante junto ao nome da área de trabalho da aplicação.
 
     ![Área de trabalho da aplicação associada a uma capacidade](media/embed-paginated-reports-organization/diamond.png)
 
@@ -119,7 +122,7 @@ Siga os passos abaixo para começar a incorporar os seus conteúdos através da 
 
 1. Transfira o [Visual Studio](https://www.visualstudio.com/) (versão 2013 ou posterior). Certifique-se de que transfere o [pacote NuGet](https://www.nuget.org/profiles/powerbi) mais recente.
 
-2. Transfira [PowerBI-Programador-Amostras](https://github.com/Microsoft/PowerBI-Developer-Samples) e abra .NET Framework > Incorporar para a sua organização > integrar-aplicação-Web > **PBIWebApp** .
+2. Transfira [PowerBI-Programador-Amostras](https://github.com/Microsoft/PowerBI-Developer-Samples) e abra .NET Framework > Incorporar para a sua organização > integrar-aplicação-Web > **PBIWebApp**.
 
     ![PowerBI-Programador-Amostras](media/embed-paginated-reports-organization/powerbi-developer-sample.png)
 
@@ -133,15 +136,15 @@ Siga os passos abaixo para começar a incorporar os seus conteúdos através da 
 
 ### <a name="application-id"></a>ID da Aplicação
 
-Preencha as informações de **applicationId** com o **ID da Aplicação** do **Azure** . O **applicationId** serve para a aplicação se identificar junto dos utilizadores aos quais está a pedir permissões.
+Preencha as informações de **applicationId** com o **ID da Aplicação** do **Azure**. O **applicationId** serve para a aplicação se identificar junto dos utilizadores aos quais está a pedir permissões.
 
-Para obter o **applicationId** , siga estes passos:
+Para obter o **applicationId**, siga estes passos:
 
 1. Inicie sessão no [portal do Azure](https://portal.azure.com).
 
-2. No painel de navegação à esquerda, selecione **Todos os serviços** e **Registos de aplicações** .
+2. No painel de navegação à esquerda, selecione **Todos os serviços** e **Registos de aplicações**.
 
-3. Selecione a aplicação que precisa do **applicationId** .
+3. Selecione a aplicação que precisa do **applicationId**.
 
     ![Escolher Aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
@@ -189,11 +192,11 @@ Para incorporar com um utilizador convidado, utilize o URL: *`https://login.micr
 
 ### <a name="run-the-application"></a>Executar a aplicação
 
-1. Selecione **Executar** no **Visual Studio** .
+1. Selecione **Executar** no **Visual Studio**.
 
     ![Executar a aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-2. Em seguida, selecione **Incorporar Relatório** . Consoante os conteúdos que selecionar para efetuar os testes (relatórios, dashboards ou mosaicos), selecione essa opção na aplicação.
+2. Em seguida, selecione **Incorporar Relatório**. Consoante os conteúdos que selecionar para efetuar os testes (relatórios, dashboards ou mosaicos), selecione essa opção na aplicação.
 
     ![Selecionar o conteúdo](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 

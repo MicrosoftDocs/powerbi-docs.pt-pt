@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: d0d9472ef767a67b3b75be4c9eb5d6922d9cdf81
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 908aa715c31396485bcebfaa7227f3241cb02fb8
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93045134"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668563"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Exportar relatórios paginados para ficheiros (pré-visualização)
 
@@ -122,6 +122,8 @@ Eis um exemplo para fornecer um nome de utilizador eficaz para RLS.
       }
 }
 ```
+## <a name="ppu-concurrent-requests"></a>Pedidos simultâneos do PPU
+A `exportToFile`API permite um pedido num intervalo de cinco minutos quando utiliza o [Premium Por Utilizador (PPU)](../../admin/service-premium-per-user-faq.md). Múltiplos pedidos (acima de um) dentro de um intervalo de cinco minutos irão resultar no erro *Too Many Requests* (429).
 
 ## <a name="code-examples"></a>Exemplos de código
 
@@ -288,7 +290,7 @@ private async Task<ExportedFile> ExportPaginatedReport(
 }
 ```
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 Veja como incorporar conteúdo para os seus clientes e organização:
 

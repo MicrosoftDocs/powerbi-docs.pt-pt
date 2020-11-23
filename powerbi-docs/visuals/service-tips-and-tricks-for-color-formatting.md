@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/29/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bce798e07a3bdac0ba52f56e9ddf7eac72087924
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 6f64db7be452cf5873a862f378f558bc4f177c56
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483960"
+ms.locfileid: "94513125"
 ---
 # <a name="tips-and-tricks-for-formatting-in-reports"></a>Sugestões e truques para formatação em relatórios
 
@@ -40,12 +40,12 @@ Para realizar alterações, tem de ter permissões de edição no relatório. No
 
 Quando os painéis **Filtros** e **Visualizações** forem apresentados no lado direito da tela de relatório, está pronto para começar a personalizar. Se os painéis não aparecerem, selecione a seta no canto superior direito para os abrir.
 
-![tela de relatório na vista de edição](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
+![tela de relatório na vista de edição](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-filter.png)
 
 ## <a name="apply-a-theme"></a>Aplicar um tema
 Com os temas de relatório, pode aplicar alterações de design a todo o relatório, como utilizar cores da empresa, alterar conjuntos de ícones ou aplicar uma nova formatação visual predefinida. Quando aplica um tema de relatório, todos os elementos visuais no relatório utilizam as cores e a formatação do tema selecionado. Para saber mais, veja [Utilizar temas de relatório](../create-reports/desktop-report-themes.md)
 
-![Mudar ícone de tema na barra de menu](media/service-tips-and-tricks-for-color-formatting/power-bi-theme.png)
+![Mudar ícone de tema na barra de menu](media/service-tips-and-tricks-for-color-formatting/power-bi-themes.png)
 
 Aqui, aplicámos o tema **Inovar** ao relatório de Vendas e Marketing.
 
@@ -56,13 +56,13 @@ Aqui, aplicámos o tema **Inovar** ao relatório de Vendas e Marketing.
 
 A seguinte visualização classifica as unidades vendidas por segmento de produto. 
 
-![Alteração das cores dos dados para cinzento](media/service-tips-and-tricks-for-color-formatting/power-bi-data.png)
+![Alteração das cores dos dados para cinzento](media/service-tips-and-tricks-for-color-formatting/power-bi-format.png)
 
 Agora, imagine que quer destacar o segmento **Conveniência** para mostrar o bom desempenho deste segmento totalmente novo através de cores. Eis os passos:
 
 Expanda o cartão **Cores dos dados** e ative o controlo de deslize para **Mostrar tudo**. Isso mostra as cores para cada elemento de dados na visualização. Agora, pode modificar qualquer um dos pontos de dados.
 
-![Painel Formatar com Mostrar tudo definido como Ativado](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
+![Painel Formatar com Mostrar tudo definido como Ativado](media/service-tips-and-tricks-for-color-formatting/power-bi-show-all.png)
 
 Defina **Conveniência** para cor de laranja. 
 
@@ -84,9 +84,9 @@ As visualizações beneficiam muitas vezes da configuração de cor com base no 
 As seções a seguir demonstram maneiras diferentes de cor de base num valor numérico.
 
 ### <a name="base-the-color-of-data-points-on-a-value"></a>Base da cor de pontos de dados num valor
-Para alterar a cor com base num valor, selecione uma visualização para ativá-la. Abra o painel Formatação ao selecionar o ícone de rolo e, em seguida, abra o cartão **Cores dos dados**. Paire o rato sobre o cartão, selecione o ícone de três pontos verticais que aparecem e selecione **Formatação condicional**.  
+Para alterar a cor com base num valor, selecione uma visualização para ativá-la. Abra o painel Formatação ao selecionar o ícone de rolo de pintura e, em seguida, selecionar o cartão **Cores de dados**. Por baixo de **Cor predefinida**, selecione o ícone fx.  
 
-![selecionar a opção de formatação condicional ao clicar no ícone de três pontos verticais](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting.gif)
+![selecionar a opção de formatação condicional ao clicar no ícone de três pontos verticais](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional.png)
 
 No painel **Cores predefinidas**, utilize os menus pendentes para identificar os campos a utilizar para fins de formatação condicional. Neste exemplo, selecionámos os campos **Números de vendas** > **Total de Unidades** e selecionámos azul-claro para o **Valor mais baixo** e azul-escuro para o **Valor mais alto**. 
 

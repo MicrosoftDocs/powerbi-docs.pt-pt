@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1c1e6ec9c6f6195f69af67da4ffbf1d0428b0fc2
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 7fcda945c374ba5384bd936b94db67a3ccd3ace1
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92257059"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94559810"
 ---
 # <a name="multi-select-data-elements-data-points-and-visuals-in-power-bi-desktop"></a>Selecionar vários elementos de dados, pontos de dados e elementos visuais no Power BI Desktop
 
@@ -26,7 +26,7 @@ No Power BI Desktop, pode realçar um ponto de dados num determinado elemento v
 
 ![Ponto de dados único selecionado](media/desktop-multi-select/multi-select_01.png)
 
-Com a seleção múltipla, pode agora selecionar mais do que um ponto de dados na página de relatório do **Power BI Desktop** e realçar os resultados nos vários elementos visuais na página. Este procedimento é equivalente a uma funcionalidade ou instrução **e** , como “realçar resultados para Lisboa **e** Porto”. Para selecionar vários pontos de dados em elementos visuais, utilize **CTRL+Clique** . A imagem seguinte mostra **vários pontos de dados** selecionados (seleção múltipla).
+Com a seleção múltipla, pode agora selecionar mais do que um ponto de dados na página de relatório do **Power BI Desktop** e realçar os resultados nos vários elementos visuais na página. Este procedimento é equivalente a uma funcionalidade ou instrução **e**, como “realçar resultados para Lisboa **e** Porto”. Para selecionar vários pontos de dados em elementos visuais, utilize **CTRL+Clique**. A imagem seguinte mostra **vários pontos de dados** selecionados (seleção múltipla).
 
 ![Vários pontos de dados selecionados](media/desktop-multi-select/multi-select_02.png)
 
@@ -34,7 +34,7 @@ Parece uma funcionalidade simples, mas permite todo um leque de oportunidades qu
 
 ## <a name="select-multiple-elements-using-rectangle-select-preview"></a>Selecionar vários elementos através da seleção de retângulo (pré-visualização)
 
-Pode selecionar vários elementos de dados num elemento visual ou vários visuais num relatório, através da seleção retangular, geralmente também referido como *seleção de laço* . 
+Pode selecionar vários elementos de dados num elemento visual ou vários visuais num relatório, através da seleção retangular, geralmente também referido como *seleção de laço*. 
 
 ### <a name="select-multiple-visuals-on-the-canvas"></a>Selecionar vários elementos visuais na tela
 
@@ -56,7 +56,7 @@ Para obter mais informações sobre esta caraterística, veja a [publicação de
 
 Há algumas limitações e considerações para a seleção múltipla de pontos de dados num elemento visual:
 
-* Seleção de laço de linha, área, gráfico de dispersão e suporte de mapa de árvore
+* Os mapas, gráficos treemap, gráficos de dispersão, áreas e linhas suportam a seleção de laço
 * O número máximo de pontos de dados que pode selecionar ao mesmo tempo é 300
 * Ao ver um relatório no serviço Power BI, a seleção de retângulo será ativada apenas se a caraterística de seleção de laço tiver sido ativada quando o relatório foi guardado e publicado
 

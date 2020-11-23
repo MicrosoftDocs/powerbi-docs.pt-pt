@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 04/09/2019
-ms.custom: seodec18
+ms.date: 11/11/2020
+ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: 1bc11d94162ab2c6ed62de0825acd6e94db30291
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: a3835ff26bf86024b827edf69e19d6f603e66c2c
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599384"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512890"
 ---
 # <a name="premium-capacity-scenarios"></a>Cenários de capacidades Premium
 
@@ -28,6 +28,9 @@ Este artigo descreve cenários do mundo real onde foram implementadas capacidade
 - [Determinar se existe CPU suficiente](#determining-whether-there-is-enough-cpu)
 
 Os passos, juntamente com os exemplos do gráfico e da tabela, são da **aplicação Métricas de Capacidade do Power BI Premium**, à qual um administrador do Power BI terá acesso.
+
+> [!NOTE]
+> O Power BI Premium lançou recentemente uma nova versão do Premium, denominada **Premium Gen2**, que está atualmente em pré-visualização. O Premium Gen2 irá simplificar a gestão de capacidades Premium e reduzirá a sobrecarga de gestão. Para obter mais informações, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 ## <a name="keeping-datasets-up-to-date"></a>Manter conjuntos de dados atualizados
 
@@ -123,6 +126,9 @@ Numa capacidade em bom estado de funcionamento, o elemento visual terá esta apa
 
 Numa capacidade que está a sofrer pressão de memória, o mesmo elemento visual irá mostrar claramente a convergência entre a memória ativa e a memória total, o que significa que é impossível carregar conjuntos de dados adicionais para a memória. Neste caso, o administrador do Power BI pode clicar em **Reinício da Capacidade** (em **Opções Avançadas** da área de definições da capacidade do portal de administração). Reiniciar os resultados da capacidade em todos os conjuntos de dados que são removidos da memória e permitir que eles recarreguem para a memória conforme preciso (por consultas ou atualização de dados).
 
+> [!NOTE]
+> No Premium Gen2, o consumo de memória não tem de ser controlado. A única limitação do Premium Gen2 está na quantidade de memória de um único artefacto. A quantidade de memória não pode exceder a memória disponível na capacidade. Para obter mais informações sobre o Premium Gen2, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+
 ![Memória **Ativa** convergente com a memória **Toda**](media/service-premium-capacity-scenarios/memory-unhealthy-capacity.png)
 
 ## <a name="determining-whether-there-is-enough-cpu"></a>Determinar se existe CPU suficiente
@@ -141,6 +147,9 @@ Este efeito pode ser especialmente aparente quando um conjunto de dados é consu
 
 Em alguns casos, os administradores do Power BI podem pedir que os proprietários do conjunto de dados criem uma carga de trabalho de consulta menos volátil ao criar um dashboard (que consultam periodicamente com qualquer atualização de conjunto de dados para mosaicos em cache) em vez de um relatório. Isto pode ajudar a evitar picos quando o dashboard é carregado. Esta solução nem sempre é possível para determinados requisitos de negócios, no entanto, pode ser uma forma eficaz para evitar a saturação da CPU, sem alterar o conjunto de dados.
 
+> [!NOTE]
+> No Premium Gen2, a utilização de tempo de CPU é controlada num nível por artefacto e é visível na aplicação de utilização de capacidade. Cada artefacto apresenta a respetiva utilização de tempo de CPU num dado período. Para obter mais informações sobre o Premium Gen2, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+
 ## <a name="acknowledgments"></a>Agradecimentos
 
 Este artigo foi escrito por Peter Myers, MVP de Plataforma de Dados e especialista independente de BI na [Bitwise Solutions](https://www.bitwisesolutions.com.au/).
@@ -154,4 +163,13 @@ Este artigo foi escrito por Peter Myers, MVP de Plataforma de Dados e especialis
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 
-||||||
+O Power BI introduziu o Power BI Premium Gen2 como uma oferta de pré-visualização, que melhora a experiência do Power BI Premium nos seguintes aspetos:
+* Desempenho
+* Licenciamento por utilizador
+* Maior dimensionamento
+* Métricas melhoradas
+* Dimensionamento automático
+* Sobrecarga de gestão reduzida
+
+Para obter mais informações sobre o Power BI Premium Gen2, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+

@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 10/01/2020
-ms.openlocfilehash: b1d0a94e3dd0ae68231720bc69d2537568efd19f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 8ff1fe1657e22b1e0812bddf6a0842b3c32b8822
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396800"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668586"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportar relatório do Power BI para ficheiro (pré-visualização)
 
@@ -93,6 +93,9 @@ Ao utilizar a API `exportToFile`, pode transmitir o local desejado. As definiç�
 `exportToFile` suporta pedidos de tarefas de exportação simultâneos. A tabela abaixo mostra o número de tarefas que pode executar ao mesmo tempo, consoante o SKU em que o relatório reside. Os pedidos simultâneos referem-se a páginas de relatório. Por exemplo, 20 páginas num pedido de exportação de um SKU A6 serão processadas simultaneamente. Este processamento demorará aproximadamente o mesmo tempo que o envio de 20 pedidos de exportação com uma página cada.
 
 Uma tarefa que exceda o número de pedidos simultâneos não termina. Por exemplo, se exportar três páginas num SKU A1, a primeira tarefa será executada e as duas últimas esperarão pelos próximos dois ciclos de execução.
+
+>[!NOTE]
+>A exportação de um relatório do Power BI para um ficheiro através da `exporToFile`API não é suportada para o [Premium Por Utilizador (PPU)](../../admin/service-premium-per-user-faq.md). 
 
 |SKU do Azure  |SKU do Office  |Número máximo de páginas simultâneas  |
 |-----------|------------|-----------|

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 08/13/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 449721a13a126344f3ef8334e63f64579a98ec20
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 9331fe3e207162db0215b62aa89b04f2e4be3d95
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916159"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512706"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Chaves de encriptação por BYOK (Bring Your Own Key) para o Power BI
 
@@ -23,6 +23,9 @@ O Power BI encripta dados _em inatividade_ e _em processamento_. Por predefiniç
 ## <a name="why-use-byok"></a>Porquê utilizar o BYOK?
 
 O BYOK torna mais fácil de cumprir os requisitos de conformidade que especificam as gestões de chaves por parte do fornecedor de serviços cloud (neste caso, a Microsoft). Com o BYOK, pode fornecer e controlar as chaves de encriptação dos seus dados inativos do Power BI ao nível da aplicação. Deste modo, pode controlar e revogar as chaves da sua organização, caso decida desistir do serviço. Ao revogar as chaves, os dados tornam-se ilegíveis para o serviço num prazo de 30 minutos.
+
+> [!IMPORTANT]
+> O Power BI Premium lançou recentemente uma nova versão do Premium, denominada **Premium Gen2**, que está atualmente em pré-visualização. As capacidades do Gen2 de pré-visualização **não** suportam o BYOK durante a pré-visualização.
 
 ## <a name="data-source-and-storage-considerations"></a>Considerações sobre a origem e o armazenamento de dados
 
@@ -60,12 +63,12 @@ As instruções nesta secção pressupõem que detém conhecimentos básicos sob
 
 1. No portal do Azure, em **Políticas de acesso** no seu cofre de chaves, selecione **Adicionar Novo**.
 
-1. Em **Selecionar principal** , procure e selecione Microsoft.Azure.AnalysisServices.
+1. Em **Selecionar principal**, procure e selecione Microsoft.Azure.AnalysisServices.
 
     > [!NOTE]
     > Se não encontrar "Microsoft.Azure.AnalysisServices", é provável que a subscrição do Azure associada ao seu Azure Key Vault nunca tenha tido um recurso do Power BI associado. Em vez disso, experimente procurar a seguinte cadeia de carateres: 00000009-0000-0000-c000-000000000000.
 
-1. Em **Permissões da chave** , selecione **Anular a Moldagem da Chave** e **Moldar Chave**.
+1. Em **Permissões da chave**, selecione **Anular a Moldagem da Chave** e **Moldar Chave**.
 
     ![Ficheiro P B I X, selecionar principal de serviço e operações criptográficas](media/service-encryption-byok/service-principal.png)
 
@@ -76,7 +79,7 @@ As instruções nesta secção pressupõem que detém conhecimentos básicos sob
 
 ### <a name="create-an-rsa-key"></a>Criar uma chave RSA
 
-1. No seu cofre de chaves, em **Chaves** , selecione **Gerar/Importar**.
+1. No seu cofre de chaves, em **Chaves**, selecione **Gerar/Importar**.
 
 1. Selecione um **Tipo de Chave** RSA e um **Tamanho da Chave RSA** de 4096 bits.
 
@@ -84,7 +87,7 @@ As instruções nesta secção pressupõem que detém conhecimentos básicos sob
 
 1. Selecione **Criar**.
 
-1. Em **Chaves** , selecione a chave que criou.
+1. Em **Chaves**, selecione a chave que criou.
 
 1. Selecione o GUID para a **Versão Atual** da chave.
 
@@ -183,7 +186,7 @@ O Power BI fornece cmdlets adicionais para ajudá-lo a gerir o BYOK no seu inqui
 
     Tenha em atenção que a encriptação é ativada ao nível da capacidade, mas que irá obter o estado de encriptação ao nível do conjunto de dados para a área de trabalho especificada.
 
-- Utilize [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) para alternar (ou _rodar_ ) a versão da chave que está a ser utilizada para encriptação. O cmdlet apenas atualiza o `-KeyVaultKeyUri` para o `-Name` de uma chave:
+- Utilize [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) para alternar (ou _rodar_) a versão da chave que está a ser utilizada para encriptação. O cmdlet apenas atualiza o `-KeyVaultKeyUri` para o `-Name` de uma chave:
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
@@ -202,3 +205,14 @@ O Power BI fornece cmdlets adicionais para ajudá-lo a gerir o BYOK no seu inqui
 * [Incorporar com peças Web de relatórios no SharePoint Online](../collaborate-share/service-embed-report-spo.md)
 
 * [Publicar na Web do Power BI](../collaborate-share/service-publish-to-web.md)
+
+
+O Power BI introduziu o Power BI Premium Gen2 como uma oferta de pré-visualização, que melhora a experiência do Power BI Premium nos seguintes aspetos:
+* Desempenho
+* Licenciamento por utilizador
+* Maior dimensionamento
+* Métricas melhoradas
+* Dimensionamento automático
+* Sobrecarga de gestão reduzida
+
+Para obter mais informações sobre o Power BI Premium Gen2, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

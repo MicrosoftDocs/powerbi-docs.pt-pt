@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f1a792c7ad25600f04ca9834b1e5019d4e27efb4
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: a8268af76472c91474f2f67bc256fcc0ddcc9768
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409519"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669230"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Utilizar uma segmentação e filtro de hora relativa no Power BI
 
@@ -90,10 +90,7 @@ Quando um filtro for aplicado ao nível de página ou relatório, todos os eleme
 As seguintes limitações e considerações aplicam-se atualmente ao filtro e segmentação de hora relativa.
 
 - **Considerações sobre o fuso horário**: Os modelos de dados do Power BI não incluem informações sobre o fuso horário. Os modelos podem armazenar horas, mas não existe nenhuma indicação do fuso horário em que estão. A segmentação de dados e o filtro estão sempre baseados na hora UTC. Se configurar um filtro num relatório e o enviar para um colega num fuso horário diferente, ambos verão os mesmos dados. A menos que esteja no fuso horário UTC, assim como o seu colega, ambos devem ter em conta a possível diferença horária. Utilize o Editor de Consultas para converter dados capturados de um fuso horário local em UTC.
-- Este novo tipo de filtro é suportado no Power BI Desktop, no serviço Power BI, no Power BI Embedded e nas aplicações móveis do Power BI. No entanto, existem algumas limitações de suporte conhecidas:
-
-    - Não é suportado na API Embed.
-    - Não é suportado para Publicar na Web.
+- Este novo tipo de filtro é suportado no Power BI Desktop, no serviço Power BI, no Power BI Embedded e nas aplicações móveis do Power BI. No entanto, não é suportado para Publicar na Web.
 
 - **Colocação de Consultas em Cache**: Utilizamos a cache do cliente. Imagine que especifica “último minuto” e, em seguida, “últimos 5 minutos” e, depois, novamente “último minuto”. Neste ponto, vê os mesmos resultados que na primeira execução, a menos que atualize a página ou a página seja atualizada automaticamente.
 

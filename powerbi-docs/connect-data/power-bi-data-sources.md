@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/07/2020
+ms.date: 11/17/2020
 ms.author: davidi
-ms.openlocfilehash: 3cce51ad577c700a0f9595a2b92694e5e1b61cc5
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 11f9db0282cd0b302c5293ca59dd44c87dcdb955
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397398"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719058"
 ---
 # <a name="power-bi-data-sources"></a>Origens de dados do Power BI
 
@@ -62,7 +62,7 @@ A seguinte tabela apresenta as origens de dados suportadas pelo Power BI para o
 | Pasta | Sim | Sim | Não | Sim | Sim | Sim |
 | GitHub | Sim | Sim | Não | Não | Não | Não |
 | Google Analytics | Sim | Sim | Não | Não | Não | Não |
-| Google BigQuery | Sim | Sim | Sim | Não | Não | Sim |
+| Google BigQuery | Sim | Sim | Sim | Yes | Não | Sim |
 | Hadoop File (HDFS) | Sim | No | Não | Não | Não | Não |
 | LLAP do Hive | Sim | Sim | Sim | Yes | Não | Não |
 | Interactive Query do HDInsight | Sim | Sim | Sim | No | Não | Não |
@@ -148,7 +148,7 @@ A seguinte tabela apresenta as origens de dados suportadas pelo Power BI para o
 
 <sup>6</sup> Necessário para .html, .xls e Bases de Dados do Access
 
-<sup>7</sup> O serviço Power BI não suporta feeds OData que exigem autenticação.
+<sup>7</sup> O serviço Power BI não suporta o método OAuth2 genérico.
 
 <sup>8</sup> O Paxata é suportado na versão do Power BI Desktop otimizada para o Power BI Report Server. Não é suportado nos relatórios do Power BI publicados no Power BI Report Server. Veja [Origens de dados de relatórios do Power BI no Power BI Report Server](../report-server/data-sources.md) para obter a lista de origens de dados suportadas.
 

@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/24/2020
+ms.date: 11/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 86a28c1d89537a59bf96d82fb3df87a4a0ccf391
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 46d620df1140d4fea8ffb9b4bdb9dd292e3659cd
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916090"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512292"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Licenciamento do serviço Power BI para os utilizadores na sua organização
 
-Aquilo que um utilizador pode fazer no serviço Power BI depende do tipo de licença por utilizador que o mesmo possui. O nível de acesso fornecido pela respetiva licença varia consoante a área de trabalho a que está a aceder esteja ou não atribuída a uma capacidade Premium do Power BI. Todos os utilizadores do serviço Power BI têm de ter uma licença.
+Aquilo que um utilizador pode fazer no serviço Power BI depende do tipo de licença por utilizador que o mesmo possui. O nível de acesso fornecido pela respetiva licença varia consoante a área de trabalho a ser acedida for ou não uma área de trabalho Premium. Todos os utilizadores do serviço Power BI têm de ter uma licença.
 
-Existem duas formas de os utilizadores obterem uma licença. Com as capacidades de inscrição de gestão personalizada e as contas de trabalho ou escolares, os utilizadores podem obter a sua própria licença gratuita ou Pro. Em alternativa, os administradores podem obter uma subscrição do Power BI e atribuir licenças aos utilizadores.
+Existem duas formas de os utilizadores obterem uma licença. Com as capacidades de inscrição de gestão personalizada e as contas de trabalho ou escolares, os utilizadores podem obter a sua própria licença gratuita, Pro ou Premium Por Utilizador. Em alternativa, os administradores podem obter uma licença do Power BI e atribuir licenças aos utilizadores.
 
 Este artigo aborda a compra de serviços e o licenciamento por utilizador numa perspetiva de administrador. Para obter mais informações sobre como os utilizadores podem obter a sua própria licença, veja [Inscrever-se no Power BI como um indivíduo](../fundamentals/service-self-service-signup-for-power-bi.md).
 
@@ -45,7 +45,7 @@ Um administrador global ou um administrador de faturação pode inscrever-se no 
 
 ## <a name="about-self-service-sign-up"></a>Acerca da inscrição de gestão personalizada
 
-Os utilizadores individuais podem obter a sua própria licença do Power BI. Para tal, devem inscrever-se com a conta de trabalho ou escolar. Com uma licença gratuita, os utilizadores podem explorar o Power BI para a visualização e análise dos dados pessoais com A Minha Área de Trabalho, mas não podem partilhar com outros utilizadores. É necessária uma licença do Power BI Pro para partilhar conteúdos. Os utilizadores podem atualizar o tipo de licença para Pro ou inscrever-se diretamente na capacidade Pro se a organização estiver a utilizar a cloud comercial. A compra direta ou a atualização para a capacidade Pro não está disponível para organizações educacionais ou organizações implementadas em clouds do Azure Government, do Azure Alemanha ou do Azure China 21Vianet.
+Os utilizadores individuais podem obter a sua própria licença do Power BI. Para tal, devem inscrever-se com a conta de trabalho ou escolar. Com uma licença gratuita, os utilizadores podem explorar o Power BI para a visualização e análise dos dados pessoais com A Minha Área de Trabalho, mas não podem partilhar com outros utilizadores. É necessária uma licença do Power BI Pro para partilhar conteúdos. Uma licença do Power BI Premium desbloqueia o acesso a várias funcionalidades, capacidades e tipos de conteúdos que só estão disponíveis através do Premium. Uma licença Premium Por Utilizador limita o acesso a estas funcionalidades apenas a outros utilizadores com licença Premium Por Utilizador e a licença Premium baseada em capacidades permite que os utilizadores com licenças gratuitas acedam a qualquer conteúdo, enquanto apenas os utilizadores com uma licença Pro podem criar conteúdos. Os utilizadores podem atualizar o tipo de licença para Pro ou inscrever-se diretamente na capacidade Pro se a organização estiver a utilizar a cloud comercial. A compra direta ou a atualização para a capacidade Pro não está disponível para organizações educacionais ou organizações implementadas em clouds do Azure Government, do Azure Alemanha ou do Azure China 21Vianet.
 
 Se não quiser que os utilizadores na sua organização utilizem o serviço de gestão personalizada, veja [Ativar ou desativar a inscrição de gestão personalizada](service-admin-disable-self-service.md) para saber como a desativar.
 
@@ -63,30 +63,30 @@ Se quiser ver quais os utilizadores da sua organização já possuem uma licenç
 
 ## <a name="license-types-and-capabilities"></a>Capacidades e tipos de licença
 
-Existem dois tipos de licenças do Power BI por utilizador: gratuita e Pro. O tipo de licença que um utilizador precisa é determinado pelo local onde o conteúdo é armazenado e pela forma como os utilizadores interagem com esse conteúdo. Onde o conteúdo pode ser armazenado é determinado pelo [tipo de subscrição](#subscription-types) da sua organização.
+Existem dois tipos de licenças do Power BI por utilizador: Pro gratuita e Premium. O tipo de licença de que um utilizador precisa é determinado pelo local onde o conteúdo é armazenado, pela forma como os utilizadores interagem com esse conteúdo e se esse conteúdo utiliza funcionalidades Premium. O local onde o conteúdo pode ser armazenado é determinado pelo [tipo de licença](#license-types) da sua organização.
 
-Um tipo de subscrição, [Power BI Premium](service-admin-premium-purchase.md), permite aos utilizadores com uma licença gratuita agirem sobre conteúdos em áreas de trabalho atribuídas à capacidade Premium. Fora da capacidade Premium, os utilizadores com uma licença gratuita só podem utilizar o serviço Power BI para se ligarem aos dados e criarem relatórios e dashboards em **A Minha Área de Trabalho**. Não podem partilhar conteúdos com outros utilizadores nem publicar conteúdos noutras áreas de trabalho. Para saber mais sobre os tipos de áreas de trabalho, veja [Tipos de áreas de trabalho](../consumer/end-user-workspaces.md#types-of-workspaces).
+Um tipo de licença, a licença baseada em capacidades do [Power BI Premium](service-admin-premium-purchase.md), permite aos utilizadores com uma licença gratuita agirem sobre conteúdos em áreas de trabalho atribuídas à capacidade Premium. Fora da capacidade Premium, os utilizadores com uma licença gratuita só podem utilizar o serviço Power BI para se ligarem aos dados e criarem relatórios e dashboards em **A Minha Área de Trabalho**. Não podem partilhar conteúdos com outros utilizadores nem publicar conteúdos noutras áreas de trabalho. Para saber mais sobre os tipos de áreas de trabalho, veja [Tipos de áreas de trabalho](../consumer/end-user-workspaces.md#types-of-workspaces).
 
-Uma subscrição Standard do Power BI utiliza a capacidade partilhada. Se os conteúdos forem armazenados numa capacidade partilhada, os utilizadores a quem foi atribuída uma licença do Power BI Pro só poderão colaborar com outros utilizadores do Power BI Pro. Estes podem consumir os conteúdos partilhados com outros utilizadores, publicar conteúdos em áreas de trabalho de aplicações, partilhar dashboards e subscrever dashboards e relatórios.  Quando as áreas de trabalho estão na capacidade Premium, os utilizadores Pro podem distribuir conteúdos a utilizadores que não possuam uma licença do Power BI Pro.
+Uma licença do Power BI com as licenças por utilizador Pro e gratuita utiliza apenas uma capacidade partilhada e limitada para processar conteúdos. Se os conteúdos forem armazenados nessa capacidade partilhada, os utilizadores a quem foi atribuída uma licença do Power BI Pro só poderão colaborar com outros utilizadores do Power BI Pro. Estes podem consumir os conteúdos partilhados com outros utilizadores, publicar conteúdos em áreas de trabalho de aplicações, partilhar dashboards e subscrever dashboards e relatórios.  Quando as áreas de trabalho estão na capacidade Premium, os utilizadores Pro podem distribuir conteúdos a utilizadores que não possuam uma licença do Power BI Pro.
 
-A tabela abaixo resume as capacidades básicas de cada tipo de licença. Para obter uma discriminação detalhada da disponibilidade das funcionalidades por tipo de licença, veja [Funcionalidades por tipo de licença](../fundamentals/service-features-license-type.md).
+Ao utilizar licenças Premium Por Utilizador, os conteúdos criados por um utilizador licenciado com licença Premium Por Utilizador só podem ser partilhados com outros utilizadores com uma licença Premium, exceto se esses conteúdos forem especificamente colocados numa área de trabalho alojada numa capacidade Premium. A tabela abaixo resume as capacidades básicas de cada tipo de licença. Para obter uma discriminação detalhada da disponibilidade das funcionalidades por tipo de licença, veja [Funcionalidades por tipo de licença](../fundamentals/service-features-license-type.md).
 
 | Tipo de licença | Capacidades quando a área de trabalho está numa capacidade partilhada | Capacidades adicionais quando a área de trabalho está na capacidade Premium |
 | --------- | ----------- | ----------- |
 | Power BI (gratuito) | Acesso ao conteúdo em A Minha Área de Trabalho | Consumo de conteúdo partilhado com eles |
 | Power BI Pro | Publicação de conteúdos noutras áreas de trabalho, partilha de dashboards, subscrição de dashboards e relatórios, partilha com utilizadores que têm uma licença Pro | Distribuição de conteúdo a utilizadores que possuem licenças gratuitas |
 
-## <a name="subscription-types"></a>Tipos de subscrição
+## <a name="license-types"></a>Tipos de licença
 
-Todas as subscrições de licenças comerciais baseadas em utilizadores da Microsoft se baseiam em identidades do Azure Active Directory, Para utilizar o serviço Power BI com licenças comerciais, tem de iniciar sessão com uma identidade que o Azure Ative Directory suporte. Pode adicionar o Power BI a qualquer subscrição da Microsoft que utilize o Azure Active Directory para os serviços de identidade. Algumas subscrições, como o Office 365 E5, incluem uma licença do Power BI Pro, pelo que não é necessária uma inscrição separada do Power BI.
+Todas as licenças comerciais baseadas em utilizadores da Microsoft baseiam-se em identidades do Azure Active Directory. Para utilizar o serviço Power BI com licenças comerciais, tem de iniciar sessão com uma identidade que o Azure Ative Directory suporte. Pode adicionar o Power BI a qualquer licença da Microsoft que utilize o Azure Active Directory para os serviços de identidade. Algumas licenças, como o Office 365 E5, incluem uma licença do Power BI Pro, pelo que não é necessária uma inscrição separada do Power BI.
 
-Existem dois tipos de subscrições do Power BI para organizações: Standard e Premium.
+Existem dois tipos de licenças do Power BI para organizações: Standard e Premium.
 
-Com uma subscrição de gestão personalizada Standard do Power BI Pro, os administradores atribuem licenças por utilizador. Existe uma taxa mensal por utilizador para as licenças do Power BI Pro. Este tipo de licença permite colaboração, publicação, partilha e análise ad hoc. Os conteúdos são guardados numa capacidade de armazenamento partilhada que é totalmente gerida pela Microsoft.
+Com uma licença de gestão personalizada Standard do Power BI Pro, os administradores atribuem licenças por utilizador. Existe uma taxa mensal por utilizador para as licenças do Power BI Pro. Este tipo de licença permite colaboração, publicação, partilha e análise ad hoc. Os conteúdos são guardados numa capacidade de armazenamento partilhada que é totalmente gerida pela Microsoft.
 
-Uma subscrição do Power BI Premium aloca capacidade a uma organização. Adequada para a BI empresarial, a análise de macrodados e os relatórios na cloud e no local, a capacidade Premium proporciona controlos de implementação e administração avançados. Os recursos de armazenamento e de computação dedicados são geridos pelos administradores das capacidades na sua organização. Existe um custo mensal para este ambiente dedicado. Para além das outras vantagens da capacidade Premium, o conteúdo armazenado nesta pode ser acedido e distribuído pelos utilizadores que não possuem licenças do Power BI Pro. Pelo menos um utilizador tem de possuir uma licença do Power BI Pro atribuída para utilizar a capacidade Premium. Os criadores e programadores de conteúdo continuam a precisar de uma licença do Power BI Pro.
+Uma licença do Power BI Premium aloca capacidade a uma organização. Adequada para a BI empresarial, a análise de macrodados e os relatórios na cloud e no local, a capacidade Premium proporciona controlos de implementação e administração avançados. Os recursos de armazenamento e de computação dedicados são geridos pelos administradores das capacidades na sua organização. Existe um custo mensal para este ambiente dedicado. Para além das outras vantagens da capacidade Premium, o conteúdo armazenado nesta pode ser acedido e distribuído pelos utilizadores que não possuem licenças do Power BI Pro. Pelo menos um utilizador tem de possuir uma licença do Power BI Pro atribuída para utilizar a capacidade Premium. Os criadores e programadores de conteúdo continuam a precisar de uma licença do Power BI Pro.
 
-Os dois tipos de subscrição não são mutuamente exclusivos. Pode possuir o Power BI Premium e o Power BI Pro. Nesta configuração, o conteúdo armazenado na capacidade Premium pode ser partilhado com todos os utilizadores e a capacidade partilhada também está disponível. Para obter mais informações sobre os limites de capacidade, veja [Gerir o armazenamento de dados nas áreas de trabalho do Power BI](service-admin-manage-your-data-storage-in-power-bi.md).
+Os dois tipos de licença não são mutuamente exclusivos. Pode possuir o Power BI Premium e o Power BI Pro. Nesta configuração, o conteúdo armazenado na capacidade Premium pode ser partilhado com todos os utilizadores e a capacidade partilhada também está disponível. Para obter mais informações sobre os limites de capacidade, veja [Gerir o armazenamento de dados nas áreas de trabalho do Power BI](service-admin-manage-your-data-storage-in-power-bi.md).
 
 Para comparar as funcionalidades e os preços dos produtos, veja [Preços do Power BI](https://powerbi.microsoft.com/pricing).
 
@@ -108,7 +108,7 @@ Como administrador, compra licenças do Power BI Pro através do Microsoft 36
 
 Depois de a licença do Power BI Pro expirar, existe um período de tolerância. Para licenças que façam parte da compra de licenciamento de volume, o período de tolerância é de 90 dias. Se tiver comprado diretamente a licença, o período de tolerância será de 30 dias.
 
-O Power BI Pro tem o mesmo ciclo de vida de subscrição que o Microsoft 365. Para obter mais informações, veja [O que acontece aos meus dados e acesso quando a minha subscrição do Microsoft 365 para empresas termina?](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires)
+O Power BI Pro tem o mesmo ciclo de vida de licença que o Microsoft 365. Para obter mais informações, veja [O que acontece aos meus dados e acesso quando a minha subscrição do Microsoft 365 para empresas termina?](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires)
 
 
 ## <a name="next-steps"></a>Próximos passos
@@ -117,3 +117,14 @@ O Power BI Pro tem o mesmo ciclo de vida de subscrição que o Microsoft 365. P
 - [Subscrição para empresas e documentação de faturação](/microsoft-365/commerce/?view=o365-worldwide)
 - [Encontrar utilizadores do Power BI que iniciaram sessão](service-admin-access-usage.md)
 - Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+
+
+O Power BI introduziu o Power BI Premium Gen2 como uma oferta de pré-visualização, que melhora a experiência do Power BI Premium nos seguintes aspetos:
+* Desempenho
+* Licenciamento por utilizador
+* Maior dimensionamento
+* Métricas melhoradas
+* Dimensionamento automático
+* Sobrecarga de gestão reduzida
+
+Para obter mais informações sobre o Power BI Premium Gen2, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

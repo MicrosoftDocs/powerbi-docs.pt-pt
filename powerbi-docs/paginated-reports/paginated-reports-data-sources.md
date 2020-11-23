@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/27/2020
-ms.openlocfilehash: d6f436477a8226dec870d039c8fe10491456a325
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 11/12/2020
+ms.openlocfilehash: 263992e760afe01eb44f41b80c2297cbd4b34163
+ms.sourcegitcommit: 7ee9398b30ab4ba40459cbb97e129e7dc853c93c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298188"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "94575313"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Origens de dados suportadas para relatórios paginados do Power BI
 
@@ -27,7 +27,7 @@ Os relatórios paginados suportam nativamente a seguinte lista de origens de dad
 
 | Origem de dados | Autenticação | Notas |
 | --- | --- | --- |
-| Base de Dados SQL do Azure <br>Azure SQL Data Warehouse | Básico, início de sessão único (SSO), OAuth2 | Pode utilizar um Gateway Empresarial com BD SQL do Azure. No entanto, não pode utilizar o SSO ou oAuth2 para autenticar nesses cenários.   |
+| Base de Dados SQL do Azure <br>Azure SQL Data Warehouse | Básico, início de sessão único (SSO), OAuth2 | Pode utilizar um Gateway Empresarial com a Base de Dados SQL do Azure. No entanto, não pode utilizar o SSO ou oAuth2 para autenticar nesses cenários.   |
 | Instância Gerida do SQL do Azure | Básico | através de um Ponto Final Público ou Privado (o Ponto Final Privado tem de ser encaminhado através do Gateway de Empresa)  |
 | Azure Analysis Services | SSO, OAuth2 | A firewall AAS deve ser desativada ou configurada para permitir todos os intervalos de IP na região BlackForest. Isto aplica-se apenas à região BlackForest.  O SSO de um inquilino externo não é suportado. |
 | Conjunto de dados do Power BI | SSO | Conjuntos de dados do Power BI Premium e não Premium Requer permissão de leitura |
@@ -40,14 +40,14 @@ No caso das origens de dados da Base de Dados SQL do Azure, precisa de fornecer 
 
 ## <a name="other-data-sources"></a>Outras origens de dados
 
-Além das origens de dados suportadas nativamente acima, as seguintes origens de dados podem ser acedidas através de um [gateway de dados do Power BI](../connect-data/service-gateway-onprem.md):
+Além das origens de dados suportadas nativamente acima, as seguintes origens de dados podem ser acedidas através de um [gateway empresarial do Power BI](../connect-data/service-gateway-onprem.md):
 
 - SQL Server
 - SQL Server Analysis Services
 - Oracle
 - Teradata
 
-No caso dos relatórios paginados, a Base de Dados SQL do Azure e o Azure Analysis Services não podem atualmente ser acedidos através de um gateway de dados do Power BI.
+No caso dos relatórios paginados, o Azure Analysis Services não pode atualmente ser acedido através de um gateway empresarial do Power BI.
 
 ## <a name="azure-sql-database-authentication"></a>Autenticação da Base de Dados SQL do Azure
 
