@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d7fcef8294d1e4ba4b3336d4a2456e0ccac787fb
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: de9e2004d7802b5f3eb7684678984a84a077ce89
+ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412332"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94893735"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Gráficos de medidores radiais no Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "93412332"
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Um gráfico de medidor radial tem um arco circular e mostra um único valor que acompanha o progresso rumo a um objetivo ou um Indicador Chave de Desempenho (KPI). A linha (ou *agulha* ) representa o valor-alvo ou o objetivo. O sombreado representa o progresso em relação a esse objetivo. O valor dentro do arco representa o valor do progresso. O Power BI distribui todos os valores possíveis de forma uniforme ao longo do arco, desde o mínimo (valor mais à esquerda) até ao máximo (valor mais à direita).
+Um gráfico de medidor radial tem um arco circular e mostra um único valor que acompanha o progresso rumo a um objetivo ou um Indicador Chave de Desempenho (KPI). A linha (ou *agulha*) representa o valor-alvo ou o objetivo. O sombreado representa o progresso em relação a esse objetivo. O valor dentro do arco representa o valor do progresso. O Power BI distribui todos os valores possíveis de forma uniforme ao longo do arco, desde o mínimo (valor mais à esquerda) até ao máximo (valor mais à direita).
 
 ![Captura de ecrã do medidor radial.](media/power-bi-visualization-radial-gauge-charts/gauge-m.png)
 
@@ -46,7 +46,7 @@ Os medidores radiais são uma ótima opção para:
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Este tutorial utiliza o [ficheiro do Excel do Exemplo Financeiro](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+Este tutorial utiliza o [ficheiro do Excel do Exemplo Financeiro](https://go.microsoft.com/fwlink/?LinkID=521962).
 
 1. Na secção superior esquerda da barra de menus, selecione **Obter Dados** > **Excel**
    
@@ -68,7 +68,7 @@ Este tutorial utiliza o [ficheiro do Excel do Exemplo Financeiro](https://downlo
 
 1. Começar numa página de relatório em branco
 
-1. No painel **Campos** , selecione **Vendas Brutas**.
+1. No painel **Campos**, selecione **Vendas Brutas**.
 
    ![tabela financeira expandida e campo Vendas Brutas selecionado](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
@@ -80,10 +80,10 @@ Este tutorial utiliza o [ficheiro do Excel do Exemplo Financeiro](https://downlo
 
     ![Captura de ecrã do gráfico de medidor.](media/power-bi-visualization-radial-gauge-charts/gauge-no-target.png)
 
-    Dependendo de quando transferiu o ficheiro **Exemplo Financeiro** , poderá ver valores diferentes dos apresentados.
+    Dependendo de quando transferiu o ficheiro **Exemplo Financeiro**, poderá ver valores diferentes dos apresentados.
 
     > [!TIP]
-    > Por predefinição, o Power BI cria um gráfico de medidor no qual assume que o valor atual (neste caso, a **Média de Vendas Brutas** ) deve estar no ponto médio do medidor. Como o valor da **Média de Vendas Brutas** é de 182 000,76 $, o valor inicial (Mínimo) é definido como 0 e o valor final (Máximo) é definido como o dobro do valor atual.
+    > Por predefinição, o Power BI cria um gráfico de medidor no qual assume que o valor atual (neste caso, a **Média de Vendas Brutas**) deve estar no ponto médio do medidor. Como o valor da **Média de Vendas Brutas** é de 182 000,76 $, o valor inicial (Mínimo) é definido como 0 e o valor final (Máximo) é definido como o dobro do valor atual.
 
 ### <a name="step-3-set-a-target-value"></a>Passo 3: Definir um valor de destino
 
@@ -134,7 +134,7 @@ No Passo 2, o Power BI utilizou o campo **Valor** para definir automaticamente
 
     ![Captura de ecrã da opção COGS desmarcada.](media/power-bi-visualization-radial-gauge-charts/pbi-remove-target.png)
 
-1. Quando o campo **Destino** aparecer no **Eixo do medidor** , insira um valor.
+1. Quando o campo **Destino** aparecer no **Eixo do medidor**, insira um valor.
 
      ![Captura de ecrã das opções do Eixo do medidor com Alvo destacado.](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 

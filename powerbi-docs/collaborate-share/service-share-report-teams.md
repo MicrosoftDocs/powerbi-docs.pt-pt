@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 07/31/2020
-ms.openlocfilehash: ae3f6b5f3026adf127b53dd07118fe05e4c06a00
-ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
+ms.openlocfilehash: db9084e7f7e78ecf17abe38ade732ab7ad2df754
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94348088"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946777"
 ---
 # <a name="share-directly-to-microsoft-teams-from-the-power-bi-service"></a>Partilhar diretamente no Microsoft Teams a partir do serviço Power BI
 
@@ -25,7 +25,7 @@ Pode partilhar dashboards, relatórios e elementos visuais do Power BI diretamen
 
 Para utilizar a funcionalidade **Partilhar no Teams** no Power BI, certifique-se de que esta definição está ativada:
 
-- Os administradores do Power BI não desativaram a definição do inquilino **Partilhar no Teams** no portal de administração do Power BI. Esta definição permite que as organizações ocultem os botões **Partilhar no Teams**. Para obter mais detalhes, veja o artigo do [portal de administração do Power BI](../admin/service-admin-portal.md#share-to-teams-tenant-setting).
+- Os administradores do Power BI não desativaram a definição do inquilino **Partilhar no Teams** no portal de administração do Power BI. Esta definição permite que as organizações ocultem os botões **Partilhar no Teams**. Para obter mais detalhes, veja o artigo do [portal de administração do Power BI](../admin/service-admin-portal.md#share-to-teams).
 
 Veja [Colaborar no Microsoft Teams com o Power BI](service-collaborate-microsoft-teams.md) para obter informações sobre como o Power BI e o Microsoft Teams funcionam em conjunto, incluindo outros requisitos.
 

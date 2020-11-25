@@ -10,18 +10,18 @@ ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 62a88a8267ae38b1dbfc0bbb0ee1d9020e7f9408
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 8ea72198ded59f3ce5dce1362ab9320fc119fac6
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049252"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514407"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI (Elementos visuais no Power BI)
 
 O Power BI inclui muitos elementos visuais do Power BI prontos a utilizar. Estes elementos visuais estão disponíveis no painel Visualização do [Power BI Desktop](https://powerbi.microsoft.com/desktop/) e [serviço Power BI](https://app.powerbi.com) e podem ser utilizados para criar e editar conteúdos do Power BI.
 
-![Captura de ecrã do painel de visualização do Power BI tal como aparece no Power BI Desktop e no serviço Power BI.](media/power-bi-custom-visuals/power-bi-visualizations.png)
+:::image type="content" source="media/power-bi-custom-visuals/power-bi-visualizations.png" alt-text="Captura de ecrã do painel de visualização do Power BI tal como aparece no Power BI Desktop e no serviço Power BI.":::
 
 Estão disponíveis muitos mais elementos visuais do Power BI no Microsoft [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) ou através do Power BI. Estes elementos visuais são criados pela Microsoft e por parceiros da Microsoft e são testados e validados pela equipa de validação do AppSource.
 
@@ -29,11 +29,11 @@ Também pode desenvolver o seu próprio elemento visual do Power BI, para ser ut
 
 ## <a name="default-power-bi-visuals"></a>Elementos visuais predefinidos do Power BI
 
-Estes são elementos visuais do Power BI prontos a utilizar disponíveis no painel Visualização no *Power BI Desktop* e *Serviço Power BI* .
+Estes são elementos visuais do Power BI prontos a utilizar disponíveis no painel Visualização no *Power BI Desktop* e *Serviço Power BI*.
 
-Para remover um elemento visual do Power BI do painel Visualização, clique com o botão direito do rato e selecione **Remover** .
+Para remover um elemento visual do Power BI do painel Visualização, clique com o botão direito do rato e selecione **Remover**.
 
-Para restaurar os elementos visuais predefinidos do Power BI no painel Visualização, clique em **Importar um elemento visual** e selecione **Restaurar elementos visuais predefinidos** . 
+Para restaurar os elementos visuais predefinidos do Power BI no painel Visualização, clique em **Importar um elemento visual** e selecione **Restaurar elementos visuais predefinidos**. 
 
 ## <a name="appsource-power-bi-visuals"></a>Elementos visuais do Power BI no AppSource
 
@@ -56,13 +56,13 @@ Para ver a lista de elementos visuais do Power BI certificados ou para submeter 
 
 ### <a name="samples-for-power-bi-visuals"></a>Exemplos de elementos visuais do Power BI
 
-Cada elemento visual do Power BI no AppSource tem dados de exemplo que ilustram como o elemento visual funciona. Para transferir o exemplo, no [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0), selecione um elemento visual do Power BI e na secção *Experimente uma amostra* , clique na ligação **relatório de exemplo** .
+Cada elemento visual do Power BI no AppSource tem dados de exemplo que ilustram como o elemento visual funciona. Para transferir o exemplo, no [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0), selecione um elemento visual do Power BI e na secção *Experimente uma amostra*, clique na ligação **relatório de exemplo**.
 
 ## <a name="organizational-store"></a>Arquivo organizacional
 
 Os administradores do Power BI aprovam e implementam elementos visuais do Power BI na sua organização. Permite que os autores de relatórios descubram, atualizem e utilizem facilmente estes elementos visuais do Power BI. Os administradores podem gerir facilmente estes elementos visuais com ações como atualizar versões, desativar e ativar elementos visuais do Power BI.
 
-Para aceder ao arquivo organizacional, no painel *Visualização* , clique em **Importar um elemento visual personalizado** , selecione **Importar do marketplace** e na parte superior da janela *Elementos visuais do Power BI* , selecione o separador **A minha organização** .
+Para aceder ao arquivo organizacional, no painel *Visualização*, clique em **Importar um elemento visual personalizado**, selecione **Importar do marketplace** e na parte superior da janela *Elementos visuais do Power BI*, selecione o separador **A minha organização**.
 
 [Leia mais sobre os elementos visuais organizacionais](power-bi-custom-visuals-organization.md).
 
@@ -70,7 +70,7 @@ Para aceder ao arquivo organizacional, no painel *Visualização* , clique em **
 
 Os elementos visuais do Power BI são pacotes que incluem código para compor os dados que lhes são enviados. Qualquer pessoa pode criar um elemento visual personalizado e criar um pacote do mesmo como um ficheiro `.pbiviz` único, que depois pode ser importado para um relatório do Power BI.
 
-Para importar um elemento visual do Power BI, no painel *Visualização* , clique em **Importar um elemento visual personalizado** e selecione **Importar do ficheiro** .
+Para importar um elemento visual do Power BI, no painel *Visualização*, clique em **Importar um elemento visual personalizado** e selecione **Importar do ficheiro**.
 
 Se for programador Web e tiver interesse em criar o seu próprio elemento visual e adicioná-lo ao AppSource, pode saber como [programar um elemento visual de cartão circular do Power BI](develop-circle-card.md) e [publicar um elemento visual do Power BI no AppSource](office-store.md).
 
