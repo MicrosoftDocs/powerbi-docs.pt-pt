@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/04/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 099e3aa11662232c5362895e93f0433620ce2ba9
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 42d7cae62084cf2cfbf6f10e49489d35e4557c85
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768900"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947053"
 ---
 # <a name="access-power-bi-featured-tables-in-excel-preview"></a>Aceder às tabelas em destaque do Power BI no Excel (pré-visualização)
 
@@ -132,7 +132,7 @@ Se um conjunto de dados do Power BI tiver segurança ao nível da linha ou uma 
 
 ## <a name="administrative-control"></a>Controlo administrativo
 
-Os administradores do Power BI podem controlar quem na organização pode utilizar as tabelas em destaque na Galeria de Tipos de Dados do Excel. Para obter mais detalhes, veja [Definições das tabelas em destaque](../admin/service-admin-portal.md#featured-tables-settings) no artigo do Portal de administração. 
+Os administradores do Power BI podem controlar quem na organização pode utilizar as tabelas em destaque na Galeria de Tipos de Dados do Excel. Consulte [Permitir ligações a tabelas em destaque](../admin/service-admin-portal.md#allow-connections-to-featured-tables) no artigo do Portal de administração para obter mais detalhes. 
  
 ### <a name="auditing"></a>Auditoria
 
