@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.openlocfilehash: 1f7a04ca8920ef56e0e7de4efad47afa894e76d7
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d485c7ab7583d2604cd9da9e4c122c6cceeeb4fe
+ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861182"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "95011995"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Descrição geral do manual de programador, Power BI Report Server
 
@@ -42,7 +42,13 @@ Existem várias opções de API para interagir com o Power BI Report Server. Est
 Também pode utilizar os [utilitários do PowerShell](https://github.com/Microsoft/ReportingServicesTools) open source para gerir o servidor de relatórios.
 
 > [!NOTE]
-> Os utilitários do PowerShell não suportam atualmente ficheiros do Power BI Desktop (.pbix).
+> Os utilitários do PowerShell suportam os ficheiros do Power BI Desktop (.pbix) através dos comandos -RsRest*.
+
+Execute o seguinte comando para localizar que comandos no módulo ReportingServicesTools do PowerShell suportam ficheiros do Power BI Desktop (.pbix).
+
+```powershell
+Get-Command -Module ReportingServicesTools -Noun RsRest*
+```
 
 ## <a name="custom-extensions"></a>Extensões personalizadas
 
@@ -57,11 +63,11 @@ Pode criar vários tipos de extensões.
 
 Para obter mais informações, veja [Biblioteca de extensões](/sql/reporting-services/extensions/reporting-services-extension-library).
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 
 [Introdução ao Controlo do Visualizador de Relatórios](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)  
 [Criar Aplicações com o Serviço Web e o .NET Framework](/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
-[Acesso por URL](/sql/reporting-services/url-access-ssrs)  
+[URL Access (Acesso por URL)](/sql/reporting-services/url-access-ssrs)  
 [Biblioteca de extensões](/sql/reporting-services/extensions/reporting-services-extension-library)  
 [Fornecedor de WMI](/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 10/15/2020
-ms.openlocfilehash: 24442f20a0c713deb489cd2461839f2b5da39a30
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.openlocfilehash: cea97f16cf06e80b7b16ef7740fcf3103b2f1eb4
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197708"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95513786"
 ---
 # <a name="considerations-when-generating-an-embed-token"></a>Considerações ao gerar um token de incorporação
 
@@ -25,7 +25,7 @@ A API gerar token usa uma identidade individual (um utilizador principal ou um p
 Após a autenticação bem-sucedida, o acesso aos dados relevantes é concedido.
 
 >[!NOTE]
->Gerar token só é aplicável quando está a [*incorporar para os seus clientes*](embed-sample-for-customers.md) (também conhecido como cenário *os dados pertencem à aplicação* ).
+>Gerar token só é aplicável quando está a [*incorporar para os seus clientes*](embed-sample-for-customers.md) (também conhecido como cenário *os dados pertencem à aplicação*).
 
 Pode usar as seguintes APIs para gerar um token:
 
@@ -44,7 +44,7 @@ Pode usar as seguintes APIs para gerar um token:
 
 ## <a name="workspace-versions"></a>Versões da área de trabalho
 
-O Power BI tem duas versões de área de trabalho, uma área de trabalho *clássica* e uma área de trabalho *nova* . Pode saber mais sobre as diferenças entre estas áreas de trabalho em [diferenças entre área de trabalho nova e clássica](../../collaborate-share/service-new-workspaces.md#new-and-classic-workspace-differences).
+O Power BI tem duas versões de área de trabalho, uma área de trabalho *clássica* e uma área de trabalho *nova*. Pode saber mais sobre as diferenças entre estas áreas de trabalho em [diferenças entre área de trabalho nova e clássica](../../collaborate-share/service-new-workspaces.md#new-and-classic-workspace-differences).
 
 Ao criar um token de incorporação, as diferentes áreas de trabalho têm considerações diferentes e exigem permissões diferentes.
 
@@ -86,11 +86,11 @@ Use o parâmetro *accessLevel* para determinar o nível de acesso do utilizador.
 
 * **Criar** – Conceda ao utilizador permissões para criar um relatório (aplicável apenas quando gerar um token de incorporação para criar um relatório).
 
-    Para a criação de relatórios, também tem de fornecer o parâmetro *datasetId* .
+    Para a criação de relatórios, também tem de fornecer o parâmetro *datasetId*.
 
 ### <a name="saving-a-copy-of-the-report"></a>Guardar uma cópia do relatório
 
-Utilize o booleano *allowSaveAs* para permitir que os utilizadores guardem o relatório como um novo relatório. Por predefinição, esta definição encontra-se definida como *falsa* .
+Utilize o booleano *allowSaveAs* para permitir que os utilizadores guardem o relatório como um novo relatório. Por predefinição, esta definição encontra-se definida como *falsa*.
 
 Este parâmetro só é aplicável quando gerar um token de incorporação para um relatório.
 
@@ -98,7 +98,7 @@ Este parâmetro só é aplicável quando gerar um token de incorporação para u
 
 Com a [Segurança ao Nível da Linha (RLS)](embedded-row-level-security.md), pode optar por usar uma identidade diferente da identidade da entidade do principal de serviço ou do utilizador principal com o qual está a gerar o token. Através desta opção, pode apresentar informações incorporadas de acordo com o utilizador que está a visar. Por exemplo, na sua aplicação, pode solicitar que os utilizadores iniciem sessão e, em seguida, apresentar um relatório que contém apenas informações de vendas se o utilizador com sessão iniciada for um funcionário de vendas.
 
-Se estiver a utilizar RLS, poderá, em certos casos, não incluir a identidade do utilizador (o parâmetro *EffectiveIdentity* ). Isto permite que o token tenha acesso à base de dados completa. Este método pode ser usado para conceder acesso a utilizadores como administradores e gestores, que têm as permissões para ver o conjunto de dados completo. No entanto, não pode utilizar este método em todos os cenários. A tabela seguinte lista os diferentes tipos de RLS e mostra qual método de autenticação pode ser usado sem especificar a identidade de um utilizador.
+Se estiver a utilizar RLS, poderá, em certos casos, não incluir a identidade do utilizador (o parâmetro *EffectiveIdentity*). Isto permite que o token tenha acesso à base de dados completa. Este método pode ser usado para conceder acesso a utilizadores como administradores e gestores, que têm as permissões para ver o conjunto de dados completo. No entanto, não pode utilizar este método em todos os cenários. A tabela seguinte lista os diferentes tipos de RLS e mostra qual método de autenticação pode ser usado sem especificar a identidade de um utilizador.
 
 A tabela também mostra as considerações e a limitação aplicáveis a cada tipo de RLS.
 
@@ -106,7 +106,7 @@ A tabela também mostra as considerações e a limitação aplicáveis a cada ti
 |---------|---------|---------|
 |Segurança ao Nível da Linha na Cloud (RLS de Cloud)      |✔ Utilizador principal<br/>✖ Principal de serviço          |         |
 |RDL (relatórios paginados)     |✖ Utilizador principal<br/>✔ Principal de serviço        |Não pode usar um utilizador principal para gerar um token de incorporação para RDL.         |
-|Ligação em direto no local do Analysis Services (AS)    |✔ Utilizador principal<br/>✖ Principal de serviço         |O utilizador que gera o token de incorporação também precisa de uma das seguintes permissões:<li>Permissões de administrador de gateway</li><li>Permissão de representação de DataSource ( *ReadOverrideEffectiveIdentity* )</li>         |
+|Ligação em direto no local do Analysis Services (AS)    |✔ Utilizador principal<br/>✖ Principal de serviço         |O utilizador que gera o token de incorporação também precisa de uma das seguintes permissões:<li>Permissões de administrador de gateway</li><li>Permissão de representação de DataSource (*ReadOverrideEffectiveIdentity*)</li>         |
 |Ligação em direto no Azure do Analysis Services (AS)    |✔ Utilizador principal<br/>✖ Principal de serviço         |A identidade do utilizador que está a gerar o token de incorporação não pode ser substituída. Os dados personalizados podem servir para implementar a RLS dinâmica ou a filtragem segura.<br/><br/>**Nota:** O principal de serviço deve fornecer a respetiva ID de objeto como a identidade efetiva (nome de utilizador de RLS).         |
 |Início de Sessão Único (SSO)     |✔ Utilizador principal<br/>✖ Principal de serviço         |Uma identidade explícita (SSO) pode ser fornecida através da propriedade de blob de identidade num objeto de identidade efetiva         |
 |SSO e RLS de cloud     |✔ Utilizador principal<br/>✖ Principal de serviço         |Tem de fornecer as seguintes informações:<li>Identidade explícita (SSO) na propriedade de blob de identidade num objeto de identidade efetiva</li><li>Identidade efetiva (RLS) (nome de utilizador)</li>         |
@@ -131,4 +131,4 @@ A tabela também mostra as considerações e a limitação aplicáveis a cada ti
 >[Segurança ao nível da linha com o gateway de dados no local com o principal de serviço](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
 
 >[!div class="nextstepaction"]
->[Incorporar conteúdos do Power BI com o principal de serviço e um certificado](embed-service-principal-certificate.md)
+>[Incorporar conteúdos do Power BI com o principal de serviço](embed-service-principal.md)

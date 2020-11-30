@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/29/2020
-ms.openlocfilehash: 3173108abe6082c199cbf6ff1229ca57fde31064
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.date: 11/18/2020
+ms.openlocfilehash: 2989436c2a501447cab2d95e0ac1d3fad1fd99b6
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044785"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947030"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registo de alterações do Power BI Report Server
 
@@ -23,6 +23,12 @@ Veja as [Novidades no Power BI Report Server](whats-new.md) para obter mais info
 
 ## <a name="october-2020"></a>Outubro de 2020
 - **Power BI Report Server**
+    - *Versão: 1.9.7627.11028 (Compilação 15.0.1104.264), Lançamento: 18 de novembro de 2020*
+        - Correções de erros
+            - Foi corrigido o problema que impedia que os utilizadores alterassem os campos no local através do portal.
+            - Foi corrigido o problema de atualização dos Relatórios do Power BI ao utilizar a origem de dados “EnterData”.
+            - Foi corrigido o problema de atualização de alguns modelos com metadados de conjunto de dados melhorados.
+            - Foi corrido o problema em que não era possível publicar alguns relatórios do Power BI no Report Server.
     - *Versão: 1.9.7604.41261 (Compilação 15.0.1104.239), Lançamento: 27 de outubro de 2020*
          - Funcionalidades
             - Suporte ativado para metadados de conjuntos de dados otimizados no Power BI Report Server.

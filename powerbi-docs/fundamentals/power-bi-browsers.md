@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d218a0cfb66e57e6f52301f8c10bef5cfb137b4b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 340a4739065716e67f9fd1a7d7b78f875805f12b
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361871"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946915"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Supported browsers for Power BI (Browsers suportados para o Power BI)
 
-O Power BI foi concebido para funcionar com qualquer um destes browsers suportados, mas o desempenho difere consoante o browser que escolher. Se estiver a utilizar o Internet Explorer em particular, poderá obter um desempenho pior. Recomendamos vivamente que mude do Internet Explorer para um browser moderno, incluindo o Microsoft Edge, para obter um melhor desempenho. Esperamos que o desempenho do Microsoft Edge continue a melhorar com o Edge Chromium. Se continuar a ter um desempenho inaceitável, teste outros browsers modernos suportados para ver se fornecem melhores resultados para a sua solução do Power BI.
+O Power BI foi concebido para funcionar com qualquer um destes browsers suportados, mas o desempenho difere consoante o browser que escolher. Se estiver a utilizar o Internet Explorer em particular, poderá obter um desempenho pior. Recomendamos vivamente que mude do Internet Explorer para um browser moderno, incluindo o Microsoft Edge. Se continuar a ter um desempenho inaceitável, teste outros browsers modernos suportados para ver se fornecem melhores resultados para a sua solução do Power BI.
 
 O Power BI suporta estes browsers em todas as plataformas onde estiverem disponíveis:
 
@@ -31,7 +31,7 @@ O Power BI suporta estes browsers em todas as plataformas onde estiverem dispon�
 > [!NOTE]
 > Não é possível executar o Power BI em nenhum browser no iOS 10 ou em versões anteriores.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 * [O que é o Power BI?](power-bi-overview.md)
 * Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/)
 * Ainda tem problemas? Visite a [página de suporte do Power BI](https://powerbi.microsoft.com/support/)

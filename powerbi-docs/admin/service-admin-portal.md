@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 38df6680f2f4d0031ec26a1935e01c849c285909
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 0abdaab48516b91624a0945d32c4f81ed024a468
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94719081"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947353"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -272,6 +272,16 @@ A definição **Convidar utilizadores externos para a sua organização** ajuda 
 
 Para convidar utilizadores externos para a sua organização, um utilizador também precisa da função Emitente de Convites do Azure Active Directory. Esta definição só controla a capacidade de convidar através do Power BI. 
 
+### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização
+
+Os utilizadores convidados do Azure AD B2B podem editar e gerir o conteúdo na organização. [Saiba mais](service-admin-azure-ad-b2b.md)
+
+A seguinte imagem mostra a opção Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização.
+
+![Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
+No portal de administração, também controla quais os utilizadores que têm permissão para convidar utilizadores externos para a organização. Veja [Partilhar conteúdo com utilizadores externos](#export-and-sharing-settings) neste artigo para obter mais detalhes.
+
 ### <a name="publish-to-web"></a>Publicar na Web
 
 Enquanto administrador do Power BI, a definição **Publicar na Web** dá-lhe opções que permite aos utilizadores criar códigos de incorporação para publicar relatórios na Web. Esta funcionalidade permite-lhe disponibilizar o relatório e os dados que contém a qualquer pessoa na Web. Saiba mais sobre como [publicar na Web](../collaborate-share/service-publish-to-web.md).
@@ -300,60 +310,73 @@ Os utilizadores veem opções diferentes na IU consoante a definição **Publica
 |**Incorporar códigos** no portal de administração|O estado é um dos seguintes:<br>* Ativo<br>* Não suportado<br>* Bloqueado|O estado apresenta **Desativado**|O estado é um dos seguintes:<br>* Ativo<br>* Não suportado<br>* Bloqueado<br><br>Se um utilizador não tiver autorizações com base na definição do inquilino, o estado é apresentado como **Em violação**.|
 |Relatórios publicados existentes|Todos ativados|Todos desativados|Os relatórios continuam a ser compostos para todos.|
 
-### <a name="export-data"></a>Exportar dados
+### <a name="copy-and-paste-visuals"></a>Copiar e colar elementos visuais
 
-Os utilizadores na organização podem exportar dados de um mosaico ou visualização. Esta definição controla a funcionalidade Analisar no Excel, a exportação para .csv, as transferências de conjuntos de dados (.pbix) e o Live Connect do Serviço Power BI. Saiba mais sobre como [exportar dados a partir de um mosaico ou elemento visual](../visuals/power-bi-visualization-export-data.md).
+Os utilizadores da organização podem copiar elementos visuais a partir de um mosaico ou elemento visual de relatório e colá-los como imagens estáticas em aplicações externas.
 
->[!NOTE]
-> Antes da introdução da definição Exportar para o Excel, esta definição também controlava a exportação dos dados para ficheiros do Excel. Consulte a [nota em Exportar para o Excel](#export-to-excel) para obter detalhes.
-
-![Definição Exportar dados](media/service-admin-portal/powerbi-admin-portal-export-data-setting.png)
-
-A imagem seguinte mostra a opção para exportar os dados de um mosaico.
-
-![Exportar dados de um mosaico](media/service-admin-portal/powerbi-admin-export-data.png)
-
-> [!NOTE]
-> Desativar a opção **Exportar Dados** também impede os utilizadores de usarem a funcionalidade [Analisar no Excel](../collaborate-share/service-analyze-in-excel.md), bem como a ligação em direto do serviço Power BI.
+![Captura de ecrã a mostrar o botão para ativar Copiar e colar elementos visuais.](media/service-admin-portal/powerbi-admin-portal-copy-paste-visuals-setting.png)
 
 ### <a name="export-to-excel"></a>Exportar para o Excel
 
 Os utilizadores da organização podem exportar os dados de uma visualização para um ficheiro do Excel.
 
-![Definição Exportar para o Excel](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
+![Captura de ecrã a mostrar a definição Exportar para Excel](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
 
->[!IMPORTANT]
-> Antes da introdução da definição Exportar para o Excel, a exportação para o Excel era controlada pela definição Exportar dados. Como tal, nos inquilinos que existiam antes da introdução da definição Exportar para o Excel, na primeira vez que os administradores do Power BI observarem a definição Exportar para o Excel, verão que tem *Alterações não aplicadas*. Têm de aplicar estas alterações para que a nova definição entre em vigor. Caso contrário, a exportação para um ficheiro do Excel continuará a ser controlada pela definição Exportar dados.
+### <a name="export-to-csv"></a>Exportar para .csv
+
+Os utilizadores na organização podem exportar dados de um mosaico, de uma visualização ou de um relatório paginado para um ficheiro .csv.
+
+![Captura de ecrã a mostrar a definição Exportar para .csv](media/service-admin-portal/powerbi-admin-portal-export-to-csv-setting.png)
+
+### <a name="download-reports"></a>Transferir relatórios
+
+Os utilizadores na organização podem transferir ficheiros .pbix e relatórios paginados.
+
+![Captura de ecrã a mostrar a definição Transferir relatórios.](media/service-admin-portal/powerbi-admin-portal-download-reports-setting.png)
+
+### <a name="allow-live-connections"></a>Permitir ligações dinâmicas
+
+Os utilizadores na organização podem utilizar o Live Connect do serviço Power BI, que inclui a funcionalidade Analisar no Excel.
+
+![Captura de ecrã a mostrar a definição Permitir ligações dinâmicas.](media/service-admin-portal/powerbi-admin-portal-allow-live-connections-setting.png)
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Exportar relatórios como apresentações do PowerPoint ou documentos PDF
 
-Os utilizadores na organização podem exportar relatórios do Power BI como ficheiros do PowerPoint ou documentos PDF. [Saiba mais](../consumer/end-user-powerpoint.md)
+Os utilizadores na organização podem exportar relatórios como ficheiros do PowerPoint ou documentos PDF.
 
-A seguinte imagem mostra o menu **Ficheiro** de um relatório quando a definição **Exportar relatórios como apresentações do PowerPoint ou documentos PDF** está ativada.
+![Captura de ecrã a mostrar Exportar relatórios como PowerPoint ou documentos PDF.](media/service-admin-portal/powerbi-admin-portal-export-pptx-pdf-setting.png)
 
-![Exportar relatórios como apresentações do PowerPoint](media/service-admin-portal/powerbi-admin-powerpoint.png)
+### <a name="export-reports-as-mhtml-documents"></a>Exportar relatórios como documentos MHTML
+
+Os utilizadores na organização podem exportar Relatórios paginados como documentos MHTML.
+
+![Captura de ecrã a mostrar a definição Exportar para MHTML.](media/service-admin-portal/powerbi-admin-portal-export-mhtml-setting.png)
+
+### <a name="export-reports-as-word-documents"></a>Exportar relatórios como documentos Word
+
+Os utilizadores na organização podem exportar Relatórios paginados como documentos Word.
+
+![Captura de ecrã a mostrar a definição Exportar para Word.](media/service-admin-portal/powerbi-admin-portal-export-word-setting.png)
+
+### <a name="export-reports-as-xml-documents"></a>Exportar relatórios como documentos XML
+
+Os utilizadores na organização podem exportar Relatórios paginados como documentos XML.
+
+![Captura de ecrã a mostrar a definição Exportar para XML.](media/service-admin-portal/powerbi-admin-portal-export-xml-setting.png)
+
+### <a name="export-reports-as-image-files-preview"></a>Exportar relatórios como ficheiros de imagem (pré-visualização)
+
+Os utilizadores na organização podem utilizar a API Exportar relatório para ficheiro para exportar os relatórios como ficheiros de imagem.
+
+![Captura de ecrã a mostrar a definição Exportar como imagem.](media/service-admin-portal/powerbi-admin-portal-export-as-image-setting.png)
 
 ### <a name="print-dashboards-and-reports"></a>Imprimir dashboards e relatórios
 
-Os utilizadores na organização podem imprimir dashboards e relatórios. [Saiba mais](../consumer/end-user-print.md)
 
-A imagem seguinte mostra a opção para imprimir um dashboard.
+![Captura de ecrã a mostrar a definição Imprimir dashboards e relatórios.](media/service-admin-portal/powerbi-admin-portal-print-dashboards-reports-setting.png)
 
-![Imprimir dashboard](media/service-admin-portal/powerbi-admin-print-dashboard.png)
-
-A imagem seguinte mostra o menu **Ficheiro** de um relatório quando a definição **Imprimir dashboards e relatórios** está ativada.
-
-![Imprimir relatório](media/service-admin-portal/powerbi-admin-print-report.png)
-
-### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização
-
-Os utilizadores convidados do Azure AD B2B podem editar e gerir o conteúdo na organização. [Saiba mais](service-admin-azure-ad-b2b.md)
-
-A seguinte imagem mostra a opção Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização.
-
-![Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
-
-No portal de administração, também controla quais os utilizadores que têm permissão para convidar utilizadores externos para a organização. Veja [Partilhar conteúdo com utilizadores externos](#export-and-sharing-settings) neste artigo para obter mais detalhes.
+### <a name="certification"></a>Certificação
+Permite aos utilizadores desta organização certificarem conjuntos de dados, fluxos de dados, relatórios e aplicações. Para obter mais detalhes, veja [Ativar a certificação de conteúdo](service-admin-setup-certification.md).
 
 ### <a name="email-subscriptions"></a>Subscrições de E-mail
 Os utilizadores na organização podem criar subscrições por e-mail. Saiba mais sobre as [subscrições](../collaborate-share/service-publish-to-web.md).
@@ -367,6 +390,25 @@ Permita que alguns ou todos os autores de relatórios na sua organização desta
 Recomendamos que comece com um pequeno conjunto de promotores. Permitir que toda a organização destaque conteúdos na Base pode dificultar a monitorização de todos os conteúdos promovidos. 
 
 Após permitir conteúdo em destaque, também pode geri-lo no Portal de administração. Veja [Gerir conteúdo em destaque](#manage-featured-content)neste artigo para ler sobre como controlar conteúdo em destaque no seu domínio.
+
+### <a name="allow-connections-to-featured-tables"></a>Permitir ligações a tabelas em destaque
+
+Esta definição permite aos administradores do Power BI controlarem quem na organização pode utilizar as tabelas em destaque na Galeria de Tipos de Dados do Excel. 
+
+![Captura de ecrã a mostrar a definição Permitir ligações a tabelas em destaque.](media/service-admin-portal/powerbi-admin-portal-allow-connections-featured-tables-setting.png)
+
+>[!NOTE]
+>Se a definição [Permitir ligações dinâmicas](#allow-live-connections) estiver definida como Desativada, as ligações a tabelas em destaque também estarão desativadas.
+
+Leia mais sobre as [tabelas em destaque do Power BI no Excel](../collaborate-share/service-excel-featured-tables.md).
+
+### <a name="share-to-teams"></a>Partilhar no Teams
+
+Esta definição permite que as organizações ocultem os botões **Partilhar no Teams** no serviço Power BI. Quando estiverem desativados, os utilizadores não verão os botões **Partilhar no Teams** na barra de ação ou menus de contexto quando virem relatórios e dashboards no serviço Power BI.
+
+![Captura de ecrã a mostrar a definição do inquilino Partilhar no Teams no portal de administração do Power BI.](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
+
+Leia mais sobre [partilhar conteúdos do Power BI no Teams](../collaborate-share/service-share-report-teams.md).
 
 ## <a name="content-pack-and-app-settings"></a>Definições da aplicação e do pacote de conteúdos
 
@@ -388,12 +430,9 @@ Os criadores dos relatórios podem partilhar as aplicações diretamente com os 
 
 ## <a name="integration-settings"></a>Definições de integração
 
-### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>Utilizar a funcionalidade Analisar no Excel com conjuntos de dados no local
+### <a name="allow-xmla-endpoints-and-analyze-in-excel-with-on-premises-datasets"></a>Permitir pontos finais XMLA e Analisar no Excel com conjuntos de dados no local
 
-Os utilizadores na organização podem utilizar o Excel para ver e interagir com conjuntos de dados no local do Power BI. [Saiba mais](../collaborate-share/service-analyze-in-excel.md)
-
-> [!NOTE]
-> Desativar a opção **Exportar Dados** também impede os utilizadores de usarem a funcionalidade **Analisar no Excel**.
+Os utilizadores na organização podem utilizar o Excel para ver e interagir com conjuntos de dados no local do Power BI. Além disso, também permite ligações aos pontos finais XMLA. [Saiba mais](../collaborate-share/service-analyze-in-excel.md)
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>Utilizar o ArcGIS Maps for Power BI
 
@@ -402,24 +441,6 @@ Os utilizadores na organização podem utilizar a visualização dos ArcGIS Maps
 ### <a name="use-global-search-for-power-bi-preview"></a>Utilizar a pesquisa global para o Power BI (Pré-visualização)
 
 Os utilizadores na organização podem utilizar as funcionalidades de pesquisa externa que dependem do Azure Search.
-
-## <a name="featured-tables-settings"></a>Definições das tabelas em destaque
-
-Em **Definições do inquilino**, a definição **Permitir ligações a tabelas em destaque** permite que os administradores do Power BI controlem que pessoas na organização podem utilizar tabelas em destaque na Galeria de Tipos de Dados do Excel. 
-
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Todas as ligações a tabelas em destaque":::
-
-As ligações a tabelas em destaque também estão desativadas se a definição **Exportar dados** estiver definida como **Desativado**.
-
-Leia mais sobre as [tabelas em destaque do Power BI no Excel](../collaborate-share/service-excel-featured-tables.md).
-
-## <a name="share-to-teams-tenant-setting"></a>Definição do inquilino Partilhar no Teams
-
-A definição **Partilhar no Teams** está na secção **Definições do inquilino** do portal de administração do Power BI. A definição permite que as organizações ocultem os botões **Partilhar no Teams** no serviço Power BI. Quando estiverem desativados, os utilizadores não verão os botões **Partilhar no Teams** na barra de ação ou menus de contexto quando virem relatórios e dashboards no serviço Power BI.
-
-![Captura de ecrã a mostrar a definição do inquilino Partilhar no Teams no portal de administração do Power BI.](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
-
-Leia mais sobre [partilhar conteúdos do Power BI no Teams](../collaborate-share/service-share-report-teams.md).
 
 ## <a name="r-visuals-settings"></a>Definições de elementos visuais R
 

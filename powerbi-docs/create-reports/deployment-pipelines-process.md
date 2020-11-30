@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
 ms.date: 10/21/2020
-ms.openlocfilehash: 6c1e4212cb991ff7eb3d0f8a5e336010499bcd1c
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 5799b0367c903eea55357969a2d4383a5f4c0c7b
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668609"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514338"
 ---
 # <a name="understand-the-deployment-process"></a>Understand the deployment process (Compreender o processo de implementação)
 
@@ -286,6 +286,8 @@ Esta secção lista a maioria das limitações nos pipelines de implementação.
 * Os itens do Power BI, como relatórios e dashboards com [etiquetas de confidencialidade](../admin/service-security-sensitivity-label-overview.md), não podem ser implementados.
 
 * O número máximo de itens do Power BI que podem ser implementados numa única implementação é de 300.
+
+* A transferência de um ficheiro PBIX após a implementação não é suportada.
 
 * Para obter uma lista das limitações da área de trabalho, veja [Limitações de atribuição da área de trabalho](deployment-pipelines-get-started.md#workspace-assignment-limitations).
 
