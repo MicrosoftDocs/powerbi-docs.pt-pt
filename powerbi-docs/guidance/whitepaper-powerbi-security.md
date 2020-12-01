@@ -5,16 +5,16 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 432f8a7a39e6902c679c83d447039519f90d0dac
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 879f931797786ee1bb9f12a56323c50642716afb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635706"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398597"
 ---
 # <a name="power-bi-security-whitepaper"></a>Documento técnico de segurança do Power BI
 
@@ -199,7 +199,7 @@ As chaves de encriptação de gateways baseadas na chave de recuperação nunca 
 
 Para origens de dados baseado na cloud, a Função de Movimento de Dados encripta as chaves de encriptação com os métodos [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine). Para saber mais, veja [Always Encrypted database feature](/sql/relational-databases/security/encryption/always-encrypted-database-engine) (Funcionalidade de base de dados Always Encrypted).
 
-#### <a name="datasets"></a>Conjuntos de dados
+#### <a name="datasets"></a>Conjuntos de Dados
 
 1. Metadados (tabelas, colunas, medidas, cálculos, cadeias de ligação, etc.)
 
@@ -290,7 +290,7 @@ Os dados visuais estão em cache em diferentes locais, dependendo se o conjunto 
 
 Dispositivos não voláteis são dispositivos que têm memória que persiste sem energia constante. Segue-se uma descrição dos dados armazenados transitoriamente em dispositivos não voláteis. 
 
-#### <a name="datasets"></a>Conjuntos de dados
+#### <a name="datasets"></a>Conjuntos de Dados
 
 1. Metadados (tabelas, colunas, medidas, cálculos, cadeias de ligação, etc.)
 
@@ -452,13 +452,13 @@ Seguem-se perguntas e respostas comuns relacionadas com a segurança do Power BI
 
 **Existem outros elementos visuais do Power BI que enviam informações para fora da rede do cliente?**
 
-* Yes. Os elementos visuais do Mapas Bing e da ESRI transmitem dados para fora do serviço Power BI, caso utilizem esses serviços.
+* Sim. Os elementos visuais do Mapas Bing e da ESRI transmitem dados para fora do serviço Power BI, caso utilizem esses serviços.
 
 **Para apps de modelo, a Microsoft realiza alguma avaliação de segurança ou privacidade da aplicação Do Modelo antes de publicar itens na Galeria?**
 * Não. O editor da aplicação é responsável pelo conteúdo, enquanto o cliente tem a responsabilidade de rever e determinar se confia na editora de aplicações Modelo. 
 
 **Existem aplicações de modelo que podem enviar informações fora da rede de clientes?**
-* Yes. É da responsabilidade do cliente rever a política de privacidade da editora e determinar se deve instalar a aplicação Modelo no Inquilino. Além disso, a editora é responsável por notificar o comportamento e capacidades da app.
+* Sim. É da responsabilidade do cliente rever a política de privacidade da editora e determinar se deve instalar a aplicação Modelo no Inquilino. Além disso, a editora é responsável por notificar o comportamento e capacidades da app.
 
 **E a soberania dos dados? Podemos fornecer inquilinos em centros de dados localizados em geografias específicas, para garantir que os dados não saem das fronteiras do país?**
 

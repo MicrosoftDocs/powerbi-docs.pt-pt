@@ -2,24 +2,24 @@
 title: Documentos técnicos do Power BI
 description: Os documentos técnicos permitem explorar os tópicos do Power BI num nível mais aprofundado.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/03/2020
-ms.author: maggies
-ms.openlocfilehash: e514bf77900031af2f32bdad5717e82b33a88623
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 9b98e2a5e7cb881e1a58280b1cd6fe6851ec5057
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965287"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398528"
 ---
 # <a name="whitepapers-for-power-bi"></a>Documentos técnicos do Power BI
 
 Os documentos técnicos permitem explorar os tópicos do Power BI num nível mais aprofundado. Aqui, encontra-se uma lista de documentos técnicos disponíveis para Power BI.
 
-| Documento técnico | Descrição | Date |
+| Documento técnico | Descrição | Data |
 | --- | --- | --- |
 | [Planear uma Implementação Empresarial do Power BI](https://aka.ms/PBIEnterpriseDeploymentWP) |Este livro técnico de papel branco atualizado descreve considerações e boas práticas para uma implementação de Power BI organizacional bem-- a sério e segura. | Junho de 2020 |
 | [Power BI e Fluxos de Dados](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Este documento técnico descreve os fluxos de dados em detalhes técnicos e descreve as capacidades e as iniciativas subjacentes às funcionalidades dos fluxos de dados. | Novembro de 2018 |

@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8d28146f5f4ee47697ada1d4663ae9899b660a9b
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 70584413a63f8566137b5e71cdd86011ac6c1acc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916642"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416468"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Implantação e Gestão de Capacidades Premium power BI
 
@@ -29,5 +29,5 @@ Retirámos o papel branco Power BI Premium a favor de fornecer informações atu
 | [Otimizar as capacidades Premium](../admin/service-premium-capacity-optimize.md) | Melhores práticas para otimização de desempenho, otimização de modelos, planeamento de capacidades e abordagens de teste. |
 | [Cenários de capacidades Premium](../admin/service-premium-capacity-scenarios.md) | Questões comuns em cenários do mundo real, com foco na identificação e resolução dessas questões. |
 | [Monitorizar capacidades no Portal de administração](../admin/service-admin-premium-monitor-portal.md) | Monitorização com a aplicação Power BI Premium Capacity Metrics e interpretação das métricas que vê na app. |
-| [Perguntas Frequentes do Power BI Premium](../admin/service-premium-faq.md) | Respostas a questões em torno da compra e licenciamento, funcionalidades e cenários comuns. |
+| [FAQ do Power BI Premium](../admin/service-premium-faq.md) | Respostas a questões em torno da compra e licenciamento, funcionalidades e cenários comuns. |
 | | |
