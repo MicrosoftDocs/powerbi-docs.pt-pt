@@ -2,29 +2,29 @@
 title: Ligar a uma base de dados Google BigQuery no Power BI Desktop
 description: Ligar e utilizar facilmente o Google BigQuery no Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 68698d51b074102a8d8e556101fcfaf6a39c2c62
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 7cffba9178d4eec0bfd468040b7551768aab7f1d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349420"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405888"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>Ligar a uma base de dados Google BigQuery no Power BI Desktop
 No Power BI Desktop, pode ligar a uma base de dados Google **BigQuery** e utilizar os dados subjacentes, tal como faria com outra origem de dados no Power BI Desktop.
 
 ## <a name="connect-to-google-bigquery"></a>Ligar ao Google BigQuery
-Para ligar a uma base de dados **Google BigQuery** , selecione **Obter Dados** no friso **Base** do Power BI Desktop. Selecione **Base de Dados** nas categorias no lado esquerdo e verá **Google BigQuery** .
+Para ligar a uma base de dados **Google BigQuery**, selecione **Obter Dados** no friso **Base** do Power BI Desktop. Selecione **Base de Dados** nas categorias no lado esquerdo e verá **Google BigQuery**.
 
 ![Caixa de diálogo Obter Dados para o Google BigQuery](media/desktop-connect-bigquery/connect_bigquery_01.png)
 
-Na janela do **Google BigQuery** que aparece, inicie sessão na sua conta do Google BigQuery e selecione **Ligar** .
+Na janela do **Google BigQuery** que aparece, inicie sessão na sua conta do Google BigQuery e selecione **Ligar**.
 
 ![Iniciar sessão no Google BigQuery](media/desktop-connect-bigquery/connect_bigquery_02.png)
 
@@ -32,12 +32,12 @@ Quando iniciar sessão, verá a seguinte janela a indicar que foi autenticado.
 
 ![Iniciou sessão no Google](media/desktop-connect-bigquery/connect_bigquery_02b.png)
 
-Depois de a ligação ser concluída com êxito, é apresentada uma janela **Navegador** , que apresenta os dados disponíveis no servidor, dos quais pode selecionar um ou vários elementos para importar e utilizar no **Power BI Desktop** .
+Depois de a ligação ser concluída com êxito, é apresentada uma janela **Navegador**, que apresenta os dados disponíveis no servidor, dos quais pode selecionar um ou vários elementos para importar e utilizar no **Power BI Desktop**.
 
 ![Dados do Google BigQuery](media/desktop-connect-bigquery/connect_bigquery_03.png)
 
 ## <a name="considerations-and-limitations"></a>Considerações e Limitações
-Existem alguns limites e aspetos a ter em conta com o conector do **Google BigQuery** :
+Existem alguns limites e aspetos a ter em conta com o conector do **Google BigQuery**:
 
 * O conector do Google BigQuery está disponível no Power BI Desktop e no serviço Power BI. No serviço Power BI, é possível aceder ao conector através da ligação entre clouds do Power BI ao Google BigQuery.
 

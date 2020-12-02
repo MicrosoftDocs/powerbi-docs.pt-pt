@@ -2,19 +2,19 @@
 title: Utilizar o DirectQuery no Power BI Desktop
 description: Utilize o DirectQuery, também designado por uma Ligação em direto, no Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 08/28/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b31ddb3e3881f9002affcae9106b9e14bf85a964
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 4619219705a80b53883a9b0578791a60a853125e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092320"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404232"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Utilizar o DirectQuery no Power BI Desktop
 Com o *Power BI Desktop*, ao ligar à origem de dados, pode sempre importar uma cópia dos dados para o Power BI Desktop. Para algumas origens de dados, está disponível uma abordagem alternativa: ligar-se diretamente à origem de dados com o DirectQuery.

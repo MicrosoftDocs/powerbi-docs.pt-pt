@@ -2,18 +2,19 @@
 title: Resolução de problemas ao iniciar o Power BI Desktop
 description: Resolução de problemas ao iniciar o Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 01/14/2020
-ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: ba59a08ee1b50e44af71312a25d77fb67c8fca2d
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 8d33973f1a11050d104399c98866fdae0ffb1f8a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485444"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404899"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Resolver problemas ao abrir o Power BI Desktop
 

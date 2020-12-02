@@ -2,20 +2,20 @@
 title: Resolver problemas de importação de .XLS e Access no Power BI Desktop
 description: Resolver problemas de importação de bases de dados do Access e folhas de cálculo .XLS no Power BI Desktop e Power Query
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/21/2019
-ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6d3279a8fa8421dbe466d7d165e1cb3d96ab926f
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: f8d24c672fa3e9d5cda007e061eac8c4ea9c6d4c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634763"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406049"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Resolver problemas de importação de ficheiros .xls do Access e do Excel no Power BI Desktop
 

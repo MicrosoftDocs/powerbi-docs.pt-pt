@@ -2,19 +2,19 @@
 title: Utilizar metadados de conjuntos de dados otimizados no Power BI Desktop
 description: Este artigo explica como utilizar metadados de conjuntos de dados otimizados no Power BI.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 09/22/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 67141f67be85f5c292118d4e88cfe3c5a949ce4f
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: 2c5e465026f1ba7564bda18ad3b005b024a663a7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91019866"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404991"
 ---
 # <a name="using-enhanced-dataset-metadata"></a>Utilizar metadados de conjuntos de dados otimizados
 
