@@ -2,20 +2,20 @@
 title: Filtrar e partilhar um relatório do Power BI
 description: Saiba como filtrar um relatório do Power BI e partilhá-lo com colegas na sua organização.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 01/29/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2988f02b8207eafe5155073af9acc60dcb0a81cf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0e086b6ab5ce3411697607bfbda25bb0b82c6dca
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225331"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406624"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>Filtrar e partilhar um relatório do Power BI
 A *Partilha* é uma boa forma de dar a algumas pessoas acesso aos seus dashboards e relatórios. E se pretender partilhar uma versão filtrada de um relatório? Pode querer que o relatório mostre apenas os dados de um vendedor, cidade ou ano específico. Este artigo explica como filtrar um relatório e como partilhar a versão filtrada desse relatório. Pode também partilhar um relatório filtrado ao [adicionar parâmetros de consulta ao URL do relatório](service-url-filters.md). Em ambos os casos, o relatório estará filtrado quando os destinatários o abrirem. Estes últimos podem limpar as seleções de filtro no relatório.

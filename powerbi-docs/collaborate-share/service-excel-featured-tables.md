@@ -2,19 +2,19 @@
 title: Aceder às tabelas em destaque do Power BI no Excel (pré-visualização)
 description: No Excel, pode encontrar dados de tabelas em destaque nos conjuntos de dados do Power BI na Galeria de Tipos de Dados.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 08/04/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 42d7cae62084cf2cfbf6f10e49489d35e4557c85
-ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
+ms.openlocfilehash: 95ccc80a37ad9703c60c82ce928d35b5e301947b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94947053"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407314"
 ---
 # <a name="access-power-bi-featured-tables-in-excel-preview"></a>Aceder às tabelas em destaque do Power BI no Excel (pré-visualização)
 

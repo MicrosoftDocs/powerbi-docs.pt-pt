@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 08/31/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c4f9d83d612d8f8d442fc5267be66a2a5cf288a2
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: c5690492d3a54ae244e0104d0134414f1b6d9c96
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116621"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407337"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Monitorizar as métricas de utilização na nova experiência de área de trabalho (pré-visualização)
 
@@ -39,7 +39,7 @@ Se criar relatórios em áreas de trabalho modernas, poderá ter acesso aos rela
 Apenas os utilizadores com permissões de administrador, membro ou contribuidor podem ver o relatório de métricas de utilização melhorado. As permissões de visualizador não são suficientes. Se tiver pelo menos a permissão de contribuidor numa área de trabalho moderna no qual o relatório reside, poderá utilizar o procedimento a seguir para apresentar as métricas de utilização melhoradas:
 
 1. Abra a área de trabalho que contém o relatório no qual quer analisar as métricas de utilização.
-2. Na lista de conteúdos da área de trabalho, abra o menu de contexto do relatório e selecione **Ver relatório de métricas de utilização** . Em alternativa, abra o relatório, abra o menu de contexto na barra de comandos e, em seguida, selecione **Métricas de utilização** .
+2. Na lista de conteúdos da área de trabalho, abra o menu de contexto do relatório e selecione **Ver relatório de métricas de utilização**. Em alternativa, abra o relatório, abra o menu de contexto na barra de comandos e, em seguida, selecione **Métricas de utilização**.
 
     ![Selecionar Métricas de Utilização](media/service-modern-usage-metrics/power-bi-modern-view-usage-metrics.png)
 
@@ -47,8 +47,8 @@ Apenas os utilizadores com permissões de administrador, membro ou contribuidor 
 
     ![O relatório Métricas de utilização está pronto](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-ready.png)
 
-1. Para ver os resultados, selecione **Ver métricas de utilização** .
-2. Se for a primeira vez que o faz, o Power BI poderá abrir o relatório de métricas de utilização antigo. Para apresentar o relatório de métricas de utilização melhorado, no canto superior direito, mude o botão de Novo relatório de utilização desativado para **Ativado** .
+1. Para ver os resultados, selecione **Ver métricas de utilização**.
+2. Se for a primeira vez que o faz, o Power BI poderá abrir o relatório de métricas de utilização antigo. Para apresentar o relatório de métricas de utilização melhorado, no canto superior direito, mude o botão de Novo relatório de utilização desativado para **Ativado**.
 
     ![Mudar para o relatório Métricas de Utilização moderno](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-on.png)
 
@@ -105,11 +105,11 @@ O relatório de métricas de utilização melhorado inclui as seguintes páginas
 Utilize o seguinte procedimento para obter o controlo de um conjunto de dados Relatório de Métricas de Utilização e atualizar as credenciais.
 
 1. Abra a área de trabalho que contém o relatório para o qual quer atualizar o conjunto de dados Relatório de Métricas de Utilização.
-2. Na barra de cabeçalho preta na parte superior, selecione o ícone **Definições** e, em seguida, **Definições** .
+2. Na barra de cabeçalho preta na parte superior, selecione o ícone **Definições** e, em seguida, **Definições**.
 
     ![Selecionar Definições](media/service-modern-usage-metrics/power-bi-settings-settings.png)
 
-3. Mude para o separador **Conjuntos de dados** .
+3. Mude para o separador **Conjuntos de dados**.
 
 1. Selecione o conjunto de dados Relatório de Métricas de Utilização. 
 
@@ -117,13 +117,13 @@ Utilize o seguinte procedimento para obter o controlo de um conjunto de dados Re
     
     Se não for o proprietário atual do conjunto de dados, deverá assumir a propriedade para poder atualizar as credenciais da origem de dados. 
     
-5. Selecione o botão **Obter controlo** e, em seguida, na caixa de diálogo **Obter controlo das definições do conjunto de dados** , selecione **Obter controlo** novamente.
+5. Selecione o botão **Obter controlo** e, em seguida, na caixa de diálogo **Obter controlo das definições do conjunto de dados**, selecione **Obter controlo** novamente.
 
-1. Em **Credenciais da origem de dados** , selecione **Editar credenciais** .
+1. Em **Credenciais da origem de dados**, selecione **Editar credenciais**.
 
     ![Editar credenciais](media/service-modern-usage-metrics/power-bi-usage-metrics-edit-credentials.png)
 
-2. Na caixa de diálogo **Configurar Relatório de Métricas de Utilização** , selecione **Iniciar sessão** .
+2. Na caixa de diálogo **Configurar Relatório de Métricas de Utilização**, selecione **Iniciar sessão**.
 
     ![Selecionar Iniciar sessão](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-configure.png)
 
@@ -144,9 +144,9 @@ Os relatórios de métricas de utilização são uma funcionalidade que o admini
 
 Por predefinição, os dados por utilizador estão ativados para métricas de utilização e as informações da conta do consumidor de conteúdos estão incluídas no relatório de métricas. Se os administradores não quiserem expor estas informações a alguns ou a todos os utilizadores, poderão excluir as informações dos utilizadores do relatório de utilização ao desativar Dados por utilizador em métricas de utilização para criadores de conteúdo nas definições do inquilino do portal de administração do Power BI para grupos de segurança especificados ou para toda a organização.
 
-1. No separador **Definições do inquilino** no portal de administração, em **Definições de utilização e auditoria** , expanda **Dados por utilizador em métricas para criadores de conteúdo** e selecione **Desativado** .
+1. No separador **Definições do inquilino** no portal de administração, em **Definições de utilização e auditoria**, expanda **Dados por utilizador em métricas para criadores de conteúdo** e selecione **Desativado**.
 
-2. Decida se deve **Eliminar todos os dados por utilizador existente no conteúdo atual de métricas de utilização** e selecione **Aplicar** .
+2. Decida se deve **Eliminar todos os dados por utilizador existente no conteúdo atual de métricas de utilização** e selecione **Aplicar**.
 
     ![Desativar as métricas por utilizador](media/service-modern-usage-metrics/power-bi-admin-disable-per-user-metrics.png)
 
@@ -169,11 +169,11 @@ Para examinar os dados do relatório ou criar os seus próprios relatórios com 
 
 Quando cria uma cópia do relatório de utilização previamente criado só de leitura, o Power BI cria uma instância editável do mesmo. À primeira vista, parece igual. Contudo, agora pode abrir o relatório na vista de Edição, adicionar novas visualizações, filtros e páginas, modificar ou eliminar visualizações existentes, etc. O Power BI guarda o relatório novo na área de trabalho atual.
 
-1. No novo relatório de métricas de utilização, selecione o menu **Mais opções** (...) e, em seguida, **Guardar uma cópia** .
+1. No novo relatório de métricas de utilização, selecione o menu **Mais opções** (...) e, em seguida, **Guardar uma cópia**.
 
     ![Guardar uma cópia do relatório](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-save.png)
 
-2. Na caixa de diálogo **Guardar relatório** , introduza um nome e, em seguida, selecione **Guardar** .
+2. Na caixa de diálogo **Guardar relatório**, introduza um nome e, em seguida, selecione **Guardar**.
 
     O Power BI cria um relatório do Power BI editável, guardado na área de trabalho atual, e abre a cópia de relatório. 
 
@@ -195,17 +195,17 @@ Pode criar um novo relatório de utilização no Power BI Desktop, com base no
 
 1. Abra o Power BI Desktop.
 
-2. Se não tiver sessão iniciada no serviço Power BI, no menu **Ficheiro** , selecione **Iniciar sessão** .
+2. Se não tiver sessão iniciada no serviço Power BI, no menu **Ficheiro**, selecione **Iniciar sessão**.
 
-1. Para ligar ao conjunto de dados Relatório de Métricas de Utilização, no friso **Base** , selecione **Obter Dados** .
+1. Para ligar ao conjunto de dados Relatório de Métricas de Utilização, no friso **Base**, selecione **Obter Dados**.
 
-4. No painel esquerdo, selecione **Power Platform** e, em seguida, **Conjuntos de dados do Power BI** > **Ligar** .
+4. No painel esquerdo, selecione **Power Platform** e, em seguida, **Conjuntos de dados do Power BI** > **Ligar**.
 
     ![Obter dados > Power Platform](media/service-modern-usage-metrics/power-bi-desktop-get-data.png)
 
 1. Desloque-se para o conjunto de dados desejado ou escreva *Relatório de Métricas de Utilização* na caixa de pesquisa. 
 
-6. Na coluna Área de trabalho, verifique se está a selecionar o conjunto de dados correto e, em seguida, selecione **Criar** . 
+6. Na coluna Área de trabalho, verifique se está a selecionar o conjunto de dados correto e, em seguida, selecione **Criar**. 
 
     ![Selecionar o conjunto de dados Relatório de Métricas de Utilização](media/service-modern-usage-metrics/power-bi-desktop-select-usage-metrics.png)
 
@@ -221,22 +221,22 @@ Quando se liga aos dados de utilização no Excel, pode criar Tabelas Dinâmicas
 
 1. Primeiro, se ainda não o tiver feito, [crie uma cópia do relatório de métricas de utilização](#create-a-copy-of-the-usage-report). 
 
-2. Abra o novo relatório de métricas de utilização, selecione o menu **Mais opções** (...) e, em seguida, **Analisar no Excel** .
+2. Abra o novo relatório de métricas de utilização, selecione o menu **Mais opções** (...) e, em seguida, **Analisar no Excel**.
 
     ![Analisar no Excel](media/service-modern-usage-metrics/power-bi-export-excel.png)
 
-1. Se vir a caixa de diálogo **Primeiro, precisa de algumas atualizações do Excel** , selecione **Transferir** e instale as atualizações mais recentes para obter a conectividade do Power BI ou selecione **Já instalei estas atualizações** .
+1. Se vir a caixa de diálogo **Primeiro, precisa de algumas atualizações do Excel**, selecione **Transferir** e instale as atualizações mais recentes para obter a conectividade do Power BI ou selecione **Já instalei estas atualizações**.
 
     ![Atualizações do Excel](media/service-modern-usage-metrics/power-bi-excel-updates.png)
 
     > [!NOTE]
     > Algumas empresas podem ter regras da Política de Grupo para impedir a instalação das atualizações necessárias da funcionalidade “Analisar no Excel” no Excel. Se não conseguir instalar as atualizações, consulte o seu administrador.
 
-1. Na caixa de diálogo do browser que lhe pergunta o que quer fazer com o ficheiro Usage Metrics report.odc, selecione **Abrir** .
+1. Na caixa de diálogo do browser que lhe pergunta o que quer fazer com o ficheiro Usage Metrics report.odc, selecione **Abrir**.
 
     ![Abrir o ficheiro .odc](media/service-modern-usage-metrics/power-bi-open-odc-file.png)
 
-1. O Power BI inicia o Excel. Verifique o nome e o caminho do ficheiro .odc e, em seguida, selecione **Ativar** .
+1. O Power BI inicia o Excel. Verifique o nome e o caminho do ficheiro .odc e, em seguida, selecione **Ativar**.
 
     ![Aviso de segurança do Excel](media/service-modern-usage-metrics/power-bi-excel-security-notice.png)
 
@@ -351,7 +351,7 @@ Se suspeitar de problemas de consistência de dados ou de atualização, poderá
 
 1. Abra a área de trabalho que contém o relatório para o qual quer repor o conjunto de dados Relatório de Métricas de Utilização.
 
-2. Na barra de cabeçalho preta na parte superior, selecione o ícone **Definições** e, em seguida, **Definições** .
+2. Na barra de cabeçalho preta na parte superior, selecione o ícone **Definições** e, em seguida, **Definições**.
 
     ![Selecionar Definições](media/service-modern-usage-metrics/power-bi-settings-settings.png)
 
@@ -363,15 +363,15 @@ Se suspeitar de problemas de consistência de dados ou de atualização, poderá
 
     ![URL do conjunto de dados Métricas de utilização](media/service-modern-usage-metrics/power-bi-usage-metrics-url.png)
 
-1. No browser, aceda a [https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup](/rest/api/power-bi/datasets/deletedatasetingroup) e selecione o botão **Experimentar** .
+1. No browser, aceda a [https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup](/rest/api/power-bi/datasets/deletedatasetingroup) e selecione o botão **Experimentar**.
 
     ![Eliminar conjunto de dados – Experimentar](media/service-modern-usage-metrics/power-bi-delete-dataset-try-it.png)
 
-1. Inicie sessão no Power BI, cole o ID da Área de trabalho na caixa de texto **groupId** e o ID do conjunto de dados na caixa de texto **datasetId** e, em seguida, selecione **Executar** . 
+1. Inicie sessão no Power BI, cole o ID da Área de trabalho na caixa de texto **groupId** e o ID do conjunto de dados na caixa de texto **datasetId** e, em seguida, selecione **Executar**. 
 
     ![Experimentar a API REST](media/service-modern-usage-metrics/power-bi-rest-api-try-it.png)
 
-1. Sob o botão **Executar** , confirme que o serviço devolve um Código de Resposta **200** . Este código indica que o conjunto de dados e os relatórios de métricas de utilização associados foram eliminados com êxito.
+1. Sob o botão **Executar**, confirme que o serviço devolve um Código de Resposta **200**. Este código indica que o conjunto de dados e os relatórios de métricas de utilização associados foram eliminados com êxito.
 
     ![Código de resposta 200](media/service-modern-usage-metrics/power-bi-response-code-200.png)
 

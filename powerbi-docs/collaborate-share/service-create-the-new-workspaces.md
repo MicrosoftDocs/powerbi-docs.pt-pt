@@ -2,20 +2,20 @@
 title: Criar as novas áreas de trabalho – Power BI
 description: 'Saiba como criar as novas áreas de trabalho: coleções de dashboards, relatórios e relatórios paginados criados para fornecer métricas importantes à sua organização.'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/04/2020
-ms.author: maggies
 ms.custom: contperfq1, contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: c75d4d911bb53ef0f9804996bbc1d78db3f787f5
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 41f58d6561b76aa747f521b98477af3bc8492a8f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89511979"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407521"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Criar as novas áreas de trabalho no Power BI
 
@@ -48,7 +48,7 @@ Pronto para migrar a área de trabalho clássica? Veja [Atualizar as áreas de t
     - [Especifique um OneDrive da Área de Trabalho](#set-a-workspace-onedrive) para utilizar uma localização de armazenamento dos ficheiros de um grupo do Microsoft 365.    
     - [Adicione uma Lista de contactos](#create-a-contact-list). Por predefinição, os administradores da área de trabalho são os contactos. 
     - [Permitir que os contribuidores atualizem a aplicação](#allow-contributors-to-update-the-app) da área de trabalho
-    - Para atribuir a área de trabalho a uma **Capacidade dedicada**, no separador**Premium**, selecione **Capacidade dedicada**.
+    - Para atribuir a área de trabalho a uma **Capacidade dedicada**, no separador **Premium**, selecione **Capacidade dedicada**.
 
         ![Captura de ecrã a mostrar a opção Capacidade dedicada.](media/service-create-the-new-workspaces/power-bi-workspace-premium.png)
 

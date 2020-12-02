@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 06/28/2020
-ms.openlocfilehash: 44e82a3f51af606d4e5cd6f70b13b9a8db4641fe
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: 6a1f8a69db20d44fc814c7e63e4ad13ed5fc955c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91135896"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407383"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>Incorporar uma peça Web de relatórios no SharePoint Online
 

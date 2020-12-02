@@ -1,21 +1,21 @@
 ---
 title: Comprar e atribuir licenças Power BI Pro
 description: Saiba como comprar e atribuir licenças de utilizador do Power BI Pro aos utilizadores, para que possam aceder aos conteúdos e colaborar com outros no serviço Power BI.
-author: kfollis
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 04/08/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8c5daa2e63b874f1811c3819c60785bdbe93918c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 5845e56bdcb2257d67d541e35d26c9285a5e9319
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856928"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408142"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Comprar e atribuir licenças de utilizador do Power BI Pro
 

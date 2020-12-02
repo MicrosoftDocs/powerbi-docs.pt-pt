@@ -2,18 +2,18 @@
 title: Service interruption notifications (Notificações de interrupção do serviço)
 description: Saiba mais sobre como receber notificações por e-mail em caso de interrupção ou falha do serviço Power BI.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2020
-ms.author: kfollis
-ms.openlocfilehash: 8b9c10c8b3faa87cfc19c3c1d8f87a36de0307dd
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: e5d8f43a8edb6dc05b58cb62836e98cf209c8b5c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916136"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407820"
 ---
 # <a name="service-interruption-notifications"></a>Service interruption notifications (Notificações de interrupção do serviço)
 
@@ -21,7 +21,7 @@ ms.locfileid: "92916136"
 
 ![E-mail de notificação relativamente à atualização](media/service-interruption-notifications/refresh-notification-email.png)
 
-De momento, enviamos e-mails relativos aos seguintes _cenários de fiabilidade_ :
+De momento, enviamos e-mails relativos aos seguintes _cenários de fiabilidade_:
 
 - Fiabilidade da abertura dos relatórios
 - Fiabilidade das atualizações dos modelos
@@ -59,7 +59,7 @@ Um administrador do Power BI ativa as notificações no portal de administraçã
 
 1. Identifique ou crie o grupo de segurança com o e-mail ativado que deve receber notificações.
 
-1. No portal de administração, selecione **Definições de inquilino**. Em **Definições de ajuda e suporte** , expanda **Receber notificações por e-mail se ocorrerem falhas ou incidentes de serviço**.
+1. No portal de administração, selecione **Definições de inquilino**. Em **Definições de ajuda e suporte**, expanda **Receber notificações por e-mail se ocorrerem falhas ou incidentes de serviço**.
 
 1. Ative as notificações, insira um grupo de segurança e selecione **Aplicar**.
 

@@ -2,19 +2,19 @@
 title: Bibliotecas de Cliente cmdlet, API REST e .NET para administradores
 description: Saiba de que formas pode administrar o Power BI através de scripts e APIs de programação.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c26d169a4c8ef876d1fe92e4967b07c982f510db
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 6afc49e0d2fe67c89d906d4715959892868b0027
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856881"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408096"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>Bibliotecas de Cliente cmdlet, API REST e .NET para administração do Power BI
 O Power BI permite que os administradores efetuem o scripting de tarefas comuns com cmdlets do PowerShell. Também expõe as API REST e fornece uma biblioteca de cliente .NET para desenvolver soluções administrativas. Este tópico mostra uma lista de cmdlets e o ponto final de API e de API REST correspondentes. Para obter mais informações, veja:

@@ -2,19 +2,19 @@
 title: Linhagem de dados
 description: Em projetos modernos de business intelligence (BI), um dos principais desafios para muitos clientes é compreender o fluxo de dados desde a origem até ao destino.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 06/15/2020
-ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 76dd059d59daed5916e9d28692ef018dd7465749
-ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
+ms.openlocfilehash: d2cd60a62d321910e280ebd8b38411b393d96bca
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94946984"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407406"
 ---
 # <a name="data-lineage"></a>Linhagem de dados
 Em projetos modernos de business intelligence (BI), compreender o fluxo de dados desde a origem até ao destino pode ser um desafio. A dimensão deste desafio é ainda maior se tiver desenvolvido projetos de análise avançados que abranjam múltiplas origens de dados, artefactos e dependências. Responder a perguntas como "O que acontece se alterar estes dados?" ou "Porque é que este relatório não está atualizado?" pode ser difícil. A compreensão destas questões pode exigir o trabalho de uma equipa de peritos ou uma investigação profunda. Para ajudar a responder a estas perguntas, criámos uma vista de linhagem de dados.
