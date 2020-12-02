@@ -1,19 +1,20 @@
 ---
 title: Ligar aos serviços que utiliza com o Power BI
 description: Ligue-se a diversos serviços que utiliza para gerir a sua empresa, como o Salesforce, Microsoft Dynamics CRM e Google Analytics.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 08/29/2019
-ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 037a4c28f7b70cdd6bc546014a0b9218e89a7e3d
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a2151f80a9c8da7230338355fb10b9a0820286a1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860722"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410511"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Ligar aos serviços que utiliza com o Power BI
 Com o Power BI, pode ligar-se a diversos serviços que utiliza para gerir a sua empresa, como o Salesforce, Microsoft Dynamics e Google Analytics. O Power BI começa por utilizar as suas credenciais para se ligar ao serviço. Em seguida, cria uma *área de trabalho* do Power BI com um dashboard e um conjunto de relatórios do Power BI que mostram os dados automaticamente e fornecem informações visuais sobre a sua empresa.

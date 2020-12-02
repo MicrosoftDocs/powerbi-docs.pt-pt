@@ -1,24 +1,24 @@
 ---
 title: Permissão de criação para conjuntos de dados partilhados
 description: Saiba como pode controlar o acesso aos dados com a permissão de Compilação.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/21/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 343351fd762a074de010bc307c0138773e265226
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 914477d8b4bed0b6f90f700afcbfdfbfc263bb1d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462424"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410465"
 ---
 # <a name="build-permission-for-shared-datasets"></a>Permissão de criação para conjuntos de dados partilhados
 
-Ao criar um relatório no Power BI Desktop, os dados nesse relatório são armazenados num *modelo de dados* . Ao publicar os seus relatórios no serviço Power BI, está também a publicar os dados como um *conjunto de dados* . Pode conceder a outras pessoas *permissão de compilação* para esse relatório, para que possam descobrir e reutilizar o conjunto de dados que partilhou. Este artigo explica como pode controlar o acesso aos dados com a permissão de compilação.
+Ao criar um relatório no Power BI Desktop, os dados nesse relatório são armazenados num *modelo de dados*. Ao publicar os seus relatórios no serviço Power BI, está também a publicar os dados como um *conjunto de dados*. Pode conceder a outras pessoas *permissão de compilação* para esse relatório, para que possam descobrir e reutilizar o conjunto de dados que partilhou. Este artigo explica como pode controlar o acesso aos dados com a permissão de compilação.
 
 A permissão de compilação aplica-se aos conjuntos de dados. Quando concede aos utilizadores a permissão de compilação, os mesmos podem compilar novos conteúdos no conjunto de dados, como relatórios, dashboards, mosaicos afixados das Perguntas e Respostas e Deteção de Informações. 
 
@@ -34,7 +34,7 @@ Pode conceder a Permissão de compilação para um conjunto de dados de várias 
 
 - Os membros de uma área de trabalho com, pelo menos, uma função de Contribuidor têm automaticamente Permissão de compilação para os conjunto de dados nessa área de trabalho e permissão para copiar um relatório. Leia mais sobre as [funções nas novas áreas de trabalho](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces).
  
-- Os membros da área de trabalho em que o conjunto de dados reside podem atribuir a permissão a utilizadores ou grupos de segurança específicos no Centro de permissões. Se for um membro da área de trabalho, selecione **Mais opções** (…) junto a um conjunto de dados > **Gerir Permissões** .
+- Os membros da área de trabalho em que o conjunto de dados reside podem atribuir a permissão a utilizadores ou grupos de segurança específicos no Centro de permissões. Se for um membro da área de trabalho, selecione **Mais opções** (…) junto a um conjunto de dados > **Gerir Permissões**.
 
     ![Selecionar as reticências](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
@@ -54,12 +54,12 @@ Pode remover a Permissão de compilação atribuída a uma pessoa num conjunto d
 
 No futuro, talvez seja necessário remover a Permissão de compilação para alguns utilizadores de um conjunto de dados partilhado. 
 
-1. Numa área de trabalho, aceda à página da lista **Conjuntos de dados** . 
-1. Selecione **Mais opções** (...) junto ao conjunto de dados > **Gerir permissão** .
+1. Numa área de trabalho, aceda à página da lista **Conjuntos de dados**. 
+1. Selecione **Mais opções** (...) junto ao conjunto de dados > **Gerir permissão**.
 
     ![Gerir permissões](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. Selecione **Mais opções** (...) junto a um nome > **Remover compilação** .
+1. Selecione **Mais opções** (...) junto a um nome > **Remover compilação**.
 
     ![Remover a Permissão de compilação](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -69,27 +69,27 @@ No futuro, talvez seja necessário remover a Permissão de compilação para alg
 
 Imagine que distribuiu uma aplicação de uma área de trabalho para um grupo de pessoas. Mais tarde, decide remover o acesso à aplicação para algumas pessoas. Remover o acesso à aplicação não remove automaticamente as permissões para compilar e partilhar novamente. Esse é um passo adicional. 
 
-1. Na página da lista de uma área de trabalho, selecione **Atualizar aplicação** . 
+1. Na página da lista de uma área de trabalho, selecione **Atualizar aplicação**. 
 
     ![Atualizar aplicação](media/service-datasets-build-permissions/power-bi-app-update.png)
 
-1. No separador **Permissões** , selecione o **X** para eliminar a pessoa ou o grupo. 
+1. No separador **Permissões**, selecione o **X** para eliminar a pessoa ou o grupo. 
 
     ![Selecionar o X](media/service-datasets-build-permissions/power-bi-app-delete-user.png)
-1. Selecione **Atualizar aplicação** .
+1. Selecione **Atualizar aplicação**.
 
     Verá uma mensagem a explicar que precisa de aceder a **Gerir permissões** para remover a Permissão de compilação para os utilizadores com atual acesso. 
 
     ![Mensagem para gerir as permissões](media/service-datasets-build-permissions/power-bi-dataset-app-remove-message.png)
 
-1. Selecione **Atualizar** .
+1. Selecione **Atualizar**.
 
-1. Numa área de trabalho, aceda à pagina da lista **Conjuntos de dados** . 
-1. Selecione **Mais opções** (...) junto ao conjunto de dados > **Gerir permissão** .
+1. Numa área de trabalho, aceda à pagina da lista **Conjuntos de dados**. 
+1. Selecione **Mais opções** (...) junto ao conjunto de dados > **Gerir permissão**.
 
     ![Gerir permissões](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. Selecione **Mais opções** (...) junto ao nome > **Remover compilação** .
+1. Selecione **Mais opções** (...) junto ao nome > **Remover compilação**.
 
     ![Remover a Permissão de compilação](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 

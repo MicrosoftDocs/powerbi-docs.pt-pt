@@ -2,25 +2,25 @@
 title: Sugestões para criar aplicações de modelo no Power BI
 description: Sugestões sobre a criação de consultas, modelos de dados, relatórios e dashboards para criar boas aplicações de modelo
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.author: painbar
-ms.openlocfilehash: 4530a6579a3109a2696c77a79a3a5a1c6b8092dd
-ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
+ms.openlocfilehash: bb48b92df81a49ee687376ee9f53428c10171b80
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94348065"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410120"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugestões para criar aplicações de modelo no Power BI
 
 Uma parte da [criação da sua aplicação de modelo](service-template-apps-create.md) no Power BI é a logística de criação, testes e produção da área de trabalho. No entanto, é evidente que a criação do relatório e do dashboard também é importante. Podemos resumir o processo de criação em quatro componentes principais. Trabalhar com esses componentes ajuda a criar a melhor aplicação de modelo possível:
 
-* Com **consultas** , pode [ligar](desktop-connect-to-data.md) e [transformar](../transform-model/desktop-query-overview.md) os dados e definir [parâmetros](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/). 
-* No **modelo de dados** , cria [relações](../transform-model/desktop-create-and-manage-relationships.md), [medidas](../transform-model/desktop-measures.md) e melhorias de Perguntas e Respostas.  
+* Com **consultas**, pode [ligar](desktop-connect-to-data.md) e [transformar](../transform-model/desktop-query-overview.md) os dados e definir [parâmetros](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/). 
+* No **modelo de dados**, cria [relações](../transform-model/desktop-create-and-manage-relationships.md), [medidas](../transform-model/desktop-measures.md) e melhorias de Perguntas e Respostas.  
 * As **[páginas do relatório](../create-reports/desktop-report-view.md)** incluem elementos visuais e filtros para apresentar informações sobre os seus dados.  
 * Os **[dashboards](../consumer/end-user-dashboards.md)** e os [mosaicos](../create-reports/service-dashboard-create.md) oferecem uma descrição geral das informações incluídas.
 * Os dados de exemplo tornam a sua aplicação detetável imediatamente após a instalação.

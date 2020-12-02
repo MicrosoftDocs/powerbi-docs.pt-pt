@@ -1,20 +1,20 @@
 ---
 title: Introdução à formatação de visualizações de relatórios
 description: Introdução à utilização das opções de formatação com visualizações de relatórios
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 11/09/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3e61521ec7ac518aaa374cec328639a849b21bd5
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 5ab8a9fdb0a7cdd373aad500950280ddaef655e4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483852"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409844"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Introdução ao painel de formatação
 

@@ -2,19 +2,19 @@
 title: Gerir a sua origem de dados – Analysis Services
 description: Como gerir o gateway de dados no local e as origens de dados que pertencem a esse gateway. Isto aplica-se ao Analysis Services no modo multidimensional e de tabela.
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 07/15/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 521c1cbc60c6d616c06bde6b6826bb270d3ddba0
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 8cc8149d7b143dc0f100a8d7718343b9f668a294
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375310"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410350"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gerir a sua origem de dados – Analysis Services
 

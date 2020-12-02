@@ -1,20 +1,20 @@
 ---
 title: Introdução aos conjuntos de dados em áreas de trabalho
 description: Saiba mais sobre a partilha e deteção de conjuntos de dados em áreas de trabalho. Os utilizadores da organização podem criar relatórios baseados num conjunto de dados nas respetivas áreas de trabalho.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 23d520815c47c9ff9f1ec045ec67921141e8eb7a
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 0569bf40728f0c1300ded9c9656cca639105e981
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681153"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410442"
 ---
 # <a name="intro-to-datasets-across-workspaces"></a>Introdução aos conjuntos de dados em áreas de trabalho
 

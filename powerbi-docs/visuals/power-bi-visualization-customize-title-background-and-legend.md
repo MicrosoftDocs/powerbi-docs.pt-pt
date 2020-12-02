@@ -1,21 +1,21 @@
 ---
 title: Introdução à formatação de visualizações do Power BI
 description: Personalizar o título, fundo e legenda da visualização
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 03/06/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0d19d7366dce571e2d89ba5cbc6ffbe936ec50e2
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: c974161e4cc7d52bf412ea14800bf720a297cd25
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93410998"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409821"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Personalizar os títulos, fundos e legendas das visualizações
 
@@ -47,7 +47,7 @@ Inicie sessão no Power BI Desktop e abra o relatório [Exemplo de Análise de R
 
 1. Selecione o gráfico de colunas agrupadas **Contagem de Lojas Abertas por Mês de Abertura e Cadeia**.
 
-1. No painel **Visualizações** , selecione o ícone de rolo de pintura para apresentar as opções de formatação.
+1. No painel **Visualizações**, selecione o ícone de rolo de pintura para apresentar as opções de formatação.
 
 1. Selecione **Título** para expandir essa secção.
 
@@ -61,7 +61,7 @@ Inicie sessão no Power BI Desktop e abra o relatório [Exemplo de Análise de R
 
 1. Altere a **Cor do tipo de letra** para branco e a **Cor de fundo** para azul.    
 
-    a. Selecione a lista suspensa e escolha uma cor em **Cores do tema** , **Cores recentes** ou **Cor personalizada**.
+    a. Selecione a lista suspensa e escolha uma cor em **Cores do tema**, **Cores recentes** ou **Cor personalizada**.
     
     ![Captura de ecrã das opções da Cor do tipo de letra e da Cor de fundo.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
 
@@ -80,7 +80,7 @@ Inicie sessão no Power BI Desktop e abra o relatório [Exemplo de Análise de R
 
 Guarde as alterações realizadas e avance para a secção seguinte.
 
-Se precisar de reverter todas as alterações, selecione **Reverter para predefinição** , na parte inferior do painel de personalização **Título**.
+Se precisar de reverter todas as alterações, selecione **Reverter para predefinição**, na parte inferior do painel de personalização **Título**.
 
 ![Captura de ecrã da opção Reverter para predefinição.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-revert.png)
 
@@ -100,15 +100,15 @@ Nesta fase do tutorial, o fundo do gráfico de colunas agrupadas deverá ter um 
 
 Guarde as alterações realizadas e avance para a secção seguinte.
 
-Se precisar de reverter todas as alterações, selecione **Reverter para predefinição** , na parte inferior do painel de personalização **Fundo**.
+Se precisar de reverter todas as alterações, selecione **Reverter para predefinição**, na parte inferior do painel de personalização **Fundo**.
 
 ## <a name="customize-visualization-legends"></a>Personalizar legendas de visualização
 
 1. Abra a página de relatório **Visão geral** e selecione o gráfico **Variação das Vendas Totais por MêsFiscal e Gestor Distrital**.
 
-1. No separador **Visualização** , selecione o ícone de rolo de pintura para abrir o painel Formatação.
+1. No separador **Visualização**, selecione o ícone de rolo de pintura para abrir o painel Formatação.
 
-1. Expanda as opções de **Legenda** :
+1. Expanda as opções de **Legenda**:
 
     ![Captura de ecrã a mostrar o cartão Legenda.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-legends.png)
 
@@ -124,7 +124,7 @@ Se precisar de reverter todas as alterações, selecione **Reverter para predefi
 
 Guarde as alterações realizadas e avance para a secção seguinte.
 
-Se precisar de reverter todas as alterações, selecione **Reverter para predefinição** , na parte inferior do painel de personalização **Legenda**.
+Se precisar de reverter todas as alterações, selecione **Reverter para predefinição**, na parte inferior do painel de personalização **Legenda**.
 
 ## <a name="customize-colors-using-a-theme"></a>Personalizar cores com um tema
 

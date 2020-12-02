@@ -1,20 +1,20 @@
 ---
 title: Copie e cole uma visualização no Power BI
 description: Copie e cole uma visualização no Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: maggie tsang
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 09/18/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd5fc361431268c37639a336923a4067176f1761
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: fda66910ac073421d4b17706dec70d6aa6e86499
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411067"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409890"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>Copiar e colar uma visualização de relatório
 
@@ -58,7 +58,7 @@ Quando copiar uma imagem estática de um elemento visual, obterá uma cópia do 
 
     ![ícone Copiar elemento visual como imagem apresentado](media/power-bi-visualization-copy-paste/power-bi-copy-dashboard.png)
 
-3. Quando a caixa de diálogo **O elemento visual está pronto para a cópia** , selecione **Copiar para a área de transferência**.
+3. Quando a caixa de diálogo **O elemento visual está pronto para a cópia**, selecione **Copiar para a área de transferência**.
 
     ![caixa de diálogo com a opção Copiar para a área de transferência](media/power-bi-visualization-copy-paste/power-bi-copied.png)
 
@@ -74,7 +74,7 @@ Quando copiar uma imagem estática de um elemento visual, obterá uma cópia do 
 
     ![Captura de ecrã a mostrar o ícone Copiar elementos visuais como imagem](media/power-bi-visualization-copy-paste/power-bi-copy-icon.png)
 
-3. Quando a caixa de diálogo **O elemento visual está pronto para a cópia** , selecione **Copiar para a área de transferência**.
+3. Quando a caixa de diálogo **O elemento visual está pronto para a cópia**, selecione **Copiar para a área de transferência**.
 
     ![caixa de diálogo com a opção Copiar para a área de transferência](media/power-bi-visualization-copy-paste/power-bi-copied.png)
 
@@ -99,11 +99,11 @@ Se não quiser que os utilizadores copiem um elemento visual específico, poder�
 1. Selecione o ícone de rolo de tinta para abrir o painel Formatação. 
 
 1. Abra o cartão **Formatação visual**.
-1. Desloque-se até **Cabeçalho do elemento visual** , expanda o cartão e desative o **Ícone de copiar**.
+1. Desloque-se até **Cabeçalho do elemento visual**, expanda o cartão e desative o **Ícone de copiar**.
 
     ![ícones de rolo de pintura e de cópia selecionados](media/power-bi-visualization-copy-paste/power-bi-visual-header.png)
 
-1. Se não conseguir localizar a definição **Cabeçalho do elemento visual** , ative a opção de cabeçalho do elemento visual moderno em **Definições do relatório**. 
+1. Se não conseguir localizar a definição **Cabeçalho do elemento visual**, ative a opção de cabeçalho do elemento visual moderno em **Definições do relatório**. 
 
     ![ativar cabeçalho de elemento visual moderno selecionado](media/power-bi-visualization-copy-paste/power-bi-use-modern.png)
 
@@ -115,11 +115,11 @@ Se for proprietário do conteúdo ou administrador do inquilino, poderá control
   
 1. Navegue até ao Portal de Administração.
 
-1. Em **Configurações de inquilino** , selecione **Definições de exportação e partilha**. 
+1. Em **Configurações de inquilino**, selecione **Definições de exportação e partilha**. 
 
     ![ativar Copiar e colar elementos visuais](media/power-bi-visualization-copy-paste/power-bi-enable.png)
 
-1. Desative **Copiar e colar elementos visuais** , para os grupos de utilizadores selecionados. 
+1. Desative **Copiar e colar elementos visuais**, para os grupos de utilizadores selecionados. 
 
 1. Depois de guardar as alterações, os grupos especificados deixarão de poder utilizar **Copiar elemento visual como imagem** em todo o Power BI. 
   

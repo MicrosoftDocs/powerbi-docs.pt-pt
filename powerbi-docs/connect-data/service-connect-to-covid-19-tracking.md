@@ -2,18 +2,18 @@
 title: Ligar ao COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA)
 description: Como obter e instalar a aplicação de modelo COVID-19 US Cases (Casos de COVID-19 nos EUA) e como ligar aos dados.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/05/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 01dab6cad6142b455a0d61a0011e43cea6da23e1
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 19dc9f5c5adfa5853d98cd6b0ef427c8bccebada
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349530"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410626"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>Ligar ao COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA)
 Este artigo indica como instalar a aplicação de modelo COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA) e como ligar às origens de dados.
@@ -32,7 +32,7 @@ Depois de ter instalado a aplicação de modelo e ligado às origens de dados, p
 
     [![COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA) no Appsource](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
-1. Quando lhe for pedido, clique em **Instalar** . Assim que a aplicação estiver instalada, irá vê-la na página Aplicações.
+1. Quando lhe for pedido, clique em **Instalar**. Assim que a aplicação estiver instalada, irá vê-la na página Aplicações.
 
    ![COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA) na página Aplicações](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-apps-page-icon.png)
 
@@ -40,21 +40,21 @@ Depois de ter instalado a aplicação de modelo e ligado às origens de dados, p
 
 1. Clique no ícone na página Aplicações para abrir a aplicação.
 
-1. No ecrã inicial que é apresentado, selecione **Ligar** .
+1. No ecrã inicial que é apresentado, selecione **Ligar**.
 
    ![Ecrã inicial da aplicação de modelo](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-splash-screen.png)
 
-1. Será apresentada a caixa de diálogo de parâmetros. Não há parâmetros obrigatórios. Clique em **Seguinte** .
+1. Será apresentada a caixa de diálogo de parâmetros. Não há parâmetros obrigatórios. Clique em **Seguinte**.
 
    ![Captura de ecrã a mostrar a caixa de diálogo de parâmetros do relatório COVID-19 US Tracking Report.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-parameters-dialog.png)
 
 1. Será apresentada a caixa de diálogo do método de autenticação. Os valores recomendados são pré-preenchidos. Não os altere, a menos que tenha conhecimento específico de diferentes valores.
 
-    Clique em **Seguinte** .
+    Clique em **Seguinte**.
 
    ![Captura de ecrã do caixa de diálogo de autenticação do relatório COVID-19 US Tracking Report.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-authentication-dialog.png)
 
-1. Clique em **Iniciar sessão** .
+1. Clique em **Iniciar sessão**.
 
    ![Captura de ecrã a mostrar a caixa de diálogo de início de sessão do relatório COVID-19 US Tracking Report](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-signin-dialog.png)
  

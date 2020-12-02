@@ -2,18 +2,18 @@
 title: Ligar ao Regional Emergency Response Dashboard (Dashboard de Respostas a Emergências Regionais)
 description: Como obter e instalar a aplicação de modelo COVID-19 Decision Support Dashboard (Dashboard de Suporte de Decisões da COVID-19) para respostas a emergências regionais e como ligar aos dados
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/24/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a6cb38d17a84ab41acda96f0564b12188c719254
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: b8cb2be15d084bba3fc2a70152165ce3b2909dab
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860745"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410557"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>Ligar ao Regional Emergency Response Dashboard (Dashboard de Respostas a Emergências Regionais)
 O Regional Emergency Response Dashboard (Dashboard de Respostas a Emergências Regionais) é o componente de comunicação da [solução de Resposta a Emergências Regionais da Microsoft Power Platform](/powerapps/sample-apps/regional-emergency-response/overview). Os administradores da organização regional podem ver o dashboard no seu inquilino do Power BI, o que lhes permite ver rapidamente dados e métricas importantes que os ajudarão a tomar decisões eficientes.

@@ -2,19 +2,19 @@
 title: Obter dados de ficheiros de livros do Excel
 description: Saiba como obter dados de ficheiros de livros do Excel no Power BI
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 09/06/2019
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 870e3dbdc4b18422b0565834764b996d3f096ebf
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 0411cceb056d3471b3084a38916b83c815a0ae3b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264432"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410373"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Obter dados de ficheiros de livros do Excel
 ![Ícone do Excel](media/service-excel-workbook-files/excel_icon.png)
