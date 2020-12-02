@@ -2,20 +2,20 @@
 title: Instalar e utilizar aplicações com dashboards e relatórios no Power BI
 description: Localize, instale e utilize aplicações no serviço Power BI.
 author: mihart
+ms.author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: e0089d2492ad7a68aa2043cce4ca8677a0d276bb
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 7ee51cee6c79b55f746a4275fea5bb00a134e9c7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982290"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401334"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalar e utilizar aplicações com dashboards e relatórios no Power BI
 
@@ -49,7 +49,7 @@ Pode encontrar e instalar aplicações a partir do marketplace de aplicações d
 
 1. [Inicie sessão no serviço Power BI](./end-user-sign-in.md), se ainda não o fez. 
 
-1. Quando o serviço Power BI estiver aberto, selecione **Aplicações > Obter aplicações** . 
+1. Quando o serviço Power BI estiver aberto, selecione **Aplicações > Obter aplicações**. 
 
     ![Obter aplicações  ](./media/end-user-app-view/power-bi-get-apps.png)
 
@@ -117,9 +117,9 @@ A aplicação é aberta. Todas as aplicações têm esquemas, elementos visuais,
 1. A barra de ação. 
 1. A tela de página de relatório.
 1. O painel de navegação da aplicação.  Abaixo do nome da aplicação, está apresentada a lista de conteúdo. Esta aplicação tem um relatório com seis páginas. Selecione o nome de uma página de relatório para abri-la. De momento, temos a página *Taxa de devolução* aberta. 
-1. Selecione a seta para expandir o painel **Filtros** .
+1. Selecione a seta para expandir o painel **Filtros**.
 
-Também pode explorar a área de trabalho associada se lhe tiver sido dado acesso.  Quando instala ou transfere uma aplicação de modelo, o serviço Power BI cria uma área de trabalho para si. Quando instala uma aplicação organizacional, esta pode não incluir o acesso à área de trabalho. [Saiba mais sobre as áreas de trabalho](end-user-workspaces.md). Selecione **Power BI** (número 2) para voltar à **Home Page** e escolha **Áreas de trabalho** . 
+Também pode explorar a área de trabalho associada se lhe tiver sido dado acesso.  Quando instala ou transfere uma aplicação de modelo, o serviço Power BI cria uma área de trabalho para si. Quando instala uma aplicação organizacional, esta pode não incluir o acesso à área de trabalho. [Saiba mais sobre as áreas de trabalho](end-user-workspaces.md). Selecione **Power BI** (número 2) para voltar à **Home Page** e escolha **Áreas de trabalho**. 
 
 ![Captura de ecrã a mostrar a área de trabalho da aplicação Vendas e Marketing com um relatório e um conjunto de dados. ](./media/end-user-app-view/power-bi-new-workspace.png)
 
@@ -135,7 +135,7 @@ De tempos a tempos, os estruturadores das aplicações podem lançar novas vers�
 
         <!--![App update notification](./media/end-user-app-view/power-bi-new-app-version-notification.png) -->
 
-    2. Quando lhe for pedido para instalar a aplicação atualizada, selecione **Instalar** . 
+    2. Quando lhe for pedido para instalar a aplicação atualizada, selecione **Instalar**. 
 
         ![Instalar atualização](./media/end-user-app-view/power-bi-installs.png) 
 

@@ -2,20 +2,20 @@
 title: Perguntas frequentes do utilizador final no Power BI
 description: Veja uma lista de perguntas frequentes e as respetivas respostas sobre o serviço Power BI e as aplicações móveis do Power BI.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 09/02/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: c604bec5213b14f91e514c9a1552acb99ac5d0aa
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: b872c42a9e8551b0750899632deb763a6446656f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916803"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400391"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
 
@@ -49,7 +49,7 @@ Para questões relacionadas com o Power BI Premium, consulte as [Perguntas Frequ
 
 O Power BI Desktop é uma aplicação gratuita que pode ser instalada diretamente no computador. O Power BI Desktop funciona de forma integrada com o serviço Power BI.  Os cientistas de dados, estruturadores de relatórios, administradores e programadores trabalham com o Power BI Desktop para criar relatórios e disponibilizá-los a *utilizadores empresariais* do serviço Power BI, como você. Saiba mais sobre [O que é o Power BI Desktop](../fundamentals/desktop-what-is-desktop.md).
 
-## <a name="as-a-business-user-what-do-i-need-to-use-the-power-bi-service"></a>O que é necessário para utilizar o serviço Power BI enquanto *utilizador empresarial* ?
+## <a name="as-a-business-user-what-do-i-need-to-use-the-power-bi-service"></a>O que é necessário para utilizar o serviço Power BI enquanto *utilizador empresarial*?
 
 Se a sua empresa tiver comprado licenças do Power BI ou uma conta de capacidade Premium, apenas precisará de um browser e de credenciais. Para iniciar sessão, utilizará o endereço de e-mail de trabalho e uma palavra-passe (definida pelo administrador do Power BI).  
 

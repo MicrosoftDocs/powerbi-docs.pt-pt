@@ -2,20 +2,20 @@
 title: 'Tutorial: Utilizar os Serviços Cognitivos no Power BI (Pré-visualização)'
 description: Neste tutorial, irá utilizar os Serviços Cognitivos e fluxos de dados no Power BI.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 02/20/2020
-ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 406a2aebbf5d043ce74ca189c18b384f6c70e716
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: f647bcafe035515a1d5d1438ed580cabea579134
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397191"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401495"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Tutorial: Utilizar os Serviços Cognitivos no Power BI
 
@@ -86,7 +86,7 @@ Assim que o fluxo de dados estiver guardado e atualizado, pode utilizá-lo num r
 
 Abra o Power BI Desktop. No friso Base, selecione **Obter Dados**.
 
-Navegue para os **fluxos de dados do Power BI (Beta** ) na secção Power BI e selecione **Ligar**.
+Navegue para os **fluxos de dados do Power BI (Beta**) na secção Power BI e selecione **Ligar**.
 
 ![Captura de ecrã a mostrar o painel Obter Dados, com os fluxos de dados do Power B I selecionados.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
 

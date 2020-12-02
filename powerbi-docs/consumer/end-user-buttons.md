@@ -2,19 +2,19 @@
 title: Saiba como os botões funcionam no serviço Power BI
 description: Os botões podem ser utilizados para iniciar diversas ações, incluindo navegação no relatório, pormenorização e pormenorização entre relatórios
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/10/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f0ddbbbce93a14c3468eacca130163758ca85c45
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 450c14d05f9a7855d51d7aa2f073e48a0b016013
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982170"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400966"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Botões no serviço Power BI
 Pode ter reparado em botões nos relatórios que recebe de colegas e questionado como utilizá-los. Alguns têm palavras, outros têm setas, outros têm gráficos e outros até têm menus pendentes. Este artigo irá ensinar-lhe a reconhecer os botões e como descobrir o que fazer com eles.
@@ -28,24 +28,24 @@ Os criadores de relatórios adicionam botões aos relatórios para ajudar na nav
 ### <a name="back-buttons"></a>Botões de retrocesso 
 Um botão de retrocesso pode ter uma seta como ícone e, quando o seleciona, o Power BI direciona-o novamente para a página anterior.  Os botões de retrocesso são utilizados frequentemente com a pormenorização. Aqui está um exemplo de um botão de retrocesso utilizado com a pormenorização.
 
-1. O utilizador selecionou o **Word** no gráfico de barras e está a pormenorizar para **Market basket analysis** .
+1. O utilizador selecionou o **Word** no gráfico de barras e está a pormenorizar para **Market basket analysis**.
 
     ![Captura de ecrã a mostrar o botão de pormenorização.](media/end-user-buttons/power-bi-drillthrough.png)
 
-2. Ao selecionar **Market basket analysis** , o Power BI abre a página de relatório de *Market basket analysis* e utiliza as seleções feitas na página de origem para filtrar o que é mostrado na página de destino.
+2. Ao selecionar **Market basket analysis**, o Power BI abre a página de relatório de *Market basket analysis* e utiliza as seleções feitas na página de origem para filtrar o que é mostrado na página de destino.
 
     ![Captura de ecrã a mostrar o botão Anterior.](media/end-user-buttons/power-bi-back.png)
 
-    Está agora na página de relatório de **Market basket analysis** , que é filtrada para o **Word** . Selecione o botão de retrocesso que está etiquetado como **Voltar** para voltar à página anterior. 
+    Está agora na página de relatório de **Market basket analysis**, que é filtrada para o **Word**. Selecione o botão de retrocesso que está etiquetado como **Voltar** para voltar à página anterior. 
 
 ## <a name="bookmark-buttons"></a>Botões de Marcador
 Os *estruturadores* de relatórios geralmente incluem marcadores nos seus relatórios. Pode ver a lista de marcadores de relatório ao selecionar **Marcadores** no canto superior direito. Quando um criador de relatórios adiciona um *botão* de marcador, é apenas para proporcionar uma forma alternativa de navegar para a página do relatório que está associada a esse marcador. A página terá as definições e filtros aplicados que são capturados pelo marcador. [Saiba mais sobre os marcadores no Power BI](end-user-bookmarks.md). 
 
-Neste exemplo, o botão tem um ícone e o nome do marcador, *Urban* . 
+Neste exemplo, o botão tem um ícone e o nome do marcador, *Urban*. 
 
 ![captura de ecrã a mostrar o botão de marcador](media/end-user-buttons/power-bi-bookmark.png)
 
-Ao selecionar o botão marcador, o Power BI leva-o à localização e às definições estabelecidas para esse marcador.  Neste caso, o marcador está na página de relatório *Growth opportunities* e essa página é alvo de filtragem cruzada para **Urban** .
+Ao selecionar o botão marcador, o Power BI leva-o à localização e às definições estabelecidas para esse marcador.  Neste caso, o marcador está na página de relatório *Growth opportunities* e essa página é alvo de filtragem cruzada para **Urban**.
 
 ![captura de ecrã a mostrar a página de relatório filtrada para Urban](media/end-user-buttons/power-bi-urban.png)
 
@@ -53,23 +53,23 @@ Ao selecionar o botão marcador, o Power BI leva-o à localização e às defini
 ## <a name="drillthrough-buttons"></a>Botões de Pormenorização
 Há duas maneiras de pormenorizar no serviço Power BI. A Pormenorização leva-o a uma página de relatório diferente e os dados dessa página de destino são apresentados de acordo com os filtros e seleções que fez na página de origem.
 
-Uma maneira de pormenorizar num relatório é clicar com o botão direito do rato num ponto de dados num elemento visual, selecionar **Pormenorizar** e escolher o destino. Este método é descrito acima, na secção intitulada **Botões de retrocesso** . No entanto, por vezes os criadores de relatórios utilizam um *botão* de pormenorização, para tornar a ação mais óbvia e chamar a atenção para informações importantes.  
+Uma maneira de pormenorizar num relatório é clicar com o botão direito do rato num ponto de dados num elemento visual, selecionar **Pormenorizar** e escolher o destino. Este método é descrito acima, na secção intitulada **Botões de retrocesso**. No entanto, por vezes os criadores de relatórios utilizam um *botão* de pormenorização, para tornar a ação mais óbvia e chamar a atenção para informações importantes.  
 
 Os botões de pormenorização podem ter mais do que um pré‑requisito. A não ser que cumpra todos os pré‑requisitos, o botão não irá funcionar. Vejamos um exemplo.
 
-Aqui está um botão de pormenorização que nos irá levar à página *Store details* . Pairar o cursor sobre o botão revela uma descrição que nos informa de que precisamos de selecionar tanto uma loja como um produto. Até selecionarmos um de cada, o botão permanece inativo.
+Aqui está um botão de pormenorização que nos irá levar à página *Store details*. Pairar o cursor sobre o botão revela uma descrição que nos informa de que precisamos de selecionar tanto uma loja como um produto. Até selecionarmos um de cada, o botão permanece inativo.
 
 ![Captura de ecrã a mostrar o botão de pormenorização com a descrição visível.](media/end-user-buttons/power-bi-drill-two-selections.png)
 
-Agora que selecionámos um produto ( **Word** ), e uma loja ( **Leo** ), o botão muda de cor para nos informar que agora está ativo.
+Agora que selecionámos um produto (**Word**), e uma loja (**Leo**), o botão muda de cor para nos informar que agora está ativo.
 
 ![Captura de ecrã a mostrar o botão de pormenorização para Store details.](media/end-user-buttons/power-bi-select-both.png)
 
-A seleção do botão de pormenorização leva-nos à página de relatório *Store* . A página *Store* é filtrada para as nossas seleções de **Word** e **Leo** .
+A seleção do botão de pormenorização leva-nos à página de relatório *Store*. A página *Store* é filtrada para as nossas seleções de **Word** e **Leo**.
 
 ![Captura de ecrã a mostrar a página de relatórios das lojas.](media/end-user-buttons/power-bi-store.png)
 
-Os botões de pormenorização também podem ter menus pendentes que lhe oferecem uma seleção de destinos. Depois de ter feito as seleções na página do relatório de origem, selecione a página de relatório de destino para a pormenorização. No exemplo abaixo, estamos a mudar a nossa seleção para pormenorizar até chegar à página de relatório *Market details* . 
+Os botões de pormenorização também podem ter menus pendentes que lhe oferecem uma seleção de destinos. Depois de ter feito as seleções na página do relatório de origem, selecione a página de relatório de destino para a pormenorização. No exemplo abaixo, estamos a mudar a nossa seleção para pormenorizar até chegar à página de relatório *Market details*. 
 
 ![captura de ecrã a mostrar o menu pendente da pormenorização com múltiplos destinos](media/end-user-buttons/power-bi-destination.png)
 
