@@ -2,19 +2,19 @@
 title: Atualizar um conjunto de dados criado com base numa pasta de trabalho do Excel – local
 description: Atualizar um conjunto de dados criado com base numa pasta do Excel numa unidade local
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 11/28/2018
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ef9c39f6c00738718d88dd485430b150ad95ec50
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: d2dd08d087b8c4f878d9f74946c77e84dd8ba9e0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216347"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403956"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Atualizar um conjunto de dados criado com base numa pasta do Excel numa unidade local
 ## <a name="whats-supported"></a>O que tem suporte?

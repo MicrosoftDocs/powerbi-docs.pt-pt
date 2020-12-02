@@ -1,20 +1,20 @@
 ---
 title: Ligue-se ao Project Online com o Power BI
 description: Project Online para o Power BI
-author: SarinaJoan
+author: paulinbar
+ms.author: painbar
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 07/25/2019
-ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 99a8cf5081274f922d210a140d333814b80fd01f
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: e5d97da4d643512396a17e95fb7cae2e841d7521
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527752"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403289"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Ligar-se ao Project Web App com o Power BI
 O Microsoft Project Web App é uma solução online flexível para PPM (gestão de portefólios de projetos) e para o trabalho quotidiano. O Project Web App permite que as organizações comecem, atribuam prioridades a investimentos de portefólio de projetos e entreguem o valor comercial pretendido. A Aplicação de Modelos do Project Web App para o Power BI permite-lhe obter informações do Project Web App para ajudar na gestão de projetos, portefólios e recursos.

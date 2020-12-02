@@ -2,19 +2,19 @@
 title: Reduza o tamanho de um livro de trabalho do Excel para vê-lo no Power BI
 description: Reduza o tamanho de um livro de trabalho do Excel para vê-lo no Power BI
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/10/2019
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7755834f5d76392f7212073f958d3c4070dcaca7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9996b8e3f571a04dc41d138947532f3ab402057a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234770"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404094"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Reduza o tamanho de um livro de trabalho do Excel para vê-lo no Power BI
 Pode carregar qualquer livro do Excel inferior a 1 GB para o Power BI. Um livro de trabalho do Excel pode ter duas partes: um modelo de dados e o restante do relatório — conteúdo da folha de cálculo principal. Se o relatório corresponder aos seguintes limites de tamanho, pode guardá-lo no **OneDrive para Empresas**, ligando-o do Power BI e visualizando-o no Excel Online:

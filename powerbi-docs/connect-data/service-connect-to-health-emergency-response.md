@@ -2,18 +2,18 @@
 title: Ligar ao Hospital Emergency Response Decision Support Dashboard (Dashboard de Suporte de Decisões de Resposta de Emergência Hospitalar)
 description: Como obter e instalar a aplicação de modelo COVID-19 Decision Support Dashboard (Dashboard de Suporte de Decisões da COVID-19) para emergência hospitalar e como ligar aos dados
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/13/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4455a8da0af7ff928b81baf83245e66cdee578ea
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 823c8429c95a0b4d858540b2cf1183ca1c7caac7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854236"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403151"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Ligar ao Hospital Emergency Response Decision Support Dashboard (Dashboard de Suporte de Decisões de Resposta de Emergência Hospitalar)
 A aplicação de modelo Hospital Emergency Response Decision Support Dashboard (Dashboard de Suporte de Decisões de Resposta de Emergência Hospitalar) é o componente de relatórios da [solução Microsoft Power Platform para resposta de emergência hospitalar](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/). O dashboard mostra dados agregados de gestores de emergências em todo o sistema de saúde para os ajudar a tomar decisões oportunas e corretas.

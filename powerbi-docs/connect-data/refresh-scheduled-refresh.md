@@ -2,19 +2,19 @@
 title: Configurar a atualização agendada
 description: Isto inclui os passos para selecionar um gateway e configurar a atualização agendada.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/06/2019
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: c3846ba2e9a9fe083b6a3833237ffbc26b04842a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9298171a98837a6e8dd16cc89865770e7d88c8c2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235819"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403910"
 ---
 # <a name="configure-scheduled-refresh"></a>Configurar a atualização agendada
 

@@ -2,19 +2,19 @@
 title: Intercalar ou anexar origens de dados na cloud e no local
 description: Utilize o gateway de dados no local para intercalar ou anexar origens de dados no local e na cloud na mesma consulta.
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 07/15/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0e02b75bf7924e84f31265c22420e20ec0b17df3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4da44d0915b981c22b0c334fb5586b97c3b01ea2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237618"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402392"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Intercalar ou anexar origens de dados na cloud e no local
 

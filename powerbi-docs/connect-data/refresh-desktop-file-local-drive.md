@@ -2,19 +2,19 @@
 title: Refresh a dataset created from a Power BI Desktop file - local (Atualizar um conjunto de dados criado a partir de um ficheiro do Power BI Desktop – local)
 description: Atualizar um conjunto de dados criado com base num ficheiro do Power BI Desktop numa unidade local
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e3c0a702ccd1035a5f6019b6f439624fcd7c7267
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d836c8d85915332c58032cf535194ca5ce803567
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232946"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404025"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>Atualizar um conjunto de dados criado com base num ficheiro do Power BI Desktop numa unidade local
 

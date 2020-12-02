@@ -1,20 +1,20 @@
 ---
 title: Ligar a Azure Search ao Power BI
 description: Azure Search para Power BI
-author: SarinaJoan
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 08/29/2019
-ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 11389b5986d0dd627b0077808a74db5ab2769a65
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 5c2c5d3b6382fdb85125a71829d62624dab31e83
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216293"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403381"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Ligar a Azure Search ao Power BI
 A Análise de Tráfego do Azure Search permite que monitorize e compreenda o tráfego para o serviço de Azure Search. O pacote de conteúdos do Azure Search para o Power BI fornece informações detalhadas sobre os seus dados de pesquisa, incluindo Search, Indexação, Estado do Serviço e a Latência dos últimos 30 dias. Podem ser encontrados mais detalhes na [mensagem de blogue do Azure](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/).

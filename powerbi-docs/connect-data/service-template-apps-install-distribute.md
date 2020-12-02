@@ -2,18 +2,18 @@
 title: Instalar e distribuir aplicações de modelo na sua organização – Power BI
 description: Aprenda a instalar, personalizar e distribuir aplicações de modelo na sua organização com o Power BI.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.author: painbar
-ms.openlocfilehash: e152743c243e1af02650d919168dee0969e3a89e
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: b60728978a3429249d7376fdfe1477bf67ef293a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763780"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402001"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Instalar e distribuir aplicações de modelo na sua organização
 
