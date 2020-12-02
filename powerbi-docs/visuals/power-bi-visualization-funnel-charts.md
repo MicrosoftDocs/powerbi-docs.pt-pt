@@ -1,21 +1,21 @@
 ---
 title: Gráficos de funil
 description: Gráficos de funil no Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2719127825dc94f1f1bd83fe4d36dc47dfc355f7
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 3eae51d470fe2b25c5fdbb97f97ee6468900e32c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412907"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386197"
 ---
 # <a name="create-and-use-funnel-charts"></a>Criar e utilizar gráficos de funil
 
@@ -82,7 +82,7 @@ Agra crie o seu próprio gráfico de funil que mostra o número de oportunidades
 
 1. Selecione o ícone de funil ![ícone do gráfico de funil](media/power-bi-visualization-funnel-charts/power-bi-funnel-icon.png) para converter o gráfico de colunas num gráfico de funil.
 
-2. No painel **Campos** , selecione **Facto** \> **Contagem de Oportunidades**.
+2. No painel **Campos**, selecione **Facto** \> **Contagem de Oportunidades**.
    
     ![criação do gráfico de funil](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. Passar o rato por cima de uma barra mostra uma variedade de informações.

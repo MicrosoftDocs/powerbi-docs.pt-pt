@@ -9,11 +9,11 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/30/2020
 ms.openlocfilehash: 14b629eed17eca2d1e016913dcfffb5858d4ddc3
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132419"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120744"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Power BI Report Server
 
@@ -473,7 +473,7 @@ Adicionámos suporte para Elementos Visuais de Confiança ao Power BI Report Ser
 
 #### <a name="improved-security-features"></a>Funcionalidades de segurança melhoradas
 
-A propriedade **RestrictedResourceMimeTypeForUpload** , que os administradores podem utilizar para especificar uma lista separada por vírgulas dos tipos de MIME banidos, por exemplo texto/html.
+A propriedade **RestrictedResourceMimeTypeForUpload**, que os administradores podem utilizar para especificar uma lista separada por vírgulas dos tipos de MIME banidos, por exemplo texto/html.
 
 ## <a name="january-2019"></a>Janeiro de 2019
 
@@ -786,7 +786,7 @@ Agora, o Power BI Report Server suporta os novos visuais de tabelas e matrizes d
 - Pré-visualização do Power BI Report Server disponibilizada
 - Capacidade de publicar relatórios do Power BI no local
   - suporte para elementos visuais do Power BI
-  - Suporte apenas para * *ligações em direto ao Analysis Services* , com mais origens de dados brevemente disponíveis.
+  - Suporte apenas para **ligações em direto ao Analysis Services*, com mais origens de dados brevemente disponíveis.
   - Aplicação móvel Power BI Mobile atualizada para mostrar relatórios do Power BI armazenados no Power BI Report Server
 - Colaboração melhorada em relatórios com comentários
 

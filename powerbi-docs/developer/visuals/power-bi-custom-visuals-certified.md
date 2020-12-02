@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
+ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: 8dd6a33ab19e692d9dc04138d53b04e8e49da2bf
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: bbca1802b1136c4e9e16e70ab87ab7554612c037
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049183"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386715"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Certificar um elemento visual do Power BI
 
@@ -56,10 +56,10 @@ Para compreender o aspeto de um repositório de elementos visuais do Power BI, 
 Utilize a versão mais recente da API para escrever o elemento visual do Power BI.
 
 O repositório deve incluir os seguintes ficheiros:
-* **.gitignore** – adicione `node_modules`, `.tmp` e `dist` a este ficheiro. Este código não pode incluir as pastas *node_modules* , *.tmp* ou *dist* .
+* **.gitignore** – adicione `node_modules`, `.tmp` e `dist` a este ficheiro. Este código não pode incluir as pastas *node_modules*, *.tmp* ou *dist*.
 * **capabilities.json** – se estiver a submeter uma versão mais recente do elemento visual do Power BI com alterações às propriedades neste ficheiro, confirme que estas não danificam os relatórios dos utilizadores existentes.
 * **pbiviz.json** 
-* **package.json** . O elemento visual tem de ter o seguinte pacote instalado:
+* **package.json**. O elemento visual tem de ter o seguinte pacote instalado:
    * [“tslint”](https://www.npmjs.com/package/tslint) – versão 5.18.0 ou superior
    * [“typescript”](https://www.npmjs.com/package/typescript) – versão 3.0.0 ou superior
    * [“tslint-microsoftcontrib”](https://www.npmjs.com/package/tslint-microsoft-contrib) – versão 6.2.0 ou superior
@@ -111,9 +111,9 @@ Pode pedir que o elemento visual do Power BI seja certificado pela equipa do Po
 Para pedir a certificação do Power BI:
 
 1. Inicie sessão no Centro de Parceiros.
-2. Na **página Descrição geral** , escolha o elemento visual do Power BI e vá para a página de configuração do **Produto** .
-3. Marque a caixa de verificação **Pedir certificação do Power BI** .
-4. Na página **Rever e publicar** , na caixa de texto **Notas da certificação** , forneça uma ligação para o código fonte e as credenciais de acesso necessárias.
+2. Na **página Descrição geral**, escolha o elemento visual do Power BI e vá para a página de configuração do **Produto**.
+3. Marque a caixa de verificação **Pedir certificação do Power BI**.
+4. Na página **Rever e publicar**, na caixa de texto **Notas da certificação**, forneça uma ligação para o código fonte e as credenciais de acesso necessárias.
 
 ### <a name="private-repository-submission-process"></a>Processo de submissão do repositório privado
 
@@ -147,7 +147,7 @@ Assim que um elemento visual do Power BI é certificado, obtém um destaque des
 
     ![Elemento visual do Power BI certificado na interface do Power BI](media/power-bi-custom-visuals-certified/certified-visual-blue.png)
 
-* Pode apresentar apenas elementos visuais do Power BI certificados ao selecionar a opção de filtro *Power BI Certificado* .
+* Pode apresentar apenas elementos visuais do Power BI certificados ao selecionar a opção de filtro *Power BI Certificado*.
 
 ## <a name="publication-timeline"></a>Linha cronológica de publicação
 

@@ -1,18 +1,19 @@
 ---
 title: Linha de base da segurança do Azure do Power BI
 description: A linha de base de segurança do Power BI proporciona diretrizes de procedimento e recursos para implementar as recomendações de segurança especificadas na Referência da Segurança do Azure.
-author: msmbaldwin
-ms.service: security
+author: mbaldwin
+ms.author: margoc
+ms.service: powerbi
+ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
-ms.author: mbaldwin
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: b0eb2906463efa95615fa76f3f7dda2a91ef126a
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 9e7aefba7a2e47fbf5249feaab3ac56057ac867c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95550571"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386269"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>Linha de base da segurança do Azure do Power BI
 

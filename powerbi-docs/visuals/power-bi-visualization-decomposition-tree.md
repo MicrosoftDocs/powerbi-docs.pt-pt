@@ -1,20 +1,20 @@
 ---
 title: Árvore de decomposição
 description: 'Tutorial: Criar uma visualização da árvore de decomposição no Power BI'
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: juluczni
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/10/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a8bc86217dac8f0c2b70e300f08b1667ee63568
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: fd4f984be74c0408eae5c476fa30994de55961a0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413091"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386372"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Criar e ver os elementos visuais da árvore de decomposição no Power BI
 
@@ -78,14 +78,14 @@ Pode utilizar as “Divisões de IA” para saber que dados deve observar. Estas
 
 A análise pode funcionar de duas formas, independentemente das suas preferências. O comportamento predefinido é o seguinte:
 
- - **Valor Alto** : considera todos os campos disponíveis e determina qual vai desagregar para obter o valor mais alto da medida que está a ser analisada.  
- - **Valor Baixo** : considera todos os campos disponíveis e determina qual vai desagregar para obter o valor mais baixo da medida que está a ser analisada.  
+ - **Valor Alto**: considera todos os campos disponíveis e determina qual vai desagregar para obter o valor mais alto da medida que está a ser analisada.  
+ - **Valor Baixo**: considera todos os campos disponíveis e determina qual vai desagregar para obter o valor mais baixo da medida que está a ser analisada.  
 
 Ao selecionar o **Valor Alto** no exemplo das encomendas em atraso, acontece o seguinte:
 
 ![Divisão de IA da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
 
-É apresentada uma lâmpada ao lado de **Tipo de Produto** a indicar que foi uma “Divisão de IA”. A árvore também fornece uma linha pontilhada que recomenda o nó **Monitorização do Paciente** , uma vez que tal produz o valor mais alto das encomendas em atraso (9,2%). 
+É apresentada uma lâmpada ao lado de **Tipo de Produto** a indicar que foi uma “Divisão de IA”. A árvore também fornece uma linha pontilhada que recomenda o nó **Monitorização do Paciente**, uma vez que tal produz o valor mais alto das encomendas em atraso (9,2%). 
 
 Coloque o rato sobre a lâmpada para ver uma descrição. Neste exemplo, a descrição é “A % das encomendas em atraso é mais alta quando o Tipo de Produto é Monitorização do Paciente”.
 
@@ -97,7 +97,7 @@ O modo Relativo procura valores altos que se destacam (em comparação com o res
 
 Na captura de ecrã acima, podemos ver as vendas de jogos de vídeo na América do Norte. Primeiro, dividimos a árvore por **Nome da Editora** e, em seguida, desagregamos para Nintendo. A seleção de **Valor Alto** resulta na expansão de **Plataforma > Nintendo**. Como a Nintendo (a editora) apenas cria jogos para consolas da sua marca, há apenas um valor presente e, portanto, esse é naturalmente o valor mais alto.
 
-No entanto, uma divisão mais interessante seria examinar em que valor alto se destaca em relação a outros valores na mesma coluna. Se alterarmos o tipo de Análise de **Absoluta** para **Relativa** , obteremos o seguinte resultado para a Nintendo: ![Divisão relativa da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-ai-relative.png)
+No entanto, uma divisão mais interessante seria examinar em que valor alto se destaca em relação a outros valores na mesma coluna. Se alterarmos o tipo de Análise de **Absoluta** para **Relativa**, obteremos o seguinte resultado para a Nintendo: ![Divisão relativa da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-ai-relative.png)
 
 Desta vez, o valor recomendado é **Plataforma em Género de Jogo**.  A plataforma não produz um valor absoluto mais alto do que a Nintendo (19 950 000 $ vs. 46 950 000 $). No entanto, é um valor que se destaca.
 
@@ -115,7 +115,7 @@ O que se traduz em:
 vs.  
 46 950 000/(46 950 000/1) = 1x  
 
-Se preferir não utilizar as divisões de IA na árvore, poderá desativá-las nas opções **Formatação da análise** :  
+Se preferir não utilizar as divisões de IA na árvore, poderá desativá-las nas opções **Formatação da análise**:  
 
 ![Desativação das divisões de IA da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-ai-disable.png)
 
