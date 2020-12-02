@@ -1,20 +1,20 @@
 ---
 title: Relatórios paginados no serviço Power BI
 description: Documentação a descrever os relatórios paginados e como visualizá-los no serviço Power BI
-author: mihart
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: christopher.finlan
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/11/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 15482b575d7fc923059964ea47a173fda6c7f600
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 2be1c325d876c944c31d62a67771308d80dca69d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983268"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390524"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Relatórios paginados no serviço Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "91983268"
 
 Aprendeu sobre os [relatórios do Power BI](end-user-reports.md) e esses são os tipos de relatórios que provavelmente irá encontrar. Os relatórios do Power BI estão otimizados para a exploração e a interatividade. Os relatórios do Power BI constituiriam uma melhor solução no caso dos relatórios de vendas em que os diferentes vendedores pretendem segmentar os dados no mesmo relatório pela sua região/indústria/cliente específicos e ver como os números se alteram.
 
-No entanto, existe outro tipo de relatório chamado *relatório paginado* . Para receber e ver relatórios paginados, precisa de uma licença do Power BI Pro para o relatório a guardar na capacidade Premium.  [Saiba mais sobre as licenças](end-user-license.md).  
+No entanto, existe outro tipo de relatório chamado *relatório paginado*. Para receber e ver relatórios paginados, precisa de uma licença do Power BI Pro para o relatório a guardar na capacidade Premium.  [Saiba mais sobre as licenças](end-user-license.md).  
 
 ## <a name="identify-a-paginated-report"></a>Identificar um relatório paginado
 
@@ -39,7 +39,7 @@ Os relatórios paginados são melhores para os cenários que exigem uma saída d
 
 ## <a name="how-do-paginated-reports-work"></a>Como funcionam os relatórios paginados?
 
-Quando os *designers* de relatórios criam um relatório paginado, estão na realidade a criar uma *definição do relatório* . ou seja, não contém os dados, especifica onde obter os dados, quais os dados a obter e como apresentar os dados. Quando executar o relatório, o processador do relatório utiliza a definição do relatório, obtém os dados e combina-os com o esquema de relatório para gerar o relatório. Por vezes, o relatório apresenta dados predefinidos. Outras vezes, tem de introduzir parâmetros para que o relatório possa apresentar dados. 
+Quando os *designers* de relatórios criam um relatório paginado, estão na realidade a criar uma *definição do relatório*. ou seja, não contém os dados, especifica onde obter os dados, quais os dados a obter e como apresentar os dados. Quando executar o relatório, o processador do relatório utiliza a definição do relatório, obtém os dados e combina-os com o esquema de relatório para gerar o relatório. Por vezes, o relatório apresenta dados predefinidos. Outras vezes, tem de introduzir parâmetros para que o relatório possa apresentar dados. 
 
 Selecione um relatório paginado para o abrir no serviço Power BI. Se tiver parâmetros, precisará de os selecionar para poder ver o relatório.
 
@@ -47,7 +47,7 @@ Selecione um relatório paginado para o abrir no serviço Power BI. Se tiver par
 
 Normalmente, a interação limita-se a isso: definir os parâmetros. Se for analista de faturação, pode utilizar relatórios paginados para criar ou imprimir faturas. Se for um gestor de vendas, pode utilizar relatórios paginados para ver as encomendas por loja ou vendedor. 
 
-Este relatório paginado simples gera lucro por ano, após selecionar o parâmetro **Year** . 
+Este relatório paginado simples gera lucro por ano, após selecionar o parâmetro **Year**. 
 
 ![Relatório simples de um parâmetro](./media/end-user-paginated-report/power-bi-one-parameter.png)
 
@@ -74,7 +74,7 @@ Neste relatório de nota de venda, existem três parâmetros: Business type, Res
 
 ![relatório com três parâmetros](./media/end-user-paginated-report/power-bi-parameter-bar.png)
 
-Para alterar as informações a serem apresentadas, introduza novos valores para os três parâmetros e selecione **Ver relatório** . Aqui, selecionámos **Specialty bike shop** , **Alpine Ski House** e o número da encomenda **SO46085** . Selecionar **Ver relatório** atualiza a nossa tela de relatórios com esta nova nota de venda.
+Para alterar as informações a serem apresentadas, introduza novos valores para os três parâmetros e selecione **Ver relatório**. Aqui, selecionámos **Specialty bike shop**, **Alpine Ski House** e o número da encomenda **SO46085**. Selecionar **Ver relatório** atualiza a nossa tela de relatórios com esta nova nota de venda.
 
 ![alterar os parâmetros](./media/end-user-paginated-report/power-bi-orders.png)
 
@@ -100,7 +100,7 @@ Quando subscreve um relatório paginado, o Power BI envia-lhe um e-mail com o re
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 
-- Um relatório paginado pode aparecer em branco até selecionar parâmetros e selecionar **Ver relatório** .
+- Um relatório paginado pode aparecer em branco até selecionar parâmetros e selecionar **Ver relatório**.
 
 - Se não tiver relatórios paginados, pode ser porque ninguém partilhou este tipo de relatório consigo. Também pode significar que o administrador do sistema não ativou os relatórios paginados. 
 

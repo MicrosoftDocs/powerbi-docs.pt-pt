@@ -1,25 +1,25 @@
 ---
 title: Funcionalidades para consumidores do Power BI no serviço Power BI
 description: Neste guia de início rápido, os **consumidores** irão ficar a saber mais sobre o Power BI, as aplicações, os relatórios e os dashboards.
+author: mihart
+ms.author: mihart
 services: powerbi
 documentationcenter: ''
-author: mihart
 ms.reviewer: mihart
 editor: ''
 tags: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/30/2020
-ms.author: mihart
-ms.openlocfilehash: fbff6f202d6bdd3a4bffc031f23399869f08bc5c
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: ff5ffe959372952841cc41d92624b27f2d958f62
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780546"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390179"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-business-users"></a>Guia de Início Rápido: saiba mais sobre as funcionalidades do Power BI para *utilizadores empresariais*
 
