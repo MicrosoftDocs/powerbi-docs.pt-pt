@@ -2,30 +2,30 @@
 title: Tipos de elementos visuais no Power BI para utilizadores empresariais
 description: Tipos de elementos visuais no serviço Power BI
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/07/2020
-ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6d2ded8060ebe663989fd4f91fc22e4163f60c93
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: e944cabc72e60825f286fd86e96257a780b121b6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830672"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399218"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de elementos visuais no Power BI
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-Os elementos visuais (também conhecidos como *gráficos* e *visualizações* ) são representações de imagens dos dados. Alguns exemplos comuns são gráficos de colunas, mapas, gráficos de dispersão e medidores radiais. Encontrará elementos visuais em relatórios, dashboards e Perguntas e Respostas.
+Os elementos visuais (também conhecidos como *gráficos* e *visualizações*) são representações de imagens dos dados. Alguns exemplos comuns são gráficos de colunas, mapas, gráficos de dispersão e medidores radiais. Encontrará elementos visuais em relatórios, dashboards e Perguntas e Respostas.
 
 Os elementos visuais descritos nesta página são os que estão empacotados no Power BI. Estes são os tipos de elementos visuais que encontrará com mais frequência. Esta página dá-lhe uma descrição geral rápida destes elementos visuais pré-empacotados. Para obter informações detalhadas sobre algum destes elementos visuais, veja [Documentação sobre os tipos de elementos visuais para *designers* de relatórios do Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
-Os elementos visuais que não são incluídos automaticamente no Power BI são referidos como *elementos visuais personalizados* . Os elementos visuais personalizados podem ser importados para o Power BI a partir de sites externos, como o Microsoft AppSource, ou de origens internas, como a sua loja organizacional. A importação de elementos visuais personalizados requer permissões de edição do relatório. Para saber mais sobre estes elementos visuais adicionais, visite [Elementos visuais personalizados no Power BI](../developer/visuals/power-bi-custom-visuals.md).
+Os elementos visuais que não são incluídos automaticamente no Power BI são referidos como *elementos visuais personalizados*. Os elementos visuais personalizados podem ser importados para o Power BI a partir de sites externos, como o Microsoft AppSource, ou de origens internas, como a sua loja organizacional. A importação de elementos visuais personalizados requer permissões de edição do relatório. Para saber mais sobre estes elementos visuais adicionais, visite [Elementos visuais personalizados no Power BI](../developer/visuals/power-bi-custom-visuals.md).
 
 
 
@@ -110,7 +110,7 @@ Os medidores radiais são uma ótima opção para:
 
 Um gráfico de principais influenciadores apresenta os maiores contribuidores para um determinado resultado ou valor.
 
-Os principais influenciadores são uma ótima opção para ajudá-lo a compreender os fatores que influenciam uma métrica principal. Por exemplo, *o que influencia os clientes a fazer uma segunda encomenda *ou* por que é que as vendas foram tão altas no último mês de junho* . 
+Os principais influenciadores são uma ótima opção para ajudá-lo a compreender os fatores que influenciam uma métrica principal. Por exemplo, *o que influencia os clientes a fazer uma segunda encomenda *ou* por que é que as vendas foram tão altas no último mês de junho*. 
 
 ### <a name="kpis"></a>KPIs
 ![kpi](media/end-user-visual-type/power-bi-kpi.png)
@@ -266,7 +266,7 @@ Os gráficos de cascata são uma ótima opção:
 Ao escrever consultas em linguagem natural com as Perguntas e Respostas do Power BI, pode especificar o tipo de elemento visual na consulta.  Por exemplo:
 
 
-“ ***vendas por estado como um treemap*** ”
+“***vendas por estado como um treemap***”
 
 ![sessão de perguntas e respostas](media/end-user-visual-type/qa-treemap.png)
 

@@ -1,21 +1,21 @@
 ---
 title: Interagir com um mapa ArcGIS que foi partilhado consigo
 description: Utilizar um Mapa ArcGIS de um elemento visual do Power BI na vista de leitura como utilizador de relatórios
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: willt, lukasz
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7b81ecbc23418fec4bd264e5cb20126f871c7e52
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 33065a518f99cf7be6c8ea494088440e7ab45474
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413125"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397953"
 ---
 # <a name="create-arcgis-maps-in-power-bi"></a>Criar mapas do ArcGIS no Power BI
 
@@ -66,14 +66,14 @@ Para adicionar um mapa a um relatório, siga estes passos:
 
     ![Início de sessão no ArcGIS](media/power-bi-visualizations-arcgis/arcgis-tutorial-03.png)
 
-3. No painel **Campos** , arraste um campo de dados para o campo **Localização** ou arraste as coordenadas para os registos **Latitude** e/ou **Longitude** adequados. Neste exemplo, estamos a utilizar **Store > City** (Loja > Cidade).
+3. No painel **Campos**, arraste um campo de dados para o campo **Localização** ou arraste as coordenadas para os registos **Latitude** e/ou **Longitude** adequados. Neste exemplo, estamos a utilizar **Store > City** (Loja > Cidade).
 
     > [!NOTE]
     > O ArcGIS Maps for Power BI deteta automaticamente se a visualização dos campos que selecionou é melhor como uma forma ou um ponto num mapa. Pode ajustar a predefinição nas definições (veja [Formatar a visualização do ArcGIS Maps for Power BI](#format-the-arcgis-maps-for-power-bi-visualization)).
 
     ![Campo Cidade do ArcGIS](media/power-bi-visualizations-arcgis/arcgis-tutorial-04.png)
 
-4. No painel **Campos** , arraste uma medida para o registo **Tamanho** , para ajustar a forma como os dados são apresentados. Neste exemplo, estamos a utilizar **Sales > Last Year Sales** (Vendas > Vendas do Último Ano).
+4. No painel **Campos**, arraste uma medida para o registo **Tamanho**, para ajustar a forma como os dados são apresentados. Neste exemplo, estamos a utilizar **Sales > Last Year Sales** (Vendas > Vendas do Último Ano).
 
     ![Campo de tamanho do ArcGIS](media/power-bi-visualizations-arcgis/arcgis-tutorial-05.png)
 
@@ -81,7 +81,7 @@ Criou o seu primeiro mapa do ArcGIS Maps for Power BI. Agora, vamos refinar e fo
 
 ## <a name="format-the-arcgis-maps-for-power-bi-visualization"></a>Formatar a visualização do ArcGIS Maps for Power BI
 
-Para aceder às funcionalidades de formatação do **ArcGIS Maps for Power BI** :
+Para aceder às funcionalidades de formatação do **ArcGIS Maps for Power BI**:
 
 1. No painel Visualizações, clique no separador **Formatar** para ver as opções de formatação.
 
@@ -114,7 +114,7 @@ As ferramentas de mapa podem ser expandidas para mostrar as funcionalidades disp
 
 #### <a name="change-the-base-map"></a>Alterar o mapa base
 
-Um mapa base proporciona um fundo, ou um contexto visual, para os dados num mapa. Por exemplo, um mapa base a mostrar as ruas pode disponibilizar contexto para os dados de endereço. Com a conta **Standard** , são disponibilizados quatro mapas base: Tela Cinzento Escuro, Tela Cinzento Claro, OpenStreetMap e Streets.
+Um mapa base proporciona um fundo, ou um contexto visual, para os dados num mapa. Por exemplo, um mapa base a mostrar as ruas pode disponibilizar contexto para os dados de endereço. Com a conta **Standard**, são disponibilizados quatro mapas base: Tela Cinzento Escuro, Tela Cinzento Claro, OpenStreetMap e Streets.
 
 Para alterar o mapa base, siga estes passos:
 
@@ -174,7 +174,7 @@ O painel Simbologia é apresentado, com a categoria Tema do mapa expandida.
 
 ##### <a name="change-the-map-theme"></a>Alterar o tema do mapa
 
-Neste exemplo, como adicionámos valores aos campos **Localização** e **Tamanho** , o mapa utiliza o tema **Tamanho** por predefinição.
+Neste exemplo, como adicionámos valores aos campos **Localização** e **Tamanho**, o mapa utiliza o tema **Tamanho** por predefinição.
 
 Para alterar o tema do mapa, siga estes passos:
 
@@ -192,7 +192,7 @@ Se o mapa tiver várias camadas, poderá ser útil compor camadas com algum nív
 
 Para definir o valor de transparência para a camada, siga estes passos:
 
-1. No painel **Simbologia** , expanda a categoria **Transparência**.
+1. No painel **Simbologia**, expanda a categoria **Transparência**.
 
 2. Introduza uma percentagem na caixa de texto ou mova o controle de deslize para a esquerda (menos transparente) ou para a direita (mais transparente).
 
@@ -202,7 +202,7 @@ Os estilos do símbolo permitem-lhe ajustar a forma como os dados são apresenta
 
 Para alterar o estilo de símbolo, siga estes passos:
 
-1. No painel **Simbologia** , expanda a categoria **Estilo do símbolo**.
+1. No painel **Simbologia**, expanda a categoria **Estilo do símbolo**.
 
 2. Altere as definições do símbolo conforme desejado. Escolha uma forma, cor, transparência, cor de contorno, espessura e transparência para o símbolo. Expanda a categoria Tamanho do símbolo para alterar estas opções; são apresentadas opções diferentes dependendo da natureza dos dados e do tema do mapa selecionado.
 
@@ -232,7 +232,7 @@ Para apresentar as ferramentas de seleção, siga estes passos:
 
 1. Nas ferramentas de mapa, clique no botão **Ferramentas de seleção** ![ferramentas de seleção](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-07.png) para expandir o conjunto de ferramentas.
 
-    Há quatro ferramentas de seleção disponíveis. Podem ser apresentadas ferramentas diferentes no menu **Ferramentas de seleção** , dependendo do tipo de camada que está atualmente ativa. Como o mapa neste exemplo contém apenas uma camada de dados, sé são apresentadas as ferramentas **Seleção única** e **Seleção de caixa**.
+    Há quatro ferramentas de seleção disponíveis. Podem ser apresentadas ferramentas diferentes no menu **Ferramentas de seleção**, dependendo do tipo de camada que está atualmente ativa. Como o mapa neste exemplo contém apenas uma camada de dados, sé são apresentadas as ferramentas **Seleção única** e **Seleção de caixa**.
     
     | **Ferramenta** | **Descrição** |
     | --- | --- |
@@ -280,7 +280,7 @@ Para adicionar uma camada de dados demográficos, siga estes passos:
 1. Nas ferramentas de mapa, clique no botão **Ferramentas de análise** ![ícone de ferramentas de análise](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-12.png) para expandir o conjunto de ferramentas.
 2. Clique no botão **Camada de referência** ![seleção da camada de referência](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-13.png).
 
-    É apresentado o painel **Camada de referência** , a mostrar o separador **Dados demográficos** e a seleção de camadas.
+    É apresentado o painel **Camada de referência**, a mostrar o separador **Dados demográficos** e a seleção de camadas.
 
 3. Percorra a galeria e clique em **Adicionar** na miniatura da camada que quer adicionar ao mapa.
 
@@ -327,7 +327,7 @@ Para encontrar localizações numa distância de condução especificada do pont
     É apresentado o painel **Tempo de condução**.
 
 3. Clique na ferramenta de seleção única e, no mapa, selecione a localização **Aeroporto Internacional de Pittsburgh** que foi afixada anteriormente.
-4. No menu pendente **Área de pesquisa** , escolha **Raio** e especifique uma distância de **150**  km.
+4. No menu pendente **Área de pesquisa**, escolha **Raio** e especifique uma distância de **150** km.
 5. Clique em **OK**.
 
     O mapa mostra um círculo ao redor da localização do aeroporto afixada. O painel Tempo de condução expande-se para mostrar as opções de estilo da área de distância de condução.
@@ -354,7 +354,7 @@ Para aceder à ajuda online do ArcGIS Maps for Power BI a partir da visualizaç
 
 1. Nas ferramentas de mapa, clique no botão **Definições** ![ícone de definições](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-15.png).
 
-2. No painel **Definições** , clique no botão **Ajuda**.
+2. No painel **Definições**, clique no botão **Ajuda**.
 3. Clique em **OK** na janela de confirmação apresentada.
 
     A ajuda online do ArcGIS Maps for Power BI é aberta numa janela do browser.

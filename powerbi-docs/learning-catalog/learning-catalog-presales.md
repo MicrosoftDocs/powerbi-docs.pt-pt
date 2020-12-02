@@ -2,20 +2,20 @@
 title: Catálogo de aprendizagem para pré-vendas de parceiros
 description: Descubra todas as opções de formação do Power Apps para especialistas de pré-vendas, desde as mais básicas à mais avançadas.
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: bdc42b263e274983e5bcf85dde4d733c94d5d82d
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 8364e0a795aff5821d67b314b569bb0292c80ea3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747695"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398275"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Catálogo de aprendizagem para pré-vendas de parceiros
 
-É responsável por demonstrar as funcionalidades principais aos clientes? 
+É responsável por demonstrar as funcionalidades principais aos clientes? 
 
 O seguinte catálogo está organizado do conhecimento básico aos domínios específicos e do mais básico ao mais avançado. Se o conteúdo existir em vários formatos, será informado, para que possa escolher o formato de formação que melhor satisfaz as suas necessidades.
 

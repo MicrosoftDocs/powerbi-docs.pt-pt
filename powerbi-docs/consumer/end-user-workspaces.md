@@ -2,26 +2,26 @@
 title: Como os conteúdos são organizados nas áreas de trabalho
 description: Saiba mais sobre áreas de trabalho e funções da área de trabalho
 author: mihart
+ms.author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: 7e16b01508b74b8a91cc956be8a2942b2c0e89bc
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 2341306672da4c1923dc5bc97f0d1537604a1a7c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983766"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398712"
 ---
 # <a name="collaborate-in-workspaces"></a>Colaborar em áreas de trabalho
 
- As *áreas de trabalho* são locais onde colabora com os colegas sobre conteúdos específicos. As áreas de trabalho são criadas pelos *designers* do Power BI para incluírem coleções de dashboards e relatórios. O designer pode partilhar a área de trabalho com colegas. Os designers também podem agrupar uma coleção de dashboards e relatórios numa *aplicação* e distribuí-la por toda a comunidade, pela respetiva organização ou por pessoas ou grupos específicos. Determinados tipos de aplicações, chamadas *aplicações de modelo* , criam uma área de trabalho quando a aplicação é instalada. [Saiba mais sobre aplicações](end-user-apps.md). 
+ As *áreas de trabalho* são locais onde colabora com os colegas sobre conteúdos específicos. As áreas de trabalho são criadas pelos *designers* do Power BI para incluírem coleções de dashboards e relatórios. O designer pode partilhar a área de trabalho com colegas. Os designers também podem agrupar uma coleção de dashboards e relatórios numa *aplicação* e distribuí-la por toda a comunidade, pela respetiva organização ou por pessoas ou grupos específicos. Determinados tipos de aplicações, chamadas *aplicações de modelo*, criam uma área de trabalho quando a aplicação é instalada. [Saiba mais sobre aplicações](end-user-apps.md). 
 
- Todos os que utilizam o serviço Power BI também têm uma **A minha área de trabalho** .  A minha área de trabalho é o seu sandbox pessoal onde pode criar conteúdos para si mesmo.
+ Todos os que utilizam o serviço Power BI também têm uma **A minha área de trabalho**.  A minha área de trabalho é o seu sandbox pessoal onde pode criar conteúdos para si mesmo.
 
  Pode ver as suas áreas de trabalho no Power BI **Home Page** ou ao selecionar **Áreas de Trabalho** a partir do seu painel de navegação.
 
@@ -38,10 +38,10 @@ A área de trabalho Vendas de figos abaixo contém três relatórios e um dashbo
 
 ## <a name="permissions-in-the-workspaces"></a>Permissões nas áreas de trabalho
 
-As permissões de acesso determinam as ações que pode fazer numa área de trabalho, para que as equipas possam colaborar.  Ao conceder acesso a uma nova área de trabalho, os *designers* adicionam indivíduos ou grupos a uma das funções da área de trabalho: **Visualizador** , **Membro** , **Contribuidor** ou **Administrador** . 
+As permissões de acesso determinam as ações que pode fazer numa área de trabalho, para que as equipas possam colaborar.  Ao conceder acesso a uma nova área de trabalho, os *designers* adicionam indivíduos ou grupos a uma das funções da área de trabalho: **Visualizador**, **Membro**, **Contribuidor** ou **Administrador**. 
 
 
-Enquanto *utilizador empresarial* do Power BI, irá normalmente interagir nas áreas de trabalho com a função **Visualizador** . No entanto, um *designer* também poderia atribuir-lhe a função de **Membro** ou **Contribuidor** . A função Visualizador permite-lhe ver e interagir com os conteúdos (dashboards, relatórios, aplicações) criados por outros e partilhados consigo. Além disso, como a função Visualizador não consegue aceder ao conjunto de dados subjacente, é uma forma segura de interagir com os conteúdos e não ter de se preocupar com a possibilidade de "danificar" os dados subjacentes.
+Enquanto *utilizador empresarial* do Power BI, irá normalmente interagir nas áreas de trabalho com a função **Visualizador**. No entanto, um *designer* também poderia atribuir-lhe a função de **Membro** ou **Contribuidor**. A função Visualizador permite-lhe ver e interagir com os conteúdos (dashboards, relatórios, aplicações) criados por outros e partilhados consigo. Além disso, como a função Visualizador não consegue aceder ao conjunto de dados subjacente, é uma forma segura de interagir com os conteúdos e não ter de se preocupar com a possibilidade de "danificar" os dados subjacentes.
 
 
 Para obter uma lista detalhada do que pode fazer como *utilizador empresarial* com a função Visualizador, veja [funcionalidades do Power BI para utilizadores empresariais](end-user-features.md).
