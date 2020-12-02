@@ -2,19 +2,19 @@
 title: 'Exemplo de Vendas e Marketing do Power BI: veja uma apresentação'
 description: 'Exemplo de Vendas e Marketing do Power BI: veja uma apresentação'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 95f9ebd689f06fcacde9819789e1240f2dd6c3d3
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: bf24a42e49585fb560fcddec316ab8f218878f86
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92025985"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395699"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Exemplo de Vendas e Marketing do Power BI: veja uma apresentação
 
@@ -40,12 +40,12 @@ Para poder utilizar o exemplo, primeiro tem de transferir o [dashboard, o relat�
 
    Se não tiver uma licença do Power BI Pro, pode guardar o exemplo em A Minha Área de Trabalho.
 
-2. No canto inferior esquerdo, selecione **Obter Dados** .
+2. No canto inferior esquerdo, selecione **Obter Dados**.
    
    ![Selecionar Obter Dados](media/sample-datasets/power-bi-get-data.png)
-3. Na página **Obter Dados** apresentada, selecione **Exemplos** .
+3. Na página **Obter Dados** apresentada, selecione **Exemplos**.
    
-4. Selecione o **Exemplo de Vendas e Marketing** e, em seguida, selecione **Ligar** .   
+4. Selecione o **Exemplo de Vendas e Marketing** e, em seguida, selecione **Ligar**.   
   
    ![Ligar ao exemplo](media/sample-sales-and-marketing/sales9.png)
    
@@ -59,16 +59,16 @@ Em alternativa, pode transferir o exemplo de Vendas e Marketing como um [ficheir
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
 
-Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529785). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir** . Para ativar os suplementos do Power View e do Power Pivot, veja [Explorar os exemplos do Excel](sample-datasets.md#explore-excel-samples-inside-excel) para obter detalhes.
+Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529785). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos do Power View e do Power Pivot, veja [Explorar os exemplos do Excel](sample-datasets.md#explore-excel-samples-inside-excel) para obter detalhes.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O que nos diz o nosso dashboard?
 Vamos começar a nossa representação no dashboard e examinar os mosaicos que o CMO decidiu afixar. Podemos ver informações sobre a nossa participação no mercado, vendas e sensibilidade. Os dados estão divididos por região, hora e concorrência.
 
 * Os mosaicos de número na coluna esquerda mostram o volume de vendas do setor no ano passado (50 mil), a quota de mercado (32,86%), o volume de vendas (16 mil), a pontuação de sentimento (68), o intervalo de sentimento (4) e o total de unidades vendidas (1 milhão).
 * O gráfico de linhas superior ( **% Units Market Share vs. % Units Market Share Rolling 12 Months** [% de Quota de Mercado em Unidades vs. % de Quota de Mercado em Unidades dos Últimos 12 Meses]) mostra como a nossa quota de mercado flutua ao longo do tempo. Observe a grande queda em junho. A nossa quota nos últimos 12 meses (R12M), que vinha aumentando, está agora a começar a cair.
-* O nosso principal concorrente é a Aliqui, como é evidente no mosaico de gráfico de colunas do meio ( **Total Units YTD Variance %** [% de Variância de Total de Unidades Ano Até à Data]).
+* O nosso principal concorrente é a Aliqui, como é evidente no mosaico de gráfico de colunas do meio (**Total Units YTD Variance %** [% de Variância de Total de Unidades Ano Até à Data]).
 * A maioria dos nossos negócios está nas regiões leste e central.
-* O gráfico de linhas na parte inferior ( **Total Units for 2014** [Total de Unidades para 2014]) mostra que a nossa queda em junho não é sazonal; nenhum dos nossos concorrentes mostra a mesma tendência.
+* O gráfico de linhas na parte inferior (**Total Units for 2014** [Total de Unidades para 2014]) mostra que a nossa queda em junho não é sazonal; nenhum dos nossos concorrentes mostra a mesma tendência.
 * Os mosaicos **Total Units Overall** (Total de Unidades Gerais) e **Total Units YTD** (Total de Unidades Ano Até à Data) à direita mostram as unidades vendidas, por segmento e por região/fabricante. Os maiores segmentos de mercado para a nossa indústria são **Productivity** (Produtividade) e **Convenience** (Conveniência).
 
 ## <a name="use-qa-to-dig-a-little-deeper"></a>Utilizar o P e R para aprofundar
@@ -77,7 +77,7 @@ Ao utilizar as Perguntas e Respostas, pode descobrir detalhes adicionais nos dad
 
 ### <a name="which-segments-drive-our-sales-do-they-match-the-industry-trend"></a>Que segmentos conduzem as nossas vendas? Correspondem à tendência do setor?
 1. Selecione o mosaico **Total Units Overall por Segment** (Total de Unidades Gerais Por Segmento), que abre as Perguntas e Respostas e introduz a consulta, *total units by segment* (total de unidades por segmento).
-2. No final da consulta existente, adicione: *para VanArsdel* . O P e R interpreta a pergunta e apresenta um gráfico atualizado com a resposta. Repare que o nosso volume de produtos é proveniente, sobretudo, dos segmentos **Convenience** (Conveniência) e **Moderation** (Moderação).
+2. No final da consulta existente, adicione: *para VanArsdel*. O P e R interpreta a pergunta e apresenta um gráfico atualizado com a resposta. Repare que o nosso volume de produtos é proveniente, sobretudo, dos segmentos **Convenience** (Conveniência) e **Moderation** (Moderação).
 
    ![Pergunta nas Perguntas e Respostas: Total units por segment para VanArsdel](media/sample-sales-and-marketing/sales2.png)
 3. A nossa quota nas categorias **Moderation** (Moderação) e **Convenience** (Conveniência) é alta; é nestes segmentos que podemos concorrer.
@@ -87,7 +87,7 @@ Ao utilizar as Perguntas e Respostas, pode descobrir detalhes adicionais nos dad
 1. Observe o mosaico **Total Units YTD by Manufacturer, Region** (Total de Unidades Ano Até à Data por Fabricante, Região). Qual é o total da quota de mercado em unidades por categoria?
 
    ![Mosaico Total Units YTD by Manufacturer, Region (Total de Unidades Ano Até à Data por Fabricante, Região)](media/sample-sales-and-marketing/sales3.png)
-2. Selecione a caixa de perguntas na parte superior do dashboard e escreva a pergunta *total units por manufacturer e category para 2014 como um treemap* . Veja como a visualização é atualizada à medida que escreve a pergunta.
+2. Selecione a caixa de perguntas na parte superior do dashboard e escreva a pergunta *total units por manufacturer e category para 2014 como um treemap*. Veja como a visualização é atualizada à medida que escreve a pergunta.
 
    ![Pergunta nas Perguntas e Respostas: Total units por manufacturer e category](media/sample-sales-and-marketing/sales12.png)
 3. Para comparar as descobertas, afixe o gráfico até no dashboard. Observe este facto interessante: Em 2014, a VanArsdel vendeu apenas produtos na categoria **Urban** (Urbano).
@@ -110,17 +110,17 @@ A primeira página do relatório foca-se na quota de mercado da VanArsdel.
 
 2. Examine o gráfico de colunas **Total Units por Month e isVanArsdel** (Total de Unidades por Mês e isVanArsdel) na parte inferior do relatório. A coluna preta representa a VanArsdel (os nossos produtos) e a concorrência é apresentada na coluna verde. A queda em junho de 2014 que a VanArsdel teve não se verificou na concorrência.
 
-3. O gráfico de barras **Volume de Categoria Total por Segmento** , à direita, é filtrado para mostrar os dois principais segmentos da VanArsdel. Veja como este filtro foi criado:  
+3. O gráfico de barras **Volume de Categoria Total por Segmento**, à direita, é filtrado para mostrar os dois principais segmentos da VanArsdel. Veja como este filtro foi criado:  
 
    a. Selecione o gráfico **Total Category Volume por Segment** (Volume de Categoria Total por Segmento).
 
    b. Selecione o painel **Filtros** à direita para expandi-lo.  
 
-   c. Em **Filtros de nível visual** , repare que **Segment** (Segmento) é filtrado para incluir apenas os segmentos **Convenience** (Conveniência) e **Moderation** (Moderação).  
+   c. Em **Filtros de nível visual**, repare que **Segment** (Segmento) é filtrado para incluir apenas os segmentos **Convenience** (Conveniência) e **Moderation** (Moderação).  
 
    d. Modifique o filtro ao selecionar **Segment** (Segmento) para expandi-lo e **Productivity** (Produtividade) para adicionar esse segmento.  
 
-4. No gráfico **Total Units por Month e isVanArsdel** (Total de Unidades por Mês e isVanArsdel), selecione **Yes** (Sim) na legenda para a filtragem cruzada da página por VanArsdel. No gráfico **Volume de Categoria Total por Segmento** , observe que não competimos no segmento **Produtividade** .
+4. No gráfico **Total Units por Month e isVanArsdel** (Total de Unidades por Mês e isVanArsdel), selecione **Yes** (Sim) na legenda para a filtragem cruzada da página por VanArsdel. No gráfico **Volume de Categoria Total por Segmento**, observe que não competimos no segmento **Produtividade**.
 
 5. Selecione **Yes** (Sim) novamente na legenda para remover o filtro.
 
@@ -159,7 +159,7 @@ A quarta página do relatório foca-se na análise de produtos dos concorrentes.
 Repare nos seguintes detalhes:
 * O gráfico **Total de Unidades por Segmento** na parte inferior esquerda mostra todos os segmentos de categoria, exceto os dois segmentos mais fortes da VanArsdel. Selecione cada um dos segmentos, à vez, para identificar possíveis áreas de expansão para a VanArsdel. 
 * Repare que os segmentos **Extreme** (Extremo) e **Productivity** (Productivity) estão a crescer mais rapidamente do que outros. No entanto, não competimos nesses segmentos. Se quisermos mover para esses segmentos, poderemos utilizar os nossos dados para ver que segmentos são populares em determinadas regiões. Podemos ainda investigar questões como a região que está a crescer mais rapidamente e qual seria o nosso principal concorrente nesse segmento.
-* Lembra-se da queda da nossa participação de mercado em junho? Junho é um mês importante para o segmento **Produtividade** , um segmento no qual não competimos de todo. Este detalhe poderia ajudar a explicar a queda da nossa quota de mercado em junho.
+* Lembra-se da queda da nossa participação de mercado em junho? Junho é um mês importante para o segmento **Produtividade**, um segmento no qual não competimos de todo. Este detalhe poderia ajudar a explicar a queda da nossa quota de mercado em junho.
 
 Ao filtrar as visualizações por VanArsdel, por segmento, por mês e por região, podemos descobrir as oportunidades de crescimento para VanArsdel.
 

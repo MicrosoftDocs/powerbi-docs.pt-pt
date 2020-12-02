@@ -2,19 +2,19 @@
 title: 'Exemplo de Recursos Humanos: veja uma apresentação'
 description: 'Exemplo de Recursos Humanos do Power BI: veja uma apresentação'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/05/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0b663e9a43235b98907d496c2a6ad881ccc54edf
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 94cb0d7f5ac83220f3b37f878add4f5bfa2caaf6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349730"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395883"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Exemplo de Recursos Humanos do Power BI: veja uma apresentação
 

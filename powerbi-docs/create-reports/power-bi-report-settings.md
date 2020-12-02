@@ -2,19 +2,19 @@
 title: Alterar as definições de relatórios do Power BI
 description: Alterar as definições de relatórios no serviço Power BI
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: dd87501a6865b9ea450e3154ee2ac56e0710a067
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: dbb173c65ecfc5d1ca464387ed43ae615cdcbca1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92463087"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396182"
 ---
 # <a name="change-settings-for-power-bi-reports"></a>Alterar as definições de relatórios do Power BI
 
@@ -40,20 +40,20 @@ Pode ser útil ler estes artigos primeiro:
 
 ## <a name="open-the-settings-pane-in-power-bi-desktop"></a>Abrir o painel Definições no Power BI Desktop
 
-1. Selecione **Ficheiro** > **Opções e definições** > **Opções** .
-1. Em **Ficheiro atual** , selecione **Definições de relatório** .
+1. Selecione **Ficheiro** > **Opções e definições** > **Opções**.
+1. Em **Ficheiro atual**, selecione **Definições de relatório**.
 
-    :::image type="content" source="media/power-bi-report-settings/desktop-report-settings-pane.png" alt-text="Captura de ecrã a mostrar o painel Definições de relatório no serviço Power BI.":::
+    :::image type="content" source="media/power-bi-report-settings/desktop-report-settings-pane.png" alt-text="Captura de ecrã a mostrar o painel Definições de relatório no Power BI Desktop":::
 
     O resto do artigo aborda algumas das definições de relatório específicas.
 
 ## <a name="open-the-settings-pane-in-the-power-bi-service"></a>Abrir o painel Definições no serviço Power BI
 
-1. Na vista de leitura de relatórios, selecione **Ficheiro** > **Definições** .
+1. Na vista de leitura de relatórios, selecione **Ficheiro** > **Definições**.
 
-    :::image type="content" source="media/power-bi-report-settings/service-report-file-settings.png" alt-text="Captura de ecrã a mostrar o painel Definições de relatório no serviço Power BI.":::
+    :::image type="content" source="media/power-bi-report-settings/service-report-file-settings.png" alt-text="Captura de ecrã a mostrar o menu Ficheiro e a opção Definições.":::
 
-1. No painel **Definições** , verá vários botões que pode definir, apenas para este relatório. O resto do artigo aborda alguns deles.
+1. No painel **Definições**, verá vários botões que pode definir, apenas para este relatório. O resto do artigo aborda alguns deles.
 
 ## <a name="set-featured-content"></a>Definir conteúdo em destaque
 
@@ -61,9 +61,9 @@ Pode destacar dashboards, relatórios e aplicações de forma a serem apresentad
 
 ## <a name="set-the-pages-pane"></a>Definir o painel Páginas
 
-Atualmente, só pode alterar a definição do painel Páginas no serviço Power BI. Quando ativar o **painel Páginas** , os leitores do relatório veem os separadores da página do relatório na parte inferior do relatório na vista de leitura e não ao lado. Na vista de edição, os separadores da página do relatório já estão na parte inferior do relatório.
+Atualmente, só pode alterar a definição do painel Páginas no serviço Power BI. Quando ativar o **painel Páginas**, os leitores do relatório veem os separadores da página do relatório na parte inferior do relatório na vista de leitura e não ao lado. Na vista de edição, os separadores da página do relatório já estão na parte inferior do relatório.
 
-:::image type="content" source="media/power-bi-report-settings/report-settings-pages-pane.png" alt-text="Captura de ecrã a mostrar o painel Definições de relatório no serviço Power BI.":::
+:::image type="content" source="media/power-bi-report-settings/report-settings-pages-pane.png" alt-text="Captura de ecrã da definição do painel Páginas.":::
 
 ## <a name="control-filters"></a>Controlar filtros
 
@@ -78,7 +78,7 @@ O painel **Definições** do relatório tem três definições para controlar as
 
 ## <a name="export-data"></a>Exportar dados
 
-Por predefinição, [os leitores de relatórios podem exportar dados resumidos ou subjacentes ](../consumer/end-user-export.md) de elementos visuais no seu relatório. Com a opção **Exportar dados** , pode permitir que exportem apenas dados resumidos ou que não exportem dados do seu relatório.
+Por predefinição, [os leitores de relatórios podem exportar dados resumidos ou subjacentes ](../consumer/end-user-export.md) de elementos visuais no seu relatório. Com a opção **Exportar dados**, pode permitir que exportem apenas dados resumidos ou que não exportem dados do seu relatório.
 
 ## <a name="personalize-visuals"></a>Personalizar elementos visuais
 

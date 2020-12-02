@@ -1,20 +1,20 @@
 ---
 title: Utilizar gráficos de friso no Power BI
 description: Criar e consumir gráficos de friso no Power BI Desktop
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e89712dea5d9f932669141d8fe4129727166a342
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 9fea98f30403d9325ed2c6826418220cdd29ade8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413137"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397635"
 ---
 # <a name="create-ribbon-charts-in-power-bi"></a>Criar gráficos de friso no Power BI
 
@@ -49,7 +49,7 @@ Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](https:
 
     Os gráficos de friso ligam uma categoria de dados ao longo do período de tempo visualizado através de frisos, permitindo-lhe ver qual a classificação de uma determinada categoria ao longo do eixo X do gráfico (que é normalmente a linha cronológica).
 
-2. Selecione os campos para **Eixo** , **Legenda** e **Valor**.  Neste exemplo, selecionámos o seguinte: **Store** (Loja)  > **OpenDate** (Data de Abertura), **Item** > **Category** (Categoria) e **Sales** (Vendas) > **This year sales** (Vendas deste ano)  > **Value** (Valor).  
+2. Selecione os campos para **Eixo**, **Legenda** e **Valor**.  Neste exemplo, selecionámos o seguinte: **Store** (Loja)  > **OpenDate** (Data de Abertura), **Item** > **Category** (Categoria) e **Sales** (Vendas) > **This year sales** (Vendas deste ano)  > **Value** (Valor).  
 
     ![campos selecionados](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
 
@@ -67,7 +67,7 @@ Ao criar um gráfico de friso, tem opções de formatação disponíveis na sec�
 Estas opções de formatação para gráficos de friso permitem-lhe fazer ajustes.
 
 * **Espaçamento** permite-lhe ajustar a quantidade de espaço entre frisos. O número corresponde à percentagem da altura máxima da coluna.
-* **Coincidir cor de série** permite-lhe fazer corresponder a cor dos frisos à cor da série. Quando está definido como **desativado** , os frisos estão cinzentos.
+* **Coincidir cor de série** permite-lhe fazer corresponder a cor dos frisos à cor da série. Quando está definido como **desativado**, os frisos estão cinzentos.
 * **Transparência** especifica o grau de transparência dos frisos, com uma predefinição de 30.
 * **Limite** permite-lhe colocar um limite escuro nas partes superior e inferior dos frisos. Por predefinição, os frisos estão desativados.
 

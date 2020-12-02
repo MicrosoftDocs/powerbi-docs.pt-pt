@@ -2,20 +2,20 @@
 title: Utilizar as informações para localizar onde a distribuição é diferente (Pré-visualização)
 description: Obtenha informações facilmente para localizar onde uma distribuição vista num gráfico é diferente no Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3db27630da230ee1805386b039916181e993d412
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 86f369efe5cb5159cd2d073e411f52945c194691
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632532"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396642"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>Aplicar as informações no Power BI Desktop para detetar onde é que as distribuições variam (pré-visualização)
 
