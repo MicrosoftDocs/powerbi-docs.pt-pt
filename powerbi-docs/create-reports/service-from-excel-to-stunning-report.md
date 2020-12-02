@@ -2,19 +2,19 @@
 title: 'Tutorial: De um livro do Excel ao serviço Power BI ao Teams'
 description: Este artigo mostra-lhe como pode criar rapidamente um relatório impressionante no serviço Power BI através de livro do Excel e partilhá-lo no Teams.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
 ms.date: 07/30/2020
-ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ccf8b5fa8f1c4d18a25767ff11f035304b339de0
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: 99f562ee315a74c9de6765308272e5e33153c4f0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478136"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388868"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>Tutorial: De um livro do Excel a um relatório no serviço Power BI ao Microsoft Teams
 O seu gestor quer ver um relatório sobre as vendas e os lucros mais recentes até ao final do dia. No entanto, os dados mais recentes estão em vários sistemas e ficheiros de terceiros no seu portátil. Anteriormente, demorava várias horas a criar elementos visuais e a formatar um relatório e, por isso, começa a sentir algum nervosismo.

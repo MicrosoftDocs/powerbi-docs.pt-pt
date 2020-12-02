@@ -2,19 +2,19 @@
 title: Pin a tile from one dashboard to another dashboard (Afixar um mosaico de um dashboard a outro dashboard)
 description: Pin a tile from one dashboard to another dashboard (Afixar um mosaico de um dashboard a outro dashboard)
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/01/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: baf48e1cfa2bc37652880c9ab4201f2f49ff3c32
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 26da094f7ef7519d29faf4edea1574b6b15dddb1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218660"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388293"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Pin a tile from one dashboard to another dashboard (Afixar um mosaico de um dashboard a outro dashboard)
 Uma forma de adicionar um novo [mosaico de dashboard](../consumer/end-user-tiles.md) é copiando-o de outro dashboard. Ao clicar em cada um destes mosaicos, haverá uma ligação para onde foi criado – nas Perguntas e Respostas ou num relatório. 

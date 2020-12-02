@@ -2,21 +2,21 @@
 title: Gerar informações de dados automaticamente no seu conjunto de dados
 description: Saiba como obter informações sobre os conjuntos de dados e os mosaicos do dashboard.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 79148389a697feb2a3d2e2cba0b919eb59632ff7
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8db804ec3afe4b752ab6f5f8546782cac7135055
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524472"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388477"
 ---
 # <a name="generate-data-insights-on-your-dataset-automatically-with-power-bi"></a>Gerar informações de dados automaticamente no seu conjunto de dados com o Power BI
 Tem um novo conjunto de dados e não sabe bem por onde começar?  Precisa criar um dashboard rapidamente?  Deseja procurar informações que pode ter perdido?
@@ -37,7 +37,7 @@ Veja Amanda executar informações rápidas num conjunto de dados e abrir inform
 
 Agora, é a sua vez. Explore as informações através do [exemplo de Análise de Qualidade do Fornecedor](sample-supplier-quality.md).
 
-1. No separador **Conjuntos de dados** , selecione **Mais opções** (...) e selecione **Obter informações rápidas** .
+1. No separador **Conjuntos de dados**, selecione **Mais opções** (...) e selecione **Obter informações rápidas**.
    
     ![Separador Conjuntos de Dados](media/service-insights/power-bi-ellipses.png)
    
@@ -61,7 +61,7 @@ Agora, é a sua vez. Explore as informações através do [exemplo de Análise d
 
 1. Passe o cursor sobre um cartão e selecione o ícone do pino para adicionar a visualização a um dashboard.
 
-2. Coloque o cursor sobre um cartão, selecione **Mais opções** (…) e, em seguida, selecione **Ver informações** . 
+2. Coloque o cursor sobre um cartão, selecione **Mais opções** (…) e, em seguida, selecione **Ver informações**. 
 
     É aberto o ecrã de informações em Modo de detalhe.
    
@@ -71,15 +71,15 @@ Agora, é a sua vez. Explore as informações através do [exemplo de Análise d
    * Filtrar as visualizações. Se o painel **Filtros** ainda não estiver aberto, expanda-o ao selecionar a seta no lado direito da janela.
 
        ![Menu Filtros de Informações expandido](media/service-insights/power-bi-insights-filter-new.png)
-   * Afixar o cartão de informações a um dashboard ao selecionar **Afixar elemento visual** .
-   * Execute informações no próprio cartão, normalmente conhecido como *informações com âmbito* . No canto superior direito, selecione o ícone da lâmpada ![ícone Obter Informações](media/service-insights/power-bi-bulb-icon.png) ou **Obter Informações** .
+   * Afixar o cartão de informações a um dashboard ao selecionar **Afixar elemento visual**.
+   * Execute informações no próprio cartão, normalmente conhecido como *informações com âmbito*. No canto superior direito, selecione o ícone da lâmpada ![ícone Obter Informações](media/service-insights/power-bi-bulb-icon.png) ou **Obter Informações**.
      
        ![Ícone Obter Informações](media/service-insights/pbi-autoinsights-tile.png)
      
      A informação é apresentada à esquerda. Os cartões novos, com base apenas nos dados dessa informação, são apresentados à direita.
      
        ![Informações sobre informações](media/service-insights/power-bi-insights-on-insights-new.png)
-4. Para voltar à tela original das informações, no canto superior direito, selecione **Sair do Modo de detalhe** .
+4. Para voltar à tela original das informações, no canto superior direito, selecione **Sair do Modo de detalhe**.
 
 ## <a name="next-steps"></a>Passos seguintes
 - Se é proprietário de um conjunto de dados, [otimize-o para as Informações Rápidas](service-insights-optimize.md).

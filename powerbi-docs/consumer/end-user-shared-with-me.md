@@ -2,19 +2,19 @@
 title: Visualizar os dashboards e os relatórios partilhados comigo
 description: documentação para partilhado comigo no Power BI
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0e13a7bd273121429cd186c99ef8110b38e839fb
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 44f9d26e5f6ebe8723d5f5269bc66a38590a9b36
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983350"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389604"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Visualizar os dashboards e os relatórios partilhados comigo
 
@@ -22,7 +22,7 @@ ms.locfileid: "91983350"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Quando um colega partilhar um dashboard ou um relatório consigo, este será apresentado no contentor **Partilhado comigo** . Quando um colega partilha uma aplicação consigo, a aplicação aparece no contentor **Aplicações** e os relatórios e dashboards da aplicação aparecem no contentor **Partilhado comigo** .   
+Quando um colega partilhar um dashboard ou um relatório consigo, este será apresentado no contentor **Partilhado comigo**. Quando um colega partilha uma aplicação consigo, a aplicação aparece no contentor **Aplicações** e os relatórios e dashboards da aplicação aparecem no contentor **Partilhado comigo**.   
 
 ![Ícone Partilhar](./media/end-user-shared-with-me/power-bi-shared-with-me.png)
 
@@ -37,7 +37,7 @@ Veja a Amália a explicar a lista de conteúdo **Partilhado comigo** e a demonst
 
 ## <a name="interact-with-shared-content"></a>Interagir com conteúdo partilhado
 
-Tem várias opções para interagir com os dashboards e os relatórios partilhados, consoante as permissões dadas pelo *designer* . Estas incluem a capacidade de fazer cópias do dashboard, subscrever, abrir o relatório [na Vista de leitura](end-user-reading-view.md) e partilhar novamente com outros colegas. Selecione um dashboard ou relatório para o abrir.
+Tem várias opções para interagir com os dashboards e os relatórios partilhados, consoante as permissões dadas pelo *designer*. Estas incluem a capacidade de fazer cópias do dashboard, subscrever, abrir o relatório [na Vista de leitura](end-user-reading-view.md) e partilhar novamente com outros colegas. Selecione um dashboard ou relatório para o abrir.
 
 
 ## <a name="search-and-sort-shared-dashboards-and-reports"></a>Procurar e ordenar relatórios e dashboards partilhados

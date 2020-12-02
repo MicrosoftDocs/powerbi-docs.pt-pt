@@ -2,18 +2,18 @@
 title: Introdução à aplicação móvel Power BI para iOS
 description: Saiba como a aplicação móvel Microsoft Power BI para iOS coloca o Power BI ao seu alcance, com acesso móvel a informações empresariais no local e na cloud.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 02/10/2020
-ms.author: painbar
-ms.openlocfilehash: 989e77eeaa559ac74579c1d981f77f2bca374f01
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: da06c02620272deb0648e0706f73d92540385e3b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264779"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388822"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Introdução à aplicação móvel Power BI em dispositivos iOS
 A aplicação Microsoft Power BI para iOS no iPhone e iPad proporciona a experiência BI móvel para Power BI, Power BI Report Server e Reporting Services. Veja e interaja com os dashboards da sua empresa no local e na cloud em qualquer lugar, com acesso móvel em direto e tátil. Explore os dados nos dashboards e partilhe com os seus colegas em e-mails e mensagens de texto. E mantenha-se a par com os dados sempre atualizados no seu [Apple Watch](mobile-apple-watch.md).  
