@@ -2,20 +2,20 @@
 title: Disponibilidade de funcionalidades para utilizadores com licenças gratuitas
 description: Explicação e gráfico a mostrar as funcionalidades disponíveis para consumidores e utilizadores gratuitos.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: reference
-ms.date: 09/16/2020
-ms.author: mihart
+ms.date: 11/16/2020
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 8bfdcd9ba87dd6a4fa12a3750b517a09844d3d6e
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 8e3a32402b3eff202a8e35a2e34fa52271650a64
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668494"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390731"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Lista de funcionalidades do Power BI para *consumidores* e outros utilizadores com licenças gratuitas
 
@@ -67,7 +67,7 @@ A segunda coluna representa um *utilizador empresarial*.  Um utilizador empresar
 
 - tem uma licença de utilizador gratuito.
 - faz parte de uma organização que tem uma subscrição de capacidade Premium.
-- obtém os conteúdos (aplicações, dashboards, relatórios) de utilizadores Pro que partilham esses conteúdos com áreas de trabalho de aplicações na capacidade Premium dedicada.
+- obtém conteúdos (aplicações, dashboards, relatórios) de utilizadores Pro que partilham esses conteúdos com áreas de trabalho da aplicação na capacidade Premium.
 - tem a função **Visualizador** para essas áreas de trabalho da aplicação. 
 
 ### <a name="legend"></a>Legenda

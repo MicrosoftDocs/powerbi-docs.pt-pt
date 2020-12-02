@@ -2,19 +2,19 @@
 title: Adicionar vários campos a uma segmentação de dados de hierarquia
 description: Saiba como criar uma segmentação de dados de hierarquia com vários campos numa hierarquia.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/06/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5fbaeaafb14fc935e26b4a2d13acf9dc09ea188f
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: cadb8d45af40c91e7008e771f2a52ef2ea508341
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409584"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393468"
 ---
 # <a name="add-multiple-fields-to-a-hierarchy-slicer"></a>Adicionar vários campos a uma segmentação de dados de hierarquia
 

@@ -1,24 +1,24 @@
 ---
 title: Controlar a utilização de conjuntos de dados em áreas de trabalho – Power BI
 description: Aprenda a restringir o fluxo de informações no inquilino do Power BI.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 04/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6cc602b96207b1662f0738c0936ca816bbfd0a03
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: d94be70bd61988f009900432e3bc77756a3821df
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681077"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392571"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces"></a>Controlar a utilização de conjuntos de dados em áreas de trabalho
 
-A utilização de conjuntos de dados em áreas de trabalho é uma excelente forma de fomentar a cultura e a democratização de dados numa organização. Ainda assim, se for um administrador do Power BI, poderá querer restringir o fluxo de informações no seu inquilino do Power BI. Com a definição de inquilinos **Utilizar conjuntos de dados em áreas de trabalho** , poderá restringir total ou parcialmente a reutilização de conjuntos de dados por grupos de segurança.
+A utilização de conjuntos de dados em áreas de trabalho é uma excelente forma de fomentar a cultura e a democratização de dados numa organização. Ainda assim, se for um administrador do Power BI, poderá querer restringir o fluxo de informações no seu inquilino do Power BI. Com a definição de inquilinos **Utilizar conjuntos de dados em áreas de trabalho**, poderá restringir total ou parcialmente a reutilização de conjuntos de dados por grupos de segurança.
 
 ![Definições de área de trabalho de um administrador do Power BI](media/service-datasets-admin-across-workspaces/power-bi-admin-workspace-settings.png)
 
@@ -32,7 +32,7 @@ Se desativar esta definição, serão estes os efeitos nos criadores de relatór
 
 ## <a name="provide-a-link-for-the-certification-process"></a>Fornecer uma ligação para o processo de certificação
 
-Enquanto administrador do Power BI, pode fornecer um URL para a ligação **Saiba mais** na página de definições **Recomendação** .  Para obter detalhes, veja [Ativar a certificação de conteúdo](../admin/service-admin-setup-certification.md). Esta ligação pode direcionar os utilizadores para documentação acerca do seu processo de certificação. Se não fornecer um destino para a ligação **Saiba mais** , esta irá direcionar os utilizadores, por predefinição, para o artigo [Endossar os seus conteúdos](../collaborate-share/service-endorse-content.md).
+Enquanto administrador do Power BI, pode fornecer um URL para a ligação **Saiba mais** na página de definições **Recomendação**.  Para obter detalhes, veja [Ativar a certificação de conteúdo](../admin/service-admin-setup-certification.md). Esta ligação pode direcionar os utilizadores para documentação acerca do seu processo de certificação. Se não fornecer um destino para a ligação **Saiba mais**, esta irá direcionar os utilizadores, por predefinição, para o artigo [Endossar os seus conteúdos](../collaborate-share/service-endorse-content.md).
 
 ![Ligação Saiba mais da certificação de conjuntos de dados](media/service-datasets-admin-across-workspaces/service-admin-certification-setup-dialog.png)
 

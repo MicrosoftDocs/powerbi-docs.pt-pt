@@ -2,19 +2,19 @@
 title: Alterar a forma como um gráfico é ordenado num relatório
 description: Alterar a forma como um gráfico é ordenado num relatório do Power BI
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/25/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6147bc0ee725eb7adc7e1edb637a22bb7dc66558
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: 44bdb454bbe22082a20182002e817fead561d8da
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040347"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391421"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Alterar a forma como um gráfico é ordenado num relatório do Power BI
 

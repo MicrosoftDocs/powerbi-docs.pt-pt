@@ -2,20 +2,20 @@
 title: 'Tutorial: Definir alertas de dados nos dashboards do serviço Power BI'
 description: Neste tutorial, irá aprender a definir alertas para receber notificações quando os dados nos seus dashboards forem alterados para além dos limites que definiu no serviço Microsoft Power BI.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: removed
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/05/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 22d9baaf50ce32c4a9d3644cff455b474bdd1549
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: be3ed6d8a836b626ba26e5e9acce7f0f2df3c6ea
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525340"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391996"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Tutorial: Definir os alertas nos dashboards do Power BI
 
@@ -84,7 +84,7 @@ Se não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuit
    ![mosaico de cartão com reticências selecionadas](media/end-user-alerts/power-bi-manage.png)
 
    
-1. No painel **Gerir alertas**, selecione **+ Adicionar regra de alerta**.  Certifique-se de que o controlo de deslize está definido como **Ativo**e atribua um título ao alerta. Os títulos ajudam a reconhecer facilmente os alertas.
+1. No painel **Gerir alertas**, selecione **+ Adicionar regra de alerta**.  Certifique-se de que o controlo de deslize está definido como **Ativo** e atribua um título ao alerta. Os títulos ajudam a reconhecer facilmente os alertas.
    
    ![Janela Adicionar regra de alerta](media/end-user-alerts/power-bi-alert-manage.png)
 4. Desloque o ecrã para baixo e introduza os detalhes do alerta.  Neste exemplo, vamos criar um alerta que nos notifica uma vez por dia se a nossa quota de mercado aumentar para 40 ou mais. Os alertas serão apresentados no nosso [Centro de notificações](end-user-notification-center.md). E o Power BI também nos envia uma mensagem de e-mail.

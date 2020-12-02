@@ -2,19 +2,19 @@
 title: Ligue-se ao Smartsheet com o Power BI
 description: Smartsheet para Power BI
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a1cf9c96b976acbfd9a5cefe4d413b4aa0fac9bf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 446c9dd1af2322cca164762ae212ba247b8916ba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236284"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392916"
 ---
 # <a name="connect-to-smartsheet-with-power-bi"></a>Ligue-se ao Smartsheet com o Power BI
 Este artigo vai orientá-lo durante a extração de dados da conta do Smartsheet através de uma aplicação de modelo do Power BI. O Smartsheet oferece uma plataforma fácil para colaboração e partilha de ficheiros. A aplicação de modelo Smartsheet para Power BI proporciona um dashboard, relatórios e o conjunto de dados que mostra uma visão geral da conta do Smartsheet. Também pode utilizar o [Power BI Desktop](desktop-connect-to-data.md) para se ligar diretamente às folhas individuais na conta. 

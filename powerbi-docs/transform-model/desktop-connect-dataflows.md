@@ -2,19 +2,19 @@
 title: Ligar a dados criados por fluxos de dados do Power Platform no Power BI Desktop
 description: Ligar a e utilizar facilmente fluxos de dados no Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 24635df4a07f0f73a701fcb9d30b5db3ef678666
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 5d9f477c8b058dbe9a71eec1307b4a32863307a1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668465"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392962"
 ---
 # <a name="connect-to-data-created-by-power-platform-dataflows-in-power-bi-desktop"></a>Ligar a dados criados por fluxos de dados do Power Platform no Power BI Desktop
 No **Power BI Desktop**, pode ligar a dados criados por **fluxos de dados do Power Platform** tal como faria com outra origem de dados no Power BI Desktop.
