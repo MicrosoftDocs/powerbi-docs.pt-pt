@@ -2,19 +2,19 @@
 title: FAQ sobre elevada disponibilidade, ativação pós-falha e recuperação após desastre do Power BI
 description: Compreenda de que forma o serviço Power BI oferece elevada disponibilidade, continuidade de negócio e recuperação após desastre aos seus utilizadores.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c83565582a47c75e4f55e516afe3be0d9fbe7847
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: ff41f702edc605ee346aa10a759e633377597504
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374229"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408970"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>FAQ sobre elevada disponibilidade, ativação pós-falha e recuperação após desastre do Power BI
 

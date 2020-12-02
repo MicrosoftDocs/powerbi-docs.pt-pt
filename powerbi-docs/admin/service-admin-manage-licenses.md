@@ -1,21 +1,21 @@
 ---
 title: Ver e gerir licenças de utilizador do Power BI
 description: Procedimentos para os administradores visualizarem e gerirem as licenças de utilizador do Power BI nas organizações deles.
-author: kfollis
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 04/08/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 6eb123ec9a9549c54e311682fdccce451d8552a9
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 6e00474d81d4de1c8316625c6e3a7ade1bf73197
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857272"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408602"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Ver e gerir licenças de utilizador do Power BI
 

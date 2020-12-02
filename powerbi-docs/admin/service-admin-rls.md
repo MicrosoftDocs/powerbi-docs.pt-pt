@@ -1,21 +1,21 @@
 ---
 title: Segurança ao nível da linha (RLS) com o Power BI
 description: Como configurar a segurança ao nível da linha para conjuntos de dados importados, e DirectQuery, no serviço Power BI.
-author: kfollis
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.author: kfollis
 ms.date: 09/17/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 590909ac01240a84a4401c74a63dcf66c99dacfd
-ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
+ms.openlocfilehash: f1358cbafa08c0dbb3790322c414d7a746386f0f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "90811737"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408579"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Segurança ao nível da linha (RLS) com o Power BI
 
@@ -25,7 +25,7 @@ Pode configurar a RLS para modelos de dados importados para o Power BI com o Pow
 
 [!INCLUDE [include-short-name](../includes/rls-desktop-define-roles.md)]
 
-Por predefinição, a filtragem de segurança ao nível da linha utiliza filtros unidirecionais, quer as relações estejam definidas como unidirecionais ou bidirecionais. Pode ativar manualmente a filtragem cruzada bidirecional com segurança ao nível da linha ao selecionar a relação e ao marcar a caixa de verificação**Aplicar filtros de segurança em ambas as direções**. Selecione esta opção se tiver também implementado a segurança dinâmica ao nível da linha, ao nível do servidor, na qual a segurança ao nível da linha se baseia no nome de utilizador ou no ID de início de sessão.
+Por predefinição, a filtragem de segurança ao nível da linha utiliza filtros unidirecionais, quer as relações estejam definidas como unidirecionais ou bidirecionais. Pode ativar manualmente a filtragem cruzada bidirecional com segurança ao nível da linha ao selecionar a relação e ao marcar a caixa de verificação **Aplicar filtros de segurança em ambas as direções**. Selecione esta opção se tiver também implementado a segurança dinâmica ao nível da linha, ao nível do servidor, na qual a segurança ao nível da linha se baseia no nome de utilizador ou no ID de início de sessão.
 
 Para obter mais informações, veja [Bidirectional cross-filtering using DirectQuery in Power BI Desktop (Filtragem cruzada bidirecional com o DirectQuery no Power BI Desktop)](../transform-model/desktop-bidirectional-filtering.md) e o artigo técnico [Securing the Tabular BI Semantic Model (Proteger o Modelo Semântico Tabular do BI)](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
 
