@@ -2,18 +2,18 @@
 title: 'DAX: Appropriate use of error functions (Utilização adequada de funções de erro)'
 description: Documentação de orientação sobre quando utilizar as funções de erro DAX.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 09/26/2019
-ms.author: v-pemyer
-ms.openlocfilehash: b94f5709c6c83b8cab98b7e4fe0522f540374346
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: fd071fad18580074ce42c990db7f048ce2ad8c2d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965524"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394043"
 ---
 # <a name="dax-appropriate-use-of-error-functions"></a>DAX: Appropriate use of error functions (Utilização adequada de funções de erro)
 

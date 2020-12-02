@@ -2,18 +2,18 @@
 title: 'DAX: função DIVIDIR vs. operador dividir (/)'
 description: Documentação de orientação sobre quando se deve utilizar a função DIVIDIR de DAX.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 7266861304692a1c70f80e3cf9ed3f1fea60f750
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: ece1c0d939ef521b20142acb753de7b7554e870a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965492"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394135"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: função DIVIDIR vs. operador dividir (/)
 

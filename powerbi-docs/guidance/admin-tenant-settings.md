@@ -1,19 +1,19 @@
 ---
 title: Orientações sobre as definições de inquilino
 description: Orientação sobre as definições de inquilino do Power BI.
-author: peter-myers
+author: paulinbar
+ms.author: painbar
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/10/2020
-ms.author: v-pemyer
-ms.openlocfilehash: fdde090d4fe6e154482e1223b16215fdeca9f56f
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 66d721670f90efb17f6167aba3c074bdf6ea0ae1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528350"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394871"
 ---
 # <a name="tenant-settings-guidance"></a>Orientações sobre as definições de inquilino
 

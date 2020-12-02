@@ -2,18 +2,18 @@
 title: 'DAX: COUNTROWS em vez de COUNT'
 description: Documentação de orientação sobre quando utilizar as funções COUNTROWS.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/23/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 1a49531c9c7e525371c3c92b7bf116bfa7e99fd3
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 1a2b8c6450cfd855a0018fb64dd385a0db6e350f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965540"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394204"
 ---
 # <a name="dax-use-countrows-instead-of-count"></a>DAX: COUNTROWS em vez de COUNT
 

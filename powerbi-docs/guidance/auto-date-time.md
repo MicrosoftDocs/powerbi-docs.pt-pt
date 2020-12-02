@@ -2,18 +2,19 @@
 title: Auto date/time guidance in Power BI Desktop (Orientação de data/hora Automáticas no Power BI Desktop)
 description: Orientação para utilizar a funcionalidade de data/hora automática no Power BI Desktop.
 author: peter-myers
+ms.author: v-pemyer
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 10/23/2019
-ms.author: v-pemyer
-ms.openlocfilehash: b95eafbe797dcc28c54aa9781b0422820ccf1f4b
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: ed99c48aaef116f58ebff0d8026b37938a39de3b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393617"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394595"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Auto date/time guidance in Power BI Desktop (Orientação de data/hora Automáticas no Power BI Desktop)
 
@@ -28,7 +29,7 @@ A seguinte lista com marcas descreve as considerações e as possíveis limitaç
 - **Aplica-se a todas ou a nenhuma:** quando a opção _Data/hora automática_ está ativada, será aplicada a todas as colunas de data nas tabelas de Importação que não estão na parte &quot;muitas&quot; da relação. Não pode ser seletivamente ativada ou desativada numa base coluna a coluna.
 - **Apenas períodos de calendário:** as colunas anual e trimestral estão relacionadas com os períodos de calendário, o que significa que o ano começa a 1 de janeiro e termina a 31 de dezembro. Não é possível personalizar a data de início (ou conclusão) do ano.
 - **Personalização:** não é possível personalizar os valores utilizados para descrever os períodos de tempo. Além disso, também não é possível adicionar colunas adicionais para descrever outros períodos de tempo, por exemplo, semanas.
-- **Filtragem por ano:** os valores das colunas **Trimestral**, **Mensal**e **Diário** não incluem o valor anual. Por exemplo, a coluna **Mensal** contém apenas os nomes dos meses (ou seja, janeiro, fevereiro, etc.). Os valores não são totalmente autodescritivos e, em alguns designs de relatório, podem não comunicar o contexto do filtro anual.
+- **Filtragem por ano:** os valores das colunas **Trimestral**, **Mensal** e **Diário** não incluem o valor anual. Por exemplo, a coluna **Mensal** contém apenas os nomes dos meses (ou seja, janeiro, fevereiro, etc.). Os valores não são totalmente autodescritivos e, em alguns designs de relatório, podem não comunicar o contexto do filtro anual.
 
     É por isso que é importante que os filtros ou agrupamentos ocorram na coluna **Anual**. Ao desagregar com a hierarquia, o ano será filtrado, exceto se o nível **Anual** for intencionalmente removido. Se não existir um filtro ou grupo por ano, um agrupamento por mês, por exemplo, resumirá os valores em todos os anos para esse mês.
 - **Filtragem de data de tabela única:** dado que cada coluna de datas produz a sua própria tabela de data/hora automática (oculta), não é possível aplicar um filtro de tempo a uma das tabelas e que este seja propagado a várias tabelas de modelos. A filtragem desta forma é um requisito de modelação comum ao efetuar relatórios sobre vários assuntos (tabelas de tipo de facto), como vendas e orçamento de vendas. Ao utilizar a funcionalidade de data/hora automática, o autor do relatório precisará de aplicar filtros a cada coluna de data diferente.

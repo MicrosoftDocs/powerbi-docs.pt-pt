@@ -2,18 +2,18 @@
 title: Arquitetura da solução de BI no Centro de Excelência
 description: Saiba o que ter em conta ao conceber e desenvolver uma plataforma de BI robusta.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/11/2020
-ms.author: v-pemyer
-ms.openlocfilehash: d84f6a4fcf7ff531b76b6e731f165aa6e0df764f
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 88d1e19435207ca094bd9cb1cba770c1cb54573f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512131"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394641"
 ---
 # <a name="bi-solution-architecture-in-the-center-of-excellence"></a>Arquitetura da solução de BI no Centro de Excelência
 

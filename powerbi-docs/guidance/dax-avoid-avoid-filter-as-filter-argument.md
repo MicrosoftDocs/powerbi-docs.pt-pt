@@ -2,18 +2,18 @@
 title: 'DAX: Avoid using FILTER as a filter argument (Evitar utilizar FILTER como um argumento de filtro)'
 description: Orientação sobre como utilizar a função FILTER como um argumento de filtro.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 12/30/2019
-ms.author: v-pemyer
-ms.openlocfilehash: abff4eafc741ea776180752147019cae3c744e2c
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 651b4f1323738809e19c0ee42f1dbe71f7bc3998
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90964992"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394342"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX: Avoid using FILTER as a filter argument (Evitar utilizar FILTER como um argumento de filtro)
 
