@@ -1,20 +1,20 @@
 ---
 title: Conjuntos de dados de grande dimensão, limites de pontos de dados e estratégias de dados
 description: Limites de dados para elementos visuais e estratégias de redução de dados
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: justyna
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/10/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89bfba0dc679ddb7a9142c83e863cddaf1400063
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 0feef179fddba93f192559c7ac7bed10c6fa5328
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412056"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412535"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Aplicar limites de pontos de dados e estratégias por tipo de elemento visual
 
@@ -31,9 +31,9 @@ Cada elemento visual controla os parâmetros dessas estratégias de modo a influ
 Para cada estratégia, existem predefinições com base na forma e no tipo de dados que estão a ser visualizados. No entanto, as predefinições podem ser substituídas, no painel de Formatação do Power BI, para proporcionar a experiência de utilizador certa. 
 
 * **Apresentação de Dados em Janelas** (Segmentação): Permitir que os utilizadores percorram os dados num elemento visual ao carregar progressivamente fragmentos do conjunto de dados global.
-* **TopN** : Mostrar apenas os primeiros X itens.
-* **Amostra Simples** : Mostrar o primeiro, o último e X itens uniformemente distribuídos pelo meio.
-* **BottomN** : Mostrar apenas os últimos X itens.  Útil na monitorização de dados atualizados com frequência.
+* **TopN**: Mostrar apenas os primeiros X itens.
+* **Amostra Simples**: Mostrar o primeiro, o último e X itens uniformemente distribuídos pelo meio.
+* **BottomN**: Mostrar apenas os últimos X itens.  Útil na monitorização de dados atualizados com frequência.
 * **Amostragem de elevada densidade** - Um algoritmo de amostragem melhorado que respeita melhor os valores atípicos e/ou a forma de uma curva.
     * **Amostragem de linhas posicionadas** - Pontos de dados de exemplo baseados em valores atípicos presentes em posições ao longo de um eixo
     * **Amostragem de pontos sobrepostos** - Pontos de dados de exemplo baseados em valores sobrepostos para preservar valores atípicos

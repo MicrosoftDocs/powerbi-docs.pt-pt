@@ -1,20 +1,20 @@
 ---
 title: Parte 2, Adicionar visualizações a um relatório do Power BI
 description: Parte 2, Adicionar visualizações a um relatório do Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 79c613b33ccadacc7ce24d9eb744e66014218b52
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 6ddee012d01c64e0f35ac491d2b20ba362f2da90
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411711"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412466"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Adicionar elementos visuais a um relatório do Power BI (parte 2)
 
@@ -47,7 +47,7 @@ Crie uma visualização selecionando um campo no painel **Campos**. O tipo de vi
 
 ### <a name="add-an-area-chart-that-looks-at-this-years-sales-compared-to-last-year"></a>Adicionar um gráfico de área que analise as vendas deste ano em comparação com o ano passado
 
-1. Na tabela **Vendas** , selecione **Vendas Deste Ano** > **Valor** e **Vendas do Ano Passado**. O Power BI cria um gráfico de colunas.  Este gráfico é interessante e quer investigar melhor. O que torna as vendas semelhantes por mês?  
+1. Na tabela **Vendas**, selecione **Vendas Deste Ano** > **Valor** e **Vendas do Ano Passado**. O Power BI cria um gráfico de colunas.  Este gráfico é interessante e quer investigar melhor. O que torna as vendas semelhantes por mês?  
    
    ![Captura de ecrã a mostrar um gráfico de colunas](media/power-bi-report-add-visualizations-ii/power-bi-start.png)
 

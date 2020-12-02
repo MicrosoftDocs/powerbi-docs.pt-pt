@@ -2,19 +2,19 @@
 title: Destacar conteúdo na Base do Power BI de colegas
 description: Como destacar dashboards e relatórios do Power BI na Base do Power BI para colegas na sua organização.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: nikhilga
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eef0ba24347bd46cc86325cac494937e3f95086a
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: c45eb2afdf028f9e3a4b213333a0028924858a09
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462464"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411822"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Destacar conteúdo na Base do Power BI de colegas
 
@@ -38,25 +38,25 @@ Pode destacar um dashboard ou relatório de uma área de trabalho. Quando o fize
 
 O procedimento para destacar um dashboard ou um relatório é semelhante.
 
-1. Nas listas **Dashboards** ou **Relatórios** de uma área de trabalho, selecione o ícone **Definições** .
+1. Nas listas **Dashboards** ou **Relatórios** de uma área de trabalho, selecione o ícone **Definições**.
 
-    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Conteúdo em destaque do Power BI na Base":::
+    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Ícone Definições de Relatório":::
 
-2. No painel **Definições** , selecione ou altere o nome. Adicione uma **Descrição** e carregue um **Instantâneo** , caso pretenda. Estes são úteis porque ajudam os utilizadores a encontrar os seus conteúdos.
+2. No painel **Definições**, selecione ou altere o nome. Adicione uma **Descrição** e carregue um **Instantâneo**, caso pretenda. Estes são úteis porque ajudam os utilizadores a encontrar os seus conteúdos.
 
-3. Selecione **Em destaque** .
+3. Selecione **Em destaque**.
 
-    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Conteúdo em destaque do Power BI na Base":::
+    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Definições de conteúdo em destaque":::
 
-4. Selecione **Guardar** .
+4. Selecione **Guardar**.
 
-    Agora, todos os utilizadores com acesso a este dashboard ou relatório vão vê-lo na secção **Em destaque** na **Base** .
+    Agora, todos os utilizadores com acesso a este dashboard ou relatório vão vê-lo na secção **Em destaque** na **Base**.
 
 ## <a name="feature-an-app"></a>Destacar uma aplicação
 
-- Para destacar uma aplicação, abra a área de trabalho da aplicação, selecione o menu **Opções** ( **...** ) > **Destacar esta aplicação na Base** .
+- Para destacar uma aplicação, abra a área de trabalho da aplicação, selecione o menu **Opções** ( **...** ) > **Destacar esta aplicação na Base**.
 
-Agora, todas as pessoas com acesso a esta aplicação vão também vê-la na secção **Em destaque** na **Base** .
+Agora, todas as pessoas com acesso a esta aplicação vão também vê-la na secção **Em destaque** na **Base**.
 
 ## <a name="next-steps"></a>Próximos passos
 

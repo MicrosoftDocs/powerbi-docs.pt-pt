@@ -2,23 +2,23 @@
 title: Parâmetros de consulta M Dinâmicos no Power BI Desktop (pré-visualização)
 description: Criar parâmetros de consulta M dinâmicos no Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/22/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 104692fff7f94168a505dc6e1f2c513d647554ce
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 7f7dd319c69291f690dae5cd18b95285618df07b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349650"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411201"
 ---
 # <a name="dynamic-m-query-parameters-in-power-bi-desktop-preview"></a>Parâmetros de consulta M Dinâmicos no Power BI Desktop (pré-visualização)
 
-Com **Parâmetros de Consulta M Dinâmicos** , os autores de modelo podem permitir que os **visualizadores de relatórios** usem filtros ou segmentações de utilizadores para definir os valores de um [Parâmetro de Consulta M](/power-query/power-query-query-parameters), o que pode ser especialmente útil para otimizações de desempenho de consulta. Com Parâmetros de Consulta M Dinâmicos, os autores de modelo têm controlo adicional sobre como as seleções de filtros são incorporadas em consultas de origem do DirectQuery. 
+Com **Parâmetros de Consulta M Dinâmicos**, os autores de modelo podem permitir que os **visualizadores de relatórios** usem filtros ou segmentações de utilizadores para definir os valores de um [Parâmetro de Consulta M](/power-query/power-query-query-parameters), o que pode ser especialmente útil para otimizações de desempenho de consulta. Com Parâmetros de Consulta M Dinâmicos, os autores de modelo têm controlo adicional sobre como as seleções de filtros são incorporadas em consultas de origem do DirectQuery. 
 
 Quando os autores de modelo compreendem a semântica pretendida dos respetivos filtros, geralmente sabem como escrever consultas eficientes na respetiva origem de dados e, portanto, podem garantir que as seleções de filtros sejam incorporadas às consultas de origem no ponto certo, para atingir os resultados pretendidos com um desempenho melhorado.
 
@@ -59,7 +59,7 @@ Vamos percorrer um exemplo de passagem de um **valor individual** para um parâm
 
     ![Criar uma nova tabela](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-07.png)
 
-7. Aqui está a primeira tabela que criei para os valores do Parâmetro *StartTime* :
+7. Aqui está a primeira tabela que criei para os valores do Parâmetro *StartTime*:
 
     ```StartDateTable = CALENDAR (DATE(2016,1,1), DATE(2016,12,31))```
 
@@ -74,7 +74,7 @@ Vamos percorrer um exemplo de passagem de um **valor individual** para um parâm
     > [!NOTE]
     > É recomendável a utilização de um nome de coluna diferente que não esteja numa tabela real. Se tiverem o mesmo nome, o valor selecionado será aplicado como um filtro para a consulta real.
 
-9. Agora que as tabelas com o campo *Data* foram criadas, podemos vincular cada campo a um parâmetro. Vincular o campo a um parâmetro significa essencialmente que, à medida que o valor selecionado para o campo é alterado, o valor será passado para o parâmetro e atualizará a consulta em que o parâmetro é referenciado. Para vincular o campo, aceda ao separador **Modelagem** , selecione o campo acabado de criar e, em seguida, aceda às propriedades **Avançadas** :
+9. Agora que as tabelas com o campo *Data* foram criadas, podemos vincular cada campo a um parâmetro. Vincular o campo a um parâmetro significa essencialmente que, à medida que o valor selecionado para o campo é alterado, o valor será passado para o parâmetro e atualizará a consulta em que o parâmetro é referenciado. Para vincular o campo, aceda ao separador **Modelagem**, selecione o campo acabado de criar e, em seguida, aceda às propriedades **Avançadas**:
 
     > [!NOTE]
     > O tipo Dados de Coluna deve corresponder ao tipo de parâmetro M.
@@ -85,11 +85,11 @@ Vamos percorrer um exemplo de passagem de um **valor individual** para um parâm
 
     ![vincular o parâmetro ao campo](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-11.png)
 
-    Como este exemplo se destina a um valor de seleção individual (definindo o parâmetro como um valor individual), recomendamos que mantenha **Seleção múltipla** definida como **Não** , que é a predefinição:
+    Como este exemplo se destina a um valor de seleção individual (definindo o parâmetro como um valor individual), recomendamos que mantenha **Seleção múltipla** definida como **Não**, que é a predefinição:
 
     ![seleção múltipla definida como desativada](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-12.png)
 
-    Se os seus casos de utilização exigirem várias seleções (passar vários valores para um parâmetro individual), tem de alternar a opção para **Sim** e confirmar que a sua consulta M está configurada corretamente para aceitar vários valores na consulta M. Aqui está um exemplo de *RepoNameParameter* , que permite vários valores:
+    Se os seus casos de utilização exigirem várias seleções (passar vários valores para um parâmetro individual), tem de alternar a opção para **Sim** e confirmar que a sua consulta M está configurada corretamente para aceitar vários valores na consulta M. Aqui está um exemplo de *RepoNameParameter*, que permite vários valores:
 
     ![exemplo de vários valores](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-13.png)
 
@@ -105,7 +105,7 @@ Se a coluna mapeada for definida como **Não** para Seleção múltipla, tem de 
 
 ## <a name="potential-security-risk"></a>Potencial risco de segurança
 
-Quando permite aos leitores de relatórios definir dinamicamente os valores dos parâmetros da Consulta M, poderão conseguir aceder a dados adicionais ou acionar modificações no sistema de origem com **ataques de injeção** , consoante a forma como os parâmetros são referenciados na Consulta M e os valores que são passados a esse parâmetro.
+Quando permite aos leitores de relatórios definir dinamicamente os valores dos parâmetros da Consulta M, poderão conseguir aceder a dados adicionais ou acionar modificações no sistema de origem com **ataques de injeção**, consoante a forma como os parâmetros são referenciados na Consulta M e os valores que são passados a esse parâmetro.
 
 Por exemplo, digamos que tem uma consulta Kusto parametrizada construída da seguinte maneira:
 
@@ -115,7 +115,7 @@ Products
  | project ReleaseDate, Name, Category, Region```
 ```
 
-Pode não ter problemas com um utilizador amigável que passe um valor apropriado para o parâmetro, por exemplo, *Jogos* :
+Pode não ter problemas com um utilizador amigável que passe um valor apropriado para o parâmetro, por exemplo, *Jogos*:
 
 ```
 | where Category == 'Games' & HasReleased == 'True'

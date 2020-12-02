@@ -2,19 +2,19 @@
 title: Início Rápido Ligar a dados no Power BI Desktop
 description: Como ligar às origens de dados disponíveis no Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: quickstart
 ms.date: 01/10/2020
-ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: d689258b4e4da5349d57b41f72d4266eb759029b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 94bd9d64ae7e85cb66e20ad44a03bf4ccf7e28df
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348603"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411063"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Início Rápido: ligar a dados no Power BI Desktop
 

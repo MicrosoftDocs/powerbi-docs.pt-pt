@@ -1,21 +1,21 @@
 ---
 title: Parte 1, Adicionar visualizações a um relatório do Power BI
 description: Parte 1, Adicionar visualizações a um relatório do Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3a2002c9f17428c84704d68f621cf18443252557
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 4d4b04b10e45d67fdd4d7cb183e300587d4f2cc6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411895"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412489"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-1"></a>Adicionar elementos visuais a um relatório do Power BI (parte 1)
 
@@ -68,7 +68,7 @@ Este tutorial utiliza o [ficheiro PBIX de Vendas e marketing](https://download.m
 
    ![Captura de ecrã do painel Visualizações, com o ícone Gráfico de colunas empilhadas destacado.](media/power-bi-report-add-visualizations-i/power-bi-convert.png)
 
-1. Para alterar a forma como o elemento visual é ordenado, selecione **Mais ações** (...).  Utilize as opções de ordenação para alterar o sentido da ordenação (crescente ou decrescente) e alterar a coluna que está a ser utilizada para ordenar ( **Ordenar por** ).
+1. Para alterar a forma como o elemento visual é ordenado, selecione **Mais ações** (...).  Utilize as opções de ordenação para alterar o sentido da ordenação (crescente ou decrescente) e alterar a coluna que está a ser utilizada para ordenar (**Ordenar por**).
 
    ![Captura de ecrã a mostrar o menu pendente Mais ações.](media/power-bi-report-add-visualizations-i/power-bi-sort.png)
   

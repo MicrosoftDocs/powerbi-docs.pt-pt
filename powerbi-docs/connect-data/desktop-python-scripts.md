@@ -2,19 +2,19 @@
 title: Executar Scripts de Python no Power BI Desktop
 description: Executar scripts de Python no Power BI Desktop
 author: otarb
+ms.author: otarb
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/02/2020
-ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f97bde6b6754283ca13ff9dd3db3682183f74e26
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eae2a6710d38547aeb13e9a77db8123def74e836
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223211"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410994"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Executar scripts de Python no Power BI Desktop
 

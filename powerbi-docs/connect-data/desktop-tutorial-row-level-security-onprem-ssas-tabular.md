@@ -2,20 +2,20 @@
 title: Segurança dinâmica ao nível da linha com o modelo em tabela do Analysis Services
 description: Segurança dinâmica ao nível da linha com o modelo em tabela do Analysis Services no local
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: davidi
 editor: davidi
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 01/17/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 047c4e7d71cbbae95f4b1f8067548d807421385d
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: b1e95bc7494e1de9a8eae82578e73382081037dc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349604"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410925"
 ---
 # <a name="implement-row-level-security-in-an-on-premises-analysis-services-tabular-model"></a>Implementar segurança ao nível da linha num modelo em tabela do Analysis Services no local
 
@@ -60,7 +60,7 @@ Os passos aqui descritos necessitam da utilização da base de dados relacional 
     select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryID] = b.[SalesTerritoryKey]
     ```
 
-   A tabela unida mostra quem é responsável por cada região de vendas, graças à relação criada no Passo 2. Por exemplo, pode ver que *Rita Santos* é responsável pela região *Australia* .
+   A tabela unida mostra quem é responsável por cada região de vendas, graças à relação criada no Passo 2. Por exemplo, pode ver que *Rita Santos* é responsável pela região *Australia*.
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>Tarefa 2: Criar o modelo de tabela com os factos e as tabelas de dimensão
 
@@ -80,7 +80,7 @@ Assim que o armazém de dados relacional estiver implementado, precisa de defini
 
     ![Adicionar funções aos Row Filters (Filtros de Linha)](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager_complete.png)
 
-1. A função `LOOKUPVALUE` devolve os valores de uma coluna na qual o nome de utilizador do Windows corresponde ao que a função `USERNAME` devolve. Em seguida, pode restringir as consultas aos casos em que os valores devolvidos por `LOOKUPVALUE` correspondem aos valores na mesma tabela ou numa tabela relacionada. Na coluna **Filtro DAX** , escreva a seguinte fórmula:
+1. A função `LOOKUPVALUE` devolve os valores de uma coluna na qual o nome de utilizador do Windows corresponde ao que a função `USERNAME` devolve. Em seguida, pode restringir as consultas aos casos em que os valores devolvidos por `LOOKUPVALUE` correspondem aos valores na mesma tabela ou numa tabela relacionada. Na coluna **Filtro DAX**, escreva a seguinte fórmula:
 
     ```dax
         =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
@@ -109,7 +109,7 @@ Depois de o seu modelo de tabela estar implementado e pronto para utilizar, tem 
 
 1. Para permitir que o serviço Power BI aceda ao seu serviço de análise no local, tem de ter um [gateway de dados no local](service-gateway-onprem.md) instalado e configurado no seu ambiente.
 
-1. Depois de o gateway estar configurado corretamente, tem de criar uma ligação à origem de dados para a sua instância de tabela do *Analysis Services* . Para mais informações, veja [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md).
+1. Depois de o gateway estar configurado corretamente, tem de criar uma ligação à origem de dados para a sua instância de tabela do *Analysis Services*. Para mais informações, veja [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md).
 
    ![Criar uma ligação de origem de dados](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)
 
@@ -117,35 +117,35 @@ Com este procedimento concluído, o gateway está configurado e pronto para inte
 
 ## <a name="task-4-create-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>Tarefa 4: Criar o relatório baseado no modelo de tabela de serviços de análise, com o Power BI Desktop
 
-1. Inicie o Power BI Desktop e selecione **Obter Dados**  > **Base de Dados** .
+1. Inicie o Power BI Desktop e selecione **Obter Dados**  > **Base de Dados**.
 
-1. Na lista de origens de dados, selecione **Base de Dados do SQL Server Analysis Services** e selecione **Ligar** .
+1. Na lista de origens de dados, selecione **Base de Dados do SQL Server Analysis Services** e selecione **Ligar**.
 
    ![Ligar à Base de dados do SQL Server Analysis Services](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
 
-1. Preencha os detalhes de instância de tabela do Analysis Services e selecione **Ligar em direto** . Em seguida, selecione **OK** .
+1. Preencha os detalhes de instância de tabela do Analysis Services e selecione **Ligar em direto**. Em seguida, selecione **OK**.
   
    ![Detalhes do Analysis Services](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 
    No Power BI, a segurança dinâmica funciona apenas com uma ligação em direto.
 
-1. Pode observar que o modelo implementado está na instância do Analysis Services. Selecione o modelo e selecione **OK** .
+1. Pode observar que o modelo implementado está na instância do Analysis Services. Selecione o modelo e selecione **OK**.
 
-   O Power BI Desktop apresenta agora todos os campos disponíveis à direita da tela do painel **Campos** .
+   O Power BI Desktop apresenta agora todos os campos disponíveis à direita da tela do painel **Campos**.
 
-1. No painel **Campos** , selecione a medida **SalesAmount** da tabela **FactInternetSales** e a dimensão **SalesTerritoryRegion** da tabela **SalesTerritory** .
+1. No painel **Campos**, selecione a medida **SalesAmount** da tabela **FactInternetSales** e a dimensão **SalesTerritoryRegion** da tabela **SalesTerritory**.
 
-1. Para manter este relatório simples, de momento, não iremos adicionar mais colunas. Para obter uma representação mais significativa dos dados, altere a visualização para **Gráfico em anel** .
+1. Para manter este relatório simples, de momento, não iremos adicionar mais colunas. Para obter uma representação mais significativa dos dados, altere a visualização para **Gráfico em anel**.
 
    ![Visualização do gráfico em anel](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
 
-1. Assim que o relatório estiver pronto, pode publicá-lo diretamente no portal do Power BI. No friso **Base** do Power BI Desktop, selecione **Publicar** .
+1. Assim que o relatório estiver pronto, pode publicá-lo diretamente no portal do Power BI. No friso **Base** do Power BI Desktop, selecione **Publicar**.
 
 ## <a name="task-5-create-and-share-a-dashboard"></a>Tarefa 5: Criar e partilhar um dashboard
 
-Criou o relatório e publicou-o no serviço **Power BI** . Agora, pode utilizar o exemplo criado nos passos anteriores para demonstrar o cenário de segurança do modelo.
+Criou o relatório e publicou-o no serviço **Power BI**. Agora, pode utilizar o exemplo criado nos passos anteriores para demonstrar o cenário de segurança do modelo.
 
-Na função *Gestor de Vendas* , a utilizadora Grace pode ver os dados de todas as regiões de vendas diferentes. A Grace cria este relatório e publica-o no serviço Power BI. Este relatório foi criado nas tarefas anteriores.
+Na função *Gestor de Vendas*, a utilizadora Grace pode ver os dados de todas as regiões de vendas diferentes. A Grace cria este relatório e publica-o no serviço Power BI. Este relatório foi criado nas tarefas anteriores.
 
 Assim que a Grace publica o relatório, o próximo passo consiste em criar um dashboard no serviço Power BI chamado *TabularDynamicSec* com base nesse relatório. Na seguinte imagem, repare que a Grace consegue ver os dados correspondentes a toda a região de vendas.
 

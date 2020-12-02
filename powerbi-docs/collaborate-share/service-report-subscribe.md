@@ -2,20 +2,20 @@
 title: 'Subscrever relatórios e dashboards: para si e para os seus colegas'
 description: Saiba como subscrever um instantâneo de uma página de relatórios, de um dashboard ou de um relatório paginado do Power BI para si e para outras pessoas.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/17/2020
-ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 183885336f6f76304ba051599efa48d81111264a
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 384ce5efc28355ea238d5782dd1553901097e0f2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94718966"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411684"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Subscrever relatórios e dashboards no serviço Power BI para si e para outras pessoas
 

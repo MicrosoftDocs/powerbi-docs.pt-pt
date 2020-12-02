@@ -2,20 +2,20 @@
 title: Ligar aos dados do Azure Cost Management no Power BI Desktop
 description: Ligue facilmente ao Azure e obtenha informações sobre o custo e a utilização do Azure com o Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: eae8afc9db44b703ade1a9a4fcc28c24c3d72641
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: fa06b1d561c770c3b9e0535e94789931a74bd9df
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599882"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411477"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Criar elementos visuais e relatórios com o conector do Azure Cost Management no Power BI Desktop
 
@@ -35,7 +35,7 @@ O conector do Azure Cost Management utiliza o protocolo OAuth 2.0 para autentica
 Para utilizar o conector do **Azure Cost Management** no Power BI Desktop, siga estes passos:
 
 1.  No friso **Home Page**, selecione **Obter Dados**.
-2.  Selecione **Azure ** na lista de categorias de dados.
+2.  Selecione **Azure** na lista de categorias de dados.
 3.  Selecione **Azure Cost Management**.
 
     ![Obter dados](media/desktop-connect-azure-cost-management/azure-cost-management-00b.png)
@@ -65,7 +65,7 @@ Para se ligar com uma conta do Contrato Enterprise (EA), pode obter o ID de insc
 
 1.  No [portal do Azure](https://portal.azure.com/), navegue para **Cost Management + Faturação**.
 2.  Selecione a sua conta de faturação.
-3.  No menu **Descrição geral **, copie o **ID da conta de faturação**.
+3.  No menu **Descrição geral**, copie o **ID da conta de faturação**.
 4.  Para **Escolher Âmbito**, selecione **Número de Inscrição** e cole o ID da conta de faturação do passo anterior. 
 5.  Introduza o número de meses e, em seguida, selecione **OK**.
 

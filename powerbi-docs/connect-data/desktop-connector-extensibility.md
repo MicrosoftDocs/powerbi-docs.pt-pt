@@ -1,20 +1,20 @@
 ---
 title: Extensibilidade de Conectores no Power BI
 description: Ferramentas de extensibilidade de conectores, funcionalidades, definições de segurança e conectores certificados
-author: cpopell
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 01/02/2020
-ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b604ade56335e65b25501eb9fe3d3c2fd185a6f0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6b78309ad17446aabacd39006968b6d397a51037
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83293519"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411247"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Extensibilidade de conectores no Power BI
 

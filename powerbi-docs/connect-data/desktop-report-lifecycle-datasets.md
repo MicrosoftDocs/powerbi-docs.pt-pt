@@ -2,23 +2,23 @@
 title: Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop
 description: Utilize um conjunto de dados comum para múltiplos relatórios do Power BI Desktop em múltiplas áreas de trabalho e faça a gestão do ciclo de vida dos relatórios
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/13/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5701e94991f64d1f05a867da189c814dd1484370
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: e177eb9e124a26e62d392b7dd97562c11c8f9d5a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680458"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411040"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop
 
-Pode estabelecer uma ligação em direto com um conjunto de dados partilhado no *serviço Power BI* e criar muitos relatórios diferentes a partir do mesmo conjunto de dados. Pode criar o seu modelo de dados ideal no Power BI Desktop e publicá-lo no serviço Power BI. Em seguida, poderá (assim como outros utilizadores) criar vários relatórios diferentes em ficheiros *.pbix* separados a partir desse modelo de dados comum e guardá-los em diferentes áreas de trabalho. Esta funcionalidade é denominada *Ligação em direto do serviço Power BI* .
+Pode estabelecer uma ligação em direto com um conjunto de dados partilhado no *serviço Power BI* e criar muitos relatórios diferentes a partir do mesmo conjunto de dados. Pode criar o seu modelo de dados ideal no Power BI Desktop e publicá-lo no serviço Power BI. Em seguida, poderá (assim como outros utilizadores) criar vários relatórios diferentes em ficheiros *.pbix* separados a partir desse modelo de dados comum e guardá-los em diferentes áreas de trabalho. Esta funcionalidade é denominada *Ligação em direto do serviço Power BI*.
 
 ![Obter dados do serviço Power BI](media/desktop-report-lifecycle-datasets/report-lifecycle_01.png)
 
@@ -38,11 +38,11 @@ Todas as pessoas adoram o relatório e o conjunto de dados da Ana. Era aí que c
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Ligar a um conjunto de dados do serviço Power BI através de uma ligação em direto
 
-A Ana cria um relatório e cria o conjunto de dados em que se baseia. Em seguida, publica-o no serviço Power BI. O relatório aparece na área de trabalho da equipa no serviço Power BI. Se a Ana o guardar numa *nova experiência de área de trabalho* , será possível definir a *Permissão de compilação* para disponibilizar o relatório para visualização e utilização para todas as pessoas que estiverem dentro e fora da sua área de trabalho.
+A Ana cria um relatório e cria o conjunto de dados em que se baseia. Em seguida, publica-o no serviço Power BI. O relatório aparece na área de trabalho da equipa no serviço Power BI. Se a Ana o guardar numa *nova experiência de área de trabalho*, será possível definir a *Permissão de compilação* para disponibilizar o relatório para visualização e utilização para todas as pessoas que estiverem dentro e fora da sua área de trabalho.
 
 Para saber mais sobre a nova experiência de áreas de trabalho, veja [áreas de trabalho](../collaborate-share/service-new-workspaces.md).
 
-Os outros membros dentro e fora da área de trabalho da Ana podem agora estabelecer uma ligação em direto ao modelo de dados partilhado da Ana, através da funcionalidade ligação em direto do serviço Power BI. Podem criar os seus próprios relatórios exclusivos, a partir do *conjunto de dados original* na *sua nova experiência de áreas de trabalho* .
+Os outros membros dentro e fora da área de trabalho da Ana podem agora estabelecer uma ligação em direto ao modelo de dados partilhado da Ana, através da funcionalidade ligação em direto do serviço Power BI. Podem criar os seus próprios relatórios exclusivos, a partir do *conjunto de dados original* na *sua nova experiência de áreas de trabalho*.
 
 Na imagem seguinte, pode ver como a Ana cria um relatório do Power BI Desktop e o publica, o qual inclui o modelo de dados, no serviço Power BI. Em seguida, as pessoas podem ligar ao modelo de dados da Ana através da ligação em direto do serviço Power BI e criar relatórios exclusivos nas suas áreas de trabalho com base no conjunto de dados da Ana.
 
@@ -79,7 +79,7 @@ Depois de concluído, o Power BI Desktop mostra se foi bem sucedido e fornece 
 
 ![Publicação com êxito](media/desktop-report-lifecycle-datasets/report-lifecycle_07.png)
 
-Agora que o relatório com o conjunto de dados está no serviço Power BI, também o pode *promover* . Promoção significa que atesta a sua qualidade e fiabilidade. Pode ainda pedir que o relatório seja *certificado* por uma autoridade central no seu inquilino do Power BI. Com uma destas recomendações, o seu conjunto de dados é sempre apresentado na parte superior da lista quando as pessoas estiverem à procura de conjuntos de dados. Para obter mais informações, veja [Endossar os seus conteúdos](../collaborate-share/service-endorse-content.md).
+Agora que o relatório com o conjunto de dados está no serviço Power BI, também o pode *promover*. Promoção significa que atesta a sua qualidade e fiabilidade. Pode ainda pedir que o relatório seja *certificado* por uma autoridade central no seu inquilino do Power BI. Com uma destas recomendações, o seu conjunto de dados é sempre apresentado na parte superior da lista quando as pessoas estiverem à procura de conjuntos de dados. Para obter mais informações, veja [Endossar os seus conteúdos](../collaborate-share/service-endorse-content.md).
 
 O último passo é definir a Permissão de compilação do conjunto de dados em que o relatório se baseia. A Permissão de compilação determina quem pode ver e utilizar o seu conjunto de dados. Pode vê-la na área de trabalho em si ou ao partilhar uma aplicação a partir da área de trabalho. Para obter mais informações, veja [Permissão de compilação dos conjuntos de dados partilhados](service-datasets-build-permissions.md).
 
@@ -87,7 +87,7 @@ Em seguida, vamos ver como outros colegas com acesso à área de trabalho onde o
 
 ### <a name="establish-a-power-bi-service-live-connection-to-the-published-dataset"></a>Estabelecer uma ligação em direto do serviço Power BI com o conjunto de dados publicado
 
-Para estabelecer uma ligação ao relatório publicado e criar o seu próprio relatório baseado no conjunto de dados publicado, selecione **Obter Dados** no friso **Página Inicial** do Power BI Desktop, selecione **Power Platform** no painel esquerdo e, em seguida, selecione **Conjuntos de dados do Power BI** .
+Para estabelecer uma ligação ao relatório publicado e criar o seu próprio relatório baseado no conjunto de dados publicado, selecione **Obter Dados** no friso **Página Inicial** do Power BI Desktop, selecione **Power Platform** no painel esquerdo e, em seguida, selecione **Conjuntos de dados do Power BI**.
 
 Se não tiver sessão iniciada, o Power BI pedirá para a iniciar. Uma vez iniciada a sessão, o Power BI mostra quais as áreas de trabalho de que é membro. Pode selecionar qual a área de trabalho que contém o conjunto de dados ao qual quer estabelecer a ligação em direto do serviço Power BI.
 
@@ -95,7 +95,7 @@ Os conjuntos de dados na lista são todos os conjuntos de dados partilhados para
 
 ![Lista de conjuntos de dados disponíveis](media/desktop-report-lifecycle-datasets/desktop-select-shared-dataset.png)
 
-Quando selecionar **Criar** , estabelece uma ligação em direto ao conjunto de dados selecionado. O Power BI Desktop carrega os campos e os valores que vê no Power BI Desktop em tempo real.
+Quando selecionar **Criar**, estabelece uma ligação em direto ao conjunto de dados selecionado. O Power BI Desktop carrega os campos e os valores que vê no Power BI Desktop em tempo real.
 
 ![Campos do conjunto de dados no painel Campos](media/desktop-report-lifecycle-datasets/report-lifecycle_10.png)
 
@@ -107,12 +107,12 @@ Quando utilizar a ligação em direto do serviço Power BI, existem algumas lim
 
 * Apenas os utilizadores com Permissão de compilação de um conjunto de dados podem ligar a um conjunto de dados publicado através da ligação em direto do serviço Power BI.
 * Os utilizadores com licenças gratuitas apenas veem os conjuntos de dados em **A Minha Área de Trabalho** e nas áreas de trabalho Premium deles.
-* Uma vez que esta ligação é uma ligação em direto, a navegação à esquerda e a modelação estão desativadas. Apenas se pode ligar a um conjunto de dados em cada relatório. Este comportamento é semelhante ao comportamento quando está ligado aos *SQL Server Analysis Services* .
+* Uma vez que esta ligação é uma ligação em direto, a navegação à esquerda e a modelação estão desativadas. Apenas se pode ligar a um conjunto de dados em cada relatório. Este comportamento é semelhante ao comportamento quando está ligado aos *SQL Server Analysis Services*.
 * Uma vez que esta ligação é uma ligação em direto, é aplicada uma segurança ao nível da linha (RLS), assim como outros comportamentos de ligação deste tipo. Ou seja, é o mesmo como quando estabelece ligação aos SQL Server Analysis Services.
 * Se o proprietário modificar o ficheiro *.pbix* partilhado original, o conjunto de dados e o relatório partilhados no serviço Power BI serão substituídos. Os relatórios baseados nesse conjunto de dados não serão substituídos, mas as alterações feitas ao conjunto de dados serão refletidas no relatório.
 * Os membros de uma área de trabalho não podem substituir o relatório partilhado originalmente. As tentativas para o fazer resultam num aviso que lhe pede para mudar o nome do ficheiro e publicar.
 * Se eliminar o conjunto de dados partilhado no serviço Power BI, os restantes relatórios baseados nesse conjunto de dados deixarão de funcionar corretamente ou de apresentar os elementos visuais.
 * Para Pacotes de Conteúdo, tem de criar primeiro uma cópia de um pacote de conteúdo antes de o utilizar como base para partilhar um relatório *.pbix* e o conjunto de dados no serviço Power BI.
-* Para Pacotes de Conteúdo de *A Minha Organização* , depois de copiado, não pode substituir o relatório criado no serviço ou um relatório criado como parte da cópia de um Pacote de Conteúdo com uma ligação em direto. As tentativas para o fazer resultam num aviso que lhe pede para mudar o nome do ficheiro e publicar. Nesta situação, apenas pode substituir os relatórios ligados em direto publicados.
+* Para Pacotes de Conteúdo de *A Minha Organização*, depois de copiado, não pode substituir o relatório criado no serviço ou um relatório criado como parte da cópia de um Pacote de Conteúdo com uma ligação em direto. As tentativas para o fazer resultam num aviso que lhe pede para mudar o nome do ficheiro e publicar. Nesta situação, apenas pode substituir os relatórios ligados em direto publicados.
 * Eliminar um conjunto de dados partilhado no serviço Power BI significa que todas as pessoas perderão o acesso a este conjunto de dados a partir do Power BI Desktop.
 * Os relatórios que partilham um conjunto de dados no serviço Power BI não suportam implementações automatizadas que utilizam a API REST do Power BI.

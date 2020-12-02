@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 41db895494c32918fedba7c27664354e45ae2f1c
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 8fad09221caafd66467e8e183304ab408b803720
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94511970"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412213"
 ---
 # <a name="power-bi-premium-faq"></a>Perguntas Frequentes do Power BI Premium
 

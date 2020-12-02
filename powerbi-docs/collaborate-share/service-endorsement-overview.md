@@ -2,18 +2,18 @@
 title: Endosso – promover e certificar conteúdos do Power BI
 description: Saiba como encontrar conteúdos de qualidade mais facilmente através da promoção ou certificação
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 10/26/2020
-ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: af222d1ebedf8e9afa2529d3d433da5d003a8059
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 65a83bf0e91d4f3004445ffcd8cd6f78d5a77fc3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681918"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411845"
 ---
 # <a name="endorsement---promoting-and-certifying-power-bi-content"></a>Endosso – promover e certificar conteúdos do Power BI
 
@@ -21,17 +21,17 @@ ms.locfileid: "92681918"
 
 Geralmente, as organizações têm grandes quantidades de conteúdos do Power BI disponíveis para partilha e reutilização pelos seus utilizadores do Power BI e pode ser difícil identificar conteúdos confiáveis e autoritativos. O endosso é uma forma para os utilizadores encontrarem mais facilmente os conteúdos de alta qualidade de que precisam. Os conteúdos endossados estão claramente identificados, tanto no Power BI como noutros locais onde os utilizadores procuram conteúdos do Power BI (como o Excel). Também têm prioridade em algumas pesquisas e pode ordená-los em algumas listas.
 
-Existem dois tipos de endosso: **promoção** e **certificação** .
+Existem dois tipos de endosso: **promoção** e **certificação**.
 
-* **Promoção** : a promoção permite que os utilizadores destaquem os conteúdos que consideram valiosos, que valem a pena e estão prontos para serem utilizados por outros utilizadores. Incentiva a difusão colaborativa de conteúdos numa organização.
+* **Promoção**: a promoção permite que os utilizadores destaquem os conteúdos que consideram valiosos, que valem a pena e estão prontos para serem utilizados por outros utilizadores. Incentiva a difusão colaborativa de conteúdos numa organização.
 
     Um proprietário de conteúdos ou um membro com permissões de escrita na área de trabalho na qual estão localizados os conteúdos pode simplesmente promover os conteúdos quando considerar serem suficientemente bons para partilhar.
 
-* **Certificação** : a certificação significa que os conteúdos cumprem os padrões de qualidade da organização e podem ser considerados conteúdos confiáveis e autoritativos que estão prontos para serem utilizados na organização.
+* **Certificação**: a certificação significa que os conteúdos cumprem os padrões de qualidade da organização e podem ser considerados conteúdos confiáveis e autoritativos que estão prontos para serem utilizados na organização.
 
     Apenas um grupo específico de revisores (definido pelo administrador do Power BI) tem autorização para certificar os conteúdos. Os proprietários de conteúdos que pretendem certificar os respetivos conteúdos e não têm autorização para fazê-lo têm de seguir as diretrizes da organização para que os conteúdos sejam certificados.
 
-    **A certificação está disponível apenas se um administrador do Power BI a tiver ativado e configurado para a sua organização** .
+    **A certificação está disponível apenas se um administrador do Power BI a tiver ativado e configurado para a sua organização**.
 
 A imagem abaixo ilustra como os conteúdos endossados (promovidos e certificados) estão claramente identificados quando procura um conjunto de dados para criar um relatório.
 
