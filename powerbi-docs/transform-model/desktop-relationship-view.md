@@ -2,19 +2,19 @@
 title: Vista de modelo no Power BI Desktop
 description: Vista de modelo no Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/17/2020
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 1c580d403ef33f1c61d5fcd0707d78b4b331da5d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b257fc5af97cb16798cc27bdbdb92c1b63a65181
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239867"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413777"
 ---
 # <a name="work-with-model-view-in-power-bi-desktop"></a>Trabalhar com a vista de Modelo no Power BI Desktop
 

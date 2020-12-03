@@ -2,19 +2,19 @@
 title: Tabela de elementos visuais e registos nos elementos visuais do Power BI Desktop
 description: Utilize as funcionalidades Tabela de elementos visuais e Tabela de ponto de dados do Power BI Desktop para explorar os detalhes
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/21/2020
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9fa3ee1c1e0f757eb3b464785c8cb3fe3ab6e78
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 05dcd5f0d7ca1681ee1e82762ea1557c79c5bc24
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264727"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412811"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Utilizar a Tabela de elementos visuais e a Tabela de ponto de dados no Power BI Desktop
 No **Power BI Desktop**, pode explorar os detalhes de uma visualização e ver representações textuais dos dados subjacentes ou registos dos dados individuais do elemento visual selecionado. Estas funcionalidades são, por vezes, referidas como *clicável*, *exploração* ou *exploração de detalhes*.

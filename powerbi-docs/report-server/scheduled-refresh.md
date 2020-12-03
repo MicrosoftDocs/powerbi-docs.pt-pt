@@ -2,18 +2,18 @@
 title: Atualização agendada para relatórios do Power BI no Power BI Report Server
 description: A atualização agendada para os relatórios do Power BI permite que os dados de um relatório com um modelo incorporado fiquem atualizados.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/09/2020
-ms.author: maggies
-ms.openlocfilehash: 710df5f4159f49884d9eee1044b2c077c7edcb88
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 4dd8914abe1f098b66d23daa299200b90b9bda6a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749098"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412581"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Atualização agendada para relatórios do Power BI no Power BI Report Server
 A atualização agendada para relatórios do Power BI permite que os dados de um relatório fiquem atualizados.

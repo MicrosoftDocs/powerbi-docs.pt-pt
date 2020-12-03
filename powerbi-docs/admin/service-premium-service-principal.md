@@ -1,20 +1,20 @@
 ---
 title: Automatizar tarefas de conjuntos de dados e áreas de trabalho do Power BI Premium com principais de serviço | Microsoft Docs
 description: Saiba como utilizar principais de serviço para automatizar as tarefas de gestão de conjuntos de dados e áreas de trabalho do Power BI Premium.
-author: minewiskan
-ms.author: owend
+author: Minewiskan
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 10/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 406b526f9e2dd146ee99629ed913c60b95989cb0
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 7ffd2d2673a4efb827110c04e5e466e143c36022
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483725"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413432"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Automatizar as tarefas de conjuntos de dados e áreas de trabalho Premium com principais de serviço
 
@@ -22,7 +22,7 @@ Os principais de serviço são *registos de aplicações* do Azure Active Direct
 
 O Power BI Premium utiliza a mesma funcionalidade de principal de serviço que o Power BI Embedded. Para saber mais, veja [Incorporar conteúdos do Power BI com principais de serviço](../developer/embedded/embed-service-principal.md).
 
-No **Power BI Premium** , os principais de serviço também podem ser utilizados com o [ponto final XMLA](service-premium-connect-tools.md) para automatizar tarefas de gestão de conjuntos de dados, tal como aprovisionar áreas de trabalho, implementar modelos e atualizar conjuntos de dados com:
+No **Power BI Premium**, os principais de serviço também podem ser utilizados com o [ponto final XMLA](service-premium-connect-tools.md) para automatizar tarefas de gestão de conjuntos de dados, tal como aprovisionar áreas de trabalho, implementar modelos e atualizar conjuntos de dados com:
 
 - PowerShell
 - Automatização do Azure
@@ -50,7 +50,7 @@ Para restringir o acesso do principal de serviço a configurações específicas
 
 Antes de utilizar principais de serviço no Power BI, um administrador terá de ativar o acesso do principal de serviço no portal de administração do Power BI.
 
-No Power BI, em **Portal de administração** > **Definições de inquilino** , expanda **Permitir que os principais de serviço utilizem as APIs do Power BI** e, em seguida, clique em **Ativado**. Para aplicar permissões a um grupo de segurança, adicione o nome do grupo a **Grupos de segurança específicos**.
+No Power BI, em **Portal de administração** > **Definições de inquilino**, expanda **Permitir que os principais de serviço utilizem as APIs do Power BI** e, em seguida, clique em **Ativado**. Para aplicar permissões a um grupo de segurança, adicione o nome do grupo a **Grupos de segurança específicos**.
 
 ![Definições de área de trabalho](media/service-premium-service-principal/admin-portal.png)
 

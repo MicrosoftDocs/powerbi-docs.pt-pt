@@ -2,20 +2,20 @@
 title: Comprar o Power BI através do seu parceiro Microsoft 365
 description: Saiba como adicionar o Power BI a uma subscrição do Microsoft 365 comprada através de um parceiro. O modelo de distribuição é um modelo de compra utilizado pelo Microsoft 365.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/27/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 14ca898e634f7c555ae649b0de8290e9c76507a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a7a2f06b019361f164f47469d5bd16218d4ebff2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227589"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413478"
 ---
 # <a name="add-power-bi-to-a-microsoft-365-partner-subscription"></a>Adicionar o Power BI a uma subscrição de parceiro Microsoft 365
 

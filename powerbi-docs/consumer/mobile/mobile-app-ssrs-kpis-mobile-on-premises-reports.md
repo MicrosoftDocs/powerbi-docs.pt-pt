@@ -2,18 +2,18 @@
 title: View on-premises reports and KPIs in the Power BI mobile apps (Ver KPIs e relatórios no local nas aplicações móveis do Power BI)
 description: As aplicações móveis do Power BI disponibilizam um acesso móvel, dinâmico e tátil às suas informações comerciais no local no SQL Server Reporting Services e no Power BI Report Server.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/05/2019
-ms.author: painbar
-ms.openlocfilehash: e9f3b41e9c8435008f732d215ae022d6a023574d
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 18ad1be61202ddf189da064a833fddf6d793a2ba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668580"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413409"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Ver KPIs e relatórios no local do servidor de relatórios nas aplicações móveis do Power BI
 

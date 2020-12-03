@@ -2,18 +2,18 @@
 title: Explorar relatórios nas aplicações móveis do Power BI
 description: Saiba mais sobre ver e interagir com relatórios nas aplicações móveis do Power BI no seu telemóvel ou tablet. Pode criar relatórios no serviço Power BI ou no Power BI Desktop e, em seguida, interagir com os mesmos nas aplicações móveis.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
-ms.author: painbar
-ms.openlocfilehash: 47f1db75eb3923c1c4195a319323c3a37d17484e
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: 5d361a749f947f8d45b052a8a2b6455007745d20
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92026093"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413087"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -47,7 +47,7 @@ Existem dois ícones para relatórios nas aplicações móveis do Power BI:
 > [!NOTE]
 > Ao segurar o seu telemóvel na orientação horizontal, será sempre apresentado o esquema horizontal, mesmo que a página do relatório esteja no esquema de telemóvel.
 
-Para aceder a um relatório a partir de um dashboard, toque em **Mais opções** (...) no canto superior direito de um mosaico e, em seguida, toque em **Abrir relatório** :
+Para aceder a um relatório a partir de um dashboard, toque em **Mais opções** (...) no canto superior direito de um mosaico e, em seguida, toque em **Abrir relatório**:
   
   ![Abrir relatório](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
@@ -100,7 +100,7 @@ Os autores de relatórios podem definir hierarquias nos dados e nas relações e
 ![Ações de exploração](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
 
-Ao tocar numa parte específica de um elemento visual e, em seguida, tocar na opção de *pormenorização* , o Power BI irá direcioná-lo para uma página diferente no relatório, filtrada para apresentar o valor no qual tocou. O autor de um relatório pode definir uma ou mais opções de pormenorização que encaminhem o utilizador para diferentes páginas. Nesse caso, poderá escolher que opção pretende explorar. O botão Anterior permite-lhe voltar à página anterior.
+Ao tocar numa parte específica de um elemento visual e, em seguida, tocar na opção de *pormenorização*, o Power BI irá direcioná-lo para uma página diferente no relatório, filtrada para apresentar o valor no qual tocou. O autor de um relatório pode definir uma ou mais opções de pormenorização que encaminhem o utilizador para diferentes páginas. Nesse caso, poderá escolher que opção pretende explorar. O botão Anterior permite-lhe voltar à página anterior.
 
 
 Para obter mais informações, saiba mais sobre como [adicionar pormenorização no Power BI Desktop](../../create-reports/desktop-drillthrough.md).
@@ -140,13 +140,13 @@ A ação **Convidar** só estará ativa se tiver permissão para partilhar o rel
 
 A ação **Filtrar pela localização atual** estará ativa se o autor do relatório tiver categorizado o relatório com dados geográficos. Para obter mais informações, leia sobre a [identificação de dados geográficos num relatório](../../transform-model/desktop-mobile-geofiltering.md).
 
-A ação **Ler para filtrar o relatório por código de barras** só estará ativa se o conjunto de dados do seu relatório estiver identificado como **Código de barras** . Para obter mais informações, leia sobre a [identificação de códigos de barras no Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md).
+A ação **Ler para filtrar o relatório por código de barras** só estará ativa se o conjunto de dados do seu relatório estiver identificado como **Código de barras**. Para obter mais informações, leia sobre a [identificação de códigos de barras no Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md).
 
 ### <a name="bookmarks"></a>Marcadores
 
 A aplicação móvel do Power BI suporta marcadores de relatório definidos pelo criador do relatório e marcadores pessoais que tenha definido no serviço Power BI. Pode encontrar o menu de marcadores em **Mais opções** (...) na [barra de ferramentas das ações do relatório](mobile-reports-in-the-mobile-apps.md#all-report-actions).
 
-Os marcadores predefinidos são indicados com um ícone especial. Para marcadores pessoais, pode definir, anular ou alterar a predefinição ao tocar em **Mais opções (...)** junto ao marcador que pretende alterar e selecionar **Predefinir** ou **Limpar predefinição** .
+Os marcadores predefinidos são indicados com um ícone especial. Para marcadores pessoais, pode definir, anular ou alterar a predefinição ao tocar em **Mais opções (...)** junto ao marcador que pretende alterar e selecionar **Predefinir** ou **Limpar predefinição**.
 
 ![menu de marcadores](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
 
@@ -177,9 +177,9 @@ Para descobrir quando o seu relatório foi atualizado pela última vez, toque no
  
 ## <a name="configure-your-experience-with-reports"></a>Configurar a sua experiência em relatórios
 A aplicação móvel do Power BI tem uma série de definições que lhe permitem controlar a sua experiência de relatórios. Atualmente, pode configurar:
-* **Interação com elementos visuais de relatórios** : pode optar por utilizar uma interação com toque único ou duplo toque.
-* **Método de atualização de dados** : pode optar por ter um botão de atualização ou uma ação de puxar para baixo para atualizar os dados dos relatórios.
-* **Visibilidade de rodapé de relatório** : pode optar por ter um rodapé ancorado que esteja sempre visível ou um rodapé dinâmico que se oculte e surja consoante as suas ações (por exemplo, deslocamento).
+* **Interação com elementos visuais de relatórios**: pode optar por utilizar uma interação com toque único ou duplo toque.
+* **Método de atualização de dados**: pode optar por ter um botão de atualização ou uma ação de puxar para baixo para atualizar os dados dos relatórios.
+* **Visibilidade de rodapé de relatório**: pode optar por ter um rodapé ancorado que esteja sempre visível ou um rodapé dinâmico que se oculte e surja consoante as suas ações (por exemplo, deslocamento).
 
 Veja as [definições de interação de aplicações](./mobile-app-interaction-settings.md) para obter informações sobre como alterar estas definições.
 

@@ -2,25 +2,25 @@
 title: Vista de Relatório no Power BI Desktop
 description: Vista de Relatório no Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 10/12/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 859fb6156af38fc5333e9c94281255369d9ee413
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 3b168eb0e6a475651f4f8fb6337c518812d8ffcf
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256983"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412880"
 ---
 # <a name="work-with-report-view-in-power-bi-desktop"></a>Trabalhar com a Vista de Relatório no Power BI Desktop
 
 Se já trabalhou com o Power BI, sabe como é fácil criar relatórios que fornecem informações e perspetivas dinâmicas sobre os seus dados. O Power BI também conta com funcionalidades mais avançadas no Power BI Desktop. Com o Power BI Desktop, cria consultas avançadas, realiza mashup dos dados provenientes de várias origens, cria relações entre tabelas e muito mais.
 
-O Power BI Desktop inclui uma *Vista de relatório* , onde pode criar as páginas de relatório que quiser com visualizações. A vista de relatório no Power BI Desktop permite uma experiência de design semelhante à da vista de edição do relatório no *serviço Power BI* . Pode mover as visualizações de um lado para o outro, copiar e colar, unir, etc.
+O Power BI Desktop inclui uma *Vista de relatório*, onde pode criar as páginas de relatório que quiser com visualizações. A vista de relatório no Power BI Desktop permite uma experiência de design semelhante à da vista de edição do relatório no *serviço Power BI*. Pode mover as visualizações de um lado para o outro, copiar e colar, unir, etc.
 
 A diferença é que ao utilizar o Power BI Desktop, pode trabalhar com as suas consultas e modelar os seus dados para certificar-se que os seus dados suportam as melhores informações nos seus relatórios. Então pode guardar o seu ficheiro do Power BI Desktop onde quiser, quer seja na sua unidade local ou na cloud.
 
@@ -30,7 +30,7 @@ Quando carrega dados pela primeira vez no Power BI Desktop, verá a Vista de r
 
 ![Power BI Desktop](media/desktop-report-view/report-view-blank-canvas.png)
 
-Pode alternar entre as vistas **Relatório** , **Dados** e **Relações** ao selecionar os ícones no painel de navegação esquerdo:
+Pode alternar entre as vistas **Relatório**, **Dados** e **Relações** ao selecionar os ícones no painel de navegação esquerdo:
 
 ![Ícone da vista de relatório](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 
@@ -38,7 +38,7 @@ Depois de adicionar alguns dados, pode adicionar campos a uma nova visualizaçã
 
 ![Adicionar um elemento visual ao arrastar do painel Campos](media/desktop-report-view/pbid_reportview_addvis.gif)
 
-Para alterar o tipo de visualização, pode selecioná-lo na tela e, em seguida, selecionar um novo tipo em **Visualizações** .
+Para alterar o tipo de visualização, pode selecioná-lo na tela e, em seguida, selecionar um novo tipo em **Visualizações**.
 
 ![Alterar um elemento visual ao selecionar um novo](media/desktop-report-view/pbid_reportview_changevis.gif)
 

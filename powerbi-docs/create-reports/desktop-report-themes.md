@@ -2,20 +2,20 @@
 title: Utilizar temas de relatório no Power BI Desktop
 description: Saiba como utilizar uma paleta de cores personalizada e como a aplicar a um relatório completo no Power BI Desktop.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: contperfq4
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/28/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ed8d93ef905cca6e934ac2100093475136595c9a
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 1efc83ac18b2d2cf44aae05003e533f45ae11864
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634740"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413041"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Utilizar temas de relatório no Power BI Desktop
 

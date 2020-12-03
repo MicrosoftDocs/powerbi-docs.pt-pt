@@ -2,19 +2,19 @@
 title: Sort by column in Power BI Desktop (Ordenar por coluna no Power BI Desktop)
 description: No Power BI, pode alterar o aspeto de um elemento visual ao ordená-lo por campos de dados diferentes.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/30/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d8aea8cf850a2f44ed9786701c33fbf35e8e6e6f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 06cd73aa86fdef58ea77b54305af300b1adb62d7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238549"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412765"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Sort by column in Power BI Desktop (Ordenar por coluna no Power BI Desktop)
 No Power BI Desktop e no serviço Power BI, pode alterar o aspeto de um elemento visual ao ordená-lo por campos de dados diferentes. Ao alterar a forma como ordena um elemento visual, pode destacar as informações que pretende transmitir e certificar-se de que o elemento visual reflete essa tendência (ou ênfase).

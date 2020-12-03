@@ -2,19 +2,19 @@
 title: Mostrar itens sem dados no Power BI
 description: Saiba como é que o Power BI processa e apresenta itens sem dados
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/16/2019
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 89c4c9919ac5b47a1e3c20c786b239be44c4308b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3c65f7b18a7df70749c9374e1290313141244665
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238581"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412742"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Mostrar itens sem dados no Power BI
 
