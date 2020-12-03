@@ -74,6 +74,8 @@
           href: service-admin-auditing.md
         - name: Controlar o estado de funcionamento do serviço
           href: service-admin-health.md
+        - name: Ativar a autenticação do principal de serviço para as APIs de administração só de leitura
+          href: read-only-apis-service-principal-authentication.md
         - name: Closing your account (Encerrar a sua conta)
           href: service-admin-closing-your-account.md
         - name: Utilizar o Azure AD B2B
