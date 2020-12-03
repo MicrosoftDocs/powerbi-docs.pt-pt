@@ -4,15 +4,15 @@ description: Saiba como migrar a partir da Coleção de Áreas de Trabalho do Po
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 7d4a548ab24e8493cef340026642021a2f923ee1
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: afff3023942352a25ff89fbed5f4a855b23d724d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397421"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416560"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded
 
@@ -32,9 +32,9 @@ A Coleção de Áreas de Trabalho do Power BI atual continuará disponível por 
 Antes de começar a migrar para o novo Power BI Embedded, pode percorrer rapidamente um guia passo a passo que o ajuda a configurar o seu novo ambiente do Power BI Embedded ao utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/embedsetup).
 
 Escolha a solução mais adequada para si:
-* **Incorporar para os seus clientes** , se estiver interessado numa solução em que *os dados pertencem à aplicação*. A solução [Incorporar para os seus clientes](embedding.md#embedding-for-your-customers) permite-lhe incorporar dashboards e relatórios para utilizadores que não têm uma conta para o Power BI. 
+* **Incorporar para os seus clientes**, se estiver interessado numa solução em que *os dados pertencem à aplicação*. A solução [Incorporar para os seus clientes](embedding.md#embedding-for-your-customers) permite-lhe incorporar dashboards e relatórios para utilizadores que não têm uma conta para o Power BI. 
 
-* **Incorporar para a sua organização** , se estiver interessado numa solução em que *os dados pertencem ao utilizador*. A solução [Incorporar para a sua organização](embedding.md#embedding-for-your-organization) permite-lhe alargar o serviço Power BI.
+* **Incorporar para a sua organização**, se estiver interessado numa solução em que *os dados pertencem ao utilizador*. A solução [Incorporar para a sua organização](embedding.md#embedding-for-your-organization) permite-lhe alargar o serviço Power BI.
 
 ## <a name="prepare-for-the-migration"></a>Preparar a migração
 

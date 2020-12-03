@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
+ms.topic: how-to
 ms.date: 07/14/2020
-ms.openlocfilehash: 1809b1f539c82de4bf98689dbb259594a603b90c
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: a4b816e040e25b4a7e67c4bd488554d019277778
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349696"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417181"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicar elementos visuais do Power BI no Centro de Parceiros
 
@@ -47,7 +47,7 @@ Quando estiver pronto para submeter o elemento visual do Power BI, verifique se
 
 Para submeter um elemento visual do Power BI, necessita de um XML do pacote de aplicação da equipa do Power BI. Para obter o XML do pacote de aplicação, envie um e-mail para a equipa de submissão de elementos visuais do Power BI ([pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com)).
 
-Antes de criar o pacote **pbiviz** , terá de preencher os seguintes campos no ficheiro **pbiviz.json** :
+Antes de criar o pacote **pbiviz**, terá de preencher os seguintes campos no ficheiro **pbiviz.json**:
 * descrição
 * supportUrl
 * autor
@@ -83,29 +83,29 @@ Para submeter o elemento visual do Power BI no Centro de Parceiros, precisa de 
 
 Siga os passos abaixo para submeter o elemento visual do Power BI no Centro de Parceiros. Para obter mais informações acerca do processo de submissão, veja [Submit your Office solution to AppSource via Partner Center](/office/dev/store/use-partner-center-to-submit-to-appsource) (Submeter a solução do Office no AppSource através do Centro de Parceiros).
 
-1. Inicie sessão no **Centro de Parceiros** .
+1. Inicie sessão no **Centro de Parceiros**.
 
-2. No painel esquerdo, selecione **LOJA OFFICE** .
+2. No painel esquerdo, selecione **LOJA OFFICE**.
 
-3. Selecione **Descrição geral** .
+3. Selecione **Descrição geral**.
 
-4. Selecione **Criar um novo** e, no menu pendente, selecione **Elemento visual do Power BI** .
+4. Selecione **Criar um novo** e, no menu pendente, selecione **Elemento visual do Power BI**.
 
     ![Captura de ecrã da criação de um novo elemento visual do Power BI no separador Loja Office no Centro de Parceiros.](media/office-store/power-bi-visual.png)
 
-5. Na janela **Criar um novo elemento visual do Power BI** , introduza um nome para o elemento visual do Power BI e selecione **Criar** .
+5. Na janela **Criar um novo elemento visual do Power BI**, introduza um nome para o elemento visual do Power BI e selecione **Criar**.
 
 6. Selecione **Pacotes** e carregue o XML do pacote de aplicação do elemento visual do Power BI.
 
 7. Selecione **Propriedades** e forneça as informações necessárias.
 
-8. Se o produto exigir uma compra adicional, selecione **Configuração do produto** e marque a caixa de verificação **Compra de serviço associado** .
+8. Se o produto exigir uma compra adicional, selecione **Configuração do produto** e marque a caixa de verificação **Compra de serviço associado**.
 
-9. (Opcional) Caso pretenda [certificar](power-bi-custom-visuals-certified.md) o elemento visual, selecione **Configuração do produto** e marque a caixa de verificação **Certificação do Power BI** .
+9. (Opcional) Caso pretenda [certificar](power-bi-custom-visuals-certified.md) o elemento visual, selecione **Configuração do produto** e marque a caixa de verificação **Certificação do Power BI**.
     >[!TIP]
     >O processo de certificação do Power BI pode demorar algum tempo. Se estiver a criar um novo elemento visual do Power BI, recomendamos que o publique através do Centro de Parceiros antes de pedir a certificação do Power BI. Esse procedimento garante que a publicação do elemento visual não sofre atrasos.
 
-10. Selecione **Configuração do produto** e clique em **Rever e publicar** .
+10. Selecione **Configuração do produto** e clique em **Rever e publicar**.
 
 
 ## <a name="tracking-submission-status-and-usage"></a>Controlar o estado da submissão e a utilização

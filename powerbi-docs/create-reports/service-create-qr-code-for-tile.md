@@ -1,20 +1,20 @@
 ---
 title: Criar um código QR para um mosaico a utilizar nas aplicações móveis do Power BI
 description: Os códigos QR nos mosaicos do Power BI podem ligar qualquer coisa do mundo real diretamente às informações do BI relacionadas nas aplicações móveis do Power BI; não é necessária pesquisa.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/07/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 95e966a7056926c70802a4502be497c2d2b268e5
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 85d33d5e1088a4bd47b6bfbcade6a6a1a4e14bbb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746775"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417457"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Criar um código QR para um mosaico no Power BI a utilizar nas aplicações móveis
 Os códigos QR no Power BI podem ligar qualquer coisa do mundo real diretamente às informações do BI relacionadas &#151; não é necessária navegação ou pesquisa.

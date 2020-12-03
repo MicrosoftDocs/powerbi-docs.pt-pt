@@ -2,19 +2,19 @@
 title: Utilizar a Lista de Campos no Power BI Desktop (pré-visualização)
 description: Utilize a Lista de Campos para modelar dados e criar relatórios no Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 11/11/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: a314ba3faedf463c7b92977aad1792d9f37b2f28
-ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
+ms.openlocfilehash: 834df274d4cc75af1087ab4fa7d24c2fd7dd4fec
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94571853"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416008"
 ---
 # <a name="using-the-field-list-in-power-bi-desktop-preview"></a>Utilizar a Lista de Campos no Power BI Desktop (pré-visualização)
 

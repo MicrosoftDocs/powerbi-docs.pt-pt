@@ -2,20 +2,20 @@
 title: Filtragem cruzada bidirecional no Power BI Desktop
 description: Ativar a filtragem cruzada ao utilizar o DirectQuery no Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 01/15/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 141dabdce7816d21c49d8c7f98d1438c2fc20e8d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 96e0e60adcd1858fa031eb81e8f0762690cbe0c7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83339105"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415985"
 ---
 # <a name="enable-bidirectional-cross-filtering-for-directquery-in-power-bi-desktop"></a>Ativar a filtragem cruzada bidirecional para o DirectQuery no Power BI Desktop
 

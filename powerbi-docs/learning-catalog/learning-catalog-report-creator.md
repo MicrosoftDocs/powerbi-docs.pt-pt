@@ -2,16 +2,16 @@
 title: Catálogo de aprendizagem para criadores de relatórios
 description: Descubra todas as opções de formação do Power BI para designers de relatório, desde as mais básicas às mais avançadas.
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: 3774de30309b2e1b3a8b086ee1d7605d1cba256d
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 4b6b7cf92f0ee529fe9f9c025de4d38ded4cade5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749374"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416445"
 ---
 # <a name="report-creator-learning-catalog"></a>Catálogo de aprendizagem para Criadores de Relatórios
 

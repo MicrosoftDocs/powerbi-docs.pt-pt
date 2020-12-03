@@ -2,16 +2,16 @@
 title: Catálogo de aprendizagem para Arquitetos de Soluções
 description: Descubra todas as opções de formação do Power Apps para designers de soluções, desde as mais básicas às mais avançadas.
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: c75e3d45199173ce949bb876e9755c44c8bd06a5
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 5af590d1a66ed5372a15c5335bad7166c177592e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749351"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416399"
 ---
 # <a name="solution-architects-learning-catalog"></a>Catálogo de aprendizagem para Arquitetos de Soluções
 

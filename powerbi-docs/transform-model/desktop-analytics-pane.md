@@ -2,19 +2,19 @@
 title: Utilizar o painel Análise no Power BI Desktop
 description: Criar linhas de referência dinâmicas para visuais no Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/10/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7744c32242cd2cde4659269cd85037fed1f0cce
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1437e680ac7dc4114d68bd534ba8ec93dd8ae508
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237963"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416054"
 ---
 # <a name="use-the-analytics-pane-in-power-bi-desktop"></a>Utilizar o painel Análise no Power BI Desktop
 

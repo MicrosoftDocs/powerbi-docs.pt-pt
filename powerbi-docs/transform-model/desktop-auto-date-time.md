@@ -2,18 +2,18 @@
 title: Auto date/time in Power BI Desktop (Data/Hora Automáticas no Power BI Desktop)
 description: Compreenda a funcionalidade data/hora automáticas no Power BI Desktop.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 10/23/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 0c62e423bdf357a5eee4ef5b03daa7ec145310e7
-ms.sourcegitcommit: 20cfd157af587b3910a2b6deec9518dca4105d71
+ms.openlocfilehash: 24972026d7121809ac71c6c8352a147af38ad5be
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85943059"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416031"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Aplicar data/hora automáticas no Power BI Desktop
 

@@ -1,20 +1,20 @@
 ---
 title: Parâmetros de relatórios no Report Builder do Power BI
 description: Este tópico descreve as utilizações comuns dos parâmetros de relatórios do Report Builder do Power BI, as propriedades que pode definir e muito mais.
+author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-author: maggiesMSFT
-ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: 6c0a891257ae4e768c3952398eb8303906bf2ce4
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 77388e138451242ae54f4d1f0630599bbd9de829
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297816"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416284"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Parâmetros de relatórios no Report Builder do Power BI
 
@@ -52,7 +52,7 @@ Quando visualizar um relatório que tenha parâmetros, a barra de ferramentas do
   
 4. **Identificador Mostrar ou Ocultar Área de Parâmetros** Na barra de ferramentas do visualizador de relatórios, clique nesta seta para mostrar ou ocultar o painel de parâmetros.  
   
-5. **@CategoryQuota parâmetro** o parâmetro @CategoryQuota é o tipo de dados **Float** , por isso, é necessário um valor numérico.  @CategoryQuota está definido para permitir múltiplos valores.  
+5. **@CategoryQuota parâmetro** o parâmetro @CategoryQuota é o tipo de dados **Float**, por isso, é necessário um valor numérico.  @CategoryQuota está definido para permitir múltiplos valores.  
   
 6. **Ver Relatório** Depois de introduzir os valores dos parâmetros, clique em **Ver Relatório** para executar o relatório. Se todos os parâmetros tiverem os valores predefinidos, o relatório será executado automaticamente na primeira visualização.  
   
@@ -114,9 +114,9 @@ Pode criar um parâmetro manualmente a partir do painel Dados do Relatório. Pod
 |Visible|Selecione esta opção para apresentar o parâmetro de relatório na parte superior do relatório quando este for executado. Esta opção permite que os utilizadores selecionem valores de parâmetros durante a execução.|  
 |Oculto|Selecione esta opção para ocultar o parâmetro de relatório no relatório publicado. Os valores dos parâmetros de relatório continuam a poder ser definidos num URL de relatório, numa definição de subscrição ou no servidor de relatórios.|  
 |Interno|Selecione esta opção para ocultar o parâmetro de relatório. No relatório publicado, o parâmetro de relatório só pode ser visto na definição do relatório.|  
-|Valores disponíveis|Se tiver especificado valores disponíveis para um parâmetro, os valores válidos serão sempre apresentados sob a forma de lista pendente. Por exemplo, se fornecer valores disponíveis para um parâmetro **DateTime** , será apresentada uma lista pendente para datas no painel do parâmetro em vez de um controlo de calendário.<br /><br /> Para garantir que as listas de valores são consistentes nos relatórios e sub-relatórios, pode definir uma opção na origem de dados que permite utilizar uma única transação para todas as consultas nos conjuntos de dados associados a uma origem de dados.<br /><br /> **Nota de Segurança** No caso dos relatórios que incluem um parâmetro do tipo de dados **Texto** , certifique-se de que utiliza uma lista de valores disponíveis (também conhecida como uma lista de valores válidos) e de que os utilizadores que executam o relatório só têm as permissões necessário para ver os dados contidos no relatório.|  
+|Valores disponíveis|Se tiver especificado valores disponíveis para um parâmetro, os valores válidos serão sempre apresentados sob a forma de lista pendente. Por exemplo, se fornecer valores disponíveis para um parâmetro **DateTime**, será apresentada uma lista pendente para datas no painel do parâmetro em vez de um controlo de calendário.<br /><br /> Para garantir que as listas de valores são consistentes nos relatórios e sub-relatórios, pode definir uma opção na origem de dados que permite utilizar uma única transação para todas as consultas nos conjuntos de dados associados a uma origem de dados.<br /><br /> **Nota de Segurança** No caso dos relatórios que incluem um parâmetro do tipo de dados **Texto**, certifique-se de que utiliza uma lista de valores disponíveis (também conhecida como uma lista de valores válidos) e de que os utilizadores que executam o relatório só têm as permissões necessário para ver os dados contidos no relatório.|  
 |Valores predefinidos|Permite definir valores predefinidos a partir de uma consulta ou de uma lista estática.<br /><br /> Se cada parâmetro tiver um valor predefinido, o relatório será executado automaticamente na primeira visualização.|  
-|Avançado|Permite definir o atributo de definição de relatório **UsedInQuery** , um valor que indica se este parâmetro afeta os dados num relatório de forma direta ou indireta.<br /><br /> **Determinar automaticamente ao atualizar**<br /> Selecione esta opção quando quiser que o processador do relatório determine uma definição para este valor. O valor é **Verdadeiro** se o processador do relatório detetar uma consulta de conjunto de dados com uma referência direta ou indireta para este parâmetro ou se o relatório tiver sub-relatórios.<br /><br /> **Atualizar sempre**<br /> Selecione esta opção quando o parâmetro de relatório for utilizado, de forma direta ou indireta, numa consulta de conjunto de dados ou expressão de parâmetro. Esta opção define **UsedInQuery** como Verdadeiro.<br /><br /> **Nunca atualizar**<br /> Selecione esta opção quando o parâmetro de relatório não for utilizado, de forma direta ou indireta, numa consulta de conjunto de dados ou expressão de parâmetro. Esta opção define **UsedInQuery** como Falso.<br /><br /> **Atenção** Utilize **Nunca Atualizar** com precaução. No servidor de relatórios, **UsedInQuery** é utilizado para ajudar a controlar as opções da cache para dados de relatório e relatórios compostos, bem como as opções de parâmetros para os relatórios de instantâneos. Se definir **Nunca Atualizar** incorretamente, poderá estar a armazenar em cache relatórios ou dados de relatório incorretos ou a fazer com que um relatório de instantâneo tenha dados inconsistentes. |  
+|Avançado|Permite definir o atributo de definição de relatório **UsedInQuery**, um valor que indica se este parâmetro afeta os dados num relatório de forma direta ou indireta.<br /><br /> **Determinar automaticamente ao atualizar**<br /> Selecione esta opção quando quiser que o processador do relatório determine uma definição para este valor. O valor é **Verdadeiro** se o processador do relatório detetar uma consulta de conjunto de dados com uma referência direta ou indireta para este parâmetro ou se o relatório tiver sub-relatórios.<br /><br /> **Atualizar sempre**<br /> Selecione esta opção quando o parâmetro de relatório for utilizado, de forma direta ou indireta, numa consulta de conjunto de dados ou expressão de parâmetro. Esta opção define **UsedInQuery** como Verdadeiro.<br /><br /> **Nunca atualizar**<br /> Selecione esta opção quando o parâmetro de relatório não for utilizado, de forma direta ou indireta, numa consulta de conjunto de dados ou expressão de parâmetro. Esta opção define **UsedInQuery** como Falso.<br /><br /> **Atenção** Utilize **Nunca Atualizar** com precaução. No servidor de relatórios, **UsedInQuery** é utilizado para ajudar a controlar as opções da cache para dados de relatório e relatórios compostos, bem como as opções de parâmetros para os relatórios de instantâneos. Se definir **Nunca Atualizar** incorretamente, poderá estar a armazenar em cache relatórios ou dados de relatório incorretos ou a fazer com que um relatório de instantâneo tenha dados inconsistentes. |  
   
 ##  <a name="dataset-query"></a><a name="bkmk_Dataset_Parameters"></a> Consulta de conjunto de dados  
  Para filtrar dados na consulta de conjunto de dados, pode incluir uma cláusula de restrição que limita os dados obtidos ao especificar valores a incluir ou excluir dos resultados.  
@@ -145,7 +145,7 @@ Pode criar um parâmetro manualmente a partir do painel Dados do Relatório. Pod
 ##  <a name="parameters-for-a-subscription"></a><a name="bkmk_Parameters_Subscription"></a> Parâmetros para uma subscrição  
  Pode definir uma subscrição para um relatório a pedido ou de instantâneo e especificar os valores dos parâmetros a utilizar durante o processamento da subscrição.  
   
--   **Relatório a pedido.**  No caso dos relatórios a pedido, pode especificar um valor de parâmetro diferente do valor publicado para cada parâmetro listado para o relatório. Por exemplo, imagine que tem um relatório de Serviço de Chamada que utiliza um parâmetro *Período de tempo* para devolver pedidos de suporte ao cliente do dia, da semana ou do mês corrente. Se o valor de parâmetro predefinido para o relatório estiver definido como **hoje** , a sua subscrição pode utilizar um valor de parâmetro diferente (tal como **semana** ou **mês** ) para produzir um relatório que contenha os valores semanais ou mensais.  
+-   **Relatório a pedido.**  No caso dos relatórios a pedido, pode especificar um valor de parâmetro diferente do valor publicado para cada parâmetro listado para o relatório. Por exemplo, imagine que tem um relatório de Serviço de Chamada que utiliza um parâmetro *Período de tempo* para devolver pedidos de suporte ao cliente do dia, da semana ou do mês corrente. Se o valor de parâmetro predefinido para o relatório estiver definido como **hoje**, a sua subscrição pode utilizar um valor de parâmetro diferente (tal como **semana** ou **mês**) para produzir um relatório que contenha os valores semanais ou mensais.  
   
 ## <a name="next-steps"></a>Próximos passos
 

@@ -2,19 +2,19 @@
 title: Ligar às Informações de IA no Power BI Desktop
 description: Ligar e utilizar facilmente dados de Informações de IA no Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 06/10/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8de033c673d9d08833fdc5a935b92490db369104
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: a3654bc77ebdbd41ef608378157bf0d24bb94c88
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396754"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416123"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>Utilizar as Informações de IA no Power BI Desktop
 

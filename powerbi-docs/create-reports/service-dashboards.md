@@ -2,19 +2,19 @@
 title: Introdução aos dashboards para designers do Power BI
 description: Os dashboards são uma funcionalidade chave do serviço Power BI. São uma página única, frequentemente denominada tela, que utiliza visualizações para contar uma história.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/19/2019
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a9aa24145fc07841bc14980cb2ba02a4b45400a2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 092ce10b527c6160cb27de5e3de0ed5852219f6a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238336"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417296"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introdução aos dashboards para designers do Power BI
 

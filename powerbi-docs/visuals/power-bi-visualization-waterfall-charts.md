@@ -1,21 +1,21 @@
 ---
 title: Gráficos de cascata no Power BI
 description: Gráficos de cascata no Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/5/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ce3c52774326bd9fc66fecde7496fefb1cf6888c
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 1a651afd0aee0777f8f4c945f208eec8c46db047
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412125"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416675"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Gráficos de cascata no Power BI
 
@@ -62,7 +62,7 @@ Vai criar um gráfico de cascata que mostra a variação de vendas (vendas estim
 
 ### <a name="build-the-waterfall-chart"></a>Criar o gráfico de cascata
 
-1. No painel **Campos** , selecione **Vendas** > **Variação de Vendas Total**.
+1. No painel **Campos**, selecione **Vendas** > **Variação de Vendas Total**.
 
    ![Captura de ecrã de Sales > Total Sales Variance e o elemento visual resultante.](media/power-bi-visualization-waterfall-charts/power-bi-bar.png)
 
@@ -94,7 +94,7 @@ Vai criar um gráfico de cascata que mostra a variação de vendas (vendas estim
 
 Aprofunde um pouco mais para ver o que contribui mais para as alterações mês a mês.
 
-1.  Selecione **Store** > **Territory** , o que permitirá adicionar **Territory** ao registo **Divisão**.
+1.  Selecione **Store** > **Territory**, o que permitirá adicionar **Territory** ao registo **Divisão**.
 
     ![Captura de ecrã a mostrar a adição de Territory à área Divisão.](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
@@ -104,7 +104,7 @@ Aprofunde um pouco mais para ver o que contribui mais para as alterações mês 
 
     Digamos que só está interessado nos dois principais contribuidores.
 
-1. No painel **Formatação** , selecione **Divisão** e defina **Máximo de divisões** como **2**.
+1. No painel **Formatação**, selecione **Divisão** e defina **Máximo de divisões** como **2**.
 
     ![Formatação > Divisão](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-two.png)
 
