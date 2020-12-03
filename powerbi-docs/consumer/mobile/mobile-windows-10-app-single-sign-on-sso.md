@@ -2,18 +2,18 @@
 title: Início de sessão único na aplicação móvel do Power BI para Windows
 description: Leia mais sobre o início de sessão único (SSO) na aplicação móvel do Power BI para Windows. SSO significa que tem acesso a todas as aplicações e recursos de que precisa para trabalhar ao iniciar sessão apenas uma vez, com uma única conta de utilizador.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 41ddc6e0c9a4f4f2c9b5687194e043bb1ef80bec
-ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
+ms.openlocfilehash: b316c7b95b28ecb31561b3fbb99eeafa6ffabdb5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91928269"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415272"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Início de sessão único na aplicação móvel do Power BI para Windows
 
@@ -32,7 +32,7 @@ Para simplificar o processo de início de sessão, a aplicação tenta automatic
 
 Se já estiver a utilizar a aplicação móvel do Power BI para Windows, também pode utilizar o SSO quando atualizar para a nova versão da aplicação. Termine a sessão na aplicação, feche-a e volte a abri-la. Quando a aplicação volta a abrir, esta tenta automaticamente utilizar as suas credenciais atuais do Windows para fazer a autenticação no serviço Power BI. 
 
-Se não quiser utilizar as credenciais de sessão ativa atual do Windows para iniciar sessão no Power BI, bastará aceder a **Definições** , terminar sessão e iniciar sessão com outras credenciais. 
+Se não quiser utilizar as credenciais de sessão ativa atual do Windows para iniciar sessão no Power BI, bastará aceder a **Definições**, terminar sessão e iniciar sessão com outras credenciais. 
  
 ## <a name="next-steps"></a>Próximas etapas
 

@@ -1,21 +1,21 @@
 ---
 title: Comparar o Power BI Desktop e o serviço Power BI
 description: O Power BI Desktop é uma ferramenta completa de criação de relatórios e análise de dados. O serviço Power BI é um serviço online baseado na cloud para colaboração e edição simples de relatórios para equipas e empresas.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 08/07/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 0b4a1275a3b50fbadd37d953b77316d6021c800c
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 41d3ebc8980dabcce4c104bca318770ecf482d3d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397099"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414099"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Comparar o Power BI Desktop e o serviço Power BI
 
@@ -41,7 +41,7 @@ Os editores de relatórios no Power BI Desktop e no serviço Power BI são semel
 
 1. Os painéis de navegação superiores são diferentes no Power BI Desktop e no serviço Power BI    
 2. A tela de relatórios     
-3. Os painéis **Campos** , **Visualizações** e **Filtros**
+3. Os painéis **Campos**, **Visualizações** e **Filtros**
 
 Este vídeo mostra o editor de relatórios no Power BI Desktop. 
 
@@ -51,7 +51,7 @@ Este vídeo mostra o editor de relatórios no Power BI Desktop.
 
 ### <a name="collaborating"></a>Colaboração
 
-Depois de criar os seus relatórios, pode guardá-los numa *área de trabalho* no **serviço Power BI** , onde você e os seus colegas colaboram. Pode criar *dashboards* sobre esses relatórios. Em seguida, pode partilhar esses dashboards e relatórios com consumidores de relatórios dentro e fora da sua organização. Os consumidores de relatórios veem-nos no serviço Power BI numa *Vista de leitura* e não na Vista de edição. Não têm acesso a todas as funcionalidades disponíveis aos criadores de relatórios.  Também pode partilhar os seus conjuntos de dados e permitir que outras pessoas criem os seus próprios relatórios a partir dos mesmos. Leia mais sobre [colaborar no serviço Power BI](../collaborate-share/service-new-workspaces.md).
+Depois de criar os seus relatórios, pode guardá-los numa *área de trabalho* no **serviço Power BI**, onde você e os seus colegas colaboram. Pode criar *dashboards* sobre esses relatórios. Em seguida, pode partilhar esses dashboards e relatórios com consumidores de relatórios dentro e fora da sua organização. Os consumidores de relatórios veem-nos no serviço Power BI numa *Vista de leitura* e não na Vista de edição. Não têm acesso a todas as funcionalidades disponíveis aos criadores de relatórios.  Também pode partilhar os seus conjuntos de dados e permitir que outras pessoas criem os seus próprios relatórios a partir dos mesmos. Leia mais sobre [colaborar no serviço Power BI](../collaborate-share/service-new-workspaces.md).
 
 ### <a name="self-service-data-prep-with-dataflows"></a>Preparação personalizada de dados com fluxos de dados
 

@@ -1,26 +1,26 @@
 ---
 title: 'O "novo visual": onde se encontram as ações?'
 description: O serviço Power BI (app.powerbi.com) tem um novo aspeto e muitas ações foram movidas. Este artigo apresenta tabelas que mapeiam as localizações antigas para as novas.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: maggies
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/22/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 572943a437ebf0380b254e8b659699d676e9001f
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 1c16405ff211620580f739facda8556e81774935
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462171"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415134"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>O "novo visual": onde se encontram as ações?
 
 O serviço Power BI (app.powerbi.com) tem um novo aspeto que facilita a visualização dos seus relatórios e a interação com os mesmos. Como resultado, muitas ações do menu foram movidas. As tabelas neste artigo mapeiam a localização antiga para a nova. Para contextualizar, veja [O “novo aspeto” do serviço Power BI](service-new-look.md).
 
-Procura informações sobre o novo aspeto do **Power BI Desktop** ? Veja [Utilizar o friso atualizado no Power BI Desktop](../create-reports/desktop-ribbon.md).
+Procura informações sobre o novo aspeto do **Power BI Desktop**? Veja [Utilizar o friso atualizado no Power BI Desktop](../create-reports/desktop-ribbon.md).
 
 ## <a name="report-actions-in-the-new-look"></a>Ações dos relatórios no novo aspeto
 

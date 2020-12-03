@@ -2,18 +2,18 @@
 title: Power BI para HoloLens 2 (pré-visualização)
 description: Veja os dashboards e os relatórios na aplicação do Power BI for HoloLens 2.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/22/2020
-ms.author: painbar
-ms.openlocfilehash: 8e9205ca12efebbfa5c0338e2f501e59aed779e8
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: dffe3344fc10b0daceca629b5d5354f1b8419e81
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94718621"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414536"
 ---
 # <a name="power-bi-for-hololens-2-preview"></a>Power BI para HoloLens 2 (pré-visualização)
 A aplicação do Power BI for HoloLens 2 associa os relatórios e os dashboards do Power BI ao ambiente físico para criar uma experiência 3D envolvente e automatizada, na qual pode percorrer o mundo físico e obter os dados relevantes quando e onde precisar.

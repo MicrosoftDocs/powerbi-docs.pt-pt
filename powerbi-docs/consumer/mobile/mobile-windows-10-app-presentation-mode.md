@@ -2,18 +2,18 @@
 title: Ver no modo de apresentação no Surface Hub e Windows 10 – Power BI
 description: Saiba mais sobre como apresentar relatórios do Power BI no Surface Hub e mostrar dashboards, relatórios e mosaicos do Power BI no modo de apresentação em dispositivos Windows 10.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
-ms.author: painbar
-ms.openlocfilehash: a982374bbf713d4e0c970da601fdca3249120cbe
-ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
+ms.openlocfilehash: 797b00210154e577275f486194f7e36f2cd0077e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92683331"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415456"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Ver relatórios e dashboards no modo de apresentação no Surface Hub e em dispositivos com o Windows 10
 Pode utilizar o modo de apresentação para ver relatórios e dashboards em ecrã inteiro em dispositivos com o Windows 10 e no Surface Hub. O modo de apresentação é útil para mostrar o Power BI em reuniões ou conferências, num projetor de escritório dedicado ou simplesmente para maximizar o espaço num ecrã pequeno.
@@ -29,7 +29,7 @@ No modo de apresentação:
 >O suporte à aplicação móvel Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="use-presentation-mode"></a>Utilizar o modo de apresentação
-Na aplicação móvel do Power BI, toque no ícone **Mudar para o modo de apresentação** .
+Na aplicação móvel do Power BI, toque no ícone **Mudar para o modo de apresentação**.
 ![Ícone de ecrã inteiro](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) O cromado da aplicação desaparece e é apresentada uma barra de ferramentas de ação na parte inferior do ecrã ou nos lados direito e esquerdo (consoante o tamanho do ecrã).
 
 [![Relatório em modo de ecrã inteiro com barras de ferramentas laterais](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-toolbar.png)](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-toolbar-expanded.png#lightbox)
@@ -62,7 +62,7 @@ Quando selecionar o botão **Reproduzir** na barra de ferramentas de ação, a a
 
 ![Captura de ecrã do seletor da apresentação de diapositivos](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-selector.png)
 
- O controlador mostra o nome da vista atualmente apresentada (página ou marcador e página). Na imagem acima, vemos que no relatório chamado **Vendas** , estamos atualmente a ver o marcador **Ásia-Pacífico** na página **Desempenho de Vendas** .
+ O controlador mostra o nome da vista atualmente apresentada (página ou marcador e página). Na imagem acima, vemos que no relatório chamado **Vendas**, estamos atualmente a ver o marcador **Ásia-Pacífico** na página **Desempenho de Vendas**.
 
 Por predefinição, uma apresentação de diapositivos percorre apenas as páginas, a uma velocidade de uma a cada 30 segundos. Pode altera o comportamento predefinido nas [Definições de apresentação de diapositivos](#slideshow-settings).
 
@@ -73,7 +73,7 @@ Pode configurar a aplicação móvel Power BI para começar a reproduzir uma apr
 
 ### <a name="slideshow-settings"></a>Definições da apresentação de diapositivos
 
-Por predefinição, uma apresentação de diapositivos percorre apenas as páginas, a uma velocidade de uma a cada 30 segundos. Pode alterar este comportamento predefinido em **Definições > Opções** , conforme ilustrado abaixo. Também pode ativar a reprodução automática e escolher um relatório para reprodução.
+Por predefinição, uma apresentação de diapositivos percorre apenas as páginas, a uma velocidade de uma a cada 30 segundos. Pode alterar este comportamento predefinido em **Definições > Opções**, conforme ilustrado abaixo. Também pode ativar a reprodução automática e escolher um relatório para reprodução.
 
 1. Selecione o ícone das Definições.
 
@@ -81,7 +81,7 @@ Por predefinição, uma apresentação de diapositivos percorre apenas as págin
 
 1. Se pretender, altere as predefinições sobre o ciclo da apresentação de diapositivos (páginas, marcadores ou ambos) e a frequência de transição entre diapositivos.
 
-1. Se quiser que o relatório comece a reprodução automaticamente ao abrir a aplicação, ative o botão e selecione **Selecionar Relatório** . Pode procurar os relatórios aos quais tem acesso.
+1. Se quiser que o relatório comece a reprodução automaticamente ao abrir a aplicação, ative o botão e selecione **Selecionar Relatório**. Pode procurar os relatórios aos quais tem acesso.
 
 ![Captura de ecrã a mostrar as definições da apresentação de diapositivos](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-settings.png)
 

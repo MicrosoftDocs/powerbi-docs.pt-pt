@@ -2,19 +2,19 @@
 title: Utilizar o Machine Learning e os Serviços Cognitivos com os fluxo de dados
 description: Descrição geral de como utilizar o machine learning e o machine learning automatizado com fluxos de dados
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 703e87847f2f6dfb24040cc6532052b17d39086c
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 60214c16cbd287a30631e7ad9fbab274cb8f4cb0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668540"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414306"
 ---
 # <a name="ai-with-dataflows"></a>IA com fluxos de dados
 

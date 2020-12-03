@@ -1,20 +1,20 @@
 ---
 title: Criar análises e visualizações avançadas com scripts R
 description: Utilizar scripts R no Power BI Desktop para criar análises e visualizações avançadas
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 11/14/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3b43d644a0bb7ecd2800b99d3ffb5d7c7d26bf96
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 60a4edac34e98170d0499f3480f01b366a512ddc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412102"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415663"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Criar e utilizar elementos visuais R no Power BI Desktop
 
@@ -23,7 +23,7 @@ ms.locfileid: "93412102"
 Atualmente, os elementos visuais R só podem ser criados no **Power BI Desktop** e publicados no serviço Power BI. Para obter mais informações sobre a criação de elementos visuais R, veja [Criar elementos visuais do Power BI com o R](../create-reports/desktop-r-visuals.md).
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Ver elementos visuais R no serviço Power BI
-O serviço Power BI suporta a visualização e interação com elementos visuais criados com scripts R. Os elementos visuais criados com scripts R, geralmente denominados *elementos visuais R* , podem apresentar formação e análise de dados avançadas, como previsão, ao utilizar o poder avançado de análise e visualização da linguagem R.
+O serviço Power BI suporta a visualização e interação com elementos visuais criados com scripts R. Os elementos visuais criados com scripts R, geralmente denominados *elementos visuais R*, podem apresentar formação e análise de dados avançadas, como previsão, ao utilizar o poder avançado de análise e visualização da linguagem R.
 
 > [!NOTE]
 > A [linguagem de programação R](https://www.r-project.org/) é uma das linguagens mais utilizadas por estatísticos, cientistas de dados e analistas de negócio. A linguagem R tem uma comunidade de código aberto que disponibiliza mais de 7000 pacotes de suplementos, bem como os muito utilizados Grupos de Utilizadores de R. A versão da linguagem R implementada no serviço Power BI é a *Microsoft R 3.4.4.* .
@@ -38,7 +38,7 @@ Os elementos visuais R são criados num [relatório do Power BI Desktop](../fund
 
 ![Relatório de Ambiente de trabalho com dois elementos visuais](media/service-r-visuals/power-bi-r-visual-desktop.png)
 
-Assim que o relatório for criado no **Power BI Desktop** , pode publicar o relatório que contém um ou mais elementos visuais R no serviço Power BI. 
+Assim que o relatório for criado no **Power BI Desktop**, pode publicar o relatório que contém um ou mais elementos visuais R no serviço Power BI. 
 
  Tenha em atenção que o serviço não suporta todos os pacotes R. Obtenha a lista de pacotes atualmente suportados no serviço Power BI no final deste artigo.
 
@@ -130,7 +130,7 @@ Existem alguns requisitos e limitações para pacotes R:
 
 * O serviço Power BI suporta, na maioria das vezes, pacotes R com licenças de software gratuitas e open source, como GPL-2, GPL-3, MIT+, entre outros.
 * O serviço Power BI suporta pacotes publicados na CRAN. O serviço não suporta pacotes R privados ou personalizados. Recomendamos aos utilizadores que disponibilizem os respetivos pacotes privadas na CRAN antes de solicitarem que o pacote esteja disponível no serviço Power BI.
-* No **Power BI Desktop** , existem duas variações para pacotes R:
+* No **Power BI Desktop**, existem duas variações para pacotes R:
   
   * Para elementos visuais R, pode instalar qualquer pacote, incluindo pacotes R personalizados
   * Para elementos visuais R personalizados, apenas os pacotes CRAN públicos são suportados para instalação automática dos pacotes

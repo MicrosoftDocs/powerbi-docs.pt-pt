@@ -1,19 +1,19 @@
 ---
 title: Tabelas, matrizes e listas no Report Builder do Power BI
 description: No Report Builder do Power BI, as tabelas, as matrizes e as listas são regiões de dados que apresentam dados de relatórios paginados em células organizadas em linhas e colunas.
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 9dcf3fc8-bf9c-4a14-a03d-e78254aa4098
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: 3d22696168d8ae550238fab243110db357b39c22
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 4b678bf3a11ab243aea8c2cc00fbf58c4ca8ffae
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297694"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415617"
 ---
 # <a name="tables-matrixes-and-lists-in-power-bi-report-builder"></a>Tabelas, matrizes e listas no Report Builder do Power BI
 
@@ -36,7 +36,7 @@ No Report Builder, as tabelas, matrizes e listas são *regiões de dados* que ap
 
 ![Modelo de tabela do Report Builder com a superfície da estrutura selecionada](media/report-builder-tables-matrices-lists/report-builder-new-table.png)
   
- Pode agrupar dados por um único campo, por múltiplos campos ou ao escrever a sua própria expressão. Pode criar grupos aninhados ou grupos adjacentes independentes e apresentar valores agregados para dados agrupados, ou adicionar valores totais a grupos. Por exemplo, se a sua tabela tiver um grupo de linhas denominado **Categoria** , pode adicionar um subtotal para cada grupo, bem como um total geral para o relatório. Para melhorar o aspeto da tabela e realçar dados importantes, pode intercalar células e aplicar formatação a cabeçalhos de tabelas e dados.  
+ Pode agrupar dados por um único campo, por múltiplos campos ou ao escrever a sua própria expressão. Pode criar grupos aninhados ou grupos adjacentes independentes e apresentar valores agregados para dados agrupados, ou adicionar valores totais a grupos. Por exemplo, se a sua tabela tiver um grupo de linhas denominado **Categoria**, pode adicionar um subtotal para cada grupo, bem como um total geral para o relatório. Para melhorar o aspeto da tabela e realçar dados importantes, pode intercalar células e aplicar formatação a cabeçalhos de tabelas e dados.  
   
  Inicialmente, pode ocultar dados agrupados ou detalhados e incluir botões de alternar de desagregação para permitir que os utilizadores selecionem a quantidade de dados a apresentar de forma interativa.  
   

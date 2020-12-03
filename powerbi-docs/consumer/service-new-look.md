@@ -1,26 +1,26 @@
 ---
 title: O "novo aspeto" do serviço Power BI
 description: O serviço Power BI (app.powerbi.com) tem um novo aspeto. Este artigo descreve como pode navegar em relatórios com o novo aspeto.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/22/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f398b0b3331d5677419c824646108f8d04815338
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: ec7b24a4d8f2a94680444b4b9adf4612f1f1f474
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462361"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415157"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>O "novo aspeto" do serviço Power BI
 
 O serviço Power BI (app.powerbi.com) tem um novo aspeto que facilita a visualização dos seus relatórios e a interação com os mesmos. O novo aspeto é mais simples e baseia-se na sua familiaridade com outros produtos da Microsoft. Fizemos dos conteúdos dos relatórios o principal foco do serviço Power BI, ao atualizarmos os ícones e mudarmos para um tema de cores mais claro. 
 
-Procura informações sobre o novo aspeto do **Power BI Desktop** ? Veja [Utilizar o friso atualizado no Power BI Desktop](../create-reports/desktop-ribbon.md).
+Procura informações sobre o novo aspeto do **Power BI Desktop**? Veja [Utilizar o friso atualizado no Power BI Desktop](../create-reports/desktop-ribbon.md).
 
 Eis uma descrição geral das alterações do novo aspeto. Veja as secções numeradas para obter mais detalhes:
 

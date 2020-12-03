@@ -2,19 +2,19 @@
 title: Criar um elemento visual com as Perguntas e Respostas do Power BI
 description: Saiba como criar um elemento visual com as Perguntas e Respostas do serviço Power BI com o exemplo de Análise de Revenda
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/13/2019
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6bd68f5db12367e6c98b6fe61461b89047d8eb56
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7eae93eb2b4594a180836f43a758c6bef7b3e90e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237238"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415042"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Criar um elemento visual com as Perguntas e Respostas do Power BI
 

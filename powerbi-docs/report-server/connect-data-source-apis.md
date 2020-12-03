@@ -2,18 +2,18 @@
 title: Change data source connection strings with PowerShell (Alterar cadeias de ligação de origem de dados com o PowerShell)
 description: Alterar cadeias de ligação da origem de dados ao utilizar APIs no PowerShell – Power BI Report Server.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: maggies
-ms.openlocfilehash: 165d38c718377ff7e47442cdf0fe67173b610bd8
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 4e1947abe0fa0f17e1db92619f0aa7fba5df5575
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044917"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415479"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>Alterar cadeias de ligação da origem de dados em relatórios do Power BI com o PowerShell – Power BI Report Server
 
@@ -107,7 +107,7 @@ Na versão de outubro de 2020 do Power BI Report Server, passámos a ativar a c
     Set-RsRestItemDataModelParameters -RsItem '/executionlogparameter' -DataModelParameters $parameters
     ```
 
-7. Assim que os parâmetros estiverem atualizados, o servidor atualiza todas as origens de dados que estavam dependentes dos parâmetros. Ao voltar à caixa de diálogo **Editar origem de dados** , deverá conseguir definir credenciais para o servidor e a base de dados atualizados.
+7. Assim que os parâmetros estiverem atualizados, o servidor atualiza todas as origens de dados que estavam dependentes dos parâmetros. Ao voltar à caixa de diálogo **Editar origem de dados**, deverá conseguir definir credenciais para o servidor e a base de dados atualizados.
 
     :::image type="content" source="media/connect-data-source-apis/report-server-manage-executionlogparameter-dialog.png" alt-text="Definir as credenciais para o servidor e a base de dados atualizados.":::
 

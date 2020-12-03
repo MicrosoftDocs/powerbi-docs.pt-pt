@@ -1,20 +1,20 @@
 ---
 title: Corrigir o erro “O certificado SSL empresarial não é fidedigno”
 description: Quando iniciar sessão na aplicação Android do Power BI, poderá ver a mensagem “Não foi possível autenticar porque o certificado SSL empresarial não é fidedigno”
-.": ''
 author: paulinbar
+ms.author: painbar
+.": ''
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 85e295b2320f8aecca2176149ce37c0a25ad2bd2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b435d3883207099287b6c0373f13063ebb23b694
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237461"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414674"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Corrigir “O certificado SSL empresarial não é fidedigno” – Power BI
 Quando iniciar sessão na aplicação móvel Android do Microsoft Power BI, poderá ver a mensagem “Não foi possível autenticar porque o certificado SSL empresarial não é fidedigno para este dispositivo. Contacte o administrador de TI da empresa.” 
@@ -22,7 +22,7 @@ Quando iniciar sessão na aplicação móvel Android do Microsoft Power BI, pod
 As medidas a tomar dependem normalmente do sistema operativo do dispositivo Android, mas existem alguns outros problemas que podem causar este erro.
 
 ## <a name="on-android-7-or-later"></a>No Android 7 ou versões posteriores
-Procure uma atualização para uma aplicação com o nome **Chrome**e instale a atualização.
+Procure uma atualização para uma aplicação com o nome **Chrome** e instale a atualização.
 
 ## <a name="on-android-6-and-earlier"></a>No Android 6 e versões anteriores
 O dispositivo poderá precisar de uma versão atualizada do System Webview. Poderá estar instalado no seu dispositivo e só terá de clicar em **Atualizar**.

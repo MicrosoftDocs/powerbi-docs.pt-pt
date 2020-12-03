@@ -2,19 +2,19 @@
 title: Utilizar a pormenorização de relatórios cruzados no Power BI Desktop
 description: Saiba como pormenorizar de um relatório para outro no Power BI Desktop
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/27/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: a22610ea8ca3b7a26763a435b98bf7c114e1bfa0
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 5cf1ed76f47eba9dc989b26fbb5dcc52f92ddd18
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252826"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414283"
 ---
 # <a name="use-cross-report-drill-through-in-power-bi"></a>Utilizar a pormenorização de relatórios cruzados no Power BI
 
@@ -42,7 +42,7 @@ Por exemplo, se quiser transmitir um filtro no campo **Estado** na tabela **E.U.
 Após validar os seus modelos, ative o relatório de origem para utilizar a pormenorização de relatórios cruzados. 
 
 1. No Power BI Desktop, aceda a **Ficheiro** > **Opções e definições** > **Opções**. 
-1. No painel de navegação esquerdo da janela **Opções**, na parte inferior da secção **Ficheiro atual**, selecione**Definições do relatório**. 
+1. No painel de navegação esquerdo da janela **Opções**, na parte inferior da secção **Ficheiro atual**, selecione **Definições do relatório**. 
 1. No canto inferior direito, em **Pormenorização de relatórios cruzados**, selecione **Permitir elementos visuais neste relatório para utilizar destinos de pormenorização dos outros relatórios**. 
 1. Selecione **OK**. 
    

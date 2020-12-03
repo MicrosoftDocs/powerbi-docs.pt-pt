@@ -2,19 +2,19 @@
 title: Utilizar o modo de armazenamento no Power BI Desktop
 description: Utilizar o modo de armazenamento para controlar se os dados estão em cache na memória para os relatórios do Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 01/29/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e1b93b244a040fba1213fbb3b15bca3114e7075a
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 0a3121e31aa816139c338746635b102be2d8fd88
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528166"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413823"
 ---
 # <a name="manage-storage-mode-in-power-bi-desktop"></a>Gerir o modo de armazenamento no Power BI Desktop
 
@@ -112,7 +112,7 @@ Se ligar o SQL Profiler à porta de diagnóstico do Power BI Desktop, pode ver 
 * Processamento de Consultas\Iniciar Consulta Vertipaq SE
 * Processamento de Consultas\Iniciar DirectQuery
 
-Para cada evento *Iniciar Consulta*, consulte os outros eventos com o mesmo *ActivityID*. Por exemplo, se não existir um evento *Iniciar DirectQuery*, mas existir um evento*Iniciar Consulta Vertipaq SE*, significa que a consulta foi respondida a partir da cache.
+Para cada evento *Iniciar Consulta*, consulte os outros eventos com o mesmo *ActivityID*. Por exemplo, se não existir um evento *Iniciar DirectQuery*, mas existir um evento *Iniciar Consulta Vertipaq SE*, significa que a consulta foi respondida a partir da cache.
 
 As consultas que fazem referência a tabelas Dual devolvem dados da cache, se possível. Caso contrário, revertem para o DirectQuery.
 

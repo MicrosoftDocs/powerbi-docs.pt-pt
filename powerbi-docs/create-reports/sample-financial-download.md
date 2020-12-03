@@ -2,19 +2,19 @@
 title: Transferir o livro Financial Sample (Exemplo Financeiro) do Excel para o Power BI
 description: Fazer download da pasta de livro Exemplo Financeiro para o Power BI
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: sample
 ms.date: 10/13/2020
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 46f6179edc63b0a865043674b22ffe88e813a3b4
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: fdad1975c35591267c9fa22b1d5c84dc9892be74
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92255971"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414950"
 ---
 # <a name="download-the-financial-sample-excel-workbook-for-power-bi"></a>Transferir o livro Financial Sample (Exemplo Financeiro) do Excel para o Power BI
 Precisa de alguns dados para experimentar com o serviço Power BI? Temos um livro simples do Excel com dados financeiros de exemplo. Este livro tem uma tabela de dados de vendas e dados de lucro ordenados por segmento de mercado e país. 
@@ -29,7 +29,7 @@ Também pode transferi-lo a partir do Power BI Desktop. Selecione **Experimentar
 
 :::image type="content" source="media/desktop-excel-stunning-report/power-bi-desktop-canvas-sample-dataset.png" alt-text="Captura de ecrã de Experimente um exemplo de conjunto de dados na tela."::: 
 
-Se foi encaminhado para este tutorial a partir da caixa de diálogo do conjunto de dados de exemplo, avance e escolha **Carregar dados** .
+Se foi encaminhado para este tutorial a partir da caixa de diálogo do conjunto de dados de exemplo, avance e escolha **Carregar dados**.
 
 ## <a name="next-steps"></a>Próximos passos
 

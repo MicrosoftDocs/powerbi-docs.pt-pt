@@ -2,19 +2,19 @@
 title: 'Exemplo de Rentabilidade do Cliente do Power BI: veja uma apresentação'
 description: 'Exemplo de Rentabilidade do Cliente do Power BI: veja uma apresentação'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/05/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: e1dcc202b8da269be3ee7c5ec2fea1d55381931e
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: adc642d5366949e547e0115badd5e800ffa04bb0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344647"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415111"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente do Power BI: veja uma apresentação
 
@@ -139,7 +139,7 @@ Vejamos dois dos membros da equipa ao detalhe e que informações podem ser obti
 
    * Para um KPI rápido, analise o **Estado da Receita (Total do Ano)** de Andrew. É apresentado a verde, o que significa que Andrew está a ter um bom desempenho.
    * O gráfico **Revenue % Variance to Budget by Month and Executive** (% de Variação da Receita do Orçamento por Mês e Executivo) mostra que, com exceção de uma queda em fevereiro, Andrew está a ter um bom desempenho. A região dominante do Andrew é o Leste, que inclui 49 clientes e cinco de sete produtos. A % GM do Andrew não é a mais alta nem a mais baixa.
-   * O gráfico**RevenueTY and Revenue % Var to Budget by Month** (Total da Receita do Ano e % de Variação da Receita do Orçamento por Mês) mostra um histórico de lucros contínuo e equilibrado. No entanto, se filtrar ao selecionar o quadrado para **Central** no mapa de árvore da região, irá descobrir que Andrew só tem receitas em Março e no Indiana. É uma tendência intencional ou é algo que tem de ser analisado?
+   * O gráfico **RevenueTY and Revenue % Var to Budget by Month** (Total da Receita do Ano e % de Variação da Receita do Orçamento por Mês) mostra um histórico de lucros contínuo e equilibrado. No entanto, se filtrar ao selecionar o quadrado para **Central** no mapa de árvore da região, irá descobrir que Andrew só tem receitas em Março e no Indiana. É uma tendência intencional ou é algo que tem de ser analisado?
 
 2. Agora, com Valery. Na segmentação de dados **Executivos**, selecione o nome da Valery para filtrar a página de relatório e ver apenas os dados dela. 
 
@@ -194,7 +194,7 @@ Analisemos o setor de Distribuição.
 2. Sem selecionar nenhuma visualização na página de relatório, expanda o painel de filtros à direita (se ainda não estiver expandido). O painel **Filters** (Filtros) deverá apresentar apenas **Page level filters** (Filtros ao nível da página).  
 
    ![Filtros de nível de página](media/sample-customer-profitability/power-bi-filters.png)
-3. Localize o filtro para **Setor** e selecione a seta para expandir a lista. Vamos adicionar um filtro de página para o setor de Distribuição. Primeiro, desmarque todas as seleções ao desmarcar a caixa de seleção**Selecionar Tudo**. Em seguida, selecione apenas **Distribuição**.  
+3. Localize o filtro para **Setor** e selecione a seta para expandir a lista. Vamos adicionar um filtro de página para o setor de Distribuição. Primeiro, desmarque todas as seleções ao desmarcar a caixa de seleção **Selecionar Tudo**. Em seguida, selecione apenas **Distribuição**.  
 
    ![filtro para Distribuição](media/sample-customer-profitability/customer7.png)
 4. O gráfico **Gross Margin % by Month and Executive** (% de Margem Bruta por Mês e Executivo) indica-nos que apenas Valery e Tina têm clientes neste setor, e que Valery trabalhou com este setor apenas de junho a novembro.   

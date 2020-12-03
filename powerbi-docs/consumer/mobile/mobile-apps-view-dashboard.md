@@ -2,18 +2,18 @@
 title: Ver dashboards nas aplicações móveis do Power BI
 description: Crie ou ligue a dashboards no serviço Power BI. Em seguida, visualize-os nas aplicações móveis do Power BI.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/10/2020
-ms.author: painbar
-ms.openlocfilehash: 5add474500754405acb959577a0a7eb2e50a148b
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: f3e3677e79c1b54a665f21095810163caa7576a2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668649"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415525"
 ---
 # <a name="view-dashboards-in-the-power-bi-mobile-apps"></a>Ver dashboards nas aplicações móveis do Power BI
 Aplica-se a:

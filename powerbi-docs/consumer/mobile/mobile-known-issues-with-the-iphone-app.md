@@ -2,18 +2,18 @@
 title: Corrigir "falhas de comunicação" em aplicações móveis para iOS – Power BI
 description: Este artigo pode ajudá-lo se vir a mensagem "Encontrámos falhas de comunicação. As falhas podem estar relacionadas com as definições de proxy da sua ligação Wi-Fi."
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 0162d78fd4358f415ac52ea70bd3460d3c28b722
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1af46edad96ce191798502a1887c6c402a0e7319
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114912"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415341"
 ---
 # <a name="fixing-communication-failures-in-ios-mobile-apps---power-bi"></a>Corrigir "falhas de comunicação" em aplicações móveis para iOS – Power BI
 

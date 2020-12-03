@@ -2,18 +2,18 @@
 title: Origens de dados de relatórios paginados no Power BI Report Server
 description: Saiba mais sobre as origens de dados às quais os relatórios paginados (.rdl) podem estabelecer ligação no Power BI Report Server.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 06/26/2020
-ms.author: maggies
-ms.openlocfilehash: fcf0a286487922fcfc217b4d293aa731ad1564a6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 4559995baa7d3e0b5796ca6076687c26c4a0854d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861228"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415387"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Origens de dados de relatórios paginados no Power BI Report Server
 Os relatórios paginados do Reporting Services no Power BI Report Server suportam as mesmas origens de dados que são suportadas no SQL Server Reporting Services. Veja a lista de [Origens de dados suportadas pelo Reporting Services](/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).

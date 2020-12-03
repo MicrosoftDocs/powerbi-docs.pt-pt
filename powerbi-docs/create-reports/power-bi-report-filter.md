@@ -2,19 +2,19 @@
 title: Conceber filtros nos relatórios do Power BI
 description: Tem muito controlo sobre a conceção e a funcionalidade dos filtros de relatórios.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 11/11/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 653ab67828c055d2846a698bf12f14eec304a2bf
-ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
+ms.openlocfilehash: 2ddefcfa7a9381cf6d45466d5115045ea4274a16
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94560134"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415180"
 ---
 # <a name="design-filters-in-power-bi-reports"></a>Conceber filtros nos relatórios do Power BI
 
