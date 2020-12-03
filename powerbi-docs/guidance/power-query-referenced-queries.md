@@ -2,18 +2,18 @@
 title: Referencing Power Query queries (Referenciar consultas do Power Query)
 description: Orientação para referenciar consultas do Power Query.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/30/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 9e3ae90363ade08d7600a4ebbd032ef5778257e2
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: f7756c53799838182be9288f297c0d01a7c6cca3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397007"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419297"
 ---
 # <a name="referencing-power-query-queries"></a>Referencing Power Query queries (Referenciar consultas do Power Query)
 
@@ -21,11 +21,11 @@ Este artigo destina-se aos modeladores de dados que trabalham com o Power BI De
 
 Vamos clarificar o que isto significa: _Quando uma consulta faz referência a uma segunda consulta, é como se os passos na segunda consulta fossem combinados e executados antes dos passos na primeira consulta._
 
-Considere diversas consultas: a **Consulta1** extrai os dados de um serviço Web e a carga é desativada. **Consulta2** , **Consulta3** e **Consulta4** referenciam todas a **Consulta1** e as saídas destas consultas são carregadas no modelo de dados.
+Considere diversas consultas: a **Consulta1** extrai os dados de um serviço Web e a carga é desativada. **Consulta2**, **Consulta3** e **Consulta4** referenciam todas a **Consulta1** e as saídas destas consultas são carregadas no modelo de dados.
 
 ![Diagrama a mostrar a vista das Dependências das Consultas a apresentar as consultas descritas no parágrafo anterior.](media/power-query-referenced-queries/query-dependencies-web-service.png)
 
-Quando o modelo de dados é atualizado, é geralmente assumido que o Power Query recupera o resultado da **Consulta1** e este é reutilizado pelas consultas referenciadas. Esta lógica está incorreta. Na realidade, o Power Query executa a **Consulta2** , a **Consulta3** e a **Consulta4** separadamente.
+Quando o modelo de dados é atualizado, é geralmente assumido que o Power Query recupera o resultado da **Consulta1** e este é reutilizado pelas consultas referenciadas. Esta lógica está incorreta. Na realidade, o Power Query executa a **Consulta2**, a **Consulta3** e a **Consulta4** separadamente.
 
 Pode considerar que a **Consulta2** tem os passos da **Consulta1** incorporados na mesma. Este é o caso da **Consulta3** e da **Consulta4**. O diagrama que se segue apresenta uma visão mais clara de como as consultas são executadas.
 
@@ -46,7 +46,7 @@ Recomenda-se crie em alternativa um [fluxo de dados](../transform-model/dataflow
 
 Pode criar um fluxo de dados para encapsular a origem dos dados e as transformações. Dado que o fluxo de dados é um arquivo de dados persistente no serviço Power BI, a sua obtenção de dados é rápida. Assim, mesmo quando o referenciar de consultas resultar em vários pedidos para o fluxo de dados, os tempos de atualização de dados podem ser melhorados.
 
-No exemplo, se a **Consulta1** for reformulada como uma entidade de fluxo de dados, a **Consulta2** , a **Consulta3** e a **Consulta4** poderão ser utilizadas como uma origem de dados. Com este design, a entidade originada na **Consulta1** será avaliada apenas uma vez.
+No exemplo, se a **Consulta1** for reformulada como uma entidade de fluxo de dados, a **Consulta2**, a **Consulta3** e a **Consulta4** poderão ser utilizadas como uma origem de dados. Com este design, a entidade originada na **Consulta1** será avaliada apenas uma vez.
 
 ## <a name="next-steps"></a>Próximos passos
 

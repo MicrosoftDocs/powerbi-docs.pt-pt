@@ -2,18 +2,18 @@
 title: Orientação relativa à dobragem de consultas no Power BI Desktop
 description: Orientação para efetuar dobragem de consultas do Power Query no Power BI Desktop.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/09/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 271ccd9abcba8fe75f0ad66a88cb970584855a35
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5e2ec32f3eeaff224256f0a84d2a5c23d3e882a5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149178"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419320"
 ---
 # <a name="query-folding-guidance-in-power-bi-desktop"></a>Orientação relativa à dobragem de consultas no Power BI Desktop
 

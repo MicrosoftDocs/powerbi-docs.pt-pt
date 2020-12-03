@@ -2,22 +2,22 @@
 title: Planear a implementação para migrar para o Power BI
 description: Orientação sobre como planear a implementação ao migrar para o Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: fd57d893a0c381c345364306e04d4897597b36f1
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: f161819b6e26c197bacc5534b5abfb426d612624
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396984"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419228"
 ---
 # <a name="plan-deployment-to-migrate-to-power-bi"></a>Planear a implementação para migrar para o Power BI
 
-Este artigo descreve a **Fase 2** , que diz respeito ao planeamento da migração para uma solução do Power BI única.
+Este artigo descreve a **Fase 2**, que diz respeito ao planeamento da migração para uma solução do Power BI única.
 
 :::image type="content" source="media/powerbi-migration-planning/migrate-to-powerbi-stage-2.png" alt-text="Imagem a mostrar as fases de uma migração do Power BI. A Fase 2 está realçada neste artigo.":::
 
