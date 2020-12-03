@@ -2,18 +2,18 @@
 title: Extend visuals with report page tooltips (Desenvolver elementos visuais com descrições de páginas de relatório)
 description: Orientação para trabalhar com descrições de páginas de relatório.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/24/2019
-ms.author: v-pemyer
-ms.openlocfilehash: e3af0828afcc7c085b896fe9e1b99f3b10bfdd5f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 919fc9cfa2bbdb55317fed0879347c929a723ce8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277853"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419067"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Extend visuals with report page tooltips (Desenvolver elementos visuais com descrições de páginas de relatório)
 

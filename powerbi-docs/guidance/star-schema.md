@@ -2,18 +2,18 @@
 title: Compreender o que é um esquema de estrela e qual a importância para o Power BI
 description: Compreenda o que é um esquema de estrela e qual a sua relevância para desenvolver modelos de dados do Power BI otimizados para desempenho e utilização.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 193247aaf610d1712b7986394e08d3c21055d2fa
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 4d54a0d27ed7cbf0c464a6c4d770e39b99e8b384
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965464"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419113"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Compreender o que é um esquema de estrela e qual a importância para o Power BI
 

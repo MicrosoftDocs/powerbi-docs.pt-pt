@@ -2,18 +2,18 @@
 title: Documento de orientação das relações um-para-um
 description: Documento de orientação para o desenvolvimento de relações do modelo um-para-um.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: cbcf7fc1890ae1455f1f6ec7c8604e275f60b2d5
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 19fe2aa003c3d39169bc449dab83c09702f49b1d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668419"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419159"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Documento de orientação das relações um-para-um
 
