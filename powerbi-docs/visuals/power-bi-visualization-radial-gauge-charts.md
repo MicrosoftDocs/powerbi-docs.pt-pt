@@ -1,21 +1,21 @@
 ---
 title: Gráficos de medidores radiais no Power BI
 description: Gráficos de medidores radiais no Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/17/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: de9e2004d7802b5f3eb7684678984a84a077ce89
-ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
+ms.openlocfilehash: 013e9f3143c485fd63a160f8d124e313b7c2edc6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94893735"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418837"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Gráficos de medidores radiais no Power BI
 

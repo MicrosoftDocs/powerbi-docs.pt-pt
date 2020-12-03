@@ -2,18 +2,18 @@
 title: Guia de relações muitos-para-muitos
 description: Orientação de desenvolvimento de relações do modelo muitos-para-muitos.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 3c94c25f5f1ba717f68a0c2a5ec661be10f70135
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 95383581a258374f2757581e82fa0f2044dcae84
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668534"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418630"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Guia de relações muitos-para-muitos
 
@@ -146,7 +146,7 @@ Os detalhes da linha para as duas tabelas estão descritos na seguinte lista com
   - **OrderDate** 1 de janeiro de 2019, **OrderID** 1, **OrderLine** 2, **ProductID** Prod-B, **OrderQuantity** 10, **Sales** 80
   - **OrderDate** 2 de fevereiro de 2019, **OrderID** 2, **OrderLine** 1, **ProductID** Prod-B, **OrderQuantity** 5, **Sales** 40
   - **OrderDate** 2 de fevereiro de 2019, **OrderID** 2, **OrderLine** 2, **ProductID** Prod-C, **OrderQuantity** 1, **Sales** 20
-  - **OrderDate**3 de março de 2019, **OrderID** 3, **OrderLine** 1, **ProductID** Prod-C, **OrderQuantity** 5, **Sales** 100
+  - **OrderDate** 3 de março de 2019, **OrderID** 3, **OrderLine** 1, **ProductID** Prod-C, **OrderQuantity** 5, **Sales** 100
 - A tabela **Fulfillment** tem quatro linhas:
   - **FulfillmentDate** 1 de janeiro de 2019, **FulfillmentID** 50, **OrderID** 1, **OrderLine** 1, **FulfillmentQuantity** 2
   - **FulfillmentDate** 2 de fevereiro de 2019, **FulfillmentID** 51, **OrderID** 2, **OrderLine** 1, **FulfillmentQuantity** 5

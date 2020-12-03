@@ -2,18 +2,18 @@
 title: Separar relatórios de modelos no Power BI Desktop
 description: Orientação para separar relatórios de modelos no Power BI Desktop.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 04/11/2020
-ms.author: v-pemyer
-ms.openlocfilehash: f2b9ee2093889fc9a60d621ad09b3b52d2e90474
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: a45299015883615b4773fe5db1c9864e01a47c4b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525944"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418370"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Separar relatórios de modelos no Power BI Desktop
 
@@ -37,7 +37,7 @@ Faz sentido separar o desenvolvimento do modelo e do relatório em ficheiros sep
 - Os modeladores dos dados e os autores dos relatórios são pessoas diferentes.
 - Está subentendido que um modelo será a origem de vários relatórios, agora ou no futuro.
 
-:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="Um ficheiro único contém um modelo e relatório, desenvolvido pela mesma pessoa." border="true":::
+:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="Existem três ficheiros PBIX. O primeiro contém apenas um modelo. Os outros dois contêm apenas relatórios, e estão diretamente ligados ao modelo alojado no serviço Power BI. Os relatórios são desenvolvidos por pessoas diferentes." border="true":::
 
 Os modeladores dos dados ainda podem utilizar a experiência de criação de relatórios do Power BI Desktop para testar e validar os designs dos modelos. No entanto, logo após a publicação do ficheiro no serviço Power BI, devem remover o relatório da área de trabalho. E, devem lembrar-se de remover o relatório de cada vez que publicam novamente e substituem o conjunto de dados.
 

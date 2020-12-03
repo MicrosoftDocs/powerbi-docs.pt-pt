@@ -2,18 +2,18 @@
 title: 'Tutorial: Explorar o Power BI Report Server numa VM'
 description: Neste tutorial, vai criar uma máquina virtual com o Power BI Report Server já instalado e explorar o portal Web.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
-ms.author: maggies
-ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 85fcd6249a833c35cb98fca6abf2881ab1a4bf7e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207028"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418423"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Tutorial: Explorar o portal Web do Power BI Report Server numa VM
 Neste tutorial, vai criar uma máquina virtual do Azure com o Power BI Report Server já instalado, para poder experimentar a visualização, edição e gestão de relatórios paginados e do Power BI de exemplo, e KPIs.

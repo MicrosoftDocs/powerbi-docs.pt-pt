@@ -2,20 +2,20 @@
 title: Apresentar imagens numa tabela ou matriz num relatório
 description: No Power BI Desktop, crie uma coluna com hiperligações para as imagens. Em seguida, no Power BI Desktop ou no serviço Power BI, adicione estas hiperligações a uma tabela, matriz, segmentação de dados ou cartão multilinhas do relatório para apresentar a imagem.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/11/2019
-ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 098bb6cc8df59dea38bb63f38c724e362c7219e5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4ba0042804d366ddfd80935c48246cadeadf3614
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228980"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417963"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>Apresentar imagens numa tabela, matriz ou segmentação de dados num relatório
 

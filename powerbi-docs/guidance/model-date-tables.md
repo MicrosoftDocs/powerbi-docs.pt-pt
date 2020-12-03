@@ -2,18 +2,18 @@
 title: Criar tabelas de datas no Power BI Desktop
 description: Técnicas e orientação para a criação de tabelas de datas no Power BI Desktop.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 350d4889643556d4e1c6389580415ccba46b55d4
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 9040fb54e51dfeecad853e5ba980f423ab48e908
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396644"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417848"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>Criar tabelas de datas no Power BI Desktop
 
@@ -22,7 +22,7 @@ Este artigo destina-se aos modeladores de dados que trabalham com o Power BI De
 Para trabalhar com as [funções de análise de tempo](/dax/time-intelligence-functions-dax) DAX (Data Analysis Expressions), existe um requisito no modelo de pré-requisitos: tem de ter, pelo menos, uma _tabela de datas_ no modelo. Uma tabela de datas é uma tabela que satisfaz os seguintes requisitos:
 
 > [!div class="checklist"]
-> - Deve ter uma coluna de tipo de dados de **data** (ou **data/hora** ) – conhecida como a _coluna de data_.
+> - Deve ter uma coluna de tipo de dados de **data** (ou **data/hora**) – conhecida como a _coluna de data_.
 > - A coluna de data deve conter valores exclusivos.
 > - A coluna de data não deve conter espaços EM BRANCO.
 > - A coluna de data não deve ter datas em falta.

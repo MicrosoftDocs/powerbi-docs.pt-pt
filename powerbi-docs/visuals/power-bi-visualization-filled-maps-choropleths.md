@@ -1,21 +1,21 @@
 ---
 title: Mapas de Manchas (Coropleto) no Power BI
 description: Documentação sobre a criação de Mapas de Manchas (Coropleto) no Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/05/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ce0adb6d5115ece1b228690c496d022f8dfc9e56
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 748e13a509bc3689122c8622f9ce26536f850a68
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412999"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418331"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Criar e utilizar mapas de manchas (mapas coropletos) no Power BI
 
@@ -28,7 +28,7 @@ Um mapa de manchas utiliza sombreado, tonalidade ou padrões para mostrar como u
 ![Mapa dos E.U.A.](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
 
 ## <a name="what-is-sent-to-bing"></a>O que é enviado ao Bing
-O Power BI está integrado no Bing para fornecer coordenadas de mapa predefinidas (um processo denominado geocodificação). Quando cria uma visualização de mapa no serviço Power BI ou Power BI Desktop, os dados nos registos **Localização** , **Latitude** e **Longitude** (que estão a ser utilizados para criar a visualização) são enviados ao Bing.
+O Power BI está integrado no Bing para fornecer coordenadas de mapa predefinidas (um processo denominado geocodificação). Quando cria uma visualização de mapa no serviço Power BI ou Power BI Desktop, os dados nos registos **Localização**, **Latitude** e **Longitude** (que estão a ser utilizados para criar a visualização) são enviados ao Bing.
 
 O utilizador ou o administrador, pode ter que atualizar a sua firewall para permitir o acesso aos URLs que o Bing utiliza para geocodificação.  Os URLs são:
 - https://dev.virtualearth.net/REST/V1/Locations    
@@ -113,7 +113,7 @@ Destacar um local num mapa de manchas faz a filtragem cruzada com outras visuali
 
    ![Mapa de manchas adicionado à página de Sentimentos](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. No mapa de manchas, selecione um estado.  As outras visualizações na página serão apresentadas com realce cruzado e com filtragem cruzada. Selecionar **Texas** , por exemplo, filtrará os cartões de forma cruzada e realçará o gráfico de barras de forma cruzada. A partir daqui, sabemos que o Sentimento é 75 e que Texas se encontra no Distrito Central N.º 23.   
+5. No mapa de manchas, selecione um estado.  As outras visualizações na página serão apresentadas com realce cruzado e com filtragem cruzada. Selecionar **Texas**, por exemplo, filtrará os cartões de forma cruzada e realçará o gráfico de barras de forma cruzada. A partir daqui, sabemos que o Sentimento é 75 e que Texas se encontra no Distrito Central N.º 23.   
    ![Texas selecionado](media/power-bi-visualization-filled-maps-choropleths/power-bi-filter.png)
 2. Selecione um ponto de dados no gráfico de linhas VanArsdel – Sentimentos por Mês. Isto filtra o mapa de manchas para mostrar dados de Sentimento para VanArsdel e não para a concorrência de VanArsdel.  
    ![novo sombreado](media/power-bi-visualization-filled-maps-choropleths/power-bi-vanarsdel.png)

@@ -2,20 +2,20 @@
 title: Introdução ao Power BI Desktop
 description: Introdução ao Power BI Desktop.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: contperfq1
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-fundamentals
 ms.topic: tutorial
 ms.date: 08/19/2020
-ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ec18bb94d7329d4b918f16465dd839a69c3fd973
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: a1fb3a76cc22bf4f22fc080bcde46ec40a3720bb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638848"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418515"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Introdução ao Power BI Desktop
 Bem-vindo ao guia de introdução do Power BI Desktop. Esta visita guiada mostra-lhe como funciona o Power BI Desktop, bem como as respetivas funcionalidades, e como criar modelos de dados robustos e relatórios fantásticos para aumentar o seu business intelligence.
@@ -198,7 +198,7 @@ Se obtiver a caixa de diálogo **Níveis de privacidade**, selecione **Ignorar a
 
 ![Captura de ecrã a mostrar o Power BI Desktop com a janela Fundir Consultas.](media/desktop-getting-started/shapecombine_merge.png)
 
-É apresentada uma nova coluna chamada**Códigos de estado** à direita da tabela **Melhores estados para a venda de óculos de sol**. Esta contém a consulta de código de estado que intercalou com a consulta de melhores estados para a venda de óculos de sol. Todas as colunas da tabela intercalada são condensadas para formar a coluna **Códigos de estado**. Pode *expandir* a tabela intercalada e incluir apenas as colunas que pretende. 
+É apresentada uma nova coluna chamada **Códigos de estado** à direita da tabela **Melhores estados para a venda de óculos de sol**. Esta contém a consulta de código de estado que intercalou com a consulta de melhores estados para a venda de óculos de sol. Todas as colunas da tabela intercalada são condensadas para formar a coluna **Códigos de estado**. Pode *expandir* a tabela intercalada e incluir apenas as colunas que pretende. 
 
 ![Captura de ecrã a mostrar o Power BI Desktop com a coluna Códigos de Estado.](media/desktop-getting-started/mergedquery.png)
 

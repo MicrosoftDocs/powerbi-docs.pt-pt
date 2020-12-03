@@ -2,20 +2,20 @@
 title: Incorporar um novo Power App num Relatório do Power BI
 description: Incorporar uma aplicação que utiliza a mesma origem de dados e pode ser filtrada como outros itens de relatório
 author: mihart
+ms.author: mihart
 manager: kvivek
 ms.reviewer: tapan maniar
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c46410caff373eb8474a4b687e834b822f2da8ac
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 1c4086d6ab71bd96ba7ac6c6985161d28a4dcb8b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397536"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418883"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Tutorial: Incorporar um elemento visual do Power Apps num relatório Power BI
 
@@ -51,7 +51,7 @@ Ao adicionar o elemento visual do Power Apps ao relatório, este inicia o Power
 
     ![Painel Visualização com o ícone do Power Apps selecionado](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
-3. No painel **Campos** , selecione **Nome** , **Código do Produto** e **Fase de Venda**. 
+3. No painel **Campos**, selecione **Nome**, **Código do Produto** e **Fase de Venda**. 
 
     ![selecionar campos](media/power-bi-visualization-powerapp/power-bi-fields.png)
 
@@ -74,7 +74,7 @@ Ao adicionar o elemento visual do Power Apps ao relatório, este inicia o Power
     ![alterar dimensões da galeria](media/power-bi-visualization-powerapp/power-bi-powerapps-gallery.png)
 
 
-8. Em **galeria** , insira um controlo de etiqueta de texto.
+8. Em **galeria**, insira um controlo de etiqueta de texto.
 
    ![controlo de etiqueta](media/power-bi-visualization-powerapp/power-bi-label.png)
 

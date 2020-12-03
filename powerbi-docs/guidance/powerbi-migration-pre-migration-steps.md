@@ -2,18 +2,18 @@
 title: Preparar a migração para o Power BI
 description: Orientação sobre os passos de pré-migração ao migrar para o Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 01d1e48537b2d373be3897259f8ac6e97886f268
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 33bee844aced23973bd033cf0d9ae9d8caa4d267
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680975"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418584"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>Preparar a migração para o Power BI
 
@@ -123,7 +123,7 @@ A primeira tarefa consiste em compreender o significado do êxito na migração 
 Preparar um inventário de relatórios existentes na plataforma de BI legada é um passo crítico para compreender o que já existe. O resultado deste passo é uma entrada para avaliar o nível de esforço da migração. Eis algumas atividades que podem estar relacionadas com a preparação de um inventário:
 
 1. **Inventário de relatórios:** compilar uma lista de relatórios e dashboards que são candidatos à migração.
-2. **Inventário de origens de dados:** compilar uma lista de todas as origens de dados acedidas por relatórios existentes. Deve incluir origens de dados empresariais, bem como origens de dados departamentais e pessoais. Este processo pode revelar origens de dados que anteriormente não eram conhecidas pelo departamento de TI, frequentemente referidas como _TI sombra_ .
+2. **Inventário de origens de dados:** compilar uma lista de todas as origens de dados acedidas por relatórios existentes. Deve incluir origens de dados empresariais, bem como origens de dados departamentais e pessoais. Este processo pode revelar origens de dados que anteriormente não eram conhecidas pelo departamento de TI, frequentemente referidas como _TI sombra_.
 3. **Registo de auditoria:** obter dados do registo de auditoria da plataforma de BI legada para compreender os padrões de utilização e ajudar na priorização. As informações importantes a ser obtidas a partir do registo de auditoria incluem:
     - Número médio de vezes que cada relatório foi executado por semana/mês/trimestre.
     - Número médio de consumidores por relatório, por semana/mês/trimestre.

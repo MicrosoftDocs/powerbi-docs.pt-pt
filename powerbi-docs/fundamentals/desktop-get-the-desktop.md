@@ -2,19 +2,19 @@
 title: Obter o Power BI Desktop
 description: Transferir e instalar o Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-fundamentals
 ms.topic: how-to
 ms.date: 10/12/2020
-ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d53e7a3205d8e1915f8dd0969fe35d5c32d25cf5
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 9c46188318ca5659f109ba8483c552d9ab43f932
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256401"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418676"
 ---
 # <a name="get-power-bi-desktop"></a>Obter o Power BI Desktop
 O Power BI Desktop permite-lhe criar consultas avançadas, modelos e relatórios que visualizam os dados. No Power BI Desktop, pode criar modelos de dados, criar relatórios e partilhar o seu trabalho ao publicar no serviço Power BI. A transferência do Power BI Desktop é gratuita.

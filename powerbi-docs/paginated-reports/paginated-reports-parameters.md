@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: 217c1b571c01068d64283df0b25b5e56bbc8b956
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 7d874f2c9a7b8381ece151a4ac113bed5662c2e7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297219"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418170"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Criar parâmetros para relatórios paginados no serviço Power BI
 
@@ -40,13 +40,13 @@ A ilustração seguinte mostra a vista Estrutura no Report Builder do Power BI p
   
 1.  Abra o relatório paginado no Report Builder do Power BI.
 
-1. No painel **Dados do Relatório** , clique com o botão direito do rato no nó **Parâmetros** > **Adicionar Parâmetro**. A caixa de diálogo **Propriedades do Parâmetro de Relatório** é apresentada.  
+1. No painel **Dados do Relatório**, clique com o botão direito do rato no nó **Parâmetros** > **Adicionar Parâmetro**. A caixa de diálogo **Propriedades do Parâmetro de Relatório** é apresentada.  
   
-2.  Em **Nome** , escreva um nome para o parâmetro ou aceite o nome predefinido.  
+2.  Em **Nome**, escreva um nome para o parâmetro ou aceite o nome predefinido.  
   
-3.  Em **Pedido** , escreva um texto para aparecer ao lado da caixa de texto do parâmetro quando o utilizador executar o relatório.  
+3.  Em **Pedido**, escreva um texto para aparecer ao lado da caixa de texto do parâmetro quando o utilizador executar o relatório.  
   
-4.  Em **Tipo de dados** , selecione o tipo de dados para o valor do parâmetro.  
+4.  Em **Tipo de dados**, selecione o tipo de dados para o valor do parâmetro.  
   
 5.  Se o parâmetro puder conter um valor em branco, selecione **Permitir valor em branco**.  
   

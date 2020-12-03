@@ -2,18 +2,18 @@
 title: Introduzir dados diretamente num relatório paginado no Report Builder
 description: Neste artigo, irá aprender a introduzir dados diretamente num relatório paginado no Report Builder.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 07/10/2020
-ms.author: maggies
-ms.openlocfilehash: 05da5fa050fc92ebae320af9e07fe6505b5790f4
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 5719a5d6e8f559f1dba9f87bc9937ed925195072
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297962"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418216"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Introduzir dados diretamente num relatório paginado no Report Builder – Power BI
 
@@ -29,25 +29,25 @@ Neste artigo, irá conhecer uma funcionalidade da nova versão do Power BI Repor
 
 ## <a name="create-a-data-source-and-dataset"></a>Criar uma origem e um conjunto de dados
 
-Após a transferência e instalação do Report Builder, deverá seguir o mesmo fluxo de trabalho utilizado para adicionar um conjunto de dados e uma origem de dados incorporados ao seu relatório. No procedimento seguinte, em **Origens de Dados** , é apresentada uma nova opção: **Introduzir Dados**.  Só tem de configurar esta origem de dados uma vez por relatório. Após a configuração, pode criar múltiplas tabelas a partir dos dados introduzidos como conjuntos de dados separados que utilizam a mesma origem de dados.
+Após a transferência e instalação do Report Builder, deverá seguir o mesmo fluxo de trabalho utilizado para adicionar um conjunto de dados e uma origem de dados incorporados ao seu relatório. No procedimento seguinte, em **Origens de Dados**, é apresentada uma nova opção: **Introduzir Dados**.  Só tem de configurar esta origem de dados uma vez por relatório. Após a configuração, pode criar múltiplas tabelas a partir dos dados introduzidos como conjuntos de dados separados que utilizam a mesma origem de dados.
 
-1. No painel **Dados do Relatório** , selecione **Novo** > **Conjunto de Dados**.
+1. No painel **Dados do Relatório**, selecione **Novo** > **Conjunto de Dados**.
 
     ![Captura de Ecrã a mostrar o Novo Conjunto de Dados do Report Builder.](media/paginated-reports-enter-data/paginated-new-dataset.png)
 
-1. Na caixa de diálogo **Propriedades do Conjunto de Dados** , selecione **Utilizar um conjunto de dados incorporado no meu relatório**.
+1. Na caixa de diálogo **Propriedades do Conjunto de Dados**, selecione **Utilizar um conjunto de dados incorporado no meu relatório**.
 
-1. Junto a **Origem de dados** , selecione **Novo**.
+1. Junto a **Origem de dados**, selecione **Novo**.
 
     ![Captura de ecrã a mostrar a Nova origem de dados incorporada.](media/paginated-reports-enter-data/paginated-new-data-source.png)
 
-1. Na caixa de diálogo **Propriedades da Origem de Dados** , selecione **Utilizar uma ligação incorporada no meu relatório**.
-2. Na caixa **Selecionar o tipo de ligação** , selecione **INTRODUZIR DADOS** > **OK**.
+1. Na caixa de diálogo **Propriedades da Origem de Dados**, selecione **Utilizar uma ligação incorporada no meu relatório**.
+2. Na caixa **Selecionar o tipo de ligação**, selecione **INTRODUZIR DADOS** > **OK**.
 
     ![Captura de ecrã a mostrar a origem de dados INTRODUZIR DADOS.](media/paginated-reports-enter-data/paginated-data-source-properties-enter-data.png)
 
 1. Regresse à caixa de diálogo **Propriedades do Conjunto de Dados** e selecione **Estruturador de Consulta**.
-2. No painel **Estruturador de Consulta** , clique com o botão direito do rato e cole os seus dados na tabela.
+2. No painel **Estruturador de Consulta**, clique com o botão direito do rato e cole os seus dados na tabela.
 
     ![Captura de ecrã a mostrar Introduzir dados no Estruturador de Consulta.](media/paginated-reports-enter-data/paginated-enter-data.png)
 
@@ -67,7 +67,7 @@ Após a transferência e instalação do Report Builder, deverá seguir o mesmo 
 
     ![Captura de ecrã a mostrar a estrutura de dados XML.](media/paginated-reports-enter-data/paginated-xml-data.png)
 
-12. Na caixa de diálogo **Propriedades do Conjunto de Dados** , selecione **OK**.
+12. Na caixa de diálogo **Propriedades do Conjunto de Dados**, selecione **OK**.
 
 13. A sua origem de dados e o seu conjunto de dados são apresentados no painel **Dados do Relatório**.
 
@@ -79,7 +79,7 @@ Pode utilizar o seu conjunto de dados como a base para visualizações de dados 
 
 Agora que tem uma origem e um conjunto de dados, está tudo pronto para criar um relatório. O seguinte procedimento cria um relatório simples baseado nos dados apresentados na secção anterior.
 
-1. No menu **Inserir** , selecione **Tabela** > **Assistente de Tabelas**.
+1. No menu **Inserir**, selecione **Tabela** > **Assistente de Tabelas**.
 
     :::image type="content" source="media/paginated-reports-enter-data/paginated-table-wizard.png" alt-text="Captura de ecrã a mostrar a seleção da opção Assistente de Tabelas.":::
 
@@ -96,12 +96,12 @@ Agora que tem uma origem e um conjunto de dados, está tudo pronto para criar um
 
     - MontanteDeVendas
 
-    Por predefinição, o Report Builder soma os campos na caixa **Valores** , mas pode escolher outra agregação.
+    Por predefinição, o Report Builder soma os campos na caixa **Valores**, mas pode escolher outra agregação.
 
     :::image type="content" source="media/paginated-reports-enter-data/paginated-select-aggregation.png" alt-text="Captura de ecrã a mostrar várias agregações à escolha.":::
  
 1. Selecione **Seguinte**.
-4.  Na página **Escolher o layout** , mantenha todas as configurações padrão, mas desmarque **Expandir/fechar grupos**. Em geral, é recomendável expandir e reduzir grupos. No entanto, desta vez, vamos ver todos os dados.
+4.  Na página **Escolher o layout**, mantenha todas as configurações padrão, mas desmarque **Expandir/fechar grupos**. Em geral, é recomendável expandir e reduzir grupos. No entanto, desta vez, vamos ver todos os dados.
 
 5.  Selecione **Seguinte** > **Concluir**. A tabela é apresentada na superfície da estrutura.
 

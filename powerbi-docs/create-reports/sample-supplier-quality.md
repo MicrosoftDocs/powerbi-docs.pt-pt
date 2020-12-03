@@ -2,19 +2,19 @@
 title: 'Exemplo de Análise de Qualidade do Fornecedor do Power BI: veja uma apresentação'
 description: 'Exemplo de Análise de Qualidade do Fornecedor do Power BI: veja uma apresentação'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 18827ef29282e33a1527be0812b3c0a6971201df
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 4b4cfa78a01ec628f5d396ea6a267abe7598998c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348718"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417618"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Qualidade do Fornecedor do Power BI: veja uma apresentação
 

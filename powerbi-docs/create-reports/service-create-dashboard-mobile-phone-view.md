@@ -2,19 +2,19 @@
 title: Otimizar um dashboard para telemóveis – Power BI
 description: Saiba como criar uma vista personalizada de um dashboard no serviço Power BI especificamente para visualização em telemóveis.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/18/2019
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: bc1c9987205e86ee9a123bf8ba9afd567c59ff52
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: b0bf14ec5229aae40ee4e3f43c65b6bef4a505ba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264713"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417480"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Otimizar um dashboard para telemóveis – Power BI 
 Quando vê dashboards no modo vertical num telemóvel, pode reparar que os mosaicos do dashboard estão dispostos um a seguir ao outro, todos com o mesmo tamanho. No serviço Power BI, pode criar uma vista personalizada de um dashboard, especificamente para o modo vertical em telemóveis. Mesmo que crie uma vista de telemóvel, quando vira o telemóvel de lado, vê o dashboard tal como está disposto no serviço.

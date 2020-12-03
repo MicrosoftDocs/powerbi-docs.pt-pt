@@ -1,21 +1,21 @@
 ---
 title: Visualizações de tabela em relatórios e dashboards do Power BI
 description: Tutorial para trabalhar com visualizações de tabela em relatórios e dashboards do Power BI, incluindo como redimensionar a largura das colunas.
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 02/10/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 127e8b7033e60c70a4d541cfc4725e7340a514e6
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: aa99cd4efed9239d6685d53f2515d16549a0ae72
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412884"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418814"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabelas em relatórios e dashboards do Power BI
 
@@ -60,7 +60,7 @@ Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](https:
 Vai criar a tabela ilustrada no início do artigo para apresentar os valores de vendas por categoria de item.
 
 
-1. No painel **Campos** , selecione **Item** > **Categoria**.
+1. No painel **Campos**, selecione **Item** > **Categoria**.
 
     O Power BI cria automaticamente uma tabela que apresenta uma lista de todas as categorias.
 
@@ -68,9 +68,9 @@ Vai criar a tabela ilustrada no início do artigo para apresentar os valores de 
 
 1. Selecione **Vendas > Preço Unitário Médio** e **Vendas > Vendas do Ano Passado**
 
-1. Em seguida, selecione **Vendas > Vendas Deste Ano** e selecione as três opções: **Valor** , **Objetivo** e **Estado**.
+1. Em seguida, selecione **Vendas > Vendas Deste Ano** e selecione as três opções: **Valor**, **Objetivo** e **Estado**.
 
-1. No painel **Visualizações** , localize o painel **Valores** e selecione os valores até que a ordem das colunas do gráfico corresponda à primeira imagem desta página. Arraste os valores na área, se for necessário. O painel **Valores** terá o seguinte aspeto:
+1. No painel **Visualizações**, localize o painel **Valores** e selecione os valores até que a ordem das colunas do gráfico corresponda à primeira imagem desta página. Arraste os valores na área, se for necessário. O painel **Valores** terá o seguinte aspeto:
 
     ![Área valores](media/power-bi-visualization-tables/power-bi-table2.png)
 
@@ -109,17 +109,17 @@ Existem várias formas de formatar uma tabela. Apenas algumas são abordadas aqu
 
 Com a formatação condicional para tabelas, pode especificar ícones, URLs, cores de fundo de célula personalizadas e cores de tipo de letra com base nos valores de célula, incluindo a utilização de cores da gradação.
 
-1. No painel **Formato** , abra o cartão **Formatação condicional**.
+1. No painel **Formato**, abra o cartão **Formatação condicional**.
 
     ![Cartão formatação condicional](media/power-bi-visualization-tables/power-bi-conditional.png)
 
 1. Selecione um campo para formatar e mude o controlo de deslize de **Cor de fundo** para a posição Ativado. O Power BI aplica uma gradação com base nos valores da coluna. Para alterar as cores predefinidas, selecione **Controlos avançados**.
 
-    Se selecionar a opção **Divergente** , também pode configurar um valor de **Centro** opcional.
+    Se selecionar a opção **Divergente**, também pode configurar um valor de **Centro** opcional.
 
     ![Ecrã Escalas de cores de fundo](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
-    Vamos aplicar alguma formatação personalizada aos nossos valores de Preço Unitário Médio. Selecione **Divergente** , adicione algumas cores e selecione **OK**.
+    Vamos aplicar alguma formatação personalizada aos nossos valores de Preço Unitário Médio. Selecione **Divergente**, adicione algumas cores e selecione **OK**.
 
     ![tabela que mostra cores divergentes](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-background.png)
 1. Adicione um novo campo à tabela que tem valores positivos e negativos. Selecione **Vendas > Desvio de Vendas Total**.
@@ -130,7 +130,7 @@ Com a formatação condicional para tabelas, pode especificar ícones, URLs, cor
 
     ![Cartão formatação condicional com barras de dados ativadas](media/power-bi-visualization-tables/power-bi-data-bar-matrix.png)
 
-1. Para personalizar as barras de dados, selecione **Controlos avançados**. Na caixa de diálogo que aparece, defina as cores para **Barra positiva** e **Barra negativa** , selecione a opção **Mostrar apenas a barra** e faça outras alterações que pretender.
+1. Para personalizar as barras de dados, selecione **Controlos avançados**. Na caixa de diálogo que aparece, defina as cores para **Barra positiva** e **Barra negativa**, selecione a opção **Mostrar apenas a barra** e faça outras alterações que pretender.
 
     ![marca de verificação para Mostrar apenas a barra](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
@@ -140,7 +140,7 @@ Com a formatação condicional para tabelas, pode especificar ícones, URLs, cor
 
     ![a mesma tabela, mas com barras na última coluna](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
 
-1. Adicione ajudas visuais à sua tabela com os *ícones condicionais*.  No cartão **Formatação condicional** , selecione **Vendas deste ano** no menu pendente. Mude o controlo de deslize de **Ícones** para a posição **Ativado**.  Para personalizar os ícones, selecione **Controlos avançados**.
+1. Adicione ajudas visuais à sua tabela com os *ícones condicionais*.  No cartão **Formatação condicional**, selecione **Vendas deste ano** no menu pendente. Mude o controlo de deslize de **Ícones** para a posição **Ativado**.  Para personalizar os ícones, selecione **Controlos avançados**.
 
     ![Tabela com Ícones adicionados](media/power-bi-visualization-tables/power-bi-table-icons.png)
 
@@ -180,7 +180,7 @@ Por vezes, o Power BI trunca o cabeçalho de uma coluna num relatório e num das
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 
-* Ao aplicar a formatação de colunas, apenas pode escolher uma opção de alinhamento por coluna: **Auto** , **Left** , **Center** , **Right**. Normalmente, uma coluna contém só texto ou só números e não uma combinação de ambos. Quando uma coluna tiver números e texto, a opção de alinhamento **Auto** alinhará o texto à esquerda e os números à direita. Este comportamento suporta idiomas que se leem da esquerda para a direita.
+* Ao aplicar a formatação de colunas, apenas pode escolher uma opção de alinhamento por coluna: **Auto**, **Left**, **Center**, **Right**. Normalmente, uma coluna contém só texto ou só números e não uma combinação de ambos. Quando uma coluna tiver números e texto, a opção de alinhamento **Auto** alinhará o texto à esquerda e os números à direita. Este comportamento suporta idiomas que se leem da esquerda para a direita.
 
 * Se os dados de texto nas células ou cabeçalhos da tabela tiverem caracteres de linha novos, esses caracteres serão ignorados, a menos que ative a opção “Moldagem do Texto” no cartão do painel de formatação associado do elemento. 
 

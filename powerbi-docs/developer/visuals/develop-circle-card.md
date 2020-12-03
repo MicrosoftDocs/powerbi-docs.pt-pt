@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
+ms.topic: tutorial
 ms.date: 09/02/2020
-ms.openlocfilehash: 6c4b39fff9513143c946cc2e92294ae4cbe81427
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: ff73c07fb08e80938fae34c19205885722c33672
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397467"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418722"
 ---
 # <a name="tutorial-develop-a-power-bi-circle-card-visual"></a>Tutorial: Programar um elemento visual de cartão circular do Power BI
 
@@ -88,7 +88,7 @@ Também pode usar o seu próprio relatório para testar os elementos visuais do 
     >[!div class="mx-imgBorder"]
     >![Captura de ecrã do botão Nova Página no serviço Power BI.](media/develop-circle-card/new-page.png)
 
-4. No painel **Visualizações** , selecione o **Elemento Visual do Programador**.
+4. No painel **Visualizações**, selecione o **Elemento Visual do Programador**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de ecrã do elemento visual do programador no painel Visualizações.](media/develop-circle-card/developer-visual.png)
@@ -107,7 +107,7 @@ Também pode usar o seu próprio relatório para testar os elementos visuais do 
     >
     >![Captura de ecrã do novo elemento visual a apresentar um erro de ligação.](media/develop-circle-card/connection-error.png)
 
-6. Com o novo elemento visual selecionado, aceda ao painel **Campos** , expanda **Vendas** e selecione **Quantidade**.
+6. Com o novo elemento visual selecionado, aceda ao painel **Campos**, expanda **Vendas** e selecione **Quantidade**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de ecrã do campo Quantidade do serviço Power BI na tabela Vendas do relatório Análise de Vendas dos EUA.](media/develop-circle-card/fields-sales-quantity.png)
@@ -128,9 +128,9 @@ Nesta secção, vai aprender a transformar o seu elemento visual num círculo e 
 
 Configure o ficheiro **visual.ts** ao excluir e adicionar algumas linhas de código.
 
-1. Abra o seu projeto no VS Code ( **Ficheiro** > **Abrir Pasta** ).
+1. Abra o seu projeto no VS Code (**Ficheiro** > **Abrir Pasta**).
 
-2. No **painel Explorador** , expanda a pasta **src** e selecione o ficheiro **visual.ts**.
+2. No **painel Explorador**, expanda a pasta **src** e selecione o ficheiro **visual.ts**.
 
     >[!div class="mx-imgBorder"]
     >![Captura de ecrã do acesso ao ficheiro visual.ts no VS Code.](media/develop-circle-card/visual-file.png)
@@ -151,7 +151,7 @@ Configure o ficheiro **visual.ts** ao excluir e adicionar algumas linhas de cód
 
     * Todas as linhas de código dentro do método *atualizar*.
 
-    * Todas as restantes linhas de código abaixo do método *atualizar* , incluindo os métodos *parseSettings* e *enumerateObjectInstances*.
+    * Todas as restantes linhas de código abaixo do método *atualizar*, incluindo os métodos *parseSettings* e *enumerateObjectInstances*.
 
 4. Adicione as seguintes linhas de código no final da secção de importação:
 
@@ -171,7 +171,7 @@ Configure o ficheiro **visual.ts** ao excluir e adicionar algumas linhas de cód
         >[!NOTE]
         >Se não instalou esta biblioteca como parte da sua configuração, [instale a biblioteca de JavaScript D3](environment-setup.md#d3-javascript-library).
 
-5. Abaixo da declaração de classe *Visual* , introduza as seguintes propriedades de nível de classe. Só precisa de adicionar as linhas de código que começam por `private`.
+5. Abaixo da declaração de classe *Visual*, introduza as seguintes propriedades de nível de classe. Só precisa de adicionar as linhas de código que começam por `private`.
 
     ```typescript
     export class Visual implements IVisual {
@@ -363,7 +363,7 @@ export class Visual implements IVisual {
 
 Elimine as linhas desnecessárias de código do ficheiro de capacidades.
 
-1. Abra o seu projeto no VS Code ( **Ficheiro** > **Abrir Pasta** ).
+1. Abra o seu projeto no VS Code (**Ficheiro** > **Abrir Pasta**).
 
 2. Selecione o ficheiro **capabilities.json**.
 
@@ -398,7 +398,7 @@ Verifique se o elemento visual apresenta os elementos acabados de adicionar.
     >![Captura de ecrã do elemento visual do cartão circular em forma de círculo.](media/develop-circle-card/circle.png)
 
     >[!NOTE]
-    >Se o elemento visual não estiver a apresentar nada, no painel **Campos** , arraste o campo **Quantidade** para o elemento visual do programador.
+    >Se o elemento visual não estiver a apresentar nada, no painel **Campos**, arraste o campo **Quantidade** para o elemento visual do programador.
 
 3. Redimensione o elemento visual.
 
@@ -501,7 +501,7 @@ Verifique se o elemento visual do cartão circular apresenta o campo *medida* e 
 
 ### <a name="configure-the-visual-to-consume-data"></a>Configurar o elemento visual para consumir dados
 
-Faça alterações no ficheiro **visual.ts** , para que o elemento visual do cartão circular possa consumir dados.
+Faça alterações no ficheiro **visual.ts**, para que o elemento visual do cartão circular possa consumir dados.
 
 1. Abra o ficheiro **visual.ts** no VS Code.
 
@@ -511,7 +511,7 @@ Faça alterações no ficheiro **visual.ts** , para que o elemento visual do car
     import DataView = powerbi.DataView;
     ```
 
-3. No método *atualizar* , faça o seguinte:
+3. No método *atualizar*, faça o seguinte:
 
     * Adicione a seguinte instrução como a primeira instrução. A instrução atribui *dataView* a uma variável para facilitar o acesso e declara a variável para fazer referência ao objeto *dataView*.
 

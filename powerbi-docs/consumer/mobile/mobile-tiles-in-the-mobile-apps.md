@@ -2,18 +2,18 @@
 title: Explorar mosaicos nas aplicações móveis do Power BI
 description: Os mosaicos são instantâneos dinâmicos dos seus dados, afixados a um dashboard. Saiba mais sobre a interação com mosaicos nas aplicações móveis do Power BI.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 1afde236dd4fc9698efe4391cb2d9e095ade37a4
-ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
+ms.openlocfilehash: 74823845c73f02468d012c4518cdf111e84824c9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92683377"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417940"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Explorar mosaicos nas aplicações móveis do Power BI
 Aplica-se a:
@@ -35,7 +35,7 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
    
     ![Captura de ecrã a mostrar um gráfico de linhas, com os valores selecionados para Vendas deste Ano e Vendas do Último Ano.](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *Por exemplo, neste gráfico de linhas, os valores selecionados são para **Vendas deste Ano** e **Vendas do Último Ano** em **agosto** .*  
+   *Por exemplo, neste gráfico de linhas, os valores selecionados são para **Vendas deste Ano** e **Vendas do Último Ano** em **agosto**.*  
    
    Num gráfico circular, toque num setor do gráfico para mostrar o valor do setor na parte superior do gráfico.  
    
@@ -58,7 +58,7 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
    
     Depois de abrir a ligação na aplicação do Power BI, pode copiar a ligação e abri-la numa janela do browser.
 7. [Abra o relatório](mobile-reports-in-the-mobile-apps.md) ![Ícone Abrir relatório no iOS.](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) no qual o mosaico se baseia.
-8. Para sair do modo de detalhe do mosaico, toque no nome do mosaico e, em seguida, toque no nome do dashboard ou em **A Minha Área de Trabalho** .
+8. Para sair do modo de detalhe do mosaico, toque no nome do mosaico e, em seguida, toque no nome do dashboard ou em **A Minha Área de Trabalho**.
    
     ![Captura de ecrã a mostrar um dashboard com ponteiros para A Minha Área de Trabalho e Exemplo de Análise de Oportunidade.](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
 

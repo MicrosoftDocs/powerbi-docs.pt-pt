@@ -2,18 +2,18 @@
 title: Use cascading parameters in paginated reports (Utilizar parâmetros em cascata em relatórios paginados)
 description: Orientação para conceber relatórios paginados com parâmetros em cascata.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: v-pemyer
-ms.openlocfilehash: f239622d8b6012913298212790f7f9aa8c3115a5
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.openlocfilehash: fca5d6556c296094e4536ecf965388e2a4224ed9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197662"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417917"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Use cascading parameters in paginated reports (Utilizar parâmetros em cascata em relatórios paginados)
 

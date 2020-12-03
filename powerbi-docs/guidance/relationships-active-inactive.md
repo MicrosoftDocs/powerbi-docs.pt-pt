@@ -2,18 +2,18 @@
 title: Documento de orientação das relações ativas vs. inativas
 description: Documento de orientação para utilizar relações de modelo ativas ou inativas.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: df9405dcf65eb39095f711edbcaf2a35e4a1f6aa
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: 9fcded0f898f450b5de43686effa115f6163ae21
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136241"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417894"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>Documento de orientação das relações ativas vs. inativas
 

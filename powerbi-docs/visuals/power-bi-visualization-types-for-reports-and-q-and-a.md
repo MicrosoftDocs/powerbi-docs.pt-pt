@@ -1,20 +1,20 @@
 ---
 title: Tipos de visualização no Power BI
 description: Tipos de visualização no Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 24dce044cdd1c4eaef21f4d744ed672119241970
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 9f97db83f8793f251dc1d0d5c5b4133d7228022b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412746"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418791"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualização no Power BI
 ## <a name="power-bi-visualizations"></a>Visualizações do Power BI
@@ -165,7 +165,7 @@ Para obter mais informações, veja [Elementos visuais das Perguntas e Respostas
 ![Visuais R](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
 
 >[!TIP]
->Os elementos visuais criados com scripts R, geralmente denominados *elementos visuais R* , podem apresentar formatação e análise dos dados avançadas, como previsão, ao utilizar o poder avançado de análise e visualização da linguagem R. Os elementos visuais R podem ser criados no Power BI Desktop e publicados no serviço Power BI.   
+>Os elementos visuais criados com scripts R, geralmente denominados *elementos visuais R*, podem apresentar formatação e análise dos dados avançadas, como previsão, ao utilizar o poder avançado de análise e visualização da linguagem R. Os elementos visuais R podem ser criados no Power BI Desktop e publicados no serviço Power BI.   
 
 Para obter mais informações, veja [Elementos visuais R no Power BI](service-r-visuals.md).
 
@@ -230,7 +230,7 @@ Para obter mais informações, veja [Gráficos de Cascata no Power BI](power-bi-
 ## <a name="tell-qa-which-visualization-to-use"></a>Informe as Perguntas e Respostas sobre qual a visualização a utilizar
 Ao escrever consultas em linguagem natural com as Perguntas e Respostas do Power BI, pode especificar o tipo de visualização na consulta.  Por exemplo:
 
-" ***vendas por estado como um mapa de árvore*** "
+"***vendas por estado como um mapa de árvore***"
 
 Se o dashboard não tiver um campo Perguntas e Respostas, este poderá ter sido desativado pelo administrador do Power BI. 
 

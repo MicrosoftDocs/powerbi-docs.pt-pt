@@ -2,18 +2,18 @@
 title: Avoid blank pages when printing paginated reports (Evitar páginas em branco ao imprimir relatórios paginados)
 description: Orientação para conceber relatórios paginados de modo a evitar páginas em branco ao imprimir.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0fa886973105bdb4bc8a35f145168c1775ca12cb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920804"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418469"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>Avoid blank pages when printing paginated reports (Evitar páginas em branco ao imprimir relatórios paginados)
 

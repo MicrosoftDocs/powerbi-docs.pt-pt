@@ -2,20 +2,20 @@
 title: Criar conteúdo para migrar para o Power BI
 description: Orientações sobre como criar e validar conteúdo ao migrar para o Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: a12a320b061967e9201e3513e504277a9df586b4
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 03a55f2f414ca8af7ca86f51dcafb0258efc88b7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803507"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418607"
 ---
-# <a name="createcontenttomigratetopowerbi"></a>Criar conteúdo para migrar para o Power BI
+# <a name="create-content-to-migrate-to-power-bi"></a>Criar conteúdo para migrar para o Power BI
 
 Este artigo descreve a **Fase 4**, que diz respeito à criação e validação de conteúdo ao migrar para o Power BI.
 
