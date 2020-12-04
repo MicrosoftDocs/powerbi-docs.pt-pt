@@ -2,18 +2,18 @@
 title: Webinars do Power BI
 description: Webinars do Power BI
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 09/22/2020
-ms.author: kfollis
-ms.openlocfilehash: 76f0963da1a7cecec6f97fc7e0ab534f7d4bcb8a
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.date: 12/01/2020
+ms.openlocfilehash: 1c0c572072fd085feab1533eb346d745b56f66b0
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020027"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96502024"
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com) é um vendedor que trabalha com a Chauncy Freels e ajuda a manter esta lista de webinars"
@@ -22,19 +22,30 @@ Registe-se nos próximos webinars em direto ou veja as sessões gravadas a pedid
 
 ## <a name="upcoming-webinars"></a>Próximos webinars
 
-**Começar a Trabalhar Rapidamente com o Power BI**  
-por Miguel Martinez, Microsoft  
-[Registe-se para assistir a este webinar no dia 5 de novembro de 2020, das 10:00 às 11:00 (Hora de verão do Pacífico)](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
-
 [Próximos webinars da comunidade do Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Webinars em destaque
 
-Introdução aos webinars a pedido populares
+Introdução aos webinars a pedido populares:
+
+**Começar a Trabalhar Rapidamente com o Power BI**  
+por Miguel Martinez, Microsoft  
+[Registe-se para assistir a este webinar no dia 5 de novembro de 2020, das 10:00 às 11:00 (Hora de verão do Pacífico)](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+
+**Incentivar a Cultura de Dados Remota com o Power BI e com o Microsoft Teams**  
+por Lukasz Pawlowski  
+[Ver agora](https://info.microsoft.com/ww-Landing-RemoteDataCulturePowerBIandMicrosoftTeams.html?LCID=EN-US)
+
+**Better Together: 5 Benefits Excel Users Will Get From Using Power BI** (Melhor em Conjunto: Cinco Vantagens que os Utilizadores do Excel Terão com a Utilização do Power BI)  
+por Miguel Martinez e Carlos Otero  
+[Ver agora](https://info.microsoft.com/ww-Landing-FiveBenefitsExcelUsersWillGetFromUsingPowerBI-Webinar.html?LCID=EN-US)
 
 **Monitorizar os Dados em Tempo Real com o Microsoft Power BI**  
 por Miguel Martinez e Peter Myers  
 [Ver agora](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+
+**Acelerar o Power BI no Azure Data Lake Storage com o Dremio**  
+por Chris Webb e Tomer Shiran [Ver agora]( https://info.microsoft.com/ww-landing-Accelerate-Power-BI-on-Azure-Data-Lake-Storage-with-Dremio.html?lcid=en-us)
 
 **Criar Soluções BI Dimensionáveis com o Power BI e o Snowflake**  
 por Chris Webb, Craig Collier e Chris Holliday  

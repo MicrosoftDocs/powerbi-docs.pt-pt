@@ -2,19 +2,19 @@
 title: O que é um dashboard e como o abro?
 description: Os dashboards são uma funcionalidade chave do serviço Power BI.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 08/30/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2e2c4656c5436691df96b86f145e255153ff9f96
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: 518310c6b4b0d45f02049c91a493b6394a4a50d2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286704"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400552"
 ---
 # <a name="dashboards-for-business-users-of-the-power-bi-service"></a>Dashboards para utilizadores empresariais do serviço Power BI
 
@@ -22,11 +22,11 @@ ms.locfileid: "89286704"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Um ***dashboard*** do Power BI é uma única página, frequentemente denominada tela, que utiliza visualizações para contar uma história. Como está limitada a uma página, um dashboard bem concebido contém apenas os elementos mais importantes da história.
+Um ***dashboard** _ do Power BI é uma página única, frequentemente denominada tela, que utiliza visualizações para contar uma história. Como está limitada a uma página, um dashboard bem concebido contém apenas os elementos mais importantes da história.
 
 ![captura de ecrã de um dashboard](media/end-user-dashboards/power-bi-dashboard.png)
 
-As visualizações apresentadas no dashboard são denominadas *mosaicos* e são *afixadas* ao dashboard por *designers* de relatórios. Na maioria dos casos, ao selecionar um mosaico, é direcionado para a página de relatório onde foi criada a visualização. Se for um novo utilizador do Power BI, pode obter uma boa base de aprendizagem ao ler os [conceitos básicos do Power BI](end-user-basic-concepts.md).
+As visualizações apresentadas no dashboard são denominadas _mosaicos* e são *afixadas* ao dashboard pelos *estruturadores* de relatórios. Na maioria dos casos, ao selecionar um mosaico, é direcionado para a página de relatório onde foi criada a visualização. Se for um novo utilizador do Power BI, pode obter uma boa base de aprendizagem ao ler os [conceitos básicos do Power BI](end-user-basic-concepts.md).
 
 > [!NOTE]
 > Os dashboards podem ser [visualizados e partilhados em dispositivos móveis](mobile/mobile-apps-view-dashboard.md).
@@ -42,8 +42,8 @@ Os dashboards são uma forma fantástica de monitorizar a sua empresa, procurar 
 
 Um dashboard não é apenas uma imagem apelativa, é interativo e os mosaicos são atualizados à medida que os dados subjacentes são alterados.
 
-## <a name="dashboards-versus-reports-for-power-bi-business-users"></a>Dashboards versus relatórios para ***utilizadores empresariais*** do Power BI
-Os relatórios costumam ser confundidos com os dashboards, pois também são telas preenchidas com visualizações. No entanto, existem algumas diferenças significativas do ponto de vista dos *utilizadores empresariais* do Power BI.
+## <a name="dashboards-versus-reports-for-power-bi-business-users_"></a>Dashboards versus relatórios para ***utilizadores empresariais** _ do Power BI
+Os relatórios costumam ser confundidos com os dashboards, pois também são telas preenchidas com visualizações. No entanto, existem algumas diferenças significativas do ponto de vista dos _utilizadores empresariais* do Power BI.
 
 | **Capacidade** | **Dashboards** | **Relatórios** |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ Os relatórios costumam ser confundidos com os dashboards, pois também são tel
 
 
 ## <a name="dashboard-designers-and-dashboard-business-users"></a>Designers e utilizadores empresariais de dashboards
-Enquanto ***utilizador empresarial*** do Power BI, recebe dashboards de *designers*. Continue a aprender sobre dashboards com estes tópicos:
+Enquanto **_utilizador empresarial_* _ do Power BI, recebe os dashboards dos estruturadores*. Continue a aprender sobre dashboards com estes tópicos:
 
 * [Visualizar um dashboard](end-user-dashboard-open.md)
 * Saiba mais sobre [mosaicos do dashboard](end-user-tiles.md) e o que acontece quando seleciona um.

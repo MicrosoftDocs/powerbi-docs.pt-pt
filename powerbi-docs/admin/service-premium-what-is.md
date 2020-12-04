@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/20/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: fe1714fd0249bba429c705b70e9eb157bffae44b
-ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
+ms.openlocfilehash: 6fcbdeef8c7c02656e5637f6103fda76faeb26c9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95012037"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412282"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
@@ -123,7 +123,8 @@ As áreas de trabalho residem nas capacidades. Cada utilizador do Power BI tem u
 Os administradores de capacidade têm as suas áreas de trabalho atribuídas automaticamente a capacidades Premium.
 
 ### <a name="updates-for-premium-gen2-preview"></a>Atualizações para o Premium Gen2 (Pré-visualização)
-Os nós do Premium Gen 2 deixaram de utilizar a infraestrutura reservada. Em vez disso, o serviço garante a disponibilidade de capacidade de computação adequada para cada carga de trabalho em execução ao alocar recursos suficientes de um conjunto partilhado de nós de computação de alta capacidade.
+
+Os nós do Premium Gen 2 deixaram de utilizar a infraestrutura reservada. Em vez disso, o serviço garante a disponibilidade da capacidade de computação adequada para cada carga de trabalho em execução ao alocar recursos suficientes de um conjunto partilhado de nós de computação de alta capacidade.
 
 
 ### <a name="capacity-nodes"></a>Nós de capacidade
@@ -159,14 +160,14 @@ Os recursos e limites de cada SKU Premium (e SKU A dimensionado de forma equival
 
 #### <a name="updates-for-premium-gen2-preview"></a>Atualizações para o Premium Gen2 (Pré-visualização)
 
-Com o **Premium Gen2** a quantidade de memória disponível em cada tamanho de Nó está definida para o limite da quantidade de memória de um único artefacto e não para o consumo cumulativo de memória. Por exemplo, no Premium Gen2, apenas o tamanho de um único conjunto de dados está limitado a 25 GB, em comparação com o Premium original, em que o total da quantidade de memória dos conjuntos de dados que são manipulados ao mesmo tempo estava limitado a 25 GB.
+Com o **Premium Gen2**, a quantidade de memória disponível em cada tamanho de nó está definida para o limite da quantidade de memória de um único artefacto e não para o consumo cumulativo de memória. Por exemplo, no Premium Gen2, apenas o tamanho de um único conjunto de dados está limitado a 25 GB, em comparação com o Premium original, em que o total da quantidade de memória dos conjuntos de dados que são manipulados ao mesmo tempo estava limitado a 25 GB.
 
 
 ### <a name="capacity-workloads"></a>Cargas de trabalho de capacidade
 
 As cargas de trabalho de capacidade são serviços disponibilizados aos utilizadores. Por predefinição, as capacidades Premium e do Azure só suportam uma carga de trabalho do conjunto de dados associada à execução de consultas do Power BI. A carga de trabalho do conjunto de dados não pode ser desativada. Pode ativar cargas de trabalho adicionais para [IA (Serviços Cognitivos)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [Fluxos de dados](../transform-model/dataflows/dataflows-introduction-self-service.md) e [Relatórios paginados](../paginated-reports/paginated-reports-save-to-power-bi-service.md). Estas cargas de trabalho são suportadas apenas nas subscrições Premium. 
 
-Cada carga de trabalho adicional permite configurar a memória máxima (como uma percentagem da memória total disponível) que pode ser utilizada pela carga de trabalho. Os valores predefinidos da memória máxima são determinados pelo SKU. Pode maximizar os recursos disponíveis da sua capacidade ao ativar apenas as cargas de trabalho adicionais quando são utilizadas. Pode alterar as definições de memória apenas quando tiver determinado que as predefinições não estão a cumprir os requisitos dos recursos de capacidade. As cargas de trabalho podem ser ativadas e configuradas para uma capacidade por administradores de capacidade através das **Definições de capacidade** no [Portal de Administração](service-admin-portal.md) ou através de [APIs REST de capacidades](/rest/api/power-bi/capacities).  
+Cada carga de trabalho adicional permite configurar a memória máxima (como uma percentagem da capacidade de memória disponível), que pode ser utilizada pela carga de trabalho. Os valores predefinidos da memória máxima são determinados pelo SKU. Pode maximizar os recursos disponíveis da sua capacidade ao ativar apenas as cargas de trabalho adicionais quando são utilizadas. Pode alterar as definições de memória apenas quando tiver determinado que as predefinições não estão a cumprir os requisitos dos recursos de capacidade. As cargas de trabalho podem ser ativadas e configuradas para uma capacidade pelos administradores de capacidade com as **Definições das capacidades** no [Portal de administração](service-admin-portal.md) ou as [APIs REST das capacidades](/rest/api/power-bi/capacities).  
 
 ![Ativar cargas de trabalho](media/service-admin-premium-workloads/admin-portal-workloads.png)
 
@@ -176,32 +177,34 @@ Para saber mais, veja [Configurar cargas de trabalho numa capacidade Premium](se
 
 O serviço Power BI utiliza da melhor forma os recursos de capacidades e não excede os limites impostos na capacidade.
 
-As operações de capacidades são classificadas como *interativas* ou *de segundo plano*. As operações interativas incluem compor pedidos e responder a interações de utilizadores (filtrar, consultar Perguntas e Respostas, etc.). Geralmente, a consulta do modelo de importação exige bastantes recursos de memória, enquanto os modelos DirectQuery e Ligação em Direto exigem CPU. As operações de segundo plano incluem atualizações do modelo de importação e fluxo de dados e colocação em cache de consultas do dashboard.
+As operações de capacidades são classificadas como *interativas* ou *de segundo plano*. As operações interativas incluem compor pedidos e responder a interações de utilizadores (filtrar, consultar Perguntas e Respostas, etc.). As operações de segundo plano incluem atualizações do modelo de importação e fluxo de dados e colocação em cache de consultas do dashboard.
 
-É importante compreender que as operações interativas têm sempre prioridade sobre as operações de segundo plano para garantir a melhor experiência de utilizador possível. Se existirem recursos insuficientes, as operações de segundo plano são adicionadas a uma fila para processamento quando estiverem disponíveis recursos. As operações de segundo plano, como atualizações de conjuntos de dados, podem ser interrompidas a meio do processo pelo serviço Power BI e adicionadas a uma fila.
+É importante compreender que as operações interativas têm sempre prioridade sobre as operações de segundo plano para garantir a melhor experiência de utilizador possível. Se existirem recursos insuficientes, as operações em segundo plano serão adicionadas a uma fila de espera até existirem recursos disponíveis. As operações em segundo plano, como atualizações de conjuntos de dados, podem ser interrompidas a meio do processo pelo serviço Power BI, adicionadas a uma fila e repetidas posteriormente.
 
-Os modelos de importação têm de ser totalmente carregados para a memória para que possam ser consultados ou atualizados. O serviço Power BI gere a utilização de memória com algoritmos sofisticados para garantir a utilização máxima da memória disponível e pode causar a sobrecarga da capacidade: embora seja possível para uma capacidade armazenar vários modelos de importação (até 100 TB por capacidade Premium), quando o armazenamento de discos combinado excede a memória suportada (e a memória adicional é necessária para consultar e atualizar), estes não podem ser carregados para a memória ao mesmo tempo.
+Os modelos de importação têm de ser totalmente carregados para a memória para que possam ser consultados ou atualizados. O serviço Power BI utiliza algoritmos sofisticados para gerir a utilização da memória de forma equilibrada. Mas, em casos raros, a capacidade poderá ficar sobrecarregada se não existirem recursos suficientes para satisfazer as necessidade dos clientes em tempo real. Embora seja possível que uma capacidade armazene muitos modelos de importação no armazenamento persistente (até 100 TB por capacidade Premium), nem todos os modelos residem necessariamente na memória ao mesmo tempo. Caso contrário, o tamanho do conjunto de dados na memória pode facilmente exceder o limite de capacidade da memória. Para além da memória exigida para carregar os conjuntos de dados, é necessária memória adicional para a execução das consultas e das operações de atualização.
 
-Os modelos de importação são carregados e removidos da memória de acordo com a utilização. Um modelo de importação é carregado quando é consultado (operação interativa) e ainda não está na memória ou quando deve ser atualizado (operação de segundo plano).
+Os modelos de importação são, por isso, carregados e removidos da memória em função da utilização. Um modelo de importação é carregado quando é consultado (operação interativa) ou caso precise de ser atualizado (operação em segundo plano).
 
-A remoção de um modelo da memória é conhecida como *expulsão*. É uma operação que o Power BI pode efetuar rapidamente, dependendo do tamanho dos modelos. Se a capacidade não tiver pressão de memória, os modelos são simplesmente carregados para a memória e permanecem lá. No entanto, quando não houver memória disponível suficiente para carregar um modelo, o serviço Power BI precisará de libertar memória. Liberta memória ao detetar modelos que ficaram inativos, procurar modelos que não foram utilizados nos últimos três minutos \[[1](#endnote-1)\] e expulsá-los. Se não existirem modelos inativos para expulsar, o serviço Power BI tentará expulsar modelos carregados para operações de segundo plano. Como último recurso, após 30 segundos de tentativas falhadas \[[1](#endnote-1)\], a operação interativa irá falhar. Neste caso, o utilizador do relatório é notificado da falha com uma sugestão para tentar novamente em breve. Em alguns casos, os modelos podem ser descarregados da memória devido a operações de serviço.
+A remoção de um modelo da memória é conhecida como *expulsão*. É uma operação que o Power BI pode efetuar rapidamente, dependendo do tamanho dos modelos. Se a capacidade não estiver a sofrer pressão de memória e o modelo não estiver inativo (isto é, ativamente em utilização), o modelo poderá residir na memória sem ser expulso. Quando o Power BI determina que não existe memória suficiente para carregar um modelo, o serviço Power BI tentará libertar memória ao expulsar os modelos inativos, normalmente, definidos como modelos carregados para operações interativas que não foram utilizados nos últimos três minutos \[[1](#endnote-1)\]. Se não existirem modelos inativos a expulsar, o serviço Power BI tentará expulsar os modelos carregados das operações em segundo plano. Como último recurso, após 30 segundos de tentativas falhadas \[[1](#endnote-1)\], a operação interativa irá falhar. Neste caso, o utilizador do relatório é notificado da falha com uma sugestão para tentar novamente em breve. Em alguns casos, os modelos podem ser descarregados da memória devido a operações de serviço.
 
-É importante sublinhar que a expulsão de conjuntos de dados é um comportamento normal e esperado. Esforça-se por maximizar a utilização da memória ao carregar e descarregar modelos cujos tamanhos combinados podem exceder a memória disponível. Este comportamento é predefinido e transparente para os utilizadores do relatório. As taxas de expulsão elevadas não significam necessariamente que a capacidade não tem recursos suficientes. No entanto, pode ser preocupante se a capacidade de resposta de atualização ou consulta for afetada por causa das taxas de expulsão elevadas.
+É importante sublinhar que a expulsão dos conjuntos de dados é um comportamento normal da capacidade. A capacidade esforça-se por equilibrar a utilização da memória através da gestão do ciclo de vida dos modelos de uma forma transparente para os utilizadores. Uma taxa de expulsão elevada não significa necessariamente que a capacidade não tem recursos suficientes. Poderá, no entanto, tornar-se uma preocupação se o desempenho das consultas ou das atualizações se degradar devido à sobrecarga de carregar e expulsar modelos repetidamente num breve intervalo de tempo.
 
-As atualizações de modelos de importação exigem sempre bastantes recursos, pois os modelos têm de ser carregados para a memória. É necessária memória adicional para o processamento. Uma atualização total pode utilizar aproximadamente o dobro da quantidade de memória exigida pelo modelo. Isto garante que o modelo pode ser consultado mesmo durante o processamento, porque as consultas são enviadas para o modelo existente até que a atualização seja concluída e os dados do novo modelo estejam disponíveis. A atualização incremental irá exigir menos memória e pode ser concluída mais rapidamente, reduzindo substancialmente a pressão sobre os recursos de capacidades. As atualizações também podem exigir bastante CPU para os modelos, especialmente aquelas com transformações complexas do Power Query ou colunas/tabelas calculadas que são complexas ou baseadas em tabelas de grandes dimensões.
+As atualizações de modelos de importação exigem sempre bastantes recursos, pois os modelos têm de ser carregados para a memória. Também é necessária memória intermediária adicional para o processamento. Uma atualização completa pode utilizar aproximadamente o dobro da quantidade da memória necessária para o modelo, dado que o Power BI mantém um instantâneo existente do modelo na memória até que a operação de processamento esteja concluída. Tal permite que o modelo seja consultado, mesmo quando está a ser processado. As consultas podem ser enviadas para o instantâneo existente do modelo até que a atualização seja concluída e os novos dados de modelo estejam disponíveis.
 
-As atualizações, como as consultas, exigem que o modelo seja carregado para a memória. Se não existir memória suficiente, o serviço Power BI irá tentar expulsar modelos inativos, e se isso não for possível (todos os modelos estão ativos), a tarefa de atualização será colocada em fila. Normalmente, as atualizações exigem bastante CPU, mais do que as consultas. Por este motivo, existem limites de capacidade no número de atualizações simultâneas, definido como 1,5 vezes o número de núcleos virtuais de back-end, arredondados. Se existirem muitas atualizações simultâneas, uma atualização agendada será colocada em fila. Quando estas situações ocorrem, demora mais tempo para a atualização ser concluída. As atualizações a pedido, como aquelas acionadas por um pedido de utilizador ou uma chamada à API, serão repetidas três vezes \[[1](#endnote-1)\]. Se ainda não existirem recursos suficientes, a atualização irá falhar.
+A atualização incremental executa a atualização da partição em vez de uma atualização completa do modelo e, normalmente, será mais rápida e exigirá menos memória, o que poderá reduzir substancialmente a utilização de recursos da capacidade. As atualizações também podem exigir bastante CPU para os modelos, especialmente aquelas com transformações complexas do Power Query ou colunas ou tabelas calculadas que são complexas ou baseadas num grande volume de dados.
+
+As atualizações, como as consultas, exigem que o modelo seja carregado para a memória. Se não existir memória suficiente, o serviço Power BI tentará expulsar os modelos inativos e se isso não for possível (dado que todos os modelos estão ativos), a tarefa de atualização será colocada em fila. Normalmente, as atualizações exigem bastante CPU, mais do que as consultas. Por este motivo, é imposto um limite sobre o número de atualizações simultâneas, calculado como o limite de 1,5 x o número de núcleos virtuais de back-end. Se existirem demasiadas atualizações em simultâneo, a atualização agendada será colocada em fila até que um intervalo de atualização esteja disponível, o que fará com a conclusão da operação seja mais demorada. As atualizações a pedido, como aquelas acionadas por um pedido de utilizador ou uma chamada à API, serão repetidas três vezes \[[1](#endnote-1)\]. Se ainda não existirem recursos suficientes, a atualização irá falhar.
 
 #### <a name="updates-for-premium-gen2-preview"></a>Atualizações para o Premium Gen2 (Pré-visualização)
-O Premium Gen2 não requer limites de memória cumulativa e, assim, as atualizações têm sempre memória suficiente disponível. Além disso, não há limite de atualizações 1,5X em execução por núcleo virtual. Pode agendar e executar quantas atualizações forem necessárias a qualquer altura e o serviço do Power BI executará essas atualizações no momento agendado, como um melhor esforço.
 
+O Premium Gen2 não precisa de limites de memória cumulativa e, portanto, as atualizações dos conjuntos de dados simultâneas não contribuem para os limites de recursos. Não há limite ao número de atualizações em execução por núcleo virtual. No entanto, a atualização de conjuntos de dados individuais continua a ser regida pela memória de capacidade existente e pelos limites da CPU. Pode agendar e executar quantas atualizações forem necessárias a qualquer altura e o serviço do Power BI executará essas atualizações no momento agendado, como um melhor esforço.
 
 Notas de secção:   
 <a name="endnote-1"></a>\[1\] Sujeito a alterações.
 
 ### <a name="regional-support"></a>Suporte regional
 
-Ao criar uma nova capacidade, os administradores do serviço Power BI e os Administradores globais podem especificar uma região na qual residirão as áreas de trabalho atribuídas à capacidade. Isto é conhecido como **Multi-Geo**. Com a Multi-Geo, as organizações podem cumprir requisitos de residência dos dados ao implementar conteúdos para datacenters numa região específica, mesmo que seja diferente da região na qual a Subscrição do Microsoft 365 reside. Para saber mais, veja [Suporte da Multi-Geo para o Power BI Premium](service-admin-premium-multi-geo.md).
+Ao criar uma nova capacidade, os administradores do serviço Power BI e os administradores globais podem especificar uma região na qual residirão as áreas de trabalho atribuídas à capacidade. Isto é conhecido como **Multi-Geo**. Com a funcionalidade Multi-Geo, as organizações podem cumprir os requisitos de residência dos dados ao implementar conteúdos para datacenters numa região específica, mesmo que seja diferente da região na qual a Subscrição do Microsoft 365 reside. Para saber mais, veja [Suporte da Multi-Geo para o Power BI Premium](service-admin-premium-multi-geo.md).
 
 ### <a name="capacity-management"></a>Gestão de capacidades
 
@@ -213,7 +216,7 @@ Quando as capacidades são criadas, a maior parte das tarefas administrativas é
 
 ![Captura de ecrã a mostrar o portal de administração do Power B I, com a opção A Minha Área de Trabalho selecionada.](media/service-premium-what-is/premium-admin-portal.png)
 
-Os administradores de capacidade podem atribuir áreas de trabalho à capacidade, gerir permissões de utilizador e atribuir outros administradores. Os administradores de capacidade também podem configurar cargas de trabalho, ajustando alocações de memória e, se for necessário, reiniciar uma capacidade, repondo operações em caso de sobrecarga de uma capacidade.
+Os administradores de capacidade podem atribuir áreas de trabalho à capacidade, gerir permissões de utilizador e atribuir outros administradores. Os administradores de capacidade também podem configurar cargas de trabalho, ajustar alocações de memória e, se necessário, reiniciar uma capacidade ao repor as operações se esta ficar sobrecarregada.
 
 ![Captura de ecrã a mostrar a gestão de capacidades no portal de administração do Power BI.](media/service-premium-what-is/premium-admin-portal-mgmt.png)
 
@@ -230,7 +233,7 @@ A monitorização no portal fornece uma vista rápida com métricas de alto nív
 ![Captura de ecrã a mostrar o estado de funcionamento das capacidades no portal de administração do Power BI.](media/service-premium-what-is/premium-admin-portal-health.png)
 
 > [!NOTE]
-> **Atualizações para o Premium Gen2 (Pré-visualização)** – o Premium Gen2 apenas precisa da monitorização de um aspeto: quanto tempo de CPU é que a capacidade requer para servir a carga a qualquer momento. Se exceder o tempo de CPU tendo em conta o tamanho do SKU comprado, a sua capacidade será dimensionada de forma automática para acomodar a necessidade ou irá limitar as operações interativas com base nas suas definições de configuração.
+> **Atualizações para o Premium Gen2 (Pré-visualização)** – o Premium Gen2 apenas precisa da monitorização de um aspeto: quanto tempo de CPU é que a capacidade requer para servir a carga a qualquer momento. Se exceder o tempo da CPU por tamanho de SKU comprado, a capacidade será dimensionada de forma automática para acomodar a necessidade ou limitará as operações interativas com base nas definições de configuração.
 
 
 A aplicação **Métricas de Capacidade do Power BI Premium** fornece as informações mais detalhadas sobre o desempenho das suas capacidades. A aplicação fornece um dashboard de alto nível e relatórios mais detalhados.
@@ -244,7 +247,7 @@ No dashboard da aplicação, pode clicar na célula de uma métrica para abrir u
 Para saber mais sobre capacidades de monitorização, veja [Monitorização no Portal de Administração do Power BI](service-admin-premium-monitor-portal.md) e [Monitorização com a aplicação Métricas de Capacidade do Power BI Premium](service-admin-premium-monitor-capacity.md).
 
 #### <a name="updates-for-premium-gen2-preview"></a>Atualizações para o Premium Gen2 (Pré-visualização)
-As capacidades do **Premium Gen2** não utilizam a aplicação Metrics, mas sim a aplicação Capacity Utilization, que ficará disponível durante a pré-visualização. A aplicação Capacity Utilization pode ser iniciada a partir da página de gestão da capacidade no **Portal de administração** para cada capacidade.
+As capacidades **Premium Gen2** não utilizam a Aplicação de métricas, mas sim a Aplicação de Utilização das Capacidades, que ficará disponível durante a pré-visualização. A aplicação Capacity Utilization pode ser iniciada a partir da página de gestão da capacidade no **Portal de administração** para cada capacidade.
 
 
 ### <a name="optimizing-capacities"></a>Otimizar as capacidades

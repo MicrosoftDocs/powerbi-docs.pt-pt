@@ -9,11 +9,11 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
 ms.openlocfilehash: 09489c3dbb33e1c5fb289cc1cc132eae0083a95f
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981741"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120791"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Segurança ao nível da linha com o Power BI Embedded
 
@@ -29,7 +29,7 @@ Para tirar partido da RLS, é importante compreender três conceitos principais:
 
 **Utilizadores** – utilizadores finais a ver o artefacto (dashboard, mosaico, relatório ou conjunto de dados). No Power BI Embedded, os utilizadores são identificados pela propriedade de nome de utilizador num token incorporado.
 
-**Funções** – utilizadores que pertencem a funções. Uma função é um contentor para regras e pode ter um nome semelhante ao seguinte *Gestor de Vendas* ou *Representante de Vendas* . O utilizador cria funções dentro do Power BI Desktop. Para obter mais informações, veja [Row-level security (RLS) with Power BI Desktop (Segurança de nível de linha (RLS) com o Power BI Desktop)](../../create-reports/desktop-rls.md).
+**Funções** – utilizadores que pertencem a funções. Uma função é um contentor para regras e pode ter um nome semelhante ao seguinte *Gestor de Vendas* ou *Representante de Vendas*. O utilizador cria funções dentro do Power BI Desktop. Para obter mais informações, veja [Row-level security (RLS) with Power BI Desktop (Segurança de nível de linha (RLS) com o Power BI Desktop)](../../create-reports/desktop-rls.md).
 
 **Regras** – funções têm regras e essas regras são os filtros reais que vão ser aplicados nos dados. As regras podem ser tão simples como "País = EUA" ou algo muito mais dinâmico.
 Neste artigo, vamos ainda apresentar um exemplo de RLS de criação e, em seguida, consumi-la numa aplicação incorporada. O nosso exemplo utiliza o ficheiro PBIX de [Exemplo de Análise de Revenda](https://go.microsoft.com/fwlink/?LinkID=780547).
@@ -46,9 +46,9 @@ A RLS foi criada no Power BI Desktop. Quando o conjunto de dados e o relatório 
 
 Seguem-se alguns aspetos a observar neste esquema:
 
-* Todas as medidas, como **Vendas Totais** , são armazenadas na tabela de factos **Vendas** .
-* Existem quatro tabelas de dimensão relacionada adicionais: **Item** , **Tempo** , **Loja** e **Distrito** .
-* As setas nas linhas de relação indicam de que forma os filtros podem circular de uma tabela para outra. Por exemplo, se um filtro está colocado em **Tempo [Data]** , no esquema atual, iria filtrar apenas os valores na tabela **Vendas** . Nenhuma outra tabela é afetada por este filtro, uma vez que todas as setas nas linhas de relação apontam para a tabela de vendas, e não para outra direção.
+* Todas as medidas, como **Vendas Totais**, são armazenadas na tabela de factos **Vendas**.
+* Existem quatro tabelas de dimensão relacionada adicionais: **Item**, **Tempo**, **Loja** e **Distrito**.
+* As setas nas linhas de relação indicam de que forma os filtros podem circular de uma tabela para outra. Por exemplo, se um filtro está colocado em **Tempo [Data]** , no esquema atual, iria filtrar apenas os valores na tabela **Vendas**. Nenhuma outra tabela é afetada por este filtro, uma vez que todas as setas nas linhas de relação apontam para a tabela de vendas, e não para outra direção.
 * A tabela **Distrito** indica quem é o gestor de cada distrito:
   
     ![Linhas na tabela Distrito](media/embedded-row-level-security/powerbi-embedded-district-table.png)
@@ -57,22 +57,22 @@ Com base neste esquema, se aplicarmos um filtro na coluna **Gestor Regional** na
 
 Eis como:
 
-1. No separador **Modelação** , selecione **Gerir Funções** .
+1. No separador **Modelação**, selecione **Gerir Funções**.
 
     ![Separador de Modelação no Power BI Desktop](media/embedded-row-level-security/powerbi-embedded-manage-roles.png)
-2. Crie uma nova função chamada **Gestor** .
+2. Crie uma nova função chamada **Gestor**.
 
     ![Criar nova função](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. Na tabela **Distrito** , introduza esta expressão DAX: **[District Manager] = USERNAME()** .
+3. Na tabela **Distrito**, introduza esta expressão DAX: **[District Manager] = USERNAME()** .
 
     ![Declaração DAX para regra da RLS](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. Para garantir que as regras estão a funcionar, no separador **Modelação** , selecione **Ver como Funções** e, em seguida, selecione a função **Gestor** que criou, juntamente com a função **Outros utilizadores** . Introduza **Andrew Ma** para o utilizador.
+4. Para garantir que as regras estão a funcionar, no separador **Modelação**, selecione **Ver como Funções** e, em seguida, selecione a função **Gestor** que criou, juntamente com a função **Outros utilizadores**. Introduza **Andrew Ma** para o utilizador.
 
     ![Ver como diálogo de função](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
 
-    Os relatórios mostram os dados como se tivesse sessão iniciada como **Andrew Ma** .
+    Os relatórios mostram os dados como se tivesse sessão iniciada como **Andrew Ma**.
 
-A aplicação do filtro, conforme fizemos aqui, irá filtrar todos os registos nas tabelas **Distrito** , **Loja** e **Vendas** . No entanto, devido à direção do filtro nas relações entre as tabelas **Vendas** e **Tempo** , **Vendas** e **Item** e **Item** e **Tempo** , estas tabelas não são filtradas. Para obter mais informações sobre a filtragem cruzada bidirecional, transfira o documento [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop (Filtragem cruzada bidirecional no SQL Server Analysis Services 2016 e no Power BI Desktop)](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx).
+A aplicação do filtro, conforme fizemos aqui, irá filtrar todos os registos nas tabelas **Distrito**, **Loja** e **Vendas**. No entanto, devido à direção do filtro nas relações entre as tabelas **Vendas** e **Tempo**, **Vendas** e **Item** e **Item** e **Tempo**, estas tabelas não são filtradas. Para obter mais informações sobre a filtragem cruzada bidirecional, transfira o documento [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop (Filtragem cruzada bidirecional no SQL Server Analysis Services 2016 e no Power BI Desktop)](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx).
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Aplicar utilizador e função num token incorporado
 
@@ -82,15 +82,15 @@ Os utilizadores são autenticados e autorizados pela sua aplicação e os tokens
 
 A API aceita uma lista de identidades com indicação dos conjuntos de dados relevantes. Para a RLS funcionar, precisa de passar as partes abaixo como parte da identidade.
 
-* **nome de utilizador (obrigatório)** – uma cadeia que pode ser utilizada para ajudar a identificar o utilizador ao aplicar regras da RLS. Pode ser listado apenas um único utilizador. O seu nome de utilizador pode ser criado com carateres *ASCII* .
+* **nome de utilizador (obrigatório)** – uma cadeia que pode ser utilizada para ajudar a identificar o utilizador ao aplicar regras da RLS. Pode ser listado apenas um único utilizador. O seu nome de utilizador pode ser criado com carateres *ASCII*.
 * **funções (obrigatório)** – uma cadeia que contém as funções para selecionar ao aplicar regras de Segurança de Nível de Linha. Se passar mais de uma função, devem ser passadas como uma matriz de cadeia.
 * **conjunto de dados (obrigatório)** – o conjunto de dados aplicável ao artefacto que está a incorporar.
 
-Pode criar o token incorporado ao utilizar o método **GenerateTokenInGroup** em **PowerBIClient.Reports** .
+Pode criar o token incorporado ao utilizar o método **GenerateTokenInGroup** em **PowerBIClient.Reports**.
 
-Por exemplo, pode alterar o exemplo *[PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) > .NET Framework > Incorporar para os seus clientes > **PowerBIEmbedded_AppOwnsData*** .
+Por exemplo, pode alterar o exemplo *[PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) > .NET Framework > Incorporar para os clientes > **PowerBIEmbedded_AppOwnsData** _.
 
-**Antes da alteração**
+_ *Antes da alteração**
 
 ```csharp
 // Generate Embed Token with effective identities.
@@ -108,7 +108,7 @@ var generateTokenRequestParameters = new GenerateTokenRequest("View", null, iden
 var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "reportId", generateTokenRequestParameters);
 ```
 
-Se estiver a chamar a API REST, a API atualizada aceitará agora uma matriz JSON adicional, designada **identidades** , que contém um nome de utilizador, uma lista de funções de cadeia e uma lista de conjuntos de dados de cadeia. 
+Se estiver a chamar a API REST, a API atualizada aceitará agora uma matriz JSON adicional, designada **identidades**, que contém um nome de utilizador, uma lista de funções de cadeia e uma lista de conjuntos de dados de cadeia. 
 
 Utilize o seguinte código como um exemplo:
 
@@ -146,7 +146,7 @@ As funções podem ser atribuídas com a identidade num token incorporado. Se n�
 
 ### <a name="using-the-customdata-feature"></a>Utilizar a funcionalidade CustomData
 
-A funcionalidade CustomData funciona apenas para modelos que residem no **Azure Analysis Services** e apenas funciona no modo **Ligar em direto** . Ao contrário do que acontece com os utilizadores e as funções, a funcionalidade CustomData não pode ser definida num ficheiro .pbix. Ao gerar um token com a funcionalidade CustomData, precisa de ter um nome de utilizador.
+A funcionalidade CustomData funciona apenas para modelos que residem no **Azure Analysis Services** e apenas funciona no modo **Ligar em direto**. Ao contrário do que acontece com os utilizadores e as funções, a funcionalidade CustomData não pode ser definida num ficheiro .pbix. Ao gerar um token com a funcionalidade CustomData, precisa de ter um nome de utilizador.
 
 >[!NOTE]
 >O nome de utilizador CustomData só pode ter 256 carateres.
@@ -205,11 +205,11 @@ Estes são os passos para começar a configurar a funcionalidade CustomData() co
 
     ![Criar Função](media/embedded-row-level-security/azure-analysis-services-database-create-role.png)
 
-3. Especifique as definições **Gerais** .  Aqui, deve introduzir o **Nome da Função** e definir as permissões da base de dados como só de **Leitura** .
+3. Especifique as definições **Gerais**.  Aqui, deve introduzir o **Nome da Função** e definir as permissões da base de dados como só de **Leitura**.
 
     ![Criar Função – Especificar as Definições Gerais](media/embedded-row-level-security/azure-analysis-services-database-create-role-general-settings.png)
 
-4. Especifique as definições de **Associação** . Aqui, pode adicionar os utilizadores afetados por esta função.
+4. Especifique as definições de **Associação**. Aqui, pode adicionar os utilizadores afetados por esta função.
 
     ![Criar Função – Especificar as Definições de Associação](media/embedded-row-level-security/azure-analysis-services-database-create-role-membership.png)
 
@@ -239,7 +239,7 @@ Estes são os passos para começar a configurar a funcionalidade CustomData() co
 
 ## <a name="using-rls-vs-javascript-filters"></a>Utilizar a RLS vs. filtros de JavaScript
 
-Quando decidir filtrar os dados num relatório, pode utilizar a **segurança ao nível da linha (RLS)** ou os **filtros de JavaScript** .
+Quando decidir filtrar os dados num relatório, pode utilizar a **segurança ao nível da linha (RLS)** ou os **filtros de JavaScript**.
 
 A [segurança ao nível da linha](../../admin/service-admin-rls.md) é uma funcionalidade que filtra os dados ao nível do modelo de dados. A sua origem de dados de back-end controla as definições da RLS. Com base no seu modelo de dados, a geração de tokens de incorporação define o nome de utilizador e as funções da sessão. Tal não pode ser substituído, removido ou controlado pelo código do lado do cliente, motivo pelo qual é considerado seguro. Recomendamos que utilize a RLS para filtrar dados de forma segura. Pode filtrar dados com a RLS ao utilizar uma das opções abaixo.
 
@@ -251,9 +251,9 @@ Os [filtros de JavaScript](https://github.com/Microsoft/PowerBI-JavaScript/wiki/
 
 ## <a name="token-based-identity-with-azure-sql-database"></a>Identidade baseada em tokens com a Base de Dados SQL do Azure
 
-A **identidade baseada em tokens** permite-lhe especificar a identidade em vigor de um token de incorporação com o token de acesso **Azure Active Directory (AAD)** para uma **Base de Dados SQL do Azure** .
+A **identidade baseada em tokens** permite-lhe especificar a identidade em vigor de um token de incorporação com o token de acesso **Azure Active Directory (AAD)** para uma **Base de Dados SQL do Azure**.
 
-Os clientes que armazenam os dados na **Base de Dados SQL do Azure** já podem beneficiar de uma nova funcionalidade para gerir os utilizadores e o acesso deles aos dados no SQL do Azure durante a integração com **Power BI Embedded** .
+Os clientes que armazenam os dados na **Base de Dados SQL do Azure** já podem beneficiar de uma nova funcionalidade para gerir os utilizadores e o acesso deles aos dados no SQL do Azure durante a integração com **Power BI Embedded**.
 
 Ao gerar o token de incorporação, pode especificar a identidade em vigor de um utilizador no SQL do Azure. Pode especificar a identidade em vigor de um utilizador ao transmitir o token de acesso do AAD para o servidor. O token de acesso é utilizado para extrair apenas os dados relevantes desse utilizador do SQL do Azure, dessa sessão específica.
 
@@ -320,7 +320,7 @@ O valor fornecido no blob de identidade deve ser um token de acesso válido para
 
 ## <a name="on-premises-data-gateway-with-service-principal"></a>Gateway de dados no local com o principal de serviço
 
-Os clientes que configuram a segurança ao nível da linha (RLS) através de uma origem de dados dinâmica no local do SQL Server Analysis Services (SSAS) podem usufruir da nova capacidade do [principal de serviço](embed-service-principal.md) para gerir os utilizadores e o respetivo acesso a dados no SSAS ao integrar com o **Power BI Embedded** .
+Os clientes que configuram a segurança ao nível da linha (RLS) através de uma origem de dados dinâmica no local do SQL Server Analysis Services (SSAS) podem usufruir da nova capacidade do [principal de serviço](embed-service-principal.md) para gerir os utilizadores e o respetivo acesso a dados no SSAS ao integrar com o **Power BI Embedded**.
 
 Utilizar as [APIs REST Power BI](/rest/api/power-bi/) permite-lhe especificar a identidade efetiva das ligações dinâmicas no local do SSAS para um token de incorporação através de um [objeto de principal de serviço](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object).
 

@@ -2,18 +2,18 @@
 title: Novidades em aplicações móveis para o Power BI
 description: Novidades em aplicações móveis para o Power BI
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/01/2020
-ms.author: painbar
-ms.openlocfilehash: 83a280b94a6db937133e0d7ab1e6d7ad64af06f4
-ms.sourcegitcommit: 29cafa1602efb56cfa8dbd0010dd04ad3fcdd02c
+ms.date: 12/01/2020
+ms.openlocfilehash: 81a387d2f87e857cb56dcbc1fb22c8da72bbd27e
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "93355940"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96502093"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -25,9 +25,19 @@ Para informações sobre “Novidades” relacionadas, veja:
 >[!NOTE]
 >O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
+## <a name="december-2020"></a>Dezembro de 2020
+### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Adicionámos o modo escuro à aplicação móvel do Power BI (Android)
+
+Experimente o novo modo escuro na aplicação móvel do Power BI para dispositivos Android. No modo escuro, verá o texto claro num fundo escuro, o que reduz o brilho do ecrã e facilita a visualização do conteúdo. Pode alternar entre temas nas definições de aspeto da aplicação. [Saiba mais](mobile-apps-dark-mode.md)
+
+![Captura de ecrã a mostrar o modo escuro na aplicação móvel do Power BI para Android.](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode-android.png)
+
+### <a name="maximize-the-view-with-full-screen-mode-ipads"></a>Aumente o campo de visão com o modo de ecrã inteiro (iPads)
+Adicionámos agora um novo botão à aplicação móvel para iPads que lhe permite remover os cabeçalhos e rodapés da aplicação, para ter mais espaço para ver os conteúdos. Basta tocar no botão de ecrã inteiro ![Captura de ecrã do ícone do modo de ecrã inteiro.](media/mobile-whats-new-in-the-mobile-apps/power-bi-full-screen-icon.png) no canto superior direito do ecrã para alternar entre os modos.
+
 ## <a name="november-2020"></a>Novembro de 2020
 ### <a name="maximize-the-view-with-full-screen-mode-android-tablets"></a>Aumente o seu campo de visão com o modo de ecrã inteiro (tablets Android)
-Adicionámos um novo botão à aplicação móvel para tablets Android que lhe permite remover os cabeçalhos e rodapés da aplicação, o que lhe dá o espaço máximo para ver os seus conteúdos. Basta tocar no botão de ativar/desativar o ecrã inteiro no canto superior direito do ecrã para alternar entre modos.
+Adicionámos um novo botão à aplicação móvel para tablets Android que lhe permite remover os cabeçalhos e rodapés da aplicação, o que lhe dá o espaço máximo para ver os seus conteúdos. Basta tocar no botão de ecrã inteiro ![Captura de ecrã do ícone do modo de ecrã inteiro.](media/mobile-whats-new-in-the-mobile-apps/power-bi-full-screen-icon.png) no canto superior direito do ecrã para alternar entre os modos.
 
 ## <a name="october-2020"></a>Outubro de 2020
 ### <a name="automatic-page-refresh-is-now-supported-windows"></a>A atualização automática de páginas é agora suportada (Windows)

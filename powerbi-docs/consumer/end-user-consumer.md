@@ -2,19 +2,19 @@
 title: O que é um “utilizador empresarial” do Power BI?
 description: Descrição geral do Power BI para utilizadores empresariais (também conhecidos como utilizadores finais).
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: overview
 ms.date: 10/11/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7616d84ca93c336e606b3a96e7a362a1b57e6a96
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 133ffefd32008a138c736094dadcfe154211e98c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982073"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391237"
 ---
 # <a name="the-power-bi-service-for-business-users"></a>O serviço Power BI para utilizadores empresariais
 
@@ -28,7 +28,7 @@ Estes enviam-lhe todos os tipos de relatórios, folhas de cálculo, e-mails com 
 
 ## <a name="the-power-bi-service-for-business-users"></a>O serviço Power BI para *utilizadores empresariais*
 
-O Power BI faz com que o seu trabalho seja mais fácil e tenha maior impacto ao mesmo tempo. Todos esses dados são transformados em gráficos que lhe permitem visualizá-los de forma mais clara. Em vez de ter listas ou tabelas longas de números e palavras, as informações dos seus dados são apresentadas de uma forma ***apelativa*** , através de cores e elementos visuais cativantes que contam histórias sobre as mesmas. 
+O Power BI faz com que o seu trabalho seja mais fácil e tenha maior impacto ao mesmo tempo. Todos esses dados são transformados em gráficos que lhe permitem visualizá-los de forma mais clara. Em vez de ter longas listas ou tabelas de números e palavras, as informações dos dados são apresentadas de uma forma ***apelativa** _, através de cores e elementos visuais atrativos que contam histórias sobre as mesmas. 
 
 ![Captura de ecrã a mostrar um relatório Power BI com diferentes tipos de gráficos.](media/end-user-consumer/power-bi-consumer-examples.png)
  
@@ -38,15 +38,15 @@ Abra o serviço Power BI num browser ou num dispositivo móvel. Você e os seus 
 
 Uma vez que os conteúdos não são estáticos, pode aprofundar mais o assunto e procurar tendências, informações e outros dados de business intelligence. Divida e segmente os conteúdos e faça-lhes perguntas com as suas próprias palavras. Em alternativa, descontraia e deixe que os seus dados descubram informações interessantes por si ao receber alertas quando ocorrerem alterações aos dados e relatórios por e-mail com base na agenda que definir. Todos os seus dados em qualquer altura, na cloud ou no local, a partir de qualquer dispositivo. Isto é só o princípio do que o Power BI pode fazer. 
 
-## <a name="am-i-a-power-bi-business-user"></a>Sou um *utilizador empresarial* do Power BI?
+## <a name="am-i-a-power-bi-_business-user"></a>Sou um _utilizador empresarial do Power BI*?
 
 A forma como interage com o Power BI irá depender da sua função. Um consumidor ou *utilizador empresarial* é a pessoa que recebe conteúdos (dashboards, relatórios e aplicações) de colegas. Um consumidor trabalha na versão online ou móvel do Power BI, denominado serviço Power BI, onde pode rever e interagir com esses conteúdos para tomar decisões empresariais. 
    
 Enquanto utilizador empresarial, não terá acesso a todas as funcionalidades do Power BI, o que não é problema, porque a sua tarefa não se baseia em criar dashboards e relatórios. Irá utilizar o Power BI para análise, monitorização, exploração e tomada de decisões. 
 
-Irá certamente deparar-se com o termo "Power BI Desktop" ou apenas "Desktop", que é uma ferramenta autónoma utilizada pelos *criadores* que criam e partilham dashboards e relatórios consigo.  É importante saber que existem outras ferramentas do Power BI. No entanto, se for um *utilizador final* , só irá trabalhar com o serviço Power BI. 
+Irá certamente deparar-se com o termo "Power BI Desktop" ou apenas "Desktop", que é uma ferramenta autónoma utilizada pelos *criadores* que criam e partilham dashboards e relatórios consigo.  É importante saber que existem outras ferramentas do Power BI. No entanto, se for um *utilizador final*, só irá trabalhar com o serviço Power BI. 
 
-E como vai trabalhar com conteúdo *partilhado* , vai precisar de uma das seguintes:
+E como vai trabalhar com conteúdo *partilhado*, vai precisar de uma das seguintes:
 - uma licença do Power BI Pro
 - que a organização tenha uma subscrição do Power BI Premium e que o conteúdo seja partilhado consigo a partir da capacidade Premium. 
 

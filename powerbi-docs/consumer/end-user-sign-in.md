@@ -2,20 +2,20 @@
 title: Iniciar e terminar sessão
 description: Saiba como pode iniciar e terminar sessão no serviço Power BI na Web.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 Ms.custom: css_fy20Q4
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/06/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bea5b36c98ab8a62b444bfc731b5d54df6550f0f
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: 18fe7dc1c2d1b064d28e32782dc58fcbcf92341d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780391"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389627"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Iniciar sessão no serviço Power BI
 
@@ -68,7 +68,7 @@ Na Home Page, verá todos os conteúdos que tiver permissão para utilizar. Inic
 Se não quiser que o Power BI abra a Home Page, poderá [definir um dashboard ou relatório **Em Destaque**](end-user-featured.md) como alternativa. 
 
 ## <a name="safely-interact-with-content"></a>Interagir com conteúdos de forma segura
-Como ***utilizador empresarial***, pode interagir com os conteúdos que forem partilhados consigo por outras pessoas para explorar os dados e tomar decisões empresariais.  Não tem de se preocupar ao filtrar, segmentar, subscrever, exportar e redimensionar conteúdos, dado que o seu trabalho não afeta o conjunto de dados subjacente ou os conteúdos partilhados originalmente (dashboards e relatórios). O Power BI é um espaço protegido que lhe permite explorar e experimentar. Isso não significa que não possa guardar as suas alterações, pois pode faz\ê-lo. Contudo, essas alterações afetam apenas a **sua** vista dos conteúdos. Além disso, pode reverter facilmente para a vista predefinida com um simples clique no botão.
+Como **_utilizador empresarial_ *_, pode interagir com os conteúdos que forem partilhados consigo por outras pessoas para explorar os dados e tomar decisões empresariais.  Não tem de se preocupar ao filtrar, segmentar, subscrever, exportar e redimensionar conteúdos, dado que o seu trabalho não afeta o conjunto de dados subjacente ou os conteúdos partilhados originalmente (dashboards e relatórios). O Power BI é um espaço protegido que lhe permite explorar e experimentar. Isso não significa que não possa guardar as suas alterações, pois pode faz\ê-lo. Contudo, essas alterações afetam apenas a _* sua** vista dos conteúdos. Além disso, pode reverter facilmente para a vista predefinida com um simples clique no botão.
 
 ![botão Reverter para predefinição](media/end-user-sign-in/power-bi-reset.png)
 

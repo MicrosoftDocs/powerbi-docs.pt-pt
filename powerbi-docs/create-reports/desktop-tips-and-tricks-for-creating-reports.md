@@ -2,19 +2,19 @@
 title: Sugestões e truques para criar relatórios no Power BI
 description: Aprenda as melhores práticas para a criação de relatórios no serviço Power BI e no Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/07/2020
-ms.author: davidi
-ms.openlocfilehash: 336dbad3ac77fb333b52cd3f4c4c0b104573314a
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 2684d5e29015e5fccd6eb75f0a4acf5f45542991
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633544"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412696"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugestões e truques para criar relatórios no Power BI Desktop
 Para aproveitar ao máximo os seus dados, por vezes precisa de uma ajuda extra. Reunimos algumas dicas e truques que pode usar ao criar relatórios no Microsoft Power BI Desktop *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento do Power Pivot ativado e o Power Query instalado e ativado. 
@@ -205,8 +205,8 @@ Evite várias visualizações.  As visualizações devem ter uma visão geral e 
 * Certifique-se de que codifica corretamente os dados quantitativos. Não exceda três ou quatro dígitos quando apresentar números. Apresente medidas com um ou dois números à esquerda da vírgula decimal e escala de milhares ou milhões, ou seja 3,4 milhões e não 3.400.000.    
 * Tente evitar a mistura de níveis de precisão e tempo. Certifique-se de que os períodos de tempo são bem compreendidos.  Não é necessário um gráfico com o mês passado ao lado de gráficos filtrados de um determinado mês do ano.    
 * Tente também evitar misturar medidas grandes e pequenas na mesma escala, como num gráfico de linhas ou de barras.  Por exemplo, uma medida pode estar em milhões e outras medidas em milhares.  Com uma escala grande, seria difícil ver as diferenças da medida que está em milhares.  Se precisar de misturar, escolha uma visualização, como um gráfico de combinação, que permita a utilização de um segundo eixo.    
-* Evite sobrecarregar os gráficos com etiquetas de dados desnecessárias. Os valores em gráficos de barras, ***se forem suficientemente grandes***, são normalmente bem compreendidos sem apresentar o número real.   
-* Preste atenção a como [os gráficos são ordenados](../consumer/end-user-change-sort.md). Se quiser chamar a atenção para o número mais alto ou mais baixo, ordene pela medida. Se quiser que as pessoas localizem rapidamente uma categoria específica de entre muitas outras categorias, ordene pelo eixo.  
+* Evite sobrecarregar os gráficos com etiquetas de dados desnecessárias. Os valores nos gráficos de barras, ***se forem suficientemente grandes** _, são normalmente bem compreendidos sem apresentar o número real.   
+_ Preste atenção à forma como os [gráficos são ordenados](../consumer/end-user-change-sort.md). Se quiser chamar a atenção para o número mais alto ou mais baixo, ordene pela medida. Se quiser que as pessoas localizem rapidamente uma categoria específica de entre muitas outras categorias, ordene pelo eixo.  
 * Os gráficos circulares são recomendados se tiverem menos de oito categorias. Uma vez que não pode comparar valores lado a lado, é mais difícil comparar valores num gráfico circular do que em gráficos de barras e colunas. Os gráficos circulares pode ser bons para ver relações de parte a um todo em vez de comparar as partes. Os gráficos de medidor são ótimos para apresentar o estado atual no contexto de um objetivo.    
 
 Para obter instruções específicas de visualização, consulte [Tipos de visualização no Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  

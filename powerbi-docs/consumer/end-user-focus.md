@@ -2,20 +2,20 @@
 title: Modo de detalhe e modo de ecrã inteiro – como ampliar para ver mais detalhes
 description: Documentação para apresentar um dashboard, um mosaico do dashboard, um relatório ou um elemento visual de relatório do Power BI no modo de detalhe ou no modo de ecrã inteiro
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/09/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7ab2500a393751c3013c1f3427173b57b3b5cf07
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 6385d263c47bde156a7dae941fefb101b9b30d18
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642716"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400460"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Apresentar conteúdo mais detalhadamente: modo de detalhe e modo de ecrã inteiro
 
@@ -56,11 +56,11 @@ Alguns usos do modo de ecrã inteiro:
 
 ## <a name="when-to-use-focus-mode"></a>Quando devemos utilizar o modo de detalhe?
 
-O ***Modo de detalhe*** permite-lhe expandir (destacar) um elemento visual ou um mosaico para ver mais detalhes.  Talvez tenha um dashboard ou relatório que esteja algo cheio e queira ampliar apenas um elemento visual.  Esta é uma utilização perfeita do modo de detalhe.  
+O modo de ***Detalhe** _ permite-lhe expandir (destacar) um elemento visual ou mosaico para ver mais detalhes.  Talvez tenha um dashboard ou relatório que esteja algo cheio e queira ampliar apenas um elemento visual.  Esta é uma utilização perfeita do modo de detalhe.  
 
 ![modo de detalhe em mosaico de dashboard, antes e depois](media/end-user-focus/power-bi-compare-dash.png)
 
-No modo de detalhe, um *utilizador comercial* do Power BI pode interagir com quaisquer filtros que tenham sido aplicados quando o elemento visual foi criado.  No serviço Power BI, pode utilizar o modo de detalhe num mosaico do dashboard ou num elemento visual do relatório.
+No modo de detalhe, os _utilizadores empresariais* do Power BI podem interagir com todos os filtros que tenham sido aplicados quando o elemento visual foi criado.  No serviço Power BI, pode utilizar o modo de detalhe num mosaico do dashboard ou num elemento visual do relatório.
 
 ## <a name="working-in-full-screen-mode"></a>Trabalhar no modo de ecrã inteiro
 

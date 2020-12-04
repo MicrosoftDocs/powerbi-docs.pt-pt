@@ -2,25 +2,25 @@
 title: A página exibe as definições num relatório do Power BI
 description: Definições de apresentação de página e definições de vista de página num relatório
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/29/2019
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c08d4959b8e3958651282ac0fd52e6ed80a6b345
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9452a4a6340480bcb6c8b646c16125fe73f68235
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237258"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393491"
 ---
 # <a name="apply-page-display-settings-in-a-power-bi-report"></a>Aplicar definições de apresentação de página num relatório do Power BI
 Compreendemos que é essencial manter o esquema do seu relatório perfeito. Por vezes, isso representa um desafio, uma vez que você e os seus colegas poderão ver esses relatórios em ecrãs de diferentes proporções e tamanhos. 
 
-O modo de exibição padrão é **Ajustar à página** e o tamanho de exibição padrão é **16:9**. Se quiser bloquear uma taxa de proporção diferente ou ajustar o relatório de outra forma, há duas ferramentas para o ajudar: As definições ***Vista de página*** e as definições ***Tamanho da página***.
+O modo de exibição padrão é **Ajustar à página** e o tamanho de exibição padrão é **16:9**. Se quiser bloquear uma proporção diferente ou ajustar o relatório de outra forma, existem duas ferramentas para o ajudar: as definições **_Vista de página_* _ e _*_Tamanho da página_*_.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
@@ -30,7 +30,7 @@ O modo de exibição padrão é **Ajustar à página** e o tamanho de exibição
 As definições Vista de página estão disponíveis no serviço Power BI e no Power BI Desktop, mas a interface é ligeiramente diferente. As seguintes secções explicam onde pode encontrar as definições de vista em cada ferramenta do Power BI.
 
 ### <a name="in-power-bi-desktop"></a>No Power BI Desktop
-Na Vista de relatório, selecione o separador **Vista** para abrir as definições Vista de página, bem como as definições de esquema do telefone.
+Na Vista de relatório, selecione o separador _ *Vista** para abrir as definições Vista de página, bem como as definições de esquema de telemóvel.
 
   ![Definições Vista de página do Power BI Desktop](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
 

@@ -2,25 +2,25 @@
 title: Trabalhar com visualizações (elementos visuais) como um utilizador empresarial
 description: Conceitos e terminologia do Power BI – visualizações, elementos visuais. O que é uma visualização, um elemento visual do Power BI.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/7/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f463e9a065ddfa550cdab6929393cfb71ce30158
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: dfa030b487e1e4d9f6f4d1bfd39cfab8baa72c71
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830286"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389190"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Interagir com elementos visuais em relatórios, dashboards e aplicações
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-De forma muito simplificada, uma ***visualização*** (ou *elemento visual* ) é um tipo de gráfico criado pelos *estruturadores* do Power BI que utilizam os dados dos relatórios e dos conjuntos de dados. 
+De forma muito simplificada, uma ***visualização** _ (ou _elemento visual*) é um tipo de gráfico criado pelos *estruturadores* do Power BI com os dados dos relatórios e dos conjuntos de dados. 
 
 Os elementos visuais podem ser encontrados em dashboards e relatórios, podendo ainda ser criados imediatamente através das Perguntas e Respostas do Power BI. Quando um designer cria um elemento visual num relatório, pode *afixá-lo* num dashboard. Um [elemento visual num dashboard chama-se um *mosaico*](end-user-tiles.md). Este dashboard tem oito mosaicos. 
 
@@ -31,7 +31,7 @@ Os elementos visuais podem ser encontrados em dashboards e relatórios, podendo 
 
 ## <a name="what-can-i-do-with-visuals"></a>O que posso fazer com os elementos visuais?
 
-Os elementos visuais são criados por *estruturadores* de relatórios e dashboards e são partilhados com os colegas. O estruturador atribui permissões diferentes aos respetivos colegas, consoante a forma como o colega vai utilizar o relatório ou o dashboard. Por exemplo, um *programador* pode receber permissões diferentes de um *utilizador comercial* . 
+Os elementos visuais são criados por *estruturadores* de relatórios e dashboards e são partilhados com os colegas. O estruturador atribui permissões diferentes aos respetivos colegas, consoante a forma como o colega vai utilizar o relatório ou o dashboard. Por exemplo, um *programador* pode receber permissões diferentes de um *utilizador comercial*. 
 
 As tarefas mais comuns para um *utilizador empresarial* estão listadas na tabela abaixo, com ligações para instruções passo a passo. Os *utilizadores empresariais* têm muitas opções para interagir com os elementos visuais para revelar informações e tomar decisões condicionadas por dados empresariais.  
 
@@ -52,7 +52,7 @@ Para muitas destas opções, o seu administrador ou o *designer* pode desativar 
 |[Ver uma lista dos filtros e segmentações de dados que afetam o elemento visual](end-user-report-filter.md).     |    se abrir no modo de detalhe     |   sim      |  não |
 |[Abrir e explorar um elemento visual nas Perguntas e Respostas (se o *designer* tiver utilizado as Perguntas e Respostas para criar o elemento visual)](end-user-q-and-a.md).     |   sim      |   na      |  na  |
 |[Criar um elemento visual nas Perguntas e Respostas (não poderá guardá-lo para fins de exploração)](end-user-q-and-a.md).     |   sim      |   se o designer tiver adicionado as Perguntas e Respostas ao relatório      |  sim  |
-|[Pedir ao Power BI para procurar factos interessantes ou tendências](end-user-insights.md) nos dados do elemento visual.  Estes elementos visuais gerados automaticamente chamam-se *informações* .     |    sim, para os mosaicos    |  não       | não   |
+|[Pedir ao Power BI para procurar factos interessantes ou tendências](end-user-insights.md) nos dados do elemento visual.  Estes elementos visuais gerados automaticamente chamam-se *informações*.     |    sim, para os mosaicos    |  não       | não   |
 |[Ver apenas um elemento visual de cada vez, através do *modo* de detalhe](end-user-focus.md).     | sim, para os mosaicos        |   sim, para os elementos visuais      | na  |
 |[Ver quando é que o elemento visual foi atualizado pela última vez](end-user-fresh.md).     |  sim       |    sim     | na  |
 |[Ver apenas um elemento visual de cada vez, sem limites nem painéis de navegação, através do modo de *ecrã inteiro*](end-user-focus.md).     |   sim      |  sim       | por predefinição  |
