@@ -96,8 +96,6 @@
               href: /rest/api/power-bi/
         - name: Bibliotecas do Power BI
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-        - name: Incorporar esquemas personalizados numa aplicação
-          href: embedded-custom-layout.md
         - name: CLI do Azure
           href: /cli/azure/ext/powerbidedicated/powerbi
     - name: Recursos
