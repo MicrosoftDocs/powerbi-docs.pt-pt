@@ -8,20 +8,19 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/28/2020
+ms.date: 12/03/2020
 LocalizationGroup: Consumers
-ms.openlocfilehash: 13d8eda142896b406269f940823e702b2ca7cb3e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: d8b9f11abe639d2892bc199a9f65400e5488dedc
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391030"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578129"
 ---
 # <a name="export-data-from-a-visual"></a>Exportar dados de um visual
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Para ver os dados que são utilizados para criar um elemento visual, [poderá apresentar os dados no Power BI](end-user-show-data.md) ou exportá-los para o Excel. A opção para exportar os dados requer um certo tipo de licença ou permissões de edição para o conteúdo. Se não conseguir exportar, contacte o administrador do Power BI ou o suporte técnico de TI. 
 
@@ -33,7 +32,7 @@ A exportação de dados requer uma licença do Power BI Pro ou que o dashboard
 1. Comece num dashboard do Power BI. Aqui, estamos a utilizar o dashboard da aplicação de ***exemplo Marketing e vendas** _. Pode [transferir esta aplicação em AppSource.com](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
 ).
 
-    ![Dashboard da aplicação](media/end-user-export/power-bi-dashboards.png)
+    ![Dashboard da aplicação](media/end-user-export/power-bi-dashboard.png)
 
 2. Paire o cursor sobre um elemento visual para ver _ *Mais opções** (...) e clique para apresentar o menu de ação.
 

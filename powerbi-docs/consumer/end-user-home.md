@@ -7,14 +7,14 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 11/13/2020
+ms.date: 12/03/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c2be9c2c266c489dbb93f5e3f93c3c120cae5c3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9df90a41143ddb6d0657aa0d61dc83f25ecbae1a
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96390616"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578076"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Localizar os seus dashboards, relatórios e aplicações
 
@@ -42,13 +42,13 @@ Os seguintes tópicos analisam cada uma destas opções para localizar e visuali
 ## <a name="home-canvas"></a>Tela Home Page
 Na tela Home Page, pode ver todos os conteúdos que tem permissão para utilizar. A sua tela Home Page também é atualizada com conteúdos recomendados e recursos de aprendizagem. Inicialmente, poderá não ter muitos conteúdos na sua tela Base, mas isso irá mudar quando começar a utilizar o Power BI com os seus colegas.
 
-![Captura de ecrã a mostrar o Ecrã de boas-vindas a um novo utilizador do serviço Power BI.](media/end-user-home/power-bi-home-new-user.png)
+![Captura de ecrã a mostrar o Ecrã de boas-vindas a um novo utilizador do serviço Power BI.](media/end-user-home/power-bi-home-new-users.png)
 
 
  
 À medida que trabalha no serviço Power BI, receberá dashboards, relatórios e aplicações de colegas e, nessa altura, a Home Page do Power BI acabará por ficar preenchida. Ao longo do tempo, poderá assemelhar-se à seguinte.
 
-![Uma captura de ecrã do Ecrã de boas-vindas do serviço Power BI.](media/end-user-home/power-bi-experienced-user.png)
+![Uma captura de ecrã do Ecrã de boas-vindas do serviço Power BI.](media/end-user-home/power-bi-experienced-users.png)
 
  
 Os tópicos seguintes analisam melhor a Base do ponto de vista de um utilizador experiente.

@@ -7,20 +7,20 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/09/2020
+ms.date: 12/07/2020
+ms.custom: video-G26dr2PsEpk
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 44f9d26e5f6ebe8723d5f5269bc66a38590a9b36
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3461fc3cc310e8f714cee48e7c528bda99f3e6f6
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389604"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781618"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Visualizar os dashboards e os relatórios partilhados comigo
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Quando um colega partilhar um dashboard ou um relatório consigo, este será apresentado no contentor **Partilhado comigo**. Quando um colega partilha uma aplicação consigo, a aplicação aparece no contentor **Aplicações** e os relatórios e dashboards da aplicação aparecem no contentor **Partilhado comigo**.   
 

@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 0bb2e0c249df668378d62f62184dc044d174ce81
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 0ddcf3c54a5bb3cf9259f6c0d18d0001b838df60
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95550683"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577860"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>Tutorial: Automatizar a configuração da instalação da aplicação de modelo com uma função do Azure
 
@@ -57,7 +57,7 @@ Antes de começar, deve ter:
 
 * Um [principal de serviço (token apenas de aplicação)](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal) registado no inquilino acima.
 
-* Uma [aplicação de modelo parametrizada](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview) pronta para instalação. A aplicação de modelo deve ser criada no mesmo inquilino no qual registou a aplicação no Azure Active Directory (AAD). Para obter mais informações, veja [sugestões da aplicação modelo](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md) ou [Criar uma aplicação de modelo no Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create).
+* Uma [aplicação de modelo parametrizada](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview) pronta para instalação. A aplicação de modelo deve ser criada no mesmo inquilino no qual registou a aplicação no Azure Active Directory (AAD). Para obter mais informações, veja [sugestões da aplicação modelo](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips) ou [Criar uma aplicação de modelo no Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create).
 
 * Uma **licença do Power BI Pro**. Se não estiver inscrito no Power BI Pro, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/25/2020
 ms.custom: seodec18
-ms.openlocfilehash: 433b3d53ccb653e1a945a83176ab9ebc19ccac5d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1495400a59d8250f407a5f7415a550871501e4e3
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409246"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577515"
 ---
 # <a name="add-power-bi-urls-to-your-allow-list"></a>Adicionar URLs do Power BI à lista de permissões
 [//]: # "suparnap, miwehnia e natham são contactos para manter esta lista"
@@ -76,7 +76,7 @@ Para obter dados de origens de dados específicas, como o OneDrive, tem de conse
 | 2 | **Opcional:** Iniciar sessão e obter dados de pacotes de conteúdos | Depende dos pacotes de conteúdos utilizados | Depende dos pacotes de conteúdos utilizados |
 | 3 | **Opcional:** Importar ficheiros do OneDrive pessoal | Veja o site [Required URLs and ports for OneDrive](/onedrive/required-urls-and-ports) (URLs e portas obrigatórios para o OneDrive) | N/D |
 | 4 | **Opcional:** Tutorial em vídeo Power BI in 60-Seconds (O Power BI em 60 Segundos) | *.doubleclick.net <br> *.ggpht.com <br> *.google.com <br> *.googlevideo.com <br> *.youtube.com <br> *.ytimg.com <br> fonts.gstatic.com | TCP 443 |
-| 5 | **Opcional:** Origens de dados de transmissão em fluxo do PubNub | Veja a [documentação do PubNub](https://support.pubnub.com/support/solutions/articles/14000043522) | N/D |
+| 5 | **Opcional:** Origens de dados de transmissão em fluxo do PubNub | Veja a [documentação do PubNub](https://support.pubnub.com/hc/en-us/categories/360004336832-PubNub-101) | N/D |
 | | | |
 
 ## <a name="dashboard-and-report-integration"></a>Integração de dashboards e relatórios

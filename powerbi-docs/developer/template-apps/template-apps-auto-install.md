@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: ca5db6ed7a07d5a6fb10133285378e8318527464
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 671fcbabf10666c03f39bc4582e00fa0adbdbd5e
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386098"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578366"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>Configuração automatizada da instalação de uma aplicação de modelo
 
@@ -55,7 +55,7 @@ Para disponibilizar uma experiência de instalação pré-configurada para a apl
 
 * Um **principal de serviço (token apenas de aplicação)** registado no inquilino acima. Veja [Incorporar conteúdos do Power BI com o principal de serviço e um segredo da aplicação](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal), para obter mais detalhes. Confirme que regista a aplicação como uma **aplicação Web do lado do servidor**. Registe uma aplicação Web do lado do servidor para criar um segredo da aplicação. Neste processo, vai precisar de guardar o *ID da Aplicação* (ID do Cliente) e o *Segredo da Aplicação* (Segredo do Cliente) para os passos posteriores.
 
-* Uma **aplicação de modelo parametrizada** pronta para instalação. A aplicação de modelo deve ser criada no mesmo inquilino no qual registou a aplicação no Azure Active Directory (AAD). Para obter mais informações, veja [sugestões da aplicação modelo](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md) ou [Criar uma aplicação de modelo no Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create). Na aplicação de modelo, deve anotar as seguintes informações para os próximos passos:
+* Uma **aplicação de modelo parametrizada** pronta para instalação. A aplicação de modelo deve ser criada no mesmo inquilino no qual registou a aplicação no Azure Active Directory (AAD). Para obter mais informações, veja [sugestões da aplicação modelo](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips) ou [Criar uma aplicação de modelo no Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create). Na aplicação de modelo, deve anotar as seguintes informações para os próximos passos:
      * *ID da Aplicação*, *Chave do Pacote* e *ID do Proprietário* como aparecem no URL de instalação no final do processo de [Definir as propriedades da aplicação de modelo](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) quando a aplicação foi criada. Também pode obter a mesma ligação ao clicar em **Obter ligação** na [Gestão de Versão](../../connect-data/service-template-apps-create.md#manage-the-template-app-release) da aplicação de modelo.
 
     * *Nomes dos Parâmetros* como definidos no conjunto de dados da aplicação de modelo. Os nomes dos parâmetros são cadeias de carateres sensíveis às maiúsculas e minúsculas e também podem ser obtidos no separador **Definições dos Parâmetros** quando [Definir as propriedades da aplicação de modelo](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) ou nas definições dos conjuntos de dados no Power BI.

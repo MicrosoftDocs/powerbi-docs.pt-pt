@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 12/03/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: c650b7ea282d928af512ce7948902bc4fd72613f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3a1fa1e137cc66fad48102d60869ee8ecd0cba61
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389972"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613860"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Optar ativamente por participar na pré-visualização de funcionalidades do serviço Power BI
 
@@ -24,11 +24,7 @@ ms.locfileid: "96389972"
 ## <a name="what-are-preview-features"></a>O que são *funcionalidades de pré-visualização*?
 À medida que melhoramos o serviço Power BI, vamos lançar algumas novas funcionalidades como *funcionalidades de pré-visualização*. As funcionalidades de pré-visualização podem ser ativadas e desativadas, dando-lhe a oportunidade de experimentá-las.
 
-Algumas funcionalidades de pré-visualização podem ser ativadas e desativadas do dashboard, do separador Home Page ou do próprio relatório do Power BI. A funcionalidade de pré-visualização **Nova aparência** pode ser ativada e desativado na barra de menus do Power BI, apresentada acima de Home Page, dos relatórios e dos dashboards. 
-
-   ![Botão de alternar Novo Aspeto](./media/end-user-preview-features/power-bi-toggle.png)
-
-Estão também disponíveis outras funcionalidade de pré-visualização no menu *Definições*. Este artigo mostra como aceder às funcionalidades de pré-visualização através do menu Definições.
+Algumas funcionalidades de pré-visualização podem ser ativadas e desativadas do dashboard, do separador Home Page ou do próprio relatório do Power BI. Estão também disponíveis outras funcionalidade de pré-visualização no menu *Definições*. Este artigo mostra como aceder às funcionalidades de pré-visualização através do menu Definições.
 
 ## <a name="find-previews-and-turn-them-on-and-off"></a>Encontre pré-visualizações e ative-as (ou desative-as)
 1. Abra o menu de Definições ao selecionar o ícone de engrenagem no canto superior direito do ecrã do Power BI e selecione **Definições**.

@@ -9,12 +9,12 @@ ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/12/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2487c8215d4c1f2c3bc905457d6b5d08c5955c0c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a5a3029a3afe3d48981338934090ad6b9719d6bb
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400138"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613440"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipos de informações suportados pelo Power BI
 
@@ -24,7 +24,7 @@ Pode pedir ao Power BI que analise os seus dados e encontre tendências e padrõ
 
 Para saber como utilizar as Informações, veja [Informações do Power BI](end-user-insights.md)
 
-![um conjunto de informações](media/end-user-insight-types/power-bi-insight.png)
+![um conjunto de informações](media/end-user-insight-types/power-bi-insight-line.png)
 
 ## <a name="how-does-insights-work"></a>Como funcionam as Informações?
 O Power BI procura rapidamente vários subconjuntos do seu conjunto de dados. À medida que procura, o Power BI aplica um conjunto de algoritmos sofisticados para obter informações potencialmente interessantes. Os *utilizadores comerciais* do Power BI podem executar Informações nos mosaicos do dashboard.

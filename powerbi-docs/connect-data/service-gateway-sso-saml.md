@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 10/22/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1879dbd53f08b3dff7dac2f4050be078ed44ead8
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 0f971013d5f57174a26d92281cafe673f1487329
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92502086"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577561"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Utilizar o formato SAML (Security Assertion Markup Language) para SSO do Power BI em origens de dados no local
 
@@ -22,7 +22,7 @@ Ativar o SSO facilita a atualização de dados de origens no local em relatório
 
 ## <a name="supported-data-sources"></a>Supported data sources (Origens de dados suportadas)
 
-Atualmente, suportamos a plataforma SAP HANA com SAML. Para obter mais informações sobre como configurar o início de sessão único na plataforma SAP HANA com SAML, veja [SAML SSO for BI Platform to HANA](https://wiki.scn.sap.com/wiki/display/SAPHANA/SAML+SSO+for+BI+Platform+to+HANA) (SSO do SAML entre a Plataforma de BI e HANA).
+Atualmente, suportamos a plataforma SAP HANA com SAML. Para obter mais informações sobre como configurar o início de sessão único na plataforma SAP HANA com SAML, veja [SAML SSO for BI Platform to HANA](https://blogs.sap.com/2020/03/22/sap-bi-platform-saml-sso-to-hana-database/) (SSO do SAML entre a Plataforma de BI e HANA).
 
 Suportamos origens de dados adicionais com o [Kerberos](service-gateway-sso-kerberos.md) (incluindo SAP HANA).
 
@@ -65,13 +65,13 @@ Siga os seguintes passos para criar os certificados:
     openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
     ```
     Os ficheiros *CA_Cert.srl* e *IdP_Cert.pem* serão criados.
-    Estamos preocupados apenas com o *IdP_Cert.pem* .    
+    Estamos preocupados apenas com o *IdP_Cert.pem*.    
 
 ### <a name="create-saml-identity-provider-certificate-mapping"></a>Criar o mapeamento de certificados do fornecedor de identidade SAML
 
 Crie o mapeamento de certificados do fornecedor de identidade SAML ao seguir os seguintes passos.
 
-1. No **SAP HANA Studio** , clique com o botão direito do rato no nome do servidor SAP HANA e, em seguida, navegue para **Security > Open Security Console > SAML Identity Provider** (Segurança > Abrir Consola de Segurança > Fornecedor de Identidade SAML).
+1. No **SAP HANA Studio**, clique com o botão direito do rato no nome do servidor SAP HANA e, em seguida, navegue para **Security > Open Security Console > SAML Identity Provider** (Segurança > Abrir Consola de Segurança > Fornecedor de Identidade SAML).
 2. Se a Biblioteca Criptográfica SAP não estiver selecionada, selecione-a. *Não* utilize a Biblioteca Criptográfica OpenSSL (a seleção à esquerda, na seguinte imagem), pois foi descontinuada pelo SAP.
 
     ![Selecionar a Biblioteca Criptográfica SAP](media/service-gateway-sso-saml/service-gateway-sso-saml-01.png)
@@ -80,13 +80,13 @@ Crie o mapeamento de certificados do fornecedor de identidade SAML ao seguir os 
 
     ![Selecionar o botão para importar azul](media/service-gateway-sso-saml/service-gateway-sso-saml-02.png)
 
-Lembre-se de atribuir um nome ao *Nome do Fornecedor de Identidade* .
+Lembre-se de atribuir um nome ao *Nome do Fornecedor de Identidade*.
 
 ### <a name="import-and-create-the-signed-certificates-in-hana"></a>Importar e criar os certificados assinados no HANA
 
 Em seguida, irá importar e criar os certificados assinados no HANA. Siga estes passos:
 
-1. No **HANA Studio** , execute a consulta seguinte:
+1. No **HANA Studio**, execute a consulta seguinte:
 
     ```
     CREATE CERTIFICATE FROM '<idp_cert_pem_certificate_content>'
@@ -102,7 +102,7 @@ Em seguida, irá importar e criar os certificados assinados no HANA. Siga estes 
     '
     ```
 
-2. Se não existir um PSE com SAML, crie um ao executar a seguinte consulta no **HANA Studio** :
+2. Se não existir um PSE com SAML, crie um ao executar a seguinte consulta no **HANA Studio**:
     
     ```
     CREATE PSE SAMLCOLLECTION;<br>set pse SAMLCOLLECTION purpose SAML;<br>
@@ -133,7 +133,7 @@ Em seguida, irá importar e criar os certificados assinados no HANA. Siga estes 
 
 Siga estes passos para mapear o utilizador:
 
-1. No **SAP HANA Studio** , selecione a pasta **Security** (Segurança):
+1. No **SAP HANA Studio**, selecione a pasta **Security** (Segurança):
 
     ![Selecionar a pasta Security (Segurança)](media/service-gateway-sso-saml/service-gateway-sso-saml-03.png)
 
@@ -147,7 +147,7 @@ Siga estes passos para mapear o utilizador:
 
     ![Janela Configurar identidades SAML](media/service-gateway-sso-saml/service-gateway-sso-saml-05.png)
 
-    Se tiver configurado o gateway para utilizar a opção de configuração *ADUserNameReplacementProperty* , introduza o valor que irá substituir o UPN original do utilizador do Power BI. Por exemplo, se definir *ADUserNameReplacementProperty* como *SAMAccountName* , introduza o atributo *SAMAccountName* do utilizador.
+    Se tiver configurado o gateway para utilizar a opção de configuração *ADUserNameReplacementProperty*, introduza o valor que irá substituir o UPN original do utilizador do Power BI. Por exemplo, se definir *ADUserNameReplacementProperty* como *SAMAccountName*, introduza o atributo *SAMAccountName* do utilizador.
 
 ### <a name="configure-the-gateway"></a>Configurar o gateway
 
@@ -161,13 +161,13 @@ Agora que configurou o certificado e a identidade do gateway, converta o certifi
 
 2. Copie o ficheiro pfx para a máquina do gateway:
 
-    1. Faça duplo clique no *samltest.pfx* e, em seguida, selecione **Computador Local** > **Seguinte** .
+    1. Faça duplo clique no *samltest.pfx* e, em seguida, selecione **Computador Local** > **Seguinte**.
 
     2. Introduza a palavra-passe e, em seguida, selecione **Next** (Seguinte).
 
-    3. Selecione **Colocar todos os certificados no seguinte arquivo** e, em seguida, selecione **Procurar** > **Pessoal** > **OK** .
+    3. Selecione **Colocar todos os certificados no seguinte arquivo** e, em seguida, selecione **Procurar** > **Pessoal** > **OK**.
 
-    4. Selecione **Seguinte** e, em seguida, **Concluir** .
+    4. Selecione **Seguinte** e, em seguida, **Concluir**.
 
        ![Importar o certificado](media/service-gateway-sso-saml/service-gateway-sso-saml-06.png)
 
@@ -177,21 +177,21 @@ Agora que configurou o certificado e a identidade do gateway, converta o certifi
 
         ![Executar a MMC](media/service-gateway-sso-saml/run-mmc.png)
 
-    2. Em **Ficheiro** , selecione **Adicionar/Remover Snap-in** .
+    2. Em **Ficheiro**, selecione **Adicionar/Remover Snap-in**.
 
         ![Adicionar snap-in](media/service-gateway-sso-saml/add-snap-in.png)
 
-    3. Selecione **Certificados** > **Adicionar** e, em seguida, selecione **Conta do computador** > **Seguinte** .
+    3. Selecione **Certificados** > **Adicionar** e, em seguida, selecione **Conta do computador** > **Seguinte**.
 
-    4. Selecione **Computador Local** > **Concluir** > **OK** .
+    4. Selecione **Computador Local** > **Concluir** > **OK**.
 
     5. Expanda a secção **Certificados** > **Certificados** > **Pessoal** e procure o certificado.
 
-    6. Clique com o botão direito do rato no certificado e navegue até **Todas as Tarefas** &gt; **Gerir Chaves Privadas** .
+    6. Clique com o botão direito do rato no certificado e navegue até **Todas as Tarefas** &gt; **Gerir Chaves Privadas**.
 
         ![Gerir chaves privadas](media/service-gateway-sso-saml/manage-private-keys.png)
 
-    1. Adicione a conta do serviço de gateway à lista. Por predefinição, a conta é **NT SERVICE\PBIEgwService** . Pode descobrir a conta que está a executar o serviço de Gateway ao executar **services.msc** e ao localizar o **Serviço de gateway de dados no local** .
+    1. Adicione a conta do serviço de gateway à lista. Por predefinição, a conta é **NT SERVICE\PBIEgwService**. Pode descobrir a conta que está a executar o serviço de Gateway ao executar **services.msc** e ao localizar o **Serviço de gateway de dados no local**.
 
         ![Serviço de gateway](media/service-gateway-sso-saml/gateway-service.png)
 
@@ -205,15 +205,15 @@ Por fim, siga estes passos para adicionar o thumbprint do certificado à configu
 
 2. Copie o thumbprint para o certificado que criou.
 
-3. Navegue até ao diretório do gateway que, por predefinição, é *C:\Programas\On-premises data gateway* .
+3. Navegue até ao diretório do gateway que, por predefinição, é *C:\Programas\On-premises data gateway*.
 
-4. Abra o *PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* e localize a secção *SapHanaSAMLCertThumbprint* . Cole o thumbprint que copiou.
+4. Abra o *PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* e localize a secção *SapHanaSAMLCertThumbprint*. Cole o thumbprint que copiou.
 
 5. Reinicie o serviço de gateway.
 
 ## <a name="running-a-power-bi-report"></a>Executar um relatório do Power BI
 
-Agora, pode utilizar a página **Gerir Gateways** no Power BI para configurar a origem de dados do SAP HANA. Em **Definições Avançadas** , ative o SSO via SAML. Assim, pode publicar relatórios e conjuntos de dados vinculados a essa origem de dados.
+Agora, pode utilizar a página **Gerir Gateways** no Power BI para configurar a origem de dados do SAP HANA. Em **Definições Avançadas**, ative o SSO via SAML. Assim, pode publicar relatórios e conjuntos de dados vinculados a essa origem de dados.
 
    ![Definições avançadas](media/service-gateway-sso-saml/advanced-settings.png)
 
@@ -231,9 +231,9 @@ Os rastreios de autenticação do lado do servidor proporcionam informações de
 
 1. Reproduza o problema.
 
-1. No HANA Studio, abra a consola de administração e selecione o separador **Ficheiros de Diagnóstico** .
+1. No HANA Studio, abra a consola de administração e selecione o separador **Ficheiros de Diagnóstico**.
 
-1. Abra o rastreio do servidor de índice mais recente e procure *SAMLAuthenticator.cpp* .
+1. Abra o rastreio do servidor de índice mais recente e procure *SAMLAuthenticator.cpp*.
 
     Deve encontrar uma mensagem de erro detalhada que indica a causa raiz, por exemplo:
 
