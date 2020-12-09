@@ -6,12 +6,12 @@ ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.openlocfilehash: 01aa3579fd837b36562dbed27f557d5efdf07c20
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: de460437225dd32c0e6db673a06006a711feb413
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414835"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906758"
 ---
 # <a name="developer-learning-catalog"></a>Catálogo de aprendizagem para Programadores
 
@@ -31,7 +31,7 @@ O seguinte catálogo está organizado do conhecimento básico aos domínios espe
 | [Saiba mais sobre o Power BI Embedded em 20 minutos](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | Este webinar está a ser apresentado para dar uma introdução ao Power BI Embedded. No final deste webinar, os utilizadores deverão ser capazes de compreender o que é o Power BI Embedded, os passos seguintes para começar a utilizar o produto e onde obter ajuda/recursos. | Webinar       |                |
 | [Developing with Power BI Embedding by Ted Pattison – The April 2018 Update](https://www.youtube.com/watch?v=swnGlrRy588) (Programar com a Incorporação no Power BI por Ted Pattison – a atualização de abril de 2018)  | Neste webinar orientado para programadores, Ted Pattison discutirá melhorias recentes à plataforma de incorporação do Power BI e como podem ser aproveitadas por ISVs e programadores empresariais. | Vídeo do YouTube | 59 minutos e 49 segundos  |
 | [Power BI Incorporando Versão 2 – The Full Story](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Embedding-Version-2-The-Full-Story/td-p/229527) (Incorporação com o Power BI Versão 2 – A História Completa)    | Este webinar foi apresentado em 10 de agosto de 2017 pelo MVP Ted Pattison do Power BI da Formação de Caminho Crítico. Este webinar abrange como desenvolver com as novas funcionalidades da incorporação do Power BI disponíveis através do Power BI Premium.  | Webinar       | 1 hora, 7 minutos e 23 segundos |
-| [Tutorial: Incorporar conteúdos do Power BI numa aplicação para os seus clientes](../developer/embedded/embed-sample-for-customers.md#set-up-your-embedded-analytics-development-environment) | Com o Power BI Embedded no Azure ou a incorporação do Power BI no Office, pode incorporar relatórios, dashboards ou mosaicos numa aplicação através do esquema Dados Pertencem à Aplicação.  | Documentation |                |
+| [Tutorial: Incorporar conteúdos do Power BI numa aplicação para os seus clientes](../developer/embedded/embed-sample-for-customers.md) | Com o Power BI Embedded no Azure ou a incorporação do Power BI no Office, pode incorporar relatórios, dashboards ou mosaicos numa aplicação através do esquema Dados Pertencem à Aplicação.  | Documentation |                |
 | [Saiba mais sobre o Power BI Embedded em 20 minutos](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | Este webinar está a ser apresentado para dar uma introdução ao Power BI Embedded. No final deste webinar, os utilizadores deverão ser capazes de compreender o que é o Power BI Embedded, os passos seguintes para começar a utilizar o produto e onde obter ajuda/recursos. | Webinar       |                |
 ## <a name="dax"></a>DAX<a name="dax"></a>
 | Conteúdo | Descrição | Formatar  | Comprimento      |

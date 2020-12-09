@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: ed8f44e7dd1a7e713a9b2bd75dc33f259cb52f2a
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 377f509248dbd2368b74bb9645f001ff7c6a97c0
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916343"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907285"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Gerir multi-inquilinos com a análise incorporada do Power BI
 
@@ -104,7 +104,7 @@ O Power BI Embedded suporta a implementação multi-geo (funcionalidade de pr�
 
 ### <a name="cost"></a>Custo
 
-O [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) possui um modelo de compras baseado em recursos, como o **Power BI Premium**. Compra uma ou mais capacidades com poder de computação e memória fixos. Esta capacidade é o item de custo principal quando trabalha com o **Power BI Embedded**. Não existe nenhum limite para o número de utilizadores a utilizar a capacidade. O único limite é o desempenho da capacidade. É necessária uma [licença do Power BI Pro](../../admin/service-admin-licensing-organization.md) para cada utilizador *principal* , ou utilizadores específicos, que precisam de aceder ao portal do Power BI.
+O [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) possui um modelo de compras baseado em recursos, como o **Power BI Premium**. Compra uma ou mais capacidades com poder de computação e memória fixos. Esta capacidade é o item de custo principal quando trabalha com o **Power BI Embedded**. Não existe nenhum limite para o número de utilizadores a utilizar a capacidade. O único limite é o desempenho da capacidade. É necessária uma [licença do Power BI Pro](../../admin/service-admin-licensing-organization.md) para cada utilizador *principal*, ou utilizadores específicos, que precisam de aceder ao portal do Power BI.
 
 Recomendamos o teste e a medição da carga esperada na capacidade através da simulação de um ambiente e utilização em direto e a execução do teste de carga na capacidade. Pode medir a carga e o desempenho com várias Métricas disponíveis na capacidade do Azure ou na [aplicação de métricas da capacidade Premium](../../admin/service-admin-premium-monitor-capacity.md).
 
@@ -163,7 +163,7 @@ A multi-geo envolve a compra de capacidade nas regiões pretendidas e a atribui�
 
 ### <a name="cost"></a>Custo
 
-Os programadores de aplicações com o Power BI Embedded precisam de [comprar capacidade do Power BI Embedded para avançarem para a produção](embed-sample-for-customers.md#move-to-production).  É importante compreender o impacto do modelo de isolamento baseado na área de trabalho e os seus efeitos nas capacidades.
+Os programadores de aplicações com o Power BI Embedded precisam de [comprar capacidade do Power BI Embedded para avançarem para a produção](move-to-production.md).  É importante compreender o impacto do modelo de isolamento baseado na área de trabalho e os seus efeitos nas capacidades.
 
 O modelo de isolamento baseado na área de trabalho funciona bem com as capacidades pelos seguintes motivos:
 

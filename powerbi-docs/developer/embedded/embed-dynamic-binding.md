@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: ba63b8be32600428075b9304a5a29fef62a9d6c8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5b386800c37f80e7b33dc55bb691eed6606c04a1
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236841"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906801"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Ligar um relatório a um conjunto de dados através do enlace dinâmico 
 
@@ -33,7 +33,7 @@ O enlace dinâmico é suportado para ambos os cenários de incorporação, ou se
 |Scenario  |Propriedade de dados  |Token  |Requirements  |
 |---------|---------|---------|---------|
 |*Incorporar para a sua organização*    |Os dados pertencem ao utilizador         |Token de acesso para utilizadores do Power BI         |O utilizador cujo token do Azure AD é utilizado tem de ter permissões adequadas para todos os artefactos.         |
-|*Incorporar para os seus clientes*     |Os dados pertencem à aplicação         |Token de acesso para utilizadores não pertencentes ao Power BI         |Tem de incluir permissões para o relatório e para o conjunto de dados com enlace dinâmico. Utilize a [API para gerar um token de incorporação para múltiplos itens](embed-sample-for-customers.md#multiEmbedToken), para gerar um token de incorporação que suporte múltiplos artefactos.         |
+|*Incorporar para os seus clientes*     |Os dados pertencem à aplicação         |Token de acesso para utilizadores não pertencentes ao Power BI         |Tem de incluir permissões para o relatório e para o conjunto de dados com enlace dinâmico. Utilize a [API para gerar um token de incorporação para múltiplos itens](/rest/api/power-bi/embedtoken/generatetoken), para gerar um token de incorporação que suporte múltiplos artefactos.         |
 
 ## <a name="adjusting-the-config-object"></a>Ajustar o objeto de configuração
 Adicione `datasetBinding` ao objeto de configuração. Utilize o exemplo apresentado abaixo como referência.

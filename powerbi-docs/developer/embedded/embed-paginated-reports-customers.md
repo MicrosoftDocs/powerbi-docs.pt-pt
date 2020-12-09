@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 58d1112dfccda798a32b2a3cb95d72c37b7a16ec
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 02d73a2eb36636091ff6059fd6543bb950082c2a
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668402"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907308"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Tutorial: Incorporar relatórios paginados do Power BI numa aplicação para os clientes
 
@@ -40,7 +40,7 @@ Se não tiver uma subscrição do Azure, crie uma [conta gratuita](https://azure
 
 > [!IMPORTANT]
 > * Tem de utilizar um **principal de serviço**. O utilizador mestre não é suportado.
->* O [Premium Por Utilizador (PPU)](../../admin/service-premium-per-user-faq.md) não é suportado. Pode utilizar o PPU para experimentar a solução, mas não poderá [avançar para produção](embed-sample-for-customers.md#move-to-production).
+>* O [Premium Por Utilizador (PPU)](../../admin/service-premium-per-user-faq.md) não é suportado. Pode utilizar o PPU para experimentar a solução, mas não poderá [avançar para produção](move-to-production.md).
 > * As origens de dados que exigem o início de sessão único (SSO) não são suportadas. Para obter uma lista de conjuntos de dados suportados e os respetivos métodos de autenticação, consulte [Origens de dados suportadas para relatórios paginados do Power BI](../../paginated-reports/paginated-reports-data-sources.md). 
 > * O conjunto de dados do Power BI não é suportado como uma [origem de dados](../../connect-data/service-get-data.md).
 
@@ -184,7 +184,7 @@ Para obter o **ApplicationSecret**, siga estes passos:
 
 ### <a name="tenant"></a>Inquilino
 
-Preencha as informações do **inquilino** com o seu ID do inquilino do Azure. Pode obter estas informações no [Centro de administração do Azure Active Directory](/onedrive/find-your-office-365-tenant-id) quando tiver sessão iniciada no serviço Power BI ou através do PowerShell.
+Preencha as informações do **inquilino** com o seu ID de inquilino do Azure. Pode obter estas informações no [Centro de administração do Azure Active Directory](/onedrive/find-your-office-365-tenant-id) quando tiver sessão iniciada no serviço Power BI ou através do PowerShell.
 
 ### <a name="run-the-application"></a>Executar a aplicação
 
