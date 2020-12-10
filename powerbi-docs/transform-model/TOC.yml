@@ -51,6 +51,8 @@
           href: dataflows/dataflows-premium-features.md
         - name: Utilizar o Machine Learning e os Serviços Cognitivos com os fluxo de dados
           href: dataflows/dataflows-machine-learning-integration.md
+        - name: Melhores práticas dos fluxos de dados
+          href: ./dataflows/dataflows-best-practices.md
         - name: Limitações e considerações dos fluxo de dados
           href: dataflows/dataflows-features-limitations.md
     - name: Manuais de instruções
@@ -95,44 +97,6 @@
               href: desktop-import-and-display-kpis.md
             - name: Aplicar data/hora automáticas
               href: desktop-auto-date-time.md
-        - name: Preparação personalizada de dados
-          items:
-            - name: Create and use dataflows (Criar e utilizar fluxos de dados)
-              href: ./dataflows/dataflows-create.md
-            - name: Melhores práticas dos fluxos de dados
-              href: ./dataflows/dataflows-best-practices.md
-            - name: 'Use DirectQuery with dataflows in Power BI (preview) (Utilizar o DirectQuery com fluxos de dados no Power BI [pré-visualização])'
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: Utilizar o motor de computação melhorado com fluxos de dados
-              href: ./dataflows/dataflows-premium-features.md
-            - name: Entidades calculadas com o Power BI Premium
-              href: ./dataflows/dataflows-premium-features.md
-            - name: Ligar a origens de dados com fluxos de dados
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: Use dataflows with on-premises data sources (Utilizar fluxos de dados com origens de dados no local)
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: Ligar entidades entre fluxos de dados
-              href: ./dataflows/dataflows-premium-features.md
-            - name: Use incremental refresh with dataflows (Utilizar a atualização incremental com os fluxos de dados)
-              href: ./dataflows/dataflows-premium-features.md
-            - name: Recursos para programadores para fluxos de dados
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: Ligar a fluxos de dados no Power BI Desktop
-              href: desktop-connect-dataflows.md
-            - name: Integração dos fluxos de dados e do Azure Data Lake (Pré-visualização)
-              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
-            - name: Ligar o Azure Data Lake Storage Gen2 para armazenar fluxos de dados
-              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
-            - name: Configurar definições de fluxos de dados da área de trabalho (Pré-visualização)
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: Adicionar uma pasta de CDM ao Power BI como um fluxo de dados (Pré-visualização)
-              href: ./dataflows/dataflows-machine-learning-integration.md
-            - name: Integrar o Machine Learning no Power BI
-              href: ./dataflows/dataflows-machine-learning-integration.md
-            - name: Utilizar os Serviços Cognitivos no Power BI
-              href: ./dataflows/dataflows-machine-learning-integration.md
-            - name: Machine Learning automatizada no Power BI
-              href: ./dataflows/dataflows-machine-learning-integration.md
     - name: Referência
       items:
         - name: "Utilizar a Lista de campos no Power\_BI\_Desktop (pré-visualização)"
