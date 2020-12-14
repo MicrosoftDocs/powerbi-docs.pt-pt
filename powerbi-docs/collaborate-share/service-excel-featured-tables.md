@@ -1,22 +1,22 @@
 ---
-title: Aceder às tabelas em destaque do Power BI no Excel (pré-visualização)
-description: No Excel, pode encontrar dados de tabelas em destaque nos conjuntos de dados do Power BI na Galeria de Tipos de Dados.
+title: Aceder às tabelas em destaque do Power BI no Excel
+description: No Excel, pode encontrar dados de tabelas em destaque nos conjuntos de dados do Power BI na Galeria de Tipos de Dados da Organização.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/04/2020
+ms.date: 12/07/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 95ccc80a37ad9703c60c82ce928d35b5e301947b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b5f84f67231393dfed78bd9f90142fbd1b4f6c91
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407314"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907057"
 ---
-# <a name="access-power-bi-featured-tables-in-excel-preview"></a>Aceder às tabelas em destaque do Power BI no Excel (pré-visualização)
+# <a name="access-power-bi-featured-tables-in-excel-organization-data-types"></a>Aceder às tabelas em destaque do Power BI nos tipos de dados da organização do Excel
 
 *As tabelas em destaque* são uma forma de ligar os seus dados no Excel a dados no Power BI. Facilitam a adição de dados da empresa a folhas do Excel. No Excel, pode encontrar dados de tabelas em destaque nos conjuntos de dados do Power BI na Galeria de Tipos de Dados. Este artigo explica como.
 
@@ -41,11 +41,11 @@ Para procurar dados numa tabela em destaque no Power BI, selecione uma célula o
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-types-more.png" alt-text="Captura de ecrã a mostrar o ícone Mais na Galeria de Tipos de Dados do Excel.":::
 
-Se encontrar a tabela que procura, selecione-a. Caso contrário, selecione **Mais da organização**. O Excel irá procurar todas as tabelas em destaque a que tem acesso, à procura de uma correspondência.
+Se encontrar a tabela que procura, selecione-a. Caso contrário, selecione **Mais da organização**. O Excel mostra todas as tabelas em destaque a que tem acesso no painel.
 
 :::image type="content" source="media/service-excel-featured-tables/excel-more-your-organization.png" alt-text="Captura de ecrã da seleção de Da organização (pré-visualização).":::
  
-O Excel apresenta todas as tabelas possíveis. No painel **Seletor de Dados**, escreva na caixa **Filtrar** para reduzir as suas opções. Selecione a tabela correspondente.
+O Excel mostra todas as tabelas em destaque a que tem acesso. No painel **Seletor de Dados**, escreva na caixa **Filtrar** para reduzir as suas opções. Selecione a tabela que pretende utilizar.
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-selector-store.png" alt-text="Captura de ecrã a mostrar Dados Organizacionais do Excel, tabela de tipo de dados Fornecedores":::.
  
@@ -120,15 +120,13 @@ Também pode atualizar células individuais. Clique com o botão direito do rato
 
 ## <a name="licensing"></a>Licensing
 
-A Galeria de Tipos de Dados do Excel e as experiências ligadas para as tabelas em destaque do Power BI apenas estão disponíveis para clientes do Excel E5 e G5. 
+A Galeria de Tipos de Dados do Excel e as experiências ligadas para as tabelas em destaque do Power BI estão disponíveis para os subscritores do Excel com um plano de serviço do Power BI Pro. 
 
 ## <a name="security"></a>Segurança
 
 Vê apenas tabelas em destaque a partir dos conjuntos de dados aos quais tem permissão no Power BI. Ao atualizar os dados, deve ter permissão para aceder ao conjunto de dados no Power BI para recuperar as linhas. Precisa de [permissão de Compilação ou de Escrita no conjunto de dados](../connect-data/service-datasets-build-permissions.md) no Power BI.
  
 O Excel coloca em cache os dados devolvidos de toda a linha. Qualquer pessoa com quem partilhe o ficheiro Excel pode ver os dados de todos os campos em todas as células associadas.
-
-Se um conjunto de dados do Power BI tiver segurança ao nível da linha ou uma etiqueta de confidencialidade do Microsoft Information Protection aplicada, as tabelas em destaque desse conjunto de dados não serão incluídas na Galeria de Tipos de Dados do Excel. Esta é uma limitação da pré-visualização inicial.
 
 ## <a name="administrative-control"></a>Controlo administrativo
 
@@ -145,28 +143,25 @@ Para obter uma lista completa de eventos de registo de auditoria, veja [Controla
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-Veja a seguir as limitações da pré-visualização inicial:
+Eis as limitações atuais:
 
-- A integração está disponível nas Compilações do Excel Insiders.
-- A Galeria de Tipos de Dados do Excel inclui tabelas em destaque para utilizadores com a licença adequada no Power BI Desktop e no serviço Power BI. O suporte do serviço Power BI pode não estar disponível no lançamento da pré-visualização, mas será adicionado.
+- A integração está disponível no Excel no canal atual.
 - As tabelas em destaque nos conjuntos de dados do Power BI que utilizam as seguintes capacidades não são mostradas no Excel: 
 
-    - Conjuntos de dados de segurança ao nível da linha.
-    - Conjuntos de dados ativados do Microsoft Information Protection.
     - Conjuntos de dados do DirectQuery.
     - Conjuntos de dados com uma ligação dinâmica.
 
-- O Excel mostra apenas os dados em colunas e colunas calculadas na tabela em destaque. As seguintes opções não são disponibilizadas na pré-visualização inicial:
+- O Excel mostra apenas os dados em colunas, colunas calculadas e medidas definidas na tabela em destaque. Não é fornecido o seguinte:
+   
+    - As medidas definidas em tabelas relacionadas.
+    - As medidas implícitas calculadas a partir de relações.
 
-    - Medidas definidas na tabela de recursos.
-    - Medidas definidas em tabelas relacionadas e medidas implícitas calculadas a partir de relações.
-
-- O Excel apresenta apenas tabelas em destaque (*tipos de dados*) que são armazenadas nas novas áreas de trabalho do Power BI. As tabelas em destaque armazenadas nas áreas de trabalho clássicas, ou em A Minha Área de Trabalho, não são mostradas como tipos de dados no Excel. Pode [atualizar as áreas de trabalho clássicas para as novas áreas de trabalho](service-upgrade-workspaces.md) no Power BI.
+- O Excel apresenta apenas tabelas em destaque (*tipos de dados*) que são armazenadas nas novas áreas de trabalho do Power BI. As tabelas em destaque armazenadas nas áreas de trabalho clássicas não são mostradas como tipos de dados no Excel. Pode [atualizar as áreas de trabalho clássicas para as novas áreas de trabalho](service-upgrade-workspaces.md) no Power BI.
 
 A experiência de Tipos de Dados no Excel é semelhante a uma função de pesquisa. Obtém um valor de célula proporcionado pela folha do Excel e procura linhas correspondentes nas tabelas em destaque do Power BI. A experiência de pesquisa tem os seguintes comportamentos:
 
-- Ao utilizar o botão **Dados Organizacionais** para procurar, o Excel procura apenas em tabelas em destaque nos conjuntos de dados do Power BI.
-- A correspondência de linhas baseia-se nas colunas de texto na tabela em destaque. Utiliza a mesma indexação que a capacidade de Perguntas e Respostas do Power BI, que está otimizada para a pesquisa em inglês. A pesquisa noutros idiomas pode não produzir correspondências precisas. As colunas numéricas não são consideradas para correspondência.
+- A correspondência de linhas baseia-se nas colunas de texto na tabela em destaque. Utiliza a mesma indexação que a capacidade de Perguntas e Respostas do Power BI, que está otimizada para a pesquisa em inglês. A pesquisa noutros idiomas pode não produzir correspondências precisas. 
+- A maioria das colunas numéricas não é considerada para correspondência. Se a Etiqueta de Linha ou Coluna de Chave for numérica, é incluída para correspondência.
 - A correspondência baseia-se nas correspondências Exatas e de Prefixo dos termos de pesquisa individuais. O valor de uma célula é dividido com base nos espaços ou noutros caracteres de espaço em branco, como separadores. Em seguida, cada palavra é considerada um termo de pesquisa. Os valores de campo de texto de uma linha são comparados a cada termo de pesquisa para correspondências Exatas e de Prefixo. Será devolvida uma correspondência de Prefixo se o campo de texto da linha começar com o termo de pesquisa. Por exemplo, se uma célula tiver “Orange County”, “Orange” e “County” serão termos de pesquisa distintos. 
 
     - São devolvidas as linhas com colunas de texto cujo valor corresponde exatamente a "Orange" ou "County". 
@@ -174,10 +169,11 @@ A experiência de Tipos de Dados no Excel é semelhante a uma função de pesqui
     - Mais importante, as linhas que contêm “Orange” ou “County”, mas que não começam com esses termos, não são devolvidas.
 
 - O Power BI devolve, no máximo, 100 sugestões de linhas para cada célula.
+- Alguns símbolos não são suportados.
 - A definição ou atualização da tabela em destaque não é suportada no ponto final XMLA.
 - Pode utilizar os ficheiros do Excel com um modelo de dados para publicar tabelas em destaque. Carregue os dados no ambiente de trabalho do Power BI e, em seguida, publique a tabela em destaque.
 - Alterar o Nome da tabela, a Etiqueta da Linha ou a Coluna-Chave da tabela em destaque pode afetar os utilizadores do Excel com células associadas a linhas na tabela. 
-- O Excel mostra quando os dados foram recuperados do conjunto de dados do Power BI. Este não é necessariamente o momento em que os dados foram atualizados no Power BI ou a hora do ponto de dados mais recente num conjunto de dados. Por exemplo, digamos que um conjunto de dados no Power BI foi atualizado há uma semana, mas os dados de origem subjacentes tinham uma semana quando ocorreu a atualização. Os dados reais teriam duas semanas, mas o Excel mostraria os dados recuperados com a data/hora na qual os dados foram solicitados para o Excel.
+- O Excel mostra quando os dados foram recuperados do conjunto de dados do Power BI. Este não é necessariamente o momento em que os dados foram atualizados no Power BI ou a hora do ponto de dados mais recente num conjunto de dados. Por exemplo, digamos que um conjunto de dados no Power BI foi atualizado há uma semana, mas os dados de origem subjacentes tinham uma semana quando ocorreu a atualização. Os dados reais teriam duas semanas, mas o Excel mostraria os dados recuperados com a data/hora na qual os dados foram solicitados para o Excel. 
 
 ## <a name="next-steps"></a>Próximos passos
 

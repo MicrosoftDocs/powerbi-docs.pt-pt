@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/02/2020
+ms.date: 12/03/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 004546a941426f602bfb5cacaf938bd55cec452d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 76f45ac7aee01cb907e727bc8cb12a69bd234d72
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406785"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613883"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -198,6 +198,7 @@ A funcionalidade **Publicar na Web** é suportada para a grande maioria das orig
 - Modelos de consulta de dados de início de sessão único.
 - Informações confidenciais ou proprietárias.
 - A capacidade de autenticação automática fornecida com a opção **Incorporar** não funciona com a API de JavaScript do Power BI. Para a API de JavaScript do Power BI, utilize a abordagem [O utilizador detém os dados](../developer/embedded/embed-sample-for-your-organization.md) para incorporar.
+- Os administradores podem bloquear o acesso público à Internet, como descrito em [Ligações privadas para aceder ao Power BI](../admin/service-security-private-links.md). Nesse caso, a opção **Publicar na Web** fica inativa no seu inquilino no portal de administração do Power BI. 
 
 ## <a name="next-steps"></a>Próximos passos
 

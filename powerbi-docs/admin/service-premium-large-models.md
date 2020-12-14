@@ -1,42 +1,59 @@
 ---
-title: Modelos grandes no Power BI Premium (pré-visualização)
-description: A funcionalidade de modelos grandes permite aos conjuntos de dados no Power BI Premium expandir-se para um tamanho superior a 10 GB.
+title: Conjuntos de dados de grandes dimensões no Power BI Premium
+description: O formato de armazenamento de conjuntos de dados de grandes dimensões permite armazenar conjuntos de dados com mais de 10 GB no Power BI Premium.
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 12/04/2020
+ms.custom: references_regions
 LocalizationGroup: Premium
-ms.openlocfilehash: 0bb6f7bf46875e0af7c09d221c73ae5e4b70b2df
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1f9a34b68f465eda5b8921e48576c9bef5d17f36
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412236"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781718"
 ---
-# <a name="large-models-in-power-bi-premium-preview"></a>Modelos grandes no Power BI Premium (pré-visualização)
+# <a name="large-datasets-in-power-bi-premium"></a>Conjuntos de dados de grandes dimensões no Power BI Premium
 
-Os conjuntos de dados do Power BI podem armazenar dados numa cache dentro da memória altamente comprimida, para um desempenho de consultas otimizado para permitir uma rápida interatividade do utilizador em grandes conjuntos de dados. A funcionalidade de modelos grandes permite aos conjuntos de dados no Power BI Premium expandir-se para um tamanho superior a 10 GB. O tamanho do conjunto de dados é limitado pelo tamanho da capacidade do Power BI Premium, que é semelhante ao funcionamento do Azure Analysis Services em termos de limitações de tamanho do modelo. Para mais informações sobre os tamanhos de capacidades no Power BI Premium, consulte os nós de Capacidade. Pode configurar modelos grandes para todos os SKUs Premium P e SKUs Embedded A; no entanto, apenas funcionam com [novas áreas de trabalho](../collaborate-share/service-create-the-new-workspaces.md).
+Os conjuntos de dados do Power BI podem armazenar dados numa cache dentro da memória altamente comprimida, para um desempenho de consultas otimizado para permitir uma rápida interatividade do utilizador. Com as capacidades Premium, os conjuntos de dados de grandes dimensões superiores ao limite predefinido de 10 GB podem ser permitidos com a definição **Formato de armazenamento de conjuntos de dados de grandes dimensões**. Quando esta definição está ativada, o tamanho dos conjuntos de dados é limitado pelo tamanho da *capacidade* Premium.
 
-Os modelos grandes não afetam o tamanho de carregamento do PBIX, o qual continua limitado a 10 GB. Os conjuntos de dados expandem-se para além dos 10 GB no serviço ao atualizar. Pode utilizar a atualização incremental para configurar um conjunto de dados para se expandir para além dos 10 GB.
+Os conjuntos de dados de grandes dimensões podem ser ativados para todos os SKUs Premium P e Embedded A. O limite de tamanho para conjuntos de dados de grandes dimensões no Premium é comparável ao Azure Analysis Services em termos das limitações de tamanho dos modelos de dados.
 
-## <a name="enable-large-models"></a>Ativar modelos grandes
+Embora seja necessário para permitir conjuntos de dados com mais de 10 GB, a ativação da definição "Formato de armazenamento de conjuntos de dados de grandes dimensões" tem benefícios adicionais. Se planeia utilizar ferramentas baseadas em pontos finais XMLA para operações de escrita de conjuntos de dados, certifique-se de que ativa a definição, mesmo para os conjuntos de dados que não caraterize como sendo *de grandes dimensões*. Quando esta definição está ativada, o formato de conjuntos de dados de grandes dimensões pode otimizar o desempenho das operações de escrita de XMLA.
 
-Para criar um conjunto de dados que se expanda para além dos 10 GB, siga estes passos:
+Os conjuntos de dados de grandes dimensões no serviço não afetam o tamanho de carregamento de modelos do Power BI Desktop, que ainda tem um limite de 10 GB. Os conjuntos de dados podem expandir-se para além dos 10 GB no serviço ao atualizar.
 
-1. Crie um conjunto de dados no Power BI Desktop e configure uma [atualização incremental](service-premium-incremental-refresh.md).
+## <a name="enable-large-datasets"></a>Permitir conjuntos de dados de grandes dimensões
 
-1. Publique o conjunto de dados no serviço Power BI Premium.
+Os passos aqui descritos mostram como permitir conjuntos de dados de grandes dimensões para um novo modelo publicado no serviço. Para os conjuntos de dados existentes, só é necessário seguir o passo três.
 
-1. Ative o conjunto de dados para modelos grandes executando os seguintes cmdlets do PowerShell. Estes cmdlets fazem com que o Power BI armazene o conjunto de dados em Ficheiros Premium do Azure, sem a imposição do limite de 10 GB.
+1. Criar um modelo no Power BI Desktop. Se planeia que o seu conjunto de dados se torne maior e consuma progressivamente mais memória, certifique-se de que configura a [Atualização incremental](service-premium-incremental-refresh.md).
 
-1. Invoque uma atualização para carregar dados históricos com base na política de atualização incremental. A primeira atualização pode demorar algum tempo para carregar o histórico. As atualizações subsequentes deverão ser mais rápidas porque são incrementais.
+1. Publique o modelo como um conjunto de dados no serviço.
 
-### <a name="powershell-cmdlets"></a>Cmdlets do PowerShell
+1. No serviço > conjunto de dados > **Definições**, expanda **Formato de conjuntos de dados de grandes dimensões**, clique no controlo de deslize para que a definição fique **Ativa** e, em seguida, clique em **Aplicar**.
 
-Na versão atual dos modelos grandes, ative o conjunto de dados para armazenamento de Ficheiros Premium através de cmdlets do PowerShell. Tem de ter privilégios de administrador de capacidade e administrador de áreas de trabalho para executar cmdlets do PowerShell.
+    :::image type="content" source="media/service-premium-large-models/enable-large-dataset.png" alt-text="Controlo de deslize Permitir conjuntos de dados de grandes dimensões":::
+
+1. Invoque uma atualização para carregar dados históricos com base na política de atualização incremental. A primeira atualização pode demorar algum tempo para carregar o histórico. As atualizações subsequentes deverão ser mais rápidas, dependendo da sua política de atualização incremental.
+
+## <a name="set-default-storage-format"></a>Definir formato de armazenamento predefinido
+
+Todos os novos conjuntos de dados criados numa área de trabalho atribuída a uma capacidade Premium podem ter o formato de armazenamento de conjuntos de dados de grandes dimensões ativado por predefinição.
+
+1. Na área de trabalho, clique em **Definições** > **Premium**.
+
+1. Em **Formato de armazenamento predefinido**, selecione **Formato de armazenamento de conjuntos de dados de grandes dimensões** e, em seguida, clique em **Guardar**.
+
+    :::image type="content" source="media/service-premium-large-models/default-storage-format.png" alt-text="Permitir o formato de armazenamento predefinido":::
+
+### <a name="enable-with-powershell"></a>Permitir com o PowerShell
+
+Também pode permitir o formato de armazenamento de conjuntos de dados de grandes dimensões através do PowerShell. Tem de ter privilégios de administrador de capacidade e administrador de áreas de trabalho para executar cmdlets do PowerShell.
 
 1. Localize o ID de conjunto de dados (GUID). No separador **Conjuntos de dados** da área de trabalho, nas definições de conjuntos de dados, pode ver o ID no URL.
 
@@ -66,7 +83,7 @@ Na versão atual dos modelos grandes, ative o conjunto de dados para armazenamen
     <Dataset ID>         Abf
     ```
 
-1. Execute os seguintes cmdlets para definir o modo de armazenamento como Ficheiros Premium e verifique-o. Poderão ser necessários alguns segundos para converter em Ficheiros Premium.
+1. Execute os seguintes cmdlets para definir o modo de armazenamento. Poderão ser necessários alguns segundos para converter em Ficheiros Premium.
 
     ```powershell
     Set-PowerBIDataset -Id <Dataset ID> -TargetStorageMode PremiumFiles
@@ -112,20 +129,18 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 
-Tenha em conta as seguintes restrições ao utilizar modelos grandes:
+Tenha em conta as seguintes restrições ao utilizar conjuntos de dados de grandes dimensões:
 
-- **Suporte multigeográfico**: os conjuntos de dados ativados para os Ficheiros Premium irão falhar em capacidades nas quais o [multi-geo](service-admin-premium-multi-geo.md) esteja também ativado.
+- **São necessárias áreas de trabalho novas:** os conjuntos de dados de grandes dimensões só funcionam com [Áreas de trabalho novas](../collaborate-share/service-create-the-new-workspaces.md).
 
 - **Transferir o Power BI Desktop**: se um conjunto de dados for armazenado em Ficheiros Premium, a [transferência como um ficheiro .pbix](../create-reports/service-export-to-pbix.md) irá falhar.
-- **Regiões suportadas**: os modelos grandes são suportados em todas as regiões do Azure que suportam armazenamento de Ficheiros Premium. Para saber mais, veja [Produtos disponíveis por região](https://azure.microsoft.com/global-infrastructure/services/?products=storage) e consulte a tabela na secção seguinte.
+- **Regiões suportadas**: os conjuntos de dados de grandes dimensões são suportados em todas as regiões do Azure que suportam armazenamento de Ficheiros Premium. Para saber mais, veja [Produtos disponíveis por região](https://azure.microsoft.com/global-infrastructure/services/?products=storage) e consulte a tabela na secção seguinte.
 
+## <a name="region-availability"></a>Disponibilidade de região
 
-## <a name="availability-in-regions"></a>Disponibilidade nas regiões
+Os conjuntos de dados de grandes dimensões do Power BI só estão disponíveis em determinadas regiões do Azure que suportam o [Armazenamento de Ficheiros Premium do Azure](/azure/storage/files/storage-files-planning#storage-tiers).
 
-Os modelos grandes do Power BI só estão disponíveis em determinadas regiões do Azure que suportam o [Armazenamento de Ficheiros Premium do Azure](/azure/storage/files/storage-files-planning#storage-tiers).
-
-A lista seguinte indica as regiões onde os modelos grandes do Power BI estão disponíveis. As regiões que não constam da seguinte lista não são suportadas para modelos grandes:
-
+A seguinte lista indica as regiões onde os conjuntos de dados de grandes dimensões do Power BI estão disponíveis. As regiões que não constam da seguinte lista não são suportadas para modelos grandes:
 
 |Região do Azure  |Abreviatura da região do Azure  |
 |---------|---------|
@@ -149,8 +164,6 @@ A lista seguinte indica as regiões onde os modelos grandes do Power BI estão 
 |E.U.A. Oeste     | westus        |
 |E.U.A. Oeste 2     | westus2        |
 
-
-
 ## <a name="next-steps"></a>Passos seguintes
 
 As seguintes ligações disponibilizam informações que podem ser úteis para trabalhar com modelos grandes:
@@ -160,7 +173,6 @@ As seguintes ligações disponibilizam informações que podem ser úteis para t
 * [Chaves de encriptação por BYOK (Bring Your Own Key) para o Power BI](service-encryption-byok.md)
 * [Como funcionam as capacidades](service-premium-what-is.md#how-capacities-function)
 * [Atualização incremental](service-premium-incremental-refresh.md).
-
 
 O Power BI introduziu o Power BI Premium Gen2 como uma oferta de pré-visualização, que melhora a experiência do Power BI Premium nos seguintes aspetos:
 * Desempenho

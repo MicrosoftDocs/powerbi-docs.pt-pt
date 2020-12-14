@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/22/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: c83efa55cc1c35bb7e6fa8e62de3bca228553fe3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9cbb6bb03d9add4324c3fc57a6426435850a001c
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409407"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578182"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -307,7 +307,7 @@ Os utilizadores veem opções diferentes na IU consoante a definição **Publica
 |---------|---------|---------|---------|
 |**Publicar na Web** no menu **Mais opções (...)** do relatório|Ativada para todos|Não visível para todos|Visível apenas para utilizadores ou grupos autorizados.|
 |**Gerir códigos de incorporação**, em **Definições**|Ativada para todos|Ativada para todos|Ativada para todos<br><br>* A opção **Eliminar** está ativada apenas para utilizadores e grupos autorizados.<br>* A opção **Obter códigos** está ativada para todos.|
-|**Incorporar códigos** no portal de administração|O estado é um dos seguintes:<br>* Ativo<br>* Não suportado<br>* Bloqueado|O estado apresenta **Desativado**|O estado é um dos seguintes:<br>* Ativo<br>* Não suportado<br>* Bloqueado<br><br>Se um utilizador não tiver autorizações com base na definição do inquilino, o estado é apresentado como **Em violação**.|
+|**Incorporar códigos** no portal de administração|O estado tem um dos seguintes valores:<br>* Ativo<br>* Não suportado<br>* Bloqueado|O estado apresenta **Desativado**|O estado tem um dos seguintes valores:<br>* Ativo<br>* Não suportado<br>* Bloqueado<br><br>Se um utilizador não tiver autorizações com base na definição do inquilino, o estado é apresentado como **Em violação**.|
 |Relatórios publicados existentes|Todos ativados|Todos desativados|Os relatórios continuam a ser compostos para todos.|
 
 ### <a name="copy-and-paste-visuals"></a>Copiar e colar elementos visuais
@@ -336,7 +336,7 @@ Os utilizadores na organização podem transferir ficheiros .pbix e relatórios 
 
 ### <a name="allow-live-connections"></a>Permitir ligações dinâmicas
 
-Os utilizadores na organização podem utilizar o Live Connect do serviço Power BI, que inclui a funcionalidade Analisar no Excel.
+Os utilizadores na organização podem utilizar o Live Connect do serviço Power BI, A permissão de ligações dinâmicas também permite que os utilizadores tirem partido da funcionalidade Analisar no Excel.
 
 ![Captura de ecrã a mostrar a definição Permitir ligações dinâmicas.](media/service-admin-portal/powerbi-admin-portal-allow-live-connections-setting.png)
 
@@ -577,10 +577,11 @@ Enquanto administrador, pode ver as áreas de trabalho existentes no seu inquili
 - Ver detalhes acerca de uma área de trabalho, incluindo o respetivo ID, utilizadores e respetivas funções, dashboards, relatórios e conjuntos de dados.
 - Editar a lista de pessoas que têm acesso. Tal significa que pode eliminar a área de trabalho. Pode adicionar-se a si próprio a uma área de trabalho como administrador e, em seguida, abrir e eliminar a área de trabalho.
 - Editar os campos Nome e Descrição.
+- Atualizar as áreas de trabalho clássicas para a nova experiência de áreas de trabalho
 
 ![Lista de áreas de trabalho](media/service-admin-portal/workspaces-list.png)
 
-Os administradores também podem controlar a capacidade dos utilizadores de criar áreas de trabalho na nova experiência e áreas de trabalho clássicas. Veja a secção [Definições da área de trabalho](#workspace-settings) neste artigo para obter mais detalhes. 
+Os administradores também podem controlar a capacidade dos utilizadores de criar áreas de trabalho na nova experiência e áreas de trabalho clássicas. Veja a secção [Definições da área de trabalho](#workspace-settings) neste artigo para obter mais detalhes.
 
 As colunas da tabela no separador **Áreas de trabalho** correspondem às propriedades devolvidas pela [API Rest do administrador do Power BI](/rest/api/power-bi/admin) das áreas de trabalho. As áreas de trabalho pessoais são do tipo **GrupoPessoal**, as áreas de trabalho clássicas são do tipo **Grupo** e as novas experiências de área de trabalho são do tipo **Área de Trabalho**. Para obter mais informações, veja [Organizar o trabalho nas novas áreas de trabalho](../collaborate-share/service-new-workspaces.md).
 
@@ -596,6 +597,18 @@ No separador **Áreas de trabalho**, vê o *estado* de cada área de trabalho. A
 Os administradores também podem gerir e recuperar áreas de trabalho, através do portal de administração ou dos cmdlets do PowerShell. 
 
 ![Lista de áreas de trabalho](media/service-admin-portal/workspaces-list.png)
+
+Os administradores podem atualizar as áreas de trabalho clássicas para a nova experiência de áreas de trabalho. Os administradores podem selecionar uma ou mais áreas de trabalho com o tipo **Grupo** para atualizar. As atualizações são colocadas em fila e executadas de forma assíncrona. Poderá demorar desde alguns minutos a alguns dias a concluir todas as atualizações **Pendentes**, uma vez que a taxa geral de atualizações iniciadas por administradores está limitada, para que o serviço continue a funcionar sem problemas. A coluna **Estado da atualização de área de trabalho** ajuda os administradores a monitorizar o progresso das atualizações iniciadas por administradores. Os administradores podem cancelar as atualizações iniciadas por administradores quanto estas estiverem **Pendentes**. Para atualizar uma área de trabalho de imediato, contacte o Administrador da Área de trabalho e peça-lhe que inicie a atualização através do painel de definições da área de trabalho. [Saiba mais sobre a atualização da área de trabalho antes de dar início à sua atualização da área de trabalho iniciada por administradores.](../collaborate-share/service-upgrade-workspaces.md)
+
+A tabela abaixo fornece mais detalhes sobre o estado da atualização.
+
+|Estado  |Descrição  |
+|---------|---------|
+| **(Em branco)** | A área de trabalho não está a ser atualizada por um administrador do Power BI. |
+| **Pendente** | A área de trabalho está na fila para ser atualizada. A atualização pode ser cancelada. |
+| **Em Curso** | A área de trabalho está a ser atualizada ativamente. A atualização não pode ser cancelada. |
+| **Concluído** | A área de trabalho foi atualizada nos últimos 30 dias por um administrador do Power BI. Um administrador da área de trabalho pode voltar à opção clássica se quiser fazê-lo durante o período 30 dias após a área de trabalho ter sido atualizada. |
+
 
 ## <a name="custom-branding"></a>Imagem corporativa personalizada
 

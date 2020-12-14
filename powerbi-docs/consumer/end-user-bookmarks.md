@@ -7,20 +7,19 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/26/2020
+ms.date: 12/03/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: ec56f15386aeddafa74d952ce772aa3dcce4f901
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aa199547f6cad0b7d4dbfc6b75e9d9e25b2b153
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391490"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578343"
 ---
 # <a name="what-are-bookmarks"></a>O que são marcadores?
 
 [!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Os marcadores capturam a vista atualmente configurada de uma página de relatório, incluindo filtros, segmentações e o estado dos elementos visuais. Ao selecionar um marcador, o Power BI permite-lhe voltar a essa vista. Existem dois tipos de marcadores: os criados por si e os criados por *designers* de relatórios. Qualquer utilizador do Power BI pode criar marcadores pessoais. No entanto, a capacidade de utilizar marcadores criados por outros exige uma licença Power BI Pro ou Premium. [Qual é a minha licença?](end-user-license.md)
 
@@ -30,6 +29,16 @@ Os marcadores podem ser utilizados de várias formas. Suponhamos que descobre in
 Também pode criar uma coleção de marcadores, dispô-los pela ordem que quiser e, posteriormente, seguir cada marcador numa apresentação para realçar uma série de informações que contam uma história.  
 
 ![Mostrar o Painel de Marcadores ao selecioná-lo no friso.](media/end-user-bookmarks/power-bi-bookmark-icon.png)
+
+Partilhe o seu relatório com marcadores com colegas que também têm acesso de leitura ao seu relatório. A vista com marcadores do relatório não substitui o relatório original do criador.  Partilhar com colegas que ainda não têm acesso de leitura requer permissões de nova partilha. Se não conseguir partilhar a sua vista do relatório, contacte o proprietário do relatório para pedir permissão de nova partilha.  
+
+
+### <a name="share-changes"></a>Partilhar alterações 
+Se tiver permissões de leitura e partilha, quando partilhar o relatório, poderá optar por incluir as suas alterações.
+
+:::image type="content" source="media/end-user-bookmarks/power-bi-personalize-share-changes.png" alt-text="Partilhar alterações":::
+ 
+
 
 ## <a name="open-bookmarks"></a>Abrir marcadores
 Para abrir o painel Marcadores, selecione **Marcadores** > **Mostrar mais marcadores** na barra de menus. 
@@ -164,17 +173,22 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 -->
 
 
+### <a name="reset-all-your-changes-to-a-report"></a>Repor todas as alterações a um relatório
+
+No canto superior direito da tela do relatório, selecione **Repor para predefinição**. Esta ação remove todas as alterações no relatório e volta para a última vista guardada pelo autor do relatório.
+
+:::image type="content" source="media/end-user-bookmarks/power-bi-personalize-reset-all.png" alt-text="Repor todas as alterações":::
 
 
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Nesta versão dos **marcadores**, existem algumas limitações e considerações a não esquecer.
 
-* A maioria dos elementos visuais do Power BI deve funcionar devidamente com a marcação. Caso se depare com problemas com um marcador e um elemento visual do Power BI, contacte o criador desse elemento visual do Power BI e peça-lhe para adicionar suporte para marcadores ao elemento visual.
+* A maioria dos elementos visuais personalizados do Power BI deve funcionar devidamente com a marcação. Caso se depare com problemas com um marcador e um elemento visual personalizado do Power BI, contacte o criador desse elemento visual personalizado e peça-lhe para adicionar suporte para marcadores.    
 * Se adicionar um elemento visual numa página de relatório depois de criar um marcador, este será apresentado no estado predefinido. Isto também significa que se apresentar uma segmentação de dados numa página onde criou anteriormente marcadores, esta irá estar no estado predefinido.
 * Em geral, os seus marcadores não serão afetados se o *designer* de relatórios atualizar ou republicar o relatório. No entanto, se o designer fizer alterações significativas ao relatório, como remover campos utilizados por um marcador, será apresentada uma mensagem de erro na próxima vez que tentar abrir esse marcador. 
+* Esta funcionalidade é suportada nas aplicações móveis do Power BI para tablets iOS e Android e na aplicação Windows do Power BI; não é suportada nas aplicações móveis do Power BI para telemóveis. No entanto, qualquer alteração a um elemento visual que guardar num marcador pessoal enquanto está no serviço Power BI será respeitada em todas as aplicações móveis do Power BI.
 
-<!--
-## Next steps
-spotlight?
--->
+
+## <a name="next-steps"></a>Passos seguintes
+[Personalizar os elementos visuais num relatório](end-user-personalize-visuals.md)

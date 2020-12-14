@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/20/2020
+ms.date: 12/04/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 6fcbdeef8c7c02656e5637f6103fda76faeb26c9
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1ab5fb15f910b420781564da8f26cf5cd7ccd7df
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412282"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781825"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
@@ -74,9 +74,9 @@ A imagem seguinte mostra como ativar o Premium Gen2.
 
 As seguintes limitações conhecidas aplicam-se atualmente ao Premium Gen2:
 
-1.  A utilização da capacidade Premium Gen2 não pode ser monitorizada na aplicação de métricas.
+1.    A utilização da capacidade Premium Gen2 não pode ser monitorizada na aplicação de métricas.
 
-2.  As definições da capacidade Premium Gen2 para cargas de trabalho específicas não estão ainda visíveis na página de definições do Premium Gen2 no portal de administração. Para alterar as definições, faça a transição da capacidade para a versão original do Premium, altere as definições e configure a capacidade para utilizar novamente o Premium Gen2. As definições de alocação de memória não se aplicam às capacidades do Premium Gen2.
+2.    As definições da capacidade Premium Gen2 para cargas de trabalho específicas não estão ainda visíveis na página de definições do Premium Gen2 no portal de administração. Para alterar as definições, faça a transição da capacidade para a versão original do Premium, altere as definições e configure a capacidade para utilizar novamente o Premium Gen2. As definições de alocação de memória não se aplicam às capacidades do Premium Gen2.
 
 3.  Se estiver a utilizar XMLA no Premium Gen2, certifique-se de que está a utilizar as versões mais recentes das [ferramentas de modelação de dados e de gestão](service-premium-connect-tools.md#data-modeling-and-management-tools). 
 
@@ -272,11 +272,13 @@ A tabela seguinte mostra os SKUs recomendados para o carregamento do ficheiro .p
    |---------|---------|
    |P1    | < 3 GB        |
    |P2    | < 6 GB        |
-   |P3, P4 e P5    | até 10 GB   |
+   |P3, P4 e P5    | até 10 GB  |
 
 O SKU A4 do Power BI Embedded é igual ao SKU P1, A5 = P2 e A6 = P3.
 
-Se ativar [modelos grandes](service-premium-large-models.md) num conjunto de dados, as limitações de tamanho do ficheiro .pbix continuarão a ser aplicáveis à publicação ou à transferência de ficheiros. No entanto, com a atualização incremental e os modelos grandes combinados, os conjuntos de dados podem crescer para lá desses limites. Com modelos grandes, o tamanho do conjunto de dados é limitado apenas pelo tamanho da capacidade do Power BI Premium.
+### <a name="large-dataset-storage-format"></a>Formato de armazenamento de conjuntos de dados de grandes dimensões
+
+Se ativar a definição [Formato de armazenamento de conjuntos de dados de grandes dimensões](service-premium-large-models.md) para um conjunto de dados, as limitações de tamanho de ficheiros .pbix ainda se aplicarão ao carregamento ou à publicação de ficheiros. O limite de tamanho do carregamento não é afetado pelo formato de armazenamento de conjuntos de dados de grandes dimensões. Contudo, quando publicados no serviço com a atualização incremental e o formato de armazenamento de conjuntos de dados de grandes dimensões ativados, os conjuntos de dados podem ter tamanhos muito superiores a estes limites. Com o formato de armazenamento de conjuntos de dados de grandes dimensões, o tamanho dos conjuntos de dados é limitado apenas pelo tamanho da capacidade Premium do Power BI.
 
 Os seus ficheiros .pbix representam dados num *estado altamente comprimido*. Provavelmente, os dados serão expandidos quando forem carregados na memória. A partir daí, poderão ser expandidos mais algumas vezes durante a atualização de dados.
 

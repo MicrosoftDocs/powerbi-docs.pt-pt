@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 1166f51c21e765e5710d33ad45a47057ea773bd8
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 348032345a56d538e1e5ffbb6036d411e42b2954
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397444"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907078"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
@@ -119,7 +119,7 @@ Sim, existem cmdlets do PowerShell e APIs REST do Azure Resource Manager que pod
 
 ### <a name="what-is-the-pbi-embedded-capacity-role-in-a-pbi-embedded-solution"></a>Qual é a função de capacidade do Power BI Embedded numa solução do Power BI Embedded?
 
-Para [promover a sua solução para produção](embed-sample-for-customers.md#move-to-production), tem de atribuir os conteúdos do Power BI (a área de trabalho) que a sua aplicação utiliza a uma capacidade (SKU A) do Power BI Embedded.
+Para [promover a sua solução para produção](move-to-production.md), tem de atribuir os conteúdos do Power BI (a área de trabalho) que a sua aplicação utiliza a uma capacidade (SKU A) do Power BI Embedded.
 
 ### <a name="in-what-azure-regions-is-pbi-embedded-available"></a>Em que regiões do Azure é que o PBI Embedded está disponível?
 
@@ -198,7 +198,7 @@ Esta situação é importante quando adicionar o principal de serviço como um *
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>Quando devo utilizar um ID da aplicação vs. um ID do objeto do principal de serviço?
 
-O **[ID da aplicação](embed-sample-for-customers.md#application-id)** é utilizado para criar o token de acesso ao passar o ID da aplicação para autenticação.
+O **[ID da aplicação](embed-sample-for-customers.md#client-id)** , também conhecido como *ID de cliente*, é utilizado para criar o token de acesso ao transmitir o ID da aplicação para autenticação.
 
 Para fazer referência a um principal de serviço para operações ou fazer alterações, é utilizado o **[ID do objeto do principal de serviço](embed-service-principal.md)** – por exemplo, para aplicar um principal de serviço como um administrador a uma área de trabalho.
 

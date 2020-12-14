@@ -8,14 +8,14 @@ featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/23/2019
+ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5aa34834df49d54be885d94a1a1c06e13891ead1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ad3a38fa8aef4f5404196213ebd3c7b26d3fc3b8
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417342"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578412"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Afixar um mosaico a um dashboard do Power BI a partir de um relatório
 
@@ -58,10 +58,12 @@ Também é possível afixar uma página de relatório inteira num dashboard, o q
 
 Para obter mais informações, veja [Afixar uma página de relatório inteira](service-dashboard-pin-live-tile-from-report.md).
 
-> [!NOTE]
-> Algumas opções de formatação não são aplicadas aos elementos visuais quando estão afixados a um dashboard. As definições de limite, sombra e fundo serão ignoradas no mosaico afixado. Nos elementos visuais do cartão, o texto utilizado para o valor é sempre mostrado em dashboards com a família do tipo de letra “DIN”. 
-> 
->
+## <a name="limitations"></a>Limitações
+Algumas opções de formatação ou temas não são aplicadas aos elementos visuais quando os afixa num dashboard.
+- As definições de limite, sombra e fundo são ignoradas no mosaico afixado.
+- Nos elementos visuais do cartão, o texto utilizado para o valor é mostrado em dashboards com a família do tipo de letra "DIN", com texto preto. Pode alterar a cor do texto para todos os mosaicos num dashboard ao [criar um tema de dashboard personalizado](service-dashboard-themes.md).
+- A formatação condicional não é aplicada.
+- Os elementos visuais ajustam o respetivo tamanho ao tamanho do mosaico. Isto pode resultar em diferenças no esquema, como se o elemento visual tivesse sido redimensionado no relatório.
 
 ## <a name="next-steps"></a>Próximos passos
 - [Dashboards para consumidores do serviço Power BI](../consumer/end-user-dashboards.md)

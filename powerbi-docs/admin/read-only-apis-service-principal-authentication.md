@@ -10,14 +10,14 @@ ms.date: 12/01/2020
 ms.author: painbar
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: fb2d25b4cc000f0a7b9c659f25264ffd1ab936d7
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.openlocfilehash: ec3cd60916630fe355b9ea4f54d5a025788800bf
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96506752"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906825"
 ---
-# <a name="enable-service-principle-authentication-for-read-only-admin-apis-preview"></a>Ativar a autenticação do principal de serviço para as APIs de administração só de leitura (pré-visualização)
+# <a name="enable-service-principal-authentication-for-read-only-admin-apis-preview"></a>Ativar a autenticação do principal de serviço para as APIs de administração só de leitura (pré-visualização)
 
 O principal de serviço é um método de autenticação que pode ser utilizado para permitir que uma aplicação do Azure Active Directory (AAD) aceda aos conteúdos e às APIs do serviço Power BI.
 Quando cria uma aplicação do AAD, é criado um [objeto do principal de serviço](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object). O objeto do principal de serviço, também conhecido como principal de serviço, permite que o AAD autentifique a aplicação. Uma vez autenticada, a aplicação pode aceder aos recursos do inquilino do AAD.
@@ -63,7 +63,7 @@ Para ativar a autenticação do principal de serviço para as APIs só de leitur
     * [GetDataflowUpstreamDataflowsAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/dataflows_getupstreamdataflowsingroupasadmin) 
     * [GetCapacitiesAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/getcapacitiesasadmin)
     * [GetActivityLog](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents)
-    * GetModifiedWorkspaces
-    * WorkspaceGetInfo
-    * WorkspaceScanStatus
-    * WorkspaceScanResult
+    * [GetModifiedWorkspaces](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getmodifiedworkspaces)
+    * [WorkspaceGetInfo](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_postworkspaceinfo)
+    * [WorkspaceScanStatus](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getscanstatus)
+    * [WorkspaceScanResult](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getscanresult)

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/12/2020
-ms.openlocfilehash: e26e273ff16d67defb9299c226a8435a75b93661
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/07/2020
+ms.openlocfilehash: 4368230812d90031d1f7cf83d426fc1508382412
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398390"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781940"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Origens de dados suportadas para relatórios paginados do Power BI
 
@@ -30,7 +30,7 @@ Os relatórios paginados suportam nativamente a seguinte lista de origens de dad
 | Base de Dados SQL do Azure <br>Azure SQL Data Warehouse | Básico, início de sessão único (SSO), OAuth2 | Pode utilizar um Gateway Empresarial com a Base de Dados SQL do Azure. No entanto, não pode utilizar o SSO ou oAuth2 para autenticar nesses cenários.   |
 | Instância Gerida do SQL do Azure | Básico | através de um Ponto Final Público ou Privado (o Ponto Final Privado tem de ser encaminhado através do Gateway de Empresa)  |
 | Azure Analysis Services | SSO, OAuth2 | A firewall AAS deve ser desativada ou configurada para permitir todos os intervalos de IP na região BlackForest. Isto aplica-se apenas à região BlackForest.  O SSO de um inquilino externo não é suportado. |
-| Conjunto de dados do Power BI | SSO | Conjuntos de dados do Power BI Premium e não Premium Requer permissão de leitura |
+| Conjunto de dados do Power BI | SSO | Conjuntos de dados do Power BI Premium e não Premium Requer permissão de leitura. Apenas o Modo de importação e os conjuntos de dados do DirectQuery no Power BI são suportados. |
 | Conjunto de dados do Power BI Premium (XMLA) | SSO | As bases de dados do Power BI não são suportadas como uma origem de dados para relatórios paginados incorporados em cenários de "os dados pertencem à aplicação".  Para garantir uma conectividade adequada no Power BI Report Builder, certifique-se de que a opção "Não utilizar credenciais" está selecionada ao definir a sua origem de dados.   |
 | Introduzir Dados | N/D | Os dados são incorporados no relatório. |
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: c8d756a80cf6d748f3ff33298b3a243f82197734
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 845499bc236489932bf1347c43f7a5ba71c21a6b
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668655"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907331"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Registar uma aplicação do Azure AD para utilizar com o Power BI
 
@@ -32,7 +32,7 @@ Utilize a solução [Incorporar para os seus clientes](embed-sample-for-customer
 
 * Conta de **utilizador principal** (uma licença do Power BI Pro utilizada para iniciar sessão no Power BI)
 
-*  [Service principal (Principal de serviço)](embed-service-principal.md)
+* [Service principal (Principal de serviço)](embed-service-principal.md)
 
 Normalmente, a solução Incorporar para os seus clientes é utilizada por programadores e fornecedores de software independentes (ISVs) que estão a criar uma aplicação para terceiros.
 
@@ -115,7 +115,16 @@ Estes passos descrevem como registar uma aplicação do Azure AD para a soluçã
 
 # <a name="manual-registration"></a>[Registo manual](#tab/manual)
 
-Utilize o registo de aplicações manual do Azure AD apenas se for criar uma solução *Incorporar para a sua organização*. Para obter mais informações sobre como registar aplicações no Azure Active Directory, veja [Registar aplicações com o Azure Active Directory](/azure/active-directory/develop/quickstart-v2-register-an-app).
+Utilize o registo de aplicações manual do Azure AD apenas se estiver a criar uma das seguintes soluções:
+
+* Uma aplicação *Incorporar para a sua organização*.
+
+* Uma aplicação *Incorporar para os seus clientes* com um *principal de serviço*.
+
+    >[!NOTE]
+    >Se escolher esta opção, terá de [adicionar permissões do Power BI](#change-your-azure-ad-apps-permissions) à sua aplicação do Azure AD depois de a registar.
+
+Para obter mais informações sobre como registar aplicações no Azure Active Directory, veja [Registar aplicações com o Azure Active Directory](/azure/active-directory/develop/quickstart-v2-register-an-app).
 
 1. Inicie sessão no [portal do Azure](https://portal.azure.com).
 
@@ -140,6 +149,9 @@ Utilize o registo de aplicações manual do Azure AD apenas se for criar uma sol
 ## <a name="change-your-azure-ad-apps-permissions"></a>Alterar as permissões da sua aplicação do Azure AD
 
 Após registar a sua aplicação, pode fazer alterações às respetivas permissões. As alterações às permissões podem ser efetuadas através de programação ou no portal do Azure.
+
+>[!NOTE]
+>As permissões da aplicação do Azure AD só se aplicam à solução *Incorporar para os seus clientes* com o método de autenticação de *utilizador principal*.
 
 # <a name="azure"></a>[Azure](#tab/Azure)
 

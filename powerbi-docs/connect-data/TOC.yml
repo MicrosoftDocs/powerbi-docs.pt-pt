@@ -9,7 +9,7 @@
           href: service-get-data.md
         - name: O que é um gateway de dados no local?
           href: service-gateway-onprem.md
-    - name: Inícios rápidos
+    - name: Guias de Início Rápido
       expanded: true
       items:
         - name: Ligar a dados no Power BI Desktop
@@ -30,10 +30,10 @@
           href: service-tutorial-connect-to-github.md
         - name: Utilizar os Serviços Cognitivos
           href: service-tutorial-use-cognitive-services.md
-        - name: Integração do Machine Learning
-          href: service-tutorial-invoke-machine-learning-model.md
-        - name: Criar um modelo de Machine Learning
+        - name: Criar um modelo de machine learning
           href: service-tutorial-build-machine-learning-model.md
+        - name: Consumir um modelo de machine learning num relatório
+          href: service-aml-integrate.md
         - name: Atualizar dados a partir de um SQL Server
           href: service-gateway-sql-tutorial.md
     - name: Conceitos

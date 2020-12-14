@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/01/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 384ce5efc28355ea238d5782dd1553901097e0f2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9d9d628ea2d478eb6a09ae8ca53b98837349a224
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411684"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613830"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Subscrever relatórios e dashboards no serviço Power BI para si e para outras pessoas
 
@@ -28,14 +28,14 @@ Pode subscrever as páginas de relatórios, os dashboards e os relatórios pagin
 - Inclui um anexo do relatório completo, se subscrever um relatório paginado.
 - Enviar e-mails para utilizadores fora do seu inquilino, se o conteúdo do Power BI estiver alojado numa capacidade Premium.  Os administradores podem controlar o acesso a quem pode enviar subscrições de e-mail a utilizadores externos ao aproveitar as definições de controlo de partilha externa existentes no centro de administração do Power BI.
 
-![instantâneo do dashboard num e-mail](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
+![instantâneo do dashboard num e-mail](media/service-report-subscribe/power-bi-dashboard-email-new.jpg)
 
 ## <a name="requirements"></a>Requirements
 
 Uma subscrição pode ser **criada** por:
 
-- Utilizadores com uma licença do Power BI Pro 
-- Os utilizadores que visualizam o conteúdo numa área de trabalho ou aplicação Premium também podem subscrever os conteúdos aí localizados, mesmo sem uma licença do Power BI Pro. 
+- Utilizadores com uma licença do Power BI Pro
+- Os utilizadores que visualizam o conteúdo numa área de trabalho ou aplicação Premium também podem subscrever os conteúdos aí localizados, mesmo sem uma licença do Power BI Pro.
 
 Não precisa de permissões de edição para o conteúdo (dashboard ou relatório) para criar uma subscrição para si próprio, mas tem de ter permissões de edição para criar uma subscrição para outra pessoa.
 
@@ -44,12 +44,12 @@ Não precisa de permissões de edição para o conteúdo (dashboard ou relatóri
 Quer esteja a subscrever um dashboard, um relatório ou um relatório paginado, o processo é semelhante. O mesmo botão permite-lhe subscrever os dashboards e os relatórios do serviço Power BI.
 
 A subscrição de relatórios paginados é ligeiramente diferente. Veja [Subscrever um relatório paginado no serviço Power BI para si e para outras pessoas](../consumer/paginated-reports-subscriptions.md) para obter mais informações.
- 
+
 ![selecionar o ícone Subscrever](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
 1. Abra o dashboard ou o relatório.
 2. Na barra de menus superior, selecione **Subscrever** ou selecione o ícone de envelope :::image type="icon" source="media/service-report-subscribe/power-bi-icon-envelope.png" border="false":::.
-   
+
     ![ícone Subscrever](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
 1. Utilize o controlo de deslize amarelo para ativar e desativar a subscrição. Definir o controlo de deslize para **Desativado** não elimina a subscrição. Para eliminar a subscrição, selecione o ícone de recipiente do lixo.
@@ -65,8 +65,8 @@ A subscrição de relatórios paginados é ligeiramente diferente. Veja [Subscre
 6. Por predefinição, a data de início da sua subscrição é a data em que a criou. Tem a opção de selecionar uma data de fim. Se não definir uma data de fim, esta será definida automaticamente para um ano após a data de início. Pode alterá-la para qualquer data no futuro (até ao ano 9999) em qualquer altura antes de a subscrição terminar. Quando uma subscrição atinge a data de fim, esta é interrompida até que a volte a ativar. Receberá notificações antes da data de fim agendada a perguntar se quer prolongar a subscrição.
 
     Nas capturas de ecrã abaixo, repare que, na realidade, está a subscrever uma _página_ de relatórios ao subscrever um relatório. Para subscrever mais do que uma página num relatório, selecione **Adicionar outra subscrição** e selecione uma página diferente.
-     
-    ![Painel Subscrever](media/service-report-subscribe/power-bi-subscribe-pane.png)  
+
+    ![Painel Subscrever](media/service-report-subscribe/power-bi-subscribe-pane.png)
 
 1. (Opcional) Selecione se quer incluir uma ligação de regresso ao conteúdo no Power BI e se quer conceder aos utilizadores acesso aos conteúdos aos quais os subscreveu.  Se optar por incluir uma ligação, para a melhor experiência, certifique-se de que todos os utilizadores têm acesso ao relatório.
 2. Selecione **Guardar e fechar**. Os utilizadores subscritos receberão um e-mail e um instantâneo do dashboard ou da página de relatório com a frequência e na hora que selecionou. Pode criar até 24 subscrições por relatório ou dashboard e pode indicar frequências, horas e destinatários exclusivos para cada subscrição. Todas as subscrições definidas para **Depois da Atualização de Dados** para o dashboard ou relatório só enviarão um e-mail após a primeira atualização agendada.
@@ -102,7 +102,7 @@ Os administradores do Power BI podem utilizar os registos de auditoria do Power 
 - Conteúdo Subscrito
 - Destinatários
 - Frequência
-- Modificado Por/
+- Modificado por
 - Data de Modificação
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
@@ -118,7 +118,7 @@ Os administradores do Power BI podem utilizar os registos de auditoria do Power 
     - Embora tenha uma licença do Power BI Pro, é possível que não tenha uma licença do Microsoft Exchange. Caso não tenha, a sua conta do Azure Active Directory poderá não ter um e-mail ou um endereço de e-mail alternativo especificado. Nesse caso, embora a subscrição pareça ser enviada, acabará por não receber uma cópia.  Se o seu administrador do Power BI atribuir um endereço de email, o Power BI irá sincronizar a atualização da próxima vez que iniciar sessão e utilizará esse endereço de email para a subscrição.
 
 - Se o dashboard ou relatório estiver em capacidade Premium, pode utilizar aliases de e-mail de grupo para subscrições, em vez de subscrever colegas individualmente através dos endereços de e-mail. Os aliases são baseados no Active Directory atual.
-- Se os seus conteúdos não se encontrarem numa capacidade Premium, apenas os utilizadores do Power BI Pro poderão receber subscrições por e-mail. 
+- Se os seus conteúdos não se encontrarem numa capacidade Premium, apenas os utilizadores do Power BI Pro poderão receber subscrições por e-mail.
 - Atualmente, as subscrições não suportam a utilização de marcadores.
 - A opção para permitir o acesso ao relatório/dashboard é sempre apresentada como ativada ao editar uma subscrição existente.  Se desselecionar esta opção e guardar a subscrição, esse estado será guardado. No entanto, a opção será marcada por predefinição se editar novamente o relatório.
 - Se tiver um endereço de e-mail alternativo, mas não tiver um principal, o Power BI irá utilizar o alternativo para enviar a subscrição.
@@ -141,9 +141,18 @@ Os administradores do Power BI podem utilizar os registos de auditoria do Power 
 - Neste momento, as subscrições de e-mail não suportam elementos visuais personalizados baseados em R.
 - As subscrições por e-mail são enviadas com as estatísticas de filtro e segmentação de dados predefinidas do relatório. Quaisquer alterações às predefinições efetuadas depois da subscrição não irão aparecer no e-mail. Os Relatórios paginados suportam esta funcionalidade e permitem-lhe definir os valores de parâmetros específicos por subscrição.
 - Imagine que tem um relatório com uma ligação em direto ao Analysis Services e tem a subscrição definida para executar após a atualização de dados. Será executada da primeira vez que o serviço Power BI detetar uma alteração no modelo no local quando consultar a instância do Analysis Services.  O Power BI verifica hora a hora a existência de uma alteração no modelo de dados do Analysis Services para determinar quando deve enviar a subscrição.
+- A funcionalidade para anexar relatórios completos está disponível para relatórios que cumprem estas três condições:
 
-## <a name="next-steps"></a>Próximos passos
+    - Estão numa área de trabalho atualizada com o [Power BI Premium ou Premium Por Utilizador](../admin/service-premium-what-is.md) 
+    - O ficheiro de anexo tem menos de 25 MB.
+    - O relatório tem menos de 20 páginas. 
+    
+    Se o relatório não cumprir estas três condições, não poderá criar subscrições com relatórios completos como anexos. Quaisquer subscrições com relatórios completos como anexos serão desativadas e receberá um e-mail a explicar o erro:
+    
+    :::image type="content" source="media/service-report-subscribe/full-report-attachment-error-email.png" alt-text="Relatórios paginados no serviço Power BI.":::
 
-- [Subscrever um relatório paginado no serviço Power BI para si e para outras pessoas](../consumer/paginated-reports-subscriptions.md)
-- Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)    
-- [Ler a mensagem de blogue](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
+## <a name="next-steps"></a>Passos seguintes
+
+- [Relatórios paginados no serviço Power BI: subscrever-se e subscrever outros](../consumer/paginated-reports-subscriptions.md)
+- Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Leia a [publicação de blogue sobre subscrições de e-mail para dashboards do Power BI](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

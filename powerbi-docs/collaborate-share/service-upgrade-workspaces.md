@@ -9,12 +9,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d8e53e997aeef24d531cb733adc0b276a8395e57
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f5a76783d91da610a447667a9ea648bbcebbdc8b
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411615"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577630"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Atualizar as áreas de trabalho clássicas para as novas áreas de trabalho no Power BI
 
@@ -22,6 +22,10 @@ Este artigo explica como atualizar ou *migrar* uma área de trabalho clássica p
 
 >[!NOTE]
 >A atualização da área de trabalho está disponível como uma Pré-visualização Pública. 
+
+>[!NOTE]
+>A atualização da área de trabalho pode ser iniciada por um administrador do Power BI. Os administradores da área de trabalho recebem um e-mail quando a respetiva área de trabalho for atualizada pelo seu administrador do Power BI. [Saiba mais](../admin/service-admin-portal.md#workspaces) 
+
 
 ![Atualização bem-sucedida](media/service-upgrade-workspaces/power-bi-upgrade-success.png)
 
@@ -68,6 +72,7 @@ Os utilizadores que estejam a utilizar ativamente a área de trabalho deverão a
 - O grupo do Microsoft 365 da área de trabalho clássica não é afetado pela atualização da área de trabalho no Power BI. As Equipas, os sites do SharePoint, as caixas de correio ou outros recursos geridos pelo Microsoft 365 não são alterados. Permanecem inalterados depois de atualizar a área de trabalho do Power BI. O grupo do Microsoft 365 continua a existir como antes.
 - Há alterações na forma como a área de trabalho é protegida após a atualização. Veja a seção [permissões da área de trabalho após a atualização](#permissions-after-upgrade) para obter detalhes.
 - É fornecida uma opção para **reverter para uma área de trabalho clássica**, caso precise. No entanto, este procedimento não restaura totalmente alguns aspetos da área de trabalho presentes antes da atualização. Se começar a utilizar as funcionalidades que funcionam apenas na nova experiência de área de trabalho, não poderá retroceder. A opção para reverter está disponível durante 30 dias após a atualização.
+- Os administradores do Power BI podem iniciar uma atualização da área de trabalho. Os administradores da área de trabalho recebem um e-mail quando a respetiva área de trabalho for atualizada pelo seu administrador do Power BI.
 
 ## <a name="permissions-after-upgrade"></a>Permissões após a atualização
 
@@ -193,12 +198,14 @@ Ao mudar para a área de trabalho clássica, não está a restaurar uma cópia e
 
 ## <a name="manage-migration-to-the-new-workspaces-for-your-tenant"></a>Gerir a migração para as novas áreas de trabalho no inquilino 
 
-Algumas organizações querem mover muitas ou todas as áreas de trabalho para a experiência da nova área de trabalho. As ferramentas de atualização da área de trabalho concentram-se em permitir que os administradores das áreas de trabalho possam atualizar. Para as organizações que querem gerir tal processo, podem seguir os seguintes passos.
+As organizações que pretendem migrar proativamente para a nova experiência de área de trabalho, podem fazê-lo através do portal de administração do Power BI. O administrador do Power BI pode selecionar uma ou mais áreas de trabalho para atualizar. As atualizações da área de trabalho iniciadas por administradores do Power BI partilham as mesmas considerações e limitações que as atualizações de área de trabalho iniciadas por administradores da área de trabalho. [Saiba mais](../admin/service-admin-portal.md#workspaces) 
+
+Recomendamos que as organizações que pretendam gerir tal processo sigam estes passos para garantir uma comunicação clara com os administradores da área de trabalho afetada.
 
 1. A lista de áreas de trabalho no portal de administração do Power BI e a API correspondente fornecem uma lista de todas as áreas de trabalho no Power BI. As áreas de trabalho clássicas são mostradas como tipo Grupo na lista.
-2. Trabalhe com os proprietários individuais do grupo ou com o Administrador do Microsoft 365, para que atualizem as áreas de trabalho. Se quiser atualizar a área de trabalho, precisará de se tornar num Proprietário do grupo.
+2. Trabalhe com os proprietários individuais do grupo ou com o administrador do Microsoft 365 para os informar sobre os seus planos para atualizar as respetivas áreas de trabalho clássicas.
 
-A funcionalidade de atualização da área de trabalho não fornece ferramentas para uma atualização em massa ou programática. Além disso, os novos grupos do Microsoft 365 criados na sua organização continuarão a aparecer no Power BI.
+A funcionalidade de atualização da área de trabalho não fornece ferramentas para uma atualização programática. Além disso, os novos grupos do Microsoft 365 criados na sua organização continuarão a aparecer no Power BI.
    
    
 ## <a name="known-issues"></a>Problemas conhecidos
@@ -213,4 +220,5 @@ Existem vários problemas conhecidos que poderá encontrar depois de atualizar:
 * [Organizar o trabalho nas experiências das novas áreas de trabalho](service-new-workspaces.md)
 * [Criar as novas áreas de trabalho](service-create-the-new-workspaces.md)
 * [Create the classic workspaces](service-create-workspaces.md) (Criar as áreas de trabalho clássicas)
+* [Iniciar uma atualização de área de trabalho iniciada por administradores do Power BI](../admin/service-admin-portal.md#workspaces)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 10/28/2019
+ms.date: 12/04/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9cfd5f80ac18c05b520fc417c6336dda360b8737
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5b2439af22e32f1e0a8cbd3ce326252d6b28fab1
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417595"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613929"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Atalhos de teclado no Power BI Desktop
 
@@ -92,7 +92,7 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 | :------------------- | :------------------- |
 | Mover linha para cima/para baixo | **Alt+Seta Para Cima** / **Seta Para Baixo** |
 | Copiar linha para cima/para baixo | **Shift+Alt+Seta Para Cima** / **Seta Para Baixo** |
-| Inserir linha abaixo | **Ctrl+Enter** |
+| Inserir linha abaixo | **Shift + Enter** |
 | Inserir linha acima | **Ctrl+Shift+Enter** |
 | Ir para parênteses correspondente | **Ctrl+Shift+**  \ |
 | Avançar linha/expandir linha para a margem | **Ctrl+]**  /  **[** |
@@ -100,9 +100,13 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 | Selecionar a linha atual | **Ctrl+I** |
 | Selecione todas as ocorrências da seleção atual | **Ctrl+Shift+L** |
 | Selecionar todas as ocorrências da palavra atual | **Ctrl+F2** |
+| Comentar uma linha | **Ctrl + /** ou **Ctrl + K + C** |
+| Remover comentário de uma linha | **Ctrl + /** ou **Ctrl + K + U** |
+| Aumentar tamanho do tipo de letra | **Ctrl + +** ou **Deslocar para Cima** |
+| Diminuir tamanho do tipo de letra | **Ctrl + -** ou **Deslocar para Baixo** |
 
 ## <a name="enter-data"></a>Introduzir dados
-| Para efetuar esta ação           | Prima                |
+| Para executar esta ação           | Premir                |
 | :------------------- | :------------------- |
 | Grelha editável de saída | **Ctrl+Tecla de Tabulação** |
 

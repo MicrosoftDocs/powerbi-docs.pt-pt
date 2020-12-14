@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 11/05/2020
+ms.date: 12/01/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 4e71580857827a370676c4d05274c4c57b1d56c5
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b238daa82bc2ae039c137c259ca8f63044281e6f
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413501"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613722"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>Dataset connectivity with the XMLA endpoint (Conectividade dos conjuntos de dados com o ponto final XMLA)
 
@@ -23,7 +23,7 @@ As áreas de trabalho e os conjuntos de dados do Power BI Premium ao nível de 
 
 ## <a name="whats-an-xmla-endpoint"></a>O que é um ponto final XMLA?
 
-O Power BI Premium utiliza o protocolo [XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current&preserve-view=true) (XMLA) para comunicações entre as aplicações cliente e o motor que gere as áreas de trabalho e os conjuntos de dados do Power BI. Estas comunicações são geralmente feitas através daquilo a que chamamos pontos finais XMLA. O XMLA é o mesmo protocolo de comunicação utilizado pelo motor da Microsoft Analysis Services que, nos bastidores, executa a modelagem semântica, a governação, o ciclo de vida e a gestão de dados do Power BI.
+O Power BI Premium utiliza o protocolo [XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current&preserve-view=true) (XMLA) para comunicações entre as aplicações cliente e o motor que gere as áreas de trabalho e os conjuntos de dados do Power BI. Estas comunicações são geralmente feitas através daquilo a que chamamos pontos finais XMLA. O XMLA é o mesmo protocolo de comunicação utilizado pelo motor da Microsoft Analysis Services que, nos bastidores, executa a modelagem semântica, a governação, o ciclo de vida e a gestão de dados do Power BI. Os dados enviados através do protocolo XMLA estão totalmente encriptados.
 
 Por predefinição, a conectividade *só de leitura* através do ponto final está ativada para a **carga de trabalho dos Conjunto de dados** numa capacidade. Com permissão só de leitura, as aplicações e ferramentas de visualização de dados podem consultar dados de modelos de conjuntos de dados, metadados, eventos e esquemas. As operações de *leitura/escrita* com o ponto final podem ser ativadas para permitir gestão de conjuntos de dados, governação, modelação semântica avançada, depuração e monitorização adicionais. Com as operações de leitura/escrita ativas, os conjuntos de dados do Power BI Premium têm maior paridade com as ferramentas e os processos de modelação tabular de nível empresarial do Azure Analysis Services e do SQL Server Analysis Services.
 
@@ -32,7 +32,7 @@ Por predefinição, a conectividade *só de leitura* através do ponto final est
 
 ## <a name="data-modeling-and-management-tools"></a>Ferramentas de modelação e gestão de dados
 
-Estas são algumas das ferramentas mais comuns utilizadas com o Azure Analysis Services e o SQL Server Analysis Services, agora suportadas por conjuntos de dados do Power BI Premium:
+Abaixo, estão algumas das ferramentas mais comuns utilizadas com o Azure Analysis Services e o SQL Server Analysis Services, agora suportadas por conjuntos de dados do Power BI Premium:
 
 **Visual Studio com projetos do Analysis Services**  – também conhecido como SQL Server Data Tools, ou simplesmente **SSDT**, esta é uma ferramenta de criação de modelos de nível empresarial para modelos tabulares do Analysis Services. As extensões dos projetos do Analysis Services são suportadas em todas as edições do Visual Studio 2017 e posteriores, incluindo a Community Edition gratuita. É necessária a extensão com a versão 2.9.6 ou superior para implementar os modelos tabulares numa área de trabalho Premium. Ao implementar numa área de trabalho Premium, o modelo tem de estar no nível de compatibilidade de 1500 ou superior. A leitura/escrita XMLA é necessária na carga de trabalho dos conjuntos de dados. Para obter mais informações, veja [Tools for Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true) (Ferramentas do Analysis Services).
 
@@ -70,7 +70,7 @@ Por predefinição, uma capacidade Premium tem a definição da propriedade Pont
 
 ### <a name="to-enable-read-write-for-a-capacity"></a>Para permitir a leitura/escrita para uma capacidade
 
-1. No Portal de administração, clique em **Definições de capacidades** > **Power BI Premium** > nome da capacidade.
+1. No Portal de administração, selecione **Definições de capacidades** > **Power BI Premium** > nome da capacidade.
 2. Expanda as **Cargas de trabalho**. Na definição **Ponto final XMLA**, selecione **Leitura/Escrita**.
 
     ![Ativar o ponto final XMLA](media/service-premium-connect-tools/xmla-endpoint-enable.png)
@@ -91,7 +91,7 @@ Os utilizadores B2B têm de especificar o UPN da respetiva organização no nome
 
 ### <a name="to-get-the-workspace-connection-url"></a>Para obter o URL de ligação da área de trabalho
 
-Em **Definições** > **Premium** > **Ligação da Área de Trabalho** da área de trabalho, clique em **Copiar**.
+Em **Definições** > **Premium** > **Ligação da Área de Trabalho** da área de trabalho, selecione **Copiar**.
 
 ![Cadeia de ligação de área de trabalho](media/service-premium-connect-tools/xmla-endpoint-workspace-connection.png)
 
@@ -99,7 +99,7 @@ Em **Definições** > **Premium** > **Ligação da Área de Trabalho** da área 
 
 ### <a name="initial-catalog"></a>Catálogo inicial
 
-Com algumas ferramentas, como o SQL Server Profiler, pode ter de especificar um *Catálogo Inicial*. Especifique um conjunto de dados (base de dados) na sua área de trabalho. Na caixa de diálogo **Ligar ao Servidor**, clique em **Opções** > **Propriedades da Ligação** > **Ligar à base de dados** e introduza o nome do conjunto de dados.
+Com algumas ferramentas, como o SQL Server Profiler, pode ter de especificar um *Catálogo Inicial*. Especifique um conjunto de dados (base de dados) na sua área de trabalho. Na caixa de diálogo **Ligar ao Servidor**, selecione **Opções** > **Propriedades da Ligação** > **Ligar à base de dados** e introduza o nome do conjunto de dados.
 
 ### <a name="duplicate-workspace-names"></a>Duplicar nomes da área de trabalho
 
@@ -129,9 +129,15 @@ Os seguintes conjuntos de dados não estão acessíveis pelo ponto final XMLA. E
 
 ## <a name="security"></a>Segurança
 
-Além da propriedade Ponto final XMLA estar ativada como leitura/escrita pelo administrador da capacidade, a definição **Exportar dados** ao nível do inquilino no Portal de Administração do Power BI, também necessária para a Análise do Excel, tem de estar ativada.
+Além da propriedade Ponto final XMLA estar ativada como leitura/escrita pelo administrador da capacidade, a definição ao nível do inquilino **Permitir pontos finais XMLA e Analisar no Excel com conjuntos de dados no local** tem de estar ativada no portal de administração. Se precisar de gerar ficheiros AIXL que liguem ao Ponto final XMLA, a definição ao nível do inquilino **Permitir ligações dinâmicas** também deve estar ativada. Ambas estas definições estão ativadas por predefinição.
 
-![Ativar Exportar dados](media/service-premium-connect-tools/xmla-endpoint-export-data.png)
+**Permitir pontos finais XMLA e Analisar no Excel com conjuntos de dados no local** é uma definição de integração.
+
+:::image type="content" source="media/service-premium-connect-tools/allow-xmla-endpoints.png" alt-text="Definição de integração Permitir pontos finais XMLA.":::
+
+**Permitir ligações dinâmicas** é uma definição de exportação e partilha.
+
+:::image type="content" source="media/service-premium-connect-tools/allow-live-connections.png" alt-text="Definição de exportação e partilha Permitir ligações dinâmicas.":::
 
 O acesso através do ponto final XMLA irá respeitar a associação do grupo de segurança definida ao nível da área de trabalho/aplicação.
 
@@ -184,7 +190,7 @@ Quando a propriedade Servidor de Implementação tiver sido especificada, o proj
 
 **Quando implementado pela primeira vez**, é criado um conjunto de dados na área de trabalho com metadados do model.bim. Como parte da operação de implementação, após a criação do conjunto de dados na área de trabalho a partir dos metadados de modelo, o processamento para carregar os dados para o conjunto de dados a partir de origens de dados falhará.
 
-O processamento falha porque, ao contrário da implementação numa instância do Analysis Server do Azure ou do SQL Server, onde as credenciais de origem de dados são solicitadas como parte da operação de implementação, quando é realizada a implementação numa área de trabalho Premium, as credenciais da origem de dados não podem ser especificadas como parte da operação de implementação. Em vez disso, após a implementação de metadados ter sido bem sucedida e o conjunto de dados ter sido criado, as credenciais da origem de dados são especificadas no Serviço Power BI nas definições dos conjuntos de dados. Na área de trabalho, clique em **Conjuntos de dados** > **Definições** > **Credenciais da origem de dados** > **Editar credenciais**.
+O processamento falha porque, ao contrário da implementação numa instância do Analysis Server do Azure ou do SQL Server, onde as credenciais de origem de dados são solicitadas como parte da operação de implementação, quando é realizada a implementação numa área de trabalho Premium, as credenciais da origem de dados não podem ser especificadas como parte da operação de implementação. Em vez disso, após a implementação de metadados ter sido bem sucedida e o conjunto de dados ter sido criado, as credenciais da origem de dados são especificadas no Serviço Power BI nas definições dos conjuntos de dados. Na área de trabalho, selecione **Conjuntos de dados** > **Definições** > **Credenciais da origem de dados** > **Editar credenciais**.
 
 ![Credenciais da origem de dados](media/service-premium-connect-tools/xmla-endpoint-datasource-credentials.png)
 
@@ -198,7 +204,7 @@ Utilizar o SSMS para se ligar a uma área de trabalho é semelhante a ligar-se a
 
 ### <a name="connect-to-a-workspace-by-using-ssms"></a>Ligar-se a uma área de trabalho com o SSMS
 
-1. No SQL Server Management Studio, clique em **Ligar** > **Ligar ao Servidor**.
+1. No SQL Server Management Studio, selecione **Ligar** > **Ligar ao Servidor**.
 
 2. Em **Tipo de Servidor**, selecione **Analysis Services**. Em **Nome do servidor**, introduza o URL da área de trabalho. Em **Autenticação**, selecione **Active Directory – Universal com MFA** e, em seguida, em **Nome de utilizador**, introduza o ID do utilizador organizacional.
 

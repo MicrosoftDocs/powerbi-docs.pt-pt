@@ -2,26 +2,26 @@
 title: Apresentar conteúdos acedidos recentemente no serviço Power BI
 description: documentação de sincronização no Power BI
 author: mihart
-ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
-ms.subservice: pbi-explore
+ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 09/24/2020
+ms.date: 11/24/2020
+ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e11b1823c45e681d6a555bd5a4a9a751704419b2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ca3ae0974c0ece1f20a104dbeef1be0d89d1b523
+ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399241"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536398"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Conteúdos **recentes** no serviço Power BI
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-Os conteúdos **recentes** incluem os últimos itens aos quais acedeu no serviço Power BI. Estes conteúdos podem ser dashboards, relatórios, aplicações e livros. Ao selecionar **Recente** na barra de navegação, o Power BI apresentará os conteúdos por ordem cronológica descendente.  Para alterar a sequência de ordenação, selecione um título e escolha Ascendente ou Descendente.
+Os conteúdos **recentes** incluem os últimos itens aos quais acedeu no serviço Power BI. Estes conteúdos podem ser dashboards, relatórios, aplicações, áreas de trabalho e livros. Ao selecionar **Recente** na barra de navegação, o Power BI apresentará os conteúdos por ordem cronológica descendente.  Para alterar a sequência de ordenação, selecione um título e escolha Ascendente ou Descendente.
 
 
 ![Janela Conteúdo recente](./media/end-user-recent/power-bi-recents.png)
