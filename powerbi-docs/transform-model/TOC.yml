@@ -7,8 +7,6 @@
       items:
         - name: Query Editor overview (Descrição geral do Editor de Consultas)
           href: desktop-query-overview.md
-        - name: Preparação personalizada de dados com fluxos de dados
-          href: ./dataflows/dataflows-introduction-self-service.md
     - name: Tutoriais
       expanded: true
       items:
