@@ -9,6 +9,8 @@
           href: service-get-data.md
         - name: O que é um gateway de dados no local?
           href: service-gateway-onprem.md
+        - name: "Deteção de conjuntos de dados no serviço Power\_BI"
+          href: service-datasets-hub.md
     - name: Guias de Início Rápido
       expanded: true
       items:
