@@ -9,12 +9,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 06/15/2020
 LocalizationGroup: ''
-ms.openlocfilehash: d2cd60a62d321910e280ebd8b38411b393d96bca
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8b119f5134fdaf4e251f9a8da560a2a3f7f3a4eb
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407406"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492110"
 ---
 # <a name="data-lineage"></a>Linhagem de dados
 Em projetos modernos de business intelligence (BI), compreender o fluxo de dados desde a origem até ao destino pode ser um desafio. A dimensão deste desafio é ainda maior se tiver desenvolvido projetos de análise avançados que abranjam múltiplas origens de dados, artefactos e dependências. Responder a perguntas como "O que acontece se alterar estes dados?" ou "Porque é que este relatório não está atualizado?" pode ser difícil. A compreensão destas questões pode exigir o trabalho de uma equipa de peritos ou uma investigação profunda. Para ajudar a responder a estas perguntas, criámos uma vista de linhagem de dados.
@@ -26,10 +26,6 @@ O Power BI tem vários tipos de artefactos, como dashboards, relatórios, conjun
 Na vista de linhagem, pode ver as relações de linhagem entre todos os artefactos numa área de trabalho, bem como todas as respetivas dependências externas. Mostra as ligações entre todos os artefactos da área de trabalho, incluindo as ligações a fluxos de dados de origem e destino.    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rUj06dqB98g" frameborder="0" allowfullscreen></iframe>
-
-
-
-> [!VIDEO https://youtu.be/rUj06dqB98g]
 
 ## <a name="explore-lineage-view"></a>Explorar a vista de linhagem
 
