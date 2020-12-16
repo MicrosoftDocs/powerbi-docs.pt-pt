@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 04/15/2019
-ms.openlocfilehash: 633d71326009881b22b7b7d235316b4ebe5c132f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: 44cb8d3f646b0bd8e673c8ef3c1743b58bcbcaba
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386887"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491190"
 ---
 # <a name="administrators-manage-the-power-bi-desktop-sign-in-form"></a>Administradores: Gerir o formulário de início de sessão do Power BI Desktop
 Na primeira vez que o Power BI Desktop é iniciado, é apresentado um formulário de início de sessão. Pode preencher as informações ou iniciar sessão no Power BI para continuar. Os administradores fazem a gestão deste formulário através de uma chave do registo. 

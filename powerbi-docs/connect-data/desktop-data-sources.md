@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 12/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e9c64a3da7d5026045a64f58c814004df6d327b6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 038d0fc4b136f89db290010289d24ee41454c9ea
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411339"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353341"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origens de dados no Power BI Desktop
 
@@ -117,7 +117,7 @@ A categoria do **Power Platform** fornece as seguintes ligações de dados:
 
 * Conjuntos de dados do Power BI
 * Fluxos de dados do Power BI
-* Common Data Service
+* Microsoft Dataverse
 * Fluxos de dados do Power Platform (Beta)
 
 A seguinte imagem mostra a janela **Obter Dados** para o **Power Platform**.

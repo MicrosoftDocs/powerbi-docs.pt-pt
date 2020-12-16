@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 12/09/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 9bf482f14b197acda93b6411525a98e865706721
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: da9a143921c640f6933af572a7ac14fc04c96c47
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578524"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998513"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Atualizações mensais anteriores do Power BI Desktop
 
@@ -546,13 +546,6 @@ Também pode transferir as versões anteriores do Power BI Desktop se a sua orga
 * Pode não ser possível abrir ficheiros que criou ou guardou em versões mais recentes do Power BI Desktop com versões anteriores do Power BI Desktop. 
 * Se receber um aviso quando carregar um relatório guardado numa versão mais recente do Power BI Desktop e guardar esse relatório na versão anterior, perderá todas as informações relacionadas com as novas funcionalidades.
 * Apenas arquivamos as versões em inglês do Power BI Desktop.
-
-Selecione as seguintes ligações para transferir esta versão anterior: 
-
-* [Versão de maio de 2020 do Power BI Desktop – 32 bits](https://download.microsoft.com/download/9/0/3/903DCAE8-44D9-4A7E-856C-40C0754723ED/PBIDesktopRS.msi)
-* [Versão de maio de 2020 do Power BI Desktop – 64 bits](https://download.microsoft.com/download/9/0/3/903DCAE8-44D9-4A7E-856C-40C0754723ED/PBIDesktopRS_x64.msi)
-
-
 
 
 
@@ -3094,7 +3087,7 @@ Maio trouxe outra grande coleção de atualizações irresistíveis para o Power
 
 -   Cálculos Rápidos - % do total geral [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 
-### <a name="data-connectivity"></a>Conectividade de Dados:
+### <a name="data-connectivity"></a>Conectividade de dados:
 
 -   Novos conectores de dados: [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
     -   Informix

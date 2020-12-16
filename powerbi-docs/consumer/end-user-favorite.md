@@ -4,18 +4,18 @@ description: Documentação sobre como definir dashboards, relatórios e aplica�
 author: mihart
 ms.author: mihart
 ms.reviewer: mihart
-featuredvideoid: G26dr2PsEpk
+featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/02/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: fe91d4f2a1490c6d879b18cfc6f09f6c0b2a6b40
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 855b838ad2373a12ecf883916c714a17cda142f6
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96390823"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998582"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Marcar dashboards, relatórios e aplicações como favoritos no serviço Power BI
 

@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 10/22/2020
+ms.date: 12/09/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: ec7b24a4d8f2a94680444b4b9adf4612f1f1f474
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5e357b275cd6648721b021f68a9b8496e266e003
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415157"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96999100"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>O "novo aspeto" do serviço Power BI
 
@@ -65,7 +65,7 @@ Mantivemos a experiência de criação semelhante à experiência do Desktop. As
 
 Os dashboards também têm uma barra de ação simplificada. São como relatórios e aplicações, para uma experiência consistente, mas mantêm as diferenças funcionais. Veja onde se encontram agora as ações num dashboard.
  
-![Captura de ecrã a mostrar a Barra de ação do dashboard no novo aspeto.](media/service-new-look/power-bi-dashboard-action-bar-new-look.png)
+![Captura de ecrã a mostrar a Barra de ação do dashboard no novo aspeto.](media/service-new-look/power-bi-dashboard-action-bar-new.png)
 
 ## <a name="next-steps"></a>Passos seguintes
 
