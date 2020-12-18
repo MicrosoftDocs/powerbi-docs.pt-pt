@@ -7,29 +7,29 @@ metadata:
   description: O Power BI amplifica as suas informações e o valor dos seus dados. Encontre aqui informações de peritos e respostas, independentemente de como utilizar o Power BI.
   services: service
   ms.service: powerbi
-  ms.subservice: subservice
+  ms.subservice: powerbi-service
   ms.topic: hub-page
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 09/09/2020
-  ms.openlocfilehash: a21230b02654b6335dd8631fb0df1db6bb4e830a
-  ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+  ms.date: 12/16/2020
+  ms.openlocfilehash: be6ec499d78d3ba5f3899fcb8556296568a40319
+  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 09/22/2020
-  ms.locfileid: "90857939"
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "97621861"
 highlightedContent:
   items:
   - title: Introdução ao Power BI Desktop
     itemType: get-started
     url: fundamentals/desktop-getting-started.md
-  - title: Colaborar com o Power BI no Microsoft Teams
+  - title: DirectQuery para conjuntos de dados do Power BI e para o Azure Analysis
     itemType: concept
-    url: collaborate-share/service-collaborate-microsoft-teams.md
-  - title: Incorporar conteúdos do Power BI numa aplicação
+    url: connect-data/desktop-directquery-datasets-azure-analysis-services.md
+  - title: Consumir modelos do Azure Machine Learning no Power BI
     itemType: tutorial
-    url: developer/embedded/embed-sample-for-customers.md
+    url: connect-data/service-aml-integrate.md
   - title: Power BI no Microsoft Learn
     itemType: learn
     url: /learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link
@@ -99,9 +99,9 @@ conceptualContent:
     - url: connect-data/service-gateway-onprem.md
       itemType: concept
       text: Gateways de dados no local
-    - url: connect-data/refresh-data.md
+    - url: connect-data/service-datasets-hub.md
       itemType: concept
-      text: Atualização de dados
+      text: Descobrir dados no hub de conjunto de dados
     footerLink:
       url: connect-data/index.yml
       text: Ver mais
@@ -155,9 +155,9 @@ conceptualContent:
     - url: collaborate-share/service-create-the-new-workspaces.md
       itemType: how-to-guide
       text: Criar as novas áreas de trabalho
-    - url: connect-data/service-datasets-across-workspaces.md
+    - url: collaborate-share/service-collaborate-microsoft-teams.md
       itemType: concept
-      text: Introdução aos conjuntos de dados partilhados
+      text: Colaborar no Microsoft Teams
     footerLink:
       url: collaborate-share/index.yml
       text: Ver mais
@@ -169,9 +169,9 @@ conceptualContent:
     - url: collaborate-share/service-analyze-in-excel.md
       itemType: concept
       text: Analisar no Excel
-    - url: collaborate-share/service-embed-report-spo.md
+    - url: collaborate-share/service-automate-power-bi-report-export.md
       itemType: concept
-      text: Incorporar no SharePoint Online
+      text: Exportar e enviar por e-mail com o Power Automate
     footerLink:
       url: collaborate-share/index.yml
       text: Ver mais

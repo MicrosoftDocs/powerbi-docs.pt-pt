@@ -6,18 +6,18 @@ metadata:
   description: A documentação do Power BI fornece informações de peritos e respostas para satisfazer as suas necessidades, independentemente de como utilizar o Power BI.
   services: powerbi
   ms.service: powerbi
-  ms.subservice: powerbi
+  ms.subservice: pbi-collaborate-share
   ms.topic: landing-page
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 03/03/2020
-  ms.openlocfilehash: 9b2f5fd70ed00dccb122fb4195284a1f3e0f75c2
-  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+  ms.date: 12/15/2020
+  ms.openlocfilehash: 641912026673d45c494d9350bdcc7d47e306138c
+  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 05/13/2020
-  ms.locfileid: "83275185"
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "97621746"
 landingContent:
 - title: Começar a colaborar e a partilhar
   linkLists:
@@ -25,18 +25,22 @@ landingContent:
     links:
     - text: Formas de partilhar o seu trabalho
       url: service-how-to-collaborate-distribute-dashboards-reports.md
-- title: Colaborar com colegas
-  linkLists:
-  - linkListType: concept
-    links:
-    - text: Introdução aos conjuntos de dados em áreas de trabalho
-      url: ../connect-data/service-datasets-across-workspaces.md
-    - text: Permissões de compilação para conjuntos de dados partilhados
-      url: ../connect-data/service-datasets-build-permissions.md
   - linkListType: how-to-guide
     links:
     - text: Organizar o trabalho nas novas áreas de trabalho
       url: service-new-workspaces.md
+- title: Colaborar no Microsoft Teams
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Colaborar no Microsoft Teams
+      url: service-collaborate-microsoft-teams.md
+  - linkListType: how-to-guide
+    links:
+    - text: Adicionar a aplicação do Power BI ao Microsoft Teams
+      url: service-microsoft-teams-app.md
+    - text: Conversar diretamente no Microsoft Teams
+      url: service-share-report-teams.md
 - title: Partilhar o seu trabalho
   linkLists:
   - linkListType: concept
@@ -65,3 +69,15 @@ landingContent:
     links:
     - text: Incorporar no SharePoint Online
       url: service-embed-report-spo.md
+- title: Integrar com o Power Automate
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Exportar relatórios paginados com o Power Automate
+      url: service-automate-paginated-integration.md
+  - linkListType: how-to-guide
+    links:
+    - text: Integrar alertas de dados no Power Automate
+      url: service-flow-integration.md
+    - text: Enviar relatórios do Power BI por e-mail com o Power Automate
+      url: service-automate-power-bi-report-export.md
