@@ -1,5 +1,5 @@
 ---
-title: Utilizar segurança de nível de linha com conteúdo incorporado do Power BI
+title: Utilizar segurança de nível de linha com conteúdos incorporados na análise incorporada do Power BI
 description: Saiba mais sobre os passos que precisa de tomar para incorporar conteúdo do Power BI na aplicação
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 09489c3dbb33e1c5fb289cc1cc132eae0083a95f
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 6f65bf5b430c5435936acbd3a7cdfbe4c57d1dec
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "96120791"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098013"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Segurança ao nível da linha com o Power BI Embedded
 

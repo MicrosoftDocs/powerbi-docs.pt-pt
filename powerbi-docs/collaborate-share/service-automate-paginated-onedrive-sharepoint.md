@@ -9,16 +9,17 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/17/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 4a0a504db15d78bec112aaafd2a972f066e88193
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6aaad48fb3e97aa6c1b4fc51834ee593a49a8192
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407682"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097737"
 ---
 # <a name="save-a-paginated-report-to-onedrive-for-business-or-sharepoint-online"></a>Guardar um relatório paginado no OneDrive para Empresas ou no SharePoint Online
 
 Com o [Power Automate](/power-automate/getting-started), pode automatizar a exportação e a distribuição de relatórios paginados do Power BI para vários cenários e formatos suportados. Neste artigo, vai utilizar o Power Automate para automatizar a ação de guardar um relatório paginado do Power BI numa pasta do OneDrive para Empresas ou do SharePoint Online.
+
 
 :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/paginated-onedrive-flow.png" alt-text="Captura de ecrã a mostrar o fluxo do Power Automate para guardar um relatório paginado no OneDrive ou no SharePoint Online":::
 
@@ -28,7 +29,7 @@ Procura outros modelos do Power Automate para os relatórios paginados do Power�
 
 Para acompanhar, confirme que tem:
 
-- Pelo menos, uma área de trabalho no inquilino do Power BI apoiado por uma capacidade reservada. Esta capacidade pode ser qualquer uma das SKUs A4/P1 – A6/P3. Leia mais sobre as [capacidades reservadas no Power BI Premium](../admin/service-premium-what-is.md).
+- Pelo menos, uma área de trabalho no inquilino do Power BI apoiado por uma capacidade reservada. Esta capacidade pode ser qualquer uma das SKUs A4/P1 – A6/P3. Leia mais sobre as [capacidades reservadas dos relatórios paginados no Power BI Premium](../admin/service-premium-what-is.md#paginated-reports)
 - Acesso aos conectores padrão no Power Automate, incluído em qualquer subscrição do Office 365.
 
 ## <a name="save-a-paginated-report-to-onedrive-for-business-or-a-sharepoint-online-folder"></a>Guardar um relatório paginado numa pasta do OneDrive para Empresas ou do SharePoint Online 
@@ -69,7 +70,7 @@ Com qualquer um destes modelos, vai configurar exportações recorrentes de um r
 
 1. Quando tiver terminado, selecione  **Passo seguinte**  ou **Guardar**. O Power Automate cria e avalia o fluxo e informa-o se encontrar erros. 
 
-1. Se existirem erros, selecione **Editar fluxo**  para os corrigir. Caso contrário, selecione a seta **Para trás** para apresentar os detalhes do fluxo e executar o novo fluxo. 
+1. Se existirem erros, selecione **Editar fluxo**  para os corrigir. Caso contrário, selecione a seta **Para trás** para ver os detalhes do fluxo e executar o novo fluxo. 
 
     Quando executa o fluxo, o Power Automate exporta um relatório paginado no formato especificado para o OneDrive para Empresas ou SharePoint Online.  
 

@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: how-to
 ms.date: 10/12/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 9c46188318ca5659f109ba8483c552d9ab43f932
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3d233736c55ea736da1ecc561c2936a0a9f42a09
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418676"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492179"
 ---
 # <a name="get-power-bi-desktop"></a>Obter o Power BI Desktop
 O Power BI Desktop permite-lhe criar consultas avançadas, modelos e relatórios que visualizam os dados. No Power BI Desktop, pode criar modelos de dados, criar relatórios e partilhar o seu trabalho ao publicar no serviço Power BI. A transferência do Power BI Desktop é gratuita.
@@ -102,7 +102,7 @@ A seguinte lista apresenta os requisitos mínimos para executar o Power BI Deskt
 > O Power BI Desktop deixará de ser suportado no Windows 7 após 31 de janeiro de 2021. Após essa data, o Power BI Desktop será suportado no Windows 8 ou em versões mais recentes do Windows, apenas na versão mais recente do Power BI Desktop. 
 
 * Windows 7/Windows Server 2008 R2 ou posterior
-* .NET 4.5
+* .NET 4.6.2
 * Internet Explorer 10 ou posterior
 * Memória (RAM): pelo menos 1 GB disponível, 1,5 GB ou mais, recomendado.
 * Ecrã: É necessária uma resolução de, pelo menos, 1440x900 ou 1600x900 (16:9). As resoluções mais baixas, como 1024x768 ou 1280x800 não são suportadas, pois determinados controlos (como fechar o ecrã de arranque) são apresentados fora dos limites destas resoluções.

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/04/2020
-ms.openlocfilehash: 5c897909d9fe31e4b22743a77058caba4767a579
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: a11ac8edb9abab29f58c3e4eda15ae204d105b26
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410143"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491742"
 ---
 # <a name="what-are-power-bi-template-apps"></a>O que são as aplicações de modelo do Power BI?
 
@@ -98,6 +98,7 @@ Para publicar uma aplicação de modelo no serviço Power BI e no AppSource, te
 - Utilize o AppSource como loja online para alojar a sua aplicação. Desta forma, todas as pessoas que utilizarem o Power BI podem encontrar a sua aplicação. 
 - Considere disponibilizar mais do que uma aplicação de modelo para cenários exclusivos separados. 
 - Ative a personalização de dados, tal como uma ligação de suporte personalizada e a configuração de parâmetro por parte do instalador.
+- Se for um ISV e estiver a distribuir a aplicação através do seu serviço Web, considere automatizar a configuração de parâmetros durante a instalação para facilitar a situação para os seus clientes e aumentar a probabilidade de uma instalação bem-sucedida. Para obter mais detalhes, veja [Configuração automatizada da instalação de uma aplicação de modelo](../developer/template-apps/template-apps-auto-install.md).
 
 Veja [Tips for authoring template apps in Power BI](service-template-apps-tips.md) (Sugestões para criar aplicações de modelo no Power BI) para obter mais sugestões.
 

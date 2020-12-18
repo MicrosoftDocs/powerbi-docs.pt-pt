@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 12/03/2020
+ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 01ba6c2e01b3e17a3ef9c878890877e0a0b976ea
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 84d60fce95172b419663ed7889d69e22ae1947cd
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613745"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491995"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Acerca de utilizar o DirectQuery no Power BI
 
@@ -81,7 +81,7 @@ Ao ligar ao SQL Server Analysis Services, existe uma opção para importar os da
 A situação descrita no parágrafo anterior aplica-se igualmente à ligação às seguintes origens, exceto que não há nenhuma opção para importar os dados:
 
 * Conjuntos de dados do Power BI, por exemplo, ao ligar a um conjunto de dados do Power BI que foi criado anteriormente e publicado no serviço, para criar um relatório novo com base no mesmo.
-* Common Data Services.
+* Microsoft Dataverse.
 
 O comportamento dos relatórios no SQL Server Analysis Services, após a publicação no serviço Power BI, é semelhante ao dos relatórios do DirectQuery nos seguintes aspetos:
 
@@ -334,6 +334,9 @@ Esta definição só será ativada quando existir pelo menos uma origem do Direc
 Aumentar o **Máximo de ligações por origem de dados** garante que podem ser enviadas mais consultas, até o número máximo especificado, para a origem de dados subjacente. Esta abordagem é útil se uma única página contiver vários elementos visuais ou muitos utilizadores acederem a um relatório ao mesmo tempo. Quando for atingido o número máximo de ligações, as consultas seguintes serão colocadas em fila até que uma ligação fique disponível. Aumentar o limite não resultará num maior carregamento na origem subjacente, pelo que a definição não garante melhorias do desempenho geral.
 
 Após a publicação de um relatório, o número máximo de consultas simultâneas enviadas para a origem de dados subjacente também depende dos limites fixados. Os limites dependem do ambiente de destino no qual o relatório é publicado. Diferentes ambientes, como o Power BI, o Power BI Premium ou o Power BI Report Server, podem impor diferentes limites.
+
+> [!NOTE]
+> A definição do número máximo de ligações do DirectQuery aplica-se a todas as origens do DirectQuery quando os [metadados melhorados](desktop-enhanced-dataset-metadata.md) estão ativados, o que é a predefinição de todos os modelos criados no Power BI Desktop a partir de outubro de 2020. 
 
 ### <a name="diagnosing-performance-issues"></a>Diagnosticar problemas de desempenho
 

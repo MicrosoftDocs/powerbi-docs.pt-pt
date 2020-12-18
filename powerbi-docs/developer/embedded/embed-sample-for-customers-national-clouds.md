@@ -1,5 +1,5 @@
 ---
-title: Incorporar conteúdos na sua aplicação para clouds nacionais e governamentais
+title: Incorporar conteúdos na aplicação de análise incorporada do Power BI para a cloud nacional e governamental
 description: Saiba como integrar ou incorporar um relatório, dashboard ou mosaico numa aplicação com as APIs do Power BI para análise incorporada para os seus clientes. Saiba como integrar o Power BI na sua aplicação com software de análise incorporada, ferramentas de análise incorporada ou ferramentas de business intelligence incorporada para clouds nacionais e governamentais.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18, devx-track-js
 ms.date: 02/05/2019
-ms.openlocfilehash: 9b5382510fe69b998855071dbcfe654629e73820
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9aa49e9f9df048b5c71b644c40a414159341c321
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417204"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098151"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Tutorial: Incorporar conteúdos do Power BI na sua aplicação para clouds nacionais
 

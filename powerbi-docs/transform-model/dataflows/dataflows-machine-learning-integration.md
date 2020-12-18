@@ -9,12 +9,12 @@ ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 60214c16cbd287a30631e7ad9fbab274cb8f4cb0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 22fa980230b01132c8cb4faa6e7e959409f19f1b
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414306"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353134"
 ---
 # <a name="ai-with-dataflows"></a>IA com fluxos de dados
 
@@ -456,14 +456,14 @@ Este artigo forneceu uma descrição geral do Machine Learning Automatizado para
 
 - [Tutorial: Criar um modelo de Machine Learning no Power BI ](../../connect-data/service-tutorial-build-machine-learning-model.md)
 - [Tutorial: Utilizar os Serviços Cognitivos no Power BI](../../connect-data/service-tutorial-use-cognitive-services.md)
-- [Tutorial: Invocar um modelo do Machine Learning Studio (clássico) no Power BI (Pré-visualização)](../../connect-data/service-tutorial-invoke-machine-learning-model.md)
+- [Tutorial: Consumir modelos do Azure Machine Learning no Power BI](../../connect-data/service-aml-integrate.md)
 
 Os seguintes artigos fornecem mais informações sobre as fluxos de dados e o Power BI:
 
 * [Introdução aos fluxos de dados e à preparação personalizada de dados](dataflows-introduction-self-service.md)
 * [Criar um fluxo de dados](dataflows-create.md)
 * [Configurar e consumir um fluxo de dados](dataflows-configure-consume.md)
-* [Configurar o armazenamento do fluxo de dados para utilizar o Azure Data Lake Gen 2](dataflows-azure-data-lake-storage-integration.md)
+* [Configurar o armazenamento do fluxo de dados para utilizar o Azure Data Lake Gen2](dataflows-azure-data-lake-storage-integration.md)
 * [Funcionalidades Premium do fluxo de dados](dataflows-premium-features.md)
 * [Limitações e considerações dos fluxo de dados](dataflows-features-limitations.md)
 * [Melhores práticas dos fluxos de dados](dataflows-best-practices.md)

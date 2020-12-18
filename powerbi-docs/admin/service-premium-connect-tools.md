@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/01/2020
+ms.date: 12/09/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b238daa82bc2ae039c137c259ca8f63044281e6f
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 383c9bd20c86d89c5bf51c64c8027f86c1bfaab9
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613722"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998973"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>Dataset connectivity with the XMLA endpoint (Conectividade dos conjuntos de dados com o ponto final XMLA)
 
@@ -34,9 +34,9 @@ Por predefinição, a conectividade *só de leitura* através do ponto final est
 
 Abaixo, estão algumas das ferramentas mais comuns utilizadas com o Azure Analysis Services e o SQL Server Analysis Services, agora suportadas por conjuntos de dados do Power BI Premium:
 
-**Visual Studio com projetos do Analysis Services**  – também conhecido como SQL Server Data Tools, ou simplesmente **SSDT**, esta é uma ferramenta de criação de modelos de nível empresarial para modelos tabulares do Analysis Services. As extensões dos projetos do Analysis Services são suportadas em todas as edições do Visual Studio 2017 e posteriores, incluindo a Community Edition gratuita. É necessária a extensão com a versão 2.9.6 ou superior para implementar os modelos tabulares numa área de trabalho Premium. Ao implementar numa área de trabalho Premium, o modelo tem de estar no nível de compatibilidade de 1500 ou superior. A leitura/escrita XMLA é necessária na carga de trabalho dos conjuntos de dados. Para obter mais informações, veja [Tools for Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true) (Ferramentas do Analysis Services).
+**Visual Studio com projetos do Analysis Services**  – também conhecido como SQL Server Data Tools, ou simplesmente **SSDT**, esta é uma ferramenta de criação de modelos de nível empresarial para modelos tabulares do Analysis Services. As extensões dos projetos do Analysis Services são suportadas em todas as edições do Visual Studio 2017 e posteriores, incluindo a Community Edition gratuita. É necessária a extensão com a versão 2.9.14 ou superior para implementar os modelos tabulares numa área de trabalho Premium. Ao implementar numa área de trabalho Premium, o modelo tem de estar no nível de compatibilidade de 1500 ou superior. A leitura/escrita XMLA é necessária na carga de trabalho dos conjuntos de dados. Para obter mais informações, veja [Tools for Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true) (Ferramentas do Analysis Services).
 
-**SQL Server Management Studio (SSMS)**   – suporta consultas DAX, MDX, XMLA. Execute operações de atualização detalhadas e scripting de metadados de conjuntos de dados com a [Tabular Model Scripting Language](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (Linguagem TMSL). É necessária a permissão só de leitura para as operações de consulta. É necessária a permissão de leitura/escrita para o scripting de metadados. É necessário o SSMS com a versão 18.4 ou superior. Faça o download  [aqui](/sql/ssms/download-sql-server-management-studio-ssms).
+**SQL Server Management Studio (SSMS)**   – suporta consultas DAX, MDX, XMLA. Execute operações de atualização detalhadas e scripting de metadados de conjuntos de dados com a [Tabular Model Scripting Language](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (Linguagem TMSL). É necessária a permissão só de leitura para as operações de consulta. É necessária a permissão de leitura/escrita para o scripting de metadados. É necessário o SSMS com a versão 18.7.1 ou superior. Faça o download  [aqui](/sql/ssms/download-sql-server-management-studio-ssms).
 
 **SQL Server Profiler**  – instalado com o SSMS, esta ferramenta permite o rastreio e a depuração de eventos de conjuntos de dados. Embora oficialmente preterido para o SQL Server, o Profiler continua a ser incluído no SSMS e continua a ser suportado para o Analysis Services e o Power BI Premium. É necessária a permissão só de leitura XMLA. Para obter mais informações, veja  [SQL Server Profiler for Analysis Services](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current&preserve-view=true) (SQL Server Profiler para o Analysis Services).
 

@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 06/18/2020
+ms.date: 12/14/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 424f3cc7412813cb9ea9f401d6edd22257e8d14a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5b26f8fe04c7aaf6847de50398c54db6a3870844
+ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411799"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97513787"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>Formas de colaborar e partilhar no Power BI
 
@@ -27,22 +27,22 @@ Acabou de criar dashboards e relatórios. Quer colaborar com os seus colegas nos
 
 **Colaborar**
 
-- Colabore com colegas em *áreas de trabalho* para criar relatórios e dashboards relevantes.
-- Colabore no *Microsoft 365*.
+- [Colabore com colegas em *áreas de trabalho*](#collaborate-in-a-workspace) para criar relatórios e dashboards relevantes.
+- [Colabore no *Microsoft Teams*](#collaborate-in-microsoft-teams).
 
 **Distribuir ou partilhar dashboards e relatórios**
 
-- *Partilhe dashboards ou relatórios* a partir de A Minha Área de Trabalho ou de outra área de trabalho.
-- Anote e partilhe a partir das *aplicações móveis* do Power BI.
-- Agrupe dashboards e relatórios em áreas de trabalho em *aplicações* e distribua-os num grupo maior ou para toda a organização.
-- Incorpore relatórios em *sites públicos* ou *portais seguros*.
-- Imprima relatórios.
-- Crie uma *aplicação de modelo* que possa ser distribuída para utilizadores externos do Power BI, através do Microsoft AppSource.
+- [*Partilhe dashboards ou relatórios*](#share-dashboards-and-reports) a partir de A Minha Área de Trabalho ou de outra área de trabalho.
+- Anote e [partilhe a partir das *aplicações móveis* do Power BI](#annotate-and-share-from-the-power-bi-mobile-apps).
+- Agrupe dashboards e relatórios em áreas de trabalho em *aplicações* e [distribua-as](#distribute-insights-in-an-app) num grupo maior ou para toda a organização.
+- [Incorpore relatórios](#embed-reports-in-secure-portals-or-public-web-sites) em *sites públicos* ou *portais seguros*.
+- [Imprima relatórios](#print-or-save-as-pdf-or-other-static-file).
+- [Crie uma *aplicação de modelo*](#create-and-deploy-template-apps) que possa ser distribuída para utilizadores externos do Power BI, através do Microsoft AppSource.
  
 **Partilhar dados**
 
-- Crie *conjuntos de dados partilhados* que os seus colegas possam utilizar como base para os seus próprios relatórios, nas suas próprias áreas de trabalho.
-- Crie *fluxos de dados* como uma forma de partilhar uma origem de dados comum.
+- [Crie *conjuntos de dados partilhados*](#share-a-dataset) que os seus colegas possam utilizar como base para os seus próprios relatórios, nas suas próprias áreas de trabalho.
+- [Crie *fluxos de dados*](#create-dataflows) como uma forma de partilhar uma origem de dados comum.
 
 Seja qual for a sua escolha, para partilhar os seus conteúdos, precisa de uma [licença do Power BI Pro](../fundamentals/service-features-license-type.md) ou os conteúdos precisam de estar numa [capacidade Premium](../admin/service-premium-what-is.md). Os requisitos de licença variam para os colegas que veem os seus conteúdos, consoante a opção que selecionar. As secções seguintes indicam detalhes. 
 
@@ -67,7 +67,7 @@ Leia mais sobre como [criar novas áreas de trabalho](service-create-the-new-wor
 
 ## <a name="collaborate-in-microsoft-teams"></a>Colaborar no Microsoft Teams
 
-Aumente a colaboração orientada por dados na sua organização ao incorporar os seus relatórios do Power BI e os relatórios paginados do Power BI no Microsoft Teams. O serviço Power BI tem um botão **Partilhar no Teams** para relatórios. Pode adicionar separadores do Power BI diferentes para cada relatório individual e dar a cada separador o nome do relatório ou qualquer outro nome. 
+Aumente a colaboração orientada por dados na sua organização ao incorporar os seus relatórios do Power BI e os relatórios paginados do Power BI no Microsoft Teams. O serviço Power BI tem um botão **Conversar no Teams** para relatórios. Pode adicionar separadores do Power BI diferentes para cada relatório individual e dar a cada separador o nome do relatório ou qualquer outro nome. 
 
 Quando adiciona um separador de relatório do Power BI ao Microsoft Teams, o Teams cria automaticamente um separador de conversa para o relatório. Todas as pessoas nesse canal do Microsoft Teams podem ver e debater o relatório na conversa. 
 
@@ -77,7 +77,7 @@ Leia mais sobre como [colaborar no Microsoft Teams com o Power BI](service-coll
 
 ## <a name="share-dashboards-and-reports"></a>Partilhar dashboards e relatórios
 
-Imaginemos que finalizou um relatório no Power BI Desktop e quer que outras pessoas tenham acesso ao mesmo. Uma forma de o conseguir é *partilhá-lo* no serviço Power BI. Pode publicá-lo na sua própria A Minha Área de Trabalho ou noutra área de trabalho. Talvez esteja preparado para criar um dashboard para o acompanhar.
+Imaginemos que o seu relatório no Power BI Desktop está pronto e quer que outras pessoas tenham acesso ao mesmo. Uma forma de o conseguir é *partilhá-lo* no serviço Power BI. Pode publicá-lo na sua própria A Minha Área de Trabalho ou noutra área de trabalho. Talvez esteja preparado para criar um dashboard para o acompanhar.
 
 ![Partilhar um relatório](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
@@ -118,14 +118,14 @@ Também pode publicar aplicações para os utilizadores exteriores à sua organi
 ### <a name="embed-in-secure-portals"></a>Incorporar em portais seguros
 
 Pode incorporar relatórios do Power BI nos portais ou sites onde os seus utilizadores esperam vê-los.  
-Com as opções **Incorporar no SharePoint Online** e **Incorporar** no serviço Power BI, pode incorporar relatórios para os utilizadores internos de forma segura. Independentemente da opção que escolher, o Power BI aplica todas as permissões e a segurança dos dados antes de os utilizadores poderem ver os conteúdos. A pessoa que vir o relatório precisa da licença adequada.  
+Com as opções **Incorporar no SharePoint Online** e **Incorporar** no serviço Power BI, pode incorporar relatórios para os utilizadores internos de forma segura. Independentemente da opção que escolher, o Power BI aplica todas as permissões e a segurança dos dados antes de os utilizadores verem os conteúdos. A pessoa que vir o relatório precisa da licença adequada.  
 
 - A opção **Incorporar no SharePoint Online** funciona com a peça Web do Power BI para o SharePoint Online. Fornece uma experiência de início de sessão único com controlo sobre a forma como o relatório é incorporado. Leia mais sobre como [Incorporar no SharePoint Online](service-embed-report-spo.md).
 - A opção **Incorporar** funciona com qualquer portal ou site que suporte a incorporação de conteúdos através de um URL ou iFrame. Leia mais sobre a opção [Incorporar](service-embed-secure.md).
 
 ### <a name="publish-to-public-web-sites"></a>Publicar em sites públicos
 
-Com a opção **Publicar na Web**, pode publicar relatórios do Power BI para toda a Internet ao incorporar visualizações em mensagens de blogue, sites, redes sociais e outras comunicações online. Qualquer pessoa na Internet pode ver os seus relatórios e o utilizador não pode controlar quem vê o que publicou. As pessoas não precisam de uma licença do Power BI. A publicação na Web só está disponível para relatórios que o utilizador pode editar. Não pode publicar relatórios na Web se estes forem partilhados consigo ou se estiverem numa aplicação. Leia sobre como [publicar na Web](service-publish-to-web.md).
+A opção **Publicar na Web** permite-lhe publicar relatórios do Power BI para toda a Internet ao incorporar visualizações em mensagens de blogue, sites, redes sociais e outras comunicações online. Qualquer pessoa na Internet pode ver os seus relatórios e o utilizador não pode controlar quem vê o que publicou. As pessoas não precisam de uma licença do Power BI. A publicação na Web só está disponível para relatórios que o utilizador pode editar. Não pode publicar relatórios na Web se estes forem partilhados consigo ou se estiverem numa aplicação. Leia sobre como [publicar na Web](service-publish-to-web.md).
 
 >[!Warning]
 >Utilize a opção [Publicar na Web](service-publish-to-web.md) apenas para partilhar conteúdos publicamente e não internamente.

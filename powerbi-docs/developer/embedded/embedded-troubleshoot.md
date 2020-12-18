@@ -1,5 +1,5 @@
 ---
-title: Resolução de problemas de aplicações incorporadas
+title: Resolver problemas da aplicação de análise incorporada do Power BI
 description: Este artigo aborda alguns problemas comuns que poderá encontrar ao incorporar conteúdos do Power BI.
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f46bdf5aec254763257fa4b121b4b8c135a0d58a
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749075"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098082"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Resolver problemas da sua aplicação incorporada
 
@@ -101,7 +101,7 @@ HTTP/1.1 403 Forbidden
 
 ### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>A autenticação falhou com o erro AADSTS90002: Inquilino "autorizar" não encontrado
 
- Se estiver a receber mensagens como ***error: invalid_request, error_description: AADSTS90002: Inquilino "autorizar" não encontrado*** ao iniciar sessão, isto é porque a ADAL 4.x não suporta "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/" como um URL de autoridade.
+ Se estiver a receber mensagens como ***error: invalid_request, error_description: AADSTS90002: Inquilino "autorizar" não encontrado** ao iniciar sessão_, isto é porque a ADAL 4.x não suporta "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/" como um URL de autoridade.
  
 Para resolver este problema, deve retirar "oauth2/authorize/" do final do seu URL de autoridade. Para obter mais informações, veja [Power BI Developer Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) (Exemplos para Programadores do Power BI).
 
@@ -109,15 +109,15 @@ Para resolver este problema, deve retirar "oauth2/authorize/" do final do seu UR
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>A autenticação falhou com o erro AADSTS70002 ou AADSTS50053
 
-**_(AADSTS70002: Erro ao validar as credenciais. AADSTS50053: Tentou iniciar sessão demasiadas vezes com um ID de Utilizador ou palavra-passe incorreta)_**
+_*_ (AADSTS70002: Erro ao validar as credenciais. AADSTS50053: Tentou iniciar sessão demasiadas vezes com um ID de Utilizador ou palavra-passe incorreta)_**
 
-Se estiver a utilizar o Power BI Embedded e a Autenticação Direta do Azure AD e estiver a receber mensagens ao iniciar sessão, tal como ***error:unauthorized_client, error_description:AADSTS70002: Erro ao validar as credenciais. AADSTS50053: Tentou iniciar sessão demasiadas vezes com um ID de Utilizador ou palavra-passe incorreta***, porque a autenticação direta já não está em utilização desde 14 de junho de 2018 por predefinição.
+Se estiver a utilizar o Power BI Embedded e a autenticação Direta do Azure AD e estiver a receber mensagens ao iniciar sessão, tal como **_error:unauthorized_client, error_description:AADSTS70002: Erro ao validar as credenciais. AADSTS50053: Tentou iniciar sessão demasiadas vezes com um ID de Utilizador ou palavra-passe incorreta_* _, porque a autenticação direta já não está em utilização desde 14 de junho de 2018 por predefinição.
 
 Existe uma forma de ativar esta opção novamente com uma [Política do Azure AD](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) definida para a organização ou para um [principal de serviço](/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
 Recomendamos que ative esta política apenas com base em cada aplicação.
 
-Para criar esta política, tem de ser um **Administrador Global** do diretório para o qual está a criar e atribuir a política. Eis um script de exemplo para criar a política e atribuí-la ao SP para esta aplicação:
+Para criar esta política, tem de ser um _ *Administrador Global** do diretório para o qual está a criar e atribuir a política. Eis um script de exemplo para criar a política e atribuí-la ao SP para esta aplicação:
 
 1. Instale o [Módulo PowerShell do Azure AD Preview](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 

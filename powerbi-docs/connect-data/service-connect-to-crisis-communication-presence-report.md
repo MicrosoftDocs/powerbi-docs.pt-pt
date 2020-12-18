@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/06/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7cce4f9e78fce27fedf795a4a0016593580f061a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e9fd1179dc15776cef701476d38b18823f3a8deb
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96403174"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998805"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>Ligar ao Crisis Communication Presence Report (Relatório de Presença de Comunicação de Crise)
 
@@ -57,9 +57,6 @@ Ao instalar o exemplo Crisis Communication (Comunicação de Crise), anote o [ca
 
 1. Selecione o ícone na página Aplicações para abrir a aplicação.
 
-1. No ecrã inicial, selecione **Explorar**.
-
-   ![Ecrã inicial da aplicação de modelo](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-splash-screen.png)
 
    A aplicação é aberta e apresenta dados de exemplo.
 
@@ -101,7 +98,7 @@ Quando a atualização de dados for concluída, [configure uma agenda de atualiz
 
 Para obter detalhes, veja [Personalizar e partilhar a aplicação](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Certifique-se de que revê as [isenções de responsabilidade do relatório](../create-reports/sample-covid-19-us.md#disclaimers) antes de publicar ou distribuir a aplicação.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * [Configurar e saber mais sobre o modelo de exemplo Crisis Communication (Comunicação de Crise) no Power Apps](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 * [O que são as aplicações de modelo do Power BI?](../connect-data/service-template-apps-overview.md)

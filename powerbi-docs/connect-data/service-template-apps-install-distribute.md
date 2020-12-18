@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.openlocfilehash: b60728978a3429249d7376fdfe1477bf67ef293a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e6499d9e4547f1bd2b8cf4ac29fbc375af871f8a
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96402001"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998674"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Instalar e distribuir aplicações de modelo na sua organização
 
@@ -64,10 +64,6 @@ Para instalar, personalizar e distribuir uma aplicação de modelo, precisa do s
 ## <a name="connect-to-data"></a>Ligar-se a dados
 
 1. Selecione **Ir para a aplicação**.
-
-1. Na janela **Comece já com a sua nova aplicação** , selecione **Explorar**.
-
-   ![Ecrã inicial da aplicação de modelo](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
 
    A aplicação é aberta e apresenta dados de exemplo.
 
@@ -138,6 +134,20 @@ Se transferiu originalmente a aplicação do AppSource, quando for disponibiliza
 
 >[!IMPORTANT]
 >Lembre-se de [atualizar a aplicação](#customize-and-share-the-app) depois da substituição para aplicar as alterações aos relatórios e ao dashboard para os utilizadores da aplicação da organização.
+
+## <a name="delete-a-template-app"></a>Eliminar uma aplicação de modelo
+
+Uma aplicação de modelo instalada consiste na aplicação e na respetiva área de trabalho associada. Se quiser remover a aplicação de modelo, terá duas opções:
+* **Remover completamente a aplicação e a área de trabalho associada**: para remover completamente a aplicação de modelo e a área de trabalho associada, aceda ao mosaico da aplicação na página Aplicações, selecione o ícone de lixo e clique em **Eliminar** na caixa de diálogo que aparece.
+* **Anular a publicação da aplicação**: esta opção remove a aplicação, mas mantém a área de trabalho associada. Esta opção será útil se, por exemplo, tiver feito personalizações que pretenda manter.
+
+    Para anular a publicação da aplicação:
+    1. Abra a aplicação.
+    1. Clique no ícone de lápis Editar aplicação para abrir a área de trabalho da aplicação de modelo.
+    1. Na área de trabalho da aplicação de modelo, selecione **Mais opções (...)** e, em seguida, selecione **Anular Publicação da Aplicação**.
+
+        ![Captura de ecrã a mostrar a opção Anular publicação da aplicação.](media/service-template-apps-install-distribute/power-bi-template-app-unpublish.png)
+
 
 ## <a name="next-steps"></a>Próximos passos
 

@@ -1,5 +1,5 @@
 ---
-title: Registar uma aplicação para incorporar conteúdo do Power BI
+title: Registar uma aplicação para incorporar conteúdo do Power BI numa aplicação de análise incorporada
 description: Saiba como registar uma aplicação no Azure Active Directory para utilizar ao incorporar conteúdo do Power BI.
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: 845499bc236489932bf1347c43f7a5ba71c21a6b
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 98956beb3e5a106b885ecbca187521f85917f25e
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96907331"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098220"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Registar uma aplicação do Azure AD para utilizar com o Power BI
 

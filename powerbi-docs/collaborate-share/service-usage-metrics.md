@@ -1,6 +1,6 @@
 ---
-title: Monitorizar as métricas de utilização para dashboards e relatórios
-description: Como ver, guardar e utilizar as métricas de utilização para relatórios e dashboards do Power BI.
+title: Monitorizar métricas de utilização em áreas de trabalho clássicas
+description: Como ver, guardar e utilizar as métricas de utilização para relatórios e dashboards do Power BI em áreas de trabalho clássicas.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,18 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 12/15/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e9247e16704ccbbee466a5f85f3a2814bdfc521f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b7184f00af46ce5f49df2510ea5e676c89a37a7a
+ms.sourcegitcommit: fef29a5c5bf1e0dae663c42c9ce5ae50e29ae9be
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411638"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97558499"
 ---
-# <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Monitorizar as métricas de utilização para dashboards e relatórios do Power BI
+# <a name="monitor-usage-metrics-in-classic-workspaces"></a>Monitorizar métricas de utilização em áreas de trabalho clássicas
 
-Se criar dashboards e relatórios, a métrica de utilização ajuda-o a compreender o respetivo impacto. Quando executa as métricas de utilização de dashboards ou as métricas de utilização de relatórios, pode verificar como esses dashboards e relatórios estão a ser utilizados em toda a organização, quem os está a utilizar e com que finalidade.  
+As métricas de utilização ajudam-no a compreender o impacto dos seus relatórios e dashboards. Quando executa as métricas de utilização de dashboards ou as métricas de utilização de relatórios, pode verificar como esses dashboards e relatórios estão a ser utilizados em toda a organização, quem os está a utilizar e com que finalidade. Este artigo descreve os relatórios de métricas de utilização para [áreas de trabalho clássicas](service-create-workspaces.md). Se os seus relatórios estiverem numa das novas áreas de trabalho, veja o artigo [Monitorizar as métricas de utilização na nova experiência de área de trabalho](service-usage-metrics.md)  
 
 Os relatórios de métricas de utilização são só de leitura. No entanto, pode copiar um relatório de métricas de utilização. A cópia cria um relatório padrão do Power BI que poderá editar. Também pode criar os seus próprios relatórios no Power BI Desktop com base no conjunto de dados subjacente, que contém as métricas de utilização para todos os dashboards ou relatórios numa área de trabalho. Para começar, o relatório copiado mostra métricas apenas para o dashboard ou relatório selecionados. Pode remover o filtro predefinido e ter acesso ao conjunto de dados subjacente, com todas as métricas de utilização da área de trabalho selecionada. Poderá até ver os nomes de utilizadores específicos, se o administrador tiver dado permissão para tal.
 
@@ -70,7 +70,7 @@ Pode executar relatórios de métricas de utilização apenas no serviço Power 
 
 ## <a name="about-the-usage-metrics-report"></a>Sobre o relatório da métrica de utilização
 
-Quando seleciona **Métrica de utilização** ou o ![ícone de métrica de utilização](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) junto a um dashboard ou relatório, o Power BI gera um relatório pré-concebido com as métricas de utilização para esse conteúdo relativo aos últimos 90 dias.  O relatório tem um aspeto semelhante aos relatórios do Power BI com que já está familiarizado. Poderá segmentar com base na forma como os utilizadores finais receberam acesso, quer estivessem a aceder através da Web ou da aplicação móvel, etc. À medida que os seus dashboards e relatórios evoluem, o mesmo se passa com o relatório de métrica de utilização, que é atualizado todos os dias com novos dados.  
+Quando seleciona **Métrica de utilização** ou o ![ícone de métrica de utilização](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) junto a um dashboard ou relatório, o Power BI gera um relatório pré-concebido com as métricas de utilização para esse conteúdo relativo aos últimos 90 dias.  O relatório tem um aspeto semelhante aos relatórios do Power BI com que já está familiarizado. Poderá segmentar com base na forma como os utilizadores finais receberam acesso, quer estivessem a aceder através da Web ou da aplicação móvel e assim por diante. À medida que os seus dashboards e relatórios evoluem, o mesmo se passa com o relatório de métrica de utilização, que é atualizado todos os dias com novos dados.  
 
 Os relatórios de métricas de utilização não aparecem em **Recente**, **Áreas de trabalho**, **Favoritos** ou outras listas de conteúdo. Não podem ser adicionados a uma aplicação. Se afixar um mosaico de um relatório de métrica de utilização a um dashboard, não poderá adicionar esse dashboard a uma aplicação.
 
@@ -87,7 +87,7 @@ Para examinar os dados do relatório ou criar os seus próprios relatórios face
 | --- | --- | --- | --- |
 | Segmentação de dados por método de distribuição |sim |sim |Como os utilizadores obtêm acesso ao conteúdo. Existem 3 métodos possíveis: os utilizadores podem aceder a dashboard ou ao relatório devido ao facto de serem membros de uma [área de trabalho](../consumer/end-user-experience.md), ao terem o conteúdo [partilhado com os mesmos](service-share-dashboards.md) ou ao instalarem uma aplicação/pacote de conteúdos.  Tenha em atenção que as vistas através de uma aplicação são contadas como "pacote de conteúdos". |
 | Segmentação de dados de plataformas |sim |sim |O dashboard ou o relatório foram acedidos através do serviço Power BI (powerbi.com) ou de um dispositivo móvel? Mobile inclui todas as nossas aplicações iOS, Android e Windows. |
-| Segmentação de dados de uma página de relatório |não |sim |Se o relatório tem mais de 1 página, segmente o relatório pela(s) página (s) que foi(ram) visualizada(s). Se vir uma opção de lista para "Em branco", isso significa que uma página do relatório foi adicionada recentemente (dentro de 24 horas, o nome real da nova página é apresentado na lista de segmentação de dados) e/ou as páginas de relatórios foram eliminadas. "Em branco" captura estes tipos de situações. |
+| Segmentação de dados de uma página de relatório |não |sim |Se o relatório tem mais de 1 página, segmente o relatório pela(s) página (s) que foi(ram) visualizada(s). "Em branco" significa que uma página do relatório foi adicionada recentemente (dentro de 24 horas, o nome real da nova página é apresentado na lista de segmentação de dados) ou as páginas de relatórios foram eliminadas. "Em branco" captura estes tipos de situações. |
 | Views per day |sim |sim |Número total de visualizações por dia - uma visualização é definida como um utilizador a carregar uma página do relatório ou dashboard. |
 | Unique viewers per day |sim |sim |Número de utilizadores *diferentes* que visualizaram o dashboard ou o relatório (com base na conta de utilizador do AAD). |
 | Visualizações por utilizador |sim |sim |Número de visualizações nos últimos 90 dias, apresentadas por utilizadores individuais. |
@@ -95,7 +95,7 @@ Para examinar os dados do relatório ou criar os seus próprios relatórios face
 | Total views |sim |sim |Número de visualizações nos últimos 90 dias. |
 | Total viewers |sim |sim |Número de visualizações exclusivas nos últimos 90 dias. |
 | Total shares |sim |não |Número de vezes que o dashboard ou o relatório foi partilhado nos últimos 90 dias. |
-| Total de organizações |sim |sim |Número de todos os dashboards ou relatórios em toda a organização que tenha pelo menos uma visualização nos últimos 90 dias.  Utilizado para calcular a classificação. |
+| Total de organizações |sim |sim |Número de todos os dashboards ou relatórios em toda a organização que tiveram pelo menos uma visualização nos últimos 90 dias.  Utilizado para calcular a classificação. |
 | Posição: Total views |sim |sim |Para saber o total de visualizações de todos os dashboards ou de relatórios na organização nos últimos 90 dias, qual é a classificação do dashboard ou do relatório. |
 | Posição: Total shares |sim |não |Para saber o total de partilhas de todos os dashboards na organização nos últimos 90 dias, qual é a classificação do dashboard ou do relatório. |
 
@@ -103,7 +103,7 @@ Para examinar os dados do relatório ou criar os seus próprios relatórios face
 
 Utilize **Guardar como** para converter o relatório de métrica de utilização num relatório do Power BI normal que pode personalizar para atender às suas necessidades específicas. Também pode utilizar o Power BI Desktop para criar relatórios de métrica de utilização personalizados com base no conjunto de dados subjacente. Veja [Estabelecer uma ligação com um conjunto de dados publicado](../connect-data/desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset) para obter detalhes.
 
-Melhor ainda, o conjunto de dados subjacente inclui os detalhes de utilização de todos os dashboards ou de relatórios na área de trabalho. Tal abre mais possibilidades. Pode, por exemplo, criar um relatório que compara todos os dashboards na sua área de trabalho com base na utilização. Como alternativa, pode criar um dashboard de métrica de utilização para a sua aplicação do Power BI ao agregar a utilização de todo o conteúdo distribuído nessa aplicação.  Veja como remover o filtro e como [ver todas as métricas de utilização da área de trabalho](#see-all-workspace-usage-metrics) mais adiante neste artigo.
+Melhor ainda, o conjunto de dados subjacente inclui os detalhes de utilização de todos os dashboards ou de relatórios na área de trabalho. Tal abre mais possibilidades. Pode, por exemplo, criar um relatório que compara os dashboards na sua área de trabalho com base na utilização. Como alternativa, pode criar um dashboard de métrica de utilização para a sua aplicação do Power BI ao agregar a utilização de todo o conteúdo distribuído nessa aplicação.  Veja como remover o filtro e como [ver todas as métricas de utilização da área de trabalho](#see-all-workspace-usage-metrics) mais adiante neste artigo.
 
 ### <a name="create-a-copy-of-the-usage-report"></a>Criar uma cópia do relatório de utilização
 
@@ -112,7 +112,7 @@ Quando cria uma cópia do relatório de utilização pré-concebido e só de lei
 1. A partir do relatório de métrica de utilização pré-construído, selecione **Ficheiro > Guardar como**. O Power BI cria um relatório do Power BI editável, guardado na área de trabalho atual.
 
     ![Guardar como](media/service-usage-metrics/power-bi-save-as.png)
-2. Abra o relatório na vista Editar e [interaja este, tal como faria com qualquer outro relatório do Power BI](../create-reports/service-interact-with-a-report-in-editing-view.md). Por exemplo, adicione novas páginas e crie novas visualizações, adicione filtros, formate os tipos de letra e cores, etc.
+2. Abra o relatório na vista Editar e [interaja este, tal como faria com qualquer outro relatório do Power BI](../create-reports/service-interact-with-a-report-in-editing-view.md). Por exemplo, adicione novas páginas e crie novas visualizações, adicione filtros, formate os tipos de letra e cores, entre outros.
 
     ![Abrir um relatório na vista de Edição](media/service-usage-metrics/power-vi-editing-view.png)
 3. O novo relatório é guardado no separador **Relatórios** na área de trabalho atual e é adicionado à lista de conteúdo **Recente**.
@@ -141,24 +141,28 @@ Os relatórios de métricas de utilização são uma funcionalidade que o admini
 
 Por predefinição, os dados por utilizador estão ativados para métricas de utilização e as informações da conta do consumidor de conteúdos estão incluídas no relatório de métricas. Se os administradores não quiserem incluir estas informações para alguns ou para todos os utilizadores, podem desativar a funcionalidade para grupos de segurança específicos ou para toda a organização. As informações da conta são apresentadas no relatório como *Sem nome*.
 
-Ao desativar as métricas de utilização para toda a respetiva organização, os administradores podem utilizar a opção **Eliminar todo o conteúdo das métricas de utilização existente** para eliminar todos os relatórios e mosaicos de dashboards existentes que foram criados com os relatórios de métrica de utilização. Esta opção remove todo o acesso a dados da métrica de utilização por parte de todos os utilizadores na organização que possam estar a utilizá-lo. A eliminação do conteúdo das métricas de utilização existente é irreversível.
+Ao desativar as métricas de utilização para toda a respetiva organização, os administradores podem utilizar a opção **Eliminar todo o conteúdo das métricas de utilização existente** para eliminar todos os relatórios e mosaicos de dashboards existentes que foram criados com os relatórios de métrica de utilização. Esta opção remove o acesso a dados da métrica de utilização por parte dos utilizadores na organização que possam estar a utilizá-lo. A eliminação do conteúdo das métricas de utilização existente é irreversível.
 
 Veja [Controlar métricas de utilização](../admin/service-admin-portal.md#control-usage-metrics) no artigo do Portal de administração para obter detalhes sobre estas definições. 
 
 ## <a name="usage-metrics-in-national-clouds"></a>Métricas de utilização em clouds nacionais
 
-O Power BI está disponível em clouds nacionais separadas. Estas clouds oferecem os mesmos níveis de segurança, privacidade, conformidade e transparência que a versão global do Power BI, combinado com um modelo exclusivo para regulamentações locais sobre a entrega do serviço, residência dos dados, acesso e controlo. Devido a este modelo exclusivo para regulamentações locais, as métricas de utilização não estão disponíveis em clouds nacionais. Para obter mais informações, veja as [clouds nacionais](https://powerbi.microsoft.com/clouds/).
+O Power BI está disponível em clouds nacionais separadas. Estas clouds oferecem os mesmos níveis de segurança, privacidade, conformidade e transparência que a versão global do Power BI, combinado com um modelo exclusivo para regulamentações locais sobre a entrega do serviço, residência dos dados, acesso e controlo. Devido a este modelo exclusivo para regulamentações locais, as métricas de utilização não estão disponíveis em clouds nacionais. Para obter mais informações, veja as [clouds nacionais](https://powerbi.microsoft.com/clouds/).
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
 ### <a name="discrepancies-between-audit-logs-and-usage-metrics"></a>Discrepâncias entre os registos de auditoria e as métricas de utilização
 
-É importante entender que podem existir diferenças na comparação dos registos de auditoria e de métricas de utilização, bem como os motivos para tal. Os *registos de auditoria* são recolhidos através dos dados do serviço Power BI e as *métricas de utilização* são recolhidas no cliente. As contagens acumuladas de atividades nos registos de auditoria podem nem sempre corresponder às métricas de utilização pelos seguintes motivos:
+É importante entender que podem existir diferenças na comparação dos registos de auditoria e de métricas de utilização, bem como os motivos para tal. Os *registos de auditoria* são recolhidos através dos dados do serviço Power BI e as *métricas de utilização* são recolhidas no cliente. As contagens acumuladas de atividades nos registos de auditoria podem nem sempre corresponder às métricas de utilização devido às seguintes diferenças:
 
 * Por vezes, as métricas de utilização poderão contabilizar menos atividades devido a ligações de rede inconsistentes, bloqueadores de publicidade ou a outros problemas que podem interromper o envio de eventos do cliente.
 * Determinados tipos de visualizações não são incluídos nas métricas de utilização, conforme descrito anteriormente neste artigo.
 * Por vezes, as métricas de utilização poderão contabilizar atividades a mais, em situações em que o cliente atualiza sem a necessidade de enviar um pedido para o serviço Power BI.
 * A partilha está desativada no relatório das métricas de utilização. Para atribuir às pessoas acesso de leitura ao relatório, primeiro é preciso dar-lhes acesso à área de trabalho.
+
+### <a name="discrepancies-between-rest-apis-and-usage-metrics"></a>Discrepâncias entre as APIs REST e as métricas de utilização
+
+As [APIs REST de Relatórios](https://docs.microsoft.com/rest/api/power-bi/reports) e as [APIs REST de Administração](https://docs.microsoft.com/rest/api/power-bi/admin) do Power BI também utilizam dados do serviço Power BI. Pelos motivos descritos na secção anterior, as contagens de relatório (o número de relatórios) das APIs podem ser diferentes das contagens de relatório nas métricas de utilização. As contagens de relatório derivadas das APIs não são afetadas por problemas de cliente e devem ser consideradas precisas.
 
 ### <a name="other-considerations"></a>Outras considerações
 
@@ -183,7 +187,7 @@ Além das possíveis diferenças entre os registos de auditoria e as métricas d
 
 **R2:**    A métrica de utilização é uma funcionalidade do Power BI Pro.
 
-**P:**    Os dados não parecem estar atualizados. Por exemplo, os métodos de distribuição não aparecem, as páginas de relatório estão em falta, etc.
+**P:**    Os dados não parecem estar atualizados. Por exemplo, os métodos de distribuição não aparecem, as páginas de relatório estão em falta, entre outros.
 
 **R:**    Os dados demoram até 24 horas a aparecer.
 

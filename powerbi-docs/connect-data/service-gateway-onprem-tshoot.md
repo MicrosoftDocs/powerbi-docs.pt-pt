@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
-ms.date: 09/25/2020
+ms.date: 12/10/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: de8d24af0dbaa0ed4b27efca140cf29acda9df76
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634648"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353423"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Resolver problemas de gateways – Power BI
 
@@ -238,6 +238,37 @@ Será apresentada a mensagem de erro "-10709 Falha na ligação" se a sua delega
 * Certifique-se de que tem o servidor do SAP Hana no separador Delegação no Active Directory da conta do serviço de gateway.
 
    ![Separador Delegação](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
+## <a name="export-logs-for-a-support-ticket"></a>Exportar registos para um pedido de suporte
+
+Os registos do gateway são necessários para a resolução de problemas e a criação de pedidos de suporte. Utilize os seguintes passos para extrair estes registos.
+
+1. Identifique o cluster de gateway.
+
+    Se for proprietário de um conjunto de dados, verifique primeiro o nome do cluster de gateway associado ao seu conjunto de dados. Na seguinte imagem, *IgniteGateway* é o cluster de gateway.
+
+    ![Cluster de gateway](media/service-gateway-onprem-tshoot/gateway-cluster.png)
+
+2. Verifique as propriedades do gateway.
+
+    O administrador do gateway deve, em seguida, verificar o número de membros do gateway no cluster e se o balanceamento de carga está ativado.
+
+    Se o balanceamento de carga estiver ativado, o passo 3 deve ser repetido para todos os membros do gateway. Se não estiver ativado, a exportação de registos no gateway principal será suficiente.
+
+3. Obtenha e exporte os registos do gateway.
+
+    Em seguida, o administrador do gateway, que também é o administrador do sistema de gateway, deve executar os seguintes passos:
+
+    a. Inicie sessão no computador do gateway e, em seguida, inicie a [aplicação de gateway de dados no local](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-app) para iniciar sessão no gateway.
+    
+    b. Ative o [registo adicional](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-performance#slow-performing-queries).
+    
+    c. Opcionalmente, pode [ativar as funcionalidades de monitorização de desempenho](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-performance#enable-performance-logging) e incluir registos de desempenho para fornecer detalhes adicionais para resolução de problemas.
+    
+    d. Execute o cenário para o qual está a tentar capturar os registos do gateway.
+    
+    e. [Exporte os registos do gateway](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app).
+
 
 ## <a name="refresh-history"></a>Histórico de atualizações
 

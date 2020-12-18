@@ -10,12 +10,12 @@ ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 02/20/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f647bcafe035515a1d5d1438ed580cabea579134
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 22548c092e1407d1744a019c15cb0d29a94913eb
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96401495"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353364"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Tutorial: Utilizar os Serviços Cognitivos no Power BI
 
@@ -180,6 +180,6 @@ Neste tutorial, aplicou as funções de classificação de sentimento e etiqueta
 
 Poderá também estar interessado nos seguintes artigos.
 
-* [Tutorial: Invocar um modelo do Machine Learning Studio (clássico) no Power BI (Pré-visualização)](service-tutorial-invoke-machine-learning-model.md)
+* [Tutorial: Consumir modelos do Azure Machine Learning no Power BI](service-aml-integrate.md)
 * [Integração do Azure Machine Learning no Power BI (Pré-visualização)](../transform-model/dataflows/dataflows-machine-learning-integration.md)
 * [Serviços Cognitivos no Power BI (Pré-visualização)](../transform-model/dataflows/dataflows-machine-learning-integration.md)

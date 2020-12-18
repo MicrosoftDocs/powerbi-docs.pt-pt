@@ -1,5 +1,5 @@
 ---
-title: Incorporar conteúdos na aplicação para os seus clientes
+title: Incorporar conteúdos na aplicação de análise incorporada do Power BI para os seus clientes
 description: Saiba como incorporar um relatório, dashboard ou mosaico numa amostra de análise do Power BI Embedded.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/02/2020
-ms.openlocfilehash: 7bc825992f5c7382e1c0a24783f732957913c588
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: e79a73880b50a0edb5e507726cb0c995ba13cd77
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96907198"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098427"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Tutorial: Incorporar conteúdos do Power BI através de uma aplicação de amostra *Embed for your customers* (Incorporar para os seus clientes)
 

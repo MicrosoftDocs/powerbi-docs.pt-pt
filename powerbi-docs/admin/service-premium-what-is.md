@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 12/04/2020
+ms.date: 12/09/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 1ab5fb15f910b420781564da8f26cf5cd7ccd7df
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 62df55257864069a1e3a03f8378869fe76052120
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781825"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491972"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
@@ -50,7 +50,7 @@ O Premium Gen2 fornece as seguintes atualizações ou experiências melhoradas:
     * Menos restrições de memória
     * Separação total entre a interação do relatório e as atualizações agendadas
 
-* **Métricas melhoradas** com dados de utilização de capacidade claros e normalizados, dependentes apenas da complexidade das operações de análise que a capacidade executa e não do tamanho ou nível de carga no sistema durante a execução de análises ou outros fatores. Com as métricas melhoradas, a análise de utilização, o planeamento de orçamentos, os estornos e a necessidade de atualização são claramente visíveis com os relatórios incorporados. As métricas melhoradas serão disponibilizadas e otimizadas durante o período de pré-visualização.
+* **Métricas melhoradas** com dados de utilização de capacidade claros e normalizados, dependentes apenas da complexidade das operações de análise que a capacidade executa e não do tamanho ou nível de carga no sistema durante a execução de análises ou outros fatores. Com as métricas melhoradas, a análise de utilização, o planeamento de orçamentos, os estornos e a necessidade de atualização são claramente visíveis com os relatórios incorporados. As métricas melhoradas serão disponibilizadas mais à frente no período de pré-visualização. Os clientes que procuram acesso às métricas de utilização dos últimos 7 dias podem fazê-lo ao entrarem em contacto com o suporte ao cliente. 
 
 * O **Dimensionamento automático** permite *adicionar automaticamente* um núcleo virtual de cada vez em períodos de 24 horas quando a carga na capacidade exceder os limites, ao impedir os abrandamentos causados pela sobrecarga. Os núcleos virtuais são removidos automaticamente quando é detetado tempo inativo. Os núcleos virtuais adicionais são cobrados na sua subscrição do Azure, numa base de pay as you go. O dimensionamento automático será disponibilizado durante o período de pré-visualização. 
 
@@ -247,7 +247,8 @@ No dashboard da aplicação, pode clicar na célula de uma métrica para abrir u
 Para saber mais sobre capacidades de monitorização, veja [Monitorização no Portal de Administração do Power BI](service-admin-premium-monitor-portal.md) e [Monitorização com a aplicação Métricas de Capacidade do Power BI Premium](service-admin-premium-monitor-capacity.md).
 
 #### <a name="updates-for-premium-gen2-preview"></a>Atualizações para o Premium Gen2 (Pré-visualização)
-As capacidades **Premium Gen2** não utilizam a Aplicação de métricas, mas sim a Aplicação de Utilização das Capacidades, que ficará disponível durante a pré-visualização. A aplicação Capacity Utilization pode ser iniciada a partir da página de gestão da capacidade no **Portal de administração** para cada capacidade.
+As capacidades **Premium Gen2** não utilizam a Aplicação de métricas, mas sim a Aplicação de Utilização das Capacidades, que ficará disponível durante a pré-visualização. Os clientes que pretendam rever a respetiva utilização podem receber uma cópia do relatório de utilização dos últimos 7 dias ao pedir um através do suporte ao cliente. O relatório será fornecido dentro de 72 horas após o pedido. A aplicação Capacity Utilization será iniciada a partir da página de gestão da capacidade no **Portal de administração** para cada capacidade e irá permitir uma análise de 30 dias de dados e mais.
+
 
 
 ### <a name="optimizing-capacities"></a>Otimizar as capacidades
@@ -279,6 +280,8 @@ O SKU A4 do Power BI Embedded é igual ao SKU P1, A5 = P2 e A6 = P3.
 ### <a name="large-dataset-storage-format"></a>Formato de armazenamento de conjuntos de dados de grandes dimensões
 
 Se ativar a definição [Formato de armazenamento de conjuntos de dados de grandes dimensões](service-premium-large-models.md) para um conjunto de dados, as limitações de tamanho de ficheiros .pbix ainda se aplicarão ao carregamento ou à publicação de ficheiros. O limite de tamanho do carregamento não é afetado pelo formato de armazenamento de conjuntos de dados de grandes dimensões. Contudo, quando publicados no serviço com a atualização incremental e o formato de armazenamento de conjuntos de dados de grandes dimensões ativados, os conjuntos de dados podem ter tamanhos muito superiores a estes limites. Com o formato de armazenamento de conjuntos de dados de grandes dimensões, o tamanho dos conjuntos de dados é limitado apenas pelo tamanho da capacidade Premium do Power BI.
+
+Os conjuntos de dados do Power BI podem armazenar dados numa cache dentro da memória altamente comprimida, para um desempenho de consultas otimizado que permite uma rápida interatividade do utilizador em grandes conjuntos de dados. Anteriormente, os conjuntos de dados no Power BI Premium eram limitados a 10 GB após a compressão. Com modelos grandes, a limitação é removida e os tamanhos dos conjuntos de dados são limitados apenas pelo tamanho da capacidade ou um tamanho máximo definido pelo administrador. Permitir tamanhos de conjuntos de dados grandes permite que os tamanhos dos conjuntos de dados do Power BI sejam alinhados com os tamanhos do modelo do Azure Analysis Services.
 
 Os seus ficheiros .pbix representam dados num *estado altamente comprimido*. Provavelmente, os dados serão expandidos quando forem carregados na memória. A partir daí, poderão ser expandidos mais algumas vezes durante a atualização de dados.
 

@@ -7,18 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-dataflows
 ms.topic: how-to
-ms.date: 11/13/2020
+ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 53a8573138a87f8be65183e0571077a02ac0715d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 116458c094159cbeeadaf2e955744759e4648220
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418193"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097967"
 ---
 # <a name="dataflows-best-practices"></a>Melhores práticas dos fluxos de dados
 
 Os **fluxos de dados** do Power BI são uma solução de preparação de dados focada para empresas, permitindo um ecossistema de dados prontos para consumo, reutilização e integração. Este artigo disponibiliza uma lista de melhores práticas, com ligações para artigos e outras informações que o poderão ajudar a compreender e tirar partido de todo o potencial dos fluxos de dados.
+
+## <a name="dataflows-across-the-power-platform"></a>Fluxos de dados em todo o Power Platform
+
+Os fluxos de dados podem ser utilizados em várias tecnologias Power Platform, como o Power Query, o Microsoft Dynamics 365 e outras ofertas da Microsoft. Para obter mais informações sobre como os fluxos de dados podem funcionar no Power Platform, veja [utilizar fluxos de dados em todos os produtos da Microsoft](https://docs.microsoft.com/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365).
 
 
 ## <a name="dataflows-best-practices-table-and-links"></a>Tabela e ligações de melhores práticas para fluxos de dados
@@ -40,6 +44,8 @@ A seguinte tabela fornece uma coleção de ligações para artigos que descrevem
 |Utilizar a criação de perfis de dados     |Compreender o perfil, a distribuição e a qualidade das colunas         |[Ferramentas de criação de perfis de dados](https://docs.microsoft.com/power-query/data-profiling-tools)         |
 |Implementar o processamento de erros     |Desenvolver fluxos de dados robustos que sejam resilientes a erros de atualização, com sugestões         |[Padrões de erros comuns](https://docs.microsoft.com/power-query/dealing-with-errors)  </br> [Processamento de erros complexos](https://docs.microsoft.com/power-query/error-handling)      |
 |Utilizar a Vista de esquema      |Melhore a experiência de criação ao trabalhar com tabelas largas e executar operações ao nível do esquema         |[Vista de esquema](https://docs.microsoft.com/power-query/schema-view)         |
+|Entidades associadas      |Reutilizar e referenciar transformações         |[Entidades Associadas](https://docs.microsoft.com/power-query/dataflows/linked-entities)         |
+|Atualização incremental      |Carregar os dados mais recentes ou alterados ou um recarregamento completo         |[Atualização incremental](https://docs.microsoft.com/power-query/dataflows/incremental-refresh)         |
 |||
 
 

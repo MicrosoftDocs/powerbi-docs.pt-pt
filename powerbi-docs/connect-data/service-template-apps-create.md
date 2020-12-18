@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 09/15/2020
-ms.openlocfilehash: fc62d291b890d840b89997cd5d5253572f91bf3e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: cfd9302c9c64760298eb78be10affad8be510a65
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410235"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491765"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Criar uma aplicação de modelo no Power BI
 
 As *aplicações de modelo* do Power BI permitem que os parceiros do mesmo criem aplicações do Power BI com pouco ou nenhum código e que as implementem para qualquer cliente do Power BI.  Este artigo contém instruções passo a passo para criar uma aplicação de modelo do Power BI.
 
-Se conseguir criar relatórios e dashboards do Power BI, pode tornar-se um *criador de aplicações de modelo* que cria e empacota conteúdos de análise numa *aplicação*. Pode implementar a sua aplicação noutros inquilinos do Power BI através de qualquer plataforma disponível, como o AppSource, ou ao utilizá-la no seu próprio serviço Web. Enquanto criador, pode criar um pacote de análise protegido para distribuição.
+Se conseguir criar relatórios e dashboards do Power BI, pode tornar-se um *criador de aplicações de modelo* que cria e empacota conteúdos de análise numa *aplicação*. Depois pode implementar a sua aplicação noutros inquilinos do Power BI através de qualquer plataforma disponível, como o AppSource ou o seu próprio serviço Web. Se estiver a distribuir a sua aplicação de modelo através do seu próprio serviço Web, poderá até [automatizar parte do processo de instalação](../developer/template-apps/template-apps-auto-install.md) para simplificar a vida dos seus clientes.
 
 Os administradores do Power BI gerem e controlam quem na sua organização pode criar aplicações de modelo e quem pode instalá-las. Os utilizadores que tiverem autorização para tal podem instalar a aplicação de modelo e, em seguida, modificar e distribuí-la para os consumidores do Power BI na organização.
 
@@ -178,12 +178,10 @@ Vamos percorrer todas as fases:
     Quando a instalação for concluída com êxito, será apresentada uma notificação a informar que a nova aplicação está pronta.
 
 6. Selecione **Ir para a aplicação**.
-7. Em **Comece já com a sua nova aplicação**, verá a sua aplicação tal como os seus clientes a irão ver.
 
-    ![Comece já com a sua aplicação](media/service-template-apps-create/power-bi-template-app-get-started.png)
-8. Selecione **Explorar a aplicação** para verificar a aplicação de teste com os dados de exemplo.
-9. Para fazer alterações, volte à aplicação na área de trabalho original. Atualize a aplicação de teste até obter os resultados que pretende.
-10. Quando estiver pronto para promover a sua aplicação para pré-produção para que sejam feitos testes adicionais fora do seu inquilino, regresse ao painel **Gestão de Versões** e selecione **Promover aplicação**.
+    Confirme que a aplicação de teste tem os dados de exemplo. Para fazer alterações, volte à aplicação na área de trabalho original. Atualize a aplicação de teste até obter os resultados que pretende.
+
+1. Quando estiver pronto para promover a sua aplicação para pré-produção para que sejam feitos testes adicionais fora do seu inquilino, regresse ao painel **Gestão de Versões** e selecione **Promover aplicação**.
 
     ![Promover aplicação para pré-produção](media/service-template-apps-create/power-bi-template-app-promote.png)
     >[!NOTE]
@@ -200,6 +198,10 @@ Vamos percorrer todas as fases:
     ![Aplicação em produção](media/service-template-apps-create/power-bi-template-app-production.png)
 
 Para disponibilizar a sua aplicação para milhares de utilizadores do Power BI em todo o mundo, recomendamos que a submeta no AppSource. Veja a [Oferta da aplicação Power BI](/azure/marketplace/partner-center-portal/create-power-bi-app-offer) para obter detalhes.
+
+## <a name="automate-parameter-configuration-during-installation"></a>Automatizar a configuração de parâmetros durante a instalação
+
+Se for um ISV e estiver a distribuir a sua aplicação de modelo através do seu serviço Web, pode criar uma automatização que configura automaticamente os parâmetros da aplicação de modelo quando os seus clientes instalam a aplicação na respetiva conta do Power BI. Isto simplifica a vida dos seus clientes e aumenta a probabilidade de uma instalação bem-sucedida, porque não têm de facultar detalhes que possam desconhecer. Para obter mais detalhes, veja [Configuração automatizada da instalação de uma aplicação de modelo](../developer/template-apps/template-apps-auto-install.md).
 
 ## <a name="next-steps"></a>Passos seguintes
 

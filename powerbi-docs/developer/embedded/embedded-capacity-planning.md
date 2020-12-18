@@ -1,5 +1,5 @@
 ---
-title: Planeamento da capacidade de análise incorporada
+title: Planeamento de capacidade da análise incorporada do Power BI
 description: Capacidade de planeamento na análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 23f58c047eeb47fce24ad38ae54d8f4d7a1c57e7
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: b172b48517ccc8c55821fa8e8217d5e2df398b2d
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983051"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098358"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Capacidade de planeamento na análise incorporada do Power BI
 
@@ -27,7 +27,7 @@ Algumas das coisas a ter em conta quando estiver a planear a capacidade são:
 * As taxas de atualização dos dados
 * Os padrões de utilização adicionais que são difíceis de prever.
 
-Este artigo foi concebido para facilitar o planeamento de capacidade da análise incorporada do Power BI, ao introduzir a [Ferramenta de Avaliação de Carga de Capacidade do Power BI](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/), criada para a automatização de testes de carga das capacidades de análise incorporada do Power BI (SKUs *A* , *EM* ou *P* ).
+Este artigo foi concebido para facilitar o planeamento de capacidade da análise incorporada do Power BI, ao introduzir a [Ferramenta de Avaliação de Carga de Capacidade do Power BI](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/), criada para a automatização de testes de carga das capacidades de análise incorporada do Power BI (SKUs *A*, *EM* ou *P*).
 
 ## <a name="planning-tool"></a>Ferramenta de planeamento
 
@@ -52,7 +52,7 @@ Seguem-se alguns exemplos de como pode utilizar a ferramenta de planeamento.
 Para ver os efeitos do teste de carga na aplicação de métricas após a execução do teste, siga as instruções abaixo. Conte com um atraso de até 15 minutos, a partir do momento em que o teste começa a gerar a carga até ao momento em que a carga ficará visível nas métricas.
 
 1. Expanda o separador **Conjuntos de dados** da página de destino da [aplicação de métricas](../../admin/service-admin-premium-monitor-capacity.md).
-2. Inicie uma atualização a pedido ao clicar em **atualizar agora** . Os administradores devem.
+2. Inicie uma atualização a pedido ao clicar em **atualizar agora**. Os administradores devem.
 
     ![Métricas da capacidade Premium do Power BI](media/embedded-capacity-planning/embedded-capacity-planning.png)
 

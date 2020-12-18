@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/04/2020
+ms.date: 12/10/2020
 ms.custom: references_regions
 LocalizationGroup: Premium
-ms.openlocfilehash: 1f9a34b68f465eda5b8921e48576c9bef5d17f36
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 7256e17f561aa79d63b7fefd268df560903de6b2
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781718"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353111"
 ---
 # <a name="large-datasets-in-power-bi-premium"></a>Conjuntos de dados de grandes dimensões no Power BI Premium
 
-Os conjuntos de dados do Power BI podem armazenar dados numa cache dentro da memória altamente comprimida, para um desempenho de consultas otimizado para permitir uma rápida interatividade do utilizador. Com as capacidades Premium, os conjuntos de dados de grandes dimensões superiores ao limite predefinido de 10 GB podem ser permitidos com a definição **Formato de armazenamento de conjuntos de dados de grandes dimensões**. Quando esta definição está ativada, o tamanho dos conjuntos de dados é limitado pelo tamanho da *capacidade* Premium.
+Os conjuntos de dados do Power BI podem armazenar dados numa cache dentro da memória altamente comprimida, para um desempenho de consultas otimizado para permitir uma rápida interatividade do utilizador. Com as capacidades Premium, os conjuntos de dados de grandes dimensões superiores ao limite predefinido de 10 GB podem ser permitidos com a definição **Formato de armazenamento de conjuntos de dados de grandes dimensões**. Quando ativado, o tamanho do conjunto de dados é limitado pelo tamanho da *capacidade* Premium ou pelo tamanho máximo definido pelo administrador.
 
 Os conjuntos de dados de grandes dimensões podem ser ativados para todos os SKUs Premium P e Embedded A. O limite de tamanho para conjuntos de dados de grandes dimensões no Premium é comparável ao Azure Analysis Services em termos das limitações de tamanho dos modelos de dados.
 
@@ -136,6 +136,8 @@ Tenha em conta as seguintes restrições ao utilizar conjuntos de dados de grand
 - **Transferir o Power BI Desktop**: se um conjunto de dados for armazenado em Ficheiros Premium, a [transferência como um ficheiro .pbix](../create-reports/service-export-to-pbix.md) irá falhar.
 - **Regiões suportadas**: os conjuntos de dados de grandes dimensões são suportados em todas as regiões do Azure que suportam armazenamento de Ficheiros Premium. Para saber mais, veja [Produtos disponíveis por região](https://azure.microsoft.com/global-infrastructure/services/?products=storage) e consulte a tabela na secção seguinte.
 
+- **Deinir o tamanho máximo do conjunto de dados**: O tamanho máximo do conjunto de dados pode ser definido por administradores. O valor máximo pode ser definido de 0,1 GB até à capacidade máxima do SKU.
+
 ## <a name="region-availability"></a>Disponibilidade de região
 
 Os conjuntos de dados de grandes dimensões do Power BI só estão disponíveis em determinadas regiões do Azure que suportam o [Armazenamento de Ficheiros Premium do Azure](/azure/storage/files/storage-files-planning#storage-tiers).
@@ -146,6 +148,9 @@ A seguinte lista indica as regiões onde os conjuntos de dados de grandes dimens
 |---------|---------|
 |Leste da Austrália     | australiaeast        |
 |Sudeste da Austrália     | australiasoutheast        |
+|Leste do Canadá     | canadaeast        |
+|Canadá Central     | canadacentral        |
+|Índia Central     | centralindia        |
 |E.U.A. Central     | centralus        |
 |Ásia Leste     | eastasia        |
 |E.U.A. Leste     | eastus        |
@@ -161,6 +166,7 @@ A seguinte lista indica as regiões onde os conjuntos de dados de grandes dimens
 |Sul do Reino Unido     | uksouth        |
 |Oeste do Reino Unido     | ukwest        |
 |Europa Ocidental     | westeurope        |
+|Oeste da Índia     | westindia        |
 |E.U.A. Oeste     | westus        |
 |E.U.A. Oeste 2     | westus2        |
 

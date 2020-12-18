@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-dataflows
 ms.topic: how-to
-ms.date: 11/13/2020
+ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 106a70b567be7fc095dbc29917036b92b0f577e5
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 646f3d37bb0200cf423ccdffb42dc4ce866ade9f
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412558"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098266"
 ---
 # <a name="configuring-dataflow-storage-to-use-azure-data-lake-gen-2"></a>Configurar o armazenamento de fluxos de dados para utilizar o Azure Data Lake Gen2 
 
@@ -25,6 +25,8 @@ Existem duas formas de configurar qual o armazenamento do ADLS Gen2 a utilizar: 
 ## <a name="pre-requisites"></a>Pré-requisitos
 
 Para trazer a sua própria conta do ADLS Gen2, tem de ter permissões de proprietário, quer na conta de armazenamento, no grupo de recursos ou na camada de subscrição. Mesmo que seja um administrador, tem de atribuir permissão de proprietário a si mesmo. 
+
+A conta de armazenamento tem de ser criada com o [Espaço de Nomes Hierárquico (HNS)](https://docs.microsoft.com/azure/storage/blobs/create-data-lake-storage-account) ativado. 
 
 Além disso, a conta do ADLS Gen2 tem de ser implementada na mesma região que o seu inquilino do Power BI. Se as localizações dos recursos não estiverem na mesma região, ocorrerá um erro.
 
@@ -53,7 +55,7 @@ Para remover uma ligação ao nível da área de trabalho, tem primeiro de se ce
 No **Portal de Administração**, em **fluxos de dados**, pode desativar o acesso dos utilizadores para utilizarem esta funcionalidade e pode remover a permissão dos administradores de área de trabalho para trazerem o seu próprio Armazenamento do Azure.
 
 ## <a name="next-steps"></a>Passos seguintes
-Os seguintes artigos fornecem mais informações sobre os fluxos de dados e o Power BI:
+Os seguintes artigos fornecem mais informações sobre as fluxos de dados e o Power BI:
 
 * [Introdução aos fluxos de dados e à preparação personalizada de dados](dataflows-introduction-self-service.md)
 * [Criar um fluxo de dados](dataflows-create.md)

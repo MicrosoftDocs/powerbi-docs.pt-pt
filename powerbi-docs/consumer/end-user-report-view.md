@@ -9,12 +9,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/27/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: ea537e19eb7c3ab2a155f417af92e45841031f89
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 79658c2296ac2ae189680c9d8c778046778a882e
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781641"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998559"
 ---
 # <a name="change-the-display-of-a-report-page"></a>Alterar a visualização de uma página de relatório
 
@@ -58,7 +58,7 @@ Quando sai do relatório, as definições do menu **Ver** não são guardadas, m
 
 Os controlos de zoom no seu browser aumentam e diminuem a área da tela disponível. Diminuir o zoom faz com que a área da tela disponível se expanda e vice-versa. 
 
-![breve vídeo a mostrar os controlos de zoom do browser](media/end-user-report-view/power-bi-zoom.png)
+![controlos de zoom do browser](media/end-user-report-view/power-bi-zoom.png)
 
 Outra forma de alterar o tamanho de visualização do seu relatório é ao redimensionar por completo o browser. 
 

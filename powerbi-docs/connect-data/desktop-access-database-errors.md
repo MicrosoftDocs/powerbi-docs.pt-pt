@@ -8,14 +8,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 10/21/2019
+ms.date: 12/09/2020
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f8d24c672fa3e9d5cda007e061eac8c4ea9c6d4c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b144412ee322aa9bec0a35bb3876a949abcd3f13
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406049"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998904"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Resolver problemas de importação de ficheiros .xls do Access e do Excel no Power BI Desktop
 
@@ -24,6 +24,8 @@ No Power BI Desktop, as Bases de dados do Access e as versões mais antigas dos
 ## <a name="situation-1-no-access-database-engine-is-installed"></a>Situação 1: Nenhum Motor de Base de Dados do Access está instalado
 
 Se a mensagem de erro do Power BI Desktop indica que o Motor de Base de Dados do Access não está instalado, deve instalar a versão de 32 ou 64 bits do Motor de Base de Dados do Access que corresponde à sua versão do Power BI Desktop. Pode instalar o Motor de Base de Dados do Access a partir da [página de transferências](https://www.microsoft.com/download/details.aspx?id=13255).
+
+Se estiver a utilizar fluxos de dados e um gateway para se ligar aos dados, tem de instalar o Motor de Base de Dados do Access no computador em que o gateway está a ser executado. 
 
 >[!NOTE]
 >Se a versão de bits instalada do Motor de Base de Dados do Access for diferente da versão de bits de instalação do Microsoft Office, as aplicações do Office não poderão utilizar o Motor de Base de Dados do Access.

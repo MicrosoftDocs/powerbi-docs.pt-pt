@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-security
 ms.topic: how-to
-ms.date: 11/12/2020
+ms.date: 12/14/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 446c3620cf3b2a7435897108cfcd9c8972ad8bb4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: da5ee837345b6f26dd6636bc93f6b38c1e0f5ea7
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412167"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491857"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Ligações privadas para aceder ao Power BI
 
@@ -118,9 +118,9 @@ O passo seguinte serve para criar uma rede virtual e sub-rede. Substitua os par�
 | ```<resource-group-name>```   | myResourceGroup |
 | ```<virtual-network-name>```  | myVirtualNetwork |
 | ```<region-name>```   | E.U.A. Central  |
-| ```<IPv4-address-space>```    | 10.1.0.0/16 |
+| ```<IPv4-address-space>```    | 10.5.0.0/16 |
 | ```<subnet-name>```   | mySubnet |
-| ```<subnet-address-range>```  | 10.1.0.0/24 |
+| ```<subnet-address-range>```  | 10.5.0.0/24 |
 
 1. No canto superior esquerdo do ecrã, selecione **Criar um recurso > Redes > Rede virtual** ou procure **Rede virtual** na caixa de pesquisa.
 2. Em **Criar a rede virtual**, introduza ou selecione as seguintes informações no separador **Básicas**:
@@ -166,7 +166,6 @@ Após concluir estes passos, pode criar uma máquina virtual (VM), como descrito
 
 ## <a name="create-a-virtual-machine-vm"></a>Criar uma VM (máquina virtual)
 
-
 O passo seguinte é criar a rede virtual e a sub-rede para alojar a máquina virtual (VM).
 
 1. No canto superior esquerdo do ecrã no portal do Azure, selecione **Criar um recurso > Computação > Máquina Virtual**.
@@ -200,8 +199,8 @@ O passo seguinte é criar a rede virtual e a sub-rede para alojar a máquina vir
     |Definições | Valor |
     |-------------------|---------|
     |Rede virtual|   Mantenha a predefinição **MyVirtualNetwork**|
-    |Espaço de endereços| Mantenha a predefinição **10.1.0.0/24**|
-    |Sub-rede |Mantenha a predefinição **mySubnet (10.1.0.0/24)**|
+    |Espaço de endereços| Mantenha a predefinição **10.5.0.0/24**|
+    |Sub-rede |Mantenha a predefinição **mySubnet (10.5.0.0/24)**|
     |IP público| Mantenha a predefinição **(novo) myVm-ip**|
     |Portas de entrada públicas|  Selecione **Permitir selecionadas**|
     |Selecione as portas de entrada|  Selecione **RDP**|
@@ -289,7 +288,7 @@ O próximo passo é aceder ao Power BI em privado, a partir da máquina virtual 
     
     Non-authoritative answer:
     Name:    52d40f65ad6d48c3906f1ccf598612d4-api.privatelink.analysis.windows.net
-    Address:  10.1.0.4
+    Address:  10.5.0.4
     ```
 
 4. Abra o browser e aceda a app.powerbi.com para aceder ao Power BI em privado.
@@ -306,12 +305,10 @@ E é tudo. Após seguir estes passos, o Power BI da sua organização estará ap
 
 Estas são algumas considerações a ter enquanto trabalha com ligações privadas no Power BI:
 
-* Qualquer utilização de temas ou imagens externas não está disponível ao utilizar um ambiente de ligação privada e poderá afetar os elementos visuais personalizados
-* Serviços de exportação, como exportar para PDF, exportar para o Excel a partir de um relatório e outros serviços de exportação não funcionam ao utilizar um ambiente de ligação privada
-* Os relatórios do SQL Server Reporting Services, também conhecidos como ficheiros RDL (*ficheiros de formato .rdl) não compõem em ambientes de ligação privada
-* Se o acesso à Internet estiver desativado e se o conjunto de dados ou fluxo de dados estiver a ligar-se a um conjunto de dados do Power BI ou fluxo de dados como uma origem de dados, a ligação falhará
-* As métricas de utilização *não* funcionam quando as Ligações Privadas estão ativadas
-* A opção Publicar na Web não é suportada (e fica indisponível) quando ativa a opção **Bloquear acesso à Internet Pública** no Power BI
+* Qualquer utilização de temas ou imagens externas não está disponível ao utilizar um ambiente de ligação privada e poderá afetar os elementos visuais personalizados.
+* Se o acesso à Internet estiver desativado e se o conjunto de dados ou fluxo de dados estiver a ligar-se a um conjunto de dados do Power BI ou fluxo de dados como uma origem de dados, a ligação falhará.
+* As métricas de utilização *não* funcionam quando as Ligações Privadas estão ativadas.
+* A opção Publicar na Web não é suportada (e fica indisponível) quando ativa a opção **Bloquear acesso à Internet Pública** no Power BI.
 
 
 ## <a name="next-steps"></a>Próximos passos

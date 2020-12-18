@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/05/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 19dc9f5c5adfa5853d98cd6b0ef427c8bccebada
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: fc421f7635a3d6e3b2336d5bce081d7914c0fad5
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410626"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998870"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>Ligar ao COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA)
 Este artigo indica como instalar a aplicação de modelo COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA) e como ligar às origens de dados.
@@ -28,9 +28,9 @@ Depois de ter instalado a aplicação de modelo e ligado às origens de dados, p
 
 1. Clique na seguinte ligação para aceder à aplicação: [Aplicação de modelo COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
-1. Quando estiver na página Appsource da Aplicação, clique em [**OBTER AGORA**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms).
+1. Quando estiver na página AppSource da Aplicação, clique em [**OBTER AGORA**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms).
 
-    [![COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA) no Appsource](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
+    [![COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA) no AppSource](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
 1. Quando lhe for pedido, clique em **Instalar**. Assim que a aplicação estiver instalada, irá vê-la na página Aplicações.
 
@@ -38,11 +38,11 @@ Depois de ter instalado a aplicação de modelo e ligado às origens de dados, p
 
 ## <a name="connect-to-data-sources"></a>Ligar a origens de dados
 
-1. Clique no ícone na página Aplicações para abrir a aplicação.
+1. Clique no ícone na página Aplicações para abrir a aplicação. A aplicação é aberta e apresenta dados de exemplo.
 
-1. No ecrã inicial que é apresentado, selecione **Ligar**.
+1. Selecione a ligação **Ligar os dados** na faixa na parte superior da página.
 
-   ![Ecrã inicial da aplicação de modelo](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-splash-screen.png)
+   ![Ligação Ligar os seus dados da aplicação GitHub](media/service-connect-to-covid-19-tracking/power-bi-covid-19-connect-data.png)
 
 1. Será apresentada a caixa de diálogo de parâmetros. Não há parâmetros obrigatórios. Clique em **Seguinte**.
 

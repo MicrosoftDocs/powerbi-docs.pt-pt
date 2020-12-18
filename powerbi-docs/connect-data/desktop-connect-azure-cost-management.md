@@ -8,14 +8,14 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 09/30/2020
+ms.date: 12/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa06b1d561c770c3b9e0535e94789931a74bd9df
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6d99e91657d0c5f0bbd1e9c665f00d16c34ba24f
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411477"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353249"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Criar elementos visuais e relatórios com o conector do Azure Cost Management no Power BI Desktop
 
@@ -35,7 +35,7 @@ O conector do Azure Cost Management utiliza o protocolo OAuth 2.0 para autentica
 Para utilizar o conector do **Azure Cost Management** no Power BI Desktop, siga estes passos:
 
 1.  No friso **Home Page**, selecione **Obter Dados**.
-2.  Selecione **Azure** na lista de categorias de dados.
+2.  Selecione **Azure**  na lista de categorias de dados.
 3.  Selecione **Azure Cost Management**.
 
     ![Obter dados](media/desktop-connect-azure-cost-management/azure-cost-management-00b.png)
@@ -56,7 +56,7 @@ Para se ligar a uma conta do **Contrato de Cliente da Microsoft**, pode obter o 
 
     ![Captura de ecrã a mostrar as propriedades do Azure Cost Management com um âmbito de ID do Perfil de Faturação.](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
-7.  Quando pedido, inicie sessão com a conta de utilizador e a palavra-passe do Azure. 
+7.  Quando pedido, inicie sessão com a conta de utilizador e a palavra-passe do Azure. Tem de utilizar um proprietário de conta de Faturação para um acesso com êxito. 
 
 
 ## <a name="connect-to-an-enterprise-agreement-account"></a>Ligar-se a uma conta do Contrato Enterprise
@@ -71,13 +71,11 @@ Para se ligar com uma conta do Contrato Enterprise (EA), pode obter o ID de insc
 
     ![Captura de ecrã a mostrar as propriedades do Azure Cost Management com um âmbito de Número de inscrição.](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 
-6.  Quando pedido, inicie sessão com a conta de utilizador e a palavra-passe do Azure. 
+6.  Quando pedido, inicie sessão com a conta de utilizador e a palavra-passe do Azure. Tem de utilizar uma conta de Administrador do Enterprise para os Contratos Enterprise.
 
 ## <a name="data-available-through-the-connector"></a>Dados disponíveis através do conector
 
 Após ser autenticado com sucesso, é apresentada uma janela do **Navegador** com as seguintes tabelas de dados disponíveis:
-
-
 
 | **Tabela** | **Descrição** |
 | --- | --- |

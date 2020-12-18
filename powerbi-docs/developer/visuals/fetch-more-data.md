@@ -7,17 +7,19 @@ ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
-ms.date: 06/18/2019
-ms.openlocfilehash: b8be5b68603f818e26e7f731e4f163bc626b5053
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.date: 12/13/2020
+ms.openlocfilehash: 3dc94a24e5e6a84992745775b1639b7a186ed19d
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483702"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492087"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>Obter mais dados do Power BI
 
-Este artigo aborda como carregar mais dados de modo a contornar o limite restritivo de um ponto de dados de 30 KB com o método `fetchMoreData`. Esta abordagem fornece dados em segmentos. Para melhorar o desempenho, pode configurar o tamanho dos segmentos para acomodar o caso de utilização.
+A API `fetchMoreData` permite que os elementos visuais do Power BI ignorem o limite rígido de uma vista de dados de 30 mil linhas. Com a nova versão 3.4 da API, a funcionalidade `fetchMoreData` da API é expandida para suportar a uma nova abordagem de carregamento de segmentos de dados. Além da abordagem existente, que agrega todos os segmentos pedidos, a API irá suportar apenas o carregamento dos segmentos de dados incrementais.
+
+A nova abordagem permite mais flexibilidade na forma como os segmentos de dados adicionais são carregados no elemento visual. Para melhorar o desempenho, pode configurar o tamanho dos segmentos para acomodar o caso de utilização.
 
 ## <a name="limitations-of-fetchmoredata"></a>Limitações do método fetchMoreData
 

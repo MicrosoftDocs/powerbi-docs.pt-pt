@@ -1,5 +1,5 @@
 ---
-title: Incorporar conteúdos na aplicação para a sua organização
+title: Incorporar conteúdos na aplicação de análise incorporada do Power BI para a sua organização
 description: Saiba como integrar ou incorporar um relatório (do Power BI ou Paginado), dashboard ou mosaico numa aplicação com as APIs do Power BI para análise incorporada para a sua organização. Saiba como integrar o Power BI na sua aplicação com o software de análise incorporada, ferramentas de análise incorporada ou ferramentas de business intelligence incorporada.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: f84270d76265da2877ae5d2e16289373235271b6
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 223495b68f160b637f5bcf40b37f1f1a1365fffd
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668701"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098174"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Incorporar conteúdos do Power BI numa aplicação para a sua organização
 
