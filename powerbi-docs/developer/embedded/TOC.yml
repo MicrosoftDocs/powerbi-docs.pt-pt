@@ -28,7 +28,7 @@
           href: embedded-capacity.md
         - name: Planeamento de capacidade
           href: embedded-capacity-planning.md
-        - name: Consideração para a criação de um token de incorporação
+        - name: Considerações para gerar um token de incorporação
           href: generate-embed-token.md
         - name: Melhores Práticas para o Desempenho
           href: embedded-performance-best-practices.md
@@ -50,8 +50,6 @@
           href: embed-service-principal-certificate.md
         - name: Mover uma aplicação incorporada para produção
           href: move-to-production.md
-        - name: Embed from an app (Incorporar a partir de uma aplicação)
-          href: embed-from-apps.md
         - name: Exportar relatório para ficheiro
           href: export-to.md
         - name: Export paginated report to file (Exportar relatórios paginados para ficheiros)

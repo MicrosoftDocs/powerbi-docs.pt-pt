@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: reference
 ms.date: 11/21/2020
-ms.custom: contperfq1
-ms.openlocfilehash: 197ebcd029dbe6a6e87b1858da8f35325772237e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: contperf-fy21q1
+ms.openlocfilehash: 758d663f758a3d43f4621cb735f30e34bee4a590
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400023"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621930"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Glossário para utilizadores empresariais do serviço Power BI    
 O serviço Power BI pode introduzir terminologia que é confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar a terminologia, pode até mesmo guardá-la nos marcadores. Outro recurso excelente para saber mais sobre os blocos de construção que formam o serviço Power BI é [Conceitos Básicos](end-user-basic-concepts.md). Conceitos básicos proporciona uma perspetiva geral de alto nível das *partes* do Power BI e de como estão ligadas.

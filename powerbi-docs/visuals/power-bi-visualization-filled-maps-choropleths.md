@@ -10,12 +10,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/05/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 748e13a509bc3689122c8622f9ce26536f850a68
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: bfcd684e4899edb5555a784c7148a7abc9b0f29c
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418331"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675310"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Criar e utilizar mapas de manchas (mapas coropletos) no Power BI
 
@@ -125,13 +125,12 @@ Os dados de mapa podem ser ambíguos.  Por exemplo, existe Paris, França, mas t
 
 Se tiver permissões para editar o conjunto de dados no Power BI Desktop, veja este vídeo para obter ajuda a resolver a ambiguidade do mapa.
 
-> [VÍDEO https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 Se não tiver acesso aos dados de latitude e longitude, mas tiver acesso de edição ao conjunto de dados, [siga estas instruções para atualizar o conjunto de dados](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 
 Para obter mais ajuda com visualizações de mapas, veja [Sugestões e truques para visualizações de mapas](./power-bi-map-tips-and-tricks.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 [Mapa de forma](desktop-shape-map.md)
 
