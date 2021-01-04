@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 12/02/2020
-ms.openlocfilehash: e79a73880b50a0edb5e507726cb0c995ba13cd77
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.date: 12/22/2020
+ms.openlocfilehash: 5417266658a493bc81da882761431aa3db072dbe
+ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098427"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97745122"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Tutorial: Incorporar conteúdos do Power BI através de uma aplicação de amostra *Embed for your customers* (Incorporar para os seus clientes)
 
@@ -192,7 +192,7 @@ O seu próximo passo é criar um relatório e carregá-lo para a sua área de tr
 
 Para transferir um relatório de amostra e publicá-lo na sua área de trabalho, siga estes passos:
 
-1. Abra a pasta [Power BI Desktop samples](https://github.com/microsoft/PowerBI-Developer-Samples) (Amostras para o Power BI Desktop) no GitHub.
+1. Abra a pasta [Power BI Desktop samples](https://github.com/Microsoft/PowerBI-Desktop-Samples) (Amostras para o Power BI Desktop) no GitHub.
 
 2. Selecione **Code** (Código) e, em seguida, selecione **Download zip** (Transferir pasta zip).
 

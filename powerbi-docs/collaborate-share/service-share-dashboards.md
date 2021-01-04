@@ -4,18 +4,18 @@ description: Como partilhar dashboards e relatórios do Power BI com colegas de
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukaszp
-ms.custom: contperfq4
+ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 06/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 221211b06e3e9a72dd3c5ee812083b8013002405
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7a85021ee1931b2d5f7c247d7caa4c2813f86a8c
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406578"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621608"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Partilhar dashboards e relatórios do Power BI com colegas e outras pessoas
 *Partilhar* é a forma mais fácil de dar às pessoas acesso aos dashboards e aos relatórios no serviço Power BI. Pode partilhar com pessoas dentro e fora da sua organização.
