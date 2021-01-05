@@ -26,7 +26,7 @@
       items:
         - name: Power BI visuals project structure (Estrutura de projeto de elementos visuais do Power BI)
           href: visual-project-structure.md
-        - name: ' Power BI visuals system integration (Integração de sistema de elementos visuais do Power BI)'
+        - name: Power BI visuals system integration (Integração de sistema de elementos visuais do Power BI)
           href: power-bi-visuals-concept.md
         - name: Visuals for organizations in Power BI (Elementos visuais para organizações no Power BI)
           href: power-bi-custom-visuals-organization.md
@@ -42,7 +42,7 @@
           href: dataview-mappings.md
         - name: Objects and properties (Objetos e propriedades)
           href: objects-properties.md
-        - name: Advanced Edit Mode (Modo de Edição Avançado)
+        - name: Modo de edição avançada
           href: advanced-edit-mode.md
         - name: supportsKeyboardFocus feature (Funcionalidade supportsKeyboardFocus)
           href: supportskeyboardfocus-feature.md
@@ -54,7 +54,7 @@
           href: power-bi-custom-visuals-certified.md
         - name: Publicar elementos visuais do Power BI no AppSource
           href: office-store.md
-        - name: Configurar o seu ambiente para programar um elemento visual do Power BI
+        - name: "Configurar o seu ambiente para programar um elemento visual do Power\_BI"
           href: environment-setup.md
         - name: Create R-powered visuals (Criar elementos visuais baseados em R)
           href: create-r-based-power-bi-desktop.md
@@ -78,7 +78,7 @@
           href: bookmarks-support.md
         - name: Add context menu support (Adicionar suporte de menu de contexto)
           href: context-menu.md
-        - name: Adicionar suporte de Desagregação
+        - name: Adicionar suporte de desagregação
           href: drill-down-support.md
         - name: Add colors to your visual (Adicionar cores ao seu elemento visual)
           href: add-colors-power-bi-visual.md
@@ -86,7 +86,7 @@
           href: conditional-format.md
         - name: Highlight data in visuals (Destacar dados em elementos visuais)
           href: highlight.md
-        - name: Add High-Contrast mode support (Adicionar suporte para o modo Alto Contraste)
+        - name: Adicionar suporte para o modo alto contraste
           href: high-contrast-support.md
         - name: Enable sync slicers (Ativar segmentação de dados)
           href: enable-sync-slicers.md
@@ -106,7 +106,7 @@
           href: launch-url.md
         - name: Visual API (API de Elementos Visuais)
           href: visual-api.md
-        - name: Local Storage API (API de Armazenamento Local)
+        - name: API de armazenamento local
           href: local-storage.md
         - name: Rendering events (Eventos de composição)
           href: event-service.md
