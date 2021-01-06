@@ -1,5 +1,5 @@
 ### YamlMime:Landing
-title: Documentação da automatização do Power BI
+title: Documentação de automatização do Power BI para permitir melhores informações de BI incorporadas na análise incorporada do Power BI
 summary: Com a automatização do Power BI, pode desempenhar tarefas de gestão em objetos do Power BI como relatórios, conjuntos de dados e áreas de trabalho.
 metadata:
   title: Documentação da automatização do Power BI
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 4661f77189c65100fac2f9dd916c2d3179fd3966
-  ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+  ms.openlocfilehash: def78e481474b7186457d019404f4604406ce967
+  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 11/24/2020
-  ms.locfileid: "95514591"
+  ms.lasthandoff: 01/05/2021
+  ms.locfileid: "97887598"
 landingContent:
 - title: Introdução
   linkLists:

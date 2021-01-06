@@ -1,6 +1,6 @@
 ### YamlMime:Landing
-title: Documentação de elementos visuais do Power BI
-summary: Desenvolva os seus próprios elementos visuais do Power BI, para serem utilizados por si, pela sua organização ou por toda a comunidade do Power BI. A nossa documentação fornece as informações de que precisa.
+title: Documentação de elementos visuais do Power BI na análise incorporada do Power BI para obter melhores informações de BI incorporadas
+summary: Desenvolva os seus próprios elementos visuais do Power BI, para serem utilizados por si, pela sua organização ou por toda a comunidade do Power BI. A nossa documentação fornece as informações de que precisa. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 metadata:
   title: Documentação de elementos visuais do Power BI
   description: Desenvolva os seus próprios elementos visuais do Power BI, para serem utilizados por si, pela sua organização ou por toda a comunidade do Power BI. A nossa documentação fornece as informações de que precisa.
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 92eb2ebc5eaff00c5c83cd32b0fa90b631906237
-  ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+  ms.openlocfilehash: d6673e5a44b315c3c54fca53231efe97a4342fcd
+  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 10/14/2020
-  ms.locfileid: "92049321"
+  ms.lasthandoff: 01/05/2021
+  ms.locfileid: "97888242"
 landingContent:
 - title: Introdução
   linkLists:
