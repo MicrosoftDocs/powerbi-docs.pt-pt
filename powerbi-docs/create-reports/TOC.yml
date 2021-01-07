@@ -63,8 +63,6 @@
               href: power-bi-reports-filters-and-highlighting.md
             - name: Amostragem de linhas de alta densidade
               href: desktop-high-density-sampling.md
-            - name: Acerca dos elementos visuais das Perguntas e Respostas
-              href: ../visuals/power-bi-visualization-q-and-a.md
             - name: Acerca da Acessibilidade
               href: desktop-accessibility-overview.md
             - name: Natural language Q&A (Perguntas e Respostas sobre linguagem natural)
@@ -320,7 +318,7 @@
               href: ../visuals/power-bi-visualization-waterfall-charts.md
         - name: Natural language Q&A (Perguntas e Respostas sobre linguagem natural)
           items:
-            - name: Q&A visual (Elemento visual Perguntas e Respostas)
+            - name: Criar um elemento visual das Perguntas e Respostas
               href: ../visuals/power-bi-visualization-q-and-a.md
             - name: Teach Q&A to understand (Ensinar as Perguntas e Respostas para compreender)
               href: ../natural-language/q-and-a-tooling-teach-q-and-a.md
