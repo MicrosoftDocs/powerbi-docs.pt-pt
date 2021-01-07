@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 01/13/2020
+ms.date: 12/16/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e177eb9e124a26e62d392b7dd97562c11c8f9d5a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 432db58636866afe0dfda9e77e989f8469b66e34
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411040"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600421"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop
 
@@ -107,7 +107,7 @@ Quando utilizar a ligação em direto do serviço Power BI, existem algumas lim
 
 * Apenas os utilizadores com Permissão de compilação de um conjunto de dados podem ligar a um conjunto de dados publicado através da ligação em direto do serviço Power BI.
 * Os utilizadores com licenças gratuitas apenas veem os conjuntos de dados em **A Minha Área de Trabalho** e nas áreas de trabalho Premium deles.
-* Uma vez que esta ligação é uma ligação em direto, a navegação à esquerda e a modelação estão desativadas. Apenas se pode ligar a um conjunto de dados em cada relatório. Este comportamento é semelhante ao comportamento quando está ligado aos *SQL Server Analysis Services*.
+* Uma vez que esta ligação é uma ligação em direto, a navegação à esquerda e a modelação estão desativadas. Apenas se pode ligar a um conjunto de dados em cada relatório. Este comportamento é semelhante ao comportamento quando está ligado aos *SQL Server Analysis Services*. No entanto, o seguinte artigo descreve como uma nova funcionalidade no Power BI já torna isto possível: veja [Utilizar o DirectQuery para conjuntos de dados do Power BI e para o Azure Analysis Services (pré-visualização)](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)
 * Uma vez que esta ligação é uma ligação em direto, é aplicada uma segurança ao nível da linha (RLS), assim como outros comportamentos de ligação deste tipo. Ou seja, é o mesmo como quando estabelece ligação aos SQL Server Analysis Services.
 * Se o proprietário modificar o ficheiro *.pbix* partilhado original, o conjunto de dados e o relatório partilhados no serviço Power BI serão substituídos. Os relatórios baseados nesse conjunto de dados não serão substituídos, mas as alterações feitas ao conjunto de dados serão refletidas no relatório.
 * Os membros de uma área de trabalho não podem substituir o relatório partilhado originalmente. As tentativas para o fazer resultam num aviso que lhe pede para mudar o nome do ficheiro e publicar.
@@ -116,3 +116,18 @@ Quando utilizar a ligação em direto do serviço Power BI, existem algumas lim
 * Para Pacotes de Conteúdo de *A Minha Organização*, depois de copiado, não pode substituir o relatório criado no serviço ou um relatório criado como parte da cópia de um Pacote de Conteúdo com uma ligação em direto. As tentativas para o fazer resultam num aviso que lhe pede para mudar o nome do ficheiro e publicar. Nesta situação, apenas pode substituir os relatórios ligados em direto publicados.
 * Eliminar um conjunto de dados partilhado no serviço Power BI significa que todas as pessoas perderão o acesso a este conjunto de dados a partir do Power BI Desktop.
 * Os relatórios que partilham um conjunto de dados no serviço Power BI não suportam implementações automatizadas que utilizam a API REST do Power BI.
+
+## <a name="next-steps"></a>Passos seguintes
+Para obter mais informações sobre o DirectQuery e outras funcionalidades de ligação de dados do Power BI, veja os seguintes recursos:
+
+- [Utilizar o DirectQuery no Power BI](desktop-directquery-about.md)
+- [Origens de dados suportadas pelo DirectQuery](power-bi-data-sources.md)
+- [Utilizar o DirectQuery para conjuntos de dados do Power BI e para o Azure Analysis Services (pré-visualização)](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)
+
+Veja a seguir algumas ligações adicionais para obter mais informações sobre o Power BI:
+
+* [O que é o Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
+* [Descrição geral das Consultas no Power BI Desktop](../transform-model/desktop-query-overview.md)
+* [Tipos de dados no Power BI Desktop](desktop-data-types.md)
+* [Formatar e combinar dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Tarefas comuns de consulta no Power BI Desktop](../transform-model/desktop-common-query-tasks.md)

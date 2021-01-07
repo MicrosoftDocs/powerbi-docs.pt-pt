@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/10/2020
+ms.date: 12/21/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 450c14d05f9a7855d51d7aa2f073e48a0b016013
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 140ca42dc34e98133beac5fff671cf1ef244501c
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400966"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721438"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Botões no serviço Power BI
 Pode ter reparado em botões nos relatórios que recebe de colegas e questionado como utilizá-los. Alguns têm palavras, outros têm setas, outros têm gráficos e outros até têm menus pendentes. Este artigo irá ensinar-lhe a reconhecer os botões e como descobrir o que fazer com eles.
@@ -53,7 +53,7 @@ Ao selecionar o botão marcador, o Power BI leva-o à localização e às defini
 ## <a name="drillthrough-buttons"></a>Botões de Pormenorização
 Há duas maneiras de pormenorizar no serviço Power BI. A Pormenorização leva-o a uma página de relatório diferente e os dados dessa página de destino são apresentados de acordo com os filtros e seleções que fez na página de origem.
 
-Uma maneira de pormenorizar num relatório é clicar com o botão direito do rato num ponto de dados num elemento visual, selecionar **Pormenorizar** e escolher o destino. Este método é descrito acima, na secção intitulada **Botões de retrocesso**. No entanto, por vezes os criadores de relatórios utilizam um *botão* de pormenorização, para tornar a ação mais óbvia e chamar a atenção para informações importantes.  
+Uma forma de utilizar a pormenorização num relatório é clicar com o botão direito do rato num ponto de dados num elemento visual, selecionar **Pormenorizar** e escolher o destino. Este método é descrito acima, na secção intitulada **Botões de retrocesso**. No entanto, por vezes os criadores de relatórios utilizam um *botão* de pormenorização, para tornar a ação mais óbvia e chamar a atenção para informações importantes.  
 
 Os botões de pormenorização podem ter mais do que um pré‑requisito. A não ser que cumpra todos os pré‑requisitos, o botão não irá funcionar. Vejamos um exemplo.
 
@@ -63,13 +63,13 @@ Aqui está um botão de pormenorização que nos irá levar à página *Store de
 
 Agora que selecionámos um produto (**Word**), e uma loja (**Leo**), o botão muda de cor para nos informar que agora está ativo.
 
-![Captura de ecrã a mostrar o botão de pormenorização para Store details.](media/end-user-buttons/power-bi-select-both.png)
+![Captura de ecrã a mostrar o botão de pormenorização para Detalhes da loja.](media/end-user-buttons/power-bi-select-both.png)
 
 A seleção do botão de pormenorização leva-nos à página de relatório *Store*. A página *Store* é filtrada para as nossas seleções de **Word** e **Leo**.
 
 ![Captura de ecrã a mostrar a página de relatórios das lojas.](media/end-user-buttons/power-bi-store.png)
 
-Os botões de pormenorização também podem ter menus pendentes que lhe oferecem uma seleção de destinos. Depois de ter feito as seleções na página do relatório de origem, selecione a página de relatório de destino para a pormenorização. No exemplo abaixo, estamos a mudar a nossa seleção para pormenorizar até chegar à página de relatório *Market details*. 
+Os botões de pormenorização também podem ter menus pendentes que lhe oferecem uma seleção de destinos. Depois de ter feito as seleções na página do relatório de origem, selecione a página de relatório de destino para a pormenorização. No exemplo abaixo, estamos a mudar a nossa seleção para pormenorizar até chegar à página de relatório *Detalhes do mercado*. 
 
 ![captura de ecrã a mostrar o menu pendente da pormenorização com múltiplos destinos](media/end-user-buttons/power-bi-destination.png)
 

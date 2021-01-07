@@ -4,23 +4,24 @@ description: Saiba como otimizar páginas de relatórios para as aplicações m�
 author: paulinbar
 ms.author: painbar
 ms.reviewer: ''
-ms.custom: contperfq4
+ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 06/15/2020
+ms.date: 12/22/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0780b11cb1e95578be144f65f8adb1bf641d1c1c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1bfbbcb1b722bbb2504307815860b977a6ab0709
+ms.sourcegitcommit: 2adb60a70bfc29c5fdc49cf6defb905e580288ab
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414329"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "97760752"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Otimizar relatórios do Power BI para a aplicação móvel
+
 Os utilizadores da aplicação móvel podem ver qualquer página de relatório do Power BI na orientação horizontal. No entanto, os autores do relatório podem criar uma vista adicional, otimizada para os dispositivos móveis, que é apresentada na orientação vertical. Esta opção de design, disponível no Power BI Desktop e no serviço Power BI, permite aos autores selecionarem e reorganizem apenas os elementos visuais que fazem sentido para os utilizadores de dispositivos móveis em movimento.
 
-![Relatório otimizado para dispositivos móveis](media/desktop-create-phone-report/desktop-mobile-optimized-report.png).
+![Captura de ecrã de relatórios otimizados para dispositivos móveis com orientação horizontal e vertical.](media/desktop-create-phone-report/desktop-mobile-optimized-report.png)
 
 O Power BI proporciona uma série de funcionalidades que o ajudam a criar versões otimizadas para dispositivos móveis dos relatórios:
 * Uma vista de esquema para dispositivos móveis, onde pode criar o relatório otimizado para dispositivos móveis ao arrastar e largar elementos visuais numa tela de emulador do telemóvel.
@@ -30,18 +31,18 @@ Estas capacidades tornam possível conceber e criar relatórios atraentes e inte
 
 ## <a name="create-a-mobile-optimized-portrait-version-of-a-report-page"></a>Criar uma versão vertical de uma página de relatório otimizada para dispositivos móveis
 
-O primeiro passo consiste em conceber e criar o relatório na vista Web normal. Após criar o relatório, poderá otimizá-lo para telemóveis e tablets.
+**Pré-requisito**: O primeiro passo consiste em conceber e criar o relatório na vista Web normal. Após criar o relatório, poderá otimizá-lo para telemóveis e tablets.
 
-Para criar uma vista otimizada para dispositivos móveis, abra a vista de esquema para dispositivos móveis:
+Para criar a vista otimizada para dispositivos móveis, abra o relatório no Power BI Desktop ou no serviço Power BI. Quando o relatório estiver aberto, aceda à vista de esquema para dispositivos móveis:
    * No Power BI Desktop, selecione o friso **Vista** e escolha **Esquema para dispositivos móveis**.
-   * No serviço Power BI, escolha **Mais opções (...) > Editar relatório > Esquema para dispositivos móveis**.
+   * No serviço Power BI, escolha **Editar relatório > Esquema para dispositivos móveis**. Se a opção Editar não estiver visível, procure em **Mais opções (...)** .
 
    Verá uma tela deslocável em forma de telefone e um painel **Visualizações**, que lista todos os elementos visuais que estão na página do relatório original.
 
-   ![Vista de esquema para dispositivos móveis](media/desktop-create-phone-report/desktop-mobile-layout.png).
-
 * Cada elemento visual no painel **Visualizações** é apresentado com o nome para uma identificação fácil.
 * Cada elemento visual também tem um indicador de visibilidade. O indicador de visibilidade de um elemento visual muda dependendo do estado de visibilidade do elemento visual no estado atual da vista do relatório Web. O indicador de visibilidade é útil ao trabalhar com marcadores.
+
+   ![Vista de esquema para dispositivos móveis](media/desktop-create-phone-report/desktop-mobile-layout.png)
 
 ## <a name="add-visuals-to-the-mobile-layout-canvas"></a>Adicionar elementos visuais à tela de esquema para dispositivos móveis
 Para adicionar um elemento visual ao esquema para dispositivos móveis, arraste-o do painel **Visualizações** para a tela do telemóvel. Quando arrasta um elemento visual para a tela, este é ajustado para a grelha. Em alternativa, pode fazer duplo clique no elemento visual no painel Visualizações para o adicionar à tela.
@@ -51,7 +52,7 @@ Pode adicionar alguns ou todos os elementos visuais da página de relatório Web
 >[!NOTE]
 > Pode arrastar e largar elementos visuais ocultos na tela. Serão adicionados, mas não apresentados, exceto se o estado de visibilidade for alterado na vista do relatório Web atual.
 
-Os elementos visuais podem ser colocados em camadas uns sobre os outros para criar relatórios interativos com marcadores ou para criar relatórios atraentes ao aplicar elementos visuais em camadas sobre as imagens.
+Os elementos visuais podem ser colocados em camadas uns sobre os outros para criar relatórios interativos com marcadores ou para criar relatórios atraentes ao aplicar elementos visuais em camadas sobre as imagens. Pode alterar a ordem das camadas dos elementos visuais no [painel Seleção](#set-the-layering-order-of-visuals-on-the-mobile-layout-canvas).
 
 Após colocar um elemento visual na tela, poderá redimensioná-lo ao arrastar as alças que aparecem à volta da extremidade do elemento visual quando o seleciona. Para manter a proporção do elemento visual durante o redimensionamento, prima a tecla **Shift** enquanto arrasta as alças de redimensionamento.
 
@@ -60,6 +61,18 @@ A imagem abaixo ilustra o arrastar e largar de elementos visuais do painel **Vis
    ![Arrastar e largar, redimensionar e sobrepor elementos visuais](media/desktop-create-phone-report/desktop-mobile-layout-overlay-resize.gif)
 
 A grelha de relatório de telemóvel é dimensionada nos telemóveis de tamanhos diferentes, pelo que o relatório é apresentado corretamente em ecrãs pequenos e grandes.
+
+## <a name="set-the-layering-order-of-visuals-on-the-mobile-layout-canvas"></a>Definir a ordem das camadas dos elementos visuais na tela de esquema para dispositivos móveis
+
+De cada vez que arrasta um elemento visual para a tela, o mesmo é adicionado na respetiva camada sobre quaisquer outros elementos visuais que já estejam na tela. O painel **Seleção** permite-lhe alterar a ordem das camadas.
+
+Para abrir o painel **Seleção**, clique no botão **Seleção** na secção **Mostrar painéis** no separador **Vista**. 
+
+O painel **Seleção** lista todos os elementos visuais na tela. A ordem da lista reflete a ordenação das camadas na tela: o primeiro elemento visual listado está na camada superior, o último elemento visual listado está na camada inferior. Para alterar a ordem, pode arrastar e soltar um elemento visual para outro lugar na lista ou selecionar um elemento visual e utilizar os botões de seta para movê-lo para cima ou para baixo.
+
+O painel **Seleção** também tem uma indicação de visibilidade para cada elemento visual na lista, mas não é possível alterar a visibilidade na vista de esquema para dispositivos móveis. Tal tem de ser feito na vista normal de esquema para a Web.
+
+![Captura de ecrã a mostrar o painel de seleção e como abri-lo.](media/desktop-create-phone-report/selection-pane-mobile-layout.png)
 
 ## <a name="remove-visuals-from-the-mobile-layout-canvas"></a>Remover elementos visuais da tela do esquema para dispositivos móveis
 Para remover um elemento visual do esquema para dispositivos móveis, clique no **X** no canto superior direito do elemento visual na tela do telemóvel ou selecione o elemento visual e prima **Eliminar**.

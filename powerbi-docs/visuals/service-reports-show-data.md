@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/4/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 960a3dec2276acba994190e73de671f2b071bc50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aa15bae7ab94619a9f652aa20da9222e3d4af41
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409729"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721645"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Apresentar dados subjacentes de uma visualização
 
@@ -52,7 +52,7 @@ Também pode exportar os dados que estão a ser utilizados para criar a visualiz
 6. Para ocultar os dados, anule a seleção **Explorar** > **mostrar dados**.
 
 ## <a name="using-show-records"></a>Utilizar Mostrar registos
-Também pode concentrar-se num registo de dados numa visualização e explorar os dados. 
+Também pode concentrar-se num registo de dados numa visualização e explorar os detalhes. 
 
 1. Para utilizar a opção **Ver registos**, selecione uma visualização para ativá-la. 
 

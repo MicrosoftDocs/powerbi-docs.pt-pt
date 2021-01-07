@@ -6,15 +6,16 @@ ms.author: painbar
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
-ms.topic: how-to
-ms.date: 08/16/2020
+ms.topic: conceptual
+ms.custom: contperf-fy21q2
+ms.date: 12/20/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 27d650fbe9415c2e771931801f5b573770eda5b2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: de7715fc37748ee80cba61f9cc246ad9e1df5c33
+ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412144"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97708048"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Etiquetas de confidencialidade no Power BI
 
@@ -22,47 +23,77 @@ Este artigo descreve a funcionalidade Etiquetas de confidencialidade do Microsof
 
 Para obter informações sobre a ativação da etiqueta de confidencialidade no inquilino, incluindo os pré-requisitos e requisitos de licenciamento, veja [Ativar as etiquetas de confidencialidade de dados no Power BI](service-security-enable-data-sensitivity-labels.md).
 
-Para obter informações sobre como aplicar etiquetas de confidencialidade a relatórios do Power BI, dashboards, conjuntos de dados e fluxos de dados, veja [Como aplicar etiqueta de confidencialidade no Power BI](./service-security-apply-data-sensitivity-labels.md).
+Para obter informações sobre como aplicar etiquetas de confidencialidade nos ficheiros e conteúdo do Power BI, veja [Como aplicar etiquetas de confidencialidade no Power BI](./service-security-apply-data-sensitivity-labels.md).
+
+>[!NOTE]
+>O suporte de etiquetas de confidencialidade no Power BI Desktop está atualmente em pré-visualização.
 
 ## <a name="introduction"></a>Introdução
 
-As etiquetas de confidencialidade da Microsoft Information Protection fornecem aos utilizadores uma forma simples de classificar conteúdos críticos no Power BI, sem comprometer a produtividade ou a capacidade de colaborar.
+As etiquetas de confidencialidade da Microsoft Information Protection fornecem aos utilizadores uma forma simples de classificar conteúdos críticos no Power BI, sem comprometer a produtividade ou a capacidade de colaborar. Podem ser aplicadas no Power BI Desktop (pré-visualização) e no serviço Power BI, o que possibilita a proteção dos dados confidenciais desde o momento em que começa a desenvolver pela primeira vez o conteúdo, até ao momento em que o mesmo está a ser acedido no Excel através de uma ligação dinâmica. As etiquetas de confidencialidade são retidas quando move o conteúdo alternadamente entre o Desktop e o serviço na forma de ficheiros .pbix.
 
-As etiquetas de confidencialidade podem ser aplicadas a conjuntos de dados, relatórios, dashboards e fluxos de dados. Quando os dados etiquetados saem do Power BI, através da exportação para ficheiros Excel, PowerPoint ou PDF ou através de outros cenários de exportação suportados, tal como Analisar no Excel ou Tabelas Dinâmicas no Excel de ligação em direto, o Power BI aplica automaticamente a etiqueta ao ficheiro exportado e protege-o de acordo com as definições de encriptação do ficheiro da etiqueta. Desta forma, os dados confidenciais permanecem protegidos, estejam onde estiverem.
+No serviço Power BI, as etiquetas de confidencialidade podem ser aplicadas a conjuntos de dados, relatórios, dashboards e fluxos de dados. Quando os dados etiquetados saem do Power BI, através da exportação para ficheiros Excel, PowerPoint, PDF ou .pbix ou através de outros cenários de exportação suportados, tal como Analisar no Excel ou Tabelas Dinâmicas de ligação dinâmica no Excel de ligação em direto, o Power BI aplica automaticamente a etiqueta ao ficheiro exportado e protege-o de acordo com as definições de encriptação do ficheiro da etiqueta. Desta forma, os dados confidenciais permanecem protegidos, mesmo quando saem do Power BI.
 
-As etiquetas de confidencialidade nos relatórios, dashboards, conjuntos de dados e fluxos de dados são visíveis em muitos locais no serviço Power BI. As etiquetas de confidencialidade em relatórios e dashboards são também visíveis nas aplicações móveis Power BI para iOS e Android e em elementos visuais incorporados.
+Além disso, pode aplicar as etiquetas de confidencialidade a ficheiros .pbix no Power BI Desktop, de forma a que os dados e os conteúdos fiquem seguros quando são partilhados fora do Power BI (por exemplo, para que apenas os utilizadores da organização possam abrir um ficheiro .pbix confidencial que tenha sido partilhado ou anexado num e-mail), mesmo antes de terem sido publicados no serviço Power BI. Para obter mais detalhes, veja [Restringir o acesso ao conteúdo com etiquetas de confidencialidade para aplicar encriptação](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide).
+
+As etiquetas de confidencialidade nos relatórios, dashboards, conjuntos de dados e fluxos de dados são visíveis em muitos locais no serviço Power BI. As etiquetas de confidencialidade em relatórios e dashboards são também visíveis nas aplicações móveis Power BI para iOS e Android e em elementos visuais incorporados. No Desktop, pode ver a etiqueta de confidencialidade na barra de estado.
 
 Um [relatório de métricas de proteção](service-security-data-protection-metrics-report.md) disponível no portal de administração do Power BI fornece aos administradores do Power BI uma visibilidade total sobre os dados confidenciais no inquilino do Power BI. Além disso, os registos de auditoria do Power BI incluem informações de etiquetas de confidencialidade sobre atividades como a aplicação, remoção e alteração de etiquetas, bem como sobre atividades como relatórios de visualização, dashboards, entre outros, o que dá visibilidade ao Power BI e aos administradores de segurança sobre o consumo de dados confidenciais para efeitos de monitorização e investigação de alertas de segurança.
 
 ## <a name="important-considerations"></a>Considerações importantes
 
-A etiquetagem de confidencialidade **não** afeta o acesso aos conteúdos no Power BI, uma vez que esse acesso é gerido apenas pelas permissões do Power BI. Embora as etiquetas sejam visíveis, não são aplicadas definições de encriptação associadas (configuradas no [Centro de Segurança do Microsoft 365](https://security.microsoft.com/) ou no [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/)). Estes são aplicados apenas a dados que saem do Power BI através da exportação para ficheiros Excel, PowerPoint ou PDF ou através de qualquer outro caminho de exportação suportado.
+No serviço Power BI, a etiquetagem de confidencialidade **não** afeta o acesso aos conteúdos. O acesso aos conteúdos no serviço é gerido exclusivamente pelas permissões do Power BI. Embora as etiquetas sejam visíveis, não são aplicadas definições de encriptação associadas (configuradas no [Centro de Segurança do Microsoft 365](https://security.microsoft.com/) ou no [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/)). São aplicadas apenas a dados que saem do serviço através de um caminho de exportação suportado, tal como exportar para o Excel, PowerPoint ou PDF ou transferir para .pbix.
 
-As etiquetas de confidencialidade e a encriptação de ficheiros **não são** aplicados em caminhos de exportação não suportados. O administrador do Power BI pode bloquear a exportação através de caminhos de exportação não suportados:
+No Power BI Desktop (pré-visualização), as etiquetas de confidencialidade com definições de encriptação **afetam** o acesso aos conteúdos. Se um utilizador não tiver [permissões](#power-bi-desktop-preview) suficientes de acordo com as definições de encriptação da etiqueta de confidencialidade no ficheiro .pbix, não poderá abrir o ficheiro. Além disso, no Desktop, ao guardar o trabalho, qualquer etiqueta de confidencialidade adicionada e as definições de encriptação associadas serão aplicadas ao ficheiro .pbix guardado.
+
+As etiquetas de confidencialidade e a encriptação de ficheiros **não são** aplicados em caminhos de exportação não suportados. O administrador do Power BI pode bloquear a exportação de caminhos de exportação não suportados.
 
 >[!NOTE]
-> Os utilizadores a quem é concedido acesso a um relatório têm acesso a todo o conjunto de dados subjacente, a menos que [a segurança ao nível da linha (RLS)](./service-admin-rls.md) limite o acesso. Os autores do relatório podem classificar e etiquetar relatórios com as etiquetas de confidencialidade. Se a etiqueta de confidencialidade tiver definições de proteção, o Power BI aplicará estas definições de proteção quando exportar os dados do relatório para ficheiros do Excel, do PowerPoint ou PDF. Apenas os utilizadores autorizados podem abrir ficheiros protegidos.
+> Os utilizadores a quem é concedido acesso a um relatório têm acesso a todo o conjunto de dados subjacente, a menos que [a segurança ao nível da linha (RLS)](./service-admin-rls.md) limite o acesso. Os autores do relatório podem classificar e etiquetar relatórios com as etiquetas de confidencialidade. Se a etiqueta de confidencialidade tiver definições de proteção, o Power BI aplicará estas definições de proteção quando os dados do relatório saírem do Power BI através de um caminho de exportação suportado, tal como exportar para Excel, PowerPoint ou PDF, transferir para .pbix e **Guardar** (Desktop). Apenas os utilizadores autorizados podem abrir ficheiros protegidos.
 
-## <a name="supported-export-paths"></a>Caminhos de exportação suportados
-Atualmente, a aplicação de etiquetas de confidencialidade e a proteção associada aos dados que saem do Power BI suporta os seguintes caminhos de exportação:
-* Exportar para ficheiros Excel, PowerPoint e PDF.
+### <a name="supported-export-paths"></a>Caminhos de exportação suportados
+Atualmente, a aplicação de etiquetas de confidencialidade e a proteção associada aos dados que saem do serviço Power BI suporta os seguintes caminhos de exportação:
+* Exportar para o Excel, ficheiros PDF (apenas Serviço) e PowerPoint.
 * Analisar no Excel a partir do serviço do Power BI, que aciona a transferência de um ficheiro do Excel com uma ligação em direto a um conjunto de dados do Power BI.
-* Tabela Dinâmica no Excel com uma ligação em direto ao conjunto de dados do Power BI, para utilizadores com o M365 E3 e superior. 
+* Tabela Dinâmica no Excel com uma ligação em direto ao conjunto de dados do Power BI, para utilizadores com o M365 E3 e superior.
+* Transferir para .pbix (Serviço)
 
-
+>[!NOTE]
+>Ao utilizar **Transferir para .pbix** no serviço Power BI, se o relatório transferido e o conjunto de dados tiverem etiquetas diferentes, a etiqueta mais restritiva será aplicada ao ficheiro .pbix. 
 
 ## <a name="how-sensitivity-labels-work-in-power-bi"></a>Como funcionam as etiquetas de confidencialidade no Power BI
 
-Aplicar uma etiqueta de confidencialidade a um dashboard, relatório, conjunto de dados ou fluxo de dados do Power BI é semelhante a aplicar uma etiqueta a esse recurso, o que tem os seguintes benefícios:
+Aplicar uma etiqueta de confidencialidade a ficheiros e conteúdos do Power BI é semelhante a aplicar uma etiqueta a esse recurso, o que tem os seguintes benefícios:
 * **Personalizável** – pode criar categorias para diferentes níveis de conteúdo confidencial na sua organização, tal como Pessoal, Público, Geral, Confidencial e Altamente Confidencial.
 * **Texto não encriptado** – uma vez que a etiqueta está em texto não encriptado, é fácil para os utilizadores entenderem como tratar os conteúdos de acordo com as diretrizes da etiqueta de confidencialidade.
-* **Persistente** – após a aplicação de uma etiqueta de confidencialidade ao conteúdo, a mesma acompanha esse conteúdo quando este é exportado para ficheiros Excel, PowerPoint e PDF, e torna-se a base para aplicar e impor políticas.
+* **Persistente** – após a aplicação de uma etiqueta de confidencialidade ao conteúdo, a mesma acompanha esse conteúdo quando este é exportado para ficheiros Excel, PowerPoint e PDF, transferido para .pbix ou guardado (no Desktop) e torna-se a base para aplicar e impor políticas.
 
 Eis um exemplo rápido de como as etiquetas de confidencialidade funcionam no Power BI. A imagem abaixo mostra como uma etiqueta de confidencialidade é aplicada a um relatório no serviço Power BI, como os dados do relatório são depois exportados para um ficheiro do Excel e, por fim, como a etiqueta de confidencialidade e as suas proteções persistem no ficheiro exportado.
 
 ![Um GIF animado mostra a aplicação e persistência das etiquetas de confidencialidade](media/service-security-sensitivity-label-overview/ApplyLabelandProtection.gif)
 
 As etiquetas de confidencialidade que aplica ao conteúdo são mantidas e movidas com o conteúdo conforme é utilizado e partilhado no Power BI. Pode utilizar esta etiquetagem para gerar relatórios de utilização e para ver os dados de atividade dos conteúdos confidenciais.
+
+## <a name="sensitivity-labels-in-power-bi-desktop-preview"></a>Etiquetas de confidencialidade no Power BI Desktop (pré-visualização)
+
+As etiquetas de confidencialidade também podem ser aplicadas no Power BI Desktop, o que permite proteger os dados desde o momento em que começa a desenvolver pela primeira vez o conteúdo. Ao guardar o trabalho no Desktop, a etiqueta de confidencialidade aplicada, juntamente com quaisquer definições de encriptação associadas, é aplicada ao ficheiro .pbix resultante. Se a etiqueta tiver definições de encriptação, o ficheiro ficará protegido, independentemente do local para onde vá e da forma como é transmitido. Apenas os utilizadores com as [permissões RMS necessárias](#power-bi-desktop-preview) o poderão abrir.
+
+>[!NOTE]
+>* Nesta versão de pré-visualização, podem existir algumas limitações. Veja [Limitações](#limitations).
+>* Durante as primeiras 48 horas após a ativação da funcionalidade de pré-visualização do Information Protection, **é possível que se depare com problemas com os ficheiros .pbix que têm etiquetas de confidencialidade aplicadas (por exemplo, ao publicar o .pbix no serviço, ao transferir o .pbix do serviço)** . Tais problemas são esperados e serão resolvidos automaticamente no prazo de 48 horas.
+
+Se aplicar uma etiqueta de confidencialidade no Desktop, quando publicar o trabalho no serviço ou quando carregar um ficheiro .pbix desse trabalho para o serviço, a etiqueta acompanha os dados para o serviço. No serviço, a etiqueta é aplicada ao conjunto de dados e ao relatório que obtém com o ficheiro. Se o conjunto de dados e o relatório já tiverem etiquetas de confidencialidade, essas etiquetas serão substituídas pela etiqueta proveniente do Desktop.
+ 
+Se carregar um ficheiro .pbix que nunca tenha sido publicado no serviço anteriormente e que tenha o mesmo nome de um relatório ou conjunto de dados que já exista no serviço, o carregamento só será concluído com êxito se o carregador tiver as permissões RMS necessárias para alterar a etiqueta.
+
+O mesmo também acontece na direção oposta: quando transferir para .pbix no serviço e, em seguida, carregar o .pbix para o Desktop, a etiqueta que estava no serviço será aplicada ao ficheiro .pbix transferido e carregada no Desktop. Se o relatório e o conjunto de dados no serviço tiverem etiquetas diferentes, será aplicada a mais restritiva das duas ao ficheiro .pbix transferido.
+
+Quando aplica uma etiqueta no Desktop, a mesma é apresentada na barra de estado.
+
+![Captura de ecrã da etiqueta de confidencialidade na barra de estado do Desktop.](media/service-security-sensitivity-label-overview/sensitivity-label-in-desktop-status-bar.png)
+
+[Saiba como aplicar etiquetas de confidencialidade a ficheiros e conteúdos do Power BI](./service-security-apply-data-sensitivity-labels.md).
+
 
 ## <a name="sensitivity-label-inheritance-upon-creation-of-new-content"></a>Herança de etiquetas de confidencialidade na criação de novos conteúdos
 
@@ -77,11 +108,14 @@ A seguinte imagem mostra como a etiqueta de confidencialidade de um conjunto de 
 
 ## <a name="sensitivity-labels-and-protection-on-exported-data"></a>Etiquetas de confidencialidade e proteção dos dados exportados
 
-Quando os dados são exportados do Power BI para ficheiros do Excel, PowerPoint ou PDF, o Power BI aplica automaticamente uma etiqueta de confidencialidade ao ficheiro exportado e protege-o de acordo com as definições de encriptação do ficheiro da etiqueta. Desta forma, os seus dados confidenciais permanecem protegidos, estejam onde estiverem.
+Quando os dados são exportados do Power BI para o Excel, ficheiros PDF (apenas no serviço) ou ficheiros PowerPoint, o Power BI aplica automaticamente uma etiqueta de confidencialidade ao ficheiro exportado e protege-o de acordo com as definições de encriptação do ficheiro da etiqueta. Desta forma, os seus dados confidenciais permanecem protegidos, estejam onde estiverem.
 
 Um utilizador que exporta um ficheiro do Power BI tem permissão para aceder e editar esse ficheiro de acordo com as definições da etiqueta de confidencialidade, mas não obtém permissões de proprietário no ficheiro.
 
-As etiquetas de confidencialidade e proteções não são aplicadas quando os dados são exportados para ficheiros .csv ou .pbix ou qualquer outro caminho de exportação.
+>[!NOTE]
+>Ao utilizar **Transferir para .pbix** no serviço Power BI, se o relatório transferido e o conjunto de dados tiverem etiquetas diferentes, a etiqueta mais restritiva será aplicada ao ficheiro .pbix. 
+
+As etiquetas de confidencialidade e proteções não são aplicadas quando os dados são exportados para ficheiros .csv ou qualquer outro caminho de exportação não suportado.
 
 Aplicar uma etiqueta de confidencialidade e proteção a um ficheiro exportado não adiciona marcação de conteúdos ao ficheiro. No entanto, se a etiqueta for configurada para aplicar marcações de conteúdos, estas são automaticamente aplicadas pelo cliente de etiquetagem unificada do Azure Information Protection, quando o ficheiro é aberto em aplicações de computador do Office. As marcações de conteúdo não são aplicadas automaticamente quando utiliza a etiquetagem incorporada para computadores, dispositivos móveis ou aplicações Web. Para obter mais detalhes, veja [When Office apps apply content marking and encryption](/microsoft-365/compliance/sensitivity-labels-office-apps#when-office-apps-apply-content-marking-and-encryption) (Quando é que as aplicações do Office aplicam marcação de conteúdo e encriptação).
 
@@ -97,7 +131,6 @@ As etiquetas de confidencialidade no Excel que tenham sido definidas manualmente
 
 >[!NOTE]
 >Se a etiqueta de confidencialidade do conjunto de dados for menos restritiva do que a etiqueta de confidencialidade do ficheiro do Excel, não ocorre a herança nem a atualização de etiquetas. Um ficheiro do Excel nunca herda uma etiqueta de confidencialidade menos restritiva.
-
 
 ## <a name="sensitivity-label-persistence-in-embedded-reports-and-dashboards"></a>Persistência da etiqueta de confidencialidade em relatórios e dashboards incorporados
 
@@ -134,13 +167,41 @@ Para aceder às etiquetas de confidencialidade em qualquer um destes centros, na
 
 ## <a name="limitations"></a>Limitações
 
-A lista seguinte fornece algumas limitações de etiquetas de confidencialidade no Power BI:
+### <a name="general"></a>Geral
+
+* Não é recomendável permitir que os utilizadores apliquem etiquetas principais dentro do Power BI (uma etiqueta será considerada como sendo uma etiqueta principal apenas se possuir subetiquetas). Se uma etiqueta principal for aplicada ao conteúdo, a exportação de dados desse conteúdo para um ficheiro (Excel, PowerPoint e PDF) irá falhar. Veja [Sublabels (grouping labels)](/microsoft-365/compliance/sensitivity-labels#sublabels-grouping-labels) (Subetiquetas [etiquetas do agrupamento]).
+
+* As etiquetas de confidencialidade de dados não são suportadas para aplicações de modelo. As etiquetas de confidencialidade definidas pelo criador de aplicações de modelo serão removidas quando a aplicação é extraída e instalada e as etiquetas de confidencialidade adicionadas a artefactos numa aplicação de modelo instalada pelo consumidor de aplicações serão perdidas (repostas a zero) quando a aplicação é atualizada.
+
+* No serviço Power BI, se um conjunto de dados tiver uma etiqueta que tenha sido eliminada do centro de administração de etiquetas, não poderá exportar nem transferir os dados. Na opção Analisar no Excel, será emitido um aviso e os dados serão exportados para um ficheiro .odc sem etiquetas de confidencialidade. No Desktop, se um ficheiro .pbix tiver uma etiqueta inválida, não o poderá guardar.
+
+* O Power BI não suporta etiquetas de confidencialidade dos tipos de proteção [Não Reencaminhar](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions), [definido pelo utilizador](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions) e [HYOK](/azure/information-protection/configure-adrms-restrictions). Os tipos de proteção Não Reencaminhar e definido pelo utilizador fazem referência a etiquetas definidas no [Centro de Segurança do Microsoft 365](https://security.microsoft.com/) ou no [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/).
+
+### <a name="power-bi-service"></a>Serviço Power BI
 
 * As etiquetas de confidencialidade só podem ser aplicadas em dashboards, relatórios, conjuntos de dados e fluxos de dados. Atualmente, não estão disponíveis para [relatórios paginados](../paginated-reports/report-builder-power-bi.md) e livros.
+
 * As etiquetas de confidencialidade em recursos do Power BI estão visíveis nas vistas de lista de áreas de trabalho, linhagem, favoritos, recentes e aplicações. Atualmente, as etiquetas não estão visíveis na vista "Partilhado comigo". No entanto, repare que uma etiqueta aplicada a um recurso do Power BI, mesmo que não esteja visível, persiste sempre nos dados exportados para ficheiros Excel, PowerPoint e PDF.
-* As etiquetas de confidencialidade de dados não são suportadas para aplicações de modelo. As etiquetas de confidencialidade definidas pelo criador de aplicações de modelo serão removidas quando a aplicação é extraída e instalada e as etiquetas de confidencialidade adicionadas a artefactos numa aplicação de modelo instalada pelo consumidor de aplicações serão perdidas (repostas a zero) quando a aplicação é atualizada.
-* O Power BI não suporta etiquetas de confidencialidade dos tipos de proteção [Não Reencaminhar](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions), [definido pelo utilizador](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions) e [HYOK](/azure/information-protection/configure-adrms-restrictions). Os tipos de proteção Não Reencaminhar e definido pelo utilizador fazem referência a etiquetas definidas no [Centro de Segurança do Microsoft 365](https://security.microsoft.com/) ou no [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/).
-* Não é recomendável permitir que os utilizadores apliquem etiquetas principais dentro do Power BI (uma etiqueta será considerada como sendo uma etiqueta principal apenas se possuir subetiquetas). Se uma etiqueta principal for aplicada ao conteúdo, a exportação de dados desse conteúdo para um ficheiro (Excel, PowerPoint e PDF) irá falhar. Veja [Sublabels (grouping labels)](/microsoft-365/compliance/sensitivity-labels#sublabels-grouping-labels) (Subetiquetas [etiquetas do agrupamento]).
+
+### <a name="power-bi-desktop-preview"></a>Power BI Desktop (pré-visualização)
+
+* Os ficheiros .pbix protegidos só podem ser abertos e/ou publicados por um utilizador que seja o proprietário RMS do ficheiro (o utilizador que aplicou a etiqueta ao ficheiro originalmente) ou que tenha [**Controlo total** e/ou direitos de utilização para **Exportar**](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide) para a etiqueta relevante. O proprietário RMS tem controlo total e nunca pode ser bloqueado. [Veja mais detalhes](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)
+
+* Se a etiqueta aplicada a um ficheiro .pbix não tiver sido publicada para o utilizador no centro de segurança do Microsoft 365 ou no centro de conformidade do Microsoft 365, o utilizador não poderá guardar o ficheiro no Desktop.
+
+* Os utilizadores do Power BI Desktop podem deparar-se com problemas ao guardar o trabalho quando a conectividade Internet é perdida, tal como após ficarem offline. Sem ligação à Internet, algumas ações relacionadas com as etiquetas de confidencialidade e a gestão de direitos podem não ser concluídas adequadamente. Nesses casos, recomenda-se voltar a ficar online e tentar guardar novamente.
+
+* Se tiver criado um modelo grande e o ficheiro .pbix protegido resultante for muito grande (mais de 2 GB), será possível que ocorra uma falha ao tentar guardá-lo ou abri-lo. Para contornar este problema, considere remover a proteção do ficheiro .pbix e voltar a aplicá-la depois de o ficheiro ter sido publicado no serviço Power BI.
+
+    Em geral, quando protege um ficheiro com uma etiqueta de confidencialidade que aplica encriptação, recomenda-se utilizar também outro método de encriptação, como a encriptação do ficheiro de paginação, encriptação NTFS, bitlockers, antimalware, etc.
+
+* Os ficheiros temporários não são encriptados.
+
+* A opção **Obter dados** só poderá carregar ficheiros protegidos se forem locais. Os ficheiros protegidos de serviços online como o SharePoint Online ou OneDrive para Empresas não podem ser carregados. Para um ficheiro protegido, pode carregá-lo a partir do dispositivo local ou remover primeiro a etiqueta do ficheiro no Power BI Desktop e, em seguida, carregá-lo através de um dos serviços online.
+
+* A opção **Exportar para PDF** não suporta etiquetas de confidencialidade. Se exportar um ficheiro que tenha uma etiqueta de confidencialidade para PDF, o PDF não receberá a etiqueta e não será aplicada qualquer proteção.
+
+* A proteção de informações no Power BI Desktop não suporta **cenários B2B** e **multi-inquilinos**.
 
 ## <a name="next-steps"></a>Próximos passos
 

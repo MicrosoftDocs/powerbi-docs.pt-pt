@@ -9,19 +9,19 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 806198b783785a06562411b53f7bd6f644b16918
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a971e0d0b35b0a3988a1c10ea2b7b801830229d6
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388201"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721553"
 ---
 # <a name="create-a-report-from-an-excel-file-in-the-power-bi-service"></a>Criar um relatório a partir de um ficheiro do Excel no serviço Power BI
 Leu o artigo [Relatórios no Power BI](../consumer/end-user-reports.md) e pretende agora criar o seu. Existem várias formas de criar um relatório. Neste artigo, vamos começar por criar um relatório básico no serviço Power BI a partir de um ficheiro do Excel. Após compreender as noções básicas da criação de um relatório, verifique os [Passos seguintes](#next-steps) na parte final da página para ver tópicos mais avançados sobre relatórios.  
 
 ## <a name="prerequisites"></a>Pré-requisitos
 - [Inscreva-se no serviço Power BI](../fundamentals/service-self-service-signup-for-power-bi.md). 
-- [Transfira o ficheiro do Excel do exemplo de Análise de Revenda](https://go.microsoft.com/fwlink/?LinkId=529778) e guarde-o localmente ou no OneDrive para Empresas.
+- [Transfira o ficheiro do Excel de exemplo Análise de Revenda](https://go.microsoft.com/fwlink/?LinkId=529778) e guarde-o no computador ou no OneDrive para Empresas.
 
 ## <a name="import-the-excel-file"></a>Importar o ficheiro do Excel
 Este método de criação de um relatório começa por um ficheiro e uma tela de relatório em branco. Poderá seguir a importação a partir do ficheiro do Excel do exemplo de Análise de Revenda.

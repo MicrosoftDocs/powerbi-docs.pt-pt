@@ -1,5 +1,5 @@
 ---
-title: Transferir um relatório do serviço Power BI para o Power BI Desktop (Pré-visualização)
+title: Transferir um relatório do serviço Power BI para o Power BI Desktop (pré-visualização)
 description: Transferir um relatório do serviço Power BI para um ficheiro do Power BI Desktop
 author: maggiesMSFT
 ms.author: maggies
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/14/2020
+ms.date: 11/14/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: c83b7d1e52a0d443c52348bec91f935e288830d4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1a196d149a6519f9bcad6bd70ef02d62ef16f69b
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388684"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600674"
 ---
-# <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Transferir um relatório do serviço Power BI para o Power BI Desktop (Pré-visualização)
+# <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Transferir um relatório do serviço Power BI para o Power BI Desktop (pré-visualização)
       
 No Power BI Desktop, pode publicar um relatório (um ficheiro *.pbix*) do seu computador local no serviço Power BI. Os relatórios do Power BI também podem ir noutra direção: Pode transferir um relatório do serviço Power BI para o Power BI Desktop. A extensão de um relatório do Power BI, em ambos os casos, é .pbix.
 
@@ -54,7 +54,7 @@ Existem algumas considerações e limitações importantes associadas à transfe
 * O relatório deverá ter sido criado com o Power BI Desktop e *publicado* no serviço Power BI, ou o ficheiro .pbix deverá ter sido *carregado* para o serviço Power BI.
 * Os relatórios têm de ter sido publicados ou atualizados após 23 de novembro de 2016. Os relatórios publicados anteriormente não são transferíveis.
 * Esta funcionalidade não é compatível com relatórios e pacotes de conteúdos originalmente criados no serviço Power BI.
-* Utilize sempre a versão mais recente do Power BI Desktop ao abrir ficheiros transferidos. Os ficheiros .pbix transferidos poderão não ser abertos em versões não atuais do Power BI Desktop.
+* Utilize sempre a versão mais recente do Power BI Desktop ao abrir ficheiros transferidos. Os ficheiros .pbix transferidos poderão não ser abertos em versões não atuais do Power BI Desktop. Por exemplo, não pode abrir ficheiros .pbix com uma versão do Desktop que não suporte a proteção de informações.
 * Se o seu administrador tiver desativado a capacidade de transferir dados, esta funcionalidade não estará visível no serviço Power BI.
 * Não é possível transferir um conjunto de dados com atualização incremental para um ficheiro .pbix.
 * Os conjuntos de dados ativados para [grandes modelos](../admin/service-premium-large-models.md) não podem ser transferidos para um ficheiro .pbix.

@@ -10,12 +10,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 12/14/2020
-ms.openlocfilehash: af1fac127d1a20f13bc99fc2d05510491a01be5a
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: fde06eaa3b2dd44b91e8a47981ac4e9fecba5af3
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492041"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721415"
 ---
 # <a name="chat-in-microsoft-teams-directly-from-the-power-bi-service"></a>Conversar no Microsoft Teams diretamente do serviço Power BI
 
@@ -35,11 +35,11 @@ Siga estes passos para partilhar ligações para relatórios, dashboards e eleme
 
    * **Conversar no Teams** na barra de ação de um dashboard ou relatório:
 
-       ![Captura de ecrã a mostrar o botão Partilhar no Teams na barra de ação.](media/service-share-report-teams/service-teams-share-to-teams-action-bar-button.png)
+       ![Captura de ecrã a mostrar o botão Conversar no Teams na barra de ação.](media/service-share-report-teams/service-teams-share-to-teams-action-bar-button.png)
     
    * **Conversar no Teams** no menu de contexto de um único elemento visual:
     
-      ![Captura de ecrã a mostrar o botão Partilhar no Teams, no menu contextual de um elemento visual.](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
+      ![Captura de ecrã a mostrar o botão Conversar no Teams no menu contextual de um elemento visual.](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
 
 1. Na caixa de diálogo **Partilhar no Microsoft Teams**, selecione a equipa ou o canal para onde quer enviar a ligação. Se preferir, pode introduzir uma mensagem. Primeiro, pode ser-lhe pedido para iniciar sessão no Microsoft Teams.
 

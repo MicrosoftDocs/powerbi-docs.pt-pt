@@ -1,28 +1,28 @@
 ---
 title: Introdução à formatação de visualizações do Power BI
-description: Personalizar o título, fundo e legenda da visualização
+description: Personalizar os títulos, os fundos, as etiquetas e as legendas das visualizações
 author: mihart
 ms.author: mihart
 ms.reviewer: mihart
-featuredvideoid: IkJda4O7oGs
+featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 03/06/2020
+ms.date: 12/18/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c974161e4cc7d52bf412ea14800bf720a297cd25
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2a8c125a37e0d70ea735d9f1962f64deb69061c8
+ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409821"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97745145"
 ---
-# <a name="customize-visualization-titles-backgrounds-and-legends"></a>Personalizar os títulos, fundos e legendas das visualizações
+# <a name="customize-visualization-titles-backgrounds-labels-and-legends"></a>Personalizar os títulos, os fundos, as etiquetas e as legendas das visualizações
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 
-Neste tutorial, vai aprender várias formas de personalizar as visualizações. Existem muitas opções para personalizar as visualizações. A melhor forma de saber mais sobre todas elas é explorar o painel **Formatação** (selecione o ícone de rolo de pintura). Para começar, este artigo mostra-lhe como pode personalizar um título, uma legenda, um fundo de visualização e adicionar um tema.
+Neste tutorial, vai aprender várias formas de personalizar as visualizações. Existem muitas opções para personalizar as visualizações. A melhor forma de saber mais sobre todas elas é explorar o painel **Formatação** (selecione o ícone de rolo de pintura). Para começar, este artigo mostra-lhe como pode personalizar um título, uma legenda, um fundo, uma etiqueta das visualizações e adicionar um tema.
 
 Não pode personalizar todas as visualizações. Veja a [lista completa](#visualization-types-that-you-can-customize) das visualizações para obter mais detalhes.
 
@@ -41,7 +41,7 @@ Não pode personalizar todas as visualizações. Veja a [lista completa](#visual
 Inicie sessão no Power BI Desktop e abra o relatório [Exemplo de Análise de Revenda](../create-reports/sample-datasets.md).
 
 > [!NOTE]
-> Ao afixar uma visualização num dashboard, ela se torna um mosaico do dashboard. Também pode personalizar os próprios mosaicos com [novos títulos e subtítulos, hiperligações e redimensionar os mesmos](../create-reports/service-dashboard-edit-tile.md).
+> Ao afixar uma visualização num dashboard, ela se torna um mosaico do dashboard. Também pode personalizar os próprios mosaicos com [novos títulos e subtítulos, hiperligações e redimensionamentos](../create-reports/service-dashboard-edit-tile.md).
 
 1. Aceda à página **Novas Lojas** do relatório **Exemplo de Análise de Revenda**.
 
@@ -126,6 +126,29 @@ Guarde as alterações realizadas e avance para a secção seguinte.
 
 Se precisar de reverter todas as alterações, selecione **Reverter para predefinição**, na parte inferior do painel de personalização **Legenda**.
 
+## <a name="customize-total-labels-for-stacked-visuals"></a>Personalizar o total de etiquetas para elementos visuais empilhados
+Os elementos visuais empilhados podem apresentar etiquetas de dados e o total de etiquetas. Num gráfico de colunas empilhadas, as etiquetas de dados identificam o valor de cada parte de uma coluna. O total de etiquetas apresenta o valor total para toda a coluna agregada. 
+
+Veja o Rien a adicionar o total de etiquetas a um gráfico empilhado e, em seguida, siga os passos abaixo para experimentar.
+
+> [!VIDEO https://www.youtube.com/embed/OgjX-pFGgfM]
+
+1. Abra a página do relatório **Descrição geral** e selecione o gráfico de barras **Tamanho da área de vendas médio por cadeia e tipo de loja**.
+
+1. No separador **Visualização**, selecione o ![ícone do gráfico de barras empilhadas](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-bar.png) para converter este gráfico de barras num gráfico de barras empilhadas. Note que o elemento visual retém as etiquetas de dados. 
+
+    ![Captura de ecrã a mostrar o novo gráfico de barras empilhadas.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-chart.png)
+
+1. No separador **Visualização**, selecione o ícone de rolo de pintura para abrir o painel Formatação.
+
+1. Mova o controlo de deslize do **Total de etiquetas** para **Ativado**. 
+
+    ![Captura de ecrã a mostrar o controlo de deslize do total de etiquetas definido como Ativado.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-totals.png)
+
+1. Opcionalmente, formate o total de etiquetas. Neste exemplo, alterámos a cor para preto, aumentámos o tamanho do tipo de letra e optámos por apresentar os valores como **Milhares**.
+
+    ![Captura de ecrã a mostrar o novo gráfico de barras empilhadas com o total de etiquetas.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-bar-totals.png)
+
 ## <a name="customize-colors-using-a-theme"></a>Personalizar cores com um tema
 
 Com os temas de relatório, pode aplicar alterações de design a todo o relatório, como utilizar cores da empresa, alterar conjuntos de ícones ou aplicar uma nova formatação visual predefinida. Quando aplica um tema de relatório, todos os elementos visuais no relatório utilizam as cores e a formatação do tema selecionado.
@@ -139,32 +162,32 @@ Para aplicar um tema ao seu relatório, selecione **Mudar tema** a partir da bar
 
 Veja a seguir uma lista de visualizações e as opções de personalização disponíveis para cada uma:
 
-| Visualização | Título | Fundo | Legenda |
-|:--- |:--- |:--- |:--- |
-| Área | sim | sim |sim |
-| Barras | sim | sim |sim |
-| Cartão | sim | sim |n/a |
-| Cartão de Linhas múltiplas | sim | sim | n/a |
-| Coluna | sim | sim | sim |
-| Combinação | sim | sim | sim |
-| Anel | sim | sim | sim |
-| Mapa de manchas | sim | sim | sim |
-| Funil | sim | sim | n/a |
-| Medidor | sim | sim | n/a |
-| Principal Influenciador | sim | sim | n/a |
-| KPI | sim | sim | n/a |
-| Linha | sim | sim | sim |
-| Mapa | sim | sim | sim |
-| Matriz | sim | sim | n/a |
-| Circular | sim | sim | sim |
-| Perguntas e Respostas | sim | sim | n/a |
-| Dispersão | sim | sim | sim |
-| Forma | sim | sim | sim |
-| Segmentação de Dados | sim | sim | n/a |
-| Tabela | sim | sim | n/a |
-| Caixa de texto | não | sim | n/a |
-| Treemap | sim | sim | sim |
-| Cascata | sim | sim | sim |
+| Visualização | Título | Fundo | Legenda | Total de etiquetas
+|:--- |:--- |:--- |:--- |:--- |
+| Área | sim | sim |sim | sim  |
+| Barras | sim | sim |sim | sim |
+| Cartão | sim | sim |n/a | n/a |
+| Cartão de Linhas múltiplas | sim | sim | n/a | n/a |
+| Coluna | sim | sim | sim |  sim |
+| Combinação | sim | sim | sim | sim |
+| Anel | sim | sim | sim | n/a |
+| Mapa de manchas | sim | sim | sim |n/a |
+| Funil | sim | sim | n/a |n/a |
+| Medidor | sim | sim | n/a |n/a |
+| Principal Influenciador | sim | sim | n/a |n/a |
+| KPI | sim | sim | n/a |n/a |
+| Linha | sim | sim | sim |n/a |
+| Mapa | sim | sim | sim |n/a |
+| Matriz | sim | sim | n/a |sim |
+| Circular | sim | sim | sim |n/a |
+| Perguntas e Respostas | sim | sim | n/a |n/a |
+| Dispersão | sim | sim | sim |n/a |
+| Forma | sim | sim | sim |n/a |
+| Segmentação de Dados | sim | sim | n/a |n/a |
+| Tabela | sim | sim | n/a |sim |
+| Caixa de texto | não | sim | n/a |n/a |
+| Treemap | sim | sim | sim |n/a |
+| Cascata | sim | sim | sim |n/a |
 
 ## <a name="next-steps"></a>Próximos passos
 

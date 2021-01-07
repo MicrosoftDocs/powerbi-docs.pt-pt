@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 09/02/2020
-ms.openlocfilehash: 58ec11935e74131c17dc4c0755598c3c3341e259
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e5b176ac9e8d334b6dec9af70c189d2767bace1c
+ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418699"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97805240"
 ---
 # <a name="set-up-your-environment-for-developing-a-power-bi-visual"></a>Configurar o seu ambiente para programar um elemento visual do Power BI
 
@@ -198,7 +198,7 @@ npm i powerbi-visuals-api --save-dev
 
 ### <a name="optional-verify-that-the-d3-library-is-installed"></a>(Opcional) Verificar se a biblioteca D3 está instalada
 
-O [Visual Studio Code](https://code.visualstudio.com/) (VS Code) é um IDE (Ambiente de Desenvolvimento Integrado) ideal para a programação de aplicações TypeScript. Nesta secção, usaremos o VS Code para verificar se a biblioteca D3 de que precisa para programar o seu elemento visual do Power BI está instalada corretamente.
+O [Visual Studio Code](https://code.visualstudio.com/) (VS Code) é um IDE (Ambiente de Desenvolvimento Integrado) ideal para a programação de aplicações TypeScript. Nesta secção, vamos utilizar o VS Code para verificar se a biblioteca D3 de que precisa para programar o elemento visual do Power BI está instalada corretamente.
 
 >[!NOTE]
 >O processo de verificação descrito nesta secção pressupõe que tem um projeto de elementos visuais do Power BI existente. Se não tiver um projeto de elementos visuais Power BI, pode criar um ao seguir as instruções [criação de projeto de cartão circular](develop-circle-card.md#create-a-development-project).
@@ -206,7 +206,7 @@ O [Visual Studio Code](https://code.visualstudio.com/) (VS Code) é um IDE (Ambi
 1. Abra o VS Code.
 
     >[!TIP]
-    >Pode abrir o VS Code no PowerShell ao executar o seguinte comando:
+    >Pode abrir o VS Code no PowerShell ao executar o seguinte comando:
     >
     >```powershell
     >code .

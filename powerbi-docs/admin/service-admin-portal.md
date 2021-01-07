@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 12/18/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 9cbb6bb03d9add4324c3fc57a6426435850a001c
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: 2e89dc43f467aec8edcefaa4ecdbd2fc6cbf6dea
+ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578182"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97699478"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
-O portal de administração permite-lhe gerir as definições do Power BI para a sua organização. O portal inclui itens como métricas de utilização, acesso ao centro de administração do Microsoft 365 e definições de inquilino.
+O portal de administração permite-lhe gerir as definições do Power BI para a sua organização. O portal inclui itens, como métricas de utilização, acesso ao centro de administração do Microsoft 365 e definições que regem o Power BI para todos os utilizadores.
 
 O portal de administração completo está acessível para administradores globais e utilizadores com a função Administrador de serviço do Power BI. Se não estiver numa destas funções, verá apenas as **Definições de capacidade** no portal. Para obter mais informações sobre a função de administrador do serviço Power BI, veja [Noções básicas sobre a função de administrador do Power BI](service-admin-role.md).
 
@@ -31,14 +31,15 @@ Tem de ser um administrador global ou um administrador de serviço do Power BI p
 
 1. No cabeçalho da página, selecione **Definições** > **Portal de administração**.
 
-    ![Definições do portal de administração](media/service-admin-portal/powerbi-admin-settings.png)
+   :::image type="content" source="media/service-admin-portal/settings-portal.png" alt-text="Menu de definições com o portal de administração selecionado.":::
 
 O Portal de administração tem várias secções. O resto deste artigo disponibiliza informações sobre cada um dessas secções.
 
-![Navegação no portal de administração](media/service-admin-portal/powerbi-admin-landing-page.png)
+   :::image type="content" source="media/service-admin-portal/portal-menu.png" alt-text="Menu do portal de administração.":::
 
 * [Métricas de utilização](#usage-metrics)
 * [Utilizadores](#users)
+* [Premium por utilizador (pré-visualização)](#premium-per-user-preview)
 * [Registos de auditoria](#audit-logs)
 * [Definições de inquilino](#tenant-settings)
 * [Definições de capacidade](#capacity-settings)
@@ -125,6 +126,14 @@ Tenha cuidado, uma vez que eliminar o conteúdo das métricas de utilização po
 Os utilizadores, grupos e administradores do Power BI são geridos no centro de administração do Microsoft 365. O separador **Utilizadores** disponibiliza uma ligação para o centro de administração.
 
 ![Aceda ao centro de administração do Microsoft 365](media/service-admin-portal/powerbi-admin-manage-users.png)
+
+## <a name="premium-per-user-preview"></a>Premium por utilizador (pré-visualização)
+
+O Premium por utilizador é uma nova forma de licenciar funcionalidades Premium por utilizador. Esta funcionalidade encontra-se em pré-visualização. Depois de ser atribuída uma licença Premium por utilizador a, pelo menos, um utilizador, as funcionalidades associadas poderão ser ativadas em qualquer área de trabalho. Os administradores poderão gerir as definições de atualização automática e da carga de trabalho do conjunto de dados que são apresentadas aos utilizadores e os valores predefinidos. Por exemplo, o acesso ao Ponto Final XMLA pode ser desativado, definido como só de leitura ou definido como leitura/escrita.
+
+   :::image type="content" source="media/service-admin-portal/premium-per-user-options.png" alt-text="Definições Premium por utilizador":::.
+
+Consulte [FAQ do Power BI Premium Por Utilizador (pré-visualização)](service-premium-per-user-faq.md) para saber mais sobre este modelo de licenciamento.
 
 ## <a name="audit-logs"></a>Registos de auditoria
 

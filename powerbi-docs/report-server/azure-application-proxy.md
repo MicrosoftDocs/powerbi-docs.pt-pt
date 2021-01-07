@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 07/28/2020
-ms.openlocfilehash: 795b2e7e1b9ef0c705f7240e9a20a5c2da2f81a3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/18/2020
+ms.openlocfilehash: be256a0ed861ae7ebc26fe4e2a74e0d597ef5542
+ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414927"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97699306"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Configurar o Power BI Report Server com o Proxy de Aplicações do Azure
 
@@ -260,6 +260,9 @@ Para terminar a configuração da aplicação, aceda à secção **Utilizadores 
 ### <a name="configure-the-application-registration"></a>Configurar o registo de aplicação
 
 Para poder ligar a aplicação móvel do Power BI e aceder ao Power BI Report Server, tem de configurar o registo de aplicação que foi criado automaticamente na secção [Publicar através do Proxy de Aplicações do Azure Active Directory](#publish-through-azure-ad-application-proxy) deste artigo.
+
+> [!NOTE]
+> Se utilizar políticas de acesso condicional que exijam que a aplicação móvel do Power BI seja uma aplicação cliente aprovada, não poderá utilizar o Proxy de Aplicações do Azure Active Directory para ligar a aplicação móvel do Power BI ao Power BI Report Server.
 
 1. Na página **Descrição geral** do Azure Active Directory, selecione **Registos de aplicações**.
 2. No separador **Todas as aplicações**, procure a aplicação que criou para o Power BI Report Server.

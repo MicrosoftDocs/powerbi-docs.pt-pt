@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 12/16/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0f971013d5f57174a26d92281cafe673f1487329
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: 21371e931aa123aa6a339bfbcb939bde943b3f9f
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96577561"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675517"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Utilizar o formato SAML (Security Assertion Markup Language) para SSO do Power BI em origens de dados no local
 
@@ -29,7 +29,7 @@ Suportamos origens de dados adicionais com o [Kerberos](service-gateway-sso-kerb
 Para o SAP HANA, é recomendado ativar a encriptação antes de estabelecer uma ligação SSO do SAML. Para ativar a encriptação, configure o servidor HANA para aceitar ligações encriptadas e configurar o gateway para utilizar a encriptação para comunicar com o servidor HANA. Como o controlador ODBC do HANA não encripta asserções do SAML por predefinição, a asserção do SAML assinada é enviada do gateway para o servidor HANA *com luz verde* e está vulnerável à interceção e reutilização por terceiros.
 
 > [!IMPORTANT]
-> O SAP já não suporta o OpenSSL. Como resultado, a Microsoft também descontinuou o respetivo suporte. As ligações novas e existentes continuarão a funcionar até ao final de 2020, mas deixarão de funcionar a partir de 1 de janeiro de 2021. Utilize a biblioteca CommonCryptoLib.
+> Uma vez que o [SAP já não suporta o OpenSSL](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.05/en-US/de15ffb1bb5710148386ffdfd857482a.html), a Microsoft também descontinuou o suporte. As ligações existentes continuarão a funcionar, mas não poderá criar novas ligações a partir de fevereiro de 2021. No futuro, em alternativa, utilize o CommonCryptoLib.
 
 ## <a name="configuring-the-gateway-and-data-source"></a>Configurar o gateway e a origem de dados
 

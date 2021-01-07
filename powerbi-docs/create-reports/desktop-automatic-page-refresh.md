@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3f68a056e6e31acaf5432c4e323ba8a293ee09ce
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: eb572c17705f06b989f15323322c0da11b1d85ac
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414421"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600697"
 ---
 # <a name="automatic-page-refresh-in-power-bi"></a>Atualização automática de páginas no Power BI
 
@@ -33,11 +33,11 @@ Este tipo de atualização permite que atualize todos os elementos visuais numa 
 
 ### <a name="change-detection"></a>Deteção da alteração
 
-Este tipo de atualização permite-lhe atualizar os elementos visuais numa página com base em detetar alterações nos dados, em vez de um intervalo de atualização específico. Especificamente, esta medida pesquisa por alterações na sua [origem DirectQuery](../connect-data/desktop-directquery-about.md). Além de definir a medida, tem também de selecionar a frequência com que o Power BI Desktop verifica alterações. Ao publicar no serviço, este tipo de atualização só é suportado em áreas de trabalho que fazem parte de uma capacidade Premium.
+Este tipo de atualização permite-lhe atualizar os elementos visuais numa página com base em detetar alterações nos dados, em vez de um intervalo de atualização específico. Especificamente, esta medida pesquisa por alterações na sua [origem DirectQuery](../connect-data/desktop-directquery-about.md). Além de definir a medida, tem também de selecionar a frequência com que o Power BI Desktop verifica alterações. Ao publicar no serviço, este tipo de atualização só é suportado em áreas de trabalho que fazem parte de uma capacidade Premium. As origens LiveConnect, como conjuntos de dados do Power BI e do Analysis Services, não são suportadas.
 
 ## <a name="authoring-reports-with-automatic-page-refresh-in-power-bi-desktop"></a>Criar relatórios com atualização automática de páginas no Power BI Desktop
 
-A atualização automática de páginas está disponível apenas para [origens DirectQuery](../connect-data/desktop-directquery-about.md), pelo que só estará disponível quando estiver ligado a uma origem de dados do DirectQuery. Esta restrição aplica-se a ambos os tipos de atualização automática de páginas.
+A atualização automática de páginas está disponível para as [origens do DirectQuery](../connect-data/desktop-directquery-about.md) e alguns cenários LiveConnect, pelo que só estará disponível quando estiver ligado a uma origem de dados suportada. Esta restrição aplica-se a ambos os tipos de atualização automática de páginas.
 
 Para utilizar a atualização automática de páginas no Power BI Desktop, selecione a página de relatório para a qual deseja ativar a atualização automática de páginas. No painel **Visualizações**, selecione o botão **Formatação** (um rolo de tinta) e localize a secção **Atualização de páginas** próximo da parte inferior do painel.
 
@@ -160,7 +160,7 @@ O Power BI Desktop não tem restrições para os intervalos de atualização, 
 
 ### <a name="restrictions-on-refresh-intervals"></a>Restrições dos intervalos de atualização
 
-No serviço Power BI, aplicam-se restrições à atualização automática de páginas com base na área de trabalho em que o relatório está publicado, se está a utilizar os serviços Premium e as definições de administrador da capacidade Premium.
+No serviço Power BI, aplicam-se restrições à atualização automática de páginas com base na área de trabalho em que o relatório está publicado, se está a utilizar os serviços Premium, as definições de administrador da capacidade Premium e o tipo de origem de dados.
 
 Para esclarecer como estas restrições funcionam, vamos começar com algum contexto sobre as capacidades e áreas de trabalho.
 
@@ -182,32 +182,35 @@ Veja a seguir alguns detalhes dos dois cenários de área de trabalho:
 
  - **Intervalo de execução mínimo**. Ao ativar a deteção de alteração, o seu administrador de capacidade tem de configurar um intervalo de execução mínimo (o valor predefinido é de cinco segundos). Se o intervalo for inferior ao mínimo, o serviço Power BI definirá o intervalo para respeitar o intervalo mínimo definido pelo administrador de capacidade.
 
+> [!WARNING]
+> Quando estiver ativada no seu conjunto de dados, a medida de deteção de alteração abrirá uma ligação com a origem de dados do DirectQuery para calcular a medida e sondar as alterações. Esta ligação é diferente das ligações de atualização de Baixa Prioridade que o Power BI já faz.
+
 ![Definições de atualização de páginas automática no portal de administrador de capacidade](media/desktop-automatic-page-refresh/automatic-page-refresh-09.png)
 
 Esta tabela descreve com mais detalhes onde esta funcionalidade está disponível e os limites para cada tipo de capacidade e [modo de armazenamento](../connect-data/service-dataset-modes-understand.md):
 
-| Modo de armazenamento | Capacidade dedicada | Capacidade partilhada |
-| --- | --- | --- |
-| DirectQuery | **IF suportado**: Sim <br>**DC suportado**: Sim <br>**Mínimo**: 1 segundo <br>**Definição manual do administrador**: Sim | **IF suportado**: Sim <br>**DC suportado**: Não <br>**Mínimo**: 30 minutos <br>**Definição manual do administrador**: Não |
-| Importar | **IF suportado**: Não <br>**DC suportado**: Não <br>**Mínimo**: N/D <br>**Definição manual do administrador**: N/D | **IF suportado**: Não <br>**DC suportado**: Não <br>**Mínimo**: N/D <br>**Definição manual do administrador**: N/D |
-| Modo misto (DirectQuery + outras origens de dados) | **IF suportado**: Sim <br>**DC suportado**: Sim <br>**Mínimo**: 1 segundo <br>**Definição manual do administrador**: Sim | **IF suportado**: Sim <br>**DC suportado**: Não <br>**Mínimo**: 30 minutos <br>**Definição manual do administrador**: Não |
-| Live Connect AS | **IF suportado**: Não <br>**DC suportado**: Não <br>**Mínimo**: N/D <br>**Definição manual do administrador**: N/D | **IF suportado**: Não <br>**DC suportado**: Não <br>**Mínimo**: N/D <br>**Definição manual do administrador**: N/D |
-| Live Connect PBI | **IF suportado**: Não <br>**DC suportado**: Não <br>**Mínimo**: N/D <br>**Definição manual do administrador**: N/D | **IF suportado**: Não <br>**DC suportado**: Não <br>**Mínimo**: N/D <br>**Definição manual do administrador**: N/D |
+| Modo de armazenamento                                  | Capacidade dedicada                                                                                     | Capacidade partilhada                                                                                       |
+|-----------------------------------------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| DirectQuery                                   | **IF suportado**: Sim <br>**DC suportado**: Sim <br>**Mínimo**: 1 segundo <br>**Definição manual do administrador**: Sim  | **IF suportado**: Sim <br>**DC suportado**: Não <br>**Mínimo**: 30 minutos <br>**Definição manual do administrador**: Não |
+| Importar                                        | **IF suportado**: Não <br>**DC suportado**: Não <br>**Mínimo**: N/D <br>**Definição manual do administrador**: N/D         | **IF suportado**: Não <br>**DC suportado**: Não <br>**Mínimo**: N/D <br>**Definição manual do administrador**: N/D        |
+| Modo misto (DirectQuery + outras origens de dados) | **IF suportado**: Sim <br>**DC suportado**: Sim <br>**Mínimo**: 1 segundo <br>**Definição manual do administrador**: Sim  | **IF suportado**: Sim <br>**DC suportado**: Não <br>**Mínimo**: 30 minutos <br>**Definição manual do administrador**: Não |
+| Analysis Services (Azure e No Local)     | **IF suportado**: Sim <br>**DC suportado**: Não <br>**Mínimo**: 30 minutos <br>**Definição manual do administrador**: Sim | **IF suportado**: Sim <br>**DC suportado**: Não <br>**Mínimo**: 30 minutos <br>**Definição manual do administrador**: Não |
+| Conjuntos de dados do Power BI (com origem do DirectQuery)   | **IF suportado**: Sim <br>**DC suportado**: Não <br>**Mínimo**: 1 segundo <br>**Definição manual do administrador**: Sim  | **IF suportado**: Sim <br>**DC suportado**: Não <br>**Mínimo**: 30 minutos <br>**Definição manual do administrador**: Não |
+| Conjuntos de dados Push do Power BI                        | **IF suportado**: Sim <br>**DC suportado**: Não <br>**Mínimo**: 30 minutos <br>**Definição manual do administrador**: Sim | **IF suportado**: Sim <br>**DC suportado**: Não <br>**Mínimo**: 30 minutos <br>**Definição manual do administrador**: Não        |
 
 *Legenda de tabela:*
 1. *IF: intervalo fixo*
 2. *DC: deteção de alteração*
 
 > [!WARNING]
-> Quando estiver ativada no seu conjunto de dados, a medida de deteção de alteração abrirá uma ligação com a origem de dados do DirectQuery para calcular a medida e sondar as alterações. Esta ligação é diferente das ligações de atualização de Baixa Prioridade que o Power BI já faz.
+> Temos um problema conhecido quando é estabelecida ligação do Power BI Desktop a conjuntos de dados do Power BI ou do Analysis Services e o intervalo de atualização é de 30 minutos ou mais. Os elementos visuais numa página de relatório podem apresentar um erro após 30 minutos.
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
 Existem algumas coisas a ter em conta ao utilizar a atualização automática de páginas no Power BI Desktop ou no serviço Power BI:
 
-* Os modos de armazenamento Push, LiveConnect e Importação não são suportados pela atualização automática de páginas.  
+* O modo de armazenamento de importação não é suportado pela atualização automática de páginas.  
 * São suportados os modelos compostos que têm, pelo menos, uma origem de dados do DirectQuery.
-* O Power BI Desktop não tem restrições para intervalos de atualização. O intervalo pode ser tão frequente como a todos os segundos para os tipos de atualização de intervalo fixo e deteção de alteração. Quando os relatórios são publicados no serviço Power BI, aplicam-se determinadas restrições, conforme descrito [anteriormente](#restrictions-on-refresh-intervals) neste artigo.
 * Só pode ter uma medida de deteção de alteração por conjunto de dados.
 * Pode haver apenas até 10 modelos com deteção de alteração num inquilino do Power BI.
 
@@ -277,6 +280,10 @@ Se notar que a capacidade está sobrecarregada com consultas de baixa prioridade
 * Verifique se carregou para uma área de trabalho com uma capacidade Premium anexada. Se não o tiver feito, a deteção de alteração não irá funcionar.
 * Se o relatório se encontrar numa área de trabalho Premium, pergunte ao administrador se esta funcionalidade está ativada para a capacidade anexada. Confirme também se o intervalo mínimo de execução para a capacidade é igual ou inferior ao intervalo do relatório.
 * Se verificou todos os itens mencionados anteriormente, verifique no Power BI Desktop ou no modo de edição se a medida não está a mudar de todo. Para tal, arraste-a para a tela e verifique se o valor muda. Se não mudar, a medida poderá não ser uma boa opção para pesquisar alterações à origem de dados.
+
+**Quando estou ligado ao Analysis Services, não consigo ver o botão APR**
+
+* Verifique se o modelo do Analysis Services está no [modo DirectQuery](https://docs.microsoft.com/analysis-services/tabular-models/directquery-mode-ssas-tabular).
 
 
 ## <a name="next-steps"></a>Próximos passos

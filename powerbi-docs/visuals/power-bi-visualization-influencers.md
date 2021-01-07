@@ -10,12 +10,12 @@ ms.custom: video-fDb5zZ3xmxU
 ms.topic: how-to
 ms.date: 01/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f76203e00bb691abe9a4d212c930595d180798d8
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 4b41ea6310cb644aeae92db17f52680734f68803
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999134"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721576"
 ---
 # <a name="create-key-influencers-visualizations"></a>Criar visualizações de influenciadores principais
 
@@ -167,7 +167,7 @@ Inicialmente, os segmentos superiores mostram uma descrição geral de todos os 
 
 ![Selecionar o separador Segmentos superiores](media/power-bi-visualization-influencers/power-bi-top-segments-tab.png)
 
-Ao selecionar uma bolha, os detalhes do segmento em questão são apresentados. Por exemplo, se selecionar Segmento 1, verá que é composto por clientes relativamente estabelecidos. Tratam-se de clientes há mais de 29 meses e têm mais do que quatro pedidos de suporte. Por fim, como não são publicadores, tratam-se de consumidores ou administradores. 
+Ao selecionar uma bolha, são apresentados os detalhes desse segmento. Por exemplo, se selecionar Segmento 1, verá que é composto por clientes relativamente estabelecidos. Tratam-se de clientes há mais de 29 meses e têm mais do que quatro pedidos de suporte. Por fim, como não são publicadores, tratam-se de consumidores ou administradores. 
  
 Neste grupo, 74,3% dos clientes atribuíram uma classificação baixa. O cliente comum atribuiu uma classificação baixa 11,7% das vezes, pelo que este segmento mostra uma proporção das classificações baixas 63% superior. O Segmento 1 também contém aproximadamente 2,2% dos dados, representando uma parte considerável da população. 
 
@@ -260,7 +260,7 @@ Observe o aspeto da visualização assim que adicionarmos **ID** a **Expandir po
 
 ![Captura de ecrã a mostrar a visualização dos preços das casas que depende das três colunas abordadas nesta seção.](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 
-Se quiser saber mais sobre como pode analisar medidas com a visualização de influenciadores principais, veja o seguinte tutorial.
+Se quiser saber mais sobre como pode analisar medidas com a visualização dos principais influenciadores, veja o seguinte vídeo. Para saber como é que o Power BI utiliza o ML.NET nos bastidores para analisar dados e fazer emergir informações de forma natural, veja [O Power BI identifica os principais influenciadores com o ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/customers/power-bi).
 
 <iframe width="1167" height="631" src="https://www.youtube.com/embed/2X1cW8oPtc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -410,3 +410,4 @@ Para partilhar o seu relatório com outro utilizador do Power BI, é necessário
 ## <a name="next-steps"></a>Próximos passos
 - [Gráficos de combinação no Power BI](power-bi-visualization-combo-chart.md)
 - [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+- [Como é que o Power BI utiliza o ML.NET para identificar os principais influenciadores](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/customers/power-bi)

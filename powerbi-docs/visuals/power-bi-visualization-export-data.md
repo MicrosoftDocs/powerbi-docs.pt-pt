@@ -6,17 +6,18 @@ ms.author: mihart
 manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
+ms.custom: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 09/09/2020
+ms.date: 12/21/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b7aae0e05c74209e66503612d3c89bb430cb5185
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: bf388f28b83ad67fd246d23ba7113e74f0630a0e
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414789"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721484"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Exportar os dados que foram utilizados para criar uma visualização
 
@@ -105,7 +106,7 @@ Selecione a opção de _ *Dados resumidos** se quiser exportar dados do que vê 
 
     ![Captura de ecrã do ecrã Exportar dados com as opções Dados resumidos, xlsx e Exportar destacadas.](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
-1. Quando seleciona **Exportar**, o browser pede-lhe para guardar o ficheiro. Depois de guardado, abra o ficheiro no Excel.
+1. Quando seleciona **Exportar**, o browser pede-lhe para guardar o ficheiro. Depois de guardado, abra o ficheiro no Excel. Se estiver a utilizar a aplicação do Power BI no Microsoft Teams, será possível que não receba os mesmos pedidos. O ficheiro exportado é guardado na pasta Transferências local. 
 
     ![Captura de ecrã da exportação para Excel.](media/power-bi-visualization-export-data/power-bi-export-data9.png)
 
@@ -144,7 +145,7 @@ Quando seleciona **Exportar**, o Power BI exporta os dados para um ficheiro *.x
 
     ![Captura de ecrã de Exportar dados com os dados subjacentes destacados.](media/power-bi-visualization-export-data/power-bi-underlying.png)
 
-1. Quando seleciona **Exportar**, o browser pede-lhe para guardar o ficheiro. Depois de guardado, abra o ficheiro no Excel.
+1. Quando seleciona **Exportar**, o browser pede-lhe para guardar o ficheiro. Depois de guardado, abra o ficheiro no Excel.  Se estiver a utilizar a aplicação do Power BI no Microsoft Teams, será possível que não receba os mesmos pedidos. O ficheiro exportado é guardado na pasta Transferências local. 
 
     ![Captura de ecrã do ficheiro .xlsx com os dados exportados apresentados.](media/power-bi-visualization-export-data/power-bi-excel.png)
     

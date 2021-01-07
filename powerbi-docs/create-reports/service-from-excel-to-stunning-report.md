@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 07/30/2020
+ms.date: 12/14/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 99f562ee315a74c9de6765308272e5e33153c4f0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a3ee3ac5cd23942878395f942a32dbe573cb0798
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388868"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721599"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>Tutorial: De um livro do Excel a um relatório no serviço Power BI ao Microsoft Teams
-O seu gestor quer ver um relatório sobre as vendas e os lucros mais recentes até ao final do dia. No entanto, os dados mais recentes estão em vários sistemas e ficheiros de terceiros no seu portátil. Anteriormente, demorava várias horas a criar elementos visuais e a formatar um relatório e, por isso, começa a sentir algum nervosismo.
+O seu gestor quer ver um relatório sobre as vendas e os lucros mais recentes até ao final do dia. Mas os dados mais recentes estão em ficheiros no computador portátil. Anteriormente, demorava várias horas a criar um relatório e, por isso, começa a sentir algum nervosismo.
 
 Não se preocupe. Com o Power BI, pode criar um relatório impressionante e partilhá-lo imediatamente no Microsoft Teams!
 
@@ -32,6 +32,11 @@ Neste tutorial, vamos carregar um ficheiro Excel, criar um novo relatório e par
 > * Afixar os elementos visuais do relatório num dashboard.
 > * Partilhar uma ligação para o dashboard.
 > * Partilhar o dashboard no Microsoft Teams
+
+## <a name="prerequisites"></a>Pré-requisitos
+- [Inscreva-se no serviço Power BI](../fundamentals/service-self-service-signup-for-power-bi.md). 
+- Transfira o [livro Exemplo Financeiro](https://go.microsoft.com/fwlink/?LinkID=521962) e guarde-o no computador ou no OneDrive para Empresas.
+
 
 ## <a name="prepare-data-in-excel"></a>Preparar dados no Excel
 Vamos utilizar um ficheiro simples do Excel como exemplo. 
@@ -49,10 +54,7 @@ Vamos utilizar um ficheiro simples do Excel como exemplo.
    ![Captura de ecrã a mostrar Dados formatados como uma tabela.](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
 ## <a name="upload-your-excel-file-to-the-power-bi-service"></a>Carregar o ficheiro do Excel para o serviço Power BI
-O serviço Power BI liga a muitas origens de dados, incluindo ficheiros do Excel que residem no seu computador. 
-
- > [!NOTE] 
- > Para acompanhar o resto deste tutorial, transfira o [livro Financial Sample](https://go.microsoft.com/fwlink/?LinkID=521962) (Exemplo de Finanças).
+O serviço Power BI liga a muitas origens de dados, incluindo ficheiros do Excel que residem no seu computador.
 
 1. Para começar, inicie sessão no serviço Power BI. Se ainda não se inscreveu, [pode fazê-lo gratuitamente](https://powerbi.com).
 1. Em **A minha área de trabalho**, selecione **Novo** > **Carregar um ficheiro**.
@@ -190,9 +192,9 @@ O dashboard e o relatório estão prontos.
 
 Também pode partilhar relatórios e dashboards diretamente com colegas no Microsoft Teams.
 
-1. Para partilhar no Teams na parte superior do dashboard, selecione **Partilhar no Teams**.
+1. Para partilhar no Teams, na parte superior do dashboard, selecione **Conversar no Teams**.
 
-   ![Captura de ecrã a mostrar a opção Partilhar no Teams.](media/service-from-excel-to-stunning-report/power-bi-share-teams.png)
+   ![Captura de ecrã a mostrar a opção Conversar no Teams.](media/service-from-excel-to-stunning-report/power-bi-share-teams.png)
 
 2. O Power BI apresenta a caixa de diálogo **Partilhar no Teams**. Introduza o nome de uma pessoa, grupo ou canal e selecione **Partilhar**. 
    

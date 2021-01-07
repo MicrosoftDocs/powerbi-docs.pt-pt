@@ -1,18 +1,18 @@
 ---
 title: Exportar a API dos relatórios da análise incorporada do Power BI
-description: Saiba como exportar um relatório do Power BI incorporado
+description: Saiba como exportar um relatório do Power BI incorporado para melhorar a experiência de análise incorporada do Power BI
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 10/01/2020
-ms.openlocfilehash: a0aa5839272529a0217ea4a4355342c51d55a6c3
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.date: 12/28/2020
+ms.openlocfilehash: da0f5f155552a8a53b53789f3bfb6ebe839367c5
+ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098289"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97805148"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportar relatório do Power BI para ficheiro (pré-visualização)
 
@@ -30,7 +30,7 @@ Pode utilizar a funcionalidade de exportação de várias formas. Veja a seguir 
 
 * **Botão Enviar para impressão** – na aplicação, crie um botão que, quando clicado, aciona uma tarefa de exportação. A tarefa pode exportar o relatório visualizado como .pdf ou .pptx e, quando estiver concluída, o utilizador pode receber o ficheiro como transferência. Através de marcadores, pode exportar o relatório num estado específico, incluindo filtros configurados, segmentações de dados e definições adicionais. Como a API é assíncrona, pode demorar algum tempo até o ficheiro estar disponível.
 
-* **Enviar anexo por e-mail** – envie um e-mail automatizado, em intervalos definidos, com um relatório .pdf anexado. Este cenário poderá ser útil se quiser automatizar o envio de um relatório semanal aos executivos.
+* **Enviar anexo por e-mail** – envie um e-mail automatizado, em intervalos definidos, com um relatório .pdf anexado. Este cenário poderá ser útil se quiser automatizar o envio de um relatório semanal aos executivos. Para obter mais informações, veja [Exportar e enviar um relatório do Power BI por e-mail com o Power Automate](../../collaborate-share/service-automate-power-bi-report-export.md)
 
 ## <a name="using-the-api"></a>Utilizar a API
 
@@ -64,6 +64,23 @@ Os [marcadores](../../consumer/end-user-bookmarks.md) podem ser utilizados para 
 
 >[!NOTE]
 >Não são suportados [marcadores pessoais](../../consumer/end-user-bookmarks.md#personal-bookmarks) nem [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/).
+
+### <a name="filters"></a>Filtros
+
+Com `reportLevelFilters` em [PowerBIReportExportConfiguration](/rest/api/power-bi/reports/exporttofile#powerbireportexportconfiguration), pode exportar um relatório numa condição filtrada.
+
+Para exportar um relatório filtrado, introduza os [parâmetros de cadeia de consulta de URL](../../collaborate-share/service-url-filters.md) que pretende utilizar como filtro, para [ExportFilter](/rest/api/power-bi/reports/exporttofile#exportfilter). Ao introduzir a cadeia, tem de remover a parte `?filter=` do parâmetro de consulta de URL.
+
+A tabela abaixo inclui alguns exemplos de sintaxe de cadeias que pode transmitir para `ExportFilter`.
+
+|Filtro    |Syntax    |Exemplo    |
+|---|----|----|----|
+|Um valor num campo    |Table/Field eq 'value'    |Store/Territory eq 'NC'    |
+|Vários valores num campo    |Table/Field in ('value1', 'value2')     |Store/Territory in ('NC', 'TN')    |
+|Um valor distinto num campo e um valor diferente noutro campo    |Table/Field1 eq 'value1' and Table/Field2 eq 'value2'    |Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'    |
+
+>[!NOTE]
+>`ReportLevelFilters` só pode conter um único [ExportFilter](/rest/api/power-bi/reports/exporttofile#exportfilter).
 
 ### <a name="authentication"></a>Autenticação
 
@@ -142,7 +159,8 @@ private async Task<string> PostExportRequest(
     Guid reportId,
     Guid groupId,
     FileFormat format,
-    IList<string> pageNames = null /* Get the page names from the GetPages REST API */)
+    IList<string> pageNames = null, /* Get the page names from the GetPages REST API */
+    string urlFilter = null)
 {
     var powerBIReportExportConfiguration = new PowerBIReportExportConfiguration
     {
@@ -153,6 +171,9 @@ private async Task<string> PostExportRequest(
         // Note that page names differ from the page display names
         // To get the page names use the GetPages REST API
         Pages = pageNames?.Select(pn => new ExportReportPage(Name = pn)).ToList(),
+        // ReportLevelFilters collection needs to be instantiated explicitly
+        ReportLevelFilters = !string.IsNullOrEmpty(urlFilter) ? new List<ExportFilter>() { new ExportFilter(urlFilter) } : null,
+
     };
 
     var exportRequest = new ExportReportRequest
@@ -263,7 +284,8 @@ private async Task<ExportedFile> ExportPowerBIReport(
     FileFormat format,
     int pollingtimeOutInMinutes,
     CancellationToken token,
-    IList<string> pageNames = null  /* Get the page names from the GetPages REST API */)
+    IList<string> pageNames = null,  /* Get the page names from the GetPages REST API */
+    string urlFilter = null)
 {
     const int c_maxNumberOfRetries = 3; /* Can be set to any desired number */
     const int c_secToMillisec = 1000;
@@ -273,7 +295,7 @@ private async Task<ExportedFile> ExportPowerBIReport(
         int retryAttempt = 1;
         do
         {
-            var exportId = await PostExportRequest(reportId, groupId, format, pageNames);
+            var exportId = await PostExportRequest(reportId, groupId, format, pageNames, urlFilter);
             var httpMessage = await PollExportRequest(reportId, groupId, exportId, pollingtimeOutInMinutes, token);
             export = httpMessage.Body;
             if (export == null)
@@ -339,3 +361,6 @@ Veja como incorporar conteúdo para os seus clientes e organização:
 
 > [!div class="nextstepaction"]
 >[Incorporar para a sua organização](embed-sample-for-your-organization.md)
+
+> [!div class="nextstepaction"]
+>[Exportar e enviar um relatório do Power BI por e-mail com o Power Automate](../../collaborate-share/service-automate-power-bi-report-export.md)

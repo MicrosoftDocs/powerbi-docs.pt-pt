@@ -11,12 +11,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3e0d944f8058ddc5dfb64c8f960bd354571bb23c
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 24ad57ca976fa7a7a859b1c0d07523895236787e
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999065"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721622"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Truques e sugestões para visualizações de mapa do Power BI
 
@@ -88,9 +88,9 @@ Quando o conjunto de dados já tiver diferentes níveis de dados de localizaçã
 
 Ao explorar as geohierarquias, é importante saber como funciona cada botão de movimentação e o que é enviado para o Bing Maps. 
 
-* O botão de pormenorização à direita, chamado Modo de Pormenorização ![Ícone do modo de pormenorização](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png) Permite-lhe selecionar uma Localização de mapa e desagregar para essa localização específica, um nível de cada vez. Por exemplo, se Desagregar e clicar na América do Norte, avança para baixo para o próximo nível na hierarquia – estados na América do Norte. Para geocodificação, o Power BI envia dados do país e do estado para o Bing Maps apenas da América do Norte.  
+* O botão de pormenorização à direita, chamado Modo de Pormenorização ![Ícone do modo de pormenorização](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png) Permite-lhe selecionar uma Localização de mapa e desagregar para essa localização específica, um nível de cada vez. Por exemplo, se ativar Desagregar e clicar em América do Norte, poderá deslocar-se para baixo para o próximo nível na hierarquia – estados na América do Norte. Para geocodificação, o Power BI envia dados do país e do estado para o Bing Maps apenas da América do Norte.  
 * No lado esquerdo existem duas outras opções de movimentação. A primeira opção, ![primeiro ícone de pormenorização](media/power-bi-map-tips-and-tricks/power-bi-drill-down2.png) avança para o próximo nível da hierarquia para todas as localizações de uma só vez. Por exemplo, se está atualmente a visualizar os países e, em seguida, utiliza esta opção para mover para o próximo nível, os estados, o Power BI apresenta dados de estado de todos os países. Para geocodificação, o Power BI envia dados de estado do Bing Maps (sem dados de país) de todas as localizações. Esta opção é útil se cada nível da hierarquia não estiver relacionado com o nível acima. 
-* A segunda opção, ![desagregar com mapas](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) , é semelhante a Desagregar, exceto não ter de clicar no mapa.  Este expande-se para o próximo nível da hierarquia, memorizando o contexto do nível atual. Por exemplo, se está atualmente a visualizar países e seleciona este ícone, avança para baixo na hierarquia para o próximo nível – estados. Para geocodificação, o Power BI envia dados para cada estado e o respetivo país, para ajudar o Bing Maps a geocodificar com mais exatidão. Na maioria dos mapas, irá utilizar esta opção ou a opção Desagregar na extremidade direita, para que possa enviar ao Bing o máximo de informações possíveis para obter informações sobre a localização exata. 
+* A segunda opção, ![desagregar com mapas](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) , é semelhante a desagregar, exceto não ter de clicar no mapa.  Este expande-se para o próximo nível da hierarquia, memorizando o contexto do nível atual. Por exemplo, se está atualmente a visualizar países e seleciona este ícone, avança para baixo na hierarquia para o próximo nível – estados. Para geocodificação, o Power BI envia dados para cada estado e o respetivo país, para ajudar o Bing Maps a geocodificar com mais exatidão. Na maioria dos mapas, utilizará esta opção ou a opção Desagregar na extremidade direita, para que possa enviar ao Bing o máximo de informações possíveis para obter informações sobre a localização exata. 
 
 ## <a name="next-steps"></a>Próximos passos
 [Desagregar numa visualização no Power BI](../consumer/end-user-drill.md)

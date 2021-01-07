@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: pbi-deployment
-ms.custom: contperfq1
-ms.date: 10/21/2020
-ms.openlocfilehash: c9ae23a88bd557681ca89e541f082a69d449ed8c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: contperf-fy21q1
+ms.date: 12/28/2020
+ms.openlocfilehash: 4bb709e41698bc0dc32341f517593717f64f9b6d
+ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415019"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97805217"
 ---
 # <a name="understand-the-deployment-process"></a>Understand the deployment process (Compreender o processo de implementação)
 
@@ -149,13 +149,21 @@ As propriedades de conjuntos de dados seguintes também não são copiadas duran
 
 * Definições de endossamento
 
-## <a name="incremental-refresh"></a>Atualização incremental
+## <a name="supported-dataset-features"></a>Funcionalidades de conjuntos de dados suportadas
+
+Os pipelines de implementação oferecem suporte a várias funcionalidades de conjuntos de dados do Power BI. Esta secção lista duas funcionalidades de conjuntos de dados do Power BI que podem melhorar a experiência dos pipelines de implementação:
+
+* [Atualização incremental](#incremental-refresh)
+
+* [Modelos compostos](#composite-models)
+
+### <a name="incremental-refresh"></a>Atualização incremental
 
 Os pipelines de implementação suportam a [atualização incremental](../admin/service-premium-incremental-refresh.md), uma funcionalidade que permite atualizações mais rápidas e fiáveis aos conjuntos de dados grandes, mas com menor consumo.
 
 Com os pipelines de implementação, pode fazer atualizações a um conjunto de dados com a atualização incremental enquanto mantém os dados e as partições. Quando implementa o conjunto de dados, a política é copiada ao mesmo tempo.
 
-### <a name="activating-incremental-refresh-in-a-pipeline"></a>Ativar a atualização incremental num pipeline
+#### <a name="activating-incremental-refresh-in-a-pipeline"></a>Ativar a atualização incremental num pipeline
 
 Para ativar a atualização incremental, [ative-a no Power BI Desktop](../admin/service-premium-incremental-refresh.md#configure-incremental-refresh) e, em seguida, publique o conjunto de dados. Depois da publicação, a política de atualização incremental será semelhante em todo o pipeline e só poderá ser criada no Power BI Desktop.
 
@@ -169,7 +177,7 @@ Depois da configuração do pipeline com a atualização incremental, recomendam
 
 4. Examine as alterações feitas na fase de *teste* e, depois de as verificar, implemente para a fase de *produção*.
 
-### <a name="usage-examples"></a>Exemplos de utilização
+#### <a name="usage-examples"></a>Exemplos de utilização
 
 Abaixo estão alguns exemplos de como pode integrar a atualização incremental aos pipelines de implementação.
 
@@ -181,7 +189,7 @@ Abaixo estão alguns exemplos de como pode integrar a atualização incremental 
 
 * Publique um conjunto de dados que utilize a atualização incremental numa área de trabalho que faz parte de um pipeline existente.
 
-### <a name="limitations-and-considerations"></a>Limitações e considerações
+#### <a name="limitations-and-considerations"></a>Limitações e considerações
 
 Na atualização incremental, os pipelines de implementação só suportam conjuntos de dados que utilizem [metadados de conjuntos de dados otimizados](../connect-data/desktop-enhanced-dataset-metadata.md). A partir da versão de setembro de 2020 do Power BI Desktop, todos os conjuntos de dados criados ou modificados com o Power BI Desktop implementam automaticamente os metadados dos conjuntos de dados otimizados.
 
@@ -194,6 +202,24 @@ Ao publicar novamente um conjunto de dados num pipeline ativo com a atualizaçã
 * Mudança do nome das colunas não calculadas nas tabelas com a atualização incremental ativada.
 
 Outras alterações, como a adição de colunas, a remoção de colunas e a mudança de nome das colunas calculadas, são permitidas. No entanto, se as alterações afetarem a apresentação, terá de atualizar antes de a alteração ficar visível.
+
+### <a name="composite-models"></a>Modelos compostos
+
+Através dos [modelos compostos](../transform-model/desktop-composite-models.md), é possível configurar um relatório com várias ligações de dados.
+
+Pode utilizar a funcionalidade de modelos compostos para ligar um conjunto de dados do Power BI a um conjunto de dados externo como o Azure Analysis Services. Para obter mais informações, veja [Utilizar o DirectQuery para conjuntos de dados do Power BI e para o Azure Analysis Services](../connect-data/desktop-directquery-datasets-azure-analysis-services.md).
+
+Num pipeline de implementação, pode utilizar modelos compostos para ligar um conjunto dados a outro conjunto de dados do Power BI externo ao pipeline.  
+
+#### <a name="limitations"></a>Limitações
+
+As seguintes ligações de modelos compostos não são suportadas:
+
+* Ligação de conjuntos de dados que residem na mesma área de trabalho.
+
+* Ligação de conjuntos de dados que residem em pipelines distintos.
+
+* Ligação de conjuntos de dados que residem no mesmo pipeline. 
 
 ## <a name="deploying-power-bi-apps"></a>Implementar aplicações do Power BI
 

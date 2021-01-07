@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/01/2020
-ms.openlocfilehash: 81a387d2f87e857cb56dcbc1fb22c8da72bbd27e
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.date: 12/17/2020
+ms.openlocfilehash: 7779976e7897b31e5f3dde2c4c3306c909ecf0f0
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96502093"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675585"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -26,8 +26,17 @@ Para informações sobre “Novidades” relacionadas, veja:
 >O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="december-2020"></a>Dezembro de 2020
-### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Adicionámos o modo escuro à aplicação móvel do Power BI (Android)
+### <a name="weve-added-anomaly-detection-to-the-mobile-apps"></a>Adicionámos a deteção de anomalias às aplicações móveis
+Se o criador do relatório tiver configurado a deteção de anomalias para um elemento visual do relatório, poderá ver se existem picos inesperadamente altos ou quedas nos dados provocados por valores atípicos dos dados (ou seja, anomalias). [Saiba mais!](mobile-reports-in-the-mobile-apps.md#investigate-anomalies-in-time-series-data)
 
+![Captura de ecrã da deteção de anomalias.](media/mobile-whats-new-in-the-mobile-apps/mobile-anomaly-detection.png)
+
+### <a name="easily-find-your-orgs-endorsed-content"></a>Localizar facilmente os conteúdos endossados da organização
+Os conteúdos que foram [promovidos ou certificados](../../collaborate-share/service-endorsement-overview.md) no serviço Power BI agora são marcados na aplicação com um destaque. Os criadores de relatórios promovem os conteúdos para mostrar que estão prontos para utilização (promovidos) ou certificam os conteúdos para mostrar que foram aprovados pela organização (certificados).
+
+![Captura de ecrã a mostrar o relatório certificado nas informações de relatório num dispositivo móvel.](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-certified-badge.png)
+
+### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Adicionámos o modo escuro à aplicação móvel do Power BI (Android)
 Experimente o novo modo escuro na aplicação móvel do Power BI para dispositivos Android. No modo escuro, verá o texto claro num fundo escuro, o que reduz o brilho do ecrã e facilita a visualização do conteúdo. Pode alternar entre temas nas definições de aspeto da aplicação. [Saiba mais](mobile-apps-dark-mode.md)
 
 ![Captura de ecrã a mostrar o modo escuro na aplicação móvel do Power BI para Android.](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode-android.png)
@@ -50,7 +59,7 @@ Adicionámos suporte para ecrãs notch em iPhones e iPads, o que lhe vai oferece
 ## <a name="september-2020"></a>Setembro de 2020
 ### <a name="power-bi-app-preview-for-hololens-2-is-out-in-the-stores"></a>A aplicação Power BI (pré-visualização) para o HoloLens 2 está à venda!
 
-A aplicação Power BI para o HoloLens 2 oferece-lhe uma experiência totalmente imersiva. Através do nosso sistema de gestos do HoloLens 2, pode obter os seus relatórios e dashboards favoritos fora do toolbelt, redimensioná-los e colocá-los no seu espaço onde precisar deles e até navegar nas páginas do relatório. Os relatórios e os dashboards são atualizados enquanto estiver a usar a aplicação, portanto, se existirem alterações de dados, verá essas alterações imediatamente. Saiba mais na nossa [documentação](mobile-hololens2-app.md) e no nosso [blogue](https://powerbi.microsoft.com/blog/power-bi-app-for-mixed-reality-now-available-for-hololens-2/)!
+A aplicação Power BI para o HoloLens 2 oferece-lhe uma experiência totalmente imersiva. Através do nosso sistema de gestos do HoloLens 2, pode obter os relatórios e os dashboards favoritos fora do toolbelt, redimensioná-los e colocá-los no espaço onde precisa deles e até navegar nas páginas do relatório. Os relatórios e os dashboards são atualizados enquanto estiver a usar a aplicação, portanto, se existirem alterações de dados, verá essas alterações imediatamente. Saiba mais na nossa [documentação](mobile-hololens2-app.md) e no nosso [blogue](https://powerbi.microsoft.com/blog/power-bi-app-for-mixed-reality-now-available-for-hololens-2/)!
 
 
 ## <a name="august-2020"></a>Agosto de 2020
@@ -433,7 +442,7 @@ O seu administrador de TI pode agora utilizar uma ferramenta MDM para configurar
 
 #### <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicação Power BI for Mixed Reality (Pré-visualização)
 
-A aplicação Power BI for Mixed Reality está agora na Microsoft Store. Veja os seus dashboards e relatórios enquanto está envolvido pelo mundo virtual ou coloque-os e veja-os em localizações específicas no contexto do seu ambiente. Veja o novo vídeo [Introducing Power BI on Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss) (Introdução ao Power BI no HoloLens) para obter contexto ou leia o artigo sobre a nova [Aplicação Power BI for Mixed Reality](mobile-mixed-reality-app.md).
+A aplicação Power BI for Mixed Reality está agora na Microsoft Store. Veja os seus dashboards e relatórios enquanto está envolvido pelo mundo virtual ou coloque-os e veja-os em localizações específicas no contexto do seu ambiente. Veja o novo vídeo [Introdução ao Power BI no HoloLens](https://www.youtube.com/watch?v=J_X_nOFUBss) para obter contexto ou leia o artigo sobre a nova [Aplicação Power BI for Mixed Reality](mobile-mixed-reality-app.md).
 
 
 ### <a name="april-2018"></a>Abril de 2018

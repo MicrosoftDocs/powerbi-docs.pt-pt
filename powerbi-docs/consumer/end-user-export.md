@@ -4,18 +4,18 @@ description: Exporte dados de um elemento visual de relatório e de um elemento 
 author: mihart
 ms.author: mihart
 ms.reviewer: cmfinlan
-featuredvideoid: jtlLGRKBvXY
+featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 12/21/2020
 LocalizationGroup: Consumers
-ms.openlocfilehash: d8b9f11abe639d2892bc199a9f65400e5488dedc
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: cd07004149afd2525c5830e04e5c2490eeebcb3c
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578129"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721392"
 ---
 # <a name="export-data-from-a-visual"></a>Exportar dados de um visual
 
@@ -40,7 +40,7 @@ A exportação de dados requer uma licença do Power BI Pro ou que o dashboard
 
 3. Selecione **Exportar para .csv**.
 
-4. O que acontece a seguir depende do browser que estiver a utilizar. Poderá ser-lhe solicitado que guarde o ficheiro ou pode ver uma ligação para o ficheiro exportado na parte inferior do browser. 
+4. O que acontece a seguir depende do browser que estiver a utilizar. Poderá ser-lhe solicitado que guarde o ficheiro ou pode ver uma ligação para o ficheiro exportado na parte inferior do browser. Por predefinição, a exportação é guardada na pasta Transferências local. 
 
     ![O Chrome a mostrar a ligação do ficheiro exportado](media/end-user-export/power-bi-dashboards-export.png)
 
@@ -79,7 +79,7 @@ Pode exportar dados de um elemento visual num um relatório com o formato .csv o
 
     ![Menu no qual escolhe os dados subjacentes ou resumidos](media/end-user-export/power-bi-export-underlying.png)
 
-5. O que acontece a seguir depende do browser que estiver a utilizar. Poderá ser-lhe solicitado que guarde o ficheiro ou pode ver uma ligação para o ficheiro exportado na parte inferior do browser. 
+5. O que acontece a seguir depende do browser que estiver a utilizar. Poderá ser-lhe solicitado que guarde o ficheiro ou pode ver uma ligação para o ficheiro exportado na parte inferior do browser. Se estiver a utilizar a aplicação do Power BI no Microsoft Teams, o ficheiro exportado é guardado na pasta Transferências local. 
 
     ![Ficheiro exportado apresentado no Microsoft Edge](media/end-user-export/power-bi-export-edge-screen.png)
 

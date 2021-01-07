@@ -7,20 +7,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
-ms.date: 01/14/2020
+ms.date: 11/14/2020
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8d33973f1a11050d104399c98866fdae0ffb1f8a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 62b3c9bb10cb47df0d21eb05e381c5c4784b3106
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96404899"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600237"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Resolver problemas ao abrir o Power BI Desktop
 
-No Power BI Desktop, os utilizadores que instalaram e estão a executar versões anteriores do *Gateway de dados no local do Power BI* podem ser impedidos de abrir o Power BI Desktop, devido às restrições de políticas administrativas que o Gateway no local do Power BI estabeleceu nos pipes nomeados no computador local.
+Este artigo descreve e apresenta uma solução para várias circunstâncias em que não é possível abrir o Power BI. 
+
+## <a name="resolve-issues-with-opening-encrypted-pbix-files"></a>Resolver problemas com a abertura de ficheiros PBIX encriptados
+
+Não pode abrir ficheiros PBIX encriptados com uma versão do Power BI Desktop que não suporte a proteção de informações.
+
+Se precisar de continuar a utilizar o Power BI Desktop, a resolução recomendada será atualizá-lo para uma versão que suporte a proteção de informações. Pode transferir a [versão mais recente do Power BI Desktop](https://www.microsoft.com/download/confirmation.aspx?id=58494) (esta é uma ligação de transferência direta para o executável de instalação). A versão mais recente do Power BI Desktop suporta a proteção de informações e consegue desencriptar e abrir qualquer ficheiro PBIX encriptado.
+
+###
 
 ## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>Resolver problemas no Gateway de dados no local e no Power BI Desktop
+
+No Power BI Desktop, os utilizadores que instalaram e estão a executar versões anteriores do *Gateway de dados no local do Power BI* podem ser impedidos de abrir o Power BI Desktop, devido às restrições de políticas administrativas que o Gateway no local do Power BI estabeleceu nos pipes nomeados no computador local.
 
 Tem três opções para resolver o problema associado ao Gateway de dados no local e para permitir a abertura do Power BI Desktop:
 

@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33e0ee83815c739d8201fad995d84c7ee397bc6c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 401d8905c4fe2ca0f27a8f0c58bd756c87a10456
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398137"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721507"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Criar visualizações de matriz no Power BI
 
@@ -71,7 +71,7 @@ Com o elemento visual de matriz, pode fazer todos os tipos de atividades de desa
 
 No painel Visualizações, quando adicionar vários campos à secção **Linhas** de **Campos**, ativa a desagregação nas linhas do elemento visual de matriz. Isto é semelhante à criação de uma hierarquia que lhe permite desagregar (e, em seguida, efetuar cópias de segurança) através dessa hierarquia e analisar os dados em cada nível.
 
-Na imagem seguinte, a secção **Linhas** contém *Fase de vendas* e *Tamanho da oportunidade*, o que cria um agrupamento (ou hierarquia) nas linhas que podemos explorar.
+Na imagem seguinte, a secção **Linhas** contém *Fase de vendas* e *Tamanho da oportunidade*, o que cria um agrupamento (ou hierarquia) nas linhas que podemos explorar para ver detalhes.
 
 ![Cartão de filtros a mostrar que linhas são escolhidas](media/desktop-matrix-visual/power-bi-rows-matrix.png)
 
@@ -79,7 +79,7 @@ Quando o elemento visual tem um agrupamento criado na secção **Linhas**, o ele
 
 ![matriz com controlos de desagregação realçados](media/desktop-matrix-visual/power-bi-matrix-drilldown.png)
 
-Semelhante ao comportamento de desagregação e expansão noutros elementos visuais, a seleção desses botões permite-nos desagregar (ou efetuar cópias de segurança) através da hierarquia. Neste caso, podemos desagregar de *Fase de vendas* para *Tamanho da oportunidade*, conforme mostrado na imagem seguinte, em que o ícone de desagregação de um nível (a forquilha) foi selecionado.
+Semelhante ao comportamento de desagregação e expansão noutros elementos visuais, a seleção desses botões permite-nos desagregar (ou efetuar cópias de segurança) através da hierarquia. Neste caso, podemos desagregar de *Fase de vendas* para *Tamanho da oportunidade*, conforme mostrado na imagem seguinte, em que o ícone de **desagregação de um nível** (a forquilha) foi selecionado.
 
 ![matriz com forquilha realçada](media/desktop-matrix-visual/power-bi-matrix-drill3.png)
 
