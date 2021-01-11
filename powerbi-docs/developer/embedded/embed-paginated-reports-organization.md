@@ -1,6 +1,6 @@
 ---
-title: Incorporar relatórios paginados do Power BI na sua aplicação de análise incorporada do Power aplicação para a sua organização
-description: Neste tutorial, irá aprender a integrar ou incorporar um relatório paginado do Power BI numa aplicação através das APIs do Power BI.
+title: Incorporar relatórios paginados do Power BI numa aplicação de análise incorporada do Power BI, o que permite melhores informações de BI incorporadas para a sua organização
+description: Neste tutorial, irá aprender a integrar ou incorporar um relatório paginado do Power BI numa aplicação através das APIs do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: cb739ab6fee67f08184f8c160c13c58be15d649c
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: d4ef44cb0e03c5de7807f0e95cefa532353f4685
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098450"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885183"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Tutorial: Incorporar relatórios paginados do Power BI numa aplicação para a sua organização
 

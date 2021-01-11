@@ -1,6 +1,6 @@
 ---
-title: Melhores práticas para o desempenho do Power BI Embedded
-description: Este artigo fornece recomendações de melhores práticas para a análise incorporada
+title: Melhores práticas de desempenho na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo fornece recomendações de melhores práticas para a análise incorporada do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 2d33ed5a707a3b4bc3e0a77a38128e7e00154798
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f8bf41ae9a4b6f2e16aae2c05df8fa4448a0457c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746683"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888794"
 ---
-# <a name="power-bi-embedded-performance-best-practices"></a>Melhores práticas para o desempenho do Power BI Embedded
+# <a name="power-bi-embedded-analytics-performance-best-practices"></a>Melhores práticas para o desempenho da análise incorporada do Power BI
 
 Este artigo fornece recomendações para uma composição mais rápida de relatórios, dashboards e mosaicos na sua aplicação.
 
@@ -107,5 +107,5 @@ O Analisador de Desempenho permitirá que veja e crie registos que medem o desem
 ## <a name="next-steps"></a>Próximos passos
 
 * [Guia de otimização do Power BI](../../guidance/power-bi-optimization.md)
-* [Como resolver problemas do Power BI Embedded](embedded-troubleshoot.md)
-* [FAQ do Power BI Embedded](embedded-faq.md)
+* [Como resolver problemas da análise incorporada do Power BI](embedded-troubleshoot.md)
+* [FAQ da análise incorporada do Power BI](embedded-faq.md)

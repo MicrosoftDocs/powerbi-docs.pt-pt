@@ -1,6 +1,6 @@
 ---
-title: Resolver problemas com o desenvolvimento de elementos visuais do Power BI
-description: Este artigo aborda alguns problemas comuns que poderá encontrar ao desenvolver ou criar um elemento visual personalizado do Power BI.
+title: Resolução de problemas relacionados com a programação de elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo aborda alguns problemas comuns que poderá encontrar ao desenvolver ou criar um elemento visual personalizado do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: troubleshooting
 ms.date: 11/06/2018
-ms.openlocfilehash: fda4bbddb2f0b1a878e0ddf85f31795405c66331
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 440bb6648dca1eaa85b697a10e9fd41180c66d7e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417158"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888104"
 ---
 # <a name="troubleshoot-power-bi-visuals"></a>Troubleshoot Power BI visuals (Resolver problemas com os elementos visuais do Power BI)
 
-## <a name="debug"></a>Debug
+## <a name="debug"></a>Depurar
 
 **Comando Pbiviz não encontrado (ou erros semelhantes)**
 
@@ -40,6 +40,6 @@ Execute o servidor do elemento visual com o comando `pbiviz start` na linha de c
 
 Não hesite em enviar perguntas, fazer comentários ou comunicar problemas à equipa de suporte de elementos visuais do Power BI para o endereço: pbicvsupport@microsoft.com.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 
 Para obter mais informações, veja [Perguntas frequentes sobre os elementos visuais do Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).

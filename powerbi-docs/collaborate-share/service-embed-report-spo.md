@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
-ms.date: 06/28/2020
-ms.openlocfilehash: 6a1f8a69db20d44fc814c7e63e4ad13ed5fc955c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/04/2021
+ms.openlocfilehash: e4d31a7bf83d4e94e2f3b71ca43924d468268f76
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407383"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888415"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>Incorporar uma peça Web de relatórios no SharePoint Online
 
@@ -32,16 +32,16 @@ Para que os relatórios da opção **Incorporar no SharePoint Online** funcionem
 * Para consumir um relatório incorporado, os utilizadores têm de iniciar sessão no serviço Power BI para ativar a respetiva licença do Power BI.
 
 > [!Note]
-> A licença gratuita não está disponível para organizações em Clouds nacionais do Power BI. Neste ambiente, todos os utilizadores que queiram aceder ao relatório incorporado no SharePoint precisam de ter uma licença do Power BI Pro.
+> A licença gratuita não está disponível para organizações em Clouds nacionais do Power BI. Neste ambiente, todos os utilizadores que queiram aceder ao relatório incorporado no SharePoint precisam de ter uma licença do Power BI Pro.
 
 ## <a name="embed-your-report"></a>Incorporar o seu relatório
 Para incorporar o seu relatório no SharePoint Online, tem de obter o URL do relatório e utilizá-lo com a peça Web do Power BI do SharePoint Online.
 
 ### <a name="get-a-report-url"></a>Obter um URL de relatório
 
-1. No Power BI, veja o relatório.
+1. Abra um relatório no serviço Power BI.
 
-2. No menu pendente **Mais opções (...)** , selecione **Incorporar** > **SharePoint Online**.
+2. No menu **Partilhar**, selecione **Incorporar relatório** > **SharePoint Online**.
 
     ![Menu Mais opções, SharePoint Online](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 

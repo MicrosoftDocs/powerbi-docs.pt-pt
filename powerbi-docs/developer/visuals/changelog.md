@@ -1,6 +1,6 @@
 ---
-title: Registo de alterações da API de elementos visuais do Power BI
-description: Este artigo descreve as principais alterações nas diferentes versões da API de elementos visuais do Power BI
+title: Registo de alterações da API de elementos visuais do Power BI na análise incorporada do Power BI para obter melhores informações de BI incorporadas
+description: Este artigo descreve as principais alterações nas diferentes versões da API de elementos visuais do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: c43542bc6c2bb0699403062f68024f9718bbbb60
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 4ed42f8c9c3acf740b68bf6c28aaa201efb0d5ba
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92501955"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927133"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Registo de alterações da API de elementos visuais do Power BI
 Esta página contém um resumo rápido das versões da API. As versões aqui listadas são consideradas estáveis e não serão alteradas.
@@ -43,6 +43,7 @@ Esta página contém um resumo rápido das versões da API. As versões aqui lis
 ## <a name="api-v220"></a>API v2.2.0
   * Suporta o **[restauro do Filtro JSON a partir de DataView](./filter-api.md#restore-the-json-filter-from-the-data-view)**
   * **[API de ContextMenu](./context-menu.md)**
+  * Suporta a funcionalidade **[Pormenorizar](../../create-reports/desktop-drillthrough.md)**
 
 ## <a name="api-v210"></a>API v2.1.0
   * Melhorias de desempenho:

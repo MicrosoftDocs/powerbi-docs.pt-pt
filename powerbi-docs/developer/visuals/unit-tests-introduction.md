@@ -1,6 +1,6 @@
 ---
-title: Introdução aos testes de unidades para projetos de elementos visuais do Power BI
-description: Este artigo descreve como escrever testes de unidades para projetos de elementos visuais do Power BI
+title: Introdução aos testes de unidades para projetos de elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo descreve como escrever testes de unidades para projetos de elementos visuais do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ee7ed48043a902a9b5ebd3c548ebec7505e76ab1
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379579"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887920"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Tutorial: Adicionar testes de unidades para projetos de elementos visuais do Power BI
 
@@ -565,7 +565,7 @@ Em `package.json` na secção `devDependencies`
 "powerbi-visuals-utils-testutils": "2.2.0"
 ```
 
-Chame
+Chamada
 
 ```cmd
 npm install
@@ -613,6 +613,6 @@ No âmbito do ficheiro, pode ver o código fonte. Os utilitários `Coverage` rea
 > [!IMPORTANT]
 > A cobertura do código não significa que tenha boa cobertura de funcionalidade do elemento visual. Um teste de unidades simples proporcionou mais de 96 por cento da cobertura em `src\visual.ts`.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Quando o elemento visual estiver pronto, pode enviá-lo para publicação. Para obter mais informações, veja [Publicar elementos visuais do Power BI no AppSource](office-store.md).

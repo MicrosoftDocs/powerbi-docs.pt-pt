@@ -1,6 +1,6 @@
 ---
-title: API de Filtros de Elementos Visuais nos Elementos Visuais do Power BI
-description: Este artigo aborda como os elementos visuais do Power BI podem filtrar outros elementos visuais.
+title: A API de Filtros de Elementos Visuais do Power BI na análise incorporada do Power BI para obter melhores informações de BI incorporadas
+description: Este artigo aborda como os elementos visuais do Power BI podem filtrar outros elementos visuais. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,11 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 24e8ac32fb89db2fdc0d1f4ad3fbaffdadaf57bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c03c64c2835ff8bf0b0f1ad3bd555da94aaf3126
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237428"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888748"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>API de Filtros de Elementos Visuais nos Elementos Visuais do Power BI
 

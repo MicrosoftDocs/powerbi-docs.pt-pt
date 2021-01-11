@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 12/24/2019
-ms.openlocfilehash: 53c0af04a76d4cf8cfacd49002434ecbc246fbe8
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e4ddc487f81835edfdc5ad8a4074a91204ee0336
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394388"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97884792"
 ---
 # <a name="composite-model-guidance-in-power-bi-desktop"></a>Documentação de orientação dos modelos compostos no Power BI Desktop
 
@@ -54,8 +54,8 @@ Nos Modelos compostos, pode configurar o modo de armazenamento de cada tabela (e
 Existem vários cenários possíveis quando o Power BI consulta um Modelo composto:
 
 - **Consulta apenas a(s) tabela(s) de Importação ou Dual**: todos os dados são recuperados da cache de modelos. Proporcionará o desempenho mais rápido possível. Este cenário é comum para tabelas de dimensão consultadas através de filtros ou elementos visuais de segmentação.
-- **Consulta a(s) tabela(s) Dual ou a(s) tabela(s) do DirectQuery a partir da mesma origem de dados**: todos os dados são recuperados através do envio de uma ou mais consultas nativas para a origem de dados DirectQuery. Proporcionará o desempenho mais rápido possível, especialmente quando existem índices adequados nas tabelas de origem de dados. Este cenário é comum para consultas relacionadas com tabelas de dimensão Dual e tabelas de fatos do DirectQuery. Estas consultas são _intra ilha_ e todas as relações um-para-um ou um-para-muitos são avaliadas como [relações regulares](../transform-model/desktop-relationships-understand.md#regular-relationships).
-- **Todas as outras consultas**: estas consultas envolvem relações entre ilhas. Tal deve-se a uma tabela de Importação estar relacionada com uma tabela do DirectQuery ou uma tabela Dual estar relacionada com uma tabela do DirectQuery de uma origem de dados diferente e, neste caso, comporta-se como uma tabela de Importação. Todas as relações são avaliadas como [relações limitadas](../transform-model/desktop-relationships-understand.md#limited-relationships). Significa também que os agrupamentos aplicados a tabelas que não são DirectQuery devem ser enviadas para a origem de dados do DirectQuery como uma tabela virtual. Neste caso, a consulta nativa pode não ser eficiente, especialmente para grandes conjuntos de agrupamentos. E, pode expor dados confidenciais na consulta nativa.
+- **Consulta a(s) tabela(s) Dual ou a(s) tabela(s) do DirectQuery a partir da mesma origem de dados**: todos os dados são recuperados através do envio de uma ou mais consultas nativas para a origem de dados DirectQuery. Proporcionará o desempenho mais rápido possível, especialmente quando existem índices adequados nas tabelas de origem de dados. Este cenário é comum para consultas relacionadas com tabelas de dimensão Dual e tabelas de fatos do DirectQuery. Estas consultas são realizadas _dentro do mesmo grupo de origem_ e todas as relações um-para-um ou um-para-muitos são avaliadas como [relações regulares](../transform-model/desktop-relationships-understand.md#regular-relationships).
+- **Todas as outras consultas**: estas consultas envolvem relações entre vários grupos de origem. Tal deve-se a uma tabela de Importação estar relacionada com uma tabela do DirectQuery ou uma tabela Dual estar relacionada com uma tabela do DirectQuery de uma origem de dados diferente e, neste caso, comporta-se como uma tabela de Importação. Todas as relações são avaliadas como [relações limitadas](../transform-model/desktop-relationships-understand.md#limited-relationships). Significa também que os agrupamentos aplicados a tabelas que não são DirectQuery devem ser enviadas para a origem de dados do DirectQuery como uma tabela virtual. Neste caso, a consulta nativa pode não ser eficiente, especialmente para grandes conjuntos de agrupamentos. E, pode expor dados confidenciais na consulta nativa.
 
 Em resumo, recomendamos que:
 

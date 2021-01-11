@@ -1,6 +1,6 @@
 ---
-title: Introdução à utilização de utilitários de formatação do elemento visual do Power BI
-description: Este artigo descreve como utilizar os utilitários de formatação para formatar valores e aplicar a localização a valores no elemento visual do Power BI
+title: Introdução à utilização de utilitários de formatação em elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo descreve como utilizar utilitários de formatação para formatar valores e aplicar a localização a valores no elemento visual do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: dc2d036ab1e3e3dab551269163ced2f066a71626
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 564f6587ff361e3b2860bafb4ae43bc19ad8c2ba
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378030"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887805"
 ---
 # <a name="formatting-utils"></a>Formatting utils (Utilitários de formatação)
 
@@ -127,7 +127,7 @@ Esta função devolve uma linha de base com as propriedades do texto SVG forneci
 function estimateSvgTextBaselineDelta(textProperties: TextProperties): number;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { textMeasurementService } from "powerbi-visuals-utils-formattingutils";
@@ -402,7 +402,7 @@ stringExtensions.startsWith("Power BI", "Power");
 // returns: true
 ```
 
-### <a name="contains"></a>contém
+### <a name="contains"></a>contains
 
 Esta função verifica se uma cadeia inclui uma subcadeia especificada.
 
@@ -650,6 +650,6 @@ valueFormatter.create({});
 // returns: an instance of IValueFormatter.
 ```
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 
 [Adicionar localizações a um elemento visual personalizado do Power BI](localization.md)  

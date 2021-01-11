@@ -1,6 +1,6 @@
 ---
-title: Introdução à utilização de utilitários de teste num elemento visual do Power BI
-description: Este artigo descreve como utilizar utilitários de teste para simplificar simulações e métodos específicos em testes de unidades para elementos visuais do Power BI.
+title: Introdução à utilização de utilitários de teste em elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo descreve como utilizar utilitários de teste para simplificar simulações e métodos específicos em testes de unidades para elementos visuais do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 02/14/2020
-ms.openlocfilehash: c50ad894b2e1f5eb838abdd4442f473f8bcbbb10
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4b2a846f4905c4cb28fe92043cf3c71750b40f11
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196612"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888058"
 ---
 # <a name="power-bi-visuals-test-utils"></a>Utilitários de teste de elementos visuais do Power BI
 
 Este artigo ajuda-o a instalar, importar e utilizar os utilitários de teste de elementos visuais do Power BI. Estes utilitários de teste podem ser utilizados para testes de unidades e incluem simulações e métodos para elementos como vistas de dados, seleções e esquemas de cores.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Para utilizar este pacote, terá de instalar o seguinte:
 
@@ -643,6 +643,6 @@ enum MouseEventType {
 }
 ```
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Para escrever testes de unidades para elementos visuais do Power BI baseados no webpack e realizar testes de unidades com `karma` e `jasmine`, veja, por exemplo, [Tutorial: Adicionar testes de unidades para projetos de elementos visuais do Power BI](./unit-tests-introduction.md).

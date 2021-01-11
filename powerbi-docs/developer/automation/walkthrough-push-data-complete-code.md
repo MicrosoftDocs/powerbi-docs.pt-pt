@@ -1,6 +1,6 @@
 ---
-title: Listagem de código completo
-description: Instruções para enviar dados por push - Listagem de código completo
+title: Listagem de código completo na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Instruções para enviar dados por push – Listagem de código completo. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: f2e421297eb942e6e9a622c91e9d5a074cb042ba
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d478c742112c15c80657ec424f5a4d6739a3c6d7
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746499"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887483"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Enviar dados por push para a listagem de código completo de um conjunto de dados
 
@@ -222,15 +222,15 @@ Após seguir os Passos 2 a 5 em **Enviar dados por push para um conjunto de dado
       }
 ```
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 
 * [Enviar dados por push para um conjunto de dados do Power BI](walkthrough-push-data.md)
-* [Registar uma aplicação no Azure AD](../embedded/register-app.md)  
+* [Register an app with Azure AD (Registar uma aplicação com o Azure AD)](../embedded/register-app.md)  
 * [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md)  
 * [Criar um conjunto de dados no Power BI](walkthrough-push-data-create-dataset.md)  
 * [Obter um conjunto de dados para adicionar linhas a uma tabela do Power BI](walkthrough-push-data-get-datasets.md)  
 * [Adicionar linhas a uma tabela do Power BI](walkthrough-push-data-add-rows.md)  
 * [Referência da API REST do Power BI](/rest/api/power-bi/)  
-* [Descrição Geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
+* [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

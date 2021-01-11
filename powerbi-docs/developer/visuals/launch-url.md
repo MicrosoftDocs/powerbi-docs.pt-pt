@@ -1,6 +1,6 @@
 ---
-title: Criar um URL de iniciação
-description: Este artigo descreve como pode abrir o URL num novo separador ao utilizar os Elementos Visuais do Power BI.
+title: Criar um URL de iniciação na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo descreve como pode abrir o URL num novo separador ao utilizar os Elementos Visuais do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 7e398354ab069bb02554c94312909c0ed835d027
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6fe9908c324705b8cb00519b4743ae8c052c7ad8
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379788"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888311"
 ---
 # <a name="create-a-launch-url"></a>Criar um URL de iniciação
 
@@ -22,7 +22,7 @@ Ao criar um URL de iniciação, pode abrir um novo separador (ou janela) do brow
 > [!IMPORTANT]
 > O `host.launchUrl()` foi apresentado na API de Elementos Visuais 1.9.0.
 
-## <a name="sample"></a>Exemplo
+## <a name="sample"></a>Sample
 
 Importe a interface `IVisualHost` e guarde a ligação no objeto `host` no construtor do elemento visual.
 
@@ -43,7 +43,7 @@ export class Visual implements IVisual {
 }
 ```
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilização
 
 Utilize a chamada à API `host.launchUrl()` ao transmitir o seu URL de destino como argumento de cadeia de carateres:
 

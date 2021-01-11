@@ -1,6 +1,6 @@
 ---
-title: Introdução à utilização de utilitários de descrição em elementos visuais do Power BI
-description: Este artigo descreve como utilizar utilitários de descrição para simplificar a personalização das descrições dos elementos visuais do Power BI
+title: Introdução à utilização de utilitários de descrição em elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo descreve como utilizar utilitários de descrição para simplificar a personalização das descrições dos elementos visuais do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 69650982bd3e71c235ffb09b00a99959bc02c231
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.openlocfilehash: b2ddc85d9ba2530dc394b4106d72b4af702bd9b4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197639"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888656"
 ---
 # <a name="tooltip-utils"></a>Utilitários de descrição
 Este artigo irá ajudá-lo a instalar, importar e utilizar utilitários de descrição. Este utilitário é útil para qualquer personalização de descrições em elementos visuais do Power BI.
@@ -33,7 +33,7 @@ npm install powerbi-visuals-utils-tooltiputils --save
 ```
 Este comando instala o pacote e adiciona um pacote como dependência a ```package.json```
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilização
 
 > O Guia de Utilização descreve uma API pública do pacote. Encontrará uma descrição e alguns exemplos para cada interface pública do pacote.
 

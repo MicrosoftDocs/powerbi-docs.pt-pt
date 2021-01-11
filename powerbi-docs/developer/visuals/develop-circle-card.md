@@ -1,6 +1,6 @@
 ---
-title: Saiba como programar o seu próprio elemento visual do Power BI através do elemento visual do cartão circular como um exemplo
-description: Este tutorial explica como pode programar um elemento visual do Power BI
+title: Aprenda a programar o seu próprio elemento visual do Power BI com um elemento visual de cartão circular como exemplo na análise incorporada do Power BI para permitir melhores informações de BI incorporadas
+description: Este tutorial explica como pode programar um elemento visual do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 09/02/2020
-ms.openlocfilehash: ff73c07fb08e80938fae34c19205885722c33672
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0bfc36a37dbcc4c595ea467eb3b365c30d4ed781
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418722"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885643"
 ---
 # <a name="tutorial-develop-a-power-bi-circle-card-visual"></a>Tutorial: Programar um elemento visual de cartão circular do Power BI
 

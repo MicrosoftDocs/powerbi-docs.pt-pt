@@ -1,6 +1,6 @@
 ---
-title: Adicionar suporte de Desagregação
-description: Este artigo descreve como adicionar suporte de desagregação a Elementos Visuais do Power BI
+title: Adicionar suporte de Desagregação na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo descreve como adicionar suporte de desagregação a Elementos Visuais do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 602c13964e5364f9d21ec4e761fd42ea8d3e85f7
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 40c8d7f362ca461b4295507c0ddff8db4bcc3509
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514131"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885473"
 ---
 # <a name="add-drill-down-support"></a>Adicionar suporte de Desagregação
 
@@ -217,7 +217,7 @@ Prepare dados de exemplo para testar o elemento visual:
 |   A    |    A3    |    A32    |    6    |
 |   N    |    B1    |    B11    |    7    |
 |   N    |    B1    |    B12    |    8    |
-|   N    |    B2    |    B21    |    09    |
+|   N    |    B2    |    B21    |    9    |
 |   N    |    B2    |    B22    |    10    |
 |   N    |    B3    |    B31    |    11    |
 |   N    |    B3    |    B32    |    12    |
@@ -332,7 +332,7 @@ Prepare dados de exemplo para testar o elemento visual com os mapeamentos de vis
 |   R1   |   R12   |   R123   |   C1   |   C12   |   C123   |   6   |
 |   R1   |   R13   |   R131   |   C1   |   C13   |   C131   |   7   |
 |   R1   |   R13   |   R132   |   C1   |   C13   |   C132   |   8   |
-|   R1   |   R13   |   R133   |   C1   |   C13   |   C133   |   09   |
+|   R1   |   R13   |   R133   |   C1   |   C13   |   C133   |   9   |
 |   R2   |   R21   |   R211   |   C2   |   C21   |   C211   |   10   |
 |   R2   |   R21   |   R212   |   C2   |   C21   |   C212   |   11   |
 |   R2   |   R21   |   R213   |   C2   |   C21   |   C213   |   12   |

@@ -1,18 +1,18 @@
 ---
-title: Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI
-description: Saiba como migrar a partir da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded e tire partido dos avanços de incorporação de conteúdos nas aplicações.
+title: Como migrar conteúdo da Coleção de Áreas de Trabalho do Power BI para a solução Power BI Embedded de análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Saiba como migrar a partir da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded e tire partido dos avanços de incorporação de conteúdos nas aplicações. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: afff3023942352a25ff89fbed5f4a855b23d724d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a2e73ced427daa8aebf6b5c9836aa060d3591e3e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416560"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886379"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded
 

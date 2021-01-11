@@ -1,6 +1,6 @@
 ---
-title: Obter um conjunto de dados para adicionar linhas
-description: Passo a passo para enviar dados por push - Obter um conjunto de dados para adicionar linhas a uma tabela do Power BI
+title: Obter um conjunto de dados para adicionar linhas na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Instruções para enviar dados por push – Obter um conjunto de dados para adicionar linhas a uma tabela do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: a150666eafd8dc11b573150455775d2ecf6f7f1b
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: e1be761f68dfcd58de8623618acd859694b95bde
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748316"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887460"
 ---
-# <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Step 4: Obter um conjunto de dados para adicionar linhas numa tabela do Power BI
+# <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Passo 4: obter um conjunto de dados para adicionar linhas a uma tabela do Power BI
 
 Este artigo faz parte das instruções passo-a-passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
 
@@ -27,9 +27,9 @@ Eis como obter um conjunto de dados.
 
 ## <a name="get-a-power-bi-dataset"></a>Obter um conjunto de dados do Power BI
 
-> **NOTA**: Antes de começar, certifique-se de que seguiu os passos anteriores nas instruções para [enviar dados para um conjunto de dados](walkthrough-push-data.md).
+> **NOTA**: antes de começar, certifique-se de que seguiu os passos anteriores nas instruções para [enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
 
-1. No projeto Aplicação de Consola que criou no Passo 2: Instruções para enviar dados por push, [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md), instale o pacote NuGet Newtonsoft.Json. Veja como instalar o pacote:
+1. No projeto Aplicação de Consola que criou no Passo 2: instruções para enviar dados por push, [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md), instale o pacote NuGet Newtonsoft.Json. Veja como instalar o pacote:
 
      a. No Visual Studio 2015, escolha **Ferramentas** > **Gestor de Pacotes NuGet** > **Consola do Gestor de Pacotes**.
 
@@ -108,7 +108,7 @@ Segue-se a [lista completa de códigos](#code).
 
 <a name="code"/>
 
-## <a name="complete-code-listing"></a>Lista de códigos completa
+## <a name="complete-code-listing"></a>Listagem de código completo
 
 ```csharp
 using System;
@@ -264,13 +264,13 @@ namespace walkthrough_push_data
 }
 ```
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 * [Adicionar linhas a uma tabela do Power BI](walkthrough-push-data-add-rows.md)  
 * [Newtonsoft.Json](https://www.newtonsoft.com/json)  
 * [Obter Conjuntos de Dados](/rest/api/power-bi/datasets/getdatasets)  
 * [Enviar dados por push para o Power BI](walkthrough-push-data.md)  
-* [Descrição Geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
+* [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 * [Referência da API REST do Power BI](/rest/api/power-bi/)  
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

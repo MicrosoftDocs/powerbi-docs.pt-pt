@@ -1,6 +1,6 @@
 ---
-title: Adicionar a região do Power BI para obter elementos visuais do Power BI
-description: Saiba como os elementos visuais podem obter a região do Power BI para localizar os conteúdos para o idioma aplicável.
+title: Adicionar a região no Power BI para elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Saiba como os elementos visuais podem obter a região do Power BI para localizar os conteúdos para o idioma aplicável. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 7492b70b9a82fe6c5579c4251000e9af7509e8fb
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 4df09979eeae476578b247e729a31f5f5c9c9baa
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746062"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888219"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Adicionar a região do Power BI para obter elementos visuais do Power BI
 

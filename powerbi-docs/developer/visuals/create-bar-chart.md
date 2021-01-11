@@ -1,6 +1,6 @@
 ---
-title: Build a bar chart (Criar um gráfico de barras)
-description: Utilize este guia passo a passo para criar um elemento visual de gráfico de barras do Power BI simples com código.
+title: Criar um gráfico de barras na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Utilize este guia passo a passo para criar um elemento visual de gráfico de barras do Power BI simples com código. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/01/2020
-ms.openlocfilehash: 0f8f97e5f707e813d316ae4d5388f0793f8c1aa0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a3210c2fdb86632d9fa47b4c9c4add6fff5f052e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149069"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889093"
 ---
 # <a name="build-a-bar-chart"></a>Build a bar chart (Criar um gráfico de barras)
 

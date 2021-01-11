@@ -8,21 +8,21 @@ ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 06/26/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7a85021ee1931b2d5f7c247d7caa4c2813f86a8c
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: 1069a000daf3f46055f45118f4442e4b19037234
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621608"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926764"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Partilhar dashboards e relatórios do Power BI com colegas e outras pessoas
 *Partilhar* é a forma mais fácil de dar às pessoas acesso aos dashboards e aos relatórios no serviço Power BI. Pode partilhar com pessoas dentro e fora da sua organização.
 
 Ao partilhar dashboards ou relatórios, as pessoas com quem os partilhar poderão ver e interagir com os mesmos, mas não os poderão editar. Veem os mesmos dados que o utilizador no dashboard e relatórios e obtêm acesso a todo o conjunto de dados subjacente, a menos que seja aplicada a segurança ao nível da linha (RLS) ao conjunto de dados subjacente.  Os colegas com quem partilhar também os podem partilhar com os colegas deles, se assim o permitir. As pessoas fora da organização podem ver e interagir com os dashboards ou relatórios, mas não os podem partilhar. 
 
-![Ícone de partilha numa lista de dashboards](media/service-share-dashboards/power-bi-share-new-look.png)
+![Ícone de partilha de um relatório](media/service-share-dashboards/power-bi-share-new-look.png)
 
 Pode partilhar dashboards e relatórios a partir de vários locais no serviço Power BI: Favoritos, Recentes, A Minha Área de Trabalho. Também pode partilhar a partir de outras áreas de trabalho se tiver a [função de Administrador, Membro ou Contribuidor](service-new-workspaces.md#roles-in-the-new-workspaces) nas mesmas. Além disso, pode partilhar dashboards e relatórios em Partilhado comigo, se o proprietário o permitir. 
 

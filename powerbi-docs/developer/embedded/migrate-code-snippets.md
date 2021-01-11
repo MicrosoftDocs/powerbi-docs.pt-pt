@@ -1,6 +1,6 @@
 ---
-title: Fragmentos de código para a migração de conteúdo a partir do Power BI Embedded
-description: Seguem-se alguns fragmentos de código de operações básicas necessários para a migração de conteúdo
+title: Fragmentos de código para migrar conteúdos da Coleção de Áreas de Trabalho para a solução Power BI Embedded de análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Seguem-se alguns fragmentos de código de operações básicas necessários para a migração de conteúdo. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 9ed021ce95fd1e978916c188c93ca77fa88ccdb6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f6b6023ac77d007b07662e200d6f165d56d67628
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416514"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888725"
 ---
-# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Fragmentos de código para a migração de conteúdo a partir da Coleção de Áreas de Trabalho do Power BI
+# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Fragmentos de código para a migração de conteúdo da Coleção de Áreas de Trabalho do Power BI
 
 Seguem-se alguns fragmentos de código de operações básicas necessários para a migração de conteúdo. Para obter fluxos relacionados para determinados tipos de relatório, veja [Como migrar conteúdos da coleção de áreas de trabalho do Power BI para o Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).
 
@@ -227,9 +227,9 @@ Neste fragmento, partimos do pressuposto que o conjunto de dados enviado por pus
     }
 ```
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 
-[Ferramenta de migração do Power BI Embedded](migrate-tool.md)  
+[Power BI Embedded migration tool (Ferramenta de migração Power BI Embedded)](migrate-tool.md)  
 [Incorporar com o Power BI](embedding.md)  
 [Como migrar conteúdos da coleção de áreas de trabalho do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md)  
 [Como incorporar os dashboards, relatórios e mosaicos do Power BI](embed-sample-for-your-organization.md)  

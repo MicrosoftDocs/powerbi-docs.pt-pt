@@ -1,6 +1,6 @@
 ---
-title: Autenticar utilizadores e obter um token de acesso do Azure AD para a sua aplicação
-description: Saiba como registar uma aplicação no Azure Active Directory para utilizar ao incorporar conteúdos do Power BI.
+title: Autenticar utilizadores e obter o token de acesso do Azure AD para a sua aplicação de análise incorporada do Power BI para melhorar a experiência de BI incorporada dos clientes
+description: Saiba como registar uma aplicação no Azure Active Directory para utilizar ao incorporar conteúdos do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: cb7c874fc68da361971c34879f2ea44006402bf4
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 8001dd0e15ef713fa67256a45f645b0d7a0890c0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96906940"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888449"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Obter um token de acesso do Azure AD para a sua aplicação do Power BI
 
@@ -204,7 +204,7 @@ Mensagem de erro: "'AuthenticationContext' não contém uma definição para 'Ac
 
    Se lhe for apresentado este erro, experimente transferir o pacote [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727).
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 
 Agora que tem o token de acesso, pode chamar a API REST do Power BI para incorporar conteúdos.
 

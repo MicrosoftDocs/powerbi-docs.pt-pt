@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 10/15/2019
-ms.openlocfilehash: 32e6cccf738d85ed58922c199c3a6093a54019db
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aeae77efeadfa3b39f9c39cadc36b2a046286b2
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413800"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888582"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Model relationships in Power BI Desktop (Relações de modelos no Power BI Desktop)
 
@@ -146,21 +146,21 @@ Primeiro, é preciso conhecer alguma teoria de modelação para compreender tota
 
 Um modelo de Importação ou do DirectQuery obtém todos os seus dados da cache Vertipaq ou da base de dados de origem. Em ambas as instâncias, o Power BI consegue determinar que existe um lado "um" de uma relação.
 
-No entanto, um modelo Composto pode ser constituído por tabelas que utilizam modos de armazenamento diferentes (Importação, DirectQuery ou Duplos) ou várias origens do DirectQuery. Cada origem, incluindo a cache do Vertipaq de Dados de importação, é considerada uma _ilha de dados_. As relações de modelo podem então ser classificadas como _intra ilha_ ou _entre ilhas_. Uma relação intra ilha é aquela que relaciona duas tabelas numa ilha de dados, enquanto uma relação entre ilhas relaciona as tabelas de ilhas de dados diferentes. Observe que as relações nos Modelos de importação ou do DirectQuery são sempre intra ilha.
+No entanto, um modelo Composto pode ser constituído por tabelas que utilizam modos de armazenamento diferentes (Importação, DirectQuery ou Duplos) ou várias origens do DirectQuery. Cada origem, incluindo a cache do Vertipaq de Dados de importação, é considerada um _grupo de origem_. As relações de modelos podem então ser classificadas como _dentro do grupo de origem_ ou _entre vários grupos de origem_. Uma relação dentro do grupo de origem relaciona duas tabelas dentro de um grupo de origem, enquanto as relações entre vários grupos de origem relacionam tabelas de diferentes grupos de origem. Observe que as relações nos Modelos de importação ou do DirectQuery são sempre intra grupo de origem.
 
 Vamos ver um exemplo de Modelo composto.
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example.png" alt-text="Exemplo de um Modelo composto que consiste em duas ilhas.":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example.png" alt-text="Exemplo de um Modelo composto que consiste em dois grupos de origem.":::
 
-Neste exemplo, o Modelo composto consiste em duas ilhas: uma ilha de dados do Vertipaq e uma ilha de dados de origem do DirectQuery. A ilha de dados do Vertipaq contém três tabelas e a ilha de dados de origem do DirectQuery contém duas tabelas. Existe uma relação entre ilhas para relacionar uma tabela na ilha de dados do Vertipaq com uma tabela na ilha de dados de origem do DirectQuery.
+Neste exemplo, o Modelo composto consiste em dois grupos de origem: um grupo de origem do Vertipaq e um grupo de origem do DirectQuery. O grupo de origem do Vertipaq contém três tabelas e o grupo de origem do DirectQuery contém duas tabelas. Existe uma relação entre grupos de origem para relacionar uma tabela no grupo de origem do Vertipaq com uma tabela no grupo de origem do DirectQuery.
 
 ### <a name="regular-relationships"></a>Relações regulares
 
-Uma relação de modelo é _regular_ quando o motor de consulta pode determinar o lado "um" da relação. Tem a confirmação de que a coluna do lado "um" contém valores exclusivos. Todas as relações intra ilha de Um para muitos são relações regulares.
+Uma relação de modelo é _regular_ quando o motor de consulta pode determinar o lado "um" da relação. Tem a confirmação de que a coluna do lado "um" contém valores exclusivos. Todas as relações intra grupo de origem um-para-muitos são relações regulares.
 
-No exemplo seguinte, existem duas relações regulares, ambas marcadas como **R**. As relações incluem a relação Um para muitos contida na ilha do Vertipaq e a relação Um para muitos contida na origem do DirectQuery.
+No exemplo seguinte, existem duas relações regulares, ambas marcadas como **R**. As relações incluem a relação um-para-muitos contida no grupo de origem do Vertipaq e a relação um-para-muitos contida na origem do DirectQuery.
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example-regular.png" alt-text="Exemplo de um Modelo composto que consiste em duas ilhas com relações regulares marcadas.":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example-regular.png" alt-text="Exemplo de um Modelo composto que consiste em dois grupos de origem com relações regulares marcadas.":::
 
 Para Modelos de importação, onde todos os dados são armazenados na cache do Vertipaq, é criada uma estrutura de dados para cada relação regular no momento da atualização de dados. As estruturas de dados consistem em mapeamentos indexados de todos os valores de coluna para coluna e a sua finalidade é acelerar a associação de tabelas no momento da consulta.
 
@@ -171,7 +171,7 @@ No momento da consulta, as relações regulares permitem que a _expansão da tab
 
 Para relações Um para muitos, a expansão da tabela ocorre dos lados “muitos” para “um”, através da semântica ASSOCIAÇÃO EXTERNA À ESQUERDA. Quando um valor correspondente de "muitos" para o lado "um" não existir, é adicionada uma linha virtual em branco à tabela do lado "um".
 
-A expansão de tabela também ocorre para relações intra ilha de Um para um, mas com a semântica EXTERNA COMPLETA. Desta forma, garante-se que as linhas virtuais em branco são adicionadas em ambos os lados, quando necessário.
+A expansão de tabela também ocorre emrelações intra grupo de origem um-para-um, mas com a semântica EXTERNA COMPLETA. Desta forma, garante-se que as linhas virtuais em branco são adicionadas em ambos os lados, quando necessário.
 
 As linhas virtuais em branco são efetivamente _Membros Desconhecidos_. Os membros desconhecidos representam violações de integridade referencial em que o valor do lado "muitos" não tem um valor do lado "um" correspondente. Idealmente, estes espaços em branco não devem existir e podem ser eliminados ao limpar ou reparar os dados de origem.
 
@@ -186,11 +186,11 @@ Neste exemplo, o modelo consiste em três tabelas: **Categoria**, **Produto** e 
 Uma relação de modelo é _limitada_ quando não existe um lado "um" garantido. Pode acontecer por dois motivos:
 
 - A relação utiliza um tipo de cardinalidade Muitos para muitos (mesmo se uma ou ambas as colunas tiverem valores exclusivos)
-- A relação é entre ilhas (que só pode ocorrer em Modelos compostos)
+- A relação é entre grupos de origem (que só pode ocorrer em Modelos compostos)
 
-No exemplo seguinte, existem duas relações limitadas, ambas marcadas como **L**. Ambas as relações incluem a relação Muitos para muitos contida na ilha do Vertipaq e a relação Um para muitos entre ilhas.
+No exemplo seguinte, existem duas relações limitadas, ambas marcadas como **L**. Ambas as relações incluem a relação muitos-para-muitos contida no grupo de origem do Vertipaq e a relação um-para-muitos entre grupos de origem.
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example-limited.png" alt-text="Exemplo de um Modelo composto que consiste em duas ilhas com relações limitadas marcadas.":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example-limited.png" alt-text="Exemplo de um Modelo composto que consiste em dois grupos de origem com relações limitadas marcadas.":::
 
 Para Modelos de importação, as estruturas de dados nunca são criadas para relações limitadas. O que significa que as associações de tabela devem ser resolvidas no momento da consulta.
 
@@ -202,7 +202,7 @@ Existem restrições adicionais relacionadas com as relações limitadas:
 - A imposição da RLS tem restrições de topologia
 
 > [!NOTE]
-> Na vista de modelo do Power BI Desktop, nem sempre é possível determinar se uma relação de modelo é regular ou limitada. Uma relação Muitos para muitos será sempre limitada, já que é uma relação Um para muitos quando é uma relação entre ilhas. Para determinar se é uma relação entre ilhas, terá de inspecionar os modos de armazenamento de tabela e as origens de dados para chegar à determinação correta.
+> Na vista de modelo do Power BI Desktop, nem sempre é possível determinar se uma relação de modelo é regular ou limitada. Uma relação muitos-para-muitos será sempre limitada, já que é uma relação um-para-muitos quando é uma relação entre grupos de origem. Para determinar se é uma relação entre grupos de origem, terá de inspecionar os modos de armazenamento de tabela e as origens de dados para chegar à determinação correta.
 
 ### <a name="precedence-rules"></a>Regras de precedência
 
@@ -216,10 +216,10 @@ As relações bidirecionais podem introduzir vários (e, portanto, ambíguos) ca
 
 A lista a seguir ordena o desempenho da propagação do filtro, do desempenho mais rápido ao mais lento:
 
-1. Relações intra ilha de Um para muitos
+1. Relações um-para-muitos dentro do grupo de origem
 2. Relações de cardinalidade de Muitos para muitos
 3. Relações de modelo de Muitos para muitos obtidas com uma tabela intermediária e que envolve, pelo menos, uma relação bidirecional
-4. Relações entre ilhas
+4. Relações entre vários grupos de origem
 
 ## <a name="next-steps"></a>Próximos passos
 

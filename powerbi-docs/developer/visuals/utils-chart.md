@@ -1,6 +1,6 @@
 ---
-title: Introdução à utilização de utilitários de gráficos num elemento visual do Power BI
-description: Este artigo descreve como utilizar os utilitários de gráficos para desenhar eixos e legendas num elemento visual do Power BI
+title: Introdução à utilização de utilitários de gráficos em elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo descreve como utilizar os utilitários de gráficos para desenhar eixos e legendas num elemento visual do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 531da1ede8b83af9fb8093a3178c945f374b835c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9094d639225eb82cbcf427346d1ad78943ddc90f
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379397"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887874"
 ---
 # <a name="chart-utils"></a>Utilitários de gráficos
 
@@ -42,7 +42,7 @@ Esta função devolve o número recomendado de marcas de acordo com a largura do
 function getRecommendedNumberOfTicksForXAxis(availableWidth: number): number;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -60,7 +60,7 @@ Esta função devolve o número recomendado de marcas de acordo com a altura do 
 function getRecommendedNumberOfTicksForYAxis(availableWidth: number);
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -84,7 +84,7 @@ function getBestNumberOfTicks(
 ): number;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -132,7 +132,7 @@ function getTickLabelMargins(
 ): TickLabelMargins;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -164,7 +164,7 @@ Verifica se uma cadeia é nula, indefinida ou vazia.
 function isOrdinal(type: ValueTypeDescriptor): boolean;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -183,7 +183,7 @@ Verifica se o valor é do tipo DateTime.
 function isDateTime(type: ValueTypeDescriptor): boolean;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -202,7 +202,7 @@ Utiliza a escala D3 para obter a espessura real da categoria.
 function getCategoryThickness(scale: any): number;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -226,7 +226,7 @@ Caso contrário, é devolvido o maior item em scale.domain() que é <= x.
 function invertOrdinalScale(scale: d3.scale.Ordinal<any, any>, x: number);
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -256,7 +256,7 @@ function findClosestXAxisIndex(
 ): number;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -302,7 +302,7 @@ function diffScaled(
 ): number;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -335,7 +335,7 @@ function createDomain(
 ): number[];
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -386,7 +386,7 @@ function getCategoryValueType(
 ): number[];
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -431,7 +431,7 @@ Esta função cria um eixo D3, incluindo a escala. Pode ser vertical ou horizont
 function createAxis(options: CreateAxisOptions): IAxisProperties;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -476,7 +476,7 @@ Esta função define o domínio personalizado, mas não se altera quando nada es
 function applyCustomizedDomain(customizedDomain, forcedDomain: any[]): any[];
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -503,7 +503,7 @@ function combineDomain(
 ): any[];
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -526,7 +526,7 @@ Esta função indica se o número é uma potência de 10.
 function powerOfTen(d: any): boolean;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -556,7 +556,7 @@ function hideCollidedLabels(
 ): LabelEnabledDataPoint[];
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 let dataLabelManager = new DataLabelManager();
@@ -576,7 +576,7 @@ Este método estático verifica se o retângulo fornecido é válido (tem largur
 function isValid(rect: IRect): boolean;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 let rectangle = {
@@ -613,7 +613,7 @@ Esta função devolve a precisão do formato fornecido.
 function getLabelFormattedText(options: LabelFormattedTextOptions): string;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { dataLabelUtils } from "powerbi-visuals-utils-chartutils";
@@ -661,7 +661,7 @@ Esta função devolve o Gestor de Cache que fornece um acesso rápido às etique
 function createColumnFormatterCacheManager(): IColumnFormatterCacheManager;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { dataLabelUtils } from "powerbi-visuals-utils-chartutils";
@@ -699,7 +699,7 @@ function createLegend(
 ): ILegend;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 public constructor(options: VisualConstructorOptions) {
@@ -749,7 +749,7 @@ Esta função mede a altura do texto com as propriedades do texto SVG fornecidas
 function drawLegend(data: LegendData, viewport: IViewport): void;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 private renderLegend(): void {
@@ -771,6 +771,6 @@ private renderLegend(): void {
 }
 ```
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 
 - [Saiba como utilizar o InteractivityUtils para adicionar seleções aos Elementos Visuais do Power BI](utils-interactivity-selections.md)

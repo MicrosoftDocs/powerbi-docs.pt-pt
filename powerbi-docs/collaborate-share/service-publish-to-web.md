@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 76f45ac7aee01cb907e727bc8cb12a69bd234d72
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 800e81b8fe5e9c2f108b71a4d8fb6bf9732a29ac
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613883"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926879"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -50,18 +50,19 @@ Os passos seguintes descrevem como utilizar a funcionalidade **Publicar na Web**
 
    ![Consultar o aviso](media/service-publish-to-web/publish_to_web3_ga.png)
 
-5. É apresentada uma caixa de diálogo com uma ligação. Selecione a ligação para a enviar por e-mail ou copie o HTML. Pode incorporar a ligação em código, por exemplo, num iFrame, ou colá-la diretamente numa página Web ou num blogue.
+5. Na caixa de diálogo **Êxito**, verá uma pré-visualização do aspeto do relatório. Selecione o **Tamanho** e a **Página predefinida**. 
+
+    Também pode adicionar uma imagem de **Marcador de posição**, para acelerar o carregamento da página Web. Com uma imagem de marcador de posição, as pessoas a aceder ao seu relatório na Web verão um botão **Ver conteúdo interativo** que podem selecionar para verem o próprio relatório. 
+
+    Faça essas alterações em primeiro lugar. Em seguida, copie a ligação para a enviar por e-mail ou copie o HTML e cole-o num site. Pode incorporar a ligação em código, por exemplo, num iFrame, ou colá-la diretamente numa página Web ou num blogue.
 
    ![Bem-sucedido: uma ligação e o HTML](media/service-publish-to-web/publish_to_web4.png)
 
-6. Se já tiver criado um código de incorporação para um relatório e selecionar **Publicar na Web**, não verá as caixas de diálogo nos passos 2-4. Em vez disso, será apresentada a caixa de diálogo **Código de incorporação**:
+6. Se já tiver criado um código de incorporação para um relatório e selecionar **Publicar na Web**, não verá as caixas de diálogo nos passos 2-4. Em vez disso, verá a caixa de diálogo **Código de incorporação**.
 
    ![Caixa de diálogo Código de incorporação](media/service-publish-to-web/publish_to_web5.png)
 
    Só pode criar um código de incorporação para cada relatório.
-
-Se fizer alterações na caixa de diálogo, certifique-se de que copia o URL ou iFrame atualizado para utilizar nas definições atualizadas na sua página.
-
 
 ### <a name="tips-for-view-modes"></a>Sugestões para os modos de visualização
 
@@ -128,7 +129,7 @@ Pode ocorrer uma experiência de utilização intensiva quando um relatório rec
 
 Recomendamos que defina uma imagem de marcador de posição para o seu relatório. Se ocorrer uma utilização intensiva, os utilizadores veem a imagem de marcador de posição. 
 
-Para ajudar a evitar uma experiência de utilização intensiva, limite o número de consultas distintas que o seu relatório pode gerar e a frequência da atualização de dados.
+Para ajudar a evitar uma experiência de utilização intensiva, limite o número de consultas distintas que o seu relatório pode gerar e a frequência da atualização de dados. Veja o [Guia de otimização do Power BI](../guidance/power-bi-optimization.md) para obter sugestões sobre a simplificação dos seus relatórios.
 
 ## <a name="power-bi-visuals"></a>Elementos Visuais do Power BI
 

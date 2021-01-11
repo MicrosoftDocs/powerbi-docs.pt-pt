@@ -1,6 +1,6 @@
 ---
-title: Mobile development (Desenvolvimento para dispositivos móveis)
-description: Como criar elementos visuais do Power BI compatíveis com dispositivos móveis
+title: Desenvolvimento móvel na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Como criar elementos visuais do Power BI compatíveis com dispositivos móveis. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: dca16fd29dc89fc2e67ce1e8f5c6abfc0adcb9a6
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 63d2366f91398878af231c8dbb6ed07e8e623a03
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049298"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885551"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>Como criar elementos visuais do Power BI compatíveis com dispositivos móveis
 O consumo em dispositivos móveis tem um papel importante no Power BI. Uma das suas vantagens é o facto de se manter ligado aos seus dados em qualquer momento e em qualquer lugar.
@@ -28,13 +28,13 @@ Os requisitos seguintes são essenciais para o desenvolvimento de elementos visu
 
 - Composição
 
-  Os seus elementos visuais do Power BI têm de ser compostos em todos os dispositivos móveis suportados, incluindo browsers e aplicações suportados, sem que ocorram erros nos relatórios e dashboards, ou quando estão a ser executados no **Modo de detalhe** . 
+  Os seus elementos visuais do Power BI têm de ser compostos em todos os dispositivos móveis suportados, incluindo browsers e aplicações suportados, sem que ocorram erros nos relatórios e dashboards, ou quando estão a ser executados no **Modo de detalhe**. 
 
 - Interativo
 
   Deve proporcionar-se funcionalidades interativas da mesma forma que se proporciona para computadores. Todos os eventos processados em browsers de computador têm de ser suportados ou dispor de processadores de eventos semelhantes para dispositivos móveis.
   
-  Por exemplo, a navegação básica e a seleção de pontos de dados devem ter as mesmas funcionalidades existentes nos browsers de computador. Se um elemento visual suportar a seleção múltipla com a tecla **Ctrl** , o programador deve considerar adicionar um processador de eventos semelhante para dispositivos móveis.
+  Por exemplo, a navegação básica e a seleção de pontos de dados devem ter as mesmas funcionalidades existentes nos browsers de computador. Se um elemento visual suportar a seleção múltipla com a tecla **Ctrl**, o programador deve considerar adicionar um processador de eventos semelhante para dispositivos móveis.
 
   A tabela seguinte apresenta uma lista dos eventos correspondentes em dispositivos móveis.
 
@@ -51,7 +51,7 @@ Os requisitos seguintes são essenciais para o desenvolvimento de elementos visu
   | `wheel` | `NaN` |
 
   > [!NOTE]
-  > Nem todos os dispositivos móveis ou de ecrã tátil suportam eventos de rato (ou com prefixo de *rato* ). Nesses casos, processe os eventos de *rato* e de *toque* ao mesmo tempo.
+  > Nem todos os dispositivos móveis ou de ecrã tátil suportam eventos de rato (ou com prefixo de *rato*). Nesses casos, processe os eventos de *rato* e de *toque* ao mesmo tempo.
 
 ## <a name="optional"></a>Opcional
 Os pontos seguintes são considerados opcionais e são utilizados para criar uma melhor experiência de utilizador final.
@@ -63,7 +63,7 @@ Os pontos seguintes são considerados opcionais e são utilizados para criar uma
   Também se podem aplicar as mesmas definições aos elementos visuais nos browsers de computador e, se for necessário, sobrepor para adaptar o elemento visual a ecrãs mais pequenos.
 
   > [!NOTE]
-  > Para otimizar um elemento visual no **Modo de detalhe** , é preciso considerar as orientações de tamanho de ecrã vertical ou horizontal – veja [Display content in Focus mode](../../consumer/end-user-focus.md) (Apresentar conteúdos no Modo de detalhe).
+  > Para otimizar um elemento visual no **Modo de detalhe**, é preciso considerar as orientações de tamanho de ecrã vertical ou horizontal – veja [Display content in Focus mode](../../consumer/end-user-focus.md) (Apresentar conteúdos no Modo de detalhe).
 
 - Interativo
 

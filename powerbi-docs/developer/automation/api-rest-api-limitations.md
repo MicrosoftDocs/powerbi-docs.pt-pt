@@ -1,6 +1,6 @@
 ---
-title: Power BI REST API limitations (Limitações da API REST do Power BI)
-description: A API REST do Power BI tem as seguintes limitações
+title: Limitações da API REST do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: A API REST do Power BI tem as seguintes limitações. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: de9fd241959b679a0da7926cd6b2254689afbfd2
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 1196917f0223ccde012d203d75c4e96fbc3b9dcf
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747281"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887667"
 ---
 # <a name="power-bi-rest-api-limitations"></a>Power BI REST API limitations (Limitações da API REST do Power BI)  
   
@@ -32,5 +32,5 @@ ms.locfileid: "91747281"
   
 ## <a name="see-also"></a>Ver também
 
-* [Restrições e limites do serviço Azure AD](/azure/active-directory/active-directory-service-limits-restrictions)   
-* [Descrição Geral da API REST do Power BI](/rest/api/power-bi/)
+* [Restrições e limites de serviço do Azure AD](/azure/active-directory/active-directory-service-limits-restrictions)   
+* [Visão geral da API REST do Power BI](/rest/api/power-bi/)

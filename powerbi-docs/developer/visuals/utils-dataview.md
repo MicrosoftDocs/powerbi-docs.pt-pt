@@ -1,6 +1,6 @@
 ---
-title: Introdução à utilização de utilitários de vista de dados do elemento visual do Power BI
-description: Este artigo descreve como utilizar utilitários de SVG que simplificam a análise do objeto DataView para elementos visuais do Power BI
+title: Introdução à utilização de Utilitários de vista de dados em elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo descreve como utilizar utilitários de SVG que simplificam a análise do objeto DataView para elementos visuais do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: fc0ebf3d315b10bc14190a5ae01e8d389e2be0cc
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 3c54333c35809ab272c065973d4d948e1ac37a8b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513741"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887828"
 ---
 # <a name="dataviewutils"></a>DataViewUtils
 

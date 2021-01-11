@@ -1,6 +1,6 @@
 ---
-title: Power BI visual project structure (Estrutura de projeto de elementos visuais do Power BI)
-description: Este artigo descreve a pasta e a estrutura de ficheiros de um projeto de elemento visual do Power BI
+title: Estrutura de projeto de elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo descreve a pasta e a estrutura de ficheiros de um projeto de elementos visuais do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 01/12/2020
-ms.openlocfilehash: df7a2909e3ccd745fdaa990ba5281a723ef6360d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 4c946021138e49c0aed9668d9b3ea6079f458ccd
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416721"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888035"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI visual project structure (Estrutura de projeto de elementos visuais do Power BI)
 

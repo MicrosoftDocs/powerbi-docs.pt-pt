@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 10/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 65a83bf0e91d4f3004445ffcd8cd6f78d5a77fc3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2389290fedd26c9e88af614e1fbf6afb29c02d35
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411845"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926806"
 ---
 # <a name="endorsement---promoting-and-certifying-power-bi-content"></a>Endosso – promover e certificar conteúdos do Power BI
 
@@ -27,11 +27,15 @@ Existem dois tipos de endosso: **promoção** e **certificação**.
 
     Um proprietário de conteúdos ou um membro com permissões de escrita na área de trabalho na qual estão localizados os conteúdos pode simplesmente promover os conteúdos quando considerar serem suficientemente bons para partilhar.
 
+    [Saiba como promover os seus conteúdos](service-endorse-content.md#promote-content).
+
 * **Certificação**: a certificação significa que os conteúdos cumprem os padrões de qualidade da organização e podem ser considerados conteúdos confiáveis e autoritativos que estão prontos para serem utilizados na organização.
 
-    Apenas um grupo específico de revisores (definido pelo administrador do Power BI) tem autorização para certificar os conteúdos. Os proprietários de conteúdos que pretendem certificar os respetivos conteúdos e não têm autorização para fazê-lo têm de seguir as diretrizes da organização para que os conteúdos sejam certificados.
+    Apenas um [grupo específico de revisores (definido pelo administrador do Power BI)](../admin/service-admin-setup-certification.md) tem autorização para certificar os conteúdos. Os proprietários de conteúdos que pretendem certificar os respetivos conteúdos e não têm autorização para fazê-lo têm de seguir as diretrizes da organização para que os conteúdos sejam certificados.
 
-    **A certificação está disponível apenas se um administrador do Power BI a tiver ativado e configurado para a sua organização**.
+    Saiba como [certificar conteúdos](service-endorse-content.md#certify-content) ou [pedir certificação](service-endorse-content.md#request-content-certification).
+
+    **A certificação está disponível apenas se um administrador do Power BI a tiver [ativado e configurado](../admin/service-admin-setup-certification.md) para a sua organização**.
 
 A imagem abaixo ilustra como os conteúdos endossados (promovidos e certificados) estão claramente identificados quando procura um conjunto de dados para criar um relatório.
 

@@ -1,6 +1,6 @@
 ---
-title: Referência da API REST do Power BI
-description: Referência da API REST do Power BI
+title: Referência da API REST do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Referência da API REST do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 05/25/2018
-ms.openlocfilehash: 9624195458c965a652b889089ce7ef8521281c95
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 8aed384befc1f4bdfad0c5339644ad002d609583
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748937"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887575"
 ---
 # <a name="power-bi-rest-api-reference"></a>Referência da API REST do Power BI
 
 O Power BI é um serviço com base na cloud que pode usar para criar aplicações de dashboard personalizados. A API REST do Power BI é uma API baseada em REST que fornece acesso programático a todos os artefactos que o serviço está a utilizar, nomeadamente:
 * Conjuntos de dados
-* Painéis
-* Reports (Relatórios)
+* Dashboards
+* Relatórios
 * Gateways
 
 A API REST do Power BI tem as seguintes operações:

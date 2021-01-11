@@ -1,6 +1,6 @@
 ---
-title: Colocar em pausa e iniciar a sua capacidade do Power BI Embedded no portal do Azure | Microsoft Docs
-description: Este artigo explica como colocar em pausa e iniciar uma capacidade do Power BI Embedded no Microsoft Azure.
+title: Colocar em pausa e iniciar a sua capacidade do Power BI Embedded no portal do Azure para a solução de BI incorporada da análise incorporada do Power BI
+description: Este artigo explica como colocar em pausa e iniciar uma capacidade do Power BI Embedded no Microsoft Azure ao utilizar uma solução de BI incorporada da análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 services: power-bi-embedded
@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 09/28/2017
-ms.openlocfilehash: 71d3536cdcda5c1b2970385887388ea60b4290af
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0868d63f83f42bcfa9f394e782ffab56746e23cc
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417319"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887345"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Colocar em pausa e iniciar a sua capacidade do Power BI Embedded no portal do Azure
 

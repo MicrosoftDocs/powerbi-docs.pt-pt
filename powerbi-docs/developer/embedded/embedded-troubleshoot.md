@@ -1,6 +1,6 @@
 ---
-title: Resolver problemas da aplicação de análise incorporada do Power BI
-description: Este artigo aborda alguns problemas comuns que poderá encontrar ao incorporar conteúdos do Power BI.
+title: Resolução de problemas da aplicação de análise incorporada do Power BI para permitir melhores informações de BI incorporadas
+description: Este artigo aborda alguns problemas comuns que poderá encontrar ao incorporar conteúdos do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: f46bdf5aec254763257fa4b121b4b8c135a0d58a
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: db2ae20436eddc4cb06287b6266488b65588dcb5
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098082"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887207"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Resolver problemas da sua aplicação incorporada
 
@@ -119,7 +119,7 @@ Recomendamos que ative esta política apenas com base em cada aplicação.
 
 Para criar esta política, tem de ser um _ *Administrador Global** do diretório para o qual está a criar e atribuir a política. Eis um script de exemplo para criar a política e atribuí-la ao SP para esta aplicação:
 
-1. Instale o [Módulo PowerShell do Azure AD Preview](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+1. Instale o [Módulo PowerShell do Azure AD Preview](/powershell/azure/active-directory/install-adv2).
 
 2. Execute os seguintes comandos do PowerShell linha a linha (garantindo que a variável $sp não tem mais do que uma aplicação como resultado).
 

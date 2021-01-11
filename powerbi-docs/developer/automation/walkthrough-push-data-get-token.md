@@ -1,6 +1,6 @@
 ---
-title: Get an authentication access token (Obter um token de acesso de autenticação)
-description: Instruções para enviar dados por push – obter um token de acesso de autenticação
+title: Obtenha um token de acesso de autenticação na análise incorporada do Power BI para obter melhores informações de BI incorporadas
+description: Instruções para enviar dados por push – obter um token de acesso de autenticação. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: b66c87d88e08a4c1f9ee4f9aebdbf44516d9cb43
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 22d30e14256a2e58e05e17207380842392fe0c23
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746522"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887414"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Passo 2: Obter um token de acesso de autenticação
 
@@ -180,10 +180,10 @@ namespace walkthrough_push_data
 
 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 
 * O próximo artigo desta série é [Criar um conjunto de dados no Power BI](walkthrough-push-data-create-dataset.md)
-* [Descrição Geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
+* [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 * [APIs REST do Power BI](/rest/api/power-bi/)  
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

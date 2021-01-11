@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7232cad4fc1216ac6e1aa7c8a01136239a2f09d2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5485f59e11f3c971c719b2604b9e1280a072c5b1
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407061"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926742"
 ---
 # <a name="endorse-your-content"></a>Endossar os seus conteúdos
 
@@ -25,7 +25,7 @@ O Power BI fornece duas formas de endossar os seus conteúdos valiosos e de alta
 
 * **Certificação**: a certificação significa que os conteúdos cumprem os padrões de qualidade da organização e podem ser considerados confiáveis, autoritativos e que estão prontos para serem utilizados na organização.
 
-    Apenas os revisores autorizados podem certificar conteúdos. Os proprietários de conteúdos que pretendem certificar os respetivos conteúdos e não têm autorização para fazê-lo têm de seguir as diretrizes da organização para que os conteúdos sejam certificados.
+    Apenas os [revisores autorizados (definido pelo administrador do Power BI)](../admin/service-admin-setup-certification.md) podem certificar os conteúdos. Os proprietários de conteúdos que pretendem certificar os respetivos conteúdos e não têm autorização para fazê-lo têm de seguir as diretrizes da organização para que os conteúdos sejam certificados.
 
 Atualmente, é possível endossar
 * Conjuntos de dados

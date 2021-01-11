@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 17fc02131f13fe7fe7d8fb17af4380f6a013b9e7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 520a3673d34019c6045988cd5d501e187849a5c6
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413524"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927071"
 ---
 # <a name="enable-content-certification"></a>Ativar a certificação de conteúdo
 
@@ -39,7 +39,7 @@ A certificação faz parte da funcionalidade de *endosso* do Power BI. Veja [End
 
 1. Mova o botão para **Ligado**.
 1. Se a sua organização tiver uma política de certificação publicada, forneça o URL aqui. Irá tornar-se a ligação **Saiba mais** na secção de certificação da [caixa de diálogo de definições do endosso](../collaborate-share/service-endorse-content.md#request-content-certification). Se não fornecer uma ligação, os utilizadores que quiserem pedir a certificação dos respetivos conteúdos serão aconselhados a entrar em contato com o administrador do Power BI.
-1. Especifique um ou mais grupos de segurança cujos membros serão autorizados para certificar conteúdos. Estas pessoas autorizadas poderão utilizar o botão Certificação na secção de certificação da [caixa de diálogo de definições do endosso](../collaborate-share/service-endorse-content.md#certify-content).
+1. Especifique um ou mais grupos de segurança cujos membros serão autorizados para certificar conteúdos. Estas pessoas autorizadas poderão utilizar o botão Certificação na secção de certificação da [caixa de diálogo de definições do endosso](../collaborate-share/service-endorse-content.md#certify-content). Este campo só aceita grupos de segurança. Não pode introduzir utilizadores com nome.
     
     Se um grupo de segurança contiver subgrupos de segurança aos quais não pretende dar direitos de certificação, pode selecionar a caixa **Exceto grupos de segurança específicos** e introduzir os nomes desses grupos numa caixa de texto que será apresentada.
 1. Clique em **Aplicar**.

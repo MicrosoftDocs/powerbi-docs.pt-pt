@@ -1,6 +1,6 @@
 ---
-title: Introdução à utilização de utilitários de SVG no elemento visual do Power BI
-description: Este artigo descreve como utilizar utilitários de SVG para simplificar manipulações de SVG para elementos visuais do Power BI
+title: Introdução à utilização de utilitários de SVG em elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo descreve como utilizar utilitários de SVG para simplificar manipulações de SVG para elementos visuais do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: aa1ac8074e842a51b369c48f57c4b5016a80140c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cf798ae13d874e354f6941d50982bfe26d73424d
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377978"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887759"
 ---
 # <a name="svg-utils"></a>Utilitários de SVG
 
@@ -53,7 +53,7 @@ Esta função cria uma instância de ClassAndSelector com o nome especificado da
 function createClassAndSelector(className: string): ClassAndSelector;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { CssConstants } from "powerbi-visuals-utils-svgutils";
@@ -80,7 +80,7 @@ Esta função cria uma cadeia translate para utilizar com a propriedade transfor
 function translate(x: number, y: number): string;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -99,7 +99,7 @@ Esta função cria uma cadeia translateX para utilizar com a propriedade transfo
 function translateXWithPixels(x: number): string;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -118,7 +118,7 @@ Esta função cria uma cadeia translate para utilizar com a propriedade transfor
 function translateWithPixels(x: number, y: number): string;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -143,7 +143,7 @@ function translateAndRotate(
 ): string;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -162,7 +162,7 @@ Esta função cria uma cadeia scale para utilizar numa propriedade transform de 
 function scale(scale: number): string;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -181,7 +181,7 @@ Esta função cria uma cadeia transform-origin para utilizar numa propriedade tr
 function transformOrigin(xOffset: string, yOffset: string): string;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -200,7 +200,7 @@ Esta função força a conclusão de todas as transições de D3.
 function flushAllD3Transitions(): void;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -219,7 +219,7 @@ Esta função analisa a cadeia transform com o valor "translate(x,y)".
 function parseTranslateTransform(input: string): { x: string; y: string };
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -242,7 +242,7 @@ function createArrow(
 ): { path: string; transform: string };
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -270,7 +270,7 @@ Esta função devolve um desfasamento do retângulo.
 function getOffset(rect: IRect): IPoint;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -293,7 +293,7 @@ Esta função devolve o tamanho do retângulo.
 function getSize(rect: IRect): ISize;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -316,7 +316,7 @@ Esta função modifica o tamanho do retângulo.
 function setSize(rect: IRect, value: ISize): void;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -338,7 +338,7 @@ Esta função devolve a posição direita do retângulo.
 function right(rect: IRect): number;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -358,7 +358,7 @@ Esta função devolve a posição inferior do retângulo.
 function bottom(rect: IRect): number;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -378,7 +378,7 @@ Esta função devolve a posição superior à esquerda do retângulo.
 function topLeft(rect: IRect): IPoint;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -398,7 +398,7 @@ Esta função devolve a posição superior à direita do retângulo.
 function topRight(rect: IRect): IPoint;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -418,7 +418,7 @@ Esta função devolve a posição inferior à esquerda do retângulo.
 function bottomLeft(rect: IRect): IPoint;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -458,7 +458,7 @@ Esta função cria uma cópia do retângulo.
 function clone(rect: IRect): IRect;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -480,7 +480,7 @@ Esta função converte o retângulo numa cadeia.
 function toString(rect: IRect): string;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -500,7 +500,7 @@ Esta função aplica um determinado desfasamento ao retângulo.
 function offset(rect: IRect, offsetX: number, offsetY: number): IRect;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -525,7 +525,7 @@ Esta função adiciona o primeiro retângulo ao segundo retângulo.
 function add(rect: IRect, rect2: IRect): IRect;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -553,7 +553,7 @@ Esta função devolve o ponto mais próximo no retângulo para um determinado po
 function getClosestPoint(rect: IRect, x: number, y: number): IPoint;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -576,7 +576,7 @@ Esta função compara retângulos e devolve true se forem iguais.
 function equal(rect1: IRect, rect2: IRect): boolean;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -599,7 +599,7 @@ Esta função compara retângulos ao considerar a precisão dos valores.
 function equalWithPrecision(rect1: IRect, rect2: IRect): boolean;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -622,7 +622,7 @@ Esta função verifica se o retângulo está vazio.
 function isEmpty(rect: IRect): boolean;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -642,7 +642,7 @@ Esta função verifica se o retângulo contém o ponto.
 function containsPoint(rect: IRect, point: IPoint): boolean;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -665,7 +665,7 @@ Esta função verifica se os retângulos se intersetam.
 function isIntersecting(rect1: IRect, rect2: IRect): boolean;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -688,7 +688,7 @@ Esta função devolve uma interseção de retângulos.
 function intersect(rect1: IRect, rect2: IRect): IRect;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -716,7 +716,7 @@ Esta função combina retângulos.
 function combine(rect1: IRect, rect2: IRect): IRect;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -744,7 +744,7 @@ Esta função devolve um ponto central do retângulo.
 function getCentroid(rect: IRect): IPoint;
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -773,7 +773,7 @@ Esta função devolve a posição do ponteiro.
 function getCoordinates(rootNode: Element, isPointerEvent: boolean): number[];
 ```
 
-Por exemplo:
+Exemplo:
 
 ```typescript
 import { pointer } from "powerbi-visuals-utils-svgutils";

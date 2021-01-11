@@ -1,6 +1,6 @@
 ---
-title: 'Tutorial: Criar um elemento visual baseado no React para o Power BI'
-description: Este tutorial mostra como criar um elemento visual do Power BI com o React. Apresenta um valor num círculo. O tamanho adaptável e as definições permitem personalizá-lo.
+title: Criar um elemento visual com base em reações do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este tutorial mostra como criar um elemento visual do Power BI com o React. Apresenta um valor num círculo. O tamanho adaptável e as definições permitem personalizá-lo. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/30/2020
-ms.openlocfilehash: d8e7b5dca207aef1a4f119bf324662dbcaa1bbab
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 04c73d88d4051aa024a2bf3a56f3bdaf02b9dc1e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94513327"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889020"
 ---
 # <a name="tutorial-create-a-react-based-visual"></a>Tutorial: Criar um elemento visual baseado no React
 

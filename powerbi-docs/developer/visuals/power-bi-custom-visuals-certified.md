@@ -1,6 +1,6 @@
 ---
-title: Elementos visuais do Power BI certificados
-description: Requisitos e processo de submissão de um elemento visual personalizado para certificação e uma lista de elementos visuais do Power BI certificados.
+title: Elementos visuais do Power BI certificados na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Requisitos e processo de submissão de um elemento visual personalizado para certificação e uma lista de elementos visuais do Power BI certificados. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: bbca1802b1136c4e9e16e70ab87ab7554612c037
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1331543973680879e4fcc2dbafc7323e72a27694
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386715"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888173"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Certificar um elemento visual do Power BI
 

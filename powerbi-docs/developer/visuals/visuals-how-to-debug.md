@@ -1,6 +1,6 @@
 ---
-title: Como depurar elementos visuais do Power BI
-description: Este artigo descreve como depurar elementos visuais do Power BI.
+title: Como depurar elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo descreve como depurar elementos visuais do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: f3a3551db1d7d995db0194ff7fa9b7141415c9eb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 0005fe6cfd14f0377cdd7ff648aaa3c5cc96a751
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525553"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888380"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Como depurar elementos visuais do Power BI
 
@@ -74,18 +74,18 @@ Também pode definir o browser para ser interrompido ao capturar exceções. Est
 ### <a name="edge"></a>Microsoft Edge
 
 1. Abra as ferramentas de programação (F12).
-2. Aceda ao **Depurador** .
+2. Aceda ao **Depurador**.
 3. Clique no ícone **interromper nas exceções** (hexágono com um símbolo de pausa).
-4. Selecione **Interromper em todas as exceções** .
+4. Selecione **Interromper em todas as exceções**.
 
 ![A captura de ecrã mostra o separador Depurador com a opção Interromper em todas as exceções selecionada.](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
 1. Abra as ferramentas de programação (F12).
-2. Aceda ao separador **Origens** .
+2. Aceda ao separador **Origens**.
 3. Clique no ícone **interromper nas exceções** (sinal de stop com um símbolo de pausa).
-4. Selecione a caixa de verificação **Pausa ao Capturar Exceções** .
+4. Selecione a caixa de verificação **Pausa ao Capturar Exceções**.
 
 ![A captura de ecrã mostra o separador Fontes com a opção Pausa ao Capturar Exceções selecionada.](media/visuals-how-to-debug/how-to-debug-chrome.png)
 

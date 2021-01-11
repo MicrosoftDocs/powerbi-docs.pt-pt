@@ -1,6 +1,6 @@
 ---
-title: Enviar dados por push para um conjunto de dados
-description: Enviar dados por push para um conjunto de dados do Power BI
+title: Enviar dados por push para um conjunto de dados na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Envie dados por push para um conjunto de dados do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: 792afe42cf302ae552b7f8f1c14d5f232ade320f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 3c5805f4d498e8e2d8a788c5703a09a8109e024b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746706"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887437"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Enviar dados por push para um conjunto de dados do Power BI
 
@@ -23,10 +23,10 @@ Antes de começar, necessita de um Azure Active Directory (Azure AD) e uma [cont
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Passos para o envio dados por push para um conjunto de dados
 
-* Passo 1: [Registar uma aplicação no Azure AD](../embedded/register-app.md)
-* Passo 2: [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md)
+* Passo 1: [registar uma aplicação com o Azure AD](../embedded/register-app.md)
+* Passo 2: [obter um token de acesso de autenticação](walkthrough-push-data-get-token.md)
 * Passo 3: [Criar um conjunto de dados no Power BI](walkthrough-push-data-create-dataset.md)
-* Step 4: [Obter um conjunto de dados para adicionar linhas numa tabela do Power BI](walkthrough-push-data-get-datasets.md)
+* Passo 4: [obter um conjunto de dados para adicionar linhas a uma tabela do Power BI](walkthrough-push-data-get-datasets.md)
 * Step 5: [Adicionar linhas a uma tabela do Power BI](walkthrough-push-data-add-rows.md)
 
 A secção seguinte é uma discussão geral sobre as operações da API Power BI que enviam dados por push.
@@ -108,18 +108,18 @@ Para um esquema de tabela do Power BI, pode utilizar os seguintes tipos de dados
 | **Tipo de dados** | **Restrições** |
 | --- | --- |
 | Int64 |Int64.MaxValue e Int64.MinValue não permitidos. |
-| Double |Valores de Double.MaxValue e Double.MinValue não permitidos. NaN não suportado. +Infinity e -Infinity não suportados em algumas funções (por exemplo, Min e Max). |
+| Double (Duplo) |Valores de Double.MaxValue e Double.MinValue não permitidos. NaN não suportado. +Infinity e -Infinity não suportados em algumas funções (por exemplo, Min e Max). |
 | Booleano |Nenhum |
 | Datetime |Durante o carregamento de dados, podemos quantificar os valores com frações de dias para múltiplos inteiros de 1/300 de segundo (3,33 ms). |
-| Cadeia |Atualmente, permite até 128 mil carateres. |
+| String |Atualmente, permite até 128 mil carateres. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Saiba mais sobre como enviar dados por push ao Power BI
 
 Para começar a enviar dados por push para um conjunto de dados, veja [Passo 1: registar uma aplicação no Azure AD](../embedded/register-app.md) no painel de navegação.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
-* [Inscreva-se no Power BI](../embedded/create-an-azure-active-directory-tenant.md)  
+* [Inscrever-se no Power BI](../embedded/create-an-azure-active-directory-tenant.md)  
 * [Introdução ao JSON](https://json.org/)  
 * [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 

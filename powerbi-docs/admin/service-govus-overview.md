@@ -1,21 +1,21 @@
 ---
 title: Power BI para clientes do Governo Norte-Americano – Descrição Geral
-description: Os clientes do Governo Norte-Americano podem adicionar uma subscrição do Power BI Pro ao plano do Microsoft 365 para o Governo Norte-Americano. Saiba como se inscrever, estabelecer ligação e rever a disponibilidade das funcionalidades nesta descrição do serviço.
+description: Os clientes do Governo Norte-Americano podem adicionar uma subscrição do Power BI ao plano do Microsoft 365 para o Governo Norte-Americano. Saiba como se inscrever, estabelecer ligação e rever a disponibilidade das funcionalidades nesta descrição do serviço.
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/17/2020
-ms.custom: licensing support
+ms.date: 01/05/2021
+ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: e8cf03d90165463fd1e59bf4c4394c1da94e995e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9b52e0698f6b9c1ae779bf21738acee30db7447d
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407866"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927080"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes do Governo Norte-Americano
 
@@ -113,9 +113,14 @@ Para configurar firewalls para bases de dados do SQL, veja [Criar e gerir as reg
 
 ## <a name="power-bi-feature-availability"></a>Disponibilidade das funcionalidades do Power BI
 
-Para cumprir os requisitos dos clientes da cloud governamental, existem algumas diferenças entre os planos governamentais e os planos comerciais. O nosso objetivo é tornar todas as funcionalidades disponíveis em clouds governamentais dentro de 30 dias da disponibilidade geral. Em alguns casos, as dependências subjacentes impedem-nos de tornar uma funcionalidade disponível.
+Para cumprir os requisitos dos clientes da cloud governamental, existem algumas diferenças entre os planos governamentais e os planos comerciais. O nosso objetivo é tornar todas as funcionalidades disponíveis em clouds governamentais dentro de 30 dias da disponibilidade geral. Em alguns casos, as dependências subjacentes impedem-nos de tornar uma funcionalidade disponível. A lista abaixo mostra funcionalidade que não estão disponíveis num ambiente governamental específico ou que estão disponíveis com funcionalidades limitadas. A lista utiliza a seguinte chave:
 
-A tabela seguinte apresenta as funcionalidades que não estão disponíveis num ambiente governamental específico. Incluímos a previsão de disponibilidade se a versão for planeado:
+|Chave |Descrição|
+|-----|------|
+|![disponível](../media/yes.png)|A funcionalidade está disponível no ambiente, com quaisquer exceções definidas nas notas de rodapé.|
+|![não disponível](../media/no.png)| A funcionalidade não está disponível no ambiente e não temos um período de tempo de estimativa para a entrega.|
+
+Incluímos o trimestre para a disponibilidade estimada se o lançamento for planeado para um ambiente.
 
 |Funcionalidade |GCC |GCC High |DoD|
 |------|------|------|------|
@@ -123,18 +128,18 @@ A tabela seguinte apresenta as funcionalidades que não estão disponíveis num 
 |[Incorporar no SharePoint Online com a parte Web do Power BI](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![disponível](../media/yes.png)|![Disponível](../media/yes.png)|![não disponível](../media/no.png)|
 |[Conectividade do Power Automate para alertas baseados em dados](../connect-data/power-bi-data-sources.md)|![disponível](../media/yes.png)|![disponível](../media/yes.png)|![não disponível](../media/no.png)|
 |[Separador Power BI no Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![disponível](../media/yes.png)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|
-|[Modelos grandes](service-premium-large-models.md) | T4 de 2020 |T4 de 2020| ![não disponível](../media/no.png) |
-|[Fluxos de dados – otimização do motor de computação SQL](../transform-model/dataflows/dataflows-premium-features.md) | T4 de 2020 |T4 de 2020| ![não disponível](../media/no.png) |
-|[Fluxos de dados – Direct Query](../transform-model/dataflows/dataflows-configure-consume.md) | T4 de 2020 |T4 de 2020|![não disponível](../media/no.png)|
-|[Proteção de Dados (Etiquetas da MIP)](service-security-sensitivity-label-overview.md)|T4 de 2020|T4 de 2020 |T4 de 2020|
-|[Aplicações de modelo](../connect-data/service-template-apps-overview.md)<sup>3</sup>|T4 de 2020 |T4 de 2020| T4 de 2020|
-|[Elementos Visuais Personalizados](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|T4 de 2020 |T4 de 2020| T4 de 2020|
-|[Azure Stream Analytics](/azure/stream-analytics/stream-analytics-power-bi-dashboard)| T4 de 2020|T4 de 2020|T4 de 2020|
+|[Modelos grandes](service-premium-large-models.md) | ![não disponível](../media/no.png) |![não disponível](../media/no.png)| ![não disponível](../media/no.png) |
+|[Fluxos de dados – otimização do motor de computação SQL](../transform-model/dataflows/dataflows-premium-features.md) | ![não disponível](../media/no.png) |![não disponível](../media/no.png)| ![não disponível](../media/no.png) |
+|[Fluxos de dados – Direct Query](../transform-model/dataflows/dataflows-configure-consume.md) | ![não disponível](../media/no.png) |![não disponível](../media/no.png)|![não disponível](../media/no.png)|
+|[Proteção de Dados (Etiquetas da MIP)](service-security-sensitivity-label-overview.md)|![não disponível](../media/no.png)|![não disponível](../media/no.png) |![não disponível](../media/no.png)|
+|[Aplicações de modelo](../connect-data/service-template-apps-overview.md)<sup>3</sup>|![não disponível](../media/no.png) |![não disponível](../media/no.png)| ![não disponível](../media/no.png)|
+|[Elementos Visuais Personalizados](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|![não disponível](../media/no.png) |![não disponível](../media/no.png)| ![não disponível](../media/no.png)|
+|[Azure Stream Analytics](/azure/stream-analytics/stream-analytics-power-bi-dashboard)| ![não disponível](../media/no.png)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|
 |[Conector de Dados de Qualidade da Chamada](/microsoftteams/cqd-power-bi-connector)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|
 |[Traga o Seu Próprio Armazenamento (Azure Data Lake Gen2)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|
 |[Geração de códigos QR](../create-reports/service-create-qr-code-for-tile.md)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|![não disponível](../media/no.png)|
 
-<sup>1</sup> Embora a Colaboração B2B esteja disponível para GCC, o utilizador externo deverá receber uma licença nesse ambiente. As licenças da cloud comercial não são válidas no GCC. Para obter mais informações sobre as limitações conhecidas com a Colaboração B2B para administração pública dos EUA, [Compare o Azure Government e o Azure global](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)
+<sup>1</sup> Embora a Colaboração B2B esteja disponível para GCC, o utilizador externo deverá receber uma licença nesse ambiente. As licenças da cloud comercial não são válidas no GCC. Para obter mais informações sobre as limitações conhecidas com a Colaboração B2B para administração pública dos EUA, [Compare o Azure Government e o Azure global](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2).
 
 <sup>2</sup> A experiência do Power BI no Teams para GCC é limitada e funciona apenas para áreas de trabalho clássicas. Não inclui a funcionalidade melhorada descrita em [Incorporar conteúdos do Power BI no Microsoft Teams](../collaborate-share/service-embed-report-microsoft-teams.md).
 

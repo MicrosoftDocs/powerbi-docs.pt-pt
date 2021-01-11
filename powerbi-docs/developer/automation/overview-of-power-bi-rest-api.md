@@ -1,6 +1,6 @@
 ---
-title: O que posso fazer com a API Power BI
-description: O que posso fazer com a API Power BI
+title: O que posso fazer com a API Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: O que posso fazer com a API Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: fd9d9991b55ec6611504c96a30cb6383b8ac1296
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 122028b2ac838763318ab5a0c4e6208138d93188
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049275"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887621"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>O que podem os programadores fazer com a API Power BI?
 

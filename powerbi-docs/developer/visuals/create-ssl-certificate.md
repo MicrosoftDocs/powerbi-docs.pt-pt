@@ -1,6 +1,6 @@
 ---
-title: Criar certificados SSL para elementos visuais do Power BI
-description: Saiba como gerar certificados SSL com as Ferramentas dos Elementos Visuais do Power BI no Windows, Mac ou Linux, ou manualmente.
+title: Criar certificados SSL para elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Saiba como gerar certificados SSL com as Ferramentas dos Elementos Visuais do Power BI no Windows, Mac ou Linux, ou manualmente. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/08/2020
-ms.openlocfilehash: f6f458d2fe82668074d7cfb046cb5a72afa35c38
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 7897d25f3ac49c0f1b728f2aaf05b8612de67055
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92048792"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885528"
 ---
 # <a name="create-an-ssl-certificate"></a>Criar um certificado SSL
 
@@ -39,14 +39,14 @@ O utilitário OpenSSL está normalmente disponível no sistema operativo macOS 
 
 Também pode instalar o utilitário OpenSSL ao executar um dos seguintes comandos:
 
-- A partir do gestor de pacotes *Brew* :
+- A partir do gestor de pacotes *Brew*:
   
   ```cmd
   brew install openssl
   brew link openssl --force
   ```
 
-- Através do *MacPorts* :
+- Através do *MacPorts*:
   
   ```cmd
   sudo port install openssl
@@ -99,7 +99,7 @@ openssl x509 -outform pem -in /tmp/local-root-ca.pem -out /tmp/local-root-ca.crt
 
 ### <a name="generate-a-certificate-for-localhost"></a>Gerar um certificado para localhost 
 
-Para gerar um certificado para `localhost` com a AC gerada e o *openssl.cnf* , execute os seguintes comandos:
+Para gerar um certificado para `localhost` com a AC gerada e o *openssl.cnf*, execute os seguintes comandos:
 
 ```sh
 PBIVIZ=`which pbiviz`
@@ -170,11 +170,11 @@ Normalmente, pode encontrar os certificados do servidor Web `PowerBI-visuals-too
 
 ### <a name="pem-format"></a>Formato PEM
 
-Se utilizar o formato de certificado Privacy Enhanced Mail (PEM), guarde o ficheiro do certificado como *PowerBIVisualTest_public.crt* e guarde a chave privada como *PowerBIVisualTest_private.key* .
+Se utilizar o formato de certificado Privacy Enhanced Mail (PEM), guarde o ficheiro do certificado como *PowerBIVisualTest_public.crt* e guarde a chave privada como *PowerBIVisualTest_private.key*.
 
 ### <a name="pfx-format"></a>Formato PFX
 
-Se utilizar o formato de certificado Personal Information Exchange (PFX), guarde o ficheiro do certificado como *PowerBIVisualTest_public.pfx* .
+Se utilizar o formato de certificado Personal Information Exchange (PFX), guarde o ficheiro do certificado como *PowerBIVisualTest_public.pfx*.
 
 Se o ficheiro de certificado PFX exigir uma frase de acesso:
 

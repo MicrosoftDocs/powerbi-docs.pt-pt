@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 04/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 71ed2610ea77900fe51542b2257f4795f201694f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: aac8eac050a3c864833d16a12016a1cc0ae398b7
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394963"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888357"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
 Consulte esta página para ver problemas conhecidos e funcionalidades lançados recentemente no **Serviço Power BI**. Para obter informações sobre “Novidades” relacionadas, veja:
@@ -55,13 +55,13 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 * Nova API de registo de atividades que permite aos administradores do serviço do Power BI monitorizar as atividades de utilizador e administrador no inquilino.
 
 ### <a name="november-2019"></a>Novembro de 2019
-* Pré-visualização pública [modelos grandes no Power BI Premium](../admin/serviço-premium-grande-models.md].
+* Pré-visualização pública de [modelos de grandes dimensões no Power BI Premium](../admin/service-premium-large-models.md).
 * Pré-visualização pública da utilização dos controlos do Microsoft Cloud App Security no Power BI.
 
 ### <a name="october-2019"></a>Outubro de 2019
 * Nova ação do Power Automate para atualizar conjuntos de dados do Power BI.
 * [Lista de contactos](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) para relatórios e dashboards no serviço Power BI.
-* Disponibilidade geral de [Machine Learning Automatizado](../transform-model/service-machine-learning-automated
+* Disponibilidade geral do [Machine Learning Automatizado](../transform-model/service-machine-learning-automated.md)
 * Pré-visualização pública da vista de linhagem de dados do Power BI.
 
 ### <a name="september-2019"></a>Setembro de 2019

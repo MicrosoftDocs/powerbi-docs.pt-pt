@@ -1,6 +1,6 @@
 ---
-title: Perguntas e Respostas no Power BI Embedded
-description: O Power BI Embedded disponibiliza-lhe uma forma de incorporar as Perguntas e Respostas numa aplicação e permitir que os seus utilizadores coloquem perguntas em linguagem natural.
+title: Perguntas e Respostas na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: A análise incorporada do Power BI disponibiliza-lhe uma forma de incorporar as Perguntas e Respostas numa aplicação e permitir que os seus utilizadores coloquem perguntas em linguagem natural. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 11/20/2017
-ms.openlocfilehash: 0106cc9ddb0e82a7b40e362342fce5196ef655c5
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 43e886e6472c6d95b900ccdb5c2e73b8dca3d4a0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749282"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886609"
 ---
-# <a name="qa-in-power-bi-embedded"></a>Perguntas e Respostas no Power BI Embedded
+# <a name="qa-in-power-bi-embedded-analytics"></a>Perguntas e Respostas na análise incorporada do Power BI
 
-O Power BI Embedded disponibiliza-lhe uma forma de incorporar as Perguntas e Respostas numa aplicação e permitir que os seus utilizadores coloquem perguntas em linguagem natural e recebam respostas imediatas sob a forma de visuais como gráficos.
+A análise incorporada do Power BI disponibiliza-lhe uma forma de incorporar as Perguntas e Respostas numa aplicação e permitir que os seus utilizadores coloquem perguntas em linguagem natural e recebam respostas imediatas sob a forma de elementos visuais, como gráficos.
 
 ![Pergunta interativa das Perguntas e Respostas numa moldura incorporada](media/qanda/embedded-qanda.gif)
 
@@ -98,7 +98,7 @@ qna.on("visualRendered", function(event) {
 
 Crie um token de incorporação a partir de um conjunto de dados para iniciar uma peça de Perguntas e Respostas. Para obter mais informações, veja [Gerar token](/rest/api/power-bi/embedtoken).
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 
 Para experimentar as Perguntas e Respostas, consulte o [exemplo de incorporação do JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/).
 

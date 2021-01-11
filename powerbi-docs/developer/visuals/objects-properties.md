@@ -1,6 +1,6 @@
 ---
-title: Objetos e propriedades dos elementos visuais do Power BI
-description: Este artigo descreve as propriedades personalizáveis dos elementos visuais do Power BI.
+title: Objetos e propriedades dos elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo descreve as propriedades personalizáveis dos elementos visuais do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 4596465fcd9f59768b18282ec3ad39d2531b7768
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "96120211"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885965"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Objetos e propriedades dos elementos visuais do Power BI
 
@@ -34,7 +34,7 @@ Os objetos descrevem as propriedades personalizáveis associadas a um elemento v
 
 `displayName` é o nome que será apresentado no painel de propriedades.
 
-## <a name="properties"></a>Properties
+## <a name="properties"></a>Propriedades
 
 `properties` é um mapa das propriedades definidas pelo programador.
 
@@ -50,7 +50,7 @@ Os objetos descrevem as propriedades personalizáveis associadas a um elemento v
 > [!NOTE]
 > `show` é uma propriedade especial que permite que um botão ative/desative o objeto.
 
-Por exemplo:
+Exemplo:
 
 ```json
 "properties": {
@@ -194,7 +194,7 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 }
 ```
 
-### <a name="properties"></a>Properties
+### <a name="properties"></a>Propriedades
 
 As propriedades em `enumerateObjectInstances` refletem as propriedades que definiu nas suas capacidades. Para obter um exemplo, vá para o final deste artigo.
 

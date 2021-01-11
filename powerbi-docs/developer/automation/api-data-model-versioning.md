@@ -1,6 +1,6 @@
 ---
-title: Controlo de versões do modelo de dados do Power BI
-description: Modelo de Dados exposto por um Serviço OData
+title: Controlo de versões do modelo de dados do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Modelo de Dados exposto por um Serviço OData. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: d8ab94bd33aa2f0674f6dc45a93da0d2f42b1647
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 0c645774f7af1a8575ca3c755a74fd65b652031a
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749306"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887713"
 ---
 # <a name="data-model-versioning"></a>Controlo de versões do Modelo de Dados
 
@@ -32,11 +32,11 @@ As seguintes adições do Modelo de Dados são consideradas seguras e não neces
 * Adicionar uma definição de tipo ou uma enumeração  
 * Adicionar qualquer anotação a um elemento de modelo que não precisa de ser compreendido pelo cliente para interagir com o serviço corretamente  
   
-Os clientes ***DEVEM*** estar preparados para os serviços realizarem estas alterações incrementais aos seus modelos. Especificamente, os clientes devem estar preparados para receber propriedades e tipos derivados que não tenham sido anteriormente definidos pelo serviço.  
+Os clientes ***DEVEM** _ estar preparados para os serviços realizarem estas alterações incrementais aos seus modelos. Especificamente, os clientes devem estar preparados para receber propriedades e tipos derivados que não tenham sido anteriormente definidos pelo serviço.  
   
-Os serviços ***NÃO DEVEM*** alterar os modelos de dados, consoante o utilizador autenticado. Se o modelo de dados for dependente de um utilizador ou grupo de utilizadores, todas as alterações TERÃO de ser alterações seguras, conforme definido nesta secção ao comparar o modelo completo com o modelo visível para os utilizadores com autorizações limitadas.  
+Os serviços _ *_NÃO DEVEM_** alterar os modelos de dados, consoante o utilizador autenticado. Se o modelo de dados for dependente de um utilizador ou grupo de utilizadores, todas as alterações TERÃO de ser alterações seguras, conforme definido nesta secção ao comparar o modelo completo com o modelo visível para os utilizadores com autorizações limitadas.  
   
 Para mais informações acerca das normas do Modelo de Dados OData, veja [OData Version 4.0 Part 1: Protocol Plus Errata 02](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html) (OData Versão 4.0 Parte 1: Protocolo mais Errata 02).  
   
-## <a name="see-also"></a>Veja também
+## <a name="see-also"></a>Ver também
 [Visão geral da API REST do Power BI](/rest/api/power-bi/)

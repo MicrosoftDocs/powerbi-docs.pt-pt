@@ -1,6 +1,6 @@
 ---
-title: Perguntas frequentes sobre os elementos visuais do Power BI
-description: Consulte uma lista de perguntas frequentes e respostas sobre elementos visuais do Power BI
+title: Perguntas frequentes sobre elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Consulte uma lista de perguntas frequentes e respostas sobre os elementos visuais do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/30/2020
-ms.openlocfilehash: f38aaf9ea5bcb62cabae6ce2b7aca99f97c75960
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b2bfac5cbd3ce9b850e42ebf25c63b6e22fbeb68
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386441"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97884930"
 ---
 # <a name="power-bi-visuals-faq"></a>FAQ sobre elementos visuais do Power BI
 

@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 04/27/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: a7f8c6d52acff8cbaaa00004448a3fae300afb9b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: cf056581c7c1f472e1e7ce20baf3d7afd8815bda
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411914"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886037"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Incorporar um relatório num site ou portal seguro
 
@@ -26,11 +26,11 @@ A opção **Incorporar** suporta [Filtros de URL](service-url-filters.md) e defi
 
 1. Abra um relatório no serviço Power BI.
 
-2. No menu **Mais opções (...)** , selecione **Incorporar** >  **Site ou portal**.
+2. No menu **Partilhar**, selecione **Incorporar relatório** >  **Site ou portal**.
 
     ![Opção Site ou portal](media/service-embed-secure/power-bi-more-options-website.png)
 
-2. Selecione a opção **Incorporar** para abrir uma caixa de diálogo que apresenta uma ligação e um iFrame que pode utilizar para incorporar o relatório de forma segura.
+2. Na caixa de diálogo **Código de incorporação seguro**, selecione a **ligação que pode utilizar para incorporar estes conteúdos** ou o **HTML que pode colar no seu blogue ou site** num iFrame.
 
     ![Caixa de diálogo da opção Incorporar](media/service-embed-secure/secure-embed-code-dialog.png)
 

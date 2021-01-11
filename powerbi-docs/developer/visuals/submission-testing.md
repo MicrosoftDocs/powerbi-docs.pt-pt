@@ -1,6 +1,6 @@
 ---
-title: Teste de submissão de um elemento visual do Power BI
-description: Este artigo descreve casos de testes que o elemento visual deve passar antes de ser publicado no AppSource. Há também casos de teste de opção.
+title: Teste de submissão de um elemento visual do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo descreve casos de testes que o elemento visual deve passar antes de ser publicado no AppSource. Há também casos de teste de opção. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/15/2020
-ms.openlocfilehash: 515813aeb98010f838cfff75febbb1ef206bc2cf
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: b5054d821dc797f1606fea8ec5d0bb43569a57e5
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397490"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888472"
 ---
 # <a name="submission-testing-of-a-power-bi-visual"></a>Teste de submissão de um elemento visual do Power BI
 

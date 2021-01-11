@@ -7,19 +7,19 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/01/2020
-ms.openlocfilehash: be552df28bebb5876d24da8bbecf66ea503fdb04
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/04/2021
+ms.openlocfilehash: 67efe0e7abd23792f46561f78b0b048b431561a4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415249"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888012"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Subscrever relatórios paginados no serviço Power BI para si e para outras pessoas 
 
 Agora pode configurar subscrições de e-mail de relatórios paginados no serviço Power BI para si e para outras pessoas. De modo geral, o processo é idêntico a [subscrever relatórios e dashboards no serviço Power BI](end-user-subscribe.md). Este artigo explica as diferenças e indica algumas considerações. 
 
-Ao configurar subscrições, pode selecionar com que frequência quer receber os e-mails: diariamente, semanalmente, mensalmente ou de hora a hora. Também pode escolher a(s) hora(s) em que pretende que a subscrição seja executada. Pode configurar até 24 subscrições diferentes para cada relatório. 
+Ao configurar subscrições, pode selecionar com que frequência quer receber os e-mails: diariamente, semanalmente, mensalmente ou de hora a hora. Também pode escolher a(s) hora(s) em que pretende que a subscrição seja executada. Não existe um limite para o número de subscrições que pode configurar para cada relatório. 
 
 ## <a name="considerations-for-paginated-report-subscriptions"></a>Considerações sobre subscrições de relatórios paginados 
 

@@ -1,19 +1,19 @@
 ---
-title: O suporte do modo de alto contraste nos elementos visuais do Power BI
-description: Este artigo descreve como adicionar o suporte do modo de alto contraste a elementos visuais do Power BI.
+title: Suporte do modo de alto contraste em elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo descreve como adicionar o suporte do modo de alto contraste a elementos visuais do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 9372187ae1fdfac27f6b3e7267a1c0622c063464
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f55427511a76fc65b3ae6b3933dca68ef742039c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114342"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889208"
 ---
 # <a name="high-contrast-mode-support-in-power-bi-visuals"></a>O suporte do modo de alto contraste nos elementos visuais do Power BI
 
@@ -88,7 +88,7 @@ Por exemplo, no gráfico de barras de exemplo que se segue, todas as barras são
 
 A próxima secção mostra um local na função `visualTransform` que foi alterado para suportar o alto contraste. É chamado como parte da composição durante a atualização.
 
-### <a name="before"></a>Antes de
+### <a name="before"></a>Antes
 
 ```typescript
 for (let i = 0, len = Math.max(category.values.length, dataValue.values.length); i < len; i++) {
@@ -109,7 +109,7 @@ for (let i = 0, len = Math.max(category.values.length, dataValue.values.length);
 }
 ```
 
-### <a name="after"></a>Depois de
+### <a name="after"></a>Depois
 
 ```typescript
 for (let i = 0, len = Math.max(category.values.length, dataValue.values.length); i < len; i++) {

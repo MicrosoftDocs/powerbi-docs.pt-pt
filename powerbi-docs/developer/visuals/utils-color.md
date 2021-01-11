@@ -1,6 +1,6 @@
 ---
-title: Introdução à utilização de utilitários de cores num elemento visual do Power BI
-description: Este artigo descreve como utilizar os utilitários de cores para simplificar a aplicação de temas e paletas nos pontos de dados de elementos visuais do Power BI
+title: Introdução à utilização de utilitários de cores em elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Este artigo descreve como utilizar utilitários de cores para simplificar a aplicação de temas e paletas nos pontos de dados de elementos visuais do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cc75188d806d653766860b2fada9028477a75f71
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379358"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887851"
 ---
 # <a name="color-utils"></a>Color utils (Utilitários de cor)
 Este artigo vai ajudá-lo a instalar, importar e utilizar utilitários de cores. Este artigo descreve como utilizar utilitários de cores para simplificar a aplicação de temas e paletas nos pontos de dados de elementos visuais do Power BI.
@@ -33,7 +33,7 @@ npm install powerbi-visuals-utils-colorutils --save
 ```
 Este comando instala o pacote e adiciona um pacote como dependência a ```package.json```
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilização
 
 Para os utilitários de interatividade do utilizador, precisa de importar o componente necessário no código-fonte do elemento visual.
 ```typescript
@@ -210,7 +210,7 @@ export class MyVisual implements IVisual {
  O módulo fornece as seguintes funções:
 
 * [hexToRGBString](#hextorgbstring)
-* [rotate](#rotate)
+* [rodar](#rotate)
 * [parseColorString](#parsecolorstring)
 * [calculateHighlightColor](#calculatehighlightcolor)
 * [createLinearColorScale](#createlinearcolorscale)
@@ -236,7 +236,7 @@ hexToRGBString('#112233');
 // returns: "rgb(17,34,51)"
 ```
 
-### <a name="rotate"></a>rotate
+### <a name="rotate"></a>rodar
 Roda a cor RGB.
 
 ```typescript

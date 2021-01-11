@@ -1,6 +1,6 @@
 ---
-title: Eventos de composição nos elementos visuais do Power BI
-description: Os elementos visuais do Power BI podem notificar o Power BI de que estão prontos para exportar para o PowerPoint ou PDF.
+title: Eventos de composição nos elementos visuais do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Os elementos visuais do Power BI podem notificar o Power BI de que estão prontos para exportar para o PowerPoint ou PDF. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: c54aaa92f3463ce1102866c8d3b69532c8b25cf7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 77ed686b78a96717193e594e9f846d4204d8b5e8
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380255"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885091"
 ---
 # <a name="render-events-in-power-bi-visuals"></a>Eventos de composição nos elementos visuais do Power BI
 
@@ -25,7 +25,7 @@ Se a composição for concluída com êxito, o código do elemento visual do Pow
 
 Se ocorrer um problema durante o processo, o elemento visual do Power BI será impedido de ser composto com êxito. De modo a notificar os serviços de escuta que o processo de composição não foi concluído, o código do elemento visual do Power BI deverá chamar o método `renderingFailed`. Este método também fornece uma cadeia de carateres opcional para justificar a falha.
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilização
 
 ```typescript
 export interface IVisualHost extends extensibility.IVisualHost {

@@ -1,6 +1,6 @@
 ---
-title: Adicionar opções de formatação a um elemento visual personalizado do Power BI
-description: Um tutorial sobre como desenvolver as opções de formatação do elemento visual personalizado do Power BI
+title: Adicionar opções de formatação a um elemento visual do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Um tutorial sobre como programar as opções de formatação de elementos visuais personalizados do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: ec3ba601eb6cd5db4fbc19298d76ce0cd7346f53
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ec5dbe338cc27379d69781a83f58091d94011f08
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418745"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886586"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Tutorial: Adicionar opções de formatação a um elemento visual do Power BI
 
@@ -116,7 +116,7 @@ Pode adicionar propriedades personalizadas para ativar a configuração da cor d
 
     ![Classes de módulo](media/custom-visual-develop-tutorial-format-options/module-classes.png)
 
-    Este módulo define as duas classes. A classe **CircleSettings** define duas propriedades com nomes que correspondem aos objetos definidos no ficheiro **capabilities.json** (**circleColor** e  **circleThickness**) e também define os valores predefinidos. A classe **VisualSettings** herda a classe **DataViewObjectParser** e adiciona uma propriedade com o nome **circle**, que corresponde ao objeto definido no ficheiro *capabilities.json* e devolve uma instância de **CircleSettings**.
+    Este módulo define as duas classes. A classe **CircleSettings** define duas propriedades com nomes que correspondem aos objetos definidos no ficheiro **capabilities.json** (**circleColor** e **circleThickness**) e também define os valores predefinidos. A classe **VisualSettings** herda a classe **DataViewObjectParser** e adiciona uma propriedade com o nome **circle**, que corresponde ao objeto definido no ficheiro *capabilities.json* e devolve uma instância de **CircleSettings**.
 
 6. Guarde o ficheiro **settings.ts**.
 
@@ -168,7 +168,7 @@ Pode adicionar propriedades personalizadas para ativar a configuração da cor d
 
     ![Variável radius](media/custom-visual-develop-tutorial-format-options/radius.png)
 
-11. No  **elemento circle**, altere o valor transmitido para o **fill style** para a seguinte expressão.
+11. No **elemento circle**, altere o valor transmitido para o **fill style** para a seguinte expressão.
 
     ```typescript
     this.visualSettings.circle.circleColor
@@ -176,7 +176,7 @@ Pode adicionar propriedades personalizadas para ativar a configuração da cor d
 
     ![Elemento de preenchimento do círculo](media/custom-visual-develop-tutorial-format-options/circle-element-fill.png)
 
-12. No  **elemento circle**, altere o valor transmitido para o **stroke-width style** para a seguinte expressão.
+12. No **elemento circle**, altere o valor transmitido para o **stroke-width style** para a seguinte expressão.
 
     ```typescript
     this.visualSettings.circle.circleThickness
@@ -222,7 +222,7 @@ Introduza os valores de propriedade para o projeto do elemento visual personaliz
 
 5. Preencha **supportUrl** e **gitHubUrl** para o elemento visual.
 
-    Por exemplo:
+    Exemplo:
 
     ```json
     {
@@ -235,7 +235,7 @@ Introduza os valores de propriedade para o projeto do elemento visual personaliz
 
 7. Guarde o ficheiro **pbiviz.json**.
 
-8. No objeto **recursos**, observe que o documento define um caminho para um ícone. O ícone é a imagem que aparece no painel **_Visualizações_** . Tem de ser um ficheiro **PNG** com *20 por 20 pixéis*.
+8. No objeto **recursos**, observe que o documento define um caminho para um ícone. O ícone é a imagem que aparece no painel **_Visualizações_**. Tem de ser um ficheiro **PNG** com *20 por 20 pixéis*.
 
 9. No Explorador do Windows, copie o ficheiro icon.png e, em seguida, cole-o para substituir o ficheiro padrão localizado na pasta de recursos.
 
@@ -263,7 +263,7 @@ Agora, pode abrir o relatório do Power BI Desktop e importar o elemento visual
 
 1. Abra o **Power BI Desktop** e crie um novo relatório com qualquer *conjunto de dados de exemplo*.
 
-2. No painel **_Visualizações_** , selecione as **reticências** e, em seguida, selecione **Importar** em Ficheiro.
+2. No painel **_Visualizações_**, selecione as **reticências** e, em seguida, selecione **Importar** em Ficheiro.
 
     ![Adicionar uma visualização personalizada no Power BI Desktop](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
@@ -275,7 +275,7 @@ Agora, pode abrir o relatório do Power BI Desktop e importar o elemento visual
 
 6. Assim que o elemento visual for importado com êxito, selecione **OK**.
 
-7. Confirme que o elemento visual foi adicionado ao painel **_Visualizações_** .
+7. Confirme que o elemento visual foi adicionado ao painel **_Visualizações_**.
 
     ![Ver no painel de visualizações do PBI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 
@@ -285,6 +285,6 @@ Agora, pode abrir o relatório do Power BI Desktop e importar o elemento visual
 
 Para obter sugestões sobre como depurar elementos visuais personalizados, consulte o [guia de depuração](./visuals-how-to-debug.md#how-to-debug-power-bi-visuals).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Pode listar o seu elemento visual recentemente criado, para que outras pessoas possam utilizá-lo, ao submetê-lo para o **AppSource**. Para obter mais informações sobre este processo, veja [Publicar elementos visuais do Power BI no AppSource](office-store.md).

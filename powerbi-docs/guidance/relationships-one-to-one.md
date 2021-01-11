@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 19fe2aa003c3d39169bc449dab83c09702f49b1d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b9cff6a4a59db3a30fc4bbe2373a723700d00fee
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419159"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885022"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Documento de orientação das relações um-para-um
 
@@ -99,11 +99,11 @@ Sempre que possível, recomendamos que evite criar relações de modelo um-para-
 - Limitar a capacidade de criar hierarquias, uma vez que os níveis têm de basear-se nas colunas da _mesma tabela_
 - Produzir resultados inesperados quando não há uma correspondência completa de linhas entre as tabelas
 
-As recomendações específicas diferem consoante a relação um-para-um seja _intra ilha_ ou _inter ilha_. Para obter mais informações sobre a avaliação de relações, veja [Relações de modelos no Power BI Desktop (Avaliação de relação)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
+As recomendações específicas diferem consoante a relação um-para-um seja _dentro do grupo de origem_ ou _entre vários grupos de origem_. Para obter mais informações sobre a avaliação de relações, veja [Relações de modelos no Power BI Desktop (Avaliação de relação)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
-### <a name="intra-island-one-to-one-relationship"></a>Relação um-para-um intra ilha
+### <a name="intra-source-group-one-to-one-relationship"></a>Relação um-para-um dentro do grupo de origem
 
-Quando existe uma relação um-para-um _intra ilha_, recomendamos a consolidação dos dados numa única tabela de modelo. Pode fazê-lo ao intercalar as consultas do Power Query.
+Quando existe uma relação um-para-um _dentro do grupo de origem_ entre tabelas, recomendamos a consolidação dos dados numa única tabela de modelo. Pode fazê-lo ao intercalar as consultas do Power Query.
 
 Os passos seguintes apresentam uma metodologia para consolidar e modelar os dados um-para-um relacionados:
 
@@ -131,11 +131,11 @@ No nosso exemplo, os autores do relatório podem encontrar o campo **Categoria**
 
 ![O painel Campos mostra o campo Categoria numa pasta de apresentação chamada Marketing.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-Caso decida ainda definir relações um-para-um intra ilha no modelo, sempre que possível, verifique se existem linhas correspondentes nas tabelas relacionadas. Dado que uma relação um-para-um intra ilha é avaliada como uma [relação regular](../transform-model/desktop-relationships-understand.md#regular-relationships), podem surgir problemas de integridade de dados nos elementos visuais do relatório como valores EM BRANCO. (pode ver um exemplo de um agrupamento EM BRANCO no primeiro elemento visual da tabela apresentado neste artigo.)
+Caso decida ainda definir relações um-para-um dentro do grupo de origem no modelo, sempre que possível, verifique se existem linhas correspondentes nas tabelas relacionadas. Dado que uma relação um-para-um dentro do grupo de origem é avaliada como uma [relação regular](../transform-model/desktop-relationships-understand.md#regular-relationships), podem surgir problemas de integridade de dados nos elementos visuais do relatório como valores EM BRANCO. (pode ver um exemplo de um agrupamento EM BRANCO no primeiro elemento visual da tabela apresentado neste artigo.)
 
-### <a name="inter-island-one-to-one-relationship"></a>Relação um-para-um inter ilha
+### <a name="cross-source-group-one-to-one-relationship"></a>Relação um-para-um entre vários grupos de origem
 
-Quando existe uma relação um-para-um _inter ilha_ entre tabelas, não existe nenhum design de modelo alternativo, exceto se pré-consolidar os dados nas origens de dados. O Power BI avaliará a relação do modelo um-para-um como uma [relação limitada](../transform-model/desktop-relationships-understand.md#limited-relationships). Assim, verifique se existem linhas correspondentes nas tabelas relacionadas, uma vez que as linhas sem correspondência serão eliminadas dos resultados da consulta.
+Quando existe uma relação um-para-um _entre vários grupos de origem_ entre tabelas, não existe nenhum design de modelo alternativo, exceto se pré-consolidar os dados nas origens de dados. O Power BI avaliará a relação do modelo um-para-um como uma [relação limitada](../transform-model/desktop-relationships-understand.md#limited-relationships). Assim, verifique se existem linhas correspondentes nas tabelas relacionadas, uma vez que as linhas sem correspondência serão eliminadas dos resultados da consulta.
 
 Vejamos o que acontece quando os campos de ambas as tabelas são adicionados a um elemento visual de tabela e existe uma relação limitada entre as tabelas.
 

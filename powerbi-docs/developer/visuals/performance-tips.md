@@ -1,6 +1,6 @@
 ---
-title: Sugestões de Desempenho
-description: Como criar um elemento visual Power BI de elevado desempenho
+title: Sugestões de desempenho na análise incorporada do Power BI para melhores informações de BI incorporadas
+description: Como criar um elemento visual do Power BI de elevado desempenho. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/20/2020
-ms.openlocfilehash: c22c634ef59a1aae2994dcacaae62dc8ebed7474
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: c8bcf5e13ba769b976ab123adb3ba37f46b0359e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746084"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885942"
 ---
 # <a name="how-to-build-a-high-performance-power-bi-visual"></a>Como criar um elemento visual Power BI de elevado desempenho
 Este artigo abrangerá técnicas sobre a forma como um programador pode alcançar elevado desempenho ao compor elementos visuais. 
@@ -111,6 +111,6 @@ Se utilizar [requestAnimationFrame](https://www.w3.org/TR/animation-timing/) par
 
 Para obter mais informações, veja esta [amostra](https://testdrive-archive.azurewebsites.net/Graphics/RequestAnimationFrame/Default.html) em animação uniforme com `requestAnimationFrame`.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Saiba mais sobre técnicas de otimização no [Guia de otimização para Power BI](../../guidance/power-bi-optimization.md).
