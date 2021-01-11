@@ -1,6 +1,6 @@
 ---
-title: Capacity and SKUs in Power BI embedded analytics (Capacidade e SKUs na análise incorporada do Power BI)
-description: Compreenda a capacidade e os SKUs na análise incorporada do Power BI.
+title: Capacidade e SKUs na análise incorporada do Power BI que permitem obter melhores informações de BI incorporadas
+description: Compreenda a capacidade e os SKUs na análise incorporada do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 4102ed7307c9b7be40fb682befc4056094cbe6ad
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 7ff6ada14128a6231b84adf83d90b3871e1c7537
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916941"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888817"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capacity and SKUs in Power BI embedded analytics (Capacidade e SKUs na análise incorporada do Power BI)
 
-Ao passar para a produção, a análise incorporada do Power BI necessita de uma capacidade (SKU *A* , *EM* ou *P* ) para publicar conteúdos incorporados do Power BI.
+Ao passar para a produção, a análise incorporada do Power BI necessita de uma capacidade (SKU *A*, *EM* ou *P*) para publicar conteúdos incorporados do Power BI.
 
 A capacidade é um conjunto dedicado de recursos de utilização exclusiva. Permite-lhe publicar dashboards, relatórios e conjuntos de dados para utilizadores sem ter de comprar licenças para os mesmos. Além disso, oferece um desempenho fiável e consistente para os seus conteúdos.
 
@@ -54,7 +54,7 @@ Utilize estas ligações para planear e testar a capacidade:
 
 ### <a name="power-bi-embedded-skus"></a>SKUs do Power BI Embedded
 
-O Power BI Embedded é enviado com um [SKU  *a*](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios).
+O Power BI Embedded é enviado com um [SKU *a*](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios).
 
 ### <a name="power-bi-premium-skus"></a>SKUs do Power BI Premium
 

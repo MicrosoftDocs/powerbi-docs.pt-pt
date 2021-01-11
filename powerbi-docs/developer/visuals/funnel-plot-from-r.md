@@ -1,6 +1,6 @@
 ---
-title: Build a funnel plot from R script to R visual (Criar um gráfico de funil ao transformar um script do R num visual do R)
-description: Este artigo descreve como criar um gráfico de funil do script do R para o elemento visual do Power BI R.
+title: Criar um gráfico de funil ao transformar um script do R num elemento visual do R na análise incorporada do Power BI para obter melhores informações de BI incorporadas
+description: Este artigo descreve como criar um gráfico de funil do script do R para o elemento visual do Power BI R. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 7ef9b75f01dedaf55be77312f07217593d886ef0
-ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
+ms.openlocfilehash: f3d22a4143287588ad9290d000402a10a4cef227
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97675287"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889277"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Tutorial: Build a funnel plot from R script to R visual (Criar um gráfico de funil ao transformar um script do R num visual do R)
 Este artigo descreve como criar um gráfico de funil com o script do R no elemento visual do R, passo a passo.

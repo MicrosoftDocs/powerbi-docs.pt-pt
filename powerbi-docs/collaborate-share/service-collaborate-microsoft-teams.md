@@ -10,12 +10,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 12/14/2020
-ms.openlocfilehash: 80aa8097ce38a9b1bac228ea61dcc959e4aba60d
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 7c8fa59521be1cfc8bb25fb04c3904f257fb62be
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492018"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926691"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Colaborar no Microsoft Teams com o Power BI
 
@@ -44,6 +44,14 @@ Incorporar um relatório no Microsoft Teams ou enviar uma ligação para um item
 > Certifique-se de que revê quem pode ver o relatório no serviço Power BI e conceda acesso aos que não estão listados.
 
 Uma forma de garantir que todas as pessoas numa equipa têm acesso aos relatórios é ao colocá-los numa única área de trabalho e dar acesso ao Grupo do Microsoft 365 da sua equipa.
+
+## <a name="share-with-external-users"></a>Partilhar com utilizadores externos
+
+Pode integrar um relatório do Power BI no Teams e partilhá-lo com utilizadores externos. Para tal, siga estes passos.
+
+1.  Convide o utilizador externo para aderir à organização. Este terá de aceitar o seu convite. Veja [Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure Active Directory B2B](../guidance/whitepaper-azure-b2b-power-bi.md) para obter mais informações.
+2.  Conceda permissão ao utilizador externo no relatório. A atribuição de permissões individuais funciona melhor.
+3.  Verifique se existe alguma licença do Power BI atribuída ao utilizador externo. Se os conteúdos estiverem alojados numa capacidade Premium, o utilizador precisará apenas de uma licença gratuita. Caso contrário, o utilizador poderá [inscrever-se para obter uma avaliação gratuita individual do Power BI Pro](../fundamentals/service-self-service-signup-for-power-bi.md#sign-up-for-an-individual-trial-of-power-bi-pro).
 
 ## <a name="known-issues-and-limitations"></a>Limitações e problemas conhecidos
 
