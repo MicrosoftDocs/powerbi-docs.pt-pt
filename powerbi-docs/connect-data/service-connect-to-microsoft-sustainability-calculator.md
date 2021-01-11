@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 12/22/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 88d508e5a71fec2574104356d77aaa0fb79bb0bc
-ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
+ms.openlocfilehash: 730a997a6d1d304fe868dd5bdd5bfbed6e359d91
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97745238"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927144"
 ---
 # <a name="microsoft-sustainability-calculator-support-page"></a>Página de Suporte do Microsoft Sustainability Calculator
 
@@ -29,6 +29,7 @@ Para aceder ao Microsoft Sustainability Calculator, precisa das seguintes inform
 - ID do inquilino
 - Chave de acesso
 - Número de inscrição
+- Apenas os utilizadores com funções de administrador do Azure podem autenticar e associar a calculadora a dados empresariais. (**Apenas para a versão de pré-visualização de dezembro de 2020**)
 
 Para localizar o número de inscrição da empresa:
 

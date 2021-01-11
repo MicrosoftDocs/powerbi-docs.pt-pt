@@ -1,6 +1,6 @@
 ---
-title: Incorporar conteúdos do Power BI numa aplicação de análise incorporada com o principal de serviço e um segredo da aplicação
-description: Saiba como autenticar-se para obter análises incorporadas com um principal de serviço da aplicação do Azure Active Directory e um segredo da aplicação.
+title: Incorporar conteúdos do Power BI numa aplicação de análise incorporada com o principal de serviço e um segredo da aplicação permite melhores informações de BI incorporada
+description: Saiba como autenticar-se para obter análises incorporadas com um principal de serviço da aplicação do Azure Active Directory e um segredo da aplicação. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 8cf7b46687491f446d4e17fc96b020dbc08de5fc
-ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
+ms.openlocfilehash: 35bdaa8af06187767975126daa1f2445908fed9f
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97708071"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886793"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Incorporar conteúdos do Power BI com o principal de serviço e um segredo da aplicação
 
