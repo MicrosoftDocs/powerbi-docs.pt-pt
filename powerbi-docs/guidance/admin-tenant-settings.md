@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/10/2020
-ms.openlocfilehash: 66d721670f90efb17f6167aba3c074bdf6ea0ae1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 39357ec461ae96ef566719739aa76a61c7e7c539
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394871"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969794"
 ---
 # <a name="tenant-settings-guidance"></a>Orientações sobre as definições de inquilino
 
@@ -39,7 +39,7 @@ Se o fizer, recomendamos que ative a definição **Publicar informações para "
 Estes URLs serão disponibilizados como ligações no menu de ajuda do Power BI.
 
 > [!NOTE]
-> Ao disponibilizar o URL de **Pedidos de licenciamento**, impede que utilizadores individuais comprem uma licença do Power BI Pro. Em vez disso, serão direcionados para o seu site interno e ser-lhes-ão fornecidas informações sobre como adquirir uma licença. A definição **Permitir que os utilizadores experimentem o Power BI Pro** está ativada por predefinição e separa as experiências de compra e avaliação. Para saber mais sobre a forma como estas definições funcionam em conjunto, veja [Permitir que os utilizadores experimentem o Power BI Pro](../admin/service-admin-portal.md#allow-users-to-try-power-bi-pro).
+> Ao disponibilizar o URL de **Pedidos de licenciamento**, impede que utilizadores individuais comprem uma licença do Power BI Pro. Em vez disso, serão direcionados para o seu site interno e ser-lhes-ão fornecidas informações sobre como adquirir uma licença. A definição **Permitir que os utilizadores experimentem o Power BI Pro** está ativada por predefinição e separa as experiências de compra e avaliação. Para saber mais sobre a forma como estas definições funcionam em conjunto, veja [Permitir que os utilizadores experimentem o Power BI Pro](../admin/service-admin-portal.md#allow-users-to-try-power-bi-paid-features).
 >
 >
 

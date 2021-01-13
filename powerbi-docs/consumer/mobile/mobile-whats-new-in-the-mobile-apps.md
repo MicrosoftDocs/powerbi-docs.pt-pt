@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/17/2020
-ms.openlocfilehash: 7779976e7897b31e5f3dde2c4c3306c909ecf0f0
-ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
+ms.openlocfilehash: 6eebe7b75db06b97d116ca0c17e67e9ee7b0562e
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97675585"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969656"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -570,7 +570,7 @@ Leia o [resumo de funcionalidades para aplicações móveis publicado em abril d
 #### <a name="all-devices"></a>Todos os dispositivos
 **Cor de fundo para relatórios de telemóvel** Ao definir uma cor de fundo para um relatório do Power BI Desktop, o relatório de telemóvel terá a mesma cor de fundo. Mais informações sobre como [otimizar as páginas de relatório para telemóveis](../../create-reports/desktop-create-phone-report.md).
 
-**Desenvolver um elemento visual do Power BI, compatível com dispositivos móveis** Leia este [Guia para programadores](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md), para obter sugestões sobre como criar elementos visuais do Power BI que têm um aspeto apelativo e funcionam bem em dispositivos móveis.
+**Desenvolver um elemento visual do Power BI, compatível com dispositivos móveis** Leia este [Guia para programadores](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md), para obter sugestões sobre como criar elementos visuais do Power BI que têm um aspeto apelativo e funcionam bem em dispositivos móveis.
 
 #### <a name="ios-devices"></a>Dispositivos iOS
 **Fale com os seus dados: faça perguntas conversando** já pode [fazer perguntas sobre os seus dados com as Perguntas e Respostas](mobile-apps-ios-qna.md), ao falar com em vez de escrever. 

@@ -10,16 +10,16 @@ ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 12/15/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7184f00af46ce5f49df2510ea5e676c89a37a7a
-ms.sourcegitcommit: fef29a5c5bf1e0dae663c42c9ce5ae50e29ae9be
+ms.openlocfilehash: dc3ce931664a3c125504865c6cccfe3fdfa404c4
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97558499"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053426"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>Monitorizar métricas de utilização em áreas de trabalho clássicas
 
-As métricas de utilização ajudam-no a compreender o impacto dos seus relatórios e dashboards. Quando executa as métricas de utilização de dashboards ou as métricas de utilização de relatórios, pode verificar como esses dashboards e relatórios estão a ser utilizados em toda a organização, quem os está a utilizar e com que finalidade. Este artigo descreve os relatórios de métricas de utilização para [áreas de trabalho clássicas](service-create-workspaces.md). Se os seus relatórios estiverem numa das novas áreas de trabalho, veja o artigo [Monitorizar as métricas de utilização na nova experiência de área de trabalho](service-usage-metrics.md)  
+As métricas de utilização ajudam-no a compreender o impacto dos seus relatórios e dashboards. Quando executa as métricas de utilização de dashboards ou as métricas de utilização de relatórios, pode verificar como esses dashboards e relatórios estão a ser utilizados em toda a organização, quem os está a utilizar e com que finalidade. Este artigo descreve os relatórios de métricas de utilização para [áreas de trabalho clássicas](service-create-workspaces.md). Se os seus relatórios estiverem numa das novas áreas de trabalho, veja o artigo [Monitorizar as métricas de utilização na nova experiência de área de trabalho](service-modern-usage-metrics.md)  
 
 Os relatórios de métricas de utilização são só de leitura. No entanto, pode copiar um relatório de métricas de utilização. A cópia cria um relatório padrão do Power BI que poderá editar. Também pode criar os seus próprios relatórios no Power BI Desktop com base no conjunto de dados subjacente, que contém as métricas de utilização para todos os dashboards ou relatórios numa área de trabalho. Para começar, o relatório copiado mostra métricas apenas para o dashboard ou relatório selecionados. Pode remover o filtro predefinido e ter acesso ao conjunto de dados subjacente, com todas as métricas de utilização da área de trabalho selecionada. Poderá até ver os nomes de utilizadores específicos, se o administrador tiver dado permissão para tal.
 

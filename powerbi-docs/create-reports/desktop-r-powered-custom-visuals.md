@@ -9,12 +9,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 35c118171ef5202e24e5997e321b698e3b137387
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e2a610e12da1a91db6e22ab493ed39410ec1c091
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396481"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969748"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Utilizar elementos visuais baseados em R no Power BI
 
@@ -92,7 +92,7 @@ Seguem-se os passos para procurar e selecionar elementos visuais no site do **Ap
 
 Se criar os seus elementos visuais em R para utilização nos seus relatórios, pode partilhá-los com o mundo ao contribuir com os mesmos para a **galeria de elementos visuais do Power BI**. As contribuições são realizadas através do GitHub e o processo é destacado na seguinte localização:
 
-* [Contribuir para a galeria de elementos visuais do Power BI baseados em R](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
+* [Contribuir para a galeria de elementos visuais do Power BI baseados em R](https://github.com/PowerBi-Projects/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
 ## <a name="troubleshoot-r-powered-power-bi-visuals"></a>Resolver problemas associados aos elementos visuais do Power BI baseados em R
 

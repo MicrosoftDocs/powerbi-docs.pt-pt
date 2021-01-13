@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 08/12/2020
-ms.openlocfilehash: 67875f9b571e0a0376046a3cb080551d23e579e4
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: adb238b918d01bcdefe247a5452a0432b97d2e0c
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97889300"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969518"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Diretrizes de elementos visuais do Power BI
 Antes de [publicar](office-store.md) o seu elemento visual do Power BI no Microsoft AppSource para que outras pessoas o descubram e utilizem, certifique-se de que segue as diretrizes para criar uma ótima experiência para os seus utilizadores.
@@ -57,7 +57,7 @@ Quando o elemento visual do Power BI estiver validado e aprovado, a listagem do 
 ## <a name="context-menu"></a>Menu de contexto
 O menu de contexto é o menu de clique com o botão direito do rato apresentado quando o utilizador passa o rato sobre um elemento visual.
 Todos os elementos visuais do Power BI devem permitir que o menu de contexto proporcione uma experiência unificada.
-Veja [este artigo](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md) para saber como adicionar um menu de contexto.
+Veja [este artigo](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/gh-pages/tutorials/building-bar-chart) para saber como adicionar um menu de contexto.
 
 >[!div class="mx-imgBorder"]
 >![Uma captura de ecrã de um menu contextual de elemento visual do Power BI.](media/guidelines-powerbi-visuals/context-menu.png)

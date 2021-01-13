@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: 1331543973680879e4fcc2dbafc7323e72a27694
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 5f337197655d41b830b237c04faa2642991c34ee
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888173"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969817"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Certificar um elemento visual do Power BI
 
@@ -92,7 +92,7 @@ Siga os requisitos de código listados abaixo para confirmar que o código está
 * Utilize apenas componentes OSS que possam ser revistos publicamente, como bibliotecas TypeScript ou JavaScript públicas.
 * O código deve suportar a [API de Eventos de Composição](event-service.md).
 * Confirme que o DOM é manipulado em segurança. Utilize a limpeza para a entrada de utilizador ou dados de utilizador, antes de os adicionar ao DOM.
-* Utilize este [relatório de exemplo](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) como um conjunto de dados de teste.
+* Utilize este [relatório de exemplo](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/gh-pages/assets) como um conjunto de dados de teste.
 
 **Não permitido**
 * Aceder a recursos ou serviços externos. Por exemplo, nenhum pedido HTTP/S ou WebSocket pode sair do Power BI para quaisquer serviços.

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: ee7954cff7863ff58370bbe1e58f26c64644c8e8
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9019ed9e64bca94a87e2ab9b6febdb7a25055b75
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857065"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961161"
 ---
 # <a name="power-bi-security"></a>Segurança do Power BI
 
@@ -53,7 +53,7 @@ A segurança da plataforma do Power BI também inclui a segurança do ambiente m
 
 ## <a name="data-and-service-security"></a>Segurança do Serviço e de Dados
 
-Para obter mais informações, visite o [Centro de Confiança da Microsoft](https://www.microsoft.com/trustcenter).
+Para obter mais informações, visite o [Centro de Confiança da Microsoft](https://www.microsoft.com/trust-center/product-overview).
 
 Conforme descrito anteriormente neste artigo, o início de sessão de um utilizador no Power BI é utilizado pelos servidores do Active Directory no local para mapear um UPN para as credenciais. No entanto, é **importante** ter em conta que os utilizadores são responsáveis pelos dados que partilham: se um utilizador se ligar a origens de dados através das respetivas credenciais e partilhar um relatório (ou um dashboard ou conjunto de dados) com base nesses dados, os utilizadores com quem o dashboard é partilhado não são autenticados na origem de dados original e ser-lhes-á concedido acesso ao relatório.
 
