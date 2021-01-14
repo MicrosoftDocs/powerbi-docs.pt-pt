@@ -266,6 +266,8 @@
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: Personalizar as propriedades dos eixos X e Y
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
+            - name: Deteção de anomalias
+              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: "Interagir com mapas ArcGIS nos elementos visuais do Power\_BI"
               href: ../visuals/power-bi-visualizations-arcgis.md
             - name: Gráficos de área básicos
@@ -276,10 +278,6 @@
               href: ../visuals/power-bi-visualization-combo-chart.md
             - name: Decomposition tree visuals (Elementos visuais de árvore de decomposição)
               href: ../visuals/power-bi-visualization-decomposition-tree.md
-            - name: Narrativas inteligentes
-              href: ../visuals/power-bi-visualization-smart-narrative.md
-            - name: Deteção de anomalias
-              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: Gráficos em anel
               href: ../visuals/power-bi-visualization-doughnut-charts.md
             - name: Mapas preenchidos (coropletos)
@@ -310,6 +308,8 @@
               href: ../visuals/desktop-high-density-scatter-charts.md
             - name: Elementos visuais de Mapa de Forma (pré-visualização)
               href: ../visuals/desktop-shape-map.md
+            - name: Narrativas inteligentes
+              href: ../visuals/power-bi-visualization-smart-narrative.md
             - name: Tabelas em relatórios e dashboards
               href: ../visuals/power-bi-visualization-tables.md
             - name: Treemaps
