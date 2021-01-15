@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 01/08/2021
 LocalizationGroup: Consumer
-ms.openlocfilehash: f1265a8eb3fb4a7a1ec18a74c6b3a7d28b3b09ba
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: a4a89fd9db3ea3d92012bdaffdcaf248f7546c86
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578251"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053472"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Adicionar comentários a um dashboard ou relatório
 
@@ -92,7 +92,7 @@ Além de adicionar comentários a um dashboard completo ou a uma página de rela
 5. Selecione **Fechar** para voltar ao dashboard ou relatório.
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>Chame a atenção dos seus colegas ao utilizar o símbolo @
-Quer esteja a criar um comentário num dashboard, relatório, mosaico ou elemento visual, chame a atenção dos seus colegas ao utilizar o símbolo "\@".  Quando escreve o símbolo "\@", o Power BI abre uma lista pendente onde pode procurar e selecionar pessoas da sua organização. Qualquer nome verificado que tenha o símbolo "\@" no início é apresentado a azul. Os indivíduos @mentioned receberão imediatamente um e-mail na sua caixa de entrada e, se estiverem a utilizar uma aplicação Power BI Mobile, receberão uma notificação push no seu dispositivo. Podem abrir o comentário diretamente a partir da notificação, ver os dados e responder em conformidade.
+Quer esteja a criar um comentário num dashboard, relatório, mosaico ou elemento visual, chame a atenção dos seus colegas ao utilizar o símbolo "\@".  Quando escreve o símbolo "\@", o Power BI abre uma lista pendente onde pode procurar e selecionar pessoas da sua organização. Qualquer nome verificado que tenha o símbolo "\@" no início é apresentado a azul. Os indivíduos @mentioned receberão imediatamente um e-mail na sua caixa de entrada e, se estiverem a utilizar uma aplicação Power BI Mobile, receberão uma notificação push no seu dispositivo. É possível abrir o relatório ou dashboard diretamente a partir da notificação, ver o comentário, ver os dados e responder em conformidade.
 
 Aqui está uma conversa que estou a ter com o *designer* da visualização. O símbolo @ é utilizado para garantir que vejo o comentário. Recebo uma notificação e seleciono a ligação para abrir este dashboard e a conversação relevante.  
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/22/2020
-ms.openlocfilehash: f6ca898bafff0b3375df65b63f913eb81d8dc006
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: de954c5950f550c3ed2f3c340714851f5233d3e8
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888955"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969771"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Tutorial: Incorporar conteúdos do Power BI através de uma aplicação de amostra *Embed for your customers* (Incorporar para os seus clientes)
 
@@ -147,7 +147,7 @@ A tabela abaixo descreve algumas das principais diferenças entre os métodos de
 
 |Consideração  |Service principal (Principal de serviço)  |Master user (Utilizador principal)  |
 |---------|---------|---------|
-|Mecanismo     |O [objeto principal de serviço](/azure/active-directory/develop/app-objects-and-service-principals.md#service-principal-object) da sua aplicação do Azure AD permite ao Azure AD autenticar a sua aplicação de solução incorporada no Power BI.        |A sua aplicação do Azure AD utiliza as credenciais (nome de utilizador e palavra-passe) de um utilizador do Power BI para autenticar no Power BI.         |
+|Mecanismo     |O [objeto principal de serviço](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) da sua aplicação do Azure AD permite ao Azure AD autenticar a sua aplicação de solução incorporada no Power BI.        |A sua aplicação do Azure AD utiliza as credenciais (nome de utilizador e palavra-passe) de um utilizador do Power BI para autenticar no Power BI.         |
 |Segurança     |O *principal de serviço* é o método de autorização recomendado do Azure AD. Se estiver a utilizar um principal de serviço*, pode autenticar com um *segredo da aplicação* ou um *certificado*.</br></br>Este tutorial só abrange a utilização do *principal de serviço* com um *segredo da aplicação*. Para incorporar com um *principal de serviço* e um *certificado*, consulte o artigo [principal de serviço com um certificado](embed-service-principal-certificate.md).         |Este método de autenticação não é considerado tão seguro como utilizar um *principal de serviço*. Isto deve-se ao facto de ter de permanecer vigilante relativamente às credenciais do *utilizador principal* (nome de utilizador e palavra-passe). Por exemplo, não as pode expor na sua aplicação incorporada e deve alterar a palavra-passe com frequência.         |
 |Permissões delegadas do Azure AD |Não necessárias. |O seu *utilizador principal* ou um administrador tem de dar o consentimento para a sua aplicação aceder às [permissões](/azure/active-directory/develop/v2-permissions-and-consent) da API REST do Power BI (também denominadas âmbitos). Por exemplo, *Report.ReadWrite.All*. |
 |Acesso ao serviço Power BI |Não pode aceder ao serviço Power BI com um *principal de serviço*.|Pode aceder ao serviço Power BI com as suas credenciais de *utilizador principal*.|
@@ -185,7 +185,7 @@ Para criar uma área de trabalho, faça o seguinte:
 
 ## <a name="step-4---create-and-publish-a-power-bi-report"></a>Passo 4 – Crie e publique um relatório do Power BI
 
-O seu próximo passo é criar um relatório e carregá-lo para a sua área de trabalho. Pode [criar o seu próprio relatório](/powerbi-docs/fundamentals/desktop-getting-started#build-reports) através do Power BI Desktop e [publicá-lo](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work) na sua área de trabalho. Em alternativa, pode carregar um relatório de amostra para a sua área de trabalho.
+O seu próximo passo é criar um relatório e carregá-lo para a sua área de trabalho. Pode [criar o seu próprio relatório](/power-bi/fundamentals/desktop-getting-started#build-reports) através do Power BI Desktop e [publicá-lo](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work) na sua área de trabalho. Em alternativa, pode carregar um relatório de amostra para a sua área de trabalho.
 
 >[!Tip]
 >Se já tiver uma área de trabalho com um relatório, pode ignorar este passo.
@@ -536,7 +536,7 @@ Siga estes passos para modificar a aplicação de amostra *Embed for your custom
 
     a. No terminal do IDE, execute `npm start`.
 
-    b. Abra um novo separador no browser e navegue para [http://localhost:5300](http://localhost:5300).
+    b. Abra um novo separador no browser e navegue para `http://localhost:5300`.
 
 # <a name="python"></a>[Python](#tab/python)
 
@@ -571,7 +571,7 @@ Siga estes passos para modificar a aplicação de amostra *Embed for your custom
 
     a. No **PowerShell** ou na **Linha de Comandos**, navegue até à pasta **Python** > **Embed for your customers** (Incorporar para os seus clientes)  > **AppOwnsData** e execute `flask run`.
 
-    b. Abra um novo separador no browser e navegue para [http://localhost:5300](http://localhost:5300).
+    b. Abra um novo separador no browser e navegue para `http://localhost:5300`.
 
 ---
 
@@ -579,7 +579,7 @@ Siga estes passos para modificar a aplicação de amostra *Embed for your custom
 
 Após configurar e executar a aplicação de amostra *Embed for your customers* (Incorporar para os seus clientes), pode começar a desenvolver a sua própria aplicação.
 
-Quando estiver pronto, veja os requisitos para [passar para a fase de produção](move-to-production.md). Também irá precisar de uma [capacidade](embedded-capacity.md), pelo que deve ver o artigo sobre [planeamento de capacidades](embedded-capacity-planning.md) para compreender que SKU melhor se adequa às suas necessidades.
+Quando estiver pronto, veja os requisitos para [passar para a fase de produção](move-to-production.md). Também precisará de uma [capacidade](embedded-capacity.md), pelo que deve ver o artigo sobre [planeamento de capacidades](embedded-capacity-planning.md) para compreender que SKU melhor se adequa às suas necessidades.
 
 
 ## <a name="next-steps"></a>Passos seguintes

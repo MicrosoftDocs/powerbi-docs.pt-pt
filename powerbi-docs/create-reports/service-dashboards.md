@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 09/19/2019
+ms.date: 01/08/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 092ce10b527c6160cb27de5e3de0ed5852219f6a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2d5eb4047b467544110a5802fa1d41b7ed65bb6a
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417296"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053357"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introdução aos dashboards para designers do Power BI
 
@@ -53,9 +53,9 @@ Os [Relatórios](../consumer/end-user-reports.md) e os dashboards parecem semelh
 | Origens de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
 | Disponível no Power BI Desktop |Não | Yes. Podem criar e ver relatórios no Power BI Desktop |
 | Subscrever |Yes. Pode subscrever um dashboard |Yes. Pode subscrever uma página de relatório |
-| Filtragem |Não. Não pode filtrar nem segmentar |Yes. Várias formas diferentes de filtrar, realçar e segmentar |
+| Filtragem |Não. Não pode filtrar nem segmentar um dashboard. *Pode* filtrar um [mosaico de dashboard no modo de detalhe](../consumer/end-user-focus.md#working-in-focus-mode), mas não pode guardar o filtro. |Yes. Várias formas diferentes de filtrar, realçar e segmentar |
 | Destaques |Yes. Pode definir um dashboard como o seu dashboard *em destaque* |Não |
-| Favorito | Yes. Pode definir múltiplos dashboards como *favoritos* | Yes. Pode definir múltiplos relatórios como *favoritos*
+| Favorito | Yes. Pode definir múltiplos dashboards como *favoritos* | Yes. Pode definir múltiplos relatórios como *favoritos* |
 | Definir alertas |Yes. Disponível para mosaicos de dashboards em determinadas circunstâncias |Não |
 | Consultas de linguagem natural (Perguntas e Respostas) |Sim | Sim, desde que tenha permissões de edição para o relatório e o conjunto de dados subjacente |
 | Pode ver as tabelas e os campos de conjuntos de dados subjacentes |Não. Pode exportar dados, mas não pode ver tabelas e campos no próprio dashboard |Sim |

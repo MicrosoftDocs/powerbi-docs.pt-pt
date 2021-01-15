@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 12/18/2020
+ms.date: 01/08/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4a8234176dd44fd265ff2d4a6af8e1b5568a642c
-ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
+ms.openlocfilehash: 1253c2b2548a7e6333840b8d33fdf255d5634be5
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97699278"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053403"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Subscrever relatórios e dashboards no serviço Power BI para si e para outras pessoas
 
@@ -128,6 +128,7 @@ Os administradores do Power BI podem utilizar os registos de auditoria do Power 
 - A opção para permitir o acesso ao relatório/dashboard é sempre apresentada como ativada ao editar uma subscrição existente.  Se desselecionar esta opção e guardar a subscrição, esse estado será guardado. No entanto, a opção será marcada por predefinição se editar novamente o relatório.
 - Se tiver um endereço de e-mail alternativo, mas não tiver um principal, o Power BI irá utilizar o alternativo para enviar a subscrição.
 - Se subscrever utilizadores externos a um relatório ou dashboard, estes receberão uma notificação de partilha imediatamente após selecionar **Guardar e fechar** no painel de subscrição. Esta notificação é enviada apenas para utilizadores externos (e não para utilizadores internos), pois estes precisam de uma ligação de convite para ver o relatório ou dashboard. 
+- Existe um limite para o número de subscritores de um relatório ou dashboard. Depois de ultrapassar 200 subscritores, poderá deparar-se com problemas com a entrega.
 
 ### <a name="dashboards"></a>Dashboards
 

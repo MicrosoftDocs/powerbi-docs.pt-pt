@@ -1,37 +1,33 @@
 ---
-title: Utilizar o elemento visual das Perguntas e Respostas do Power BI
-description: Como configurar o elemento visual das Perguntas e Respostas do Power BI
-author: rien
-ms.author: rien
-ms.reviewer: mihart
+title: Criar um elemento visual das Perguntas e Respostas no Power BI
+description: Como criar e formatar um elemento visual das Perguntas e Respostas do Power BI no Power BI Desktop ou no serviço Power BI.
+author: maggiesMSFT
+ms.author: maggies
+ms.reviewer: rien
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 11/19/2019
-ms.openlocfilehash: 43da67114808538d64aa2ceb7f59af590ee23857
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/05/2021
+ms.openlocfilehash: 1cf80593458c12a1bee07ed40202e3613fdcb5e9
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418952"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961368"
 ---
-# <a name="introduction-to-power-bi-qa-visualizations"></a>Introdução às visualizações das Perguntas e Respostas do Power BI
+# <a name="create-a-qa-visual-in-power-bi"></a>Criar um elemento visual das Perguntas e Respostas no Power BI
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+O elemento visual das Perguntas e Respostas permite aos utilizadores colocar perguntas em linguagem natural e obter respostas sob a forma de um elemento visual. Os *consumidores* podem utilizá-lo para obter rapidamente respostas aos respetivos dados. Os *designers* também podem utilizá-lo para criar elementos visuais rapidamente. Se for designer de relatórios, este artigo é para si. Pode fazer duplo clique em qualquer local num relatório e utilizar linguagem natural para começar. Neste artigo, irá criar, formatar e personalizar um elemento visual das Perguntas e Respostas. Suporta temas e outras opções de formatação predefinidas disponíveis dentro do Power BI. Depois de o criar, este funciona como qualquer outro elemento visual e suporta a filtragem cruzada, o realce cruzado e marcadores. 
 
-## <a name="what-are-qa-visualizations"></a>O que são as visualizações das Perguntas e Respostas?
-
-O elemento visual das Perguntas e Respostas permite aos utilizadores colocar perguntas em linguagem natural e obter respostas sob a forma de um elemento visual. 
+Está à procura de mais contexto sobre as Perguntas e Respostas no Power BI? Veja o artigo [Introdução às Perguntas e Respostas](../natural-language/q-and-a-intro.md). 
 
 ![Instruções do elemento visual das Perguntas e Respostas](../natural-language/media/qna-visual-walkthrough.gif)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-O elemento visual das Perguntas e Respostas pode ser utilizado como uma ferramenta que permite aos *consumidores* receber rapidamente respostas aos seus dados, e aos *designers* criar elementos visuais em relatórios, simplesmente ao fazer duplo clique em qualquer local de um relatório e utilizar linguagem natural para começar. Uma vez que o comportamento é idêntico ao de qualquer outro elemento visual, o elemento visual das Perguntas e Respostas pode ter filtragem cruzada/realce cruzado e também suporta marcadores. O elemento visual das Perguntas e Respostas também suporta temas e outras opções de formatação predefinidas disponíveis dentro do Power BI.
-
-O elemento visual das Perguntas e Respostas consiste em quatro componentes essenciais;
+O elemento visual das Perguntas e Respostas consiste em quatro componentes essenciais:
 
 - A caixa de perguntas. É aqui que os utilizadores escrevem a sua pergunta e recebem sugestões para ajudar a concluir as perguntas.
 - Uma lista pré-preenchida de perguntas sugeridas.
@@ -40,20 +36,20 @@ O elemento visual das Perguntas e Respostas consiste em quatro componentes essen
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-1. Este tutorial utiliza o [ficheiro PBIX de exemplo de Vendas e Marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix). 
+1. Transfira o [ficheiro PBIX de exemplo de Vendas e Marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) para acompanhar.
 
-1. Na secção superior esquerda da barra de menus do Power BI Desktop, selecione **Ficheiro** > **Abrir**
+1. Na secção superior esquerda do Power BI Desktop, selecione **Ficheiro** > **Abrir**.
    
-2. Localize a sua cópia do **ficheiro PBIX de exemplo de Vendas e Marketing**
+2. Localize a sua cópia do **ficheiro PBIX de exemplo de Vendas e Marketing**.
 
 1. Abra o ficheiro na vista de relatório ![Captura de ecrã do ícone de vista de relatório.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+1. Selecione o sinal de adição ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
-Se for apresentado um erro ao criar um elemento visual das Perguntas e Respostas, veja a secção de [limitações](../natural-language/q-and-a-limitations.md) para saber se a configuração de origens de dados é suportada.    
+Se for apresentado um erro ao criar um elemento visual das Perguntas e Respostas, certifique-se de que vê o artigo [Limitações das Perguntas e Respostas](../natural-language/q-and-a-limitations.md) para saber se a configuração de origens de dados é suportada.    
 
 > [!NOTE]
-> Para partilhar o seu relatório com outro utilizador do Power BI, é necessário que ambos tenham licenças individuais do Power BI Pro ou que o relatório seja guardado numa capacidade Premium. Veja [partilhar relatórios](../collaborate-share/service-share-reports.md).
+> Para partilhar o seu relatório com outro utilizador do Power BI, é necessário que ambos tenham licenças individuais do Power BI Pro ou que guarde o relatório numa área de trabalho com capacidade Premium. Veja [partilhar relatórios](../collaborate-share/service-share-dashboards.md).
 
 ## <a name="create-a-qa-visual-using-a-suggested-question"></a>Criar um elemento visual das Perguntas e Respostas com uma pergunta sugerida
 Neste exercício, vamos selecionar uma das perguntas sugeridas para criar o nosso elemento visual das Perguntas e Respostas. 
@@ -77,7 +73,7 @@ Neste exercício, vamos selecionar uma das perguntas sugeridas para criar o noss
 ## <a name="create-a-qa-visual-using-a-natural-language-query"></a>Criar um elemento visual das Perguntas e Respostas com uma consulta em linguagem natural
 No exemplo anterior, selecionámos uma das perguntas sugeridas para criar o nosso elemento visual das Perguntas e Respostas.  Neste exercício, vamos escrever a nossa própria pergunta. À medida que escrevemos a nossa pergunta, o Power BI ajuda-nos no preenchimento automático, sugestões e feedback.
 
-Se não sabe que tipo de perguntas fazer ou qual a terminologia a utilizar, expanda **Mostrar todas as sugestões** ou percorra o painel Campos, que se encontra no lado direito da tela. Assim, ficará familiarizado com os termos e o conteúdo do conjunto de dados Vendas e Marketing.
+Se não sabe que tipo de perguntas fazer ou qual a terminologia a utilizar, expanda **Mostrar todas as sugestões** ou percorra o painel Campos, no lado direito da tela. O painel Campos irá familiarizá-lo com os termos e os conteúdos do conjunto de dados Vendas e Marketing.
 
 ![tela com Mostrar todas as sugestões e o painel Campos destacados](media/power-bi-visualization-q-and-a/power-bi-terminology.png)
 
@@ -125,7 +121,7 @@ Formate o elemento visual das Perguntas e Respostas, o campo de perguntas e a fo
 ![Elemento visual das Perguntas e Respostas com os nossos resultados de formatação](media/power-bi-visualization-q-and-a/power-bi-q-and-a-format.png)
 
 ## <a name="convert-your-qa-visual-into-a-standard-visual"></a>Converter o seu elemento visual das Perguntas e Respostas num elemento visual padrão
-Formatámos um pouco o nosso elemento visual de gráfico de colunas seguro para daltónicos, adicionando um título e um limite. Agora, estamos prontos para o converter num elemento visual padrão no nosso relatório e também para o afixar a um dashboard.
+Formatámos um pouco o nosso elemento visual de gráfico de colunas seguro para daltónicos, ao adicionar um título e um limite. Agora, estamos prontos para o converter num elemento visual padrão no nosso relatório e também para o afixar a um dashboard.
 
 Selecione o ícone ![ícone de engrenagem](media/power-bi-visualization-q-and-a/power-bi-convert-icon.png) para **Transforme este resultado de Q&A num elemento visual padrão**.
 
@@ -144,7 +140,7 @@ Selecionar o ícone de engrenagem abre o painel Ferramentas do elemento visual d
 
 ![Elemento visual das Perguntas e Respostas com o ícone Ferramentas selecionado](media/power-bi-visualization-q-and-a/power-bi-q-and-a-tooling.png)
 
-Utilize o painel Ferramentas para ensinar termos que as Perguntas e Respostas não reconhecem, para gerir esses termos e para gerir as perguntas sugeridas deste conjunto de dados e relatório. No painel Ferramentas, pode também rever perguntas que foram colocadas com este elemento visual das Perguntas e Respostas e ver perguntas que foram sinalizadas por utilizadores. Para saber mais, veja [Q&A Tooling intro](../natural-language/q-and-a-tooling-intro.md) (Introdução às Ferramentas das Perguntas e Respostas).
+Utilize o painel Ferramentas para ensinar termos que as Perguntas e Respostas não reconhecem, para gerir esses termos e para gerir as perguntas sugeridas deste conjunto de dados e relatório. No painel Ferramentas, também pode rever perguntas que os utilizadores tenham colocado neste elemento visual das Perguntas e Respostas e ver perguntas que os utilizadores tenham sinalizado. Para saber mais, veja o artigo [Introdução às ferramentas das Perguntas e Respostas para preparar as Perguntas e Respostas do Power BI](../natural-language/q-and-a-tooling-intro.md).
 
 ![O painel de Ferramentas das Perguntas e Respostas](media/power-bi-visualization-q-and-a/power-bi-q-and-a-tooling-pane.png)
 
@@ -153,7 +149,7 @@ O elemento visual das Perguntas e Respostas integra-se no Office e no Bing para 
 
 ## <a name="next-steps"></a>Próximos passos
 
-Existem diversas formas de integrar linguagem natural. Para obter mais informações, veja os seguintes artigos:
+Existem várias formas de integrar linguagem natural. Para obter mais informações, veja os seguintes artigos:
 
 _ [Ferramentas das Perguntas e Respostas](../natural-language/q-and-a-tooling-intro.md)
 * [Q&A Best Practices](../natural-language/q-and-a-best-practices.md) (Melhores Práticas das Perguntas e Respostas)

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/17/2020
-ms.openlocfilehash: 7ff6ada14128a6231b84adf83d90b3871e1c7537
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 01/06/2021
+ms.openlocfilehash: 6b0277b342d454536154207ede2cb4bc2a2ba340
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888817"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155670"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capacity and SKUs in Power BI embedded analytics (Capacidade e SKUs na análise incorporada do Power BI)
 
@@ -27,8 +27,10 @@ A capacidade é um conjunto dedicado de recursos de utilização exclusiva. Perm
 ## <a name="what-is-embedded-analytics"></a>O que é a análise incorporada?
 
 A análise incorporada do Power BI inclui duas soluções:
+
 * *Power BI Embedded* – oferta do Azure
-* Incorporar o Power BI como parte do *Power BI Premium* – oferta do Office
+
+* Incorporar o Power BI como parte do *Power BI Premium* – oferta do Microsoft Office
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 

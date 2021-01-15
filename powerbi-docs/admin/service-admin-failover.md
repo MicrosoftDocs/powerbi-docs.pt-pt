@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Administration
-ms.openlocfilehash: ff41f702edc605ee346aa10a759e633377597504
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9ed9b42a42e497eaa332b3b1eb93be6247ddc542
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408970"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961230"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>FAQ sobre elevada disponibilidade, ativação pós-falha e recuperação após desastre do Power BI
 
@@ -26,7 +26,7 @@ O Power BI é um software como um serviço (SaaS) totalmente gerido.  Foi conceb
 
 ## <a name="what-is-a-power-bi-failover"></a>O que é uma ativação pós-falha do Power BI?
 
-O Power BI mantém múltiplas instâncias de cada componente nos datacenters do Azure (também denominados regiões) para garantir a continuidade de negócio. Se houver uma indisponibilidade ou um problema que cause a inacessibilidade ou inoperabilidade do Power BI numa região, o Power BI efetua a ativação pós-falha de todos os seus componentes nessa região para uma instância de cópia de segurança. A ativação pós-falha restaura a disponibilidade e operabilidade da instância do serviço Power BI numa nova região (normalmente, na mesma localização geográfica, conforme indicado no [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)).
+O Power BI mantém múltiplas instâncias de cada componente nos datacenters do Azure (também denominados regiões) para garantir a continuidade de negócio. Se houver uma indisponibilidade ou um problema que cause a inacessibilidade ou inoperabilidade do Power BI numa região, o Power BI efetua a ativação pós-falha de todos os seus componentes nessa região para uma instância de cópia de segurança. A ativação pós-falha restaura a disponibilidade e operabilidade da instância do serviço Power BI numa nova região (normalmente, na mesma localização geográfica, conforme indicado no [Centro de Confiança da Microsoft](https://www.microsoft.com/trust-center/product-overview).
 
 Uma instância do serviço Power BI ativada após a falha suporta apenas _operações de leitura_, o que significa que as seguintes operações não são suportadas durante a ativação pós-falha: atualizações, operações de publicação de relatórios, modificações de dashboards ou relatórios e outras operações que exigem alterações a metadados do Power BI (por exemplo, a inserção de um comentário num relatório).  As operações de leitura, como a apresentação de dashboards e de relatórios (que não são baseadas no DirectQuery ou no Live Connect para origens de dados no local), continuam a funcionar normalmente.
 
@@ -36,7 +36,7 @@ Todos os componentes do serviço Power BI sincronizam regularmente as respetivas
 
 ## <a name="where-are-the-failover-clusters-located"></a>Onde se encontram os clusters de ativação pós-falha?
 
-As instâncias de cópia de segurança residem na mesma área geográfica que selecionou quando inscreveu a sua organização no Power BI, exceto nas áreas indicadas no [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location). Uma área geográfica pode conter várias regiões e a Microsoft pode replicar dados para qualquer região de uma determinada área geográfica, para resiliência de dados. A Microsoft não irá replicar ou mover dados de clientes para fora da área geográfica. Para obter um mapeamento das áreas geográficas oferecidas pelo Power BI e das regiões dentro delas, veja o [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
+As instâncias de cópia de segurança residem na mesma área geográfica que selecionou quando inscreveu a sua organização no Power BI, exceto nas áreas indicadas no [Microsoft Trust Center](https://www.microsoft.com/trust-center/product-overview). Uma área geográfica pode conter várias regiões e a Microsoft pode replicar dados para qualquer região de uma determinada área geográfica, para resiliência de dados. A Microsoft não irá replicar ou mover dados de clientes para fora da área geográfica. Para obter um mapeamento das áreas geográficas oferecidas pelo Power BI e das regiões dentro delas, veja o [Microsoft Trust Center](https://www.microsoft.com/trust-center/product-overview).
 
 ## <a name="how-does-microsoft-decide-to-fail-over"></a>Como é que a Microsoft determina quando realizar uma ativação pós-falha?
 

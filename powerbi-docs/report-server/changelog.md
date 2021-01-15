@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/31/2020
-ms.openlocfilehash: 7c1df405c80f50b7b98803b68ae2d3887013a623
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 01/06/2021
+ms.openlocfilehash: 51df40463a02c2c165ca6cde59ef2b16cda8860c
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886195"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053334"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registo de alterações do Power BI Report Server
 
@@ -23,6 +23,10 @@ Veja as [Novidades no Power BI Report Server](whats-new.md) para obter mais info
 
 ## <a name="october-2020"></a>Outubro de 2020
 - **Power BI Report Server**
+    - *Versão: 1.9.7675.15620 (Compilação 15.0.1104.300), Lançamento: 8 de janeiro de 2021*
+        - Correções de erros
+            - Foi corrigido um erro que ocorria na atualização de relatórios com duas ou mais origens de dados que apenas eram diferentes na utilização de letras maiúsculas e minúsculas.
+            - Foi corrigido um erro que ocorria na atualização de relatórios de determinadas combinações de associações aninhadas.
     - *Versão: 1.9.7627.11028 (Compilação 15.0.1104.264), Lançamento: 18 de novembro de 2020*
         - Correções de erros
             - Foi corrigido o problema que impedia que os utilizadores alterassem os campos no local através do portal.

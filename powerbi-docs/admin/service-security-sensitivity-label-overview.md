@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.custom: contperf-fy21q2
 ms.date: 12/20/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: de7715fc37748ee80cba61f9cc246ad9e1df5c33
-ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
+ms.openlocfilehash: d47d9b973eadb06095c2a2aebb8fe93cf6ab4414
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97708048"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969541"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Etiquetas de confidencialidade no Power BI
 
@@ -80,7 +80,7 @@ As etiquetas de confidencialidade também podem ser aplicadas no Power BI Desk
 
 >[!NOTE]
 >* Nesta versão de pré-visualização, podem existir algumas limitações. Veja [Limitações](#limitations).
->* Durante as primeiras 48 horas após a ativação da funcionalidade de pré-visualização do Information Protection, **é possível que se depare com problemas com os ficheiros .pbix que têm etiquetas de confidencialidade aplicadas (por exemplo, ao publicar o .pbix no serviço, ao transferir o .pbix do serviço)** . Tais problemas são esperados e serão resolvidos automaticamente no prazo de 48 horas.
+>* Para poder utilizar etiquetas de confidencialidade no Power BI Desktop, primeiro tem de [ativar a funcionalidade de pré-visualização da proteção de informações](service-security-apply-data-sensitivity-labels.md#apply-sensitivity-labels-in-power-bi-desktop-preview) e reiniciar o programa. Se o programa falhar depois de reiniciar, pode dever-se ao facto de o computador não possuir a versão da biblioteca de runtime do Visual C++ redistributable necessária. Caso se depare com essa falha, visite a [página de transferência da Atualização 3 do Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/download/details.aspx?id=53587) para obter instruções sobre como transferir e instalar a atualização. Depois de instalar a atualização, tente iniciar novamente o Power BI Desktop.
 
 Se aplicar uma etiqueta de confidencialidade no Desktop, quando publicar o trabalho no serviço ou quando carregar um ficheiro .pbix desse trabalho para o serviço, a etiqueta acompanha os dados para o serviço. No serviço, a etiqueta é aplicada ao conjunto de dados e ao relatório que obtém com o ficheiro. Se o conjunto de dados e o relatório já tiverem etiquetas de confidencialidade, essas etiquetas serão substituídas pela etiqueta proveniente do Desktop.
  

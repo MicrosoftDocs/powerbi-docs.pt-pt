@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/09/2020
+ms.date: 1/11/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 383c9bd20c86d89c5bf51c64c8027f86c1bfaab9
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 3a3a0f44fd9f02942ecc8f6646d219ace649b295
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96998973"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110782"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>Dataset connectivity with the XMLA endpoint (Conectividade dos conjuntos de dados com o ponto final XMLA)
 
@@ -36,9 +36,9 @@ Abaixo, estão algumas das ferramentas mais comuns utilizadas com o Azure Analys
 
 **Visual Studio com projetos do Analysis Services**  – também conhecido como SQL Server Data Tools, ou simplesmente **SSDT**, esta é uma ferramenta de criação de modelos de nível empresarial para modelos tabulares do Analysis Services. As extensões dos projetos do Analysis Services são suportadas em todas as edições do Visual Studio 2017 e posteriores, incluindo a Community Edition gratuita. É necessária a extensão com a versão 2.9.14 ou superior para implementar os modelos tabulares numa área de trabalho Premium. Ao implementar numa área de trabalho Premium, o modelo tem de estar no nível de compatibilidade de 1500 ou superior. A leitura/escrita XMLA é necessária na carga de trabalho dos conjuntos de dados. Para obter mais informações, veja [Tools for Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true) (Ferramentas do Analysis Services).
 
-**SQL Server Management Studio (SSMS)**   – suporta consultas DAX, MDX, XMLA. Execute operações de atualização detalhadas e scripting de metadados de conjuntos de dados com a [Tabular Model Scripting Language](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (Linguagem TMSL). É necessária a permissão só de leitura para as operações de consulta. É necessária a permissão de leitura/escrita para o scripting de metadados. É necessário o SSMS com a versão 18.7.1 ou superior. Faça o download  [aqui](/sql/ssms/download-sql-server-management-studio-ssms).
+**SQL Server Management Studio (SSMS)**   – suporta consultas DAX, MDX, XMLA. Execute operações de atualização detalhadas e scripting de metadados de conjuntos de dados com a [Tabular Model Scripting Language](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (Linguagem TMSL). É necessária a permissão só de leitura para as operações de consulta. É necessária a permissão de leitura/escrita para o scripting de metadados. É necessária a versão **18.8** ou superior do SSMS. Faça o download  [aqui](/sql/ssms/download-sql-server-management-studio-ssms).
 
-**SQL Server Profiler**  – instalado com o SSMS, esta ferramenta permite o rastreio e a depuração de eventos de conjuntos de dados. Embora oficialmente preterido para o SQL Server, o Profiler continua a ser incluído no SSMS e continua a ser suportado para o Analysis Services e o Power BI Premium. É necessária a permissão só de leitura XMLA. Para obter mais informações, veja  [SQL Server Profiler for Analysis Services](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current&preserve-view=true) (SQL Server Profiler para o Analysis Services).
+**SQL Server Profiler**  – instalado com o SSMS, esta ferramenta permite o rastreio e a depuração de eventos de conjuntos de dados. Embora oficialmente preterido para o SQL Server, o Profiler continua a ser incluído no SSMS e continua a ser suportado para o Analysis Services e o Power BI Premium. É necessária a versão **18.8** ou superior do SQL Server Profiler e a definição só de leitura XMLA tem de estar ativada na capacidade Premium. O utilizador tem de especificar o conjunto de dados ([catálogo inicial](#initial-catalog)) ao ligar-se ao ponto final XMLA. Para obter mais informações, veja  [SQL Server Profiler for Analysis Services](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current&preserve-view=true) (SQL Server Profiler para o Analysis Services).
 
 **Assistente de Implementação do Analysis Services**  – instalado com o SSMS, esta ferramenta permite a implementação de projetos de modelos tabulares criados pelo Visual Studio nas áreas de trabalho do Analysis Services e do Power BI Premium. Pode ser executado interativamente ou na linha de comandos da automatização. É necessária a permissão de escrita/leitura XMLA. Para obter mais informações, veja [Analysis Services Deployment Wizard](/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard?view=power-bi-premium-current&preserve-view=true) (Assistente de Implementação do Analysis Services).
 
@@ -99,7 +99,9 @@ Em **Definições** > **Premium** > **Ligação da Área de Trabalho** da área 
 
 ### <a name="initial-catalog"></a>Catálogo inicial
 
-Com algumas ferramentas, como o SQL Server Profiler, pode ter de especificar um *Catálogo Inicial*. Especifique um conjunto de dados (base de dados) na sua área de trabalho. Na caixa de diálogo **Ligar ao Servidor**, selecione **Opções** > **Propriedades da Ligação** > **Ligar à base de dados** e introduza o nome do conjunto de dados.
+Com algumas ferramentas, como o SQL Server Profiler, tem de especificar um *Catálogo Inicial*, que é o conjunto de dados (base de dados) ao qual se ligará na área de trabalho. Na caixa de diálogo **Ligar ao Servidor**, selecione **Opções** > **Propriedades da Ligação** > **Ligar à base de dados** e introduza o nome do conjunto de dados.
+
+![Selecionar o conjunto de dados no SQL Server Profiler](media/service-premium-connect-tools/sql-profiler-connection-properties.png)
 
 ### <a name="duplicate-workspace-names"></a>Duplicar nomes da área de trabalho
 
@@ -126,6 +128,10 @@ Os seguintes conjuntos de dados não estão acessíveis pelo ponto final XMLA. E
 - Conjuntos de dados com base numa ligação em direto a um conjunto de dados do Power BI noutra área de trabalho. Para obter mais informações, veja [Introdução aos conjuntos de dados em áreas de trabalho](../connect-data/service-datasets-across-workspaces.md).
 - Conjuntos de dados com envio de dados via Push através da API REST.
 - Conjuntos de dados de livros do Excel.
+
+### <a name="serverworkspace-alias"></a>Alias da área de trabalho/servidor
+
+Os aliases do nome de servidor, suportados no Azure Analysis Services, não são suportados para áreas de trabalho do Power BI Premium.
 
 ## <a name="security"></a>Segurança
 

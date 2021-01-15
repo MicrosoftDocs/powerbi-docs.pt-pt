@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 408b5a03b415e6b1dabdb762eefee81e1a4fe483
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: cdb3543bc65e21f53cc21dea0f4da62910a7bd55
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887368"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110849"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Segurança ao nível da linha com o Power BI Embedded
 
@@ -320,15 +320,18 @@ O valor fornecido no blob de identidade deve ser um token de acesso válido para
 
 ## <a name="on-premises-data-gateway-with-service-principal"></a>Gateway de dados no local com o principal de serviço
 
-Os clientes que configuram a segurança ao nível da linha (RLS) através de uma origem de dados dinâmica no local do SQL Server Analysis Services (SSAS) podem usufruir da nova capacidade do [principal de serviço](embed-service-principal.md) para gerir os utilizadores e o respetivo acesso a dados no SSAS ao integrar com o **Power BI Embedded**.
+Os clientes que utilizam uma origem de dados de ligação dinâmica no local do SQL Server Analysis Services (SSAS) podem usufruir da capacidade do [principal de serviço](embed-service-principal.md) para gerir os utilizadores e o respetivo acesso aos dados no SSAS através da integração no **Power BI Embedded**.
 
 Utilizar as [APIs REST Power BI](/rest/api/power-bi/) permite-lhe especificar a identidade efetiva das ligações dinâmicas no local do SSAS para um token de incorporação através de um [objeto de principal de serviço](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object).
 
-Até agora, para poder especificar a identidade efetiva da ligação dinâmica no local do SSAS, o utilizador principal que gere o token de incorporação devia ser um administrador do gateway. Agora, em vez de exigir que o utilizador seja um administrador do gateway, o administrador do gateway pode dar ao utilizador permissão dedicada à origem de dados. Isto permite que o utilizador ignore a identidade efetiva ao gerar o token de incorporação. Esta nova capacidade permite incorporar com o principal de serviço numa ligação SSAS dinâmica.
+Até agora, para poder especificar a identidade efetiva da ligação dinâmica no local do SSAS, o *utilizador principal* que gere o token de incorporação devia ser um administrador do gateway. Agora, em vez de exigir que o utilizador seja um administrador do gateway, o administrador do gateway pode dar ao utilizador permissão dedicada à origem de dados. Isto permite que o utilizador ignore a identidade efetiva ao gerar o token de incorporação. Esta nova capacidade permite incorporar com o principal de serviço numa ligação SSAS dinâmica.
 
-Para ativar este cenário, o administrador do gateway utiliza a [API REST Adicionar Utilizador da Origem de Dados](/rest/api/power-bi/gateways/adddatasourceuser) para dar ao principal de serviço a permissão *ReadOverrideEffectiveIdentity* do Power BI Embedded.
+Para ativar este cenário, o administrador do gateway utiliza a [API REST Adicionar Utilizador da Origem de Dados](/rest/api/power-bi/gateways/adddatasourceuser) para dar ao principal de serviço a permissão *ReadOverrideEffectiveIdentity* da origem de dados do SSAS.
 
 Não pode configurar esta permissão com o portal de administração. Esta permissão só é configurada com a API. No portal de administração, verá uma indicação para utilizadores e SPNs com essas permissões.
+
+>[!NOTE]
+>Se estiver ligado a uma base de dados do SSAS sem o RLS configurado, continua a ter de fornecer uma identidade efetiva (a identidade do administrador do servidor do SSAS) na chamada de criação do token incorporado.
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
