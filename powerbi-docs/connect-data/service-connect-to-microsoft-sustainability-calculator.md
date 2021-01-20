@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 12/22/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 730a997a6d1d304fe868dd5bdd5bfbed6e359d91
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: bff53ac0e230a91dd980b461340ae4109f551999
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927144"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565556"
 ---
 # <a name="microsoft-sustainability-calculator-support-page"></a>Página de Suporte do Microsoft Sustainability Calculator
 
@@ -165,7 +165,7 @@ As emissões podem ser reportadas como parte das emissões de carbono indiretas 
 
 **O que posso fazer para reduzir ainda mais as emissões?**
 
-Ser eficiente em termos de recursos e custos no Azure reduz o impacto ambiental da utilização do Azure. Por exemplo, as máquinas virtuais não utilizadas são desnecessárias, tanto na cloud como no local. O dimensionamento correto das máquinas virtuais para melhorar os fatores de utilização de computação (CUF) diminui a utilização de energia por saída útil, tal como acontece com os servidores físicos. O [Azure Cost Management](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-best-practices) proporciona-lhe as ferramentas para planear, analisar e reduzir os gastos de forma a maximizar o investimento na cloud.
+Ser eficiente em termos de recursos e custos no Azure reduz o impacto ambiental da utilização do Azure. Por exemplo, as máquinas virtuais não utilizadas são desnecessárias, tanto na cloud como no local. O dimensionamento correto das máquinas virtuais para melhorar os fatores de utilização de computação (CUF) diminui a utilização de energia por saída útil, tal como acontece com os servidores físicos. O [Azure Cost Management](/azure/cost-management-billing/costs/cost-mgt-best-practices) proporciona-lhe as ferramentas para planear, analisar e reduzir os gastos de forma a maximizar o investimento na cloud.
 
 #### <a name="methodology"></a>Metodologia
 

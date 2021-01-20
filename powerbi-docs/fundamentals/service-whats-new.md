@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 04/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: aac8eac050a3c864833d16a12016a1cc0ae398b7
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 262f6d4ba95828ed77f1a3161ac1a9fca46f99f3
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888357"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565009"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
 Consulte esta página para ver problemas conhecidos e funcionalidades lançados recentemente no **Serviço Power BI**. Para obter informações sobre “Novidades” relacionadas, veja:
@@ -61,7 +61,7 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 ### <a name="october-2019"></a>Outubro de 2019
 * Nova ação do Power Automate para atualizar conjuntos de dados do Power BI.
 * [Lista de contactos](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) para relatórios e dashboards no serviço Power BI.
-* Disponibilidade geral do [Machine Learning Automatizado](../transform-model/service-machine-learning-automated.md)
+* Disponibilidade geral do [Machine Learning Automatizado](../transform-model/dataflows/dataflows-machine-learning-integration.md)
 * Pré-visualização pública da vista de linhagem de dados do Power BI.
 
 ### <a name="september-2019"></a>Setembro de 2019

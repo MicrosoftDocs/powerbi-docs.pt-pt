@@ -9,12 +9,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/23/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6168a1fb8d64444b703c6acac21c3bac67c4219a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a622da545d4fa9fca8b9478f6d5293d2b34296e9
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396504"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191711"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Utilizar o Analisador de Desempenho para examinar o desempenho do elemento de relatório
 
@@ -58,7 +58,7 @@ As informações de registo de cada elemento visual incluem o tempo passado (dur
 * **Apresentação do elemento visual** – o tempo necessário para que o elemento visual surja no ecrã, incluindo o tempo necessário para obter imagens Web ou geocodificação. 
 * **Outros** – o tempo que o elemento visual necessita para preparar consultas, aguardar que outros elementos visuais sejam concluídos ou executar outro processamento em segundo plano.
 
-Os valores de **Duração (ms)** indicam a diferença entre um carimbo de data/hora de *início* e *fim* para cada operação. A maioria das operações de tela e elementos visuais é executada sequencialmente num único tópico da Interface de Utilizador, que é partilhado por várias operações. As durações comunicadas incluem o tempo despendido em fila de espera enquanto outras operações são concluídas. O [exemplo do Analisador de Desempenho](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer) no GitHub e a sua [documentação](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx) associada fornecem detalhes sobre como os elementos visuais consultam os dados e como efetuam a composição.
+Os valores de **Duração (ms)** indicam a diferença entre um carimbo de data/hora de *início* e *fim* para cada operação. A maioria das operações de tela e elementos visuais é executada sequencialmente num único tópico da Interface de Utilizador, que é partilhado por várias operações. As durações comunicadas incluem o tempo despendido em fila de espera enquanto outras operações são concluídas. O [exemplo do Analisador de Desempenho](https://github.com/microsoft/powerbi-desktop-samples/tree/main/Performance%20Analyzer) no GitHub e a sua [documentação](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx) associada fornecem detalhes sobre como os elementos visuais consultam os dados e como efetuam a composição.
 
 
 ![elementos de informações de registo](media/desktop-performance-analyzer/performance-analyzer-06.png)
@@ -94,5 +94,5 @@ Para obter mais informações sobre o **Power BI Desktop**, e sobre como começa
 
 Para obter informações sobre o exemplo do Analisador de Desempenho, veja os seguintes recursos.
 
-* [Exemplo do Analisador de Desempenho](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
-* [Documentação de exemplo do Analisador de Desempenho](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)
+* [Exemplo do Analisador de Desempenho](https://github.com/microsoft/powerbi-desktop-samples/tree/main/Performance%20Analyzer)
+* [Documentação de exemplo do Analisador de Desempenho](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)

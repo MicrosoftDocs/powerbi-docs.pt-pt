@@ -9,16 +9,16 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 647b9cce0835d21028da586ce3cf09f3383e544b
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 0e19f2c592f5a5249e80771edf4a16c02eb68708
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888886"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565117"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>Incorporar conteúdos do Power BI com o principal de serviço e um certificado
 
-A autenticação baseada em certificados permite-lhe ser autenticado pelo Azure Active Directory (Azure AD) com um certificado de cliente num dispositivo Windows, Android ou iOS ou guardado num [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts).
+A autenticação baseada em certificados permite-lhe ser autenticado pelo Azure Active Directory (Azure AD) com um certificado de cliente num dispositivo Windows, Android ou iOS ou guardado num [Azure Key Vault](/azure/key-vault/basic-concepts).
 
 Utilizar este método de autenticação permite-lhe gerir certificados a partir de um local central, ao utilizar a AC para obter rotação ou revogação.
 

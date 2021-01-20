@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/06/2021
-ms.openlocfilehash: 6b0277b342d454536154207ede2cb4bc2a2ba340
-ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
+ms.openlocfilehash: c27d95715fe436b59825390b1cc16111e83ffc1d
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98155670"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565001"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capacity and SKUs in Power BI embedded analytics (Capacidade e SKUs na análise incorporada do Power BI)
 
@@ -152,4 +152,4 @@ A seguinte tabela descreve os recursos e limites de cada SKU.
 >[Incorporar para a sua organização](embed-sample-for-your-organization.md)
 
 > [!div class="nextstepaction"]
-> [Incorporar a partir de aplicações](embed-from-apps.md)
+> [Incorporar a partir de aplicações](./index.yml)

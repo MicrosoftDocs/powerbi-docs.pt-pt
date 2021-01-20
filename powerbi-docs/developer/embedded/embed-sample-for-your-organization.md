@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 78ba14c8a715c927f35c32244734e66a5fb80473
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: da356800a49e6d8876a147862dd08541ed2999bc
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888978"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565686"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Incorporar conteúdos do Power BI numa aplicação para a sua organização
 
@@ -57,7 +57,7 @@ Se optar por configurar o ambiente manualmente, pode continuar abaixo.
 
 >[!NOTE]
 >Na sua própria aplicação, terá de navegar para *Autenticação* e, no campo *URIs de Redirecionamento*, introduza o endereço de redirecionamento.
-Para saber mais sobre o redirecionamento, veja [Restrições e limitações do URI de redirecionamento (URL de resposta)](https://docs.microsoft.com/azure/active-directory/develop/reply-url).
+Para saber mais sobre o redirecionamento, veja [Restrições e limitações do URI de redirecionamento (URL de resposta)](/azure/active-directory/develop/reply-url).
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurar o ambiente do Power BI
 
@@ -428,7 +428,7 @@ Os administradores globais ou os administradores de serviço Power BI podem perm
 Neste tutorial, aprendeu a incorporar conteúdos do Power BI numa aplicação com a sua conta de organização do Power BI. Agora pode tentar incorporar conteúdos do Power BI numa aplicação ao utilizar outras aplicações. Também pode tentar incorporar conteúdos do Power BI para os seus clientes (ainda não é suportada a incorporação de relatórios paginados):
 
 > [!div class="nextstepaction"]
-> [Incorporar a partir de aplicações](embed-from-apps.md)
+> [Incorporar a partir de aplicações](./index.yml)
 
 > [!div class="nextstepaction"]
 >[Incorporar para os seus clientes](embed-sample-for-customers.md)

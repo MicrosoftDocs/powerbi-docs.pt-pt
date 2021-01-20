@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: d4ef44cb0e03c5de7807f0e95cefa532353f4685
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: b98e761a9ac2578a1af43bdb2c536f73fc3cc5af
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885183"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565709"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Tutorial: Incorporar relatórios paginados do Power BI numa aplicação para a sua organização
 
@@ -209,7 +209,7 @@ Para incorporar com um utilizador convidado, utilize o URL: *`https://login.micr
 Neste tutorial, aprendeu a incorporar relatórios paginados do Power BI numa aplicação com a sua conta de organização do Power BI. 
 
 > [!div class="nextstepaction"]
-> [Incorporar a partir de aplicações](embed-from-apps.md)
+> [Incorporar a partir de aplicações](./index.yml)
 
 > [!div class="nextstepaction"]
 >[Incorporar conteúdo do Power BI para os seus clientes](embed-sample-for-customers.md)

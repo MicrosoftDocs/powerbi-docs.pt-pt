@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.openlocfilehash: c063d145919dfc6f075cf8945b88a5f3644dead7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 72b81f10b6337530ab05f1fcef0a17a5869af867
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415502"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226749"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server-pre-october-2020"></a>Alterar cadeias de ligação da origem de dados em relatórios do Power BI com o PowerShell – Power BI Report Server anterior a outubro de 2020
 
@@ -37,7 +37,7 @@ Pode alterar as cadeias de ligação das origens de dados dos relatórios do Pow
 2. Obtenha as informações da origem de dados existente para o ficheiro do Power BI através dos commandlets do PowerShell:
 
     ```powershell
-    Get-RsRestItemDataSource -RsItem '/MyPbixReport'
+    $dataSources = Get-RsRestItemDataSource -RsItem '/MyPbixReport'
     ```
 
     Para ver as informações da primeira origem de dados contida no relatório do Power BI: 

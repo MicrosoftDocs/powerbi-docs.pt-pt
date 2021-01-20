@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/22/2020
-ms.openlocfilehash: de954c5950f550c3ed2f3c340714851f5233d3e8
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: a0cfeaece56594c52a8d747350c5f9bfb0886cad
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969771"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565471"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Tutorial: Incorporar conteúdos do Power BI através de uma aplicação de amostra *Embed for your customers* (Incorporar para os seus clientes)
 
@@ -185,7 +185,7 @@ Para criar uma área de trabalho, faça o seguinte:
 
 ## <a name="step-4---create-and-publish-a-power-bi-report"></a>Passo 4 – Crie e publique um relatório do Power BI
 
-O seu próximo passo é criar um relatório e carregá-lo para a sua área de trabalho. Pode [criar o seu próprio relatório](/power-bi/fundamentals/desktop-getting-started#build-reports) através do Power BI Desktop e [publicá-lo](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work) na sua área de trabalho. Em alternativa, pode carregar um relatório de amostra para a sua área de trabalho.
+O seu próximo passo é criar um relatório e carregá-lo para a sua área de trabalho. Pode [criar o seu próprio relatório](../../fundamentals/desktop-getting-started.md#build-reports) através do Power BI Desktop e [publicá-lo](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work) na sua área de trabalho. Em alternativa, pode carregar um relatório de amostra para a sua área de trabalho.
 
 >[!Tip]
 >Se já tiver uma área de trabalho com um relatório, pode ignorar este passo.

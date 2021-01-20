@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: eb572c17705f06b989f15323322c0da11b1d85ac
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: 4e9d5783dd0c7d956f438358a5c20ad334a67aca
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600697"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565955"
 ---
 # <a name="automatic-page-refresh-in-power-bi"></a>Atualização automática de páginas no Power BI
 
@@ -283,7 +283,7 @@ Se notar que a capacidade está sobrecarregada com consultas de baixa prioridade
 
 **Quando estou ligado ao Analysis Services, não consigo ver o botão APR**
 
-* Verifique se o modelo do Analysis Services está no [modo DirectQuery](https://docs.microsoft.com/analysis-services/tabular-models/directquery-mode-ssas-tabular).
+* Verifique se o modelo do Analysis Services está no [modo DirectQuery](/analysis-services/tabular-models/directquery-mode-ssas-tabular).
 
 
 ## <a name="next-steps"></a>Próximos passos
@@ -297,4 +297,4 @@ Para obter mais informações, veja estes artigos:
 * [Origens de dados no Power BI Desktop](../connect-data/desktop-data-sources.md)
 * [Formatar e combinar dados no Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
 * [Ligar a livros do Excel no Power BI Desktop](../connect-data/desktop-connect-excel.md)   
-* [Introduzir dados diretamente no Power BI Desktop](../connect-data/desktop-enter-data-directly-into-desktop.md)   
+* [Introduzir dados diretamente no Power BI Desktop](../connect-data/desktop-enter-data-directly-into-desktop.md)

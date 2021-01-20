@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 33de464a1bb1389fadfbc7a85ded9365321e0a62
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 0852fcb2c932680f6c20aeee94a89c68f473e46d
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926290"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565722"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>Configuração automatizada da instalação de uma aplicação de modelo
 
@@ -42,7 +42,7 @@ O fluxo básico da automatização da configuração da instalação de uma apli
 
 1. O ISV adquire um token *apenas de aplicação* com base num [principal de serviço (token apenas de aplicação)](../embedded/embed-service-principal.md), que é registado no inquilino do ISV.
 
-1. Com as [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/), o ISV cria um *pedido de instalação* que contém a configuração dos parâmetros específica do utilizador, conforme preparado pelo ISV.
+1. Com as [APIs REST do Power BI](/rest/api/power-bi/), o ISV cria um *pedido de instalação* que contém a configuração dos parâmetros específica do utilizador, conforme preparado pelo ISV.
 
 1. O ISV redireciona o utilizador para o Power BI com um método de redirecionamento ```POST```, que contém o pedido de instalação.
 
@@ -56,23 +56,23 @@ O fluxo básico da automatização da configuração da instalação de uma apli
 Para disponibilizar uma experiência de instalação pré-configurada para a aplicação de modelo, são necessários os seguintes pré-requisitos:
 
 * Uma licença do Power BI Pro. Se não estiver inscrito no Power BI Pro, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
-* A configuração do seu próprio inquilino do Azure Active Directory (Azure AD). Para obter instruções sobre como configurar um, veja [Criar um inquilino do Azure AD](https://docs.microsoft.com/power-bi/developer/embedded/create-an-azure-active-directory-tenant).
-* Um **principal de serviço (token apenas de aplicação)** registado no inquilino anterior. Para obter mais informações, veja [Incorporar conteúdos do Power BI com o principal de serviço e um segredo da aplicação](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal). Confirme que regista a aplicação como uma **aplicação Web do lado do servidor**. Registe uma aplicação Web do lado do servidor para criar um segredo da aplicação. Neste processo, irá precisar de guardar o *ID da aplicação* (ID do Cliente) e o *segredo da aplicação* (Segredo do Cliente) para os passos posteriores.
-* Uma **aplicação de modelo parametrizada** pronta para instalação. A aplicação de modelo tem de ser criada no mesmo inquilino no qual registou a aplicação no Azure AD. Para obter mais informações, veja [Sugestões da aplicação de modelo](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips) ou [Criar uma aplicação de modelo no Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create). Na aplicação de modelo, deve anotar as seguintes informações para os próximos passos:
+* A configuração do seu próprio inquilino do Azure Active Directory (Azure AD). Para obter instruções sobre como configurar um, veja [Criar um inquilino do Azure AD](../embedded/create-an-azure-active-directory-tenant.md).
+* Um **principal de serviço (token apenas de aplicação)** registado no inquilino anterior. Para obter mais informações, veja [Incorporar conteúdos do Power BI com o principal de serviço e um segredo da aplicação](../embedded/embed-service-principal.md). Confirme que regista a aplicação como uma **aplicação Web do lado do servidor**. Registe uma aplicação Web do lado do servidor para criar um segredo da aplicação. Neste processo, irá precisar de guardar o *ID da aplicação* (ID do Cliente) e o *segredo da aplicação* (Segredo do Cliente) para os passos posteriores.
+* Uma **aplicação de modelo parametrizada** pronta para instalação. A aplicação de modelo tem de ser criada no mesmo inquilino no qual registou a aplicação no Azure AD. Para obter mais informações, veja [Sugestões da aplicação de modelo](../../connect-data/service-template-apps-tips.md) ou [Criar uma aplicação de modelo no Power BI](../../connect-data/service-template-apps-create.md). Na aplicação de modelo, deve anotar as seguintes informações para os próximos passos:
      * *ID da Aplicação*, *Chave do Pacote* e *ID do Proprietário* como aparecem no URL de instalação no final do processo de [definição das propriedades da aplicação de modelo](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) quando a aplicação foi criada. Também pode obter a mesma ligação ao selecionar **Obter ligação** no [painel Gestão de Versões](../../connect-data/service-template-apps-create.md#manage-the-template-app-release) da aplicação de modelo.
     * *Nomes dos parâmetros* conforme definidos no conjunto de dados da aplicação de modelo. Os nomes dos parâmetros são cadeias de carateres sensíveis às maiúsculas e minúsculas e também podem ser obtidos no separador **Definições dos Parâmetros** quando [Definir as propriedades da aplicação de modelo](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) ou nas definições dos conjuntos de dados no Power BI.
 
     >[!NOTE]
-    >Poderá testar a aplicação de instalação pré-configurada na aplicação de modelo se esta estiver pronta para instalação, mesmo que ainda não esteja publicamente disponível no AppSource. Para que os utilizadores fora do inquilino sejam capazes de utilizar a aplicação de instalação automatizada para instalar a aplicação de modelo, esta tem de estar publicamente disponível no [mercado de aplicações do Power BI](https://app.powerbi.com/getdata/services). Antes de distribuir a aplicação de modelo através da aplicação de instalação automatizada que está a criar, confirme que a publica no [Centro de Parceiros](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
+    >Poderá testar a aplicação de instalação pré-configurada na aplicação de modelo se esta estiver pronta para instalação, mesmo que ainda não esteja publicamente disponível no AppSource. Para que os utilizadores fora do inquilino sejam capazes de utilizar a aplicação de instalação automatizada para instalar a aplicação de modelo, esta tem de estar publicamente disponível no [mercado de aplicações do Power BI](https://app.powerbi.com/getdata/services). Antes de distribuir a aplicação de modelo através da aplicação de instalação automatizada que está a criar, confirme que a publica no [Centro de Parceiros](/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 
 ## <a name="main-steps-and-apis"></a>Passos principais e APIs
 
-Os passos principais para automatizar a configuração de uma instalação da aplicação de modelo e as APIs necessárias são descritas nas secções seguintes. Embora a maioria dos passos utilize as [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/), os exemplos de código descritos aqui utilizam o SDK .NET.
+Os passos principais para automatizar a configuração de uma instalação da aplicação de modelo e as APIs necessárias são descritas nas secções seguintes. Embora a maioria dos passos utilize as [APIs REST do Power BI](/rest/api/power-bi/), os exemplos de código descritos aqui utilizam o SDK .NET.
 
 ## <a name="step-1-create-a-power-bi-client-object"></a>Passo 1: Criar um objeto de cliente do Power BI
 
-A utilização das APIs REST do Power BI exige a obtenção de um *token de acesso* para o [principal de serviço](../embedded/embed-service-principal.md) no Azure Active Directory. É necessário obter um [token de acesso do Azure AD](../embedded/get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) para a sua aplicação Power BI antes de fazer chamadas às [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/).
-Para criar o Cliente do Power BI com o token de acesso, tem de criar o objeto de cliente do Power BI, que lhe permite interagir com as [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/). Cria o objeto de cliente do Power BI ao encapsular num wrapper o **AccessToken** com um objeto **Microsoft.Rest.TokenCredentials**.
+A utilização das APIs REST do Power BI exige a obtenção de um *token de acesso* para o [principal de serviço](../embedded/embed-service-principal.md) no Azure Active Directory. É necessário obter um [token de acesso do Azure AD](../embedded/get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) para a sua aplicação Power BI antes de fazer chamadas às [APIs REST do Power BI](/rest/api/power-bi/).
+Para criar o Cliente do Power BI com o token de acesso, tem de criar o objeto de cliente do Power BI, que lhe permite interagir com as [APIs REST do Power BI](/rest/api/power-bi/). Cria o objeto de cliente do Power BI ao encapsular num wrapper o **AccessToken** com um objeto **Microsoft.Rest.TokenCredentials**.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -91,7 +91,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ## <a name="step-2-create-an-install-ticket"></a>Passo 2: Criar um pedido de instalação
 
 Crie um pedido de instalação, que será utilizado para quando redireciona os utilizadores para o Power BI. A API utilizada para esta operação é a API **CreateInstallTicket**.
-* [Template Apps CreateInstallTicket](https://docs.microsoft.com/rest/api/power-bi/templateapps/createinstallticket)
+* [Template Apps CreateInstallTicket](/rest/api/power-bi/templateapps/createinstallticket)
 
 Está disponível um exemplo de como criar um pedido de instalação para a instalação e configuração da aplicação de modelo no ficheiro [InstallTemplateApp/InstallAppFunction.cs](https://github.com/microsoft/Template-apps-examples/blob/master/Developer%20Samples/Automated%20Install%20Azure%20Function/InstallTemplateAppSample/InstallTemplateApp/InstallAppFunction.cs) na [aplicação de exemplo](https://github.com/microsoft/Template-apps-examples/tree/master/Developer%20Samples/Automated%20Install%20Azure%20Function/InstallTemplateAppSample).
 

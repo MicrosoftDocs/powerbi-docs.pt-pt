@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.openlocfilehash: ab6d8f208300350a613cc63dab948f42376b905e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 96859efbaf86c8c6e9abf459500c38d49ee4f112
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414559"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565489"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Digitalizar um código QR do Power BI a partir do dispositivo móvel
 Aplica-se a:
@@ -31,7 +31,7 @@ Pode digitalizar o código QR para ter acesso imediato ao mosaico ou relatório 
 Se o seu colega não tiver partilhado o dashboard ou relatório consigo, pode pedir o acesso diretamente a partir da aplicação móvel. 
 
 > [!NOTE]
-> Também pode [ler um código QR do relatório com a aplicação Power BI for Mixed Reality](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
+> Também pode [ler um código QR do relatório com a aplicação Power BI for Mixed Reality](./mobile-hololens2-app.md#open-reports-with-qr-codes).
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>Digitalizar um código QR do Power BI no iPhone com o scanner do Power BI
 
@@ -77,5 +77,5 @@ Se o seu colega não tiver partilhado o dashboard ou relatório consigo, pode pe
 * [Ligar a dados do Power BI do mundo real](mobile-apps-data-in-real-world-context.md) com as aplicações móveis
 * [Criar um código QR para um mosaico no serviço Power BI](../../create-reports/service-create-qr-code-for-tile.md)
 * [Criar um código QR para um relatório no serviço Power BI](../../create-reports/service-create-qr-code-for-report.md)
-* Também pode [ler um código QR com a aplicação Power BI for Mixed Reality](mobile-mixed-reality-app.md)
+* Também pode [ler um código QR com a aplicação Power BI for Mixed Reality](./mobile-hololens2-app.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
