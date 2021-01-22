@@ -10,12 +10,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: df0591e7ae934ffa945e0e780b2764c7170358f1
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
-ms.translationtype: HT
+ms.openlocfilehash: b94d943c54ade1f3a18e496ecae8235e47553059
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98227037"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687402"
 ---
 # <a name="export-reports-to-powerpoint"></a>Exportar relatórios para o PowerPoint
 
@@ -37,8 +37,6 @@ Também pode copiar um elemento visual de cada vez a partir do serviço Power B
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>Exportar o seu relatório do Power BI para o PowerPoint
 No **serviço Power BI**, selecione um relatório para apresentá-lo na tela. Também pode selecionar um relatório a partir do contentor **Página inicial**, **Aplicações** ou de qualquer outro contentor do painel de navegação.
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Quando o relatório que pretende exportar para o PowerPoint for apresentado na tela, selecione **Ficheiro** > **Exportar para o PowerPoint** a partir da barra de menus.
 
@@ -89,9 +87,7 @@ A partir daí, pode fazer o que quiser com o conjunto do PowerPoint ou com as im
 Existem algumas considerações e limitações a ter em conta ao trabalhar com a funcionalidade **Exportar para o PowerPoint**.
  
 
-* Se não vir a opção **Exportar**, certifique-se de que ativou "Novo aspeto" e de que está a ver um relatório (e não um dashboard).
-
-    ![Captura de ecrã a mostrar o botão de alternar Novo aspeto](media/end-user-powerpoint/power-bi-new-look.png)
+* Se não vir a opção **Exportação,** certifique-se de que está a visualizar um relatório (não um dashboard).
 
 * Os [filtros de URL](../collaborate-share/service-url-filters.md) não são atualmente respeitados quando escolhe **Valores Atuais** na exportação.
 

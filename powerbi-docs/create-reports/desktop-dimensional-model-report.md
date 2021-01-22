@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 01/11/2021
+ms.date: 01/19/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: f5d35d7fc189f055a6f51e493fd313eb31f0564f
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 03eac7aefdebb31eac353c969db2bf8810173395
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565975"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687383"
 ---
 # <a name="tutorial-from-dimensional-model-to-stunning-report-in-power-bi-desktop"></a>Tutorial: De um modelo dimensional a um relatório incrível no Power BI Desktop 
 
@@ -64,11 +64,10 @@ Selecione todas as tabelas e selecione  **Transformar Dados**. Certifique-se d
 
 :::image type="content" source="media/desktop-dimensional-model-report/desktop-load-tables.png" alt-text="Carregar tabelas no Navegador.":::
 
-Verifique se os tipos de dados das colunas correspondem aos da tabela a seguir. Para fazer alterações, selecione uma consulta e, em seguida, selecione uma ou mais colunas.
+Verifique se os tipos de dados das colunas correspondem aos da tabela a seguir. Para deixar o Power BI detetar tipos de dados para si, selecione uma consulta e, em seguida, selecione uma ou mais colunas. No **separador Transformar,** selecione **Detect Data Type**. Para escoar quaisquer alterações ao tipo de dados detetado, no separador **'Casa',** selecione **Data Type** e, em seguida, selecione o tipo de dados apropriado a partir da tabela.
 
 :::image type="content" source="media/desktop-dimensional-model-report/power-query-change-data-types.png" alt-text="Verificação dos tipos de dados das colunas.":::
 
-No separador **Base**, selecione **Tipo de Dados** e, em seguida, selecione o tipo de dados adequado na tabela.
 
 |Consulta  |Coluna  |Tipo de dados  |
 |---------|---------|---------|
@@ -330,8 +329,9 @@ Em seguida, vamos criar um gráfico de colunas para investigarmos que produtos s
 
 1. Selecione uma área em branco na metade inferior da sua tela de relatório. 
 
-1. No painel Campos, selecione **Sales Amount** (Montante de Vendas) das **Sales** (Vendas), **Categoria de Produto** de **Product** (Produto) e **Business Type** (Tipo de Negócio) de **Reseller** (Revendedor). 
-
+1. No painel Campos, selecione **Sales Amount** (Montante de Vendas) das **Sales** (Vendas), **Categoria de Produto** de **Product** (Produto) e **Business Type** (Tipo de Negócio) de **Reseller** (Revendedor).
+    :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-field-well.png" alt-text="Verifique se a Categoria e o Tipo de Negócio estão em Linhas e o Valor de Venda é selecionado como Valores.":::
+    
     O Power BI cria automaticamente um gráfico de colunas agrupadas. Altere a visualização para uma **Matriz**: 
 
     :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-change-to-matrix.png" alt-text="Alteração de um gráfico de colunas agrupadas para uma matriz.":::
@@ -346,7 +346,7 @@ Em seguida, vamos criar um gráfico de colunas para investigarmos que produtos s
 
 1. No painel Formatação da matriz, abra a secção **Formatação condicional** e ative as **Barras de dados**. Selecione os **Controlos avançados** e defina uma cor mais clara para a barra positiva. Selecione **OK**. 
 
-1. Aumente a largura da coluna Sales Amount (Montante de Vendas) de forma a abranger toda a área. 
+1. Aumente a largura da coluna 'Valor de Venda' de modo a cobrir toda a área arrastando a matriz.
 
     :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-add-databars.png" alt-text="Matriz com barras de dados para Sales Amount (Montante de Vendas).":::
 
@@ -376,7 +376,7 @@ Se quiser efetuar alguma formatação ligeira neste relatório para o melhorar, 
 
 ### <a name="theme"></a>Tema 
 
-- No friso  **Vista** , selecione **Temas** e altere o tema para **Executivo**. 
+- No friso  **Vista** , selecione **Temas** e altere o tema para  **Executivo**. 
 
     :::image type="content" source="media/desktop-dimensional-model-report/formatting-report-change-theme.png" alt-text="Seleção do tema Executivo.":::
 
@@ -401,21 +401,21 @@ Faça as seguintes alterações no separador  **Formato**  no painel Visuali
 1. Selecione o Elemento visual 3, Quantidade de Encomendas por País Revendedor. 
 1. Na secção **Estilos de mapa** , altere o **Tema** para **Tons de cinzento**. 
 1. Na secção  **Título** , altere o **Texto do título** para “Quantidade de Encomendas por País Revendedor”.
-1. Defina o **Tamanho do texto** para **16 pt**. 
+1. Defina o **Tamanho do texto** para  **16 pt**. 
 1. Altere a opção **Sombra** para **Ativado**.  
 
 **Elemento visual 4, Montante de Vendas por Categoria de Produto e Tipo de Negócio de Revendedores**
 
 1. Selecione o Elemento visual 4, Montante de Vendas por Categoria de Produto e Tipo de Negócio de Revendedores. 
 1. Na secção  **Título** , altere o **Texto do título** para “Montante de Vendas por Categoria de Produto e Tipo de Negócio de Revendedores”.
-1. Defina o **Tamanho do texto** para **16 pt**. 
+1. Defina o **Tamanho do texto** para  **16 pt**. 
 1. Altere a opção **Sombra** para **Ativado**. 
 
 **Elemento visual 5, Segmentação do calendário fiscal**
 
 1. Selecione o Elemento visual 5, Segmentação do calendário fiscal.
 1. Na secção  **Controlos de seleção** , alterne a opção  **Mostrar a opção “Selecionar tudo”** para  **Ativado**. 
-1. Na secção  **Cabeçalho de segmentação** , defina o **Tamanho do texto** para **16 pt**. 
+1. Na secção  **Cabeçalho de segmentação** , defina o **Tamanho do texto** para  **16 pt**. 
 
 ### <a name="add-a-background-shape-for-the-title"></a>Adicionar uma forma de fundo para o título 
 

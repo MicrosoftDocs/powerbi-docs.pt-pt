@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 01/13/2020
+ms.date: 01/21/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1808638ad0ccaa2adc57d56bf1677dea0ca24440
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: fec45c895b4b4eb43bd6efd2e5428d789ff4f44d
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96404669"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687103"
 ---
 # <a name="use-the-sap-business-warehouse-connector-in-power-bi-desktop"></a>Utilizar o conector SAP Business Warehouse no Power BI Desktop
 
@@ -45,8 +45,8 @@ Pode transferir o [.NET Conector 3.0 do SAP](https://support.sap.com/en/product
 
 O conector é disponibilizado nas versões de 32 bits e de 64 bits. Escolha a versão que corresponde à sua instalação do Power BI Desktop. Atualmente, o site apresenta duas versões do .NET 4.0 framework:
 
-* Conector SAP para Microsoft .NET 3.0.22.0 para Windows de 32 bits (x86) como ficheiro zip (6896 KB), 1 de junho de 2019
-* Conector SAP para Microsoft .NET 3.0.22.0 para Windows de 64 bits (x64) como ficheiro zip (7180 KB), 1 de junho de 2019
+* Conector SAP para o Microsoft .NET 3.0.22.0 para o Windows 32-bit (x86) ou posterior (.NET Framework 4.0)
+* Conector SAP para o Microsoft .NET 3.0.22.0 para o Windows 64-bit (x64) ou posterior (.NET Framework 4.0)
 
 Quando instalar, nos **Passos de configuração opcionais**, confirme que seleciona *Instalar conjuntos para GAC*.
 

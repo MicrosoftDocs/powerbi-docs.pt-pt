@@ -8,12 +8,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/23/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 981b4aa0f9e8bb12e4231476d27b8f58152ff3fd
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
-ms.translationtype: HT
+ms.openlocfilehash: 77f206ef59a4aa082e04053d28567480f4d01bb0
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110918"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687278"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar uma aplicação no Power BI
 
@@ -207,7 +207,7 @@ Elementos a ter em conta sobre a publicação de aplicações:
 * A página de permissões não altera a permissão em conjuntos de dados noutras áreas de trabalho. Vê um aviso a relembrá-lo para conceder acesso a esses conjuntos de dados de forma independente. A melhor prática é contactar o proprietário do conjunto de dados antes de começar a criar a sua aplicação para garantir que não há problema em dar a todos os utilizadores da aplicação acesso a esses conjuntos de dados. 
 * Pode ter até 100 utilizadores ou grupos na lista de acesso à aplicação. No entanto, pode permitir o acesso à aplicação a mais de 100 utilizadores. Para tal, utilize um ou mais grupos de utilizadores que contenham todos os utilizadores pretendidos.
 * Relativamente à nova experiência de área de trabalho, se o utilizador adicionado à lista de acesso à aplicação já tiver acesso à aplicação através da área de trabalho, não será apresentado na lista de acesso da aplicação.  
-* Ao utilizar o novo aspeto do serviço Power BI, o URL do site de suporte é apresentado no cartão de informação do item. Leia mais sobre o ["novo aspeto" do Power BI](../consumer/service-new-look.md).
+* O URL do site de suporte é mostrado no cartão de informação do item.
 * As aplicações têm a opção de permitir que os utilizadores partilhem a aplicação e os conjuntos de dados subjacentes da aplicação ao utilizar a permissão de partilha. Para novas aplicações, esta opção está desativada por predefinição. Recomendamos que desative esta opção para as suas aplicações existentes e atualize a permissão nos conjuntos de dados subjacentes. A opção foi ativada para aplicações existentes porque as aplicações foram concebidas inicialmente para substituir pacotes de conteúdos que tinham este comportamento.
 * As aplicações podem ter um máximo de 200 dashboards. 
 

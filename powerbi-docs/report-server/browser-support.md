@@ -7,16 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/24/2018
-ms.openlocfilehash: 7658e1943c1f0ac85904fc7b985f2bd764451052
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.date: 01/21/2021
+ms.openlocfilehash: 71ee66c6cd531a35a53a3263feaf94115b528114
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414766"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687494"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Suporte de browser para o Power BI Report Server
 Saiba que versões de browser são suportadas para gerir e visualizar o Power BI Report Server e os controlos do Visualizador de Relatórios.
+
+> [!NOTE]
+> O suporte para o navegador Microsoft Edge Legacy deixará de ser a partir de 9 de março de 2021, e o suporte para o Microsoft Internet Explorer 11 irá parar a partir de 17 de agosto de 2021.
 
 ## <a name="browser-requirements-for-the-web-portal"></a>Requisitos de browser para o portal Web
 Segue-se a lista atual dos browsers suportados para o portal Web.
@@ -71,11 +74,11 @@ Os browsers suportam esquemas de autenticação específicos que têm de ser pro
 
 | **Tipo de browser** | **Suporta** | **Predefinição de browser** | **Predefinição de servidor** |
 | --- | --- | --- | --- |
-| **Microsoft Edge** (+) |Negotiate, Kerberos, NTLM, Basic |Negotiate |Sim. As predefinições de autenticação são compatíveis com o Edge. |
-| **Microsoft Internet Explorer** |Negotiate, Kerberos, NTLM, Basic |Negotiate |Sim. As predefinições de autenticação são compatíveis com o Internet Explorer. |
-| **Google Chrome**(+) |Negotiate, NTLM, Basic |Negotiate |Sim. As predefinições de autenticação são compatíveis com o Chrome. |
-| **Mozilla Firefox**(+) |NTLM, Basic |NTLM |Sim. As predefinições de autenticação são compatíveis com o Firefox. |
-| **Apple Safari**(+) |NTLM, Basic |Básica |Sim. As predefinições de autenticação são compatíveis com o Safari. |
+| **Microsoft Edge** (+) |Negotiate, Kerberos, NTLM, Basic |Negotiate |Yes. As predefinições de autenticação são compatíveis com o Edge. |
+| **Microsoft Internet Explorer** |Negotiate, Kerberos, NTLM, Basic |Negotiate |Yes. As predefinições de autenticação são compatíveis com o Internet Explorer. |
+| **Google Chrome**(+) |Negotiate, NTLM, Basic |Negotiate |Yes. As predefinições de autenticação são compatíveis com o Chrome. |
+| **Mozilla Firefox**(+) |NTLM, Basic |NTLM |Yes. As predefinições de autenticação são compatíveis com o Firefox. |
+| **Apple Safari**(+) |NTLM, Basic |Básico |Yes. As predefinições de autenticação são compatíveis com o Safari. |
 
  **(+)** Versão publicamente disponível mais recente
 
@@ -110,7 +113,7 @@ Utilize um browser que tenha o suporte para scripts ativado. Se o browser não p
   
   **(+)** Versão publicamente disponível mais recente
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 [Descrição geral para administradores](admin-handbook-overview.md)  
 [Instalar o Power BI Report Server](install-report-server.md)  
 [Transferir o Report Builder](https://www.microsoft.com/download/details.aspx?id=53613)  
