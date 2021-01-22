@@ -62,6 +62,8 @@
           href: create-an-azure-active-directory-tenant.md
         - name: Registar uma aplicação
           href: register-app.md
+        - name: "Monitorizar o Power\_BI\_Embedded"
+          href: monitor-power-bi-embedded.md
         - name: Obter um token de acesso do Azure AD
           href: get-azuread-access-token.md
         - name: Embedding Q&A (Incorporação das Perguntas e Respostas)
@@ -94,6 +96,8 @@
               href: /rest/api/power-bi-embedded/
             - name: Power BI REST APIs (APIs REST do Power BI)
               href: /rest/api/power-bi/
+        - name: "Monitorizar a referência de dados do Power\_BI\_Embedded"
+          href: monitor-power-bi-embedded-reference.md
         - name: Bibliotecas do Power BI
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: CLI do Azure
