@@ -25,8 +25,6 @@
           items:
             - name: Criar as novas áreas de trabalho
               href: service-create-the-new-workspaces.md
-            - name: Opt in to the new look for workspaces (Optar ativamente pelo novo aspeto das áreas de trabalho)
-              href: service-workspaces-new-look.md
             - name: Upgrade classic workspaces (Atualizar áreas de trabalhos clássicas)
               href: service-upgrade-workspaces.md
             - name: Criar as áreas de trabalho clássicas
