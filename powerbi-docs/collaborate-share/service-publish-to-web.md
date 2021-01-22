@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 01/04/2021
+ms.date: 01/14/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 800e81b8fe5e9c2f108b71a4d8fb6bf9732a29ac
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 6b28537c9ea757fb43179196f9d7cb053955c5e0
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926879"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227221"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -189,7 +189,7 @@ A funcionalidade **Publicar na Web** é suportada para a grande maioria das orig
 - Relatórios que utilizam qualquer origem de dados de Ligação em Direto, incluindo Tabelas do Analysis Services no local, modelos Multidimensionais do Analysis Services e o Azure Analysis Services.
 - Relatórios que utilizam um [conjunto de dados partilhado](../connect-data/service-datasets-across-workspaces.md) armazenado numa área de trabalho diferente da do relatório.
 - [Conjuntos de dados partilhados e certificados](../connect-data/service-datasets-share.md).
-- Relatórios partilhados diretamente consigo ou através de um pacote de conteúdos organizacionais.
+- Relatórios partilhados diretamente consigo ou através de uma aplicação.
 - Relatórios numa área de trabalho na qual não é um membro de edição.
 - Os elementos visuais "R" e Python não são atualmente suportados nos relatórios da funcionalidade **Publicar na Web**.
 - Exportar dados de elementos visuais num relatório publicado na Web.

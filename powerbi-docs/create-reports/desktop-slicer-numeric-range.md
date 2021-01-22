@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/06/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 83ba0234ef4f4e350f413f3c934e2f09f0a9a3f2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 59e88818adee9aaf893d9f32fe96386c3f7ac47e
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412788"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565787"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi"></a>Utilizar a segmentação de dados de intervalo numérico no Power BI
 
@@ -84,3 +84,4 @@ As seguintes limitações e considerações aplicam-se à segmentação de dados
 * A segmentação de dados de intervalo numérico filtra todas as linhas subjacentes nos dados e não os valores agregados. Por exemplo, imaginemos que utiliza um campo *Montante das Vendas*. A segmentação de dados filtra cada transação com base no montante das vendas e não na soma dos montantes das vendas de cada ponto de dados de um elemento visual.
 * Atualmente, não funciona em medidas.
 * Pode escrever qualquer número numa segmentação numérica, mesmo que esta esteja fora do intervalo de valores na coluna subjacente. Esta opção permite-lhe definir filtros se souber que os dados poderão ser alterados no futuro.
+* A segmentação do intervalo de datas permite quaisquer valores de data, mesmo que não existam na coluna de data subjacente.

@@ -8,14 +8,14 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.reviewer: ''
 ms.cunstom: ''
-ms.date: 09/16/2019
+ms.date: 01/12/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b2ce1624bcbbc352ab4f4eaaeb97927c09c2d78
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b22ecdd806371455149f277b9114b1eaf315ce6d
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411661"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227060"
 ---
 # <a name="get-started-with-third-party-apps"></a>Introdução com aplicações de terceiros
 
@@ -27,18 +27,18 @@ Aqui estão os tipos de acesso que uma aplicação pode pedir.
 
 * **Ver todos os dashboards**
   
-  * Esta permissão permite a uma aplicação ver todos os dashboards a que tem acesso. Isto inclui dashboards de que é proprietário, que obteve a partir de pacotes de conteúdos, que foram partilhados consigo e que estão em grupos a que pertenceu. A aplicação não pode efetuar quaisquer alterações ao dashboard. Entre outras coisas, esta permissão pode ser utilizada por uma aplicação para incorporar o conteúdo do dashboard nas suas experiências.
+  * Esta permissão permite a uma aplicação ver todos os dashboards a que tem acesso. Isto inclui dashboards dos quais é proprietário, que tenha obtido a partir de aplicações, que tenham sido partilhados consigo e que estejam em grupos a que pertence. A aplicação não pode efetuar quaisquer alterações ao dashboard. Entre outras coisas, esta permissão pode ser utilizada por uma aplicação para incorporar o conteúdo do dashboard nas suas experiências.
 
 * **Ver todos os relatórios**
   
-  * Esta permissão permite a uma aplicação ver todos os relatórios a que tem acesso. Isto inclui dashboards de que é proprietário, que obteve a partir de pacotes de conteúdos e que estão em grupos a que pertenceu. Parte da visualização do relatório significa que a aplicação também pode ver os respetivos dados. A aplicação não pode fazer modificações aos relatórios em si. Entre outras coisas, esta permissão pode ser utilizada por uma aplicação para incorporar o conteúdo do relatório nas suas experiências.
+  * Esta permissão permite a uma aplicação ver todos os relatórios a que tem acesso. Isto inclui relatórios dos quais é proprietário, que tenha obtido a partir de aplicações e que estejam em grupos a que pertence. Parte da visualização do relatório significa que a aplicação também pode ver os respetivos dados. A aplicação não pode fazer modificações aos relatórios em si. Entre outras coisas, esta permissão pode ser utilizada por uma aplicação para incorporar o conteúdo do relatório nas suas experiências.
 
 * **Ver todos os conjuntos de Dados**
   
-  * Esta permissão permite a uma aplicação listar todos os conjuntos de dados aos quais tem acesso. Isto inclui conjuntos de dados de que é proprietário, que obteve a partir de pacotes de conteúdos e que estão em grupos a que pertenceu. Uma aplicação pode ver os nomes de todos os seus conjuntos de dados, bem como a estrutura, incluindo nomes de tabela e coluna. Esta permissão concede direitos para ler os dados num conjunto de dados. A permissão não concede à aplicação direitos para adicionar ou fazer alterações a um conjunto de dados.
+  * Esta permissão permite a uma aplicação listar todos os conjuntos de dados aos quais tem acesso. Isto inclui conjuntos de dados dos quais é proprietário, que tenha obtido a partir de aplicações e que estejam em grupos a que pertence. Uma aplicação pode ver os nomes de todos os seus conjuntos de dados, bem como a estrutura, incluindo nomes de tabela e coluna. Esta permissão concede direitos para ler os dados num conjunto de dados. A permissão não concede à aplicação direitos para adicionar ou fazer alterações a um conjunto de dados.
 * **Ler e escrever todos os conjuntos de dados**
   
-  * Esta permissão permite a uma aplicação listar todos os conjuntos de dados aos quais tem acesso. Isto inclui conjuntos de dados de que é proprietário, que obteve a partir de pacotes de conteúdos e que estão em grupos a que pertenceu. Uma aplicação pode ver os nomes de todos os seus conjuntos de dados, bem como a estrutura, incluindo nomes de tabela e coluna. Esta permissão concede direitos para ler e escrever os dados num conjunto de dados. A aplicação também pode criar novos conjuntos de dados ou efetuar alterações aos já existentes. Isto é normalmente utilizado por uma aplicação para enviar dados diretamente para o Power BI.
+  * Esta permissão permite a uma aplicação listar todos os conjuntos de dados aos quais tem acesso. Isto inclui conjuntos de dados dos quais é proprietário, que tenha obtido a partir de aplicações e que estejam em grupos a que pertence. Uma aplicação pode ver os nomes de todos os seus conjuntos de dados, bem como a estrutura, incluindo nomes de tabela e coluna. Esta permissão concede direitos para ler e escrever os dados num conjunto de dados. A aplicação também pode criar novos conjuntos de dados ou efetuar alterações aos já existentes. Isto é normalmente utilizado por uma aplicação para enviar dados diretamente para o Power BI.
 
 * **Ver grupos do utilizador**
   

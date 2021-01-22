@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 1/13/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: 005f6c72dd67282e2f15ceb3c91fb74d7e723712
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e5edcde0f367c573c86aaac1b7f14397614eeedf
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412259"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191648"
 ---
 # <a name="power-bi-premium-per-user-faq-preview"></a>FAQ do Power BI Premium Por Utilizador (pré-visualização)
 
@@ -46,15 +46,21 @@ Este artigo agrupa perguntas e respostas nas seguintes categorias:
 4.  **Como posso obter uma versão de avaliação?**
 
     Existe uma experiência de avaliação no produto e uma experiência de avaliação disponível através do Microsoft 365. Qualquer utilizador, assumindo que a respetiva organização não restringiu o PPU, pode aceder à experiência de avaliação no produto ao ativar o Premium Por Utilizador para uma área de trabalho. As experiências de avaliação gratuita através do Microsoft 365 podem ser ativadas através do portal tal como as avaliações do Power BI Pro são atualmente iniciadas.  
+    
+5.  **A minha versão de avaliação inicial expirou e ainda estamos no período de pré-visualização.  Como devo proceder para prolongar/renovar a minha versão de avaliação para o Premium por utilizador durante o período de pré-visualização?**
 
-5.  **Que funcionalidades estão disponíveis no Premium Por Utilizador?**
+    Os clientes que estiverem a utilizar a versão de avaliação no produto podem iniciar uma nova versão de avaliação a qualquer momento, após a versão de avaliação inicial expirar, ao clicarem no ícone de perfil no canto superior direito do portal.  Verão uma opção para aceitar a versão de avaliação novamente.  Ao fazê-lo, irão iniciar outra versão de avaliação de 60 dias.  Esta continuará a ser uma opção durante o período de pré-visualização.  
+    
+    Os clientes que estiverem a utilizar a versão de avaliação oferecida através do Microsoft 365 podem obter uma extensão de mais 30 dias da versão de avaliação inicial de 30 dias do seu administrador de inquilinos. Este é o período máximo de tempo que a versão de avaliação pode ser prolongada.
+
+6.  **Que funcionalidades estão disponíveis no Premium Por Utilizador?**
 
     A grelha de comparação de funcionalidades é a seguinte:    
 
     ![Comparação de funcionalidades do Premium Por Utilizador](media/service-premium-per-user-faq/premium-per-user-faq-02.png)
 
 
-6.  **A minha organização já tem o Power BI Premium. Preciso de uma licença do Premium Por Utilizador para publicar conteúdos na minha capacidade?**
+7.  **A minha organização já tem o Power BI Premium. Preciso de uma licença do Premium Por Utilizador para publicar conteúdos na minha capacidade?**
     
     A sua organização pode optar por complementar a capacidade Premium com licenças do Premium Por Utilizador, mas não é necessário o Premium Por Utilizador para publicar conteúdos nas capacidades existentes.  
 
@@ -89,6 +95,10 @@ Este artigo agrupa perguntas e respostas nas seguintes categorias:
 7.  **As APIs de capacidade estão disponíveis para o Premium Por Utilizador?**
 
     Está disponível um conjunto limitado de APIs para permitir a movimentação de áreas de trabalho, mas não pode efetuar ações como desativar cargas de trabalho e outras atividades.  
+    
+7.  **Os principais de serviço são suportados em áreas de trabalho do Premium Por Utilizador?**
+
+    Atualmente, não suportamos principais de serviço em áreas de trabalho do Premium Por Utilizador.  
 
 
 ## <a name="end-user-experience-questions"></a>Perguntas sobre a experiência do utilizador final
@@ -113,9 +123,10 @@ Este artigo agrupa perguntas e respostas nas seguintes categorias:
 
     O Premium Por Utilizador irá funcionar da mesma forma que os casos de utilização incorporados quando utiliza uma licença Pro. Pode incorporar os conteúdos e cada utilizador precisará de uma licença PPU para vê-lo.
 
-5.  **O que acontece à minha área de trabalho do PPU se minha avaliação expirar?**
+5.  **O que acontece à minha área de trabalho do PPU no final do período de pré-visualização se optar por não comprar licenças Premium por utilizador?**
 
-    Os utilizadores continuarão a ter acesso à área de trabalho, mas os conteúdos que precisam desse tipo de licença ficarão indisponíveis. Tem de mover a área de trabalho para uma capacidade Premium ou simplesmente desativar o requisito. 
+    Vai continuar a ter acesso à área de trabalho, tal como os seus utilizadores, mas os conteúdos que precisam desse tipo de licença ficarão indisponíveis. Tem de mover a área de trabalho para uma capacidade Premium ou simplesmente desativar o requisito. 
+
 6.  **Quanto armazenamento total obtenho com o Premium Por Utilizador?**
 
     No que diz respeito ao armazenamento, todo o inquilino terá o mesmo limite de 100 TB que uma capacidade Premium tem.

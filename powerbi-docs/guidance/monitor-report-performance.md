@@ -8,17 +8,17 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
-ms.date: 02/16/2020
-ms.openlocfilehash: bd700ae7c6c175f4e9cf7841ce308a275ba9babb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/14/2021
+ms.openlocfilehash: a7da63efcc991da57eba9c6b9bb6b9527ad66e1f
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96393048"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227382"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Monitorizar o desempenho dos relatórios no Power BI
 
-Monitorize o desempenho dos relatórios no Power BI Desktop com a [aplicação Métricas do Power BI Premium](../admin/service-premium-metrics-app.md), saiba onde estão os estrangulamentos e saiba como pode melhorar o desempenho dos relatórios.
+Monitorize o desempenho dos relatórios no Power BI Desktop com o [Analisador de Desempenho](../create-reports/desktop-performance-analyzer.md) e controle o desempenho dos conteúdos implementados na capacidade do Power BI Premium da sua organização com a ajuda da [aplicação Métricas do Power BI Premium](../admin/service-premium-metrics-app.md). Saiba onde estão os estrangulamentos e como pode melhorar o desempenho dos relatórios.
 
 A monitorização do desempenho é relevante quando:
 

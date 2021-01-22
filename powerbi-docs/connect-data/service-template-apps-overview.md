@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 12/14/2020
-ms.openlocfilehash: a11ac8edb9abab29f58c3e4eda15ae204d105b26
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: f9a3558bd83f9c2e263d69ad37c3e985c2c6199a
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491742"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597595"
 ---
 # <a name="what-are-power-bi-template-apps"></a>O que são as aplicações de modelo do Power BI?
 
@@ -44,7 +44,12 @@ As Aplicações de Modelo do Power BI permitem que os utilizadores do Power BI
     :::column-end:::
 :::row-end:::
 
+ > [!NOTE] 
+ > As aplicações do Marketplace não estão disponíveis para instâncias da cloud do governo norte-americano. Para obter mais detalhes, veja [Power BI para clientes do governo norte-americano](../admin/service-govus-overview.md).
+
+
 ## <a name="process"></a>Processo
+
 O processo geral para desenvolver e submeter uma aplicação de modelo inclui várias fases. Algumas fases podem incluir mais do que uma atividade em simultâneo.
 
 

@@ -8,13 +8,13 @@ featuredvideoid: DN1t5p9aui0
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: tutorial
-ms.date: 11/11/2020
-ms.openlocfilehash: e05078bf51cd33fb565dc783386258fe9ea305d1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/31/2020
+ms.openlocfilehash: 504b5bcb63fa8c8897ae0b44922d3dc144a02730
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416376"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227359"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Curso Relatórios Paginados do Power BI num Dia
 
@@ -43,7 +43,7 @@ Veja o vídeo de boas-vindas e introdução para iniciar o curso.
 
 ## <a name="course-outline"></a>Descrição do curso
 
-Este [curso com 24 vídeos](https://www.youtube.com/playlist?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT) está organizado em oito módulos. Recomendamos que veja os vídeos na sequência indicada. Comece pelo vídeo 01 e termine com o vídeo 24.
+O [curso com 25 vídeos](https://www.youtube.com/playlist?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT) está organizado em oito módulos. Recomendamos que veja os vídeos na sequência indicada. Comece pelo vídeo 01 e termine com o vídeo 25.
 
 - **Introdução**
   - Vídeo 01: [Welcome and Course Introduction](https://www.youtube.com/watch?v=DN1t5p9aui0&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT) (Boas-vindas e Introdução ao Curso)
@@ -78,6 +78,7 @@ Este [curso com 24 vídeos](https://www.youtube.com/playlist?list=PL1N57mwBHtN1i
   - Vídeo 22: [Bonus Content: Review](https://www.youtube.com/watch?v=w5zlJ8BodxI&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT) (Conteúdos Extra: Revisão)
   - Vídeo 23: [Bonus Content: Evolution of Paginated Reporting](https://www.youtube.com/watch?v=pevpai65MvY&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT) (Conteúdos Extra: Evolução dos Relatórios Paginados)
   - Vídeo 24: [Bonus Content: Lowering the Barrier to Entry](https://www.youtube.com/watch?v=vu32LfckCt8&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT) (Conteúdos Extra: Simplificar as Entradas)
+  - Vídeo 25: [Bonus Content: Atualização de dezembro de 2020](https://www.youtube.com/watch?v=-7M4muS_3BI&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
 
 ## <a name="self-study-kit"></a>Kit de estudo autónomo
 

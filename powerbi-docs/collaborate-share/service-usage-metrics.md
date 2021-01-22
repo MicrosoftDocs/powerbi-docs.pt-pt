@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 12/15/2020
+ms.date: 01/15/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dc3ce931664a3c125504865c6cccfe3fdfa404c4
-ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
+ms.openlocfilehash: acb1a1550c0ab216e4934e99f871df9321561314
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "98053426"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565436"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>Monitorizar métricas de utilização em áreas de trabalho clássicas
 
@@ -162,7 +162,11 @@ O Power BI está disponível em clouds nacionais separadas. Estas clouds oferece
 
 ### <a name="discrepancies-between-rest-apis-and-usage-metrics"></a>Discrepâncias entre as APIs REST e as métricas de utilização
 
-As [APIs REST de Relatórios](https://docs.microsoft.com/rest/api/power-bi/reports) e as [APIs REST de Administração](https://docs.microsoft.com/rest/api/power-bi/admin) do Power BI também utilizam dados do serviço Power BI. Pelos motivos descritos na secção anterior, as contagens de relatório (o número de relatórios) das APIs podem ser diferentes das contagens de relatório nas métricas de utilização. As contagens de relatório derivadas das APIs não são afetadas por problemas de cliente e devem ser consideradas precisas.
+As [APIs REST de Relatórios](/rest/api/power-bi/reports) e as [APIs REST de Administração](/rest/api/power-bi/admin) do Power BI também utilizam dados do serviço Power BI. Pelos motivos descritos na secção anterior, as contagens de relatório (o número de relatórios) das APIs podem ser diferentes das contagens de relatório nas métricas de utilização. As contagens de relatório derivadas das APIs não são afetadas por problemas de cliente e devem ser consideradas precisas.
+
+### <a name="classic-usage-metrics-are-not-supported-with-private-links"></a>As Métricas de Utilização Clássicas não são suportadas com Ligações Privadas 
+
+Se a sua organização utilizar [Ligações Privadas](../admin/service-security-private-links.md), os relatórios de métricas de utilização clássicas não irão incluir dados. Atualmente, existe uma limitação ao transferir informações de clientes através de ligações privadas. 
 
 ### <a name="other-considerations"></a>Outras considerações
 

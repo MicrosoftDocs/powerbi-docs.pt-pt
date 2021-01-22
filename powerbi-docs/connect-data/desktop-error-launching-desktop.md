@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 11/14/2020
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 62b3c9bb10cb47df0d21eb05e381c5c4784b3106
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: c41f8f9b23ef57d5dd6fd4b851918b7ffa5904a0
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600237"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226945"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Resolver problemas ao abrir o Power BI Desktop
 
@@ -58,7 +58,7 @@ Quando tentar ligar a uma base de dados do SQL Server, poderá deparar-se com u
 
 Geralmente, poderá resolver o problema se abrir o Power BI Desktop como administrador antes de fazer a ligação ao SQL Server.
 
-Depois de abrir o Power BI Desktop como administrador e estabelecer a ligação, os DLLs necessários serão registados corretamente. Depois disso, não será necessário abrir o Power BI Desktop como administrador.
+Depois de abrir o Power BI Desktop como administrador e estabelecer a ligação, os DLLs necessários serão registados corretamente. Depois disso, não será necessário abrir o Power BI Desktop como administrador. Caso tente estabelecer ligação ao servidor SQL com credenciais alternativas do Windows, terá de abrir o Power BI Desktop como administrador sempre que tentar estabelecer ligação.
 
 ## <a name="get-help-with-other-launch-issues"></a>Obter ajuda com outros problemas de arranque
 

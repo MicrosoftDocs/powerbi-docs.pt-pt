@@ -1,18 +1,18 @@
 ---
-title: Ligar um relatório a um conjunto de dados através do enlace dinâmico para informações de BI incorporadas na análise incorporada do Power BI
-description: Aprenda a incorporar um relatório através do enlace dinâmico na análise incorporada do Power BI, o que cria melhores informações de BI incorporadas para os seus clientes.
+title: Ligar um relatório do Power BI a um conjunto de dados através do enlace dinâmico
+description: Saiba como incorporar um relatório do Power BI através do enlace dinâmico na análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: how-to
+ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 11/07/2019
-ms.openlocfilehash: aacae4dbfae30d72468419a717340c806c6c4bca
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 01/17/2021
+ms.openlocfilehash: 0bc33ed37e389b42f5c27f8271cc461eb99e229a
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888909"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565813"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Ligar um relatório a um conjunto de dados através do enlace dinâmico 
 
@@ -36,33 +36,15 @@ O enlace dinâmico é suportado para ambos os cenários de incorporação, ou se
 |*Incorporar para os seus clientes*     |Os dados pertencem à aplicação         |Token de acesso para utilizadores não pertencentes ao Power BI         |Tem de incluir permissões para o relatório e para o conjunto de dados com enlace dinâmico. Utilize a [API para gerar um token de incorporação para múltiplos itens](/rest/api/power-bi/embedtoken/generatetoken), para gerar um token de incorporação que suporte múltiplos artefactos.         |
 
 ## <a name="adjusting-the-config-object"></a>Ajustar o objeto de configuração
-Adicione `datasetBinding` ao objeto de configuração. Utilize o exemplo apresentado abaixo como referência.
 
-```javascript
-var config = {
-    type: 'report',
-    tokenType: models.TokenType.Embed,
-    accessToken: accessToken,
-    embedUrl: embedUrl,
-    id: "reportId", // The wanted report id
-    permissions: permissions,
-
-    // -----  Adjustment required for dynamic binding ---- //
-    datasetBinding: {
-        datasetId: "notOriginalDatasetId",  // </The wanted dataset id
-    }
-    // ---- End of dynamic binding adjustment ---- //
-};
-
-// Get a reference to the embedded report HTML element
-var embedContainer = $('#embedContainer')[0];
-
-// Embed the report and display it within the div container
-var report = powerbi.embed(embedContainer, config);
-```
+Para o enlace dinâmico funcionar, terá de adicionar `datasetBinding` ao objeto de configuração. Para saber como fazê-lo, veja [Vincular conjuntos de dados a um relatório de forma dinâmica](/javascript/api/overview/powerbi/bind-report-datasets). 
 
 ## <a name="next-steps"></a>Próximos passos
 
-Se não estiver familiarizado com a incorporação no Power BI, consulte os seguintes tutoriais para saber como incorporar os seus conteúdos do Power BI:
-* [Tutorial: Incorporar conteúdos do Power BI numa aplicação para os seus clientes](embed-sample-for-customers.md)
-* [Tutorial: Incorporar conteúdos do Power BI numa aplicação para a sua organização](embed-sample-for-your-organization.md)
+Se não estiver familiarizado com a incorporação no Power BI, consulte os seguintes tutoriais para saber como incorporar os seus conteúdos do Power BI.
+
+>[!div class="nextstepaction"]
+>[Incorporar conteúdo do Power BI numa aplicação para os seus clientes](embed-sample-for-customers.md)
+
+>[!div class="nextstepaction"]
+>[Incorporar conteúdos do Power BI numa aplicação para a sua organização](embed-sample-for-your-organization.md)

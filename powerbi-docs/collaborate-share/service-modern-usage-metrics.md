@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 12/15/2020
+ms.date: 01/15/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6ce7afedb43aa7abaffb3ad5afdb00b4749addb5
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 573180ef4087af7654480da8ca581e1881729243
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885400"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565296"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Monitorizar as métricas de utilização na nova experiência de área de trabalho (pré-visualização)
 
@@ -297,6 +297,7 @@ Para além das diferenças indicadas acima entre os relatórios de métricas de 
 - A inicialização do conjunto de dados Relatório de Métricas de Utilização poderá falhar se o tempo limite for excedido durante a atualização. Veja a secção Resolução de problemas abaixo para resolver este problema.
 - A partilha está desativada no relatório das métricas de utilização. Para atribuir às pessoas acesso de leitura ao relatório, primeiro é preciso dar-lhes acesso à área de trabalho.
 - Em alguns cenários, poderá reparar que estão a faltar os dados de desempenho. Isso pode ocorrer se o utilizador abrir um relatório e interagir com o mesmo antes de esse relatório ter sido completamente carregado ou se tiver ocorrido um erro durante o seu carregamento. 
+- Se a sua organização estiver a utilizar [Ligações Privadas](../admin/service-security-private-links.md), os relatórios de métricas de utilização modernas irão incluir dados parciais (apenas Vistas de Relatório). Uma limitação atual ao transferir informações de clientes através de ligações privadas impede-nos de capturar Vistas de Páginas de Relatórios e dados de desempenho através de Ligações Privadas. 
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

@@ -5,24 +5,25 @@ author: mihart
 ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: removed
+ms.custom: video-OgjX-pFGgfM, video-RE4IY3L
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 12/18/2020
+ms.date: 1/13/2021
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2a8c125a37e0d70ea735d9f1962f64deb69061c8
-ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
+ms.openlocfilehash: b285d699d71001d8015615fdeb3652ba35274896
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97745145"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191822"
 ---
 # <a name="customize-visualization-titles-backgrounds-labels-and-legends"></a>Personalizar os títulos, os fundos, as etiquetas e as legendas das visualizações
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 
-Neste tutorial, vai aprender várias formas de personalizar as visualizações. Existem muitas opções para personalizar as visualizações. A melhor forma de saber mais sobre todas elas é explorar o painel **Formatação** (selecione o ícone de rolo de pintura). Para começar, este artigo mostra-lhe como pode personalizar um título, uma legenda, um fundo, uma etiqueta das visualizações e adicionar um tema.
+Neste tutorial, vai aprender várias formas de personalizar as visualizações. Existem muitas opções para personalizar as visualizações. A melhor forma de saber mais sobre todas elas é explorar o painel **Formatação** (selecione o ícone de rolo de pintura). Para começar, este artigo mostra-lhe como pode personalizar um título, uma legenda, um fundo, uma camada e uma etiqueta das visualizações e adicionar um tema.
 
 Não pode personalizar todas as visualizações. Veja a [lista completa](#visualization-types-that-you-can-customize) das visualizações para obter mais detalhes.
 
@@ -148,6 +149,36 @@ Veja o Rien a adicionar o total de etiquetas a um gráfico empilhado e, em segui
 1. Opcionalmente, formate o total de etiquetas. Neste exemplo, alterámos a cor para preto, aumentámos o tamanho do tipo de letra e optámos por apresentar os valores como **Milhares**.
 
     ![Captura de ecrã a mostrar o novo gráfico de barras empilhadas com o total de etiquetas.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-bar-totals.png)
+
+
+## <a name="customize-layer-order"></a>Personalizar a ordem das camadas
+Altere a ordem das camadas dos elementos visuais e das formas nos relatórios. A ordem das camadas determina que objetos passarão para a frente após serem selecionados. Sempre que selecionar um objeto na tela de relatórios, o mesmo torna-se ativo e é movido para a camada superior. Isto faz com que sejam mais fácil interagir com o elemento visual selecionado. No entanto, para as formas e fundos, recomendamos que os coloque na camada inferior, para não selecionar inadvertidamente e cobrir ou ocultar os elementos visuais dos relatórios. 
+
+Os controlos de camadas estão disponíveis no serviço Power BI, no Power BI Desktop, em dispositivos móveis e no servidor de relatórios. Este artigo mostra-lhe como alterar o comportamento da ordem das camadas no serviço Power BI.
+
+Veja Rien a alterar o comportamento da ordem das camadas e, em seguida, siga os passos abaixo para experimentar.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IY3L]
+
+1. Adicione uma nova página de relatório ao selecionar o sinal de adição amarelo. 
+
+1. Adicione uma forma à tela. Aqui, adicionámos um retângulo azul. 
+
+    ![Captura de ecrã a mostrar a nova página de relatório com um retângulo azul.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-shape.png)
+
+1. Copie e cole um elemento visual de outra página do relatório. 
+
+    ![Captura de ecrã a mostrar a nova página de relatório com um retângulo azul e um gráfico circular.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-layer.png)
+
+    Agora que tem duas camadas, experimente selecionar o gráfico circular e, em seguida, o fundo. Ao selecionar o gráfico circular, o Power BI ativa esse objeto e apresenta o respetivo menu de cabeçalho. Ao selecionar o retângulo, o Power BI ativa esse objeto e inclui-o na frente, onde oculta o gráfico circular. Pode alterar este comportamento predefinido.
+
+1. Selecione o retângulo e abra o painel Formatação. Expanda a janela **Geral** e localize o botão **Manter ordem das camadas**. Guarde as alterações ao relatório e mude para a vista Leitura.
+
+    ![Captura de ecrã a mostrar a nova página de relatório e a opção Manter ordem das camadas ativada.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-maintain-layer.png)
+
+1. Na vista Leitura, ao selecionar o retângulo azul, a página permanece na última camada.
+
 
 ## <a name="customize-colors-using-a-theme"></a>Personalizar cores com um tema
 

@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 09/04/2020
+ms.date: 01/12/2021
 ms.custom: contperf-fy21q1, contperf-fy20q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2c15c6afbf1a84ab5e8103a8d73792705418d2e6
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: b849921b0ec9c5bbad46394343d266179ba547b8
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621723"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227290"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Criar as novas áreas de trabalho no Power BI
 
@@ -24,7 +24,8 @@ Este artigo explica como criar uma das *novas áreas de trabalho* em vez de uma 
 Pronto para migrar a área de trabalho clássica? Veja [Atualizar as áreas de trabalho clássicas para as novas áreas de trabalho no Power BI](service-upgrade-workspaces.md) para obter detalhes.
 
 > [!NOTE]
-> Para impor a segurança a nível da linha (RLS) para os utilizadores do Power BI Pro que procuram conteúdos numa área de trabalho, atribua a Função Visualizador aos mesmos. Veja [Funções nas novas áreas de trabalho](service-new-workspaces.md#roles-in-the-new-workspaces) para obter uma explicação sobre as diferentes funções.
+> Está à procura de conteúdo sobre a criação de pacotes de conteúdos? Estão a ser preteridos. Agora é uma boa altura para atualizar os seus pacotes de conteúdos para aplicações. Para obter a linha cronológica, veja a secção de mapa de objetivos de atualização da área de trabalho desta publicação de blogue [Anúncio de que os administradores do Power BI podem atualizar áreas de trabalho clássicas](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/).
+> 
 
 ## <a name="create-one-of-the-new-workspaces"></a>Criar uma das novas áreas de trabalho
 
@@ -59,6 +60,9 @@ Pronto para migrar a área de trabalho clássica? Veja [Atualizar as áreas de t
 ## <a name="give-access-to-your-workspace"></a>Conceder acesso à área de trabalho
 
 Qualquer pessoa com função de administrador numa área de trabalho pode conceder acesso à mesma a outras pessoas ao adicioná-las a diferentes funções. Os criadores das áreas de trabalho são automaticamente administradores. Veja [Funções nas novas áreas de trabalho](service-new-workspaces.md#roles-in-the-new-workspaces) para obter uma explicação sobre as funções.
+
+> [!NOTE]
+> Para impor a segurança a nível da linha (RLS) para os utilizadores do Power BI Pro que procuram conteúdos numa área de trabalho, atribua a Função Visualizador aos mesmos. Veja [Funções nas novas áreas de trabalho](service-new-workspaces.md#roles-in-the-new-workspaces) para obter uma explicação sobre as diferentes funções.
 
 1. Uma vez que desempenha a função de administrador, vê a opção **Acesso** na página da lista de conteúdo da área de trabalho.
 

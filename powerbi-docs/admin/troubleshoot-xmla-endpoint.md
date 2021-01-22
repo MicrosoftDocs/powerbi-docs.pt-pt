@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 01/11/2021
+ms.date: 01/13/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 16a07065507abfe825c39677f234d626070827b4
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
+ms.openlocfilehash: 0753a9c3d5b832275f65ac11b87f90c38606f289
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110734"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226991"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Troubleshoot XMLA endpoint connectivity (Resolver problemas de conectividade de pontos finais XMLA)
 
@@ -217,6 +217,10 @@ Conforme indicado na mensagem de erro, elimine ou mude o nome do conjunto de dad
 ## <a name="workspaceserver-alias"></a>Alias do servidor/área de trabalho
 
 Ao contrário do Azure Analysis Services, os [aliases](/azure/analysis-services/analysis-services-server-alias) do nome de servidor **não são suportados** para áreas de trabalho do Power BI Premium. 
+
+## <a name="dataset-refresh-through-the-xmla-endpoint"></a>Atualização do conjunto de dados através do ponto final XMLA
+
+A data e hora da última atualização é apresentada em vários locais no Power BI, como as colunas Atualizado em relatórios e listas, os detalhes do conjunto de dados, as definições do conjunto de dados e o histórico de atualizações do conjunto de dados. Atualmente, as datas e horas de atualização apresentadas no Power BI **não** incluem operações de atualização efetuadas através do ponto final XMLA com recurso ao TMSL/TOM, SSMS ou ferramentas de terceiros.
 
 ## <a name="see-also"></a>Veja também
 
