@@ -10,12 +10,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/11/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 932149fc117568cffd94e6d551878f706a58ec65
-ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
-ms.translationtype: HT
+ms.openlocfilehash: d9d4677e8f0fe415f7a0169fb48ede7187c3fcf5
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98191964"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718560"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportar relatórios do Power BI para PDF
 
@@ -57,7 +57,7 @@ Existem algumas considerações e limitações a ter em conta ao trabalhar com a
 * Os elementos visuais Python e R não são atualmente suportados. No PDF, estes elementos visuais estão em branco e apresentam uma mensagem de erro. 
 * Os elementos visuais do Power BI que tiverem sido certificados são suportados. Para obter mais informações sobre os elementos visuais do Power BI certificados, incluindo como certificar um elemento visual do Power BI, veja [Certificar um elemento visual do Power BI](../developer/visuals/power-bi-custom-visuals-certified.md). Não são suportados elementos visuais do Power BI que não tenham sido certificados. No PDF, são apresentados com uma mensagem de erro.
 * O elemento visual ESRI não é suportado.
-* Atualmente, os relatórios com mais de 50 páginas não podem ser exportados.
+* Os relatórios do Power BI com mais de 50 páginas de relatório não podem atualmente ser exportadas. Relatórios paginados não têm esta limitação. Consulte [imprimir um relatório paginado](end-user-paginated-report.md#interact-with-a-paginated-report) para mais detalhes. 
 * Atualmente, os relatórios com mais de 500 MB não podem ser exportados. 
 * O processo de exportar o relatório para PDF pode demorar alguns minutos a ser concluído, por isso pedimos que seja paciente. Os fatores que podem afetar o tempo necessário incluem a estrutura do relatório e a carga atual no serviço Power BI.
 * Se o item de menu **Exportar para PDF** não estiver disponível no serviço Power BI, é provável que o administrador do Power BI tenha desativado a funcionalidade. Contacte o administrador para obter mais informações.

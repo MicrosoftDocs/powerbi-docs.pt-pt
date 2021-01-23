@@ -10,12 +10,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/13/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: df2083effaec83639d5c14cd62d81ee4b44ffcd7
-ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
-ms.translationtype: HT
+ms.openlocfilehash: 9f02d3785c5a74c1f2658c3c00fb16c076558213
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98191619"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718606"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Subscrever um relatório ou dashboard no serviço Power BI 
 
@@ -36,7 +36,9 @@ Quando receber o e-mail, verá que este inclui uma ligação para “ir para o r
 ## <a name="requirements"></a>Requirements
 **Criar** uma subscrição para si próprio requer uma [licença](end-user-license.md) do *Power BI Pro* ou *Premium por utilizador*. Também poderá criar uma subscrição para si próprio se o relatório ou o dashboard residir numa área de trabalho Premium e se lhe tiver sido concedido acesso a essa área de trabalho. Se não conseguir criar uma subscrição, contacte o administrador do Power BI ou o suporte técnico de TI. 
 
-**Subscrever outros** só está disponível para os proprietários do relatório ou do dashboard que tenham uma licença do *Power BI Pro*. A subscrição de relatórios paginados é ligeiramente diferente. Veja [Subscrever um relatório paginado no serviço Power BI para si e para outras pessoas](paginated-reports-subscriptions.md) para obter mais informações. 
+**Subscrever outros** só está disponível para os proprietários do relatório ou do dashboard que tenham uma licença do *Power BI Pro*.
+
+**Subscrever relatórios paginados** é um pouco diferente. Consulte [um relatório paginado no serviço Power BI](paginated-reports-subscriptions.md) para obter mais detalhes. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Subscrever um dashboard ou uma página de relatórios
 Quer esteja a subscrever um dashboard ou um relatório, o processo é semelhante. O mesmo botão permite-lhe subscrever os dashboards e os relatórios do serviço Power BI.

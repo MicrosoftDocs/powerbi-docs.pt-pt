@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 01/04/2021
-ms.openlocfilehash: 67efe0e7abd23792f46561f78b0b048b431561a4
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.date: 01/22/2021
+ms.openlocfilehash: 88293bbfc39f75472422e6785099421efcd45802
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888012"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718537"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Subscrever relatórios paginados no serviço Power BI para si e para outras pessoas 
 
@@ -23,13 +23,15 @@ Ao configurar subscrições, pode selecionar com que frequência quer receber os
 
 ## <a name="considerations-for-paginated-report-subscriptions"></a>Considerações sobre subscrições de relatórios paginados 
 
+- Você não precisa de editar permissões para o relatório paginado para criar uma subscrição para si mesmo, mas você deve ter permissões de edição para criar uma para outra pessoa. Se tiver pelo menos um papel de Contribuinte no espaço de trabalho onde está o relatório paginated, então pode criar subscrições para outros. Leia mais sobre [Papéis em espaços de trabalho.](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)
+
 - Ao contrário das subscrições de dashboards ou relatórios do Power BI, a sua subscrição contém um anexo dos resultados do relatório.  São suportados os seguintes tipos de anexo: PDF, apresentação do PowerPoint (PPTX), Livro do Excel (XLSX), Documento do Word (DOCX), ficheiro CSV e XML.
 
 - Pode incluir uma imagem de pré-visualização do relatório no corpo do e-mail.  Isto é opcional e pode ser ligeiramente diferente da primeira página do documento de relatório anexado, consoante o formato do anexo selecionado. 
 
 - O tamanho máximo do anexo do relatório é 24 MB. 
 
-- Pode subscrever relatórios paginados que ligam a quaisquer origens de dados atualmente suportadas (incluindo o Azure Analysis Services ou conjuntos de dados do Power BI) para outros utilizadores. Tenha em atenção que o anexo do relatório reflete os dados com base nas suas permissões, tal como o SQL Server Reporting Services faz atualmente. 
+- Pode subscrever outros utilizadores a relatórios paginados que se conectem a quaisquer fontes de dados atualmente suportadas, incluindo serviços de análise Azure ou conjuntos de dados power bi. Tenha em atenção que o anexo do relatório reflete os dados com base nas suas permissões, tal como o SQL Server Reporting Services faz atualmente. 
 
 - As subscrições de e-mail podem ser enviadas com os parâmetros atualmente selecionados ou com os parâmetros predefinidos do seu relatório.  Pode definir valores de parâmetros diferentes para cada subscrição que criar para o relatório. 
 
