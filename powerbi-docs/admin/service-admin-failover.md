@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Administration
-ms.openlocfilehash: 9ed9b42a42e497eaa332b3b1eb93be6247ddc542
-ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
-ms.translationtype: HT
+ms.openlocfilehash: 09e215dbb32dcb93b2ae8ca51953eb636e1aad81
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97961230"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718491"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>FAQ sobre elevada disponibilidade, ativação pós-falha e recuperação após desastre do Power BI
 
@@ -23,6 +23,10 @@ Este artigo explica de que forma o serviço Power BI oferece elevada disponibili
 ## <a name="what-does-high-availability-mean-for-power-bi"></a>Qual é o significado da "elevada disponibilidade" no Power BI?
 
 O Power BI é um software como um serviço (SaaS) totalmente gerido.  Foi concebido e é operado pela Microsoft para ser resiliente a falhas de infraestrutura, para que os utilizadores possam sempre ter acesso aos seus relatórios.  O serviço é suportado por um [SLA de 99,9%](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37).
+
+O Power BI utiliza **zonas de disponibilidade de Azure** para proteger relatórios, aplicações e dados do Power BI contra falhas do datacenter, e é automaticamente aplicado e utilizado para o Power BI. Zonas de disponibilidade são localizações isoladas por falhas dentro de uma região de Azure, fornecendo três ou mais localizações distintas e únicas dentro de uma região do Azure que têm energia, arrefecimento e networking redundantes. As Zonas de Disponibilidade permitem que os clientes do Power BI executem aplicações críticas de missão com maior disponibilidade e tolerância a falhas no datacenter. As Zonas de Disponibilidade proporcionam aos clientes a capacidade de resistir a falhas do datacenter através da redundância e do isolamento lógico dos serviços. 
+
+Para mais informações sobre **Zonas de Disponibilidade,** consulte o seguinte artigo, que entra em detalhes sobre [Regiões e Zonas de Disponibilidade em Azure.](https://docs.microsoft.com/azure/availability-zones/az-overview)
 
 ## <a name="what-is-a-power-bi-failover"></a>O que é uma ativação pós-falha do Power BI?
 
