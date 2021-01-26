@@ -7,18 +7,18 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 10/22/2020
+ms.date: 1/25/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c16405ff211620580f739facda8556e81774935
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 46d7c0247cfd644b9a085862bbf7d0d41557a371
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415134"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98780820"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>O "novo visual": onde se encontram as ações?
 
-O serviço Power BI (app.powerbi.com) tem um novo aspeto que facilita a visualização dos seus relatórios e a interação com os mesmos. Como resultado, muitas ações do menu foram movidas. As tabelas neste artigo mapeiam a localização antiga para a nova. Para contextualizar, veja [O “novo aspeto” do serviço Power BI](service-new-look.md).
+O serviço Power BI (app.powerbi.com) mudou-se para um novo visual que facilita a visualização e a interação com os seus relatórios. Como resultado, muitas ações do menu foram movidas. Se a sua organização mudou para o novo visual, mas está mais familiarizado com o velho visual, este artigo vai ajudá-lo a encontrar o seu caminho. As tabelas neste artigo mapeiam a localização antiga para a nova. 
 
 Procura informações sobre o novo aspeto do **Power BI Desktop**? Veja [Utilizar o friso atualizado no Power BI Desktop](../create-reports/desktop-ribbon.md).
 
@@ -70,7 +70,3 @@ Procura informações sobre o novo aspeto do **Power BI Desktop**? Veja [Utiliz
 | Atualizar mosaicos do dashboard | Barra de menus Mais opções (...) > Atualizar mosaicos do dashboard | Atualizar elementos visuais (lado direito) |
 | Inspetor de desempenho | Barra de menus Mais opções(...) Inspetor de desempenho | Ficheiro > Inspetor de desempenho |
 | Definições | Barra de menus Mais opções (...) > Definições | Ficheiro > Definições |
-
-## <a name="next-steps"></a>Próximos passos
-
-[O “novo aspeto” do serviço Power BI](service-new-look.md)

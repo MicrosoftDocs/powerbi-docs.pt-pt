@@ -9,12 +9,12 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 5cee5dd701f7ac40b3f363e1bdcee039037fcde9
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.openlocfilehash: f46da004e554027eae1943444bdcf40791d6c76e
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565129"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781611"
 ---
 # <a name="power-bi-security-whitepaper"></a>Documento técnico de segurança do Power BI
 
@@ -87,7 +87,7 @@ O Power BI utiliza dois repositórios principais para armazenar e gerir dados: o
 
 Por exemplo, quando um utilizador importa um livro do Excel para o serviço Power BI, é criada uma base de dados em tabela do Analysis Services na memória e os dados são armazenados na memória durante, no máximo, uma hora (ou até que a pressão de memória ocorra no sistema). Os dados são também enviados para o armazenamento de **Blobs do Azure**.
 
-Os metadados sobre a subscrição do Power BI de um utilizador, como dashboards, relatórios, origens de dados recentes, áreas de trabalho, informações organizacionais e informações sobre o inquilino, assim como outros metadados sobre o sistema, são armazenados e atualizados na **Base de Dados SQL do Azure**. Todas as informações armazenadas na Base de Dados SQL do Azure são totalmente encriptadas com a tecnologia de [Encriptação de Dados Transparente (TDE) do SQL do Azure](/azure/sql-database/transparent-data-encryption-azure-sql). Todos os dados armazenados no armazenamento de Blobs do Azure também são encriptados. Existem mais informações sobre o processo de carregamento, armazenamento e transferência de dados na secção **Armazenamento e Movimento de Dados**.
+Os metadados sobre a subscrição do Power BI de um utilizador, como dashboards, relatórios, origens de dados recentes, áreas de trabalho, informações organizacionais e informações sobre o inquilino, assim como outros metadados sobre o sistema, são armazenados e atualizados na **Base de Dados SQL do Azure**. Todas as informações armazenadas na Base de Dados SQL do Azure são totalmente encriptadas com a tecnologia de [Encriptação de Dados Transparente (TDE) do SQL do Azure](/azure/sql-database/transparent-data-encryption-azure-sql). Todos os dados armazenados no Azure Blob Storage também estão encriptados. Existem mais informações sobre o processo de carregamento, armazenamento e transferência de dados na secção **Armazenamento e Movimento de Dados**.
 
 ## <a name="tenant-creation"></a>Criação do Inquilino
 
@@ -107,7 +107,7 @@ Existem múltiplos detalhes técnicos que devem ser avaliados no contexto das le
 
 - Uma camada de execução de consulta remota é hospedada na região de capacidade remota, para garantir que o modelo de dados, caches e a maioria do processamento de dados permanecem na região de capacidade remota. Existem algumas exceções, conforme detalhado no [artigo multi-geo para Power BI Premium.](../admin/service-admin-premium-multi-geo.md)
 - Um texto de consulta em cache e o resultado correspondente armazenado numa região remota permanecerão nessa região em repouso, no entanto outros dados em trânsito podem ir e vir entre múltiplas geografias.
-- Os ficheiros PBIX ou XLSX que são publicados (carregados) para uma capacidade multi-geo geo do serviço Power BI podem resultar em uma cópia ser temporariamente armazenada no armazenamento de Azure Blob na região de inquilinos do Power BI. Nestas circunstâncias, os dados são encriptados utilizando a Encriptação do Serviço de Armazenamento Azure (SSE), e a cópia está agendada para recolha de lixo assim que o processamento e transferência de conteúdos de ficheiros para a região remota estiver concluída. 
+- Os ficheiros PBIX ou XLSX que são publicados (carregados) para uma capacidade multi-geo geo do serviço Power BI podem resultar em uma cópia ser temporariamente armazenada no Azure Blob Storage na região de inquilinos do Power BI. Nestas circunstâncias, os dados são encriptados utilizando a Encriptação do Serviço de Armazenamento Azure (SSE), e a cópia está agendada para recolha de lixo assim que o processamento e transferência de conteúdos de ficheiros para a região remota estiver concluída. 
 - Ao mover dados através de regiões num ambiente multi-geo geo, o caso dos dados na região de origem será eliminado dentro de 7-30 dias. 
 
 ### <a name="datacenters-and-locales"></a>Datacenters e Regiões
@@ -205,7 +205,7 @@ Para origens de dados baseado na cloud, a Função de Movimento de Dados encript
 
     a. Para o Analysis Services no local, nada é armazenado no serviço, exceto uma referência a essa base de dados armazenada e encriptada no SQL do Azure.
 
-    b. Todos os outros metadados de ETL e DirectQuery, e Dados Push são encriptados e armazenados no armazenamento de Blobs do Azure.
+    b. Todos os outros metadados para ETL, DirectQuery e Push Data são encriptados e armazenados no Azure Blob Storage.
 
 1. Credenciais para as origens de dados originais
   
@@ -226,19 +226,19 @@ Para origens de dados baseado na cloud, a Função de Movimento de Dados encript
 
     a. Analysis Services no local e DirectQuery – nada é armazenado no serviço Power BI.
 
-    b. ETL – encriptação no armazenamento de Blobs do Azure, mas todos os dados atualmente no armazenamento de Blobs do Azure do serviço Power BI utilizam a [Encriptação do Serviço de Armazenamento (SSE) do Azure](/azure/storage/common/storage-service-encryption), também conhecida como encriptação do lado do servidor. A Multi-Geo também utiliza a SSE.
+    b. ETL – encriptado no Azure Blob Storage, mas todos os dados atualmente no Azure Blob Storage do serviço Power BI utilizam [encriptação do serviço de armazenamento Azure (SSE)](/azure/storage/common/storage-service-encryption), também conhecida como encriptação do lado do servidor. A Multi-Geo também utiliza a SSE.
 
-    c. Dados Push v1 – encriptação no armazenamento de Blobs do Azure, mas todos os dados atualmente no armazenamento de Blobs do Azure, no serviço Power BI, utilizam a [Encriptação do Serviço de Armazenamento (SSE) do Azure](/azure/storage/common/storage-service-encryption), também conhecida como encriptação do lado do servidor. A Multi-Geo também utiliza a SSE. Os dados de pressão v1 foram descontinuados a partir de 2016. 
+    c. Push data v1 – armazenados encriptados no Azure Blob Storage, mas todos os dados atualmente no Azure Blob Storage no serviço Power BI utilizam [encriptação do serviço de armazenamento Azure (SSE)](/azure/storage/common/storage-service-encryption), também conhecida como encriptação do lado do servidor. A Multi-Geo também utiliza a SSE. Os dados de pressão v1 foram descontinuados a partir de 2016. 
 
     d. Dados Push v2 – armazenamento encriptado no SQL do Azure.
 
-O Power BI utiliza a abordagem de encriptação do lado do cliente, ao empregar o modo de encadeamento de blocos de cifras (CBC) com a norma AES (Advanced Encryption Standard) para encriptar o respetivo armazenamento de Blobs do Azure. [Saiba mais sobre a encriptação do lado do cliente](/azure/storage/common/storage-client-side-encryption).
+O Power BI utiliza a abordagem de encriptação do lado do cliente, utilizando o modo de acorrentação do bloco de cifra (CBC) com padrão de encriptação avançada (AES), para encriptar o seu Azure Blob Storage. [Saiba mais sobre a encriptação do lado do cliente](/azure/storage/common/storage-client-side-encryption).
 
 O Power BI proporciona a monitorização da integridade dos dados das seguintes formas:
 
 * Para dados inativos no SQL do Azure, o Power BI utiliza o DBCC, a TDE e a soma de verificação de páginas constante como parte das ofertas nativas do SQL.
 
-* Para dados inativos no armazenamento de Blobs do Azure, o Power BI utiliza a encriptação do lado do cliente e o HTTPS para transferir dados para o armazenamento, o que inclui verificações de integridade durante a obtenção dos dados. [Saiba mais sobre a segurança do armazenamento de Blobs do Azure](/azure/storage/blobs/security-recommendations).
+* Para dados em repouso no Azure Blob Storage, o Power BI utiliza encriptação do lado do cliente e HTTPS para transferir dados para armazenamento, o que inclui verificações de integridade durante a recuperação dos dados. Pode [saber mais sobre a segurança do Azure Blob Storage](/azure/storage/blobs/security-recommendations).
 
 #### <a name="reports"></a>Relatórios
 
@@ -256,7 +256,7 @@ O Power BI proporciona a monitorização da integridade dos dados das seguintes 
 
     &ensp;&ensp;a. Para relatórios criados com o Excel para o Microsoft 365, nada está armazenado.
 
-    &ensp;&ensp;b. Para relatórios do Power BI, os dados estáticos são armazenados e encriptados no armazenamento de Blobs do Azure.
+    &ensp;&ensp;b. Para relatórios power bi, os dados estáticos são armazenados e são encriptados no Azure Blob Storage.
 
 3. Caches
 
@@ -267,13 +267,13 @@ O Power BI proporciona a monitorização da integridade dos dados das seguintes 
 
 4. Ficheiros do Power BI Desktop (.pbix) ou do Excel (.xlsx) originais publicados no Power BI
 
-    Por vezes, uma cópia ou uma cópia sombra dos ficheiros .xlsx ou .pbix é armazenada no armazenamento de Blobs do Azure do Power BI e, quando isso ocorre, os dados são encriptados. Todos esses relatórios armazenados no serviço Power BI, no armazenamento de Blobs do Azure, utilizam a [Encriptação do Serviço de Armazenamento (SSE) do Azure](/azure/storage/common/storage-service-encryption), também conhecida como encriptação do lado do servidor. A Multi-Geo também utiliza a SSE.
+    Por vezes, uma cópia ou uma cópia-sombra dos ficheiros .xlsx ou .pbix são armazenados no Armazenamento Azure Blob do Power BI e quando isso ocorre, os dados são encriptados. Todos estes relatórios armazenados no serviço Power BI, no Azure Blob Storage, utilizam encriptação do serviço de [armazenamento Azure (SSE),](/azure/storage/common/storage-service-encryption)também conhecida como encriptação do lado do servidor. A Multi-Geo também utiliza a SSE.
 
 #### <a name="dashboards-and-dashboard-tiles"></a>Dashboards e Mosaicos de Dashboards
 
 1. Caches – Os dados necessários pelos visuais no painel de instrumentos são geralmente em cache e armazenados na Cache de Dados Visuais descrita na secção seguinte. Outros mosaicos, como elementos visuais afixados do Excel ou do SQL Server Reporting Services (SSRS), são armazenados no Blob do Azure como imagens e também são encriptados.
 
-2. Dados estáticos – que incluem artefactos como imagens de fundo e visuais power BI que são armazenados, encriptados, no armazenamento de Azure Blob.
+2. Dados estáticos – que incluem artefactos como imagens de fundo e visuais power BI que são armazenados, encriptados, no Azure Blob Storage.
 
 Independentemente do método de encriptação utilizado, a Microsoft gere a encriptação chave em nome dos clientes.
 
@@ -448,14 +448,14 @@ Seguem-se perguntas e respostas comuns relacionadas com a segurança do Power BI
 
 **Para os visuais power BI, a Microsoft efetua alguma avaliação de segurança ou privacidade do código visual personalizado antes de publicar artigos na Galeria?**
 
-* N.º É da responsabilidade do cliente analisar e determinar se o código do elemento visual personalizado é confiável. Todos os códigos de elementos visuais personalizados são processados num ambiente sandbox, de forma que qualquer código anómalo num elemento visual personalizado não afete negativamente o resto do serviço Power BI.
+* Não. É da responsabilidade do cliente analisar e determinar se o código do elemento visual personalizado é confiável. Todos os códigos de elementos visuais personalizados são processados num ambiente sandbox, de forma que qualquer código anómalo num elemento visual personalizado não afete negativamente o resto do serviço Power BI.
 
 **Existem outros elementos visuais do Power BI que enviam informações para fora da rede do cliente?**
 
 * Yes. Os elementos visuais do Mapas Bing e da ESRI transmitem dados para fora do serviço Power BI, caso utilizem esses serviços.
 
 **Para apps de modelo, a Microsoft realiza alguma avaliação de segurança ou privacidade da aplicação Do Modelo antes de publicar itens na Galeria?**
-* N.º O editor da aplicação é responsável pelo conteúdo, enquanto o cliente tem a responsabilidade de rever e determinar se confia na editora de aplicações Modelo. 
+* Não. O editor da aplicação é responsável pelo conteúdo, enquanto o cliente tem a responsabilidade de rever e determinar se confia na editora de aplicações Modelo. 
 
 **Existem aplicações de modelo que podem enviar informações fora da rede de clientes?**
 * Yes. É da responsabilidade do cliente rever a política de privacidade da editora e determinar se deve instalar a aplicação Modelo no Inquilino. Além disso, a editora é responsável por notificar o comportamento e capacidades da app.

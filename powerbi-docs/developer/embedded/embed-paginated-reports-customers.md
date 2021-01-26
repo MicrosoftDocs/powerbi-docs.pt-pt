@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: b9623b91555efe01817e4ffca3c6f80bd73c5243
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
-ms.translationtype: HT
+ms.openlocfilehash: 1cbe656618e2d4240aebfe95ef4ebc2679616054
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110895"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781628"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Tutorial: Incorporar relatórios paginados do Power BI numa aplicação para os clientes
 
-Com o **Power BI Embedded no Azure** ou a **incorporação do Power BI no Office**, pode incorporar relatórios paginados numa aplicação através do esquema Dados Pertencem à Aplicação. No esquema **Dados Pertencem à Aplicação** existe uma aplicação que utiliza o Power BI como plataforma de análise incorporada. Enquanto **ISV** ou **programador**, pode criar conteúdos do Power BI para apresentar relatórios paginados numa aplicação totalmente integrada e interativa, sem precisar que os utilizadores tenham uma licença do Power BI. Este tutorial demonstra como integrar um relatório paginado numa aplicação com o .NET SDK do Power BI, com a API JavaScript do Power BI.
+Com o **Power BI Embedded no Azure** ou a **incorporação do Power BI no Office**, pode incorporar relatórios paginados numa aplicação através do esquema Dados Pertencem à Aplicação. No esquema **Dados Pertencem à Aplicação** existe uma aplicação que utiliza o Power BI como plataforma de análise incorporada. Enquanto **ISV** ou **programador**, pode criar conteúdos do Power BI para apresentar relatórios paginados numa aplicação totalmente integrada e interativa, sem precisar que os utilizadores tenham uma licença do Power BI. Este tutorial demonstra como integrar um relatório paginado numa aplicação utilizando o Power BI .NET SDK com as APIs do Cliente power BI.
 
 ![Power BI Embed Report](media/embed-paginated-reports-for-customers/embedded-paginated-report.png)
 
@@ -58,16 +58,10 @@ Antes de importar ou carregar um relatório paginado para incorporar, a área de
 * **Power BI Premium** – para incorporar um relatório paginado, é necessário ter uma capacidade de SKU *P*. Ao incorporar conteúdo do Power BI, esta solução é conhecida como *incorporação do Power BI*. Para saber mais sobre esta subscrição, veja [O que é o Power BI Premium?](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded** – pode comprar uma capacidade no [portal do Microsoft Azure](https://portal.azure.com). Esta subscrição utiliza os SKUs *A*. Para incorporar relatórios paginados, precisa de, pelo menos, uma subscrição *A4*. Para obter mais informações sobre como criar uma capacidade do Power BI Embedded, veja [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (Criar capacidade do Power BI Embedded no portal do Azure).
 
-    >[!NOTE]
-    >O Power BI Embedded lançou recentemente uma nova versão, designada **Embedded Gen2**. O Embedded Gen2 irá simplificar a gestão de capacidades incorporadas e melhorar a experiência do Power BI Embedded. Para obter mais informações, veja [Power BI Embedded Generation 2](power-bi-embedded-generation-2.md).
-
 A seguinte tabela descreve os recursos e limites de cada SKU. Para determinar qual a capacidade mais adequada às suas necessidades, veja a tabela [que SKU devo comprar para o meu cenário](./embedded-faq.md#which-solution-should-i-choose).
 
 | Nós de Capacidade | Núcleos virtuais totais | Núcleos virtuais de back-end | RAM (GB) | Núcleos virtuais de front-end | 
 | --- | --- | --- | --- | --- |
-| A1 com [Embedded Gen2](power-bi-embedded-generation-2.md) | 1 | 0,5 | 2.5 | 0,5 |
-| A2 com [Embedded Gen2](power-bi-embedded-generation-2.md) | 2 | 1 | 5 | 1 |
-| A3 com [Embedded Gen2](power-bi-embedded-generation-2.md) | 4 | 2 | 10 | 2 |
 | P1/A4 | 8 | 4 | 25 | 4 |
 | P2/A5 | 16 | 8 | 50 | 8 |
 | P3/A6 | 32 | 16 | 100 | 16 |
@@ -249,7 +243,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Criar o token de incorporação
 
-Gere um token de incorporação que pode ser utilizado a partir da API JavaScript. Para criar um token incorporado para incorporar relatórios paginados do Power BI, utilize a API [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup).
+Gere um token incorporado, que pode ser usado a partir do Power BI incorporado analítico cliente APIs. Para criar um token incorporado para incorporar relatórios paginados do Power BI, utilize a API [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup).
 
 Está disponível um exemplo de como criar um token de incorporação no ficheiro *Services\EmbedService.cs* na [aplicação de exemplo](https://github.com/Microsoft/PowerBI-Developer-Samples).
 
@@ -270,11 +264,11 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-### <a name="load-an-item-using-javascript"></a>Carregar um item com JavaScript
+### <a name="load-an-item-using-the-client-apis"></a>Carregue um item usando as APIs do Cliente
 
-Pode utilizar JavaScript para carregar um relatório paginado para um elemento div na sua página Web.
+Pode utilizar o Power BI incorporado analíticos APIs do cliente para carregar um relatório paginado num elemento de div na sua página web.
 
-Para obter um exemplo completo de utilização da API de JavaScript, pode utilizar a [ferramenta Playground](https://microsoft.github.io/PowerBI-JavaScript/demo). A ferramenta Playground proporciona uma forma rápida de testar vários tipos de exemplos do Power BI Embedded. Também pode obter mais informações sobre a API de JavaScript ao visitar a página [PowerBI-JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) (Wiki do PowerBI-JavaScript).
+Para obter uma amostra completa da utilização da API do Cliente, pode utilizar a [ferramenta Playground](https://microsoft.github.io/PowerBI-JavaScript/demo). A ferramenta Playground proporciona uma forma rápida de testar vários tipos de exemplos do Power BI Embedded. Também pode obter mais informações sobre a API de analítica incorporada do Power BI visitando a página APIs do [Cliente em forma de power BI.](/javascript/api/overview/powerbi/)
 
 ## <a name="next-steps"></a>Próximos passos
 

@@ -12,7 +12,7 @@
       items:
         - name: 'Tutorial: Programar um elemento visual de cartão circular do Power BI'
           href: develop-circle-card.md
-        - name: Create React-based Visuals (Criar Elementos Visuais com base em Reações)
+        - name: 'Tutorial: Criar um power BI visual usando reagir'
           href: create-react-visual.md
         - name: Build a bar chart (Criar um gráfico de barras)
           href: create-bar-chart.md

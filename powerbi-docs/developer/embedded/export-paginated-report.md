@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 4096ba77bc8733ff2e3d24cd646aa480aa53819d
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: befb64ec85c02f8993d828202df06aafc5901482
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98687540"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781524"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Exportar relatórios paginados para ficheiros (pré-visualização)
 
@@ -127,11 +127,12 @@ Eis um exemplo para fornecer um nome de utilizador eficaz para RLS.
 
 No Power BI, tem a opção de definir OAuth com SSO. Quando o faz, as credenciais para o utilizador que visualiza o relatório são utilizadas para recuperar dados. O token de acesso no cabeçalho requrest não é utilizado para aceder aos dados, o token deve ser transmitido com a identidade efetiva no corpo do correio.
 
-O que pode tornar os tokens de acesso confusos é obter o sinal de acesso correto para o recurso que você gostaria de ter acesso. 
-- Para a Azure SQL, o recurso é https://database.windows.net
-- Para o Dataverse, o recurso é o endereço https:// para o seu ambiente. Exemplo https://contoso.crm.dynamics.com
+O que pode tornar os tokens de acesso confusos é obter o sinal de acesso correto para o recurso a que pretende aceder.
 
-Acesso a API [aqui](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync?view=azure-dotnet)
+- Para o Azure SQL, o recurso é `https://database.windows.net` .
+- Para o Dataverse, o recurso é o endereço para o `https://` seu ambiente. Por exemplo, `https://contoso.crm.dynamics.com`.
+
+Aceda à API simbólica utilizando o método [AuthenticationContext.AcquireTokenAsync.](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync)
 
 Aqui está um exemplo para fornecer um nome de utilizador eficaz com um token de acesso.
 

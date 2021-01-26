@@ -1,5 +1,5 @@
 ### YamlMime:Hub
-title: Documentação de programador do Power BI para obter melhores informações de BI incorporadas na análise incorporada do Power BI
+title: Power BI developer documentation (Documentação de programador do Power BI)
 summary: Enquanto programador do Power BI, pode incorporar conteúdos, desenvolver elementos visuais e automatizar processos do Power BI.
 brand: power-bi
 metadata:
@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 701f9e5e02d8b8cb8d019deebd9ae226560e07df
-  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-  ms.translationtype: HT
+  ms.openlocfilehash: 51bd353206d605cd0627e10e226d0950adf8de0f
+  ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+  ms.translationtype: MT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "97885689"
+  ms.lasthandoff: 01/26/2021
+  ms.locfileid: "98781463"
 highlightedContent:
   items:
   - title: Análise incorporada com o Power BI
@@ -30,6 +30,9 @@ highlightedContent:
   - title: Visuals in Power BI (Elementos visuais no Power BI)
     itemType: overview
     url: visuals/power-bi-custom-visuals.md
+  - title: ApIs do cliente embutida em Power BI
+    itemType: whats-new
+    url: /javascript/api/overview/powerbi/
   - title: Configuração automatizada da aplicação de modelo
     itemType: concept
     url: template-apps/template-apps-auto-install.md
@@ -105,6 +108,6 @@ additionalContent:
     - title: Ambiente de Demonstração
       summary: Experimente funcionalidades e explore APIs.
       url: https://aka.ms/pbieplayground
-    - title: Wiki do JavaScript
-      summary: Explore a base de dados de conhecimento em JavaScript.
-      url: https://github.com/Microsoft/powerbi-javascript/wiki
+    - title: ApIs do cliente embutida em Power BI
+      summary: Explore as APIs do cliente embutidas em Power BI.
+      url: /javascript/api/overview/powerbi/

@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: a4de20cdd11170b7782c4891b11bde48081fdd55
-  ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
-  ms.translationtype: HT
+  ms.openlocfilehash: 16fa5ae23127c2ebfc1057d1a55129396fbac9c3
+  ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+  ms.translationtype: MT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 01/22/2021
-  ms.locfileid: "98687517"
+  ms.lasthandoff: 01/26/2021
+  ms.locfileid: "98781499"
 landingContent:
 - title: Introdução
   linkLists:
@@ -29,6 +29,12 @@ landingContent:
       url: azure-pbie-what-is-power-bi-embedded.md
     - text: Perguntas mais frequentes
       url: embedded-faq.md
+- title: APIs do cliente
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: ApIs do cliente embutida em Power BI
+      url: /javascript/api/overview/powerbi/
 - title: Incorporar relatórios ou dashboards
   linkLists:
   - linkListType: tutorial
@@ -79,5 +85,5 @@ landingContent:
       url: https://www.nuget.org/profiles/powerbi
     - text: Ambiente de Demonstração
       url: https://microsoft.github.io/PowerBI-JavaScript/demo/v2-demo/index.html
-    - text: Wiki do JavaScript
-      url: https://github.com/Microsoft/powerbi-javascript/wiki
+    - text: ApIs do cliente embutida em Power BI
+      url: /javascript/api/overview/powerbi/

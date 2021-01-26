@@ -110,11 +110,11 @@
           href: 'https://aka.ms/embedsetup'
         - name: Exemplo do JavaScript Playground
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Wiki de JavaScript do Power BI
-          href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+        - name: ApIs do cliente embutida em Power BI
+          href: /javascript/api/overview/powerbi/
         - name: Exemplos e scripts de programador
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
         - name: Power BI community (Comunidade do Power BI)
           href: 'https://go.microsoft.com/fwlink/?linkid=848280'
         - name: Stack Overflow (Capacidade de Pilha Excedida)
-          href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+          href: 'https://go.microsoft.com/fwlink/?linkid=2153505'
