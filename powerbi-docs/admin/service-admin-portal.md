@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 01/05/2020
+ms.date: 01/25/2021
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 554cce8c0313ad6624a2991aa09f60c98ff454be
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
-ms.translationtype: HT
+ms.openlocfilehash: 8305d4662da9f4f7b8a5cce2b3badf5e70e88bc5
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969615"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861313"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -174,12 +174,6 @@ Várias das definições podem ter um de três estados:
     ![Definição Ativado com exceções](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 As próximas secções fornecem uma descrição geral dos diferentes tipos de definições de inquilino.
-
-## <a name="tenant-wide-new-look-settings"></a>Definições do novo aspeto em todo o inquilino
-
-Quando a opção **Novo aspeto** é desativada, os utilizadores desta organização podem ativar ou desativar o novo aspeto do Power BI. Quando ativar a opção **Novo aspeto**, *todos* os utilizadores desta organização veem os controlos modernos do novo aspeto do Power BI a qualquer altura. Deixam de poder desativar o novo aspeto. A opção Novo aspeto está ativada por predefinição.
-
-:::image type="content" source="media/service-admin-portal/admin-portal-new-look-disable.png" alt-text="Captura de ecrã da opção Desativar Novo Aspeto no portal de administração.":::
 
 ## <a name="help-and-support-settings"></a>Definições de ajuda e suporte
 

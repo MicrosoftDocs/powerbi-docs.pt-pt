@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: tutorial
-ms.date: 07/08/2020
+ms.date: 01/13/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 4e74bec243faad281c457caaa15a6edacf2b10cb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 04777ba93b6a4639b55406b3952a80de963cb540
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417135"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861221"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>Tutorial: Introdução ao serviço de criação no Power BI
 Este tutorial é uma introdução a algumas das funcionalidades do *serviço Power BI*. Aqui, irá aprender a ligar-se aos dados, a criar um relatório e um dashboard, e a fazer perguntas sobre os seus dados. As várias funcionalidades do serviço Power BI permitem-lhe fazer muito mais. Este tutorial é só o começo. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos que leia [O que é o Power BI?](power-bi-overview.md).
@@ -40,7 +40,7 @@ Para criar conteúdos no Power BI, é necessária uma licença do Power BI Pro
 
 ## <a name="step-1-get-data"></a>Passo 1: Obter dados
 
-Geralmente, quando quer criar um relatório do Power BI, começa no Power BI Desktop. O Power BI Desktop dá-lhe mais poder. Pode transformar, formatar e modelar dados, antes de começar a conceber um relatório. Desta vez, contudo, vamos começar a criar do zero um relatório no serviço Power BI.
+Muitas vezes, quando pretende criar um relatório Power BI, começa no Power BI Desktop. O Power BI Desktop dá-lhe mais poder. Pode transformar, moldar e modelar dados, antes de começar a desenhar relatórios. Desta vez, contudo, vamos começar a criar do zero um relatório no serviço Power BI.
 
 Neste tutorial, obtemos dados a partir de um ficheiro simples do Microsoft Excel. Quer acompanhar? [Transfira o ficheiro de Exemplo Financeiro](https://go.microsoft.com/fwlink/?LinkID=521962).
 
@@ -223,6 +223,8 @@ Agora que concluiu o tutorial, pode eliminar o conjunto de dados, o relatório e
 4. Selecione **Eliminar**.
 
 ## <a name="next-steps"></a>Próximos passos
+
+[Crie rapidamente um relatório colando dados no serviço Power BI](https://powerbi.microsoft.com/en-us/blog/quickly-create-reports-power-bi-service/)
 
 Explore as coleções de conteúdos do Microsoft Learn para o Power BI:
 

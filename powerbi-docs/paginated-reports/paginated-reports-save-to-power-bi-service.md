@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 05/04/2020
-ms.openlocfilehash: 28058161672de9db0cac5093e652e1d551f6a80a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
-ms.translationtype: HT
+ms.date: 01/25/2021
+ms.openlocfilehash: bbe88b206c4c07e2e296b9c85d46be7901f5972a
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297314"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861290"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Publicar um relatório paginado no serviço Power BI
 
@@ -27,23 +27,23 @@ Se a sua origem de dados do relatório estiver no local, precisará de criar um 
 
 Se a área de trabalho não tiver o ícone de losango ![Ícone de losango da capacidade do Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) junto ao nome, terá de adicionar a área de trabalho a uma capacidade Premium. 
 
-1. Selecione **Áreas de trabalho** , selecione as reticências ( **…** ) junto ao nome da área de trabalho e, em seguida, selecione **Editar área de trabalho**.
+1. Selecione **Áreas de trabalho**, selecione as reticências (**…**) junto ao nome da área de trabalho e, em seguida, selecione **Editar área de trabalho**.
 
     ![Selecionar Editar área de trabalho](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 
-1. Na caixa de diálogo **Editar área de trabalho** , expanda **Avançado** e, em seguida, deslize **Capacidade dedicada** para **Ativa**.
+1. Na caixa de diálogo **Editar área de trabalho**, expanda **Avançado** e, em seguida, deslize **Capacidade dedicada** para **Ativa**.
 
     ![Selecionar Capacidade dedicada](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace-dialog.png)
 
    Poderá não conseguir alterá-la. Se não conseguir, contacte o seu administrador de capacidade do Power BI Premium para que tenha direitos de atribuição para adicionar a sua área de trabalho a uma capacidade Premium.
 
-## <a name="from-report-builder-publish-a-paginated-report"></a>Publicar um relatório paginado no Report Builder
+## <a name="from-report-builder-publish-a-paginated-report-to-the-power-bi-service"></a>Do Report Builder, publique um relatório paginado para o Serviço de BI de Energia
 
-1. Crie o relatório paginado no Report Builder e guarde-o no computador local.
+1. Crie um novo relatório paginado ou abra um relatório paginado existente do Serviço de Bi de Energia em Report Builder. Se abrir um relatório paginado existente a partir do serviço, a opção **Save** é desativada porque está a atualizar um relatório que está ao vivo no Serviço Power BI.
 
-1. No menu **Ficheiro** do Report Builder, selecione **Guardar como**.
+1. No menu **'Relatório Construtor' De Ficheiro,** selecione **Publicar**.
 
-    ![Menu Ficheiro > Guardar > Guardar como](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
+    ![Selecione o menu 'Ficheiro' e, em seguida, publique.](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
 
     Se ainda não tiver sessão iniciada no Power BI, terá de iniciar sessão ou criar uma conta agora. No canto superior direito do Report Builder, selecione **Iniciar sessão** e conclua os passos.
 
@@ -51,7 +51,7 @@ Se a área de trabalho não tiver o ícone de losango ![Ícone de losango da cap
 
     ![Selecionar uma área de trabalho do Power BI Premium](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-workspace.png)
 
-4. Abra o serviço Power BI num browser e navegue até à área de trabalho do Power BI Premium onde publicou o relatório paginado. No separador **Relatórios** , é apresentado o seu relatório.
+4. Abra o serviço Power BI num browser e navegue até à área de trabalho do Power BI Premium onde publicou o relatório paginado. No separador **Relatórios**, é apresentado o seu relatório.
 
     ![Relatório paginado na Lista de relatórios](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
 
@@ -89,7 +89,7 @@ Também pode começar no serviço Power BI e carregar um relatório paginado.
 
     ![Editar credenciais](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
 
-   No separador **Relatórios** , é apresentado o seu relatório.
+   No separador **Relatórios**, é apresentado o seu relatório.
 
     ![Relatório paginado na Lista de relatórios](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
 

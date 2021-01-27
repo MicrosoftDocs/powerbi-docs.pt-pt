@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 01/15/2021
+ms.date: 01/26/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: acb1a1550c0ab216e4934e99f871df9321561314
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 2710143ddd0474e38e7c0c1e6f82ba9c3d1fbba3
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565436"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861244"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>Monitorizar métricas de utilização em áreas de trabalho clássicas
 
@@ -157,12 +157,12 @@ O Power BI está disponível em clouds nacionais separadas. Estas clouds oferece
 
 * Por vezes, as métricas de utilização poderão contabilizar menos atividades devido a ligações de rede inconsistentes, bloqueadores de publicidade ou a outros problemas que podem interromper o envio de eventos do cliente.
 * Determinados tipos de visualizações não são incluídos nas métricas de utilização, conforme descrito anteriormente neste artigo.
-* Por vezes, as métricas de utilização poderão contabilizar atividades a mais, em situações em que o cliente atualiza sem a necessidade de enviar um pedido para o serviço Power BI.
+* Por vezes, as métricas de utilização poderão contabilizar atividades a mais, em situações em que o cliente atualiza sem a necessidade de enviar um pedido para o serviço Power BI. Por exemplo, mudar páginas de relatório não emite um pedido uma carga de relatório para o servidor uma vez que a definição de página já está no navegador.
 * A partilha está desativada no relatório das métricas de utilização. Para atribuir às pessoas acesso de leitura ao relatório, primeiro é preciso dar-lhes acesso à área de trabalho.
 
 ### <a name="discrepancies-between-rest-apis-and-usage-metrics"></a>Discrepâncias entre as APIs REST e as métricas de utilização
 
-As [APIs REST de Relatórios](/rest/api/power-bi/reports) e as [APIs REST de Administração](/rest/api/power-bi/admin) do Power BI também utilizam dados do serviço Power BI. Pelos motivos descritos na secção anterior, as contagens de relatório (o número de relatórios) das APIs podem ser diferentes das contagens de relatório nas métricas de utilização. As contagens de relatório derivadas das APIs não são afetadas por problemas de cliente e devem ser consideradas precisas.
+As [APIs REST de Relatórios](/rest/api/power-bi/reports) e as [APIs REST de Administração](/rest/api/power-bi/admin) do Power BI também utilizam dados do serviço Power BI. Pelos motivos descritos na secção anterior, as contagens de relatório (o número de relatórios) das APIs podem ser diferentes das contagens de relatório nas métricas de utilização. As contagens de relatório derivadas das APIs não são afetadas por problemas de cliente e devem ser consideradas precisas. Note também que as APIs de administrador dão-lhe o "estado atual" da implantação do Power BI e apenas considerar o que existe no momento do pedido. O relatório clássico das métricas de utilização tem 90 dias de dados, e a "contagem total" lá representa relatórios únicos vistos ao longo de 90 dias. Se os relatórios forem eliminados após a visualização, não são contados pelas APIs de administração, mas serão contados nos dados históricos que alimentam o relatório de utilização.
 
 ### <a name="classic-usage-metrics-are-not-supported-with-private-links"></a>As Métricas de Utilização Clássicas não são suportadas com Ligações Privadas 
 
