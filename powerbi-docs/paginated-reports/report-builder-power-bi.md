@@ -9,12 +9,12 @@ ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
 ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
-ms.openlocfilehash: 32d42ee139ceb03326b99d88e6033475ed2a4cc7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: ce45260c536733dde9dcfe7c654ed4f56c58c7ea
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416261"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925753"
 ---
 # <a name="power-bi-report-builder"></a>Power BI Report Builder
 
@@ -22,7 +22,7 @@ ms.locfileid: "96416261"
 
 O Power BI Report Builder é uma ferramenta para a criação de relatórios paginados que pode publicar no serviço Power BI.  Quando criar um relatório paginado, irá criar uma definição do relatório que especifica os dados a obter, o local de obtenção e a forma como estes são apresentados. Quando executar o relatório, o processador do relatório irá utilizar a definição do relatório que especificou, obter os dados e combiná-los com o esquema de relatório para gerar o relatório. Pré-visualize o seu relatório no Report Builder. Em seguida, publique o seu relatório no serviço Power BI.
  
-Pronto para começar a criação? [Instale o Power BI Report Builder](https://aka.ms/pbireportbuilder) a partir do Centro de Transferências da Microsoft.
+Pronto para começar a criação? [Instale o Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513) a partir do Centro de Transferências da Microsoft.
 
 Prefere aprender com vídeos? Consulte o [Curso em vídeo: Relatórios Paginados do Power BI num Dia](../learning-catalog/paginated-reports-online-course.md).
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 12/09/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 09188b3b03fd5bfb720b98045ee9d895d337d677
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
-ms.translationtype: HT
+ms.openlocfilehash: a50a8c8514a4316f16a6a38647804aabf878d5ad
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969173"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925681"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>Como aplicar etiquetas de confidencialidade no Power BI
 
@@ -95,7 +95,7 @@ Depois de ter aplicado a etiqueta, a mesma fica visível na barra de estado.
 ![Captura de ecrã da etiqueta de confidencialidade na barra de estado do Desktop.](media/service-security-apply-data-sensitivity-labels/sensitivity-label-in-desktop-status-bar.png)
 
 ### <a name="sensitivity-labels-when-uploading-or-downloading-pbix-files-tofrom-the-service"></a>Etiquetas de confidencialidade ao carregar ou transferir ficheiros .pbix de/para o serviço
-* Ao publicar um ficheiro .pbix no serviço Power BI a partir do Desktop ou ao carregar um ficheiro .pbix no serviço Power BI diretamente com **Obter dados**, a etiqueta do ficheiro .pbix é aplicada ao relatório e ao conjunto de dados que são criados no serviço. Se o ficheiro .pbix que está a publicar ou a carregar substituir os recursos existentes (ou seja, os recursos que têm o mesmo nome que o ficheiro .pbix), a etiqueta do ficheiro .pbix substituirá todas etiquetas nesses recursos.
+* Ao publicar um ficheiro .pbix no serviço Power BI a partir do Desktop ou ao carregar um ficheiro .pbix no serviço Power BI diretamente com **Obter dados**, a etiqueta do ficheiro .pbix é aplicada ao relatório e ao conjunto de dados que são criados no serviço. Se o ficheiro .pbix que está a publicar ou a carregar substituir os recursos existentes (ou seja, os recursos que têm o mesmo nome que o ficheiro .pbix), a etiqueta do ficheiro .pbix substituirá todas etiquetas nesses recursos. Se o ficheiro .pbix não estiver rotulado, as etiquetas do serviço serão mantidas.
 * Ao utilizar “Transferir para .pbix” no serviço Power BI, se o relatório e o conjunto de dados que estão a ser transferidos tiverem etiquetas e essas etiquetas forem diferentes, a etiqueta que será aplicada ao ficheiro .pbix será a mais restritiva das duas.
 
 ## <a name="remove-sensitivity-labels"></a>Remover as etiquetas de confidencialidade

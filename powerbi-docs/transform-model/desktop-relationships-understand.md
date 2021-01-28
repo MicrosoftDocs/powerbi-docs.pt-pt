@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 10/15/2019
-ms.openlocfilehash: 7aeae77efeadfa3b39f9c39cadc36b2a046286b2
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.openlocfilehash: 0f9edc247401ccf72ec1a5b0aebb5b3a074a5494
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888582"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925710"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Model relationships in Power BI Desktop (Relações de modelos no Power BI Desktop)
 
@@ -53,7 +53,7 @@ Uma relação de modelo relaciona uma coluna numa tabela a uma coluna numa tabel
 
 ### <a name="cardinality"></a>Cardinalidade
 
-Cada relação de modelo deve ser definida com um tipo de cardinalidade. Existem quatro opções de tipo de cardinalidade que representam as características das colunas relacionadas "de" e "para". O lado "um" significa que a coluna contém valores exclusivos; o lado "dois" significa que a coluna pode conter valores duplicados.
+Cada relação de modelo deve ser definida com um tipo de cardinalidade. Existem quatro opções de tipo de cardinalidade que representam as características das colunas relacionadas "de" e "para". O lado "um" significa que a coluna contém valores únicos; o lado "muitos" significa que a coluna pode conter valores duplicados.
 
 > [!NOTE]
 > Se uma operação de atualização de dados tentar carregar valores duplicados para uma coluna do lado "um", a atualização de dados irá falhar.

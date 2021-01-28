@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.custom: contperf-fy21q2
 ms.date: 12/20/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: df109f279a43826e164a461ae213bc74c0498cea
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 52c3d5dea171f34fbbe5133eda6fd51fd471bbd4
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565039"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925670"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Etiquetas de confidencialidade no Power BI
 
@@ -202,6 +202,8 @@ Para aceder às etiquetas de confidencialidade em qualquer um destes centros, na
 * A opção **Exportar para PDF** não suporta etiquetas de confidencialidade. Se exportar um ficheiro que tenha uma etiqueta de confidencialidade para PDF, o PDF não receberá a etiqueta e não será aplicada qualquer proteção.
 
 * A proteção de informações no Power BI Desktop não suporta **cenários B2B** e **multi-inquilinos**.
+
+* Se substituir um conjunto de dados rotulado ou reportar no serviço com um ficheiro .pbix não rotulado, as etiquetas do serviço serão mantidas.
 
 ## <a name="next-steps"></a>Próximos passos
 

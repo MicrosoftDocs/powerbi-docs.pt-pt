@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/22/2021
-ms.openlocfilehash: 88293bbfc39f75472422e6785099421efcd45802
-ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.openlocfilehash: 5817bf3752a03361be4e982faf10dffb67bda0b5
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "98718537"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925788"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Subscrever relatórios paginados no serviço Power BI para si e para outras pessoas 
 
@@ -29,7 +29,7 @@ Ao configurar subscrições, pode selecionar com que frequência quer receber os
 
 - Pode incluir uma imagem de pré-visualização do relatório no corpo do e-mail.  Isto é opcional e pode ser ligeiramente diferente da primeira página do documento de relatório anexado, consoante o formato do anexo selecionado. 
 
-- O tamanho máximo do anexo do relatório é 24 MB. 
+- O tamanho máximo do anexo do relatório é 25 MB. 
 
 - Pode subscrever outros utilizadores a relatórios paginados que se conectem a quaisquer fontes de dados atualmente suportadas, incluindo serviços de análise Azure ou conjuntos de dados power bi. Tenha em atenção que o anexo do relatório reflete os dados com base nas suas permissões, tal como o SQL Server Reporting Services faz atualmente. 
 
