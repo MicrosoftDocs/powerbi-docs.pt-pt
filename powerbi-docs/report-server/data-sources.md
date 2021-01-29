@@ -8,15 +8,15 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/29/2020
-ms.openlocfilehash: 37b44df504d0263324186765d8426584288f005e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: eb0dbf79c5825a4baa1974366e81fb1daadd6b47
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417986"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044270"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origens de dados de relatórios do Power BI no Power BI Report Server
-Os relatórios do Power BI podem estabelecer ligação a diversas origens de dados. Consoante a forma como os dados são utilizados, estão disponíveis diferentes origens de dados. Pode importar ou consultar dados diretamente através do DirectQuery ou de uma ligação em direto ao SQL Server Analysis Services. Algumas origens de dados estão disponíveis no Power BI Desktop otimizadas para o Power BI Report Server, mas não são suportadas quando publicadas no Power BI Report Server.
+Os relatórios do Power BI podem estabelecer ligação a diversas origens de dados. Consoante a forma como os dados são utilizados, estão disponíveis diferentes origens de dados. Pode importar ou consultar dados diretamente através do DirectQuery ou de uma ligação em direto ao SQL Server Analysis Services. Algumas fontes de dados estão disponíveis no Power BI Desktop para Power BI Report Server, mas não são suportadas quando publicadas no Power BI Report Server.
 
 Estas origens de dados são específicas para relatórios do Power BI utilizados no Power BI Report Server. Para obter informações sobre as origens de dados suportadas com relatórios paginados (.rdl), veja [Data Sources Supported by Reporting Services](/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs) (Origens de Dados Suportadas pelo Reporting Services).
 

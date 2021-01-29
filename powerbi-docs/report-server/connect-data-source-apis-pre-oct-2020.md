@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.openlocfilehash: 72b81f10b6337530ab05f1fcef0a17a5869af867
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
-ms.translationtype: HT
+ms.openlocfilehash: f0dd30e721d8325fdbfd8b562083fbedef2af9c0
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98226749"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044201"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server-pre-october-2020"></a>Alterar cadeias de ligação da origem de dados em relatórios do Power BI com o PowerShell – Power BI Report Server anterior a outubro de 2020
 
@@ -21,7 +21,7 @@ ms.locfileid: "98226749"
 Pode alterar as cadeias de ligação das origens de dados dos relatórios do Power BI alojados no Power BI Report Server ao utilizar o PowerShell para interagir com as APIs necessárias. 
 
 > [!IMPORTANT]
-> Se estiver a utilizar a versão mais recente do Power BI Report Server de outubro de 2020, veja [Alterar as cadeias de ligação de origem de dados nos relatórios do Power BI com o PowerShell – Power BI Report Server](connect-data-source-apis.md).
+> Se estiver a utilizar a versão mais recente do Power BI Report Server, consulte as cadeias de [ligação de fonte de dados change em relatórios PowerShell - Power BI Report Server](connect-data-source-apis.md).
 
 > [!NOTE]
 > Atualmente, esta funcionalidade funciona apenas para o DirectQuery. O suporte para a importação e a atualização dos dados estará disponível em breve.

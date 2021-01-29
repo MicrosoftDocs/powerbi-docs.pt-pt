@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/06/2021
-ms.openlocfilehash: 51df40463a02c2c165ca6cde59ef2b16cda8860c
-ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
-ms.translationtype: HT
+ms.date: 01/28/2021
+ms.openlocfilehash: d7fc9437af37052e95eaa771aab98f1331227c14
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "98053334"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044224"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registo de alterações do Power BI Report Server
 
@@ -21,6 +21,22 @@ Este registo de alterações destina-se ao Power BI Report Server e lista novos 
 
 Veja as [Novidades no Power BI Report Server](whats-new.md) para obter mais informações sobre as novas funcionalidades. 
 
+
+## <a name="january-2021"></a>Janeiro de 2021
+- **Power BI Report Server**
+    - *Versão: 1.10.7698.12811 (Construção 15.0.1105.194), Lançado: 21 de janeiro de 2021*
+        - Funcionalidades
+            - Novos ícones releiam para relatórios Power BI e Power BI.
+            - Nova experiência de pré-visualização do portal adicionada por trás do comutador de funcionalidades 'UsePortalV2' na tabela ConfigurationInfo do catálogo do ReportServer.
+        - Correções de erros
+            - Problema fixo com atualização programada dos relatórios power bi com certos modelos usando metadados de modelo melhorados.
+            - Emissão fixa editando assinaturas orientadas para dados no portal.
+        - Atualizações de segurança
+
+- **Power BI Desktop (otimizado para o Power BI Report Server)**
+   - *Versão: 2.88.1382.0 (janeiro 2021), Lançado: 21 de janeiro de 2021* (nova construção e nova versão)
+        - Contém alterações necessárias para a ligação com o Power BI Report Server (janeiro de 2021)        
+   
 ## <a name="october-2020"></a>Outubro de 2020
 - **Power BI Report Server**
     - *Versão: 1.9.7675.15620 (Compilação 15.0.1104.300), Lançamento: 8 de janeiro de 2021*

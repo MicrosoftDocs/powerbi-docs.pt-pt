@@ -7,13 +7,13 @@ ms.reviewer: swgupt
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/10/2020
-ms.openlocfilehash: cfa4b46e521079802ec87b63d6323e01213625c3
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
-ms.translationtype: HT
+ms.date: 01/28/2021
+ms.openlocfilehash: 282700151e605bd3571847b3b75f08e65f948e08
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483874"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044356"
 ---
 # <a name="sample-power-bi-paginated-reports"></a>Relatórios paginados do Power BI de exemplo
 
@@ -119,6 +119,32 @@ Country Sales Performance é um relatório paginado autónomo de exemplo. O cen�
 - Barras de dados.
 - Linhas de tendência.
 - Painéis do medidor.
+
+Origem de dados: incluída no .rdl
+
+## <a name="regional-sales"></a>Regional Sales
+
+:::image type="content" source="media/paginated-reports-samples/paginated-report-regional-sales.png" alt-text="Screenshot da amostra Power BI relatório paginated para vendas regionais.":::
+
+Regional Sales é uma amostra de relatório paginada independente. O cenário para este relatório é que você quer um relatório impresso perfeito para ver o total de vendas vs. quota. Mostra as seguintes funcionalidades:
+
+- A utilização de um parâmetro para mostrar detalhes selecionados na tabela.
+- Cabeçalhos e rodapés.
+- Itens de relatório, como caixas de texto, linhas e retângulos com marcadores de posição de expressão.
+- Painéis do medidor.
+- Gráfico de linha colocado dentro da mesa.
+
+Origem de dados: incluída no .rdl
+
+## <a name="organization-expenditures"></a>Despesas da Organização
+
+:::image type="content" source="media/paginated-reports-samples/paginated-report-organization-expenditures.png" alt-text="Screenshot da amostra Power BI relatório paginated para despesas de organização.":::
+
+As despesas da organização são uma amostra de relatório paginado independente. O cenário para este relatório é que você quer um relatório de despesas imprimíveis perfeito para ver a quebra de despesas na sua organização. Mostra as seguintes funcionalidades:
+
+- Cabeçalhos e rodapés.
+- Itens de relatório, como caixas de texto, linhas e retângulos com marcadores de posição de expressão.
+- Gráficos como mapa de árvores e explosão de sol.
 
 Origem de dados: incluída no .rdl
   

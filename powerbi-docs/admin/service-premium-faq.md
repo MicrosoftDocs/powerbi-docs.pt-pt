@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 01/28/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: 8fad09221caafd66467e8e183304ab408b803720
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 51c006a076a34764791a7da6f952b416b89e6a5a
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412213"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043074"
 ---
 # <a name="power-bi-premium-faq"></a>Perguntas Frequentes do Power BI Premium
 
@@ -61,7 +61,7 @@ Os exemplos seguintes descrevem como os clientes podem satisfazer as suas necess
 | **Solução:**<br/><br/>1. Power BI Pro para cada utilizador<br/><br/>2. Procure expandir a oportunidade ao adicionar o Power BI Premium – ver os cenários adicionais |**Solução:**<br/><br/>1. Power BI Pro para utilizadores que precisam de BI de gestão personalizada e colaboração<br/><br/>2. Adicione o Power BI Premium para conseguir distribuir conteúdos de BI aos utilizadores que apenas precisam de consumir |**Solução:**<br/><br/>1. Power BI Pro para utilizadores que precisam de BI de gestão personalizada e colaboração<br/><br/>2. Adicione o Power BI Premium para conseguir publicar relatórios no local – e passar para a cloud conforme adequado |**Solução:**<br/><br/>1. Power BI Pro para cada utilizador no departamento financeiro<br/><br/>2. Adicione o Power BI Premium para os recursos dedicados (na cloud) que irão ser utilizados exclusivamente pela equipa financeira, o que proporciona um maior dimensionamento e melhor desempenho |
 
 **Quanto custa o Power BI Premium? Quantas SKUs serão disponibilizadas?**  
-O Power BI Premium é adquirido com base no número de núcleos virtuais. Pode ver os preços na [página de preços do Power BI](https://powerbi.microsoft.com/pricing/). Para obter mais informações sobre nós e núcleos virtuais, veja o [documento técnico do Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper). Utilize também esta [calculadora](https://powerbi.microsoft.com/calculator/) para obter uma estimativa da capacidade Premium que poderá ser necessária.
+O Power BI Premium é adquirido com base no número de núcleos virtuais. Pode ver os preços na [página de preços do Power BI](https://powerbi.microsoft.com/pricing/). Para obter mais informações sobre nós e núcleos virtuais, veja o [documento técnico do Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper).
 
 **O que significa "capacidade"?**  
 Uma capacidade é uma quantidade de poder de computação reservada para a sua organização para a respetiva utilização do Power BI. Está aprovisionado por um administrador de serviço através do portal de administração do Power BI Premium, na página **Gestão de Capacidades**.
@@ -71,9 +71,6 @@ O Power BI Premium é faturado mensalmente, com um compromisso anual.
 
 **Como posso comprar o Power BI Premium?**  
 O Power BI Premium está disponível no centro de administração do Microsoft 365. Para obter mais informações, veja [Como comprar o Power BI Premium](service-admin-premium-purchase.md). Também pode contactar o representante da Microsoft para obter mais informações.
-
-**Como posso saber quanta capacidade do Power BI Premium será necessário comprar?**  
-Utilize a [calculadora de custos](https://powerbi.microsoft.com/calculator/) para calcular a capacidade do Power BI Premium que poderá ser necessária.
 
 **O Power BI Premium está disponível com o Office 365 E5?**  
 O Power BI Premium está disponível como um suplemento para o Power BI Pro. O Office 365 E5 inclui o Power BI Pro. Os clientes de E5 podem comprar o Premium como um suplemento para as respetivas licenças Pro existentes.

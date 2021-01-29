@@ -67,6 +67,8 @@
               href: desktop-high-density-sampling.md
             - name: Acerca da Acessibilidade
               href: desktop-accessibility-overview.md
+            - name: Revogação do certificado
+              href: desktop-certificate-revocation.md
             - name: Natural language Q&A (Perguntas e Respostas sobre linguagem natural)
               items:
                 - name: Q&A introduction (Introdução às Perguntas e Respostas)

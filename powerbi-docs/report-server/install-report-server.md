@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/16/2020
-ms.openlocfilehash: 049f6f563c9ac6e7494b0680b69e0df8909304d4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
-ms.translationtype: HT
+ms.openlocfilehash: 3347bb18306497781ab5915225db8c3e071cfa3f
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861895"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044109"
 ---
 # <a name="install-power-bi-report-server"></a>Instalar o Power BI Report Server
 
@@ -152,7 +152,7 @@ Abra a porta TCP que configurou para o seu URL de Serviço Web e URL do Portal W
 
 [Descrição geral para administradores](admin-handbook-overview.md)  
 [Como encontrar a sua chave de produto de servidor de relatório](find-product-key.md)  
-[Instalar o Power BI Desktop otimizado para o Power BI Report Server](install-powerbi-desktop.md)  
+[Instale power BI desktop para power bi report server](install-powerbi-desktop.md)  
 [Verify a Reporting Services installation](/sql/reporting-services/install-windows/verify-a-reporting-services-installation) (Verificar uma instalação do Reporting Services)  
 [Configurar a conta de serviço do servidor de relatórios](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
 [Configurar URLs do servidor de relatórios](/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  

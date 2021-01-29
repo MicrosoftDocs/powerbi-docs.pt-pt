@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.openlocfilehash: d485c7ab7583d2604cd9da9e4c122c6cceeeb4fe
-ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
-ms.translationtype: HT
+ms.openlocfilehash: 8fbe19beddbb95b27828ee1fae73860fe92e6b4f
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95011995"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044168"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Descrição geral do manual de programador, Power BI Report Server
 
 Bem-vindo ao manual de programador para o Power BI Report Server, uma localização no local para armazenar e gerir os relatórios móveis e paginados do Power BI.
 
-![Manual do Administrador](media/developer-handbook-overview/admin-handbook.png)
+![Visão geral do relatório do relatório do BI de energia.](media/admin-handbook-overview/admin-handbook.png)
 
 Este manual realça as opções disponíveis, como programador, para trabalhar no Power BI Report Server.
 

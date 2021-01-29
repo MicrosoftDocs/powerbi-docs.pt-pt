@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/27/2020
-ms.openlocfilehash: 07b3004553f62dbdd138d93bf1aba2c08287b9c6
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
-ms.translationtype: HT
+ms.date: 01/25/2021
+ms.openlocfilehash: 5dbc4526061d6b39a3e7f4eff3b06a68784792f6
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044822"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043465"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Linha cronológica de suporte para o Power BI Report Server
 
@@ -30,12 +30,12 @@ Esta política de suporte permite-nos disponibilizar inovação aos clientes rap
 
 | **Versão** | **Data de disponibilidade** | **Data de fim do suporte** |
 | --- | --- | --- |
-| Setembro de 2019 | Setembro de 2019 | Setembro de 2019 e todas as versões anteriores que já não são suportadas
-| Janeiro de 2020 | Janeiro de 2020 | Janeiro de 2021
+| Janeiro de 2020 | Janeiro de 2020 | Janeiro de 2020 e todas as versões anteriores já não suportadas
 | Maio de 2020 | Maio de 2020 | Maio de 2021
 | Outubro de 2020 | Outubro de 2020 | Outubro de 2021
+| Janeiro de 2021 | Janeiro de 2021 | janeiro de 2022
 
-Para transferir o Power BI Report Server e o Power BI Desktop otimizado para o Power BI Report Server, aceda a [Relatórios no local com o Power BI Report Server](https://powerbi.microsoft.com/report-server/).
+Para descarregar o Power BI Report Server e o Power BI Desktop para Power BI Report Server, aceda a [relatórios no local com o Power BI Report Server](https://powerbi.microsoft.com/report-server/).
 
 ## <a name="next-steps"></a>Próximos passos
 [Novidades no Power BI Report Server](whats-new.md)  

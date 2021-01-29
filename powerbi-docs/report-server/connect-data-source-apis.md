@@ -8,24 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.openlocfilehash: 4e1947abe0fa0f17e1db92619f0aa7fba5df5575
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b7f431ba6b8f559380916c17689d0eab74a0c9a7
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415479"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044316"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>Alterar cadeias de ligação da origem de dados em relatórios do Power BI com o PowerShell – Power BI Report Server
 
 
-Na versão de outubro de 2020 do Power BI Report Server, passámos a ativar a capacidade de atualizar e de fazer a atualização de ligações para relatórios do Power BI e para o DirectQuery.
+A partir do lançamento de outubro de 2020 do Power BI Report Server, permitimos a possibilidade de atualizar as ligações para relatórios power BI para DirectQuery e refresh.
 
 > [!IMPORTANT]
 > Também é uma alteração interruptiva de como fazia a configuração em versões anteriores. Se estiver a utilizar uma versão do Power BI Report Server anterior à de outubro de 2020, veja [Alterar cadeias de ligação de origem de dados em relatórios do Power BI com o PowerShell – Power BI Report Server anterior a outubro de 2020](connect-data-source-apis-pre-oct-2020.md)
 
 ## <a name="prerequisites"></a>Pré-requisitos:
-- Transferir a versão de outubro de 2020 do [Power BI Report Server e do Power BI Desktop otimizados para o Power BI Report Server](https://powerbi.microsoft.com/report-server/).
-- Um relatório guardado com a versão do Power BI Desktop de outubro de 2020 otimizado para o Report Server, com os **Metadados de Conjuntos de Dados Otimizados** ativados.
+- Descarregue o Download do Servidor de Relatório de Power BI de outubro de 2020 [e power BI Desktop para Power BI Report Server](https://powerbi.microsoft.com/report-server/).
+- Um relatório guardado com o outubro de 2020 ou posterior lançamento do Power BI Desktop otimizado para o Report Server, com **metadados de DataSet melhorados** ativados.
 - Um relatório que utiliza ligações parametrizadas. Apenas os relatórios com ligações e bases de dados parametrizadas podem ser atualizados após a publicação.
 - Este exemplo utiliza as ferramentas do Reporting Services do PowerShell. Pode alcançar o mesmo resultado através das novas APIs REST.
 

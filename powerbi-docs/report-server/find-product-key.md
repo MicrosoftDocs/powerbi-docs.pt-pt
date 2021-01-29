@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/24/2018
-ms.openlocfilehash: 412d09d3c25dc8f04e2d83c7a1f95bf36946d581
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0f2793e2fbbff5404e1f920b24f01364278402c6
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96397976"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044132"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Como localizar a chave de produto do servidor de relatórios
 Saiba como pode encontrar a chave de produto do Microsoft Power BI Report Server para instalar o servidor num ambiente de produção.
@@ -45,7 +45,7 @@ Se tem um contrato do SQL Server Enterprise SA, pode obter a sua chave de produt
  
 ## <a name="next-steps"></a>Próximos passos
 [Instalar o Power BI Report Server](install-report-server.md)  
-[Instalar o Power BI Desktop otimizado para o Power BI Report Server](install-powerbi-desktop.md)  
+[Instale power BI desktop para power bi report server](install-powerbi-desktop.md)  
 [Transferir o Report Builder](https://www.microsoft.com/download/details.aspx?id=53613)  
 [Transferir o SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 

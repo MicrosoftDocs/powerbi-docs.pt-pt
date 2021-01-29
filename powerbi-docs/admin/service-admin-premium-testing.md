@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 01/28/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: 597ae36aaddcbabbedcd084061410dab9334a702
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 9e0cd283728afad43ddf37f765b1fda66c300270
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413593"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043419"
 ---
 # <a name="purchase-power-bi-premium-for-testing"></a>Comprar o Power BI Premium para testes
 
 Este artigo descreve como comprar SKUs A do Power BI Premium para cenários de teste e para casos em que não tem as permissões necessárias para comprar SKUs P (função de Administrador de Faturação ou de Administrador Global do Microsoft 365). Os SKUs A não exigem um compromisso de tempo e são faturados por hora. Pode comprar SKUs A no [portal do Azure](https://portal.azure.com).
 
-Para obter mais informações sobre o Power BI Premium, veja [O que é o Power BI Premium?](service-premium-what-is.md). Para obter informações sobre os planos e preços atuais, veja a [Página de preços do Power BI](https://powerbi.microsoft.com/pricing/) e a [Calculadora Power BI Premium](https://powerbi.microsoft.com/calculator/). Os criadores de conteúdos continuam a precisar de uma [licença do Power BI Pro](service-admin-purchasing-power-bi-pro.md), mesmo que a sua organização utilize o Power BI Premium. Certifique-se de que compra, pelo menos, uma licença do Power BI Pro para a sua organização. Com os SKUs A, _todos os utilizadores_ que consomem conteúdos também necessitam de licenças Pro.
+Para obter mais informações sobre o Power BI Premium, veja [O que é o Power BI Premium?](service-premium-what-is.md). Para obter informações sobre preços e planeamento atuais, consulte a [página de preços do Power BI](https://powerbi.microsoft.com/pricing/). Os criadores de conteúdos continuam a precisar de uma [licença do Power BI Pro](service-admin-purchasing-power-bi-pro.md), mesmo que a sua organização utilize o Power BI Premium. Certifique-se de que compra, pelo menos, uma licença do Power BI Pro para a sua organização. Com os SKUs A, _todos os utilizadores_ que consomem conteúdos também necessitam de licenças Pro.
 
 > [!NOTE]
 > Se deixar uma subscrição Premium expirar, terá 30 dias de acesso total à sua capacidade. Depois desse período, os seus conteúdos serão revertidos para uma capacidade partilhada. Os modelos com mais de 1 GB não são suportados na capacidade partilhada.
@@ -92,7 +92,6 @@ Após comprar capacidade, saiba como [gerir capacidades](service-admin-premium-m
 [Como comprar o Power BI Premium](service-admin-premium-purchase.md)
 [Configurar e gerir capacidades no Power BI Premium](service-admin-premium-manage.md)\
 [Página de preços do Power BI](https://powerbi.microsoft.com/pricing/)\
-[Calculadora do Power BI Premium](https://powerbi.microsoft.com/calculator/)\
 [FAQ do Power BI Premium](service-premium-faq.md)\
 [Documento técnico sobre Planear uma Implementação Empresarial do Power BI](https://aka.ms/pbienterprisedeploy)
 

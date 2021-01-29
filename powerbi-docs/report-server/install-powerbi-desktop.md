@@ -1,6 +1,6 @@
 ---
-title: Instalar o Power BI Desktop otimizado para o Power BI Report Server
-description: Saiba como instalar o Power BI Desktop otimizado para o Power BI Report Server
+title: Instale power BI desktop para power bi report server
+description: Saiba como instalar o Power BI Desktop para power BI Report Server
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/16/2020
-ms.openlocfilehash: 62add0b1268b06bb227bdc1b8ec2e4ae59358c57
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
-ms.translationtype: HT
+ms.openlocfilehash: 068d4a025bda878899e2d54f93bc56eaea336f3e
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044759"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044086"
 ---
-# <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Power BI Report Server
+# <a name="install-power-bi-desktop-for-power-bi-report-server"></a>Instale power BI desktop para power bi report server
 
 Para criar relatórios do Power BI para o Power BI Report Server, tem de transferir e instalar a versão do Power BI Desktop otimizada para o Power BI Report Server. Esta versão é diferente da do Power BI Desktop utilizada no serviço Power BI. Por exemplo, a versão do Power BI Desktop para o serviço Power BI inclui funcionalidades de pré-visualização. Estas funcionalidades não serão incluídas na versão do Power BI Report Server até ficarem disponíveis para todos. A utilização desta versão garante que o servidor de relatórios pode interagir com uma versão conhecida dos relatórios e do modelo. 
 
-Não se preocupe. Pode instalar o Power BI Desktop e o Power BI Desktop otimizado para o Power BI Report Server paralelamente no mesmo computador.
+Não se preocupe. Pode instalar o Power BI Desktop e o Power BI Desktop para Power BI Report Server, lado a lado no mesmo computador.
 
 ## <a name="download-and-install-power-bi-desktop"></a>Transferir e instalar o Power BI Desktop
 
-A forma mais fácil de garantir que tem a versão mais atualizada do Power BI Desktop otimizado para o Power BI Report Server é começar a partir do portal web do seu servidor de relatórios.
+A forma mais fácil de ter a certeza de que tem a versão mais atualizada do Power BI Desktop para Power BI Report Server é começar a partir do portal web do seu servidor de relatórios.
 
 1. No portal Web do Report Server, selecione a seta **Transferir** > **Power BI Desktop**.
 
@@ -45,16 +45,16 @@ A forma mais fácil de garantir que tem a versão mais atualizada do Power BI De
     Este inicia automaticamente e está pronto para começar.
 
 ## <a name="verify-youre-using-the-correct-version"></a>Confirmar que está a utilizar a versão correta
-É fácil verificar se está a utilizar a versão correta do Power BI Desktop: observe o ecrã inicial ou a barra de título no Power BI Desktop. O texto **Power BI Desktop (outubro de 2020)** na barra de título indica que tem a versão correta. Além disso, as cores do logótipo do Power BI estão invertidas: o logótipo surge a amarelo sobre um fundo preto em vez de aparecer a preto sobre um fundo amarelo.
+É fácil verificar se está a utilizar a versão correta do Power BI Desktop: observe o ecrã inicial ou a barra de título no Power BI Desktop. Pode dizer-se que tem a versão certa porque **power BI Desktop (janeiro de 2021)** ou mais tarde está na barra de títulos. Além disso, as cores do logótipo do Power BI estão invertidas: o logótipo surge a amarelo sobre um fundo preto em vez de aparecer a preto sobre um fundo amarelo.
 
-![Power BI Desktop (outubro de 2020)](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
+![Power BI Desktop janeiro 2021](media/install-powerbi-desktop/power-bi-report-server-desktop.png)
 
 A versão do Power BI Desktop para o serviço Power BI não tem o mês e ano na barra de título.
 
 ## <a name="file-extension-association"></a>Associação de extensões de ficheiros
-Digamos que instalou o Power BI Desktop e o Power BI Desktop otimizado para o Power BI Report Server no mesmo computador. A instalação do Power BI Desktop mais recente será associada a ficheiros .pbix. Por conseguinte, ao fazer duplo clique num ficheiro .pbix, este irá iniciar a versão do Power BI Desktop que instalou mais recentemente.
+Digamos que instalou tanto o Power BI Desktop como o Power BI Desktop para power BI Report Server na mesma máquina. A instalação do Power BI Desktop mais recente será associada a ficheiros .pbix. Por conseguinte, ao fazer duplo clique num ficheiro .pbix, este irá iniciar a versão do Power BI Desktop que instalou mais recentemente.
 
-Se tiver o Power BI Desktop e, em seguida, instalar o Power BI Desktop otimizado para o Power BI Report Server, todos os ficheiros .pbix serão abertos no Power BI Desktop otimizado para o Power BI Report Server por predefinição. Se preferir que o Power BI Desktop seja iniciado por predefinição ao abrir um ficheiro pbix, reinstale o [Power BI Desktop a partir da Microsoft Store](https://aka.ms/pbidesktopstore).
+Se tiver Power BI Desktop e, em seguida, instalar Power BI Desktop para Power BI Report Server, todos os ficheiros .pbix abrem no Power BI Desktop para Power BI Report Server por predefinição. Se preferir que o Power BI Desktop seja iniciado por predefinição ao abrir um ficheiro pbix, reinstale o [Power BI Desktop a partir da Microsoft Store](https://aka.ms/pbidesktopstore).
 
 Pode sempre começar por abrir a versão do Power BI Desktop que pretende utilizar. Em seguida, abra o ficheiro no Power BI Desktop.
 
@@ -66,14 +66,13 @@ Os relatórios do Power BI no Power BI Report Server, no serviço Power BI (`
 
 ### <a name="selecting-a-language"></a>Selecionar um idioma
 
-Para o Power BI Desktop otimizado para o Power BI Report Server, irá selecionar o idioma quando instalar a aplicação. Não pode alterar o idioma mais tarde, mas pode instalar uma versão noutro idioma.
+Para Power BI Desktop for Power BI Report Server, selecione o idioma quando instalar a aplicação. Não pode alterar o idioma mais tarde, mas pode instalar uma versão noutro idioma.
 
 ### <a name="report-visuals-in-a-browser"></a>Elementos visuais de relatórios num browser
 
 Os relatórios do Power BI Report Server suportam quase todas as visualizações, incluindo elementos visuais do Power BI. Os relatórios do Power BI Report Server não suportam:
 
 * Visuais R
-* Mapas ArcGIS
 * Trilhos
 * Funcionalidades de pré-visualização do Power BI Desktop
 
@@ -88,14 +87,13 @@ Os relatórios do Power BI Report Server suportam todas as funcionalidades bási
 Os relatórios do Power BI Report Server não suportam estas funcionalidades nas aplicações móveis do Power BI:
 
 * Visuais R
-* Mapas ArcGIS
 * Elementos Visuais do Power BI
 * Trilhos
 * Geofiltragem ou códigos de barras
 
 ### <a name="custom-security"></a>Segurança Personalizada
 
-O Power BI Desktop otimizado para o Power BI Report Server não suporta segurança personalizada. Se o seu Power BI Report Server estiver configurado com uma extensão de segurança personalizada, não pode guardar um relatório Power BI do Power BI Desktop (otimizado para Power BI Report Server) para a instância do Power BI Report Server. Tem de guardar o ficheiro de relatório .pbix do Power BI Desktop e carregá-lo no site do portal do Power BI Report Server.
+Power BI Desktop for Power BI Report Server não suporta segurança personalizada. Se o seu Power BI Report Server estiver configurado com uma extensão de segurança personalizada, não pode guardar um relatório Power BI do Power BI Desktop (otimizado para Power BI Report Server) para a instância do Power BI Report Server. Tem de guardar o ficheiro de relatório .pbix do Power BI Desktop e carregá-lo no site do portal do Power BI Report Server.
 
 ### <a name="saving-reports-to-a-power-bi-report-server-in-a-different-domain"></a>Guardar relatórios num Power BI Report Server num domínio diferente
 
