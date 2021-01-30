@@ -8,12 +8,12 @@ ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: a76c7f9d205fe47322768a514a1e5d89a36a2306
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: b99f6f53f64e57bc262ea5aa518efa529b73f44e
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565759"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088149"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>Linha de base da segurança do Azure do Power BI
 
@@ -166,7 +166,7 @@ Ative o acesso privilegiado JIT (just-in-time) das contas de administrador do Po
 
 - [Funções de administrador relacionadas com o Power BI](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)
 
-- [Gestão de Acesso Privilegiado M365](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide)
+- [Gestão de Acesso Privilegiado M365](/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&preserve-view=true)
 
 - [Controlos do Cloud App Security no Power BI](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
@@ -178,7 +178,7 @@ Ative o acesso privilegiado JIT (just-in-time) das contas de administrador do Po
 
 **Orientação**: limite o número de contas ou funções altamente privilegiadas com acesso elevado ao Power BI.
 
-Pode ativar o acesso privilegiado JIT (just-in-time) com orientação de Gestão de acesso privilegiado M365, [aqui](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide).
+Pode ativar o acesso privilegiado JIT (just-in-time) com orientação de Gestão de acesso privilegiado M365, [aqui](/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&preserve-view=true).
 
 Pode encontrar detalhes adicionais na página 183 do documento de Implementação do Power BI Enterprise, [aqui](https://aka.ms/PBIEnterpriseDeploymentWP).
 
@@ -533,7 +533,7 @@ Confirme que existem planos escritos de resposta a incidentes, que definem todas
  
 A Proteção Contra Ameaças da Microsoft aplica a análise de correlação e agrega todos as investigações e alertas relacionados a partir de diferentes produtos num incidente. A Proteção Contra Ameaças da Microsoft também aciona alertas exclusivos em atividades que apenas podem ser identificadas como maliciosas, tendo em conta a visibilidade ponto a ponto que a Proteção Contra Ameaças da Microsoft tem entre todo o património e conjunto de produtos. Ao fazê-lo, a Proteção Contra Ameaças da Microsoft relata uma história mais vasta dos ataques e permite que o analista das operações de segurança compreenda e lide com ameaças complexas na organização.
 
-- [Priorizar incidentes na Proteção Contra Ameaças da Microsoft](/microsoft-365/security/mtp/incident-queue?amp;preserve-view=true&view=o365-worldwide)
+- [Priorizar incidentes na Proteção Contra Ameaças da Microsoft](/microsoft-365/security/mtp/incident-queue?view=o365-worldwide&preserve-view=true)
 
 **Monitorização do Centro de Segurança do Azure**: Não aplicável
 

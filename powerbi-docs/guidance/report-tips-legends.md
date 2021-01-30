@@ -2,19 +2,19 @@
 title: Formatar e implementar legendas nos relatórios do Power BI
 description: Seis sugestões para formatar e implementar legendas nos elementos visuais de relatórios do Power BI, no Power BI Desktop ou no serviço Power BI.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 featuredvideoid: r9XnHmuWkZQ
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/15/2020
-ms.openlocfilehash: a63c85787f9304954fff76785796dd9cc3e7aa93
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: d7c7242a96b805b351d78aa3e993b392a3c9fcb4
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386000"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088839"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>Sugestões para formatar e implementar legendas nos relatórios do Power BI
 
