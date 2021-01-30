@@ -2,19 +2,19 @@
 title: Monitorizar o desempenho dos relatórios no Power BI
 description: Orientações sobre como monitorizar o desempenho dos relatórios no Power BI.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/14/2021
-ms.openlocfilehash: a7da63efcc991da57eba9c6b9bb6b9527ad66e1f
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
-ms.translationtype: HT
+ms.openlocfilehash: 78c7b97cd926f3f98469d6e52aab5889f4e3daa3
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98227382"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088747"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Monitorizar o desempenho dos relatórios no Power BI
 
