@@ -2,18 +2,18 @@
 title: Criar um Centro de Excelência
 description: Saiba como um Centro de Excelência ajudou a Microsoft a criar uma plataforma de análise e de dados padronizada. Esta plataforma tem como objetivo desbloquear informações com o modelo operativo certo, envolvimento dos intervenientes e investimentos partilhados e dedicados.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/19/2020
-ms.openlocfilehash: 90de33f85c0ede28b14e651414c311e4986a2172
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: f3cdf40c0cdb17269232093f7407c61b13794a3e
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394572"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088655"
 ---
 # <a name="establish-a-center-of-excellence"></a>Criar um Centro de Excelência
 

@@ -1,28 +1,28 @@
 ---
-title: Ligar a ficheiros no OneDrive para uma área de trabalho do Power BI
-description: Saiba como armazenar e ligar aos seus ficheiros do Excel, CSV e Power BI Desktop no OneDrive para a sua área de trabalho do Power BI.
+title: Conecte-se a ficheiros no OneDrive para um espaço de trabalho clássico
+description: Leia sobre o armazenamento e ligação aos seus ficheiros de Secretária Excel, CSV e Power BI no OneDrive para o seu espaço de trabalho power bi clássico.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 10/15/2020
+ms.date: 01/28/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6c3c43d8aad26249ac1b8afab09bdcbf1414f0cf
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: f6544a137b8f656e938db4516de5e8c0685394b4
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411983"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085821"
 ---
-# <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Ligar a ficheiros armazenados no OneDrive para a sua área de trabalho do Power BI
-Ao [criar uma área de trabalho no Power BI](service-create-workspaces.md), também está a criar um grupo do Microsoft 365, com um OneDrive para Empresas associado. Este artigo explica como armazenar e atualizar os seus ficheiros do Excel, CSV e Power BI Desktop nesse OneDrive para Empresas. Essas atualizações são automaticamente refletidas nos relatórios e dashboards do Power BI com base nos ficheiros.
+# <a name="connect-to-files-stored-in-onedrive-for-a-classic-workspace"></a>Conecte-se a ficheiros armazenados no OneDrive para um espaço de trabalho clássico
+Quando [crias um espaço *de* trabalho clássico no Power BI,](service-create-workspaces.md)estás também a criar um grupo Microsoft 365, com um OneDrive associado para negócios. Este artigo explica como armazenar e atualizar os seus ficheiros do Excel, CSV e Power BI Desktop nesse OneDrive para Empresas. Essas atualizações são automaticamente refletidas nos relatórios e dashboards do Power BI com base nos ficheiros.
 
 > [!NOTE]
-> A nova experiência de área de trabalho muda a relação entre as áreas de trabalho do Power BI e os grupos do Microsoft 365. Não cria automaticamente um grupo do Microsoft 365 sempre que cria uma das novas áreas de trabalho. Leia mais sobre como [criar as novas áreas de trabalho](service-create-the-new-workspaces.md)
+> A *nova* experiência do espaço de trabalho altera a relação entre os espaços de trabalho power BI e os grupos Microsoft 365. Não cria automaticamente um grupo do Microsoft 365 sempre que cria uma das novas áreas de trabalho. Também pode [definir um espaço de trabalho OneDrive para um novo espaço de trabalho.](service-create-the-new-workspaces.md#set-a-workspace-onedrive)
 
-A adição de ficheiros à área de trabalho é um processo de dois passos: 
+Adicionar ficheiros ao seu espaço de trabalho clássico é um processo em duas etapas: 
 
 1. Primeiro, [carregue os ficheiros para o OneDrive para Empresas](#1-upload-files-to-the-onedrive-for-business-for-your-workspace) para a sua área de trabalho.
 2. Em seguida, [ligue a esses ficheiros a partir do Power BI](#2-import-excel-files-as-datasets-or-as-excel-online-workbooks).

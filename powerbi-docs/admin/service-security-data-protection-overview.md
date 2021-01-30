@@ -9,12 +9,12 @@ ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 09/17/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4405b83dae3d517b16099725ab10990cc8e503f4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: d3d5721ff3b00b4a739a95dea9070d4c5c9d26b5
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413363"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086286"
 ---
 # <a name="data-protection-in-power-bi"></a>Proteção de dados no Power BI
 
@@ -36,7 +36,7 @@ Com as funcionalidades de proteção de dados do Power BI pode:
 * **Monitorizar e proteger a atividade do utilizador em dados confidenciais em tempo real** com alertas, monitorização da sessão e remediação de risco ao utilizar o Cloud App Security.
 * **Equipar os administradores de segurança** que utilizam relatórios de proteção de dados e recursos de investigação de segurança com o Microsoft Cloud App Security para otimizar a supervisão organizacional.
 
-Saiba mais sobre as [etiquetas de confidencialidade do Microsoft Information Protection](/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide) e o [Cloud App Security](/cloud-app-security/what-is-cloud-app-security).
+Saiba mais sobre as [etiquetas de confidencialidade do Microsoft Information Protection](/microsoft-365/compliance/sensitivity-labels) e o [Cloud App Security](/cloud-app-security/what-is-cloud-app-security).
 
 
 ## <a name="next-steps"></a>Passos seguintes

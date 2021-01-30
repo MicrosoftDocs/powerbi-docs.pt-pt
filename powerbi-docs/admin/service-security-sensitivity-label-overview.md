@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.custom: contperf-fy21q2
 ms.date: 12/20/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52c3d5dea171f34fbbe5133eda6fd51fd471bbd4
-ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.openlocfilehash: 3bc9a946d8f9091f8a2939ad9865460c1f22a446
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "98925670"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085818"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Etiquetas de confidencialidade no Power BI
 
@@ -34,7 +34,7 @@ As etiquetas de confidencialidade da Microsoft Information Protection fornecem a
 
 No serviço Power BI, as etiquetas de confidencialidade podem ser aplicadas a conjuntos de dados, relatórios, dashboards e fluxos de dados. Quando os dados etiquetados saem do Power BI, através da exportação para ficheiros Excel, PowerPoint, PDF ou .pbix ou através de outros cenários de exportação suportados, tal como Analisar no Excel ou Tabelas Dinâmicas de ligação dinâmica no Excel de ligação em direto, o Power BI aplica automaticamente a etiqueta ao ficheiro exportado e protege-o de acordo com as definições de encriptação do ficheiro da etiqueta. Desta forma, os dados confidenciais permanecem protegidos, mesmo quando saem do Power BI.
 
-Além disso, pode aplicar as etiquetas de confidencialidade a ficheiros .pbix no Power BI Desktop, de forma a que os dados e os conteúdos fiquem seguros quando são partilhados fora do Power BI (por exemplo, para que apenas os utilizadores da organização possam abrir um ficheiro .pbix confidencial que tenha sido partilhado ou anexado num e-mail), mesmo antes de terem sido publicados no serviço Power BI. Para obter mais detalhes, veja [Restringir o acesso ao conteúdo com etiquetas de confidencialidade para aplicar encriptação](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide).
+Além disso, pode aplicar as etiquetas de confidencialidade a ficheiros .pbix no Power BI Desktop, de forma a que os dados e os conteúdos fiquem seguros quando são partilhados fora do Power BI (por exemplo, para que apenas os utilizadores da organização possam abrir um ficheiro .pbix confidencial que tenha sido partilhado ou anexado num e-mail), mesmo antes de terem sido publicados no serviço Power BI. Para obter mais detalhes, veja [Restringir o acesso ao conteúdo com etiquetas de confidencialidade para aplicar encriptação](/microsoft-365/compliance/encryption-sensitivity-labels).
 
 As etiquetas de confidencialidade nos relatórios, dashboards, conjuntos de dados e fluxos de dados são visíveis em muitos locais no serviço Power BI. As etiquetas de confidencialidade em relatórios e dashboards são também visíveis nas aplicações móveis Power BI para iOS e Android e em elementos visuais incorporados. No Desktop, pode ver a etiqueta de confidencialidade na barra de estado.
 
@@ -185,7 +185,7 @@ Para aceder às etiquetas de confidencialidade em qualquer um destes centros, na
 
 ### <a name="power-bi-desktop-preview"></a>Power BI Desktop (pré-visualização)
 
-* Os ficheiros .pbix protegidos só podem ser abertos e/ou publicados por um utilizador que seja o proprietário RMS do ficheiro (o utilizador que aplicou a etiqueta ao ficheiro originalmente) ou que tenha [**Controlo total** e/ou direitos de utilização para **Exportar**](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide) para a etiqueta relevante. O proprietário RMS tem controlo total e nunca pode ser bloqueado. [Veja mais detalhes](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)
+* Os ficheiros .pbix protegidos só podem ser abertos e/ou publicados por um utilizador que seja o proprietário RMS do ficheiro (o utilizador que aplicou a etiqueta ao ficheiro originalmente) ou que tenha [**Controlo total** e/ou direitos de utilização para **Exportar**](/microsoft-365/compliance/encryption-sensitivity-labels) para a etiqueta relevante. O proprietário RMS tem controlo total e nunca pode ser bloqueado. [Veja mais detalhes](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)
 
 * Se a etiqueta aplicada a um ficheiro .pbix não tiver sido publicada para o utilizador no centro de segurança do Microsoft 365 ou no centro de conformidade do Microsoft 365, o utilizador não poderá guardar o ficheiro no Desktop.
 

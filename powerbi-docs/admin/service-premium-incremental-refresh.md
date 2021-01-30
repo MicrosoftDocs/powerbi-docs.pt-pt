@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 68d12c69afadb3d5d82782c239381844c1d58b5e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b019ed8177a4300b39d41c53c2e7d6a4d84e673a
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413547"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086562"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Atualização incremental no Power BI
 
@@ -116,7 +116,7 @@ A primeira atualização no serviço Power BI poderá demorar mais tempo a impor
 
 #### <a name="current-date"></a>Data atual
 
-A *data atual* é baseada na data do sistema na altura da atualização. Se a atualização agendada estiver ativada para o conjunto de dados no serviço Power BI, o fuso horário especificado será tido em conta ao determinar a data atual. Tanto as atualizações manuais como as agendadas através do serviço Power BI verificam o fuso horário, caso o mesmo esteja disponível. Por exemplo, uma atualização que ocorra às 20h na Hora do Pacífico (EUA e Canadá) com o fuso horário especificado irá determinar a data atual com base na Hora do Pacífico e não na hora GMT (que seria no dia seguinte). As operações de atualização não invocadas através do serviço Power BI, como o [comando de atualização TMSL](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current), não consideram o fuso horário de atualização agendado
+A *data atual* é baseada na data do sistema na altura da atualização. Se a atualização agendada estiver ativada para o conjunto de dados no serviço Power BI, o fuso horário especificado será tido em conta ao determinar a data atual. Tanto as atualizações manuais como as agendadas através do serviço Power BI verificam o fuso horário, caso o mesmo esteja disponível. Por exemplo, uma atualização que ocorra às 20h na Hora do Pacífico (EUA e Canadá) com o fuso horário especificado irá determinar a data atual com base na Hora do Pacífico e não na hora GMT (que seria no dia seguinte). As operações de atualização não invocadas através do serviço Power BI, como o [comando de atualização TMSL](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current&preserve-view=true), não consideram o fuso horário de atualização agendado
 
 ![Fuso horário](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -180,7 +180,7 @@ Com o ponto final XMLA de leitura/escrita ativado, o SSMS pode ser utilizado par
 
 #### <a name="override-incremental-refresh-behavior"></a>Substituir o comportamento de atualização incremental
 
-Com o SSMS, também tem maior controlo sobre como invocar atualizações incrementais com a [Tabular Model Scripting Language (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) (Linguagem TMSL) e de [Tabular Object Model (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) (Modelo TOM). Por exemplo, no Object Explorer do SSMS, clique com o botão direito do rato numa tabela e, em seguida, selecione a opção de menu **Processar Tabela**. Em seguida, clique no botão **Script** para gerar um comando de atualização TMSL.
+Com o SSMS, também tem maior controlo sobre como invocar atualizações incrementais com a [Tabular Model Scripting Language (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current&preserve-view=true) (Linguagem TMSL) e de [Tabular Object Model (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current&preserve-view=true) (Modelo TOM). Por exemplo, no Object Explorer do SSMS, clique com o botão direito do rato numa tabela e, em seguida, selecione a opção de menu **Processar Tabela**. Em seguida, clique no botão **Script** para gerar um comando de atualização TMSL.
 
 ![Botão Script na caixa de diálogo Processar Tabela](media/service-premium-incremental-refresh/ssms-process-table.png)
 
@@ -208,7 +208,7 @@ Os seguintes parâmetros podem ser inseridos no comando de atualização TMSL pa
 }
 ```
 
-Para saber mais sobre o comportamento de atualização incremental predefinido com a TMSL, veja [Comando de atualização](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current).
+Para saber mais sobre o comportamento de atualização incremental predefinido com a TMSL, veja [Comando de atualização](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current&preserve-view=true).
 
 ### <a name="custom-queries-for-detect-data-changes"></a>Consultas personalizadas para detetar alterações de dados
 

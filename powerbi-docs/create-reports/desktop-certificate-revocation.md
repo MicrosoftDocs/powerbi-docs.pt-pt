@@ -47,7 +47,7 @@ A caixa de verificação simples Enable ou Disable ainda se encontra na interfac
 HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft Power BI Desktop
 ```
 
-Arte
+Ou:
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop

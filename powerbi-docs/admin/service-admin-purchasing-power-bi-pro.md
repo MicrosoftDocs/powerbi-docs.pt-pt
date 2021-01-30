@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/08/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 5845e56bdcb2257d67d541e35d26c9285a5e9319
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0184e549911afb784e06b1ee829bf113ff97e067
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408142"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086309"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Comprar e atribuir licenças de utilizador do Power BI Pro
 
@@ -40,7 +40,7 @@ Para atribuir licenças no portal do Azure, tem de ser um proprietário da subsc
 ### <a name="purchase-licenses-in-microsoft-365"></a>Comprar licenças no Microsoft 365
 
 > [!NOTE]
-> Se adquirir normalmente licenças mediante um contrato de licenciamento em volume, como um Contrato Enterprise, e quiser receber uma fatura em vez de comprar com um cartão de crédito ou uma conta bancária, terá de submeter a encomenda de forma diferente. Contacte o seu Revendedor Microsoft ou aceda ao Volume Licensing Service Center para adicionar ou remover licenças. Para obter mais informações, veja [Manage subscription licenses](/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide) (Gerir licenças de subscrição).
+> Se adquirir normalmente licenças mediante um contrato de licenciamento em volume, como um Contrato Enterprise, e quiser receber uma fatura em vez de comprar com um cartão de crédito ou uma conta bancária, terá de submeter a encomenda de forma diferente. Contacte o seu Revendedor Microsoft ou aceda ao Volume Licensing Service Center para adicionar ou remover licenças. Para obter mais informações, veja [Manage subscription licenses](/microsoft-365/commerce/licenses/buy-licenses) (Gerir licenças de subscrição).
 
 Siga estes passos para comprar licenças do Power BI Pro no centro de administração do Microsoft 365:
 

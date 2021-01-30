@@ -2,18 +2,18 @@
 title: Access the Power BI activity log (Aceder ao registo de atividades do Power BI)
 description: Orientação e código de script de amostra do PowerShell para trabalhar com o registo de atividades do Power BI.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: sample
 ms.date: 09/03/2020
-ms.openlocfilehash: 18ce155419f712cce2c4973949cd02ffbd870724
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0e86966225060c24aa154c0b29ea533dad89908b
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394664"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088701"
 ---
 # <a name="access-the-power-bi-activity-log"></a>Access the Power BI activity log (Aceder ao registo de atividades do Power BI)
 
@@ -30,7 +30,7 @@ Está disponível uma amostra do PowerShell para o ajudar a aprender a filtrar e
 - Obter uma lista de utilizadores para partilha de relatórios direta.
 
 > [!NOTE]
-> Terá de estar familiarizado com a [API de Administradores do Power BI](/rest/api/power-bi/admin) e os [módulos do PowerShell do Power BI](/powershell/power-bi/overview?view=powerbi-ps). Os módulos do PowerShell têm de estar instalados antes de executar estes blocos de script. Para obter mais informações, veja [Controlar as atividades dos utilizadores no Power BI](../admin/service-admin-auditing.md#use-the-activity-log).
+> Terá de estar familiarizado com a [API de Administradores do Power BI](/rest/api/power-bi/admin) e os [módulos do PowerShell do Power BI](/powershell/power-bi/overview?view=powerbi-ps&preserve-view=true). Os módulos do PowerShell têm de estar instalados antes de executar estes blocos de script. Para obter mais informações, veja [Controlar as atividades dos utilizadores no Power BI](../admin/service-admin-auditing.md#use-the-activity-log).
 >
 > Pode ocorrer um atraso de até 30 minutos ao obter os eventos do Power BI.
 

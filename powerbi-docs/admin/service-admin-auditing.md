@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/20/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 3c1e2b4513b3ac920d447ef0b8195c76c1ec2a04
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: cf10ac72f387438a60d3840c69ad1ee713c26708
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413754"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086218"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Controlar as atividades dos utilizadores no Power BI
 
@@ -122,7 +122,7 @@ Pode filtrar os dados de auditoria por intervalo de datas, utilizador, dashboard
 
 Tem de cumprir estes requisitos para aceder aos registos de auditoria:
 
-- Para aceder ao registo de auditoria, tem de ser administrador global ou ter a função Registos de Auditoria ou Ver Apenas Registos de Auditoria no Exchange Online. Por predefinição, os grupos de funções de Gestão de Conformidade e Gestão da Organização têm estas funções atribuídas na página **Permissões** do centro de administração do Exchange. Para obter mais informações sobre as funções que podem ver registos de auditoria, veja [Requisitos para pesquisar o registo de auditoria](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log).
+- Para aceder ao registo de auditoria, tem de ser administrador global ou ter a função Registos de Auditoria ou Ver Apenas Registos de Auditoria no Exchange Online. Por predefinição, os grupos de funções de Gestão de Conformidade e Gestão da Organização têm estas funções atribuídas na página **Permissões** do centro de administração do Exchange. Para obter mais informações sobre as funções que podem ver registos de auditoria, veja [Requisitos para pesquisar o registo de auditoria](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#requirements-to-search-the-audit-log).
 
     Para dar acesso a contas de utilizadores não administradores ao registo de auditoria, adicione esses utilizadores como membros de um daqueles grupos de funções. Se quiser fazê-lo de outra forma, pode criar um grupo de funções personalizado no centro de administração do Exchange, atribuir a função Registos de Auditoria ou Ver Apenas Registos de Auditoria ao mesmo e, depois, adicionar a conta do utilizador não administrador ao grupo novo. Para obter mais informações, veja [Manage role groups in Exchange Online](/Exchange/permissions-exo/role-groups) (Gerir grupos de funções no Exchange Online).
 
@@ -211,7 +211,7 @@ Para exportar o registo de auditoria do Power BI para um ficheiro CSV, siga est
 
 ### <a name="use-powershell-to-search-audit-logs"></a>Utilize o PowerShell para pesquisar registos de auditoria
 
-Também pode utilizar o PowerShell para aceder aos registos de auditoria com base no início de sessão. O exemplo seguinte mostra como ligar ao PowerShell do Exchange Online e utilizar, depois, o comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) para obter entradas do registo de auditoria do Power BI. Para executar o script, um administrador tem de lhe atribuir as permissões adequadas, conforme descrito na secção [Requisitos de registo de auditoria](#audit-log-requirements).
+Também pode utilizar o PowerShell para aceder aos registos de auditoria com base no início de sessão. O exemplo seguinte mostra como ligar ao PowerShell do Exchange Online e utilizar, depois, o comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps&preserve-view=true/) para obter entradas do registo de auditoria do Power BI. Para executar o script, um administrador tem de lhe atribuir as permissões adequadas, conforme descrito na secção [Requisitos de registo de auditoria](#audit-log-requirements).
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -226,7 +226,7 @@ Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType Power
 
 ### <a name="use-powershell-to-export-audit-logs"></a>Utilizar o PowerShell para exportar registos de auditoria
 
-Também pode utilizar o PowerShell para exportar os resultados da sua pesquisa de registos de auditoria. O exemplo seguinte mostra como enviar a partir do comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) e exportar os resultados através do cmdlet [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv). Para executar o script, um administrador tem de lhe atribuir as permissões adequadas, conforme descrito na secção [Requisitos de registo de auditoria](#audit-log-requirements).
+Também pode utilizar o PowerShell para exportar os resultados da sua pesquisa de registos de auditoria. O exemplo seguinte mostra como enviar a partir do comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps&preserve-view=true/) e exportar os resultados através do cmdlet [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv). Para executar o script, um administrador tem de lhe atribuir as permissões adequadas, conforme descrito na secção [Requisitos de registo de auditoria](#audit-log-requirements).
 
 ```powershell
 $UserCredential = Get-Credential

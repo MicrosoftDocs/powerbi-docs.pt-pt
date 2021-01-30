@@ -2,18 +2,18 @@
 title: Microsoft's BI transformation (Transformação de BI da Microsoft)
 description: Saiba como a Microsoft gere uma cultura de dados para a tomada de decisões empresariais com êxito. Descreve a sua estratégia e visão para BI.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/19/2020
-ms.openlocfilehash: fa3f8c553fd55e77e92b4a933df332bdd8c4dc6d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: f64fa087665aec7515737d6c4d70328c0c74b13a
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394457"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088632"
 ---
 # <a name="microsofts-bi-transformation"></a>Microsoft's BI transformation (Transformação de BI da Microsoft)
 

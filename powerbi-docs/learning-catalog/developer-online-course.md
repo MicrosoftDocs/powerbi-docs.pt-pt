@@ -2,19 +2,19 @@
 title: Curso Programador do Power BI num Dia
 description: Enquanto programador de aplicações, este curso baseado em vídeo tem como objetivo proporcionar-lhe os conhecimentos técnicos necessários para incorporar conteúdo do Power BI.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: yana.berkovich
 featuredvideoid: dv-ep90wse8
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: tutorial
 ms.date: 06/01/2020
-ms.openlocfilehash: 67633bf4362984d0a1e3b6a6aa8b74de3747191f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: de53a528ef72c3dc46ea507152a66f8343e0e37e
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414904"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087873"
 ---
 # <a name="power-bi-developer-in-a-day-course"></a>Curso Programador do Power BI num Dia
 

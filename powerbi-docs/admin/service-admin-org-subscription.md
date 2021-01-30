@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/13/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 7db1b6c2df9a8ad32b76ae452ee76828df5823c0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: cd55b23bf6f8d86fbb31b261e9f63ec6b8ebc775
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408510"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085665"
 ---
 # <a name="get-a-power-bi-service-subscription-for-your-organization"></a>Obter uma subscrição do serviço Power BI para a sua organização
 
@@ -55,7 +55,7 @@ Siga estes passos para comprar licenças do Power BI Pro no centro de administ
 
 8. Para verificar a sua compra, vá para **Faturação** > **Produtos e serviços** e procure **Power BI Pro**.
 
-Para ler mais sobre como a sua organização pode controlar e adquirir o serviço Power BI, veja [O Power BI na sua organização](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
+Para ler mais sobre como a sua organização pode controlar e adquirir o serviço Power BI, veja [O Power BI na sua organização](/microsoft-365/admin/misc/power-bi-in-your-organization).
 
 ## <a name="more-ways-to-get-power-bi-for-your-organization"></a>Mais formas de obter o Power BI para a sua organização
 
@@ -98,4 +98,4 @@ A conta que criou é agora o administrador global de um novo inquilino da versã
 
 - [Ver e gerir licenças de utilizador](service-admin-manage-licenses.md)
 - [Ativar ou desativar a compra e inscrição de gestão personalizada](service-admin-disable-self-service.md)
-- [Subscrição para empresas e documentação de faturação](/microsoft-365/commerce/?view=o365-worldwide)
+- [Subscrição para empresas e documentação de faturação](/microsoft-365/commerce/)

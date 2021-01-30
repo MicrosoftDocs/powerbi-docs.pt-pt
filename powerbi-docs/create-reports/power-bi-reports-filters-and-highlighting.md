@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 01/29/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: 9a793ff966f7560924f53357ce7518f0ede65c56
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 572bbc8b24fc3ebf8ee2890480eff25eab87d37d
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96393583"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087827"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Filtros e realces em relatórios do Power BI
- Este artigo apresenta-lhe os filtros e os realces no serviço Power BI. A experiência é praticamente a mesma no Power BI Desktop. Os *Filtros* removem tudo, menos os dados em que se pretende focar. Os *Realces* não são filtros. Não removem dados, mas realçam um subconjunto de dados visíveis; os dados não realçados permanecem visíveis, mas ficam esbatidos.
+ Este artigo apresenta-lhe os filtros e os realces no serviço Power BI. A experiência é praticamente a mesma no Power BI Desktop. Os *Filtros* removem tudo, menos os dados em que se pretende focar. Em geral, *realçar* não é filtrar. Na maioria dos visuais não remove os dados não relacionados. Em vez disso, destaca o subconjunto de dados relacionados. O resto dos dados permanece visível, mas escurecido. Consulte [a filtragem cruzada ad hoc e o cruzamento](#ad-hoc-cross-filtering-and-cross-highlighting) mais tarde neste artigo para obter mais detalhes.
 
 Existem várias formas diferentes de filtrar e realçar relatórios no Power BI. Colocar todas essas informações num artigo seria confuso, pelo que as dividimos nestas seções:
 
@@ -41,7 +41,7 @@ Pode aplicar filtros no painel **Filtros** ou ao [realizar seleções na segment
 Existem quatro tipos de filtros.
 
 - Um **filtro de página** aplica-se a todos os elementos visuais na página do relatório     
-- Um **filtro de elemento visual** aplica-se a um único elemento visual numa página do relatório. Apenas vê filtros ao nível de elemento visual se tiver selecionado um elemento visual na tela de relatórios.    
+- **O filtro visual** aplica-se a um único visual numa página de relatório. Apenas verá os filtros ao nível dos elementos visuais se tiver selecionado um elemento visual na tela do relatório.    
 - Um **filtro de relatório** aplica-se a todas as páginas no relatório    
 - Um **filtro de pormenorização** aplica-se a uma única entidade num relatório    
 
@@ -52,7 +52,7 @@ Pode pesquisar na página, no elemento visual e nos filtros de relatório, na Vi
 Se o filtro estiver acompanhado da palavra **Tudo**, significa que todos os valores no campo são incluídos no filtro.  Por exemplo,**Chain(All)** na captura de ecrã abaixo significa que esta página de relatório inclui dados sobre todas as cadeias de lojas.  Por outro lado, o filtro ao nível de relatório **FiscalYear is 2013 or 2014** indica que o relatório inclui apenas dados correspondentes aos anos fiscais de 2013 e 2014.
 
 ## <a name="filters-in-reading-or-editing-view"></a>Filtros na Vista de leitura e de edição
-Existem dois modos de interagir com os relatórios: [Vista de leitura](../consumer/end-user-reading-view.md) e Vista de edição. As funções de filtragem disponíveis para si dependem do modo no qual se encontra.
+Existem dois modos para interagir com relatórios: [Ver vista de leitura](../consumer/end-user-reading-view.md) e visualização de edição. As funções de filtragem disponíveis para si dependem do modo no qual se encontra.
 
 * Na Vista de edição, pode adicionar filtros de relatório, de página, de pormenorização e de elemento visual. Ao guardar o relatório, os filtros são guardados com aquele, mesmo que o abra numa aplicação móvel. As pessoas que veem o relatório na Vista de leitura podem interagir com os filtros que adicionou, mas não podem adicionar novos filtros.
 * Na Vista de leitura, pode interagir com qualquer filtro existente no relatório e guardar as seleções que fizer. Não pode adicionar novos filtros.
@@ -70,7 +70,7 @@ Cada elemento visual pode ter filtros para todos os campos no elemento visual e 
 
 Na Vista de leitura, explore os dados ao modificar os filtros existentes. As alterações que fizer são guardadas com o relatório, mesmo que abra o relatório numa aplicação móvel. Saiba como ao [fazer uma visita do painel Filtros do relatório](../consumer/end-user-report-filter.md)
 
-Ao sair do relatório, os filtros são guardados. Para anular a sua filtragem e voltar à filtragem, repartição, exploração e ordenação predefinidas definidas pelo autor do relatório, selecione **Repor para predefinição** na barra de menus superior.
+Quando sai do relatório, os filtros são guardados. Para anular a sua filtragem e voltar à filtragem, repartição, exploração e ordenação predefinidas definidas pelo autor do relatório, selecione **Repor para predefinição** na barra de menus superior.
 
 ![Ícone Repor para predefinição](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
@@ -83,20 +83,23 @@ Tal como na Vista de leitura, vemos que esta página do relatório tem seis filt
 
 Pode fazer mais com os filtros e o realce na Vista de edição. Principalmente, podemos adicionar novos filtros. Saiba como [Adicionar um filtro a um relatório](power-bi-report-add-filter.md) e muito mais.
 
-## <a name="ad-hoc-highlighting"></a>Realce ad-hoc
-Selecione uma etiqueta de eixo ou valor num elemento visual para realçar os outros elementos visuais na página. Para remover o realce, selecione novamente o valor ou selecione um espaço vazio no mesmo elemento visual. O realce é uma forma divertida de explorar rapidamente os impactos de dados. Para ajustar a forma como este tipo de realce cruzado funciona, veja [Interações do elemento visual](service-reports-visual-interactions.md).
+## <a name="ad-hoc-cross-filtering-and-cross-highlighting"></a>Filtragem cruzada ad hoc e cruzamento
+Selecione uma etiqueta de valor ou eixo num visual para cruzar o filtro ou realçar os valores relacionados em outros visuais da página. Na maioria dos visuais, selecionar um valor num visual não remove os dados não relacionados nos outros visuais. Em vez disso, destaca o subconjunto de dados relacionados. Os dados não relacionados permanecem visíveis, mas escurecidos. Em alguns visuais, no entanto, selecionar um valor em um visual age mais como um filtro nos outros visuais. Por exemplo, em gráficos de linha e gráficos de dispersão, apenas os dados relacionados permanecem visíveis. Os dados não relacionados não são visíveis, tal como se pode ver com um filtro. 
 
-![Realce cruzado](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
+Para remover o realce, selecione novamente o valor ou selecione um espaço vazio no mesmo elemento visual. O realce é uma forma divertida de explorar rapidamente os impactos de dados. Para mais exemplos, consulte a [secção de filtragem cruzada e de cruzamento](../consumer/end-user-interactions.md#cross-filtering-and-cross-highlighting) de "Como os visuais se filtram entre si num relatório do Power BI".
 
+![Animação mostrando filtragem cruzada e cruzamento.](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
-## <a name="next-steps"></a>Próximas etapas
+Os editores de relatórios podem mudar a forma como os visuais interagem. Para afinar como funciona o cruzamento, veja [alterar a forma como os visuais interagem no relatório.](service-reports-visual-interactions.md)
+
+## <a name="next-steps"></a>Passos seguintes
 
 [A nova experiência de filtros nos relatórios do Power BI](power-bi-report-filter.md)
 
-[Adicionar um filtro a um relatório (na Vista de edição)](power-bi-report-add-filter.md)
+[Adicione um filtro a um relatório (na vista de edição)](power-bi-report-add-filter.md)
 
 [Fazer uma visita aos filtros de relatórios](../consumer/end-user-report-filter.md)
 
-[Alterar como os elementos visuais de relatórios realizam filtragem cruzada e realce cruzado entre si](../consumer/end-user-interactions.md)
+[Como relatar visuais cruzam filtro e cruzam-se num relatório](../consumer/end-user-interactions.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

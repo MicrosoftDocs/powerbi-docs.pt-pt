@@ -2,18 +2,18 @@
 title: 'DAX: Referências de colunas e de medidas'
 description: Orientação sobre como fazer referência a colunas em medidas nas suas expressões DAX.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 12/18/2019
-ms.openlocfilehash: 861fd2d5c3d511358b508c7a0d6f7e96472e5aaf
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 3d9f4ea374783b90705a8ec5644d67ddc5d1168b
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394250"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088540"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX: Referências de colunas e de medidas
 

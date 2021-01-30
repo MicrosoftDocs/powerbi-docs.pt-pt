@@ -2,18 +2,18 @@
 title: Dimensionamento do gateway de dados no local
 description: Documentação de orientação para trabalhos de dimensionamento do gateway de dados no local.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/30/2019
-ms.openlocfilehash: c0506b492a0c28140256dc0be850358836b284b0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 35630891a66b9aed0b9e568d8e34180e3ee41544
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419421"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088402"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Dimensionamento do gateway de dados no local
 
@@ -84,7 +84,7 @@ Planeie a melhor conectividade possível entre o serviço Power BI e o gateway 
 
 - Zele por obter fiabilidade, velocidades rápidas e latências baixas consistentes
 - Elimine ou reduza os saltos do computador entre o gateway e as origens de dados
-- Remova qualquer limitação de rede imposta pela camada proxy da firewall. Para obter mais informações sobre os pontos finais do Power BI, veja [Adicionar URLs do Power BI à lista de permissões](../admin/power-bi-whitelist-urls.md).
+- Remova qualquer limitação de rede imposta pela camada proxy da firewall. Para obter mais informações sobre os pontos finais do Power BI, veja [Adicionar URLs do Power BI à lista de permissões](../admin/power-bi-allow-list-urls.md).
 - Configure o [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) para estabelecer ligações geridas privadas ao Power BI
 - Para as origens de dados nas VMs do Azure, confirme que as VMs estão [colocalizadas no serviço Power BI](../admin/service-admin-where-is-my-tenant-located.md)
 - Para as cargas de trabalho Ligação em Direto no SQL Server Analysis Services (SSAS) relacionadas com a RLS dinâmica, garanta uma boa conectividade entre o computador do gateway e o Active Directory no local

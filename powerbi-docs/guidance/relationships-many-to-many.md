@@ -2,18 +2,18 @@
 title: Guia de relações muitos-para-muitos
 description: Orientação de desenvolvimento de relações do modelo muitos-para-muitos.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 95383581a258374f2757581e82fa0f2044dcae84
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 654c5ad71d7629fba1bf17b28e9e21370ebee0c3
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418630"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087965"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Guia de relações muitos-para-muitos
 

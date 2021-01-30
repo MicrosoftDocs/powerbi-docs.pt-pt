@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2021
 ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: 06a2dff78cc2367afb153111e080e29a16fc82ab
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: 93198628677966208609892ee45ea4a28932c091
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98686988"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085849"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes do Governo Norte-Americano
 
@@ -66,7 +66,7 @@ A sua conta pode estar configurada em mais de uma cloud. Se a conta estiver conf
 
 Para utilizar o serviço Power BI, tem de permitir ligações aos pontos finais necessários na Internet. Estes destinos têm de ser acessíveis, de modo a permitir a comunicação entre a sua rede, o Power BI e outros serviços dependentes.
 
-Na tabela abaixo, apresentamos os pontos finais necessários a adicionar à lista de permissões para permitir a ligação ao serviço Power BI para utilização geral no site. Estes pontos finais são exclusivos à cloud do governo norte-americano. O serviço Power BI apenas requer que a Porta TCP 443 esteja aberta para os pontos finais listados. Os pontos finais de integração de dados, dashboards e relatórios, os elementos visuais do Power BI e outros serviços opcionais não são exclusivos à cloud do governo norte-americano. Para também adicionar estes URLs à lista de permissões, veja o artigo [Adicionar URLs do Power BI à lista de permissões](power-bi-whitelist-urls.md).
+Na tabela abaixo, apresentamos os pontos finais necessários a adicionar à lista de permissões para permitir a ligação ao serviço Power BI para utilização geral no site. Estes pontos finais são exclusivos à cloud do governo norte-americano. O serviço Power BI apenas requer que a Porta TCP 443 esteja aberta para os pontos finais listados. Os pontos finais de integração de dados, dashboards e relatórios, os elementos visuais do Power BI e outros serviços opcionais não são exclusivos à cloud do governo norte-americano. Para também adicionar estes URLs à lista de permissões, veja o artigo [Adicionar URLs do Power BI à lista de permissões](power-bi-allow-list-urls.md).
 
 A autenticação, identidade e a administração do Power BI depende da conectividade aos serviços do Microsoft 365. Também tem de estabelecer ligação ao Microsoft 365 para ver os registos de auditoria. Para identificar os pontos finais destes serviços, veja a integração do Microsoft 365 na tabela abaixo.
 
