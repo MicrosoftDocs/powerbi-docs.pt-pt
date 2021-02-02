@@ -11,22 +11,20 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 1/13/2021
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b285d699d71001d8015615fdeb3652ba35274896
-ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
-ms.translationtype: HT
+ms.openlocfilehash: 8cfba48839f4055c7d48bf01a475cf2804053239
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98191822"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422335"
 ---
 # <a name="customize-visualization-titles-backgrounds-labels-and-legends"></a>Personalizar os títulos, os fundos, as etiquetas e as legendas das visualizações
 
-[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
-
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 Neste tutorial, vai aprender várias formas de personalizar as visualizações. Existem muitas opções para personalizar as visualizações. A melhor forma de saber mais sobre todas elas é explorar o painel **Formatação** (selecione o ícone de rolo de pintura). Para começar, este artigo mostra-lhe como pode personalizar um título, uma legenda, um fundo, uma camada e uma etiqueta das visualizações e adicionar um tema.
 
 Não pode personalizar todas as visualizações. Veja a [lista completa](#visualization-types-that-you-can-customize) das visualizações para obter mais detalhes.
-
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -60,14 +58,13 @@ Inicie sessão no Power BI Desktop e abra o relatório [Exemplo de Análise de R
 
     ![Captura de ecrã a mostrar o painel Formatar com o texto de título introduzido.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-title.png)
 
-1. Altere a **Cor do tipo de letra** para branco e a **Cor de fundo** para azul.    
+1. Altere a **Cor do tipo de letra** para branco e a **Cor de fundo** para azul.
 
     a. Selecione a lista suspensa e escolha uma cor em **Cores do tema**, **Cores recentes** ou **Cor personalizada**.
-    
+
     ![Captura de ecrã das opções da Cor do tipo de letra e da Cor de fundo.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
 
     b. Selecione a lista suspensa para fechar a janela de cores.
-
 
 1. Aumente o tamanho do texto para **16 pt**.
 
@@ -128,6 +125,7 @@ Guarde as alterações realizadas e avance para a secção seguinte.
 Se precisar de reverter todas as alterações, selecione **Reverter para predefinição**, na parte inferior do painel de personalização **Legenda**.
 
 ## <a name="customize-total-labels-for-stacked-visuals"></a>Personalizar o total de etiquetas para elementos visuais empilhados
+
 Os elementos visuais empilhados podem apresentar etiquetas de dados e o total de etiquetas. Num gráfico de colunas empilhadas, as etiquetas de dados identificam o valor de cada parte de uma coluna. O total de etiquetas apresenta o valor total para toda a coluna agregada. 
 
 Veja o Rien a adicionar o total de etiquetas a um gráfico empilhado e, em seguida, siga os passos abaixo para experimentar.
@@ -136,7 +134,7 @@ Veja o Rien a adicionar o total de etiquetas a um gráfico empilhado e, em segui
 
 1. Abra a página do relatório **Descrição geral** e selecione o gráfico de barras **Tamanho da área de vendas médio por cadeia e tipo de loja**.
 
-1. No separador **Visualização**, selecione o ![ícone do gráfico de barras empilhadas](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-bar.png) para converter este gráfico de barras num gráfico de barras empilhadas. Note que o elemento visual retém as etiquetas de dados. 
+1. No separador **Visualização**, selecione o ![ícone do gráfico de barras empilhadas](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-bar.png) para converter este gráfico de barras num gráfico de barras empilhadas. Note que o elemento visual retém as etiquetas de dados.
 
     ![Captura de ecrã a mostrar o novo gráfico de barras empilhadas.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-chart.png)
 
@@ -150,24 +148,23 @@ Veja o Rien a adicionar o total de etiquetas a um gráfico empilhado e, em segui
 
     ![Captura de ecrã a mostrar o novo gráfico de barras empilhadas com o total de etiquetas.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-bar-totals.png)
 
-
 ## <a name="customize-layer-order"></a>Personalizar a ordem das camadas
+
 Altere a ordem das camadas dos elementos visuais e das formas nos relatórios. A ordem das camadas determina que objetos passarão para a frente após serem selecionados. Sempre que selecionar um objeto na tela de relatórios, o mesmo torna-se ativo e é movido para a camada superior. Isto faz com que sejam mais fácil interagir com o elemento visual selecionado. No entanto, para as formas e fundos, recomendamos que os coloque na camada inferior, para não selecionar inadvertidamente e cobrir ou ocultar os elementos visuais dos relatórios. 
 
 Os controlos de camadas estão disponíveis no serviço Power BI, no Power BI Desktop, em dispositivos móveis e no servidor de relatórios. Este artigo mostra-lhe como alterar o comportamento da ordem das camadas no serviço Power BI.
 
 Veja Rien a alterar o comportamento da ordem das camadas e, em seguida, siga os passos abaixo para experimentar.
 
-
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IY3L]
 
-1. Adicione uma nova página de relatório ao selecionar o sinal de adição amarelo. 
+1. Adicione uma nova página de relatório ao selecionar o sinal de adição amarelo.
 
-1. Adicione uma forma à tela. Aqui, adicionámos um retângulo azul. 
+1. Adicione uma forma à tela. Aqui, adicionámos um retângulo azul.
 
     ![Captura de ecrã a mostrar a nova página de relatório com um retângulo azul.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-shape.png)
 
-1. Copie e cole um elemento visual de outra página do relatório. 
+1. Copie e cole um elemento visual de outra página do relatório.
 
     ![Captura de ecrã a mostrar a nova página de relatório com um retângulo azul e um gráfico circular.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-layer.png)
 
@@ -179,14 +176,12 @@ Veja Rien a alterar o comportamento da ordem das camadas e, em seguida, siga os 
 
 1. Na vista Leitura, ao selecionar o retângulo azul, a página permanece na última camada.
 
-
 ## <a name="customize-colors-using-a-theme"></a>Personalizar cores com um tema
 
 Com os temas de relatório, pode aplicar alterações de design a todo o relatório, como utilizar cores da empresa, alterar conjuntos de ícones ou aplicar uma nova formatação visual predefinida. Quando aplica um tema de relatório, todos os elementos visuais no relatório utilizam as cores e a formatação do tema selecionado.
 
 Para aplicar um tema ao seu relatório, selecione **Mudar tema** a partir da barra de menu. Selecione um tema.  O relatório abaixo utiliza o tema **Solar**.
 
- 
 ![O relatório utiliza o tema Solar com tons amarelos, laranjas e vermelhos](media/power-bi-visualization-customize-title-background-and-legend/power-bi-theme.png)
 
 ## <a name="visualization-types-that-you-can-customize"></a>Tipos de visualizações que pode personalizar
@@ -227,5 +222,3 @@ Veja a seguir uma lista de visualizações e as opções de personalização dis
 - [Getting started with color formatting and axis properties](service-getting-started-with-color-formatting-and-axis-properties.md) (Introdução às propriedades de eixo e formatação de cor)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
-
-

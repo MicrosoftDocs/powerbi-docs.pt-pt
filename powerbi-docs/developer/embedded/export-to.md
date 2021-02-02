@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 12/28/2020
-ms.openlocfilehash: acd9d98b55697e8ca3729cad65a1ead8f01f6e62
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.date: 02/01/2021
+ms.openlocfilehash: 64a9472960195c8d4f91013a778bb61cdf029ab4
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887023"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422358"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportar relatório do Power BI para ficheiro (pré-visualização)
 
@@ -40,15 +40,41 @@ Antes de utilizar a API, verifique se estão ativadas as seguintes [definições
 
 A API é assíncrona. Quando a API [exportToFile](/rest/api/power-bi/reports/exporttofile) é chamada, aciona uma tarefa de exportação. Depois de acionar uma tarefa de exportação, utilize a [consulta](/rest/api/power-bi/reports/getexporttofilestatus) para controlar a tarefa, até estar concluída.
 
-Durante a consulta, a API devolve um número que representa a quantidade de trabalho concluído. O trabalho em cada tarefa de exportação é calculado com base no número de páginas que o relatório tem. Todas as páginas têm o mesmo tamanho. Por exemplo, se estiver a exportar um relatório com 10 páginas e a consulta devolver 70, significa que a API processou sete das 10 páginas na tarefa de exportação.
+Durante a consulta, a API devolve um número que representa a quantidade de trabalho concluído. O trabalho em cada trabalho de exportação é calculado com base no total das exportações no trabalho. Uma exportação inclui a exportação de um único visual, ou uma página com ou sem marcadores. Todas as exportações têm o mesmo peso. Se, por exemplo, o seu trabalho de exportação incluir a exportação de um relatório com 10 páginas, e a votação devolver 70, significa que a API processou sete das 10 páginas do trabalho de exportação.
 
 Quando a exportação estiver concluída, a chamada à API de consulta devolve um [URL do Power BI](/rest/api/power-bi/reports/getfileofexporttofile) para obter o ficheiro. O URL estará disponível durante 24 horas.
 
 ## <a name="supported-features"></a>Funcionalidades suportadas
 
+Esta secção descreve o funcionamento das seguintes funcionalidades suportadas:
+
+* [Selecionar as páginas a imprimir](#selecting-which-pages-to-print)
+* [Exportando uma página ou um único visual](#exporting-a-page-or-a-single-visual)
+* [Marcadores](#bookmarks)
+* [Filtros](#filters)
+* [Autenticação](#authentication)
+* [Segurança ao Nível da Linha (RLS)](#row-level-security-rls)
+* [Proteção de dados](#data-protection)
+* [Localização](#localization)
+
 ### <a name="selecting-which-pages-to-print"></a>Selecionar as páginas a imprimir
 
 Especifique as páginas que quer imprimir de acordo com o valor devolvido de [Obter Páginas](/rest/api/power-bi/reports/getpages) ou [Obter Páginas no Grupo](/rest/api/power-bi/reports/getpagesingroup). Também pode especificar a ordem das páginas que está a exportar.
+
+### <a name="exporting-a-page-or-a-single-visual"></a>Exportando uma página ou um único visual
+
+Pode especificar uma página ou um único visual para exportar. As páginas podem ser exportadas com ou sem marcadores.
+
+Dependendo do tipo de exportação, é necessário passar diferentes atributos para o objeto [ExportReportPage.](/rest/api/power-bi/reports/exporttofile#exportreportpage) O quadro a seguir especifica quais os atributos necessários para cada trabalho de exportação.  
+
+>[!NOTE]
+>Exportar um único visual tem o mesmo peso que exportar uma página (com ou sem marcadores). Isto significa que, em termos de cálculos do sistema, ambas as operações têm o mesmo valor.
+
+|Atributo   |Página     |Visuais únicos  |Comentários|
+|------------|---------|---------|---|
+|`bookmark`  |Opcional |![Não se aplica a:](../../media/no.png)|Utilizar para exportar uma página num estado específico|
+|`pageName`  |![Aplica-se a:](../../media/yes.png)|![Aplica-se a:](../../media/yes.png)|Utilize a [API GETPages](/rest/api/power-bi/reports/getpage) REST ou a `getPages` API do cliente. Para mais informações consulte [Obter páginas e visuais.](/javascript/api/overview/powerbi/get-visuals)   |
+|`visualName`|![Não se aplica a:](../../media/no.png)|![Aplica-se a:](../../media/yes.png)|Há duas maneiras de obter o nome do visual:<li>Use a `getVisuals` API cliente. Para obter mais informações, consulte [obter páginas e visuais.](/javascript/api/overview/powerbi/get-visuals)</li><li>Ouça e registe o evento *visualClicked,* que é desencadeado quando um visual é selecionado. Para mais informações, consulte [Como lidar com eventos](/javascript/api/overview/powerbi/handle-events)</li>. |
 
 ### <a name="bookmarks"></a>Marcadores
 
@@ -127,10 +153,10 @@ Uma tarefa que exceda o número de pedidos simultâneos não termina. Por exempl
 
 * O relatório que está a exportar tem de residir numa capacidade Premium ou Incorporada.
 * O conjunto de dados do relatório que está a exportar tem de residir numa capacidade Premium ou Incorporada.
-* Na pré-visualização pública, o número de páginas de relatórios do Power BI exportadas por hora está limitado a 50 por capacidade.
+* Para visualização pública, o número de exportações de Power BI por hora é limitado a 50 por capacidade. Uma exportação refere-se à exportação de uma única página visual ou de relatório com ou sem marcadores, e não inclui a exportação de relatórios paginados.
 * Os relatórios exportados não podem exceder o tamanho de ficheiro de 250 MB.
 * Ao exportar para .png, as etiquetas de confidencialidade não são suportadas.
-* O número de páginas que podem ser incluídas num relatório exportado é de 50. Se o relatório incluir mais páginas, a API devolverá um erro e a tarefa de exportação será cancelada.
+* O número de exportações (visuais únicos ou páginas de relatório) que podem ser incluídas num relatório exportado é de 50 (isto não inclui a exportação de relatórios paginados). Se o pedido incluir mais exportações, a API devolve um erro e o trabalho de exportação é cancelado.
 * Não são suportados [marcadores pessoais](../../consumer/end-user-bookmarks.md#personal-bookmarks) nem [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/).
 * Os elementos visuais do Power BI listados abaixo não são suportados. Quando for exportado um relatório com estes elementos visuais, as partes do relatório que contêm estes elementos visuais não serão compostas e apresentarão um símbolo de erro.
     * Elementos visuais do Power BI não certificados
