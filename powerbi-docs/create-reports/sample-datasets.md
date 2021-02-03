@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 03/27/2020
 LocalizationGroup: Samples
-ms.openlocfilehash: 2e14a81c6ae04048f85fae417b354a110436fc50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: f69be1cd602c0b20c48581a5d6ee1ff034749b2a
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396206"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495139"
 ---
 # <a name="get-samples-for-power-bi"></a>Veja exemplos do Power BI
 Diga que não está familiarizado com o Power BI e pretende experimentar, mas não tem quaisquer dados.  Ou talvez queira ver relatórios que ilustram algumas das capacidades do Power BI. Nós tratamos disso.
@@ -42,7 +42,7 @@ O cenário para este relatório é uma empresa que vende skates temáticos da Mi
 Pode explorá-lo das seguintes formas:
 
 - Ver e interagir com o estado na [Data Stories Gallery](https://community.powerbi.com/t5/Data-Stories-Gallery/Sales-amp-Returns-Sample-Report/m-p/876607) da Comunidade do Power BI.
-- Transferir o ficheiro .pbix e explorá-lo em profundidade. Espreite os “bastidores” para ver como o Miguel o fez. Ao selecionar esta ligação, transfere o ficheiro automaticamente: [Relatório de exemplo de Vendas e Devoluções](https://go.microsoft.com/fwlink/?linkid=2113239).
+- Transferir o ficheiro .pbix e explorá-lo em profundidade. Espreite os “bastidores” para ver como o Miguel o fez. Ao selecionar esta ligação, transfere o ficheiro automaticamente: [Relatório de exemplo de Vendas e Devoluções](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Sample%20Reports/Sales%20%26%20Returns%20Sample%20v201912.pbix).
 - Leia mais sobre o relatório na publicação de blogue do Power BI, [Take a tour of the new Sales & Returns sample report](https://powerbi.microsoft.com/blog/take_a_tour_of_the_new_sales_returns_sample_report/) (Apresentação do novo relatório de exemplo de Vendas e Devoluções).
 
 ## <a name="sample-app-from-appsource"></a>Aplicação de exemplo do AppSource

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 01/18/2021
+ms.date: 02/01/2021
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: c89cf7b00d5167ffb68a491a9cfdcea21378dfd5
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 05f2523e468759444a731d5484e8ce17350a46ae
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565144"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494909"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
@@ -76,25 +76,15 @@ As seguintes limitações conhecidas aplicam-se atualmente ao Premium Gen2:
 
 1.    A utilização da capacidade Premium Gen2 não pode ser monitorizada na aplicação de métricas.
 
-2.    As definições da capacidade Premium Gen2 para cargas de trabalho específicas não estão ainda visíveis na página de definições do Premium Gen2 no portal de administração. Para alterar as definições, faça a transição da capacidade para a versão original do Premium, altere as definições e configure a capacidade para utilizar novamente o Premium Gen2. As definições de alocação de memória não se aplicam às capacidades do Premium Gen2.
+2.  Se estiver a utilizar XMLA no Premium Gen2, certifique-se de que está a utilizar as versões mais recentes das [ferramentas de modelação de dados e de gestão](service-premium-connect-tools.md#data-modeling-and-management-tools). 
 
-3.  Se estiver a utilizar XMLA no Premium Gen2, certifique-se de que está a utilizar as versões mais recentes das [ferramentas de modelação de dados e de gestão](service-premium-connect-tools.md#data-modeling-and-management-tools). 
-
-4.  As funcionalidades do Analysis Services no Premium Gen2 só são suportadas nas bibliotecas de cliente mais recentes. Datas de lançamento estimadas das ferramentas dependentes para suportar este requisito:
+3.  As funcionalidades do Analysis Services no Premium Gen2 só são suportadas nas bibliotecas de cliente mais recentes. Datas de lançamento estimadas das ferramentas dependentes para suportar este requisito:
 
     |Ferramenta|Versão mínima necessária|Data de lançamento estimada|
     |---|---|---|
     |SQL Server Management Studio (SSMS)|18.8|8 de dezembro de 2020|
     |SQL Server Data Tools (SSDT)|2.9.15|Disponibilidade geral a 30 de novembro de 2020|
     | AS PowerShell| Superior a 21.1.18229|26 de novembro de 2020|
-
-5.  A reatribuição de uma área de trabalho com fluxos de dados de uma Capacidade Premium Gen 2 a outra capacidade Premium noutra região não é suportada. Também não é possível mover modelos de armazenamento grande entre capacidades Premium. Se já tiver migrado para uma capacidade noutra região, siga um dos seguintes passos para restaurar a funcionalidade:
- 
-    1.  Criar uma nova área de trabalho e copiar os fluxos de dados
-    2.  Migrar a área de trabalho para a capacidade na região anterior
-    3.  Voltar a utilizar a capacidade Premium Gen 1
-
-Esta limitação pode ser removida consoante a Disponibilidade Geral da capacidade Premium Gen 2.
 
 
 ## <a name="subscriptions-and-licensing"></a>Subscrições e licenciamento
@@ -126,11 +116,6 @@ Com o Power BI Premium, obtém *capacidades reservadas*. Em contraste com a capa
 As áreas de trabalho residem nas capacidades. Cada utilizador do Power BI tem uma área de trabalho pessoal conhecida como **A Minha Área de Trabalho**. As áreas de trabalho adicionais conhecidas como **áreas de trabalho** podem ser criadas para permitir a colaboração. Por predefinição, as áreas de trabalho, incluindo as áreas de trabalho pessoais, são criadas na capacidade partilhada. Quando tem capacidades Premium, As Minhas Áreas de Trabalho e áreas de trabalho podem ser atribuídas a capacidades Premium.
 
 Os administradores de capacidade têm as suas áreas de trabalho atribuídas automaticamente a capacidades Premium.
-
-### <a name="updates-for-premium-gen2-preview"></a>Atualizações para o Premium Gen2 (Pré-visualização)
-
-Os nós do Premium Gen 2 deixaram de utilizar a infraestrutura reservada. Em vez disso, o serviço garante a disponibilidade da capacidade de computação adequada para cada carga de trabalho em execução ao alocar recursos suficientes de um conjunto partilhado de nós de computação de alta capacidade.
-
 
 ### <a name="capacity-nodes"></a>Nós de capacidade
 

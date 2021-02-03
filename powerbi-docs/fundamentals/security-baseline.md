@@ -8,12 +8,12 @@ ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: b99f6f53f64e57bc262ea5aa518efa529b73f44e
-ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.openlocfilehash: 04a971aa6d1e584866ff7740676ab35b2e0e17af
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "99088149"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494886"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>Linha de base da segurança do Azure do Power BI
 
@@ -221,7 +221,7 @@ Deve garantir que as credenciais (por exemplo, palavra-passe, certificado ou sma
 **Orientação**: As estações de trabalho seguras e isoladas são de importância crítica para a segurança de funções confidenciais, por exemplo, administradores, programadores e operadores de serviço de importância crítica. Utilize estações de trabalho de utilizador altamente seguras e/ou o Azure Bastion para tarefas administrativas relacionadas com a gestão do Power BI. Utilize o Azure Active Directory, a Proteção Avançada Contra Ameaças do Microsoft Defender (ATP) e/ou o Microsoft Intune para implementar uma estação de trabalho de utilizador gerida e segura para tarefas administrativas. As estações de trabalho seguras podem ser geridas centralmente para impor uma configuração segura, incluindo uma autenticação forte e linhas de base de software e hardware e acesso de rede e lógico restrito.
 
 Compreender o acesso privilegiado
-- [estações de trabalho](/azure/active-directory/devices/concept-azure-managed-workstation)
+- [estações de trabalho](https://4sysops.com/archives/understand-the-microsoft-privileged-access-workstation-paw-security-model/)
 
 - [Implementar uma estação de trabalho de acesso privilegiado](/azure/active-directory/devices/howto-azure-managed-workstation)
 

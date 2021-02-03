@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 01/13/2021
+ms.date: 02/02/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 0753a9c3d5b832275f65ac11b87f90c38606f289
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
-ms.translationtype: HT
+ms.openlocfilehash: 98bc3da33f38974f3dfcb9e155111e7d16e6c069
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98226991"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494472"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Troubleshoot XMLA endpoint connectivity (Resolver problemas de conectividade de pontos finais XMLA)
 
@@ -221,6 +221,10 @@ Ao contrário do Azure Analysis Services, os [aliases](/azure/analysis-services/
 ## <a name="dataset-refresh-through-the-xmla-endpoint"></a>Atualização do conjunto de dados através do ponto final XMLA
 
 A data e hora da última atualização é apresentada em vários locais no Power BI, como as colunas Atualizado em relatórios e listas, os detalhes do conjunto de dados, as definições do conjunto de dados e o histórico de atualizações do conjunto de dados. Atualmente, as datas e horas de atualização apresentadas no Power BI **não** incluem operações de atualização efetuadas através do ponto final XMLA com recurso ao TMSL/TOM, SSMS ou ferramentas de terceiros.
+
+## <a name="discover_m_expressions"></a>DISCOVER_M_EXPRESSIONS 
+
+A visão de gestão de dados DISCOVER_M_EXPRESSIONS DMV (DMV) não é atualmente suportada no Power BI utilizando o Ponto Final XMLA. As aplicações podem utilizar o modelo de objeto Tabular (TOM) para obter expressões M utilizadas pelo modelo de dados.
 
 ## <a name="see-also"></a>Veja também
 

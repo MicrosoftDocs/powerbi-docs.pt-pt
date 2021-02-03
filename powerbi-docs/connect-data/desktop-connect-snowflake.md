@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/04/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 00f78fef9f1abd11d7c553009db5541822c59c85
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
-ms.translationtype: HT
+ms.openlocfilehash: 377ede2171a721a33aa0b70819ef511d721f2590
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926377"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494449"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>Ligar ao Snowflake no Power BI Desktop
 No Power BI Desktop, pode ligar a um armazém de informática de **Snowflake** e utilizar os dados subjacentes, tal como faria com outra origem de dados no Power BI Desktop. 
@@ -47,6 +47,10 @@ Depois de a ligação ser concluída com êxito, é apresentada uma janela **Nav
 ![Erro ODBC 28000 faz com que ocorra uma falha ao ligar.](media/desktop-connect-snowflake/connect-snowflake-5.png)
 
 Pode **Carregar** a tabela selecionada, que traz toda a tabela para o **Power BI Desktop**, ou pode **Editar** a consulta, que abre o **Editor de Consultas**, para poder filtrar e refinar o conjunto de dados que pretende utilizar, e carregar o conjunto de dados refinados para o **Power BI Desktop**.
+
+## <a name="custom-roles"></a>Funções Personalizadas
+
+Atualmente, o suporte para 'Função Personalizada' no conector Snowflake só funcionará com a Autenticação Básica. Isto será resolvido num futuro próximo.
 
 ## <a name="next-steps"></a>Próximos passos
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:

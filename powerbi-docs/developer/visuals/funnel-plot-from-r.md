@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: f1f8c037a3ceb66d8ffb5abab6bccd4ec9bc7adc
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
-ms.translationtype: HT
+ms.openlocfilehash: 3d618735f2783e0fce0be938fbdcac7beb5d399e
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969564"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495116"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Tutorial: Build a funnel plot from R script to R visual (Criar um gráfico de funil ao transformar um script do R num visual do R)
 Este artigo descreve como criar um gráfico de funil com o script do R no elemento visual do R, passo a passo.
@@ -270,7 +270,7 @@ Uma vez que o elemento visual resultante é baseado em PNG, não é reativo à p
 
 * Não tem de desenvolver elementos visuais baseados em R do zero, graças ao código disponível no [GitHub](https://github.com/Microsoft?utf8=%E2%9C%93&q=PowerBI&type=&language=R). Pode selecionar o elemento visual para utilizar como modelo e copiar o código para um novo projeto.
 
-   Por exemplo, experimente utilizar o [elemento visual personalizado de curva polinomial](https://github.com/PowerBi-Projects/PowerBI-visuals-spline).
+   Por exemplo, experimente utilizar o [elemento visual personalizado de curva polinomial](https://github.com/microsoft/PowerBI-visuals-spline).
 
 * Cada elemento visual do R aplica o operador `unique` à sua tabela de entrada. Para evitar a remoção de linhas idênticas, considere adicionar um campo de entrada extra com um ID exclusivo e ignore-o no código do R.   
 

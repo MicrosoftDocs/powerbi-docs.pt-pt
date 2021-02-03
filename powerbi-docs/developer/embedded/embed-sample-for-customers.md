@@ -3,24 +3,25 @@ title: Incorporar conteúdos na aplicação de análise incorporada do Power BI 
 description: Saiba como incorporar um relatório, dashboard ou mosaico numa amostra de análise do Power BI Embedded. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
-ms.reviewer: rkarlin
+ms.reviewer: ''
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/22/2020
-ms.openlocfilehash: a0cfeaece56594c52a8d747350c5f9bfb0886cad
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 28081342763ca297648f67f953a29b46d02bf478
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565471"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99494851"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Tutorial: Incorporar conteúdos do Power BI através de uma aplicação de amostra *Embed for your customers* (Incorporar para os seus clientes)
 
 **A análise incorporada** e o **Power BI Embedded** (a oferta do Azure) permitem-lhe incorporar conteúdos do Power BI, como relatórios, dashboards e mosaicos, na sua aplicação.
 
 Neste tutorial, irá aprender a:
+
 >[!div class="checklist"]
 >* Configurar o seu ambiente incorporado.
 >* Configurar uma aplicação de amostra *Embed for your customers* (Incorporar para os seus clientes) – também conhecida como *App Owns Data* (A Aplicação Detém os Dados).
@@ -31,7 +32,7 @@ Recomendamos que utilize o método *Incorporar para os seus clientes* para incor
 
 ## <a name="code-sample-specifications"></a>Especificações das amostras de código
 
-Este tutorial inclui instruções para configurar uma aplicação de amostra *Embed for your customers* (Incorporar para os seus clientes) numa das seguintes linguagens:
+Este tutorial inclui instruções para configurar uma aplicação de amostra *para os seus clientes* num dos seguintes quadros:
 
 * .NET Framework
 * .NET Core
@@ -41,10 +42,8 @@ Este tutorial inclui instruções para configurar uma aplicação de amostra *Em
 
 As amostras de código suportam os seguintes browsers:
 
-* Google Chrome
-
 * Microsoft Edge
-
+* Google Chrome
 * Mozilla Firefox
 
 ## <a name="prerequisites"></a>Pré-requisitos
@@ -68,13 +67,6 @@ Antes de começar este tutorial, verifique que tem as dependências do Power BI 
 
 * **Dependências de código**
 
-    # <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
-    
-    * [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/)
-    
-    * [Visual Studio](https://visualstudio.microsoft.com/)
-    
-    
     # <a name="net-core"></a>[.NET Core](#tab/net-core)
     
     * [.NET Core 3.1 SDK](https://dotnet.microsoft.com/download/dotnet-core) (ou superior)
@@ -84,6 +76,12 @@ Antes de começar este tutorial, verifique que tem as dependências do Power BI 
         * [Visual Studio](https://visualstudio.microsoft.com/)
     
         * [Visual Studio Code](https://code.visualstudio.com/)
+
+    # <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
+    
+    * [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/)
+    
+    * [Visual Studio](https://visualstudio.microsoft.com/)
 
     # <a name="java"></a>[Java](#tab/java)
     
@@ -161,50 +159,22 @@ Registar a sua aplicação no Azure AD permite-lhe:
 >* Permitir que a sua aplicação aceda às [APIs REST do Power BI](/rest/api/power-bi/)
 >* Se estiver a utilizar um *utilizador principal* – especificar as [permissões REST do Power BI](/azure/active-directory/develop/v2-permissions-and-consent) da sua aplicação
 
-Para registar a sua aplicação no Azure AD, siga as instruções em [Registar a sua aplicação](register-app.md).
+[!INCLUDE[Register Azure AD app](../../includes/embed-tutorial-register-app.md)]
 
 >[!NOTE]
 >Antes de registar a sua aplicação, terá de decidir que método de autenticação utilizar: *principal de serviço* ou *utilizador principal*.
 
 ## <a name="step-3---create-a-power-bi-workspace"></a>Passo 3 – Crie uma área de trabalho do Power BI
 
-O Power BI guarda os seus relatórios, dashboards e mosaicos numa área de trabalho. Para incorporar estes itens, terá de os criar e carregar para uma área de trabalho.
-
->[!TIP]
->Se já tiver uma área de trabalho, pode ignorar este passo.
-
-Para criar uma área de trabalho, faça o seguinte:
-
-1. Inicie sessão no Power BI.
-
-2. Selecione **Áreas de Trabalho**.
-
-3. Selecione **Criar uma área de trabalho**.
-
-4. Dê um nome à sua área de trabalho e selecione **Guardar**.
+[!INCLUDE[Create a Power BI workspace](../../includes/embed-tutorial-create-workspace.md)]
 
 ## <a name="step-4---create-and-publish-a-power-bi-report"></a>Passo 4 – Crie e publique um relatório do Power BI
 
-O seu próximo passo é criar um relatório e carregá-lo para a sua área de trabalho. Pode [criar o seu próprio relatório](../../fundamentals/desktop-getting-started.md#build-reports) através do Power BI Desktop e [publicá-lo](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work) na sua área de trabalho. Em alternativa, pode carregar um relatório de amostra para a sua área de trabalho.
-
->[!Tip]
->Se já tiver uma área de trabalho com um relatório, pode ignorar este passo.
-
-Para transferir um relatório de amostra e publicá-lo na sua área de trabalho, siga estes passos:
-
-1. Abra a pasta [Power BI Desktop samples](https://github.com/Microsoft/PowerBI-Desktop-Samples) (Amostras para o Power BI Desktop) no GitHub.
-
-2. Selecione **Code** (Código) e, em seguida, selecione **Download zip** (Transferir pasta zip).
-
-    :::image type="content" source="media/embed-sample-for-customers/download-sample-report.png" alt-text="Captura de ecrã a mostrar a opção de transferência de pasta ZIP no GitHub com as amostras para o Power BI Desktop":::
-
-3. Extraia o ZIP transferido e navegue para a pasta **Samples Reports** (Relatórios de Amostra).
-
-4. Selecione um relatório para incorporar e [publique-o](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work) na sua área de trabalho.
+[!INCLUDE[Create a Power BI report](../../includes/embed-tutorial-create-report.md)]
 
 ## <a name="step-5---get-the-embedding-parameter-values"></a>Passo 5 – Obtenha os valores de parâmetros de incorporação
 
-Para incorporar os conteúdos, terá de obter determinados valores de parâmetro. A tabela abaixo mostra os valores obrigatórios e indica se são aplicáveis ao método de autenticação *principal de serviço* ou ao *utilizador principal* ou a ambos.
+Para incorporar os conteúdos, terá de obter determinados valores de parâmetro. A tabela abaixo mostra os valores necessários e indica se são aplicáveis ao método principal de autenticação do *serviço,* ao método de autenticação *do utilizador principal,* ou ambos.
 
 Antes de incorporar os conteúdos, certifique-se de que tem todos os valores listados abaixo. Alguns dos valores serão diferentes consoante o método de autenticação que estiver a utilizar.
 
@@ -223,64 +193,28 @@ Antes de incorporar os conteúdos, certifique-se de que tem todos os valores lis
 >[!TIP]
 >**Aplica-se a:** ![Aplica-se a: ](../../media/yes.png)Principal de serviço![Aplica-se a: ](../../media/yes.png)Utilizador principal
 
-Para obter o GUID do ID do cliente (também denominado *ID da aplicação*), siga estes passos:
-
-1. Inicie sessão no [Microsoft Azure](https://ms.portal.azure.com/#allservices).
-
-2. Procure **Registos de aplicações** e selecione a ligação **Registos de aplicações**.
-
-3. Selecione a aplicação do Azure AD que está a utilizar para incorporar os seus conteúdos do Power BI.
-
-4. Na secção **Descrição Geral**, copie o GUID **ID de aplicação (cliente)** .
+[!INCLUDE[Get the client ID](../../includes/embed-tutorial-client-id.md)]
 
 ### <a name="workspace-id"></a>ID da área de trabalho
 
 >[!TIP]
 >**Aplica-se a:** ![Aplica-se a: ](../../media/yes.png)Principal de serviço![Aplica-se a: ](../../media/yes.png)Utilizador principal
 
-Para obter o GUID do ID da área de trabalho, siga estes passos:
-
-1. Inicie sessão no serviço Power BI.
-
-2. Abra o relatório que quer incorporar.
-
-3. Copie o GUID do URL. O GUID é o número entre **/groups/** e **/reports/** .
-
-    :::image type="content" source="media/embed-sample-for-customers/workspace-id.png" alt-text="Captura de ecrã a mostrar o GUID do ID da área de trabalho no URL do serviço Power BI":::
+[!INCLUDE[Get the workspace ID](../../includes/embed-tutorial-workspace-id.md)]
 
 ### <a name="report-id"></a>ID do Relatório
 
 >[!TIP]
 >**Aplica-se a:** ![Aplica-se a: ](../../media/yes.png)Principal de serviço![Aplica-se a: ](../../media/yes.png)Utilizador principal
 
-1. Inicie sessão no serviço Power BI.
-
-2. Abra o relatório que quer incorporar.
-
-3. Copie o GUID do URL. O GUID é o número entre **/reports/** e **/ReportSection**.
-
-    :::image type="content" source="media/embed-sample-for-customers/report-id.png" alt-text="Captura de ecrã a mostrar o GUID do ID do relatório no URL do serviço Power BI":::
+[!INCLUDE[Get the report ID](../../includes/embed-tutorial-report-id.md)]
 
 ### <a name="client-secret"></a>Segredo do cliente
 
 >[!TIP]
 >**Aplica-se a:** ![Aplica-se a: ](../../media/yes.png)Principal de serviço ![Não se aplica a: ](../../media/no.png)Utilizador principal
 
-Para obter o segredo do cliente, siga estes passos:
-
-1. Inicie sessão no [Microsoft Azure](https://ms.portal.azure.com/#allservices).
-
-2. Procure **Registos de aplicações** e selecione a ligação **Registos de aplicações**.
-
-3. Selecione a aplicação do Azure AD que está a utilizar para incorporar os seus conteúdos do Power BI.
-
-4. Em **Gerir**, selecione **Certificados e segredos**.
-
-5. Em **Segredos do cliente**, selecione **Novo segredo do cliente**.
-
-6. Na janela de pop-up **Adicionar um segredo de cliente**, forneça uma descrição para o seu segredo da aplicação, selecione quando o segredo da aplicação expira e selecione **Adicionar**.
-
-7. Na secção **Segredos do cliente**, copie a cadeia na coluna **Valor** do segredo da aplicação criado recentemente. O valor do segredo do cliente é o seu *ID do cliente*.
+[!INCLUDE[Get the client secret](../../includes/embed-tutorial-client-secret.md)]
 
 ### <a name="tenant-id"></a>ID do inquilino
 
@@ -343,7 +277,7 @@ Para permitir que a aplicação do Azure AD aceda a artefactos como relatórios,
     >[!NOTE]
     >Se for um *principal de serviço*, o nome é o que deu à sua aplicação do Azure AD.
 
-5. Selecione **Adicionar**.
+4. Selecione **Adicionar**.
 
 ## <a name="step-8---embed-your-content"></a>Passo 8 – Incorpore os conteúdos
 
@@ -351,23 +285,18 @@ A aplicação de amostra do Power BI Embedded permite-lhe criar uma aplicação 
 
 Siga estes passos para modificar a aplicação de amostra *Embed for your customers* (Incorporar para os seus clientes), para incorporar o seu relatório do Power BI.  
 
-1. Abra a pasta [Power BI developer samples](https://github.com/microsoft/PowerBI-Developer-Samples) (Amostras para programadores do Power BI).
-
-2. Selecione **Code** (Código) e, em seguida, selecione **Download zip** (Transferir pasta zip).
-
-    :::image type="content" source="media/embed-sample-for-customers/developer-samples.png" alt-text="Captura de ecrã a mostrar a opção de transferência de pasta ZIP no GitHub com as amostras para programadores do Power BI":::
-
-3. Extraia o ZIP transferido e navegue até à pasta **PowerBI-Developer-Samples-master**.
+[!INCLUDE[Embedding steps](../../includes/embed-tutorial-embedding-steps.md)]
 
 4. Consoante a linguagem que pretende que a aplicação utilize, abra uma das seguintes pastas:
 
-* .NET Core
-* .NET Framework
-* Java
-* Node JS
-* Python
+    * .NET Core
+    * .NET Framework
+    * Java
+    * Node JS
+    * Python
+
     >[!NOTE]
-    >A aplicação de amostra *Embed for your customers* (Incorporar para os seus clientes) só suporta as linguagens listadas acima. A aplicação de amostra *React TS* só suporta a solução *[incorporar para a sua organização](embed-sample-for-your-organization.md)* .
+    >O incorporado para as aplicações de amostra dos *seus clientes* apenas suporta os quadros listados acima. A aplicação da amostra *React* apenas suporta o incorporado para a sua solução *[de organização.](embed-sample-for-your-organization.md)*
 
 5. Abra a pasta **Embed for your customers** (Incorporar para os seus clientes).
 
@@ -377,7 +306,7 @@ Siga estes passos para modificar a aplicação de amostra *Embed for your custom
 
     * Se estiver a utilizar o [Visual Studio](https://visualstudio.microsoft.com/), abra o ficheiro **AppOwnsData.sln**.
 
-    * Se estiver a utilizar o [Visual Studio Code](https://code.visualstudio.com/), abra a pasta **App Owns Data** (A Aplicação Detém os Dados).
+    * Se estiver a utilizar o [Código do Estúdio Visual,](https://code.visualstudio.com/)abra a pasta **AppOwnsData.**
 
 7. Abra **appsettings.json**.
 
@@ -421,13 +350,6 @@ Siga estes passos para modificar a aplicação de amostra *Embed for your custom
 
 9. Execute o projeto ao selecionar **IIS Express (play)** (IIS Express [reproduzir]).
 
->[!NOTE]
->Se não vir um relatório incorporado ao executar a aplicação de amostra, atualize os pacotes do Power BI ao seguir estes passos:
->1. Clique com o botão direito do rato no nome do projeto (AppOwnsData) e selecione **Manage NuGet packages** (Gerir pacotes NuGet).
->2. Procure a opção **Power BI JavaScript** (JavaScript do Power BI) e reinstale o pacote.
->
->Para obter mais informações, veja [Como reinstalar e atualizar pacotes](/nuget/consume-packages/reinstalling-and-updating-packages).
-
 # <a name="java"></a>[Java](#tab/java)
 
 6. Abra o **Eclipse** e siga as instruções descritas abaixo.
@@ -468,7 +390,7 @@ Siga estes passos para modificar a aplicação de amostra *Embed for your custom
 
     a. No painel **Package Explorer** (Explorador de Pacotes), clique com o botão direito do rato em **AppOwnsData** e selecione **Properties** (Propriedades).
 
-    b. Na janela **Properties for AppOwnsData**(Propriedades de AppOwnsData), selecione **Targeted Runtimes** (Tempos de Execução Direcionados) e selecione **Apache Tomcat**. Esta seleção irá incluir a versão do *Apache Tomcat* que está a utilizar, por exemplo, *Apache Tomcat v9.0*.
+    b. Na janela **Properties for AppOwnsData**(Propriedades de AppOwnsData), selecione **Targeted Runtimes** (Tempos de Execução Direcionados) e selecione **Apache Tomcat**. Esta seleção incluirá a versão do *Apache Tomcat* que está a usar, por *exemplo, Apache Tomcat v9.0*.
 
     c. Selecione **Apply and Close**  (Aplicar e Fechar).
 
@@ -579,8 +501,7 @@ Siga estes passos para modificar a aplicação de amostra *Embed for your custom
 
 Após configurar e executar a aplicação de amostra *Embed for your customers* (Incorporar para os seus clientes), pode começar a desenvolver a sua própria aplicação.
 
-Quando estiver pronto, veja os requisitos para [passar para a fase de produção](move-to-production.md). Também precisará de uma [capacidade](embedded-capacity.md), pelo que deve ver o artigo sobre [planeamento de capacidades](embedded-capacity-planning.md) para compreender que SKU melhor se adequa às suas necessidades.
-
+[!INCLUDE[Move to production](../../includes/embed-tutorial-production.md)]
 
 ## <a name="next-steps"></a>Passos seguintes
 
