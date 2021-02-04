@@ -1,6 +1,6 @@
 ---
-title: Criar capacidade do Power BI Embedded no portal do Azure | Microsoft Docs
-description: Este artigo explica como criar uma capacidade do Power BI Embedded no Microsoft Azure.
+title: Criar capacidade do Power BI Embedded no portal do Azure para a solução de BI incorporada da análise incorporada do Power BI
+description: Este artigo explica como criar uma capacidade do Power BI Embedded no Microsoft Azure para a sua solução de BI incorporada da análise incorporada do Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
@@ -9,13 +9,13 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.custom: subject-armqs, devx-track-azurecli
-ms.date: 08/02/2020
-ms.openlocfilehash: 73be957feae7fb869cca0af7bce0eeeb8daab03f
-ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
-ms.translationtype: HT
+ms.date: 01/14/2021
+ms.openlocfilehash: e006d4fe23c85daf941ba7274027ee21b0f44eac
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98155732"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532665"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Criar capacidade do Power BI Embedded no portal do Azure
 
@@ -27,9 +27,9 @@ Para concluir este guia de início rápido, precisa de:
 
 * **Subscrição do Azure:** visite a página da [Versão de Avaliação Gratuita do Azure](https://azure.microsoft.com/free/) para criar uma conta.
 
-* **Azure Active Directory:** a sua subscrição tem de estar associada a um inquilino do Azure Active Directory (Azure AD). Além disso, *_precisa de ter sessão iniciada no Azure com uma conta nesse inquilino_* _. As contas Microsoft não são suportadas. Para saber mais, veja [Authentication and user permissions](/azure/analysis-services/analysis-services-manage-users) (Permissões de autenticação e utilizador).
+* **Azure Active Directory:** a sua subscrição tem de estar associada a um inquilino do Azure Active Directory (Azure AD). Além disso, **_você precisa ser inscrito no Azure com uma conta naquele inquilino._** As contas Microsoft não são suportadas. Para saber mais, veja [Authentication and user permissions](/azure/analysis-services/analysis-services-manage-users) (Permissões de autenticação e utilizador).
 
-**Inquilino do Power BI:** pelo menos uma conta no inquilino do Azure AD tem de estar inscrita no Power BI.
+* **Inquilino do Power BI:** pelo menos uma conta no inquilino do Azure AD tem de estar inscrita no Power BI.
 
 * **Grupo de recursos:** utilize um grupo de recursos existente ou [crie um novo](/azure/azure-resource-manager/resource-group-overview).
 
@@ -46,9 +46,9 @@ Antes de criar uma capacidade do Power BI Embedded, certifique-se de que iniciou
 3. No Power BI Embedded, selecione **Adicionar**.
 
 4. Preencha as informações necessárias e, em seguida, selecione **Rever + Criar**.
-
-    >[!div class="mx-imgBorder"]
-    >![Captura de ecrã a mostrar o separador Noções Básicas da página do Power BI Embedded para criar uma nova capacidade no portal do Azure.](media/azure-pbie-create-capacity/azure-create-capacity-old.png)
+    
+    > [!div class="mx-imgBorder"]
+    >![Captura de ecrã a mostrar o separador Noções Básicas da página do Power BI Embedded para criar uma nova capacidade no portal do Azure.](media/azure-pbie-create-capacity/azure-create-capacity.png)
 
     * **Subscrição** – a subscrição para a qual pretende criar a capacidade.
 
@@ -66,7 +66,19 @@ Antes de criar uma capacidade do Power BI Embedded, certifique-se de que iniciou
         >* Pode selecionar um utilizador ou principal de serviço diferente como administrador de capacidade.
         >* O administrador de capacidade tem de pertencer ao inquilino onde a capacidade está aprovisionada. Os utilizadores empresa-empresa (B2B) não podem ser administradores de capacidade.
 
+    * **Modo de recurso** - Selecione entre estes dois modos de recursos incorporados Power BI:
+
+        * **Geração Incorporada 1** - O recurso clássico power BI incorporado.
+
+        * **Geração Incorporada 2** - O novo recurso Power BI Incorporado, oferecendo uma experiência melhorada. Para mais informações, consulte [Power BI Embedded Premium Generation 2](power-bi-embedded-generation-2.md).
+        
+        >[!IMPORTANT]
+        >Uma vez criado um recurso de capacidade, não se pode mudar gerações. Se quiser alterar a sua geração Power BI Embedded, pode criar outro recurso usando uma geração diferente e reatribuir-lhe os espaços de trabalho. Também pode automatizar este processo utilizando APIs do Gestor de Recursos Azure.
+
 # <a name="azure-cli"></a>[CLI do Azure](#tab/CLI)
+
+>[!NOTE]
+>O Azure CLI não é suportado para [Power BI Embedded Generation 2 (pré-visualização)](power-bi-embedded-generation-2.md).
 
 ### <a name="use-azure-cloud-shell"></a>Utilizar o Azure Cloud Shell
 
@@ -128,7 +140,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>Eliminar uma capacidade com a CLI do Azure
 
-Para eliminar uma capacidade com a CLI do Azure, utilize o comando [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-delete).
+Para eliminar uma capacidade utilizando o Azure CLI, utilize o comando de eliminação de capacidade incorporada do [Azure Power BI.](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-delete)
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -137,7 +149,7 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>Gerir a capacidade com a CLI do Azure
 
-O comando [az powerbi](/cli/azure/ext/powerbidedicated/powerbi) permite-lhe ver todos os comandos da CLI do Azure do Power BI Embedded.
+Pode ver todos os comandos Power BI Embedded Azure CLI, em [Azure Power BI](/cli/azure/ext/powerbidedicated/powerbi).
 
 # <a name="arm-template"></a>[Modelo ARM](#tab/ARM-template)
 
@@ -149,7 +161,13 @@ Se não tiver uma subscrição do Azure, crie uma conta [gratuita](https://azure
 
 ### <a name="review-the-template"></a>Rever o modelo
 
-O modelo utilizado neste início rápido pertence aos [Modelos de Início Rápido do Azure](https://azure.microsoft.com/resources/templates/101-power-bi-embedded).
+Os modelos utilizados neste arranque rápido são de [Azure Quickstart Templates](https://azure.microsoft.com/resources/templates/101-power-bi-embedded).
+
+Uma vez definido o recurso Azure no modelo, [Microsoft.PowerBIDedicated/capacities Az](/azure/templates/microsoft.powerbidedicated/allversions) - Criar uma capacidade de incorporação de POWER BI.
+
+#### <a name="embedded-gen1"></a>Gen1 incorporado
+
+Utilize este modelo para criar um recurso clássico embutida power BI.
 
 ```json
 {
@@ -159,14 +177,14 @@ O modelo utilizado neste início rápido pertence aos [Modelos de Início Rápid
         "name": {
             "type": "string",
             "metadata": {
-              "description": "The capacity name, which is displayed in the Azure portal and the Power BI admin portal"
+                "description": "The capacity name, which is displayed in the Azure portal and the Power BI admin portal"
             }
         },
         "location": {
             "type": "string",
             "defaultValue": "[resourceGroup().location]",
             "metadata": {
-              "description": "The location where Power BI is hosted for your tenant"
+                "description": "The location where Power BI is hosted for your tenant"
             }
         },
         "sku": {
@@ -180,13 +198,13 @@ O modelo utilizado neste início rápido pertence aos [Modelos de Início Rápid
                 "A6"
             ],
             "metadata": {
-              "description": "The pricing tier, which determines the v-core count and memory size for the capacity"
+                "description": "The pricing tier, which determines the v-core count and memory size for the capacity"
             }
         },
         "admin": {
             "type": "string",
             "metadata": {
-              "description": "A user within your Power BI tenant, who will serve as an admin for this capacity"
+                "description": "A user within your Power BI tenant, who will serve as an admin for this capacity"
             }
         }
     },
@@ -211,7 +229,70 @@ O modelo utilizado neste início rápido pertence aos [Modelos de Início Rápid
 }
 ```
 
-Um recurso do Azure é definido no modelo, [Microsoft.PowerBIDedicated/capacities Az](/azure/templates/microsoft.powerbidedicated/allversions) – Criar uma capacidade do Power BI Embedded.
+#### <a name="embedded-gen2-preview"></a>Gen2 incorporado (pré-visualização)
+
+Utilize este modelo para criar um recurso [Integrado Gen 2.](power-bi-embedded-generation-2.md)
+
+```json
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "type": "string",
+            "metadata": {
+                "description": "The capacity name, which is displayed in the Azure portal and the Power BI admin portal"
+            }
+        },
+        "location": {
+            "type": "string",
+            "defaultValue": "[resourceGroup().location]",
+            "metadata": {
+                "description": "The location where Power BI is hosted for your tenant"
+            }
+        },
+        "sku": {
+            "type": "string",
+            "allowedValues": [
+                "A1",
+                "A2",
+                "A3",
+                "A4",
+                "A5",
+                "A6"
+            ],
+            "metadata": {
+                "description": "The pricing tier, which determines the v-core count and memory size for the capacity"
+            }
+        },
+        "admin": {
+            "type": "string",
+            "metadata": {
+                "description": "A user within your Power BI tenant, who will serve as an admin for this capacity"
+            }
+        }
+    },
+    "resources": [
+        {
+            "type": "Microsoft.PowerBIDedicated/capacities",
+            "apiVersion": "2018-09-01-preview",
+            "name": "[parameters('name')]",
+            "location": "[parameters('location')]",
+            "sku": {
+                "name": "[parameters('sku')]"
+            },
+            "properties": {
+                "administration": {
+                    "members": [
+                        "[parameters('admin')]"
+                    ]
+                },
+                "mode": "Gen2"
+            }
+        }
+    ]
+}
+```
 
 ### <a name="deploy-the-template"></a>Implementar o modelo
 

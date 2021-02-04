@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 01/06/2021
-ms.openlocfilehash: c27d95715fe436b59825390b1cc16111e83ffc1d
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.date: 01/14/2021
+ms.openlocfilehash: b37182cbdf030e8b32fdfe307d0a652fef678b9b
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565001"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533033"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capacity and SKUs in Power BI embedded analytics (Capacidade e SKUs na análise incorporada do Power BI)
 
@@ -37,6 +37,9 @@ A análise incorporada do Power BI inclui duas soluções:
 O Power BI Embedded destina-se a ISVs e programadores que pretendem incorporar elementos visuais nas respetivas aplicações.
 
 As aplicações que utilizam o Power BI Embedded permitem que os utilizadores consumam conteúdos armazenados na capacidade do Power BI Embedded.
+
+>[!NOTE]
+>O Power BI Embedded lançou recentemente uma nova versão, designada **Embedded Gen2**. O Embedded Gen2 irá simplificar a gestão de capacidades incorporadas e melhorar a experiência do Power BI Embedded. Para obter mais informações, veja [Power BI Embedded Generation 2](power-bi-embedded-generation-2.md).
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -142,6 +145,10 @@ A seguinte tabela descreve os recursos e limites de cada SKU.
 | P4 | 64 | 32 | 200 | 32 | 240 | 48 |
 | P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
+
+#### <a name="embedded-gen-2-memory-enhancements-preview"></a>Melhorias de memória da Gen 2 incorporadas (pré-visualização)
+
+Com [o Power BI Incorporado Geração 2](power-bi-embedded-generation-2.md) (também conhecido como Embedded Gen 2), a quantidade de memória disponível em cada tamanho do nó é definida para o limite de pegada de memória de um único item Power BI (como um relatório ou um dashboard), e não para o consumo cumulativo de memória. Por exemplo, numa capacidade Incorporada gen2 A4, apenas um único tamanho de conjunto de dados é limitado a 25 GB, em comparação com a capacidade original de Power BI Incorporado, onde a pegada total de memória dos conjuntos de dados a ser tratados ao mesmo tempo é limitada a 25 GB.
 
 ## <a name="next-steps"></a>Próximos passos
 

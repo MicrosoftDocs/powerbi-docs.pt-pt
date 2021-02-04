@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 04340be9c7e3700630657306093e3d96e3e9e693
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
-ms.translationtype: HT
+ms.openlocfilehash: 62579a12588449e0119b96fb3a7c7da2ef7858e5
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491420"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532918"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho numa capacidade Premium
 
@@ -22,6 +22,8 @@ Este artigo descreve como ativar e configurar cargas de trabalho para capacidade
 
 > [!NOTE]
 > O Power BI Premium lançou recentemente uma nova versão do Premium, denominada **Premium Gen2**, que está atualmente em pré-visualização. O Premium Gen2 irá simplificar a gestão de capacidades Premium e reduzirá a sobrecarga de gestão. Para obter mais informações, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+>
+>Para rever as melhorias da Power BI Embedded Gen2, consulte a [Power BI Embedded Generation 2](../developer/embedded/power-bi-embedded-generation-2.md).
 
 ## <a name="default-memory-settings"></a>Predefinições de memória
 

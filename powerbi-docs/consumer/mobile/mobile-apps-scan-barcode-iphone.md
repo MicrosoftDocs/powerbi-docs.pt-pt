@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.openlocfilehash: 3d35df1c38a0a62325f88fa19ee7267a3b209647
-ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.openlocfilehash: 28baefb80037d1f78d2a2fd51b3989aa5d2a1ebb
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99494529"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533102"
 ---
 # <a name="scan-barcodes-from-the-mobile-app-to-get-filtered-data"></a>Scaneie códigos de barras da aplicação móvel para obter dados filtrados 
 Digitalize códigos de barras no mundo real para obter diretamente informações de BI filtradas na aplicação móvel Power BI.
@@ -73,7 +73,7 @@ Para limpar a filtragem do código de barras enquanto está num relatório filtr
 * As aplicações móveis suportam a filtragem de Código de Barras apenas para relatórios que tenham apenas uma coluna de código de barras em todas as tabelas de dados do relatório. Se pesquisar um código de barras para um relatório que tenha mais de uma coluna de código de barras, não se faz filtragem.
 
 ## <a name="issues-with-scanning-a-barcode"></a>Problemas ao ler um código de barras
-Aqui estão algumas emissões que poderá encontrar quando digitalizar um código de barras num item.
+Aqui estão alguns problemas que poderá encontrar quando digitalizar um código de barras num item.
 
 * Obtém-se uma mensagem Não pode filtrar o relatório - Parece que **este código de barras não existe nos dados do relatório**: Isto significa que o valor do código de barras que digitalizou não aparece no modelo de dados do relatório que escolheu filtrar. Este pode ser o caso, por exemplo, se o produto cujo código de barras digitalizou não estiver incluído no relatório. Pode ler um produto diferente, selecionar outro relatório (se houver mais do que um relatório disponível) ou ver o relatório sem filtragem.
 

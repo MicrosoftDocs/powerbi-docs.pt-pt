@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: dd0080f96117be949a7d4901f8445a509740b5b0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: f3bdf12106ffa15764719fe3146a1ed52adf5990
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413455"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532941"
 ---
 # <a name="optimizing-premium-capacities"></a>Otimizar as capacidades Premium
 
@@ -30,6 +30,8 @@ Por fim, as abordagens de teste e o dimensionamento da capacidade Premium conclu
 
 > [!NOTE]
 > O Power BI Premium lançou recentemente uma nova versão do Premium, denominada **Premium Gen2**, que está atualmente em pré-visualização. O Premium Gen2 irá simplificar a gestão de capacidades Premium e reduzirá a sobrecarga de gestão. Para obter mais informações, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+>
+>Para rever as melhorias da Power BI Embedded Gen2, consulte a [Power BI Embedded Generation 2](../developer/embedded/power-bi-embedded-generation-2.md).
 
 As recomendações e melhores práticas recomendadas neste artigo garantem que a utilização da CPU de cada conjunto de dados e de outros artefactos do Power BI é otimizada.
 

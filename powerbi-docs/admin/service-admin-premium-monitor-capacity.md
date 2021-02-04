@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 46e2684b468e480da5db5287ffc40466d71c8f22
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
-ms.translationtype: HT
+ms.openlocfilehash: f99f40fd04154f2a934fb812dfc1a4683e64ceb9
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512223"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532987"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Monitorizar as capacidades Premium com a aplicação
 
@@ -27,6 +27,8 @@ A aplicação é atualizada regularmente com novas funcionalidades. Certifique-s
 
 > [!NOTE]
 > O Power BI Premium lançou recentemente uma nova versão do Premium, denominada **Premium Gen2**, que está atualmente em pré-visualização. O Premium Gen2 irá simplificar a gestão de capacidades Premium e reduzirá a sobrecarga de gestão. Para obter mais informações, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+>
+>Para rever as melhorias da Power BI Embedded Gen2, consulte a [Power BI Embedded Generation 2](../developer/embedded/power-bi-embedded-generation-2.md).
 
 ## <a name="install-the-app"></a>Instalar a aplicação
 

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 10/12/2020
-ms.openlocfilehash: 17e153528e45a52de7addf3563c58c2586600660
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
-ms.translationtype: HT
+ms.date: 02/03/2021
+ms.openlocfilehash: 73c7e0b2256d4a45fb9f433a887827e772a32257
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92026024"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533079"
 ---
 # <a name="use-web-application-proxy-and-active-directory-federated-services---power-bi-report-server"></a>Utilizar o Proxy de Aplicações Web e os Serviços Federados do Active Directory – Power BI Report Server
 
@@ -93,7 +93,7 @@ No servidor do AD FS, com a Aplicação de Gestão do AD FS, conclua estes pas
 
 ## <a name="3-configure-web-application-proxy-wap"></a>3. Configurar o Proxy de Aplicações Web (WAP)
 
-Deve ativar a função do Proxy de Aplicações Web (Função) do Windows num servidor do seu ambiente. Esta ação só é suportada num servidor do Windows 2016. Para obter mais informações, veja [Web Application Proxy in Windows Server 2016 (Proxy de Aplicações Web no Windows Server 2016)](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) e [Publishing Applications using AD FS Preauthentication (Publicar aplicações com a Pré-autenticação do AD FS)](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication).
+Deve ativar a função do Proxy de Aplicações Web (Função) do Windows num servidor do seu ambiente. Esta ação só é suportada num servidor do Windows 2016. Para obter mais informações, veja [Web Application Proxy in Windows Server 2016 (Proxy de Aplicações Web no Windows Server 2016)](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) e [Publishing Applications using AD FS Preauthentication (Publicar aplicações com a Pré-autenticação do AD FS)](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#BKMK_1.2).
 
 ### <a name="configure-constrained-delegation"></a>Configurar a delegação restrita
 

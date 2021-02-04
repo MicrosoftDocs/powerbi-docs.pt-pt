@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8a09de5777332d69332cae6928022e7e99fe689e
-ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.openlocfilehash: 7907242c3ef71b1b621820cbb66bd93e88ff1c99
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99422289"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532711"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Utilizar controlos do Microsoft Cloud App Security no Power BI
 
@@ -63,7 +63,7 @@ Pode ler o artigo sobre [etiquetas de confidencialidade no Power BI](service-sec
 
 ## <a name="custom-policies-to-alert-on-suspicious-user-activity-in-power-bi"></a>Políticas personalizadas para alertar sobre atividade suspeita de utilizadores no Power BI
 
-A política de atividades de Cloud App Security permite que os administradores definam as suas próprias regras personalizadas, para ajudar a detetar o comportamento do utilizador que se desvia da norma, e até mesmo possivelmente agir automaticamente, se parecer demasiado perigoso. Por exemplo:
+As políticas de atividade de Cloud App Security permitem aos administradores definir as suas próprias regras personalizadas para ajudar a detetar o comportamento do utilizador que se desvia da norma, e até possivelmente agir automaticamente, se parecer demasiado perigoso. Por exemplo:
 
 * **Remoção massiva de etiquetas de sensibilidade.** Por exemplo: alerte-me quando as etiquetas de sensibilidade forem removidas por um único utilizador de 20 relatórios diferentes numa janela de tempo inferior a 5 minutos.
 

@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 02/02/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 98bc3da33f38974f3dfcb9e155111e7d16e6c069
-ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.openlocfilehash: 0ae9a37d8d3a54d02811b9f3051d11cb1ab82ff8
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99494472"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532573"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Troubleshoot XMLA endpoint connectivity (Resolver problemas de conectividade de pontos finais XMLA)
 
@@ -144,7 +144,7 @@ As substituições no [comando Atualizar (TMSL)](/analysis-services/tmsl/refresh
 
 ### <a name="query-execution"></a>Execução da consulta
 
-Quando ligado a uma área de trabalho numa capacidade [Premium Gen2](service-premium-what-is.md#power-bi-premium-generation-2-preview), o SQL Server Management Studio pode apresentar o seguinte erro:
+Quando ligado a um espaço de trabalho numa [Gen2 Premium](service-premium-what-is.md#power-bi-premium-generation-2-preview) ou numa capacidade [De Gen2 incorporada,](../developer/embedded/power-bi-embedded-generation-2.md) o SQL Server Management Studio pode apresentar o seguinte erro:
 
 ```
 Executing the query ...
@@ -155,7 +155,7 @@ Isto ocorre porque as bibliotecas de cliente instaladas com o SSMS v18.7.1 não 
 
 ### <a name="refresh-operations"></a>Operações de atualização
 
-Quando utiliza o SSMS v18.7.1 ou uma versão inferior para executar uma operação de atualização de execução prolongada (superior a 1 minuto) numa capacidade Premium Gen2, mesmo se a operação de atualização for bem-sucedida, o SSMS poderá apresentar um erro como o seguinte:
+Ao utilizar ssms v18.7.1 ou inferior para executar uma operação de atualização de longa duração (>1 min) num conjunto de dados numa Gen2 Premium ou numa Capacidade [Gen2 Incorporada,](../developer/embedded/power-bi-embedded-generation-2.md) o SSMS pode apresentar um erro como o seguinte, mesmo que a operação de atualização tenha sucesso:
 
 ```
 Executing the query ...

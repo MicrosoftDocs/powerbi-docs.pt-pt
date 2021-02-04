@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: 21ec2baf472d9650e550de8808ce3dc98b7cb49f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0038cce77a62f32a5fb5ca32a49fd8f6337352a6
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412305"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532757"
 ---
 # <a name="premium-capacity-scenarios"></a>Cenários de capacidades Premium
 
@@ -31,6 +31,8 @@ Os passos, juntamente com os exemplos do gráfico e da tabela, são da **aplica�
 
 > [!NOTE]
 > O Power BI Premium lançou recentemente uma nova versão do Premium, denominada **Premium Gen2**, que está atualmente em pré-visualização. O Premium Gen2 irá simplificar a gestão de capacidades Premium e reduzirá a sobrecarga de gestão. Para obter mais informações, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+>
+>Para rever as melhorias da Power BI Embedded Gen2, consulte a [Power BI Embedded Generation 2](../developer/embedded/power-bi-embedded-generation-2.md).
 
 ## <a name="keeping-datasets-up-to-date"></a>Manter conjuntos de dados atualizados
 
@@ -127,7 +129,7 @@ Numa capacidade em bom estado de funcionamento, o elemento visual terá esta apa
 Numa capacidade que está a sofrer pressão de memória, o mesmo elemento visual irá mostrar claramente a convergência entre a memória ativa e a memória total, o que significa que é impossível carregar conjuntos de dados adicionais para a memória. Neste caso, o administrador do Power BI pode clicar em **Reinício da Capacidade** (em **Opções Avançadas** da área de definições da capacidade do portal de administração). Reiniciar os resultados da capacidade em todos os conjuntos de dados que são removidos da memória e permitir que eles recarreguem para a memória conforme preciso (por consultas ou atualização de dados).
 
 > [!NOTE]
-> No Premium Gen2, o consumo de memória não tem de ser controlado. A única limitação do Premium Gen2 está na quantidade de memória de um único artefacto. A quantidade de memória não pode exceder a memória disponível na capacidade. Para obter mais informações sobre o Premium Gen2, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+> Para a Premium Gen2 e [a Embedded Gen2,](../developer/embedded/power-bi-embedded-generation-2.md)o consumo de memória não precisa de ser rastreado. A única limitação na Premium Gen2 e na Embedded Gen2.está na pegada de memória de um único artefacto. A quantidade de memória não pode exceder a memória disponível na capacidade. Para obter mais informações sobre o Premium Gen2, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 ![Memória **Ativa** convergente com a memória **Toda**](media/service-premium-capacity-scenarios/memory-unhealthy-capacity.png)
 
@@ -148,7 +150,7 @@ Este efeito pode ser especialmente aparente quando um conjunto de dados é consu
 Em alguns casos, os administradores do Power BI podem pedir que os proprietários do conjunto de dados criem uma carga de trabalho de consulta menos volátil ao criar um dashboard (que consultam periodicamente com qualquer atualização de conjunto de dados para mosaicos em cache) em vez de um relatório. Isto pode ajudar a evitar picos quando o dashboard é carregado. Esta solução nem sempre é possível para determinados requisitos de negócios, no entanto, pode ser uma forma eficaz para evitar a saturação da CPU, sem alterar o conjunto de dados.
 
 > [!NOTE]
-> No Premium Gen2, a utilização de tempo de CPU é controlada num nível por artefacto e é visível na aplicação de utilização de capacidade. Cada artefacto apresenta a respetiva utilização de tempo de CPU num dado período. Para obter mais informações sobre o Premium Gen2, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+> Para a Premium Gen2 e [a Embedded Gen2,](../developer/embedded/power-bi-embedded-generation-2.md)a utilização do tempo da CPU é rastreada a um nível por artefacto, e é visível na aplicação de utilização da capacidade. Cada artefacto apresenta a respetiva utilização de tempo de CPU num dado período. Para obter mais informações sobre o Premium Gen2, veja [Power BI Premium Generation 2 (pré-visualização)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 ## <a name="acknowledgments"></a>Agradecimentos
 
