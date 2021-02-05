@@ -10,12 +10,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 3dbd769d11b3122591e0a34df9d74ca8e9c1e3b2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: f23a7029f365f35d8f8f9324ff45716f45ba778d
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410672"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99570066"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Base de Dados SQL do Azure com DirectQuery
 
@@ -32,7 +32,6 @@ Com o DirectQuery, as consultas são enviadas de volta para a Base de Dados SQL 
 * Verifique se as regras de firewall da base de dados estão configuradas como "[Permitir acesso aos serviços do Azure](/azure/sql-database/sql-database-networkaccess-overview#allow-azure-services)".
 * Cada ação, como selecionar uma coluna ou adicionar um filtro, enviará uma consulta de volta à base de dados.
 * Os mosaicos são atualizados todas as horas (a atualização não tem de ser agendada). Quando ligar, poderá ajustar a frequência da atualização nas Definições avançadas.
-* As Perguntas e Respostas não estão disponíveis para conjuntos de dados do DirectQuery.
 * As alterações de esquema não são selecionadas automaticamente.
 
 Estas restrições e notas podem mudar à medida que continuamos a melhorar as experiências. Os passos para ligar são detalhados abaixo.

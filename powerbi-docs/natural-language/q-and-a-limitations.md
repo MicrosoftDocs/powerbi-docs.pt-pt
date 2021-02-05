@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 09/09/2020
-ms.openlocfilehash: 6ad81bc88ee559fa08400b5ed8a74dd1a9b6051f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 74e99f42677c6adda73a8b5e2e3043e2d039f5b3
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410028"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569905"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Limitações das Perguntas e Respostas do Power BI
 
@@ -34,8 +34,6 @@ Em cada uma destas configurações, também é suportada segurança ao nível da
 **Suporte do DirectQuery para a funcionalidade Perguntas e Respostas** (pré-visualização)
 
 A funcionalidade Perguntas e Respostas agora suporta origens do DirectQuery do SQL, incluindo o SQL Server 2019, a Base de Dados SQL do Azure e o Azure Synapse Analytics. Pode utilizar a funcionalidade Perguntas e Respostas para efetuar perguntas sobre linguagem natural nestas origens de dados. Existe uma pequena alteração no comportamento da funcionalidade Perguntas e Respostas quando está no modo DirectQuery: Após escrever a sua pergunta, seleciona o botão **Submeter**. Esta alteração evita a sobrecarga da origem do DirectQuery com consultas desnecessárias à medida que escreve.
-
-Outras origens do DirectQuery não são suportadas na funcionalidade Perguntas e Respostas. Não bloqueamos a funcionalidade Perguntas e Respostas se tiver outras origens do DirectQuery no seu conjunto de dados, mas algumas perguntas poderão não ser respondidas corretamente ou devolver erros.
 
 ### <a name="data-sources-not-supported"></a>Origens de dados não suportadas
 

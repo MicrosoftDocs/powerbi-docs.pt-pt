@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 12/01/2020
+ms.date: 02/04/2021
 ms.author: painbar
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 48e1a82b7a88bf4535acea49ea6770cedfdbf304
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: e255fbef8b29422ea7736e43adaa5e4197a6338f
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98564868"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569951"
 ---
 # <a name="enable-service-principal-authentication-for-read-only-admin-apis-preview"></a>Ativar a autenticação do principal de serviço para as APIs de administração só de leitura (pré-visualização)
 
@@ -51,19 +51,23 @@ Para ativar a autenticação do principal de serviço para as APIs só de leitur
     >[!IMPORTANT]
     >Assim que ativar o principal de serviço a ser utilizado com o Power BI, as permissões do AAD da aplicação deixarão de ter efeito. Em seguida, as permissões da aplicação serão geridas através do portal de administração do Power BI.
 
+## <a name="supported-apis"></a>APIs suportadas
+
+Atualmente, o principal de serviço suporta as APIs seguintes:
+* [GetGroupsAsAdmin](/rest/api/power-bi/admin/groups_getgroupsasadmin) com $expand para dashboards, conjuntos de dados, relatórios e fluxos de dados 
+* [GetDashboardsAsAdmin](/rest/api/power-bi/admin/dashboards_getdashboardsasadmin) com mosaicos $expand
+* [GetDatasourcesAsAdmin](/rest/api/power-bi/admin/datasets_getdatasourcesasadmin) 
+* [GetDatasetToDataflowsLinksAsAdmin](/rest/api/power-bi/admin/datasets_getdatasettodataflowslinksingroupasadmin)
+* [GetDataflowDatasourcesAsAdmin](/rest/api/power-bi/admin/dataflows_getdataflowdatasourcesasadmin) 
+* [GetDataflowUpstreamDataflowsAsAdmin](/rest/api/power-bi/admin/dataflows_getupstreamdataflowsingroupasadmin) 
+* [GetCapacitiesAsAdmin](/rest/api/power-bi/admin/getcapacitiesasadmin)
+* [GetActivityLog](/rest/api/power-bi/admin/getactivityevents)
+* [GetModifiedWorkspaces](/rest/api/power-bi/admin/workspaceinfo_getmodifiedworkspaces)
+* [WorkspaceGetInfo](/rest/api/power-bi/admin/workspaceinfo_postworkspaceinfo)
+* [WorkspaceScanStatus](/rest/api/power-bi/admin/workspaceinfo_getscanstatus)
+* [WorkspaceScanResult](/rest/api/power-bi/admin/workspaceinfo_getscanresult)
+
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
+
 * Não pode iniciar sessão no portal do Power BI com o principal de serviço.
 * São necessários direitos de administrador do Power BI para ativar o principal de serviço nas definições da API de Administração no portal de administração do Power BI.
-* Atualmente, o principal de serviço suporta as APIs seguintes:
-    * [GetGroupsAsAdmin](/rest/api/power-bi/admin/groups_getgroupsasadmin) com $expand para dashboards, conjuntos de dados, relatórios e fluxos de dados 
-    * [GetDashboardsAsAdmin](/rest/api/power-bi/admin/dashboards_getdashboardsasadmin) com mosaicos $expand
-    * [GetDatasourcesAsAdmin](/rest/api/power-bi/admin/datasets_getdatasourcesasadmin) 
-    * [GetDatasetToDataflowsLinksAsAdmin](/rest/api/power-bi/admin/datasets_getdatasettodataflowslinksingroupasadmin)
-    * [GetDataflowDatasourcesAsAdmin](/rest/api/power-bi/admin/dataflows_getdataflowdatasourcesasadmin) 
-    * [GetDataflowUpstreamDataflowsAsAdmin](/rest/api/power-bi/admin/dataflows_getupstreamdataflowsingroupasadmin) 
-    * [GetCapacitiesAsAdmin](/rest/api/power-bi/admin/getcapacitiesasadmin)
-    * [GetActivityLog](/rest/api/power-bi/admin/getactivityevents)
-    * [GetModifiedWorkspaces](/rest/api/power-bi/admin/workspaceinfo_getmodifiedworkspaces)
-    * [WorkspaceGetInfo](/rest/api/power-bi/admin/workspaceinfo_postworkspaceinfo)
-    * [WorkspaceScanStatus](/rest/api/power-bi/admin/workspaceinfo_getscanstatus)
-    * [WorkspaceScanResult](/rest/api/power-bi/admin/workspaceinfo_getscanresult)

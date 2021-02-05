@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 340f29394d0c6c83659d77f2545a4f76eef99a9a
-ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
-ms.translationtype: HT
+ms.openlocfilehash: a35b8e127c008f78cb9348704b9e049f9fa3b46f
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597665"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569997"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Acerca de utilizar o DirectQuery no Power BI
 
@@ -163,7 +163,6 @@ Ao utilizar o DirectQuery, continua a ser possível fazer muitas destas melhoria
 Quase todas as capacidades dos relatórios são suportadas nos modelos do DirectQuery. Como tal, desde que a origem subjacente ofereça um nível adequado de desempenho, pode ser utilizado o mesmo conjunto de visualizações. Existem algumas limitações importantes em algumas das outras funcionalidades proporcionadas pelo serviço Power BI após a publicação de um relatório:
 
 * **As Informações Rápidas não são suportadas:** as Informações Rápidas do Power BI procuram diferentes subconjuntos do seu conjunto de dados enquanto aplicam um grupo de algoritmos sofisticados para detetar informações potencialmente interessantes. Tendo em conta a necessidade de consultas de desempenho muito alto, esta funcionalidade não está disponível em conjuntos de dados que utilizem o DirectQuery.
-* **As Perguntas e Respostas não são suportadas:** as Perguntas e Respostas do Power BI permitem-lhe explorar os seus dados com capacidades de linguagem natural e intuitiva e receber respostas na forma de gráficos e quadros. No entanto, não são atualmente suportadas em conjuntos de dados que utilizem o DirectQuery.
 * **Utilizar o Explorador no Excel vai resultar, provavelmente, num desempenho pior:** pode explorar os seus dados com a funcionalidade Explorar no Excel num conjunto de dados. Esta abordagem permite criar Tabelas Dinâmicas e Gráficos Dinâmicos no Excel. Embora esta funcionalidade seja suportada em conjuntos de dados que utilizem o DirectQuery, o desempenho é, geralmente, mais lento do que a criação de elementos visuais no Power BI, pelo que, se a utilização do Excel for importante para os seus cenários, deve ter em conta este facto quando decidir se vai utilizar o DirectQuery.
 * **Comprimento máximo de colunas de texto:** o comprimento máximo dos dados numa coluna de texto para conjuntos de dados que utilizem o DirectQuery é de 32 764 carateres. Criar relatórios de textos com um comprimento superior a este irá resultar num erro.
 

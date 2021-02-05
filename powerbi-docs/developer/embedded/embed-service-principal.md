@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 11/23/2020
-ms.openlocfilehash: 35bdaa8af06187767975126daa1f2445908fed9f
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.date: 02/04/2021
+ms.openlocfilehash: 6a322d331dce9fd989a93545745cf7feb2d9eb70
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886793"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569974"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Incorporar conteúdos do Power BI com o principal de serviço e um segredo da aplicação
 
@@ -243,7 +243,7 @@ Uma vez incorporados os conteúdos, está pronto para [avançar para a produçã
 * São necessários direitos de administrador do Power BI para ativar o principal de serviço nas definições de programador no portal de administração do Power BI.
 * As aplicações [Incorporar para a sua organização](embed-sample-for-your-organization.md) não podem utilizar o principal de serviço.
 * A gestão de [fluxos de dados](../../transform-model/dataflows/dataflows-introduction-self-service.md) não é suportada.
-* O principal de serviço atualmente não suporta APIs de administração.
+* O diretor de serviço só suporta algumas APIs de administração só de leitura. Para ativar o suporte principal do serviço para APIs de administração apenas de leitura, tem de ativar as definições de administração do serviço Power BI no seu inquilino. Para obter mais informações, consulte [Ativar a autenticação principal do serviço para apis de administração apenas de leitura](../../admin/read-only-apis-service-principal-authentication.md).
 * Quando utilizar o principal de serviço com uma origem de dados do [Azure Analysis Services](/azure/analysis-services/analysis-services-overview), o principal de serviço tem de ter permissões de instância do Azure Analysis Services. Não é possível utilizar um grupo de segurança que contém o principal de serviço para este efeito.
 
 ## <a name="next-steps"></a>Próximos passos
