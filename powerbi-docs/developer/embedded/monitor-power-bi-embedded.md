@@ -6,14 +6,15 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
+ms.custom: subject-monitoring
 ms.topic: how-to
 ms.date: 01/14/2021
-ms.openlocfilehash: 1b8ebbd7913bc5763f9f4dd8576fbc4783e8d531
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: 5cea43f4be9a3fee7c2fb0f99ef0acef99bb8364
+ms.sourcegitcommit: f17acb16018752c234db6bff1f51f5130be12c58
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98690791"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99617002"
 ---
 # <a name="monitor-power-bi-embedded"></a>Monitorizar o Power BI Embedded
 

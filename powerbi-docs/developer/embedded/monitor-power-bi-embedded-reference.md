@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
+ms.custom: subject-monitoring
 ms.date: 01/14/2021
-ms.openlocfilehash: fc6b9dd4d50d665211324d1b6c05e62468fc034d
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: 9c07e75736b3ccdb33bf76f79656a8982cddb6d8
+ms.sourcegitcommit: f17acb16018752c234db6bff1f51f5130be12c58
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98690805"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99617025"
 ---
 # <a name="monitoring-power-bi-embedded-data-reference"></a>Referência de dados incorporada do Power BI de monitorização
 
@@ -31,7 +32,7 @@ Esta secção lista todas as métricas da plataforma recolhidas automaticamente 
 
 Fornecedor e Tipo de Recursos: [Microsoft.PowerBIDedicated/capacities](/azure/azure-monitor/platform/metrics-supported#microsoftpowerbidedicatedcapacities)
 
-| Name | Metric | Unidade | Descrição |
+| Name | Metric | Unidade | Description |
 |:---|:-------|:-----|:------------|
 |Memória (Gen1) |memory_metric               |Bytes        |Memória. Alcance 0-3 GB para A1, 0-5 GB para A2, 0-10 GB para A3, 0-25 GB para A4, 0-50 GB para A5 e 0-100 GB para A6. Suportado apenas para recursos Power BI Embedded Geração 1. |
 |Thrashing de memória (Conjuntos de dados) (Gen1) |memory_thrashing_metric     |Percentagem      |Memória média a bater. Suportado apenas para recursos Power BI Embedded Geração 1. |
@@ -134,7 +135,7 @@ A tabela que se segue lista as operações relacionadas com o Power BI Embedded 
 
 Power BI Incorporado utiliza o **esquema dedicado power BI.**
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 >[!div class="nextstepaction"]
 >[Monitor Azure Power BI Incorporado](monitor-power-bi-embedded.md)

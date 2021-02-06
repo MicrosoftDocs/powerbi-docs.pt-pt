@@ -312,6 +312,10 @@
               href: ../visuals/power-bi-visualization-scatter.md
             - name: Utilizar gráficos de dispersão de alta densidade
               href: ../visuals/desktop-high-density-scatter-charts.md
+            - name: Criar pequenos múltiplos (pré-visualização)
+              href: ../visuals/power-bi-visualization-small-multiples.md
+            - name: Interagir com pequenos múltiplos (pré-visualização)
+              href: ../visuals/power-bi-visualization-small-multiples-interact.md
             - name: Elementos visuais de Mapa de Forma (pré-visualização)
               href: ../visuals/desktop-shape-map.md
             - name: Narrativas inteligentes
