@@ -1,20 +1,20 @@
 ---
 title: Exportar a API dos relatórios paginados da análise incorporada do Power BI para melhores informações de BI incorporada
-description: Saiba como exportar um relatório paginado do Power BI incorporado. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
+description: Saiba como exportar um relatório paginado do Power BI incorporado.
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 04/05/2020
-ms.openlocfilehash: befb64ec85c02f8993d828202df06aafc5901482
-ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.date: 02/09/2021
+ms.openlocfilehash: 9757b19e4faf4537cf4ff3c1e6f06dc9d499bc8c
+ms.sourcegitcommit: de3b45cad5ae21c77692ce4490e21de01d21e6f3
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "98781524"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100013596"
 ---
-# <a name="export-paginated-report-to-file-preview"></a>Exportar relatórios paginados para ficheiros (pré-visualização)
+# <a name="export-paginated-report-to-file"></a>Export paginated report to file (Exportar relatórios paginados para ficheiros)
 
 A API `exportToFile` permite exportar um relatório paginado do Power BI através de uma chamada REST. São suportados os seguintes formatos de ficheiro:
 * **.pptx** (PowerPoint)

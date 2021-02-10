@@ -257,6 +257,8 @@
           items:
             - name: Ligar a serviços com aplicações
               href: service-connect-to-services.md
+            - name: Analisar Stocks Populares com Power BI
+              href: service-connect-to-analyze-stocks.md
             - name: COVID-19 US Tracking Report (Relatório de Rastreio da COVID-19 nos EUA)
               href: service-connect-to-covid-19-tracking.md
             - name: Crisis Communication Presence Report (Relatório de Presença de Comunicação de Crise)

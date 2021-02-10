@@ -1,18 +1,18 @@
 ---
-title: Exportar a API dos relatórios da análise incorporada do Power BI para obter melhores informações de BI incorporadas
-description: Saiba como exportar um relatório do Power BI incorporado para melhorar a experiência de BI incorporada da análise incorporada do Power BI. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
+title: Exportar a API dos relatórios da análise incorporada do Power BI
+description: Saiba como exportar um relatório de Power BI incorporado.
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 02/01/2021
-ms.openlocfilehash: 64a9472960195c8d4f91013a778bb61cdf029ab4
-ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.date: 02/09/2021
+ms.openlocfilehash: 68d4802ebb150827982a348bc67f6f46f60812be
+ms.sourcegitcommit: de3b45cad5ae21c77692ce4490e21de01d21e6f3
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99422358"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100013573"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportar relatório do Power BI para ficheiro (pré-visualização)
 
