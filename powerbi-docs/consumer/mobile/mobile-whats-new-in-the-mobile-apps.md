@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/17/2020
-ms.openlocfilehash: 4a50d35ee3aa25932537846a13fc2d75c6fa38df
-ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.date: 02/10/2021
+ms.openlocfilehash: 83c7a778b6c799bd759443e7601e1f624ed5f9e5
+ms.sourcegitcommit: 5c943a05071efb69a17ca4c501c6b89f2f351f1a
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "98925815"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100089497"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -24,6 +24,13 @@ Para informações sobre “Novidades” relacionadas, veja:
 
 >[!NOTE]
 >O suporte à aplicação móvel do Power BI para **telemóveis com o Windows 10 Mobile** será descontinuado a 16 de março de 2021. [Saiba mais](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+
+## <a name="february-2021"></a>Fevereiro de 2021
+### <a name="support-for-power-bi-in-split-screens-android-tablets-only"></a>Suporte para Power BI em ecrãs divididos (apenas tablets Android)
+
+Se o seu tablet Android tiver suporte a várias janelas, pode ver e interagir lado a lado com outro aplicativo utilizando o modo de ecrã dividido. [Saiba mais!](mobile-apps-split-screen.md)
+
+![Screenshot da aplicação móvel a ser usada em modo split-sreen.](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-split-screen.png)
 
 ## <a name="january-2021"></a>Janeiro de 2021
 ### <a name="workspace-support-with-a-power-bi-free-license"></a>Suporte de espaço de trabalho com uma licença power BI grátis

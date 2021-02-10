@@ -1,21 +1,21 @@
 ---
-title: Teste de submissão de um elemento visual do Power BI na análise incorporada do Power BI para melhores informações de BI incorporadas
-description: Este artigo descreve casos de testes que o elemento visual deve passar antes de ser publicado no AppSource. Há também casos de teste de opção. Permita melhores informações de BI incorporadas com a análise incorporada do Power BI.
+title: Teste de submissão de um elemento visual do Power BI
+description: Este artigo descreve casos de testes que o elemento visual deve passar antes de ser publicado no AppSource. Há também casos de teste de opção.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
-ms.date: 04/15/2020
-ms.openlocfilehash: b5054d821dc797f1606fea8ec5d0bb43569a57e5
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.date: 02/09/2021
+ms.openlocfilehash: 391282b7868ba24b14c0859d431e6868b3fcbc2d
+ms.sourcegitcommit: 7e0cc3b1ed9cf38da134ef7221648cb758ceea98
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888472"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100100839"
 ---
-# <a name="submission-testing-of-a-power-bi-visual"></a>Teste de submissão de um elemento visual do Power BI
+# <a name="testing-a-power-bi-visual-before-submission"></a>Testar um visual Power BI antes da submissão
 
 Antes de publicar o seu elemento visual no [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), este tem de passar os testes listados neste artigo. Teste o elemento visual antes de o submeter. Se o elemento visual não passar nos casos de teste necessários, será rejeitado.
 
@@ -23,7 +23,13 @@ Para obter mais informações sobre o processo de publicação, veja [Publicar e
 
 ## <a name="testing-a-new-version-of-a-published-visual"></a>Testar uma nova versão de um elemento visual publicado
 
-Se estiver a testar ou a depurar uma nova versão de um elemento visual já publicado, pode substituir a versão do AppSource por uma versão de ficheiro local, ao ativar o Modo de Programador no Power BI Desktop.
+Por predefinição, o Power BI carrega a versão mais recente publicada do visual a partir do AppSource, mesmo que importe o visual a partir de um ficheiro local.
+
+Se estiver a testar ou depurar uma nova versão de um visual já publicado, pode substituir a versão AppSource com uma versão de ficheiro local, permitindo o modo Developer em Power BI Desktop ou serviço Power BI.
+
+### <a name="enable-developer-mode-in-power-bi-desktop"></a>Ativar o modo de desenvolvedor no Power BI Desktop
+
+No Power BI Desktop, o Modo de Programador é válido apenas para uma sessão. Se abrir uma instância do Power BI Desktop para testar, irá precisar de ativar o Modo de Programador novamente.
 
 Para ativar o Modo de Programador, siga estes passos:
 
@@ -37,8 +43,11 @@ Para ativar o Modo de Programador, siga estes passos:
 
 5. No Modo de Programador, selecione a opção **Ativar o modo de programador para esta sessão**.
 
->[!NOTE]
->No Power BI Desktop, o Modo de Programador é válido apenas para uma sessão. Se abrir uma instância do Power BI Desktop para testar, irá precisar de ativar o Modo de Programador novamente.
+### <a name="enable-developer-mode-in-power-bi-service"></a>Ativar o modo developer no serviço Power BI
+
+No serviço Power BI, o modo Desenvolvedor é mantido por conta de utilizador. Sempre que um utilizador carrega o pacote a partir do ficheiro local, o Power BI ignorará a versão AppSource do visual.
+
+Para ativar o modo Developer no serviço Power BI, siga as instruções no [serviço Power UP BI para desenvolver um visual](environment-setup.md#set-up-power-bi-service-for-developing-a-visual).
 
 ## <a name="general-test-cases"></a>Casos de teste gerais
 
