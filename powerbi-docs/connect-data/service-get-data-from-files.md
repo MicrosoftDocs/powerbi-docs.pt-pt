@@ -10,12 +10,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7807968bad989895fa60df122c0e31ba4b823aa2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 2ed532986dd31e97e535f27d70c9f5cfd8c66fd5
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410166"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489883"
 ---
 # <a name="get-data-from-files-for-power-bi"></a>Obter dados de ficheiros para o Power BI
 ![Ícone do Excel, Power BI Desktop e CSV](media/service-get-data-from-files/file_icons.png)
@@ -43,7 +43,7 @@ Podemos até ir um pouco mais longe. Um tanque de combustível de um carro deve 
 ## <a name="where-your-file-is-saved-makes-a-difference"></a>O local em que o ficheiro é guardado faz a diferença
 **Local** - Caso o ficheiro seja salvo numa unidade local no computador ou noutro local na sua organização, através do Power BI, é possível *importar* o ficheiro para o Power BI. Na verdade, o ficheiro permanece na unidade local; portanto, o ficheiro completo não é importado para o Power BI. O que realmente ocorre é que um novo conjunto de dados é criado no site do Power BI e os dados e, em alguns casos, o modelo de dados, são carregados para esse conjunto de dados. Se o ficheiro tiver relatórios, aparecem no site do Power BI em Relatórios.
 
-**OneDrive - Business** – Caso tenha o OneDrive para Empresas e entre com a mesma conta utilizada para a sessão no Power BI, essa será, sem dúvida, a maneira mais eficiente de salvaguardar o seu trabalho no Excel, no Power BI Desktop ou num ficheiro .CSV em sincronia com o seu conjunto de dados, seus relatórios e dashboards no Power BI. Visto que tanto o Power BI quanto o OneDrive ficam na cloud, o Power BI liga-se ao seu ficheiro no OneDrive em intervalos aproximados de uma hora. Caso sejam encontradas alterações, o conjunto de dados, os relatórios e os dashboards são atualizados automaticamente no Power BI.
+**OneDrive - Negócios** – Se tiver o OneDrive para negócios e assinar com a mesma conta com que assina no Power BI, esta é de longe a forma mais eficaz de manter o seu trabalho no Excel, Power BI Desktop, ou um . Ficheiro CSV e o seu conjunto de dados, relatórios e dashboards em Power BI in-sync. Como tanto o Power BI como o OneDrive estão na nuvem, o Power BI liga-se ao seu ficheiro no OneDrive a cada hora. Caso sejam encontradas alterações, o conjunto de dados, os relatórios e os dashboards são atualizados automaticamente no Power BI.
 
 **OneDrive - Pessoal** – Caso os ficheiros sejam guardados na sua própria conta do OneDrive, vai aproveitar vários dos mesmos benefícios que teria com o OneDrive para Empresas. A maior diferença é que, na primeira ligação ao ficheiro (ao utilizar Obter Dados > Ficheiros > OneDrive – Pessoal), tem de iniciar sessão no OneDrive com a sua conta Microsoft, a qual é normalmente diferente da utilizada para iniciar sessão no Power BI. Ao iniciar sessão no OneDrive com a sua conta Microsoft, certifique-se de que seleciona a opção Manter sessão iniciada. Dessa forma, o Power BI poderá ligar ao ficheiro em intervalos aproximados de uma hora e garantir que o conjunto de dados no Power BI está sincronizado.
 

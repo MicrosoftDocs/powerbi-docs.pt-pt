@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/09/2021
-ms.openlocfilehash: d8460fe1a3eb199848f47181837225f1e540bb08
-ms.sourcegitcommit: de3b45cad5ae21c77692ce4490e21de01d21e6f3
+ms.openlocfilehash: 788f6cbd840b2c260b00033e27d39f56ed7ce964
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "100013642"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489837"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Relatórios paginados no Power BI: PERGUNTAS FREQUENTES 
 
@@ -30,7 +30,7 @@ Este artigo responde a perguntas muito comuns que as pessoas têm sobre os relat
 A carga de trabalho dos relatórios paginados está disponível nas SKUs P1 – P3.  Poderá também utilizar os SKUs A4 – A6 para cenários incorporados ou de teste/desenvolvimento.
 
 > [!NOTE]
-> O Power BI lançou recentemente uma nova versão do Premium, chamada **Premium Gen2,** que está neste momento em pré-visualização. No **Premium Gen2,** a carga de trabalho dos relatórios paginados está disponível em SKUs P1-P3 e SKUs A1-A6. 
+> O Power BI lançou recentemente uma nova versão do Premium, chamada **Premium Gen2,** que está neste momento em pré-visualização. No **Premium Gen2,** a carga de trabalho dos relatórios paginados está disponível em SKUs EM1-EM3, P1-P3 SKUs e SKUs A1-A6.  Também está disponível por utilizador com Premium por utilizador, que é construído em Premium Gen2 e também em pré-visualização pública. 
 >
 >Premium Gen2 simplifica a gestão das capacidades Premium, e reduz a gestão. Para obter mais informações, veja [Power BI Premium Generation 2 (pré-visualização)](../admin/service-premium-what-is.md#power-bi-premium-generation-2-preview).
 >

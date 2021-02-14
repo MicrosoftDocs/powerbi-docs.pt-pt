@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 02/01/2021
-ms.openlocfilehash: 6742b915cf4418cd0f9f735eaffea8da1d010e79
-ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.date: 02/11/2021
+ms.openlocfilehash: edbb742cfb9d19e47c50ed7c43fa3ba4ba36f779
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99422381"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489860"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registo de alterações do Power BI Report Server
 
@@ -24,7 +24,7 @@ Veja as [Novidades no Power BI Report Server](whats-new.md) para obter mais info
 
 ## <a name="january-2021"></a>Janeiro de 2021
 - **Power BI Report Server**
-    - *Versão: 1.10.7698.12811 (Construção 15.0.1105.194), Lançado: 21 de janeiro de 2021*
+    - *Versão: 1.10.7698.27886 (Construção 15.0.1105.195), Lançado: 21 de janeiro de 2021*
         - Funcionalidades
             - Novos ícones releiam para relatórios Power BI e Power BI.
             - API Visual Personalizada enviada com lançamento - versão 3.5.0

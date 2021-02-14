@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2021
 ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: 93198628677966208609892ee45ea4a28932c091
-ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.openlocfilehash: 989fa597d3de14d8026a6d480d6925325005e0a9
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "99085849"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489814"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes do Governo Norte-Americano
 
@@ -76,7 +76,7 @@ A autenticação, identidade e a administração do Power BI depende da conectiv
 | ---- | ----- |
 | APIs de back-end | **GCC**: api.powerbigov.us |
 | | **GCC-High**: api.high.powerbigov.us |
-| | **DoD**: api.mil.powerbi.gov.us |
+| | **DoD**: api.mil.powerbigov.us |
 | APIs de back-end | **GCC**: *analysis.usgovcloudapi.net |
 | | **GCC High**: *.high.analysis.usgovcloudapi.net |
 | | **DoD**: *.mil.analysis.usgovcloudapi.net |

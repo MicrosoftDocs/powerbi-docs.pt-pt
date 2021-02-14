@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: a44bd7837e7605fd23e49a91e3e9eba106d5a933
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 9a652531b90d65df985c0698d3fade7927a1907b
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565779"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100490067"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>Tutorial: Automatizar a configuração da instalação da aplicação de modelo com uma função do Azure
 
@@ -62,6 +62,7 @@ A seguir encontra-se um fluxo básico do que a aplicação faz quando o cliente 
 * A configuração do seu próprio inquilino do Azure Active Directory (Azure AD). Para obter instruções sobre como configurar um, veja [Criar um inquilino do Azure AD](../embedded/create-an-azure-active-directory-tenant.md).
 * Um [principal de serviço (token apenas de aplicação)](../embedded/embed-service-principal.md) registado no inquilino anterior.
 * Uma [aplicação de modelo parametrizada](../../connect-data/service-template-apps-overview.md) pronta para instalação. A aplicação de modelo tem de ser criada no mesmo inquilino no qual registou a aplicação no Azure AD. Para obter mais informações, veja [Sugestões da aplicação de modelo](../../connect-data/service-template-apps-tips.md) ou [Criar uma aplicação de modelo no Power BI](../../connect-data/service-template-apps-create.md).
+* Para poder testar o fluxo de trabalho da sua automatização, adicione o principal de serviço ao espaço de trabalho da aplicação do modelo como administrador.
 * Uma licença do Power BI Pro. Se não estiver inscrito no Power BI Pro, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
 
 ## <a name="set-up-your-template-apps-automation-development-environment"></a>Configurar o ambiente de desenvolvimento da automatização da aplicação de modelo
@@ -77,6 +78,8 @@ Confirme que regista a aplicação como uma **aplicação Web do lado do servido
 Guarde o *ID da aplicação* (ClientID) e o *segredo da aplicação* (ClientSecret) para os passos posteriores.
 
 Pode utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/embedsetup/AppOwnsData) para começar rapidamente a criar um registo de aplicações. Se estiver a utilizar a [Ferramenta de Registo da Aplicação do Power BI](https://app.powerbi.com/embedsetup), selecione a opção **Incorporar para os clientes**.
+
+Adicione o principal de serviço ao espaço de trabalho da aplicação do modelo como administrador, para que possa testar o fluxo de trabalho da sua automatização.
 
 ## <a name="template-app-preparation"></a>Preparação da aplicação de modelo
 

@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: pbi-deployment
-ms.date: 11/11/2020
-ms.openlocfilehash: 3787f1cb61262f9f1fa64e04487c7d6395b4e549
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.date: 02/09/2021
+ms.openlocfilehash: f502649c08a71dc1cc602f0f69f4134a10a5a879
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417641"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489906"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>Resolução de problemas dos pipelines de implementação
 
@@ -34,7 +34,7 @@ Se as seguintes condições não forem satisfeitas, não conseguirá ver o botã
 
 * Tem uma das seguintes licenças Premium:
 
-    * É um [utilizador Pro](../admin/service-admin-purchasing-power-bi-pro.md) do Power BI e pertence a uma organização com capacidade Premium.
+    * É um [utilizador Pro](../admin/service-admin-purchasing-power-bi-pro.md) do Power BI e pertence a uma organização com capacidade Premium.
 
     * [Premium Por Utilizador (PPU)](../admin/service-premium-per-user-faq.md).
 
@@ -146,6 +146,10 @@ Depois de criar o pipeline, utilize a fase de desenvolvimento para desenvolver o
 
 >[!NOTE]
 >A implementação retroativa apenas suporta a [implementação total](deployment-pipelines-get-started.md#deploying-all-content). Não suporta a [implementação seletiva](deployment-pipelines-get-started.md#selective-deployment)
+
+### <a name="why-do-i-need-to-deploy-after-configuring-dataset-rules"></a>Por que preciso de implementar depois de configurar as regras do conjunto de dados?
+
+As regras do conjunto de dados não são aplicadas imediatamente após a configuração. Para aplicar as regras do conjunto de dados, tem de implementar os conjuntos de dados da fase de origem para a fase alvo, que inclui as regras de conjunto de dados criadas. Após configurar as regras de conjunto de dados, e antes de implementar, o indicador *diferente* é mostrado ao lado do conjunto de dados com as regras configuradas. Isto indica que precisa de implantar esse conjunto de dados da fase de origem para a fase alvo. Uma vez implementadas, se não forem feitas outras alterações, o *indicador diferente* desaparecerá significando que as regras foram aplicadas com sucesso.
 
 ### <a name="does-deployment-pipelines-support-multi-geo"></a>Os pipelines de implementação suportam várias áreas geográficas?
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 10/13/2020
+ms.date: 02/10/2021
 LocalizationGroup: Data from files
-ms.openlocfilehash: b984c0f6ebee6cdcc9982956701f3a112be74ab7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: cf63c16822e04e160da2765ae0be20bd707e89da
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413202"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489962"
 ---
 # <a name="tutorial-from-excel-workbook-to-stunning-report-in-power-bi-desktop"></a>Tutorial: De um livro do Excel a um relatório incrível no Power BI Desktop
 
@@ -120,7 +120,9 @@ Escrever *medidas* na linguagem de fórmulas *DAX* é bastante eficiente para a 
 
 1. Escreva esta medida para gerar uma tabela de Calendário de todas as datas entre 1 de janeiro de 2013 e 31 de dezembro de 2014.  
 
-    `Calendar = CALENDAR(DATE(2013,01,01),Date(2014,12,31))` 
+    ```dax
+    Calendar = CALENDAR(DATE(2013,01,01),Date(2014,12,31))    
+    ```
 
 2. Selecione a marca de verificação para consolidar.
 
@@ -207,9 +209,23 @@ Crie um gráfico de barras para determinar quais as empresas e segmentos em que 
 
 ### <a name="visual-5-year-slicer"></a>Elemento visual 5: Segmentação de dados de ano 
 
-As segmentações são uma ferramenta valiosa para filtrar os elementos visuais numa página de relatório para uma seleção específica. Neste caso, podemos criar uma segmentação de dados para nos focarmos no desempenho de cada mês e ano.  
+As segmentações são uma ferramenta valiosa para filtrar os elementos visuais numa página de relatório para uma seleção específica. Neste caso, podemos criar dois cortadores diferentes para reduzir o desempenho para cada mês e ano. Um cortador usa o campo de data na tabela original. O outro usa a [tabela de datas que pode ter criado para "crédito extra"](#extra-credit-write-a-measure-in-dax) mais cedo neste tutorial.
 
-1. No painel Campos, selecione o campo **Data** e arraste-o para a área em branco à esquerda da tela. 
+
+**Cortador de data usando a mesa original**
+
+1. No painel Fields, selecione o campo **Data** na tabela Finanças. Arraste-o para a área em branco à esquerda da tela. 
+2. No painel Visualizações, selecione **Segmentação de Dados**. 
+
+    O Power BI cria automaticamente um cortador de gama numérica. 
+
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-numeric-range.png" alt-text="Screenshot do cortador de gama numérica Date.":::
+
+1. Pode arrastar as pontas para filtrar, ou selecionar a seta no canto superior direito e alterá-la para um tipo diferente de cortador.
+
+**Cortador de data usando a tabela DAX**
+
+1. No painel Fields, selecione o campo **Data** na tabela Calendário. Arraste-o para a área em branco à esquerda da tela. 
 2. No painel Visualizações, selecione **Segmentação de Dados**. 
 3. Na secção Campos do painel Visualizações, selecione o menu pendente em **Campos**. Remova Trimestre e Dia para que restem apenas Ano e Mês. 
 
@@ -219,7 +235,9 @@ As segmentações são uma ferramenta valiosa para filtrar os elementos visuais 
 
     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-hierarchy-date-slicer.png" alt-text="Captura de ecrã a mostrar a segmentação de dados de hierarquia de datas.":::
 
-Agora, se o seu gestor lhe pedir para ver apenas os dados de 2013, pode utilizar a segmentação de dados para alternar entre anos ou meses específicos de cada ano. 
+    Este é o cortador que usaremos no relatório final.
+
+Agora, se o seu gestor pedir para ver apenas dados de 2013, pode usar um cortador para selecionar anos, ou meses específicos de cada ano.
 
 ### <a name="extra-credit-format-the-report"></a>Pontos extra: Formatar o relatório
 

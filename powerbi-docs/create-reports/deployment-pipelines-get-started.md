@@ -7,13 +7,13 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: pbi-deployment
 ms.custom: contperf-fy21q1
-ms.date: 11/11/2020
-ms.openlocfilehash: 9d0c10b80aeb1bf4745bb8a646933bcfea9bafc6
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
-ms.translationtype: HT
+ms.date: 02/09/2021
+ms.openlocfilehash: 53e6e7401caff5b4334af67f5de54a3669214851
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621217"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489998"
 ---
 # <a name="get-started-with-deployment-pipelines"></a>Começar a utilizar os pipelines de implementação
 
@@ -143,6 +143,8 @@ As regras de conjuntos de dados são definidas em origens de dados e parâmetros
 
 ### <a name="create-a-dataset-rule"></a>Criar uma regra de conjunto de dados
 
+Para criar uma regra de conjunto de dados, siga os passos nesta secção. Depois de criar todas as regras de conjunto de dados de que necessita, implemente os conjuntos de dados com as regras recém-criadas desde a fase de origem até à fase alvo onde as regras foram criadas. As suas regras não se aplicarão até que implemente os conjuntos de dados da fonte para a fase alvo.
+
 1. Na fase do pipeline para a qual quer criar uma regra de conjunto de dados, selecione **Definições de implementação**.
 
     ![Captura de ecrã do botão Definições de implementação, localizado no canto superior direito de cada fase do pipeline de implementação.](media/deployment-pipelines-get-started/deployment-settings.png)
@@ -222,6 +224,8 @@ Quando duas fases sequenciais não são idênticas, é apresentada uma ligação
 * **Novo** – um novo item na fase de origem. Trata-se de um item que não existe na fase de destino. Após a implementação, este item será clonado na fase de destino.
 
 * **Diferente** – um item que existe nas fases de origem e destino, em que uma das versões foi alterada após a última implementação. Após a implementação, o item na fase de origem substituirá o item na fase de destino, independentemente do local onde a alteração foi feita.
+
+    Os conjuntos de dados com regras de conjunto de dados configurados que não foram implementados, também são marcados como *diferentes*. Isto porque as regras de conjunto de dados não são aplicadas até que os conjuntos de dados sejam implantados da fase de origem para a fase alvo, que inclui as regras configuradas.
 
 * **Em falta** – esta etiqueta indica que um item aparece na fase de destino, mas não na fase de origem.
 

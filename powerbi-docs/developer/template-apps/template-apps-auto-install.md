@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 0852fcb2c932680f6c20aeee94a89c68f473e46d
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 2ecb47513ada6ab2f4b81d5e26a1ca41717b7676
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565722"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100490021"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>Configuração automatizada da instalação de uma aplicação de modelo
 
@@ -61,9 +61,10 @@ Para disponibilizar uma experiência de instalação pré-configurada para a apl
 * Uma **aplicação de modelo parametrizada** pronta para instalação. A aplicação de modelo tem de ser criada no mesmo inquilino no qual registou a aplicação no Azure AD. Para obter mais informações, veja [Sugestões da aplicação de modelo](../../connect-data/service-template-apps-tips.md) ou [Criar uma aplicação de modelo no Power BI](../../connect-data/service-template-apps-create.md). Na aplicação de modelo, deve anotar as seguintes informações para os próximos passos:
      * *ID da Aplicação*, *Chave do Pacote* e *ID do Proprietário* como aparecem no URL de instalação no final do processo de [definição das propriedades da aplicação de modelo](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) quando a aplicação foi criada. Também pode obter a mesma ligação ao selecionar **Obter ligação** no [painel Gestão de Versões](../../connect-data/service-template-apps-create.md#manage-the-template-app-release) da aplicação de modelo.
     * *Nomes dos parâmetros* conforme definidos no conjunto de dados da aplicação de modelo. Os nomes dos parâmetros são cadeias de carateres sensíveis às maiúsculas e minúsculas e também podem ser obtidos no separador **Definições dos Parâmetros** quando [Definir as propriedades da aplicação de modelo](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) ou nas definições dos conjuntos de dados no Power BI.
+* Para poder testar o fluxo de trabalho da sua automatização, adicione o principal de serviço ao espaço de trabalho da aplicação do modelo como administrador.
 
     >[!NOTE]
-    >Poderá testar a aplicação de instalação pré-configurada na aplicação de modelo se esta estiver pronta para instalação, mesmo que ainda não esteja publicamente disponível no AppSource. Para que os utilizadores fora do inquilino sejam capazes de utilizar a aplicação de instalação automatizada para instalar a aplicação de modelo, esta tem de estar publicamente disponível no [mercado de aplicações do Power BI](https://app.powerbi.com/getdata/services). Antes de distribuir a aplicação de modelo através da aplicação de instalação automatizada que está a criar, confirme que a publica no [Centro de Parceiros](/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
+    >Poderá testar a aplicação de instalação pré-configurada na aplicação de modelo se esta estiver pronta para instalação, mesmo que ainda não esteja publicamente disponível no AppSource. Para que os utilizadores fora do inquilino sejam capazes de utilizar a aplicação de instalação automatizada para instalar a aplicação de modelo, esta tem de estar publicamente disponível no [Marketplace de aplicações do Power BI](https://app.powerbi.com/getdata/services). Antes de distribuir a aplicação de modelo através da aplicação de instalação automatizada que está a criar, confirme que a publica no [Centro de Parceiros](/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 
 ## <a name="main-steps-and-apis"></a>Passos principais e APIs
 
