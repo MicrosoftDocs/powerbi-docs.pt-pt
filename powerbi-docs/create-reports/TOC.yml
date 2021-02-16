@@ -59,8 +59,6 @@
               href: desktop-ribbon.md
             - name: Trabalhar com a Vista de relatório
               href: desktop-report-view.md
-            - name: Tipos de filtros nos relatórios
-              href: power-bi-report-filter-types.md
             - name: Filtros e realce em relatórios
               href: power-bi-reports-filters-and-highlighting.md
             - name: Amostragem de linhas de alta densidade
@@ -142,6 +140,26 @@
               href: desktop-tooltips.md
             - name: Exportar relatórios para ficheiros PDF
               href: desktop-export-to-pdf.md
+            - name: Filtros e cortadores em relatórios
+              items:
+                - name: Adicionar um filtro a um relatório
+                  href: power-bi-report-add-filter.md
+                - name: Filtros de formato em relatórios
+                  href: power-bi-report-filter.md
+                - name: Tipos de filtros nos relatórios
+                  href: power-bi-report-filter-types.md
+                - name: Segmentações
+                  href: ../visuals/power-bi-visualization-slicers.md
+                - name: Segmentações de intervalos numéricos
+                  href: desktop-slicer-numeric-range.md
+                - name: Segmentações e filtros de data relativas
+                  href: ../visuals/desktop-slicer-filter-date-range.md
+                - name: Relative time slicers and filters (Filtros e segmentações de dados de hora relativa)
+                  href: slicer-filter-relative-time.md
+                - name: Criar uma segmentação de dados que pode redimensionar
+                  href: power-bi-slicer-filter-responsive.md
+                - name: Adicionar vários campos a segmentações
+                  href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: Aplicar informações para explicar as flutuações nos elementos visuais (pré-visualização)
               href: desktop-insights.md
             - name: Utilizar as informações para detetar como as distribuições variam (pré-visualização)
@@ -158,10 +176,6 @@
               href: desktop-bookmarks.md
             - name: Trabalhar com temas de relatórios
               href: desktop-report-themes.md
-            - name: Trabalhar com filtros nos relatórios
-              href: power-bi-report-filter.md
-            - name: Adicionar um filtro a um relatório
-              href: power-bi-report-add-filter.md
             - name: Aplicar agrupamento e discretização
               href: desktop-grouping-and-binning.md
             - name: Aplicar linhas de grelha e ajuste à grelha
@@ -174,18 +188,6 @@
               href: desktop-add-custom-column.md
             - name: Utilizar etiquetas de hierarquia inline
               href: desktop-inline-hierarchy-labels.md
-            - name: Segmentações
-              href: ../visuals/power-bi-visualization-slicers.md
-            - name: Segmentações de intervalos numéricos
-              href: desktop-slicer-numeric-range.md
-            - name: Segmentações e filtros de data relativas
-              href: ../visuals/desktop-slicer-filter-date-range.md
-            - name: Relative time slicers and filters (Filtros e segmentações de dados de hora relativa)
-              href: slicer-filter-relative-time.md
-            - name: Criar uma segmentação de dados que pode redimensionar
-              href: power-bi-slicer-filter-responsive.md
-            - name: Adicionar vários campos a segmentações
-              href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: Restringir o acesso aos dados com segurança ao nível da linha
               href: desktop-rls.md
             - name: Personalizar descrições

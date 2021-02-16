@@ -9,12 +9,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: dbb173c65ecfc5d1ca464387ed43ae615cdcbca1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 996c4a1e7b2bdda0bfdfa0951afc7922b2996084
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396182"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531568"
 ---
 # <a name="change-settings-for-power-bi-reports"></a>Alterar as definições de relatórios do Power BI
 
@@ -67,7 +67,7 @@ Atualmente, só pode alterar a definição do painel Páginas no serviço Power 
 
 ## <a name="control-filters"></a>Controlar filtros
 
-O painel **Definições** do relatório tem três definições para controlar as interações do leitor com os filtros no relatório. As ligações seguintes redirecionam para o artigo [Conceber filtros nos relatórios do Power BI](power-bi-report-filter.md) para obter detalhes sobre cada definição.
+O painel **Definições** do relatório tem três definições para controlar as interações do leitor com os filtros no relatório. Os seguintes links vão para o [Formato os filtros em Power BI reportam](power-bi-report-filter.md) artigo para mais detalhes sobre cada configuração.
 
 - **Os filtros persistentes** permitem que os leitores [guardem filtros no relatório](power-bi-report-filter.md#allow-saving-filters).
 - **A experiência de filtragem** tem mais duas definições:

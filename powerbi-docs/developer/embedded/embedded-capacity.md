@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 01/14/2021
-ms.openlocfilehash: b37182cbdf030e8b32fdfe307d0a652fef678b9b
-ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.date: 02/15/2021
+ms.openlocfilehash: 0c6686b667f96e45fc1e21d4cb9512196053f288
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "99533033"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531959"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capacity and SKUs in Power BI embedded analytics (Capacidade e SKUs na análise incorporada do Power BI)
 
@@ -148,7 +148,7 @@ A seguinte tabela descreve os recursos e limites de cada SKU.
 
 #### <a name="embedded-gen-2-memory-enhancements-preview"></a>Melhorias de memória da Gen 2 incorporadas (pré-visualização)
 
-Com [o Power BI Incorporado Geração 2](power-bi-embedded-generation-2.md) (também conhecido como Embedded Gen 2), a quantidade de memória disponível em cada tamanho do nó é definida para o limite de pegada de memória de um único item Power BI (como um relatório ou um dashboard), e não para o consumo cumulativo de memória. Por exemplo, numa capacidade Incorporada gen2 A4, apenas um único tamanho de conjunto de dados é limitado a 25 GB, em comparação com a capacidade original de Power BI Incorporado, onde a pegada total de memória dos conjuntos de dados a ser tratados ao mesmo tempo é limitada a 25 GB.
+A quantidade de memória disponível em cada tamanho do nó é descrita na coluna *RAM (GB)* na tabela de [energia de memória SKU e computação.](#sku-memory-and-computing-power) Com [o Power BI Incorporado Geração 2](power-bi-embedded-generation-2.md) (também conhecido como Embedded Gen 2), esta quantidade de memória é definida para o limite de pegada de memória de um único item Power BI (como um conjunto de dados, relatório ou dashboard), e não para o consumo cumulativo da memória. Por exemplo, numa capacidade Incorporada gen2 A4, apenas um único tamanho de conjunto de dados é limitado a 25 GB, em comparação com a capacidade original de Power BI Incorporado, onde a pegada total de memória dos conjuntos de dados a ser tratados ao mesmo tempo é limitada a 25 GB.
 
 ## <a name="next-steps"></a>Próximos passos
 

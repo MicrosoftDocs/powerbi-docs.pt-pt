@@ -1,30 +1,30 @@
 ---
-title: Conceber filtros nos relatórios do Power BI
-description: Tem muito controlo sobre a conceção e a funcionalidade dos filtros de relatórios.
+title: Filtros de formato nos relatórios Power BI
+description: Você tem muito controlo sobre o formato de filtro de relatório, design e funcionalidade.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 02/08/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: 2ddefcfa7a9381cf6d45466d5115045ea4274a16
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 6b509576a3fe76e3565f9c0c354155957d7ad069
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415180"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531660"
 ---
-# <a name="design-filters-in-power-bi-reports"></a>Conceber filtros nos relatórios do Power BI
+# <a name="format-filters-in-power-bi-reports"></a>Filtros de formato nos relatórios Power BI
 
 [!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-Com a nova experiência de filtro, tem muito mais controlo sobre a conceção e a funcionalidade dos filtros de relatórios. Pode formatar o painel Filtros para se parecer com o resto do relatório. Pode bloquear e até mesmo ocultar filtros. Ao estruturar o seu relatório, já não vê o painel Filtros antigo no painel Visualizações. Faz toda a edição e formatação dos filtros num único painel Filtros. 
+Tem muito controlo sobre a conceção e a funcionalidade dos filtros de relatórios. Este artigo explica como pode formatar o painel de filtros para se parecer com o resto do relatório. Pode bloquear e até mesmo ocultar filtros.
 
 ![A experiência de filtro](media/power-bi-report-filter/power-bi-filter-new-look.png)
 
-Enquanto estruturador de relatórios, aqui estão algumas das tarefas que pode fazer no novo painel Filtros:
+O primeiro passo é [adicionar filtros ao seu relatório.](power-bi-report-add-filter.md) Depois, como designer de relatórios, há muitas formas de formatar o painel de filtros:
 
 - Adicionar e remover campos a filtrar. 
 - Alterar o estado do filtro.
@@ -38,50 +38,33 @@ Ao lerem um relatório, os utilizadores podem pairar sobre qualquer elemento vis
 
 ![Lista de filtros para um elemento visual](media/power-bi-report-filter/power-bi-filter-visual.png)
 
-Leia mais sobre [como os leitores de relatório utilizam filtros](../consumer/end-user-report-filter.md) no seu relatório.
-
-## <a name="view-filters-for-a-visual-in-reading-mode"></a>Ver filtros de um elemento visual no Modo de leitura
-
-No Modo de leitura, pode pairar o rato sobre o ícone de filtro de um elemento visual para ver uma lista de filtros de pop-up com todos os filtros, segmentações de dados, entre outros, que afetam esse elemento visual. A formatação da lista de filtros de pop-up é igual à formatação do painel Filtros.
-
-![Filtros que afetam um elemento visual](media/power-bi-report-filter/power-bi-filter-per-visual.png)
-
-Veja a seguir os tipos de filtros que esta vista apresenta:
-
-- Filtros básicos
-- Segmentações
-- Realce cruzado 
-- Filtragem cruzada
-- Filtros avançados
-- Filtros de itens principais
-- Filtros de Data Relativa
-- Segmentações de dados síncronas
-- Filtros de Inclusão/Exclusão
-- Filtros passados por um URL
-
-Leia mais sobre como [interagir com filtros no modo de leitura](../consumer/end-user-report-filter.md).
+Leia sobre [como os leitores de relatórios usam filtros](../consumer/end-user-report-filter.md) no modo de leitura de relatório.
 
 ## <a name="build-the-filters-pane"></a>Criar o painel Filtros
 
-Depois de ativar o novo painel Filtros, este é apresentado à direita da página do relatório, formatado por predefinição com base nas suas definições de relatório atuais. No painel Filtros, configura os filtros a incluir e atualiza os filtros existentes. O painel Filtros tem o mesmo aspeto para os consumidores do seu relatório quando o publicar. 
+Por predefinição, o painel de filtros é formatado com base nas definições atuais do relatório. No painel Filtros, configura os filtros a incluir e atualiza os filtros existentes. O painel filters é o mesmo para os consumidores do seu relatório quando publica o seu relatório. 
 
-1. Por predefinição, os consumidores do relatório podem ver o painel Filtros. Se não pretender que o vejam, selecione o ícone de olho junto a **Filtros**.
+1. Quando adiciona um elemento visual a uma tela de relatórios, o Power BI adiciona automaticamente um filtro ao painel Filtros para cada campo no elemento visual.
 
-    ![Ícone de olho dos filtros do Power BI](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
+2. Para construir o painel de filtros, arraste outros campos de interesse para o painel de filtros como filtros visuais, de página ou de nível de relatório.
 
-2. Para começar a criar o painel Filtros, arraste campos de interesse para o mesmo como filtros de nível de elemento visual, de página ou de relatório.
+## <a name="show-or-hide-the-filters-pane"></a>Mostrar ou esconder o painel de filtros
 
-Quando adiciona um elemento visual a uma tela de relatórios, o Power BI adiciona automaticamente um filtro ao painel Filtros para cada campo no elemento visual. 
+### <a name="hide-the-filters-pane-in-reading-mode"></a>Esconda o painel de filtros no modo de leitura
 
-## <a name="hide-the-filters-pane-while-editing"></a>Ocultar o painel Filtros durante a edição
+Se não quiser que os seus leitores vejam o painel de filtros, selecione o ícone **dos olhos** ao lado **dos Filtros**.
 
-O Power BI Desktop tem um novo friso na pré-visualização. No separador **Ver**, o botão de alternar **Filtros** permite-lhe mostrar ou ocultar o painel Filtros. Esta funcionalidade é útil quando não está a utilizar o painel Filtros e precisa de espaço adicional no ecrã. Esta adição alinha o painel Filtros com os restantes painéis que pode abrir e fechar, tais como os painéis Marcadores e Seleção. 
+![Ícone de olho](media/power-bi-report-filter/power-bi-filter-eye.png) 
+
+### <a name="hide-the-filters-pane-while-editing"></a>Ocultar o painel Filtros durante a edição
+
+Pode esconder o painel de filtros enquanto está a editar o seu relatório, quando não estiver a usar o painel de filtros e precisar de espaço extra no ecrã. 
+
+- No **separador Ver,** o botão **Filtros** permite-lhe mostrar ou ocultar o painel de filtros.
 
 ![Mostrar ou ocultar o painel Filtros durante a edição](media/power-bi-report-filter/power-bi-filter-hide.png)
 
-Esta definição só oculta o painel Filtros no Power BI Desktop. Se quiser ocultar o painel Filtros para os seus utilizadores finais, tem de selecionar o ícone de **olho** junto a **Filtros**.
-
-![Ícone de olho](media/power-bi-report-filter/power-bi-filter-eye.png) 
+Esta definição só oculta o painel Filtros no Power BI Desktop. Não há equivalente no modo de edição no serviço Power BI.
 
 ## <a name="lock-or-hide-filters"></a>Bloquear ou ocultar filtros
 
@@ -205,7 +188,7 @@ A funcionalidade de ordenação personalizada está disponível no painel Filtro
 
 ![Reorganizar a sequência de ordenação dos filtros](media/power-bi-report-filter/power-bi-filter-sort.gif)
 
-A sequência de ordenação predefinida dos filtros é alfabética. Para iniciar o modo de ordenação personalizada, basta arrastar qualquer filtro para uma nova posição. Apenas pode ordenar os filtros no nível a que se aplicam, por exemplo, um filtro de nível de elemento visual, de nível de página ou de nível de relatório.
+A sequência de ordenação predefinida dos filtros é alfabética. Para iniciar o modo de ordenação personalizada, basta arrastar qualquer filtro para uma nova posição. Só é possível reencomendar filtros dentro do nível a que se aplicam. Por exemplo, pode alterar a ordem dos filtros de nível visual dentro da secção de nível visual do painel de filtros.
 
 ## <a name="improved-filters-pane-accessibility"></a>Acessibilidade melhorada do painel Filtros
 
@@ -275,7 +258,7 @@ Atualmente, pode controlar parte da formatação do texto **Aplicar** do botão.
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-A publicação na Web não apresenta o painel Filtros. Se está a planear publicar um relatório na Web, considere adicionar segmentações para filtragem.
+A publicação na Web não apresenta o painel Filtros. Se está a planear publicar um relatório na web, considere adicionar cortadores para filtragem.
 
 ## <a name="next-steps"></a>Próximos passos
 

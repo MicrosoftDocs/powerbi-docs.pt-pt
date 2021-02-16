@@ -9,12 +9,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/12/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: cec22acab7cc44b96f3137df04777671964707a8
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 134bce772ff9375e179efe966dfd69c9d257c8f0
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414237"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531315"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>Configurar a pormenorização em relatórios do Power BI
 Com a *pormenorização* em relatórios do Power BI, pode criar uma página no relatório centrada numa entidade específica, por exemplo, um fornecedor, um cliente ou um fabricante. Quando os leitores do relatório utilizam a pormenorização, clicam com o botão direito do rato num ponto de dados noutras páginas do relatório. Em seguida, podem pormenorizar a página em destaque para obter detalhes filtrados em função desse contexto. Também pode [criar um botão que pormenoriza](desktop-drill-through-buttons.md) para obter detalhes quando os leitores clicam no mesmo.
@@ -37,7 +37,7 @@ Pode configurar a pormenorização nos seus relatórios no Power BI Desktop ou n
     ![Imagem de pormenorização](media/desktop-drillthrough/drillthrough_03.png)
 
 > [!IMPORTANT]
-> Pode configurar e executar uma pormenorização de uma página no mesmo relatório. No entanto, não pode executar uma pormenorização de uma página num relatório diferente.  
+> Pode configurar e realizar perfuração através de uma página no mesmo relatório, no entanto, não pode perfurar uma página em um relatório diferente.  
 
 
 

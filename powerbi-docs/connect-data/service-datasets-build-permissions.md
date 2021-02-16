@@ -7,20 +7,20 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 10/21/2020
+ms.date: 02/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 914477d8b4bed0b6f90f700afcbfdfbfc263bb1d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b646237bddeaae8b73ef809504ab3aea2257c0e6
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410465"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531476"
 ---
 # <a name="build-permission-for-shared-datasets"></a>Permissão de criação para conjuntos de dados partilhados
 
 Ao criar um relatório no Power BI Desktop, os dados nesse relatório são armazenados num *modelo de dados*. Ao publicar os seus relatórios no serviço Power BI, está também a publicar os dados como um *conjunto de dados*. Pode conceder a outras pessoas *permissão de compilação* para esse relatório, para que possam descobrir e reutilizar o conjunto de dados que partilhou. Este artigo explica como pode controlar o acesso aos dados com a permissão de compilação.
 
-A permissão de compilação aplica-se aos conjuntos de dados. Quando concede aos utilizadores a permissão de compilação, os mesmos podem compilar novos conteúdos no conjunto de dados, como relatórios, dashboards, mosaicos afixados das Perguntas e Respostas e Deteção de Informações. 
+A permissão de compilação aplica-se aos conjuntos de dados. Quando dá permissão aos utilizadores, podem construir novos conteúdos no seu conjunto de dados, tais como relatórios, dashboards, azulejos fixados de Q&A, relatórios paginados e Insights Discovery. 
 
 Os utilizadores também precisam de obter permissões de compilação para trabalhar com os dados *fora* do Power BI:
 

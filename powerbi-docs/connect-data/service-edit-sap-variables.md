@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 11/12/2019
+ms.date: 02/05/2021
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 179e8740bed71d3d295cfc2fe5f103744e9dbd07
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 1451b6812e9304eb1933de6cde2ed3cc681b7207
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96402737"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531913"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>Editar variáveis de SAP no serviço Power BI
 
@@ -28,14 +28,9 @@ Este documento descreve os requisitos para editar variáveis no Power BI, a form
 
 Há alguns requisitos para utilizar a funcionalidade de edição de variáveis de SAP. A seguinte lista descreve estes requisitos.
 
-**Nova Experiência de Filtro necessária** – tem de ter a [nova experiência de filtro](../create-reports/power-bi-report-filter.md) ativa no seu relatório. Eis a forma como pode ativá-la no seu relatório no Power BI Desktop:
-- No Power BI Desktop, selecione **Ficheiro** > **Opções e Definições** > **Opções**.
-- No painel de navegação, em **Ficheiro atual**, selecione **Definições de relatório**.
-- Em **Experiência de filtragem**, selecione **Ativar o painel de filtro atualizado**.
-
 **Ligações do DirectQuery necessárias** – tem de estar a ligar à origem de dados de SAP através do DirectQuery. As ligações de importação não são suportadas.
 
-**Configuração de SSO necessária** – para que esta funcionalidade funcione, o início de sessão único (SSO) tem de estar configurado. Veja o artigo [Descrição geral do início de sessão único (SSO)](service-gateway-sso-overview.md) para obter mais informações.
+**A configuração SSO é necessária** – para que esta função funcione, o sso único de início de sso deve ser configurado. Veja o artigo [Descrição geral do início de sessão único (SSO)](service-gateway-sso-overview.md) para obter mais informações.
 
 **Bits de Novo Gateway necessários** – transfira o gateway mais recente e atualize o seu gateway existente. Veja a definição de [gateway de serviço](service-gateway-onprem.md) para obter mais informações.
 
@@ -76,7 +71,7 @@ Pode fazê-lo da seguinte forma:
 
 Ao trabalhar num relatório publicado que utiliza SAP HANA ou SAP BW e tem a funcionalidade **Editar variáveis** ativa no serviço Power BI, o proprietário do relatório pode alterar estas predefinições. O proprietário do relatório pode alterar as variáveis no modo de edição e guardar o relatório para ativar estas definições e torná-las nas *novas predefinições* do mesmo. Todos os outros utilizadores que acederem ao relatório após as alterações feitas pelo proprietário do mesmo irão ver estas novas definições como predefinições.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Para obter mais informações sobre o SAP HANA, o SAP BW ou o DirectQuery, leia os seguintes artigos:
 
