@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 12/14/2020
-ms.openlocfilehash: f9a3558bd83f9c2e263d69ad37c3e985c2c6199a
-ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
-ms.translationtype: HT
+ms.openlocfilehash: 4a7156259dbc1273ab14ce4e44d91b54794736e0
+ms.sourcegitcommit: bae5e9a37772360d0aae8624905d5f33951a187f
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597595"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100560974"
 ---
 # <a name="what-are-power-bi-template-apps"></a>O que são as aplicações de modelo do Power BI?
 
@@ -23,11 +23,11 @@ Enquanto parceiro do Power BI, pode criar um conjunto de conteúdos prontos a u
 
 Pode criar aplicações de modelo que permitam que os clientes estabeleçam ligação e criem instâncias nas próprias contas. Como especialistas de domínio, podem desbloquear os dados de forma a que seja fácil para os utilizadores empresariais consumirem.  
 
-Pode submeter aplicações de modelo ao Centro de parceiros. Em seguida, as aplicações são disponibilizadas publicamente no [Marketplace de Aplicações do Power BI](https://app.powerbi.com/getdata/services) e no [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi). Eis uma descrição geral da experiência pública de criação de aplicações de modelo.
+Pode submeter aplicações de modelo ao Centro de parceiros. Em seguida, as aplicações são disponibilizadas publicamente no [Marketplace de Aplicações do Power BI](https://app.powerbi.com/groups/me/getapps/apps) e no [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi). Eis uma descrição geral da experiência pública de criação de aplicações de modelo.
 
 ## <a name="power-bi-apps-marketplace"></a>Marketplace de Aplicações do Power BI
 
-As Aplicações de Modelo do Power BI permitem que os utilizadores do Power BI Pro ou do Power BI Premium obtenham informações imediatas através de relatórios e dashboards previamente compactados que podem ser ligados a origens de dados em direto. Já se encontram disponíveis muitas Aplicações do Power BI no [Marketplace de Aplicações do Power BI](https://app.powerbi.com/getdata/services).
+As Aplicações de Modelo do Power BI permitem que os utilizadores do Power BI Pro ou do Power BI Premium obtenham informações imediatas através de relatórios e dashboards previamente compactados que podem ser ligados a origens de dados em direto. Já se encontram disponíveis muitas Aplicações do Power BI no [Marketplace de Aplicações do Power BI](https://app.powerbi.com/groups/me/getapps/apps).
 
 :::row:::
     :::column:::
@@ -118,6 +118,7 @@ Veja [Tips for authoring template apps in Power BI](service-template-apps-tips.m
 | Origens de dados | São permitidas origens de dados suportadas para atualizações de Dados Agendadas da cloud. <br>Não suportado: <li>Ligações em direto (no Azure Analysis Services)</li> <li>Origens de dados no local (não são suportados gateways empresariais e pessoais)</li> <li>Em tempo real (não existe suporte para conjuntos de dados de emissão)</li> <li>Modelos compostos</li></ul> |
 | Conjunto de dados: em várias áreas de trabalho | Não são permitidos conjuntos de dados em várias áreas de trabalho  |
 | Parâmetros de consulta | Não suportado: parâmetros do tipo "Qualquer", "Data" ou "Binário" bloqueiam a operação de atualização do conjunto de dados |
+| Atualização incremental | As aplicações do modelo não suportam atualização incremental |
 | Elementos Visuais do Power BI | Só são suportados elementos visuais do Power BI disponíveis para o público. Não são suportados [elementos visuais do Power BI organizacionais](../developer/visuals/power-bi-custom-visuals-organization.md) |
 | Clouds soberanas | As aplicações de modelos não estão disponíveis em clouds soberanas |
 

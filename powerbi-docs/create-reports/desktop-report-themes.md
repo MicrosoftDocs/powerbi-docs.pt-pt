@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 12/14/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 67264868fdbba42856169ca586066f650fca5c38
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
-ms.translationtype: HT
+ms.openlocfilehash: 61b909ba5c90c7ecf801b4ce448e73353d2334c4
+ms.sourcegitcommit: 9a00abaca80d0cdb2bd0cd9270f99db62df8a2ce
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621976"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100569633"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Utilizar temas de relatório no Power BI Desktop
 
@@ -171,7 +171,7 @@ Este ficheiro JSON de temas de relatório tem as seguintes linhas:
 
 - **name**: nome do tema de relatório. Este é o único campo obrigatório.
 - **dataColors**: a lista de códigos de cor hexadecimais a utilizar para os dados em elementos visuais do Power BI Desktop. Esta lista pode ter o número de cores que quiser.
-- **background**, **firstLevelElements** e **tableAccent** (etc.): classes de cores. As classes de cores permitem definir várias cores estruturais no relatório de uma só vez.
+- **fundo,** **primeiro plano,** e **tableAccent** (etc.): aulas de cor. As classes de cores permitem definir várias cores estruturais no relatório de uma só vez.
 
 Pode utilizar este ficheiro JSON como base para criar o seu próprio ficheiro de temas de relatório personalizados a importar. Se quiser ajustar apenas as cores básicas do relatório, altere o nome e os códigos hexadecimais no ficheiro.
 
