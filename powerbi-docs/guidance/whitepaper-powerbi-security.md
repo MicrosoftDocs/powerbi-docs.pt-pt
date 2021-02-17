@@ -9,12 +9,12 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/11/2021
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 0c6fb504cd985103d811b820cc85212aaa72bc76
-ms.sourcegitcommit: 9a00abaca80d0cdb2bd0cd9270f99db62df8a2ce
+ms.openlocfilehash: 9752eddb82fa8f612b9d740cf010c0649ba5b3f8
+ms.sourcegitcommit: 803653e8aa79ed38ec555c27c13b3b6835f98a5d
 ms.translationtype: MT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 02/17/2021
-ms.locfileid: "100569610"
+ms.locfileid: "100569735"
 ---
 # <a name="power-bi-security-white-paper"></a>Papel branco de segurança do Power BI
 
@@ -155,7 +155,7 @@ As aplicações Power BI para iOS e Android permitem proteger os seus dados conf
 
 ## <a name="authentication-to-the-power-bi-service"></a>Autenticação no serviço Power BI
 
-A autenticação de utilizadores no serviço Power BI consiste numa série de pedidos, respostas e redirecionamentos entre o browser do utilizador e o serviço Power BI ou os serviços do Azure utilizados pelo Power BI. Esta sequência descreve o processo de autenticação do utilizador no Power BI, que segue o [fluxo de concessão de código auth do Azure Ative Directory](/azure/active-directory/develop/v2-oauth2-auth-code-flow). Para obter mais informações sobre as opções para os modelos de autenticação de utilizadores de uma organização (modelos de inscrição), consulte [escolher um modelo de inscrição para o Microsoft 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/).
+A autenticação de utilizadores no serviço Power BI consiste numa série de pedidos, respostas e redirecionamentos entre o browser do utilizador e o serviço Power BI ou os serviços do Azure utilizados pelo Power BI. Esta sequência descreve o processo de autenticação do utilizador no Power BI, que segue o [fluxo de concessão de código auth do Azure Ative Directory](/azure/active-directory/develop/v2-oauth2-auth-code-flow). Para obter mais informações sobre as opções para os modelos de autenticação de utilizadores de uma organização (modelos de inscrição), consulte [escolher um modelo de inscrição para o Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/blog/2014/05/13/choosing-a-sign-in-model-for-office-365/).
 
 ### <a name="authentication-sequence"></a>Sequência de autenticação
 
