@@ -9,13 +9,13 @@ ms.topic: tutorial
 ms.author: samkemp
 author: samuel100
 ms.reviewer: sdgilley, maggies
-ms.date: 12/10/2020
-ms.openlocfilehash: 6c68fff575e4da0c9126904df2de5292747c209c
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
-ms.translationtype: HT
+ms.date: 02/17/2021
+ms.openlocfilehash: 91ba29a09cfdd434c52794e83651736c2b796b1e
+ms.sourcegitcommit: fb408dfd39943dbec990a16bcf204671beb4f0aa
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491788"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100655649"
 ---
 # <a name="tutorial-consume-azure-machine-learning-models-in-power-bi"></a>Tutorial: Consumir modelos do Azure Machine Learning no Power BI
 
@@ -57,6 +57,10 @@ https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt
 
 Selecione **OK**.
 
+No **conteúdo da Web do Acesso**, selecione **Anonymous**  >  **Connect**.
+
+:::image type="content" source="media/service-aml-integrate/anonymous-access-web-content.png" alt-text="Screenshot mostrando acesso anónimo para conteúdo web.":::
+
 Selecione **Transformar dados** para abrir a janela **Editor do Power Query**.
 
 No friso Base do Editor do Power Query, selecione o botão **Azure Machine Learning**.
@@ -84,7 +88,9 @@ Os dados são devolvidos pelo serviço na forma de uma **lista**.
 > [!NOTE]
 > Se tiver implementado um modelo de estruturador, verá um **registo**.
 
-Para obter as predições, no friso **Transformar**, selecione o botão **Expandir coluna** > **Expandir para Novas Linhas**.
+Para obter as previsões, selecione a seta de duas cabeças no cabeçalho da coluna **AzureML.my-diabetes-diabetes >** **Expandir para Novas Linhas**.
+
+:::image type="content" source="media/service-aml-integrate/expand-column.png" alt-text="Screenshot mostrando ícone de coluna expandir.":::
 
 Após a expansão, verá as predições na coluna AzureML.my-diabetes-model.
 

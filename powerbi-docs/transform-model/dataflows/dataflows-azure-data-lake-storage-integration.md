@@ -9,12 +9,12 @@ ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: bf9740e0f4f6a2e25e1d5d0cc49671bd6eb90b37
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 44e8af257bc4b4e2a83747f79505caed8f3cc72a
+ms.sourcegitcommit: fb408dfd39943dbec990a16bcf204671beb4f0aa
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565406"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100655757"
 ---
 # <a name="configuring-dataflow-storage-to-use-azure-data-lake-gen-2"></a>Configurar o armazenamento de fluxos de dados para utilizar o Azure Data Lake Gen2 
 
@@ -24,7 +24,7 @@ Existem duas formas de configurar qual o armazenamento do ADLS Gen2 a utilizar: 
 
 ## <a name="pre-requisites"></a>Pré-requisitos
 
-Para trazer a sua própria conta do ADLS Gen2, tem de ter permissões de proprietário, quer na conta de armazenamento, no grupo de recursos ou na camada de subscrição. Mesmo que seja um administrador, tem de atribuir permissão de proprietário a si mesmo. 
+Para trazer a sua própria conta do ADLS Gen2, tem de ter permissões de proprietário, quer na conta de armazenamento, no grupo de recursos ou na camada de subscrição. Mesmo que seja um administrador, tem de atribuir permissão de proprietário a si mesmo.  **Atualmente não suporta contas de armazenamento ADLS Gen2 por trás de uma firewall**
 
 A conta de armazenamento tem de ser criada com o [Espaço de Nomes Hierárquico (HNS)](/azure/storage/blobs/create-data-lake-storage-account) ativado. 
 

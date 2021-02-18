@@ -9,18 +9,18 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/11/2021
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9752eddb82fa8f612b9d740cf010c0649ba5b3f8
-ms.sourcegitcommit: 803653e8aa79ed38ec555c27c13b3b6835f98a5d
+ms.openlocfilehash: 655fde0ef19c15f368cb2219498bb26d4411d5d3
+ms.sourcegitcommit: fb408dfd39943dbec990a16bcf204671beb4f0aa
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100569735"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100655678"
 ---
 # <a name="power-bi-security-white-paper"></a>Papel branco de segurança do Power BI
 
 **Resumo:** Power BI é um serviço de software online *(SaaS*, ou Software como um serviço) que lhe permite criar facilmente e rapidamente os dashboards de Business Intelligence, relatórios, conjuntos de dados e visualizações. Com o Power BI, pode ligar a várias origens de dados diferentes, combinar e formatar os dados dessas ligações, e criar relatórios e dashboards que podem ser partilhados com outras pessoas.
 
-**Escritores:** Yitzhak Kesselman, Paddy Osborne, Matt Neely, Tony Bencic, Srinivasan Turuvekere, Cristian Petculescu, Adi Regev, Naveen Sivaraj, Ben Glastein, Evgeny Tshiorny, Arthi Ramasubramanian Iyer, Sid Jayadevan, Ronald Chang, Ori Eduar, Anton Fritz, Idan Sheinberg, Ron Gilad, Sagiv Hadaya, Paul Inbar, Igor Uzhviev, Michael Roth, Jamie Tarquino, Gennady Pats, Orion Lee, Yury Berezansky, Maya Shenhav, Romit Chattopadhyay, Yariv Maimon, Bogdan Crivat
+**Escritores:** Yitzhak Kesselman, Paddy Osborne, Matt Neely, Tony Bencic, Srinivasan Turuvekere, Cristian Petculescu, Adi Regev, Naveen Sivaraj, Ben Glastein, Evgeny Tshiorny, Arthi Ramasubramanian Iyer, Sid Jayadevan, Ronald Chang, Ori Eduar, Anton Fritz, Idan Sheinberg, Ron Gilad, Sagiv Hadaya, Paul Inbar, Igor Uzhviev, Michael Roth, Jaime Tarquino, Gennady Pats, Orion Lee, Yury Berezansky, Maya Shenhav, Romit Chattopadhyay, Yariv Maimon, Bogdan Crivat
 
 **Revisores Técnicos:** Cristian Petculescu, Amir Netz, Sergei Gundorov
 
@@ -215,9 +215,9 @@ Os conjuntos de dados do Power BI permitem uma variedade de modos de ligação d
 
 |Modo de conjunto de dados (tipo)   |Dados Persistiram no Power BI |
 |----------------------|---------------------------|
-|Importar                |Sim |
-|Consulta Direta          |Não |
-|Live Connect          |Não |
+|Importar                |Yes |
+|Consulta Direta          |No |
+|Live Connect          |No |
 |Composto             |Se contiver uma fonte de dados de importação |
 |Transmissão em Fluxo             |Se configurado para persistir |
 
@@ -467,14 +467,14 @@ Seguem-se perguntas e respostas comuns relacionadas com a segurança do Power BI
 
 **Para os visuais power BI, a Microsoft efetua alguma avaliação de segurança ou privacidade do código visual personalizado antes de publicar artigos na Galeria?**
 
-* Não. É da responsabilidade do cliente analisar e determinar se o código do elemento visual personalizado é confiável. Todos os códigos de elementos visuais personalizados são processados num ambiente sandbox, de forma que qualquer código anómalo num elemento visual personalizado não afete negativamente o resto do serviço Power BI.
+* N.º É da responsabilidade do cliente analisar e determinar se o código do elemento visual personalizado é confiável. Todos os códigos de elementos visuais personalizados são processados num ambiente sandbox, de forma que qualquer código anómalo num elemento visual personalizado não afete negativamente o resto do serviço Power BI.
 
 **Existem outros elementos visuais do Power BI que enviam informações para fora da rede do cliente?**
 
 * Sim. Os elementos visuais do Mapas Bing e da ESRI transmitem dados para fora do serviço Power BI, caso utilizem esses serviços.
 
 **Para aplicações de modelo, a Microsoft realiza alguma avaliação de segurança ou privacidade da aplicação do modelo antes de publicar itens na Galeria?**
-* Não. O editor da aplicação é responsável pelo conteúdo enquanto é da responsabilidade do cliente rever e determinar se deve confiar no editor de aplicações do modelo. 
+* N.º O editor da aplicação é responsável pelo conteúdo enquanto é da responsabilidade do cliente rever e determinar se deve confiar no editor de aplicações do modelo. 
 
 **Existem aplicações de modelo que podem enviar informações fora da rede de clientes?**
 * Sim. É da responsabilidade do cliente rever a política de privacidade da editora e determinar se deve instalar a aplicação do modelo no arrendatário. A editora é responsável por informar o cliente sobre o comportamento e capacidades da aplicação.
